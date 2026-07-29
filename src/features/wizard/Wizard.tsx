@@ -57,7 +57,9 @@ export function Wizard(): JSX.Element {
       dateOfBirth: step1.dateOfBirth,
       gender: values.gender as Gender,
       maritalStatus: values.maritalStatus as MaritalStatus,
-      nationality: values.nationality,
+      // Store the dictionary code when the value matches a known nationality, so
+      // the CV can re-label it per language; free text is kept verbatim.
+      nationality: nationality.findByLabel(values.nationality)?.code ?? values.nationality,
     });
   });
 

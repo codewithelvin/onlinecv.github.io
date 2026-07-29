@@ -2,11 +2,14 @@ import type { JSX } from 'react';
 import { Select, Space, Typography } from 'antd';
 import { useTranslation } from 'react-i18next';
 import type { Locale } from '../../types/resume';
+import { LOCALES, SUPPORTED_LOCALES } from '../../app/i18n';
 import { useResumeStore } from '../../state/store';
 
 /**
  * Language of the EXPORTED CV's section headings (`Resume.locale`), kept
- * separate from the UI locale (spec §10.1). Typed content is never translated.
+ * separate from the UI locale (spec §10.1). Typed content is never translated —
+ * but dictionary-backed values (skills, languages, interests, nationality,
+ * institutions) do follow this select, since they are stored as codes.
  */
 export function CvLanguageSelect(): JSX.Element {
   const { t } = useTranslation();
@@ -25,11 +28,10 @@ export function CvLanguageSelect(): JSX.Element {
         aria-labelledby={labelId}
         value={locale}
         onChange={(v: Locale) => setResumeLocale(v)}
-        options={[
-          { label: 'Azərbaycan', value: 'az' },
-          { label: 'Русский', value: 'ru' },
-          { label: 'English', value: 'en' },
-        ]}
+        options={SUPPORTED_LOCALES.map((code) => ({
+          label: LOCALES[code].nativeName,
+          value: code,
+        }))}
         style={{ minWidth: 120 }}
       />
     </Space>

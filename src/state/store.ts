@@ -33,6 +33,11 @@ function readList<K extends ResumeListSection>(resume: Resume, section: K): Item
 export interface ResumeStore {
   resume: Resume;
   uiLocale: Locale;
+  /**
+   * Expanded editor sections, persisted so a refresh doesn't re-open everything
+   * the user had collapsed. `null` = never touched → the editor's default set.
+   */
+  openSections: string[] | null;
   /** True once hydration from IndexedDB has completed (or failed). */
   hydrated: boolean;
   /** True when persistence failed and the app is running memory-only (§17). */
@@ -40,6 +45,7 @@ export interface ResumeStore {
 
   hydrate: () => Promise<void>;
   setUiLocale: (locale: Locale) => void;
+  setOpenSections: (keys: string[]) => void;
   setResumeLocale: (locale: Locale) => void;
   setTemplate: (templateId: TemplateId) => void;
 
@@ -63,7 +69,8 @@ export interface ResumeStore {
 
 export const useResumeStore = create<ResumeStore>((set, get) => ({
   resume: createEmptyResume(),
-  uiLocale: 'az',
+  uiLocale: DEFAULT_LOCALE,
+  openSections: null,
   hydrated: false,
   persistenceError: false,
 
@@ -73,26 +80,36 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
    * choice is what gets persisted.
    */
   hydrate: async () => {
-    let next: { resume: Resume; uiLocale: Locale };
+    type Hydrated = Pick<ResumeStore, 'resume' | 'uiLocale' | 'openSections'>;
+    const fresh: Hydrated = {
+      resume: createEmptyResume(DEFAULT_LOCALE),
+      uiLocale: DEFAULT_LOCALE,
+      openSections: null,
+    };
+    let next: Hydrated;
     try {
       const persisted = await loadState();
-      if (persisted) {
-        next = { resume: persisted.resume, uiLocale: persisted.uiLocale };
-      } else {
-        next = { resume: createEmptyResume(DEFAULT_LOCALE), uiLocale: DEFAULT_LOCALE };
-      }
+      next = persisted
+        ? {
+            resume: persisted.resume,
+            uiLocale: persisted.uiLocale,
+            openSections: persisted.openSections ?? null,
+          }
+        : fresh;
     } catch {
-      next = { resume: createEmptyResume(DEFAULT_LOCALE), uiLocale: DEFAULT_LOCALE };
+      next = fresh;
       set({ persistenceError: true });
     }
     applyLocale(next.uiLocale);
-    set({ resume: next.resume, uiLocale: next.uiLocale, hydrated: true });
+    set({ ...next, hydrated: true });
   },
 
   setUiLocale: (locale) => {
     applyLocale(locale);
     set({ uiLocale: locale });
   },
+
+  setOpenSections: (keys) => set({ openSections: keys }),
 
   setResumeLocale: (locale) => set((s) => ({ resume: touch({ ...s.resume, locale }) })),
 
@@ -183,7 +200,7 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
   resetResume: async () => {
     const uiLocale = get().uiLocale;
     const resume = createEmptyResume(uiLocale);
-    set({ resume });
+    set({ resume, openSections: null });
     try {
       await clearState();
     } catch {
@@ -194,16 +211,26 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
 
 /**
  * Wire debounced persistence (§6 layer 3). The store subscribes to its own
- * resume/locale changes and writes them to IndexedDB, skipping the initial
- * hydration write and going memory-only on failure.
+ * resume/locale/view-state changes and writes them to IndexedDB, skipping the
+ * initial hydration write and going memory-only on failure.
  */
 let saveTimer: ReturnType<typeof setTimeout> | undefined;
 useResumeStore.subscribe((state, prev) => {
   if (!state.hydrated) return;
-  if (state.resume === prev.resume && state.uiLocale === prev.uiLocale) return;
+  if (
+    state.resume === prev.resume &&
+    state.uiLocale === prev.uiLocale &&
+    state.openSections === prev.openSections
+  ) {
+    return;
+  }
   if (saveTimer) clearTimeout(saveTimer);
   saveTimer = setTimeout(() => {
-    void saveState({ resume: state.resume, uiLocale: state.uiLocale }).catch(() => {
+    void saveState({
+      resume: state.resume,
+      uiLocale: state.uiLocale,
+      openSections: state.openSections,
+    }).catch(() => {
       useResumeStore.setState({ persistenceError: true });
     });
   }, 400);

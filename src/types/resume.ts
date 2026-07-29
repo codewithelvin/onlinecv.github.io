@@ -7,8 +7,19 @@
 /** A folder id under `src/templates/`, discovered at build time. Defaults to `classic`. */
 export type TemplateId = string;
 
-/** UI + exported-CV language codes. */
+/**
+ * UI + exported-CV language codes. Widening this union is step 1 of adding a
+ * language: `LOCALES` in `app/i18n/locales.ts` is a total record over it, so the
+ * compiler then lists everything that still needs the new entry.
+ */
 export type Locale = 'az' | 'ru' | 'en';
+
+/**
+ * A short label translated per locale. Only the default locale (`az`) is
+ * required, so adding a language never breaks an existing template manifest —
+ * untranslated names fall back. Read it with `utils/localized-text`.
+ */
+export type LocalizedText = Partial<Record<Locale, string>> & { az: string };
 
 /** Academic degree (real dictionary values from the source schema). */
 export type DegreeLevel = 'bachelor' | 'magister' | 'doctorant' | 'residency' | 'phd';

@@ -1,6 +1,6 @@
 import type { JSX } from 'react';
 import { useTranslation } from 'react-i18next';
-import type { LanguageItem, LanguageLevel, Locale } from '../../../types/resume';
+import type { LanguageItem, LanguageLevel } from '../../../types/resume';
 import { createId } from '../../../utils/id';
 import { useDictionary } from '../../../hooks/useDictionary';
 import { useSectionEditor } from '../useSectionEditor';
@@ -11,15 +11,14 @@ import { SectionBody } from './SectionBody';
 const EMPTY: LanguageFormValues = { code: '', level: 'B1' };
 
 export function LanguagesSection(): JSX.Element {
-  const { t, i18n } = useTranslation();
-  const locale = i18n.language as Locale;
+  const { t } = useTranslation();
   const languages = useDictionary('languages');
   const ed = useSectionEditor<LanguageItem>('languages');
 
   const toItem = (v: LanguageFormValues, id: string): LanguageItem => ({
     id,
     code: v.code,
-    name: languages.findByCode(v.code)?.[locale] ?? v.code,
+    name: languages.resolve(v.code, v.code),
     level: v.level as LanguageLevel,
   });
 
@@ -29,7 +28,11 @@ export function LanguagesSection(): JSX.Element {
   return (
     <SectionBody
       ids={ed.items.map((x) => x.id)}
-      titles={ed.items.map((x) => x.name)}
+      titles={
+        // The code is the stored truth (hard constraint, one of the 17), so the
+        // name follows the UI language, not the one it was added in.
+        ed.items.map((x) => languages.resolve(x.code, x.name))
+      }
       subtitles={ed.items.map((x) => levelLabel(x.level))}
       addLabel={t('common.add')}
       onAdd={ed.openAdd}

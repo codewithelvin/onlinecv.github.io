@@ -1,7 +1,7 @@
 import { type JSX, useEffect } from 'react';
 import { App as AntdApp, ConfigProvider } from 'antd';
 import { I18nextProvider } from 'react-i18next';
-import { ANTD_LOCALES, i18n } from './i18n';
+import { LOCALES, i18n } from './i18n';
 import { themeConfig } from './theme';
 import { updateSeo } from './seo';
 import { useResumeStore } from '../state/store';
@@ -31,7 +31,11 @@ export function App(): JSX.Element {
 
   return (
     <I18nextProvider i18n={i18n}>
-      <ConfigProvider theme={themeConfig} locale={ANTD_LOCALES[uiLocale]}>
+      <ConfigProvider
+        theme={themeConfig}
+        locale={LOCALES[uiLocale].antd}
+        direction={LOCALES[uiLocale].dir}
+      >
         <AntdApp>
           <ErrorBoundary>
             <PwaUpdatePrompt />

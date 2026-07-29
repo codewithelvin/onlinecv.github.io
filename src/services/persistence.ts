@@ -4,8 +4,8 @@ import type { Locale } from '../types/resume';
 /**
  * IndexedDB persistence boundary (spec §6 layer 3, §17 error handling). This is
  * the ONLY place that touches IndexedDB. A single record holds the one resume
- * (BR-1) plus the UI locale (§10.1). All operations reject on failure so callers
- * can fall back to memory-only mode.
+ * (BR-1) plus the UI locale (§10.1) and the editor's own view state. All
+ * operations reject on failure so callers can fall back to memory-only mode.
  */
 
 const DB_NAME = 'onlinecv';
@@ -16,6 +16,12 @@ const RECORD_KEY = 'state';
 export interface PersistedState {
   resume: Resume;
   uiLocale: Locale;
+  /**
+   * Which editor sections are expanded. Absent in records written before this
+   * was tracked, and `null` until the user opens or closes something — either
+   * way the editor falls back to its default set.
+   */
+  openSections?: string[] | null;
 }
 
 function openDb(): Promise<IDBDatabase> {

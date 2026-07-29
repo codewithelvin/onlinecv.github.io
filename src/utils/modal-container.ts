@@ -18,8 +18,11 @@
  *     of the page.
  *
  * Opting out via the public `getContainer` prop avoids both. The modal itself is
- * still `position: fixed`, so it looks and behaves identically; the only thing
- * given up is background scroll-locking behind the mask.
+ * still `position: fixed`, so it looks and behaves identically.
+ *
+ * Background scroll-locking is not given up — it is re-implemented on the ROOT
+ * element instead of `<body>`, where it has none of these side effects. See
+ * `hooks/useScrollLock`.
  */
 
 const CONTAINER_ID = 'modal-root';

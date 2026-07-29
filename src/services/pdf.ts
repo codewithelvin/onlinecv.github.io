@@ -1,6 +1,8 @@
 import { createElement } from 'react';
 import type { Resume, TemplateId } from '../types/resume';
 import { makeDateFormatter } from '../utils/date';
+import { localizeResume, referencedDictionaryGroups } from '../utils/localize-resume';
+import { loadDictionaries } from '../data/dictionaries';
 import { getTemplate } from '../templates/_core/registry';
 import { i18n } from '../app/i18n';
 
@@ -70,7 +72,14 @@ export async function exportResumePdf(resume: Resume, templateId: TemplateId): P
 
   const t = i18n.getFixedT(resume.locale);
   const formatDate = makeDateFormatter(resume.locale);
-  const html = renderToStaticMarkup(createElement(Template, { resume, t, formatDate }));
+  // Dictionary-backed labels (skills, languages, interests, nationality,
+  // institutions) are resolved into the CV language, not left in whatever
+  // language they happened to be typed in.
+  const dicts = await loadDictionaries(referencedDictionaryGroups(resume));
+  const localized = localizeResume(resume, resume.locale, dicts);
+  const html = renderToStaticMarkup(
+    createElement(Template, { resume: localized, t, formatDate }),
+  );
 
   const styles = StyleSheet.create({
     page: {
@@ -87,7 +96,15 @@ export async function exportResumePdf(resume: Resume, templateId: TemplateId): P
     createElement(
       Page,
       { size: 'A4', style: styles.page },
-      createElement(Html, { resetStyles: true, children: html }),
+      /**
+       * `react-pdf-html` wraps the parsed markup in a `View` of its own, and that
+       * wrapper — not the template's root element — is the direct child of
+       * `Page`. Left at its default `flexGrow: 0` it hugs its content, so a
+       * template root that asks to fill the page height (the modern template's
+       * accent sidebar) has nothing to grow into and the column stops short of
+       * the bottom edge. Growing the wrapper hands the page's full height down.
+       */
+      createElement(Html, { resetStyles: true, style: { flexGrow: 1 }, children: html }),
     ),
   );
 

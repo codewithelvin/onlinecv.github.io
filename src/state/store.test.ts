@@ -13,7 +13,12 @@ const mkExp = (id: string, position: string): ExperienceItem => ({
 
 describe('resume store', () => {
   beforeEach(() => {
-    useResumeStore.setState({ resume: createEmptyResume('az'), uiLocale: 'az', hydrated: false });
+    useResumeStore.setState({
+      resume: createEmptyResume('az'),
+      uiLocale: 'az',
+      openSections: null,
+      hydrated: false,
+    });
   });
 
   it('adds, updates, removes and reorders list items', () => {
@@ -40,6 +45,15 @@ describe('resume store', () => {
     const after = useResumeStore.getState().resume;
     expect(after.basics.firstName).toBe('Elvin');
     expect(after.updatedAt >= before).toBe(true);
+  });
+
+  it('tracks which editor sections are open, starting unset', () => {
+    expect(useResumeStore.getState().openSections).toBeNull();
+    useResumeStore.getState().setOpenSections(['skills']);
+    expect(useResumeStore.getState().openSections).toEqual(['skills']);
+    // Collapsing everything is a real choice, not "unset" — it must survive.
+    useResumeStore.getState().setOpenSections([]);
+    expect(useResumeStore.getState().openSections).toEqual([]);
   });
 
   it('manages contact items', () => {

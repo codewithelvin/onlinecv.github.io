@@ -2,6 +2,7 @@ import type { JSX, ReactNode } from 'react';
 import { Modal } from 'antd';
 import { useTranslation } from 'react-i18next';
 import { useResponsive } from '../../hooks/useResponsive';
+import { useScrollLock } from '../../hooks/useScrollLock';
 import { getModalContainer } from '../../utils/modal-container';
 import { VerticalFields } from './fields';
 
@@ -9,7 +10,8 @@ import { VerticalFields } from './fields';
  * Modal shell for item editors (spec §10.2 FR-14). Goes full-screen on `< lg`
  * (spec §10.3). The parent wires `onOk` to its RHF `handleSubmit`. Fields are
  * wrapped in `VerticalFields` so labels sit above their controls even though the
- * modal renders through a portal.
+ * modal renders through a portal. The page behind it cannot scroll
+ * (`useScrollLock`).
  */
 export function ModalForm({
   open,
@@ -26,6 +28,7 @@ export function ModalForm({
 }): JSX.Element {
   const { t } = useTranslation();
   const { isMobile } = useResponsive();
+  useScrollLock(open);
   return (
     <Modal
       open={open}

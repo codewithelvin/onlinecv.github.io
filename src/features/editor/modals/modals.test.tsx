@@ -73,6 +73,28 @@ describe('modal portal target', () => {
     expect(host).toBeTruthy();
     expect(host?.querySelector('.ant-modal-content')).toBeTruthy();
   });
+
+  /**
+   * Opting out of AntD's portal-based lock means the app owns scroll-locking
+   * itself, on the ROOT element rather than `<body>` (see `hooks/useScrollLock`);
+   * without it the page behind a full-screen mobile modal stayed scrollable.
+   */
+  it('locks background scrolling while open and releases it on unmount', () => {
+    const { unmount } = renderWithProviders(
+      <SkillModal
+        open
+        title="Bacarıqlar"
+        defaultValues={{ name: 'TypeScript', level: 70 }}
+        onSubmit={vi.fn()}
+        onCancel={vi.fn()}
+      />,
+    );
+    expect(document.documentElement.style.overflow).toBe('hidden');
+    unmount();
+    expect(document.documentElement.style.overflow).toBe('');
+    // Never `<body>`: that would break the sticky header and preview pane.
+    expect(document.body.style.overflow).toBe('');
+  });
 });
 
 describe('SkillModal', () => {

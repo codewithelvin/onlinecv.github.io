@@ -2,9 +2,11 @@ import { type JSX, useState } from 'react';
 import { Badge, Button, Card, Col, Modal, Row, Tag } from 'antd';
 import { FiLayout } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
-import type { Locale } from '../../types/resume';
 import { useResumeStore } from '../../state/store';
+import { toLocale } from '../../app/i18n/locales';
 import { getModalContainer } from '../../utils/modal-container';
+import { localizedText } from '../../utils/localized-text';
+import { useScrollLock } from '../../hooks/useScrollLock';
 import { listTemplates } from '../../templates/_core/registry';
 
 /**
@@ -14,11 +16,12 @@ import { listTemplates } from '../../templates/_core/registry';
  */
 export function TemplatePicker({ compact }: { compact?: boolean } = {}): JSX.Element {
   const { t, i18n } = useTranslation();
-  const locale = (i18n.language as Locale) ?? 'az';
+  const locale = toLocale(i18n.language);
   const [open, setOpen] = useState(false);
   const templateId = useResumeStore((s) => s.resume.templateId);
   const setTemplate = useResumeStore((s) => s.setTemplate);
   const templates = listTemplates();
+  useScrollLock(open);
 
   return (
     <>
@@ -58,7 +61,7 @@ export function TemplatePicker({ compact }: { compact?: boolean } = {}): JSX.Ele
                 }}
                 cover={
                   <img
-                    alt={manifest.name[locale]}
+                    alt={localizedText(manifest.name, locale)}
                     src={manifest.thumbnail}
                     style={{ height: 160, objectFit: 'cover' }}
                   />
@@ -78,7 +81,7 @@ export function TemplatePicker({ compact }: { compact?: boolean } = {}): JSX.Ele
                           marginRight: 8,
                         }}
                       />
-                      {manifest.name[locale]}
+                      {localizedText(manifest.name, locale)}
                     </span>
                   }
                   description={

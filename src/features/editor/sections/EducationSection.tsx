@@ -5,6 +5,7 @@ import { useResumeStore } from '../../../state/store';
 import { createId } from '../../../utils/id';
 import { MONTH_YEAR, makeDateFormatter } from '../../../utils/date';
 import { dateRange } from '../../../templates/_core/render-helpers';
+import { useDictionary } from '../../../hooks/useDictionary';
 import { useSectionEditor } from '../useSectionEditor';
 import { EducationModal } from '../modals/EducationModal';
 import type { EducationFormValues } from '../schemas';
@@ -23,10 +24,10 @@ const EMPTY: EducationFormValues = {
   code: undefined,
 };
 
-function toValues(item: EducationItem): EducationFormValues {
+function toValues(item: EducationItem, institution: string): EducationFormValues {
   return {
     type: item.type,
-    institution: item.institution,
+    institution,
     faculty: item.faculty ?? '',
     specialization: item.specialization ?? '',
     degree: item.degree ?? undefined,
@@ -60,12 +61,22 @@ export function EducationSection(): JSX.Element {
   const { t } = useTranslation();
   const uiLocale = useResumeStore((s) => s.uiLocale) as Locale;
   const fmt = makeDateFormatter(uiLocale);
+  const universities = useDictionary('universities');
+  const colleges = useDictionary('colleges');
   const ed = useSectionEditor<EducationItem>('education');
+
+  /** Listed institutions re-label with the UI language; typed ones (and schools,
+   *  which have no dictionary) keep the text as entered. */
+  const institution = (item: EducationItem): string => {
+    if (item.type === 'college') return colleges.resolve(item.code, item.institution);
+    if (item.type === 'university') return universities.resolve(item.code, item.institution);
+    return item.institution;
+  };
 
   return (
     <SectionBody
       ids={ed.items.map((x) => x.id)}
-      titles={ed.items.map((x) => x.institution)}
+      titles={ed.items.map(institution)}
       subtitles={ed.items.map((x) => {
         const label = x.degree ? t(`dictionary.${x.degree}`) : t(`dictionary.${x.type}`);
         return `${label} · ${dateRange(x, fmt, MONTH_YEAR, t('common.present'))}`;
@@ -81,7 +92,9 @@ export function EducationSection(): JSX.Element {
           key={ed.index}
           open
           title={ed.isAdding ? t('sections.education') : t('common.edit')}
-          defaultValues={ed.editingItem ? toValues(ed.editingItem) : EMPTY}
+          defaultValues={
+            ed.editingItem ? toValues(ed.editingItem, institution(ed.editingItem)) : EMPTY
+          }
           onSubmit={(v) => ed.save(toItem(v, ed.editingItem?.id ?? createId()))}
           onCancel={ed.close}
         />

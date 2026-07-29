@@ -26,6 +26,9 @@ import { LanguagesSection } from './sections/LanguagesSection';
 import { CertificationsSection } from './sections/CertificationsSection';
 import { InterestsSection } from './sections/InterestsSection';
 
+/** Sections expanded on a first visit, before the user collapses anything. */
+const DEFAULT_OPEN_SECTIONS = ['basics', 'generalInfo', 'contact', 'experience'];
+
 /**
  * Accordion header: section icon, bold title, and — for sections that hold a
  * list — a counter of how many entries have been added. The expand chevron is
@@ -63,6 +66,10 @@ function SectionHeader({
 export function EditorPanel(): JSX.Element {
   const { t } = useTranslation();
   const resume = useResumeStore((s) => s.resume);
+  // Which sections are open is persisted alongside the resume, so an accidental
+  // refresh doesn't re-expand everything the user had collapsed.
+  const openSections = useResumeStore((s) => s.openSections);
+  const setOpenSections = useResumeStore((s) => s.setOpenSections);
 
   const items = [
     {
@@ -169,7 +176,8 @@ export function EditorPanel(): JSX.Element {
     <VerticalFields>
       <Collapse
         items={items}
-        defaultActiveKey={['basics', 'generalInfo', 'contact', 'experience']}
+        activeKey={openSections ?? DEFAULT_OPEN_SECTIONS}
+        onChange={(keys) => setOpenSections(Array.isArray(keys) ? keys : [keys])}
         expandIconPosition="end"
         style={{ background: 'transparent' }}
       />

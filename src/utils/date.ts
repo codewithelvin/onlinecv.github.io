@@ -1,22 +1,48 @@
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import updateLocale from 'dayjs/plugin/updateLocale';
-import 'dayjs/locale/az';
-import 'dayjs/locale/ru';
-import 'dayjs/locale/en';
 import type { Locale } from '../types/resume';
+// Importing the registry also loads every locale's dayjs data (side-effect
+// imports live there), which `updateLocale` below depends on.
+import { SUPPORTED_LOCALES } from '../app/i18n/locales';
 
 dayjs.extend(customParseFormat);
 dayjs.extend(updateLocale);
 
+/** Any mid-month day: `.month(n)` on the 31st would overflow into month n+1. */
+const MONTH_PROBE = '2024-01-15';
+
 /**
- * The week starts on Monday in every UI locale. `az` and `ru` already ship
- * `weekStart: 1`; `en` defaults to Sunday, so it is overridden here. The Ant
- * Design pickers read this through `dayjs.localeData().firstDayOfWeek()`, so
- * setting it once here fixes every calendar in the app.
+ * A locale's abbreviated month names, capitalized.
+ *
+ * Azerbaijani and Russian write months in lower case ("fev", "февр."), English
+ * in title case ("Feb"), which made the exported CV read inconsistently across
+ * languages. Only the SHORT names are overridden — they are the only ones this
+ * app renders (`MMM YYYY` in the CV, the month picker's input and its panel
+ * cells) — so Russian full month names keep their genitive form in any format
+ * that also carries a day.
  */
-for (const locale of ['az', 'ru', 'en'] as const) {
-  dayjs.updateLocale(locale, { weekStart: 1 });
+function capitalizedMonthsShort(locale: Locale): string[] {
+  return Array.from({ length: 12 }, (_, month) => {
+    const name = dayjs(MONTH_PROBE).month(month).locale(locale).format('MMM');
+    // Locale-aware casing: in Azerbaijani the capital of `i` is `İ`, not `I`.
+    return name.charAt(0).toLocaleUpperCase(locale) + name.slice(1);
+  });
+}
+
+/**
+ * Per-locale dayjs overrides, applied once for every registered locale:
+ *
+ *  - `weekStart: 1` — the week starts on Monday everywhere (`az`/`ru` already
+ *    ship this, `en` defaults to Sunday). Ant Design's pickers read it through
+ *    `dayjs.localeData().firstDayOfWeek()`, so this fixes every calendar at once.
+ *  - capitalized short month names (see above).
+ */
+for (const locale of SUPPORTED_LOCALES) {
+  dayjs.updateLocale(locale, {
+    weekStart: 1,
+    monthsShort: capitalizedMonthsShort(locale),
+  });
 }
 
 /** ISO storage format for full dates (`YYYY-MM-DD`). */

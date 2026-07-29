@@ -6,6 +6,7 @@ import type { Gender, LicenseCategory, MaritalStatus, MilitaryStatus } from '../
 import { useResumeStore } from '../../../state/store';
 import { FULL_DATE, ISO_DATE, calcAge } from '../../../utils/date';
 import { useDictionary } from '../../../hooks/useDictionary';
+import { resolveDictionaryValue } from '../../../utils/dictionary';
 import { Field } from '../../../components/form/fields';
 import {
   GENDERS,
@@ -62,13 +63,22 @@ export function GeneralInfoSection(): JSX.Element {
       </Row>
       <Row gutter={12}>
         <Col xs={24} sm={12}>
+          {/* `generalInfo.nationality` holds a dictionary CODE when the value came
+              from the list and raw text when it was typed (§13.1). Storing the
+              code — not the label it was picked in — is what lets the CV re-label
+              it on a language switch; `resolve` turns it back into text here, and
+              anything unrecognized falls through unchanged. */}
           <Field label={t('fields.nationality')} required>
             {(a11y) => (
               <AutoComplete
                 {...a11y}
-                value={gi.nationality}
+                value={resolveDictionaryValue(
+                  nationality.entries,
+                  gi.nationality,
+                  nationality.locale,
+                )}
                 options={nationality.options}
-                onChange={(v) => update({ nationality: v })}
+                onChange={(v) => update({ nationality: nationality.findByLabel(v)?.code ?? v })}
                 filterOption={(input, option) =>
                   (option?.label ?? '').toLowerCase().includes(input.toLowerCase())
                 }

@@ -68,6 +68,28 @@ body {
 }
 
 /*
+ * Reserve the scrollbar gutter permanently. `useScrollLock` hides the viewport's
+ * scrollbar while a modal is open; without a stable gutter the whole page would
+ * jump sideways by the scrollbar's width every time one opens or closes.
+ */
+html {
+  scrollbar-gutter: stable;
+}
+
+/*
+ * The other half of the modal scroll-lock (see `hooks/useScrollLock`).
+ *
+ * `.ant-modal-wrap` is a full-viewport scroll container, so a touch drag that
+ * starts on the mask — most drags on a phone, where the modal is full-screen —
+ * finds nothing to scroll there and CHAINS the scroll to the document
+ * underneath. Containing the overscroll stops it at the modal, which is what
+ * actually left the background scrollable on mobile.
+ */
+.ant-modal-wrap {
+  overscroll-behavior: contain;
+}
+
+/*
  * Long unbroken strings — pasted profile URLs, credential links, e-mail
  * addresses — must wrap instead of widening their container.
  */

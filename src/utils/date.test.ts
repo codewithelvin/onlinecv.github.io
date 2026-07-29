@@ -20,6 +20,14 @@ describe('date utils', () => {
     expect(formatMonthYear('2022-06', 'en')).toMatch(/Jun\s+2022/);
   });
 
+  it('capitalizes the abbreviated month in every locale', () => {
+    expect(formatMonthYear('2026-02', 'en')).toBe('Feb 2026');
+    expect(formatMonthYear('2026-02', 'az')).toBe('Fev 2026');
+    // Azerbaijani upper-cases `i` as `İ`, so plain toUpperCase would be wrong.
+    expect(formatMonthYear('2026-06', 'az')).toBe('İyn 2026');
+    expect(formatMonthYear('2026-02', 'ru')).toMatch(/^Февр\.?\s+2026$/);
+  });
+
   it('returns empty string for empty/invalid input', () => {
     const fmt = makeDateFormatter('az');
     expect(fmt('')).toBe('');

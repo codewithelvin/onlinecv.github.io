@@ -1,8 +1,12 @@
 import '@testing-library/jest-dom/vitest';
 import { vi } from 'vitest';
 
+// This setup file also runs for tests that opt into the `node` environment (the
+// PDF render smoke test), where there is no `window` to patch at all.
+const hasDom = typeof window !== 'undefined';
+
 // jsdom lacks matchMedia (used by Ant Design responsive hooks).
-if (!window.matchMedia) {
+if (hasDom && !window.matchMedia) {
   window.matchMedia = vi.fn().mockImplementation((query: string) => ({
     matches: false,
     media: query,

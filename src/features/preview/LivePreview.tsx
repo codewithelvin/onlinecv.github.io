@@ -3,6 +3,7 @@ import { Spin } from 'antd';
 import type { ResumeTemplate } from '../../types/template';
 import { useResumeStore } from '../../state/store';
 import { useDebouncedValue } from '../../hooks/useDebouncedValue';
+import { useLocalizedResume } from '../../hooks/useLocalizedResume';
 import { makeDateFormatter } from '../../utils/date';
 import { getTemplate } from '../../templates/_core/registry';
 import { i18n } from '../../app/i18n';
@@ -11,10 +12,12 @@ import { A4Frame } from './A4Frame';
 /**
  * Live HTML preview of the selected template (spec §6/§19). Renders the SAME
  * component the PDF export uses — but as native HTML (no PDF engine while
- * editing). Debounced so typing stays responsive; headings use `resume.locale`.
+ * editing). Debounced so typing stays responsive; headings use `resume.locale`,
+ * as do dictionary-backed labels (see `useLocalizedResume`).
  */
 export function LivePreview(): JSX.Element {
-  const resume = useDebouncedValue(useResumeStore((s) => s.resume));
+  const stored = useDebouncedValue(useResumeStore((s) => s.resume));
+  const resume = useLocalizedResume(stored, stored.locale);
   const templateId = resume.templateId;
   const [Template, setTemplate] = useState<ResumeTemplate | null>(null);
 

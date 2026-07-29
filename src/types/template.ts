@@ -1,5 +1,5 @@
 import type { JSX } from 'react';
-import type { Resume } from './resume';
+import type { LocalizedText, Resume } from './resume';
 
 /**
  * Template plug-in contract (spec §7.1). Core hands data in; templates never
@@ -22,7 +22,8 @@ export type ResumeTemplate = (props: TemplateProps) => JSX.Element;
 export interface TemplateManifest {
   /** MUST equal the folder name. */
   id: string;
-  name: { az: string; en: string; ru: string };
+  /** Display name per locale; only `az` is required (the rest fall back to it). */
+  name: LocalizedText;
   /** `true` = single column, image-free, real-text (safe for ATS parsing). */
   atsSafe: boolean;
   /** Primary colour for the picker swatch. */
