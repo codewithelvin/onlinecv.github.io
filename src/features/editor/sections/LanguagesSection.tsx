@@ -43,6 +43,7 @@ export function LanguagesSection(): JSX.Element {
           open
           title={ed.isAdding ? t('sections.languages') : t('common.edit')}
           defaultValues={ed.editingItem ? { code: ed.editingItem.code, level: ed.editingItem.level } : EMPTY}
+          usedCodes={ed.items.map((x) => x.code)}
           onSubmit={(v) => ed.save(toItem(v, ed.editingItem?.id ?? createId()))}
           onCancel={ed.close}
         />

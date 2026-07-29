@@ -1,7 +1,8 @@
 import type { JSX } from 'react';
-import { Layout, Space, Tabs, Typography } from 'antd';
+import { Layout, Space, Tabs } from 'antd';
 import { useTranslation } from 'react-i18next';
 import { useResponsive } from '../hooks/useResponsive';
+import { Brand } from '../components/Brand';
 import { LanguageSwitcher } from '../features/i18n/LanguageSwitcher';
 import { TemplatePicker } from '../features/templates/TemplatePicker';
 import { ExportButton } from '../features/export/ExportButton';
@@ -11,18 +12,6 @@ import { PreviewPane } from '../features/preview/PreviewPane';
 
 const { Header, Content } = Layout;
 const MAX_WIDTH = 1600;
-
-function Brand(): JSX.Element {
-  const { t } = useTranslation();
-  return (
-    <Space align="center">
-      <img src="/logo.svg" alt="" width={28} height={28} />
-      <Typography.Text strong style={{ fontSize: 18 }}>
-        {t('common.appName')}
-      </Typography.Text>
-    </Space>
-  );
-}
 
 /** Editor + preview layout: two-pane on `≥ lg`, tabbed with a bottom action bar on `< lg` (§10.3). */
 export function EditorLayout(): JSX.Element {
@@ -46,7 +35,7 @@ export function EditorLayout(): JSX.Element {
         }}
       >
         <Brand />
-        <Space wrap>
+        <Space wrap style={{ minWidth: 0, justifyContent: 'flex-end' }}>
           <LanguageSwitcher />
           {isDesktop ? (
             <>
@@ -58,7 +47,7 @@ export function EditorLayout(): JSX.Element {
         </Space>
       </Header>
 
-      <Content style={{ padding: 16 }}>
+      <Content style={{ padding: 16, minWidth: 0 }}>
         <div style={{ maxWidth: MAX_WIDTH, margin: '0 auto' }}>
           {isDesktop ? (
             <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
@@ -104,9 +93,11 @@ export function EditorLayout(): JSX.Element {
             zIndex: 10,
           }}
         >
-          <TemplatePicker />
-          <ResetButton />
-          <div style={{ flex: 1 }}>
+          {/* Icon-only secondaries here: with their labels, the three buttons
+              overflow a narrow phone and force the page to scroll sideways. */}
+          <TemplatePicker compact />
+          <ResetButton compact />
+          <div style={{ flex: 1, minWidth: 0 }}>
             <ExportButton block />
           </div>
         </div>

@@ -21,7 +21,13 @@ export function ProjectModal({
   });
   return (
     <ModalForm open={open} title={title} onCancel={onCancel} onOk={handleSubmit(onSubmit)}>
-      <RHFText control={control} name="name" label={t('fields.projectName')} maxLength={100} />
+      <RHFText
+        control={control}
+        name="name"
+        label={t('fields.projectName')}
+        maxLength={100}
+        required
+      />
       <RHFText control={control} name="url" label={t('fields.projectUrl')} />
       <RHFTextArea
         control={control}

@@ -32,6 +32,7 @@ export function InterestModal({
         name="name"
         label={t('fields.interestName')}
         options={interests.options}
+        required
       />
     </ModalForm>
   );

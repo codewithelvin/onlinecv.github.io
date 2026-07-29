@@ -1,19 +1,103 @@
-import type { JSX } from 'react';
-import { AutoComplete, Checkbox, DatePicker, Form, Input, InputNumber, Select } from 'antd';
+import type { CSSProperties, JSX, ReactNode } from 'react';
+import { useId } from 'react';
+import {
+  AutoComplete,
+  Checkbox,
+  DatePicker,
+  Form,
+  Input,
+  InputNumber,
+  Select,
+  Slider,
+} from 'antd';
 import dayjs from 'dayjs';
 import { type Control, type FieldPath, type FieldValues, useController } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
+import { FULL_DATE, ISO_DATE, ISO_MONTH, MONTH_YEAR } from '../../utils/date';
 
 /**
  * Reusable React Hook Form ↔ Ant Design field bindings. Each resolves its
  * validation message (an i18n key under `validation.*`, spec §16) via
- * react-i18next, so errors localize automatically. Labels wrap, never truncate.
+ * react-i18next, so errors localize automatically. Labels sit ABOVE the control
+ * (see `VerticalFields`), wrap rather than truncate, and required fields carry
+ * Ant Design's red asterisk.
  */
+
+/**
+ * Provides the Ant Design form context that puts every nested `Form.Item`'s
+ * label above its control. `component={false}` means no `<form>` element is
+ * rendered — these fields are driven by React Hook Form, not rc-field-form —
+ * and the context reaches modals too, since React context flows through portals.
+ */
+export function VerticalFields({ children }: { children: ReactNode }): JSX.Element {
+  return (
+    <Form layout="vertical" component={false} requiredMark>
+      {children}
+    </Form>
+  );
+}
+
+/** Accessibility wiring handed to a `Field`'s control. */
+export interface FieldControl {
+  /** Put this on the control so the `<label for=…>` points at it. */
+  id: string;
+  /** Put this on the control so its error message is announced. */
+  'aria-describedby': string | undefined;
+  /** Put this on the control so the invalid state is announced. */
+  'aria-invalid': boolean | undefined;
+}
+
+/**
+ * `Form.Item` plus the label/error plumbing Ant Design only does for itself when
+ * an item has a `name`. These items are layout-only — React Hook Form owns the
+ * state — so antd generates no id, leaving every `<label>` detached from its
+ * control ("Form elements do not have associated labels" in a Lighthouse /
+ * axe audit). Generating an id here and handing it to the control via the
+ * render prop wires up `for`/`id`, `aria-describedby` and `aria-invalid` for
+ * every field in the app at once.
+ */
+export function Field({
+  label,
+  required,
+  error,
+  extra,
+  style,
+  children,
+}: {
+  label: string;
+  required?: boolean;
+  error?: string;
+  extra?: ReactNode;
+  style?: CSSProperties;
+  children: (control: FieldControl) => ReactNode;
+}): JSX.Element {
+  const id = useId();
+  const helpId = `${id}-help`;
+  return (
+    <Form.Item
+      label={label}
+      htmlFor={id}
+      required={required}
+      validateStatus={error ? 'error' : ''}
+      help={error ? <span id={helpId}>{error}</span> : undefined}
+      extra={extra}
+      style={style}
+    >
+      {children({
+        id,
+        'aria-describedby': error ? helpId : undefined,
+        'aria-invalid': error ? true : undefined,
+      })}
+    </Form.Item>
+  );
+}
 
 interface BaseProps<T extends FieldValues> {
   control: Control<T>;
   name: FieldPath<T>;
   label: string;
+  /** Renders the red asterisk. Mirror the field's yup rule (spec §16). */
+  required?: boolean;
 }
 
 function useError<T extends FieldValues>(
@@ -31,6 +115,7 @@ export function RHFText<T extends FieldValues>({
   control,
   name,
   label,
+  required,
   placeholder,
   maxLength,
   type,
@@ -38,15 +123,18 @@ export function RHFText<T extends FieldValues>({
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
   return (
-    <Form.Item label={label} validateStatus={message ? 'error' : ''} help={message}>
-      <Input
-        {...field}
-        value={field.value ?? ''}
-        type={type}
-        placeholder={placeholder}
-        maxLength={maxLength}
-      />
-    </Form.Item>
+    <Field label={label} required={required} error={message}>
+      {(a11y) => (
+        <Input
+          {...field}
+          {...a11y}
+          value={field.value ?? ''}
+          type={type}
+          placeholder={placeholder}
+          maxLength={maxLength}
+        />
+      )}
+    </Field>
   );
 }
 
@@ -54,6 +142,7 @@ export function RHFTextArea<T extends FieldValues>({
   control,
   name,
   label,
+  required,
   maxLength,
   rows = 4,
   placeholder,
@@ -61,16 +150,19 @@ export function RHFTextArea<T extends FieldValues>({
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
   return (
-    <Form.Item label={label} validateStatus={message ? 'error' : ''} help={message}>
-      <Input.TextArea
-        {...field}
-        value={field.value ?? ''}
-        rows={rows}
-        maxLength={maxLength}
-        showCount={Boolean(maxLength)}
-        placeholder={placeholder}
-      />
-    </Form.Item>
+    <Field label={label} required={required} error={message}>
+      {(a11y) => (
+        <Input.TextArea
+          {...field}
+          {...a11y}
+          value={field.value ?? ''}
+          rows={rows}
+          maxLength={maxLength}
+          showCount={Boolean(maxLength)}
+          placeholder={placeholder}
+        />
+      )}
+    </Field>
   );
 }
 
@@ -78,22 +170,76 @@ export function RHFNumber<T extends FieldValues>({
   control,
   name,
   label,
+  required,
   min,
   max,
 }: BaseProps<T> & { min?: number; max?: number }): JSX.Element {
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
   return (
-    <Form.Item label={label} validateStatus={message ? 'error' : ''} help={message}>
-      <InputNumber
-        style={{ width: '100%' }}
-        value={field.value as number}
-        onChange={(v) => field.onChange(v)}
-        onBlur={field.onBlur}
-        min={min}
-        max={max}
-      />
-    </Form.Item>
+    <Field label={label} required={required} error={message}>
+      {(a11y) => (
+        <InputNumber
+          {...a11y}
+          style={{ width: '100%' }}
+          value={field.value as number}
+          onChange={(v) => field.onChange(v)}
+          onBlur={field.onBlur}
+          min={min}
+          max={max}
+        />
+      )}
+    </Field>
+  );
+}
+
+/** Percentage-style 1–100 input as a slider with a synced numeric readout. */
+export function RHFSlider<T extends FieldValues>({
+  control,
+  name,
+  label,
+  required,
+  min = 1,
+  max = 100,
+  step = 1,
+}: BaseProps<T> & { min?: number; max?: number; step?: number }): JSX.Element {
+  const { field } = useController({ control, name });
+  const { message } = useError(control, name);
+  const value = typeof field.value === 'number' ? field.value : min;
+  return (
+    <Field label={label} required={required} error={message}>
+      {(a11y) => (
+        <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+          <Slider
+            {...a11y}
+            // Horizontal margin is NOT decoration: the `min`/`max` mark labels are
+            // centred on the track ends, so without it the "1" is clipped.
+            style={{ flex: 1, minWidth: 0, margin: '0 10px' }}
+            min={min}
+            max={max}
+            step={step}
+            value={value}
+            tooltip={{ formatter: (v) => `${v ?? min}%` }}
+            onChange={(v) => field.onChange(v)}
+            onChangeComplete={() => field.onBlur()}
+            marks={{ [min]: `${min}`, 50: '50', [max]: `${max}` }}
+          />
+          {/* The label points at the slider, so the twin number box needs its own
+              accessible name rather than sharing one. */}
+          <InputNumber
+            style={{ width: 78, flex: '0 0 auto' }}
+            aria-label={label}
+            min={min}
+            max={max}
+            step={step}
+            value={value}
+            suffix="%"
+            onChange={(v) => field.onChange(v)}
+            onBlur={field.onBlur}
+          />
+        </div>
+      )}
+    </Field>
   );
 }
 
@@ -106,6 +252,7 @@ export function RHFSelect<T extends FieldValues>({
   control,
   name,
   label,
+  required,
   options,
   allowClear,
   placeholder,
@@ -119,19 +266,22 @@ export function RHFSelect<T extends FieldValues>({
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
   return (
-    <Form.Item label={label} validateStatus={message ? 'error' : ''} help={message}>
-      <Select
-        value={field.value ?? undefined}
-        onChange={(v) => field.onChange(v)}
-        onBlur={field.onBlur}
-        options={options}
-        allowClear={allowClear}
-        placeholder={placeholder}
-        mode={mode}
-        showSearch
-        optionFilterProp="label"
-      />
-    </Form.Item>
+    <Field label={label} required={required} error={message}>
+      {(a11y) => (
+        <Select
+          {...a11y}
+          value={field.value ?? undefined}
+          onChange={(v) => field.onChange(v)}
+          onBlur={field.onBlur}
+          options={options}
+          allowClear={allowClear}
+          placeholder={placeholder}
+          mode={mode}
+          showSearch
+          optionFilterProp="label"
+        />
+      )}
+    </Field>
   );
 }
 
@@ -140,53 +290,76 @@ export function RHFAutoComplete<T extends FieldValues>({
   control,
   name,
   label,
+  required,
   options,
   placeholder,
 }: BaseProps<T> & { options: Option[]; placeholder?: string }): JSX.Element {
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
   return (
-    <Form.Item label={label} validateStatus={message ? 'error' : ''} help={message}>
-      <AutoComplete
-        value={field.value ?? ''}
-        onChange={(v) => field.onChange(v)}
-        onBlur={field.onBlur}
-        options={options}
-        placeholder={placeholder}
-        filterOption={(input, option) =>
-          (option?.label ?? '').toLowerCase().includes(input.toLowerCase())
-        }
-      />
-    </Form.Item>
+    <Field label={label} required={required} error={message}>
+      {(a11y) => (
+        <AutoComplete
+          {...a11y}
+          value={field.value ?? ''}
+          onChange={(v) => field.onChange(v)}
+          onBlur={field.onBlur}
+          options={options}
+          placeholder={placeholder}
+          filterOption={(input, option) =>
+            (option?.label ?? '').toLowerCase().includes(input.toLowerCase())
+          }
+        />
+      )}
+    </Field>
   );
 }
 
-/** DatePicker bound to an ISO string. `picker="month"` stores `YYYY-MM`, else `YYYY-MM-DD`. */
+/**
+ * DatePicker bound to an ISO string. `picker="month"` stores `YYYY-MM` and
+ * displays a localized `MMM YYYY`; otherwise it stores `YYYY-MM-DD` and
+ * displays `DD.MM.YYYY` (spec §10.2). The week starts on Monday in every locale
+ * (see `utils/date`).
+ */
 export function RHFDate<T extends FieldValues>({
   control,
   name,
   label,
+  required,
   picker,
   disabledFuture,
-}: BaseProps<T> & { picker?: 'month'; disabledFuture?: boolean }): JSX.Element {
+  disabled,
+}: BaseProps<T> & {
+  picker?: 'month';
+  disabledFuture?: boolean;
+  disabled?: boolean;
+}): JSX.Element {
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
-  const format = picker === 'month' ? 'YYYY-MM' : 'YYYY-MM-DD';
+  const isMonth = picker === 'month';
+  const storeFormat = isMonth ? ISO_MONTH : ISO_DATE;
+  const displayFormat = isMonth ? MONTH_YEAR : FULL_DATE;
   const value = field.value ? dayjs(field.value as string) : null;
   return (
-    <Form.Item label={label} validateStatus={message ? 'error' : ''} help={message}>
-      <DatePicker
-        style={{ width: '100%' }}
-        picker={picker}
-        value={value && value.isValid() ? value : null}
-        onChange={(d) => field.onChange(d ? d.format(format) : '')}
-        onBlur={field.onBlur}
-        disabledDate={disabledFuture ? (d) => d.isAfter(dayjs()) : undefined}
-      />
-    </Form.Item>
+    <Field label={label} required={required} error={message}>
+      {(a11y) => (
+        <DatePicker
+          {...a11y}
+          style={{ width: '100%' }}
+          picker={picker}
+          format={displayFormat}
+          disabled={disabled}
+          value={value && value.isValid() ? value : null}
+          onChange={(d) => field.onChange(d ? d.format(storeFormat) : '')}
+          onBlur={field.onBlur}
+          disabledDate={disabledFuture ? (d) => d.isAfter(dayjs()) : undefined}
+        />
+      )}
+    </Field>
   );
 }
 
+/** The Checkbox wraps its own text, so the label is already associated. */
 export function RHFCheckbox<T extends FieldValues>({
   control,
   name,
@@ -207,19 +380,23 @@ export function RHFLines<T extends FieldValues>({
   control,
   name,
   label,
+  required,
   rows = 4,
 }: BaseProps<T> & { rows?: number }): JSX.Element {
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
   const text = Array.isArray(field.value) ? (field.value as string[]).join('\n') : '';
   return (
-    <Form.Item label={label} validateStatus={message ? 'error' : ''} help={message}>
-      <Input.TextArea
-        rows={rows}
-        value={text}
-        onChange={(e) => field.onChange(e.target.value.split('\n'))}
-        onBlur={field.onBlur}
-      />
-    </Form.Item>
+    <Field label={label} required={required} error={message}>
+      {(a11y) => (
+        <Input.TextArea
+          {...a11y}
+          rows={rows}
+          value={text}
+          onChange={(e) => field.onChange(e.target.value.split('\n'))}
+          onBlur={field.onBlur}
+        />
+      )}
+    </Field>
   );
 }

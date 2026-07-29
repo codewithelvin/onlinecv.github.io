@@ -4,10 +4,15 @@ import { FiLayout } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import type { Locale } from '../../types/resume';
 import { useResumeStore } from '../../state/store';
+import { getModalContainer } from '../../utils/modal-container';
 import { listTemplates } from '../../templates/_core/registry';
 
-/** Templates button + gallery modal (spec §10.2). */
-export function TemplatePicker(): JSX.Element {
+/**
+ * Templates button + gallery modal (spec §10.2). `compact` drops the text label
+ * (keeping the accessible name) so the mobile action bar fits without scrolling
+ * sideways.
+ */
+export function TemplatePicker({ compact }: { compact?: boolean } = {}): JSX.Element {
   const { t, i18n } = useTranslation();
   const locale = (i18n.language as Locale) ?? 'az';
   const [open, setOpen] = useState(false);
@@ -17,8 +22,13 @@ export function TemplatePicker(): JSX.Element {
 
   return (
     <>
-      <Button icon={<FiLayout aria-hidden />} onClick={() => setOpen(true)}>
-        {t('header.templates')}
+      <Button
+        icon={<FiLayout aria-hidden />}
+        onClick={() => setOpen(true)}
+        aria-label={t('header.templates')}
+        title={t('header.templates')}
+      >
+        {compact ? null : t('header.templates')}
       </Button>
       <Modal
         open={open}
@@ -26,8 +36,12 @@ export function TemplatePicker(): JSX.Element {
         footer={null}
         onCancel={() => setOpen(false)}
         width={720}
+        getContainer={getModalContainer}
       >
-        <Row gutter={[16, 16]}>
+        {/* `align="stretch"` + `height: 100%` down the chain: without it a card
+            whose description is empty (the non-ATS templates carry no tag) ends
+            up shorter than its neighbours. */}
+        <Row gutter={[16, 16]} align="stretch">
           {templates.map(({ manifest }) => {
             const selected = manifest.id === templateId;
             const card = (
@@ -38,7 +52,10 @@ export function TemplatePicker(): JSX.Element {
                   setOpen(false);
                 }}
                 styles={{ body: { padding: 12 } }}
-                style={selected ? { borderColor: manifest.accent, borderWidth: 2 } : undefined}
+                style={{
+                  height: '100%',
+                  ...(selected ? { borderColor: manifest.accent, borderWidth: 2 } : {}),
+                }}
                 cover={
                   <img
                     alt={manifest.name[locale]}
@@ -65,13 +82,19 @@ export function TemplatePicker(): JSX.Element {
                     </span>
                   }
                   description={
-                    manifest.atsSafe ? <Tag color="green">{t('templatePicker.atsSafe')}</Tag> : null
+                    manifest.atsSafe ? (
+                      // antd's green-7 tag text (#389e0d) is only ~3.6:1 on the
+                      // tag's pale background; green-8 clears WCAG AA.
+                      <Tag color="green" style={{ color: '#237804' }}>
+                        {t('templatePicker.atsSafe')}
+                      </Tag>
+                    ) : null
                   }
                 />
               </Card>
             );
             return (
-              <Col xs={24} sm={12} md={8} key={manifest.id}>
+              <Col xs={24} sm={12} md={8} key={manifest.id} className="template-picker-col">
                 {selected ? <Badge.Ribbon text="✓">{card}</Badge.Ribbon> : card}
               </Col>
             );

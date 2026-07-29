@@ -123,7 +123,8 @@
     "step3": "Click the \"Add\" button to save the image.",
     "tooLarge": "The image size cannot exceed 10 MB. Choose a smaller image.",
     "notImage": "Please select an image file.",
-    "compressed": "cropped and compressed"
+    "compressed": "cropped and compressed",
+    "preparing": "Preparing image..."
   },
   "templatePicker": {
     "title": "Choose a template",

@@ -1,4 +1,5 @@
 import type { JSX } from 'react';
+import { Col, Row } from 'antd';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import { ModalForm } from '../../../components/form/ModalForm';
@@ -48,15 +49,23 @@ export function EducationModal({
         name="type"
         label={t('fields.educationType')}
         options={dictOptions(EDUCATION_TYPES, t)}
+        required
       />
       <RHFAutoComplete
         control={control}
         name="institution"
         label={t('fields.institution')}
         options={institutionOptions}
+        required
       />
       {type === 'university' ? (
-        <RHFText control={control} name="faculty" label={t('fields.faculty')} maxLength={100} />
+        <RHFText
+          control={control}
+          name="faculty"
+          label={t('fields.faculty')}
+          maxLength={100}
+          required
+        />
       ) : null}
       {type === 'university' || type === 'college' ? (
         <RHFText
@@ -64,6 +73,7 @@ export function EducationModal({
           name="specialization"
           label={t('fields.specialization')}
           maxLength={100}
+          required
         />
       ) : null}
       {type === 'university' ? (
@@ -73,18 +83,32 @@ export function EducationModal({
           label={t('fields.degree')}
           options={dictOptions(DEGREE_LEVELS, t)}
           allowClear
+          required
         />
       ) : null}
-      <RHFDate control={control} name="startDate" label={t('fields.admissionYear')} picker="month" />
+      {/* Admission/graduation years side by side; graduation is disabled rather
+          than removed while "currently studying" is checked. */}
+      <Row gutter={12}>
+        <Col xs={24} sm={12}>
+          <RHFDate
+            control={control}
+            name="startDate"
+            label={t('fields.admissionYear')}
+            picker="month"
+            required
+          />
+        </Col>
+        <Col xs={24} sm={12}>
+          <RHFDate
+            control={control}
+            name="endDate"
+            label={t('fields.graduationYear')}
+            picker="month"
+            disabled={current}
+          />
+        </Col>
+      </Row>
       <RHFCheckbox control={control} name="current" label={t('fields.currentEducation')} />
-      {!current ? (
-        <RHFDate
-          control={control}
-          name="endDate"
-          label={t('fields.graduationYear')}
-          picker="month"
-        />
-      ) : null}
       <RHFText control={control} name="comment" label={t('fields.comment')} maxLength={50} />
     </ModalForm>
   );

@@ -123,7 +123,8 @@
     "step3": "\"Əlavə et\" düyməsini sıxaraq şəkli yaddaşa verin.",
     "tooLarge": "Şəklin həcmi 10 MB-dan çox ola bilməz. Daha kiçik şəkil seçin.",
     "notImage": "Zəhmət olmasa şəkil faylı seçin.",
-    "compressed": "kəsildi və sıxıldı"
+    "compressed": "kəsildi və sıxıldı",
+    "preparing": "Şəkil hazırlanır..."
   },
   "templatePicker": {
     "title": "Şablon seçin",

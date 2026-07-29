@@ -1,5 +1,5 @@
 import { type JSX, useState } from 'react';
-import { Button, Card, Space, Steps, Typography } from 'antd';
+import { Button, Card, Col, Row, Space, Steps, Typography } from 'antd';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import type { Gender, MaritalStatus } from '../../types/resume';
@@ -10,6 +10,7 @@ import {
   RHFDate,
   RHFSelect,
   RHFText,
+  VerticalFields,
 } from '../../components/form/fields';
 import { useDictionary } from '../../hooks/useDictionary';
 import {
@@ -19,6 +20,9 @@ import {
   wizardStep2Schema,
 } from '../editor/schemas';
 import { GENDERS, MARITAL_STATUSES, dictOptions } from '../editor/enums';
+
+/** Two-up on tablet and desktop, stacked on phones (spec §10.3). */
+const HALF = { xs: 24, sm: 12 } as const;
 
 /** First-run 2-step wizard (spec FR-13/§10.2): identity → profile basics. */
 export function Wizard(): JSX.Element {
@@ -58,8 +62,17 @@ export function Wizard(): JSX.Element {
   });
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', padding: 16 }}>
-      <Card style={{ width: '100%', maxWidth: 560 }}>
+    <div
+      style={{
+        flex: 1,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        minHeight: '100%',
+        padding: 16,
+      }}
+    >
+      <Card style={{ width: '100%', maxWidth: 760 }}>
         <Typography.Title level={4}>{t('wizard.title')}</Typography.Title>
         <Typography.Paragraph type="secondary">{t('wizard.welcome')}</Typography.Paragraph>
         <Steps
@@ -69,53 +82,107 @@ export function Wizard(): JSX.Element {
           items={[{ title: t('wizard.step1') }, { title: t('wizard.step2') }]}
         />
 
-        {step === 0 ? (
-          <>
-            <RHFText control={f1.control} name="firstName" label={t('fields.firstName')} maxLength={50} />
-            <RHFText control={f1.control} name="lastName" label={t('fields.lastName')} maxLength={50} />
-            <RHFText control={f1.control} name="email" label={t('fields.email')} type="email" />
-            <RHFDate control={f1.control} name="dateOfBirth" label={t('fields.dateOfBirth')} disabledFuture />
-            <div style={{ textAlign: 'right' }}>
-              <Button type="primary" onClick={() => void next()}>
-                {t('wizard.next')}
-              </Button>
-            </div>
-          </>
-        ) : (
-          <>
-            <RHFText
-              control={f2.control}
-              name="headline"
-              label={t('fields.headline')}
-              maxLength={50}
-              placeholder={t('fields.headlinePlaceholder')}
-            />
-            <RHFSelect
-              control={f2.control}
-              name="gender"
-              label={t('fields.gender')}
-              options={dictOptions(GENDERS, t)}
-            />
-            <RHFSelect
-              control={f2.control}
-              name="maritalStatus"
-              label={t('fields.maritalStatus')}
-              options={dictOptions(MARITAL_STATUSES, t)}
-            />
-            <RHFAutoComplete
-              control={f2.control}
-              name="nationality"
-              label={t('fields.nationality')}
-              options={nationality.options}
-            />
-            <Space style={{ display: 'flex', justifyContent: 'space-between' }}>
-              <Button onClick={() => setStep(0)}>{t('wizard.back')}</Button>
-              <Button type="primary" onClick={() => void finish()}>
-                {t('wizard.finish')}
-              </Button>
-            </Space>
-          </>
-        )}
+        <VerticalFields>
+          {step === 0 ? (
+            <>
+              <Row gutter={16}>
+                <Col {...HALF}>
+                  <RHFText
+                    control={f1.control}
+                    name="firstName"
+                    label={t('fields.firstName')}
+                    maxLength={50}
+                    required
+                  />
+                </Col>
+                <Col {...HALF}>
+                  <RHFText
+                    control={f1.control}
+                    name="lastName"
+                    label={t('fields.lastName')}
+                    maxLength={50}
+                    required
+                  />
+                </Col>
+              </Row>
+              <Row gutter={16}>
+                <Col {...HALF}>
+                  <RHFText
+                    control={f1.control}
+                    name="email"
+                    label={t('fields.email')}
+                    type="email"
+                    required
+                  />
+                </Col>
+                <Col {...HALF}>
+                  <RHFDate
+                    control={f1.control}
+                    name="dateOfBirth"
+                    label={t('fields.dateOfBirth')}
+                    disabledFuture
+                    required
+                  />
+                </Col>
+              </Row>
+              <div style={{ textAlign: 'right' }}>
+                <Button type="primary" onClick={() => void next()}>
+                  {t('wizard.next')}
+                </Button>
+              </div>
+            </>
+          ) : (
+            <>
+              <Row gutter={16}>
+                <Col {...HALF}>
+                  <RHFText
+                    control={f2.control}
+                    name="headline"
+                    label={t('fields.headline')}
+                    maxLength={50}
+                    placeholder={t('fields.headlinePlaceholder')}
+                    required
+                  />
+                </Col>
+                <Col {...HALF}>
+                  <RHFAutoComplete
+                    control={f2.control}
+                    name="nationality"
+                    label={t('fields.nationality')}
+                    options={nationality.options}
+                    required
+                  />
+                </Col>
+              </Row>
+              <Row gutter={16}>
+                <Col {...HALF}>
+                  <RHFSelect
+                    control={f2.control}
+                    name="gender"
+                    label={t('fields.gender')}
+                    options={dictOptions(GENDERS, t)}
+                    required
+                  />
+                </Col>
+                <Col {...HALF}>
+                  <RHFSelect
+                    control={f2.control}
+                    name="maritalStatus"
+                    label={t('fields.maritalStatus')}
+                    options={dictOptions(MARITAL_STATUSES, t)}
+                    required
+                  />
+                </Col>
+              </Row>
+              <Space style={{ display: 'flex', justifyContent: 'space-between' }}>
+                <Button onClick={() => setStep(0)}>{t('wizard.back')}</Button>
+                <Button type="primary" onClick={() => void finish()}>
+                  {t('wizard.finish')}
+                </Button>
+              </Space>
+            </>
+          )}
+        </VerticalFields>
       </Card>
     </div>
   );

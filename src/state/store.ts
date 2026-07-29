@@ -10,7 +10,7 @@ import type {
   TemplateId,
 } from '../types/resume';
 import { createEmptyResume } from '../utils/empty-resume';
-import { applyLocale, detectLocale } from '../app/i18n';
+import { DEFAULT_LOCALE, applyLocale } from '../app/i18n';
 import { clearState, loadState, saveState } from '../services/persistence';
 
 /** Item type held by a given list section. */
@@ -67,6 +67,11 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
   hydrated: false,
   persistenceError: false,
 
+  /**
+   * First run starts in Azerbaijani — the primary market — regardless of the
+   * browser's preferred languages; the user can switch from the header and that
+   * choice is what gets persisted.
+   */
   hydrate: async () => {
     let next: { resume: Resume; uiLocale: Locale };
     try {
@@ -74,12 +79,10 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
       if (persisted) {
         next = { resume: persisted.resume, uiLocale: persisted.uiLocale };
       } else {
-        const uiLocale = detectLocale();
-        next = { resume: createEmptyResume(uiLocale), uiLocale };
+        next = { resume: createEmptyResume(DEFAULT_LOCALE), uiLocale: DEFAULT_LOCALE };
       }
     } catch {
-      const uiLocale = detectLocale();
-      next = { resume: createEmptyResume(uiLocale), uiLocale };
+      next = { resume: createEmptyResume(DEFAULT_LOCALE), uiLocale: DEFAULT_LOCALE };
       set({ persistenceError: true });
     }
     applyLocale(next.uiLocale);

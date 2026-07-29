@@ -12,6 +12,15 @@ export const styles: Record<string, CSSProperties> = {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'stretch',
+    /**
+     * Fill the page height so the accent sidebar runs edge to edge instead of
+     * stopping at its own content. Works in both targets: `react-pdf-html`
+     * renders this div as a direct child of react-pdf's `Page` (a flex column),
+     * and `A4Frame` makes its canvas a flex column for the live preview.
+     * `flexGrow` rather than a fixed height, so nothing is hard-coded to A4 and
+     * a CV that overflows one page still paginates normally.
+     */
+    flexGrow: 1,
   },
   sidebar: {
     width: '34%',

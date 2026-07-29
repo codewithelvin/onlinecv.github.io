@@ -1,15 +1,14 @@
 import type { JSX } from 'react';
-import { Layout, Space, Spin, Typography } from 'antd';
-import { useTranslation } from 'react-i18next';
+import { Layout, Spin } from 'antd';
 import { useResumeStore } from '../state/store';
 import { needsWizard } from '../utils/empty-resume';
+import { Brand } from '../components/Brand';
 import { LanguageSwitcher } from '../features/i18n/LanguageSwitcher';
 import { Wizard } from '../features/wizard/Wizard';
 import { EditorLayout } from '../layouts/EditorLayout';
 
 /** Root page (spec §7 pages): loading gate → first-run wizard → full editor. */
 export function HomePage(): JSX.Element {
-  const { t } = useTranslation();
   const hydrated = useResumeStore((s) => s.hydrated);
   const resume = useResumeStore((s) => s.resume);
 
@@ -33,15 +32,11 @@ export function HomePage(): JSX.Element {
             borderBottom: '1px solid #f0f0f0',
           }}
         >
-          <Space align="center">
-            <img src="/logo.svg" alt="" width={28} height={28} />
-            <Typography.Text strong style={{ fontSize: 18 }}>
-              {t('common.appName')}
-            </Typography.Text>
-          </Space>
+          <Brand />
           <LanguageSwitcher />
         </Layout.Header>
-        <Layout.Content>
+        {/* Flex column so the wizard can centre itself in the remaining height. */}
+        <Layout.Content style={{ display: 'flex', flexDirection: 'column' }}>
           <Wizard />
         </Layout.Content>
       </Layout>

@@ -29,10 +29,21 @@
   src: url('/fonts/woff2/Inter-Bold.woff2') format('woff2');
 }
 
+/*
+ * `min-height`, deliberately NOT `height: 100%`.
+ *
+ * Ant Design locks background scrolling while a modal is open by injecting
+ * `html body { overflow-y: hidden }`. With `height: 100%` the body is pinned to
+ * the viewport, so that rule CLIPS it: the document's scroll height collapses to
+ * one screen, the browser resets scrollTop to 0, and closing the modal leaves
+ * the user back at the top of the page instead of where they opened it.
+ * With `min-height` the body grows to its content, so the lock has nothing to
+ * clip and the scroll position survives.
+ */
 html,
 body,
 #root {
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -41,6 +52,99 @@ body {
   font-family: Inter, 'Segoe UI', Roboto, 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+ * The page NEVER scrolls sideways. `overflow-x: clip` rather than `hidden`
+ * on purpose: `hidden` would turn these elements into scroll containers and
+ * break the `position: sticky` header and preview pane. This is the backstop —
+ * individual components still size themselves to fit (see `A4Frame`, the
+ * `minWidth: 0` flex children in `EditorLayout`).
+ */
+html,
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+/*
+ * Long unbroken strings — pasted profile URLs, credential links, e-mail
+ * addresses — must wrap instead of widening their container.
+ */
+body,
+.ant-list-item,
+.ant-typography,
+.ant-collapse-header-text,
+.ant-form-item-explain,
+.ant-select-item-option-content {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/*
+ * Scrollbars: slim, rounded, and invisible until they are needed.
+ *
+ * A scroll container that fits its content shows nothing at all (that part is
+ * the browser's own doing — `overflow: auto`). When content DOES overflow, the
+ * thumb still stays transparent until the pointer enters the container or
+ * something inside it takes focus, so a resting page is uncluttered. The track
+ * is always transparent, and the gutter is reserved either way, so revealing
+ * the thumb never reflows the content next to it.
+ *
+ * Two mechanisms, because no single one is universal: `scrollbar-*` (Firefox +
+ * the CSS standard) and `::-webkit-scrollbar` (Chromium, Safari). Touch
+ * platforms already use auto-hiding overlay scrollbars and ignore both.
+ */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+*:hover,
+*:focus-within {
+  scrollbar-color: rgba(0, 0, 0, 0.25) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track,
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* The transparent border + `background-clip` is what makes the thumb read as a
+   slim rounded pill inset from the edge rather than a full-width bar. */
+*::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  background-clip: content-box;
+  border: 3px solid transparent;
+  border-radius: 999px;
+  transition: background-color 0.2s ease;
+}
+
+*:hover::-webkit-scrollbar-thumb,
+*:focus-within::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.24);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.42);
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+/*
+ * Template gallery: every card the same height regardless of whether it carries
+ * an "ATS-uyğun" tag. `Badge.Ribbon` wraps the selected card in a div of its own
+ * that would otherwise shrink to its content, so the chain needs to be unbroken.
+ */
+.template-picker-col > .ant-ribbon-wrapper {
+  height: 100%;
 }
 
 /* Honour reduced-motion (spec §10.2): near-zero durations. */

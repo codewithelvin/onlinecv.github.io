@@ -1,11 +1,12 @@
 import { type JSX, useState } from 'react';
-import { Form, Input, Space } from 'antd';
+import { Input, Space } from 'antd';
 import { Button } from 'antd';
 import { FiPlus } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import type { ContactItem, ContactType } from '../../../types/resume';
 import { useResumeStore } from '../../../state/store';
 import { createId } from '../../../utils/id';
+import { Field } from '../../../components/form/fields';
 import { ItemList } from '../../../components/ItemList';
 import { ContactModal } from '../modals/ContactModal';
 import type { ContactFormValues } from '../schemas';
@@ -40,15 +41,21 @@ export function ContactSection(): JSX.Element {
 
   return (
     <Space direction="vertical" style={{ width: '100%' }} size="middle">
-      <Form.Item
+      <Field
         label={t('fields.email')}
         required
-        validateStatus={emailError ? 'error' : ''}
-        help={emailError}
+        error={emailError}
         style={{ marginBottom: 0 }}
       >
-        <Input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
-      </Form.Item>
+        {(a11y) => (
+          <Input
+            {...a11y}
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        )}
+      </Field>
 
       <ItemList
         ids={items.map((c) => c.id)}

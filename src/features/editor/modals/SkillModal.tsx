@@ -2,7 +2,7 @@ import type { JSX } from 'react';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import { ModalForm } from '../../../components/form/ModalForm';
-import { RHFAutoComplete, RHFNumber } from '../../../components/form/fields';
+import { RHFAutoComplete, RHFSlider } from '../../../components/form/fields';
 import { yupResolver } from '../../../utils/yup-resolver';
 import { skillSchema, type SkillFormValues } from '../schemas';
 import { useDictionary } from '../../../hooks/useDictionary';
@@ -34,8 +34,16 @@ export function SkillModal({
         name="name"
         label={t('fields.skillName')}
         options={skills.options}
+        required
       />
-      <RHFNumber control={control} name="level" label={t('fields.skillLevel')} min={1} max={100} />
+      <RHFSlider
+        control={control}
+        name="level"
+        label={t('fields.skillLevel')}
+        min={1}
+        max={100}
+        required
+      />
     </ModalForm>
   );
 }

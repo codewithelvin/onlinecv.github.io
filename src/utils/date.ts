@@ -1,12 +1,28 @@
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
+import updateLocale from 'dayjs/plugin/updateLocale';
 import 'dayjs/locale/az';
 import 'dayjs/locale/ru';
 import 'dayjs/locale/en';
 import type { Locale } from '../types/resume';
 
 dayjs.extend(customParseFormat);
+dayjs.extend(updateLocale);
 
+/**
+ * The week starts on Monday in every UI locale. `az` and `ru` already ship
+ * `weekStart: 1`; `en` defaults to Sunday, so it is overridden here. The Ant
+ * Design pickers read this through `dayjs.localeData().firstDayOfWeek()`, so
+ * setting it once here fixes every calendar in the app.
+ */
+for (const locale of ['az', 'ru', 'en'] as const) {
+  dayjs.updateLocale(locale, { weekStart: 1 });
+}
+
+/** ISO storage format for full dates (`YYYY-MM-DD`). */
+export const ISO_DATE = 'YYYY-MM-DD';
+/** ISO storage format for month-precision dates (`YYYY-MM`). */
+export const ISO_MONTH = 'YYYY-MM';
 /** Full-date display format: work experience + date of birth (spec §10.2). */
 export const FULL_DATE = 'DD.MM.YYYY';
 /** Month–year display format (localized month): education + certificates. */

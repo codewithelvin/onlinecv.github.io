@@ -36,17 +36,6 @@ void i18n.use(initReactI18next).init({
   returnNull: false,
 });
 
-/** Detect a supported UI locale from the browser, defaulting to `az` (§10.1). */
-export function detectLocale(): Locale {
-  if (typeof navigator === 'undefined') return DEFAULT_LOCALE;
-  const langs = [navigator.language, ...(navigator.languages ?? [])];
-  for (const raw of langs) {
-    const code = raw.slice(0, 2).toLowerCase() as Locale;
-    if (SUPPORTED_LOCALES.includes(code)) return code;
-  }
-  return DEFAULT_LOCALE;
-}
-
 /**
  * Switch the whole app to a locale at once: react-i18next, dayjs, and the
  * document `lang` attribute. The AntD `ConfigProvider` locale is applied

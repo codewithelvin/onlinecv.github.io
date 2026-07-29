@@ -1,4 +1,5 @@
 import type { JSX } from 'react';
+import { Col, Row } from 'antd';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import { ModalForm } from '../../../components/form/ModalForm';
@@ -21,15 +22,33 @@ export function CertificationModal({
   });
   return (
     <ModalForm open={open} title={title} onCancel={onCancel} onOk={handleSubmit(onSubmit)}>
-      <RHFText control={control} name="name" label={t('fields.certificateName')} maxLength={100} />
-      <RHFText control={control} name="organization" label={t('fields.organization')} />
-      <RHFDate control={control} name="issueDate" label={t('fields.issueDate')} picker="month" />
-      <RHFDate
+      <RHFText
         control={control}
-        name="expirationDate"
-        label={t('fields.expirationDate')}
-        picker="month"
+        name="name"
+        label={t('fields.certificateName')}
+        maxLength={100}
+        required
       />
+      <RHFText control={control} name="organization" label={t('fields.organization')} required />
+      <Row gutter={12}>
+        <Col xs={24} sm={12}>
+          <RHFDate
+            control={control}
+            name="issueDate"
+            label={t('fields.issueDate')}
+            picker="month"
+            required
+          />
+        </Col>
+        <Col xs={24} sm={12}>
+          <RHFDate
+            control={control}
+            name="expirationDate"
+            label={t('fields.expirationDate')}
+            picker="month"
+          />
+        </Col>
+      </Row>
       <RHFText
         control={control}
         name="credentialId"

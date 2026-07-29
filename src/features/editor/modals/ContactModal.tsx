@@ -27,8 +27,9 @@ export function ContactModal({
         name="type"
         label={t('fields.contactType')}
         options={dictOptions(CONTACT_TYPES, t)}
+        required
       />
-      <RHFText control={control} name="value" label={t('fields.contactValue')} />
+      <RHFText control={control} name="value" label={t('fields.contactValue')} required />
     </ModalForm>
   );
 }

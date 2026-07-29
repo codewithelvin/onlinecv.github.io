@@ -1,11 +1,12 @@
 import type { JSX } from 'react';
-import { AutoComplete, Col, DatePicker, Form, Row, Select, Space } from 'antd';
+import { AutoComplete, Col, DatePicker, Input, Row, Select, Space } from 'antd';
 import dayjs from 'dayjs';
 import { useTranslation } from 'react-i18next';
 import type { Gender, LicenseCategory, MaritalStatus, MilitaryStatus } from '../../../types/resume';
 import { useResumeStore } from '../../../state/store';
-import { calcAge } from '../../../utils/date';
+import { FULL_DATE, ISO_DATE, calcAge } from '../../../utils/date';
 import { useDictionary } from '../../../hooks/useDictionary';
+import { Field } from '../../../components/form/fields';
 import {
   GENDERS,
   LICENSE_CATEGORIES,
@@ -15,90 +16,134 @@ import {
   licenseOptions,
 } from '../enums';
 
+/** Max length of the short self-description (spec §16). */
+const SUMMARY_MAX = 300;
+
+/** General info + the short self-description (`Özünüzü qısa təsvir edin`). */
 export function GeneralInfoSection(): JSX.Element {
   const { t } = useTranslation();
   const gi = useResumeStore((s) => s.resume.generalInfo);
   const update = useResumeStore((s) => s.updateGeneralInfo);
+  const summary = useResumeStore((s) => s.resume.summary);
+  const setSummary = useResumeStore((s) => s.updateSummary);
   const nationality = useDictionary('nationality');
 
   const dob = gi.dateOfBirth ? dayjs(gi.dateOfBirth) : null;
   const age = calcAge(gi.dateOfBirth);
+  const summaryTooLong = summary.length > SUMMARY_MAX;
 
   return (
     <Space direction="vertical" style={{ width: '100%' }} size="middle">
       <Row gutter={12}>
         <Col xs={24} sm={12}>
-          <Form.Item label={t('fields.gender')} required>
-            <Select
-              value={gi.gender}
-              options={dictOptions(GENDERS, t)}
-              onChange={(v: Gender) => update({ gender: v })}
-            />
-          </Form.Item>
+          <Field label={t('fields.gender')} required>
+            {(a11y) => (
+              <Select
+                {...a11y}
+                value={gi.gender}
+                options={dictOptions(GENDERS, t)}
+                onChange={(v: Gender) => update({ gender: v })}
+              />
+            )}
+          </Field>
         </Col>
         <Col xs={24} sm={12}>
-          <Form.Item label={t('fields.maritalStatus')} required>
-            <Select
-              value={gi.maritalStatus}
-              options={dictOptions(MARITAL_STATUSES, t)}
-              onChange={(v: MaritalStatus) => update({ maritalStatus: v })}
-            />
-          </Form.Item>
+          <Field label={t('fields.maritalStatus')} required>
+            {(a11y) => (
+              <Select
+                {...a11y}
+                value={gi.maritalStatus}
+                options={dictOptions(MARITAL_STATUSES, t)}
+                onChange={(v: MaritalStatus) => update({ maritalStatus: v })}
+              />
+            )}
+          </Field>
         </Col>
       </Row>
       <Row gutter={12}>
         <Col xs={24} sm={12}>
-          <Form.Item label={t('fields.nationality')} required>
-            <AutoComplete
-              value={gi.nationality}
-              options={nationality.options}
-              onChange={(v) => update({ nationality: v })}
-              filterOption={(input, option) =>
-                (option?.label ?? '').toLowerCase().includes(input.toLowerCase())
-              }
-            />
-          </Form.Item>
+          <Field label={t('fields.nationality')} required>
+            {(a11y) => (
+              <AutoComplete
+                {...a11y}
+                value={gi.nationality}
+                options={nationality.options}
+                onChange={(v) => update({ nationality: v })}
+                filterOption={(input, option) =>
+                  (option?.label ?? '').toLowerCase().includes(input.toLowerCase())
+                }
+              />
+            )}
+          </Field>
         </Col>
         <Col xs={24} sm={12}>
-          <Form.Item
+          <Field
             label={t('fields.dateOfBirth')}
             required
             extra={age !== null ? `${t('cvLabels.age')}: ${age}` : undefined}
           >
-            <DatePicker
-              style={{ width: '100%' }}
-              value={dob && dob.isValid() ? dob : null}
-              disabledDate={(d) => d.isAfter(dayjs())}
-              onChange={(d) => update({ dateOfBirth: d ? d.format('YYYY-MM-DD') : '' })}
-            />
-          </Form.Item>
+            {(a11y) => (
+              <DatePicker
+                {...a11y}
+                style={{ width: '100%' }}
+                format={FULL_DATE}
+                value={dob && dob.isValid() ? dob : null}
+                disabledDate={(d) => d.isAfter(dayjs())}
+                onChange={(d) => update({ dateOfBirth: d ? d.format(ISO_DATE) : '' })}
+              />
+            )}
+          </Field>
         </Col>
       </Row>
       <Row gutter={12}>
         <Col xs={24} sm={12}>
-          <Form.Item label={t('fields.militaryStatus')}>
-            <Select
-              allowClear
-              value={gi.militaryStatus}
-              options={dictOptions(MILITARY_STATUSES, t)}
-              onChange={(v: MilitaryStatus | undefined) => update({ militaryStatus: v })}
-            />
-          </Form.Item>
+          <Field label={t('fields.militaryStatus')}>
+            {(a11y) => (
+              <Select
+                {...a11y}
+                allowClear
+                value={gi.militaryStatus}
+                options={dictOptions(MILITARY_STATUSES, t)}
+                onChange={(v: MilitaryStatus | undefined) => update({ militaryStatus: v })}
+              />
+            )}
+          </Field>
         </Col>
         <Col xs={24} sm={12}>
-          <Form.Item label={t('fields.driverLicense')}>
-            <Select
-              mode="multiple"
-              allowClear
-              value={gi.driverLicense ?? []}
-              options={licenseOptions()}
-              onChange={(v: LicenseCategory[]) =>
-                update({ driverLicense: v.filter((c) => LICENSE_CATEGORIES.includes(c)) })
-              }
-            />
-          </Form.Item>
+          <Field label={t('fields.driverLicense')}>
+            {(a11y) => (
+              <Select
+                {...a11y}
+                mode="multiple"
+                allowClear
+                value={gi.driverLicense ?? []}
+                options={licenseOptions()}
+                onChange={(v: LicenseCategory[]) =>
+                  update({ driverLicense: v.filter((c) => LICENSE_CATEGORIES.includes(c)) })
+                }
+              />
+            )}
+          </Field>
         </Col>
       </Row>
+      {/* Keeps antd's default bottom margin: `showCount` renders the character
+          counter BELOW the textarea, and with the margin zeroed it collided with
+          the bottom edge of the accordion panel. */}
+      <Field
+        label={t('fields.summaryText')}
+        error={summaryTooLong ? t('validation.maximumThreeHundredCharacter') : undefined}
+      >
+        {(a11y) => (
+          <Input.TextArea
+            {...a11y}
+            value={summary}
+            onChange={(e) => setSummary(e.target.value)}
+            rows={5}
+            maxLength={SUMMARY_MAX}
+            showCount
+          />
+        )}
+      </Field>
     </Space>
   );
 }

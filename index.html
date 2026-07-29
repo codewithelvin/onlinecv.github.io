@@ -38,6 +38,10 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- Portal host for modals. See src/utils/modal-container.ts: mounting them
+         here instead of straight into <body> keeps Ant Design from locking body
+         scroll, which would otherwise re-anchor the sticky preview pane. -->
+    <div id="modal-root"></div>
     <noscript>OnlineCV işləməsi üçün JavaScript aktiv olmalıdır.</noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
