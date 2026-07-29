@@ -34,7 +34,9 @@
     "zustand": "^5.0.2"
   },
   "overrides": {
-    "vite": "$vite"
+    "vite": "$vite",
+    "brace-expansion": "5.0.8",
+    "minimatch": "10.2.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
@@ -53,6 +55,6 @@
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.7",
     "vite-plugin-pwa": "^0.21.1",
-    "vitest": "^2.1.8"
+    "vitest": "^3.2.6"
   }
 }
