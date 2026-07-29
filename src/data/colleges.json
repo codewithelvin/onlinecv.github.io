@@ -1,0 +1,891 @@
+[
+  {
+    "code": "bmc",
+    "group": "colleges",
+    "az": "1 nömrəli Bakı Tibb Kolleci",
+    "en": "Baku Medical College No. 1",
+    "ru": "Бакинский Медицинский Колледж №1"
+  },
+  {
+    "code": "bbmc",
+    "group": "colleges",
+    "az": "2 nömrəli Bakı Baza Tibb Kolleci",
+    "en": "Baku Base Medical College number 2",
+    "ru": "Бакинский Базовый Медицинский Колледж №2"
+  },
+  {
+    "code": "agpc",
+    "group": "colleges",
+    "az": "Ağcabədi Pedaqoji Kolleci",
+    "en": "Agjabadi Pedagogical College",
+    "ru": "Агджабединский педагогический колледж"
+  },
+  {
+    "code": "ascec",
+    "group": "colleges",
+    "az": "Ağdam Dövlət Sosial-İqtisadi Kolleci",
+    "en": "Agdam State Socio-Economic College",
+    "ru": "Агдамский государственный социально-экономический колледж"
+  },
+  {
+    "code": "amc",
+    "group": "colleges",
+    "az": "Ağdam Musiqi Kolleci",
+    "en": "Aghdam Music College",
+    "ru": "Агдамский музыкальный колледж"
+  },
+  {
+    "code": "ashc",
+    "group": "colleges",
+    "az": "Ağdaş Dövlət Humanitar Kolleci",
+    "en": "Agdash State Humanitarian College",
+    "ru": "Агдашский государственный гуманитарный колледж"
+  },
+  {
+    "code": "aspc",
+    "group": "colleges",
+    "az": "Astara Pedaqoji Kolleci",
+    "en": "Astara Pedagogical College",
+    "ru": "Астаринский педагогический колледж"
+  },
+  {
+    "code": "amcasma",
+    "group": "colleges",
+    "az": "Azərbaycan Dövlət Dəniz Akademiyası nəzdində Azərbaycan Dənizçilik Kolleci",
+    "en": "Azerbaijan Maritime College under the Azerbaijan State Maritime Academy",
+    "ru": "Азербайджанский Морской Колледж при Азербайджанской Государственной Морской Академии"
+  },
+  {
+    "code": "acfeasue",
+    "group": "colleges",
+    "az": "Azərbaycan Dövlət İqtisad Universiteti nəzdində Azərbaycan Maliyyə-İqtisad Kolleci",
+    "en": "Azerbaijan College of Finance and Economics under the Azerbaijan State University of Economics",
+    "ru": "Азербайджанский финансово-экономический колледж при Азербайджанском государственном экономическом университете"
+  },
+  {
+    "code": "secasue",
+    "group": "colleges",
+    "az": "Azərbaycan Dövlət İqtisad Universitetinin nəzdində Sosial-İqtisadi Kolleci",
+    "en": "Socio-Economic College under Azerbaijan State University of Economics",
+    "ru": "Социально-экономический колледж при Азербайджанском государственном экономическом университете"
+  },
+  {
+    "code": "cfiasue",
+    "group": "colleges",
+    "az": "Azərbaycan Dövlət İqtisad Universitetinin nəzdində Qida Sənayesi Kolleci",
+    "en": "College of Food Industry under Azerbaijan State University of Economics",
+    "ru": "Колледж пищевой промышленности Азербайджанского государственного экономического университета"
+  },
+  {
+    "code": "hcasuca",
+    "group": "colleges",
+    "az": "Azərbaycan Dövlət Mədəniyyət və İncəsənt Universitetinin nəzdində Humanitar Kollec",
+    "en": "Humanitarian College under the Azerbaijan State University of Culture and Arts",
+    "ru": "Гуманитарный колледж при Азербайджанском государственном университете культуры и искусств"
+  },
+  {
+    "code": "boecasoiu",
+    "group": "colleges",
+    "az": "Azərbaycan Dövlət Neft və Sənaye Universitetinin nəzdində Bakı Neft-Energetika Kolleci",
+    "en": "Baku Oil and Energy College under Azerbaijan State Oil and Industry University",
+    "ru": "Бакинский Нефтеэнергетический Колледж при Азербайджанском Государственном Университете Нефти и Промышленности"
+  },
+  {
+    "code": "citasoiu",
+    "group": "colleges",
+    "az": "Azərbaycan Dövlət Neft və Sənaye Universitetinin nəzdində Sənaye və Texnologiya Kolleci",
+    "en": "College of Industry and Technology under Azerbaijan State Oil and Industry University",
+    "ru": "Колледж Промышленности и Технологий Азербайджанского Государственного Университета Нефти и Промышленности"
+  },
+  {
+    "code": "aspcaspu",
+    "group": "colleges",
+    "az": "Azərbaycan Dövlət Pedaqoji Universitetinin nəzdində Azərbaycan Dövlət Pedaqoji Kolleci",
+    "en": "Azerbaijan State Pedagogical College under Azerbaijan State Pedagogical University",
+    "ru": "Азербайджанский Государственный Педагогический Колледж при Азербайджанском Государственном Педагогическом Университете"
+  },
+  {
+    "code": "ccauac",
+    "group": "colleges",
+    "az": "Azərbaycan Memarlıq və İnşaat Universitetinin nəzdində İnşaat Kolleci",
+    "en": "College of Construction under the Azerbaijan University of Architecture and Construction",
+    "ru": "Колледж Строительства при Азербайджанском Университете Архитектуры и Строительства"
+  },
+  {
+    "code": "mcanc",
+    "group": "colleges",
+    "az": "Azərbaycan Milli Konservatoriyası nəzdində Musiqi Kolleci",
+    "en": "Music College under Azerbaijan National Conservatory",
+    "ru": "Музыкальный колледж при Азербайджанской Национальной Консерватории"
+  },
+  {
+    "code": "smcanc",
+    "group": "colleges",
+    "az": "Azərbaycan Milli Konservatoriyasının nəzdində Sumqayıt Musiqi Kolleci",
+    "en": "Sumgayit Music College under the Azerbaijan National Conservatory",
+    "ru": "Сумгаитский Музыкальный Колледж при Азербайджанской Национальной Консерватории"
+  },
+  {
+    "code": "caaaa",
+    "group": "colleges",
+    "az": "Azərbaycan Rəssamlıq Akademiyası nəzdində İncəsənət Kolleci",
+    "en": "College of Arts under Azerbaijan Art Academy",
+    "ru": "Колледж Искусств при Азербайджанской Академии Художеств"
+  },
+  {
+    "code": "bscctatu",
+    "group": "colleges",
+    "az": "Azərbaycan Texniki Universitetinin nəzdində Bakı Dövlət Rabitə və Nəqliyyat Kolleci",
+    "en": "Baku State College of Communication and Transport under Azerbaijan Technical University",
+    "ru": "Бакинский Государственный Колледж Связи и Транспорта при Азербайджанском Техническом Университете"
+  },
+  {
+    "code": "btcatu",
+    "group": "colleges",
+    "az": "Azərbaycan Texniki Universitetinin nəzdində Bakı Texniki Kolleci",
+    "en": "Baku Technical College under Azerbaijan Technical University",
+    "ru": "Бакинский Технический Колледж при Азербайджанском Техническом Университете"
+  },
+  {
+    "code": "cehbsu",
+    "group": "colleges",
+    "az": "Bakı Dövlət Universitetinin nəzdində İqtisadiyyat və Humanitar Kolleci",
+    "en": "College of Economics and Humanities under Baku State University",
+    "ru": "Колледж Экономики и Гуманитарных наук при Бакинском Государственном Университете"
+  },
+  {
+    "code": "bscmt",
+    "group": "colleges",
+    "az": "Bərdə Dövlət İdarəetmə və Texnologiya Kolleci",
+    "en": "Barda State College of Management and Technology",
+    "ru": "Бардинский государственный колледж управления и технологий"
+  },
+  {
+    "code": "biic",
+    "group": "colleges",
+    "az": "Bibiheybət İslam Kolleci",
+    "en": "Bibiheybat Islamic College",
+    "ru": "Исламский колледж Бибиэйбат"
+  },
+  {
+    "code": "jalmc",
+    "group": "colleges",
+    "az": "Cəlilabad Tibb Kolleci",
+    "en": "Jalilabad Medical College",
+    "ru": "Джалилабадский медицинский колледж"
+  },
+  {
+    "code": "rcgsu",
+    "group": "colleges",
+    "az": "Gəncə Dövlət Universitetinin nəzdində Regional Kolleci",
+    "en": "Regional College under Ganja State University",
+    "ru": "Региональный колледж при Гянджинском государственном университете"
+  },
+  {
+    "code": "ganic",
+    "group": "colleges",
+    "az": "Gəncə İslam Kolleci",
+    "en": "Ganja Islamic College",
+    "ru": "Гянджинский исламский колледж"
+  },
+  {
+    "code": "ganmc",
+    "group": "colleges",
+    "az": "Gəncə Tibb Kolleci",
+    "en": "Ganja Medical College",
+    "ru": "Гянджинский медицинский колледж"
+  },
+  {
+    "code": "gsmtc",
+    "group": "colleges",
+    "az": "Göyçay Dövlət İdarəetmə və Texnologiya Kolleci",
+    "en": "Goychay State Management and Technology College",
+    "ru": "Гейчайский Государственный Колледж Управления и Технологии"
+  },
+  {
+    "code": "heyic",
+    "group": "colleges",
+    "az": "Heydər İslam Kolleci",
+    "en": "Heydar Islamic College",
+    "ru": "Исламский колледж Гейдара"
+  },
+  {
+    "code": "ishtc",
+    "group": "colleges",
+    "az": "İsmayıllı Dövlət Humanitar və Texnologiya Kolleci",
+    "en": "Ismayilli State Humanitarian and Technology College",
+    "ru": "Исмаиллинский государственный гуманитарно-технический колледж"
+  },
+  {
+    "code": "kssec",
+    "group": "colleges",
+    "az": "Qazax Dövlət Sosial-İqtisadi Kolleci",
+    "en": "Kazakh State Socio-Economic College",
+    "ru": "Казахский государственный социально-экономический колледж"
+  },
+  {
+    "code": "gssec",
+    "group": "colleges",
+    "az": "Quba Dövlət Sosial-İqtisadi Kolleci",
+    "en": "Guba State Socio-Economic College",
+    "ru": "Губинский государственный социально-экономический колледж"
+  },
+  {
+    "code": "guic",
+    "group": "colleges",
+    "az": "Quba İslam Kolleci",
+    "en": "Guba Islamic College",
+    "ru": "Губинский исламский колледж"
+  },
+  {
+    "code": "gumc",
+    "group": "colleges",
+    "az": "Quba Tibb Kolleci",
+    "en": "Guba Medical College",
+    "ru": "Губинский медицинский колледж"
+  },
+  {
+    "code": "satclsu",
+    "group": "colleges",
+    "az": "Lənkəran Dövlət Universitetinin nəzdində Sosial və Aqrar-Texnoloji Kollec",
+    "en": "Social and Agrarian-Technological College under Lankaran State University",
+    "ru": "Социально-аграрно-технологический колледж при Ленкоранском государственном университете"
+  },
+  {
+    "code": "lasc",
+    "group": "colleges",
+    "az": "Lənkəran İslam Kolleci",
+    "en": "Lankaran Islamic College",
+    "ru": "Ленкоранский исламский колледж"
+  },
+  {
+    "code": "lamc",
+    "group": "colleges",
+    "az": "Lənkəran Tibb Kolleci",
+    "en": "Lankaran Medical College",
+    "ru": "Ленкоранский медицинский колледж"
+  },
+  {
+    "code": "msrc",
+    "group": "colleges",
+    "az": "Masallı Dövlət Regional Kolleci",
+    "en": "Masalli State Regional College",
+    "ru": "Масаллинский Государственный Региональный Колледж"
+  },
+  {
+    "code": "mimc",
+    "group": "colleges",
+    "az": "Mingəçevir Tibb Kolleci",
+    "en": "Mingachevir Medical College",
+    "ru": "Мингячевирский медицинский колледж"
+  },
+  {
+    "code": "mitc",
+    "group": "colleges",
+    "az": "Mingəçevir Turizm Kolleci",
+    "en": "Mingachevir Tourism College",
+    "ru": "Мингячевирский колледж туризма"
+  },
+  {
+    "code": "nstc",
+    "group": "colleges",
+    "az": "Naxçıvan Dövlət Texniki Kolleci",
+    "en": "Nakhchivan State Technical College",
+    "ru": "Нахчыванский Государственный Технический Колледж"
+  },
+  {
+    "code": "nakhmc",
+    "group": "colleges",
+    "az": "Naxçıvan Musiqi Kolleci",
+    "en": "Nakhchivan Music College",
+    "ru": "Нахчыванский Музыкальный Колледж"
+  },
+  {
+    "code": "namedc",
+    "group": "colleges",
+    "az": "Naxçıvan Tibb Kolleci",
+    "en": "Nakhchivan Medical College",
+    "ru": "Нахчыванский медицинский колледж"
+  },
+  {
+    "code": "naric",
+    "group": "colleges",
+    "az": "Nardaran İslam Kolleci",
+    "en": "Nardaran Islamic College",
+    "ru": "Исламский колледж Нардаран"
+  },
+  {
+    "code": "samc",
+    "group": "colleges",
+    "az": "Saatlı Tibb Koleci",
+    "en": "Saatly Medical College",
+    "ru": "Саатлинский медицинский колледж"
+  },
+  {
+    "code": "sssec",
+    "group": "colleges",
+    "az": "Sabirabad Dövlət Sosial-İqtisadi Kolleci",
+    "en": "Sabirabad State Socio-Economic College",
+    "ru": "Сабирабадский государственный социально-экономический колледж"
+  },
+  {
+    "code": "sstcssu",
+    "group": "colleges",
+    "az": "Sumqayıt Dövlət Universitetinin nəzdində Sumqayıt Dövlət Texniki Kolleci",
+    "en": "Sumgayit State Technical College under Sumgayit State University",
+    "ru": "Сумгаитский государственный технический колледж при Сумгаитском государственном университете"
+  },
+  {
+    "code": "summc",
+    "group": "colleges",
+    "az": "Sumqayıt Tibb Kolleci",
+    "en": "Sumgayit Medical College",
+    "ru": "Сумгаитский медицинский колледж"
+  },
+  {
+    "code": "shamsrc",
+    "group": "colleges",
+    "az": "Şamaxı Dövlət Regional Kolleci",
+    "en": "Shamakhi State Regional College",
+    "ru": "Шамахинский государственный региональный колледж"
+  },
+  {
+    "code": "shic",
+    "group": "colleges",
+    "az": "Şəbnəm (Qızlar) İslam Kolleci",
+    "en": "Shabnam (Girls) Islamic College",
+    "ru": "Исламский колледж Шабнам (для девочек)"
+  },
+  {
+    "code": "shsrc",
+    "group": "colleges",
+    "az": "Şəki Dövlət Regional Kolleci",
+    "en": "Sheki State Regional College",
+    "ru": "Шекинский Государственный Региональный Колледж"
+  },
+  {
+    "code": "shhaic",
+    "group": "colleges",
+    "az": "Şəki (Hafizlik) İslam Kolleci",
+    "en": "Sheki (Hafizlik) Islamic College",
+    "ru": "Шекинский (Хафизликский) исламский колледж"
+  },
+  {
+    "code": "shmec",
+    "group": "colleges",
+    "az": "Şəki Tibb Kolleci",
+    "en": "Sheki Medical College",
+    "ru": "Шекинский медицинский колледж"
+  },
+  {
+    "code": "shsceh",
+    "group": "colleges",
+    "az": "Şirvan Dövlət İqtisadiyyat və Humanitar Kolleci",
+    "en": "Shirvan State College of Economics and Humanities",
+    "ru": "Ширванский государственный экономико-гуманитарный колледж"
+  },
+  {
+    "code": "shhc",
+    "group": "colleges",
+    "az": "Şuşa Humanitar Kolleci",
+    "en": "Shusha Humanitarian College",
+    "ru": "Шушинский гуманитарный колледж"
+  },
+  {
+    "code": "tssec",
+    "group": "colleges",
+    "az": "Tovuz Dövlət Sosial-İqtisadi Kolleci",
+    "en": "Tovuz State Socio-Economic College",
+    "ru": "Товузский государственный социально-экономический колледж"
+  },
+  {
+    "code": "zscmt",
+    "group": "colleges",
+    "az": "Zaqatala Dövlət İdarəetmə və Texnologiya Kolleci",
+    "en": "Zagatala State College of Management and Technology",
+    "ru": "Загатальский государственный колледж управления и технологий"
+  },
+  {
+    "code": "zaic",
+    "group": "colleges",
+    "az": "Zaqatala İslam Kolleci",
+    "en": "Zagatala Islamic College",
+    "ru": "Загатальский исламский колледж"
+  },
+  {
+    "code": "bbcc",
+    "group": "colleges",
+    "az": "Bakı Biznes və Kooperasiya Kolleci",
+    "en": "Baku Business and Cooperation College",
+    "ru": "Бакинский Колледж Бизнеса и Сотрудничества"
+  },
+  {
+    "code": "oyusc",
+    "group": "colleges",
+    "az": "Odlar Yurdu Universiteti nəzdində Orta İxtisas Kolleci",
+    "en": "Odlar Yurdu University Secondary College",
+    "ru": "Средний колледж Университета Одлар Юрду"
+  },
+  {
+    "code": "ajvhs",
+    "group": "colleges",
+    "az": "Abşeron Ceyranbatan Peşə Liseyi",
+    "en": "Absheron Jeyranbatan Vocational High School",
+    "ru": "Абшеронская Джейранбатанская профессиональная средняя школа"
+  },
+  {
+    "code": "bvhs",
+    "group": "colleges",
+    "az": "Biləsuvar Peşə Liseyi",
+    "en": "Bilasuvar Vocational High School",
+    "ru": "Билясуварская профессиональная средняя школа"
+  },
+  {
+    "code": "goyvhs",
+    "group": "colleges",
+    "az": "Göyçay Peşə Liseyi",
+    "en": "Goychay Vocational High School",
+    "ru": "Гейчайская профессиональная средняя школа"
+  },
+  {
+    "code": "gadvhs",
+    "group": "colleges",
+    "az": "Gədəbəy Peşə Liseyi",
+    "en": "Gadabey Vocational High School",
+    "ru": "Кедабекская профессиональная средняя школа"
+  },
+  {
+    "code": "kvhs",
+    "group": "colleges",
+    "az": "Kürdəmir Peşə Liseyi",
+    "en": "Kurdamir Vocational High School",
+    "ru": "Кюрдамирская профессиональная средняя школа"
+  },
+  {
+    "code": "gakvhs",
+    "group": "colleges",
+    "az": "Qax Peşə Liseyi",
+    "en": "Gakh Vocational High School",
+    "ru": "Гахская профессиональная средняя школа"
+  },
+  {
+    "code": "gubvhs",
+    "group": "colleges",
+    "az": "Quba Peşə Liseyi",
+    "en": "Guba Vocational High School",
+    "ru": "Губинская профессиональная средняя школа"
+  },
+  {
+    "code": "svhs",
+    "group": "colleges",
+    "az": "Saatlı Peşə Liseyi",
+    "en": "Saatly Vocational High School",
+    "ru": "Саатлинская профессиональная средняя школа"
+  },
+  {
+    "code": "savhs",
+    "group": "colleges",
+    "az": "Sabirabad Peşə Liseyi",
+    "en": "Sabirabad Vocational High School",
+    "ru": "Сабирабадская профессиональная средняя школа"
+  },
+  {
+    "code": "salvhs",
+    "group": "colleges",
+    "az": "Salyan Peşə Liseyi",
+    "en": "Salyan Vocational High School",
+    "ru": "Сальянская профессиональная средняя школа"
+  },
+  {
+    "code": "bavhs",
+    "group": "colleges",
+    "az": "Bərdə Peşə Liseyi",
+    "en": "Barda Vocational High School",
+    "ru": "Бардинская профессиональная средняя школа"
+  },
+  {
+    "code": "shvhs",
+    "group": "colleges",
+    "az": "Şamaxı Peşə Liseyi",
+    "en": "Shamakhi Vocational High School",
+    "ru": "Шамахинская профессиональная средняя школа"
+  },
+  {
+    "code": "shavhs",
+    "group": "colleges",
+    "az": "Şəmkir Peşə Liseyi",
+    "en": "Shamkir Vocational High School",
+    "ru": "Шамкирская профессиональная средняя школа"
+  },
+  {
+    "code": "sharvhs",
+    "group": "colleges",
+    "az": "Şərur Peşə Liseyi",
+    "en": "Sharur Vocational High School",
+    "ru": "Шарурская профессиональная средняя школа"
+  },
+  {
+    "code": "shivhs",
+    "group": "colleges",
+    "az": "Şirvan Peşə Liseyi",
+    "en": "Shirvan Vocational High School",
+    "ru": "Ширванская профессиональная средняя школа"
+  },
+  {
+    "code": "zvhs",
+    "group": "colleges",
+    "az": "Zərdab Peşə Liseyi",
+    "en": "Zardab Vocational High School",
+    "ru": "Зардабская профессиональная средняя школа"
+  },
+  {
+    "code": "isvtc",
+    "group": "colleges",
+    "az": "İsmayıllı Dövlət Peşə Tədris Mərkəzi",
+    "en": "Ismayilli State Vocational Training Center",
+    "ru": "Исмаиллинский государственный центр профессионального обучения"
+  },
+  {
+    "code": "agvs",
+    "group": "colleges",
+    "az": "Ağcabədi Peşə Məktəbi",
+    "en": "Agjabedi Vocational School",
+    "ru": "Агджабединская профессиональная школа"
+  },
+  {
+    "code": "agdvs",
+    "group": "colleges",
+    "az": "Ağdaş Peşə Məktəbi",
+    "en": "Agdash Vocational School",
+    "ru": "Агдашское профессиональное училище"
+  },
+  {
+    "code": "beyvs",
+    "group": "colleges",
+    "az": "Beyləqan Peşə Məktəbi",
+    "en": "Beylagan Vocational School",
+    "ru": "Бейлаганское профессионально-техническое училище"
+  },
+  {
+    "code": "jabvs",
+    "group": "colleges",
+    "az": "Cəbrayıl Peşə Məktəbi",
+    "en": "Jabrayil Vocational School",
+    "ru": "Джебраилское профессиональное училище"
+  },
+  {
+    "code": "julvs",
+    "group": "colleges",
+    "az": "Culfa Peşə Məktəbi",
+    "en": "Julfa Vocational School",
+    "ru": "Джульфинское профессиональное училище"
+  },
+  {
+    "code": "dashvs",
+    "group": "colleges",
+    "az": "Daşkəsən Peşə Məktəbi",
+    "en": "Dashkasan Vocational School",
+    "ru": "Дашкесанская профессиональная школа"
+  },
+  {
+    "code": "gorvs",
+    "group": "colleges",
+    "az": "Goranboy Peşə Məktəbi",
+    "en": "Goranboy Vocational School",
+    "ru": "Геранбойское профессиональное училище"
+  },
+  {
+    "code": "goyvs",
+    "group": "colleges",
+    "az": "Göygöl Peşə Məktəbi",
+    "en": "Goygol Vocational School",
+    "ru": "Гёйгёльское профессиональное училище"
+  },
+  {
+    "code": "imivs",
+    "group": "colleges",
+    "az": "İmişli Peşə Məktəbi",
+    "en": "Imishli Vocational School",
+    "ru": "Имишлинская профессиональная школа"
+  },
+  {
+    "code": "khivs",
+    "group": "colleges",
+    "az": "Xızı Peşə Məktəbi",
+    "en": "Khizı Vocational School",
+    "ru": "Хызы профессиональное училище"
+  },
+  {
+    "code": "kalvs",
+    "group": "colleges",
+    "az": "Kəlbəcər Peşə Məktəbi",
+    "en": "Kalbajar Vocational School",
+    "ru": "Кельбаджарское профессиональное училище"
+  },
+  {
+    "code": "gusvs",
+    "group": "colleges",
+    "az": "Quba xüsusi Peşə Məktəbi",
+    "en": "Guba Special Vocational School",
+    "ru": "Губинская специальная профессиональная школа"
+  },
+  {
+    "code": "lacvs",
+    "group": "colleges",
+    "az": "Laçın Peşə Məktəbi",
+    "en": "Lachin Vocational School",
+    "ru": "Лачинское профессиональное училище"
+  },
+  {
+    "code": "masvs",
+    "group": "colleges",
+    "az": "Masallı Peşə Məktəbi",
+    "en": "Masalli Vocational School",
+    "ru": "Масаллинская профессиональная школа"
+  },
+  {
+    "code": "minvs",
+    "group": "colleges",
+    "az": "Mingəçevir Peşə Məktəbi",
+    "en": "Mingachevir Vocational School",
+    "ru": "Мингячевирская профессиональная школа"
+  },
+  {
+    "code": "nafvs",
+    "group": "colleges",
+    "az": "Naftalan Peşə Məktəbi",
+    "en": "Naftalan Vocational School",
+    "ru": "Нафталанское профессиональное училище"
+  },
+  {
+    "code": "nefvs",
+    "group": "colleges",
+    "az": "Neftçala Peşə Məktəbi",
+    "en": "Neftchala Vocational School",
+    "ru": "Нефтчалинское профессиональное училище"
+  },
+  {
+    "code": "oguvs",
+    "group": "colleges",
+    "az": "Oğuz Peşə Məktəbi",
+    "en": "Oguz Vocational School",
+    "ru": "Огузское профессионально-техническое училище"
+  },
+  {
+    "code": "ordvs",
+    "group": "colleges",
+    "az": "Ordubad Peşə Məktəbi",
+    "en": "Ordubad Vocational School",
+    "ru": "Ордубадское профессионально-техническое училище"
+  },
+  {
+    "code": "siyvs",
+    "group": "colleges",
+    "az": "Siyəzən Peşə Məktəbi",
+    "en": "Siyazan Vocational School",
+    "ru": "Сиязанское профессионально-техническое училище"
+  },
+  {
+    "code": "shavs",
+    "group": "colleges",
+    "az": "Şabran Peşə Məktəbi",
+    "en": "Shabran Vocational School",
+    "ru": "Шабранское профессиональное училище"
+  },
+  {
+    "code": "tarvs",
+    "group": "colleges",
+    "az": "Tərtər Peşə Məktəbi",
+    "en": "Tartar Vocational School",
+    "ru": "Тартарское профессиональное училище"
+  },
+  {
+    "code": "yarvs",
+    "group": "colleges",
+    "az": "Yardımlı Peşə Məktəbi",
+    "en": "Yardymly Vocational School",
+    "ru": "Ярдымлинское профессиональное училище"
+  },
+  {
+    "code": "yevvs",
+    "group": "colleges",
+    "az": "Yevlax Peşə Məktəbi",
+    "en": "Yevlakh Vocational School",
+    "ru": "Евлахское профессиональное училище"
+  },
+  {
+    "code": "zagvs",
+    "group": "colleges",
+    "az": "Zaqatala Peşə Məktəbi",
+    "en": "Zagatala Vocational School",
+    "ru": "Загатальское профессиональное училище"
+  },
+  {
+    "code": "asvec",
+    "group": "colleges",
+    "az": "Ağdam Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Aghdam State Vocational Education Center",
+    "ru": "Агдамский государственный центр профессионального образования"
+  },
+  {
+    "code": "bsvtcart",
+    "group": "colleges",
+    "az": "Aviasiya və Avtomobil Nəqliyyatı üzrə Bakı Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Baku State Vocational Training Center for Aviation and Road Transport",
+    "ru": "Бакинский государственный центр профессионального обучения авиации и автомобильного транспорта"
+  },
+  {
+    "code": "bsvec",
+    "group": "colleges",
+    "az": "Balakən Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Balakan State Vocational Education Center",
+    "ru": "Балаканский государственный центр профессионального образования"
+  },
+  {
+    "code": "jsvec",
+    "group": "colleges",
+    "az": "Cəlilabad Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Jalilabad State Vocational Education Center",
+    "ru": "Джалилабадский государственный центр профессионального образования"
+  },
+  {
+    "code": "bsvtcrm",
+    "group": "colleges",
+    "az": "Dəmir Yolu və Metropoliten üzrə Bakı Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Baku State Vocational Training Center for Railway and Metro",
+    "ru": "Бакинский государственный центр профессионального обучения железной дороги и метрополитена"
+  },
+  {
+    "code": "bsvtcstspw",
+    "group": "colleges",
+    "az": "Dəniz Nəqliyyatı, Gəmiqayırma və Liman İşləri üzrə Bakı Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Baku State Vocational Training Center for Sea Transport, Shipbuilding and Port Works",
+    "ru": "Бакинский государственный центр профессионального обучения морского транспорта, судостроения и портовых работ"
+  },
+  {
+    "code": "bsvecpi",
+    "group": "colleges",
+    "az": "Emal Sənayesi üzrə Bakı Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Baku State Vocational Education Center for Processing Industry",
+    "ru": "Бакинский Государственный Центр Профессионального Образования Перерабатывающей Промышленности"
+  },
+  {
+    "code": "fsvec",
+    "group": "colleges",
+    "az": "Füzuli Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Fuzuli State Vocational Education Center",
+    "ru": "Физулинский государственный центр профессионального образования"
+  },
+  {
+    "code": "ksvec",
+    "group": "colleges",
+    "az": "Xaçmaz Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Khachmaz State Vocational Education Center",
+    "ru": "Хачмазский государственный центр профессионального образования"
+  },
+  {
+    "code": "ssvecsa",
+    "group": "colleges",
+    "az": "Xidmət Sahələri üzrə Sumqayıt Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Sumgayit State Vocational Education Center for Service Areas",
+    "ru": "Сумгаитский Государственный Центр Профессионального Образования По Сферам Обслуживания"
+  },
+  {
+    "code": "bsvecpcs",
+    "group": "colleges",
+    "az": "İctimai İaşə və Xidmət üzrə Bakı Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Baku State Vocational Education Center for Public Catering and Service",
+    "ru": "Бакинский Государственный Центр Профессионального Образования Общественного Питания и Сервиса"
+  },
+  {
+    "code": "gsvec",
+    "group": "colleges",
+    "az": "Qəbələ Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Gabala State Vocational Education Center",
+    "ru": "Габалинский государственный центр профессионального образования"
+  },
+  {
+    "code": "lsvec",
+    "group": "colleges",
+    "az": "Lənkəran Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Lankaran State Vocational Education Center",
+    "ru": "Ленкоранский государственный центр профессионального образования"
+  },
+  {
+    "code": "bsveccc",
+    "group": "colleges",
+    "az": "Mədəniyyət və Sənətkarlıq üzrə Bakı Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Baku State Vocational Education Center for Culture and Crafts",
+    "ru": "Бакинский Государственный Центр Профессионального Образования Культуры и Ремесел"
+  },
+  {
+    "code": "bsveccit",
+    "group": "colleges",
+    "az": "Rabitə və İnformasiya Texnologiyaları üzrə Bakı Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Baku State Vocational Education Center for Communication and Information Technologies",
+    "ru": "Бакинский Государственный Центр Профессионального Образования Связи и Информационных Технологий"
+  },
+  {
+    "code": "bsvecii",
+    "group": "colleges",
+    "az": "Sənaye və İnnovasiyalar üzrə Bakı Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Baku State Vocational Education Center for Industry and Innovation",
+    "ru": "Бакинский Государственный Центр Профессионального Образования Промышленности и Инноваций"
+  },
+  {
+    "code": "gsvecit",
+    "group": "colleges",
+    "az": "Sənaye və Texnologiyalar üzrə Gəncə Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Ganja State Vocational Education Center for Industry and Technologies",
+    "ru": "Гянджинский государственный центр профессионального образования промышленности и технологий"
+  },
+  {
+    "code": "ssveciht",
+    "group": "colleges",
+    "az": "Sənaye və Yüksək Texnologiyalar üzrə Sumqayıt Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Sumgayit State Vocational Education Center for Industry and High Technologies",
+    "ru": "Сумгаитский государственный центр профессионального образования промышленности и высоких технологий"
+  },
+  {
+    "code": "ssvec",
+    "group": "colleges",
+    "az": "Şəki Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Sheki State Vocational Education Center",
+    "ru": "Шекинский государственный центр профессионального образования"
+  },
+  {
+    "code": "bsvectt",
+    "group": "colleges",
+    "az": "Texnika və Texnologiyalar üzrə Bakı Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Baku State Vocational Education Center for Techniques and Technologies",
+    "ru": "Бакинский Государственный Центр Профессионального Образования Техники и Технологий"
+  },
+  {
+    "code": "gsvects",
+    "group": "colleges",
+    "az": "Ticarət və Xidmət üzrə Gəncə Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Ganja State Vocational Education Center for Trade and Service",
+    "ru": "Гянджинский государственный центр профессионального образования торговли и обслуживания"
+  },
+  {
+    "code": "bsvtcciw",
+    "group": "colleges",
+    "az": "Tikinti və Quraşdırma İşləri üzrə Bakı Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Baku State Vocational Training Center for Construction and Installation Works",
+    "ru": "Бакинский государственный центр профессионального обучения строительно-монтажным работам"
+  },
+  {
+    "code": "tsvec",
+    "group": "colleges",
+    "az": "Tovuz Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Tovuz State Vocational Education Center",
+    "ru": "Товузский государственный центр профессионального образования"
+  },
+  {
+    "code": "bsvectss",
+    "group": "colleges",
+    "az": "Turizm və Sosial Xidmətlər üzrə Bakı Dövlət Peşə Təhsil Mərkəzi",
+    "en": "Baku State Vocational Education Center for Tourism and Social Services",
+    "ru": "Бакинский государственный центр профессионального образования по туризму и социальным услугам"
+  }
+]

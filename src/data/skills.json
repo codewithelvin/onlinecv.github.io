@@ -1,0 +1,1913 @@
+[
+  {
+    "code": "ms_office",
+    "group": "skills",
+    "az": "Microsoft Excel",
+    "en": "Microsoft Excel",
+    "ru": "Microsoft Excel"
+  },
+  {
+    "code": "php",
+    "group": "skills",
+    "az": "PHP dili",
+    "en": "PHP language",
+    "ru": "Язык PHP"
+  },
+  {
+    "code": "ms_word",
+    "group": "skills",
+    "az": "Microsoft Word",
+    "en": "Microsoft Word",
+    "ru": "Microsoft Word"
+  },
+  {
+    "code": "ms_power",
+    "group": "skills",
+    "az": "Microsoft PowerPoint",
+    "en": "Microsoft PowerPoint",
+    "ru": "Microsoft PowerPoint"
+  },
+  {
+    "code": "adaptation",
+    "group": "skills",
+    "az": "Yeniliklərə adaptasiya olunma",
+    "en": "Adaptability to new conditions",
+    "ru": "Приспособляемость к новым условиям"
+  },
+  {
+    "code": "problem_solving",
+    "group": "skills",
+    "az": "Problemi tez bir zamanda həll etmə",
+    "en": "Solving problems quickly",
+    "ru": "Быстрое решение проблем"
+  },
+  {
+    "code": "team_work",
+    "group": "skills",
+    "az": "Individual və komandada işləmə",
+    "en": "Individual and team work",
+    "ru": "Индивидуальная и командная работа"
+  },
+  {
+    "code": "punct_present",
+    "group": "skills",
+    "az": "Punktuallıq və təqdimat bacarığı",
+    "en": "Punctuality and presentation skills",
+    "ru": "Пунктуальность и презентационные навыки"
+  },
+  {
+    "code": "pressure_work",
+    "group": "skills",
+    "az": "Təzyiq altında işləmə",
+    "en": "Working under pressure",
+    "ru": "Работа под давлением"
+  },
+  {
+    "code": "1c",
+    "group": "skills",
+    "az": "1C Mühasibatlıq",
+    "en": "1C Accounting",
+    "ru": "1С Бухгалтерия"
+  },
+  {
+    "code": "autocad",
+    "group": "skills",
+    "az": "AutoCAD",
+    "en": "AutoCAD",
+    "ru": "Автокад"
+  },
+  {
+    "code": "photoshop",
+    "group": "skills",
+    "az": "Adobe Photoshop",
+    "en": "Adobe Photoshop",
+    "ru": "Adobe Photoshop"
+  },
+  {
+    "code": "javascript",
+    "group": "skills",
+    "az": "JavaScript",
+    "en": "JavaScript",
+    "ru": "JavaScript"
+  },
+  {
+    "code": "painting",
+    "group": "skills",
+    "az": "Şəkil çəkmək",
+    "en": "Draw pictures",
+    "ru": "Рисовать картинки"
+  },
+  {
+    "code": "selling",
+    "group": "skills",
+    "az": "Satış",
+    "en": "Selling",
+    "ru": "Продажа"
+  },
+  {
+    "code": "management",
+    "group": "skills",
+    "az": "İdarəçilik",
+    "en": "Management",
+    "ru": "Управление"
+  },
+  {
+    "code": "illustrator",
+    "group": "skills",
+    "az": "Adobe Illustrator",
+    "en": "Adobe Illustrator",
+    "ru": "Adobe Illustrator"
+  },
+  {
+    "code": "organizing",
+    "group": "skills",
+    "az": "Təşkilatçılıq",
+    "en": "Organizing skill",
+    "ru": "Организационные навыки"
+  },
+  {
+    "code": "time_management",
+    "group": "skills",
+    "az": "Zamanın idarə olunması",
+    "en": "Time management",
+    "ru": "Управление временем"
+  },
+  {
+    "code": "conflict_solving",
+    "group": "skills",
+    "az": "Münaqişənin həlli",
+    "en": "Conflict resolution",
+    "ru": "Разрешение конфликтов"
+  },
+  {
+    "code": "critical_thinking",
+    "group": "skills",
+    "az": "Tənqidi düşüncə",
+    "en": "Critical thinking",
+    "ru": "Критическое мышление"
+  },
+  {
+    "code": "project_planning",
+    "group": "skills",
+    "az": "Layihənin planlaşdırılması",
+    "en": "Project planning",
+    "ru": "Планирование проектов"
+  },
+  {
+    "code": "gantt",
+    "group": "skills",
+    "az": "Gantt diaqramları",
+    "en": "Gantt charts",
+    "ru": "Диаграммы Ганта"
+  },
+  {
+    "code": "risk_manage",
+    "group": "skills",
+    "az": "Risklərin idarə edilməsi",
+    "en": "Risk management",
+    "ru": "Управление рисками"
+  },
+  {
+    "code": "project_management",
+    "group": "skills",
+    "az": "Layihələrin idarə edilməsi",
+    "en": "Project management",
+    "ru": "Управление проектом"
+  },
+  {
+    "code": "analytical_thinking",
+    "group": "skills",
+    "az": "Analitik düşüncə",
+    "en": "Analytical thinking",
+    "ru": "Аналитическое мышление"
+  },
+  {
+    "code": "cooking_skill",
+    "group": "skills",
+    "az": "Aşpazlıq",
+    "en": "Cooking",
+    "ru": "Кулинария"
+  },
+  {
+    "code": "phone_sales",
+    "group": "skills",
+    "az": "Telefon üzərindən satış",
+    "en": "Telephone sales skills",
+    "ru": "Навык телефонной продажи"
+  },
+  {
+    "code": "convince",
+    "group": "skills",
+    "az": "İnandırmaq bacarığı",
+    "en": "Ability to convince",
+    "ru": "Способность убеждать"
+  },
+  {
+    "code": "teaching",
+    "group": "skills",
+    "az": "Tədris bacarığı",
+    "en": "Teaching skill",
+    "ru": "Навык преподавания"
+  },
+  {
+    "code": "tax_codex",
+    "group": "skills",
+    "az": "Vergi məcəlləsi biliyi",
+    "en": "Knowledge of the tax code",
+    "ru": "Знание налогового кодекса"
+  },
+  {
+    "code": "cash_book",
+    "group": "skills",
+    "az": "Kassa kitabının aparılması",
+    "en": "Keeping a cash book",
+    "ru": "Ведения кассовой книги"
+  },
+  {
+    "code": "warehouse_book",
+    "group": "skills",
+    "az": "Anbar uçotunun aparılması",
+    "en": "Warehouse accounting",
+    "ru": "Ведения складского учета"
+  },
+  {
+    "code": "inventories",
+    "group": "skills",
+    "az": "İnventarların uçotunun aparılması",
+    "en": "Conducting inventories",
+    "ru": "Проведения инвентаризаций"
+  },
+  {
+    "code": "reconciliation_acts",
+    "group": "skills",
+    "az": "Üzləşdirmə aktlarının tərtibi",
+    "en": "Composing reconciliation acts",
+    "ru": "Составления актов сверок"
+  },
+  {
+    "code": "computer_knowledge",
+    "group": "skills",
+    "az": "Kompüter bilikləri",
+    "en": "Computer skills",
+    "ru": "Компьютерные навыки"
+  },
+  {
+    "code": "css",
+    "group": "skills",
+    "az": "CSS",
+    "en": "CSS",
+    "ru": "CSS"
+  },
+  {
+    "code": "python",
+    "group": "skills",
+    "az": "Python proqramlaşdırma dili",
+    "en": "Python programming language",
+    "ru": "Язык программирования Python"
+  },
+  {
+    "code": "agility",
+    "group": "skills",
+    "az": "Çeviklik",
+    "en": "Agility",
+    "ru": "Гибкость"
+  },
+  {
+    "code": "cplusplus",
+    "group": "skills",
+    "az": "C++",
+    "en": "C++",
+    "ru": "C++"
+  },
+  {
+    "code": "research",
+    "group": "skills",
+    "az": "Araşdırma",
+    "en": "Research",
+    "ru": "Исследование"
+  },
+  {
+    "code": "sales",
+    "group": "skills",
+    "az": "Satış bacarığı",
+    "en": "Sales skills",
+    "ru": "Навыки продаж"
+  },
+  {
+    "code": "playing_piano",
+    "group": "skills",
+    "az": "Pianoda ifa etmək",
+    "en": "Playing the piano",
+    "ru": "Игра на пианино"
+  },
+  {
+    "code": "negotiation",
+    "group": "skills",
+    "az": "Danışıqların aparılması",
+    "en": "Negotiation skills",
+    "ru": "Ведение переговоров"
+  },
+  {
+    "code": "stress_resilience",
+    "group": "skills",
+    "az": "Stresə davamlılıq",
+    "en": "Stress resilience",
+    "ru": "Стрессоустойчивость"
+  },
+  {
+    "code": "oracle_sql",
+    "group": "skills",
+    "az": "Oracle SQL",
+    "en": "Oracle SQL",
+    "ru": "Oracle SQL"
+  },
+  {
+    "code": "smm",
+    "group": "skills",
+    "az": "SMM (Sosial Media Marketinqi)",
+    "en": "SMM (Social Media Marketing)",
+    "ru": "SMM (Маркетинг в социальных сетях)"
+  },
+  {
+    "code": "social_relations",
+    "group": "skills",
+    "az": "Sosial münasibətlər",
+    "en": "Social relations",
+    "ru": "Социальные отношения"
+  },
+  {
+    "code": "reactjs",
+    "group": "skills",
+    "az": "ReactJS",
+    "en": "ReactJS",
+    "ru": "ReactJS"
+  },
+  {
+    "code": "next_js",
+    "group": "skills",
+    "az": "Next.js",
+    "en": "Next.js",
+    "ru": "Next.js"
+  },
+  {
+    "code": "microfrontend",
+    "group": "skills",
+    "az": "Mikrofrontend",
+    "en": "Microfrontend",
+    "ru": "Микрофронтенд"
+  },
+  {
+    "code": "language_learning",
+    "group": "skills",
+    "az": "Dil öyrənmə bacarığı",
+    "en": "Language learning skills",
+    "ru": "Навыки изучения языка"
+  },
+  {
+    "code": "marketing",
+    "group": "skills",
+    "az": "Marketinq",
+    "en": "Marketing",
+    "ru": "Маркетинг"
+  },
+  {
+    "code": "first_aid",
+    "group": "skills",
+    "az": "İlkin tibbi yardım",
+    "en": "First aid",
+    "ru": "Первая помощь"
+  },
+  {
+    "code": "presentation",
+    "group": "skills",
+    "az": "Təqdimat bacarığı",
+    "en": "Presentation skills",
+    "ru": "Навыки презентации"
+  },
+  {
+    "code": "writing_articles",
+    "group": "skills",
+    "az": "Məqalə yazmaq",
+    "en": "Writing articles",
+    "ru": "Написание статей"
+  },
+  {
+    "code": "strategic_planning",
+    "group": "skills",
+    "az": "Strateji planlama",
+    "en": "Strategic planning",
+    "ru": "Стратегическое планирование"
+  },
+  {
+    "code": "creative_thinking",
+    "group": "skills",
+    "az": "Kreativ düşüncə",
+    "en": "Creative thinking",
+    "ru": "Креативное мышление"
+  },
+  {
+    "code": "baking_sweets",
+    "group": "skills",
+    "az": "Şirniyyat bişirmək",
+    "en": "Baking sweets",
+    "ru": "Выпекать сладости"
+  },
+  {
+    "code": "weaving",
+    "group": "skills",
+    "az": "Toxuma",
+    "en": "Weaving",
+    "ru": "Ткачество"
+  },
+  {
+    "code": "copywriting",
+    "group": "skills",
+    "az": "Kopiraytinq",
+    "en": "Copywriting",
+    "ru": "Копирайтинг"
+  },
+  {
+    "code": "java",
+    "group": "skills",
+    "az": "Java proqramlaşdırma dili",
+    "en": "Java programming language",
+    "ru": "Язык программирования Java"
+  },
+  {
+    "code": "injecting",
+    "group": "skills",
+    "az": "İynə vurmaq",
+    "en": "To inject",
+    "ru": "Сделать укол"
+  },
+  {
+    "code": "patientCare",
+    "group": "skills",
+    "az": "Xəstə baxımı",
+    "en": "Patient care",
+    "ru": "Уход за пациентами"
+  },
+  {
+    "code": "woundDressing",
+    "group": "skills",
+    "az": "Yara sarğısı",
+    "en": "Wound dressing",
+    "ru": "Перевязка раны"
+  },
+  {
+    "code": "vitalSignsMonitoring",
+    "group": "skills",
+    "az": "Həyati əlamətlərin izlənməsi",
+    "en": "Vital signs monitoring",
+    "ru": "Мониторинг жизненных показателей"
+  },
+  {
+    "code": "medicationAdministration",
+    "group": "skills",
+    "az": "Dərman vermək",
+    "en": "Medication administration",
+    "ru": "Применение медикаментов"
+  },
+  {
+    "code": "emergencyCare",
+    "group": "skills",
+    "az": "Təcili yardım",
+    "en": "Emergency care",
+    "ru": "Неотложная помощь"
+  },
+  {
+    "code": "infectionControl",
+    "group": "skills",
+    "az": "İnfeksiya nəzarəti",
+    "en": "Infection control",
+    "ru": "Контроль инфекций"
+  },
+  {
+    "code": "surveillance",
+    "group": "skills",
+    "az": "Müşahidə",
+    "en": "Surveillance",
+    "ru": "Наблюдение"
+  },
+  {
+    "code": "accessControl",
+    "group": "skills",
+    "az": "Giriş nəzarəti",
+    "en": "Access control",
+    "ru": "Контроль доступа"
+  },
+  {
+    "code": "patrolling",
+    "group": "skills",
+    "az": "Növbə çəkmək",
+    "en": "Patrolling",
+    "ru": "Патрулирование"
+  },
+  {
+    "code": "reportingIncidents",
+    "group": "skills",
+    "az": "Hadisələrin bildirilməsi",
+    "en": "Reporting incidents",
+    "ru": "Сообщение о происшествиях"
+  },
+  {
+    "code": "financialReporting",
+    "group": "skills",
+    "az": "Maliyyə hesabatı",
+    "en": "Financial reporting",
+    "ru": "Финансовая отчетность"
+  },
+  {
+    "code": "taxPreparation",
+    "group": "skills",
+    "az": "Vergi hazırlığı",
+    "en": "Tax preparation",
+    "ru": "Подготовка налогов"
+  },
+  {
+    "code": "budgeting",
+    "group": "skills",
+    "az": "Büdcə tərtibi",
+    "en": "Budgeting",
+    "ru": "Бюджетирование"
+  },
+  {
+    "code": "accountReconciliation",
+    "group": "skills",
+    "az": "Hesabların uyğunlaşdırılması",
+    "en": "Account reconciliation",
+    "ru": "Сверка счетов"
+  },
+  {
+    "code": "payrollProcessing",
+    "group": "skills",
+    "az": "Əməkhaqqının işlənməsi",
+    "en": "Payroll processing",
+    "ru": "Обработка заработной платы"
+  },
+  {
+    "code": "financialAnalysis",
+    "group": "skills",
+    "az": "Maliyyə analizi",
+    "en": "Financial analysis",
+    "ru": "Финансовый анализ"
+  },
+  {
+    "code": "auditing",
+    "group": "skills",
+    "az": "Auditorluq",
+    "en": "Auditing",
+    "ru": "Аудит"
+  },
+  {
+    "code": "compliance",
+    "group": "skills",
+    "az": "Uyğunluq",
+    "en": "Compliance",
+    "ru": "Соответствие"
+  },
+  {
+    "code": "interviewing",
+    "group": "skills",
+    "az": "Müsahibə aparmaq",
+    "en": "Interviewing",
+    "ru": "Интервьюирование"
+  },
+  {
+    "code": "editing",
+    "group": "skills",
+    "az": "Redaktə etmək",
+    "en": "Editing",
+    "ru": "Редактирование"
+  },
+  {
+    "code": "pressReleaseWriting",
+    "group": "skills",
+    "az": "Mətbuat bülleteni yazmaq",
+    "en": "Press release writing",
+    "ru": "Написание пресс-релизов"
+  },
+  {
+    "code": "newsEditing",
+    "group": "skills",
+    "az": "Xəbər redaktəsi",
+    "en": "News editing",
+    "ru": "Редактирование новостей"
+  },
+  {
+    "code": "customerService",
+    "group": "skills",
+    "az": "Müştəri xidməti",
+    "en": "Customer service",
+    "ru": "Обслуживание клиентов"
+  },
+  {
+    "code": "phoneHandling",
+    "group": "skills",
+    "az": "Telefonla danışmaq",
+    "en": "Phone handling",
+    "ru": "Обработка звонков"
+  },
+  {
+    "code": "appointmentScheduling",
+    "group": "skills",
+    "az": "Təqvim planlaması",
+    "en": "Appointment scheduling",
+    "ru": "Запись на прием"
+  },
+  {
+    "code": "greetingGuests",
+    "group": "skills",
+    "az": "Qonaqları qarşılamaq",
+    "en": "Greeting guests",
+    "ru": "Приветствие гостей"
+  },
+  {
+    "code": "administrativeSupport",
+    "group": "skills",
+    "az": "İnzibati dəstək",
+    "en": "Administrative support",
+    "ru": "Административная поддержка"
+  },
+  {
+    "code": "dataEntry",
+    "group": "skills",
+    "az": "Məlumat daxil etmək",
+    "en": "Data entry",
+    "ru": "Ввод данных"
+  },
+  {
+    "code": "frontDeskManagement",
+    "group": "skills",
+    "az": "Resepşn idarəçiliyi",
+    "en": "Front desk management",
+    "ru": "Управление стойкой регистрации"
+  },
+  {
+    "code": "skinCare",
+    "group": "skills",
+    "az": "Dəriyə qulluq",
+    "en": "Skin care",
+    "ru": "Уход за кожей"
+  },
+  {
+    "code": "facialTreatments",
+    "group": "skills",
+    "az": "Üz müalicələri",
+    "en": "Facial treatments",
+    "ru": "Уход за лицом"
+  },
+  {
+    "code": "hairRemoval",
+    "group": "skills",
+    "az": "Saçların aradan qaldırılması",
+    "en": "Hair removal",
+    "ru": "Удаление волос"
+  },
+  {
+    "code": "makeupApplication",
+    "group": "skills",
+    "az": "Makiyaj tətbiqi",
+    "en": "Makeup application",
+    "ru": "Применение макияжа"
+  },
+  {
+    "code": "manicurePedicure",
+    "group": "skills",
+    "az": "Manikür və pedikür",
+    "en": "Manicure and pedicure",
+    "ru": "Маникюр и педикюр"
+  },
+  {
+    "code": "nailArt",
+    "group": "skills",
+    "az": "Dırnaq sənəti",
+    "en": "Nail art",
+    "ru": "Нейл-арт"
+  },
+  {
+    "code": "massageTherapy",
+    "group": "skills",
+    "az": "Masaj terapiyası",
+    "en": "Massage therapy",
+    "ru": "Массажная терапия"
+  },
+  {
+    "code": "antiAgingTreatments",
+    "group": "skills",
+    "az": "Anti-aging müalicələri",
+    "en": "Anti-aging treatments",
+    "ru": "Антивозрастные процедуры"
+  },
+  {
+    "code": "cashHandling",
+    "group": "skills",
+    "az": "Nağd ödənişlərin idarə olunması",
+    "en": "Cash handling",
+    "ru": "Обработка наличных"
+  },
+  {
+    "code": "registerOperation",
+    "group": "skills",
+    "az": "Kassa əməliyyatları",
+    "en": "Register operation",
+    "ru": "Операции с кассой"
+  },
+  {
+    "code": "receiptIssuing",
+    "group": "skills",
+    "az": "Qəbz vermək",
+    "en": "Receipt issuing",
+    "ru": "Выдача чека"
+  },
+  {
+    "code": "paymentVerification",
+    "group": "skills",
+    "az": "Ödənişlərin yoxlanılması",
+    "en": "Payment verification",
+    "ru": "Проверка платежей"
+  },
+  {
+    "code": "inventoryManagement",
+    "group": "skills",
+    "az": "İnventarın idarə edilməsi",
+    "en": "Inventory management",
+    "ru": "Управление инвентарем"
+  },
+  {
+    "code": "balanceReconciliation",
+    "group": "skills",
+    "az": "Balansın uyğunlaşdırılması",
+    "en": "Balance reconciliation",
+    "ru": "Сверка баланса"
+  },
+  {
+    "code": "stockReceiving",
+    "group": "skills",
+    "az": "Mal qəbul etmək",
+    "en": "Stock receiving",
+    "ru": "Прием товара"
+  },
+  {
+    "code": "orderFulfillment",
+    "group": "skills",
+    "az": "Sifarişin yerinə yetirilməsi",
+    "en": "Order fulfillment",
+    "ru": "Выполнение заказов"
+  },
+  {
+    "code": "shippingPreparation",
+    "group": "skills",
+    "az": "Göndərilməyə hazırlıq",
+    "en": "Shipping preparation",
+    "ru": "Подготовка к отправке"
+  },
+  {
+    "code": "qualityControl",
+    "group": "skills",
+    "az": "Keyfiyyətə nəzarət",
+    "en": "Quality control",
+    "ru": "Контроль качества"
+  },
+  {
+    "code": "warehouseSafety",
+    "group": "skills",
+    "az": "Anbar təhlükəsizliyi",
+    "en": "Warehouse safety",
+    "ru": "Безопасность на складе"
+  },
+  {
+    "code": "wiringInstallation",
+    "group": "skills",
+    "az": "Şəbəkə simlərinin quraşdırılması",
+    "en": "Wiring installation",
+    "ru": "Установка проводки"
+  },
+  {
+    "code": "circuitRepair",
+    "group": "skills",
+    "az": "Dövrənin təmiri",
+    "en": "Circuit repair",
+    "ru": "Ремонт цепей"
+  },
+  {
+    "code": "electricalTesting",
+    "group": "skills",
+    "az": "Elektrik testləri",
+    "en": "Electrical testing",
+    "ru": "Электрические испытания"
+  },
+  {
+    "code": "troubleshooting",
+    "group": "skills",
+    "az": "Nasazlıqların aradan qaldırılması",
+    "en": "Troubleshooting",
+    "ru": "Устранение неполадок"
+  },
+  {
+    "code": "installationOfElectricalEquipment",
+    "group": "skills",
+    "az": "Elektrik avadanlıqlarının quraşdırılması",
+    "en": "Installation of electrical equipment",
+    "ru": "Установка электрического оборудования"
+  },
+  {
+    "code": "safetyStandards",
+    "group": "skills",
+    "az": "Təhlükəsizlik standartları",
+    "en": "Safety standards",
+    "ru": "Стандарты безопасности"
+  },
+  {
+    "code": "maintenanceOfElectricalSystems",
+    "group": "skills",
+    "az": "Elektrik sistemlərinin təmiri",
+    "en": "Maintenance of electrical systems",
+    "ru": "Техническое обслуживание электрических систем"
+  },
+  {
+    "code": "serverManagement",
+    "group": "skills",
+    "az": "Serverin idarə olunması",
+    "en": "Server management",
+    "ru": "Управление сервером"
+  },
+  {
+    "code": "networkConfiguration",
+    "group": "skills",
+    "az": "Şəbəkə konfiqurasiyası",
+    "en": "Network configuration",
+    "ru": "Конфигурация сети"
+  },
+  {
+    "code": "databaseManagement",
+    "group": "skills",
+    "az": "Verilənlər bazasının idarə edilməsi",
+    "en": "Database management",
+    "ru": "Управление базой данных"
+  },
+  {
+    "code": "systemMonitoring",
+    "group": "skills",
+    "az": "Sistemin monitorinqi",
+    "en": "System monitoring",
+    "ru": "Мониторинг системы"
+  },
+  {
+    "code": "securityManagement",
+    "group": "skills",
+    "az": "Təhlükəsizlik idarəçiliyi",
+    "en": "Security management",
+    "ru": "Управление безопасностью"
+  },
+  {
+    "code": "backupAndRecovery",
+    "group": "skills",
+    "az": "Ehtiyat nüsxə və bərpa",
+    "en": "Backup and recovery",
+    "ru": "Резервное копирование и восстановление"
+  },
+  {
+    "code": "softwareInstallation",
+    "group": "skills",
+    "az": "Proqram təminatının quraşdırılması",
+    "en": "Software installation",
+    "ru": "Установка программного обеспечения"
+  },
+  {
+    "code": "productDisplay",
+    "group": "skills",
+    "az": "Məhsul nümayişi",
+    "en": "Product display",
+    "ru": "Выставка товара"
+  },
+  {
+    "code": "stockOrganization",
+    "group": "skills",
+    "az": "Məhsul ehtiyatlarının təşkilatı",
+    "en": "Stock organization",
+    "ru": "Организация запасов"
+  },
+  {
+    "code": "salesOptimization",
+    "group": "skills",
+    "az": "Satışın optimallaşdırılması",
+    "en": "Sales optimization",
+    "ru": "Оптимизация продаж"
+  },
+  {
+    "code": "salesAnalysis",
+    "group": "skills",
+    "az": "Satış analizləri",
+    "en": "Sales analysis",
+    "ru": "Анализ продаж"
+  },
+  {
+    "code": "promotionalActivities",
+    "group": "skills",
+    "az": "Tədbirlər və promosyonlar",
+    "en": "Promotional activities",
+    "ru": "Рекламные мероприятия"
+  },
+  {
+    "code": "customerEngagement",
+    "group": "skills",
+    "az": "Müştəri ilə əlaqə qurmaq",
+    "en": "Customer engagement",
+    "ru": "Взаимодействие с клиентами"
+  },
+  {
+    "code": "culinarySkills",
+    "group": "skills",
+    "az": "Kulinariya bacarıqları",
+    "en": "Culinary skills",
+    "ru": "Кулинарные навыки"
+  },
+  {
+    "code": "menuPlanning",
+    "group": "skills",
+    "az": "Menyu planlaması",
+    "en": "Menu planning",
+    "ru": "Планирование меню"
+  },
+  {
+    "code": "foodPreparation",
+    "group": "skills",
+    "az": "Yemək hazırlığı",
+    "en": "Food preparation",
+    "ru": "Подготовка пищи"
+  },
+  {
+    "code": "foodPresentation",
+    "group": "skills",
+    "az": "Yeməyin təqdimatı",
+    "en": "Food presentation",
+    "ru": "Презентация блюд"
+  },
+  {
+    "code": "kitchenManagement",
+    "group": "skills",
+    "az": "Mətbəx idarəçiliyi",
+    "en": "Kitchen management",
+    "ru": "Управление кухней"
+  },
+  {
+    "code": "teamCoordination",
+    "group": "skills",
+    "az": "Komanda koordinasiyası",
+    "en": "Team coordination",
+    "ru": "Координация команды"
+  },
+  {
+    "code": "routeOptimization",
+    "group": "skills",
+    "az": "Marşrut optimallaşdırması",
+    "en": "Route optimization",
+    "ru": "Оптимизация маршрутов"
+  },
+  {
+    "code": "supplyChainManagement",
+    "group": "skills",
+    "az": "Təchizat zəncirinin idarə olunması",
+    "en": "Supply chain management",
+    "ru": "Управление цепочкой поставок"
+  },
+  {
+    "code": "transportationPlanning",
+    "group": "skills",
+    "az": "Nəqliyyat planlaşdırılması",
+    "en": "Transportation planning",
+    "ru": "Планирование транспортировки"
+  },
+  {
+    "code": "freightManagement",
+    "group": "skills",
+    "az": "Yük daşımaları idarəçiliyi",
+    "en": "Freight management",
+    "ru": "Управление грузоперевозками"
+  },
+  {
+    "code": "logisticsAnalysis",
+    "group": "skills",
+    "az": "Logistika analizləri",
+    "en": "Logistics analysis",
+    "ru": "Анализ логистики"
+  },
+  {
+    "code": "trafficFlowAnalysis",
+    "group": "skills",
+    "az": "Nəqliyyat axını analizləri",
+    "en": "Traffic flow analysis",
+    "ru": "Анализ потока трафика"
+  },
+  {
+    "code": "costOptimization",
+    "group": "skills",
+    "az": "Məhsul optimallaşdırılması",
+    "en": "Cost optimization",
+    "ru": "Оптимизация затрат"
+  },
+  {
+    "code": "graphicDesign",
+    "group": "skills",
+    "az": "Qrafik dizayn",
+    "en": "Graphic design",
+    "ru": "Графический дизайн"
+  },
+  {
+    "code": "visualCommunication",
+    "group": "skills",
+    "az": "Vizual kommunikasiya",
+    "en": "Visual communication",
+    "ru": "Визуальная коммуникация"
+  },
+  {
+    "code": "typography",
+    "group": "skills",
+    "az": "Tipografiya",
+    "en": "Typography",
+    "ru": "Типография"
+  },
+  {
+    "code": "webDesign",
+    "group": "skills",
+    "az": "Veb dizayn",
+    "en": "Web design",
+    "ru": "Веб-дизайн"
+  },
+  {
+    "code": "userExperience",
+    "group": "skills",
+    "az": "İstifadəçi təcrübəsi",
+    "en": "User experience",
+    "ru": "Пользовательский опыт"
+  },
+  {
+    "code": "colorTheory",
+    "group": "skills",
+    "az": "Rəng nəzəriyyəsi",
+    "en": "Color theory",
+    "ru": "Теория цвета"
+  },
+  {
+    "code": "photoshopSkills",
+    "group": "skills",
+    "az": "Photoshop bacarıqları",
+    "en": "Photoshop skills",
+    "ru": "Навыки Photoshop"
+  },
+  {
+    "code": "illustration",
+    "group": "skills",
+    "az": "İllüstrasiya",
+    "en": "Illustration",
+    "ru": "Иллюстрация"
+  },
+  {
+    "code": "serverSideProgramming",
+    "group": "skills",
+    "az": "Server tərəfi proqramlaşdırma",
+    "en": "Server-side programming",
+    "ru": "Программирование на серверной стороне"
+  },
+  {
+    "code": "apiDevelopment",
+    "group": "skills",
+    "az": "API tərtibatı",
+    "en": "API development",
+    "ru": "Разработка API"
+  },
+  {
+    "code": "versionControl",
+    "group": "skills",
+    "az": "Versiya idarəetməsi",
+    "en": "Version control",
+    "ru": "Контроль версий"
+  },
+  {
+    "code": "cloudIntegration",
+    "group": "skills",
+    "az": "Bulud inteqrasiyası",
+    "en": "Cloud integration",
+    "ru": "Интеграция в облаке"
+  },
+  {
+    "code": "performanceOptimization",
+    "group": "skills",
+    "az": "Performansın optimallaşdırılması",
+    "en": "Performance optimization",
+    "ru": "Оптимизация производительности"
+  },
+  {
+    "code": "errorHandling",
+    "group": "skills",
+    "az": "Xəta idarəetməsi",
+    "en": "Error handling",
+    "ru": "Обработка ошибок"
+  },
+  {
+    "code": "containerization",
+    "group": "skills",
+    "az": "Konteynerləşdirmə",
+    "en": "Containerization",
+    "ru": "Контейнеризация"
+  },
+  {
+    "code": "environmentalImpactAssessment",
+    "group": "skills",
+    "az": "Ətraf mühitə təsirin qiymətləndirilməsi",
+    "en": "Environmental impact assessment",
+    "ru": "Оценка воздействия на окружающую среду"
+  },
+  {
+    "code": "wasteManagement",
+    "group": "skills",
+    "az": "Tullantıların idarə edilməsi",
+    "en": "Waste management",
+    "ru": "Управление отходами"
+  },
+  {
+    "code": "pollutionControl",
+    "group": "skills",
+    "az": "Çirklənmənin nəzarəti",
+    "en": "Pollution control",
+    "ru": "Контроль загрязнения"
+  },
+  {
+    "code": "waterQualityManagement",
+    "group": "skills",
+    "az": "Su keyfiyyəti idarəçiliyi",
+    "en": "Water quality management",
+    "ru": "Управление качеством воды"
+  },
+  {
+    "code": "energyEfficiency",
+    "group": "skills",
+    "az": "Enerji səmərəliliyi",
+    "en": "Energy efficiency",
+    "ru": "Энергоэффективность"
+  },
+  {
+    "code": "ecosystemManagement",
+    "group": "skills",
+    "az": "Ekosistem idarəçiliyi",
+    "en": "Ecosystem management",
+    "ru": "Управление экосистемами"
+  },
+  {
+    "code": "legalResearch",
+    "group": "skills",
+    "az": "Hüquqi tədqiqat",
+    "en": "Legal research",
+    "ru": "Юридические исследования"
+  },
+  {
+    "code": "contractDrafting",
+    "group": "skills",
+    "az": "Müqavilə hazırlığı",
+    "en": "Contract drafting",
+    "ru": "Составление контрактов"
+  },
+  {
+    "code": "litigation",
+    "group": "skills",
+    "az": "Məhkəmə işi",
+    "en": "Litigation",
+    "ru": "Судебные разбирательства"
+  },
+  {
+    "code": "legalAdvisory",
+    "group": "skills",
+    "az": "Hüquqi məsləhət",
+    "en": "Legal advisory",
+    "ru": "Юридическое консультирование"
+  },
+  {
+    "code": "disputeResolution",
+    "group": "skills",
+    "az": "Mübahisələrin həlli",
+    "en": "Dispute resolution",
+    "ru": "Разрешение споров"
+  },
+  {
+    "code": "intellectualProperty",
+    "group": "skills",
+    "az": "İntellektual mülkiyyət",
+    "en": "Intellectual property",
+    "ru": "Интеллектуальная собственность"
+  },
+  {
+    "code": "riskAssessment",
+    "group": "skills",
+    "az": "Risk qiymətləndirməsi",
+    "en": "Risk assessment",
+    "ru": "Оценка рисков"
+  },
+  {
+    "code": "claimsProcessing",
+    "group": "skills",
+    "az": "İddiaların işlənməsi",
+    "en": "Claims processing",
+    "ru": "Обработка претензий"
+  },
+  {
+    "code": "customerConsultation",
+    "group": "skills",
+    "az": "Müştəri məsləhətləri",
+    "en": "Customer consultation",
+    "ru": "Консультации с клиентами"
+  },
+  {
+    "code": "insuranceRegulations",
+    "group": "skills",
+    "az": "Siğorta tənzimləmələri",
+    "en": "Insurance regulations",
+    "ru": "Стандарты страхования"
+  },
+  {
+    "code": "premiumCalculation",
+    "group": "skills",
+    "az": "Premiyanın hesablanması",
+    "en": "Premium calculation",
+    "ru": "Расчет премии"
+  },
+  {
+    "code": "policyRenewal",
+    "group": "skills",
+    "az": "Sığorta siyasətinin yenilənməsi",
+    "en": "Policy renewal",
+    "ru": "Продление полиса"
+  },
+  {
+    "code": "testPlanning",
+    "group": "skills",
+    "az": "Test planlaşdırması",
+    "en": "Test planning",
+    "ru": "Планирование тестирования"
+  },
+  {
+    "code": "manualTesting",
+    "group": "skills",
+    "az": "Əl ilə test etmə",
+    "en": "Manual testing",
+    "ru": "Ручное тестирование"
+  },
+  {
+    "code": "automatedTesting",
+    "group": "skills",
+    "az": "Avtomatlaşdırılmış test etmə",
+    "en": "Automated testing",
+    "ru": "Автоматизированное тестирование"
+  },
+  {
+    "code": "performanceTesting",
+    "group": "skills",
+    "az": "Performans testləri",
+    "en": "Performance testing",
+    "ru": "Тестирование производительности"
+  },
+  {
+    "code": "regressionTesting",
+    "group": "skills",
+    "az": "Regressiya testləri",
+    "en": "Regression testing",
+    "ru": "Регрессионное тестирование"
+  },
+  {
+    "code": "testAutomationTools",
+    "group": "skills",
+    "az": "Test avtomatlaşdırma vasitələri",
+    "en": "Test automation tools",
+    "ru": "Инструменты автоматизации тестирования"
+  },
+  {
+    "code": "continuousIntegration",
+    "group": "skills",
+    "az": "Davamlı inteqrasiya",
+    "en": "Continuous integration",
+    "ru": "Непрерывная интеграция"
+  },
+  {
+    "code": "qualityStandards",
+    "group": "skills",
+    "az": "Keyfiyyət standartları",
+    "en": "Quality standards",
+    "ru": "Стандарты качества"
+  },
+  {
+    "code": "campaignStrategy",
+    "group": "skills",
+    "az": "Kampaniya strategiyası",
+    "en": "Campaign strategy",
+    "ru": "Стратегия кампании"
+  },
+  {
+    "code": "budgetManagement",
+    "group": "skills",
+    "az": "Büdcə idarəçiliyi",
+    "en": "Budget management",
+    "ru": "Управление бюджетом"
+  },
+  {
+    "code": "marketResearch",
+    "group": "skills",
+    "az": "Bazar araşdırması",
+    "en": "Market research",
+    "ru": "Маркетинговые исследования"
+  },
+  {
+    "code": "mediaPlanning",
+    "group": "skills",
+    "az": "Media planlaşdırması",
+    "en": "Media planning",
+    "ru": "Медиапланирование"
+  },
+  {
+    "code": "advertisingChannels",
+    "group": "skills",
+    "az": "Reklam kanalları",
+    "en": "Advertising channels",
+    "ru": "Рекламные каналы"
+  },
+  {
+    "code": "digitalMarketing",
+    "group": "skills",
+    "az": "Rəqəmsal marketinq",
+    "en": "Digital marketing",
+    "ru": "Цифровой маркетинг"
+  },
+  {
+    "code": "brandAwareness",
+    "group": "skills",
+    "az": "Brendin tanıdılması",
+    "en": "Brand awareness",
+    "ru": "Осведомленность о бренде"
+  },
+  {
+    "code": "socialMediaMarketing",
+    "group": "skills",
+    "az": "Sosial media marketinqi",
+    "en": "Social media marketing",
+    "ru": "Маркетинг в социальных сетях"
+  },
+  {
+    "code": "contentCreation",
+    "group": "skills",
+    "az": "Məzmun yaradılması",
+    "en": "Content creation",
+    "ru": "Создание контента"
+  },
+  {
+    "code": "advertisingMetrics",
+    "group": "skills",
+    "az": "Reklam metrikaları",
+    "en": "Advertising metrics",
+    "ru": "Рекламные метрики"
+  },
+  {
+    "code": "politicalTheory",
+    "group": "skills",
+    "az": "Siyasi nəzəriyyə",
+    "en": "Political theory",
+    "ru": "Политическая теория"
+  },
+  {
+    "code": "comparativePolitics",
+    "group": "skills",
+    "az": "Müqayisəli siyasət",
+    "en": "Comparative politics",
+    "ru": "Сравнительная политика"
+  },
+  {
+    "code": "internationalRelations",
+    "group": "skills",
+    "az": "Beynəlxalq münasibətlər",
+    "en": "International relations",
+    "ru": "Международные отношения"
+  },
+  {
+    "code": "politicalResearch",
+    "group": "skills",
+    "az": "Siyasi tədqiqat",
+    "en": "Political research",
+    "ru": "Политическое исследование"
+  },
+  {
+    "code": "publicPolicy",
+    "group": "skills",
+    "az": "İctimai siyasət",
+    "en": "Public policy",
+    "ru": "Государственная политика"
+  },
+  {
+    "code": "politicalCommunication",
+    "group": "skills",
+    "az": "Siyasi kommunikasiya",
+    "en": "Political communication",
+    "ru": "Политическая коммуникация"
+  },
+  {
+    "code": "electionAnalysis",
+    "group": "skills",
+    "az": "Seçki analizi",
+    "en": "Election analysis",
+    "ru": "Анализ выборов"
+  },
+  {
+    "code": "politicalEconomy",
+    "group": "skills",
+    "az": "Siyasi iqtisadiyyat",
+    "en": "Political economy",
+    "ru": "Политическая экономика"
+  },
+  {
+    "code": "supplierManagement",
+    "group": "skills",
+    "az": "Təchizatçıların idarə edilməsi",
+    "en": "Supplier management",
+    "ru": "Управление поставщиками"
+  },
+  {
+    "code": "contractNegotiation",
+    "group": "skills",
+    "az": "Müqavilə danışıqları",
+    "en": "Contract negotiation",
+    "ru": "Переговоры по контрактам"
+  },
+  {
+    "code": "inventoryControl",
+    "group": "skills",
+    "az": "Ehtiyatların idarə edilməsi",
+    "en": "Inventory control",
+    "ru": "Контроль за запасами"
+  },
+  {
+    "code": "vendorSelection",
+    "group": "skills",
+    "az": "Təchizatçı seçimi",
+    "en": "Vendor selection",
+    "ru": "Выбор поставщика"
+  },
+  {
+    "code": "sustainabilityPurchasing",
+    "group": "skills",
+    "az": "Davamlı satınalmalar",
+    "en": "Sustainability purchasing",
+    "ru": "Устойчивые закупки"
+  },
+  {
+    "code": "communityEngagement",
+    "group": "skills",
+    "az": "İcma ilə əlaqə",
+    "en": "Community engagement",
+    "ru": "Взаимодействие с сообществом"
+  },
+  {
+    "code": "eventCoordination",
+    "group": "skills",
+    "az": "Tədbir koordinasiyası",
+    "en": "Event coordination",
+    "ru": "Координация мероприятий"
+  },
+  {
+    "code": "teamCollaboration",
+    "group": "skills",
+    "az": "Komanda ilə əməkdaşlıq",
+    "en": "Team collaboration",
+    "ru": "Сотрудничество в команде"
+  },
+  {
+    "code": "communicationSkills",
+    "group": "skills",
+    "az": "Ünsiyyət bacarıqları",
+    "en": "Communication skills",
+    "ru": "Коммуникационные навыки"
+  },
+  {
+    "code": "fundraising",
+    "group": "skills",
+    "az": "İnvestisiya toplama",
+    "en": "Fundraising",
+    "ru": "Сбор средств"
+  },
+  {
+    "code": "empathy",
+    "group": "skills",
+    "az": "Empatiya",
+    "en": "Empathy",
+    "ru": "Эмпатия"
+  },
+  {
+    "code": "leadership",
+    "group": "skills",
+    "az": "Liderlik",
+    "en": "Leadership",
+    "ru": "Лидерство"
+  },
+  {
+    "code": "organizationSkills",
+    "group": "skills",
+    "az": "Təşkilatçılıq bacarıqları",
+    "en": "Organization skills",
+    "ru": "Организационные навыки"
+  },
+  {
+    "code": "creditAnalysis",
+    "group": "skills",
+    "az": "Kredit analizi",
+    "en": "Credit analysis",
+    "ru": "Кредитный анализ"
+  },
+  {
+    "code": "loanAssessment",
+    "group": "skills",
+    "az": "Kreditin qiymətləndirilməsi",
+    "en": "Loan assessment",
+    "ru": "Оценка кредита"
+  },
+  {
+    "code": "creditRiskManagement",
+    "group": "skills",
+    "az": "Kredit riski idarəçiliyi",
+    "en": "Credit risk management",
+    "ru": "Управление кредитными рисками"
+  },
+  {
+    "code": "creditReporting",
+    "group": "skills",
+    "az": "Kredit hesabatı",
+    "en": "Credit reporting",
+    "ru": "Кредитное отчетность"
+  },
+  {
+    "code": "loanDocumentation",
+    "group": "skills",
+    "az": "Kredit sənədləşdirilməsi",
+    "en": "Loan documentation",
+    "ru": "Документация по кредиту"
+  },
+  {
+    "code": "creditPolicies",
+    "group": "skills",
+    "az": "Kredit siyasətləri",
+    "en": "Credit policies",
+    "ru": "Кредитные политики"
+  },
+  {
+    "code": "customerCreditAssessment",
+    "group": "skills",
+    "az": "Müştəri kredit qiymətləndirilməsi",
+    "en": "Customer credit assessment",
+    "ru": "Оценка кредитоспособности клиента"
+  },
+  {
+    "code": "accountManagement",
+    "group": "skills",
+    "az": "Hesab idarəçiliyi",
+    "en": "Account management",
+    "ru": "Управление счетами"
+  },
+  {
+    "code": "loanProcessing",
+    "group": "skills",
+    "az": "Kredit emalı",
+    "en": "Loan processing",
+    "ru": "Обработка кредитов"
+  },
+  {
+    "code": "riskManagement",
+    "group": "skills",
+    "az": "Risk idarəçiliyi",
+    "en": "Risk management",
+    "ru": "Управление рисками"
+  },
+  {
+    "code": "transactionProcessing",
+    "group": "skills",
+    "az": "Əməliyyatların emalı",
+    "en": "Transaction processing",
+    "ru": "Обработка транзакций"
+  },
+  {
+    "code": "bankingSoftware",
+    "group": "skills",
+    "az": "Bankçılıq proqram təminatı",
+    "en": "Banking software",
+    "ru": "Банковское программное обеспечение"
+  },
+  {
+    "code": "treasuryManagement",
+    "group": "skills",
+    "az": "Xəzinə idarəçiliyi",
+    "en": "Treasury management",
+    "ru": "Управление казначейством"
+  },
+  {
+    "code": "recruitment",
+    "group": "skills",
+    "az": "İşə qəbul",
+    "en": "Recruitment",
+    "ru": "Набор персонала"
+  },
+  {
+    "code": "talentManagement",
+    "group": "skills",
+    "az": "İstedadın idarə edilməsi",
+    "en": "Talent management",
+    "ru": "Управление талантами"
+  },
+  {
+    "code": "hrCompliance",
+    "group": "skills",
+    "az": "İnsan resursları uyğunluğu",
+    "en": "HR compliance",
+    "ru": "Соответствие требованиям в области HR"
+  },
+  {
+    "code": "workplaceSafety",
+    "group": "skills",
+    "az": "İş yerində təhlükəsizlik",
+    "en": "Workplace safety",
+    "ru": "Безопасность на рабочем месте"
+  },
+  {
+    "code": "conflictResolution",
+    "group": "skills",
+    "az": "Münaqişələrin həlli",
+    "en": "Conflict resolution",
+    "ru": "Разрешение конфликтов"
+  },
+  {
+    "code": "surveying",
+    "group": "skills",
+    "az": "Ərazi ölçmələri",
+    "en": "Surveying",
+    "ru": "Геодезические измерения"
+  },
+  {
+    "code": "geodeticSurvey",
+    "group": "skills",
+    "az": "Geodeziya tədqiqatları",
+    "en": "Geodetic survey",
+    "ru": "Геодезическое обследование"
+  },
+  {
+    "code": "landBoundaryDetermination",
+    "group": "skills",
+    "az": "Torpaq sərhədlərinin müəyyən edilməsi",
+    "en": "Land boundary determination",
+    "ru": "Определение границ участка"
+  },
+  {
+    "code": "gpsMapping",
+    "group": "skills",
+    "az": "GPS xəritəçəkmə",
+    "en": "GPS mapping",
+    "ru": "Геодезическая съемка с использованием GPS"
+  },
+  {
+    "code": "dataAnalysis",
+    "group": "skills",
+    "az": "Məlumatların analizi",
+    "en": "Data analysis",
+    "ru": "Анализ данных"
+  },
+  {
+    "code": "cadSoftware",
+    "group": "skills",
+    "az": "CAD proqram təminatı",
+    "en": "CAD software",
+    "ru": "Программное обеспечение CAD"
+  },
+  {
+    "code": "cartography",
+    "group": "skills",
+    "az": "Kartoqrafiya",
+    "en": "Cartography",
+    "ru": "Картография"
+  },
+  {
+    "code": "landTopography",
+    "group": "skills",
+    "az": "Torpaq topoqrafiyası",
+    "en": "Land topography",
+    "ru": "Топография земли"
+  },
+  {
+    "code": "trainingPlanning",
+    "group": "skills",
+    "az": "Təlim planlaması",
+    "en": "Training planning",
+    "ru": "Планирование тренировок"
+  },
+  {
+    "code": "athleteDevelopment",
+    "group": "skills",
+    "az": "İdmançının inkişafı",
+    "en": "Athlete development",
+    "ru": "Развитие спортсмена"
+  },
+  {
+    "code": "performanceAnalysis",
+    "group": "skills",
+    "az": "Performansın analizi",
+    "en": "Performance analysis",
+    "ru": "Анализ производительности"
+  },
+  {
+    "code": "motivationalSkills",
+    "group": "skills",
+    "az": "Motivasiya bacarıqları",
+    "en": "Motivational skills",
+    "ru": "Мотивационные навыки"
+  },
+  {
+    "code": "strategyDevelopment",
+    "group": "skills",
+    "az": "Strategiya inkişafı",
+    "en": "Strategy development",
+    "ru": "Разработка стратегии"
+  },
+  {
+    "code": "teamBuilding",
+    "group": "skills",
+    "az": "Komanda quruculuğu",
+    "en": "Team building",
+    "ru": "Построение команды"
+  },
+  {
+    "code": "fitnessAssessment",
+    "group": "skills",
+    "az": "Fiziki uyğunluq qiymətləndirilməsi",
+    "en": "Fitness assessment",
+    "ru": "Оценка физической подготовки"
+  },
+  {
+    "code": "individualizedTraining",
+    "group": "skills",
+    "az": "Fərdi təlim",
+    "en": "Individualized training",
+    "ru": "Индивидуальный тренинг"
+  },
+  {
+    "code": "medicationDispensing",
+    "group": "skills",
+    "az": "Dərmanların verilməsi",
+    "en": "Medication dispensing",
+    "ru": "Отпуск лекарств"
+  },
+  {
+    "code": "medicationStorage",
+    "group": "skills",
+    "az": "Dərmanların saxlanması",
+    "en": "Medication storage",
+    "ru": "Хранение лекарств"
+  },
+  {
+    "code": "drugPreparation",
+    "group": "skills",
+    "az": "Dərman hazırlığı",
+    "en": "Drug preparation",
+    "ru": "Приготовление лекарств"
+  },
+  {
+    "code": "pharmacology",
+    "group": "skills",
+    "az": "Farmakologiya",
+    "en": "Pharmacology",
+    "ru": "Фармакология"
+  },
+  {
+    "code": "medicationMonitoring",
+    "group": "skills",
+    "az": "Dərmanların izlənməsi",
+    "en": "Medication monitoring",
+    "ru": "Мониторинг лекарств"
+  },
+  {
+    "code": "childDevelopment",
+    "group": "skills",
+    "az": "Uşaq inkişafı",
+    "en": "Child development",
+    "ru": "Развитие ребенка"
+  },
+  {
+    "code": "lessonPlanning",
+    "group": "skills",
+    "az": "Dərs planlaması",
+    "en": "Lesson planning",
+    "ru": "Планирование уроков"
+  },
+  {
+    "code": "earlyLearningMethods",
+    "group": "skills",
+    "az": "Erkən öyrənmə metodları",
+    "en": "Early learning methods",
+    "ru": "Методы раннего обучения"
+  },
+  {
+    "code": "classroomManagement",
+    "group": "skills",
+    "az": "Sinif idarəçiliyi",
+    "en": "Classroom management",
+    "ru": "Управление классом"
+  },
+  {
+    "code": "creativeActivities",
+    "group": "skills",
+    "az": "Yaradıcılıq fəaliyyətləri",
+    "en": "Creative activities",
+    "ru": "Творческая деятельность"
+  },
+  {
+    "code": "languageDevelopment",
+    "group": "skills",
+    "az": "Dil inkişafı",
+    "en": "Language development",
+    "ru": "Развитие языка"
+  },
+  {
+    "code": "childPsychology",
+    "group": "skills",
+    "az": "Uşaq psixologiyası",
+    "en": "Child psychology",
+    "ru": "Детская психология"
+  },
+  {
+    "code": "parentCommunication",
+    "group": "skills",
+    "az": "Valideynlərlə ünsiyyət",
+    "en": "Parent communication",
+    "ru": "Общение с родителями"
+  },
+  {
+    "code": "socialSkillsDevelopment",
+    "group": "skills",
+    "az": "Sosial bacarıqların inkişafı",
+    "en": "Social skills development",
+    "ru": "Развитие социальных навыков"
+  },
+  {
+    "code": "assessmentAndEvaluation",
+    "group": "skills",
+    "az": "Qiymətləndirmə və dəyərləndirmə",
+    "en": "Assessment and evaluation",
+    "ru": "Оценка и оценивание"
+  },
+  {
+    "code": "psychologicalAssessment",
+    "group": "skills",
+    "az": "Psixoloji qiymətləndirmə",
+    "en": "Psychological assessment",
+    "ru": "Психологическая оценка"
+  },
+  {
+    "code": "counseling",
+    "group": "skills",
+    "az": "Konsultasiya",
+    "en": "Counseling",
+    "ru": "Консультирование"
+  },
+  {
+    "code": "mentalHealthSupport",
+    "group": "skills",
+    "az": "Ruhi sağlamlıq dəstəyi",
+    "en": "Mental health support",
+    "ru": "Поддержка психического здоровья"
+  },
+  {
+    "code": "behavioralTherapy",
+    "group": "skills",
+    "az": "Davranış terapiyası",
+    "en": "Behavioral therapy",
+    "ru": "Поведенческая терапия"
+  },
+  {
+    "code": "stressManagement",
+    "group": "skills",
+    "az": "Stresin idarə edilməsi",
+    "en": "Stress management",
+    "ru": "Управление стрессом"
+  },
+  {
+    "code": "cognitiveBehavioralTherapy",
+    "group": "skills",
+    "az": "Koqnitiv davranış terapiyası",
+    "en": "Cognitive-behavioral therapy",
+    "ru": "Когнитивно-поведенческая терапия"
+  },
+  {
+    "code": "emotionalSupport",
+    "group": "skills",
+    "az": "Emosional dəstək",
+    "en": "Emotional support",
+    "ru": "Эмоциональная поддержка"
+  },
+  {
+    "code": "psychotherapy",
+    "group": "skills",
+    "az": "Psixoterapiya",
+    "en": "Psychotherapy",
+    "ru": "Психотерапия"
+  }
+]

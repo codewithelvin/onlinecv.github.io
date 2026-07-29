@@ -1,0 +1,77 @@
+import { type JSX, useState } from 'react';
+import { Form, Input, Space } from 'antd';
+import { Button } from 'antd';
+import { FiPlus } from 'react-icons/fi';
+import { useTranslation } from 'react-i18next';
+import type { ContactItem, ContactType } from '../../../types/resume';
+import { useResumeStore } from '../../../state/store';
+import { createId } from '../../../utils/id';
+import { ItemList } from '../../../components/ItemList';
+import { ContactModal } from '../modals/ContactModal';
+import type { ContactFormValues } from '../schemas';
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+export function ContactSection(): JSX.Element {
+  const { t } = useTranslation();
+  const email = useResumeStore((s) => s.resume.contact.email);
+  const items = useResumeStore((s) => s.resume.contact.items);
+  const setEmail = useResumeStore((s) => s.updateContactEmail);
+  const addContact = useResumeStore((s) => s.addContactItem);
+  const updateContact = useResumeStore((s) => s.updateContactItem);
+  const removeContact = useResumeStore((s) => s.removeContactItem);
+
+  const [index, setIndex] = useState<number | null>(null);
+  const editing = index !== null && index >= 0 ? items[index] ?? null : null;
+  const isAdding = index === -1;
+
+  const emailError = !email.trim()
+    ? t('validation.enterValidEmail')
+    : !EMAIL_RE.test(email)
+      ? t('validation.enterValidEmail')
+      : undefined;
+
+  const onSubmit = (v: ContactFormValues): void => {
+    const item: ContactItem = { id: editing?.id ?? createId(), type: v.type as ContactType, value: v.value.trim() };
+    if (isAdding) addContact(item);
+    else if (editing) updateContact(editing.id, item);
+    setIndex(null);
+  };
+
+  return (
+    <Space direction="vertical" style={{ width: '100%' }} size="middle">
+      <Form.Item
+        label={t('fields.email')}
+        required
+        validateStatus={emailError ? 'error' : ''}
+        help={emailError}
+        style={{ marginBottom: 0 }}
+      >
+        <Input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+      </Form.Item>
+
+      <ItemList
+        ids={items.map((c) => c.id)}
+        titles={items.map((c) => t(`dictionary.${c.type}`))}
+        subtitles={items.map((c) => c.value)}
+        onEdit={(i) => setIndex(i)}
+        onRemove={(i) => removeContact(items[i].id)}
+      />
+
+      <Button icon={<FiPlus aria-hidden />} onClick={() => setIndex(-1)} block>
+        {t('common.add')}
+      </Button>
+
+      {index !== null ? (
+        <ContactModal
+          key={index}
+          open
+          title={isAdding ? t('sections.contact') : t('common.edit')}
+          defaultValues={{ type: editing?.type ?? 'mobile', value: editing?.value ?? '' }}
+          onSubmit={onSubmit}
+          onCancel={() => setIndex(null)}
+        />
+      ) : null}
+    </Space>
+  );
+}

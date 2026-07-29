@@ -1,0 +1,436 @@
+[
+  {
+    "code": "bdu",
+    "group": "universities",
+    "az": "Bakı Dövlət Universiteti",
+    "en": "Baku State University",
+    "ru": "Бакинский Государственный Университет"
+  },
+  {
+    "code": "bduq",
+    "group": "universities",
+    "az": "Bakı Dövlət Universiteti (Qazax filialı)",
+    "en": "Baku State University (Qazakh branch)",
+    "ru": "Бакинский Государственный Университет (Газахский филиал)"
+  },
+  {
+    "code": "adnsu",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət Neft və Sənaye Universiteti",
+    "en": "Azerbaijan State Oil and Industry University",
+    "ru": "Азербайджанский Государственный Университет Нефти и Промышленности"
+  },
+  {
+    "code": "bma",
+    "group": "universities",
+    "az": "Bakı Musiqi Akademiyası",
+    "en": "Baku Academy of Music",
+    "ru": "Бакинская Музыкальная Академия"
+  },
+  {
+    "code": "atu",
+    "group": "universities",
+    "az": "Azərbaycan Tibb Universiteti",
+    "en": "Azerbaijan Medical University",
+    "ru": "Азербайджанский медицинский университет"
+  },
+  {
+    "code": "api",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət Pedaqoji Universiteti",
+    "en": "Azerbaijan State Pedagogical University",
+    "ru": "Азербайджанский Государственный Педагогический Университет"
+  },
+  {
+    "code": "apia",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət Pedaqoji Universiteti (Ağcabədi filialı)",
+    "en": "Azerbaijan State Pedagogical University (Aghjabedi branch)",
+    "ru": "Азербайджанский Государственный Педагогический Университет (Агджабединский филиал)"
+  },
+  {
+    "code": "apis",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət Pedaqoji Universiteti (Şəki filialı)",
+    "en": "Azerbaijan State Pedagogical University (Sheki branch)",
+    "ru": "Азербайджанский Государственный Педагогический Университет (Шекинский филиал)"
+  },
+  {
+    "code": "apic",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət Pedaqoji Universiteti (Cəlilabad filialı)",
+    "en": "Azerbaijan State Pedagogical University (Jalilabad branch)",
+    "ru": "Азербайджанский Государственный Педагогический Университет (Джалилабадский филиал)"
+  },
+  {
+    "code": "apiq",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət Pedaqoji Universiteti (Quba filialı)",
+    "en": "Azerbaijan State Pedagogical University (Guba branch)",
+    "ru": "Азербайджанский Государственный Педагогический Университет (Губинский филиал)"
+  },
+  {
+    "code": "apish",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət Pedaqoji Universiteti (Şamaxı filialı)",
+    "en": "Azerbaijan State Pedagogical University (Shamakhi branch)",
+    "ru": "Азербайджанский Государственный Педагогический Университет (Шамахинский филиал)"
+  },
+  {
+    "code": "amiu",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət Mədəniyyət və İncəsənət Universiteti",
+    "en": "Azerbaijan State University of Culture and Arts",
+    "ru": "Азербайджанский Государственный Университет Культуры и Искусств"
+  },
+  {
+    "code": "adau",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət Aqrar Universiteti",
+    "en": "Azerbaijan State Agrarian University",
+    "ru": "Азербайджанский Государственный Аграрный Университет"
+  },
+  {
+    "code": "adiu",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət İqtisad Universiteti",
+    "en": "Azerbaijan State Economic University",
+    "ru": "Азербайджанский Государственный Экономический Университет"
+  },
+  {
+    "code": "adiuz",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət İqtisad Universiteti (Zaqatala filialı)",
+    "en": "Azerbaijan State Economic University (Zagatala branch)",
+    "ru": "Азербайджанский Государственный Экономический Университет (Закатальский филиал)"
+  },
+  {
+    "code": "adiud",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət İqtisad Universiteti (Dərbənd filialı)",
+    "en": "Azerbaijan State Economic University (Darband branch)",
+    "ru": "Азербайджанский Государственный Экономический Университет (Дарбандский филиал)"
+  },
+  {
+    "code": "adbta",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət Bədən Tərbiyəsi və İdman Akademiyası",
+    "en": "Azerbaijan state physical culture and sports academy",
+    "ru": "Азербайджанская государственная академия физической культуры и спорта"
+  },
+  {
+    "code": "gdu",
+    "group": "universities",
+    "az": "Gəncə Dövlət Universiteti",
+    "en": "Ganja State University",
+    "ru": "Гянджинский государственный университет"
+  },
+  {
+    "code": "bsu",
+    "group": "universities",
+    "az": "Bakı Slavyan Universiteti",
+    "en": "Baku Slavic University",
+    "ru": "Бакинский Славянский Университет"
+  },
+  {
+    "code": "aztechu",
+    "group": "universities",
+    "az": "Azərbaycan Texniki Universiteti",
+    "en": "Azerbaijan Technical University",
+    "ru": "Азербайджанский Технический Университет"
+  },
+  {
+    "code": "sdu",
+    "group": "universities",
+    "az": "Sumqayıt Dövlət Universiteti",
+    "en": "Sumgait State University",
+    "ru": "Сумгаитский государственный университет"
+  },
+  {
+    "code": "ndu",
+    "group": "universities",
+    "az": "Naxçıvan Dövlət Universiteti",
+    "en": "Nakhchivan State University",
+    "ru": "Нахчыванский государственный университет"
+  },
+  {
+    "code": "adu",
+    "group": "universities",
+    "az": "Azərbaycan Dillər Universiteti",
+    "en": "Azerbaijan University of Languages",
+    "ru": "Азербайджанский Университет Языков"
+  },
+  {
+    "code": "amemiu",
+    "group": "universities",
+    "az": "Azərbaycan Memarlıq və İnşaat Universiteti",
+    "en": "Azerbaijan University of Architecture and Construction",
+    "ru": "Азербайджанский университет архитектуры и строительства"
+  },
+  {
+    "code": "aztexnu",
+    "group": "universities",
+    "az": "Azərbaycan Texnologiya Universiteti",
+    "en": "Azerbaijan technology university",
+    "ru": "Азербайджанский технологический университет"
+  },
+  {
+    "code": "ldu",
+    "group": "universities",
+    "az": "Lənkəran Dövlət Universiteti",
+    "en": "Lankaran State University",
+    "ru": "Ленкоранский государственный университет"
+  },
+  {
+    "code": "maa",
+    "group": "universities",
+    "az": "Milli Aviasiya Akademiyası",
+    "en": "National Aviation Academy",
+    "ru": "Национальная авиационная академия"
+  },
+  {
+    "code": "adda",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət Dəniz Akademiyası",
+    "en": "Azerbaijan State Maritime Academy",
+    "ru": "Азербайджанская Государственная Морская Академия"
+  },
+  {
+    "code": "apdia",
+    "group": "universities",
+    "az": "Azərbaycan Respublikası Prezidenti yanında Dövlət İdarəçilik Akademiyası",
+    "en": "Academy of Public Administration under the President of the Republic of Azerbaijan",
+    "ru": "Академия государственного управления при Президенте Азербайджанской Республики"
+  },
+  {
+    "code": "adra",
+    "group": "universities",
+    "az": "Azərbaycan Dövlət Rəssamlıq Akademiyası",
+    "en": "Azerbaijan State Academy of Artist",
+    "ru": "Азербайджанская Государственная Академия Художников"
+  },
+  {
+    "code": "azmik",
+    "group": "universities",
+    "az": "Azərbaycan Milli Konservatoriyası",
+    "en": "Azerbaijan National Conservatory",
+    "ru": "Азербайджанская национальная консерватория"
+  },
+  {
+    "code": "nmi",
+    "group": "universities",
+    "az": "Naxçıvan Müəllimlər İnstitutu",
+    "en": "Nakhchivan Institute of Teachers",
+    "ru": "Нахчыванский институт учителей"
+  },
+  {
+    "code": "ada",
+    "group": "universities",
+    "az": "ADA Universiteti",
+    "en": "ADA University",
+    "ru": "Университет АДА"
+  },
+  {
+    "code": "atmu",
+    "group": "universities",
+    "az": "Azərbaycan Turizm və Menecment Universiteti",
+    "en": "Azerbaijan Tourism and Management University",
+    "ru": "Азербайджанский Университет Туризма и Менеджмента"
+  },
+  {
+    "code": "msub",
+    "group": "universities",
+    "az": "M.V.Lomonosov adına Moskva Dövlət Universitetinin Bakı filialı",
+    "en": "Baku branch of Moscow State University named after M.V. Lomonosov",
+    "ru": "Бакинский филиал Московского государственного университета имени М.В.Ломоносова"
+  },
+  {
+    "code": "banm",
+    "group": "universities",
+    "az": "Bakı Ali Neft Məktəbi",
+    "en": "Baku High Oil School",
+    "ru": "Бакинская Высшая Школа Нефти"
+  },
+  {
+    "code": "bxo",
+    "group": "universities",
+    "az": "Bakı Xoreoqrafiya Akademiyası",
+    "en": "Baku Academy of Choreography",
+    "ru": "Бакинская академия хореографии"
+  },
+  {
+    "code": "mdu",
+    "group": "universities",
+    "az": "Mingəçevir Dövlət Universiteti",
+    "en": "Mingachevir State University",
+    "ru": "Мингячевирский государственный университет"
+  },
+  {
+    "code": "bmu",
+    "group": "universities",
+    "az": "Bakı Mühəndislik Universiteti",
+    "en": "Baku Engineering University",
+    "ru": "Бакинский Инженерный Университет"
+  },
+  {
+    "code": "mdtub",
+    "group": "universities",
+    "az": "İ.M.Seçenov adına Birinci Moskva Dövlət Tibb Universitetinin Bakı filialı",
+    "en": "Baku branch of the First Moscow State Medical University named after I.M. Sechenov",
+    "ru": "Бакинский филиал Первого Московского государственного медицинского университета имени И.М.Сеченова"
+  },
+  {
+    "code": "aii",
+    "group": "universities",
+    "az": "Azərbaycan İlahiyyat İnstitutu",
+    "en": "Azerbaijan Institute of Theology",
+    "ru": "Азербайджанский институт теологии"
+  },
+  {
+    "code": "dinpa",
+    "group": "universities",
+    "az": "Azərbaycan Respublikası Daxili İşlər Nazirliyi Polis Akademiyası",
+    "en": "Police Academy of the Ministry of Internal Affairs of the Republic of Azerbaijan",
+    "ru": "Полицейская академия Министерства внутренних дел Азербайджанской Республики"
+  },
+  {
+    "code": "dtxa",
+    "group": "universities",
+    "az": "Azərbaycan Respublikası Dövlət Təhlükəsizliyi Xidmətinin Heydər Əliyev adına Akademiyası",
+    "en": "Heydar Aliyev Academy of the State Security Service of the Republic of Azerbaijan",
+    "ru": "Академия Гейдара Алиева Службы Государственной Безопасности Азербайджанской Республики"
+  },
+  {
+    "code": "fhna",
+    "group": "universities",
+    "az": "Azərbaycan Respublikası Fövqəladə Hallar Nazirliyinin Akademiyası",
+    "en": "Academy of the Ministry of Emergency Situations of the Republic of Azerbaijan",
+    "ru": "Академия МЧС Азербайджанской Республики"
+  },
+  {
+    "code": "dgka",
+    "group": "universities",
+    "az": "Azərbaycan Respublikası Dövlət Gömrük Komitəsinin Akademiyası",
+    "en": "Academy of the State Customs Committee of the Republic of Azerbaijan",
+    "ru": "Академия Государственного Таможенного Комитета Азербайджанской Республики"
+  },
+  {
+    "code": "mmu",
+    "group": "universities",
+    "az": "Milli Müdafiə Universiteti (Azərbaycan)",
+    "en": "National Defense University (Azerbaijan)",
+    "ru": "Университет национальной обороны (Азербайджан)"
+  },
+  {
+    "code": "haahi",
+    "group": "universities",
+    "az": "Heydər Əliyev adına Hərbi İnstitut",
+    "en": "Military Institute named after Heydar Aliyev",
+    "ru": "Военный институт имени Гейдара Алиева"
+  },
+  {
+    "code": "sqha",
+    "group": "universities",
+    "az": "Azərbaycan Respublikası Silahlı Qüvvələrinin Hərbi Akademiyası",
+    "en": "Military Academy of the Armed Forces of the Republic of Azerbaijan",
+    "ru": "Военная академия Вооруженных Сил Азербайджанской Республики"
+  },
+  {
+    "code": "dsxa",
+    "group": "universities",
+    "az": "Azərbaycan Respublikası Dövlət Sərhəd Xidməti Akademiyası",
+    "en": "State Border Service Academy of the Republic of Azerbaijan",
+    "ru": "Академия Государственной пограничной службы Азербайджанской Республики"
+  },
+  {
+    "code": "dqahm",
+    "group": "universities",
+    "az": "Azərbaycan Respublikası Daxili Qoşunların Ali Hərbi Məktəbi",
+    "en": "Higher Military School of Internal Troops of the Republic of Azerbaijan",
+    "ru": "Высшее военное училище внутренних войск Азербайджанской Республики"
+  },
+  {
+    "code": "qku",
+    "group": "universities",
+    "az": "Qərbi Kaspi Universiteti",
+    "en": "Western Caspian University",
+    "ru": "Западно-Каспийский университет"
+  },
+  {
+    "code": "azu",
+    "group": "universities",
+    "az": "Azərbaycan Universiteti",
+    "en": "Azerbaijan University",
+    "ru": "Азербайджанский университет"
+  },
+  {
+    "code": "khu",
+    "group": "universities",
+    "az": "Xəzər Universiteti",
+    "en": "Khazar University",
+    "ru": "Хазарский университет"
+  },
+  {
+    "code": "bbu",
+    "group": "universities",
+    "az": "Bakı Biznes Universiteti",
+    "en": "Baku Business University",
+    "ru": "Бакинский Университет Бизнеса"
+  },
+  {
+    "code": "baau",
+    "group": "universities",
+    "az": "Bakı Avrasiya Universiteti",
+    "en": "Baku Eurasian University",
+    "ru": "Бакинский Евразийский Университет"
+  },
+  {
+    "code": "bqzu",
+    "group": "universities",
+    "az": "Bakı Qızlar Universiteti",
+    "en": "Baku Girls University",
+    "ru": "Бакинский университет для девушек"
+  },
+  {
+    "code": "bku",
+    "group": "universities",
+    "az": "Azərbaycan Kooperasiya Universiteti",
+    "en": "Azerbaijan Cooperation University",
+    "ru": "Азербайджанский университет кооперации"
+  },
+  {
+    "code": "oyu",
+    "group": "universities",
+    "az": "Odlar Yurdu Universiteti",
+    "en": "Odlar Yurdu University",
+    "ru": "Университет Одлар Юрду"
+  },
+  {
+    "code": "tfku",
+    "group": "universities",
+    "az": "Təfəkkür Universiteti",
+    "en": "Tafakkur University",
+    "ru": "Университет Тафаккюр"
+  },
+  {
+    "code": "nuu",
+    "group": "universities",
+    "az": "\"Naxçıvan\" Universiteti",
+    "en": "\"Nakhchivan\" University",
+    "ru": "Университет \"Нахчыван\""
+  },
+  {
+    "code": "aesma",
+    "group": "universities",
+    "az": "Azərbaycan Əmək və Sosial Münasibətlər Akademiyası",
+    "en": "Azerbaijan Academy of Labor and Social Relations",
+    "ru": "Азербайджанская Академия Труда и Социальных Отношений"
+  },
+  {
+    "code": "karabakh",
+    "group": "universities",
+    "az": "Qarabağ Universiteti",
+    "en": "Karabakh University",
+    "ru": "Университет Карабах"
+  }
+]

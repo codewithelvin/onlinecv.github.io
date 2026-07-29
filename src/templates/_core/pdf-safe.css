@@ -1,0 +1,26 @@
+/*
+ * pdf-safe.css — the SUPPORTED CSS SUBSET for resume templates (spec §7.1).
+ *
+ * This file is documentation, not an imported stylesheet. Templates in this app
+ * apply styles as inline `CSSProperties` objects (see each template's
+ * `styles.ts`) so that the SAME source drives both the live HTML preview and
+ * the export PDF via `react-pdf-html`. Authoring outside this subset makes the
+ * preview and the exported PDF drift apart; CI smoke-renders every template to
+ * PDF to catch that.
+ *
+ * ALLOWED (converts cleanly to react-pdf):
+ *   - display: flex; flexDirection; flexWrap; alignItems; justifyContent; gap
+ *   - block/inline layout, width/maxWidth (px or %), margin, padding
+ *   - color, backgroundColor, borderColor, border*, borderRadius
+ *   - fontFamily (Inter), fontSize, fontWeight, fontStyle, lineHeight,
+ *     textAlign, textTransform, letterSpacing, textDecoration
+ *   - basic <img> (avatar) with fixed width/height
+ *
+ * AVOID (unsupported or lossy in react-pdf-html):
+ *   - CSS grid, position (absolute/fixed/sticky), float
+ *   - gradients, box-shadow, transform, filter, transitions/animations
+ *   - media queries, pseudo-elements (::before/::after), pseudo-classes
+ *   - calc(), CSS variables, viewport units (vw/vh)
+ *
+ * Layout uses flexbox only. Column widths use fixed % on flex children.
+ */

@@ -1,0 +1,121 @@
+[
+  {
+    "code": "read_books",
+    "group": "interests",
+    "az": "Kitab oxumaq",
+    "en": "Read book",
+    "ru": "Чтение книги"
+  },
+  {
+    "code": "music_listen",
+    "group": "interests",
+    "az": "Musiqi dinləmək",
+    "en": "Listen music",
+    "ru": "Слушать музыку"
+  },
+  {
+    "code": "play_games",
+    "group": "interests",
+    "az": "Oyun oynamaq",
+    "en": "Play games",
+    "ru": "Играть в игры"
+  },
+  {
+    "code": "sport",
+    "group": "interests",
+    "az": "İdmanla məşğul olmaq",
+    "en": "Do sport",
+    "ru": "Заниматься спортом"
+  },
+  {
+    "code": "sing_a_song",
+    "group": "interests",
+    "az": "Mahnı oxumaq",
+    "en": "Sing a song",
+    "ru": "Петь песню"
+  },
+  {
+    "code": "cooking",
+    "group": "interests",
+    "az": "Yemək hazırlamaq",
+    "en": "Prepare food",
+    "ru": "Готовить блюдо"
+  },
+  {
+    "code": "chess",
+    "group": "interests",
+    "az": "Şahmat oynamaq",
+    "en": "Play chess",
+    "ru": "Играть в шахматы"
+  },
+  {
+    "code": "self_development",
+    "group": "interests",
+    "az": "Şəxsi inkişaf",
+    "en": "Personal development",
+    "ru": "Личное развитие"
+  },
+  {
+    "code": "technology",
+    "group": "interests",
+    "az": "Texnologiyalar",
+    "en": "Technologies",
+    "ru": "Технологии"
+  },
+  {
+    "code": "blogging",
+    "group": "interests",
+    "az": "Bloqinq",
+    "en": "Blogging",
+    "ru": "Ведение блога"
+  },
+  {
+    "code": "photography",
+    "group": "interests",
+    "az": "Şəkil çəkmək",
+    "en": "Taking picture",
+    "ru": "Фотосъемки"
+  },
+  {
+    "code": "design",
+    "group": "interests",
+    "az": "Dizayn",
+    "en": "Design",
+    "ru": "Дизайн"
+  },
+  {
+    "code": "learning_languages",
+    "group": "interests",
+    "az": "Dillər öyrənmək",
+    "en": "Learning languages",
+    "ru": "Изучение языков"
+  },
+  {
+    "code": "music_production",
+    "group": "interests",
+    "az": "Musiqi bəstələmək",
+    "en": "Composing music",
+    "ru": "Сочинять музыку"
+  },
+  {
+    "code": "watch_movies",
+    "group": "interests",
+    "az": "Film izləmək",
+    "en": "Watch movie",
+    "ru": "Смотреть кино"
+  },
+  {
+    "code": "football",
+    "group": "interests",
+    "az": "Futbol oynamaq",
+    "en": "Play football",
+    "ru": "Играть в футбол"
+  },
+  {
+    "code": "crossword",
+    "group": "interests",
+    "az": "Krossvord həll etmək",
+    "en": "Solve the crossword",
+    "ru": "Решать кроссворды"
+  }
+]

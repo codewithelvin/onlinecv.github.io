@@ -1,0 +1,121 @@
+[
+  {
+    "code": "arab",
+    "group": "languages",
+    "az": "Ərəb dili",
+    "en": "Arabic language",
+    "ru": "Арабский язык"
+  },
+  {
+    "code": "azerbaijan",
+    "group": "languages",
+    "az": "Azərbaycan dili",
+    "en": "Azerbaijani language",
+    "ru": "Азербайджанский язык"
+  },
+  {
+    "code": "chinese",
+    "group": "languages",
+    "az": "Çin dili",
+    "en": "Chinese language",
+    "ru": "Китайский язык"
+  },
+  {
+    "code": "english",
+    "group": "languages",
+    "az": "İngilis dili",
+    "en": "English language",
+    "ru": "Английский язык"
+  },
+  {
+    "code": "french",
+    "group": "languages",
+    "az": "Fransız dili",
+    "en": "French language",
+    "ru": "Французский язык"
+  },
+  {
+    "code": "german",
+    "group": "languages",
+    "az": "Alman dili",
+    "en": "German language",
+    "ru": "Немецкий язык"
+  },
+  {
+    "code": "hebrew",
+    "group": "languages",
+    "az": "İvrit dili",
+    "en": "Hebrew",
+    "ru": "Иврит"
+  },
+  {
+    "code": "hispanic",
+    "group": "languages",
+    "az": "İspan dili",
+    "en": "Spanish language",
+    "ru": "Испанский язык"
+  },
+  {
+    "code": "italian",
+    "group": "languages",
+    "az": "İtalyan dili",
+    "en": "Italian language",
+    "ru": "Итальянский язык"
+  },
+  {
+    "code": "japan",
+    "group": "languages",
+    "az": "Yapon dili",
+    "en": "Japanese language",
+    "ru": "Японский язык"
+  },
+  {
+    "code": "korean",
+    "group": "languages",
+    "az": "Koreya dili",
+    "en": "Korean language",
+    "ru": "Корейский язык"
+  },
+  {
+    "code": "persian",
+    "group": "languages",
+    "az": "Fars dili",
+    "en": "Persian language",
+    "ru": "Персидский язык"
+  },
+  {
+    "code": "polish",
+    "group": "languages",
+    "az": "Polyak dili",
+    "en": "Polish language",
+    "ru": "Польский язык"
+  },
+  {
+    "code": "romainan",
+    "group": "languages",
+    "az": "Rumın dili",
+    "en": "Romanian language",
+    "ru": "Румынский язык"
+  },
+  {
+    "code": "russian",
+    "group": "languages",
+    "az": "Rus dili",
+    "en": "Russian language",
+    "ru": "Русский язык"
+  },
+  {
+    "code": "turkish",
+    "group": "languages",
+    "az": "Türk dili",
+    "en": "Turkish language",
+    "ru": "Турецкий язык"
+  },
+  {
+    "code": "ukrainian",
+    "group": "languages",
+    "az": "Ukrayna dili",
+    "en": "Ukrainian language",
+    "ru": "Украинский язык"
+  }
+]

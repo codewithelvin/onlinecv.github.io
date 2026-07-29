@@ -1,0 +1,240 @@
+[
+  {
+    "code": "azerbaijani",
+    "group": "nationality",
+    "az": "Azərbaycanlı",
+    "en": "Azerbijani",
+    "ru": "Азербайджанец/ка"
+  },
+  {
+    "code": "rus",
+    "group": "nationality",
+    "az": "Rus",
+    "en": "Russian",
+    "ru": "Русский/кая"
+  },
+  {
+    "code": "lazgis",
+    "group": "nationality",
+    "az": "Ləzgi",
+    "en": "Lazgi",
+    "ru": "Лезгин/ка"
+  },
+  {
+    "code": "turks",
+    "group": "nationality",
+    "az": "Türk",
+    "en": "Turk",
+    "ru": "Турок/чанка"
+  },
+  {
+    "code": "avars",
+    "group": "nationality",
+    "az": "Avar",
+    "en": "Avar",
+    "ru": "Аварец/ка"
+  },
+  {
+    "code": "georgians",
+    "group": "nationality",
+    "az": "Gürcü",
+    "en": "Georgian",
+    "ru": "Грузин/ка"
+  },
+  {
+    "code": "uzbeks",
+    "group": "nationality",
+    "az": "Özbək",
+    "en": "Uzbek",
+    "ru": "Узбек/чка"
+  },
+  {
+    "code": "tatars",
+    "group": "nationality",
+    "az": "Tatar",
+    "en": "Tatar",
+    "ru": "Татарин/ка"
+  },
+  {
+    "code": "talishs",
+    "group": "nationality",
+    "az": "Talış",
+    "en": "Talish",
+    "ru": "Талыш"
+  },
+  {
+    "code": "belarusians",
+    "group": "nationality",
+    "az": "Belarus",
+    "en": "Belarusian",
+    "ru": "Белорус/ка"
+  },
+  {
+    "code": "persians",
+    "group": "nationality",
+    "az": "Fars",
+    "en": "Persian",
+    "ru": "Перс"
+  },
+  {
+    "code": "ukrainians",
+    "group": "nationality",
+    "az": "Ukraynalı",
+    "en": "Ukrainian",
+    "ru": "Украинец/ка"
+  },
+  {
+    "code": "tajiks",
+    "group": "nationality",
+    "az": "Tacik",
+    "en": "Tajik",
+    "ru": "Таджик"
+  },
+  {
+    "code": "egyptians",
+    "group": "nationality",
+    "az": "Misirli",
+    "en": "Egyptian",
+    "ru": "Египтянин/ка"
+  },
+  {
+    "code": "kyrgyzs",
+    "group": "nationality",
+    "az": "Qırğız",
+    "en": "Kyrgyz",
+    "ru": "Кыргыз/ка"
+  },
+  {
+    "code": "kazakhs",
+    "group": "nationality",
+    "az": "Qazax",
+    "en": "Kazakh",
+    "ru": "Казах/шка"
+  },
+  {
+    "code": "turkmens",
+    "group": "nationality",
+    "az": "Türkmən",
+    "en": "Turkmen",
+    "ru": "Туркмен/ка"
+  },
+  {
+    "code": "pakistanis",
+    "group": "nationality",
+    "az": "Pakistanlı",
+    "en": "Pakistani",
+    "ru": "Пакистанец/ка"
+  },
+  {
+    "code": "jews",
+    "group": "nationality",
+    "az": "Yəhudi",
+    "en": "Jew",
+    "ru": "Еврей/ка"
+  },
+  {
+    "code": "moldovans",
+    "group": "nationality",
+    "az": "Moldovan",
+    "en": "Moldovan",
+    "ru": "Молдаван/ка"
+  },
+  {
+    "code": "romanians",
+    "group": "nationality",
+    "az": "Rumın",
+    "en": "Romanian",
+    "ru": "Румын/ка"
+  },
+  {
+    "code": "sakhurs",
+    "group": "nationality",
+    "az": "Saxur",
+    "en": "Sakhur",
+    "ru": "Сахур/ка"
+  },
+  {
+    "code": "kurds",
+    "group": "nationality",
+    "az": "Kürd",
+    "en": "Kurd",
+    "ru": "Курд"
+  },
+  {
+    "code": "chechens",
+    "group": "nationality",
+    "az": "Çeçen",
+    "en": "Chechen",
+    "ru": "Чеченец/ка"
+  },
+  {
+    "code": "uygurs",
+    "group": "nationality",
+    "az": "Uyğur",
+    "en": "Uygur",
+    "ru": "Уйгур/ка"
+  },
+  {
+    "code": "italians",
+    "group": "nationality",
+    "az": "İtalyan",
+    "en": "italian",
+    "ru": "Итальянец/ка"
+  },
+  {
+    "code": "germans",
+    "group": "nationality",
+    "az": "Alman",
+    "en": "German",
+    "ru": "Немец/ка"
+  },
+  {
+    "code": "poles",
+    "group": "nationality",
+    "az": "Polyak",
+    "en": "Polish",
+    "ru": "Поляк/ька"
+  },
+  {
+    "code": "frenchs",
+    "group": "nationality",
+    "az": "Fransız",
+    "en": "French",
+    "ru": "Француз/ка"
+  },
+  {
+    "code": "japaneses",
+    "group": "nationality",
+    "az": "Yapon",
+    "en": "Japanese",
+    "ru": "Японец/ка"
+  },
+  {
+    "code": "lithuanians",
+    "group": "nationality",
+    "az": "Litvalı",
+    "en": "Lithuanian",
+    "ru": "Литовец/ка"
+  },
+  {
+    "code": "latvians",
+    "group": "nationality",
+    "az": "Latviyalı",
+    "en": "Latvian",
+    "ru": "Латыш/ка"
+  },
+  {
+    "code": "estonians",
+    "group": "nationality",
+    "az": "Eston",
+    "en": "Estonian",
+    "ru": "Эстонец/ка"
+  },
+  {
+    "code": "others",
+    "group": "nationality",
+    "az": "Digər",
+    "en": "Other",
+    "ru": "Другой/ая"
+  }
+]
