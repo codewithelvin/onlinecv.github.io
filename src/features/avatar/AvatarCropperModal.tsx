@@ -3,7 +3,7 @@ import Cropper, { type Area } from 'react-easy-crop';
 import { Modal, Slider, Spin, Typography } from 'antd';
 import { useTranslation } from 'react-i18next';
 import { useScrollLock } from '../../hooks/useScrollLock';
-import { getModalContainer } from '../../utils/modal-container';
+import { useModalChrome } from '../../hooks/useModalChrome';
 import { getCroppedImage } from './cropImage';
 
 /**
@@ -31,6 +31,7 @@ export function AvatarCropperModal({
   const [loaded, setLoaded] = useState(false);
   const zoomId = useId();
   const rotateId = useId();
+  const { modalProps } = useModalChrome();
   // Pan gestures inside the cropper must not scroll the page behind it.
   useScrollLock(open);
 
@@ -60,7 +61,7 @@ export function AvatarCropperModal({
       confirmLoading={busy}
       maskClosable={false}
       destroyOnHidden
-      getContainer={getModalContainer}
+      {...modalProps}
     >
       <Typography.Paragraph type="secondary">{t('avatar.step2')}</Typography.Paragraph>
       <div

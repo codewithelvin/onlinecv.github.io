@@ -73,6 +73,27 @@ body {
   min-height: 100dvh;
 }
 
+/*
+ * App mark in the header. Two files, two shapes, two heights — see
+ * `components/Brand`, whose `<source>` switches the artwork at this SAME
+ * breakpoint. Change one and you must change the other: a 42px-tall wordmark
+ * does not fit a 64px header.
+ *
+ * The square mark (phones) reads small for its box, so it runs taller than the
+ * wide wordmark it replaces.
+ */
+.brand-logo {
+  display: block;
+  width: auto;
+  height: 42px;
+}
+
+@media (min-width: 768px) {
+  .brand-logo {
+    height: 30px;
+  }
+}
+
 /* Sticky preview column on `≥ lg`: as tall as the visible viewport, less header. */
 .preview-column {
   max-height: calc(100vh - 96px);
@@ -112,6 +133,120 @@ html {
  */
 .ant-modal-wrap {
   overscroll-behavior: contain;
+}
+
+/*
+ * A hairline under every modal title, so the heading reads as a header band
+ * rather than floating over the first field.
+ *
+ * Antd HAS tokens for this (`headerBorderBottom`/`headerPadding`/
+ * `headerMarginBottom`, all inert outside the wireframe theme) but they are
+ * derived tokens, absent from the public `ComponentToken` type, so they cannot
+ * be set through `ConfigProvider` without casting. Three classes to outrank
+ * antd's own two-class `:where(.css-hash).ant-modal .ant-modal-header`.
+ *
+ * `#f0f0f0` is the same hairline as the app header and the mobile action bar.
+ * `Modal.confirm` renders no header element, so it is untouched.
+ */
+.ant-modal .ant-modal-content .ant-modal-header {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/*
+ * App modals: title and action buttons pinned, only the body between them
+ * scrolls. `app-modal` is put on the dialog by `hooks/useModalChrome`.
+ *
+ * Left to itself a tall dialog just grows and `.ant-modal-wrap` scrolls the
+ * WHOLE thing, which carries Save and Cancel off the bottom of the screen and
+ * makes a long form a round trip of scrolling to reach its own buttons. Capping
+ * the content to the viewport and making it a flex column keeps the footer where
+ * the user last saw it.
+ *
+ * Opt-in via a class rather than blanket `.ant-modal` styling, so `Modal.confirm`
+ * — no header, nothing to scroll — is left exactly as Ant Design draws it.
+ *
+ * Every selector deliberately carries one class more than antd's own: it emits
+ * `:where(.css-hash).ant-modal .ant-modal-content`, and `:where()` contributes
+ * no specificity, so two classes would only TIE — and antd injects its styles at
+ * runtime, i.e. after this file, so a tie goes to antd.
+ */
+/*
+ * Sized in VIEWPORT units, never in percentages.
+ *
+ * rc-dialog puts an unclassed, unstyled focus container
+ * (`<div tabindex="0" style="outline:none">`) between `.ant-modal` and
+ * `.ant-modal-content`. It has no height of its own, so a percentage height here
+ * resolves against `auto` and is silently dropped — the dialog then grows with
+ * its content and `.ant-modal-wrap` scrolls the WHOLE box, buttons and all.
+ * That is exactly the bug this layout exists to prevent, so the height must
+ * never depend on the chain above.
+ */
+.ant-modal.app-modal .ant-modal-content {
+  display: flex;
+  flex-direction: column;
+  /* 32px of breathing room above and below the dialog (`top: 32` on desktop). */
+  max-height: calc(100vh - 64px);
+  max-height: calc(100dvh - 64px);
+}
+
+/*
+ * The scroll area — with the scrollbar kept OFF the controls. Form fields are
+ * 100% wide, so without the gutter the scrollbar is drawn against the right edge
+ * of every input and select, reading as part of the control rather than as part
+ * of the modal.
+ */
+.ant-modal.app-modal .ant-modal-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-inline-end: 12px;
+}
+
+/* Content scrolls UNDER the buttons, so they need an edge of their own. */
+.ant-modal.app-modal .ant-modal-footer {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 12px;
+}
+
+/*
+ * Full screen below `lg` (spec §10.3). `dvh` with a `vh` fallback for the same
+ * reason as `.min-h-viewport` above: `100vh` is the LARGE viewport everywhere on
+ * mobile, so the footer — and with it Save — would sit below the fold behind the
+ * URL bar.
+ */
+.ant-modal.app-modal.modal-fullscreen {
+  top: 0;
+  margin: 0;
+  padding-bottom: 0;
+  max-width: 100vw;
+}
+
+/*
+ * The content box owns the full-screen height, for the reason above: it is the
+ * lowest element the app styles, so it is the only one that can be given a
+ * height without the unstyled focus container swallowing it. `.ant-modal` is
+ * left to wrap it.
+ */
+.ant-modal.app-modal.modal-fullscreen .ant-modal-content {
+  max-height: none;
+  height: 100vh;
+  height: 100dvh;
+  border-radius: 0;
+  /* Clear of the home indicator / gesture bar. */
+  padding-bottom: calc(20px + env(safe-area-inset-bottom));
+}
+
+/*
+ * Validation messages a step down from body text (antd renders them at the full
+ * 14px). Three classes, because antd's own rule — `.ant-form-item
+ * .ant-form-item-explain` — already scores two and is injected at runtime, i.e.
+ * after this file, so a tie would go to antd.
+ */
+.ant-form-item.ant-form-item-with-help .ant-form-item-explain {
+  font-size: 12px;
 }
 
 /*

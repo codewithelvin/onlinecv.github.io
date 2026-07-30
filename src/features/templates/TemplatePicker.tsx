@@ -4,9 +4,9 @@ import { FiLayout } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { useResumeStore } from '../../state/store';
 import { toLocale } from '../../app/i18n/locales';
-import { getModalContainer } from '../../utils/modal-container';
 import { localizedText } from '../../utils/localized-text';
 import { useScrollLock } from '../../hooks/useScrollLock';
+import { useModalChrome } from '../../hooks/useModalChrome';
 import { listTemplates } from '../../templates/_core/registry';
 
 /**
@@ -21,6 +21,7 @@ export function TemplatePicker({ compact }: { compact?: boolean } = {}): JSX.Ele
   const templateId = useResumeStore((s) => s.resume.templateId);
   const setTemplate = useResumeStore((s) => s.setTemplate);
   const templates = listTemplates();
+  const { fullScreen, modalProps } = useModalChrome(720);
   useScrollLock(open);
 
   return (
@@ -37,10 +38,21 @@ export function TemplatePicker({ compact }: { compact?: boolean } = {}): JSX.Ele
       <Modal
         open={open}
         title={t('templatePicker.title')}
-        footer={null}
+        /**
+         * Picking a card closes the gallery, so on desktop the close cross is
+         * the only way to back out and no footer is needed. Full-screen hides
+         * that cross — and there is no mask left to tap either — so the way out
+         * has to become a real button.
+         */
+        footer={
+          fullScreen ? (
+            <Button id="template-picker-close" block onClick={() => setOpen(false)}>
+              {t('common.close')}
+            </Button>
+          ) : null
+        }
         onCancel={() => setOpen(false)}
-        width={720}
-        getContainer={getModalContainer}
+        {...modalProps}
       >
         {/* `align="stretch"` + `height: 100%` down the chain: without it a card
             whose description is empty (the non-ATS templates carry no tag) ends
