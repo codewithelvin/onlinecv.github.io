@@ -1,5 +1,5 @@
-import type { JSX } from 'react';
-import { useTranslation } from 'react-i18next';
+import type { JSX } from "react";
+import { useTranslation } from "react-i18next";
 
 /**
  * App mark in the header. The logo carries the wordmark itself, so no text
@@ -8,14 +8,14 @@ import { useTranslation } from 'react-i18next';
  * margin baked in, hence the generous height: the glyph inside reads smaller
  * than the box.
  */
-export function Brand({ height = 42 }: { height?: number }): JSX.Element {
+export function Brand({ height = 30 }: { height?: number }): JSX.Element {
   const { t } = useTranslation();
   return (
     <img
-      src={`${import.meta.env.BASE_URL}logo.svg`}
-      alt={t('common.appName')}
+      src={`${import.meta.env.BASE_URL}logo.png`}
+      alt={t("common.appName")}
       height={height}
-      style={{ height, width: 'auto', display: 'block' }}
+      style={{ height, width: "auto", display: "block" }}
     />
   );
 }
