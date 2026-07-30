@@ -1,8 +1,9 @@
 import type { JSX } from 'react';
-import { Layout, Spin } from 'antd';
+import { Layout, Space, Spin } from 'antd';
 import { useResumeStore } from '../state/store';
 import { needsWizard } from '../utils/empty-resume';
 import { Brand } from '../components/Brand';
+import { TelegramButton } from '../components/TelegramButton';
 import { LanguageSwitcher } from '../features/i18n/LanguageSwitcher';
 import { Wizard } from '../features/wizard/Wizard';
 import { EditorLayout } from '../layouts/EditorLayout';
@@ -36,7 +37,10 @@ export function HomePage(): JSX.Element {
           }}
         >
           <Brand />
-          <LanguageSwitcher />
+          <Space wrap style={{ minWidth: 0, justifyContent: 'flex-end' }}>
+            <TelegramButton />
+            <LanguageSwitcher />
+          </Space>
         </Layout.Header>
         {/* Flex column so the wizard can centre itself in the remaining height. */}
         <Layout.Content style={{ display: 'flex', flexDirection: 'column' }}>

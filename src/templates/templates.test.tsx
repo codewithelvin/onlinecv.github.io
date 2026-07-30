@@ -112,6 +112,24 @@ describe('template smoke render', () => {
     });
   }
 
+  /**
+   * No template may use `<ul>`/`<li>`.
+   *
+   * `react-pdf-html` hides the marker box under `resetStyles` but react-pdf
+   * still PAINTS the "•" — at the row's origin, on top of the text. Bullets go
+   * through `templates/_core/bullets` instead, which draws two explicit boxes;
+   * the resulting geometry is asserted in `templates.pdf.test.tsx`.
+   */
+  for (const { manifest, load } of listTemplates()) {
+    it(`draws "${manifest.id}" bullets without a real list element`, async () => {
+      const Template = (await load()).default;
+      const html = renderToStaticMarkup(createElement(Template, { resume, t, formatDate }));
+      // The sample CV has a highlight, so a marker must be somewhere in there.
+      expect(html, 'no bullet marker rendered — the guard would pass vacuously').toContain('•');
+      expect(html).not.toMatch(/<(ul|ol|li)[\s>]/);
+    });
+  }
+
   it('registers the three shipped templates, ATS-safe first', () => {
     const ids = listTemplates().map((x) => x.manifest.id);
     expect(ids).toContain('classic');

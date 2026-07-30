@@ -1,6 +1,7 @@
 import { Children, type JSX, type ReactNode } from 'react';
 import type { TemplateProps } from '../_core/contract';
 import type { LanguageLevel } from '../../types/resume';
+import { BulletList } from '../_core/bullets';
 import {
   contactChannels,
   contactDisplay,
@@ -46,16 +47,7 @@ function SideSection({ title, children }: { title: string; children: ReactNode }
 }
 
 function Bullets({ items }: { items: string[] }): JSX.Element | null {
-  if (items.length === 0) return null;
-  return (
-    <ul style={styles.bulletList}>
-      {items.map((h, i) => (
-        <li key={i} style={styles.bulletItem}>
-          {h}
-        </li>
-      ))}
-    </ul>
-  );
+  return <BulletList items={items} listStyle={styles.bulletList} itemStyle={styles.bulletItem} />;
 }
 
 /**

@@ -10,6 +10,7 @@ import { ErrorBoundary } from '../components/ErrorBoundary';
 import { OfflineBanner } from '../components/OfflineBanner';
 import { PersistenceBanner } from '../components/PersistenceBanner';
 import { PwaUpdatePrompt } from '../components/PwaUpdatePrompt';
+import { PwaInstallPrompt } from '../components/PwaInstallPrompt';
 import { HomePage } from '../pages/HomePage';
 
 /**
@@ -42,6 +43,9 @@ export function App(): JSX.Element {
             <OfflineBanner />
             <PersistenceBanner />
             <HomePage />
+            {/* After the page, so the install screen can gate itself on the
+                first-run wizard being done. */}
+            <PwaInstallPrompt />
           </ErrorBoundary>
         </AntdApp>
       </ConfigProvider>

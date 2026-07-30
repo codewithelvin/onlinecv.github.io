@@ -31,5 +31,9 @@ describe('HomePage', () => {
     // Editor section headings (AZ) are present.
     expect(screen.getAllByText('İş təcrübəsi').length).toBeGreaterThan(0);
     expect(screen.getAllByText('Bacarıqlar').length).toBeGreaterThan(0);
-  });
+    // The heaviest render in the suite — the full editor AND the live preview in
+    // one pass. It lands around 3s alone and drifts past vitest's 5s default
+    // when the other files are competing for cores, so the budget is stated
+    // rather than left to chance.
+  }, 30_000);
 });

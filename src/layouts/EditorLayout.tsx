@@ -3,6 +3,7 @@ import { Layout, Space, Tabs } from 'antd';
 import { useTranslation } from 'react-i18next';
 import { useResponsive } from '../hooks/useResponsive';
 import { Brand } from '../components/Brand';
+import { TelegramButton } from '../components/TelegramButton';
 import { LanguageSwitcher } from '../features/i18n/LanguageSwitcher';
 import { TemplatePicker } from '../features/templates/TemplatePicker';
 import { ExportButton } from '../features/export/ExportButton';
@@ -36,6 +37,10 @@ export function EditorLayout(): JSX.Element {
       >
         <Brand />
         <Space wrap style={{ minWidth: 0, justifyContent: 'flex-end' }}>
+          {/* Kept out of the `isDesktop` branch below on purpose: the community
+              invite is one of the two things the mobile header still shows
+              (the rest moved to the bottom action bar). */}
+          <TelegramButton />
           <LanguageSwitcher />
           {isDesktop ? (
             <>

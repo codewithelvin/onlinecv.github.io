@@ -115,7 +115,8 @@ export const styles: Record<string, CSSProperties> = {
   entryTitle: { fontSize: 11.5, fontWeight: 600, color: m.heading },
   entryMeta: { fontSize: 10, color: m.faint, marginTop: 1 },
   entryDesc: { fontSize: 10.5, color: m.muted, marginTop: 3 },
-  bulletList: { marginTop: 3, marginBottom: 0, paddingLeft: 16 },
+  /** Indent is `paddingLeft` + the marker column drawn by `BulletList` (10pt). */
+  bulletList: { marginTop: 3, marginBottom: 0, paddingLeft: 4 },
   bulletItem: { fontSize: 10.5, color: m.muted, marginBottom: 1 },
   link: { color: m.sidebarMuted, textDecoration: 'none' },
   mainLink: { color: m.accent, textDecoration: 'none' },

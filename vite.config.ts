@@ -76,6 +76,16 @@ export default defineConfig({
         // Must be base-qualified, or the offline fallback resolves to the domain
         // root and misses the app entirely.
         navigateFallback: `${BASE}index.html`,
+        /**
+         * Files that must be served as THEMSELVES, never as the app shell.
+         *
+         * Opening `robots.txt` or `sitemap.xml` is a NAVIGATION request, so
+         * without this the service worker answers it out of `navigateFallback`
+         * and hands back `index.html` — the file "doesn't load", it silently
+         * becomes the app, and a crawler reads no directives at all. Workbox
+         * tests these against `pathname + search`, so they hold under any `base`.
+         */
+        navigateFallbackDenylist: [/\/robots\.txt$/, /\/sitemap\.xml$/, /\/[^/?]+\.(?:txt|xml)$/],
         cleanupOutdatedCaches: true,
       },
       devOptions: {

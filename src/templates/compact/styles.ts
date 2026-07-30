@@ -45,7 +45,8 @@ export const styles: Record<string, CSSProperties> = {
   entryDate: { fontSize: 9, color: c.faint, flexShrink: 0 },
   entrySub: { fontSize: 9.5, color: c.muted },
   entryDesc: { fontSize: 9.5, color: c.text, marginTop: 1 },
-  bulletList: { marginTop: 1, marginBottom: 0, paddingLeft: 14 },
+  /** Indent is `paddingLeft` + the marker column drawn by `BulletList` (8pt). */
+  bulletList: { marginTop: 1, marginBottom: 0, paddingLeft: 3 },
   bulletItem: { fontSize: 9.5, color: c.text },
   inlineList: { fontSize: 9.5, color: c.text },
   infoLine: { fontSize: 9.5, color: c.text },

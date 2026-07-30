@@ -32,13 +32,24 @@
     "language": "Language",
     "cvLanguage": "CV language",
     "edit": "Edit",
-    "preview": "Preview"
+    "preview": "Preview",
+    "telegram": "Telegram",
+    "telegramJoin": "Join our Telegram community"
   },
   "banner": {
-    "offline": "No internet connection — all changes are saved on your device.",
+    "offline": "No internet connection",
     "newVersion": "A new version is available.",
     "reload": "Reload",
     "persistenceError": "Could not save data to storage. The app will run in memory only (data may be lost on reload)."
+  },
+  "install": {
+    "title": "Install OnlineCV on your device",
+    "intro": "Once installed, OnlineCV opens as its own app — no browser needed.",
+    "offline": "Works without internet — edit your CV and download the PDF offline.",
+    "private": "All your data stays on your device only.",
+    "quick": "One tap from your home screen.",
+    "install": "Install",
+    "later": "Later"
   },
   "sections": {
     "basics": "Basics",

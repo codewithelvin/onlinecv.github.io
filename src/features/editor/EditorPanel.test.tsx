@@ -7,8 +7,9 @@ import { EditorPanel } from './EditorPanel';
 
 /** The AZ section titles, in the order they must appear in the accordion. */
 const SECTION_ORDER = [
+  // "Ümumi məlumat" is not a panel of its own — it was folded into
+  // "Əsas məlumatlar", which now covers the whole personal-details block.
   'Əsas məlumatlar',
-  'Ümumi məlumat',
   'Əlaqə vasitələri',
   'İş təcrübəsi',
   'Təhsil',
@@ -61,6 +62,24 @@ describe('EditorPanel', () => {
     expect(byTitle('Layihələr')?.querySelector('.ant-tag')?.textContent).toBe('0');
     // "Əsas məlumatlar" holds no list, so it carries no counter.
     expect(byTitle('Əsas məlumatlar')?.querySelector('.ant-tag')).toBeFalsy();
+  });
+
+  /**
+   * A label belongs to the control beneath it, and antd's default 8px gap reads
+   * as a separator instead — badly, in an accordion that stacks a dozen
+   * label/control pairs. The tokens live in `app/theme.ts`; asserted on the CSS
+   * antd actually emits, so renaming or dropping a token is caught rather than
+   * just restating the constant.
+   */
+  it('keeps labels tight against their controls', () => {
+    renderWithProviders(<EditorPanel />);
+    const css = [...document.querySelectorAll('style')]
+      .map((el) => el.textContent ?? '')
+      .join('');
+    expect(css, 'antd is still emitting its 8px vertical label padding').not.toContain(
+      'padding:0 0 8px',
+    );
+    expect(css).toContain('padding:0 0 2px');
   });
 
   it('renders every field label above its control, with required fields starred', () => {
@@ -145,11 +164,31 @@ describe('EditorPanel', () => {
     });
   });
 
-  it('keeps the short self-description inside "Ümumi məlumat"', () => {
-    renderWithProviders(<EditorPanel />);
+  /**
+   * The general-info fields moved INTO the basics panel; they must not have gone
+   * missing on the way, and the ids QA automation records must not have been
+   * rewritten by the move (that half is covered above, in "QA automation ids").
+   */
+  it('holds the general-info fields and the self-description in the basics panel', () => {
+    const { container } = renderWithProviders(<EditorPanel />);
+
+    // One panel, not two.
+    const headers = [...container.querySelectorAll('.ant-collapse-header-text')].map((el) =>
+      (el.textContent ?? '').trim(),
+    );
+    expect(headers.some((h) => h.includes('Ümumi məlumat'))).toBe(false);
+
+    const basicsPanel = container
+      .querySelector('#basics-firstName')
+      ?.closest('.ant-collapse-item');
+    expect(basicsPanel, 'no basics panel').toBeTruthy();
+    for (const id of ['generalInfo-gender', 'generalInfo-nationality', 'generalInfo-summary']) {
+      expect(basicsPanel?.querySelector(`#${id}`), `#${id} is outside the basics panel`).toBeTruthy();
+    }
+
     // No standalone "Haqqımda" accordion any more…
     expect(screen.queryByText('Haqqımda')).toBeNull();
-    // …and the summary textarea is rendered (generalInfo is open by default).
+    // …and the summary textarea is rendered (basics is open by default).
     expect(screen.getByText('Özünüzü qısa təsvir edin')).toBeTruthy();
   });
 });

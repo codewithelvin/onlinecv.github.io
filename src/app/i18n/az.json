@@ -32,13 +32,24 @@
     "language": "Dil",
     "cvLanguage": "CV dili",
     "edit": "Redaktə",
-    "preview": "Önizləmə"
+    "preview": "Önizləmə",
+    "telegram": "Telegram",
+    "telegramJoin": "Telegram icmamıza qoşulun"
   },
   "banner": {
-    "offline": "İnternet bağlantısı yoxdur — bütün dəyişikliklər cihazınızda saxlanılır.",
+    "offline": "İnternet bağlantısı yoxdur",
     "newVersion": "Yeni versiya mövcuddur.",
     "reload": "Yenilə",
     "persistenceError": "Məlumatları yaddaşa vermək mümkün olmadı. Tətbiq yalnız yaddaşda işləyəcək (yeniləmədə itə bilər)."
+  },
+  "install": {
+    "title": "OnlineCV-ni cihazınıza quraşdırın",
+    "intro": "Tətbiqi quraşdırsanız, OnlineCV brauzeri açmadan, ayrıca tətbiq kimi işləyəcək.",
+    "offline": "İnternet olmadan da işləyir — CV-nizi redaktə edib PDF kimi endirə bilərsiniz.",
+    "private": "Bütün məlumatlar yalnız sizin cihazınızda saxlanılır.",
+    "quick": "Ana ekrandan bir toxunuşla açılır.",
+    "install": "Quraşdır",
+    "later": "Sonra"
   },
   "sections": {
     "basics": "Əsas məlumatlar",

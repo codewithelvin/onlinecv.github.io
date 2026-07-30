@@ -6,7 +6,6 @@ import {
   FiFolder,
   FiGlobe,
   FiHeart,
-  FiInfo,
   FiPhone,
   FiStar,
   FiUser,
@@ -27,7 +26,7 @@ import { CertificationsSection } from './sections/CertificationsSection';
 import { InterestsSection } from './sections/InterestsSection';
 
 /** Sections expanded on a first visit, before the user collapses anything. */
-const DEFAULT_OPEN_SECTIONS = ['basics', 'generalInfo', 'contact', 'experience'];
+const DEFAULT_OPEN_SECTIONS = ['basics', 'contact', 'experience'];
 
 /**
  * Accordion header: section icon, bold title, and — for sections that hold a
@@ -59,9 +58,18 @@ function SectionHeader({
   );
 }
 
+/** One accordion entry. `selfScoped` sections name their own controls — see below. */
+interface SectionItem {
+  key: string;
+  label: JSX.Element;
+  children: ReactNode;
+  /** True when the section already wraps its own `FieldScope`(s). */
+  selfScoped?: boolean;
+}
+
 /**
  * The editor: collapsible section cards (spec §10.2), in the order the CV is
- * filled in. `Özünüzü qısa təsvir edin` lives inside "Ümumi məlumat".
+ * filled in. `Özünüzü qısa təsvir edin` lives inside "Əsas məlumatlar".
  */
 export function EditorPanel(): JSX.Element {
   const { t } = useTranslation();
@@ -79,16 +87,31 @@ export function EditorPanel(): JSX.Element {
    * item-editor modal inherits the scope through the portal, so its fields are
    * `#experience-position` and friends.
    */
-  const items = [
+  const items: SectionItem[] = [
     {
+      /**
+       * "Əsas məlumatlar" and "Ümumi məlumat" are ONE panel: both describe the
+       * same person on the same screen, and splitting them only cost the user an
+       * extra expand and a scroll past a header.
+       *
+       * The two halves keep separate `FieldScope`s so their controls keep the
+       * ids they have always had (`#basics-firstName`, `#generalInfo-gender`) —
+       * those are the app's contract with QA automation, and merging the panels
+       * is a layout decision that must not rewrite them.
+       */
       key: 'basics',
       label: <SectionHeader icon={<FiUser aria-hidden />} title={t('sections.basics')} />,
-      children: <BasicsSection />,
-    },
-    {
-      key: 'generalInfo',
-      label: <SectionHeader icon={<FiInfo aria-hidden />} title={t('sections.generalInfo')} />,
-      children: <GeneralInfoSection />,
+      selfScoped: true,
+      children: (
+        <>
+          <FieldScope name="basics">
+            <BasicsSection />
+          </FieldScope>
+          <FieldScope name="generalInfo">
+            <GeneralInfoSection />
+          </FieldScope>
+        </>
+      ),
     },
     {
       key: 'contact',
@@ -183,9 +206,13 @@ export function EditorPanel(): JSX.Element {
   return (
     <VerticalFields>
       <Collapse
-        items={items.map((item) => ({
+        items={items.map(({ selfScoped, ...item }) => ({
           ...item,
-          children: <FieldScope name={item.key}>{item.children}</FieldScope>,
+          children: selfScoped ? (
+            item.children
+          ) : (
+            <FieldScope name={item.key}>{item.children}</FieldScope>
+          ),
         }))}
         activeKey={openSections ?? DEFAULT_OPEN_SECTIONS}
         onChange={(keys) => setOpenSections(Array.isArray(keys) ? keys : [keys])}

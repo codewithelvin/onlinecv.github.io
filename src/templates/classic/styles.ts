@@ -63,7 +63,8 @@ export const styles: Record<string, CSSProperties> = {
   entryDate: { fontSize: 10, color: c.faint, fontWeight: 500, flexShrink: 0 },
   entrySub: { fontSize: 10.5, color: c.muted, marginTop: 1 },
   entryDesc: { fontSize: 10.5, color: c.text, marginTop: 3 },
-  bulletList: { marginTop: 3, marginBottom: 0, paddingLeft: 16 },
+  /** Indent is `paddingLeft` + the marker column drawn by `BulletList` (10pt). */
+  bulletList: { marginTop: 3, marginBottom: 0, paddingLeft: 4 },
   bulletItem: { fontSize: 10.5, color: c.text, marginBottom: 1 },
   infoRow: { display: 'flex', flexDirection: 'row', flexWrap: 'wrap' },
   infoPair: { fontSize: 10.5, color: c.text, width: '50%', marginBottom: 2 },

@@ -42,6 +42,23 @@ function sampleResume(): Resume {
   return r;
 }
 
+/** One entry carrying achievement bullets — the only thing that draws markers. */
+function bulletedResume(): Resume {
+  const r = sampleResume();
+  r.experience = [
+    {
+      id: 'x1',
+      company: 'Cybernet',
+      position: 'Lead Frontend Developer',
+      startDate: '2022-01-10',
+      current: true,
+      description: 'Team lead.',
+      highlights: ['Built the design system', 'Cut the bundle in half'],
+    },
+  ];
+  return r;
+}
+
 /** Enough entries to force the CV past one page. */
 function longResume(): Resume {
   const r = sampleResume();
@@ -98,6 +115,75 @@ function rectangles(pdfSource: string): number[][] {
 
 function pageCount(pdfSource: string): number {
   return (pdfSource.match(/\/Type \/Page[^s]/g) ?? []).length;
+}
+
+/** A 2D affine matrix as PDF writes it: `a b c d e f`. */
+type Matrix = [number, number, number, number, number, number];
+const IDENTITY: Matrix = [1, 0, 0, 1, 0, 0];
+const SIX_NUMBERS = String.raw`(-?[\d.]+) (-?[\d.]+) (-?[\d.]+) (-?[\d.]+) (-?[\d.]+) (-?[\d.]+)`;
+
+function concat(inner: Matrix, outer: Matrix): Matrix {
+  const [a1, b1, c1, d1, e1, f1] = inner;
+  const [a2, b2, c2, d2, e2, f2] = outer;
+  return [
+    a1 * a2 + b1 * c2,
+    a1 * b2 + b1 * d2,
+    c1 * a2 + d1 * c2,
+    c1 * b2 + d1 * d2,
+    e1 * a2 + f1 * c2 + e2,
+    e1 * b2 + f1 * d2 + f2,
+  ];
+}
+
+interface TextDraw {
+  x: number;
+  y: number;
+  size: number;
+  /** How many glyphs the run paints — a lone marker draws exactly one. */
+  glyphs: number;
+}
+
+/**
+ * Every text-painting operation in the content stream, at its ABSOLUTE position
+ * on the page.
+ *
+ * react-pdf nests its boxes as `q … cm … Q`, so a run's real coordinates only
+ * exist as the product of the whole enclosing chain; replaying the graphics
+ * stack here is what turns the stream into something that can be asserted on.
+ */
+function textDraws(pdfSource: string): TextDraw[] {
+  const draws: TextDraw[] = [];
+  const stack: Matrix[] = [];
+  let ctm: Matrix = IDENTITY;
+  let textMatrix: Matrix = IDENTITY;
+  let size = 0;
+
+  for (const raw of pdfSource.split(/\r?\n/)) {
+    const line = raw.trim();
+    if (line === 'q') {
+      stack.push(ctm);
+      continue;
+    }
+    if (line === 'Q') {
+      ctm = stack.pop() ?? IDENTITY;
+      continue;
+    }
+    const cm = line.match(new RegExp(`^${SIX_NUMBERS} cm$`));
+    if (cm) ctm = concat(cm.slice(1).map(Number) as Matrix, ctm);
+    const tm = line.match(new RegExp(`^${SIX_NUMBERS} Tm$`));
+    if (tm) textMatrix = tm.slice(1).map(Number) as Matrix;
+    const tf = line.match(/^\/F\d+ ([\d.]+) Tf$/);
+    if (tf) size = Number(tf[1]);
+    if (line.endsWith('TJ')) {
+      const placed = concat(textMatrix, ctm);
+      const glyphs = (line.match(/<[0-9a-f]+>/g) ?? []).reduce(
+        (total, hex) => total + (hex.length - 2) / 4,
+        0,
+      );
+      draws.push({ x: placed[4], y: placed[5], size, glyphs });
+    }
+  }
+  return draws;
 }
 
 describe('pdf export', () => {
@@ -171,6 +257,44 @@ describe('pdf export', () => {
     // The footer is real content, not a no-op element.
     expect(withCredit.length).toBeGreaterThan(without.length);
   }, 60_000);
+
+  /**
+   * Achievement bullets: the marker sits BESIDE its text, never on top of it.
+   *
+   * The reported bug — "list points and text print one on another" — came from
+   * `<ul>`/`<li>`: with `resetStyles` on, react-pdf-html hides the marker box
+   * with `display: none`, Yoga collapses it to zero size at the row's origin,
+   * and react-pdf's paint pass draws the "•" there anyway, i.e. underneath the
+   * first characters. Measured then: marker and text both at x=56.0, y=630.3.
+   * `templates/_core/bullets` replaces the list with two explicit boxes; this
+   * asserts the geometry that guarantees, per template.
+   */
+  for (const { manifest } of listTemplates()) {
+    it(`separates bullet markers from their text in "${manifest.id}"`, async () => {
+      const source = await renderPdfSource(manifest.id, bulletedResume());
+      const draws = textDraws(source);
+
+      const markers = draws.filter((d) => d.glyphs === 1);
+      expect(markers.length, 'no bullet marker painted at all').toBeGreaterThanOrEqual(2);
+
+      for (const marker of markers) {
+        const collision = draws.find(
+          (d) => d !== marker && Math.abs(d.x - marker.x) < 0.5 && Math.abs(d.y - marker.y) < 0.5,
+        );
+        expect(
+          collision,
+          `a ${collision?.glyphs}-glyph run is painted on top of the marker at ` +
+            `(${marker.x.toFixed(1)}, ${marker.y.toFixed(1)})`,
+        ).toBeUndefined();
+      }
+
+      // And the text really does start to the right of its marker, on the same line.
+      for (const marker of markers) {
+        const text = draws.find((d) => Math.abs(d.y - marker.y) < 0.5 && d.x > marker.x);
+        expect(text, 'a marker with no text beside it').toBeDefined();
+      }
+    }, 30_000);
+  }
 
   it('keeps paginating — and keeps the sidebar — when the CV runs long', async () => {
     const source = await renderPdfSource('modern', longResume());

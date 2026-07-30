@@ -52,5 +52,23 @@ export const themeConfig: ThemeConfig = {
       headerBg: '#ffffff',
       bodyBg: '#f5f5f5',
     },
+    Form: {
+      /**
+       * Ant Design puts `0 0 8px` under a vertical label, which reads as a gap
+       * rather than as a caption belonging to the control below it — the more so
+       * in this editor, where nearly every field is a two-line label/control
+       * pair and the accordion stacks a dozen of them. 2px keeps the label
+       * visually attached to its own control.
+       */
+      verticalLabelPadding: '0 0 2px',
+      /**
+       * The matching outer rhythm. Antd's default is 24px, which after tightening
+       * the label gap would leave the fields floating in their own whitespace and
+       * push the CV form well past a phone screen. 16px still separates one field
+       * from the next by more than a label sits from its control, so the pairing
+       * stays unambiguous.
+       */
+      itemMarginBottom: 16,
+    },
   },
 };
