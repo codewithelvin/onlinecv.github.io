@@ -87,6 +87,7 @@ export function AvatarField(): JSX.Element {
       </Avatar>
       <Space>
         <Button
+          id="avatar-select"
           icon={<FiCamera aria-hidden />}
           loading={preparing}
           aria-busy={preparing}
@@ -95,13 +96,19 @@ export function AvatarField(): JSX.Element {
           {avatar ? t('avatar.change') : t('avatar.select')}
         </Button>
         {avatar ? (
-          <Button danger icon={<FiTrash2 aria-hidden />} onClick={() => setAvatar(undefined)}>
+          <Button
+            id="avatar-remove"
+            danger
+            icon={<FiTrash2 aria-hidden />}
+            onClick={() => setAvatar(undefined)}
+          >
             {t('avatar.remove')}
           </Button>
         ) : null}
       </Space>
       <input
         ref={inputRef}
+        id="avatar-file"
         type="file"
         accept="image/*"
         hidden

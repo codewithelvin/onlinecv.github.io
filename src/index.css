@@ -52,6 +52,31 @@ body {
   font-family: Inter, 'Segoe UI', Roboto, 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Pin the text scale on mobile: Gecko and Blink each reserve the right to
+     inflate text in narrow reflowed columns, and they do not agree on when, so
+     the same CV editor can end up with different type sizes per browser. */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/*
+ * Full-viewport height that survives a phone's collapsing toolbar.
+ *
+ * `100vh` is the LARGE viewport in every mobile engine — it never shrinks for
+ * the URL bar — so a layout sized to it pushes its bottom edge (here the mobile
+ * action bar carrying "PDF kimi endir") below the fold until the user scrolls.
+ * `dvh` tracks the visible viewport instead. The `vh` declaration stays first as
+ * the fallback for engines without `dvh` (Firefox < 116, Chrome < 108).
+ */
+.min-h-viewport {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* Sticky preview column on `≥ lg`: as tall as the visible viewport, less header. */
+.preview-column {
+  max-height: calc(100vh - 96px);
+  max-height: calc(100dvh - 96px);
 }
 
 /*
@@ -90,6 +115,25 @@ html {
 }
 
 /*
+ * The other half of the 35px `controlHeight` token (see `app/theme.ts`).
+ *
+ * antd derives an input's vertical padding from that token, and `Input.TextArea`
+ * shares the derivation — but a textarea's height comes from its `rows`, so
+ * there the extra padding just inflates the box. 4px is exactly what antd's own
+ * 32px default produces ((32 − 14×1.5714)/2 − 1px border), so every multi-line
+ * field keeps the metrics it had while single-line controls get the extra room.
+ *
+ * Order-independent: antd's CSS-in-JS emits its rules inside `:where(…)`, which
+ * contributes NO specificity, so `.ant-input` scores (0,1,0) against this
+ * selector's (0,1,1) and loses. That holds for both textarea shapes — the bare
+ * one and the `showCount` variant, where the affix wrapper is itself zero-padded
+ * and the inner `textarea.ant-input` is what carries the padding.
+ */
+textarea.ant-input {
+  padding-block: 4px;
+}
+
+/*
  * Long unbroken strings — pasted profile URLs, credential links, e-mail
  * addresses — must wrap instead of widening their container.
  */
@@ -114,50 +158,58 @@ body,
  * the thumb never reflows the content next to it.
  *
  * Two mechanisms, because no single one is universal: `scrollbar-*` (Firefox +
- * the CSS standard) and `::-webkit-scrollbar` (Chromium, Safari). Touch
- * platforms already use auto-hiding overlay scrollbars and ignore both.
+ * the CSS standard) and `::-webkit-scrollbar` (Chromium, Safari).
+ *
+ * Scoped to `pointer: fine`, i.e. mouse/trackpad. The whole design is built on
+ * hover, which touch does not have — and only the WebKit half is inert on a
+ * phone: Gecko DOES apply `scrollbar-width`/`scrollbar-color` there, which risks
+ * trading Android's auto-hiding overlay scrollbars for reserved gutters in
+ * Firefox and not in Chrome. Leaving touch platforms entirely alone is what
+ * keeps the two mobile browsers looking the same.
  */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: transparent transparent;
-}
+@media (pointer: fine) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
 
-*:hover,
-*:focus-within {
-  scrollbar-color: rgba(0, 0, 0, 0.25) transparent;
-}
+  *:hover,
+  *:focus-within {
+    scrollbar-color: rgba(0, 0, 0, 0.25) transparent;
+  }
 
-*::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
 
-*::-webkit-scrollbar-track,
-*::-webkit-scrollbar-corner {
-  background: transparent;
-}
+  *::-webkit-scrollbar-track,
+  *::-webkit-scrollbar-corner {
+    background: transparent;
+  }
 
-/* The transparent border + `background-clip` is what makes the thumb read as a
-   slim rounded pill inset from the edge rather than a full-width bar. */
-*::-webkit-scrollbar-thumb {
-  background-color: transparent;
-  background-clip: content-box;
-  border: 3px solid transparent;
-  border-radius: 999px;
-  transition: background-color 0.2s ease;
-}
+  /* The transparent border + `background-clip` is what makes the thumb read as a
+     slim rounded pill inset from the edge rather than a full-width bar. */
+  *::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    background-clip: content-box;
+    border: 3px solid transparent;
+    border-radius: 999px;
+    transition: background-color 0.2s ease;
+  }
 
-*:hover::-webkit-scrollbar-thumb,
-*:focus-within::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.24);
-}
+  *:hover::-webkit-scrollbar-thumb,
+  *:focus-within::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.24);
+  }
 
-*::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(0, 0, 0, 0.42);
-}
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.42);
+  }
 
-*::-webkit-scrollbar-thumb:active {
-  background-color: rgba(0, 0, 0, 0.55);
+  *::-webkit-scrollbar-thumb:active {
+    background-color: rgba(0, 0, 0, 0.55);
+  }
 }
 
 /*

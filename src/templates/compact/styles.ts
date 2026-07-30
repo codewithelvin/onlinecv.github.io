@@ -7,7 +7,9 @@ export const styles: Record<string, CSSProperties> = {
     fontFamily: 'Inter',
     color: c.text,
     backgroundColor: c.pageBg,
-    padding: '24px 32px',
+    // Horizontal only; the vertical margin is `manifest.pageMargin` so that it
+    // repeats on every page (see `PageMargin`).
+    padding: '0 32px',
     fontSize: 9.5,
     lineHeight: 1.35,
     display: 'flex',
@@ -18,6 +20,8 @@ export const styles: Record<string, CSSProperties> = {
   headline: { fontSize: 11, color: c.accent, fontWeight: 600 },
   contactLine: { fontSize: 9, color: c.muted, marginTop: 3 },
   section: { marginBottom: 7, display: 'flex', flexDirection: 'column' },
+  /** Heading + first entry, kept on one page (see `KEEP_TOGETHER`). */
+  keepTogether: { display: 'flex', flexDirection: 'column' },
   sectionTitle: {
     fontSize: 10,
     fontWeight: 700,
@@ -36,8 +40,9 @@ export const styles: Record<string, CSSProperties> = {
     justifyContent: 'space-between',
     alignItems: 'baseline',
   },
-  entryTitle: { fontSize: 10, fontWeight: 600, color: c.heading },
-  entryDate: { fontSize: 9, color: c.faint },
+  /** See the classic template: the title shrinks, the date never does. */
+  entryTitle: { fontSize: 10, fontWeight: 600, color: c.heading, flexShrink: 1, paddingRight: 8 },
+  entryDate: { fontSize: 9, color: c.faint, flexShrink: 0 },
   entrySub: { fontSize: 9.5, color: c.muted },
   entryDesc: { fontSize: 9.5, color: c.text, marginTop: 1 },
   bulletList: { marginTop: 1, marginBottom: 0, paddingLeft: 14 },

@@ -7,4 +7,6 @@ export const manifest: TemplateManifest = {
   atsSafe: true,
   accent: '#1461c7',
   thumbnail,
+  // The page's own top/bottom margin; the left/right 40 stays in `styles.page`.
+  pageMargin: { top: 32, bottom: 32 },
 };

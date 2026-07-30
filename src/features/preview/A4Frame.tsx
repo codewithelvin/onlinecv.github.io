@@ -1,4 +1,5 @@
 import { type JSX, type ReactNode, useLayoutEffect, useRef, useState } from 'react';
+import type { PageMargin } from '../../types/template';
 
 /**
  * A4 portrait in POINTS — the unit `@react-pdf/renderer` actually lays the
@@ -20,7 +21,25 @@ const MAX_SCALE = 2;
  * available width (spec §10.3: preview keeps A4 aspect, scales to fit, never
  * forces horizontal scroll). The exported PDF is always A4 regardless.
  */
-export function A4Frame({ children }: { children: ReactNode }): JSX.Element {
+export function A4Frame({
+  children,
+  footer,
+  pageMargin,
+}: {
+  children: ReactNode;
+  /**
+   * The selected template's per-page vertical margin. Applied to the canvas —
+   * exactly as `services/pdf.ts` applies it to react-pdf's `Page` — so the
+   * preview keeps matching the export.
+   */
+  pageMargin?: PageMargin;
+  /**
+   * Rendered inside the page, on top of it: the credit line positions itself
+   * against the page box (see `attributionPreviewStyle`) so it never takes
+   * height away from a template that fills the page.
+   */
+  footer?: ReactNode;
+}): JSX.Element {
   const wrapRef = useRef<HTMLDivElement>(null);
   const pageRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
@@ -63,6 +82,10 @@ export function A4Frame({ children }: { children: ReactNode }): JSX.Element {
           style={{
             width: A4_WIDTH,
             minHeight: A4_HEIGHT,
+            boxSizing: 'border-box',
+            // Anchor for the credit line, which is positioned against the SHEET
+            // (paper edge) exactly as react-pdf positions a `Page` child.
+            position: 'relative',
             transform: `scale(${scale})`,
             transformOrigin: 'top left',
             background: '#ffffff',
@@ -75,7 +98,29 @@ export function A4Frame({ children }: { children: ReactNode }): JSX.Element {
             flexDirection: 'column',
           }}
         >
-          {children}
+          {/*
+            The text area, inset from the paper by the template's page margin.
+            A MARGIN on this box rather than padding on the sheet, because both
+            renderers resolve absolutely positioned children — the modern
+            template's full-bleed accent column — against their container's box,
+            and react-pdf uses the CONTENT box while CSS uses the PADDING box.
+            Making the inset a margin removes padding from the equation, so one
+            set of offsets means the same thing in the preview and in the PDF.
+          */}
+          <div
+            style={{
+              position: 'relative',
+              flex: '1 1 auto',
+              display: 'flex',
+              flexDirection: 'column',
+              marginTop: pageMargin?.top ?? 0,
+              marginBottom: pageMargin?.bottom ?? 0,
+            }}
+          >
+            {children}
+          </div>
+          {/* Outside the text area on purpose: the credit belongs to the sheet. */}
+          {footer}
         </div>
       </div>
     </div>

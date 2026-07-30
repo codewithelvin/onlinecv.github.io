@@ -1,0 +1,181 @@
+{
+  "id": "default",
+  "updatedAt": "2026-07-30T00:00:00.000Z",
+  "locale": "az",
+  "templateId": "classic",
+  "attribution": true,
+  "media": {},
+  "basics": {
+    "firstName": "Elvin",
+    "lastName": "Hüseynov",
+    "headline": "Frontend Developer",
+    "location": "Bakı"
+  },
+  "generalInfo": {
+    "gender": "male",
+    "maritalStatus": "married",
+    "nationality": "azerbaijani",
+    "dateOfBirth": "1987-06-15",
+    "militaryStatus": "served",
+    "driverLicense": ["A", "B"]
+  },
+  "contact": {
+    "email": "codewithelvin@gmail.com",
+    "items": [
+      { "id": "c1", "type": "mobile", "value": "+994558043484" },
+      { "id": "c2", "type": "landline", "value": "+994124985225" },
+      { "id": "c3", "type": "linkedin", "value": "https://www.linkedin.com/in/elvinihuseynov/" },
+      { "id": "c4", "type": "facebook", "value": "https://www.facebook.com/elvinihuseynov" },
+      { "id": "c5", "type": "github", "value": "https://github.com/codewithelvin" },
+      { "id": "c6", "type": "address", "value": "Bakı, Azərbaycan" }
+    ]
+  },
+  "summary": "Experienced Front-end Developer with a strong background in crafting engaging and responsive user interfaces. Proficient in a range of web technologies, dedicated to delivering visually appealing and user-friendly web applications.",
+  "experience": [
+    {
+      "id": "x1",
+      "company": "Cybernet LLC",
+      "position": "Front-End Developer",
+      "employmentType": "fullTime",
+      "location": "Bakı",
+      "startDate": "2022-01-01",
+      "endDate": "",
+      "current": true,
+      "description": "Spearheading the development of a State Tax System. Leveraging React and Redux, engineered innovative applications.",
+      "highlights": [
+        "Rebuilt the taxpayer portal on React + Redux Toolkit",
+        "Cut first-paint time by 40% with code-splitting and caching"
+      ]
+    },
+    {
+      "id": "x2",
+      "company": "Cybernet LLC",
+      "position": "Project Manager",
+      "employmentType": "fullTime",
+      "location": "Bakı",
+      "startDate": "2019-12-01",
+      "endDate": "2021-12-31",
+      "current": false,
+      "description": "Led and managed a dynamic team of 50+ developers, testers and analysts on Tax System conceptualization and implementation.",
+      "highlights": ["Delivered 3 major releases of the State Tax System on schedule"]
+    },
+    {
+      "id": "x3",
+      "company": "Smart Bytes",
+      "position": "Co-Founder, CEO",
+      "employmentType": "selfEmployed",
+      "location": "Bakı",
+      "startDate": "2016-08-15",
+      "endDate": "2019-11-30",
+      "current": false,
+      "description": "Founded a tech company; delivered an Online Educational Monitoring System and a Master Data Management solution for schools.",
+      "highlights": []
+    },
+    {
+      "id": "x4",
+      "company": "Qala Express",
+      "position": "Management Executive",
+      "employmentType": "fullTime",
+      "location": "Bakı",
+      "startDate": "2011-09-10",
+      "endDate": "2016-07-31",
+      "current": false,
+      "description": "Progressed from Operations Manager to Executive Director; oversaw the vehicle fleet and drivers for transportation services.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "id": "e1",
+      "type": "university",
+      "code": "adau",
+      "institution": "Azərbaycan Dövlət Aqrar Universiteti",
+      "faculty": "Aqrar iqtisadiyyat",
+      "specialization": "İqtisadiyyat",
+      "degree": "doctorant",
+      "startDate": "2014-09",
+      "endDate": "2015-06",
+      "current": false,
+      "comment": ""
+    },
+    {
+      "id": "e2",
+      "type": "university",
+      "code": "atu",
+      "institution": "Azərbaycan Tibb Universiteti",
+      "faculty": "İctimai səhiyyə",
+      "specialization": "Səhiyyənin təşkili",
+      "degree": "magister",
+      "startDate": "2011-09",
+      "endDate": "2012-06",
+      "current": false,
+      "comment": ""
+    },
+    {
+      "id": "e3",
+      "type": "college",
+      "institution": "Lənkəran Dövlət Universitetinin Sosial və Aqrar-Texnoloji Kolleci",
+      "specialization": "Aqrar texnologiya",
+      "startDate": "2007-09",
+      "endDate": "2007-12",
+      "current": false,
+      "comment": ""
+    },
+    {
+      "id": "e4",
+      "type": "university",
+      "code": "baau",
+      "institution": "Bakı Avrasiya Universiteti",
+      "faculty": "Tərcümə",
+      "specialization": "Sinxron tərcümə (İngilis dili)",
+      "degree": "bachelor",
+      "startDate": "2006-09",
+      "endDate": "2009-06",
+      "current": false,
+      "comment": ""
+    }
+  ],
+  "skills": [
+    { "id": "s1", "name": "Redux", "level": 90 },
+    { "id": "s2", "name": "Team Management", "level": 85 },
+    { "id": "s3", "code": "next_js", "name": "Next.js", "level": 85 },
+    { "id": "s4", "code": "reactjs", "name": "ReactJS", "level": 80 },
+    { "id": "s5", "name": "TypeScript", "level": 75 },
+    { "id": "s6", "name": "Docker", "level": 75 },
+    { "id": "s7", "name": "IT Leadership", "level": 75 },
+    { "id": "s8", "code": "javascript", "name": "JavaScript", "level": 55 }
+  ],
+  "languages": [
+    { "id": "l1", "code": "english", "name": "İngilis dili", "level": "C1" },
+    { "id": "l2", "code": "russian", "name": "Rus dili", "level": "C1" },
+    { "id": "l3", "code": "german", "name": "Alman dili", "level": "A1" }
+  ],
+  "certifications": [
+    {
+      "id": "cert1",
+      "name": "Advanced JavaScript Concepts",
+      "organization": "Coursera",
+      "issueDate": "2025-04",
+      "expirationDate": "",
+      "credentialId": "",
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/ABC123",
+      "comment": ""
+    },
+    {
+      "id": "cert2",
+      "name": "The Complete Web Developer in 2021: Zero to Mastery",
+      "organization": "Udemy",
+      "issueDate": "2020-12",
+      "expirationDate": "",
+      "credentialId": "UC-1234567890",
+      "credentialUrl": "",
+      "comment": ""
+    }
+  ],
+  "interests": [
+    { "id": "i1", "code": "read_books", "name": "Kitab oxumaq" },
+    { "id": "i2", "code": "play_games", "name": "Oyun oynamaq" },
+    { "id": "i3", "code": "music_production", "name": "Musiqi bəstələmək" }
+  ],
+  "projects": []
+}

@@ -19,7 +19,7 @@ export function EditorLayout(): JSX.Element {
   const { isDesktop } = useResponsive();
 
   return (
-    <Layout style={{ minHeight: '100vh' }}>
+    <Layout className="min-h-viewport">
       <Header
         style={{
           display: 'flex',
@@ -55,12 +55,12 @@ export function EditorLayout(): JSX.Element {
                 <EditorPanel />
               </div>
               <div
+                className="preview-column"
                 style={{
                   flex: '1 1 55%',
                   minWidth: 0,
                   position: 'sticky',
                   top: 80,
-                  maxHeight: 'calc(100vh - 96px)',
                   overflowY: 'auto',
                 }}
               >
@@ -69,6 +69,10 @@ export function EditorLayout(): JSX.Element {
             </div>
           ) : (
             <Tabs
+              // Fixes the generated id prefix, so the tab buttons are
+              // `#editorTabs-tab-edit` / `#editorTabs-tab-preview` rather than
+              // rc-tabs' render-order-dependent `rc-tabs-0-…`.
+              id="editorTabs"
               defaultActiveKey="edit"
               items={[
                 { key: 'edit', label: t('header.edit'), children: <EditorPanel /> },

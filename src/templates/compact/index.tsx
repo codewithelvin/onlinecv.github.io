@@ -1,24 +1,32 @@
-import type { JSX, ReactNode } from 'react';
+import { Children, type JSX, type ReactNode } from 'react';
 import type { TemplateProps } from '../_core/contract';
 import type { LanguageLevel } from '../../types/resume';
 import {
   contactChannels,
+  contactDisplay,
   dateRange,
   fullName,
+  generalInfoPairs,
   hasItems,
   highlights,
+  KEEP_TOGETHER,
 } from '../_core/render-helpers';
 import { styles } from './styles';
 
 const FULL = 'DD.MM.YYYY';
 const MONTH = 'MMM YYYY';
 
+/** Heading + first block never split across pages — see the classic template. */
 function Section({ title, children }: { title: string; children: ReactNode }): JSX.Element | null {
   if (!children) return null;
+  const [first, ...rest] = Children.toArray(children);
   return (
     <div style={styles.section}>
-      <div style={styles.sectionTitle}>{title}</div>
-      {children}
+      <div style={styles.keepTogether} {...KEEP_TOGETHER}>
+        <div style={styles.sectionTitle}>{title}</div>
+        {first}
+      </div>
+      {rest}
     </div>
   );
 }
@@ -44,19 +52,16 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
   const levelLabel = (level: LanguageLevel): string =>
     level === 'native' ? t('dictionary.native') : level;
 
-  const contacts = contactChannels(resume).map((c) => c.value);
+  const contacts = contactChannels(resume).map(contactDisplay);
   const skillNames = resume.skills.map((s) => s.name).filter(Boolean);
   const languageText = resume.languages.map((l) => `${l.name} (${levelLabel(l.level)})`).join(', ');
   const interestText = (resume.interests ?? []).map((i) => i.name).filter(Boolean).join(', ');
 
-  const gi = resume.generalInfo;
-  const infoParts: string[] = [];
-  if (gi.dateOfBirth) infoParts.push(`${t('cvLabels.dateOfBirth')}: ${formatDate(gi.dateOfBirth, FULL)}`);
-  if (gi.nationality) infoParts.push(`${t('cvLabels.nationality')}: ${gi.nationality}`);
-  if (gi.militaryStatus) infoParts.push(`${t('cvLabels.military')}: ${t(`dictionary.${gi.militaryStatus}`)}`);
-  if (gi.driverLicense && gi.driverLicense.length > 0) {
-    infoParts.push(`${t('cvLabels.driverLicense')}: ${gi.driverLicense.join(', ')}`);
-  }
+  // Same rows as every other template (`generalInfoPairs`), run together on one
+  // line — condensed is this template's job, dropping the user's data is not.
+  const infoParts = generalInfoPairs(resume, t, formatDate, FULL).map(
+    ([label, value]) => `${label}: ${value}`,
+  );
 
   return (
     <div style={styles.page}>
@@ -84,11 +89,13 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
           ? resume.experience.map((x) => (
               <div key={x.id} style={styles.entry}>
                 <div style={styles.entryHeadRow}>
-                  <span style={styles.entryTitle}>
+                  <div style={styles.entryTitle}>
                     {[x.position, x.company].filter(Boolean).join(' — ')}
                     {x.location ? `, ${x.location}` : ''}
-                  </span>
-                  <span style={styles.entryDate}>{dateRange(x, formatDate, FULL, t('common.present'))}</span>
+                  </div>
+                  <div style={styles.entryDate}>
+                    {dateRange(x, formatDate, FULL, t('common.present'))}
+                  </div>
                 </div>
                 {x.description ? <div style={styles.entryDesc}>{x.description}</div> : null}
                 <Bullets items={highlights(x.highlights)} />
@@ -102,7 +109,7 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
           ? resume.projects.map((p) => (
               <div key={p.id} style={styles.entry}>
                 <div style={styles.entryHeadRow}>
-                  <span style={styles.entryTitle}>{p.name}</span>
+                  <div style={styles.entryTitle}>{p.name}</div>
                   {p.url ? (
                     <a style={styles.link} href={p.url}>
                       {p.url}
@@ -121,8 +128,10 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
           ? resume.education.map((e) => (
               <div key={e.id} style={styles.entry}>
                 <div style={styles.entryHeadRow}>
-                  <span style={styles.entryTitle}>{e.institution}</span>
-                  <span style={styles.entryDate}>{dateRange(e, formatDate, MONTH, t('common.present'))}</span>
+                  <div style={styles.entryTitle}>{e.institution}</div>
+                  <div style={styles.entryDate}>
+                    {dateRange(e, formatDate, MONTH, t('common.present'))}
+                  </div>
                 </div>
                 <div style={styles.entrySub}>
                   {[e.degree ? t(`dictionary.${e.degree}`) : '', e.faculty, e.specialization]
@@ -147,10 +156,10 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
           ? resume.certifications.map((cert) => (
               <div key={cert.id} style={styles.entry}>
                 <div style={styles.entryHeadRow}>
-                  <span style={styles.entryTitle}>{cert.name}</span>
-                  <span style={styles.entryDate}>
+                  <div style={styles.entryTitle}>{cert.name}</div>
+                  <div style={styles.entryDate}>
                     {cert.issueDate ? formatDate(cert.issueDate, MONTH) : ''}
-                  </span>
+                  </div>
                 </div>
                 <div style={styles.entrySub}>
                   {cert.organization}

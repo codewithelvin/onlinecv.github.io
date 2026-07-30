@@ -20,6 +20,21 @@ export const themeConfig: ThemeConfig = {
     borderRadius: 8,
     fontFamily: FONT_FAMILY,
     fontSize: 14,
+    /**
+     * 35px instead of antd's 32: inputs, selects, date pickers and buttons all
+     * read better with the extra breathing room next to their labels. The
+     * small/large steps are pinned rather than derived (antd would compute
+     * 26.25 / 43.75) — `controlHeightSM` keeps the value the 32px default
+     * produced, so the compact icon buttons don't grow, and 44 for large lines
+     * up with the minimum touch target (spec §10.3).
+     *
+     * NOTE: this token also feeds `Input.TextArea`'s vertical padding, where a
+     * taller box is pure waste (a textarea sizes itself from `rows`). The
+     * padding is pinned back in `index.css` — see the `textarea.ant-input` rule.
+     */
+    controlHeight: 35,
+    controlHeightSM: 24,
+    controlHeightLG: 44,
     colorBgLayout: '#f5f5f5',
     /**
      * Ant Design's default "description" grey is `rgba(0,0,0,0.45)` — `#8c8c8c`

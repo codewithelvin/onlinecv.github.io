@@ -16,6 +16,7 @@ export function LanguageSwitcher(): JSX.Element {
   const setUiLocale = useResumeStore((s) => s.setUiLocale);
   return (
     <Segmented
+      id="ui-language"
       aria-label={t('header.language')}
       value={uiLocale}
       onChange={(v) => setUiLocale(v as Locale)}

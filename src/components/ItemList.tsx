@@ -3,6 +3,7 @@ import { Button, List, Popconfirm, Space, Typography } from 'antd';
 import { FiChevronDown, FiChevronUp, FiEdit2, FiTrash2 } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { useResponsive } from '../hooks/useResponsive';
+import { useScopedId } from './form/field-scope';
 
 /**
  * Generic list of resume items with edit / delete / reorder controls.
@@ -37,6 +38,9 @@ export function ItemList({
 }: ItemListProps): JSX.Element | null {
   const { t } = useTranslation();
   const { isMobile } = useResponsive();
+  // `#experience-item-0-edit` etc. — the row index, not the item's uuid, so a
+  // test-automation script can address "the first entry" without reading state.
+  const scope = useScopedId('item');
 
   if (ids.length === 0) {
     return <Typography.Text type="secondary">{t('emptyState.noItems')}</Typography.Text>;
@@ -57,11 +61,15 @@ export function ItemList({
       }
     : { size: 'small' };
 
+  const controlId = (index: number, action: string): string | undefined =>
+    scope ? `${scope}-${index}-${action}` : undefined;
+
   const controls = (index: number): ReactNode[] => [
     ...(onMove
       ? [
           <Button
             key="up"
+            id={controlId(index, 'up')}
             type="text"
             {...buttonProps}
             aria-label={t('common.moveUp')}
@@ -71,6 +79,7 @@ export function ItemList({
           />,
           <Button
             key="down"
+            id={controlId(index, 'down')}
             type="text"
             {...buttonProps}
             aria-label={t('common.moveDown')}
@@ -82,6 +91,7 @@ export function ItemList({
       : []),
     <Button
       key="edit"
+      id={controlId(index, 'edit')}
       type="text"
       {...buttonProps}
       aria-label={t('common.edit')}
@@ -93,9 +103,11 @@ export function ItemList({
       title={t('common.deleteConfirm')}
       okText={t('common.yes')}
       cancelText={t('common.no')}
+      okButtonProps={{ id: controlId(index, 'delete-confirm') }}
       onConfirm={() => onRemove(index)}
     >
       <Button
+        id={controlId(index, 'delete')}
         type="text"
         danger
         {...buttonProps}
@@ -119,7 +131,11 @@ export function ItemList({
           </Space>
         );
         return (
-          <List.Item key={id} actions={isMobile ? undefined : controls(index)}>
+          <List.Item
+            key={id}
+            id={scope ? `${scope}-${index}` : undefined}
+            actions={isMobile ? undefined : controls(index)}
+          >
             {isMobile ? (
               <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: 4 }}>
                 {text}

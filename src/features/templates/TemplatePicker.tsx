@@ -26,6 +26,7 @@ export function TemplatePicker({ compact }: { compact?: boolean } = {}): JSX.Ele
   return (
     <>
       <Button
+        id={compact ? 'template-picker-compact' : 'template-picker'}
         icon={<FiLayout aria-hidden />}
         onClick={() => setOpen(true)}
         aria-label={t('header.templates')}
@@ -49,6 +50,7 @@ export function TemplatePicker({ compact }: { compact?: boolean } = {}): JSX.Ele
             const selected = manifest.id === templateId;
             const card = (
               <Card
+                id={`template-option-${manifest.id}`}
                 hoverable
                 onClick={() => {
                   setTemplate(manifest.id);

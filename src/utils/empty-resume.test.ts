@@ -10,6 +10,16 @@ describe('empty-resume', () => {
     expect(r.experience).toEqual([]);
   });
 
+  it('preselects neither gender nor marital status', () => {
+    const r = createEmptyResume();
+    expect(r.generalInfo.gender).toBeUndefined();
+    expect(r.generalInfo.maritalStatus).toBeUndefined();
+  });
+
+  it('opts a new resume into the site credit', () => {
+    expect(createEmptyResume().attribution).toBe(true);
+  });
+
   it('needsWizard until identity + email are present', () => {
     const r = createEmptyResume();
     expect(needsWizard(r)).toBe(true);

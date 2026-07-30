@@ -48,6 +48,8 @@ export interface ResumeStore {
   setOpenSections: (keys: string[]) => void;
   setResumeLocale: (locale: Locale) => void;
   setTemplate: (templateId: TemplateId) => void;
+  /** Show/hide the "Made with www.onlinecv.az" credit on the CV. */
+  setAttribution: (attribution: boolean) => void;
 
   updateBasics: (patch: Partial<Basics>) => void;
   updateGeneralInfo: (patch: Partial<GeneralInfo>) => void;
@@ -114,6 +116,8 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
   setResumeLocale: (locale) => set((s) => ({ resume: touch({ ...s.resume, locale }) })),
 
   setTemplate: (templateId) => set((s) => ({ resume: touch({ ...s.resume, templateId }) })),
+
+  setAttribution: (attribution) => set((s) => ({ resume: touch({ ...s.resume, attribution }) })),
 
   updateBasics: (patch) =>
     set((s) => ({ resume: touch({ ...s.resume, basics: { ...s.resume.basics, ...patch } }) })),

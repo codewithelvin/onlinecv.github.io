@@ -7,4 +7,7 @@ export const manifest: TemplateManifest = {
   atsSafe: false,
   accent: '#1461c7',
   thumbnail,
+  // The accent sidebar still bleeds to the paper edge: it cancels this margin
+  // with negative vertical margins of its own (see `styles.sidebar`).
+  pageMargin: { top: 28, bottom: 28 },
 };

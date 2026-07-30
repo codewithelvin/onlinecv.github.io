@@ -55,6 +55,8 @@ export function AvatarCropperModal({
       onOk={() => void handleOk()}
       okText={t('avatar.addStepButton')}
       cancelText={t('common.cancel')}
+      okButtonProps={{ id: 'avatar-crop-save' }}
+      cancelButtonProps={{ id: 'avatar-crop-cancel' }}
       confirmLoading={busy}
       maskClosable={false}
       destroyOnHidden

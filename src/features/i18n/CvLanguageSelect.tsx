@@ -24,6 +24,7 @@ export function CvLanguageSelect(): JSX.Element {
       {/* This label is a plain Text, not a <label>, so point the combobox at it
           explicitly — otherwise the control is unnamed for screen readers. */}
       <Select
+        id="cv-language"
         size="small"
         aria-labelledby={labelId}
         value={locale}
