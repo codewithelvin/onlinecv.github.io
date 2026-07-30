@@ -18,6 +18,21 @@ export interface TemplateProps {
 /** A template's default export: a pure function of resume data returning HTML. */
 export type ResumeTemplate = (props: TemplateProps) => JSX.Element;
 
+/**
+ * Top and bottom page margin, in points.
+ *
+ * Vertical breathing room MUST live here rather than as padding on a template's
+ * root element: padding applies to a block once, so on a CV that runs to a
+ * second page the content of every page after the first starts hard against the
+ * paper edge. This is applied to react-pdf's `Page` (which re-applies it per
+ * page) and to the preview canvas, keeping the two identical. Horizontal
+ * padding has no such problem and stays in the template's own styles.
+ */
+export interface PageMargin {
+  top: number;
+  bottom: number;
+}
+
 /** Metadata each template folder exports (`manifest.ts`). */
 export interface TemplateManifest {
   /** MUST equal the folder name. */
@@ -30,6 +45,8 @@ export interface TemplateManifest {
   accent?: string;
   /** Imported thumbnail asset URL. */
   thumbnail: string;
+  /** Per-page vertical margin. Omitted = none (the template pads itself). */
+  pageMargin?: PageMargin;
 }
 
 /** A registry entry: eager manifest + lazy component loader. */

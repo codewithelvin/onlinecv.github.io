@@ -1,35 +1,46 @@
-import type { JSX, ReactNode } from 'react';
+import { Children, type JSX, type ReactNode } from 'react';
 import type { TemplateProps } from '../_core/contract';
 import type { LanguageLevel } from '../../types/resume';
 import {
   contactChannels,
+  contactDisplay,
   dateRange,
   fullName,
+  generalInfoPairs,
   hasItems,
   highlights,
+  KEEP_TOGETHER,
 } from '../_core/render-helpers';
-import { calcAge } from '../../utils/date';
 import { styles } from './styles';
 
 const FULL = 'DD.MM.YYYY';
 const MONTH = 'MMM YYYY';
 
+/** Heading + first block never split across pages — see the classic template. */
 function MainSection({ title, children }: { title: string; children: ReactNode }): JSX.Element | null {
   if (!children) return null;
+  const [first, ...rest] = Children.toArray(children);
   return (
     <div style={styles.section}>
-      <div style={styles.sectionTitle}>{title}</div>
-      {children}
+      <div style={styles.keepTogether} {...KEEP_TOGETHER}>
+        <div style={styles.sectionTitle}>{title}</div>
+        {first}
+      </div>
+      {rest}
     </div>
   );
 }
 
 function SideSection({ title, children }: { title: string; children: ReactNode }): JSX.Element | null {
   if (!children) return null;
+  const [first, ...rest] = Children.toArray(children);
   return (
     <div style={styles.sideSection}>
-      <div style={styles.sideTitle}>{title}</div>
-      {children}
+      <div style={styles.keepTogether} {...KEEP_TOGETHER}>
+        <div style={styles.sideTitle}>{title}</div>
+        {first}
+      </div>
+      {rest}
     </div>
   );
 }
@@ -57,25 +68,12 @@ export default function Modern({ resume, t, formatDate }: TemplateProps): JSX.El
 
   const initials = `${resume.basics.firstName[0] ?? ''}${resume.basics.lastName[0] ?? ''}`.toUpperCase();
   const contacts = contactChannels(resume);
-  const gi = resume.generalInfo;
-  const age = calcAge(gi.dateOfBirth);
-
-  const infoPairs: Array<[string, string]> = [];
-  if (gi.dateOfBirth) {
-    infoPairs.push([
-      t('cvLabels.dateOfBirth'),
-      `${formatDate(gi.dateOfBirth, FULL)}${age !== null ? ` (${age})` : ''}`,
-    ]);
-  }
-  if (gi.nationality) infoPairs.push([t('cvLabels.nationality'), gi.nationality]);
-  if (gi.maritalStatus) infoPairs.push([t('cvLabels.maritalStatus'), t(`dictionary.${gi.maritalStatus}`)]);
-  if (gi.militaryStatus) infoPairs.push([t('cvLabels.military'), t(`dictionary.${gi.militaryStatus}`)]);
-  if (gi.driverLicense && gi.driverLicense.length > 0) {
-    infoPairs.push([t('cvLabels.driverLicense'), gi.driverLicense.join(', ')]);
-  }
+  const infoPairs = generalInfoPairs(resume, t, formatDate, FULL);
 
   return (
     <div style={styles.page}>
+      {/* Full-bleed accent column behind the sidebar — see `styles.sidebarBleed`. */}
+      <div style={styles.sidebarBleed} data-page-bleed />
       <div style={styles.sidebar}>
         <div style={styles.avatarWrap}>
           {resume.media.avatar ? (
@@ -91,7 +89,7 @@ export default function Modern({ resume, t, formatDate }: TemplateProps): JSX.El
           {contacts.length > 0
             ? contacts.map((c) => (
                 <div key={c.id} style={styles.sideItem}>
-                  {c.value}
+                  {contactDisplay(c)}
                 </div>
               ))
             : null}

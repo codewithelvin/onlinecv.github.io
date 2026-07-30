@@ -1,5 +1,5 @@
 import type { CSSProperties, JSX, ReactNode } from 'react';
-import { useId } from 'react';
+import { useContext, useId } from 'react';
 import {
   AutoComplete,
   Checkbox,
@@ -14,6 +14,7 @@ import dayjs from 'dayjs';
 import { type Control, type FieldPath, type FieldValues, useController } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import { FULL_DATE, ISO_DATE, ISO_MONTH, MONTH_YEAR } from '../../utils/date';
+import { FieldScopeContext, useScopedId } from './field-scope';
 
 /**
  * Reusable React Hook Form ↔ Ant Design field bindings. Each resolves its
@@ -29,11 +30,34 @@ import { FULL_DATE, ISO_DATE, ISO_MONTH, MONTH_YEAR } from '../../utils/date';
  * rendered — these fields are driven by React Hook Form, not rc-field-form —
  * and the context reaches modals too, since React context flows through portals.
  */
-export function VerticalFields({ children }: { children: ReactNode }): JSX.Element {
-  return (
+export function VerticalFields({
+  scope,
+  children,
+}: {
+  /** Optional `FieldScope` around the fields — see `FieldScope` for the ids. */
+  scope?: string;
+  children: ReactNode;
+}): JSX.Element {
+  const form = (
     <Form layout="vertical" component={false} requiredMark>
       {children}
     </Form>
+  );
+  return scope ? <FieldScope name={scope}>{form}</FieldScope> : form;
+}
+
+/**
+ * Provides the id namespace the controls below it are named in — see
+ * `field-scope.ts` for why the ids are built this way. Scopes nest:
+ * `<FieldScope name="basics">` inside `<FieldScope name="cv">` yields
+ * `cv-basics-firstName`.
+ */
+export function FieldScope({ name, children }: { name: string; children: ReactNode }): JSX.Element {
+  const parent = useContext(FieldScopeContext);
+  return (
+    <FieldScopeContext.Provider value={parent ? `${parent}-${name}` : name}>
+      {children}
+    </FieldScopeContext.Provider>
   );
 }
 
@@ -58,6 +82,7 @@ export interface FieldControl {
  */
 export function Field({
   label,
+  name,
   required,
   error,
   extra,
@@ -65,13 +90,16 @@ export function Field({
   children,
 }: {
   label: string;
+  /** Field name — becomes the control's DOM id within the current `FieldScope`. */
+  name?: string;
   required?: boolean;
   error?: string;
   extra?: ReactNode;
   style?: CSSProperties;
   children: (control: FieldControl) => ReactNode;
 }): JSX.Element {
-  const id = useId();
+  const generatedId = useId();
+  const id = useScopedId(name) ?? generatedId;
   const helpId = `${id}-help`;
   return (
     <Form.Item
@@ -123,7 +151,7 @@ export function RHFText<T extends FieldValues>({
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
   return (
-    <Field label={label} required={required} error={message}>
+    <Field label={label} name={name} required={required} error={message}>
       {(a11y) => (
         <Input
           {...field}
@@ -150,7 +178,7 @@ export function RHFTextArea<T extends FieldValues>({
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
   return (
-    <Field label={label} required={required} error={message}>
+    <Field label={label} name={name} required={required} error={message}>
       {(a11y) => (
         <Input.TextArea
           {...field}
@@ -177,7 +205,7 @@ export function RHFNumber<T extends FieldValues>({
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
   return (
-    <Field label={label} required={required} error={message}>
+    <Field label={label} name={name} required={required} error={message}>
       {(a11y) => (
         <InputNumber
           {...a11y}
@@ -206,8 +234,11 @@ export function RHFSlider<T extends FieldValues>({
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
   const value = typeof field.value === 'number' ? field.value : min;
+  // The twin number box is the practical handle for automation (a slider can
+  // only be driven by drag/arrow keys), so it gets an id of its own.
+  const numberId = useScopedId(name ? `${name}-value` : undefined);
   return (
-    <Field label={label} required={required} error={message}>
+    <Field label={label} name={name} required={required} error={message}>
       {(a11y) => (
         <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
           <Slider
@@ -227,6 +258,7 @@ export function RHFSlider<T extends FieldValues>({
           {/* The label points at the slider, so the twin number box needs its own
               accessible name rather than sharing one. */}
           <InputNumber
+            id={numberId}
             style={{ width: 78, flex: '0 0 auto' }}
             aria-label={label}
             min={min}
@@ -266,7 +298,7 @@ export function RHFSelect<T extends FieldValues>({
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
   return (
-    <Field label={label} required={required} error={message}>
+    <Field label={label} name={name} required={required} error={message}>
       {(a11y) => (
         <Select
           {...a11y}
@@ -297,7 +329,7 @@ export function RHFAutoComplete<T extends FieldValues>({
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
   return (
-    <Field label={label} required={required} error={message}>
+    <Field label={label} name={name} required={required} error={message}>
       {(a11y) => (
         <AutoComplete
           {...a11y}
@@ -341,7 +373,7 @@ export function RHFDate<T extends FieldValues>({
   const displayFormat = isMonth ? MONTH_YEAR : FULL_DATE;
   const value = field.value ? dayjs(field.value as string) : null;
   return (
-    <Field label={label} required={required} error={message}>
+    <Field label={label} name={name} required={required} error={message}>
       {(a11y) => (
         <DatePicker
           {...a11y}
@@ -366,9 +398,14 @@ export function RHFCheckbox<T extends FieldValues>({
   label,
 }: BaseProps<T>): JSX.Element {
   const { field } = useController({ control, name });
+  const id = useScopedId(name);
   return (
     <Form.Item>
-      <Checkbox checked={Boolean(field.value)} onChange={(e) => field.onChange(e.target.checked)}>
+      <Checkbox
+        id={id}
+        checked={Boolean(field.value)}
+        onChange={(e) => field.onChange(e.target.checked)}
+      >
         {label}
       </Checkbox>
     </Form.Item>
@@ -387,7 +424,7 @@ export function RHFLines<T extends FieldValues>({
   const { message } = useError(control, name);
   const text = Array.isArray(field.value) ? (field.value as string[]).join('\n') : '';
   return (
-    <Field label={label} required={required} error={message}>
+    <Field label={label} name={name} required={required} error={message}>
       {(a11y) => (
         <Input.TextArea
           {...a11y}

@@ -14,7 +14,7 @@ import {
 } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { useResumeStore } from '../../state/store';
-import { VerticalFields } from '../../components/form/fields';
+import { FieldScope, VerticalFields } from '../../components/form/fields';
 import { BasicsSection } from './sections/BasicsSection';
 import { GeneralInfoSection } from './sections/GeneralInfoSection';
 import { ContactSection } from './sections/ContactSection';
@@ -71,6 +71,14 @@ export function EditorPanel(): JSX.Element {
   const openSections = useResumeStore((s) => s.openSections);
   const setOpenSections = useResumeStore((s) => s.setOpenSections);
 
+  /**
+   * Every section is mounted inside a `FieldScope` named after its key, which is
+   * what gives its controls, item rows and buttons stable DOM ids
+   * (`#basics-firstName`, `#experience-add`) for test automation. Doing it here
+   * rather than in each section keeps the naming in one place — and a section's
+   * item-editor modal inherits the scope through the portal, so its fields are
+   * `#experience-position` and friends.
+   */
   const items = [
     {
       key: 'basics',
@@ -175,7 +183,10 @@ export function EditorPanel(): JSX.Element {
   return (
     <VerticalFields>
       <Collapse
-        items={items}
+        items={items.map((item) => ({
+          ...item,
+          children: <FieldScope name={item.key}>{item.children}</FieldScope>,
+        }))}
         activeKey={openSections ?? DEFAULT_OPEN_SECTIONS}
         onChange={(keys) => setOpenSections(Array.isArray(keys) ? keys : [keys])}
         expandIconPosition="end"

@@ -17,9 +17,15 @@ export function ResetButton({ compact }: { compact?: boolean } = {}): JSX.Elemen
       title={t('common.resetConfirm')}
       okText={t('common.yes')}
       cancelText={t('common.no')}
+      okButtonProps={{ id: 'reset-cv-confirm' }}
       onConfirm={() => void resetResume()}
     >
-      <Button icon={<FiRotateCcw aria-hidden />} aria-label={t('common.reset')} title={t('common.reset')}>
+      <Button
+        id="reset-cv"
+        icon={<FiRotateCcw aria-hidden />}
+        aria-label={t('common.reset')}
+        title={t('common.reset')}
+      >
         {compact ? null : t('common.reset')}
       </Button>
     </Popconfirm>

@@ -27,6 +27,7 @@ export function ExportButton({ block }: { block?: boolean }): JSX.Element {
 
   const button = (
     <Button
+      id="export-pdf"
       type="primary"
       icon={<FiDownload aria-hidden />}
       loading={loading}

@@ -35,7 +35,7 @@ export function BasicsSection(): JSX.Element {
       <AvatarField />
       <Row gutter={12}>
         <Col xs={24} sm={12}>
-          <Field label={t('fields.firstName')} required error={msg(firstErr)}>
+          <Field label={t('fields.firstName')} name="firstName" required error={msg(firstErr)}>
             {(a11y) => (
               <Input
                 {...a11y}
@@ -46,7 +46,7 @@ export function BasicsSection(): JSX.Element {
           </Field>
         </Col>
         <Col xs={24} sm={12}>
-          <Field label={t('fields.lastName')} required error={msg(lastErr)}>
+          <Field label={t('fields.lastName')} name="lastName" required error={msg(lastErr)}>
             {(a11y) => (
               <Input
                 {...a11y}
@@ -59,7 +59,7 @@ export function BasicsSection(): JSX.Element {
       </Row>
       <Row gutter={12}>
         <Col xs={24} sm={12}>
-          <Field label={t('fields.headline')} required error={msg(headlineErr)}>
+          <Field label={t('fields.headline')} name="headline" required error={msg(headlineErr)}>
             {(a11y) => (
               <Input
                 {...a11y}
@@ -72,7 +72,7 @@ export function BasicsSection(): JSX.Element {
           </Field>
         </Col>
         <Col xs={24} sm={12}>
-          <Field label={t('fields.location')}>
+          <Field label={t('fields.location')} name="location">
             {(a11y) => (
               <Input
                 {...a11y}

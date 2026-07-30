@@ -98,8 +98,13 @@ export interface Basics {
 }
 
 export interface GeneralInfo {
-  gender: Gender;
-  maritalStatus: MaritalStatus;
+  /**
+   * Optional in the MODEL, required in the wizard's yup schema: nothing is
+   * preselected, so an unfinished resume genuinely has no value here and the
+   * templates skip the row (they already guard on falsy).
+   */
+  gender?: Gender;
+  maritalStatus?: MaritalStatus;
   /** Nationality dictionary code or free text. */
   nationality: string;
   /** `YYYY-MM-DD`. Age is derived for display, never stored. */
@@ -211,6 +216,13 @@ export interface Resume {
   /** Language of the EXPORTED CV's section headings (≠ UI locale). */
   locale: Locale;
   templateId: TemplateId;
+  /**
+   * Show the dimmed "Made with www.onlinecv.az" footer on the CV (preview AND
+   * exported PDF). Opt-OUT: it defaults to on, and records persisted before the
+   * flag existed carry no value, so every reader must treat `undefined` as on —
+   * use `showAttribution()` rather than the raw field.
+   */
+  attribution?: boolean;
   media: Media;
   basics: Basics;
   generalInfo: GeneralInfo;

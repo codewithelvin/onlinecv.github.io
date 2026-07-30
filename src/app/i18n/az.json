@@ -21,7 +21,11 @@
     "moveDown": "Aşağı",
     "seeCredential": "Sertifikatı gör",
     "years": "yaş",
-    "deleteConfirm": "Silinməni təsdiqləyirsinizmi?"
+    "deleteConfirm": "Silinməni təsdiqləyirsinizmi?",
+    "select": "Seçin"
+  },
+  "preview": {
+    "attribution": "Layihəyə yardım etmək üçün saytımızın linkini CV-nizdə görünsün?"
   },
   "header": {
     "templates": "Şablonlar",
@@ -101,8 +105,8 @@
     "noItems": "Hələ məlumat əlavə edilməyib. \"Əlavə et\" düyməsini sıxaraq başlayın."
   },
   "wizard": {
-    "title": "CV-nin yaradılması",
-    "welcome": "Xoş gəlmisiniz! Bir neçə əsas məlumatı doldurun, sonra tam redaktora keçəcəksiniz.",
+    "title": "CV-nin yaradılması forması",
+    "welcome": "CV-nizdə əks olunacaq ilkin vacib məlumatları doldurun. İlkin məlumatları doldurduqdan sonra siz geniş CV redaktoru ilə qalan məlumatları dolduracaqsız.",
     "step1": "İlkin məlumatlar",
     "step2": "Şəxsi məlumatlar",
     "next": "Növbəti",

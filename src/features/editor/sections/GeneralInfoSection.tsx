@@ -37,11 +37,12 @@ export function GeneralInfoSection(): JSX.Element {
     <Space direction="vertical" style={{ width: '100%' }} size="middle">
       <Row gutter={12}>
         <Col xs={24} sm={12}>
-          <Field label={t('fields.gender')} required>
+          <Field label={t('fields.gender')} name="gender" required>
             {(a11y) => (
               <Select
                 {...a11y}
                 value={gi.gender}
+                placeholder={t('common.select')}
                 options={dictOptions(GENDERS, t)}
                 onChange={(v: Gender) => update({ gender: v })}
               />
@@ -49,11 +50,12 @@ export function GeneralInfoSection(): JSX.Element {
           </Field>
         </Col>
         <Col xs={24} sm={12}>
-          <Field label={t('fields.maritalStatus')} required>
+          <Field label={t('fields.maritalStatus')} name="maritalStatus" required>
             {(a11y) => (
               <Select
                 {...a11y}
                 value={gi.maritalStatus}
+                placeholder={t('common.select')}
                 options={dictOptions(MARITAL_STATUSES, t)}
                 onChange={(v: MaritalStatus) => update({ maritalStatus: v })}
               />
@@ -68,7 +70,7 @@ export function GeneralInfoSection(): JSX.Element {
               code — not the label it was picked in — is what lets the CV re-label
               it on a language switch; `resolve` turns it back into text here, and
               anything unrecognized falls through unchanged. */}
-          <Field label={t('fields.nationality')} required>
+          <Field label={t('fields.nationality')} name="nationality" required>
             {(a11y) => (
               <AutoComplete
                 {...a11y}
@@ -89,6 +91,7 @@ export function GeneralInfoSection(): JSX.Element {
         <Col xs={24} sm={12}>
           <Field
             label={t('fields.dateOfBirth')}
+            name="dateOfBirth"
             required
             extra={age !== null ? `${t('cvLabels.age')}: ${age}` : undefined}
           >
@@ -107,7 +110,7 @@ export function GeneralInfoSection(): JSX.Element {
       </Row>
       <Row gutter={12}>
         <Col xs={24} sm={12}>
-          <Field label={t('fields.militaryStatus')}>
+          <Field label={t('fields.militaryStatus')} name="militaryStatus">
             {(a11y) => (
               <Select
                 {...a11y}
@@ -120,7 +123,7 @@ export function GeneralInfoSection(): JSX.Element {
           </Field>
         </Col>
         <Col xs={24} sm={12}>
-          <Field label={t('fields.driverLicense')}>
+          <Field label={t('fields.driverLicense')} name="driverLicense">
             {(a11y) => (
               <Select
                 {...a11y}
@@ -141,6 +144,7 @@ export function GeneralInfoSection(): JSX.Element {
           the bottom edge of the accordion panel. */}
       <Field
         label={t('fields.summaryText')}
+        name="summary"
         error={summaryTooLong ? t('validation.maximumThreeHundredCharacter') : undefined}
       >
         {(a11y) => (

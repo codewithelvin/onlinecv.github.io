@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { useResponsive } from '../../hooks/useResponsive';
 import { useScrollLock } from '../../hooks/useScrollLock';
 import { getModalContainer } from '../../utils/modal-container';
+import { useScopedId } from './field-scope';
 import { VerticalFields } from './fields';
 
 /**
@@ -29,6 +30,11 @@ export function ModalForm({
   const { t } = useTranslation();
   const { isMobile } = useResponsive();
   useScrollLock(open);
+  // Ids come from the section's `FieldScope` — the modal renders through a
+  // portal, but React context flows through those, so this is `#experience-save`
+  // when the experience section opened it.
+  const saveId = useScopedId('save');
+  const cancelId = useScopedId('cancel');
   return (
     <Modal
       open={open}
@@ -37,6 +43,8 @@ export function ModalForm({
       onOk={onOk}
       okText={t('common.save')}
       cancelText={t('common.cancel')}
+      okButtonProps={{ id: saveId }}
+      cancelButtonProps={{ id: cancelId }}
       maskClosable={false}
       destroyOnHidden
       getContainer={getModalContainer}

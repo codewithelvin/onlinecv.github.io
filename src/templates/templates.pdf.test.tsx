@@ -1,13 +1,15 @@
 /**
  * @vitest-environment node
  */
-import { createElement } from 'react';
+import { Children, createElement, type ReactElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { beforeAll, describe, expect, it } from 'vitest';
-import { Document, Font, Page, pdf } from '@react-pdf/renderer';
+import * as ReactPdf from '@react-pdf/renderer';
+import { Font, pdf } from '@react-pdf/renderer';
 import Html from 'react-pdf-html';
 import type { Resume, TemplateId } from '../types/resume';
 import { createEmptyResume } from '../utils/empty-resume';
+import { buildResumeDocument } from '../services/pdf';
 import { makeDateFormatter } from '../utils/date';
 import { i18n } from '../app/i18n';
 import { getTemplate, listTemplates } from './_core/registry';
@@ -59,34 +61,37 @@ function longResume(): Resume {
 /**
  * The exported document, as UNCOMPRESSED PDF source — the only render mode whose
  * content stream can be read back, which is what lets the sidebar's geometry be
- * asserted rather than eyeballed.
+ * asserted rather than eyeballed. Built by `buildResumeDocument`, the same
+ * function the Download button uses, so this cannot test a lookalike.
  */
-async function renderPdfSource(templateId: TemplateId, resume: Resume): Promise<string> {
-  const Template = (await getTemplate(templateId).load()).default;
-  const html = renderToStaticMarkup(
-    createElement(Template, {
-      resume,
-      t: i18n.getFixedT(resume.locale),
-      formatDate: makeDateFormatter(resume.locale),
-    }),
-  );
-  const document = createElement(
-    Document,
-    null,
-    createElement(
-      Page,
-      { size: 'A4', style: { fontFamily: 'Inter', fontSize: 10 } },
-      // Mirrors `services/pdf.ts` — including the growing wrapper the modern
-      // template's full-height sidebar depends on.
-      createElement(Html, { resetStyles: true, style: { flexGrow: 1 }, children: html }),
+async function renderPdfSource(
+  templateId: TemplateId,
+  resume: Resume,
+  attribution = false,
+): Promise<string> {
+  const entry = getTemplate(templateId);
+  const Template = (await entry.load()).default;
+  const document = buildResumeDocument(ReactPdf, Html, {
+    html: renderToStaticMarkup(
+      createElement(Template, {
+        resume,
+        t: i18n.getFixedT(resume.locale),
+        formatDate: makeDateFormatter(resume.locale),
+      }),
     ),
-  );
+    attribution,
+    pageMargin: entry.manifest.pageMargin,
+  });
   return pdf(document).toString();
 }
 
-/** Filled rectangles in the content stream, as `[x, y, width, height]`. */
+/**
+ * Filled rectangles in the content stream, as `[x, y, width, height]`.
+ * Coordinates can be NEGATIVE — the accent column starts above the page margin
+ * to bleed off the top edge — so the sign is part of the pattern.
+ */
 function rectangles(pdfSource: string): number[][] {
-  return [...pdfSource.matchAll(/([\d.]+) ([\d.]+) ([\d.]+) ([\d.]+) re/g)].map((m) =>
+  return [...pdfSource.matchAll(/(-?[\d.]+) (-?[\d.]+) (-?[\d.]+) (-?[\d.]+) re/g)].map((m) =>
     m.slice(1).map(Number),
   );
 }
@@ -118,6 +123,27 @@ describe('pdf export', () => {
     }, 30_000);
   }
 
+  /**
+   * The margin has to be on the PAGE. A template that pads its own root instead
+   * indents page 1 and leaves every later page's content hard against the paper
+   * edge — reported from a real two-page export.
+   */
+  it('puts each template\'s vertical margin on the page itself', () => {
+    for (const { manifest } of listTemplates()) {
+      expect(manifest.pageMargin, `${manifest.id} declares no page margin`).toBeDefined();
+      const document = buildResumeDocument(ReactPdf, Html, {
+        html: '<div>x</div>',
+        attribution: false,
+        pageMargin: manifest.pageMargin,
+      });
+      const [page] = Children.toArray(document.props.children) as ReactElement<{
+        style: { paddingTop: number; paddingBottom: number };
+      }>[];
+      expect(page.props.style.paddingTop).toBe(manifest.pageMargin?.top);
+      expect(page.props.style.paddingBottom).toBe(manifest.pageMargin?.bottom);
+    }
+  });
+
   it('runs the modern accent sidebar to the bottom edge of the page', async () => {
     const source = await renderPdfSource('modern', sampleResume());
     const sidebar = rectangles(source).find(([, , width]) => Math.abs(width - SIDEBAR_WIDTH) < 1);
@@ -126,6 +152,25 @@ describe('pdf export', () => {
     // (~387pt) and the accent column stops in the middle of the page.
     expect(sidebar?.[3]).toBeCloseTo(A4_HEIGHT, 0);
   }, 30_000);
+
+  /**
+   * The credit line is `position: absolute` + `fixed` for a reason: an in-flow
+   * footer would take height away from the growing `Html` wrapper, and the
+   * modern template's accent sidebar would stop short of the bottom edge again
+   * (the bug fixed on 2026-07-29). Out of flow, the sidebar must be untouched —
+   * while the footer still adds drawing operations to the page.
+   */
+  it('draws the site credit without shrinking the full-height sidebar', async () => {
+    const [without, withCredit] = await Promise.all([
+      renderPdfSource('modern', sampleResume()),
+      renderPdfSource('modern', sampleResume(), true),
+    ]);
+    const sidebar = rectangles(withCredit).find(([, , width]) => Math.abs(width - SIDEBAR_WIDTH) < 1);
+    expect(sidebar?.[3]).toBeCloseTo(A4_HEIGHT, 0);
+    expect(pageCount(withCredit)).toBe(pageCount(without));
+    // The footer is real content, not a no-op element.
+    expect(withCredit.length).toBeGreaterThan(without.length);
+  }, 60_000);
 
   it('keeps paginating — and keeps the sidebar — when the CV runs long', async () => {
     const source = await renderPdfSource('modern', longResume());

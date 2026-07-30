@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import type { ContactItem, ContactType } from '../../../types/resume';
 import { useResumeStore } from '../../../state/store';
 import { createId } from '../../../utils/id';
+import { useScopedId } from '../../../components/form/field-scope';
 import { Field } from '../../../components/form/fields';
 import { ItemList } from '../../../components/ItemList';
 import { ContactModal } from '../modals/ContactModal';
@@ -22,6 +23,7 @@ export function ContactSection(): JSX.Element {
   const updateContact = useResumeStore((s) => s.updateContactItem);
   const removeContact = useResumeStore((s) => s.removeContactItem);
 
+  const addId = useScopedId('add');
   const [index, setIndex] = useState<number | null>(null);
   const editing = index !== null && index >= 0 ? items[index] ?? null : null;
   const isAdding = index === -1;
@@ -43,6 +45,7 @@ export function ContactSection(): JSX.Element {
     <Space direction="vertical" style={{ width: '100%' }} size="middle">
       <Field
         label={t('fields.email')}
+        name="email"
         required
         error={emailError}
         style={{ marginBottom: 0 }}
@@ -65,7 +68,7 @@ export function ContactSection(): JSX.Element {
         onRemove={(i) => removeContact(items[i].id)}
       />
 
-      <Button icon={<FiPlus aria-hidden />} onClick={() => setIndex(-1)} block>
+      <Button id={addId} icon={<FiPlus aria-hidden />} onClick={() => setIndex(-1)} block>
         {t('common.add')}
       </Button>
 

@@ -2,8 +2,13 @@ import type { JSX, ReactNode } from 'react';
 import { Button, Space } from 'antd';
 import { FiPlus } from 'react-icons/fi';
 import { ItemList } from '../../../components/ItemList';
+import { useScopedId } from '../../../components/form/field-scope';
 
-/** Shared body for list sections: the item list, an add button, and the modal slot. */
+/**
+ * Shared body for list sections: the item list, an add button, and the modal
+ * slot. The add button's id comes from the section's `FieldScope`
+ * (`#experience-add`), so every list section gets one without passing a prop.
+ */
 export function SectionBody({
   ids,
   titles,
@@ -25,6 +30,7 @@ export function SectionBody({
   onMove: (from: number, to: number) => void;
   children?: ReactNode;
 }): JSX.Element {
+  const addId = useScopedId('add');
   return (
     <Space direction="vertical" style={{ width: '100%' }} size="middle">
       <ItemList
@@ -35,7 +41,7 @@ export function SectionBody({
         onRemove={onRemove}
         onMove={onMove}
       />
-      <Button icon={<FiPlus aria-hidden />} onClick={onAdd} block>
+      <Button id={addId} icon={<FiPlus aria-hidden />} onClick={onAdd} block>
         {addLabel}
       </Button>
       {children}

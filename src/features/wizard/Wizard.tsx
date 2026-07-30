@@ -40,8 +40,16 @@ export function Wizard(): JSX.Element {
     defaultValues: { firstName: '', lastName: '', email: '', dateOfBirth: '' },
   });
   const f2 = useForm<WizardStep2Values>({
+    // Gender and marital status start EMPTY on purpose (they are still required):
+    // a preselected "Kişi"/"Subay" silently ends up on the CV of everyone who
+    // skims past them, so the user picks both explicitly.
+    defaultValues: {
+      headline: '',
+      gender: undefined,
+      maritalStatus: undefined,
+      nationality: '',
+    },
     resolver: yupResolver<WizardStep2Values>(wizardStep2Schema),
-    defaultValues: { headline: '', gender: 'male', maritalStatus: 'single', nationality: '' },
   });
 
   const next = f1.handleSubmit((values) => {
@@ -84,7 +92,9 @@ export function Wizard(): JSX.Element {
           items={[{ title: t('wizard.step1') }, { title: t('wizard.step2') }]}
         />
 
-        <VerticalFields>
+        {/* `scope` gives the wizard's controls stable ids (`#wizard-firstName`)
+            that never collide with the editor's own `firstName` field. */}
+        <VerticalFields scope="wizard">
           {step === 0 ? (
             <>
               <Row gutter={16}>
@@ -128,7 +138,7 @@ export function Wizard(): JSX.Element {
                 </Col>
               </Row>
               <div style={{ textAlign: 'right' }}>
-                <Button type="primary" onClick={() => void next()}>
+                <Button id="wizard-next" type="primary" onClick={() => void next()}>
                   {t('wizard.next')}
                 </Button>
               </div>
@@ -163,6 +173,7 @@ export function Wizard(): JSX.Element {
                     name="gender"
                     label={t('fields.gender')}
                     options={dictOptions(GENDERS, t)}
+                    placeholder={t('common.select')}
                     required
                   />
                 </Col>
@@ -172,13 +183,16 @@ export function Wizard(): JSX.Element {
                     name="maritalStatus"
                     label={t('fields.maritalStatus')}
                     options={dictOptions(MARITAL_STATUSES, t)}
+                    placeholder={t('common.select')}
                     required
                   />
                 </Col>
               </Row>
               <Space style={{ display: 'flex', justifyContent: 'space-between' }}>
-                <Button onClick={() => setStep(0)}>{t('wizard.back')}</Button>
-                <Button type="primary" onClick={() => void finish()}>
+                <Button id="wizard-back" onClick={() => setStep(0)}>
+                  {t('wizard.back')}
+                </Button>
+                <Button id="wizard-finish" type="primary" onClick={() => void finish()}>
                   {t('wizard.finish')}
                 </Button>
               </Space>

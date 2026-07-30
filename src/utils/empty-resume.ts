@@ -5,8 +5,9 @@ export const DEFAULT_TEMPLATE_ID = 'classic';
 
 /**
  * Build an empty resume (BR-1: single resume under id `default`; BR-8: reset
- * target). `generalInfo` enum fields carry placeholder defaults that the
- * mandatory first-run wizard overwrites before the CV is meaningful.
+ * target). Nothing in `generalInfo` is preselected — gender and marital status
+ * start empty and are chosen by the user in the mandatory first-run wizard, so
+ * a CV never carries a value nobody picked.
  */
 export function createEmptyResume(locale: Resume['locale'] = 'az'): Resume {
   return {
@@ -14,11 +15,12 @@ export function createEmptyResume(locale: Resume['locale'] = 'az'): Resume {
     updatedAt: new Date().toISOString(),
     locale,
     templateId: DEFAULT_TEMPLATE_ID,
+    attribution: true,
     media: {},
     basics: { firstName: '', lastName: '', headline: '', location: '' },
     generalInfo: {
-      gender: 'male',
-      maritalStatus: 'single',
+      gender: undefined,
+      maritalStatus: undefined,
       nationality: '',
       dateOfBirth: '',
       militaryStatus: undefined,

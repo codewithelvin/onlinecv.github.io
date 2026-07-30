@@ -21,7 +21,11 @@
     "moveDown": "Down",
     "seeCredential": "See credential",
     "years": "years",
-    "deleteConfirm": "Confirm deletion?"
+    "deleteConfirm": "Confirm deletion?",
+    "select": "Select"
+  },
+  "preview": {
+    "attribution": "Show a link to our site on your CV to support the project?"
   },
   "header": {
     "templates": "Templates",
@@ -101,8 +105,8 @@
     "noItems": "No data has been added yet. Click the \"Add\" button to get started."
   },
   "wizard": {
-    "title": "Creating a CV",
-    "welcome": "Welcome! Fill in a few basics, then you will move on to the full editor.",
+    "title": "CV creation form",
+    "welcome": "Fill in the key details that will appear on your CV. Once these are done, you will complete the rest in the full CV editor.",
     "step1": "Preliminary information",
     "step2": "Personal information",
     "next": "Next",

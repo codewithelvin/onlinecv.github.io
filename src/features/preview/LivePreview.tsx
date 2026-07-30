@@ -5,6 +5,7 @@ import { useResumeStore } from '../../state/store';
 import { useDebouncedValue } from '../../hooks/useDebouncedValue';
 import { useLocalizedResume } from '../../hooks/useLocalizedResume';
 import { makeDateFormatter } from '../../utils/date';
+import { ATTRIBUTION_TEXT, attributionPreviewStyle, showAttribution } from '../../utils/attribution';
 import { getTemplate } from '../../templates/_core/registry';
 import { i18n } from '../../app/i18n';
 import { A4Frame } from './A4Frame';
@@ -19,6 +20,9 @@ export function LivePreview(): JSX.Element {
   const stored = useDebouncedValue(useResumeStore((s) => s.resume));
   const resume = useLocalizedResume(stored, stored.locale);
   const templateId = resume.templateId;
+  // Page margins are metadata, not markup: the same numbers go to react-pdf's
+  // `Page` on export, so preview and PDF keep the identical text area.
+  const pageMargin = getTemplate(templateId).manifest.pageMargin;
   const [Template, setTemplate] = useState<ResumeTemplate | null>(null);
 
   useEffect(() => {
@@ -37,7 +41,17 @@ export function LivePreview(): JSX.Element {
   const formatDate = makeDateFormatter(resume.locale);
 
   return (
-    <A4Frame>
+    <A4Frame
+      pageMargin={pageMargin}
+      // Rendered by the FRAME, not by the template: every template — including
+      // ones added later — then carries the credit without implementing it, and
+      // it stays out of the `TemplateProps` contract (spec §7.1).
+      footer={
+        showAttribution(resume) ? (
+          <div style={attributionPreviewStyle}>{ATTRIBUTION_TEXT}</div>
+        ) : undefined
+      }
+    >
       {Template ? (
         <Template resume={resume} t={t} formatDate={formatDate} />
       ) : (

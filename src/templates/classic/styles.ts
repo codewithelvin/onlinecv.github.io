@@ -11,7 +11,9 @@ export const styles: Record<string, CSSProperties> = {
     fontFamily: 'Inter',
     color: c.text,
     backgroundColor: c.pageBg,
-    padding: '32px 40px',
+    // Horizontal only — the vertical margin is `manifest.pageMargin`, so it
+    // repeats on page 2 instead of applying once to the whole document.
+    padding: '0 40px',
     fontSize: 11,
     lineHeight: 1.45,
     display: 'flex',
@@ -30,6 +32,8 @@ export const styles: Record<string, CSSProperties> = {
   headline: { fontSize: 13, color: c.accent, fontWeight: 600, marginTop: 2 },
   contactLine: { fontSize: 10, color: c.muted, marginTop: 6 },
   section: { marginBottom: 12, display: 'flex', flexDirection: 'column' },
+  /** Heading + first entry, kept on one page (see `KEEP_TOGETHER`). */
+  keepTogether: { display: 'flex', flexDirection: 'column' },
   sectionTitle: {
     fontSize: 12,
     fontWeight: 700,
@@ -48,8 +52,15 @@ export const styles: Record<string, CSSProperties> = {
     justifyContent: 'space-between',
     alignItems: 'baseline',
   },
-  entryTitle: { fontSize: 11.5, fontWeight: 600, color: c.heading },
-  entryDate: { fontSize: 10, color: c.faint, fontWeight: 500 },
+  /**
+   * The title yields, the date does not. Real entries have long titles
+   * ("Lənkəran Dövlət Universitetinin Sosial və Aqrar-Texnoloji Kolleci") next
+   * to a short date, and the two defaults disagree: CSS shrinks flex items by
+   * default, Yoga (react-pdf) does not. Stating both keeps the preview and the
+   * PDF breaking the same way, with the date always intact on one line.
+   */
+  entryTitle: { fontSize: 11.5, fontWeight: 600, color: c.heading, flexShrink: 1, paddingRight: 8 },
+  entryDate: { fontSize: 10, color: c.faint, fontWeight: 500, flexShrink: 0 },
   entrySub: { fontSize: 10.5, color: c.muted, marginTop: 1 },
   entryDesc: { fontSize: 10.5, color: c.text, marginTop: 3 },
   bulletList: { marginTop: 3, marginBottom: 0, paddingLeft: 16 },

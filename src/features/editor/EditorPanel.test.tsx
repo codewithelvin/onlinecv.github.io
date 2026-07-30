@@ -96,6 +96,55 @@ describe('EditorPanel', () => {
     }
   });
 
+  /**
+   * Test automation addresses controls by id, so the ids are part of the app's
+   * contract with QA: scoped to their section, derived from the field name, and
+   * NOT React's render-order-dependent `useId` output. Both properties are
+   * asserted here — a `:r3:`-style id leaking back in would break every
+   * recorded selector.
+   */
+  describe('QA automation ids', () => {
+    const EXPECTED = [
+      'basics-firstName',
+      'basics-lastName',
+      'basics-headline',
+      'basics-location',
+      'generalInfo-gender',
+      'generalInfo-maritalStatus',
+      'generalInfo-nationality',
+      'generalInfo-dateOfBirth',
+      'generalInfo-summary',
+      'contact-email',
+      'contact-add',
+      'experience-add',
+    ];
+
+    it('gives every control a stable, scoped id', () => {
+      const { container } = renderWithProviders(<EditorPanel />);
+      for (const id of EXPECTED) {
+        expect(container.querySelector(`#${id}`), `missing #${id}`).toBeTruthy();
+      }
+    });
+
+    it('labels point at those ids rather than generated ones', () => {
+      const { container } = renderWithProviders(<EditorPanel />);
+      const targets = [...container.querySelectorAll('.ant-form-item-label label')].map((l) =>
+        l.getAttribute('for'),
+      );
+      expect(targets.length).toBeGreaterThan(8);
+      for (const target of targets) {
+        expect(target, 'a label has no for=').toBeTruthy();
+        expect(target, `"${target}" looks like a generated React id`).not.toMatch(/^:r/);
+      }
+    });
+
+    it('never issues the same id twice', () => {
+      const { container } = renderWithProviders(<EditorPanel />);
+      const ids = [...container.querySelectorAll('[id]')].map((el) => el.id);
+      expect(new Set(ids).size).toBe(ids.length);
+    });
+  });
+
   it('keeps the short self-description inside "Ümumi məlumat"', () => {
     renderWithProviders(<EditorPanel />);
     // No standalone "Haqqımda" accordion any more…

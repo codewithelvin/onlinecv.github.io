@@ -7,5 +7,6 @@ export type {
   TemplateProps,
   ResumeTemplate,
   TemplateManifest,
+  PageMargin,
   RegisteredTemplate,
 } from '../../types/template';

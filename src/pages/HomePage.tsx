@@ -14,7 +14,10 @@ export function HomePage(): JSX.Element {
 
   if (!hydrated) {
     return (
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
+      <div
+        className="min-h-viewport"
+        style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+      >
         <Spin size="large" />
       </div>
     );
@@ -22,7 +25,7 @@ export function HomePage(): JSX.Element {
 
   if (needsWizard(resume)) {
     return (
-      <Layout style={{ minHeight: '100vh' }}>
+      <Layout className="min-h-viewport">
         <Layout.Header
           style={{
             display: 'flex',
