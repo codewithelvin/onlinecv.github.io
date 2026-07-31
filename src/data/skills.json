@@ -2182,5 +2182,557 @@
     "en": "Psychotherapy",
     "ru": "Психотерапия",
     "ka": "ფსიქოთერაპია"
+  },
+  {
+    "code": "ms_office_suite",
+    "group": "skills",
+    "az": "Microsoft Office",
+    "en": "Microsoft Office",
+    "ru": "Microsoft Office",
+    "ka": "Microsoft Office"
+  },
+  {
+    "code": "ms_outlook",
+    "group": "skills",
+    "az": "Microsoft Outlook",
+    "en": "Microsoft Outlook",
+    "ru": "Microsoft Outlook",
+    "ka": "Microsoft Outlook"
+  },
+  {
+    "code": "ms_access",
+    "group": "skills",
+    "az": "Microsoft Access",
+    "en": "Microsoft Access",
+    "ru": "Microsoft Access",
+    "ka": "Microsoft Access"
+  },
+  {
+    "code": "ms_teams",
+    "group": "skills",
+    "az": "Microsoft Teams",
+    "en": "Microsoft Teams",
+    "ru": "Microsoft Teams",
+    "ka": "Microsoft Teams"
+  },
+  {
+    "code": "windows",
+    "group": "skills",
+    "az": "Windows əməliyyat sistemi",
+    "en": "Windows operating system",
+    "ru": "Операционная система Windows",
+    "ka": "Windows ოპერაციული სისტემა"
+  },
+  {
+    "code": "linux",
+    "group": "skills",
+    "az": "Linux",
+    "en": "Linux",
+    "ru": "Linux",
+    "ka": "Linux"
+  },
+  {
+    "code": "zoom",
+    "group": "skills",
+    "az": "Zoom",
+    "en": "Zoom",
+    "ru": "Zoom",
+    "ka": "Zoom"
+  },
+  {
+    "code": "html",
+    "group": "skills",
+    "az": "HTML",
+    "en": "HTML",
+    "ru": "HTML",
+    "ka": "HTML"
+  },
+  {
+    "code": "sql",
+    "group": "skills",
+    "az": "SQL",
+    "en": "SQL",
+    "ru": "SQL",
+    "ka": "SQL"
+  },
+  {
+    "code": "mysql",
+    "group": "skills",
+    "az": "MySQL",
+    "en": "MySQL",
+    "ru": "MySQL",
+    "ka": "MySQL"
+  },
+  {
+    "code": "ms_sql_server",
+    "group": "skills",
+    "az": "Microsoft SQL Server",
+    "en": "Microsoft SQL Server",
+    "ru": "Microsoft SQL Server",
+    "ka": "Microsoft SQL Server"
+  },
+  {
+    "code": "postgresql",
+    "group": "skills",
+    "az": "PostgreSQL",
+    "en": "PostgreSQL",
+    "ru": "PostgreSQL",
+    "ka": "PostgreSQL"
+  },
+  {
+    "code": "bootstrap",
+    "group": "skills",
+    "az": "Bootstrap",
+    "en": "Bootstrap",
+    "ru": "Bootstrap",
+    "ka": "Bootstrap"
+  },
+  {
+    "code": "jquery",
+    "group": "skills",
+    "az": "jQuery",
+    "en": "jQuery",
+    "ru": "jQuery",
+    "ka": "jQuery"
+  },
+  {
+    "code": "typescript",
+    "group": "skills",
+    "az": "TypeScript",
+    "en": "TypeScript",
+    "ru": "TypeScript",
+    "ka": "TypeScript"
+  },
+  {
+    "code": "nodejs",
+    "group": "skills",
+    "az": "Node.js",
+    "en": "Node.js",
+    "ru": "Node.js",
+    "ka": "Node.js"
+  },
+  {
+    "code": "wordpress",
+    "group": "skills",
+    "az": "WordPress",
+    "en": "WordPress",
+    "ru": "WordPress",
+    "ka": "WordPress"
+  },
+  {
+    "code": "git",
+    "group": "skills",
+    "az": "Git",
+    "en": "Git",
+    "ru": "Git",
+    "ka": "Git"
+  },
+  {
+    "code": "github",
+    "group": "skills",
+    "az": "GitHub",
+    "en": "GitHub",
+    "ru": "GitHub",
+    "ka": "GitHub"
+  },
+  {
+    "code": "programming",
+    "group": "skills",
+    "az": "Proqramlaşdırma",
+    "en": "Programming",
+    "ru": "Программирование",
+    "ka": "პროგრამირება"
+  },
+  {
+    "code": "coreldraw",
+    "group": "skills",
+    "az": "CorelDRAW",
+    "en": "CorelDRAW",
+    "ru": "CorelDRAW",
+    "ka": "CorelDRAW"
+  },
+  {
+    "code": "canva",
+    "group": "skills",
+    "az": "Canva",
+    "en": "Canva",
+    "ru": "Canva",
+    "ka": "Canva"
+  },
+  {
+    "code": "after_effects",
+    "group": "skills",
+    "az": "Adobe After Effects",
+    "en": "Adobe After Effects",
+    "ru": "Adobe After Effects",
+    "ka": "Adobe After Effects"
+  },
+  {
+    "code": "premiere_pro",
+    "group": "skills",
+    "az": "Adobe Premiere Pro",
+    "en": "Adobe Premiere Pro",
+    "ru": "Adobe Premiere Pro",
+    "ka": "Adobe Premiere Pro"
+  },
+  {
+    "code": "lightroom",
+    "group": "skills",
+    "az": "Adobe Lightroom",
+    "en": "Adobe Lightroom",
+    "ru": "Adobe Lightroom",
+    "ka": "Adobe Lightroom"
+  },
+  {
+    "code": "figma",
+    "group": "skills",
+    "az": "Figma",
+    "en": "Figma",
+    "ru": "Figma",
+    "ka": "Figma"
+  },
+  {
+    "code": "video_editing",
+    "group": "skills",
+    "az": "Video montaj",
+    "en": "Video editing",
+    "ru": "Видеомонтаж",
+    "ka": "ვიდეომონტაჟი"
+  },
+  {
+    "code": "archicad",
+    "group": "skills",
+    "az": "ArchiCAD",
+    "en": "ArchiCAD",
+    "ru": "ArchiCAD",
+    "ka": "ArchiCAD"
+  },
+  {
+    "code": "3ds_max",
+    "group": "skills",
+    "az": "3ds Max",
+    "en": "3ds Max",
+    "ru": "3ds Max",
+    "ka": "3ds Max"
+  },
+  {
+    "code": "revit",
+    "group": "skills",
+    "az": "Autodesk Revit",
+    "en": "Autodesk Revit",
+    "ru": "Autodesk Revit",
+    "ka": "Autodesk Revit"
+  },
+  {
+    "code": "sketchup",
+    "group": "skills",
+    "az": "SketchUp",
+    "en": "SketchUp",
+    "ru": "SketchUp",
+    "ka": "SketchUp"
+  },
+  {
+    "code": "solidworks",
+    "group": "skills",
+    "az": "SolidWorks",
+    "en": "SolidWorks",
+    "ru": "SolidWorks",
+    "ka": "SolidWorks"
+  },
+  {
+    "code": "lumion",
+    "group": "skills",
+    "az": "Lumion",
+    "en": "Lumion",
+    "ru": "Lumion",
+    "ka": "Lumion"
+  },
+  {
+    "code": "arcgis",
+    "group": "skills",
+    "az": "ArcGIS",
+    "en": "ArcGIS",
+    "ru": "ArcGIS",
+    "ka": "ArcGIS"
+  },
+  {
+    "code": "netcad",
+    "group": "skills",
+    "az": "Netcad",
+    "en": "Netcad",
+    "ru": "Netcad",
+    "ka": "Netcad"
+  },
+  {
+    "code": "matlab",
+    "group": "skills",
+    "az": "MATLAB",
+    "en": "MATLAB",
+    "ru": "MATLAB",
+    "ka": "MATLAB"
+  },
+  {
+    "code": "power_bi",
+    "group": "skills",
+    "az": "Microsoft Power BI",
+    "en": "Microsoft Power BI",
+    "ru": "Microsoft Power BI",
+    "ka": "Microsoft Power BI"
+  },
+  {
+    "code": "sap",
+    "group": "skills",
+    "az": "SAP",
+    "en": "SAP",
+    "ru": "SAP",
+    "ka": "SAP"
+  },
+  {
+    "code": "crm",
+    "group": "skills",
+    "az": "CRM sistemləri",
+    "en": "CRM systems",
+    "ru": "CRM-системы",
+    "ka": "CRM სისტემები"
+  },
+  {
+    "code": "erp",
+    "group": "skills",
+    "az": "ERP sistemləri",
+    "en": "ERP systems",
+    "ru": "ERP-системы",
+    "ka": "ERP სისტემები"
+  },
+  {
+    "code": "jira",
+    "group": "skills",
+    "az": "Jira",
+    "en": "Jira",
+    "ru": "Jira",
+    "ka": "Jira"
+  },
+  {
+    "code": "spss",
+    "group": "skills",
+    "az": "IBM SPSS",
+    "en": "IBM SPSS",
+    "ru": "IBM SPSS",
+    "ka": "IBM SPSS"
+  },
+  {
+    "code": "e_taxes",
+    "group": "skills",
+    "az": "E-taxes (Vergilər portalı)",
+    "en": "E-taxes (Azerbaijani tax portal)",
+    "ru": "E-taxes (налоговый портал Азербайджана)",
+    "ka": "E-taxes (აზერბაიჯანის საგადასახადო პორტალი)"
+  },
+  {
+    "code": "emas",
+    "group": "skills",
+    "az": "ƏMAS (Əmək müqavilələri sistemi)",
+    "en": "EMAS (electronic employment contracts system)",
+    "ru": "ƏMAS (система электронных трудовых договоров)",
+    "ka": "ƏMAS (შრომითი ხელშეკრულებების სისტემა)"
+  },
+  {
+    "code": "logo_tiger",
+    "group": "skills",
+    "az": "Logo Tiger",
+    "en": "Logo Tiger",
+    "ru": "Logo Tiger",
+    "ka": "Logo Tiger"
+  },
+  {
+    "code": "btp",
+    "group": "skills",
+    "az": "BTP (mühasibatlıq proqramı)",
+    "en": "BTP accounting software",
+    "ru": "BTP (бухгалтерская программа)",
+    "ka": "BTP (საბუღალტრო პროგრამა)"
+  },
+  {
+    "code": "helpdesk",
+    "group": "skills",
+    "az": "Helpdesk (texniki dəstək)",
+    "en": "Helpdesk (technical support)",
+    "ru": "Helpdesk (техническая поддержка)",
+    "ka": "Helpdesk (ტექნიკური მხარდაჭერა)"
+  },
+  {
+    "code": "responsibility",
+    "group": "skills",
+    "az": "Məsuliyyətlilik",
+    "en": "Responsibility",
+    "ru": "Ответственность",
+    "ka": "პასუხისმგებლობა"
+  },
+  {
+    "code": "punctuality",
+    "group": "skills",
+    "az": "Dəqiqlik",
+    "en": "Punctuality",
+    "ru": "Пунктуальность",
+    "ka": "პუნქტუალურობა"
+  },
+  {
+    "code": "patience",
+    "group": "skills",
+    "az": "Səbirlilik",
+    "en": "Patience",
+    "ru": "Терпеливость",
+    "ka": "მოთმინება"
+  },
+  {
+    "code": "attention_to_detail",
+    "group": "skills",
+    "az": "Detallara diqqət",
+    "en": "Attention to detail",
+    "ru": "Внимание к деталям",
+    "ka": "დეტალებისადმი ყურადღება"
+  },
+  {
+    "code": "promptness",
+    "group": "skills",
+    "az": "Operativlik",
+    "en": "Promptness",
+    "ru": "Оперативность",
+    "ka": "ოპერატიულობა"
+  },
+  {
+    "code": "public_speaking",
+    "group": "skills",
+    "az": "Natiqlik",
+    "en": "Public speaking",
+    "ru": "Ораторское искусство",
+    "ka": "საჯარო გამოსვლა"
+  },
+  {
+    "code": "active_listening",
+    "group": "skills",
+    "az": "Aktiv dinləmə",
+    "en": "Active listening",
+    "ru": "Активное слушание",
+    "ka": "აქტიური მოსმენა"
+  },
+  {
+    "code": "decision_making",
+    "group": "skills",
+    "az": "Qərar vermə bacarığı",
+    "en": "Decision making",
+    "ru": "Принятие решений",
+    "ka": "გადაწყვეტილების მიღება"
+  },
+  {
+    "code": "fast_learning",
+    "group": "skills",
+    "az": "Tez öyrənmə bacarığı",
+    "en": "Fast learning",
+    "ru": "Быстрая обучаемость",
+    "ka": "სწრაფად სწავლის უნარი"
+  },
+  {
+    "code": "work_ethic",
+    "group": "skills",
+    "az": "İş etikası",
+    "en": "Work ethic",
+    "ru": "Трудовая этика",
+    "ka": "შრომის ეთიკა"
+  },
+  {
+    "code": "initiative",
+    "group": "skills",
+    "az": "Təşəbbüskarlıq",
+    "en": "Initiative",
+    "ru": "Инициативность",
+    "ka": "ინიციატივიანობა"
+  },
+  {
+    "code": "discipline",
+    "group": "skills",
+    "az": "İntizam",
+    "en": "Discipline",
+    "ru": "Дисциплинированность",
+    "ka": "დისციპლინა"
+  },
+  {
+    "code": "reliability",
+    "group": "skills",
+    "az": "Etibarlılıq",
+    "en": "Reliability",
+    "ru": "Надёжность",
+    "ka": "სანდოობა"
+  },
+  {
+    "code": "honesty",
+    "group": "skills",
+    "az": "Dürüstlük",
+    "en": "Honesty",
+    "ru": "Честность",
+    "ka": "პატიოსნება"
+  },
+  {
+    "code": "logical_thinking",
+    "group": "skills",
+    "az": "Məntiqi düşüncə",
+    "en": "Logical thinking",
+    "ru": "Логическое мышление",
+    "ka": "ლოგიკური აზროვნება"
+  },
+  {
+    "code": "numeracy",
+    "group": "skills",
+    "az": "Riyazi biliklər",
+    "en": "Numeracy",
+    "ru": "Математические навыки",
+    "ka": "მათემატიკური უნარები"
+  },
+  {
+    "code": "translation",
+    "group": "skills",
+    "az": "Tərcümə",
+    "en": "Translation",
+    "ru": "Перевод",
+    "ka": "თარგმნა"
+  },
+  {
+    "code": "open_mindedness",
+    "group": "skills",
+    "az": "Açıqfikirlilik",
+    "en": "Open-mindedness",
+    "ru": "Открытость новому",
+    "ka": "ღია აზროვნება"
+  },
+  {
+    "code": "driving",
+    "group": "skills",
+    "az": "Sürücülük vərdişləri",
+    "en": "Driving skills",
+    "ru": "Навыки вождения",
+    "ka": "მართვის უნარი"
+  },
+  {
+    "code": "welding",
+    "group": "skills",
+    "az": "Qaynaq işləri",
+    "en": "Welding",
+    "ru": "Сварочные работы",
+    "ka": "შედუღება"
+  },
+  {
+    "code": "car_repair",
+    "group": "skills",
+    "az": "Avtomobil təmiri",
+    "en": "Car repair",
+    "ru": "Ремонт автомобилей",
+    "ka": "ავტომობილის შეკეთება"
+  },
+  {
+    "code": "assembly_installation",
+    "group": "skills",
+    "az": "Montaj işləri",
+    "en": "Assembly and installation",
+    "ru": "Монтажные работы",
+    "ka": "სამონტაჟო სამუშაოები"
   }
 ]
