@@ -432,5 +432,405 @@
     "az": "Qarabağ Universiteti",
     "en": "Karabakh University",
     "ru": "Университет Карабах"
+  },
+  {
+    "code": "ge_tsu",
+    "group": "universities",
+    "az": "Tbilisi Dövlət Universiteti (İvane Cavaxişvili adına)",
+    "en": "Ivane Javakhishvili Tbilisi State University",
+    "ru": "Тбилисский государственный университет им. Иванэ Джавахишвили",
+    "ka": "ივანე ჯავახიშვილის სახელობის თბილისის სახელმწიფო უნივერსიტეტი"
+  },
+  {
+    "code": "ge_gtu",
+    "group": "universities",
+    "az": "Gürcüstan Texniki Universiteti",
+    "en": "Georgian Technical University",
+    "ru": "Грузинский технический университет",
+    "ka": "საქართველოს ტექნიკური უნივერსიტეტი"
+  },
+  {
+    "code": "ge_isu",
+    "group": "universities",
+    "az": "İlia Dövlət Universiteti",
+    "en": "Ilia State University",
+    "ru": "Государственный университет Ильи Чавчавадзе",
+    "ka": "ილიას სახელმწიფო უნივერსიტეტი"
+  },
+  {
+    "code": "ge_tsmu",
+    "group": "universities",
+    "az": "Tbilisi Dövlət Tibb Universiteti",
+    "en": "Tbilisi State Medical University",
+    "ru": "Тбилисский государственный медицинский университет",
+    "ka": "თბილისის სახელმწიფო სამედიცინო უნივერსიტეტი"
+  },
+  {
+    "code": "ge_freeuni",
+    "group": "universities",
+    "az": "Tbilisi Azad Universiteti",
+    "en": "Free University of Tbilisi",
+    "ru": "Свободный университет Тбилиси",
+    "ka": "თბილისის თავისუფალი უნივერსიტეტი"
+  },
+  {
+    "code": "ge_caucasus",
+    "group": "universities",
+    "az": "Qafqaz Universiteti (Tbilisi)",
+    "en": "Caucasus University",
+    "ru": "Кавказский университет",
+    "ka": "კავკასიის უნივერსიტეტი"
+  },
+  {
+    "code": "ge_bsu",
+    "group": "universities",
+    "az": "Batumi Şota Rustaveli Dövlət Universiteti",
+    "en": "Batumi Shota Rustaveli State University",
+    "ru": "Батумский государственный университет им. Шота Руставели",
+    "ka": "ბათუმის შოთა რუსთაველის სახელმწიფო უნივერსიტეტი"
+  },
+  {
+    "code": "ge_atsu",
+    "group": "universities",
+    "az": "Akaki Sereteli Dövlət Universiteti (Kutaisi)",
+    "en": "Akaki Tsereteli State University",
+    "ru": "Государственный университет Акакия Церетели",
+    "ka": "აკაკი წერეთლის სახელმწიფო უნივერსიტეტი"
+  },
+  {
+    "code": "ru_msu",
+    "group": "universities",
+    "az": "M. V. Lomonosov adına Moskva Dövlət Universiteti",
+    "en": "Lomonosov Moscow State University",
+    "ru": "Московский государственный университет им. М. В. Ломоносова",
+    "ka": "ლომონოსოვის სახელობის მოსკოვის სახელმწიფო უნივერსიტეტი"
+  },
+  {
+    "code": "ru_spbu",
+    "group": "universities",
+    "az": "Sankt-Peterburq Dövlət Universiteti",
+    "en": "Saint Petersburg State University",
+    "ru": "Санкт-Петербургский государственный университет",
+    "ka": "სანქტ-პეტერბურგის სახელმწიფო უნივერსიტეტი"
+  },
+  {
+    "code": "ru_hse",
+    "group": "universities",
+    "az": "İqtisadiyyat Yüksək Məktəbi (HSE)",
+    "en": "HSE University (Higher School of Economics)",
+    "ru": "Национальный исследовательский университет «Высшая школа экономики»",
+    "ka": "ეკონომიკის უმაღლესი სკოლა (HSE)"
+  },
+  {
+    "code": "ru_mgimo",
+    "group": "universities",
+    "az": "Moskva Dövlət Beynəlxalq Münasibətlər İnstitutu (MGIMO)",
+    "en": "Moscow State Institute of International Relations (MGIMO)",
+    "ru": "Московский государственный институт международных отношений (МГИМО)",
+    "ka": "მოსკოვის საერთაშორისო ურთიერთობების სახელმწიფო ინსტიტუტი (MGIMO)"
+  },
+  {
+    "code": "ru_mipt",
+    "group": "universities",
+    "az": "Moskva Fizika-Texnika İnstitutu (MFTİ)",
+    "en": "Moscow Institute of Physics and Technology (MIPT)",
+    "ru": "Московский физико-технический институт (МФТИ)",
+    "ka": "მოსკოვის ფიზიკა-ტექნიკის ინსტიტუტი (MIPT)"
+  },
+  {
+    "code": "ru_bmstu",
+    "group": "universities",
+    "az": "N. E. Bauman adına Moskva Dövlət Texniki Universiteti",
+    "en": "Bauman Moscow State Technical University",
+    "ru": "Московский государственный технический университет им. Н. Э. Баумана",
+    "ka": "ბაუმანის სახელობის მოსკოვის სახელმწიფო ტექნიკური უნივერსიტეტი"
+  },
+  {
+    "code": "ru_sechenov",
+    "group": "universities",
+    "az": "İ. M. Seçenov adına Birinci Moskva Dövlət Tibb Universiteti",
+    "en": "Sechenov First Moscow State Medical University",
+    "ru": "Первый Московский государственный медицинский университет им. И. М. Сеченова",
+    "ka": "სეჩენოვის სახელობის მოსკოვის პირველი სამედიცინო უნივერსიტეტი"
+  },
+  {
+    "code": "ru_rudn",
+    "group": "universities",
+    "az": "Rusiya Xalqlar Dostluğu Universiteti (RUDN)",
+    "en": "RUDN University (Peoples' Friendship University of Russia)",
+    "ru": "Российский университет дружбы народов (РУДН)",
+    "ka": "რუსეთის ხალხთა მეგობრობის უნივერსიტეტი (RUDN)"
+  },
+  {
+    "code": "ru_itmo",
+    "group": "universities",
+    "az": "ITMO Universiteti",
+    "en": "ITMO University",
+    "ru": "Университет ИТМО",
+    "ka": "ITMO უნივერსიტეტი"
+  },
+  {
+    "code": "ru_kfu",
+    "group": "universities",
+    "az": "Kazan Federal Universiteti",
+    "en": "Kazan Federal University",
+    "ru": "Казанский федеральный университет",
+    "ka": "ყაზანის ფედერალური უნივერსიტეტი"
+  },
+  {
+    "code": "ru_nsu",
+    "group": "universities",
+    "az": "Novosibirsk Dövlət Universiteti",
+    "en": "Novosibirsk State University",
+    "ru": "Новосибирский государственный университет",
+    "ka": "ნოვოსიბირსკის სახელმწიფო უნივერსიტეტი"
+  },
+  {
+    "code": "ru_plekhanov",
+    "group": "universities",
+    "az": "G. V. Plexanov adına Rusiya İqtisadiyyat Universiteti",
+    "en": "Plekhanov Russian University of Economics",
+    "ru": "Российский экономический университет им. Г. В. Плеханова",
+    "ka": "პლეხანოვის სახელობის რუსეთის ეკონომიკური უნივერსიტეტი"
+  },
+  {
+    "code": "us_mit",
+    "group": "universities",
+    "az": "Massaçusets Texnologiya İnstitutu (MIT)",
+    "en": "Massachusetts Institute of Technology (MIT)",
+    "ru": "Массачусетский технологический институт (MIT)",
+    "ka": "მასაჩუსეტსის ტექნოლოგიური ინსტიტუტი (MIT)"
+  },
+  {
+    "code": "us_stanford",
+    "group": "universities",
+    "az": "Stenford Universiteti",
+    "en": "Stanford University",
+    "ru": "Стэнфордский университет",
+    "ka": "სტენფორდის უნივერსიტეტი"
+  },
+  {
+    "code": "us_harvard",
+    "group": "universities",
+    "az": "Harvard Universiteti",
+    "en": "Harvard University",
+    "ru": "Гарвардский университет",
+    "ka": "ჰარვარდის უნივერსიტეტი"
+  },
+  {
+    "code": "us_caltech",
+    "group": "universities",
+    "az": "Kaliforniya Texnologiya İnstitutu (Caltech)",
+    "en": "California Institute of Technology (Caltech)",
+    "ru": "Калифорнийский технологический институт (Caltech)",
+    "ka": "კალიფორნიის ტექნოლოგიური ინსტიტუტი (Caltech)"
+  },
+  {
+    "code": "us_berkeley",
+    "group": "universities",
+    "az": "Kaliforniya Universiteti, Berkli",
+    "en": "University of California, Berkeley",
+    "ru": "Калифорнийский университет в Беркли",
+    "ka": "კალიფორნიის უნივერსიტეტი, ბერკლი"
+  },
+  {
+    "code": "us_princeton",
+    "group": "universities",
+    "az": "Prinston Universiteti",
+    "en": "Princeton University",
+    "ru": "Принстонский университет",
+    "ka": "პრინსტონის უნივერსიტეტი"
+  },
+  {
+    "code": "us_yale",
+    "group": "universities",
+    "az": "Yel Universiteti",
+    "en": "Yale University",
+    "ru": "Йельский университет",
+    "ka": "იელის უნივერსიტეტი"
+  },
+  {
+    "code": "us_chicago",
+    "group": "universities",
+    "az": "Çikaqo Universiteti",
+    "en": "University of Chicago",
+    "ru": "Чикагский университет",
+    "ka": "ჩიკაგოს უნივერსიტეტი"
+  },
+  {
+    "code": "us_columbia",
+    "group": "universities",
+    "az": "Kolumbiya Universiteti",
+    "en": "Columbia University",
+    "ru": "Колумбийский университет",
+    "ka": "კოლუმბიის უნივერსიტეტი"
+  },
+  {
+    "code": "us_upenn",
+    "group": "universities",
+    "az": "Pensilvaniya Universiteti",
+    "en": "University of Pennsylvania",
+    "ru": "Пенсильванский университет",
+    "ka": "პენსილვანიის უნივერსიტეტი"
+  },
+  {
+    "code": "eu_oxford",
+    "group": "universities",
+    "az": "Oksford Universiteti",
+    "en": "University of Oxford",
+    "ru": "Оксфордский университет",
+    "ka": "ოქსფორდის უნივერსიტეტი"
+  },
+  {
+    "code": "eu_cambridge",
+    "group": "universities",
+    "az": "Kembric Universiteti",
+    "en": "University of Cambridge",
+    "ru": "Кембриджский университет",
+    "ka": "კემბრიჯის უნივერსიტეტი"
+  },
+  {
+    "code": "eu_imperial",
+    "group": "universities",
+    "az": "London İmperial Kolleci",
+    "en": "Imperial College London",
+    "ru": "Имперский колледж Лондона",
+    "ka": "ლონდონის იმპერიული კოლეჯი"
+  },
+  {
+    "code": "eu_ucl",
+    "group": "universities",
+    "az": "London Universitet Kolleci (UCL)",
+    "en": "University College London (UCL)",
+    "ru": "Университетский колледж Лондона (UCL)",
+    "ka": "ლონდონის უნივერსიტეტ-კოლეჯი (UCL)"
+  },
+  {
+    "code": "eu_ethz",
+    "group": "universities",
+    "az": "Sürix Federal Texnologiya İnstitutu (ETH Zürich)",
+    "en": "ETH Zurich",
+    "ru": "Швейцарская высшая техническая школа Цюриха (ETH Zürich)",
+    "ka": "ციურიხის ფედერალური ტექნოლოგიური ინსტიტუტი (ETH Zürich)"
+  },
+  {
+    "code": "eu_epfl",
+    "group": "universities",
+    "az": "Lozanna Federal Politexnik Məktəbi (EPFL)",
+    "en": "École Polytechnique Fédérale de Lausanne (EPFL)",
+    "ru": "Федеральная политехническая школа Лозанны (EPFL)",
+    "ka": "ლოზანის ფედერალური პოლიტექნიკური სკოლა (EPFL)"
+  },
+  {
+    "code": "eu_tum",
+    "group": "universities",
+    "az": "Münhen Texniki Universiteti",
+    "en": "Technical University of Munich (TUM)",
+    "ru": "Мюнхенский технический университет",
+    "ka": "მიუნხენის ტექნიკური უნივერსიტეტი"
+  },
+  {
+    "code": "eu_lmu",
+    "group": "universities",
+    "az": "Münhen Ludviq-Maksimilian Universiteti",
+    "en": "Ludwig Maximilian University of Munich (LMU)",
+    "ru": "Мюнхенский университет Людвига-Максимилиана",
+    "ka": "მიუნხენის ლუდვიგ-მაქსიმილიანის უნივერსიტეტი"
+  },
+  {
+    "code": "eu_sorbonne",
+    "group": "universities",
+    "az": "Sorbonna Universiteti",
+    "en": "Sorbonne University",
+    "ru": "Университет Сорбонна",
+    "ka": "სორბონის უნივერსიტეტი"
+  },
+  {
+    "code": "eu_tudelft",
+    "group": "universities",
+    "az": "Delft Texniki Universiteti",
+    "en": "Delft University of Technology",
+    "ru": "Делфтский технический университет",
+    "ka": "დელფტის ტექნოლოგიური უნივერსიტეტი"
+  },
+  {
+    "code": "tr_bogazici",
+    "group": "universities",
+    "az": "Boğaziçi Universiteti",
+    "en": "Boğaziçi University",
+    "ru": "Университет Богазичи",
+    "ka": "ბოღაზიჩის უნივერსიტეტი"
+  },
+  {
+    "code": "tr_odtu",
+    "group": "universities",
+    "az": "Orta Doğu Texniki Universiteti (ODTÜ)",
+    "en": "Middle East Technical University (METU)",
+    "ru": "Ближневосточный технический университет (METU)",
+    "ka": "შუა აღმოსავლეთის ტექნიკური უნივერსიტეტი (METU)"
+  },
+  {
+    "code": "tr_itu",
+    "group": "universities",
+    "az": "İstanbul Texniki Universiteti",
+    "en": "Istanbul Technical University (ITU)",
+    "ru": "Стамбульский технический университет",
+    "ka": "ისტანბულის ტექნიკური უნივერსიტეტი"
+  },
+  {
+    "code": "tr_istanbul",
+    "group": "universities",
+    "az": "İstanbul Universiteti",
+    "en": "Istanbul University",
+    "ru": "Стамбульский университет",
+    "ka": "ისტანბულის უნივერსიტეტი"
+  },
+  {
+    "code": "tr_hacettepe",
+    "group": "universities",
+    "az": "Hacettepe Universiteti",
+    "en": "Hacettepe University",
+    "ru": "Университет Хаджеттепе",
+    "ka": "ჰაჯეთთეფეს უნივერსიტეტი"
+  },
+  {
+    "code": "tr_ankara",
+    "group": "universities",
+    "az": "Ankara Universiteti",
+    "en": "Ankara University",
+    "ru": "Анкарский университет",
+    "ka": "ანკარის უნივერსიტეტი"
+  },
+  {
+    "code": "tr_bilkent",
+    "group": "universities",
+    "az": "Bilkent Universiteti",
+    "en": "Bilkent University",
+    "ru": "Университет Билькент",
+    "ka": "ბილკენტის უნივერსიტეტი"
+  },
+  {
+    "code": "tr_koc",
+    "group": "universities",
+    "az": "Koç Universiteti",
+    "en": "Koç University",
+    "ru": "Университет Коч",
+    "ka": "კოჩის უნივერსიტეტი"
+  },
+  {
+    "code": "tr_sabanci",
+    "group": "universities",
+    "az": "Sabancı Universiteti",
+    "en": "Sabancı University",
+    "ru": "Университет Сабанджи",
+    "ka": "საბანჯის უნივერსიტეტი"
+  },
+  {
+    "code": "tr_ege",
+    "group": "universities",
+    "az": "Ege Universiteti",
+    "en": "Ege University",
+    "ru": "Эгейский университет",
+    "ka": "ეგეს უნივერსიტეტი"
   }
 ]

@@ -4,237 +4,271 @@
     "group": "nationality",
     "az": "Azərbaycanlı",
     "en": "Azerbijani",
-    "ru": "Азербайджанец/ка"
+    "ru": "Азербайджанец/ка",
+    "ka": "აზერბაიჯანელი"
   },
   {
     "code": "rus",
     "group": "nationality",
     "az": "Rus",
     "en": "Russian",
-    "ru": "Русский/кая"
+    "ru": "Русский/кая",
+    "ka": "რუსი"
   },
   {
     "code": "lazgis",
     "group": "nationality",
     "az": "Ləzgi",
     "en": "Lazgi",
-    "ru": "Лезгин/ка"
+    "ru": "Лезгин/ка",
+    "ka": "ლეზგინი"
   },
   {
     "code": "turks",
     "group": "nationality",
     "az": "Türk",
     "en": "Turk",
-    "ru": "Турок/чанка"
+    "ru": "Турок/чанка",
+    "ka": "თურქი"
   },
   {
     "code": "avars",
     "group": "nationality",
     "az": "Avar",
     "en": "Avar",
-    "ru": "Аварец/ка"
+    "ru": "Аварец/ка",
+    "ka": "ავარელი"
   },
   {
     "code": "georgians",
     "group": "nationality",
     "az": "Gürcü",
     "en": "Georgian",
-    "ru": "Грузин/ка"
+    "ru": "Грузин/ка",
+    "ka": "ქართველი"
   },
   {
     "code": "uzbeks",
     "group": "nationality",
     "az": "Özbək",
     "en": "Uzbek",
-    "ru": "Узбек/чка"
+    "ru": "Узбек/чка",
+    "ka": "უზბეკი"
   },
   {
     "code": "tatars",
     "group": "nationality",
     "az": "Tatar",
     "en": "Tatar",
-    "ru": "Татарин/ка"
+    "ru": "Татарин/ка",
+    "ka": "თათარი"
   },
   {
     "code": "talishs",
     "group": "nationality",
     "az": "Talış",
     "en": "Talish",
-    "ru": "Талыш"
+    "ru": "Талыш",
+    "ka": "თალიში"
   },
   {
     "code": "belarusians",
     "group": "nationality",
     "az": "Belarus",
     "en": "Belarusian",
-    "ru": "Белорус/ка"
+    "ru": "Белорус/ка",
+    "ka": "ბელარუსი"
   },
   {
     "code": "persians",
     "group": "nationality",
     "az": "Fars",
     "en": "Persian",
-    "ru": "Перс"
+    "ru": "Перс",
+    "ka": "სპარსი"
   },
   {
     "code": "ukrainians",
     "group": "nationality",
     "az": "Ukraynalı",
     "en": "Ukrainian",
-    "ru": "Украинец/ка"
+    "ru": "Украинец/ка",
+    "ka": "უკრაინელი"
   },
   {
     "code": "tajiks",
     "group": "nationality",
     "az": "Tacik",
     "en": "Tajik",
-    "ru": "Таджик"
+    "ru": "Таджик",
+    "ka": "ტაჯიკი"
   },
   {
     "code": "egyptians",
     "group": "nationality",
     "az": "Misirli",
     "en": "Egyptian",
-    "ru": "Египтянин/ка"
+    "ru": "Египтянин/ка",
+    "ka": "ეგვიპტელი"
   },
   {
     "code": "kyrgyzs",
     "group": "nationality",
     "az": "Qırğız",
     "en": "Kyrgyz",
-    "ru": "Кыргыз/ка"
+    "ru": "Кыргыз/ка",
+    "ka": "ყირგიზი"
   },
   {
     "code": "kazakhs",
     "group": "nationality",
     "az": "Qazax",
     "en": "Kazakh",
-    "ru": "Казах/шка"
+    "ru": "Казах/шка",
+    "ka": "ყაზახი"
   },
   {
     "code": "turkmens",
     "group": "nationality",
     "az": "Türkmən",
     "en": "Turkmen",
-    "ru": "Туркмен/ка"
+    "ru": "Туркмен/ка",
+    "ka": "თურქმენი"
   },
   {
     "code": "pakistanis",
     "group": "nationality",
     "az": "Pakistanlı",
     "en": "Pakistani",
-    "ru": "Пакистанец/ка"
+    "ru": "Пакистанец/ка",
+    "ka": "პაკისტანელი"
   },
   {
     "code": "jews",
     "group": "nationality",
     "az": "Yəhudi",
     "en": "Jew",
-    "ru": "Еврей/ка"
+    "ru": "Еврей/ка",
+    "ka": "ებრაელი"
   },
   {
     "code": "moldovans",
     "group": "nationality",
     "az": "Moldovan",
     "en": "Moldovan",
-    "ru": "Молдаван/ка"
+    "ru": "Молдаван/ка",
+    "ka": "მოლდოველი"
   },
   {
     "code": "romanians",
     "group": "nationality",
     "az": "Rumın",
     "en": "Romanian",
-    "ru": "Румын/ка"
+    "ru": "Румын/ка",
+    "ka": "რუმინელი"
   },
   {
     "code": "sakhurs",
     "group": "nationality",
     "az": "Saxur",
     "en": "Sakhur",
-    "ru": "Сахур/ка"
+    "ru": "Сахур/ка",
+    "ka": "წახური"
   },
   {
     "code": "kurds",
     "group": "nationality",
     "az": "Kürd",
     "en": "Kurd",
-    "ru": "Курд"
+    "ru": "Курд",
+    "ka": "ქურთი"
   },
   {
     "code": "chechens",
     "group": "nationality",
     "az": "Çeçen",
     "en": "Chechen",
-    "ru": "Чеченец/ка"
+    "ru": "Чеченец/ка",
+    "ka": "ჩეჩენი"
   },
   {
     "code": "uygurs",
     "group": "nationality",
     "az": "Uyğur",
     "en": "Uygur",
-    "ru": "Уйгур/ка"
+    "ru": "Уйгур/ка",
+    "ka": "უიღური"
   },
   {
     "code": "italians",
     "group": "nationality",
     "az": "İtalyan",
     "en": "italian",
-    "ru": "Итальянец/ка"
+    "ru": "Итальянец/ка",
+    "ka": "იტალიელი"
   },
   {
     "code": "germans",
     "group": "nationality",
     "az": "Alman",
     "en": "German",
-    "ru": "Немец/ка"
+    "ru": "Немец/ка",
+    "ka": "გერმანელი"
   },
   {
     "code": "poles",
     "group": "nationality",
     "az": "Polyak",
     "en": "Polish",
-    "ru": "Поляк/ька"
+    "ru": "Поляк/ька",
+    "ka": "პოლონელი"
   },
   {
     "code": "frenchs",
     "group": "nationality",
     "az": "Fransız",
     "en": "French",
-    "ru": "Француз/ка"
+    "ru": "Француз/ка",
+    "ka": "ფრანგი"
   },
   {
     "code": "japaneses",
     "group": "nationality",
     "az": "Yapon",
     "en": "Japanese",
-    "ru": "Японец/ка"
+    "ru": "Японец/ка",
+    "ka": "იაპონელი"
   },
   {
     "code": "lithuanians",
     "group": "nationality",
     "az": "Litvalı",
     "en": "Lithuanian",
-    "ru": "Литовец/ка"
+    "ru": "Литовец/ка",
+    "ka": "ლიტველი"
   },
   {
     "code": "latvians",
     "group": "nationality",
     "az": "Latviyalı",
     "en": "Latvian",
-    "ru": "Латыш/ка"
+    "ru": "Латыш/ка",
+    "ka": "ლატვიელი"
   },
   {
     "code": "estonians",
     "group": "nationality",
     "az": "Eston",
     "en": "Estonian",
-    "ru": "Эстонец/ка"
+    "ru": "Эстонец/ка",
+    "ka": "ესტონელი"
   },
   {
     "code": "others",
     "group": "nationality",
     "az": "Digər",
     "en": "Other",
-    "ru": "Другой/ая"
+    "ru": "Другой/ая",
+    "ka": "სხვა"
   }
 ]

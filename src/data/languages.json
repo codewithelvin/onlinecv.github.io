@@ -4,118 +4,143 @@
     "group": "languages",
     "az": "Ərəb dili",
     "en": "Arabic language",
-    "ru": "Арабский язык"
+    "ru": "Арабский язык",
+    "ka": "არაბული ენა"
   },
   {
     "code": "azerbaijan",
     "group": "languages",
     "az": "Azərbaycan dili",
     "en": "Azerbaijani language",
-    "ru": "Азербайджанский язык"
+    "ru": "Азербайджанский язык",
+    "ka": "აზერბაიჯანული ენა"
   },
   {
     "code": "chinese",
     "group": "languages",
     "az": "Çin dili",
     "en": "Chinese language",
-    "ru": "Китайский язык"
+    "ru": "Китайский язык",
+    "ka": "ჩინური ენა"
   },
   {
     "code": "english",
     "group": "languages",
     "az": "İngilis dili",
     "en": "English language",
-    "ru": "Английский язык"
+    "ru": "Английский язык",
+    "ka": "ინგლისური ენა"
   },
   {
     "code": "french",
     "group": "languages",
     "az": "Fransız dili",
     "en": "French language",
-    "ru": "Французский язык"
+    "ru": "Французский язык",
+    "ka": "ფრანგული ენა"
+  },
+  {
+    "code": "georgian",
+    "group": "languages",
+    "az": "Gürcü dili",
+    "en": "Georgian language",
+    "ru": "Грузинский язык",
+    "ka": "ქართული ენა"
   },
   {
     "code": "german",
     "group": "languages",
     "az": "Alman dili",
     "en": "German language",
-    "ru": "Немецкий язык"
+    "ru": "Немецкий язык",
+    "ka": "გერმანული ენა"
   },
   {
     "code": "hebrew",
     "group": "languages",
     "az": "İvrit dili",
     "en": "Hebrew",
-    "ru": "Иврит"
+    "ru": "Иврит",
+    "ka": "ივრითი"
   },
   {
     "code": "hispanic",
     "group": "languages",
     "az": "İspan dili",
     "en": "Spanish language",
-    "ru": "Испанский язык"
+    "ru": "Испанский язык",
+    "ka": "ესპანური ენა"
   },
   {
     "code": "italian",
     "group": "languages",
     "az": "İtalyan dili",
     "en": "Italian language",
-    "ru": "Итальянский язык"
+    "ru": "Итальянский язык",
+    "ka": "იტალიური ენა"
   },
   {
     "code": "japan",
     "group": "languages",
     "az": "Yapon dili",
     "en": "Japanese language",
-    "ru": "Японский язык"
+    "ru": "Японский язык",
+    "ka": "იაპონური ენა"
   },
   {
     "code": "korean",
     "group": "languages",
     "az": "Koreya dili",
     "en": "Korean language",
-    "ru": "Корейский язык"
+    "ru": "Корейский язык",
+    "ka": "კორეული ენა"
   },
   {
     "code": "persian",
     "group": "languages",
     "az": "Fars dili",
     "en": "Persian language",
-    "ru": "Персидский язык"
+    "ru": "Персидский язык",
+    "ka": "სპარსული ენა"
   },
   {
     "code": "polish",
     "group": "languages",
     "az": "Polyak dili",
     "en": "Polish language",
-    "ru": "Польский язык"
+    "ru": "Польский язык",
+    "ka": "პოლონური ენა"
   },
   {
     "code": "romainan",
     "group": "languages",
     "az": "Rumın dili",
     "en": "Romanian language",
-    "ru": "Румынский язык"
+    "ru": "Румынский язык",
+    "ka": "რუმინული ენა"
   },
   {
     "code": "russian",
     "group": "languages",
     "az": "Rus dili",
     "en": "Russian language",
-    "ru": "Русский язык"
+    "ru": "Русский язык",
+    "ka": "რუსული ენა"
   },
   {
     "code": "turkish",
     "group": "languages",
     "az": "Türk dili",
     "en": "Turkish language",
-    "ru": "Турецкий язык"
+    "ru": "Турецкий язык",
+    "ka": "თურქული ენა"
   },
   {
     "code": "ukrainian",
     "group": "languages",
     "az": "Ukrayna dili",
     "en": "Ukrainian language",
-    "ru": "Украинский язык"
+    "ru": "Украинский язык",
+    "ka": "უკრაინული ენა"
   }
 ]

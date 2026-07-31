@@ -68,15 +68,24 @@ empty values, and that the dayjs data was imported.
 
 ## Optional steps
 
-5. **Dictionary labels** — add a `"tr"` column to `src/data/*.json` (skills 273,
-   colleges 127, universities 62, nationality 34, languages 17, interests 17).
-   Rows without the column fall back to `az` via `dictionaryLabel()`, so this can
-   be done gradually, dataset by dataset. Values already saved in a CV re-label
-   themselves as soon as the column exists — they are stored as codes, not text.
-   **Georgian has not had this done**: a Georgian user picks skills and
-   nationalities from Azerbaijani labels for now. (Two of the datasets —
-   colleges and universities — are lists of *Azerbaijani institutions*, whose
-   names are arguably better left in Azerbaijani than transliterated.)
+5. **Dictionary labels** — add a `"tr"` column to `src/data/*.json`. Rows without
+   it fall back to `az` via `dictionaryLabel()`, so this can be done gradually,
+   dataset by dataset; values already saved in a CV re-label themselves as soon
+   as the column exists, since they are stored as codes rather than text.
+
+   Georgian is fully translated in the four groups whose labels a user reads in a
+   select or on the finished CV — **skills (273), nationality (34), languages
+   (18), interests (17)** — and `src/data/datasets.test.ts` holds those four to
+   full coverage for every supported locale. **`colleges` (127) and the 62
+   Azerbaijani `universities` are deliberately left in Azerbaijani**: they are
+   institution *names*, and a transliteration is less useful than the real one.
+   (The 50 foreign universities added alongside them carry every locale.)
+
+   One dataset is not optional: **`languages`**. `LanguageItem.code` is the only
+   field in the model with no free-text fallback (§13.1), so a language missing
+   from that file cannot be claimed on a CV at all — shipping a Georgian UI while
+   Georgian was absent from the list meant a Georgian user could not list their
+   own mother tongue. A test now asserts every UI language has a row.
 
 6. **Template names** — `TemplateManifest.name` requires only `az`, so existing
    template folders keep working untouched. Add the new code when convenient.

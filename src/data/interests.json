@@ -4,118 +4,135 @@
     "group": "interests",
     "az": "Kitab oxumaq",
     "en": "Read book",
-    "ru": "Чтение книги"
+    "ru": "Чтение книги",
+    "ka": "წიგნების კითხვა"
   },
   {
     "code": "music_listen",
     "group": "interests",
     "az": "Musiqi dinləmək",
     "en": "Listen music",
-    "ru": "Слушать музыку"
+    "ru": "Слушать музыку",
+    "ka": "მუსიკის მოსმენა"
   },
   {
     "code": "play_games",
     "group": "interests",
     "az": "Oyun oynamaq",
     "en": "Play games",
-    "ru": "Играть в игры"
+    "ru": "Играть в игры",
+    "ka": "თამაშების თამაში"
   },
   {
     "code": "sport",
     "group": "interests",
     "az": "İdmanla məşğul olmaq",
     "en": "Do sport",
-    "ru": "Заниматься спортом"
+    "ru": "Заниматься спортом",
+    "ka": "სპორტით დაკავება"
   },
   {
     "code": "sing_a_song",
     "group": "interests",
     "az": "Mahnı oxumaq",
     "en": "Sing a song",
-    "ru": "Петь песню"
+    "ru": "Петь песню",
+    "ka": "სიმღერა"
   },
   {
     "code": "cooking",
     "group": "interests",
     "az": "Yemək hazırlamaq",
     "en": "Prepare food",
-    "ru": "Готовить блюдо"
+    "ru": "Готовить блюдо",
+    "ka": "კულინარია"
   },
   {
     "code": "chess",
     "group": "interests",
     "az": "Şahmat oynamaq",
     "en": "Play chess",
-    "ru": "Играть в шахматы"
+    "ru": "Играть в шахматы",
+    "ka": "ჭადრაკი"
   },
   {
     "code": "self_development",
     "group": "interests",
     "az": "Şəxsi inkişaf",
     "en": "Personal development",
-    "ru": "Личное развитие"
+    "ru": "Личное развитие",
+    "ka": "პიროვნული განვითარება"
   },
   {
     "code": "technology",
     "group": "interests",
     "az": "Texnologiyalar",
     "en": "Technologies",
-    "ru": "Технологии"
+    "ru": "Технологии",
+    "ka": "ტექნოლოგიები"
   },
   {
     "code": "blogging",
     "group": "interests",
     "az": "Bloqinq",
     "en": "Blogging",
-    "ru": "Ведение блога"
+    "ru": "Ведение блога",
+    "ka": "ბლოგინგი"
   },
   {
     "code": "photography",
     "group": "interests",
     "az": "Şəkil çəkmək",
     "en": "Taking picture",
-    "ru": "Фотосъемки"
+    "ru": "Фотосъемки",
+    "ka": "ფოტოგრაფია"
   },
   {
     "code": "design",
     "group": "interests",
     "az": "Dizayn",
     "en": "Design",
-    "ru": "Дизайн"
+    "ru": "Дизайн",
+    "ka": "დიზაინი"
   },
   {
     "code": "learning_languages",
     "group": "interests",
     "az": "Dillər öyrənmək",
     "en": "Learning languages",
-    "ru": "Изучение языков"
+    "ru": "Изучение языков",
+    "ka": "ენების შესწავლა"
   },
   {
     "code": "music_production",
     "group": "interests",
     "az": "Musiqi bəstələmək",
     "en": "Composing music",
-    "ru": "Сочинять музыку"
+    "ru": "Сочинять музыку",
+    "ka": "მუსიკის შექმნა"
   },
   {
     "code": "watch_movies",
     "group": "interests",
     "az": "Film izləmək",
     "en": "Watch movie",
-    "ru": "Смотреть кино"
+    "ru": "Смотреть кино",
+    "ka": "ფილმების ყურება"
   },
   {
     "code": "football",
     "group": "interests",
     "az": "Futbol oynamaq",
     "en": "Play football",
-    "ru": "Играть в футбол"
+    "ru": "Играть в футбол",
+    "ka": "ფეხბურთი"
   },
   {
     "code": "crossword",
     "group": "interests",
     "az": "Krossvord həll etmək",
     "en": "Solve the crossword",
-    "ru": "Решать кроссворды"
+    "ru": "Решать кроссворды",
+    "ka": "კროსვორდების ამოხსნა"
   }
 ]
