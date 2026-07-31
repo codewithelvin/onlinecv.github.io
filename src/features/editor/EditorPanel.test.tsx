@@ -3,6 +3,7 @@ import { screen } from '@testing-library/react';
 import { renderWithProviders } from '../../test/renderWithProviders';
 import { useResumeStore } from '../../state/store';
 import { createEmptyResume } from '../../utils/empty-resume';
+import { calcAge } from '../../utils/date';
 import { EditorPanel } from './EditorPanel';
 
 /** The AZ section titles, in the order they must appear in the accordion. */
@@ -161,6 +162,38 @@ describe('EditorPanel', () => {
       const { container } = renderWithProviders(<EditorPanel />);
       const ids = [...container.querySelectorAll('[id]')].map((el) => el.id);
       expect(new Set(ids).size).toBe(ids.length);
+    });
+  });
+
+  /**
+   * The derived age reads out inside the date picker rather than as a hint under
+   * it: it describes the value, not the field. The empty case matters as much as
+   * the filled one — antd renders its calendar icon whenever `suffixIcon` is
+   * `undefined`, so "no age" must leave that icon in place instead of an empty
+   * slot or a stray "Yaş: null".
+   */
+  describe('age read-out', () => {
+    const pickerOf = (container: HTMLElement): Element | null | undefined =>
+      container.querySelector('#generalInfo-dateOfBirth')?.closest('.ant-picker');
+
+    it('shows no age, and keeps the calendar icon, until a date is picked', () => {
+      const { container } = renderWithProviders(<EditorPanel />);
+      expect(container.querySelector('#generalInfo-dateOfBirth-age')).toBeNull();
+      expect(pickerOf(container)?.querySelector('.ant-picker-suffix svg')).toBeTruthy();
+    });
+
+    it('puts the age in the picker suffix, not under the field', () => {
+      useResumeStore.getState().updateGeneralInfo({ dateOfBirth: '2000-01-01' });
+      const { container } = renderWithProviders(<EditorPanel />);
+
+      const age = container.querySelector('#generalInfo-dateOfBirth-age');
+      expect(age?.textContent).toBe(`Yaş: ${calcAge('2000-01-01')}`);
+      expect(age?.closest('.ant-picker-suffix'), 'age is outside the suffix slot').toBeTruthy();
+      const item = container.querySelector('#generalInfo-dateOfBirth')?.closest('.ant-form-item');
+      expect(
+        item?.querySelector('.ant-form-item-extra'),
+        'age is still rendered under the field',
+      ).toBeFalsy();
     });
   });
 

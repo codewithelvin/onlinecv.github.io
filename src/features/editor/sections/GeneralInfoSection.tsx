@@ -1,5 +1,14 @@
 import type { JSX } from "react";
-import { AutoComplete, Col, DatePicker, Input, Row, Select, Space } from "antd";
+import {
+  AutoComplete,
+  Col,
+  DatePicker,
+  Input,
+  Row,
+  Select,
+  Space,
+  theme,
+} from "antd";
 import dayjs from "dayjs";
 import { useTranslation } from "react-i18next";
 import type {
@@ -13,6 +22,7 @@ import { FULL_DATE, ISO_DATE, calcAge } from "../../../utils/date";
 import { useDictionary } from "../../../hooks/useDictionary";
 import { resolveDictionaryValue } from "../../../utils/dictionary";
 import { Field } from "../../../components/form/fields";
+import { useScopedId } from "../../../components/form/field-scope";
 import {
   GENDERS,
   LICENSE_CATEGORIES,
@@ -33,6 +43,8 @@ export function GeneralInfoSection(): JSX.Element {
   const summary = useResumeStore((s) => s.resume.summary);
   const setSummary = useResumeStore((s) => s.updateSummary);
   const nationality = useDictionary("nationality");
+  const { token } = theme.useToken();
+  const ageId = useScopedId("dateOfBirth-age");
 
   const dob = gi.dateOfBirth ? dayjs(gi.dateOfBirth) : null;
   const age = calcAge(gi.dateOfBirth);
@@ -100,12 +112,7 @@ export function GeneralInfoSection(): JSX.Element {
           </Field>
         </Col>
         <Col xs={24} sm={12}>
-          <Field
-            label={t("fields.dateOfBirth")}
-            name="dateOfBirth"
-            required
-            extra={age !== null ? `${t("cvLabels.age")}: ${age}` : undefined}
-          >
+          <Field label={t("fields.dateOfBirth")} name="dateOfBirth" required>
             {(a11y) => (
               <DatePicker
                 {...a11y}
@@ -113,6 +120,27 @@ export function GeneralInfoSection(): JSX.Element {
                 format={FULL_DATE}
                 value={dob && dob.isValid() ? dob : null}
                 disabledDate={(d) => d.isAfter(dayjs())}
+                /* Age is a read-out of the value, not a hint about the field, so
+                   it sits inside the control rather than under it. Passing
+                   `undefined` with no date restores antd's calendar icon — the
+                   suffix slot is never empty, and an empty field shows no age.
+                   `.ant-picker-suffix` is `pointer-events: none`, so clicking the
+                   text still opens the panel; its default `colorTextQuaternary`
+                   is icon-grey (3:1), hence the explicit description colour. */
+                suffixIcon={
+                  age !== null ? (
+                    <span
+                      id={ageId}
+                      style={{
+                        color: token.colorTextDescription,
+                        fontSize: token.fontSizeSM,
+                        whiteSpace: "nowrap",
+                      }}
+                    >
+                      {`${t("cvLabels.age")}: ${age}`}
+                    </span>
+                  ) : undefined
+                }
                 onChange={(d) =>
                   update({ dateOfBirth: d ? d.format(ISO_DATE) : "" })
                 }
