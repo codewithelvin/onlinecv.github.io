@@ -356,6 +356,55 @@ body,
   height: 100%;
 }
 
+/*
+ * The gallery is a grid of cards, not a column of 100%-wide form controls, so it
+ * does not need the scrollbar gutter that `.app-modal .ant-modal-body` reserves
+ * above — and with it the left and right insets differ by 12px, which is plainly
+ * visible once the content is a grid. Four classes, to outrank that rule.
+ */
+.ant-modal.app-modal.template-gallery .ant-modal-body {
+  padding-inline-end: 0;
+}
+
+/*
+ * A gallery card's border, all the way round and one weight everywhere.
+ *
+ * antd pulls a bordered card's cover OUT over its border — `.ant-card-bordered
+ * .ant-card-cover { margin-top: -1px; margin-inline: -1px }`, hard-coded rather
+ * than derived from the border width — so that the picture meets the rounded
+ * corners. Two symptoms follow from it: the card's outline is covered on three
+ * sides and survives only along the BOTTOM edge, and marking the selected card
+ * with a 2px border brings exactly 1px of that border back at the top and sides
+ * while the bottom keeps its full 2px, i.e. an outline that "doesn't go all the
+ * way round and is twice as bold underneath".
+ *
+ * Clipping the cover with `overflow: hidden` instead — the corners then come
+ * from the card's own radius — gives a complete, even perimeter, and selection
+ * can be a `box-shadow` ring that costs no layout at all (`TemplatePicker`).
+ * The card's hover shadow is not affected: an element's own `overflow` never
+ * clips its own shadow.
+ */
+.ant-card.template-card {
+  overflow: hidden;
+  border-color: #d9d9d9;
+}
+
+.ant-card.template-card .ant-card-cover {
+  margin: 0;
+}
+
+/*
+ * `hoverable` sets `border-color: transparent` on hover, which drops the card's
+ * outline and leaves the content looking as though it had shrunk by a pixel
+ * inside its own box. Hover is elevation only here — antd's `box-shadow` half of
+ * that rule still applies. Three classes to outrank antd's two-class
+ * `:where(.css-hash).ant-card-hoverable:hover`, which is injected at runtime,
+ * i.e. after this file; the selected card's inline `borderColor` outranks both.
+ */
+.ant-card.template-card:hover {
+  border-color: #d9d9d9;
+}
+
 /* Honour reduced-motion (spec §10.2): near-zero durations. */
 @media (prefers-reduced-motion: reduce) {
   *,

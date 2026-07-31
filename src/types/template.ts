@@ -41,7 +41,7 @@ export interface TemplateManifest {
   name: LocalizedText;
   /** `true` = single column, image-free, real-text (safe for ATS parsing). */
   atsSafe: boolean;
-  /** Primary colour for the picker swatch. */
+  /** Primary colour; the picker draws the selected card's ring with it. */
   accent?: string;
   /** Imported thumbnail asset URL. */
   thumbnail: string;

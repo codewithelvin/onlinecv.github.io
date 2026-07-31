@@ -5,8 +5,21 @@ import { useTranslation } from 'react-i18next';
 import { useResumeStore } from '../../state/store';
 import { canExport } from '../../utils/empty-resume';
 
-/** Download PDF button with BR-4 gating + lazy PDF export (spec §10.2/§17/§19). */
-export function ExportButton({ block }: { block?: boolean }): JSX.Element {
+/**
+ * Download PDF button with BR-4 gating + lazy PDF export (spec §10.2/§17/§19).
+ *
+ * `compact` shortens the label to a bare "PDF": that is what buys the mobile
+ * action bar the room its two secondaries need for labels of their own, and next
+ * to the download arrow it still says what will happen. The full sentence stays
+ * on as the accessible name.
+ */
+export function ExportButton({
+  block,
+  compact,
+}: {
+  block?: boolean;
+  compact?: boolean;
+}): JSX.Element {
   const { t } = useTranslation();
   const { message } = App.useApp();
   const resume = useResumeStore((s) => s.resume);
@@ -33,9 +46,10 @@ export function ExportButton({ block }: { block?: boolean }): JSX.Element {
       loading={loading}
       disabled={!enabled}
       block={block}
+      aria-label={t('export.downloadPdf')}
       onClick={() => void onClick()}
     >
-      {t('export.downloadPdf')}
+      {compact ? t('export.downloadPdfShort') : t('export.downloadPdf')}
     </Button>
   );
 

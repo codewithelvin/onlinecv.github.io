@@ -144,10 +144,12 @@
   "templatePicker": {
     "title": "Choose a template",
     "atsSafe": "ATS-friendly",
-    "atsSafeHint": "This template is single-column, image-free and text-based — it is suitable for ATS systems."
+    "atsSafeHint": "This template is single-column, image-free and text-based — it is suitable for ATS systems.",
+    "zoom": "View the template larger"
   },
   "export": {
     "downloadPdf": "Download as PDF",
+    "downloadPdfShort": "PDF",
     "disabledReason": "To download the PDF, you must enter a first name, last name and a valid email address.",
     "generating": "Preparing PDF...",
     "error": "An error occurred while generating the PDF. Please try again."

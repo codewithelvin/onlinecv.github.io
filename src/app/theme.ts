@@ -46,6 +46,16 @@ export const themeConfig: ThemeConfig = {
     colorTextDescription: 'rgba(0, 0, 0, 0.6)',
     /** Same problem, one step lighter again; `#8c8c8c` gives 3.36:1. */
     colorTextPlaceholder: 'rgba(0, 0, 0, 0.55)',
+    /**
+     * Same problem again, in red: antd's `#ff4d4f` is 3.26:1 on white, so every
+     * `danger` button's label ("Sıfırla", "Sil", "Şəkli sil") misses WCAG AA —
+     * and so does white text on a filled one, which is what the reset
+     * confirmation's OK button is. Antd's own red-7 clears AA at 5.6:1 and still
+     * reads unmistakably as red. The rest of the error ramp (hover, active,
+     * borders, backgrounds) is derived from this one value, so validation
+     * messages and error borders move with it.
+     */
+    colorError: '#cf1322',
   },
   components: {
     Layout: {

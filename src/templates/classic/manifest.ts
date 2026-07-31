@@ -1,5 +1,5 @@
 import type { TemplateManifest } from '../_core/contract';
-import thumbnail from './thumbnail.png';
+import thumbnail from './thumbnail.jpg';
 
 export const manifest: TemplateManifest = {
   id: 'classic',

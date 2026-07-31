@@ -19,7 +19,7 @@
     "loading": "Yüklənir...",
     "moveUp": "Yuxarı",
     "moveDown": "Aşağı",
-    "seeCredential": "Sertifikatı gör",
+    "seeCredential": "Sertifikata bax",
     "years": "yaş",
     "deleteConfirm": "Silinməni təsdiqləyirsinizmi?",
     "select": "Seçin"
@@ -144,10 +144,12 @@
   "templatePicker": {
     "title": "Şablon seçin",
     "atsSafe": "ATS-uyğun",
-    "atsSafeHint": "Bu şablon tək sütunlu, şəkilsiz və mətn əsaslıdır — ATS sistemləri üçün uyğundur."
+    "atsSafeHint": "Bu şablon tək sütunlu, şəkilsiz və mətn əsaslıdır — ATS sistemləri üçün uyğundur.",
+    "zoom": "Şablonu böyüdərək bax"
   },
   "export": {
     "downloadPdf": "PDF kimi endir",
+    "downloadPdfShort": "PDF",
     "disabledReason": "PDF endirmək üçün ad, soyad və düzgün e-poçt ünvanı daxil edilməlidir.",
     "generating": "PDF hazırlanır...",
     "error": "PDF yaradılarkən xəta baş verdi. Yenidən cəhd edin."
