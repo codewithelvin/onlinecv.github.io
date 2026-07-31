@@ -3,7 +3,7 @@ import thumbnail from './thumbnail.jpg';
 
 export const manifest: TemplateManifest = {
   id: 'classic',
-  name: { az: 'Klassik', en: 'Classic', ru: 'Классический' },
+  name: { az: 'Klassik', en: 'Classic', ru: 'Классический', ka: 'კლასიკური' },
   atsSafe: true,
   accent: '#1461c7',
   thumbnail,

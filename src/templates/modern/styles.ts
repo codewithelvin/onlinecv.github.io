@@ -1,10 +1,11 @@
 import type { CSSProperties } from 'react';
+import { CV_FONT_FAMILY } from '../_core/fonts';
 import { modernTheme as m } from './theme';
 
 /** Modern template styles (inline CSSProperties; spec §7.1 subset — flexbox only). */
 export const styles: Record<string, CSSProperties> = {
   page: {
-    fontFamily: 'Inter',
+    fontFamily: CV_FONT_FAMILY,
     backgroundColor: m.pageBg,
     color: m.text,
     fontSize: 11,

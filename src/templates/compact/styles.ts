@@ -1,10 +1,11 @@
 import type { CSSProperties } from 'react';
+import { CV_FONT_FAMILY } from '../_core/fonts';
 import { compactTheme as c } from './theme';
 
 /** Compact template styles — smaller base size, tighter leading/margins (spec build plan). */
 export const styles: Record<string, CSSProperties> = {
   page: {
-    fontFamily: 'Inter',
+    fontFamily: CV_FONT_FAMILY,
     color: c.text,
     backgroundColor: c.pageBg,
     // Horizontal only; the vertical margin is `manifest.pageMargin` so that it

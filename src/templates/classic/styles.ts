@@ -1,4 +1,5 @@
 import type { CSSProperties } from 'react';
+import { CV_FONT_FAMILY } from '../_core/fonts';
 import { classicTheme as c } from './theme';
 
 /**
@@ -8,7 +9,7 @@ import { classicTheme as c } from './theme';
  */
 export const styles: Record<string, CSSProperties> = {
   page: {
-    fontFamily: 'Inter',
+    fontFamily: CV_FONT_FAMILY,
     color: c.text,
     backgroundColor: c.pageBg,
     // Horizontal only — the vertical margin is `manifest.pageMargin`, so it

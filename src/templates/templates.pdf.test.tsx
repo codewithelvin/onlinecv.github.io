@@ -5,11 +5,11 @@ import { Children, createElement, type ReactElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { beforeAll, describe, expect, it } from 'vitest';
 import * as ReactPdf from '@react-pdf/renderer';
-import { Font, pdf } from '@react-pdf/renderer';
+import { pdf } from '@react-pdf/renderer';
 import Html from 'react-pdf-html';
 import type { Resume, TemplateId } from '../types/resume';
 import { createEmptyResume } from '../utils/empty-resume';
-import { buildResumeDocument } from '../services/pdf';
+import { buildResumeDocument, registerResumeFonts } from '../services/pdf';
 import { makeDateFormatter } from '../utils/date';
 import { i18n } from '../app/i18n';
 import { getTemplate, listTemplates } from './_core/registry';
@@ -39,6 +39,23 @@ function sampleResume(): Resume {
   r.summary = 'Experienced developer.';
   r.skills = [{ id: 's1', name: 'TypeScript', level: 90 }];
   r.languages = [{ id: 'l1', code: 'english', name: 'English', level: 'C1' }];
+  return r;
+}
+
+/**
+ * A CV written in Georgian — a script Inter has no glyphs for at all, so this is
+ * what proves the font stack rather than a single font is reaching the PDF.
+ */
+function georgianResume(): Resume {
+  const r = createEmptyResume('ka');
+  r.basics = {
+    firstName: 'ნიკოლოზ',
+    lastName: 'ბარათაშვილი',
+    headline: 'ფრონტენდ დეველოპერი',
+  };
+  r.contact = { email: 'nikoloz@example.ge', items: [] };
+  r.summary = 'გამოცდილი დეველოპერი, რომელიც მუშაობს ვებტექნოლოგიებზე.';
+  r.skills = [{ id: 's1', name: 'TypeScript', level: 90 }];
   return r;
 }
 
@@ -188,17 +205,14 @@ function textDraws(pdfSource: string): TextDraw[] {
 
 describe('pdf export', () => {
   beforeAll(() => {
-    // The web build fetches these over HTTP; in Node they load straight off disk.
-    Font.register({
-      family: 'Inter',
-      fonts: [
-        { src: `${FONT_DIR}/Inter-Regular.ttf`, fontWeight: 400 },
-        { src: `${FONT_DIR}/Inter-Medium.ttf`, fontWeight: 500 },
-        { src: `${FONT_DIR}/Inter-SemiBold.ttf`, fontWeight: 600 },
-        { src: `${FONT_DIR}/Inter-Bold.ttf`, fontWeight: 700 },
-      ],
-    });
-    Font.registerHyphenationCallback((word) => [word]);
+    /**
+     * The app's OWN registration, not a copy of it. A second declaration here
+     * drifts from the shipped one — which is exactly how the font stack could
+     * gain a family (Georgian) that the export needs and these tests never load.
+     * Only the directory differs: the web build fetches over HTTP, Node reads
+     * straight off disk.
+     */
+    registerResumeFonts(ReactPdf, FONT_DIR);
   });
 
   for (const { manifest } of listTemplates()) {
@@ -229,6 +243,30 @@ describe('pdf export', () => {
       expect(page.props.style.paddingBottom).toBe(manifest.pageMargin?.bottom);
     }
   });
+
+  /**
+   * The Georgian half of the font stack (`templates/_core/fonts`). Inter carries
+   * no Georgian glyph, and neither does react-pdf's Helvetica fallback, so
+   * without the second family a Georgian CV exports as a page of blanks — the
+   * text is in the file but nothing is drawn.
+   *
+   * Embedding is the evidence: a family only reaches the PDF's font resources if
+   * `fontSubstitution` actually picked it for some code point. Both families must
+   * be there — Georgian for the headings and the name, Inter for the Latin
+   * e-mail and skill next to them.
+   */
+  for (const { manifest } of listTemplates()) {
+    it(`embeds both fonts for a Georgian CV in "${manifest.id}"`, async () => {
+      const source = await renderPdfSource(manifest.id, georgianResume());
+      expect(source, 'the Georgian font was never used').toMatch(
+        /BaseFont \/[A-Z]{6}\+NotoSansGeorgian/,
+      );
+      expect(source, 'Latin text stopped using Inter').toMatch(/BaseFont \/[A-Z]{6}\+Inter/);
+      // react-pdf falls back to Helvetica per glyph when nothing in the stack has
+      // one, and Helvetica has no Georgian either — so its presence means loss.
+      expect(source, 'fell back to Helvetica').not.toContain('Helvetica');
+    }, 30_000);
+  }
 
   it('runs the modern accent sidebar to the bottom edge of the page', async () => {
     const source = await renderPdfSource('modern', sampleResume());

@@ -68,17 +68,15 @@ export function TemplatePicker({
         open={open}
         title={t("templatePicker.title")}
         /**
-         * Picking a card closes the gallery, so on desktop the close cross is
-         * the only way to back out and no footer is needed. Full-screen hides
-         * that cross — and there is no mask left to tap either — so the way out
-         * has to become a real button.
+         * The gallery has no Save — picking a card closes it — so Close IS its
+         * footer, and it is not optional: no app modal draws a close cross any
+         * more (`useModalChrome`), so without this button a dialog that is
+         * full-screen on a phone would have no visible way out at all.
          */
         footer={
-          fullScreen ? (
-            <Button id="template-picker-close" block onClick={close}>
-              {t("common.close")}
-            </Button>
-          ) : null
+          <Button id="template-picker-close" block={fullScreen} onClick={close}>
+            {t("common.close")}
+          </Button>
         }
         onCancel={close}
         {...modalProps}

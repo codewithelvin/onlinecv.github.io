@@ -83,7 +83,9 @@ touch simulation on).
 6. **PDF**: Download produces a real file (this is fix #1 — verify the file
    opens and has content), text is selectable, the credit line is on the page,
    and the modern template's blue sidebar runs the full page height.
-7. **Language**: switch AZ/RU/EN — UI and dictionary-backed values re-label.
+7. **Language**: switch AZ/RU/EN/KA — UI and dictionary-backed values re-label.
+   In Georgian, check the CV preview AND the exported PDF actually draw the
+   script: a missing `NotoSansGeorgian` shows up as blank space, not as tofu.
 8. **Mobile layout**: Edit/Preview tabs, the bottom action bar is visible without
    scrolling, and the 44px row controls are comfortable.
 9. **Reload**: everything persists (IndexedDB), including which sections were

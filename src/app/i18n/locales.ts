@@ -2,9 +2,11 @@ import type { Locale as AntdLocale } from 'antd/es/locale';
 import azAZ from 'antd/locale/az_AZ';
 import ruRU from 'antd/locale/ru_RU';
 import enUS from 'antd/locale/en_US';
+import kaGE from 'antd/locale/ka_GE';
 import 'dayjs/locale/az';
 import 'dayjs/locale/ru';
 import 'dayjs/locale/en';
+import 'dayjs/locale/ka';
 import type { Locale } from '../../types/resume';
 
 /**
@@ -35,6 +37,17 @@ export interface LocaleMeta {
   /** Endonym — how speakers name their own language (CV-language select). */
   nativeName: string;
   dir: TextDirection;
+  /**
+   * Whether an abbreviated month name may be title-cased (`utils/date.ts` does
+   * it so the CV reads the same in every language: "fev" → "Fev").
+   *
+   * False for scripts that have no title case. Georgian is the reason the flag
+   * exists: Mkhedruli DOES have Unicode uppercase forms (Mtavruli, U+1C90–1CBF)
+   * and `toLocaleUpperCase('ka')` will happily produce them, but Georgian
+   * orthography uses Mtavruli only for whole words — "Თებ" is not a capitalized
+   * month, it is a spelling error. Arabic, Farsi and Hebrew have no case at all.
+   */
+  capitalizeMonths: boolean;
   /** Ant Design component-text bundle (`antd/locale/*`). */
   antd: AntdLocale;
 }
@@ -44,9 +57,45 @@ export interface LocaleMeta {
  * market comes first.
  */
 export const LOCALES: Record<Locale, LocaleMeta> = {
-  az: { code: 'az', short: 'AZ', nativeName: 'Azərbaycan', dir: 'ltr', antd: azAZ },
-  ru: { code: 'ru', short: 'RU', nativeName: 'Русский', dir: 'ltr', antd: ruRU },
-  en: { code: 'en', short: 'EN', nativeName: 'English', dir: 'ltr', antd: enUS },
+  az: {
+    code: 'az',
+    short: 'AZ',
+    nativeName: 'Azərbaycan',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    antd: azAZ,
+  },
+  ru: {
+    code: 'ru',
+    short: 'RU',
+    nativeName: 'Русский',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    antd: ruRU,
+  },
+  en: {
+    code: 'en',
+    short: 'EN',
+    nativeName: 'English',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    antd: enUS,
+  },
+  /**
+   * Georgian. The script is the first one Inter cannot draw, so it also needs a
+   * font: `NotoSansGeorgian` is registered for the PDF in `services/pdf.ts` and
+   * as a `unicode-range` `@font-face` for the UI in `index.css`. A locale in a
+   * script neither font covers renders as blanks in the export — see
+   * `docs/adding-a-language.md`.
+   */
+  ka: {
+    code: 'ka',
+    short: 'KA',
+    nativeName: 'ქართული',
+    dir: 'ltr',
+    capitalizeMonths: false,
+    antd: kaGE,
+  },
 };
 
 /** Every supported locale, in switcher order. */

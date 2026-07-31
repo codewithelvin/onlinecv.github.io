@@ -5,6 +5,7 @@ import dayjs from 'dayjs';
 import az from './az.json';
 import ru from './ru.json';
 import en from './en.json';
+import ka from './ka.json';
 import type { Locale } from '../../types/resume';
 import { DEFAULT_LOCALE, LOCALES, SUPPORTED_LOCALES, isLocale, toLocale } from './locales';
 
@@ -22,6 +23,7 @@ void i18n.use(initReactI18next).init({
     az: { translation: az },
     ru: { translation: ru },
     en: { translation: en },
+    ka: { translation: ka },
   },
   lng: DEFAULT_LOCALE,
   fallbackLng: DEFAULT_LOCALE,

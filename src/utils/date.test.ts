@@ -1,13 +1,15 @@
 import { describe, expect, it } from 'vitest';
 import dayjs from 'dayjs';
 import localeData from 'dayjs/plugin/localeData';
-import type { Locale } from '../types/resume';
+import { SUPPORTED_LOCALES } from '../app/i18n/locales';
 import { calcAge, formatFullDate, formatMonthYear, makeDateFormatter } from './date';
 
 dayjs.extend(localeData);
 
 describe('date utils', () => {
-  it.each<Locale>(['az', 'ru', 'en'])('starts the week on Monday in %s', (locale) => {
+  // Driven by the registry, not a copy of it: a newly registered language whose
+  // dayjs data was never imported fails here instead of in production.
+  it.each(SUPPORTED_LOCALES)('starts the week on Monday in %s', (locale) => {
     expect(dayjs().locale(locale).localeData().firstDayOfWeek()).toBe(1);
   });
 
@@ -26,6 +28,9 @@ describe('date utils', () => {
     // Azerbaijani upper-cases `i` as `İ`, so plain toUpperCase would be wrong.
     expect(formatMonthYear('2026-06', 'az')).toBe('İyn 2026');
     expect(formatMonthYear('2026-02', 'ru')).toMatch(/^Февр\.?\s+2026$/);
+    // Georgian (Mkhedruli) is unicameral — there is no capital to apply, so the
+    // month must come through exactly as dayjs has it.
+    expect(formatMonthYear('2026-02', 'ka')).toBe('თებ 2026');
   });
 
   it('returns empty string for empty/invalid input', () => {

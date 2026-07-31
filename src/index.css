@@ -30,6 +30,37 @@
 }
 
 /*
+ * Georgian, which Inter does not cover — the second entry in the CV font stack
+ * (`templates/_core/fonts.ts`) and in `body`'s stack below.
+ *
+ * TTF rather than woff2 in both targets: the Noto project ships no woff2 build,
+ * and @react-pdf needs the static TTF regardless, so this way the preview and
+ * the exported PDF are guaranteed to draw the same face. It costs ~53 KB
+ * uncompressed per weight, which the server's gzip/brotli roughly halves.
+ *
+ * `unicode-range` keeps it honest: a browser downloads the file only when it has
+ * Georgian text to render — Georgian (U+10A0–10FF), the Mtavruli extension
+ * (U+1C90–1CBF) and the Nuskhuri supplement (U+2D00–2D2F) — so Azerbaijani,
+ * Russian and English users never fetch it at all.
+ */
+@font-face {
+  font-family: 'NotoSansGeorgian';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ttf/NotoSansGeorgian-Regular.ttf') format('truetype');
+  unicode-range: U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F;
+}
+@font-face {
+  font-family: 'NotoSansGeorgian';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/ttf/NotoSansGeorgian-Bold.ttf') format('truetype');
+  unicode-range: U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F;
+}
+
+/*
  * `min-height`, deliberately NOT `height: 100%`.
  *
  * Ant Design locks background scrolling while a modal is open by injecting
@@ -49,7 +80,8 @@ body,
 body {
   margin: 0;
   background: #f5f5f5;
-  font-family: Inter, 'Segoe UI', Roboto, 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: Inter, NotoSansGeorgian, 'Segoe UI', Roboto, 'Noto Sans', -apple-system,
+    BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* Pin the text scale on mobile: Gecko and Blink each reserve the right to

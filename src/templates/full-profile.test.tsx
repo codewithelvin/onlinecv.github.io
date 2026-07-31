@@ -5,7 +5,7 @@ import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { beforeAll, describe, expect, it } from 'vitest';
 import * as ReactPdf from '@react-pdf/renderer';
-import { Font, pdf } from '@react-pdf/renderer';
+import { pdf } from '@react-pdf/renderer';
 import Html from 'react-pdf-html';
 import type { Resume, TemplateId } from '../types/resume';
 import { fullResume } from '../test/fixtures/full-resume';
@@ -13,7 +13,7 @@ import { makeDateFormatter } from '../utils/date';
 import { localizeResume, referencedDictionaryGroups } from '../utils/localize-resume';
 import { loadDictionaries } from '../data/dictionaries';
 import { ATTRIBUTION_FONT_SIZE } from '../utils/attribution';
-import { buildResumeDocument } from '../services/pdf';
+import { buildResumeDocument, registerResumeFonts } from '../services/pdf';
 import { i18n } from '../app/i18n';
 import { getTemplate, listTemplates } from './_core/registry';
 import { styles as classicStyles } from './classic/styles';
@@ -115,16 +115,8 @@ function rectangles(source: string): number[][] {
 
 describe('full profile', () => {
   beforeAll(() => {
-    Font.register({
-      family: 'Inter',
-      fonts: [
-        { src: `${FONT_DIR}/Inter-Regular.ttf`, fontWeight: 400 },
-        { src: `${FONT_DIR}/Inter-Medium.ttf`, fontWeight: 500 },
-        { src: `${FONT_DIR}/Inter-SemiBold.ttf`, fontWeight: 600 },
-        { src: `${FONT_DIR}/Inter-Bold.ttf`, fontWeight: 700 },
-      ],
-    });
-    Font.registerHyphenationCallback((word) => [word]);
+    // The app's own registration — see the note in `templates.pdf.test.tsx`.
+    registerResumeFonts(ReactPdf, FONT_DIR);
   });
 
   for (const { manifest } of listTemplates()) {

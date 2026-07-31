@@ -149,15 +149,22 @@ describe('TemplatePicker gallery', () => {
     expect(card(other)).toBeTruthy();
   });
 
-  it('keeps a windowed dialog on desktop and a Close button on mobile', () => {
+  /**
+   * The gallery has no Save, and no app modal draws a close cross any more, so
+   * Close is the only way out — at BOTH sizes, not just full-screen.
+   */
+  it('keeps a windowed dialog on desktop and a Close button at every size', () => {
     openGallery();
     expect(document.getElementById('template-picker-close')).toBeTruthy();
 
     atViewport(1280);
-    openGallery();
+    const { container } = renderWithProviders(<TemplatePicker />);
+    fireEvent.click(container.querySelector('#template-picker') as HTMLElement);
     const dialogs = [...document.querySelectorAll('.ant-modal')];
     const desktop = dialogs[dialogs.length - 1];
     expect(desktop.classList.contains('modal-fullscreen')).toBe(false);
     expect(desktop.classList.contains('template-gallery')).toBe(true);
+    expect(desktop.querySelector('.ant-modal-close')).toBeNull();
+    expect(desktop.querySelector('#template-picker-close')).toBeTruthy();
   });
 });

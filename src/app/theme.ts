@@ -5,8 +5,15 @@ export const BRAND = '#1877F2';
 /** AA-safe darker variant for text-bearing surfaces (spec §10.2 typography note). */
 export const BRAND_ACCESSIBLE = '#1461c7';
 
+/**
+ * UI font stack. `NotoSansGeorgian` sits behind Inter for the same reason it does
+ * in the CV stack (`templates/_core/fonts.ts`): Inter has no Georgian glyphs, so
+ * without it a Georgian UI falls through to whatever the OS happens to have.
+ * Its `@font-face` in `index.css` is `unicode-range`-scoped, so nothing is
+ * downloaded for the Latin/Cyrillic locales.
+ */
 export const FONT_FAMILY =
-  "Inter, 'Segoe UI', Roboto, 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif";
+  "Inter, NotoSansGeorgian, 'Segoe UI', Roboto, 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif";
 
 /**
  * Ant Design `ConfigProvider` theme (spec §10.2). Primary uses the AA-safe

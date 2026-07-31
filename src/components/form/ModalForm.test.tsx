@@ -45,20 +45,34 @@ afterEach(() => {
 });
 
 describe('ModalForm chrome', () => {
-  it('goes full-screen and drops the close cross below lg', () => {
+  it('goes full-screen below lg', () => {
     renderModal();
     expect(modal()?.classList.contains('modal-fullscreen')).toBe(true);
-    // At full screen the × is under the 44px touch target and there is no mask
-    // left around the dialog; the footer buttons are the way out.
-    expect(document.querySelector('.ant-modal-close')).toBeNull();
     expect(document.querySelector('.ant-modal-footer .ant-btn')).toBeTruthy();
   });
 
-  it('keeps a windowed dialog with its close cross on desktop', () => {
+  it('keeps a windowed dialog on desktop', () => {
     atViewport(1280);
     renderModal();
     expect(modal()?.classList.contains('modal-fullscreen')).toBe(false);
-    expect(document.querySelector('.ant-modal-close')).toBeTruthy();
+  });
+
+  /**
+   * No close cross at ANY size: the footer holds the exit, next to the other
+   * decisions. On a phone the × is under the 44px touch target with no mask left
+   * around the dialog; on desktop it is a second unlabelled way out sitting
+   * diagonally opposite Cancel. So the footer button is not optional — a modal
+   * without one would have no visible way out.
+   */
+  it('draws no close cross, and always a footer button', () => {
+    for (const width of [360, 1280]) {
+      atViewport(width);
+      renderModal();
+      const dialogs = [...document.querySelectorAll('.ant-modal')];
+      const dialog = dialogs[dialogs.length - 1];
+      expect(dialog.querySelector('.ant-modal-close'), `× at ${width}px`).toBeNull();
+      expect(dialog.querySelector('.ant-modal-footer .ant-btn'), `no exit at ${width}px`).toBeTruthy();
+    }
   });
 
   /**

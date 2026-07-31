@@ -2,14 +2,14 @@
 
 A browser-only, **ATS-friendly** resume/CV builder. Create a clean CV entirely in your browser and export it as a real, text-based (machine-parseable) PDF — **no account, no backend, and no data ever leaves your device**.
 
-Rebuild of `onlinecv.az` for the Azerbaijani job market. Trilingual UI (Azerbaijani / Russian / English), installable PWA, works offline.
+Rebuild of `onlinecv.az` for the Azerbaijani job market. Multilingual UI (Azerbaijani / Russian / English / Georgian), installable PWA, works offline.
 
 ## Highlights
 
 - **100% client-side.** All resume data lives in **IndexedDB** (one resume per browser). The only network calls are optional analytics.
 - **Live preview + text PDF export.** The in-browser preview is native HTML (fast, live); on **Download**, the same template HTML is converted to a real ATS PDF via `@react-pdf/renderer` + `react-pdf-html` (lazy-loaded — kept out of the initial bundle).
 - **Three templates.** `classic` (ATS single-column, default), `compact` (dense, ATS-safe), `modern` (accent sidebar with avatar). Templates are **plug-ins** auto-discovered from `src/templates/` — add a folder, rebuild, done.
-- **Trilingual.** UI locale (app chrome) and CV locale (exported headings) are independent.
+- **Multilingual.** Azerbaijani, Russian, English and Georgian; the UI locale (app chrome) and the CV locale (exported headings) are independent. Adding a language is additive — see [docs/adding-a-language.md](docs/adding-a-language.md).
 - **Fully responsive PWA.** Phone → 4K, portrait + landscape; installable and offline-capable (incl. offline PDF export).
 
 ## Tech stack

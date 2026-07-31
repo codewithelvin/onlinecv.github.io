@@ -4,7 +4,7 @@ import updateLocale from 'dayjs/plugin/updateLocale';
 import type { Locale } from '../types/resume';
 // Importing the registry also loads every locale's dayjs data (side-effect
 // imports live there), which `updateLocale` below depends on.
-import { SUPPORTED_LOCALES } from '../app/i18n/locales';
+import { LOCALES, SUPPORTED_LOCALES } from '../app/i18n/locales';
 
 dayjs.extend(customParseFormat);
 dayjs.extend(updateLocale);
@@ -21,10 +21,14 @@ const MONTH_PROBE = '2024-01-15';
  * app renders (`MMM YYYY` in the CV, the month picker's input and its panel
  * cells) — so Russian full month names keep their genitive form in any format
  * that also carries a day.
+ *
+ * Locales whose script has no title case are left exactly as dayjs has them —
+ * see `LocaleMeta.capitalizeMonths`.
  */
 function capitalizedMonthsShort(locale: Locale): string[] {
   return Array.from({ length: 12 }, (_, month) => {
     const name = dayjs(MONTH_PROBE).month(month).locale(locale).format('MMM');
+    if (!LOCALES[locale].capitalizeMonths) return name;
     // Locale-aware casing: in Azerbaijani the capital of `i` is `İ`, not `I`.
     return name.charAt(0).toLocaleUpperCase(locale) + name.slice(1);
   });

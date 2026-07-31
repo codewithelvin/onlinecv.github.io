@@ -16,6 +16,7 @@ import {
 import { localizeResume, referencedDictionaryGroups } from '../utils/localize-resume';
 import { loadDictionaries } from '../data/dictionaries';
 import { getTemplate } from '../templates/_core/registry';
+import { CV_FONT_STACK } from '../templates/_core/fonts';
 import { i18n } from '../app/i18n';
 
 /**
@@ -28,6 +29,49 @@ import { i18n } from '../app/i18n';
 let fontsRegistered = false;
 
 const FONT_BASE = `${import.meta.env.BASE_URL}fonts/ttf`;
+
+/**
+ * Register the CV's font stack with `@react-pdf` (idempotent).
+ *
+ * Exported, and taking the engine plus the font directory as arguments, for the
+ * same reason as `buildResumeDocument` below: the PDF tests have to exercise the
+ * app's own registration rather than re-declare their own, which drifts. They
+ * pass a filesystem-relative `fontBase`; the app defaults to the deployed one.
+ *
+ * The stack itself is `templates/_core/fonts` — every family it names must be
+ * registered here, or text in that script exports blank.
+ */
+export function registerResumeFonts(pdfLib: typeof ReactPdf, fontBase: string = FONT_BASE): void {
+  if (fontsRegistered) return;
+  const { Font } = pdfLib;
+
+  Font.register({
+    family: 'Inter',
+    fonts: [
+      { src: `${fontBase}/Inter-Regular.ttf`, fontWeight: 400 },
+      { src: `${fontBase}/Inter-Medium.ttf`, fontWeight: 500 },
+      { src: `${fontBase}/Inter-SemiBold.ttf`, fontWeight: 600 },
+      { src: `${fontBase}/Inter-Bold.ttf`, fontWeight: 700 },
+    ],
+  });
+  /**
+   * Georgian, which Inter has no glyphs for at all. Two weights, not four: this
+   * is a script-only build, so react-pdf picks the nearer of 400/700 for the
+   * 500/600 headings, and the difference is worth less than the two extra files
+   * would cost the offline precache.
+   */
+  Font.register({
+    family: 'NotoSansGeorgian',
+    fonts: [
+      { src: `${fontBase}/NotoSansGeorgian-Regular.ttf`, fontWeight: 400 },
+      { src: `${fontBase}/NotoSansGeorgian-Bold.ttf`, fontWeight: 700 },
+    ],
+  });
+  // Text-based, ATS-parseable output: don't insert soft hyphens.
+  Font.registerHyphenationCallback((word) => [word]);
+
+  fontsRegistered = true;
+}
 
 function sanitizeFilename(resume: Resume): string {
   const name = `${resume.basics.firstName}_${resume.basics.lastName}`
@@ -130,7 +174,13 @@ export function buildResumeDocument(
 
   const styles = StyleSheet.create({
     page: {
-      fontFamily: 'Inter',
+      /**
+       * The ARRAY form, not the comma string: `@react-pdf` reads a string as one
+       * family name and would look for a font literally called
+       * "Inter, NotoSansGeorgian". (Only `react-pdf-html` splits commas, which is
+       * why the templates' CSS may use the string — see `_core/fonts`.)
+       */
+      fontFamily: CV_FONT_STACK,
       fontSize: 10,
       lineHeight: 1.4,
       color: '#1a1a1a',
@@ -210,24 +260,11 @@ export async function exportResumePdf(resume: Resume, templateId: TemplateId): P
     import('react-dom/server'),
   ]);
 
-  const { Font, pdf } = pdfLib;
+  const { pdf } = pdfLib;
   const HtmlComponent = htmlModule.default;
   const { renderToStaticMarkup } = serverModule;
 
-  if (!fontsRegistered) {
-    Font.register({
-      family: 'Inter',
-      fonts: [
-        { src: `${FONT_BASE}/Inter-Regular.ttf`, fontWeight: 400 },
-        { src: `${FONT_BASE}/Inter-Medium.ttf`, fontWeight: 500 },
-        { src: `${FONT_BASE}/Inter-SemiBold.ttf`, fontWeight: 600 },
-        { src: `${FONT_BASE}/Inter-Bold.ttf`, fontWeight: 700 },
-      ],
-    });
-    // Text-based, ATS-parseable output: don't insert soft hyphens.
-    Font.registerHyphenationCallback((word) => [word]);
-    fontsRegistered = true;
-  }
+  registerResumeFonts(pdfLib);
 
   const entry = getTemplate(templateId);
   const Template = (await entry.load()).default;

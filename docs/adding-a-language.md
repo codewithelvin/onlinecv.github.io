@@ -1,49 +1,85 @@
 # Adding a UI/CV language
 
-The app ships Azerbaijani (default), Russian and English. Adding Georgian,
+The app ships Azerbaijani (default), Russian, English and Georgian. Adding
 Turkish, German, Farsi, Arabic … is an **additive** change: no component holds a
 language list, and no existing translation has to be touched.
 
 `src/app/i18n/locales.ts` is the single registry. Because `LOCALES` is a total
 `Record<Locale, LocaleMeta>`, widening the `Locale` union makes the compiler list
 everything that still needs attention — the union widening *is* the checklist.
+What the compiler cannot see is asserted in `src/app/i18n/locales.test.ts`: that
+the bundle is registered, that it has the same keys as the default locale with no
+empty values, and that the dayjs data was imported.
 
 ## Required steps
 
 1. **Widen the union** — `src/types/resume.ts`:
    ```ts
-   export type Locale = 'az' | 'ru' | 'en' | 'ka';
+   export type Locale = 'az' | 'ru' | 'en' | 'ka' | 'tr';
    ```
    `tsc` now fails until step 3.
 
-2. **Add the UI strings** — copy `src/app/i18n/az.json` to `ka.json`, translate,
+2. **Add the UI strings** — copy `src/app/i18n/az.json` to `tr.json`, translate,
    then register it in `src/app/i18n/index.ts` (one `import`, one `resources`
-   entry). Any key left untranslated falls back to `az` at runtime (i18next
-   `fallbackLng`), so a partial file ships fine.
+   entry). Keep the key set identical — a missing key silently falls back to
+   Azerbaijani, i.e. a half-translated UI in a language nobody on the team reads,
+   which is why `locales.test.ts` fails on any gap.
 
 3. **Register the locale** — one entry in `LOCALES`:
    ```ts
-   ka: { code: 'ka', short: 'KA', nativeName: 'ქართული', dir: 'ltr', antd: kaGE },
+   tr: { code: 'tr', short: 'TR', nativeName: 'Türkçe', dir: 'ltr',
+         capitalizeMonths: true, antd: trTR },
    ```
    plus the two side-effect imports at the top of that file: the AntD bundle
-   (`antd/locale/ka_GE`) and the dayjs locale (`dayjs/locale/ka`). If dayjs has no
+   (`antd/locale/tr_TR`) and the dayjs locale (`dayjs/locale/tr`). If dayjs has no
    data for the language, import the closest one and note it — dayjs only supplies
    month/weekday names and the first day of the week here.
 
-   That alone lights up the header switcher, the CV-language select, the AntD
-   component text, date formatting, `<html lang>`/`<dir>`, capitalized month
-   names, and the PDF export's headings.
+   `capitalizeMonths` is `false` for scripts with no title case. Georgian is the
+   cautionary case: Mkhedruli *does* have Unicode uppercase forms (Mtavruli), so
+   `toLocaleUpperCase('ka')` produced "Თებ" — not a capitalized month but a
+   spelling error, since Mtavruli is only ever used for whole words.
+
+   That entry alone lights up the header switcher, the CV-language select, the
+   AntD component text, date formatting, `<html lang>`/`<dir>`, and the PDF
+   export's headings.
+
+4. **A font, if the language brings a new script.** Inter covers Latin
+   (Azerbaijani `ə ğ ı İ ş` included) and Cyrillic and nothing else. A script it
+   has no glyphs for exports as a page of **blanks** — react-pdf falls back to
+   Helvetica per glyph, and Helvetica has no more Georgian or Arabic than Inter
+   does. Georgian is the worked example:
+
+   - a static TTF per weight in `public/fonts/ttf/` (react-pdf's fontkit cannot
+     use variable fonts) plus its licence next to `OFL.txt`;
+   - the family appended to `CV_FONT_STACK` in `src/templates/_core/fonts.ts` and
+     to `FONT_FAMILY` in `src/app/theme.ts`;
+   - `Font.register` for it in `registerResumeFonts` (`src/services/pdf.ts`);
+   - a `unicode-range`-scoped `@font-face` in `src/index.css`, so the other
+     locales never download it — and so the preview draws the same face the PDF
+     embeds.
+
+   Per-glyph fallback then happens in both targets from one declaration: the
+   browser does it natively, and `react-pdf-html` splits a comma-separated
+   `font-family` into the array form `@react-pdf`'s `fontSubstitution` walks.
+   (`@react-pdf` itself does *not* split a string — a real `StyleSheet` must be
+   handed the array.) `templates.pdf.test.tsx` asserts a CV in the new script
+   embeds both families and never falls back to Helvetica.
 
 ## Optional steps
 
-4. **Dictionary labels** — add a `"ka"` column to `src/data/*.json` (skills 273,
+5. **Dictionary labels** — add a `"tr"` column to `src/data/*.json` (skills 273,
    colleges 127, universities 62, nationality 34, languages 17, interests 17).
    Rows without the column fall back to `az` via `dictionaryLabel()`, so this can
    be done gradually, dataset by dataset. Values already saved in a CV re-label
    themselves as soon as the column exists — they are stored as codes, not text.
+   **Georgian has not had this done**: a Georgian user picks skills and
+   nationalities from Azerbaijani labels for now. (Two of the datasets —
+   colleges and universities — are lists of *Azerbaijani institutions*, whose
+   names are arguably better left in Azerbaijani than transliterated.)
 
-5. **Template names** — `TemplateManifest.name` requires only `az`, so existing
-   template folders keep working untouched. Add `ka` when convenient.
+6. **Template names** — `TemplateManifest.name` requires only `az`, so existing
+   template folders keep working untouched. Add the new code when convenient.
 
 ## Right-to-left languages (Farsi, Arabic, Hebrew)
 
@@ -59,8 +95,8 @@ What is **not** solved by that flag:
   folder — which is exactly what the plug-in system is for; core does not change.
 - **PDF text shaping.** `@react-pdf/renderer` has limited bidi/Arabic support:
   glyph joining and mixed LTR/RTL runs (a Latin e-mail inside Arabic text) do not
-  reliably shape correctly, and Inter carries no Arabic or Hebrew glyphs — a font
-  covering the script has to be registered in `services/pdf.ts` as well.
+  reliably shape correctly. The font side is now a solved problem (step 4), the
+  shaping is not.
 
 So an RTL **UI** is a registry entry; an RTL **exported CV** is a separate piece
 of work and should be scoped on its own.
