@@ -17,10 +17,11 @@ export function InterestModal({
 }: ItemModalProps<InterestFormValues>): JSX.Element {
   const { t } = useTranslation();
   const interests = useDictionary('interests');
-  const { control, handleSubmit } = useForm<InterestFormValues>({
+  const { control, handleSubmit, watch } = useForm<InterestFormValues>({
     resolver: yupResolver<InterestFormValues>(interestSchema),
     defaultValues,
   });
+  const name = watch('name');
   const submit = handleSubmit((values) => {
     const entry = interests.findByLabel(values.name);
     onSubmit({ ...values, code: entry?.code });
@@ -32,6 +33,7 @@ export function InterestModal({
         name="name"
         label={t('fields.interestName')}
         options={interests.options}
+        recognized={Boolean(name && interests.findByLabel(name))}
         required
       />
     </ModalForm>

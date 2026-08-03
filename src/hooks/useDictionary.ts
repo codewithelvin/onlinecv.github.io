@@ -5,6 +5,7 @@ import type { Locale } from '../types/resume';
 import { toLocale } from '../app/i18n/locales';
 import { getCachedDictionary, loadDictionary } from '../data/dictionaries';
 import { dictionaryLabel, resolveLabel } from '../utils/dictionary';
+import { searchKey } from '../utils/search';
 import type { Option } from '../components/form/fields';
 
 /**
@@ -48,9 +49,34 @@ export function useDictionary(group: DictionaryGroup): {
     [entries, locale],
   );
 
+  /**
+   * Exact label first, then the same case/diacritic folding the dropdowns search
+   * with (`utils/search`).
+   *
+   * The fold is not a nicety: this is the function that decides whether an entry
+   * gets a dictionary CODE, and the code is what re-labels it when the CV
+   * language changes. Someone who types "azerbaycan" or "Baki Dovlet
+   * Universiteti" from a keyboard without `ə`/`İ` — or who leaves a trailing
+   * space — clearly means the row that the dropdown would have offered them, and
+   * an exact-match-only lookup silently stored that as frozen free text instead.
+   *
+   * Exact wins so that two labels folding to one key (the legacy synonym pairs in
+   * `skills`, which already collided here) still resolve to themselves; among
+   * folded ties the first row in file order wins, so the result is stable.
+   */
   const findByLabel = useMemo(() => {
-    const byLabel = new Map(entries.map((e) => [dictionaryLabel(e, locale), e]));
-    return (label: string) => byLabel.get(label);
+    const exact = new Map<string, DictionaryEntry>();
+    const folded = new Map<string, DictionaryEntry>();
+    for (const entry of entries) {
+      const label = dictionaryLabel(entry, locale);
+      exact.set(label, entry);
+      const key = searchKey(label);
+      if (!folded.has(key)) folded.set(key, entry);
+    }
+    return (label: string) => {
+      const text = label.trim();
+      return exact.get(text) ?? folded.get(searchKey(text));
+    };
   }, [entries, locale]);
 
   const findByCode = useMemo(() => {

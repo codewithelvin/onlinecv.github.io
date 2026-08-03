@@ -73,6 +73,7 @@
     "gender": "الجنس",
     "maritalStatus": "الحالة الاجتماعية",
     "nationality": "الجنسية",
+    "dictionaryMatch": "قيمة معروفة — تُترجم عند تغيير اللغة",
     "dateOfBirth": "تاريخ ميلادك",
     "militaryStatus": "الخدمة العسكرية",
     "driverLicense": "فئة رخصة القيادة",

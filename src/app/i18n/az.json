@@ -73,6 +73,7 @@
     "gender": "Cinsiniz",
     "maritalStatus": "Ailə vəziyyəti",
     "nationality": "Milliyyətiniz",
+    "dictionaryMatch": "Lüğətdə tanınan dəyər — dili dəyişdikdə tərcümə olunur",
     "dateOfBirth": "Doğum tarixiniz",
     "militaryStatus": "Hərbi mükəlləfiyyətiniz",
     "driverLicense": "Sürücülük vəsiqəsinin kateqoriyası",

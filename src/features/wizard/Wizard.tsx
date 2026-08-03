@@ -14,6 +14,7 @@ import {
   VerticalFields,
 } from '../../components/form/fields';
 import { useDictionary } from '../../hooks/useDictionary';
+import { dobPickerStart } from '../../utils/date';
 import {
   type WizardStep1Values,
   type WizardStep2Values,
@@ -176,6 +177,7 @@ export function Wizard(): JSX.Element {
                     control={f1.control}
                     name="dateOfBirth"
                     label={t('fields.dateOfBirth')}
+                    defaultPickerValue={dobPickerStart()}
                     disabledFuture
                     required
                   />
@@ -208,6 +210,9 @@ export function Wizard(): JSX.Element {
                     name="nationality"
                     label={t('fields.nationality')}
                     options={nationality.options}
+                    recognized={Boolean(
+                      f2.watch('nationality') && nationality.findByLabel(f2.watch('nationality')),
+                    )}
                     required
                   />
                 </Col>

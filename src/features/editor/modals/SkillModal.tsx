@@ -17,10 +17,11 @@ export function SkillModal({
 }: ItemModalProps<SkillFormValues>): JSX.Element {
   const { t } = useTranslation();
   const skills = useDictionary('skills');
-  const { control, handleSubmit } = useForm<SkillFormValues>({
+  const { control, handleSubmit, watch } = useForm<SkillFormValues>({
     resolver: yupResolver<SkillFormValues>(skillSchema),
     defaultValues,
   });
+  const name = watch('name');
 
   const submit = handleSubmit((values) => {
     const entry = skills.findByLabel(values.name);
@@ -34,6 +35,7 @@ export function SkillModal({
         name="name"
         label={t('fields.skillName')}
         options={skills.options}
+        recognized={Boolean(name && skills.findByLabel(name))}
         required
       />
       <RHFSlider

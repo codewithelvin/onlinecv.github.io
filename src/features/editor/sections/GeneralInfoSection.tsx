@@ -18,10 +18,18 @@ import type {
   MilitaryStatus,
 } from "../../../types/resume";
 import { useResumeStore } from "../../../state/store";
-import { FULL_DATE, ISO_DATE, calcAge } from "../../../utils/date";
+import {
+  FULL_DATE,
+  ISO_DATE,
+  calcAge,
+  datePlaceholder,
+  dobPickerStart,
+} from "../../../utils/date";
 import { useDictionary } from "../../../hooks/useDictionary";
 import { resolveDictionaryValue } from "../../../utils/dictionary";
-import { Field } from "../../../components/form/fields";
+import { searchKey } from "../../../utils/search";
+import { toLocale } from "../../../app/i18n/locales";
+import { DictionaryMatch, Field } from "../../../components/form/fields";
 import { useScopedId } from "../../../components/form/field-scope";
 import {
   GENDERS,
@@ -37,7 +45,8 @@ const SUMMARY_MAX = 300;
 
 /** General info + the short self-description (`Özünüzü qısa təsvir edin`). */
 export function GeneralInfoSection(): JSX.Element {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const uiLocale = toLocale(i18n.language);
   const gi = useResumeStore((s) => s.resume.generalInfo);
   const update = useResumeStore((s) => s.updateGeneralInfo);
   const summary = useResumeStore((s) => s.resume.summary);
@@ -102,12 +111,39 @@ export function GeneralInfoSection(): JSX.Element {
                 onChange={(v) =>
                   update({ nationality: nationality.findByLabel(v)?.code ?? v })
                 }
-                filterOption={(input, option) =>
-                  (option?.label ?? "")
-                    .toLowerCase()
-                    .includes(input.toLowerCase())
-                }
-              />
+                /* The LAST call site that still filtered with a plain
+                   `toLowerCase()`, and it had the same defect the rest were fixed
+                   for: `İ` lower-cases to `i` plus a combining dot, so typing
+                   "it" could not find "İtalyan". See `utils/search`. */
+                filterOption={(input, option) => {
+                  const needle = searchKey(input);
+                  return (
+                    needle === "" ||
+                    searchKey(String(option?.label ?? "")).includes(needle)
+                  );
+                }}
+              >
+                {/* A recognized nationality is stored as a dictionary CODE and
+                    re-labels itself on a language switch; free text does not.
+                    The tick is the only way to tell the two apart.
+
+                    The a11y props stay on the AutoComplete above: rc-select
+                    clones a customize-input child and OVERWRITES its `id` with
+                    its own (measured — an `id` set here is silently replaced by
+                    `rc_select_*`, which detaches the `<label for>`). It
+                    propagates the id and the aria attributes from the select down
+                    to this input instead, so the child keeps only presentation. */}
+                <Input
+                  suffix={
+                    <DictionaryMatch
+                      recognized={Boolean(
+                        nationality.findByCode(gi.nationality),
+                      )}
+                      title={t("fields.dictionaryMatch")}
+                    />
+                  }
+                />
+              </AutoComplete>
             )}
           </Field>
         </Col>
@@ -118,6 +154,11 @@ export function GeneralInfoSection(): JSX.Element {
                 {...a11y}
                 style={{ width: "100%" }}
                 format={FULL_DATE}
+                /* Advertises that the field is typeable, and opens the panel a
+                   generation back instead of on today — a birthday is never
+                   near the current month. See `utils/date`. */
+                placeholder={datePlaceholder(FULL_DATE, uiLocale)}
+                defaultPickerValue={dobPickerStart()}
                 value={dob && dob.isValid() ? dob : null}
                 disabledDate={(d) => d.isAfter(dayjs())}
                 /* Age is a read-out of the value, not a hint about the field, so

@@ -2,7 +2,16 @@ import { describe, expect, it } from 'vitest';
 import dayjs from 'dayjs';
 import localeData from 'dayjs/plugin/localeData';
 import { SUPPORTED_LOCALES } from '../app/i18n/locales';
-import { calcAge, formatFullDate, formatMonthYear, makeDateFormatter } from './date';
+import {
+  FULL_DATE,
+  MONTH_YEAR,
+  calcAge,
+  datePlaceholder,
+  dobPickerStart,
+  formatFullDate,
+  formatMonthYear,
+  makeDateFormatter,
+} from './date';
 
 dayjs.extend(localeData);
 
@@ -78,5 +87,49 @@ describe('date utils', () => {
 
   it('returns null age for empty dob', () => {
     expect(calcAge('')).toBeNull();
+  });
+
+  /**
+   * The placeholder exists to tell the user the field can be TYPED, so it has to
+   * be something they can literally retype — which makes it the one formatted
+   * string in the app that must NOT follow `LocaleMeta.digits`. The input parses
+   * what `format` describes, and that is Western digits in every locale.
+   */
+  describe('datePlaceholder', () => {
+    it.each(SUPPORTED_LOCALES)('is a re-typeable example in %s', (locale) => {
+      const placeholder = datePlaceholder(FULL_DATE, locale);
+      expect(placeholder).toMatch(/^\d{2}\.\d{2}\.\d{4}$/);
+      // Round-trips: what is shown parses back under the format that is shown.
+      expect(dayjs(placeholder, FULL_DATE, true).isValid()).toBe(true);
+    });
+
+    it('keeps Western digits in Arabic, unlike the rendered CV', () => {
+      expect(datePlaceholder(FULL_DATE, 'ar')).toMatch(/^\d{2}\.\d{2}\.\d{4}$/);
+      // The same instant through the CV formatter localizes — they differ on purpose.
+      expect(formatFullDate('2026-07-31', 'ar')).toBe('٣١.٠٧.٢٠٢٦');
+    });
+
+    it('follows the locale for a month picker’s own format', () => {
+      expect(datePlaceholder(MONTH_YEAR, 'en')).toMatch(/^[A-Z][a-z]{2} \d{4}$/);
+      expect(datePlaceholder(MONTH_YEAR, 'ka')).toMatch(/^\p{Script=Georgian}+ \d{4}$/u);
+    });
+  });
+
+  /**
+   * The date-of-birth panel opens a generation back rather than on today, which is
+   * what turns eight-to-ten decade pagings into one. It is a VIEW, not a value.
+   */
+  describe('dobPickerStart', () => {
+    it('opens roughly a generation back, in the past', () => {
+      const start = dobPickerStart();
+      const yearsBack = dayjs().diff(start, 'year');
+      expect(yearsBack).toBeGreaterThanOrEqual(15);
+      expect(yearsBack).toBeLessThanOrEqual(45);
+      expect(start.isBefore(dayjs())).toBe(true);
+    });
+
+    it('lands on a plausible birth year, past the 16-year age floor (§16)', () => {
+      expect(calcAge(dobPickerStart().format('YYYY-MM-DD'))).toBeGreaterThanOrEqual(16);
+    });
   });
 });

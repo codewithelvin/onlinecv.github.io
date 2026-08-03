@@ -10,11 +10,13 @@ import {
   Select,
   Slider,
 } from 'antd';
-import dayjs from 'dayjs';
+import dayjs, { type Dayjs } from 'dayjs';
+import { FiCheck } from 'react-icons/fi';
 import { searchKey } from '../../utils/search';
 import { type Control, type FieldPath, type FieldValues, useController } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
-import { FULL_DATE, ISO_DATE, ISO_MONTH, MONTH_YEAR } from '../../utils/date';
+import { toLocale } from '../../app/i18n/locales';
+import { FULL_DATE, ISO_DATE, ISO_MONTH, MONTH_YEAR, datePlaceholder } from '../../utils/date';
 import { FieldScopeContext, useScopedId } from './field-scope';
 
 /**
@@ -326,6 +328,47 @@ export function RHFSelect<T extends FieldValues>({
   );
 }
 
+/**
+ * Ant Design's `colorSuccess` (`#52c41a`) is 2.4:1 on white and fails WCAG
+ * 1.4.11's 3:1 floor for a meaningful graphic — the same reason `colorError` is
+ * pinned in `app/theme.ts`. Green-6 clears it at 3.5:1.
+ */
+const DICTIONARY_MATCH_COLOR = '#389e0d';
+
+/**
+ * Marks an AutoComplete whose text resolves to a dictionary entry.
+ *
+ * These fields accept free text by design (§13.1), so the input looks identical
+ * whether or not the value carries a dictionary code — and picking a suggestion
+ * changes nothing on screen, because the text was already what the user typed.
+ * That left the one thing worth knowing invisible: a recognized value stores the
+ * CODE, which is what re-labels it when the CV language changes, while free text
+ * stays frozen in the language it was typed in.
+ *
+ * The box is rendered at a fixed size whether or not the tick is in it, so
+ * recognition appearing mid-typing never nudges the layout.
+ */
+export function DictionaryMatch({
+  recognized,
+  title,
+}: {
+  recognized: boolean;
+  title: string;
+}): JSX.Element {
+  return (
+    <span
+      // Readable state, not just a picture: the tick is the only signal that a
+      // value carries a dictionary code, so QA automation should be able to
+      // assert it without recognizing an icon in a screenshot.
+      data-dictionary-match={recognized}
+      title={recognized ? title : undefined}
+      style={{ display: 'inline-flex', width: 14, color: DICTIONARY_MATCH_COLOR }}
+    >
+      {recognized ? <FiCheck size={14} role="img" aria-label={title} /> : null}
+    </span>
+  );
+}
+
 /** AutoComplete with dictionary suggestions and free-text fallback (§13.1). */
 export function RHFAutoComplete<T extends FieldValues>({
   control,
@@ -334,9 +377,16 @@ export function RHFAutoComplete<T extends FieldValues>({
   required,
   options,
   placeholder,
-}: BaseProps<T> & { options: Option[]; placeholder?: string }): JSX.Element {
+  recognized = false,
+}: BaseProps<T> & {
+  options: Option[];
+  placeholder?: string;
+  /** Does the current text resolve to a dictionary entry? See `DictionaryMatch`. */
+  recognized?: boolean;
+}): JSX.Element {
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
+  const { t } = useTranslation();
   return (
     <Field label={label} name={name} required={required} error={message}>
       {(a11y) => (
@@ -346,7 +396,6 @@ export function RHFAutoComplete<T extends FieldValues>({
           onChange={(v) => field.onChange(v)}
           onBlur={field.onBlur}
           options={options}
-          placeholder={placeholder}
           /**
            * Case- AND diacritic-insensitive. A plain `toLowerCase()` could not
            * find "İsgəndəriyyə" from "is" — the dotted capital lower-cases to
@@ -357,7 +406,21 @@ export function RHFAutoComplete<T extends FieldValues>({
             const needle = searchKey(input);
             return needle === '' || searchKey(String(option?.label ?? '')).includes(needle);
           }}
-        />
+        >
+          {/* A child input is the only way to reach a suffix: AutoComplete has
+              none of its own. The a11y props deliberately stay on the
+              AutoComplete rather than moving here — rc-select clones a
+              customize-input child and OVERWRITES its `id` with its own
+              (measured: an `id` set on this element is silently replaced by
+              `rc_select_*`, which detaches the `<label for>` and broke every
+              `#section-field` QA id). It propagates `id`, `aria-describedby` and
+              `aria-invalid` from the select down to this input, so the child is
+              left holding only presentation. */}
+          <Input
+            placeholder={placeholder}
+            suffix={<DictionaryMatch recognized={recognized} title={t('fields.dictionaryMatch')} />}
+          />
+        </AutoComplete>
       )}
     </Field>
   );
@@ -377,13 +440,21 @@ export function RHFDate<T extends FieldValues>({
   picker,
   disabledFuture,
   disabled,
+  defaultPickerValue,
 }: BaseProps<T> & {
   picker?: 'month';
   disabledFuture?: boolean;
   disabled?: boolean;
+  /**
+   * Which month the panel OPENS on while the field is empty — pass
+   * `dobPickerStart()` for a date of birth. Sets no value; omit it and the panel
+   * opens on today, which is right for everything near the present.
+   */
+  defaultPickerValue?: Dayjs;
 }): JSX.Element {
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
+  const { i18n } = useTranslation();
   const isMonth = picker === 'month';
   const storeFormat = isMonth ? ISO_MONTH : ISO_DATE;
   const displayFormat = isMonth ? MONTH_YEAR : FULL_DATE;
@@ -396,8 +467,12 @@ export function RHFDate<T extends FieldValues>({
           style={{ width: '100%' }}
           picker={picker}
           format={displayFormat}
+          // Advertises that the field is typeable, which beats paging the panel
+          // — see `datePlaceholder`.
+          placeholder={datePlaceholder(displayFormat, toLocale(i18n.language))}
           disabled={disabled}
           value={value && value.isValid() ? value : null}
+          defaultPickerValue={defaultPickerValue}
           onChange={(d) => field.onChange(d ? d.format(storeFormat) : '')}
           onBlur={field.onBlur}
           disabledDate={disabledFuture ? (d) => d.isAfter(dayjs()) : undefined}

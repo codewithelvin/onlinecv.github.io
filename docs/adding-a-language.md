@@ -133,6 +133,29 @@ icons mirror. Two things had to be done by hand around it:
   this; grep for `right:`/`paddingLeft`/`textAlign: 'right'` when adding an RTL
   locale.
 
+### The calendar's arrows mirror on purpose — do not "fix" them
+
+QA has reported this as a bug, and it is not one. In an RTL locale the date
+picker's header arrows are reversed relative to a Latin one: **"go back in time"
+points RIGHT and sits on the right**, because in a right-to-left reading order
+"back" *is* rightwards. Ant Design does this deliberately —
+`antd/lib/date-picker/style/panel.js` has a `&-rtl` block that re-rotates
+`prev-icon`/`super-prev-icon` to `45deg` and `next`/`super-next` to `-135deg`,
+on top of the flex row reversing the buttons' positions. So both the glyph and
+its placement flip, which is the correct convention.
+
+Someone testing with a left-to-right mental model will read "the left arrow
+moved me forward" as reversed logic. It is not. The arrows also already carry
+accessible names (rc-picker sets `aria-label` from the AntD locale's
+`previousYear`/`nextMonth`/…), so the direction is machine-readable without
+interpreting the icon — a screenshot-driven tester that clicks by coordinate
+simply never sees them.
+
+The real cost here was never the direction, it was the number of clicks. Both
+fixes for that are locale-agnostic and live in `utils/date`: `datePlaceholder`
+advertises the format so the date can be typed instead of paged, and
+`dobPickerStart` opens a date-of-birth panel a generation back.
+
 ### PDF shaping: why `utils/arabic` exists
 
 `@react-pdf/textkit` runs its bidi pass FIRST, reordering the line into visual

@@ -1,4 +1,4 @@
-import dayjs from 'dayjs';
+import dayjs, { type Dayjs } from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import updateLocale from 'dayjs/plugin/updateLocale';
 import type { Locale } from '../types/resume';
@@ -112,6 +112,41 @@ export function formatFullDate(iso: string, locale: Locale): string {
 /** Format an ISO month (`YYYY-MM`) as a localized `MMM YYYY`. */
 export function formatMonthYear(iso: string, locale: Locale): string {
   return makeDateFormatter(locale)(iso, MONTH_YEAR);
+}
+
+/**
+ * An example date in a picker's own display format, for use as its placeholder.
+ *
+ * Ant Design's default placeholder ("Select date") says nothing about the format,
+ * so the field reads as click-only — and clicking your way back to a birth year
+ * costs eight to ten decade/year pagings. Showing the SHAPE of the value
+ * advertises that the field can simply be TYPED, which is the fast path for any
+ * date far from today.
+ *
+ * Digits stay Western even in Arabic: the placeholder has to be something the
+ * user can literally retype, and the input parses what `format` describes, which
+ * `KEEP_DIGITS` above keeps in Western numerals. `localizeDigits` is for the
+ * finished CV, not for form input.
+ */
+export function datePlaceholder(fmt: string, locale: Locale): string {
+  return dayjs().locale(locale).format(fmt);
+}
+
+/**
+ * How far back a date-of-birth panel opens — roughly a generation, so the decade
+ * view lands within one page of any plausible birth year.
+ */
+const DOB_PICKER_YEARS_BACK = 25;
+
+/**
+ * Where an empty date-of-birth picker should OPEN.
+ *
+ * Ant Design starts at the current month, which is never the answer for a
+ * birthday. This is a starting VIEW only — it sets no value and preselects no
+ * day, so an untouched field stays empty and its `required` rule still bites.
+ */
+export function dobPickerStart(): Dayjs {
+  return dayjs().subtract(DOB_PICKER_YEARS_BACK, 'year');
 }
 
 /** Derive age from an ISO date of birth. Never stored (§13). */

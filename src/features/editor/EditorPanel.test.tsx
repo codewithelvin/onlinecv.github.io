@@ -1,5 +1,7 @@
 import { beforeEach, describe, expect, it } from 'vitest';
-import { screen } from '@testing-library/react';
+import { screen, waitFor } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import dayjs from 'dayjs';
 import { renderWithProviders } from '../../test/renderWithProviders';
 import { useResumeStore } from '../../state/store';
 import { createEmptyResume } from '../../utils/empty-resume';
@@ -194,6 +196,39 @@ describe('EditorPanel', () => {
         item?.querySelector('.ant-form-item-extra'),
         'age is still rendered under the field',
       ).toBeFalsy();
+    });
+  });
+
+  /**
+   * QA reported that reaching a birth year cost eight to ten decade/year pagings.
+   * Two things fix that, and both are properties of the rendered field rather than
+   * of a helper: the format is advertised, so the date can simply be typed, and
+   * the panel opens a generation back instead of on today.
+   */
+  describe('date of birth entry', () => {
+    it('advertises the typeable format as its placeholder', () => {
+      const { container } = renderWithProviders(<EditorPanel />);
+      const input = container.querySelector<HTMLInputElement>('#generalInfo-dateOfBirth');
+      // Not antd's own "Select date", which reads as click-only.
+      expect(input?.placeholder).toMatch(/^\d{2}\.\d{2}\.\d{4}$/);
+    });
+
+    it('opens its panel in the past, not on the current year', async () => {
+      const user = userEvent.setup();
+      const { container } = renderWithProviders(<EditorPanel />);
+      await user.click(container.querySelector('#generalInfo-dateOfBirth') as Element);
+
+      const header = await waitFor(() => {
+        const el = document.querySelector('.ant-picker-header-view');
+        expect(el).toBeTruthy();
+        return el;
+      });
+      const shownYear = Number((header?.textContent ?? '').match(/\d{4}/)?.[0]);
+      expect(shownYear).toBeLessThan(dayjs().year());
+      // Opening a VIEW must not fill the field — an untouched date stays empty.
+      expect(container.querySelector<HTMLInputElement>('#generalInfo-dateOfBirth')?.value).toBe(
+        '',
+      );
     });
   });
 

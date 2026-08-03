@@ -73,6 +73,7 @@
     "gender": "Your gender",
     "maritalStatus": "Marital status",
     "nationality": "Your nationality",
+    "dictionaryMatch": "Recognized value — it translates when you switch languages",
     "dateOfBirth": "Your date of birth",
     "militaryStatus": "Military service",
     "driverLicense": "Driver's license category",

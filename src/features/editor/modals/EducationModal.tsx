@@ -33,13 +33,26 @@ export function EducationModal({
 
   const type = watch('type');
   const current = watch('current');
+  const institution = watch('institution');
   const institutionOptions =
     type === 'college' ? colleges.options : type === 'university' ? universities.options : [];
+  /**
+   * `school` has no dictionary, so nothing there can be recognized — and it must
+   * not fall through to the university list either: the previous version handed a
+   * school name to `universities.findByLabel`, so a school that happened to share
+   * a university's name got that university's CODE and would then re-label itself
+   * into it on a language switch. One lookup now drives both the tick and submit,
+   * so the badge cannot claim something the saved record does not do.
+   */
+  const findInstitution =
+    type === 'college'
+      ? colleges.findByLabel
+      : type === 'university'
+        ? universities.findByLabel
+        : null;
 
   const submit = handleSubmit((values) => {
-    const finder = values.type === 'college' ? colleges.findByLabel : universities.findByLabel;
-    const entry = finder(values.institution);
-    onSubmit({ ...values, code: entry?.code });
+    onSubmit({ ...values, code: findInstitution?.(values.institution)?.code });
   });
 
   return (
@@ -56,6 +69,7 @@ export function EducationModal({
         name="institution"
         label={t('fields.institution')}
         options={institutionOptions}
+        recognized={Boolean(institution && findInstitution?.(institution))}
         required
       />
       {type === 'university' ? (

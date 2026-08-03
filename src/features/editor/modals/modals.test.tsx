@@ -97,6 +97,119 @@ describe('modal portal target', () => {
   });
 });
 
+/**
+ * A dictionary AutoComplete accepts free text by design (§13.1), so nothing on
+ * screen used to distinguish a value that carries a dictionary CODE — and so
+ * re-labels itself when the CV language changes — from one frozen as typed. QA
+ * reported exactly that as "unclear whether the suggestion needed to be clicked
+ * to commit". These assert the two halves of the answer: the state is visible,
+ * and near-miss typing resolves instead of silently falling through to free text.
+ */
+describe('dictionary recognition', () => {
+  const base = { open: true, title: 'Bacarıqlar', onCancel: vi.fn() };
+
+  /** The indicator's state, waiting for the lazily-imported dictionary to land. */
+  async function matchState(): Promise<string | null> {
+    const flag = () => document.querySelector('[data-dictionary-match]');
+    await waitFor(() => expect(flag()).toBeTruthy());
+    return flag()?.getAttribute('data-dictionary-match') ?? null;
+  }
+
+  it('marks a value that resolves to a dictionary entry', async () => {
+    renderWithProviders(
+      <SkillModal
+        {...base}
+        defaultValues={{ name: 'TypeScript', level: 70 }}
+        onSubmit={vi.fn()}
+      />,
+    );
+    await waitFor(async () => expect(await matchState()).toBe('true'));
+    // The tick is announced, not decorative — it is the field's only state read-out.
+    expect(document.querySelector('[data-dictionary-match] svg')).toBeTruthy();
+  });
+
+  it('leaves free text unmarked, without rejecting it', async () => {
+    renderWithProviders(
+      <SkillModal
+        {...base}
+        defaultValues={{ name: 'Fərdi icad etdiyim bacarıq', level: 40 }}
+        onSubmit={vi.fn()}
+      />,
+    );
+    expect(await matchState()).toBe('false');
+    expect(document.querySelector('[data-dictionary-match] svg')).toBeNull();
+    // Free text is a supported value, so the input keeps it verbatim. (Queried by
+    // class, not by id: the scoped `#skill-name` id comes from the `FieldScope` in
+    // `EditorPanel`, and this test renders the modal on its own.)
+    expect(
+      document.querySelector<HTMLInputElement>('.ant-select-auto-complete input')?.value,
+    ).toBe('Fərdi icad etdiyim bacarıq');
+  });
+
+  /**
+   * The fold is what makes the code attach for someone typing from a keyboard
+   * without `ə`/`ü`/`İ`. Before it, `findByLabel` was exact-match only and this
+   * stored "suruculuk verdisleri" as free text — losing the translation the
+   * dictionary exists to provide.
+   */
+  it('attaches the code when the label was typed without its diacritics', async () => {
+    const onSubmit = vi.fn();
+    renderWithProviders(
+      <SkillModal
+        {...base}
+        defaultValues={{ name: 'suruculuk verdisleri', level: 60 }}
+        onSubmit={onSubmit}
+      />,
+    );
+    expect(await matchState()).toBe('true');
+
+    await userEvent.setup().click(screen.getByText('Yadda saxla'));
+    await waitFor(() => expect(onSubmit).toHaveBeenCalled());
+    expect(onSubmit.mock.calls[0]?.[0]).toMatchObject({ code: 'driving' });
+  });
+
+  /**
+   * The suffix required moving to a customize-input child, which is a different
+   * rc-select code path (`ant-select-customize-input`) — so the interaction the
+   * suffix exists to clarify has to be re-proven end to end: typing opens the
+   * suggestions, clicking one commits it, and the tick then confirms the commit.
+   */
+  it('still commits a clicked suggestion, and marks it', async () => {
+    const user = userEvent.setup();
+    renderWithProviders(
+      <SkillModal {...base} defaultValues={{ name: '', level: 50 }} onSubmit={vi.fn()} />,
+    );
+    expect(await matchState()).toBe('false');
+
+    const input = document.querySelector('.ant-select-auto-complete input') as HTMLInputElement;
+    await user.type(input, 'TypeScr');
+    const option = await waitFor(() => {
+      const el = document.querySelector('.ant-select-item-option-content');
+      expect(el?.textContent).toBe('TypeScript');
+      return el;
+    });
+    await user.click(option as Element);
+
+    expect(input.value).toBe('TypeScript');
+    await waitFor(async () => expect(await matchState()).toBe('true'));
+  });
+
+  it('still prefers the exact label over a folded near-match', async () => {
+    const onSubmit = vi.fn();
+    renderWithProviders(
+      <SkillModal
+        {...base}
+        defaultValues={{ name: 'Sürücülük vərdişləri', level: 60 }}
+        onSubmit={onSubmit}
+      />,
+    );
+    expect(await matchState()).toBe('true');
+    await userEvent.setup().click(screen.getByText('Yadda saxla'));
+    await waitFor(() => expect(onSubmit).toHaveBeenCalled());
+    expect(onSubmit.mock.calls[0]?.[0]).toMatchObject({ code: 'driving' });
+  });
+});
+
 describe('SkillModal', () => {
   it('uses a slider for the 1–100 knowledge percentage', () => {
     renderWithProviders(
