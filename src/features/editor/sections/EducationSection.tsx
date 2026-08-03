@@ -22,33 +22,49 @@ const EMPTY: EducationFormValues = {
   current: false,
   comment: '',
   code: undefined,
+  facultyCode: undefined,
+  specializationCode: undefined,
 };
 
-function toValues(item: EducationItem, institution: string): EducationFormValues {
+/**
+ * Institution, faculty and speciality arrive already resolved into the UI
+ * language, so an entry picked from a dictionary re-opens in the language the
+ * user is reading rather than the one it was first typed in.
+ */
+function toValues(
+  item: EducationItem,
+  labels: { institution: string; faculty: string; specialization: string },
+): EducationFormValues {
   return {
     type: item.type,
-    institution,
-    faculty: item.faculty ?? '',
-    specialization: item.specialization ?? '',
+    institution: labels.institution,
+    faculty: labels.faculty,
+    specialization: labels.specialization,
     degree: item.degree ?? undefined,
     startDate: item.startDate,
     endDate: item.endDate ?? '',
     current: item.current,
     comment: item.comment ?? '',
     code: item.code,
+    facultyCode: item.facultyCode,
+    specializationCode: item.specializationCode,
   };
 }
 
 function toItem(v: EducationFormValues, id: string): EducationItem {
   const type = v.type as EducationType;
+  const hasFaculty = type === 'university';
+  const hasSpecialization = type === 'university' || type === 'college';
   return {
     id,
     type,
     code: v.code || undefined,
     institution: v.institution,
-    faculty: type === 'university' ? v.faculty?.trim() || undefined : undefined,
-    specialization:
-      type === 'university' || type === 'college' ? v.specialization?.trim() || undefined : undefined,
+    faculty: hasFaculty ? v.faculty?.trim() || undefined : undefined,
+    /** A code without its field would re-label a value that is no longer stored. */
+    facultyCode: hasFaculty ? v.facultyCode || undefined : undefined,
+    specialization: hasSpecialization ? v.specialization?.trim() || undefined : undefined,
+    specializationCode: hasSpecialization ? v.specializationCode || undefined : undefined,
     degree: type === 'university' ? (v.degree as DegreeLevel | undefined) || undefined : undefined,
     startDate: v.startDate,
     endDate: v.current ? undefined : v.endDate || undefined,
@@ -63,6 +79,8 @@ export function EducationSection(): JSX.Element {
   const fmt = makeDateFormatter(uiLocale);
   const universities = useDictionary('universities');
   const colleges = useDictionary('colleges');
+  const faculties = useDictionary('faculties');
+  const specialities = useDictionary('specialities');
   const ed = useSectionEditor<EducationItem>('education');
 
   /** Listed institutions re-label with the UI language; typed ones (and schools,
@@ -93,7 +111,16 @@ export function EducationSection(): JSX.Element {
           open
           title={ed.isAdding ? t('sections.education') : t('common.edit')}
           defaultValues={
-            ed.editingItem ? toValues(ed.editingItem, institution(ed.editingItem)) : EMPTY
+            ed.editingItem
+              ? toValues(ed.editingItem, {
+                  institution: institution(ed.editingItem),
+                  faculty: faculties.resolve(ed.editingItem.facultyCode, ed.editingItem.faculty ?? ''),
+                  specialization: specialities.resolve(
+                    ed.editingItem.specializationCode,
+                    ed.editingItem.specialization ?? '',
+                  ),
+                })
+              : EMPTY
           }
           onSubmit={(v) => ed.save(toItem(v, ed.editingItem?.id ?? createId()))}
           onCancel={ed.close}

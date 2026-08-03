@@ -31,9 +31,15 @@ export function referencedDictionaryGroups(resume: Resume): DictionaryGroup[] {
   if (resume.skills.some((s) => s.code)) groups.add('skills');
   if (resume.languages.some((l) => l.code)) groups.add('languages');
   if ((resume.interests ?? []).some((i) => i.code)) groups.add('interests');
+  if (resume.experience.some((e) => e.positionCode)) groups.add('positions');
+  if (resume.basics.locationCode || resume.experience.some((e) => e.locationCode)) {
+    groups.add('cities');
+  }
   for (const item of resume.education) {
     const group = item.code ? institutionGroup(item.type) : undefined;
     if (group) groups.add(group);
+    if (item.facultyCode) groups.add('faculties');
+    if (item.specializationCode) groups.add('specialities');
   }
   return [...groups];
 }
@@ -76,13 +82,51 @@ export function localizeResume(resume: Resume, locale: Locale, dicts: Dictionary
     relabel(l, 'name', resolveLabel(entries('languages'), l.code, l.name, locale)),
   );
 
-  const education = mapStable(resume.education, (e) =>
-    relabel(
+  const basics = relabel(
+    resume.basics,
+    'location',
+    resolveLabel(entries('cities'), resume.basics.locationCode, resume.basics.location ?? '', locale) ||
+      undefined,
+  );
+
+  const experience = mapStable(resume.experience, (e) => {
+    const withPosition = relabel(
+      e,
+      'position',
+      resolveLabel(entries('positions'), e.positionCode, e.position, locale),
+    );
+    return relabel(
+      withPosition,
+      'location',
+      resolveLabel(entries('cities'), e.locationCode, e.location ?? '', locale) || undefined,
+    );
+  });
+
+  /**
+   * An education item carries THREE independently dictionary-backed labels, each
+   * with its own code. `relabel` returns the same object when a value is
+   * unchanged, so chaining keeps the identity guarantee `mapStable` relies on.
+   * The `?? ''` only feeds the fallback: an absent field has no code, so it comes
+   * straight back out and stays absent.
+   */
+  const education = mapStable(resume.education, (e) => {
+    const withInstitution = relabel(
       e,
       'institution',
       resolveLabel(entries(institutionGroup(e.type)), e.code, e.institution, locale),
-    ),
-  );
+    );
+    const withFaculty = relabel(
+      withInstitution,
+      'faculty',
+      resolveLabel(entries('faculties'), e.facultyCode, e.faculty ?? '', locale) || undefined,
+    );
+    return relabel(
+      withFaculty,
+      'specialization',
+      resolveLabel(entries('specialities'), e.specializationCode, e.specialization ?? '', locale) ||
+        undefined,
+    );
+  });
 
   const interests = resume.interests
     ? mapStable(resume.interests, (i) =>
@@ -91,11 +135,15 @@ export function localizeResume(resume: Resume, locale: Locale, dicts: Dictionary
     : resume.interests;
 
   const unchanged =
+    basics === resume.basics &&
     generalInfo === resume.generalInfo &&
     skills === resume.skills &&
     languages === resume.languages &&
+    experience === resume.experience &&
     education === resume.education &&
     interests === resume.interests;
 
-  return unchanged ? resume : { ...resume, generalInfo, skills, languages, education, interests };
+  return unchanged
+    ? resume
+    : { ...resume, basics, generalInfo, skills, languages, experience, education, interests };
 }

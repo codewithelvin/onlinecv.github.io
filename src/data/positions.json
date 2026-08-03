@@ -1,0 +1,2189 @@
+[
+  {
+    "code": "director",
+    "group": "positions",
+    "az": "Direktor",
+    "en": "Director",
+    "ru": "Директор",
+    "ka": "დირექტორი",
+    "ar": "مدير"
+  },
+  {
+    "code": "general_director",
+    "group": "positions",
+    "az": "Baş direktor",
+    "en": "General director",
+    "ru": "Генеральный директор",
+    "ka": "გენერალური დირექტორი",
+    "ar": "مدير عام"
+  },
+  {
+    "code": "executive_director",
+    "group": "positions",
+    "az": "İcraçı direktor",
+    "en": "Executive director",
+    "ru": "Исполнительный директор",
+    "ka": "აღმასრულებელი დირექტორი",
+    "ar": "مدير تنفيذي"
+  },
+  {
+    "code": "deputy_director",
+    "group": "positions",
+    "az": "Direktor müavini",
+    "en": "Deputy director",
+    "ru": "Заместитель директора",
+    "ka": "დირექტორის მოადგილე",
+    "ar": "نائب المدير"
+  },
+  {
+    "code": "department_head",
+    "group": "positions",
+    "az": "Şöbə müdiri",
+    "en": "Head of department",
+    "ru": "Начальник отдела",
+    "ka": "განყოფილების უფროსი",
+    "ar": "رئيس قسم"
+  },
+  {
+    "code": "manager",
+    "group": "positions",
+    "az": "Menecer",
+    "en": "Manager",
+    "ru": "Менеджер",
+    "ka": "მენეჯერი",
+    "ar": "مسؤول"
+  },
+  {
+    "code": "project_manager",
+    "group": "positions",
+    "az": "Layihə meneceri",
+    "en": "Project manager",
+    "ru": "Менеджер проектов",
+    "ka": "პროექტის მენეჯერი",
+    "ar": "مدير مشروع"
+  },
+  {
+    "code": "team_lead",
+    "group": "positions",
+    "az": "Komanda rəhbəri",
+    "en": "Team lead",
+    "ru": "Руководитель группы",
+    "ka": "გუნდის ლიდერი",
+    "ar": "قائد فريق"
+  },
+  {
+    "code": "shift_supervisor",
+    "group": "positions",
+    "az": "Növbə rəhbəri",
+    "en": "Shift supervisor",
+    "ru": "Начальник смены",
+    "ka": "ცვლის უფროსი",
+    "ar": "مشرف وردية"
+  },
+  {
+    "code": "branch_manager",
+    "group": "positions",
+    "az": "Filial müdiri",
+    "en": "Branch manager",
+    "ru": "Управляющий филиалом",
+    "ka": "ფილიალის მმართველი",
+    "ar": "مدير فرع"
+  },
+  {
+    "code": "operations_manager",
+    "group": "positions",
+    "az": "Əməliyyat meneceri",
+    "en": "Operations manager",
+    "ru": "Операционный менеджер",
+    "ka": "ოპერაციების მენეჯერი",
+    "ar": "مدير العمليات"
+  },
+  {
+    "code": "office_manager",
+    "group": "positions",
+    "az": "Ofis meneceri",
+    "en": "Office manager",
+    "ru": "Офис-менеджер",
+    "ka": "ოფის-მენეჯერი",
+    "ar": "مدير مكتب"
+  },
+  {
+    "code": "administrator",
+    "group": "positions",
+    "az": "Administrator",
+    "en": "Administrator",
+    "ru": "Администратор",
+    "ka": "ადმინისტრატორი",
+    "ar": "إداري"
+  },
+  {
+    "code": "supervisor",
+    "group": "positions",
+    "az": "Nəzarətçi",
+    "en": "Supervisor",
+    "ru": "Супервайзер",
+    "ka": "ზედამხედველი",
+    "ar": "مشرف"
+  },
+  {
+    "code": "coordinator",
+    "group": "positions",
+    "az": "Koordinator",
+    "en": "Coordinator",
+    "ru": "Координатор",
+    "ka": "კოორდინატორი",
+    "ar": "منسق"
+  },
+  {
+    "code": "specialist",
+    "group": "positions",
+    "az": "Mütəxəssis",
+    "en": "Specialist",
+    "ru": "Специалист",
+    "ka": "სპეციალისტი",
+    "ar": "أخصائي"
+  },
+  {
+    "code": "senior_specialist",
+    "group": "positions",
+    "az": "Baş mütəxəssis",
+    "en": "Senior specialist",
+    "ru": "Главный специалист",
+    "ka": "მთავარი სპეციალისტი",
+    "ar": "أخصائي أول"
+  },
+  {
+    "code": "leading_specialist",
+    "group": "positions",
+    "az": "Aparıcı mütəxəssis",
+    "en": "Leading specialist",
+    "ru": "Ведущий специалист",
+    "ka": "წამყვანი სპეციალისტი",
+    "ar": "أخصائي رئيسي"
+  },
+  {
+    "code": "assistant",
+    "group": "positions",
+    "az": "Köməkçi",
+    "en": "Assistant",
+    "ru": "Помощник",
+    "ka": "ასისტენტი",
+    "ar": "مساعد"
+  },
+  {
+    "code": "intern",
+    "group": "positions",
+    "az": "Stajçı",
+    "en": "Intern",
+    "ru": "Стажёр",
+    "ka": "სტაჟიორი",
+    "ar": "متدرب"
+  },
+  {
+    "code": "secretary",
+    "group": "positions",
+    "az": "Katibə",
+    "en": "Secretary",
+    "ru": "Секретарь",
+    "ka": "მდივანი",
+    "ar": "سكرتير"
+  },
+  {
+    "code": "receptionist",
+    "group": "positions",
+    "az": "Resepşn işçisi",
+    "en": "Receptionist",
+    "ru": "Администратор ресепшн",
+    "ka": "რეცეფციონისტი",
+    "ar": "موظف استقبال"
+  },
+  {
+    "code": "records_clerk",
+    "group": "positions",
+    "az": "Kargüzar",
+    "en": "Records clerk",
+    "ru": "Делопроизводитель",
+    "ka": "საქმისმწარმოებელი",
+    "ar": "كاتب سجلات"
+  },
+  {
+    "code": "document_controller",
+    "group": "positions",
+    "az": "Sənəd dövriyyəsi mütəxəssisi",
+    "en": "Document controller",
+    "ru": "Специалист по документообороту",
+    "ka": "დოკუმენტბრუნვის სპეციალისტი",
+    "ar": "مسؤول ضبط الوثائق"
+  },
+  {
+    "code": "archivist",
+    "group": "positions",
+    "az": "Arxivçi",
+    "en": "Archivist",
+    "ru": "Архивариус",
+    "ka": "არქივარიუსი",
+    "ar": "أمين أرشيف"
+  },
+  {
+    "code": "business_analyst",
+    "group": "positions",
+    "az": "Biznes analitik",
+    "en": "Business analyst",
+    "ru": "Бизнес-аналитик",
+    "ka": "ბიზნეს ანალიტიკოსი",
+    "ar": "محلل أعمال"
+  },
+  {
+    "code": "business_development_manager",
+    "group": "positions",
+    "az": "Biznesin inkişafı meneceri",
+    "en": "Business development manager",
+    "ru": "Менеджер по развитию бизнеса",
+    "ka": "ბიზნესის განვითარების მენეჯერი",
+    "ar": "مدير تطوير الأعمال"
+  },
+  {
+    "code": "consultant",
+    "group": "positions",
+    "az": "Məsləhətçi",
+    "en": "Consultant",
+    "ru": "Консультант",
+    "ka": "კონსულტანტი",
+    "ar": "مستشار"
+  },
+  {
+    "code": "entrepreneur",
+    "group": "positions",
+    "az": "Sahibkar",
+    "en": "Entrepreneur",
+    "ru": "Предприниматель",
+    "ka": "მეწარმე",
+    "ar": "صاحب عمل"
+  },
+  {
+    "code": "founder",
+    "group": "positions",
+    "az": "Təsisçi",
+    "en": "Founder",
+    "ru": "Основатель",
+    "ka": "დამფუძნებელი",
+    "ar": "مؤسس"
+  },
+  {
+    "code": "freelancer",
+    "group": "positions",
+    "az": "Frilanser",
+    "en": "Freelancer",
+    "ru": "Фрилансер",
+    "ka": "ფრილანსერი",
+    "ar": "عامل مستقل"
+  },
+  {
+    "code": "volunteer",
+    "group": "positions",
+    "az": "Könüllü",
+    "en": "Volunteer",
+    "ru": "Волонтёр",
+    "ka": "მოხალისე",
+    "ar": "متطوع"
+  },
+  {
+    "code": "accountant",
+    "group": "positions",
+    "az": "Mühasib",
+    "en": "Accountant",
+    "ru": "Бухгалтер",
+    "ka": "ბუღალტერი",
+    "ar": "محاسب"
+  },
+  {
+    "code": "chief_accountant",
+    "group": "positions",
+    "az": "Baş mühasib",
+    "en": "Chief accountant",
+    "ru": "Главный бухгалтер",
+    "ka": "მთავარი ბუღალტერი",
+    "ar": "رئيس الحسابات"
+  },
+  {
+    "code": "financial_manager",
+    "group": "positions",
+    "az": "Maliyyə meneceri",
+    "en": "Finance manager",
+    "ru": "Финансовый менеджер",
+    "ka": "ფინანსური მენეჯერი",
+    "ar": "مدير مالي"
+  },
+  {
+    "code": "financial_analyst",
+    "group": "positions",
+    "az": "Maliyyə analitiki",
+    "en": "Financial analyst",
+    "ru": "Финансовый аналитик",
+    "ka": "ფინანსური ანალიტიკოსი",
+    "ar": "محلل مالي"
+  },
+  {
+    "code": "economist",
+    "group": "positions",
+    "az": "İqtisadçı",
+    "en": "Economist",
+    "ru": "Экономист",
+    "ka": "ეკონომისტი",
+    "ar": "اقتصادي"
+  },
+  {
+    "code": "auditor",
+    "group": "positions",
+    "az": "Auditor",
+    "en": "Auditor",
+    "ru": "Аудитор",
+    "ka": "აუდიტორი",
+    "ar": "مدقق حسابات"
+  },
+  {
+    "code": "internal_auditor",
+    "group": "positions",
+    "az": "Daxili auditor",
+    "en": "Internal auditor",
+    "ru": "Внутренний аудитор",
+    "ka": "შიდა აუდიტორი",
+    "ar": "مدقق داخلي"
+  },
+  {
+    "code": "cashier",
+    "group": "positions",
+    "az": "Kassir",
+    "en": "Cashier",
+    "ru": "Кассир",
+    "ka": "მოლარე",
+    "ar": "أمين صندوق"
+  },
+  {
+    "code": "bank_teller",
+    "group": "positions",
+    "az": "Bank əməliyyatçısı",
+    "en": "Bank teller",
+    "ru": "Банковский операционист",
+    "ka": "ბანკის ოპერატორი",
+    "ar": "موظف صرف بنكي"
+  },
+  {
+    "code": "credit_specialist",
+    "group": "positions",
+    "az": "Kredit mütəxəssisi",
+    "en": "Credit specialist",
+    "ru": "Кредитный специалист",
+    "ka": "საკრედიტო სპეციალისტი",
+    "ar": "أخصائي قروض"
+  },
+  {
+    "code": "treasurer",
+    "group": "positions",
+    "az": "Xəzinədar",
+    "en": "Treasurer",
+    "ru": "Казначей",
+    "ka": "ხაზინადარი",
+    "ar": "أمين خزينة"
+  },
+  {
+    "code": "tax_specialist",
+    "group": "positions",
+    "az": "Vergi mütəxəssisi",
+    "en": "Tax specialist",
+    "ru": "Специалист по налогам",
+    "ka": "საგადასახადო სპეციალისტი",
+    "ar": "أخصائي ضرائب"
+  },
+  {
+    "code": "payroll_specialist",
+    "group": "positions",
+    "az": "Əmək haqqı mütəxəssisi",
+    "en": "Payroll specialist",
+    "ru": "Специалист по расчёту зарплаты",
+    "ka": "ხელფასის სპეციალისტი",
+    "ar": "أخصائي رواتب"
+  },
+  {
+    "code": "collections_specialist",
+    "group": "positions",
+    "az": "Borcların yığılması mütəxəssisi",
+    "en": "Collections specialist",
+    "ru": "Специалист по взысканию долгов",
+    "ka": "ვალების ამოღების სპეციალისტი",
+    "ar": "أخصائي تحصيل ديون"
+  },
+  {
+    "code": "risk_manager",
+    "group": "positions",
+    "az": "Risk meneceri",
+    "en": "Risk manager",
+    "ru": "Риск-менеджер",
+    "ka": "რისკების მენეჯერი",
+    "ar": "مدير مخاطر"
+  },
+  {
+    "code": "compliance_officer",
+    "group": "positions",
+    "az": "Komplayns mütəxəssisi",
+    "en": "Compliance officer",
+    "ru": "Специалист по комплаенсу",
+    "ka": "შესაბამისობის სპეციალისტი",
+    "ar": "مسؤول الالتزام"
+  },
+  {
+    "code": "insurance_agent",
+    "group": "positions",
+    "az": "Sığorta agenti",
+    "en": "Insurance agent",
+    "ru": "Страховой агент",
+    "ka": "სადაზღვევო აგენტი",
+    "ar": "وكيل تأمين"
+  },
+  {
+    "code": "salesperson",
+    "group": "positions",
+    "az": "Satıcı",
+    "en": "Salesperson",
+    "ru": "Продавец",
+    "ka": "გამყიდველი",
+    "ar": "بائع"
+  },
+  {
+    "code": "sales_cashier",
+    "group": "positions",
+    "az": "Satıcı-kassir",
+    "en": "Sales cashier",
+    "ru": "Продавец-кассир",
+    "ka": "გამყიდველ-მოლარე",
+    "ar": "بائع أمين صندوق"
+  },
+  {
+    "code": "sales_manager",
+    "group": "positions",
+    "az": "Satış meneceri",
+    "en": "Sales manager",
+    "ru": "Менеджер по продажам",
+    "ka": "გაყიდვების მენეჯერი",
+    "ar": "مدير مبيعات"
+  },
+  {
+    "code": "sales_representative",
+    "group": "positions",
+    "az": "Satış təmsilçisi",
+    "en": "Sales representative",
+    "ru": "Торговый представитель",
+    "ka": "გაყიდვების წარმომადგენელი",
+    "ar": "مندوب مبيعات"
+  },
+  {
+    "code": "sales_consultant",
+    "group": "positions",
+    "az": "Satış məsləhətçisi",
+    "en": "Sales consultant",
+    "ru": "Консультант по продажам",
+    "ka": "გაყიდვების კონსულტანტი",
+    "ar": "مستشار مبيعات"
+  },
+  {
+    "code": "store_manager",
+    "group": "positions",
+    "az": "Mağaza müdiri",
+    "en": "Store manager",
+    "ru": "Управляющий магазином",
+    "ka": "მაღაზიის მმართველი",
+    "ar": "مدير متجر"
+  },
+  {
+    "code": "merchandiser",
+    "group": "positions",
+    "az": "Merçendayzer",
+    "en": "Merchandiser",
+    "ru": "Мерчендайзер",
+    "ka": "მერჩენდაიზერი",
+    "ar": "منسق عرض السلع"
+  },
+  {
+    "code": "key_account_manager",
+    "group": "positions",
+    "az": "Əsas müştərilər meneceri",
+    "en": "Key account manager",
+    "ru": "Менеджер по ключевым клиентам",
+    "ka": "საკვანძო კლიენტების მენეჯერი",
+    "ar": "مدير حسابات رئيسية"
+  },
+  {
+    "code": "customer_service_specialist",
+    "group": "positions",
+    "az": "Müştəri xidmətləri mütəxəssisi",
+    "en": "Customer service specialist",
+    "ru": "Специалист по работе с клиентами",
+    "ka": "მომხმარებელთა მომსახურების სპეციალისტი",
+    "ar": "أخصائي خدمة العملاء"
+  },
+  {
+    "code": "call_center_operator",
+    "group": "positions",
+    "az": "Çağrı mərkəzi operatoru",
+    "en": "Call centre operator",
+    "ru": "Оператор call-центра",
+    "ka": "ქოლ-ცენტრის ოპერატორი",
+    "ar": "مشغّل مركز اتصال"
+  },
+  {
+    "code": "procurement_specialist",
+    "group": "positions",
+    "az": "Satınalma mütəxəssisi",
+    "en": "Procurement specialist",
+    "ru": "Специалист по закупкам",
+    "ka": "შესყიდვების სპეციალისტი",
+    "ar": "أخصائي مشتريات"
+  },
+  {
+    "code": "purchasing_manager",
+    "group": "positions",
+    "az": "Satınalma meneceri",
+    "en": "Purchasing manager",
+    "ru": "Менеджер по закупкам",
+    "ka": "შესყიდვების მენეჯერი",
+    "ar": "مدير المشتريات"
+  },
+  {
+    "code": "supply_specialist",
+    "group": "positions",
+    "az": "Təchizat mütəxəssisi",
+    "en": "Supply specialist",
+    "ru": "Специалист по снабжению",
+    "ka": "მომარაგების სპეციალისტი",
+    "ar": "أخصائي تجهيز"
+  },
+  {
+    "code": "contracts_specialist",
+    "group": "positions",
+    "az": "Müqavilələr mütəxəssisi",
+    "en": "Contracts specialist",
+    "ru": "Специалист по договорам",
+    "ka": "ხელშეკრულებების სპეციალისტი",
+    "ar": "أخصائي عقود"
+  },
+  {
+    "code": "real_estate_agent",
+    "group": "positions",
+    "az": "Daşınmaz əmlak agenti",
+    "en": "Real estate agent",
+    "ru": "Агент по недвижимости",
+    "ka": "უძრავი ქონების აგენტი",
+    "ar": "وكيل عقارات"
+  },
+  {
+    "code": "programmer",
+    "group": "positions",
+    "az": "Proqramçı",
+    "en": "Programmer",
+    "ru": "Программист",
+    "ka": "პროგრამისტი",
+    "ar": "مبرمج"
+  },
+  {
+    "code": "software_engineer",
+    "group": "positions",
+    "az": "Proqram təminatı mühəndisi",
+    "en": "Software engineer",
+    "ru": "Инженер-программист",
+    "ka": "პროგრამული უზრუნველყოფის ინჟინერი",
+    "ar": "مهندس برمجيات"
+  },
+  {
+    "code": "frontend_developer",
+    "group": "positions",
+    "az": "Frontend developer",
+    "en": "Frontend developer",
+    "ru": "Frontend-разработчик",
+    "ka": "Frontend დეველოპერი",
+    "ar": "مطوّر واجهات أمامية"
+  },
+  {
+    "code": "backend_developer",
+    "group": "positions",
+    "az": "Backend developer",
+    "en": "Backend developer",
+    "ru": "Backend-разработчик",
+    "ka": "Backend დეველოპერი",
+    "ar": "مطوّر خدمات خلفية"
+  },
+  {
+    "code": "fullstack_developer",
+    "group": "positions",
+    "az": "Full-stack developer",
+    "en": "Full-stack developer",
+    "ru": "Full-stack разработчик",
+    "ka": "Full-stack დეველოპერი",
+    "ar": "مطوّر متكامل"
+  },
+  {
+    "code": "web_developer",
+    "group": "positions",
+    "az": "Veb developer",
+    "en": "Web developer",
+    "ru": "Веб-разработчик",
+    "ka": "ვებ დეველოპერი",
+    "ar": "مطوّر ويب"
+  },
+  {
+    "code": "mobile_developer",
+    "group": "positions",
+    "az": "Mobil tətbiq developeri",
+    "en": "Mobile app developer",
+    "ru": "Разработчик мобильных приложений",
+    "ka": "მობილური აპლიკაციების დეველოპერი",
+    "ar": "مطوّر تطبيقات جوال"
+  },
+  {
+    "code": "qa_engineer",
+    "group": "positions",
+    "az": "Test mühəndisi",
+    "en": "QA engineer",
+    "ru": "Инженер по тестированию",
+    "ka": "QA ინჟინერი",
+    "ar": "مهندس اختبار"
+  },
+  {
+    "code": "devops_engineer",
+    "group": "positions",
+    "az": "DevOps mühəndisi",
+    "en": "DevOps engineer",
+    "ru": "DevOps-инженер",
+    "ka": "DevOps ინჟინერი",
+    "ar": "مهندس DevOps"
+  },
+  {
+    "code": "system_administrator",
+    "group": "positions",
+    "az": "Sistem administratoru",
+    "en": "System administrator",
+    "ru": "Системный администратор",
+    "ka": "სისტემური ადმინისტრატორი",
+    "ar": "مدير أنظمة"
+  },
+  {
+    "code": "network_engineer",
+    "group": "positions",
+    "az": "Şəbəkə mühəndisi",
+    "en": "Network engineer",
+    "ru": "Сетевой инженер",
+    "ka": "ქსელის ინჟინერი",
+    "ar": "مهندس شبكات"
+  },
+  {
+    "code": "database_administrator",
+    "group": "positions",
+    "az": "Verilənlər bazası administratoru",
+    "en": "Database administrator",
+    "ru": "Администратор баз данных",
+    "ka": "მონაცემთა ბაზის ადმინისტრატორი",
+    "ar": "مدير قواعد بيانات"
+  },
+  {
+    "code": "data_analyst",
+    "group": "positions",
+    "az": "Data analitiki",
+    "en": "Data analyst",
+    "ru": "Аналитик данных",
+    "ka": "მონაცემთა ანალიტიკოსი",
+    "ar": "محلل بيانات"
+  },
+  {
+    "code": "data_scientist",
+    "group": "positions",
+    "az": "Data alimi",
+    "en": "Data scientist",
+    "ru": "Специалист по данным",
+    "ka": "მონაცემთა მეცნიერი",
+    "ar": "عالم بيانات"
+  },
+  {
+    "code": "system_analyst",
+    "group": "positions",
+    "az": "Sistem analitiki",
+    "en": "Systems analyst",
+    "ru": "Системный аналитик",
+    "ka": "სისტემური ანალიტიკოსი",
+    "ar": "محلل أنظمة"
+  },
+  {
+    "code": "it_support_specialist",
+    "group": "positions",
+    "az": "İT dəstək mütəxəssisi",
+    "en": "IT support specialist",
+    "ru": "Специалист технической поддержки",
+    "ka": "IT მხარდაჭერის სპეციალისტი",
+    "ar": "أخصائي دعم تقني"
+  },
+  {
+    "code": "cybersecurity_specialist",
+    "group": "positions",
+    "az": "Kibertəhlükəsizlik mütəxəssisi",
+    "en": "Cybersecurity specialist",
+    "ru": "Специалист по кибербезопасности",
+    "ka": "კიბერუსაფრთხოების სპეციალისტი",
+    "ar": "أخصائي أمن سيبراني"
+  },
+  {
+    "code": "it_manager",
+    "group": "positions",
+    "az": "İT meneceri",
+    "en": "IT manager",
+    "ru": "IT-менеджер",
+    "ka": "IT მენეჯერი",
+    "ar": "مدير تقنية المعلومات"
+  },
+  {
+    "code": "product_manager",
+    "group": "positions",
+    "az": "Məhsul meneceri",
+    "en": "Product manager",
+    "ru": "Менеджер продукта",
+    "ka": "პროდუქტის მენეჯერი",
+    "ar": "مدير منتج"
+  },
+  {
+    "code": "ui_ux_designer",
+    "group": "positions",
+    "az": "UI/UX dizayner",
+    "en": "UI/UX designer",
+    "ru": "UI/UX дизайнер",
+    "ka": "UI/UX დიზაინერი",
+    "ar": "مصمم واجهات المستخدم"
+  },
+  {
+    "code": "seo_specialist",
+    "group": "positions",
+    "az": "SEO mütəxəssisi",
+    "en": "SEO specialist",
+    "ru": "SEO-специалист",
+    "ka": "SEO სპეციალისტი",
+    "ar": "أخصائي تحسين محركات البحث"
+  },
+  {
+    "code": "computer_operator",
+    "group": "positions",
+    "az": "Kompüter operatoru",
+    "en": "Computer operator",
+    "ru": "Оператор ЭВМ",
+    "ka": "კომპიუტერის ოპერატორი",
+    "ar": "مشغّل حاسوب"
+  },
+  {
+    "code": "marketing_manager",
+    "group": "positions",
+    "az": "Marketinq meneceri",
+    "en": "Marketing manager",
+    "ru": "Менеджер по маркетингу",
+    "ka": "მარკეტინგის მენეჯერი",
+    "ar": "مدير تسويق"
+  },
+  {
+    "code": "marketing_specialist",
+    "group": "positions",
+    "az": "Marketinq mütəxəssisi",
+    "en": "Marketing specialist",
+    "ru": "Специалист по маркетингу",
+    "ka": "მარკეტინგის სპეციალისტი",
+    "ar": "أخصائي تسويق"
+  },
+  {
+    "code": "digital_marketing_specialist",
+    "group": "positions",
+    "az": "Rəqəmsal marketinq mütəxəssisi",
+    "en": "Digital marketing specialist",
+    "ru": "Специалист по цифровому маркетингу",
+    "ka": "ციფრული მარკეტინგის სპეციალისტი",
+    "ar": "أخصائي تسويق رقمي"
+  },
+  {
+    "code": "smm_specialist",
+    "group": "positions",
+    "az": "SMM mütəxəssisi",
+    "en": "Social media specialist",
+    "ru": "Специалист по социальным сетям",
+    "ka": "სოციალური მედიის სპეციალისტი",
+    "ar": "أخصائي وسائل التواصل"
+  },
+  {
+    "code": "brand_manager",
+    "group": "positions",
+    "az": "Brend meneceri",
+    "en": "Brand manager",
+    "ru": "Бренд-менеджер",
+    "ka": "ბრენდის მენეჯერი",
+    "ar": "مدير علامة تجارية"
+  },
+  {
+    "code": "pr_specialist",
+    "group": "positions",
+    "az": "İctimaiyyətlə əlaqələr mütəxəssisi",
+    "en": "PR specialist",
+    "ru": "Специалист по связям с общественностью",
+    "ka": "საზოგადოებასთან ურთიერთობის სპეციალისტი",
+    "ar": "أخصائي علاقات عامة"
+  },
+  {
+    "code": "content_manager",
+    "group": "positions",
+    "az": "Kontent menecer",
+    "en": "Content manager",
+    "ru": "Контент-менеджер",
+    "ka": "კონტენტ მენეჯერი",
+    "ar": "مدير محتوى"
+  },
+  {
+    "code": "copywriter",
+    "group": "positions",
+    "az": "Kopiraytr",
+    "en": "Copywriter",
+    "ru": "Копирайтер",
+    "ka": "კოპირაიტერი",
+    "ar": "كاتب إعلاني"
+  },
+  {
+    "code": "graphic_designer",
+    "group": "positions",
+    "az": "Qrafik dizayner",
+    "en": "Graphic designer",
+    "ru": "Графический дизайнер",
+    "ka": "გრაფიკული დიზაინერი",
+    "ar": "مصمم جرافيك"
+  },
+  {
+    "code": "interior_designer",
+    "group": "positions",
+    "az": "İnteryer dizayneri",
+    "en": "Interior designer",
+    "ru": "Дизайнер интерьера",
+    "ka": "ინტერიერის დიზაინერი",
+    "ar": "مصمم داخلي"
+  },
+  {
+    "code": "photographer",
+    "group": "positions",
+    "az": "Fotoqraf",
+    "en": "Photographer",
+    "ru": "Фотограф",
+    "ka": "ფოტოგრაფი",
+    "ar": "مصوّر"
+  },
+  {
+    "code": "videographer",
+    "group": "positions",
+    "az": "Videoqraf",
+    "en": "Videographer",
+    "ru": "Видеооператор",
+    "ka": "ვიდეოგრაფი",
+    "ar": "مصوّر فيديو"
+  },
+  {
+    "code": "video_editor",
+    "group": "positions",
+    "az": "Video montajçı",
+    "en": "Video editor",
+    "ru": "Видеомонтажёр",
+    "ka": "ვიდეო რედაქტორი",
+    "ar": "محرر فيديو"
+  },
+  {
+    "code": "journalist",
+    "group": "positions",
+    "az": "Jurnalist",
+    "en": "Journalist",
+    "ru": "Журналист",
+    "ka": "ჟურნალისტი",
+    "ar": "صحفي"
+  },
+  {
+    "code": "editor",
+    "group": "positions",
+    "az": "Redaktor",
+    "en": "Editor",
+    "ru": "Редактор",
+    "ka": "რედაქტორი",
+    "ar": "محرر"
+  },
+  {
+    "code": "presenter",
+    "group": "positions",
+    "az": "Aparıcı",
+    "en": "Presenter",
+    "ru": "Ведущий",
+    "ka": "წამყვანი",
+    "ar": "مذيع"
+  },
+  {
+    "code": "stage_director",
+    "group": "positions",
+    "az": "Rejissor",
+    "en": "Stage director",
+    "ru": "Режиссёр",
+    "ka": "რეჟისორი",
+    "ar": "مخرج"
+  },
+  {
+    "code": "translator",
+    "group": "positions",
+    "az": "Tərcüməçi",
+    "en": "Translator",
+    "ru": "Переводчик",
+    "ka": "თარჯიმანი",
+    "ar": "مترجم"
+  },
+  {
+    "code": "hr_specialist",
+    "group": "positions",
+    "az": "İnsan resursları mütəxəssisi",
+    "en": "HR specialist",
+    "ru": "Специалист по кадрам",
+    "ka": "ადამიანური რესურსების სპეციალისტი",
+    "ar": "أخصائي موارد بشرية"
+  },
+  {
+    "code": "hr_manager",
+    "group": "positions",
+    "az": "İnsan resursları meneceri",
+    "en": "HR manager",
+    "ru": "Менеджер по персоналу",
+    "ka": "ადამიანური რესურსების მენეჯერი",
+    "ar": "مدير موارد بشرية"
+  },
+  {
+    "code": "recruiter",
+    "group": "positions",
+    "az": "Rekruter",
+    "en": "Recruiter",
+    "ru": "Рекрутер",
+    "ka": "რეკრუტერი",
+    "ar": "أخصائي توظيف"
+  },
+  {
+    "code": "trainer",
+    "group": "positions",
+    "az": "Təlimçi",
+    "en": "Trainer",
+    "ru": "Тренер",
+    "ka": "ტრენერი",
+    "ar": "مدرب"
+  },
+  {
+    "code": "lawyer",
+    "group": "positions",
+    "az": "Hüquqşünas",
+    "en": "Lawyer",
+    "ru": "Юрист",
+    "ka": "იურისტი",
+    "ar": "محامٍ"
+  },
+  {
+    "code": "advocate",
+    "group": "positions",
+    "az": "Vəkil",
+    "en": "Advocate",
+    "ru": "Адвокат",
+    "ka": "ადვოკატი",
+    "ar": "محامي مرافعة"
+  },
+  {
+    "code": "legal_advisor",
+    "group": "positions",
+    "az": "Hüquq məsləhətçisi",
+    "en": "Legal advisor",
+    "ru": "Юридический консультант",
+    "ka": "იურიდიული კონსულტანტი",
+    "ar": "مستشار قانوني"
+  },
+  {
+    "code": "notary",
+    "group": "positions",
+    "az": "Notarius",
+    "en": "Notary",
+    "ru": "Нотариус",
+    "ka": "ნოტარიუსი",
+    "ar": "كاتب عدل"
+  },
+  {
+    "code": "inspector",
+    "group": "positions",
+    "az": "Müfəttiş",
+    "en": "Inspector",
+    "ru": "Инспектор",
+    "ka": "ინსპექტორი",
+    "ar": "مفتش"
+  },
+  {
+    "code": "civil_servant",
+    "group": "positions",
+    "az": "Dövlət qulluqçusu",
+    "en": "Civil servant",
+    "ru": "Государственный служащий",
+    "ka": "საჯარო მოსამსახურე",
+    "ar": "موظف حكومي"
+  },
+  {
+    "code": "customs_officer",
+    "group": "positions",
+    "az": "Gömrük əməkdaşı",
+    "en": "Customs officer",
+    "ru": "Сотрудник таможни",
+    "ka": "საბაჟო თანამშრომელი",
+    "ar": "موظف جمارك"
+  },
+  {
+    "code": "customs_broker",
+    "group": "positions",
+    "az": "Gömrük brokeri",
+    "en": "Customs broker",
+    "ru": "Таможенный брокер",
+    "ka": "საბაჟო ბროკერი",
+    "ar": "وسيط جمركي"
+  },
+  {
+    "code": "police_officer",
+    "group": "positions",
+    "az": "Polis əməkdaşı",
+    "en": "Police officer",
+    "ru": "Сотрудник полиции",
+    "ka": "პოლიციელი",
+    "ar": "ضابط شرطة"
+  },
+  {
+    "code": "serviceman",
+    "group": "positions",
+    "az": "Hərbi qulluqçu",
+    "en": "Serviceman",
+    "ru": "Военнослужащий",
+    "ka": "სამხედრო მოსამსახურე",
+    "ar": "عسكري"
+  },
+  {
+    "code": "firefighter",
+    "group": "positions",
+    "az": "Yanğınsöndürən",
+    "en": "Firefighter",
+    "ru": "Пожарный",
+    "ka": "მეხანძრე",
+    "ar": "رجل إطفاء"
+  },
+  {
+    "code": "security_guard",
+    "group": "positions",
+    "az": "Mühafizəçi",
+    "en": "Security guard",
+    "ru": "Охранник",
+    "ka": "დაცვის თანამშრომელი",
+    "ar": "حارس أمن"
+  },
+  {
+    "code": "watchman",
+    "group": "positions",
+    "az": "Gözətçi",
+    "en": "Watchman",
+    "ru": "Сторож",
+    "ka": "დარაჯი",
+    "ar": "خفير"
+  },
+  {
+    "code": "engineer",
+    "group": "positions",
+    "az": "Mühəndis",
+    "en": "Engineer",
+    "ru": "Инженер",
+    "ka": "ინჟინერი",
+    "ar": "مهندس"
+  },
+  {
+    "code": "civil_engineer",
+    "group": "positions",
+    "az": "İnşaat mühəndisi",
+    "en": "Civil engineer",
+    "ru": "Инженер-строитель",
+    "ka": "სამოქალაქო ინჟინერი",
+    "ar": "مهندس مدني"
+  },
+  {
+    "code": "project_engineer",
+    "group": "positions",
+    "az": "Layihə mühəndisi",
+    "en": "Project engineer",
+    "ru": "Инженер проекта",
+    "ka": "პროექტის ინჟინერი",
+    "ar": "مهندس مشروع"
+  },
+  {
+    "code": "planning_engineer",
+    "group": "positions",
+    "az": "Planlaşdırma mühəndisi",
+    "en": "Planning engineer",
+    "ru": "Инженер по планированию",
+    "ka": "დაგეგმვის ინჟინერი",
+    "ar": "مهندس تخطيط"
+  },
+  {
+    "code": "maintenance_engineer",
+    "group": "positions",
+    "az": "Təmir-istismar mühəndisi",
+    "en": "Maintenance engineer",
+    "ru": "Инженер по эксплуатации",
+    "ka": "ტექნიკური მომსახურების ინჟინერი",
+    "ar": "مهندس صيانة"
+  },
+  {
+    "code": "mechanical_engineer",
+    "group": "positions",
+    "az": "Mexanika mühəndisi",
+    "en": "Mechanical engineer",
+    "ru": "Инженер-механик",
+    "ka": "ინჟინერ-მექანიკოსი",
+    "ar": "مهندس ميكانيكي"
+  },
+  {
+    "code": "electrical_engineer",
+    "group": "positions",
+    "az": "Elektrik mühəndisi",
+    "en": "Electrical engineer",
+    "ru": "Инженер-электрик",
+    "ka": "ინჟინერ-ელექტრიკოსი",
+    "ar": "مهندس كهربائي"
+  },
+  {
+    "code": "instrumentation_engineer",
+    "group": "positions",
+    "az": "Ölçmə-nəzarət mühəndisi",
+    "en": "Instrumentation engineer",
+    "ru": "Инженер КИПиА",
+    "ka": "საზომ-საკონტროლო ინჟინერი",
+    "ar": "مهندس أجهزة قياس"
+  },
+  {
+    "code": "architect",
+    "group": "positions",
+    "az": "Memar",
+    "en": "Architect",
+    "ru": "Архитектор",
+    "ka": "არქიტექტორი",
+    "ar": "مهندس معماري"
+  },
+  {
+    "code": "quantity_surveyor",
+    "group": "positions",
+    "az": "Smeta mütəxəssisi",
+    "en": "Quantity surveyor",
+    "ru": "Инженер-сметчик",
+    "ka": "ხარჯთაღრიცხვის სპეციალისტი",
+    "ar": "أخصائي حصر كميات"
+  },
+  {
+    "code": "site_manager",
+    "group": "positions",
+    "az": "Tikinti sahəsi rəhbəri",
+    "en": "Site manager",
+    "ru": "Начальник строительного участка",
+    "ka": "სამშენებლო უბნის უფროსი",
+    "ar": "مدير موقع إنشاءات"
+  },
+  {
+    "code": "foreman",
+    "group": "positions",
+    "az": "Usta",
+    "en": "Foreman",
+    "ru": "Мастер",
+    "ka": "ოსტატი",
+    "ar": "رئيس عمال"
+  },
+  {
+    "code": "land_surveyor",
+    "group": "positions",
+    "az": "Geodeziyaçı",
+    "en": "Land surveyor",
+    "ru": "Геодезист",
+    "ka": "გეოდეზისტი",
+    "ar": "مساح"
+  },
+  {
+    "code": "hse_specialist",
+    "group": "positions",
+    "az": "Əməyin təhlükəsizliyi mütəxəssisi",
+    "en": "HSE specialist",
+    "ru": "Специалист по охране труда",
+    "ka": "შრომის უსაფრთხოების სპეციალისტი",
+    "ar": "أخصائي الصحة والسلامة"
+  },
+  {
+    "code": "quality_control_specialist",
+    "group": "positions",
+    "az": "Keyfiyyətə nəzarət mütəxəssisi",
+    "en": "Quality control specialist",
+    "ru": "Специалист по контролю качества",
+    "ka": "ხარისხის კონტროლის სპეციალისტი",
+    "ar": "أخصائي مراقبة الجودة"
+  },
+  {
+    "code": "technician",
+    "group": "positions",
+    "az": "Texnik",
+    "en": "Technician",
+    "ru": "Техник",
+    "ka": "ტექნიკოსი",
+    "ar": "تقني"
+  },
+  {
+    "code": "technologist",
+    "group": "positions",
+    "az": "Texnoloq",
+    "en": "Technologist",
+    "ru": "Технолог",
+    "ka": "ტექნოლოგი",
+    "ar": "أخصائي تكنولوجيا"
+  },
+  {
+    "code": "mechanic",
+    "group": "positions",
+    "az": "Mexanik",
+    "en": "Mechanic",
+    "ru": "Механик",
+    "ka": "მექანიკოსი",
+    "ar": "ميكانيكي"
+  },
+  {
+    "code": "electrician",
+    "group": "positions",
+    "az": "Elektrik",
+    "en": "Electrician",
+    "ru": "Электрик",
+    "ka": "ელექტრიკოსი",
+    "ar": "كهربائي"
+  },
+  {
+    "code": "welder",
+    "group": "positions",
+    "az": "Qaynaqçı",
+    "en": "Welder",
+    "ru": "Сварщик",
+    "ka": "შემდუღებელი",
+    "ar": "لحّام"
+  },
+  {
+    "code": "plumber",
+    "group": "positions",
+    "az": "Santexnik",
+    "en": "Plumber",
+    "ru": "Сантехник",
+    "ka": "სანტექნიკოსი",
+    "ar": "سبّاك"
+  },
+  {
+    "code": "carpenter",
+    "group": "positions",
+    "az": "Xarrat",
+    "en": "Carpenter",
+    "ru": "Столяр",
+    "ka": "ხურო",
+    "ar": "نجّار"
+  },
+  {
+    "code": "mason",
+    "group": "positions",
+    "az": "Bənna",
+    "en": "Mason",
+    "ru": "Каменщик",
+    "ka": "ქვისმთლელი",
+    "ar": "بنّاء"
+  },
+  {
+    "code": "plasterer",
+    "group": "positions",
+    "az": "Suvaqçı",
+    "en": "Plasterer",
+    "ru": "Штукатур",
+    "ka": "მბათქაშებელი",
+    "ar": "مبيّض جبس"
+  },
+  {
+    "code": "painter_decorator",
+    "group": "positions",
+    "az": "Rəngsaz",
+    "en": "Painter and decorator",
+    "ru": "Маляр",
+    "ka": "მღებავი",
+    "ar": "دهّان"
+  },
+  {
+    "code": "concrete_worker",
+    "group": "positions",
+    "az": "Betonçu",
+    "en": "Concrete worker",
+    "ru": "Бетонщик",
+    "ka": "ბეტონის მუშა",
+    "ar": "عامل خرسانة"
+  },
+  {
+    "code": "locksmith",
+    "group": "positions",
+    "az": "Çilingər",
+    "en": "Locksmith",
+    "ru": "Слесарь",
+    "ka": "ზეინკალი",
+    "ar": "ميكانيكي تركيبات"
+  },
+  {
+    "code": "turner",
+    "group": "positions",
+    "az": "Tornaçı",
+    "en": "Turner",
+    "ru": "Токарь",
+    "ka": "ხარატი",
+    "ar": "خرّاط"
+  },
+  {
+    "code": "crane_operator",
+    "group": "positions",
+    "az": "Kran operatoru",
+    "en": "Crane operator",
+    "ru": "Крановщик",
+    "ka": "ამწის ოპერატორი",
+    "ar": "مشغّل رافعة"
+  },
+  {
+    "code": "excavator_operator",
+    "group": "positions",
+    "az": "Ekskavator operatoru",
+    "en": "Excavator operator",
+    "ru": "Экскаваторщик",
+    "ka": "ექსკავატორის ოპერატორი",
+    "ar": "مشغّل حفارة"
+  },
+  {
+    "code": "machine_operator",
+    "group": "positions",
+    "az": "Dəzgah operatoru",
+    "en": "Machine operator",
+    "ru": "Оператор станка",
+    "ka": "ჩარხის ოპერატორი",
+    "ar": "مشغّل آلة"
+  },
+  {
+    "code": "production_operator",
+    "group": "positions",
+    "az": "İstehsalat operatoru",
+    "en": "Production operator",
+    "ru": "Оператор производства",
+    "ka": "წარმოების ოპერატორი",
+    "ar": "مشغّل إنتاج"
+  },
+  {
+    "code": "operator",
+    "group": "positions",
+    "az": "Operator",
+    "en": "Operator",
+    "ru": "Оператор",
+    "ka": "ოპერატორი",
+    "ar": "مشغّل"
+  },
+  {
+    "code": "laboratory_assistant",
+    "group": "positions",
+    "az": "Laborant",
+    "en": "Laboratory assistant",
+    "ru": "Лаборант",
+    "ka": "ლაბორანტი",
+    "ar": "فني مختبر"
+  },
+  {
+    "code": "worker",
+    "group": "positions",
+    "az": "Fəhlə",
+    "en": "Worker",
+    "ru": "Рабочий",
+    "ka": "მუშა",
+    "ar": "عامل"
+  },
+  {
+    "code": "petroleum_engineer",
+    "group": "positions",
+    "az": "Neft-qaz mühəndisi",
+    "en": "Petroleum engineer",
+    "ru": "Инженер нефтегазового дела",
+    "ka": "ნავთობისა და გაზის ინჟინერი",
+    "ar": "مهندس نفط وغاز"
+  },
+  {
+    "code": "drilling_engineer",
+    "group": "positions",
+    "az": "Qazma mühəndisi",
+    "en": "Drilling engineer",
+    "ru": "Инженер по бурению",
+    "ka": "ბურღვის ინჟინერი",
+    "ar": "مهندس حفر"
+  },
+  {
+    "code": "process_engineer",
+    "group": "positions",
+    "az": "Proses mühəndisi",
+    "en": "Process engineer",
+    "ru": "Инженер-технолог",
+    "ka": "პროცესის ინჟინერი",
+    "ar": "مهندس عمليات"
+  },
+  {
+    "code": "energy_engineer",
+    "group": "positions",
+    "az": "Enerji mühəndisi",
+    "en": "Energy engineer",
+    "ru": "Инженер-энергетик",
+    "ka": "ენერგეტიკის ინჟინერი",
+    "ar": "مهندس طاقة"
+  },
+  {
+    "code": "geologist",
+    "group": "positions",
+    "az": "Geoloq",
+    "en": "Geologist",
+    "ru": "Геолог",
+    "ka": "გეოლოგი",
+    "ar": "جيولوجي"
+  },
+  {
+    "code": "geophysicist",
+    "group": "positions",
+    "az": "Geofizik",
+    "en": "Geophysicist",
+    "ru": "Геофизик",
+    "ka": "გეოფიზიკოსი",
+    "ar": "جيوفيزيائي"
+  },
+  {
+    "code": "driver",
+    "group": "positions",
+    "az": "Sürücü",
+    "en": "Driver",
+    "ru": "Водитель",
+    "ka": "მძღოლი",
+    "ar": "سائق"
+  },
+  {
+    "code": "truck_driver",
+    "group": "positions",
+    "az": "Yük maşını sürücüsü",
+    "en": "Truck driver",
+    "ru": "Водитель грузовика",
+    "ka": "სატვირთოს მძღოლი",
+    "ar": "سائق شاحنة"
+  },
+  {
+    "code": "courier",
+    "group": "positions",
+    "az": "Kuryer",
+    "en": "Courier",
+    "ru": "Курьер",
+    "ka": "კურიერი",
+    "ar": "مندوب توصيل"
+  },
+  {
+    "code": "logistics_manager",
+    "group": "positions",
+    "az": "Logistika meneceri",
+    "en": "Logistics manager",
+    "ru": "Менеджер по логистике",
+    "ka": "ლოგისტიკის მენეჯერი",
+    "ar": "مدير لوجستيات"
+  },
+  {
+    "code": "logistics_specialist",
+    "group": "positions",
+    "az": "Logistika mütəxəssisi",
+    "en": "Logistics specialist",
+    "ru": "Специалист по логистике",
+    "ka": "ლოგისტიკის სპეციალისტი",
+    "ar": "أخصائي لوجستيات"
+  },
+  {
+    "code": "warehouse_manager",
+    "group": "positions",
+    "az": "Anbar müdiri",
+    "en": "Warehouse manager",
+    "ru": "Заведующий складом",
+    "ka": "საწყობის უფროსი",
+    "ar": "مدير مستودع"
+  },
+  {
+    "code": "storekeeper",
+    "group": "positions",
+    "az": "Anbardar",
+    "en": "Storekeeper",
+    "ru": "Кладовщик",
+    "ka": "მესაწყობე",
+    "ar": "أمين مخزن"
+  },
+  {
+    "code": "freight_forwarder",
+    "group": "positions",
+    "az": "Ekspeditor",
+    "en": "Freight forwarder",
+    "ru": "Экспедитор",
+    "ka": "ექსპედიტორი",
+    "ar": "وكيل شحن"
+  },
+  {
+    "code": "dispatcher",
+    "group": "positions",
+    "az": "Dispetçer",
+    "en": "Dispatcher",
+    "ru": "Диспетчер",
+    "ka": "დისპეტჩერი",
+    "ar": "منسق حركة"
+  },
+  {
+    "code": "train_driver",
+    "group": "positions",
+    "az": "Maşinist",
+    "en": "Train driver",
+    "ru": "Машинист",
+    "ka": "მემანქანე",
+    "ar": "سائق قطار"
+  },
+  {
+    "code": "pilot",
+    "group": "positions",
+    "az": "Pilot",
+    "en": "Pilot",
+    "ru": "Пилот",
+    "ka": "პილოტი",
+    "ar": "طيار"
+  },
+  {
+    "code": "flight_attendant",
+    "group": "positions",
+    "az": "Stüardessa",
+    "en": "Flight attendant",
+    "ru": "Бортпроводник",
+    "ka": "სტიუარდესა",
+    "ar": "مضيف طيران"
+  },
+  {
+    "code": "ship_captain",
+    "group": "positions",
+    "az": "Gəmi kapitanı",
+    "en": "Ship captain",
+    "ru": "Капитан судна",
+    "ka": "გემის კაპიტანი",
+    "ar": "قبطان سفينة"
+  },
+  {
+    "code": "sailor",
+    "group": "positions",
+    "az": "Dənizçi",
+    "en": "Sailor",
+    "ru": "Моряк",
+    "ka": "მეზღვაური",
+    "ar": "بحّار"
+  },
+  {
+    "code": "loader",
+    "group": "positions",
+    "az": "Yükləyici",
+    "en": "Loader",
+    "ru": "Грузчик",
+    "ka": "დამტვირთავი",
+    "ar": "عامل تحميل"
+  },
+  {
+    "code": "postman",
+    "group": "positions",
+    "az": "Poçtalyon",
+    "en": "Postman",
+    "ru": "Почтальон",
+    "ka": "ფოსტალიონი",
+    "ar": "ساعي بريد"
+  },
+  {
+    "code": "doctor",
+    "group": "positions",
+    "az": "Həkim",
+    "en": "Physician",
+    "ru": "Врач",
+    "ka": "ექიმი",
+    "ar": "طبيب"
+  },
+  {
+    "code": "surgeon",
+    "group": "positions",
+    "az": "Cərrah",
+    "en": "Surgeon",
+    "ru": "Хирург",
+    "ka": "ქირურგი",
+    "ar": "جرّاح"
+  },
+  {
+    "code": "pediatrician",
+    "group": "positions",
+    "az": "Pediatr",
+    "en": "Pediatrician",
+    "ru": "Педиатр",
+    "ka": "პედიატრი",
+    "ar": "طبيب أطفال"
+  },
+  {
+    "code": "internist",
+    "group": "positions",
+    "az": "Terapevt",
+    "en": "Internist",
+    "ru": "Терапевт",
+    "ka": "თერაპევტი",
+    "ar": "طبيب باطني"
+  },
+  {
+    "code": "dentist",
+    "group": "positions",
+    "az": "Stomatoloq",
+    "en": "Dentist",
+    "ru": "Стоматолог",
+    "ka": "სტომატოლოგი",
+    "ar": "طبيب أسنان"
+  },
+  {
+    "code": "nurse",
+    "group": "positions",
+    "az": "Tibb bacısı",
+    "en": "Nurse",
+    "ru": "Медсестра",
+    "ka": "მედდა",
+    "ar": "ممرّض"
+  },
+  {
+    "code": "paramedic",
+    "group": "positions",
+    "az": "Feldşer",
+    "en": "Feldsher (paramedic)",
+    "ru": "Фельдшер",
+    "ka": "ფელდშერი",
+    "ar": "مساعد طبي"
+  },
+  {
+    "code": "midwife",
+    "group": "positions",
+    "az": "Mama",
+    "en": "Midwife",
+    "ru": "Акушерка",
+    "ka": "ბებიაქალი",
+    "ar": "قابلة"
+  },
+  {
+    "code": "orderly",
+    "group": "positions",
+    "az": "Sanitar",
+    "en": "Orderly",
+    "ru": "Санитар",
+    "ka": "სანიტარი",
+    "ar": "مساعد تمريض"
+  },
+  {
+    "code": "pharmacist",
+    "group": "positions",
+    "az": "Əczaçı",
+    "en": "Pharmacist",
+    "ru": "Фармацевт",
+    "ka": "ფარმაცევტი",
+    "ar": "صيدلي"
+  },
+  {
+    "code": "psychologist",
+    "group": "positions",
+    "az": "Psixoloq",
+    "en": "Psychologist",
+    "ru": "Психолог",
+    "ka": "ფსიქოლოგი",
+    "ar": "أخصائي نفسي"
+  },
+  {
+    "code": "speech_therapist",
+    "group": "positions",
+    "az": "Loqoped",
+    "en": "Speech therapist",
+    "ru": "Логопед",
+    "ka": "ლოგოპედი",
+    "ar": "معالج نطق"
+  },
+  {
+    "code": "massage_therapist",
+    "group": "positions",
+    "az": "Masajçı",
+    "en": "Massage therapist",
+    "ru": "Массажист",
+    "ka": "მასაჟისტი",
+    "ar": "أخصائي تدليك"
+  },
+  {
+    "code": "veterinarian",
+    "group": "positions",
+    "az": "Baytar",
+    "en": "Veterinarian",
+    "ru": "Ветеринар",
+    "ka": "ვეტერინარი",
+    "ar": "طبيب بيطري"
+  },
+  {
+    "code": "medical_representative",
+    "group": "positions",
+    "az": "Tibbi nümayəndə",
+    "en": "Medical representative",
+    "ru": "Медицинский представитель",
+    "ka": "სამედიცინო წარმომადგენელი",
+    "ar": "مندوب طبي"
+  },
+  {
+    "code": "teacher",
+    "group": "positions",
+    "az": "Müəllim",
+    "en": "Teacher",
+    "ru": "Учитель",
+    "ka": "მასწავლებელი",
+    "ar": "مدرّس"
+  },
+  {
+    "code": "primary_teacher",
+    "group": "positions",
+    "az": "İbtidai sinif müəllimi",
+    "en": "Primary school teacher",
+    "ru": "Учитель начальных классов",
+    "ka": "დაწყებითი კლასების მასწავლებელი",
+    "ar": "مدرّس مرحلة ابتدائية"
+  },
+  {
+    "code": "kindergarten_teacher",
+    "group": "positions",
+    "az": "Tərbiyəçi",
+    "en": "Kindergarten teacher",
+    "ru": "Воспитатель",
+    "ka": "აღმზრდელი",
+    "ar": "مربية أطفال"
+  },
+  {
+    "code": "senior_lecturer",
+    "group": "positions",
+    "az": "Baş müəllim",
+    "en": "Senior lecturer",
+    "ru": "Старший преподаватель",
+    "ka": "უფროსი ლექტორი",
+    "ar": "محاضر أول"
+  },
+  {
+    "code": "associate_professor",
+    "group": "positions",
+    "az": "Dosent",
+    "en": "Associate professor",
+    "ru": "Доцент",
+    "ka": "ასოცირებული პროფესორი",
+    "ar": "أستاذ مشارك"
+  },
+  {
+    "code": "professor",
+    "group": "positions",
+    "az": "Professor",
+    "en": "Professor",
+    "ru": "Профессор",
+    "ka": "პროფესორი",
+    "ar": "أستاذ جامعي"
+  },
+  {
+    "code": "school_principal",
+    "group": "positions",
+    "az": "Məktəb direktoru",
+    "en": "School principal",
+    "ru": "Директор школы",
+    "ka": "სკოლის დირექტორი",
+    "ar": "مدير مدرسة"
+  },
+  {
+    "code": "methodologist",
+    "group": "positions",
+    "az": "Metodist",
+    "en": "Methodologist",
+    "ru": "Методист",
+    "ka": "მეთოდისტი",
+    "ar": "أخصائي مناهج"
+  },
+  {
+    "code": "private_tutor",
+    "group": "positions",
+    "az": "Repetitor",
+    "en": "Private tutor",
+    "ru": "Репетитор",
+    "ka": "კერძო მასწავლებელი",
+    "ar": "مدرّس خصوصي"
+  },
+  {
+    "code": "librarian",
+    "group": "positions",
+    "az": "Kitabxanaçı",
+    "en": "Librarian",
+    "ru": "Библиотекарь",
+    "ka": "ბიბლიოთეკარი",
+    "ar": "أمين مكتبة"
+  },
+  {
+    "code": "researcher",
+    "group": "positions",
+    "az": "Elmi işçi",
+    "en": "Researcher",
+    "ru": "Научный сотрудник",
+    "ka": "მეცნიერ-თანამშრომელი",
+    "ar": "باحث علمي"
+  },
+  {
+    "code": "sports_coach",
+    "group": "positions",
+    "az": "Məşqçi",
+    "en": "Sports coach",
+    "ru": "Тренер по спорту",
+    "ka": "სპორტული მწვრთნელი",
+    "ar": "مدرب رياضي"
+  },
+  {
+    "code": "fitness_instructor",
+    "group": "positions",
+    "az": "Fitnes məşqçisi",
+    "en": "Fitness instructor",
+    "ru": "Фитнес-инструктор",
+    "ka": "ფიტნესის ინსტრუქტორი",
+    "ar": "مدرب لياقة"
+  },
+  {
+    "code": "social_worker",
+    "group": "positions",
+    "az": "Sosial işçi",
+    "en": "Social worker",
+    "ru": "Социальный работник",
+    "ka": "სოციალური მუშაკი",
+    "ar": "أخصائي اجتماعي"
+  },
+  {
+    "code": "statistician",
+    "group": "positions",
+    "az": "Statistik",
+    "en": "Statistician",
+    "ru": "Статистик",
+    "ka": "სტატისტიკოსი",
+    "ar": "إحصائي"
+  },
+  {
+    "code": "sociologist",
+    "group": "positions",
+    "az": "Sosioloq",
+    "en": "Sociologist",
+    "ru": "Социолог",
+    "ka": "სოციოლოგი",
+    "ar": "عالم اجتماع"
+  },
+  {
+    "code": "ecologist",
+    "group": "positions",
+    "az": "Ekoloq",
+    "en": "Ecologist",
+    "ru": "Эколог",
+    "ka": "ეკოლოგი",
+    "ar": "خبير بيئي"
+  },
+  {
+    "code": "chemist",
+    "group": "positions",
+    "az": "Kimyaçı",
+    "en": "Chemist",
+    "ru": "Химик",
+    "ka": "ქიმიკოსი",
+    "ar": "كيميائي"
+  },
+  {
+    "code": "cook",
+    "group": "positions",
+    "az": "Aşpaz",
+    "en": "Cook",
+    "ru": "Повар",
+    "ka": "მზარეული",
+    "ar": "طبّاخ"
+  },
+  {
+    "code": "head_chef",
+    "group": "positions",
+    "az": "Baş aşpaz",
+    "en": "Head chef",
+    "ru": "Шеф-повар",
+    "ka": "შეფ-მზარეული",
+    "ar": "رئيس طهاة"
+  },
+  {
+    "code": "kitchen_assistant",
+    "group": "positions",
+    "az": "Aşpaz köməkçisi",
+    "en": "Kitchen assistant",
+    "ru": "Помощник повара",
+    "ka": "მზარეულის დამხმარე",
+    "ar": "مساعد طبّاخ"
+  },
+  {
+    "code": "waiter",
+    "group": "positions",
+    "az": "Ofisiant",
+    "en": "Waiter",
+    "ru": "Официант",
+    "ka": "მიმტანი",
+    "ar": "نادل"
+  },
+  {
+    "code": "barista",
+    "group": "positions",
+    "az": "Barista",
+    "en": "Barista",
+    "ru": "Бариста",
+    "ka": "ბარისტა",
+    "ar": "باريستا"
+  },
+  {
+    "code": "bartender",
+    "group": "positions",
+    "az": "Barmen",
+    "en": "Bartender",
+    "ru": "Бармен",
+    "ka": "ბარმენი",
+    "ar": "ساقي مشروبات"
+  },
+  {
+    "code": "confectioner",
+    "group": "positions",
+    "az": "Konditer",
+    "en": "Confectioner",
+    "ru": "Кондитер",
+    "ka": "კონდიტერი",
+    "ar": "حلواني"
+  },
+  {
+    "code": "baker",
+    "group": "positions",
+    "az": "Çörəkçi",
+    "en": "Baker",
+    "ru": "Пекарь",
+    "ka": "მცხობელი",
+    "ar": "خبّاز"
+  },
+  {
+    "code": "butcher",
+    "group": "positions",
+    "az": "Qəssab",
+    "en": "Butcher",
+    "ru": "Мясник",
+    "ka": "ხორცის დამჭრელი",
+    "ar": "جزّار"
+  },
+  {
+    "code": "restaurant_manager",
+    "group": "positions",
+    "az": "Restoran müdiri",
+    "en": "Restaurant manager",
+    "ru": "Управляющий рестораном",
+    "ka": "რესტორნის მმართველი",
+    "ar": "مدير مطعم"
+  },
+  {
+    "code": "hotel_receptionist",
+    "group": "positions",
+    "az": "Otel administratoru",
+    "en": "Hotel receptionist",
+    "ru": "Администратор отеля",
+    "ka": "სასტუმროს ადმინისტრატორი",
+    "ar": "موظف استقبال فندق"
+  },
+  {
+    "code": "housekeeper",
+    "group": "positions",
+    "az": "Mərtəbə xidmətçisi",
+    "en": "Housekeeper",
+    "ru": "Горничная",
+    "ka": "ნომრების დამლაგებელი",
+    "ar": "عامل نظافة الغرف"
+  },
+  {
+    "code": "tour_guide",
+    "group": "positions",
+    "az": "Turizm bələdçisi",
+    "en": "Tour guide",
+    "ru": "Гид",
+    "ka": "გიდი",
+    "ar": "مرشد سياحي"
+  },
+  {
+    "code": "travel_agent",
+    "group": "positions",
+    "az": "Turizm agenti",
+    "en": "Travel agent",
+    "ru": "Турагент",
+    "ka": "ტურაგენტი",
+    "ar": "وكيل سفر"
+  },
+  {
+    "code": "cleaner",
+    "group": "positions",
+    "az": "Təmizlikçi",
+    "en": "Cleaner",
+    "ru": "Уборщик",
+    "ka": "დამლაგებელი",
+    "ar": "عامل نظافة"
+  },
+  {
+    "code": "barber",
+    "group": "positions",
+    "az": "Bərbər",
+    "en": "Barber",
+    "ru": "Парикмахер (мужской)",
+    "ka": "დალაქი",
+    "ar": "حلاق"
+  },
+  {
+    "code": "hairdresser",
+    "group": "positions",
+    "az": "Bərbər-stilist",
+    "en": "Hairdresser",
+    "ru": "Парикмахер",
+    "ka": "თმის სტილისტი",
+    "ar": "مصمم شعر"
+  },
+  {
+    "code": "beauty_specialist",
+    "group": "positions",
+    "az": "Gözəllik ustası",
+    "en": "Beauty specialist",
+    "ru": "Мастер по красоте",
+    "ka": "სილამაზის სპეციალისტი",
+    "ar": "أخصائية تجميل"
+  },
+  {
+    "code": "manicurist",
+    "group": "positions",
+    "az": "Manikür ustası",
+    "en": "Manicurist",
+    "ru": "Мастер маникюра",
+    "ka": "მანიკიურის მასტერი",
+    "ar": "أخصائية عناية بالأظافر"
+  },
+  {
+    "code": "cosmetologist",
+    "group": "positions",
+    "az": "Kosmetoloq",
+    "en": "Cosmetologist",
+    "ru": "Косметолог",
+    "ka": "კოსმეტოლოგი",
+    "ar": "طبيب تجميل"
+  },
+  {
+    "code": "tailor",
+    "group": "positions",
+    "az": "Dərzi",
+    "en": "Tailor",
+    "ru": "Портной",
+    "ka": "მკერავი",
+    "ar": "خيّاط"
+  },
+  {
+    "code": "shoemaker",
+    "group": "positions",
+    "az": "Ayaqqabı ustası",
+    "en": "Shoemaker",
+    "ru": "Сапожник",
+    "ka": "მეწაღე",
+    "ar": "إسكافي"
+  },
+  {
+    "code": "gardener",
+    "group": "positions",
+    "az": "Bağban",
+    "en": "Gardener",
+    "ru": "Садовник",
+    "ka": "მებაღე",
+    "ar": "بستاني"
+  },
+  {
+    "code": "nanny",
+    "group": "positions",
+    "az": "Dayə",
+    "en": "Nanny",
+    "ru": "Няня",
+    "ka": "ძიძა",
+    "ar": "جليسة أطفال"
+  },
+  {
+    "code": "agronomist",
+    "group": "positions",
+    "az": "Aqronom",
+    "en": "Agronomist",
+    "ru": "Агроном",
+    "ka": "აგრონომი",
+    "ar": "مهندس زراعي"
+  },
+  {
+    "code": "zootechnician",
+    "group": "positions",
+    "az": "Zootexnik",
+    "en": "Zootechnician",
+    "ru": "Зоотехник",
+    "ka": "ზოოტექნიკოსი",
+    "ar": "فني إنتاج حيواني"
+  },
+  {
+    "code": "tractor_driver",
+    "group": "positions",
+    "az": "Traktorçu",
+    "en": "Tractor driver",
+    "ru": "Тракторист",
+    "ka": "ტრაქტორისტი",
+    "ar": "سائق تراكتور"
+  },
+  {
+    "code": "farmer",
+    "group": "positions",
+    "az": "Fermer",
+    "en": "Farmer",
+    "ru": "Фермер",
+    "ka": "ფერმერი",
+    "ar": "مزارع"
+  },
+  {
+    "code": "beekeeper",
+    "group": "positions",
+    "az": "Arıçı",
+    "en": "Beekeeper",
+    "ru": "Пчеловод",
+    "ka": "მეფუტკრე",
+    "ar": "نحّال"
+  },
+  {
+    "code": "musician",
+    "group": "positions",
+    "az": "Musiqiçi",
+    "en": "Musician",
+    "ru": "Музыкант",
+    "ka": "მუსიკოსი",
+    "ar": "موسيقي"
+  },
+  {
+    "code": "artist",
+    "group": "positions",
+    "az": "Rəssam",
+    "en": "Artist",
+    "ru": "Художник",
+    "ka": "მხატვარი",
+    "ar": "فنان تشكيلي"
+  },
+  {
+    "code": "actor",
+    "group": "positions",
+    "az": "Aktyor",
+    "en": "Actor",
+    "ru": "Актёр",
+    "ka": "მსახიობი",
+    "ar": "ممثل"
+  }
+]

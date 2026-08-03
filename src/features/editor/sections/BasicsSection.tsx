@@ -1,9 +1,11 @@
 import type { JSX } from "react";
-import { Col, Input, Row, Space } from "antd";
+import { AutoComplete, Col, Input, Row, Space } from "antd";
 import { useTranslation } from "react-i18next";
 import { useResumeStore } from "../../../state/store";
 import { PERSON_NAME } from "../../../utils/patterns";
-import { Field } from "../../../components/form/fields";
+import { useDictionary } from "../../../hooks/useDictionary";
+import { searchKey } from "../../../utils/search";
+import { DictionaryMatch, Field } from "../../../components/form/fields";
 import { AvatarField } from "../../avatar/AvatarField";
 
 function nameError(value: string, requiredKey: string): string | undefined {
@@ -19,6 +21,7 @@ export function BasicsSection(): JSX.Element {
   const { t } = useTranslation();
   const basics = useResumeStore((s) => s.resume.basics);
   const update = useResumeStore((s) => s.updateBasics);
+  const cities = useDictionary("cities");
 
   const firstErr = nameError(basics.firstName, "userFirstnameRequired");
   const lastErr = nameError(basics.lastName, "userLastnameRequired");
@@ -85,14 +88,39 @@ export function BasicsSection(): JSX.Element {
           </Field>
         </Col>
         <Col xs={24} sm={12}>
+          {/* City suggestions from the `cities` dictionary, free text still
+              accepted (§13.1). The typed label is stored as-is and the resolved
+              CODE alongside it — that code is what re-labels the city when the CV
+              language changes, so what is shown here is derived from it. */}
           <Field label={t("fields.location")} name="location">
             {(a11y) => (
-              <Input
+              <AutoComplete
                 {...a11y}
-                value={basics.location ?? ""}
-                maxLength={100}
-                onChange={(e) => update({ location: e.target.value })}
-              />
+                value={cities.resolve(basics.locationCode, basics.location ?? "")}
+                options={cities.options}
+                onChange={(v) =>
+                  update({ location: v, locationCode: cities.findByLabel(v)?.code })
+                }
+                /* Case- AND diacritic-insensitive, so "seki" finds "Şəki" and
+                   "istanbul" finds "İstanbul" — see `utils/search`. */
+                filterOption={(input, option) => {
+                  const needle = searchKey(input);
+                  return (
+                    needle === "" ||
+                    searchKey(String(option?.label ?? "")).includes(needle)
+                  );
+                }}
+              >
+                <Input
+                  maxLength={100}
+                  suffix={
+                    <DictionaryMatch
+                      recognized={Boolean(basics.locationCode)}
+                      title={t("fields.dictionaryMatch")}
+                    />
+                  }
+                />
+              </AutoComplete>
             )}
           </Field>
         </Col>

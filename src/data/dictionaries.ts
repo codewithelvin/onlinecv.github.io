@@ -13,6 +13,10 @@ const loaders: Record<DictionaryGroup, () => Promise<{ default: unknown }>> = {
   nationality: () => import('./nationality.json'),
   universities: () => import('./universities.json'),
   colleges: () => import('./colleges.json'),
+  faculties: () => import('./faculties.json'),
+  specialities: () => import('./specialities.json'),
+  positions: () => import('./positions.json'),
+  cities: () => import('./cities.json'),
 };
 
 const cache = new Map<DictionaryGroup, DictionaryEntry[]>();

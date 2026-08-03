@@ -1,0 +1,2369 @@
+[
+  {
+    "code": "economics",
+    "group": "faculties",
+    "az": "İqtisadiyyat",
+    "en": "Economics",
+    "ru": "Экономика",
+    "ka": "ეკონომიკა",
+    "ar": "الاقتصاد"
+  },
+  {
+    "code": "philology",
+    "group": "faculties",
+    "az": "Filologiya",
+    "en": "Philology",
+    "ru": "Филология",
+    "ka": "ფილოლოგია",
+    "ar": "فقه اللغة"
+  },
+  {
+    "code": "economics_management",
+    "group": "faculties",
+    "az": "İqtisadiyyat və idarəetmə",
+    "en": "Economics and management",
+    "ru": "Экономика и управление",
+    "ka": "ეკონომიკა და მართვა",
+    "ar": "الاقتصاد والإدارة"
+  },
+  {
+    "code": "pedagogical",
+    "group": "faculties",
+    "az": "Pedaqoji",
+    "en": "Pedagogical",
+    "ru": "Педагогический",
+    "ka": "პედაგოგიური",
+    "ar": "التربية"
+  },
+  {
+    "code": "law",
+    "group": "faculties",
+    "az": "Hüquq",
+    "en": "Law",
+    "ru": "Юридический",
+    "ka": "სამართალი",
+    "ar": "القانون"
+  },
+  {
+    "code": "engineering",
+    "group": "faculties",
+    "az": "Mühəndislik",
+    "en": "Engineering",
+    "ru": "Инженерный",
+    "ka": "ინჟინერია",
+    "ar": "الهندسة"
+  },
+  {
+    "code": "history",
+    "group": "faculties",
+    "az": "Tarix",
+    "en": "History",
+    "ru": "История",
+    "ka": "ისტორია",
+    "ar": "التاريخ"
+  },
+  {
+    "code": "finance",
+    "group": "faculties",
+    "az": "Maliyyə",
+    "en": "Finance",
+    "ru": "Финансы",
+    "ka": "ფინანსები",
+    "ar": "المالية"
+  },
+  {
+    "code": "history_geography",
+    "group": "faculties",
+    "az": "Tarix və coğrafiya",
+    "en": "History and geography",
+    "ru": "История и география",
+    "ka": "ისტორია და გეოგრაფია",
+    "ar": "التاريخ والجغرافيا"
+  },
+  {
+    "code": "business_and_management",
+    "group": "faculties",
+    "az": "Biznes və menecment",
+    "en": "Business and management",
+    "ru": "Бизнес и менеджмент",
+    "ka": "ბიზნესი და მენეჯმენტი",
+    "ar": "الأعمال والإدارة"
+  },
+  {
+    "code": "geography",
+    "group": "faculties",
+    "az": "Coğrafiya",
+    "en": "Geography",
+    "ru": "География",
+    "ka": "გეოგრაფია",
+    "ar": "الجغرافيا"
+  },
+  {
+    "code": "transport",
+    "group": "faculties",
+    "az": "Nəqliyyat",
+    "en": "Transport",
+    "ru": "Транспорт",
+    "ka": "ტრანსპორტი",
+    "ar": "النقل"
+  },
+  {
+    "code": "intl_relations_economics",
+    "group": "faculties",
+    "az": "Beynəlxalq münasibətlər və iqtisadiyyat",
+    "en": "International relations and economics",
+    "ru": "Международные отношения и экономика",
+    "ka": "საერთაშორისო ურთიერთობები და ეკონომიკა",
+    "ar": "العلاقات الدولية والاقتصاد"
+  },
+  {
+    "code": "physics",
+    "group": "faculties",
+    "az": "Fizika",
+    "en": "Physics",
+    "ru": "Физика",
+    "ka": "ფიზიკა",
+    "ar": "الفيزياء"
+  },
+  {
+    "code": "biology",
+    "group": "faculties",
+    "az": "Biologiya",
+    "en": "Biology",
+    "ru": "Биология",
+    "ka": "ბიოლოგია",
+    "ar": "الأحياء"
+  },
+  {
+    "code": "chemistry_biology",
+    "group": "faculties",
+    "az": "Kimya və biologiya",
+    "en": "Chemistry and biology",
+    "ru": "Химия и биология",
+    "ka": "ქიმია და ბიოლოგია",
+    "ar": "الكيمياء والأحياء"
+  },
+  {
+    "code": "chemistry",
+    "group": "faculties",
+    "az": "Kimya",
+    "en": "Chemistry",
+    "ru": "Химия",
+    "ka": "ქიმია",
+    "ar": "الكيمياء"
+  },
+  {
+    "code": "mathematics",
+    "group": "faculties",
+    "az": "Riyaziyyat",
+    "en": "Mathematics",
+    "ru": "Математика",
+    "ka": "მათემატიკა",
+    "ar": "الرياضيات"
+  },
+  {
+    "code": "treatment",
+    "group": "faculties",
+    "az": "Müalicə işi",
+    "en": "General medicine",
+    "ru": "Лечебное дело",
+    "ka": "სამკურნალო საქმე",
+    "ar": "الطب العلاجي"
+  },
+  {
+    "code": "education",
+    "group": "faculties",
+    "az": "Təhsil",
+    "en": "Education",
+    "ru": "Образование",
+    "ka": "განათლება",
+    "ar": "التعليم"
+  },
+  {
+    "code": "math_informatics",
+    "group": "faculties",
+    "az": "Riyaziyyat və informatika",
+    "en": "Mathematics and informatics",
+    "ru": "Математика и информатика",
+    "ka": "მათემატიკა და ინფორმატიკა",
+    "ar": "الرياضيات والمعلوماتية"
+  },
+  {
+    "code": "business_administration",
+    "group": "faculties",
+    "az": "Biznesin idarə edilməsi",
+    "en": "Business administration",
+    "ru": "Управление бизнесом",
+    "ka": "ბიზნესის ადმინისტრირება",
+    "ar": "إدارة الأعمال"
+  },
+  {
+    "code": "intl_relations",
+    "group": "faculties",
+    "az": "Beynəlxalq münasibətlər",
+    "en": "International relations",
+    "ru": "Международные отношения",
+    "ka": "საერთაშორისო ურთიერთობები",
+    "ar": "العلاقات الدولية"
+  },
+  {
+    "code": "social_sciences_psychology",
+    "group": "faculties",
+    "az": "Sosial elmlər və psixologiya",
+    "en": "Social sciences and psychology",
+    "ru": "Социальные науки и психология",
+    "ka": "სოციალური მეცნიერებები და ფსიქოლოგია",
+    "ar": "العلوم الاجتماعية وعلم النفس"
+  },
+  {
+    "code": "energy",
+    "group": "faculties",
+    "az": "Energetika",
+    "en": "Energy",
+    "ru": "Энергетика",
+    "ka": "ენერგეტიკა",
+    "ar": "الطاقة"
+  },
+  {
+    "code": "applied_math_cybernetics",
+    "group": "faculties",
+    "az": "Tətbiqi riyaziyyat və kibernetika",
+    "en": "Applied mathematics and cybernetics",
+    "ru": "Прикладная математика и кибернетика",
+    "ka": "გამოყენებითი მათემატიკა და კიბერნეტიკა",
+    "ar": "الرياضيات التطبيقية والسيبرنيطيقا"
+  },
+  {
+    "code": "accounting",
+    "group": "faculties",
+    "az": "Mühasibat uçotu",
+    "en": "Accounting",
+    "ru": "Бухгалтерский учёт",
+    "ka": "ბუღალტრული აღრიცხვა",
+    "ar": "المحاسبة"
+  },
+  {
+    "code": "management",
+    "group": "faculties",
+    "az": "Menecment",
+    "en": "Management",
+    "ru": "Менеджмент",
+    "ka": "მენეჯმენტი",
+    "ar": "الإدارة"
+  },
+  {
+    "code": "accounting_audit",
+    "group": "faculties",
+    "az": "Mühasibat uçotu və audit",
+    "en": "Accounting and audit",
+    "ru": "Бухгалтерский учёт и аудит",
+    "ka": "ბუღალტრული აღრიცხვა და აუდიტი",
+    "ar": "المحاسبة والتدقيق"
+  },
+  {
+    "code": "mechanics_mathematics",
+    "group": "faculties",
+    "az": "Mexanika-riyaziyyat",
+    "en": "Mechanics and mathematics",
+    "ru": "Механико-математический",
+    "ka": "მექანიკა-მათემატიკა",
+    "ar": "الميكانيكا والرياضيات"
+  },
+  {
+    "code": "oil_gas_field",
+    "group": "faculties",
+    "az": "Neft-qaz mədən",
+    "en": "Oil and gas production",
+    "ru": "Нефтегазопромысловый",
+    "ka": "ნავთობისა და გაზის მოპოვება",
+    "ar": "حقول النفط والغاز"
+  },
+  {
+    "code": "general_economics",
+    "group": "faculties",
+    "az": "Ümumi iqtisadiyyat",
+    "en": "General economics",
+    "ru": "Общая экономика",
+    "ka": "ზოგადი ეკონომიკა",
+    "ar": "الاقتصاد العام"
+  },
+  {
+    "code": "foreign_languages",
+    "group": "faculties",
+    "az": "Xarici dillər",
+    "en": "Foreign languages",
+    "ru": "Иностранные языки",
+    "ka": "უცხო ენები",
+    "ar": "اللغات الأجنبية"
+  },
+  {
+    "code": "finance_accounting",
+    "group": "faculties",
+    "az": "Maliyyə və mühasibat",
+    "en": "Finance and accounting",
+    "ru": "Финансы и бухгалтерия",
+    "ka": "ფინანსები და ბუღალტერია",
+    "ar": "المالية والمحاسبة"
+  },
+  {
+    "code": "oil_mechanics",
+    "group": "faculties",
+    "az": "Neft-mexanika",
+    "en": "Oil mechanics",
+    "ru": "Нефтемеханический",
+    "ka": "ნავთობის მექანიკა",
+    "ar": "ميكانيكا النفط"
+  },
+  {
+    "code": "jurisprudence",
+    "group": "faculties",
+    "az": "Hüquqşünaslıq",
+    "en": "Jurisprudence",
+    "ru": "Правоведение",
+    "ka": "სამართალმცოდნეობა",
+    "ar": "الحقوق"
+  },
+  {
+    "code": "administration",
+    "group": "faculties",
+    "az": "İdarəetmə",
+    "en": "Administration",
+    "ru": "Управление",
+    "ka": "მართვა",
+    "ar": "التسيير"
+  },
+  {
+    "code": "translation",
+    "group": "faculties",
+    "az": "Tərcümə",
+    "en": "Translation",
+    "ru": "Перевод",
+    "ka": "თარგმანი",
+    "ar": "الترجمة"
+  },
+  {
+    "code": "public_administration",
+    "group": "faculties",
+    "az": "İnzibati idarəetmə",
+    "en": "Public administration",
+    "ru": "Административное управление",
+    "ka": "ადმინისტრაციული მართვა",
+    "ar": "الإدارة العامة"
+  },
+  {
+    "code": "journalism",
+    "group": "faculties",
+    "az": "Jurnalistika",
+    "en": "Journalism",
+    "ru": "Журналистика",
+    "ka": "ჟურნალისტიკა",
+    "ar": "الصحافة"
+  },
+  {
+    "code": "construction",
+    "group": "faculties",
+    "az": "İnşaat",
+    "en": "Construction",
+    "ru": "Строительство",
+    "ka": "მშენებლობა",
+    "ar": "البناء"
+  },
+  {
+    "code": "it_management",
+    "group": "faculties",
+    "az": "İnformasiya texnologiyaları və idarəetmə",
+    "en": "Information technologies and management",
+    "ru": "Информационные технологии и управление",
+    "ka": "ინფორმაციული ტექნოლოგიები და მართვა",
+    "ar": "تقنية المعلومات والإدارة"
+  },
+  {
+    "code": "geology",
+    "group": "faculties",
+    "az": "Geologiya",
+    "en": "Geology",
+    "ru": "Геология",
+    "ka": "გეოლოგია",
+    "ar": "الجيولوجيا"
+  },
+  {
+    "code": "primary_education",
+    "group": "faculties",
+    "az": "İbtidai təhsil",
+    "en": "Primary education",
+    "ru": "Начальное образование",
+    "ka": "დაწყებითი განათლება",
+    "ar": "التعليم الابتدائي"
+  },
+  {
+    "code": "intl_economic_relations",
+    "group": "faculties",
+    "az": "Beynəlxalq iqtisadi münasibətlər",
+    "en": "International economic relations",
+    "ru": "Международные экономические отношения",
+    "ka": "საერთაშორისო ეკონომიკური ურთიერთობები",
+    "ar": "العلاقات الاقتصادية الدولية"
+  },
+  {
+    "code": "construction_economics",
+    "group": "faculties",
+    "az": "Tikinti-iqtisad",
+    "en": "Construction economics",
+    "ru": "Строительно-экономический",
+    "ka": "მშენებლობის ეკონომიკა",
+    "ar": "اقتصاد البناء"
+  },
+  {
+    "code": "social_work",
+    "group": "faculties",
+    "az": "Sosial iş",
+    "en": "Social work",
+    "ru": "Социальная работа",
+    "ka": "სოციალური მუშაობა",
+    "ar": "العمل الاجتماعي"
+  },
+  {
+    "code": "agronomy",
+    "group": "faculties",
+    "az": "Aqronomluq",
+    "en": "Agronomy",
+    "ru": "Агрономия",
+    "ka": "აგრონომია",
+    "ar": "علم الزراعة"
+  },
+  {
+    "code": "primary_teaching",
+    "group": "faculties",
+    "az": "İbtidai sinif müəllimliyi",
+    "en": "Primary school teaching",
+    "ru": "Преподавание в начальных классах",
+    "ka": "დაწყებითი კლასების მასწავლებლობა",
+    "ar": "تعليم المرحلة الابتدائية"
+  },
+  {
+    "code": "oriental_studies",
+    "group": "faculties",
+    "az": "Şərqşünaslıq",
+    "en": "Oriental studies",
+    "ru": "Востоковедение",
+    "ka": "აღმოსავლეთმცოდნეობა",
+    "ar": "الدراسات الشرقية"
+  },
+  {
+    "code": "preschool_education",
+    "group": "faculties",
+    "az": "Məktəbəqədər təhsil",
+    "en": "Preschool education",
+    "ru": "Дошкольное образование",
+    "ka": "სკოლამდელი განათლება",
+    "ar": "التعليم ما قبل المدرسي"
+  },
+  {
+    "code": "nursing",
+    "group": "faculties",
+    "az": "Tibb bacısı işi",
+    "en": "Nursing",
+    "ru": "Сестринское дело",
+    "ka": "საექთნო საქმე",
+    "ar": "التمريض"
+  },
+  {
+    "code": "design",
+    "group": "faculties",
+    "az": "Dizayn",
+    "en": "Design",
+    "ru": "Дизайн",
+    "ka": "დიზაინი",
+    "ar": "التصميم"
+  },
+  {
+    "code": "chemical_technology",
+    "group": "faculties",
+    "az": "Kimya texnologiyası",
+    "en": "Chemical technology",
+    "ru": "Химическая технология",
+    "ka": "ქიმიური ტექნოლოგია",
+    "ar": "التكنولوجيا الكيميائية"
+  },
+  {
+    "code": "banking",
+    "group": "faculties",
+    "az": "Bank işi",
+    "en": "Banking",
+    "ru": "Банковское дело",
+    "ka": "საბანკო საქმე",
+    "ar": "الأعمال المصرفية"
+  },
+  {
+    "code": "ecology",
+    "group": "faculties",
+    "az": "Ekologiya",
+    "en": "Ecology",
+    "ru": "Экология",
+    "ka": "ეკოლოგია",
+    "ar": "علم البيئة"
+  },
+  {
+    "code": "finance_affairs",
+    "group": "faculties",
+    "az": "Maliyyə işi",
+    "en": "Financial affairs",
+    "ru": "Финансовое дело",
+    "ka": "ფინანსური საქმე",
+    "ar": "الشؤون المالية"
+  },
+  {
+    "code": "pharmacy",
+    "group": "faculties",
+    "az": "Əczaçılıq",
+    "en": "Pharmacy",
+    "ru": "Фармация",
+    "ka": "ფარმაცია",
+    "ar": "الصيدلة"
+  },
+  {
+    "code": "tourism",
+    "group": "faculties",
+    "az": "Turizm",
+    "en": "Tourism",
+    "ru": "Туризм",
+    "ka": "ტურიზმი",
+    "ar": "السياحة"
+  },
+  {
+    "code": "finance_credit",
+    "group": "faculties",
+    "az": "Maliyyə və kredit",
+    "en": "Finance and credit",
+    "ru": "Финансы и кредит",
+    "ka": "ფინანსები და კრედიტი",
+    "ar": "المالية والقروض"
+  },
+  {
+    "code": "english_language",
+    "group": "faculties",
+    "az": "İngilis dili",
+    "en": "English language",
+    "ru": "Английский язык",
+    "ka": "ინგლისური ენა",
+    "ar": "اللغة الإنجليزية"
+  },
+  {
+    "code": "intl_relations_regional",
+    "group": "faculties",
+    "az": "Beynəlxalq münasibətlər və regionşünaslıq",
+    "en": "International relations and regional studies",
+    "ru": "Международные отношения и регионоведение",
+    "ka": "საერთაშორისო ურთიერთობები და რეგიონმცოდნეობა",
+    "ar": "العلاقات الدولية والدراسات الإقليمية"
+  },
+  {
+    "code": "culturology",
+    "group": "faculties",
+    "az": "Kulturologiya",
+    "en": "Culturology",
+    "ru": "Культурология",
+    "ka": "კულტუროლოგია",
+    "ar": "علم الثقافة"
+  },
+  {
+    "code": "business_organization",
+    "group": "faculties",
+    "az": "Biznesin təşkili və idarə edilməsi",
+    "en": "Business organization and management",
+    "ru": "Организация и управление бизнесом",
+    "ka": "ბიზნესის ორგანიზება და მართვა",
+    "ar": "تنظيم وإدارة الأعمال"
+  },
+  {
+    "code": "geological_exploration",
+    "group": "faculties",
+    "az": "Geoloji kəşfiyyat",
+    "en": "Geological exploration",
+    "ru": "Геологическая разведка",
+    "ka": "გეოლოგიური ძიება",
+    "ar": "الاستكشاف الجيولوجي"
+  },
+  {
+    "code": "architecture",
+    "group": "faculties",
+    "az": "Memarlıq",
+    "en": "Architecture",
+    "ru": "Архитектура",
+    "ka": "არქიტექტურა",
+    "ar": "الهندسة المعمارية"
+  },
+  {
+    "code": "merchandising",
+    "group": "faculties",
+    "az": "Əmtəəşünaslıq",
+    "en": "Merchandising",
+    "ru": "Товароведение",
+    "ka": "სასაქონლომცოდნეობა",
+    "ar": "علم البضائع"
+  },
+  {
+    "code": "world_economy",
+    "group": "faculties",
+    "az": "Dünya iqtisadiyyatı",
+    "en": "World economy",
+    "ru": "Мировая экономика",
+    "ka": "მსოფლიო ეკონომიკა",
+    "ar": "الاقتصاد العالمي"
+  },
+  {
+    "code": "treatment_prophylaxis",
+    "group": "faculties",
+    "az": "Müalicə-profilaktika",
+    "en": "Medical treatment and prophylaxis",
+    "ru": "Лечебно-профилактическое дело",
+    "ka": "სამკურნალო-პროფილაქტიკური საქმე",
+    "ar": "الطب العلاجي والوقائي"
+  },
+  {
+    "code": "physics_electric_power",
+    "group": "faculties",
+    "az": "Fizika və elektroenergetika",
+    "en": "Physics and electrical power",
+    "ru": "Физика и электроэнергетика",
+    "ka": "ფიზიკა და ელექტროენერგეტიკა",
+    "ar": "الفيزياء والطاقة الكهربائية"
+  },
+  {
+    "code": "family_home_education",
+    "group": "faculties",
+    "az": "Ailə və ev təhsili",
+    "en": "Family and home education",
+    "ru": "Семейное и домашнее обучение",
+    "ka": "ოჯახური და საშინაო განათლება",
+    "ar": "التعليم الأسري والمنزلي"
+  },
+  {
+    "code": "business_economics",
+    "group": "faculties",
+    "az": "Biznes və iqtisadiyyat",
+    "en": "Business and economics",
+    "ru": "Бизнес и экономика",
+    "ka": "ბიზნესი და ეკონომიკა",
+    "ar": "الأعمال والاقتصاد"
+  },
+  {
+    "code": "transport_logistics",
+    "group": "faculties",
+    "az": "Nəqliyyat və logistika",
+    "en": "Transport and logistics",
+    "ru": "Транспорт и логистика",
+    "ka": "ტრანსპორტი და ლოგისტიკა",
+    "ar": "النقل واللوجستيات"
+  },
+  {
+    "code": "information_technologies",
+    "group": "faculties",
+    "az": "İnformasiya texnologiyaları",
+    "en": "Information technologies",
+    "ru": "Информационные технологии",
+    "ka": "ინფორმაციული ტექნოლოგიები",
+    "ar": "تقنية المعلومات"
+  },
+  {
+    "code": "metallurgy",
+    "group": "faculties",
+    "az": "Metallurgiya",
+    "en": "Metallurgy",
+    "ru": "Металлургия",
+    "ka": "მეტალურგია",
+    "ar": "علم المعادن"
+  },
+  {
+    "code": "preschool_teaching",
+    "group": "faculties",
+    "az": "Məktəbəqədər təlim və tərbiyə",
+    "en": "Preschool teaching and upbringing",
+    "ru": "Дошкольное обучение и воспитание",
+    "ka": "სკოლამდელი აღზრდა",
+    "ar": "التعليم والتربية في مرحلة ما قبل المدرسة"
+  },
+  {
+    "code": "ecology_soil_science",
+    "group": "faculties",
+    "az": "Ekologiya və torpaqşünaslıq",
+    "en": "Ecology and soil science",
+    "ru": "Экология и почвоведение",
+    "ka": "ეკოლოგია და ნიადაგმცოდნეობა",
+    "ar": "علم البيئة وعلم التربة"
+  },
+  {
+    "code": "psychology",
+    "group": "faculties",
+    "az": "Psixologiya",
+    "en": "Psychology",
+    "ru": "Психология",
+    "ka": "ფსიქოლოგია",
+    "ar": "علم النفس"
+  },
+  {
+    "code": "regional_studies_economics",
+    "group": "faculties",
+    "az": "Regionşünaslıq və iqtisadiyyat",
+    "en": "Regional studies and economics",
+    "ru": "Регионоведение и экономика",
+    "ka": "რეგიონმცოდნეობა და ეკონომიკა",
+    "ar": "الدراسات الإقليمية والاقتصاد"
+  },
+  {
+    "code": "technology_design",
+    "group": "faculties",
+    "az": "Texnologiya və dizayn",
+    "en": "Technology and design",
+    "ru": "Технология и дизайн",
+    "ka": "ტექნოლოგია და დიზაინი",
+    "ar": "التكنولوجيا والتصميم"
+  },
+  {
+    "code": "medicine",
+    "group": "faculties",
+    "az": "Tibb",
+    "en": "Medicine",
+    "ru": "Медицина",
+    "ka": "მედიცინა",
+    "ar": "الطب"
+  },
+  {
+    "code": "coaching",
+    "group": "faculties",
+    "az": "Məşqçilik",
+    "en": "Sports coaching",
+    "ru": "Тренерское дело",
+    "ka": "მწვრთნელობა",
+    "ar": "التدريب الرياضي"
+  },
+  {
+    "code": "tourism_hospitality",
+    "group": "faculties",
+    "az": "Turizm və qonaqpərvərlik",
+    "en": "Tourism and hospitality",
+    "ru": "Туризм и гостеприимство",
+    "ka": "ტურიზმი და მასპინძლობა",
+    "ar": "السياحة والضيافة"
+  },
+  {
+    "code": "history_philology",
+    "group": "faculties",
+    "az": "Tarix-filologiya",
+    "en": "History and philology",
+    "ru": "Историко-филологический",
+    "ka": "ისტორია-ფილოლოგია",
+    "ar": "التاريخ وفقه اللغة"
+  },
+  {
+    "code": "commerce",
+    "group": "faculties",
+    "az": "Kommersiya",
+    "en": "Commerce",
+    "ru": "Коммерция",
+    "ka": "კომერცია",
+    "ar": "التجارة"
+  },
+  {
+    "code": "foreign_lang_teaching",
+    "group": "faculties",
+    "az": "Xarici dil müəllimliyi",
+    "en": "Foreign language teaching",
+    "ru": "Преподавание иностранного языка",
+    "ka": "უცხო ენის მასწავლებლობა",
+    "ar": "تعليم اللغات الأجنبية"
+  },
+  {
+    "code": "machine_building",
+    "group": "faculties",
+    "az": "Maşınqayırma",
+    "en": "Machine building",
+    "ru": "Машиностроение",
+    "ka": "მანქანათმშენებლობა",
+    "ar": "بناء الآلات"
+  },
+  {
+    "code": "pediatrics",
+    "group": "faculties",
+    "az": "Pediatriya",
+    "en": "Pediatrics",
+    "ru": "Педиатрия",
+    "ka": "პედიატრია",
+    "ar": "طب الأطفال"
+  },
+  {
+    "code": "political_management",
+    "group": "faculties",
+    "az": "Siyasi idarəetmə",
+    "en": "Political management",
+    "ru": "Политическое управление",
+    "ka": "პოლიტიკური მართვა",
+    "ar": "الإدارة السياسية"
+  },
+  {
+    "code": "mechanics_it",
+    "group": "faculties",
+    "az": "Mexanika və informasiya texnologiyaları",
+    "en": "Mechanics and information technologies",
+    "ru": "Механика и информационные технологии",
+    "ka": "მექანიკა და ინფორმაციული ტექნოლოგიები",
+    "ar": "الميكانيكا وتقنية المعلومات"
+  },
+  {
+    "code": "agrarian_engineering",
+    "group": "faculties",
+    "az": "Aqrar və mühəndislik",
+    "en": "Agrarian studies and engineering",
+    "ru": "Аграрно-инженерный",
+    "ka": "აგრარული და საინჟინრო",
+    "ar": "الزراعة والهندسة"
+  },
+  {
+    "code": "water_engineering",
+    "group": "faculties",
+    "az": "Su təsərrüfatı və mühəndis kommunikasiya sistemləri",
+    "en": "Water management and engineering communication systems",
+    "ru": "Водное хозяйство и инженерные коммуникационные системы",
+    "ka": "წყლის მეურნეობა და საინჟინრო კომუნიკაციები",
+    "ar": "إدارة المياه وأنظمة الاتصالات الهندسية"
+  },
+  {
+    "code": "dentistry",
+    "group": "faculties",
+    "az": "Stomatologiya",
+    "en": "Dentistry",
+    "ru": "Стоматология",
+    "ka": "სტომატოლოგია",
+    "ar": "طب الأسنان"
+  },
+  {
+    "code": "humanities_social_sciences",
+    "group": "faculties",
+    "az": "Humanitar və sosial elmlər",
+    "en": "Humanities and social sciences",
+    "ru": "Гуманитарные и социальные науки",
+    "ka": "ჰუმანიტარული და სოციალური მეცნიერებები",
+    "ar": "العلوم الإنسانية والاجتماعية"
+  },
+  {
+    "code": "painting_art",
+    "group": "faculties",
+    "az": "Rəssamlıq",
+    "en": "Painting",
+    "ru": "Живопись",
+    "ka": "ფერწერა",
+    "ar": "الرسم"
+  },
+  {
+    "code": "energy_automation",
+    "group": "faculties",
+    "az": "Energetika və avtomatika",
+    "en": "Energy and automation",
+    "ru": "Энергетика и автоматика",
+    "ka": "ენერგეტიკა და ავტომატიკა",
+    "ar": "الطاقة والأتمتة"
+  },
+  {
+    "code": "humanities",
+    "group": "faculties",
+    "az": "Humanitar elmlər",
+    "en": "Humanities",
+    "ru": "Гуманитарные науки",
+    "ka": "ჰუმანიტარული მეცნიერებები",
+    "ar": "العلوم الإنسانية"
+  },
+  {
+    "code": "digital_economy",
+    "group": "faculties",
+    "az": "Rəqəmsal iqtisadiyyat",
+    "en": "Digital economy",
+    "ru": "Цифровая экономика",
+    "ka": "ციფრული ეკონომიკა",
+    "ar": "الاقتصاد الرقمي"
+  },
+  {
+    "code": "marketing",
+    "group": "faculties",
+    "az": "Marketinq",
+    "en": "Marketing",
+    "ru": "Маркетинг",
+    "ka": "მარკეტინგი",
+    "ar": "التسويق"
+  },
+  {
+    "code": "social_pedagogy",
+    "group": "faculties",
+    "az": "Sosial-pedaqoji",
+    "en": "Social pedagogy",
+    "ru": "Социально-педагогический",
+    "ka": "სოციალურ-პედაგოგიური",
+    "ar": "التربية الاجتماعية"
+  },
+  {
+    "code": "special_technology",
+    "group": "faculties",
+    "az": "Xüsusi texnika və texnologiya",
+    "en": "Special machinery and technology",
+    "ru": "Специальная техника и технология",
+    "ka": "სპეციალური ტექნიკა და ტექნოლოგია",
+    "ar": "التقنيات والتكنولوجيا الخاصة"
+  },
+  {
+    "code": "art_studies",
+    "group": "faculties",
+    "az": "Sənətşünaslıq",
+    "en": "Art studies",
+    "ru": "Искусствоведение",
+    "ka": "ხელოვნებათმცოდნეობა",
+    "ar": "علم الفنون"
+  },
+  {
+    "code": "info_telecom_technologies",
+    "group": "faculties",
+    "az": "İnformasiya və telekommunikasiya texnologiyaları",
+    "en": "Information and telecommunication technologies",
+    "ru": "Информационные и телекоммуникационные технологии",
+    "ka": "ინფორმაციული და ტელეკომუნიკაციო ტექნოლოგიები",
+    "ar": "تقنيات المعلومات والاتصالات"
+  },
+  {
+    "code": "agribusiness_management",
+    "group": "faculties",
+    "az": "Aqrobiznes və idarəetmə",
+    "en": "Agribusiness and management",
+    "ru": "Агробизнес и управление",
+    "ka": "აგრობიზნესი და მართვა",
+    "ar": "الأعمال الزراعية والإدارة"
+  },
+  {
+    "code": "sabah_groups",
+    "group": "faculties",
+    "az": "SABAH qrupları",
+    "en": "SABAH groups",
+    "ru": "Группы SABAH",
+    "ka": "SABAH-ის ჯგუფები",
+    "ar": "مجموعات صباح"
+  },
+  {
+    "code": "physical_education_sport",
+    "group": "faculties",
+    "az": "Bədən tərbiyəsi və idman",
+    "en": "Physical education and sport",
+    "ru": "Физическое воспитание и спорт",
+    "ka": "ფიზიკური აღზრდა და სპორტი",
+    "ar": "التربية البدنية والرياضة"
+  },
+  {
+    "code": "physics_mathematics",
+    "group": "faculties",
+    "az": "Fizika-riyaziyyat",
+    "en": "Physics and mathematics",
+    "ru": "Физико-математический",
+    "ka": "ფიზიკა-მათემატიკა",
+    "ar": "الفيزياء والرياضيات"
+  },
+  {
+    "code": "engineering_economics",
+    "group": "faculties",
+    "az": "Mühəndis iqtisadiyyatı və idarəetmə",
+    "en": "Engineering economics and management",
+    "ru": "Инженерная экономика и управление",
+    "ka": "საინჟინრო ეკონომიკა და მართვა",
+    "ar": "الاقتصاد الهندسي والإدارة"
+  },
+  {
+    "code": "school_psychological_service",
+    "group": "faculties",
+    "az": "Təhsildə sosial-psixoloji xidmət",
+    "en": "Social and psychological services in education",
+    "ru": "Социально-психологическая служба в образовании",
+    "ka": "სოციალურ-ფსიქოლოგიური სამსახური განათლებაში",
+    "ar": "الخدمة الاجتماعية والنفسية في التعليم"
+  },
+  {
+    "code": "computer_engineering",
+    "group": "faculties",
+    "az": "Kompüter mühəndisliyi",
+    "en": "Computer engineering",
+    "ru": "Компьютерная инженерия",
+    "ka": "კომპიუტერული ინჟინერია",
+    "ar": "هندسة الحاسوب"
+  },
+  {
+    "code": "agrotechnology",
+    "group": "faculties",
+    "az": "Aqrotexnologiya",
+    "en": "Agrotechnology",
+    "ru": "Агротехнология",
+    "ka": "აგროტექნოლოგია",
+    "ar": "التكنولوجيا الزراعية"
+  },
+  {
+    "code": "food_engineering",
+    "group": "faculties",
+    "az": "Qida mühəndisliyi",
+    "en": "Food engineering",
+    "ru": "Пищевая инженерия",
+    "ka": "კვების ინჟინერია",
+    "ar": "هندسة الأغذية"
+  },
+  {
+    "code": "russian_school_economics",
+    "group": "faculties",
+    "az": "Rus İqtisad Məktəbi",
+    "en": "Russian School of Economics",
+    "ru": "Русская экономическая школа",
+    "ka": "რუსული ეკონომიკის სკოლა",
+    "ar": "المدرسة الروسية للاقتصاد"
+  },
+  {
+    "code": "radio_engineering_communication",
+    "group": "faculties",
+    "az": "Radiotexnika və rabitə",
+    "en": "Radio engineering and communication",
+    "ru": "Радиотехника и связь",
+    "ka": "რადიოტექნიკა და კავშირგაბმულობა",
+    "ar": "الهندسة الراديوية والاتصالات"
+  },
+  {
+    "code": "natural_history",
+    "group": "faculties",
+    "az": "Təbiətşünaslıq",
+    "en": "Natural science",
+    "ru": "Естествознание",
+    "ka": "ბუნებისმეტყველება",
+    "ar": "العلوم الطبيعية"
+  },
+  {
+    "code": "instrumental_performance",
+    "group": "faculties",
+    "az": "İnstrumental ifaçılıq",
+    "en": "Instrumental performance",
+    "ru": "Инструментальное исполнительство",
+    "ka": "ინსტრუმენტული შესრულება",
+    "ar": "العزف الآلي"
+  },
+  {
+    "code": "english_teaching",
+    "group": "faculties",
+    "az": "İngilis dili müəllimliyi",
+    "en": "English language teaching",
+    "ru": "Преподавание английского языка",
+    "ka": "ინგლისური ენის მასწავლებლობა",
+    "ar": "تعليم اللغة الإنجليزية"
+  },
+  {
+    "code": "tourism_hotel",
+    "group": "faculties",
+    "az": "Turizm və otelçilik",
+    "en": "Tourism and hotel management",
+    "ru": "Туризм и гостиничное дело",
+    "ka": "ტურიზმი და სასტუმრო საქმე",
+    "ar": "السياحة وإدارة الفنادق"
+  },
+  {
+    "code": "electrical_engineering_energy",
+    "group": "faculties",
+    "az": "Elektrotexnika və energetika",
+    "en": "Electrical engineering and power",
+    "ru": "Электротехника и энергетика",
+    "ka": "ელექტროტექნიკა და ენერგეტიკა",
+    "ar": "الهندسة الكهربائية والطاقة"
+  },
+  {
+    "code": "natural_science_agriculture",
+    "group": "faculties",
+    "az": "Təbiətşünaslıq və kənd təsərrüfatı",
+    "en": "Natural sciences and agriculture",
+    "ru": "Естествознание и сельское хозяйство",
+    "ka": "ბუნებისმეტყველება და სოფლის მეურნეობა",
+    "ar": "العلوم الطبيعية والزراعة"
+  },
+  {
+    "code": "architecture_engineering",
+    "group": "faculties",
+    "az": "Memarlıq və mühəndislik",
+    "en": "Architecture and engineering",
+    "ru": "Архитектура и инженерия",
+    "ka": "არქიტექტურა და ინჟინერია",
+    "ar": "الهندسة المعمارية والهندسية"
+  },
+  {
+    "code": "industrial_organization",
+    "group": "faculties",
+    "az": "Sənayenin təşkili və idarə olunması",
+    "en": "Industrial organization and management",
+    "ru": "Организация и управление промышленностью",
+    "ka": "მრეწველობის ორგანიზება და მართვა",
+    "ar": "تنظيم وإدارة الصناعة"
+  },
+  {
+    "code": "traffic_organization",
+    "group": "faculties",
+    "az": "Yol hərəkətinin təşkili",
+    "en": "Traffic organization",
+    "ru": "Организация дорожного движения",
+    "ka": "საგზაო მოძრაობის ორგანიზება",
+    "ar": "تنظيم حركة المرور"
+  },
+  {
+    "code": "medical_prophylaxis",
+    "group": "faculties",
+    "az": "Tibbi profilaktika",
+    "en": "Medical prophylaxis",
+    "ru": "Медицинская профилактика",
+    "ka": "სამედიცინო პროფილაქტიკა",
+    "ar": "الوقاية الطبية"
+  },
+  {
+    "code": "state_municipal_administration",
+    "group": "faculties",
+    "az": "Dövlət və bələdiyyə idarəetməsi",
+    "en": "State and municipal administration",
+    "ru": "Государственное и муниципальное управление",
+    "ka": "სახელმწიფო და მუნიციპალური მართვა",
+    "ar": "الإدارة الحكومية والبلدية"
+  },
+  {
+    "code": "machine_building_robotics",
+    "group": "faculties",
+    "az": "Maşınqayırma və robototexnika",
+    "en": "Machine building and robotics",
+    "ru": "Машиностроение и робототехника",
+    "ka": "მანქანათმშენებლობა და რობოტიკა",
+    "ar": "بناء الآلات والروبوتات"
+  },
+  {
+    "code": "midwifery",
+    "group": "faculties",
+    "az": "Mamalıq işi",
+    "en": "Midwifery",
+    "ru": "Акушерское дело",
+    "ka": "მეანობა",
+    "ar": "القبالة"
+  },
+  {
+    "code": "air_transport",
+    "group": "faculties",
+    "az": "Hava nəqliyyatı",
+    "en": "Air transport",
+    "ru": "Воздушный транспорт",
+    "ka": "საჰაერო ტრანსპორტი",
+    "ar": "النقل الجوي"
+  },
+  {
+    "code": "aerospace",
+    "group": "faculties",
+    "az": "Aerokosmik",
+    "en": "Aerospace",
+    "ru": "Аэрокосмический",
+    "ka": "აეროკოსმოსური",
+    "ar": "الفضاء الجوي"
+  },
+  {
+    "code": "computer_science",
+    "group": "faculties",
+    "az": "Kompüter elmləri",
+    "en": "Computer science",
+    "ru": "Компьютерные науки",
+    "ka": "კომპიუტერული მეცნიერებები",
+    "ar": "علوم الحاسوب"
+  },
+  {
+    "code": "informatics",
+    "group": "faculties",
+    "az": "İnformatika",
+    "en": "Informatics",
+    "ru": "Информатика",
+    "ka": "ინფორმატიკა",
+    "ar": "المعلوماتية"
+  },
+  {
+    "code": "soil_science_agrochemistry",
+    "group": "faculties",
+    "az": "Torpaqşünaslıq və aqrokimya",
+    "en": "Soil science and agrochemistry",
+    "ru": "Почвоведение и агрохимия",
+    "ka": "ნიადაგმცოდნეობა და აგროქიმია",
+    "ar": "علم التربة والكيمياء الزراعية"
+  },
+  {
+    "code": "vocational_training",
+    "group": "faculties",
+    "az": "Peşə təlimi",
+    "en": "Vocational training",
+    "ru": "Профессиональное обучение",
+    "ka": "პროფესიული მომზადება",
+    "ar": "التدريب المهني"
+  },
+  {
+    "code": "civil_engineering",
+    "group": "faculties",
+    "az": "İnşaat mühəndisliyi",
+    "en": "Civil engineering",
+    "ru": "Строительная инженерия",
+    "ka": "სამოქალაქო ინჟინერია",
+    "ar": "الهندسة المدنية"
+  },
+  {
+    "code": "economics_law",
+    "group": "faculties",
+    "az": "İqtisadiyyat və hüquq",
+    "en": "Economics and law",
+    "ru": "Экономика и право",
+    "ka": "ეკონომიკა და სამართალი",
+    "ar": "الاقتصاد والقانون"
+  },
+  {
+    "code": "customs",
+    "group": "faculties",
+    "az": "Gömrük işi",
+    "en": "Customs",
+    "ru": "Таможенное дело",
+    "ka": "საბაჟო საქმე",
+    "ar": "الجمارك"
+  },
+  {
+    "code": "intl_law",
+    "group": "faculties",
+    "az": "Beynəlxalq hüquq",
+    "en": "International law",
+    "ru": "Международное право",
+    "ka": "საერთაშორისო სამართალი",
+    "ar": "القانون الدولي"
+  },
+  {
+    "code": "library_information",
+    "group": "faculties",
+    "az": "Kitabxanaçılıq və informasiya",
+    "en": "Library and information science",
+    "ru": "Библиотековедение и информация",
+    "ka": "ბიბლიოთეკათმცოდნეობა და ინფორმაცია",
+    "ar": "علم المكتبات والمعلومات"
+  },
+  {
+    "code": "social_management",
+    "group": "faculties",
+    "az": "Sosial menecment",
+    "en": "Social management",
+    "ru": "Социальный менеджмент",
+    "ka": "სოციალური მენეჯმენტი",
+    "ar": "الإدارة الاجتماعية"
+  },
+  {
+    "code": "math_informatics_teaching",
+    "group": "faculties",
+    "az": "Riyaziyyat və informatika müəllimliyi",
+    "en": "Mathematics and informatics teaching",
+    "ru": "Преподавание математики и информатики",
+    "ka": "მათემატიკისა და ინფორმატიკის მასწავლებლობა",
+    "ar": "تعليم الرياضيات والمعلوماتية"
+  },
+  {
+    "code": "intl_relations_law",
+    "group": "faculties",
+    "az": "Beynəlxalq münasibətlər və hüquq",
+    "en": "International relations and law",
+    "ru": "Международные отношения и право",
+    "ka": "საერთაშორისო ურთიერთობები და სამართალი",
+    "ar": "العلاقات الدولية والقانون"
+  },
+  {
+    "code": "military_medicine",
+    "group": "faculties",
+    "az": "Hərbi tibb",
+    "en": "Military medicine",
+    "ru": "Военная медицина",
+    "ka": "სამხედრო მედიცინა",
+    "ar": "الطب العسكري"
+  },
+  {
+    "code": "art",
+    "group": "faculties",
+    "az": "İncəsənət",
+    "en": "Art",
+    "ru": "Искусство",
+    "ka": "ხელოვნება",
+    "ar": "الفنون"
+  },
+  {
+    "code": "tourism_organization",
+    "group": "faculties",
+    "az": "Turizm işinin təşkili",
+    "en": "Organization of tourism",
+    "ru": "Организация туристического дела",
+    "ka": "ტურიზმის საქმის ორგანიზება",
+    "ar": "تنظيم أعمال السياحة"
+  },
+  {
+    "code": "chemical_engineering",
+    "group": "faculties",
+    "az": "Kimya mühəndisliyi",
+    "en": "Chemical engineering",
+    "ru": "Химическая инженерия",
+    "ka": "ქიმიური ინჟინერია",
+    "ar": "الهندسة الكيميائية"
+  },
+  {
+    "code": "finance_economics",
+    "group": "faculties",
+    "az": "Maliyyə-iqtisad",
+    "en": "Finance and economics",
+    "ru": "Финансово-экономический",
+    "ka": "ფინანსები და ეკონომიკა",
+    "ar": "المالية والاقتصاد"
+  },
+  {
+    "code": "piano",
+    "group": "faculties",
+    "az": "Fortepiano",
+    "en": "Piano",
+    "ru": "Фортепиано",
+    "ka": "ფორტეპიანო",
+    "ar": "البيانو"
+  },
+  {
+    "code": "regional_studies",
+    "group": "faculties",
+    "az": "Regionşünaslıq",
+    "en": "Regional studies",
+    "ru": "Регионоведение",
+    "ka": "რეგიონმცოდნეობა",
+    "ar": "الدراسات الإقليمية"
+  },
+  {
+    "code": "construction_technology",
+    "group": "faculties",
+    "az": "İnşaat texnologiyası",
+    "en": "Construction technology",
+    "ru": "Строительная технология",
+    "ka": "სამშენებლო ტექნოლოგია",
+    "ar": "تكنولوجيا البناء"
+  },
+  {
+    "code": "veterinary",
+    "group": "faculties",
+    "az": "Baytarlıq",
+    "en": "Veterinary medicine",
+    "ru": "Ветеринария",
+    "ka": "ვეტერინარია",
+    "ar": "الطب البيطري"
+  },
+  {
+    "code": "physics_technical_sciences",
+    "group": "faculties",
+    "az": "Fizika və texniki fənlər",
+    "en": "Physics and technical sciences",
+    "ru": "Физика и технические дисциплины",
+    "ka": "ფიზიკა და ტექნიკური დისციპლინები",
+    "ar": "الفيزياء والعلوم التقنية"
+  },
+  {
+    "code": "natural_sciences_engineering",
+    "group": "faculties",
+    "az": "Təbiət elmləri və mühəndislik",
+    "en": "Natural sciences and engineering",
+    "ru": "Естественные науки и инженерия",
+    "ka": "საბუნებისმეტყველო მეცნიერებები და ინჟინერია",
+    "ar": "العلوم الطبيعية والهندسة"
+  },
+  {
+    "code": "tax_taxation",
+    "group": "faculties",
+    "az": "Vergi və vergitutma",
+    "en": "Taxes and taxation",
+    "ru": "Налоги и налогообложение",
+    "ka": "გადასახადები და დაბეგვრა",
+    "ar": "الضرائب والجباية"
+  },
+  {
+    "code": "oil_gas_engineering",
+    "group": "faculties",
+    "az": "Neft-qaz mühəndisliyi",
+    "en": "Oil and gas engineering",
+    "ru": "Нефтегазовая инженерия",
+    "ka": "ნავთობისა და გაზის ინჟინერია",
+    "ar": "هندسة النفط والغاز"
+  },
+  {
+    "code": "expertise_technology",
+    "group": "faculties",
+    "az": "Ekspertiza və texnologiya",
+    "en": "Expertise and technology",
+    "ru": "Экспертиза и технология",
+    "ka": "ექსპერტიზა და ტექნოლოგია",
+    "ar": "الخبرة والتكنولوجيا"
+  },
+  {
+    "code": "automation_computer_engineering",
+    "group": "faculties",
+    "az": "Avtomatika və kompüter texnikası",
+    "en": "Automation and computer engineering",
+    "ru": "Автоматика и вычислительная техника",
+    "ka": "ავტომატიკა და კომპიუტერული ტექნიკა",
+    "ar": "الأتمتة وتقنية الحاسوب"
+  },
+  {
+    "code": "business",
+    "group": "faculties",
+    "az": "Biznes",
+    "en": "Business",
+    "ru": "Бизнес",
+    "ka": "ბიზნესი",
+    "ar": "الأعمال"
+  },
+  {
+    "code": "informatics_management",
+    "group": "faculties",
+    "az": "İnformatika və idarəetmə",
+    "en": "Informatics and management",
+    "ru": "Информатика и управление",
+    "ka": "ინფორმატიკა და მართვა",
+    "ar": "المعلوماتية والإدارة"
+  },
+  {
+    "code": "primary_education_methodology",
+    "group": "faculties",
+    "az": "İbtidai təhsilin pedaqogikası və metodikası",
+    "en": "Pedagogy and methodology of primary education",
+    "ru": "Педагогика и методика начального образования",
+    "ka": "დაწყებითი განათლების პედაგოგიკა და მეთოდიკა",
+    "ar": "تربية وأساليب التعليم الابتدائي"
+  },
+  {
+    "code": "humanities_education_social",
+    "group": "faculties",
+    "az": "Humanitar, təhsil və sosial elmlər",
+    "en": "Humanities, education and social sciences",
+    "ru": "Гуманитарные, педагогические и социальные науки",
+    "ka": "ჰუმანიტარული, საგანმანათლებლო და სოციალური მეცნიერებები",
+    "ar": "العلوم الإنسانية والتربوية والاجتماعية"
+  },
+  {
+    "code": "applied_mathematics",
+    "group": "faculties",
+    "az": "Tətbiqi riyaziyyat",
+    "en": "Applied mathematics",
+    "ru": "Прикладная математика",
+    "ka": "გამოყენებითი მათემატიკა",
+    "ar": "الرياضيات التطبيقية"
+  },
+  {
+    "code": "social_sciences",
+    "group": "faculties",
+    "az": "Sosial elmlər",
+    "en": "Social sciences",
+    "ru": "Социальные науки",
+    "ka": "სოციალური მეცნიერებები",
+    "ar": "العلوم الاجتماعية"
+  },
+  {
+    "code": "philology_journalism",
+    "group": "faculties",
+    "az": "Filologiya və jurnalistika",
+    "en": "Philology and journalism",
+    "ru": "Филология и журналистика",
+    "ka": "ფილოლოგია და ჟურნალისტიკა",
+    "ar": "فقه اللغة والصحافة"
+  },
+  {
+    "code": "pedagogy_psychology",
+    "group": "faculties",
+    "az": "Pedaqogika və psixologiya",
+    "en": "Pedagogy and psychology",
+    "ru": "Педагогика и психология",
+    "ka": "პედაგოგიკა და ფსიქოლოგია",
+    "ar": "التربية وعلم النفس"
+  },
+  {
+    "code": "intl_relations_management",
+    "group": "faculties",
+    "az": "Beynəlxalq münasibətlər və idarəetmə",
+    "en": "International relations and management",
+    "ru": "Международные отношения и управление",
+    "ka": "საერთაშორისო ურთიერთობები და მართვა",
+    "ar": "العلاقات الدولية والإدارة"
+  },
+  {
+    "code": "engineering_business_management",
+    "group": "faculties",
+    "az": "Mühəndis biznesi və menecment",
+    "en": "Engineering business and management",
+    "ru": "Инженерный бизнес и менеджмент",
+    "ka": "საინჟინრო ბიზნესი და მენეჯმენტი",
+    "ar": "الأعمال الهندسية والإدارة"
+  },
+  {
+    "code": "political_social_sciences",
+    "group": "faculties",
+    "az": "Siyasi və ictimai elmlər",
+    "en": "Political and social sciences",
+    "ru": "Политические и общественные науки",
+    "ka": "პოლიტიკური და საზოგადოებრივი მეცნიერებები",
+    "ar": "العلوم السياسية والاجتماعية"
+  },
+  {
+    "code": "philology_primary_education",
+    "group": "faculties",
+    "az": "Filologiya və ibtidai təhsil",
+    "en": "Philology and primary education",
+    "ru": "Филология и начальное образование",
+    "ka": "ფილოლოგია და დაწყებითი განათლება",
+    "ar": "فقه اللغة والتعليم الابتدائي"
+  },
+  {
+    "code": "turkic_world_economics",
+    "group": "faculties",
+    "az": "Türk Dünyası İqtisad Fakültəsi",
+    "en": "Faculty of Economics of the Turkic World",
+    "ru": "Экономический факультет тюркского мира",
+    "ka": "თურქული სამყაროს ეკონომიკის ფაკულტეტი",
+    "ar": "كلية اقتصاد العالم التركي"
+  },
+  {
+    "code": "architecture_construction",
+    "group": "faculties",
+    "az": "Memarlıq və inşaat",
+    "en": "Architecture and construction",
+    "ru": "Архитектура и строительство",
+    "ka": "არქიტექტურა და მშენებლობა",
+    "ar": "الهندسة المعمارية والبناء"
+  },
+  {
+    "code": "theatre_arts",
+    "group": "faculties",
+    "az": "Teatr sənəti",
+    "en": "Theatre arts",
+    "ru": "Театральное искусство",
+    "ka": "თეატრალური ხელოვნება",
+    "ar": "الفنون المسرحية"
+  },
+  {
+    "code": "zooengineering",
+    "group": "faculties",
+    "az": "Zoomühəndislik",
+    "en": "Zooengineering",
+    "ru": "Зооинженерия",
+    "ka": "ზოოინჟინერია",
+    "ar": "هندسة الإنتاج الحيواني"
+  },
+  {
+    "code": "metallurgy_materials",
+    "group": "faculties",
+    "az": "Metallurgiya və materialşünaslıq",
+    "en": "Metallurgy and materials science",
+    "ru": "Металлургия и материаловедение",
+    "ka": "მეტალურგია და მატერიალმცოდნეობა",
+    "ar": "علم المعادن وعلم المواد"
+  },
+  {
+    "code": "automation",
+    "group": "faculties",
+    "az": "Avtomatika",
+    "en": "Automation",
+    "ru": "Автоматика",
+    "ka": "ავტომატიკა",
+    "ar": "الأتمتة"
+  },
+  {
+    "code": "humanities_languages",
+    "group": "faculties",
+    "az": "Humanitar və dillər",
+    "en": "Humanities and languages",
+    "ru": "Гуманитарные науки и языки",
+    "ka": "ჰუმანიტარული მეცნიერებები და ენები",
+    "ar": "العلوم الإنسانية واللغات"
+  },
+  {
+    "code": "music",
+    "group": "faculties",
+    "az": "Musiqi",
+    "en": "Music",
+    "ru": "Музыка",
+    "ka": "მუსიკა",
+    "ar": "الموسيقى"
+  },
+  {
+    "code": "postal_communication",
+    "group": "faculties",
+    "az": "Poçt rabitəsi",
+    "en": "Postal communication",
+    "ru": "Почтовая связь",
+    "ka": "საფოსტო კავშირი",
+    "ar": "الاتصالات البريدية"
+  },
+  {
+    "code": "technology",
+    "group": "faculties",
+    "az": "Texnologiya",
+    "en": "Technology",
+    "ru": "Технология",
+    "ka": "ტექნოლოგია",
+    "ar": "التكنولوجيا"
+  },
+  {
+    "code": "transport_technologies",
+    "group": "faculties",
+    "az": "Nəqliyyat texnologiyaları",
+    "en": "Transport technologies",
+    "ru": "Транспортные технологии",
+    "ka": "ტრანსპორტის ტექნოლოგიები",
+    "ar": "تكنولوجيا النقل"
+  },
+  {
+    "code": "az_language_literature_teaching",
+    "group": "faculties",
+    "az": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+    "en": "Azerbaijani language and literature teaching",
+    "ru": "Преподавание азербайджанского языка и литературы",
+    "ka": "აზერბაიჯანული ენისა და ლიტერატურის მასწავლებლობა",
+    "ar": "تعليم اللغة الأذربيجانية وأدبها"
+  },
+  {
+    "code": "economic_legal_regulation",
+    "group": "faculties",
+    "az": "İqtisadiyyatın hüquqi tənzimlənməsi",
+    "en": "Legal regulation of the economy",
+    "ru": "Правовое регулирование экономики",
+    "ka": "ეკონომიკის სამართლებრივი რეგულირება",
+    "ar": "التنظيم القانوني للاقتصاد"
+  },
+  {
+    "code": "ecological_engineering",
+    "group": "faculties",
+    "az": "Ekologiya mühəndisliyi",
+    "en": "Ecological engineering",
+    "ru": "Инженерия экологии",
+    "ka": "ეკოლოგიის ინჟინერია",
+    "ar": "الهندسة البيئية"
+  },
+  {
+    "code": "medical_biology",
+    "group": "faculties",
+    "az": "Tibbi biologiya",
+    "en": "Medical biology",
+    "ru": "Медицинская биология",
+    "ka": "სამედიცინო ბიოლოგია",
+    "ar": "الأحياء الطبية"
+  },
+  {
+    "code": "technological_machines",
+    "group": "faculties",
+    "az": "Texnoloji maşınlar",
+    "en": "Technological machinery",
+    "ru": "Технологические машины",
+    "ka": "ტექნოლოგიური მანქანები",
+    "ar": "الآلات التكنولوجية"
+  },
+  {
+    "code": "light_industry_logistics",
+    "group": "faculties",
+    "az": "Yüngül sənaye mühəndisliyi və logistika",
+    "en": "Light industry engineering and logistics",
+    "ru": "Инженерия легкой промышленности и логистика",
+    "ka": "მსუბუქი მრეწველობის ინჟინერია და ლოგისტიკა",
+    "ar": "هندسة الصناعات الخفيفة واللوجستيات"
+  },
+  {
+    "code": "intl_relations_foreign_languages",
+    "group": "faculties",
+    "az": "Beynəlxalq münasibətlər və xarici dillər",
+    "en": "International relations and foreign languages",
+    "ru": "Международные отношения и иностранные языки",
+    "ka": "საერთაშორისო ურთიერთობები და უცხო ენები",
+    "ar": "العلاقات الدولية واللغات الأجنبية"
+  },
+  {
+    "code": "mechanics",
+    "group": "faculties",
+    "az": "Mexanika",
+    "en": "Mechanics",
+    "ru": "Механика",
+    "ka": "მექანიკა",
+    "ar": "الميكانيكا"
+  },
+  {
+    "code": "fine_arts",
+    "group": "faculties",
+    "az": "Təsviri incəsənət",
+    "en": "Fine arts",
+    "ru": "Изобразительное искусство",
+    "ka": "სახვითი ხელოვნება",
+    "ar": "الفنون التشكيلية"
+  },
+  {
+    "code": "veterinary_zooengineering",
+    "group": "faculties",
+    "az": "Baytarlıq təbabəti və zoomühəndislik",
+    "en": "Veterinary medicine and zooengineering",
+    "ru": "Ветеринарная медицина и зооинженерия",
+    "ka": "ვეტერინარული მედიცინა და ზოოინჟინერია",
+    "ar": "الطب البيطري وهندسة الإنتاج الحيواني"
+  },
+  {
+    "code": "history_geography_arts",
+    "group": "faculties",
+    "az": "Tarix-coğrafiya və incəsənət",
+    "en": "History, geography and art",
+    "ru": "История, география и искусство",
+    "ka": "ისტორია-გეოგრაფია და ხელოვნება",
+    "ar": "التاريخ والجغرافيا والفنون"
+  },
+  {
+    "code": "theology",
+    "group": "faculties",
+    "az": "İlahiyyat",
+    "en": "Theology",
+    "ru": "Теология",
+    "ka": "თეოლოგია",
+    "ar": "اللاهوت"
+  },
+  {
+    "code": "customs_organization",
+    "group": "faculties",
+    "az": "Gömrük işinin təşkili",
+    "en": "Organization of customs affairs",
+    "ru": "Организация таможенного дела",
+    "ka": "საბაჟო საქმის ორგანიზება",
+    "ar": "تنظيم الأعمال الجمركية"
+  },
+  {
+    "code": "public_health",
+    "group": "faculties",
+    "az": "İctimai səhiyyə",
+    "en": "Public health",
+    "ru": "Общественное здравоохранение",
+    "ka": "საზოგადოებრივი ჯანდაცვა",
+    "ar": "الصحة العامة"
+  },
+  {
+    "code": "economics_administrative_sciences",
+    "group": "faculties",
+    "az": "İqtisadiyyat və inzibati elmlər",
+    "en": "Economics and administrative sciences",
+    "ru": "Экономика и административные науки",
+    "ka": "ეკონომიკა და ადმინისტრაციული მეცნიერებები",
+    "ar": "الاقتصاد والعلوم الإدارية"
+  },
+  {
+    "code": "turkic_world_business",
+    "group": "faculties",
+    "az": "Türk Dünyası İşlətmə Fakültəsi",
+    "en": "Faculty of Business of the Turkic World",
+    "ru": "Факультет управления тюркского мира",
+    "ka": "თურქული სამყაროს ბიზნესის ფაკულტეტი",
+    "ar": "كلية إدارة الأعمال للعالم التركي"
+  },
+  {
+    "code": "radio_engineering",
+    "group": "faculties",
+    "az": "Radiotexnika",
+    "en": "Radio engineering",
+    "ru": "Радиотехника",
+    "ka": "რადიოტექნიკა",
+    "ar": "الهندسة الراديوية"
+  },
+  {
+    "code": "fine_arts_teaching",
+    "group": "faculties",
+    "az": "Təsviri incəsənət müəllimliyi",
+    "en": "Fine arts teaching",
+    "ru": "Преподавание изобразительного искусства",
+    "ka": "სახვითი ხელოვნების მასწავლებლობა",
+    "ar": "تعليم الفنون التشكيلية"
+  },
+  {
+    "code": "information_security",
+    "group": "faculties",
+    "az": "İnformasiya təhlükəsizliyi",
+    "en": "Information security",
+    "ru": "Информационная безопасность",
+    "ka": "ინფორმაციული უსაფრთხოება",
+    "ar": "أمن المعلومات"
+  },
+  {
+    "code": "high_technologies_innovation",
+    "group": "faculties",
+    "az": "Yüksək texnologiyalar və innovativ mühəndislik",
+    "en": "High technologies and innovative engineering",
+    "ru": "Высокие технологии и инновационная инженерия",
+    "ka": "მაღალი ტექნოლოგიები და ინოვაციური ინჟინერია",
+    "ar": "التقنيات العالية والهندسة الابتكارية"
+  },
+  {
+    "code": "social_administration_law",
+    "group": "faculties",
+    "az": "Sosial idarəetmə və hüquq",
+    "en": "Social administration and law",
+    "ru": "Социальное управление и право",
+    "ka": "სოციალური მართვა და სამართალი",
+    "ar": "الإدارة الاجتماعية والقانون"
+  },
+  {
+    "code": "linguistics",
+    "group": "faculties",
+    "az": "Dilşünaslıq",
+    "en": "Linguistics",
+    "ru": "Языкознание",
+    "ka": "ენათმეცნიერება",
+    "ar": "علم اللغة"
+  },
+  {
+    "code": "agrarian_economics",
+    "group": "faculties",
+    "az": "Aqrar iqtisadiyyat",
+    "en": "Agrarian economics",
+    "ru": "Аграрная экономика",
+    "ka": "აგრარული ეკონომიკა",
+    "ar": "الاقتصاد الزراعي"
+  },
+  {
+    "code": "intl_school_economics",
+    "group": "faculties",
+    "az": "Beynəlxalq İqtisadiyyat Məktəbi",
+    "en": "International School of Economics",
+    "ru": "Международная школа экономики",
+    "ka": "ეკონომიკის საერთაშორისო სკოლა",
+    "ar": "المدرسة الدولية للاقتصاد"
+  },
+  {
+    "code": "ship_navigation",
+    "group": "faculties",
+    "az": "Gəmi sürücülüyü",
+    "en": "Ship navigation",
+    "ru": "Судовождение",
+    "ka": "გემის ნავიგაცია",
+    "ar": "قيادة السفن"
+  },
+  {
+    "code": "informatics_teaching",
+    "group": "faculties",
+    "az": "İnformatika müəllimliyi",
+    "en": "Informatics teaching",
+    "ru": "Преподавание информатики",
+    "ka": "ინფორმატიკის მასწავლებლობა",
+    "ar": "تعليم المعلوماتية"
+  },
+  {
+    "code": "telecommunication",
+    "group": "faculties",
+    "az": "Telekommunikasiya",
+    "en": "Telecommunication",
+    "ru": "Телекоммуникация",
+    "ka": "ტელეკომუნიკაცია",
+    "ar": "الاتصالات السلكية واللاسلكية"
+  },
+  {
+    "code": "religious_studies",
+    "group": "faculties",
+    "az": "Dinşünaslıq",
+    "en": "Religious studies",
+    "ru": "Религиоведение",
+    "ka": "რელიგიათმცოდნეობა",
+    "ar": "علم الأديان"
+  },
+  {
+    "code": "production_automation",
+    "group": "faculties",
+    "az": "İstehsalat proseslərinin avtomatlaşdırılması",
+    "en": "Automation of production processes",
+    "ru": "Автоматизация производственных процессов",
+    "ka": "წარმოების პროცესების ავტომატიზაცია",
+    "ar": "أتمتة العمليات الإنتاجية"
+  },
+  {
+    "code": "expertise_standardization",
+    "group": "faculties",
+    "az": "Ekspertiza və standartlaşdırma",
+    "en": "Expertise and standardization",
+    "ru": "Экспертиза и стандартизация",
+    "ka": "ექსპერტიზა და სტანდარტიზაცია",
+    "ar": "الخبرة والتقييس"
+  },
+  {
+    "code": "architecture_design",
+    "group": "faculties",
+    "az": "Memarlıq və dizayn",
+    "en": "Architecture and design",
+    "ru": "Архитектура и дизайн",
+    "ka": "არქიტექტურა და დიზაინი",
+    "ar": "الهندسة المعمارية والتصميم"
+  },
+  {
+    "code": "political_science",
+    "group": "faculties",
+    "az": "Siyasi elmlər",
+    "en": "Political science",
+    "ru": "Политические науки",
+    "ka": "პოლიტიკური მეცნიერებები",
+    "ar": "العلوم السياسية"
+  },
+  {
+    "code": "biology_teaching",
+    "group": "faculties",
+    "az": "Biologiya müəllimliyi",
+    "en": "Biology teaching",
+    "ru": "Преподавание биологии",
+    "ka": "ბიოლოგიის მასწავლებლობა",
+    "ar": "تعليم الأحياء"
+  },
+  {
+    "code": "consumer_goods_expertise",
+    "group": "faculties",
+    "az": "İstehlak mallarının ekspertizası və marketinqi",
+    "en": "Expertise and marketing of consumer goods",
+    "ru": "Экспертиза и маркетинг потребительских товаров",
+    "ka": "სამომხმარებლო საქონლის ექსპერტიზა და მარკეტინგი",
+    "ar": "خبرة وتسويق السلع الاستهلاكية"
+  },
+  {
+    "code": "information_document_management",
+    "group": "faculties",
+    "az": "İnformasiya və sənəd menecmenti",
+    "en": "Information and document management",
+    "ru": "Информационный и документальный менеджмент",
+    "ka": "ინფორმაციისა და დოკუმენტების მენეჯმენტი",
+    "ar": "إدارة المعلومات والوثائق"
+  },
+  {
+    "code": "sport_games",
+    "group": "faculties",
+    "az": "İdman oyunları",
+    "en": "Sport games",
+    "ru": "Спортивные игры",
+    "ka": "სპორტული თამაშები",
+    "ar": "الألعاب الرياضية"
+  },
+  {
+    "code": "politology",
+    "group": "faculties",
+    "az": "Politologiya",
+    "en": "Politology",
+    "ru": "Политология",
+    "ka": "პოლიტოლოგია",
+    "ar": "العلوم السياسية والحكم"
+  },
+  {
+    "code": "film_television",
+    "group": "faculties",
+    "az": "Kino və televiziya",
+    "en": "Film and television",
+    "ru": "Кино и телевидение",
+    "ka": "კინო და ტელევიზია",
+    "ar": "السينما والتلفزيون"
+  },
+  {
+    "code": "energy_engineering",
+    "group": "faculties",
+    "az": "Energetika mühəndisliyi",
+    "en": "Energy engineering",
+    "ru": "Инженерия энергетики",
+    "ka": "ენერგეტიკის ინჟინერია",
+    "ar": "هندسة الطاقة"
+  },
+  {
+    "code": "decorative_applied_arts",
+    "group": "faculties",
+    "az": "Dekorativ tətbiqi sənət",
+    "en": "Decorative and applied arts",
+    "ru": "Декоративно-прикладное искусство",
+    "ka": "დეკორატიულ-გამოყენებითი ხელოვნება",
+    "ar": "الفنون الزخرفية التطبيقية"
+  },
+  {
+    "code": "geography_teaching",
+    "group": "faculties",
+    "az": "Coğrafiya müəllimliyi",
+    "en": "Geography teaching",
+    "ru": "Преподавание географии",
+    "ka": "გეოგრაფიის მასწავლებლობა",
+    "ar": "تعليم الجغرافيا"
+  },
+  {
+    "code": "communication",
+    "group": "faculties",
+    "az": "Rabitə",
+    "en": "Communications",
+    "ru": "Связь",
+    "ka": "კავშირგაბმულობა",
+    "ar": "الاتصالات"
+  },
+  {
+    "code": "electric_power_engineering",
+    "group": "faculties",
+    "az": "Elektroenergetika mühəndisliyi",
+    "en": "Electric power engineering",
+    "ru": "Электроэнергетическая инженерия",
+    "ka": "ელექტროენერგეტიკის ინჟინერია",
+    "ar": "هندسة الطاقة الكهربائية"
+  },
+  {
+    "code": "folk_instruments",
+    "group": "faculties",
+    "az": "Xalq çalğı alətləri",
+    "en": "Folk instruments",
+    "ru": "Народные инструменты",
+    "ka": "ხალხური საკრავები",
+    "ar": "الآلات الشعبية"
+  },
+  {
+    "code": "industrial_civil_construction",
+    "group": "faculties",
+    "az": "Sənaye və mülki tikinti",
+    "en": "Industrial and civil construction",
+    "ru": "Промышленное и гражданское строительство",
+    "ka": "სამრეწველო და სამოქალაქო მშენებლობა",
+    "ar": "البناء الصناعي والمدني"
+  },
+  {
+    "code": "mechanical_engineering",
+    "group": "faculties",
+    "az": "Mexanika mühəndisliyi",
+    "en": "Mechanical engineering",
+    "ru": "Инженерная механика",
+    "ka": "მექანიკის ინჟინერია",
+    "ar": "الهندسة الميكانيكية"
+  },
+  {
+    "code": "automation_control",
+    "group": "faculties",
+    "az": "Avtomatika və idarəetmə",
+    "en": "Automation and control",
+    "ru": "Автоматика и управление",
+    "ka": "ავტომატიკა და მართვა",
+    "ar": "الأتمتة والتحكم"
+  },
+  {
+    "code": "metallurgical_engineering",
+    "group": "faculties",
+    "az": "Metallurgiya mühəndisliyi",
+    "en": "Metallurgical engineering",
+    "ru": "Металлургическая инженерия",
+    "ka": "მეტალურგიის ინჟინერია",
+    "ar": "هندسة المعادن"
+  },
+  {
+    "code": "military",
+    "group": "faculties",
+    "az": "Hərbi",
+    "en": "Military",
+    "ru": "Военный",
+    "ka": "სამხედრო",
+    "ar": "العسكرية"
+  },
+  {
+    "code": "electricity_supply",
+    "group": "faculties",
+    "az": "Elektrik təchizatı",
+    "en": "Electricity supply",
+    "ru": "Электроснабжение",
+    "ka": "ელექტრომომარაგება",
+    "ar": "التغذية الكهربائية"
+  },
+  {
+    "code": "music_art",
+    "group": "faculties",
+    "az": "Musiqi sənəti",
+    "en": "Musical art",
+    "ru": "Музыкальное искусство",
+    "ka": "მუსიკალური ხელოვნება",
+    "ar": "الفن الموسيقي"
+  },
+  {
+    "code": "statistics",
+    "group": "faculties",
+    "az": "Statistika",
+    "en": "Statistics",
+    "ru": "Статистика",
+    "ka": "სტატისტიკა",
+    "ar": "الإحصاء"
+  },
+  {
+    "code": "electrical_engineering",
+    "group": "faculties",
+    "az": "Elektrik mühəndisliyi",
+    "en": "Electrical engineering",
+    "ru": "Электротехническая инженерия",
+    "ka": "ელექტროინჟინერია",
+    "ar": "الهندسة الكهربائية"
+  },
+  {
+    "code": "it_systems_engineering",
+    "group": "faculties",
+    "az": "İnformasiya texnologiyaları və sistemləri mühəndisliyi",
+    "en": "Information technology and systems engineering",
+    "ru": "Инженерия информационных технологий и систем",
+    "ka": "ინფორმაციული ტექნოლოგიებისა და სისტემების ინჟინერია",
+    "ar": "هندسة تقنية المعلومات والأنظمة"
+  },
+  {
+    "code": "physical_education_teaching",
+    "group": "faculties",
+    "az": "Fiziki tərbiyə müəllimliyi",
+    "en": "Physical education teaching",
+    "ru": "Преподавание физического воспитания",
+    "ka": "ფიზიკური აღზრდის მასწავლებლობა",
+    "ar": "تعليم التربية البدنية"
+  },
+  {
+    "code": "computer_networks",
+    "group": "faculties",
+    "az": "Kompüter şəbəkələri",
+    "en": "Computer networks",
+    "ru": "Компьютерные сети",
+    "ka": "კომპიუტერული ქსელები",
+    "ar": "شبكات الحاسوب"
+  },
+  {
+    "code": "social_work_translation",
+    "group": "faculties",
+    "az": "Sosial iş və tərcümə",
+    "en": "Social work and translation",
+    "ru": "Социальная работа и перевод",
+    "ka": "სოციალური მუშაობა და თარგმანი",
+    "ar": "العمل الاجتماعي والترجمة"
+  },
+  {
+    "code": "archive_records_management",
+    "group": "faculties",
+    "az": "Arxiv işi və kargüzarlıq",
+    "en": "Archiving and records management",
+    "ru": "Архивное дело и делопроизводство",
+    "ka": "საარქივო საქმე და საქმისწარმოება",
+    "ar": "الأرشيف وإدارة السجلات"
+  },
+  {
+    "code": "world_economy_commerce",
+    "group": "faculties",
+    "az": "Dünya iqtisadiyyatı və kommersiya",
+    "en": "World economy and commerce",
+    "ru": "Мировая экономика и коммерция",
+    "ka": "მსოფლიო ეკონომიკა და კომერცია",
+    "ar": "الاقتصاد العالمي والتجارة"
+  },
+  {
+    "code": "corrective_education",
+    "group": "faculties",
+    "az": "Korreksiyaedici təlim",
+    "en": "Corrective education",
+    "ru": "Коррекционное обучение",
+    "ka": "კორექციული სწავლება",
+    "ar": "التعليم التصحيحي"
+  },
+  {
+    "code": "painting_fine_art",
+    "group": "faculties",
+    "az": "Rəngkarlıq",
+    "en": "Fine-art painting",
+    "ru": "Станковая живопись",
+    "ka": "ფერწერული ხელოვნება",
+    "ar": "فن التصوير"
+  },
+  {
+    "code": "russian_language_literature",
+    "group": "faculties",
+    "az": "Rus dili və ədəbiyyatı",
+    "en": "Russian language and literature",
+    "ru": "Русский язык и литература",
+    "ka": "რუსული ენა და ლიტერატურა",
+    "ar": "اللغة الروسية وأدبها"
+  },
+  {
+    "code": "tax_banking",
+    "group": "faculties",
+    "az": "Vergi və bank işi",
+    "en": "Taxation and banking",
+    "ru": "Налоговое и банковское дело",
+    "ka": "გადასახადები და საბანკო საქმე",
+    "ar": "الضرائب والأعمال المصرفية"
+  },
+  {
+    "code": "sociology",
+    "group": "faculties",
+    "az": "Sosiologiya",
+    "en": "Sociology",
+    "ru": "Социология",
+    "ka": "სოციოლოგია",
+    "ar": "علم الاجتماع"
+  },
+  {
+    "code": "music_teaching",
+    "group": "faculties",
+    "az": "Musiqi müəllimliyi",
+    "en": "Music teaching",
+    "ru": "Преподавание музыки",
+    "ka": "მუსიკის მასწავლებლობა",
+    "ar": "تعليم الموسيقى"
+  },
+  {
+    "code": "technology_teaching",
+    "group": "faculties",
+    "az": "Texnologiya müəllimliyi",
+    "en": "Technology teaching",
+    "ru": "Преподавание технологии",
+    "ka": "ტექნოლოგიის მასწავლებლობა",
+    "ar": "تعليم التكنولوجيا"
+  },
+  {
+    "code": "chemistry_biology_teaching",
+    "group": "faculties",
+    "az": "Kimya və biologiya müəllimliyi",
+    "en": "Chemistry and biology teaching",
+    "ru": "Преподавание химии и биологии",
+    "ka": "ქიმიისა და ბიოლოგიის მასწავლებლობა",
+    "ar": "تعليم الكيمياء والأحياء"
+  },
+  {
+    "code": "social_work_psychology",
+    "group": "faculties",
+    "az": "Sosial iş və psixologiya",
+    "en": "Social work and psychology",
+    "ru": "Социальная работа и психология",
+    "ka": "სოციალური მუშაობა და ფსიქოლოგია",
+    "ar": "العمل الاجتماعي وعلم النفس"
+  },
+  {
+    "code": "state_public_relations",
+    "group": "faculties",
+    "az": "Dövlət və ictimai münasibətlər",
+    "en": "State and public relations",
+    "ru": "Государственные и общественные отношения",
+    "ka": "სახელმწიფო და საზოგადოებრივი ურთიერთობები",
+    "ar": "العلاقات الحكومية والعامة"
+  },
+  {
+    "code": "machine_engineering",
+    "group": "faculties",
+    "az": "Maşın mühəndisliyi",
+    "en": "Machine engineering",
+    "ru": "Машинная инженерия",
+    "ka": "მანქანათა ინჟინერია",
+    "ar": "هندسة الآلات"
+  },
+  {
+    "code": "service_engineering",
+    "group": "faculties",
+    "az": "Xidmət mühəndisliyi",
+    "en": "Service engineering",
+    "ru": "Инженерия сервиса",
+    "ka": "მომსახურების ინჟინერია",
+    "ar": "هندسة الخدمات"
+  },
+  {
+    "code": "fire_safety",
+    "group": "faculties",
+    "az": "Yanğın təhlükəsizliyi",
+    "en": "Fire safety",
+    "ru": "Пожарная безопасность",
+    "ka": "ხანძარსაწინააღმდეგო უსაფრთხოება",
+    "ar": "السلامة من الحرائق"
+  },
+  {
+    "code": "border_troops",
+    "group": "faculties",
+    "az": "Sərhəd Qoşunları",
+    "en": "Border troops",
+    "ru": "Пограничные войска",
+    "ka": "სასაზღვრო ჯარები",
+    "ar": "قوات الحدود"
+  },
+  {
+    "code": "food_products_engineering",
+    "group": "faculties",
+    "az": "Qida məhsulları mühəndisliyi",
+    "en": "Food products engineering",
+    "ru": "Инженерия пищевых продуктов",
+    "ka": "კვების პროდუქტების ინჟინერია",
+    "ar": "هندسة المنتجات الغذائية"
+  },
+  {
+    "code": "electronics_telecom_radio_engineering",
+    "group": "faculties",
+    "az": "Elektronika, telekommunikasiya və radiotexnika mühəndisliyi",
+    "en": "Electronics, telecommunication and radio engineering",
+    "ru": "Инженерия электроники, телекоммуникаций и радиотехники",
+    "ka": "ელექტრონიკის, ტელეკომუნიკაციისა და რადიოტექნიკის ინჟინერია",
+    "ar": "هندسة الإلكترونيات والاتصالات والراديو"
+  },
+  {
+    "code": "directing",
+    "group": "faculties",
+    "az": "Rejissorluq",
+    "en": "Directing",
+    "ru": "Режиссура",
+    "ka": "რეჟისურა",
+    "ar": "الإخراج"
+  },
+  {
+    "code": "music_history_theory",
+    "group": "faculties",
+    "az": "Musiqi tarixi və nəzəriyyəsi",
+    "en": "Music history and theory",
+    "ru": "История и теория музыки",
+    "ka": "მუსიკის ისტორია და თეორია",
+    "ar": "تاريخ الموسيقى ونظريتها"
+  },
+  {
+    "code": "insurance",
+    "group": "faculties",
+    "az": "Sığorta işi",
+    "en": "Insurance",
+    "ru": "Страховое дело",
+    "ka": "დაზღვევის საქმე",
+    "ar": "أعمال التأمين"
+  },
+  {
+    "code": "agrarian_engineering_field",
+    "group": "faculties",
+    "az": "Aqrar mühəndislik",
+    "en": "Agrarian engineering",
+    "ru": "Аграрная инженерия",
+    "ka": "აგრარული ინჟინერია",
+    "ar": "الهندسة الزراعية"
+  },
+  {
+    "code": "az_philology",
+    "group": "faculties",
+    "az": "Azərbaycan filologiyası",
+    "en": "Azerbaijani philology",
+    "ru": "Азербайджанская филология",
+    "ka": "აზერბაიჯანული ფილოლოგია",
+    "ar": "فقه اللغة الأذربيجانية"
+  },
+  {
+    "code": "philology_translation",
+    "group": "faculties",
+    "az": "Filologiya və tərcümə",
+    "en": "Philology and translation",
+    "ru": "Филология и перевод",
+    "ka": "ფილოლოგია და თარგმანი",
+    "ar": "فقه اللغة والترجمة"
+  },
+  {
+    "code": "transport_logistics_engineering",
+    "group": "faculties",
+    "az": "Logistika və nəqliyyat texnologiyaları mühəndisliyi",
+    "en": "Logistics and transport technology engineering",
+    "ru": "Инженерия логистики и транспортных технологий",
+    "ka": "ლოგისტიკისა და ტრანსპორტის ტექნოლოგიების ინჟინერია",
+    "ar": "هندسة اللوجستيات وتكنولوجيا النقل"
+  },
+  {
+    "code": "transportation_organization",
+    "group": "faculties",
+    "az": "Nəqliyyatda daşımaların təşkili",
+    "en": "Organization of transportation",
+    "ru": "Организация перевозок на транспорте",
+    "ka": "ტრანსპორტზე გადაზიდვების ორგანიზება",
+    "ar": "تنظيم النقل والشحن"
+  },
+  {
+    "code": "unec_design_school",
+    "group": "faculties",
+    "az": "UNEC Dizayn Məktəbi",
+    "en": "UNEC Design School",
+    "ru": "Школа дизайна UNEC",
+    "ka": "UNEC-ის დიზაინის სკოლა",
+    "ar": "مدرسة التصميم UNEC"
+  }
+]

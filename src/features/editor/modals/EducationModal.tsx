@@ -26,6 +26,8 @@ export function EducationModal({
   const { t } = useTranslation();
   const universities = useDictionary('universities');
   const colleges = useDictionary('colleges');
+  const faculties = useDictionary('faculties');
+  const specialities = useDictionary('specialities');
   const { control, handleSubmit, watch } = useForm<EducationFormValues>({
     resolver: yupResolver<EducationFormValues>(educationSchema),
     defaultValues,
@@ -34,6 +36,8 @@ export function EducationModal({
   const type = watch('type');
   const current = watch('current');
   const institution = watch('institution');
+  const faculty = watch('faculty');
+  const specialization = watch('specialization');
   const institutionOptions =
     type === 'college' ? colleges.options : type === 'university' ? universities.options : [];
   /**
@@ -52,7 +56,21 @@ export function EducationModal({
         : null;
 
   const submit = handleSubmit((values) => {
-    onSubmit({ ...values, code: findInstitution?.(values.institution)?.code });
+    /**
+     * Codes are resolved from the typed text, never from a hidden control: the
+     * fields stay free-text (§13.1), so a value that happens to match a listed
+     * faculty/speciality gains the code — and with it re-localization — while
+     * anything else is stored verbatim. The lookup is fold-tolerant, so a label
+     * typed without `ə`/`İ` still resolves (see `useDictionary.findByLabel`).
+     */
+    onSubmit({
+      ...values,
+      code: findInstitution?.(values.institution)?.code,
+      facultyCode: values.faculty ? faculties.findByLabel(values.faculty)?.code : undefined,
+      specializationCode: values.specialization
+        ? specialities.findByLabel(values.specialization)?.code
+        : undefined,
+    });
   });
 
   return (
@@ -73,20 +91,21 @@ export function EducationModal({
         required
       />
       {type === 'university' ? (
-        <RHFText
+        <RHFAutoComplete
           control={control}
           name="faculty"
           label={t('fields.faculty')}
-          maxLength={100}
-          required
+          options={faculties.options}
+          recognized={Boolean(faculty && faculties.findByLabel(faculty))}
         />
       ) : null}
       {type === 'university' || type === 'college' ? (
-        <RHFText
+        <RHFAutoComplete
           control={control}
           name="specialization"
           label={t('fields.specialization')}
-          maxLength={100}
+          options={specialities.options}
+          recognized={Boolean(specialization && specialities.findByLabel(specialization))}
           required
         />
       ) : null}

@@ -1,0 +1,2747 @@
+[
+  {
+    "code": "economics",
+    "group": "specialities",
+    "az": "İqtisadiyyat",
+    "en": "Economics",
+    "ru": "Экономика",
+    "ka": "ეკონომიკა",
+    "ar": "الاقتصاد"
+  },
+  {
+    "code": "finance",
+    "group": "specialities",
+    "az": "Maliyyə",
+    "en": "Finance",
+    "ru": "Финансы",
+    "ka": "ფინანსები",
+    "ar": "المالية"
+  },
+  {
+    "code": "management",
+    "group": "specialities",
+    "az": "Menecment",
+    "en": "Management",
+    "ru": "Менеджмент",
+    "ka": "მენეჯმენტი",
+    "ar": "الإدارة"
+  },
+  {
+    "code": "accounting_audit",
+    "group": "specialities",
+    "az": "Mühasibat uçotu və audit",
+    "en": "Accounting and audit",
+    "ru": "Бухгалтерский учёт и аудит",
+    "ka": "ბუღალტრული აღრიცხვა და აუდიტი",
+    "ar": "المحاسبة والتدقيق"
+  },
+  {
+    "code": "business_administration",
+    "group": "specialities",
+    "az": "Biznesin idarə edilməsi",
+    "en": "Business administration",
+    "ru": "Управление бизнесом",
+    "ka": "ბიზნესის ადმინისტრირება",
+    "ar": "إدارة الأعمال"
+  },
+  {
+    "code": "teacher",
+    "group": "specialities",
+    "az": "Müəllim",
+    "en": "Teacher",
+    "ru": "Учитель",
+    "ka": "მასწავლებელი",
+    "ar": "مدرّس"
+  },
+  {
+    "code": "nurse",
+    "group": "specialities",
+    "az": "Tibb bacısı",
+    "en": "Nurse",
+    "ru": "Медсестра",
+    "ka": "მედდა",
+    "ar": "ممرّض"
+  },
+  {
+    "code": "marketing",
+    "group": "specialities",
+    "az": "Marketinq",
+    "en": "Marketing",
+    "ru": "Маркетинг",
+    "ka": "მარკეტინგი",
+    "ar": "التسويق"
+  },
+  {
+    "code": "social_work",
+    "group": "specialities",
+    "az": "Sosial iş",
+    "en": "Social work",
+    "ru": "Социальная работа",
+    "ka": "სოციალური მუშაობა",
+    "ar": "العمل الاجتماعي"
+  },
+  {
+    "code": "accounting",
+    "group": "specialities",
+    "az": "Mühasibat uçotu",
+    "en": "Accounting",
+    "ru": "Бухгалтерский учёт",
+    "ka": "ბუღალტრული აღრიცხვა",
+    "ar": "المحاسبة"
+  },
+  {
+    "code": "lawyer",
+    "group": "specialities",
+    "az": "Hüquqşünas",
+    "en": "Lawyer",
+    "ru": "Юрист",
+    "ka": "იურისტი",
+    "ar": "محامٍ"
+  },
+  {
+    "code": "primary_teacher",
+    "group": "specialities",
+    "az": "İbtidai sinif müəllimliyi",
+    "en": "Primary school teaching",
+    "ru": "Учитель начальных классов",
+    "ka": "დაწყებითი კლასების მასწავლებელი",
+    "ar": "تعليم المرحلة الابتدائية"
+  },
+  {
+    "code": "intl_relations",
+    "group": "specialities",
+    "az": "Beynəlxalq münasibətlər",
+    "en": "International relations",
+    "ru": "Международные отношения",
+    "ka": "საერთაშორისო ურთიერთობები",
+    "ar": "العلاقات الدولية"
+  },
+  {
+    "code": "jurisprudence",
+    "group": "specialities",
+    "az": "Hüquqşünaslıq",
+    "en": "Jurisprudence",
+    "ru": "Правоведение",
+    "ka": "სამართალმცოდნეობა",
+    "ar": "الحقوق"
+  },
+  {
+    "code": "accountant",
+    "group": "specialities",
+    "az": "Mühasib",
+    "en": "Accountant",
+    "ru": "Бухгалтер",
+    "ka": "ბუღალტერი",
+    "ar": "محاسب"
+  },
+  {
+    "code": "english_teacher",
+    "group": "specialities",
+    "az": "İngilis dili müəllimliyi",
+    "en": "English language teaching",
+    "ru": "Преподавание английского языка",
+    "ka": "ინგლისური ენის მასწავლებელი",
+    "ar": "تعليم اللغة الإنجليزية"
+  },
+  {
+    "code": "engineer",
+    "group": "specialities",
+    "az": "Mühəndis",
+    "en": "Engineer",
+    "ru": "Инженер",
+    "ka": "ინჟინერი",
+    "ar": "مهندس"
+  },
+  {
+    "code": "computer_engineering",
+    "group": "specialities",
+    "az": "Kompüter mühəndisliyi",
+    "en": "Computer engineering",
+    "ru": "Компьютерная инженерия",
+    "ka": "კომპიუტერული ინჟინერია",
+    "ar": "هندسة الحاسوب"
+  },
+  {
+    "code": "economist",
+    "group": "specialities",
+    "az": "İqtisadçı",
+    "en": "Economist",
+    "ru": "Экономист",
+    "ka": "ეკონომისტი",
+    "ar": "اقتصادي"
+  },
+  {
+    "code": "world_economy",
+    "group": "specialities",
+    "az": "Dünya iqtisadiyyatı",
+    "en": "World economy",
+    "ru": "Мировая экономика",
+    "ka": "მსოფლიო ეკონომიკა",
+    "ar": "الاقتصاد العالمي"
+  },
+  {
+    "code": "banking",
+    "group": "specialities",
+    "az": "Bank işi",
+    "en": "Banking",
+    "ru": "Банковское дело",
+    "ka": "საბანკო საქმე",
+    "ar": "الأعمال المصرفية"
+  },
+  {
+    "code": "computer_science",
+    "group": "specialities",
+    "az": "Kompüter elmləri",
+    "en": "Computer science",
+    "ru": "Компьютерные науки",
+    "ka": "კომპიუტერული მეცნიერებები",
+    "ar": "علوم الحاسوب"
+  },
+  {
+    "code": "information_technologies",
+    "group": "specialities",
+    "az": "İnformasiya texnologiyaları",
+    "en": "Information technologies",
+    "ru": "Информационные технологии",
+    "ka": "ინფორმაციული ტექნოლოგიები",
+    "ar": "تقنية المعلومات"
+  },
+  {
+    "code": "finance_affairs",
+    "group": "specialities",
+    "az": "Maliyyə işi",
+    "en": "Financial affairs",
+    "ru": "Финансовое дело",
+    "ka": "ფინანსური საქმე",
+    "ar": "الشؤون المالية"
+  },
+  {
+    "code": "doctor",
+    "group": "specialities",
+    "az": "Həkim",
+    "en": "Physician",
+    "ru": "Врач",
+    "ka": "ექიმი",
+    "ar": "طبيب"
+  },
+  {
+    "code": "preschool_teaching",
+    "group": "specialities",
+    "az": "Məktəbəqədər təlim və tərbiyə",
+    "en": "Preschool teaching and upbringing",
+    "ru": "Дошкольное обучение и воспитание",
+    "ka": "სკოლამდელი აღზრდა",
+    "ar": "التعليم والتربية في مرحلة ما قبل المدرسة"
+  },
+  {
+    "code": "industrial_organization",
+    "group": "specialities",
+    "az": "Sənayenin təşkili və idarə olunması",
+    "en": "Industrial organization and management",
+    "ru": "Организация и управление промышленностью",
+    "ka": "მრეწველობის ორგანიზება და მართვა",
+    "ar": "تنظيم وإدارة الصناعة"
+  },
+  {
+    "code": "ecology",
+    "group": "specialities",
+    "az": "Ekologiya",
+    "en": "Ecology",
+    "ru": "Экология",
+    "ka": "ეკოლოგია",
+    "ar": "علم البيئة"
+  },
+  {
+    "code": "state_municipal_administration",
+    "group": "specialities",
+    "az": "Dövlət və bələdiyyə idarəetməsi",
+    "en": "State and municipal administration",
+    "ru": "Государственное и муниципальное управление",
+    "ka": "სახელმწიფო და მუნიციპალური მართვა",
+    "ar": "الإدارة الحكومية والبلدية"
+  },
+  {
+    "code": "school_psychological_service",
+    "group": "specialities",
+    "az": "Təhsildə sosial-psixoloji xidmət",
+    "en": "Social and psychological services in education",
+    "ru": "Социально-психологическая служба в образовании",
+    "ka": "სოციალურ-ფსიქოლოგიური სამსახური განათლებაში",
+    "ar": "الخدمة الاجتماعية والنفسية في التعليم"
+  },
+  {
+    "code": "history_teacher",
+    "group": "specialities",
+    "az": "Tarix müəllimliyi",
+    "en": "History teaching",
+    "ru": "Преподавание истории",
+    "ka": "ისტორიის მასწავლებელი",
+    "ar": "تعليم التاريخ"
+  },
+  {
+    "code": "history",
+    "group": "specialities",
+    "az": "Tarix",
+    "en": "History",
+    "ru": "История",
+    "ka": "ისტორია",
+    "ar": "التاريخ"
+  },
+  {
+    "code": "az_language_literature_teacher",
+    "group": "specialities",
+    "az": "Azərbaycan dili və ədəbiyyatı müəllimliyi",
+    "en": "Azerbaijani language and literature teaching",
+    "ru": "Преподавание азербайджанского языка и литературы",
+    "ka": "აზერბაიჯანული ენისა და ლიტერატურის მასწავლებელი",
+    "ar": "تعليم اللغة الأذربيجانية وأدبها"
+  },
+  {
+    "code": "tourism_hotel",
+    "group": "specialities",
+    "az": "Turizm və otelçilik",
+    "en": "Tourism and hotel management",
+    "ru": "Туризм и гостиничное дело",
+    "ka": "ტურიზმი და სასტუმრო საქმე",
+    "ar": "السياحة وإدارة الفنادق"
+  },
+  {
+    "code": "ecological_engineering",
+    "group": "specialities",
+    "az": "Ekologiya mühəndisliyi",
+    "en": "Ecological engineering",
+    "ru": "Инженерия экологии",
+    "ka": "ეკოლოგიის ინჟინერია",
+    "ar": "الهندسة البيئية"
+  },
+  {
+    "code": "chemical_engineering",
+    "group": "specialities",
+    "az": "Kimya mühəndisliyi",
+    "en": "Chemical engineering",
+    "ru": "Химическая инженерия",
+    "ka": "ქიმიური ინჟინერია",
+    "ar": "الهندسة الكيميائية"
+  },
+  {
+    "code": "math_teacher",
+    "group": "specialities",
+    "az": "Riyaziyyat müəllimliyi",
+    "en": "Mathematics teaching",
+    "ru": "Преподавание математики",
+    "ka": "მათემატიკის მასწავლებელი",
+    "ar": "تعليم الرياضيات"
+  },
+  {
+    "code": "design",
+    "group": "specialities",
+    "az": "Dizayn",
+    "en": "Design",
+    "ru": "Дизайн",
+    "ka": "დიზაინი",
+    "ar": "التصميم"
+  },
+  {
+    "code": "bookkeeping",
+    "group": "specialities",
+    "az": "Mühasibat",
+    "en": "Bookkeeping",
+    "ru": "Бухгалтерия",
+    "ka": "ბუღალტერია",
+    "ar": "مسك الدفاتر"
+  },
+  {
+    "code": "physics_teacher",
+    "group": "specialities",
+    "az": "Fizika müəllimliyi",
+    "en": "Physics teaching",
+    "ru": "Преподавание физики",
+    "ka": "ფიზიკის მასწავლებელი",
+    "ar": "تعليم الفيزياء"
+  },
+  {
+    "code": "math_informatics_teacher",
+    "group": "specialities",
+    "az": "Riyaziyyat və informatika müəllimliyi",
+    "en": "Mathematics and informatics teaching",
+    "ru": "Преподавание математики и информатики",
+    "ka": "მათემატიკისა და ინფორმატიკის მასწავლებელი",
+    "ar": "تعليم الرياضيات والمعلوماتية"
+  },
+  {
+    "code": "tourism_organization",
+    "group": "specialities",
+    "az": "Turizm işinin təşkili",
+    "en": "Organization of tourism",
+    "ru": "Организация туристического дела",
+    "ka": "ტურიზმის საქმის ორგანიზება",
+    "ar": "تنظيم أعمال السياحة"
+  },
+  {
+    "code": "pharmacist",
+    "group": "specialities",
+    "az": "Əczaçı",
+    "en": "Pharmacist",
+    "ru": "Фармацевт",
+    "ka": "ფარმაცევტი",
+    "ar": "صيدلي"
+  },
+  {
+    "code": "mathematics",
+    "group": "specialities",
+    "az": "Riyaziyyat",
+    "en": "Mathematics",
+    "ru": "Математика",
+    "ka": "მათემატიკა",
+    "ar": "الرياضيات"
+  },
+  {
+    "code": "oil_gas_engineering",
+    "group": "specialities",
+    "az": "Neft-qaz mühəndisliyi",
+    "en": "Oil and gas engineering",
+    "ru": "Нефтегазовая инженерия",
+    "ka": "ნავთობისა და გაზის ინჟინერია",
+    "ar": "هندسة النفط والغاز"
+  },
+  {
+    "code": "geography_teacher",
+    "group": "specialities",
+    "az": "Coğrafiya müəllimliyi",
+    "en": "Geography teaching",
+    "ru": "Преподавание географии",
+    "ka": "გეოგრაფიის მასწავლებელი",
+    "ar": "تعليم الجغرافيا"
+  },
+  {
+    "code": "informatics_teacher",
+    "group": "specialities",
+    "az": "İnformatika müəllimliyi",
+    "en": "Informatics teaching",
+    "ru": "Преподавание информатики",
+    "ka": "ინფორმატიკის მასწავლებელი",
+    "ar": "تعليم المعلوماتية"
+  },
+  {
+    "code": "process_automation_engineering",
+    "group": "specialities",
+    "az": "Proseslərin avtomatlaşdırılması mühəndisliyi",
+    "en": "Process automation engineering",
+    "ru": "Инженерия автоматизации процессов",
+    "ka": "პროცესების ავტომატიზაციის ინჟინერია",
+    "ar": "هندسة أتمتة العمليات"
+  },
+  {
+    "code": "family_home_education",
+    "group": "specialities",
+    "az": "Ailə və ev təhsili",
+    "en": "Family and home education",
+    "ru": "Семейное и домашнее обучение",
+    "ka": "ოჯახური და საშინაო განათლება",
+    "ar": "التعليم الأسري والمنزلي"
+  },
+  {
+    "code": "translator",
+    "group": "specialities",
+    "az": "Tərcüməçi",
+    "en": "Translator",
+    "ru": "Переводчик",
+    "ka": "თარჯიმანი",
+    "ar": "مترجم"
+  },
+  {
+    "code": "psychologist",
+    "group": "specialities",
+    "az": "Psixoloq",
+    "en": "Psychologist",
+    "ru": "Психолог",
+    "ka": "ფსიქოლოგი",
+    "ar": "أخصائي نفسي"
+  },
+  {
+    "code": "preschool_education",
+    "group": "specialities",
+    "az": "Məktəbəqədər təhsil",
+    "en": "Preschool education",
+    "ru": "Дошкольное образование",
+    "ka": "სკოლამდელი განათლება",
+    "ar": "التعليم ما قبل المدرسي"
+  },
+  {
+    "code": "biology_teacher",
+    "group": "specialities",
+    "az": "Biologiya müəllimliyi",
+    "en": "Biology teaching",
+    "ru": "Преподавание биологии",
+    "ka": "ბიოლოგიის მასწავლებელი",
+    "ar": "تعليم الأحياء"
+  },
+  {
+    "code": "biology",
+    "group": "specialities",
+    "az": "Biologiya",
+    "en": "Biology",
+    "ru": "Биология",
+    "ka": "ბიოლოგია",
+    "ar": "الأحياء"
+  },
+  {
+    "code": "history_geography_teacher",
+    "group": "specialities",
+    "az": "Tarix və coğrafiya müəllimliyi",
+    "en": "History and geography teaching",
+    "ru": "Преподавание истории и географии",
+    "ka": "ისტორიისა და გეოგრაფიის მასწავლებელი",
+    "ar": "تعليم التاريخ والجغرافيا"
+  },
+  {
+    "code": "politology",
+    "group": "specialities",
+    "az": "Politologiya",
+    "en": "Politology",
+    "ru": "Политология",
+    "ka": "პოლიტოლოგია",
+    "ar": "العلوم السياسية"
+  },
+  {
+    "code": "az_language_literature",
+    "group": "specialities",
+    "az": "Azərbaycan dili və ədəbiyyatı",
+    "en": "Azerbaijani language and literature",
+    "ru": "Азербайджанский язык и литература",
+    "ka": "აზერბაიჯანული ენა და ლიტერატურა",
+    "ar": "اللغة الأذربيجانية وأدبها"
+  },
+  {
+    "code": "english_language",
+    "group": "specialities",
+    "az": "İngilis dili",
+    "en": "English language",
+    "ru": "Английский язык",
+    "ka": "ინგლისური ენა",
+    "ar": "اللغة الإنجليزية"
+  },
+  {
+    "code": "philologist",
+    "group": "specialities",
+    "az": "Filoloq",
+    "en": "Philologist",
+    "ru": "Филолог",
+    "ka": "ფილოლოგი",
+    "ar": "عالم لغوي"
+  },
+  {
+    "code": "commerce",
+    "group": "specialities",
+    "az": "Kommersiya",
+    "en": "Commerce",
+    "ru": "Коммерция",
+    "ka": "კომერცია",
+    "ar": "التجارة"
+  },
+  {
+    "code": "geography",
+    "group": "specialities",
+    "az": "Coğrafiya",
+    "en": "Geography",
+    "ru": "География",
+    "ka": "გეოგრაფია",
+    "ar": "الجغرافيا"
+  },
+  {
+    "code": "consumer_goods_expertise",
+    "group": "specialities",
+    "az": "İstehlak mallarının ekspertizası və marketinqi",
+    "en": "Expertise and marketing of consumer goods",
+    "ru": "Экспертиза и маркетинг потребительских товаров",
+    "ka": "სამომხმარებლო საქონლის ექსპერტიზა და მარკეტინგი",
+    "ar": "خبرة وتسويق السلع الاستهلاكية"
+  },
+  {
+    "code": "chemistry_teacher",
+    "group": "specialities",
+    "az": "Kimya müəllimliyi",
+    "en": "Chemistry teaching",
+    "ru": "Преподавание химии",
+    "ka": "ქიმიის მასწავლებელი",
+    "ar": "تعليم الكيمياء"
+  },
+  {
+    "code": "chemistry",
+    "group": "specialities",
+    "az": "Kimya",
+    "en": "Chemistry",
+    "ru": "Химия",
+    "ka": "ქიმია",
+    "ar": "الكيمياء"
+  },
+  {
+    "code": "physics",
+    "group": "specialities",
+    "az": "Fizika",
+    "en": "Physics",
+    "ru": "Физика",
+    "ka": "ფიზიკა",
+    "ar": "الفيزياء"
+  },
+  {
+    "code": "journalist",
+    "group": "specialities",
+    "az": "Jurnalist",
+    "en": "Journalist",
+    "ru": "Журналист",
+    "ka": "ჟურნალისტი",
+    "ar": "صحفي"
+  },
+  {
+    "code": "psychology",
+    "group": "specialities",
+    "az": "Psixologiya",
+    "en": "Psychology",
+    "ru": "Психология",
+    "ka": "ფსიქოლოგია",
+    "ar": "علم النفس"
+  },
+  {
+    "code": "state_public_relations",
+    "group": "specialities",
+    "az": "Dövlət və ictimai münasibətlər",
+    "en": "State and public relations",
+    "ru": "Государственные и общественные отношения",
+    "ka": "სახელმწიფო და საზოგადოებრივი ურთიერთობები",
+    "ar": "العلاقات الحكومية والعامة"
+  },
+  {
+    "code": "soil_science_agrochemistry",
+    "group": "specialities",
+    "az": "Torpaqşünaslıq və aqrokimya",
+    "en": "Soil science and agrochemistry",
+    "ru": "Почвоведение и агрохимия",
+    "ka": "ნიადაგმცოდნეობა და აგროქიმია",
+    "ar": "علم التربة والكيمياء الزراعية"
+  },
+  {
+    "code": "journalism",
+    "group": "specialities",
+    "az": "Jurnalistika",
+    "en": "Journalism",
+    "ru": "Журналистика",
+    "ka": "ჟურნალისტიკა",
+    "ar": "الصحافة"
+  },
+  {
+    "code": "electrical_engineering",
+    "group": "specialities",
+    "az": "Elektrik mühəndisliyi",
+    "en": "Electrical engineering",
+    "ru": "Электротехническая инженерия",
+    "ka": "ელექტროინჟინერია",
+    "ar": "الهندسة الكهربائية"
+  },
+  {
+    "code": "tourism",
+    "group": "specialities",
+    "az": "Turizm",
+    "en": "Tourism",
+    "ru": "Туризм",
+    "ka": "ტურიზმი",
+    "ar": "السياحة"
+  },
+  {
+    "code": "civil_engineer",
+    "group": "specialities",
+    "az": "İnşaat mühəndisi",
+    "en": "Civil engineer",
+    "ru": "Инженер-строитель",
+    "ka": "სამოქალაქო ინჟინერი",
+    "ar": "مهندس مدني"
+  },
+  {
+    "code": "treatment",
+    "group": "specialities",
+    "az": "Müalicə işi",
+    "en": "General medicine",
+    "ru": "Лечебное дело",
+    "ka": "სამკურნალო საქმე",
+    "ar": "الطب العلاجي"
+  },
+  {
+    "code": "traffic_organization",
+    "group": "specialities",
+    "az": "Yol hərəkətinin təşkili",
+    "en": "Traffic organization",
+    "ru": "Организация дорожного движения",
+    "ka": "საგზაო მოძრაობის ორგანიზება",
+    "ar": "تنظيم حركة المرور"
+  },
+  {
+    "code": "information_security",
+    "group": "specialities",
+    "az": "İnformasiya təhlükəsizliyi",
+    "en": "Information security",
+    "ru": "Информационная безопасность",
+    "ka": "ინფორმაციული უსაფრთხოება",
+    "ar": "أمن المعلومات"
+  },
+  {
+    "code": "business_organization",
+    "group": "specialities",
+    "az": "Biznesin təşkili və idarə edilməsi",
+    "en": "Business organization and management",
+    "ru": "Организация и управление бизнесом",
+    "ka": "ბიზნესის ორგანიზება და მართვა",
+    "ar": "تنظيم وإدارة الأعمال"
+  },
+  {
+    "code": "cook",
+    "group": "specialities",
+    "az": "Aşpaz",
+    "en": "Cook",
+    "ru": "Повар",
+    "ka": "მზარეული",
+    "ar": "طبّاخ"
+  },
+  {
+    "code": "electric_power_engineering",
+    "group": "specialities",
+    "az": "Elektroenergetika mühəndisliyi",
+    "en": "Electric power engineering",
+    "ru": "Электроэнергетическая инженерия",
+    "ka": "ელექტროენერგეტიკის ინჟინერია",
+    "ar": "هندسة الطاقة الكهربائية"
+  },
+  {
+    "code": "midwifery",
+    "group": "specialities",
+    "az": "Mamalıq",
+    "en": "Midwifery",
+    "ru": "Акушерское дело",
+    "ka": "მეანობა",
+    "ar": "القبالة"
+  },
+  {
+    "code": "technology_teacher",
+    "group": "specialities",
+    "az": "Texnologiya müəllimliyi",
+    "en": "Technology teaching",
+    "ru": "Преподавание технологии",
+    "ka": "ტექნოლოგიის მასწავლებელი",
+    "ar": "تعليم التكنولوجيا"
+  },
+  {
+    "code": "intl_trade_logistics",
+    "group": "specialities",
+    "az": "Beynəlxalq ticarət və logistika",
+    "en": "International trade and logistics",
+    "ru": "Международная торговля и логистика",
+    "ka": "საერთაშორისო ვაჭრობა და ლოგისტიკა",
+    "ar": "التجارة الدولية واللوجستيات"
+  },
+  {
+    "code": "law",
+    "group": "specialities",
+    "az": "Hüquq",
+    "en": "Law",
+    "ru": "Право",
+    "ka": "სამართალი",
+    "ar": "القانون"
+  },
+  {
+    "code": "translation",
+    "group": "specialities",
+    "az": "Tərcümə",
+    "en": "Translation",
+    "ru": "Перевод",
+    "ka": "თარგმანი",
+    "ar": "الترجمة"
+  },
+  {
+    "code": "historian",
+    "group": "specialities",
+    "az": "Tarixçi",
+    "en": "Historian",
+    "ru": "Историк",
+    "ka": "ისტორიკოსი",
+    "ar": "مؤرخ"
+  },
+  {
+    "code": "civil_engineering",
+    "group": "specialities",
+    "az": "İnşaat mühəndisliyi",
+    "en": "Civil engineering",
+    "ru": "Строительная инженерия",
+    "ka": "სამოქალაქო ინჟინერია",
+    "ar": "الهندسة المدنية"
+  },
+  {
+    "code": "mechanical_engineering",
+    "group": "specialities",
+    "az": "Mexanika mühəndisliyi",
+    "en": "Mechanical engineering",
+    "ru": "Инженерная механика",
+    "ka": "მექანიკის ინჟინერია",
+    "ar": "الهندسة الميكانيكية"
+  },
+  {
+    "code": "manager",
+    "group": "specialities",
+    "az": "Menecer",
+    "en": "Manager",
+    "ru": "Менеджер",
+    "ka": "მენეჯერი",
+    "ar": "مدير"
+  },
+  {
+    "code": "pharmacy",
+    "group": "specialities",
+    "az": "Əczaçılıq",
+    "en": "Pharmacy",
+    "ru": "Фармация",
+    "ka": "ფარმაცია",
+    "ar": "الصيدلة"
+  },
+  {
+    "code": "designer",
+    "group": "specialities",
+    "az": "Dizayner",
+    "en": "Designer",
+    "ru": "Дизайнер",
+    "ka": "დიზაინერი",
+    "ar": "مصمم"
+  },
+  {
+    "code": "food_engineering",
+    "group": "specialities",
+    "az": "Qida mühəndisliyi",
+    "en": "Food engineering",
+    "ru": "Пищевая инженерия",
+    "ka": "კვების ინჟინერია",
+    "ar": "هندسة الأغذية"
+  },
+  {
+    "code": "fine_arts_teacher",
+    "group": "specialities",
+    "az": "Təsviri incəsənət müəllimliyi",
+    "en": "Fine arts teaching",
+    "ru": "Преподавание изобразительного искусства",
+    "ka": "სახვითი ხელოვნების მასწავლებელი",
+    "ar": "تعليم الفنون التشكيلية"
+  },
+  {
+    "code": "finance_credit",
+    "group": "specialities",
+    "az": "Maliyyə və kredit",
+    "en": "Finance and credit",
+    "ru": "Финансы и кредит",
+    "ka": "ფინანსები და კრედიტი",
+    "ar": "المالية والقروض"
+  },
+  {
+    "code": "piano",
+    "group": "specialities",
+    "az": "Fortepiano",
+    "en": "Piano",
+    "ru": "Фортепиано",
+    "ka": "ფორტეპიანო",
+    "ar": "البيانو"
+  },
+  {
+    "code": "biologist",
+    "group": "specialities",
+    "az": "Bioloq",
+    "en": "Biologist",
+    "ru": "Биолог",
+    "ka": "ბიოლოგი",
+    "ar": "عالم أحياء"
+  },
+  {
+    "code": "feldsher",
+    "group": "specialities",
+    "az": "Feldşer",
+    "en": "Feldsher (paramedic)",
+    "ru": "Фельдшер",
+    "ka": "ფელდშერი",
+    "ar": "مساعد طبي"
+  },
+  {
+    "code": "statistics",
+    "group": "specialities",
+    "az": "Statistika",
+    "en": "Statistics",
+    "ru": "Статистика",
+    "ka": "სტატისტიკა",
+    "ar": "الإحصاء"
+  },
+  {
+    "code": "administration",
+    "group": "specialities",
+    "az": "İdarəetmə",
+    "en": "Administration",
+    "ru": "Управление",
+    "ka": "მართვა",
+    "ar": "التسيير"
+  },
+  {
+    "code": "food_products_engineering",
+    "group": "specialities",
+    "az": "Qida məhsulları mühəndisliyi",
+    "en": "Food products engineering",
+    "ru": "Инженерия пищевых продуктов",
+    "ka": "კვების პროდუქტების ინჟინერია",
+    "ar": "هندسة المنتجات الغذائية"
+  },
+  {
+    "code": "physical_education_sport",
+    "group": "specialities",
+    "az": "Bədən tərbiyəsi və idman",
+    "en": "Physical education and sport",
+    "ru": "Физическое воспитание и спорт",
+    "ka": "ფიზიკური აღზრდა და სპორტი",
+    "ar": "التربية البدنية والرياضة"
+  },
+  {
+    "code": "tax_taxation",
+    "group": "specialities",
+    "az": "Vergi və vergitutma",
+    "en": "Taxes and taxation",
+    "ru": "Налоги и налогообложение",
+    "ka": "გადასახადები და დაბეგვრა",
+    "ar": "الضرائب والجباية"
+  },
+  {
+    "code": "machine_engineering",
+    "group": "specialities",
+    "az": "Maşın mühəndisliyi",
+    "en": "Machine engineering",
+    "ru": "Машинная инженерия",
+    "ka": "მანქანათა ინჟინერია",
+    "ar": "هندسة الآلات"
+  },
+  {
+    "code": "industrial_engineering",
+    "group": "specialities",
+    "az": "Sənaye mühəndisliyi",
+    "en": "Industrial engineering",
+    "ru": "Промышленная инженерия",
+    "ka": "სამრეწველო ინჟინერია",
+    "ar": "الهندسة الصناعية"
+  },
+  {
+    "code": "sociology",
+    "group": "specialities",
+    "az": "Sosiologiya",
+    "en": "Sociology",
+    "ru": "Социология",
+    "ka": "სოციოლოგია",
+    "ar": "علم الاجتماع"
+  },
+  {
+    "code": "chemistry_biology_teacher",
+    "group": "specialities",
+    "az": "Kimya və biologiya müəllimliyi",
+    "en": "Chemistry and biology teaching",
+    "ru": "Преподавание химии и биологии",
+    "ka": "ქიმიისა და ბიოლოგიის მასწავლებელი",
+    "ar": "تعليم الكيمياء والأحياء"
+  },
+  {
+    "code": "intl_economic_relations",
+    "group": "specialities",
+    "az": "Beynəlxalq iqtisadi münasibətlər",
+    "en": "International economic relations",
+    "ru": "Международные экономические отношения",
+    "ka": "საერთაშორისო ეკონომიკური ურთიერთობები",
+    "ar": "العلاقات الاقتصادية الدولية"
+  },
+  {
+    "code": "computer_operator",
+    "group": "specialities",
+    "az": "Kompüter operatoru",
+    "en": "Computer operator",
+    "ru": "Оператор ЭВМ",
+    "ka": "კომპიუტერის ოპერატორი",
+    "ar": "مشغّل حاسوب"
+  },
+  {
+    "code": "it_systems_engineering",
+    "group": "specialities",
+    "az": "İnformasiya texnologiyaları və sistemləri mühəndisliyi",
+    "en": "Information technology and systems engineering",
+    "ru": "Инженерия информационных технологий и систем",
+    "ka": "ინფორმაციული ტექნოლოგიებისა და სისტემების ინჟინერია",
+    "ar": "هندسة تقنية المعلومات والأنظمة"
+  },
+  {
+    "code": "tax_affairs",
+    "group": "specialities",
+    "az": "Vergi işi",
+    "en": "Tax affairs",
+    "ru": "Налоговое дело",
+    "ka": "საგადასახადო საქმე",
+    "ar": "الشؤون الضريبية"
+  },
+  {
+    "code": "ground_vehicle_engineering",
+    "group": "specialities",
+    "az": "Yerüstü nəqliyyat vasitələrinin mühəndisliyi",
+    "en": "Ground vehicle engineering",
+    "ru": "Инженерия наземных транспортных средств",
+    "ka": "ხმელეთის სატრანსპორტო საშუალებების ინჟინერია",
+    "ar": "هندسة المركبات البرية"
+  },
+  {
+    "code": "transport_logistics_engineering",
+    "group": "specialities",
+    "az": "Logistika və nəqliyyat texnologiyaları mühəndisliyi",
+    "en": "Logistics and transport technology engineering",
+    "ru": "Инженерия логистики и транспортных технологий",
+    "ka": "ლოგისტიკისა და ტრანსპორტის ტექნოლოგიების ინჟინერია",
+    "ar": "هندسة اللوجستيات وتكنولوجيا النقل"
+  },
+  {
+    "code": "electricity_supply",
+    "group": "specialities",
+    "az": "Elektrik təchizatı",
+    "en": "Electricity supply",
+    "ru": "Электроснабжение",
+    "ka": "ელექტრომომარაგება",
+    "ar": "التغذية الكهربائية"
+  },
+  {
+    "code": "operations_accountant",
+    "group": "specialities",
+    "az": "Əməliyyatçı mühasib",
+    "en": "Operations accountant",
+    "ru": "Бухгалтер-операционист",
+    "ka": "ოპერატორ-ბუღალტერი",
+    "ar": "محاسب عمليات"
+  },
+  {
+    "code": "corrective_education",
+    "group": "specialities",
+    "az": "Korreksiyaedici təlim",
+    "en": "Corrective education",
+    "ru": "Коррекционное обучение",
+    "ka": "კორექციული სწავლება",
+    "ar": "التعليم التصحيحي"
+  },
+  {
+    "code": "electrical_engineer",
+    "group": "specialities",
+    "az": "Elektrik mühəndisi",
+    "en": "Electrical engineer",
+    "ru": "Инженер-электрик",
+    "ka": "ინჟინერ-ელექტრიკოსი",
+    "ar": "مهندس كهربائي"
+  },
+  {
+    "code": "computer_engineer",
+    "group": "specialities",
+    "az": "Kompüter mühəndisi",
+    "en": "Computer engineer",
+    "ru": "Инженер-компьютерщик",
+    "ka": "კომპიუტერული ინჟინერი",
+    "ar": "مهندس حاسوب"
+  },
+  {
+    "code": "midwife",
+    "group": "specialities",
+    "az": "Mama",
+    "en": "Midwife",
+    "ru": "Акушерка",
+    "ka": "ბებიაქალი",
+    "ar": "قابلة"
+  },
+  {
+    "code": "philosophy",
+    "group": "specialities",
+    "az": "Fəlsəfə",
+    "en": "Philosophy",
+    "ru": "Философия",
+    "ka": "ფილოსოფია",
+    "ar": "الفلسفة"
+  },
+  {
+    "code": "informatics",
+    "group": "specialities",
+    "az": "İnformatika",
+    "en": "Informatics",
+    "ru": "Информатика",
+    "ka": "ინფორმატიკა",
+    "ar": "المعلوماتية"
+  },
+  {
+    "code": "vocational_training",
+    "group": "specialities",
+    "az": "Peşə təlimi",
+    "en": "Vocational training",
+    "ru": "Профессиональное обучение",
+    "ka": "პროფესიული მომზადება",
+    "ar": "التدريب المهني"
+  },
+  {
+    "code": "philology",
+    "group": "specialities",
+    "az": "Filologiya",
+    "en": "Philology",
+    "ru": "Филология",
+    "ka": "ფილოლოგია",
+    "ar": "فقه اللغة"
+  },
+  {
+    "code": "nursing",
+    "group": "specialities",
+    "az": "Tibb bacısı işi",
+    "en": "Nursing",
+    "ru": "Сестринское дело",
+    "ka": "საექთნო საქმე",
+    "ar": "التمريض"
+  },
+  {
+    "code": "electrician",
+    "group": "specialities",
+    "az": "Elektrik",
+    "en": "Electrician",
+    "ru": "Электрик",
+    "ka": "ელექტრიკოსი",
+    "ar": "كهربائي"
+  },
+  {
+    "code": "regional_studies",
+    "group": "specialities",
+    "az": "Regionşünaslıq",
+    "en": "Regional studies",
+    "ru": "Регионоведение",
+    "ka": "რეგიონმცოდნეობა",
+    "ar": "الدراسات الإقليمية"
+  },
+  {
+    "code": "electrical_electronics_engineering",
+    "group": "specialities",
+    "az": "Elektrik və elektronika mühəndisliyi",
+    "en": "Electrical and electronics engineering",
+    "ru": "Инженерия электрики и электроники",
+    "ka": "ელექტრო და ელექტრონიკის ინჟინერია",
+    "ar": "هندسة الكهرباء والإلكترونيات"
+  },
+  {
+    "code": "russian_teacher",
+    "group": "specialities",
+    "az": "Rus dili müəllimliyi",
+    "en": "Russian language teaching",
+    "ru": "Преподавание русского языка",
+    "ka": "რუსული ენის მასწავლებელი",
+    "ar": "تعليم اللغة الروسية"
+  },
+  {
+    "code": "electronics_telecom_radio_engineering",
+    "group": "specialities",
+    "az": "Elektronika, telekommunikasiya və radiotexnika mühəndisliyi",
+    "en": "Electronics, telecommunication and radio engineering",
+    "ru": "Инженерия электроники, телекоммуникаций и радиотехники",
+    "ka": "ელექტრონიკის, ტელეკომუნიკაციისა და რადიოტექნიკის ინჟინერია",
+    "ar": "هندسة الإلكترونيات والاتصالات والراديو"
+  },
+  {
+    "code": "veterinary",
+    "group": "specialities",
+    "az": "Baytarlıq",
+    "en": "Veterinary medicine",
+    "ru": "Ветеринария",
+    "ka": "ვეტერინარია",
+    "ar": "الطب البيطري"
+  },
+  {
+    "code": "metrology_standardization_engineering",
+    "group": "specialities",
+    "az": "Metrologiya, standartlaşdırma və sertifikasiya mühəndisliyi",
+    "en": "Metrology, standardization and certification engineering",
+    "ru": "Инженерия метрологии, стандартизации и сертификации",
+    "ka": "მეტროლოგიის, სტანდარტიზაციისა და სერტიფიცირების ინჟინერია",
+    "ar": "هندسة القياس والتقييس والاعتماد"
+  },
+  {
+    "code": "technological_machines_engineering",
+    "group": "specialities",
+    "az": "Texnoloji maşın və avadanlıqlar mühəndisliyi",
+    "en": "Technological machinery and equipment engineering",
+    "ru": "Инженерия технологических машин и оборудования",
+    "ka": "ტექნოლოგიური მანქანებისა და აღჭურვილობის ინჟინერია",
+    "ar": "هندسة الآلات والمعدات التكنولوجية"
+  },
+  {
+    "code": "coach",
+    "group": "specialities",
+    "az": "Məşqçi",
+    "en": "Sports coach",
+    "ru": "Тренер",
+    "ka": "მწვრთნელი",
+    "ar": "مدرب رياضي"
+  },
+  {
+    "code": "vehicle_maintenance",
+    "group": "specialities",
+    "az": "Nəqliyyat vasitələrinin texniki istismarı",
+    "en": "Technical maintenance of vehicles",
+    "ru": "Техническая эксплуатация транспортных средств",
+    "ka": "სატრანსპორტო საშუალებების ტექნიკური ექსპლუატაცია",
+    "ar": "الصيانة الفنية للمركبات"
+  },
+  {
+    "code": "postal_communication",
+    "group": "specialities",
+    "az": "Poçt rabitəsi",
+    "en": "Postal communication",
+    "ru": "Почтовая связь",
+    "ka": "საფოსტო კავშირი",
+    "ar": "الاتصالات البريدية"
+  },
+  {
+    "code": "melioration_water_engineering",
+    "group": "specialities",
+    "az": "Meliorasiya və su təsərrüfatı tikintisi mühəndisliyi",
+    "en": "Melioration and water management construction engineering",
+    "ru": "Инженерия мелиорации и водохозяйственного строительства",
+    "ka": "მელიორაციისა და წყალთა მეურნეობის მშენებლობის ინჟინერია",
+    "ar": "هندسة الاستصلاح وإنشاءات المياه"
+  },
+  {
+    "code": "transportation_organization",
+    "group": "specialities",
+    "az": "Nəqliyyatda daşımaların təşkili",
+    "en": "Organization of transportation",
+    "ru": "Организация перевозок на транспорте",
+    "ka": "ტრანსპორტზე გადაზიდვების ორგანიზება",
+    "ar": "تنظيم النقل والشحن"
+  },
+  {
+    "code": "public_administration",
+    "group": "specialities",
+    "az": "İnzibati idarəetmə",
+    "en": "Public administration",
+    "ru": "Административное управление",
+    "ka": "ადმინისტრაციული მართვა",
+    "ar": "الإدارة العامة"
+  },
+  {
+    "code": "general_economics",
+    "group": "specialities",
+    "az": "Ümumi iqtisadiyyat",
+    "en": "General economics",
+    "ru": "Общая экономика",
+    "ka": "ზოგადი ეკონომიკა",
+    "ar": "الاقتصاد العام"
+  },
+  {
+    "code": "oil_gas_facilities_engineering",
+    "group": "specialities",
+    "az": "Neft-qaz qurğuları mühəndisliyi",
+    "en": "Oil and gas facilities engineering",
+    "ru": "Инженерия нефтегазовых сооружений",
+    "ka": "ნავთობისა და გაზის ნაგებობების ინჟინერია",
+    "ar": "هندسة منشآت النفط والغاز"
+  },
+  {
+    "code": "agronomist",
+    "group": "specialities",
+    "az": "Aqronom",
+    "en": "Agronomist",
+    "ru": "Агроном",
+    "ka": "აგრონომი",
+    "ar": "مهندس زراعي"
+  },
+  {
+    "code": "hydrometeorology",
+    "group": "specialities",
+    "az": "Hidrometeorologiya",
+    "en": "Hydrometeorology",
+    "ru": "Гидрометеорология",
+    "ka": "ჰიდრომეტეოროლოგია",
+    "ar": "الأرصاد الجوية المائية"
+  },
+  {
+    "code": "ecologist",
+    "group": "specialities",
+    "az": "Ekoloq",
+    "en": "Ecologist",
+    "ru": "Эколог",
+    "ka": "ეკოლოგი",
+    "ar": "خبير بيئي"
+  },
+  {
+    "code": "geological_engineering",
+    "group": "specialities",
+    "az": "Geologiya mühəndisliyi",
+    "en": "Geological engineering",
+    "ru": "Геологическая инженерия",
+    "ka": "გეოლოგიის ინჟინერია",
+    "ar": "الهندسة الجيولوجية"
+  },
+  {
+    "code": "architect",
+    "group": "specialities",
+    "az": "Memar",
+    "en": "Architect",
+    "ru": "Архитектор",
+    "ka": "არქიტექტორი",
+    "ar": "مهندس معماري"
+  },
+  {
+    "code": "physical_education_teacher",
+    "group": "specialities",
+    "az": "Fiziki tərbiyə müəllimliyi",
+    "en": "Physical education teaching",
+    "ru": "Преподавание физического воспитания",
+    "ka": "ფიზიკური აღზრდის მასწავლებელი",
+    "ar": "تعليم التربية البدنية"
+  },
+  {
+    "code": "architecture",
+    "group": "specialities",
+    "az": "Memarlıq",
+    "en": "Architecture",
+    "ru": "Архитектура",
+    "ka": "არქიტექტურა",
+    "ar": "الهندسة المعمارية"
+  },
+  {
+    "code": "economics_management",
+    "group": "specialities",
+    "az": "İqtisadiyyat və idarəetmə",
+    "en": "Economics and management",
+    "ru": "Экономика и управление",
+    "ka": "ეკონომიკა და მართვა",
+    "ar": "الاقتصاد والإدارة"
+  },
+  {
+    "code": "economic_legal_regulation",
+    "group": "specialities",
+    "az": "İqtisadiyyatın hüquqi tənzimlənməsi",
+    "en": "Legal regulation of the economy",
+    "ru": "Правовое регулирование экономики",
+    "ka": "ეკონომიკის სამართლებრივი რეგულირება",
+    "ar": "التنظيم القانوني للاقتصاد"
+  },
+  {
+    "code": "geology",
+    "group": "specialities",
+    "az": "Geologiya",
+    "en": "Geology",
+    "ru": "Геология",
+    "ka": "გეოლოგია",
+    "ar": "الجيولوجيا"
+  },
+  {
+    "code": "french_teacher",
+    "group": "specialities",
+    "az": "Fransız dili müəllimliyi",
+    "en": "French language teaching",
+    "ru": "Преподавание французского языка",
+    "ka": "ფრანგული ენის მასწავლებელი",
+    "ar": "تعليم اللغة الفرنسية"
+  },
+  {
+    "code": "economic_regulation",
+    "group": "specialities",
+    "az": "İqtisadiyyatın tənzimlənməsi",
+    "en": "Economic regulation",
+    "ru": "Регулирование экономики",
+    "ka": "ეკონომიკის რეგულირება",
+    "ar": "تنظيم الاقتصاد"
+  },
+  {
+    "code": "english_language_literature",
+    "group": "specialities",
+    "az": "İngilis dili və ədəbiyyatı",
+    "en": "English language and literature",
+    "ru": "Английский язык и литература",
+    "ka": "ინგლისური ენა და ლიტერატურა",
+    "ar": "اللغة الإنجليزية وأدبها"
+  },
+  {
+    "code": "medicine",
+    "group": "specialities",
+    "az": "Tibb",
+    "en": "Medicine",
+    "ru": "Медицина",
+    "ka": "მედიცინა",
+    "ar": "الطب"
+  },
+  {
+    "code": "customs",
+    "group": "specialities",
+    "az": "Gömrük işi",
+    "en": "Customs",
+    "ru": "Таможенное дело",
+    "ka": "საბაჟო საქმე",
+    "ar": "الجمارك"
+  },
+  {
+    "code": "foreign_language_teacher",
+    "group": "specialities",
+    "az": "Xarici dil müəllimliyi",
+    "en": "Foreign language teaching",
+    "ru": "Преподавание иностранного языка",
+    "ka": "უცხო ენის მასწავლებელი",
+    "ar": "تعليم اللغات الأجنبية"
+  },
+  {
+    "code": "agricultural_engineer",
+    "group": "specialities",
+    "az": "Aqromühəndis",
+    "en": "Agricultural machinery engineer",
+    "ru": "Агроинженер",
+    "ka": "აგროინჟინერი",
+    "ar": "مهندس ميكنة زراعية"
+  },
+  {
+    "code": "energy_engineering",
+    "group": "specialities",
+    "az": "Energetika mühəndisliyi",
+    "en": "Energy engineering",
+    "ru": "Инженерия энергетики",
+    "ka": "ენერგეტიკის ინჟინერია",
+    "ar": "هندسة الطاقة"
+  },
+  {
+    "code": "customs_organization",
+    "group": "specialities",
+    "az": "Gömrük işinin təşkili",
+    "en": "Organization of customs affairs",
+    "ru": "Организация таможенного дела",
+    "ka": "საბაჟო საქმის ორგანიზება",
+    "ar": "تنظيم الأعمال الجمركية"
+  },
+  {
+    "code": "archive_records_management",
+    "group": "specialities",
+    "az": "Arxiv işi və kargüzarlıq",
+    "en": "Archiving and records management",
+    "ru": "Архивное дело и делопроизводство",
+    "ka": "საარქივო საქმე და საქმისწარმოება",
+    "ar": "الأرشيف وإدارة السجلات"
+  },
+  {
+    "code": "dentist",
+    "group": "specialities",
+    "az": "Stomatoloq",
+    "en": "Dentist",
+    "ru": "Стоматолог",
+    "ka": "სტომატოლოგი",
+    "ar": "طبيب أسنان"
+  },
+  {
+    "code": "geophysical_engineering",
+    "group": "specialities",
+    "az": "Geofizika mühəndisliyi",
+    "en": "Geophysical engineering",
+    "ru": "Геофизическая инженерия",
+    "ka": "გეოფიზიკის ინჟინერია",
+    "ar": "الهندسة الجيوفيزيائية"
+  },
+  {
+    "code": "music_teacher",
+    "group": "specialities",
+    "az": "Musiqi müəllimliyi",
+    "en": "Music teaching",
+    "ru": "Преподавание музыки",
+    "ka": "მუსიკის მასწავლებელი",
+    "ar": "تعليم الموسيقى"
+  },
+  {
+    "code": "financier",
+    "group": "specialities",
+    "az": "Maliyyəçi",
+    "en": "Financier",
+    "ru": "Финансист",
+    "ka": "ფინანსისტი",
+    "ar": "أخصائي مالي"
+  },
+  {
+    "code": "transport",
+    "group": "specialities",
+    "az": "Nəqliyyat",
+    "en": "Transport",
+    "ru": "Транспорт",
+    "ka": "ტრანსპორტი",
+    "ar": "النقل"
+  },
+  {
+    "code": "land_cadastre",
+    "group": "specialities",
+    "az": "Yer quruluşu, torpaq və şəhər kadastrı",
+    "en": "Land management and urban cadastre",
+    "ru": "Землеустройство, земельный и городской кадастр",
+    "ka": "მიწათმოწყობა, მიწისა და ქალაქის კადასტრი",
+    "ar": "إدارة الأراضي والسجل العقاري الحضري"
+  },
+  {
+    "code": "transport_construction_engineering",
+    "group": "specialities",
+    "az": "Nəqliyyat tikintisi mühəndisliyi",
+    "en": "Transport construction engineering",
+    "ru": "Инженерия транспортного строительства",
+    "ka": "სატრანსპორტო მშენებლობის ინჟინერია",
+    "ar": "هندسة إنشاءات النقل"
+  },
+  {
+    "code": "instrument_engineering",
+    "group": "specialities",
+    "az": "Cihaz mühəndisliyi",
+    "en": "Instrument engineering",
+    "ru": "Приборостроительная инженерия",
+    "ka": "ხელსაწყოების ინჟინერია",
+    "ar": "هندسة الأجهزة"
+  },
+  {
+    "code": "library_information",
+    "group": "specialities",
+    "az": "Kitabxanaçılıq və informasiya",
+    "en": "Library and information science",
+    "ru": "Библиотековедение и информация",
+    "ka": "ბიბლიოთეკათმცოდნეობა და ინფორმაცია",
+    "ar": "علم المكتبات والمعلومات"
+  },
+  {
+    "code": "sports_teacher",
+    "group": "specialities",
+    "az": "İdman müəllimi",
+    "en": "Sports teacher",
+    "ru": "Учитель физкультуры",
+    "ka": "სპორტის მასწავლებელი",
+    "ar": "مدرّس رياضة"
+  },
+  {
+    "code": "pedagogue",
+    "group": "specialities",
+    "az": "Pedaqoq",
+    "en": "Pedagogue",
+    "ru": "Педагог",
+    "ka": "პედაგოგი",
+    "ar": "مربٍّ"
+  },
+  {
+    "code": "mechanical_engineer",
+    "group": "specialities",
+    "az": "Mühəndis-mexanik",
+    "en": "Mechanical engineer",
+    "ru": "Инженер-механик",
+    "ka": "ინჟინერ-მექანიკოსი",
+    "ar": "مهندس ميكانيكي"
+  },
+  {
+    "code": "medical_prophylaxis",
+    "group": "specialities",
+    "az": "Tibbi profilaktika",
+    "en": "Medical prophylaxis",
+    "ru": "Медицинская профилактика",
+    "ka": "სამედიცინო პროფილაქტიკა",
+    "ar": "الوقاية الطبية"
+  },
+  {
+    "code": "math_informatics",
+    "group": "specialities",
+    "az": "Riyaziyyat və informatika",
+    "en": "Mathematics and informatics",
+    "ru": "Математика и информатика",
+    "ka": "მათემატიკა და ინფორმატიკა",
+    "ar": "الرياضيات والمعلوماتية"
+  },
+  {
+    "code": "biomedical_engineering",
+    "group": "specialities",
+    "az": "Biotibbi texnologiya mühəndisliyi",
+    "en": "Biomedical technology engineering",
+    "ru": "Инженерия биомедицинских технологий",
+    "ka": "ბიოსამედიცინო ტექნოლოგიების ინჟინერია",
+    "ar": "هندسة التقنيات الطبية الحيوية"
+  },
+  {
+    "code": "hotel_administrator",
+    "group": "specialities",
+    "az": "Mehmanxana inzibatçısı",
+    "en": "Hotel administrator",
+    "ru": "Администратор гостиницы",
+    "ka": "სასტუმროს ადმინისტრატორი",
+    "ar": "مدير فندق"
+  },
+  {
+    "code": "geologist",
+    "group": "specialities",
+    "az": "Geoloq",
+    "en": "Geologist",
+    "ru": "Геолог",
+    "ka": "გეოლოგი",
+    "ar": "جيولوجي"
+  },
+  {
+    "code": "football",
+    "group": "specialities",
+    "az": "Futbol",
+    "en": "Football",
+    "ru": "Футбол",
+    "ka": "ფეხბურთი",
+    "ar": "كرة القدم"
+  },
+  {
+    "code": "insurance",
+    "group": "specialities",
+    "az": "Sığorta işi",
+    "en": "Insurance",
+    "ru": "Страховое дело",
+    "ka": "დაზღვევის საქმე",
+    "ar": "أعمال التأمين"
+  },
+  {
+    "code": "french_language",
+    "group": "specialities",
+    "az": "Fransız dili",
+    "en": "French language",
+    "ru": "Французский язык",
+    "ka": "ფრანგული ენა",
+    "ar": "اللغة الفرنسية"
+  },
+  {
+    "code": "librarian",
+    "group": "specialities",
+    "az": "Kitabxanaçı",
+    "en": "Librarian",
+    "ru": "Библиотекарь",
+    "ka": "ბიბლიოთეკარი",
+    "ar": "أمين مكتبة"
+  },
+  {
+    "code": "logistics",
+    "group": "specialities",
+    "az": "Logistika",
+    "en": "Logistics",
+    "ru": "Логистика",
+    "ka": "ლოგისტიკა",
+    "ar": "اللوجستيات"
+  },
+  {
+    "code": "transport_engineering",
+    "group": "specialities",
+    "az": "Nəqliyyat mühəndisliyi",
+    "en": "Transport engineering",
+    "ru": "Транспортная инженерия",
+    "ka": "სატრანსპორტო ინჟინერია",
+    "ar": "هندسة النقل"
+  },
+  {
+    "code": "geodesy_engineering",
+    "group": "specialities",
+    "az": "Geodeziya və xəritəçilik mühəndisliyi",
+    "en": "Geodesy and cartography engineering",
+    "ru": "Инженерия геодезии и картографии",
+    "ka": "გეოდეზიისა და კარტოგრაფიის ინჟინერია",
+    "ar": "هندسة المساحة ورسم الخرائط"
+  },
+  {
+    "code": "agronomy",
+    "group": "specialities",
+    "az": "Aqronomluq",
+    "en": "Agronomy",
+    "ru": "Агрономия",
+    "ka": "აგრონომია",
+    "ar": "علم الزراعة"
+  },
+  {
+    "code": "boxing",
+    "group": "specialities",
+    "az": "Boks",
+    "en": "Boxing",
+    "ru": "Бокс",
+    "ka": "კრივი",
+    "ar": "الملاكمة"
+  },
+  {
+    "code": "materials_engineering",
+    "group": "specialities",
+    "az": "Materialşünaslıq mühəndisliyi",
+    "en": "Materials science engineering",
+    "ru": "Инженерия материаловедения",
+    "ka": "მატერიალმცოდნეობის ინჟინერია",
+    "ar": "هندسة علم المواد"
+  },
+  {
+    "code": "systems_engineering",
+    "group": "specialities",
+    "az": "Sistem mühəndisliyi",
+    "en": "Systems engineering",
+    "ru": "Системная инженерия",
+    "ka": "სისტემური ინჟინერია",
+    "ar": "هندسة الأنظمة"
+  },
+  {
+    "code": "chemist",
+    "group": "specialities",
+    "az": "Kimyaçı",
+    "en": "Chemist",
+    "ru": "Химик",
+    "ka": "ქიმიკოსი",
+    "ar": "كيميائي"
+  },
+  {
+    "code": "municipal_economy",
+    "group": "specialities",
+    "az": "Bələdiyyə təsərrüfatının təşkili",
+    "en": "Organization of municipal services",
+    "ru": "Организация муниципального хозяйства",
+    "ka": "მუნიციპალური მეურნეობის ორგანიზება",
+    "ar": "تنظيم الخدمات البلدية"
+  },
+  {
+    "code": "political_scientist",
+    "group": "specialities",
+    "az": "Politoloq",
+    "en": "Political scientist",
+    "ru": "Политолог",
+    "ka": "პოლიტოლოგი",
+    "ar": "عالم سياسي"
+  },
+  {
+    "code": "sociologist",
+    "group": "specialities",
+    "az": "Sosioloq",
+    "en": "Sociologist",
+    "ru": "Социолог",
+    "ka": "სოციოლოგი",
+    "ar": "عالم اجتماع"
+  },
+  {
+    "code": "mechanic",
+    "group": "specialities",
+    "az": "Mexanik",
+    "en": "Mechanic",
+    "ru": "Механик",
+    "ka": "მექანიკოსი",
+    "ar": "ميكانيكي"
+  },
+  {
+    "code": "engineering",
+    "group": "specialities",
+    "az": "Mühəndislik",
+    "en": "Engineering",
+    "ru": "Инженерное дело",
+    "ka": "ინჟინერია",
+    "ar": "الهندسة"
+  },
+  {
+    "code": "art_critic",
+    "group": "specialities",
+    "az": "Sənətşünas",
+    "en": "Art critic",
+    "ru": "Искусствовед",
+    "ka": "ხელოვნებათმცოდნე",
+    "ar": "ناقد فني"
+  },
+  {
+    "code": "social_worker",
+    "group": "specialities",
+    "az": "Sosial işçi",
+    "en": "Social worker",
+    "ru": "Социальный работник",
+    "ka": "სოციალური მუშაკი",
+    "ar": "أخصائي اجتماعي"
+  },
+  {
+    "code": "physicist",
+    "group": "specialities",
+    "az": "Fizik",
+    "en": "Physicist",
+    "ru": "Физик",
+    "ka": "ფიზიკოსი",
+    "ar": "فيزيائي"
+  },
+  {
+    "code": "winemaking",
+    "group": "specialities",
+    "az": "Şərabçılıq",
+    "en": "Winemaking",
+    "ru": "Виноделие",
+    "ka": "მეღვინეობა",
+    "ar": "صناعة النبيذ"
+  },
+  {
+    "code": "forestry",
+    "group": "specialities",
+    "az": "Meşəçilik",
+    "en": "Forestry",
+    "ru": "Лесное хозяйство",
+    "ka": "მეტყევეობა",
+    "ar": "الحراجة"
+  },
+  {
+    "code": "art_studies",
+    "group": "specialities",
+    "az": "Sənətşünaslıq",
+    "en": "Art studies",
+    "ru": "Искусствоведение",
+    "ka": "ხელოვნებათმცოდნეობა",
+    "ar": "علم الفنون"
+  },
+  {
+    "code": "emergency_safety_engineering",
+    "group": "specialities",
+    "az": "Fövqəladə hallar və həyat fəaliyyətinin təhlükəsizliyi mühəndisliyi",
+    "en": "Emergency and life safety engineering",
+    "ru": "Инженерия чрезвычайных ситуаций и безопасности жизнедеятельности",
+    "ka": "საგანგებო სიტუაციებისა და სიცოცხლის უსაფრთხოების ინჟინერია",
+    "ar": "هندسة الطوارئ وسلامة الحياة"
+  },
+  {
+    "code": "hydrogeological_engineering",
+    "group": "specialities",
+    "az": "Hidrogeologiya mühəndisliyi",
+    "en": "Hydrogeological engineering",
+    "ru": "Гидрогеологическая инженерия",
+    "ka": "ჰიდროგეოლოგიის ინჟინერია",
+    "ar": "الهندسة الهيدروجيولوجية"
+  },
+  {
+    "code": "inclusive_education",
+    "group": "specialities",
+    "az": "İnklüziv təhsil",
+    "en": "Inclusive education",
+    "ru": "Инклюзивное образование",
+    "ka": "ინკლუზიური განათლება",
+    "ar": "التعليم الشامل"
+  },
+  {
+    "code": "computer_networks",
+    "group": "specialities",
+    "az": "Kompüter şəbəkələri",
+    "en": "Computer networks",
+    "ru": "Компьютерные сети",
+    "ka": "კომპიუტერული ქსელები",
+    "ar": "شبكات الحاسوب"
+  },
+  {
+    "code": "museum_archive_studies",
+    "group": "specialities",
+    "az": "Muzeyşünaslıq, arxiv işi və abidələrin qorunması",
+    "en": "Museum studies, archiving and monument protection",
+    "ru": "Музееведение, архивное дело и охрана памятников",
+    "ka": "მუზეუმმცოდნეობა, საარქივო საქმე და ძეგლთა დაცვა",
+    "ar": "علم المتاحف والأرشيف وحماية الآثار"
+  },
+  {
+    "code": "mechanics",
+    "group": "specialities",
+    "az": "Mexanika",
+    "en": "Mechanics",
+    "ru": "Механика",
+    "ka": "მექანიკა",
+    "ar": "الميكانيكا"
+  },
+  {
+    "code": "biotechnology",
+    "group": "specialities",
+    "az": "Biotexnologiya",
+    "en": "Biotechnology",
+    "ru": "Биотехнология",
+    "ka": "ბიოტექნოლოგია",
+    "ar": "التقنية الحيوية"
+  },
+  {
+    "code": "urban_planning",
+    "group": "specialities",
+    "az": "Şəhərsalma",
+    "en": "Urban planning",
+    "ru": "Градостроительство",
+    "ka": "ურბანული დაგეგმარება",
+    "ar": "التخطيط العمراني"
+  },
+  {
+    "code": "technology",
+    "group": "specialities",
+    "az": "Texnologiya",
+    "en": "Technology",
+    "ru": "Технология",
+    "ka": "ტექნოლოგია",
+    "ar": "التكنولوجيا"
+  },
+  {
+    "code": "business",
+    "group": "specialities",
+    "az": "Biznes",
+    "en": "Business",
+    "ru": "Бизнес",
+    "ka": "ბიზნესი",
+    "ar": "الأعمال"
+  },
+  {
+    "code": "railway_engineering",
+    "group": "specialities",
+    "az": "Dəmiryol nəqliyyatı və təsərrüfatı mühəndisliyi",
+    "en": "Railway transport and management engineering",
+    "ru": "Инженерия железнодорожного транспорта и хозяйства",
+    "ka": "სარკინიგზო ტრანსპორტისა და მეურნეობის ინჟინერია",
+    "ar": "هندسة النقل والمرافق السككية"
+  },
+  {
+    "code": "driver",
+    "group": "specialities",
+    "az": "Sürücü",
+    "en": "Driver",
+    "ru": "Водитель",
+    "ka": "მძღოლი",
+    "ar": "سائق"
+  },
+  {
+    "code": "kindergarten_teacher",
+    "group": "specialities",
+    "az": "Tərbiyəçi",
+    "en": "Kindergarten teacher",
+    "ru": "Воспитатель",
+    "ka": "აღმზრდელი",
+    "ar": "مربية أطفال"
+  },
+  {
+    "code": "welder",
+    "group": "specialities",
+    "az": "Qaynaqçı",
+    "en": "Welder",
+    "ru": "Сварщик",
+    "ka": "შემდუღებელი",
+    "ar": "لحّام"
+  },
+  {
+    "code": "heat_energy_engineering",
+    "group": "specialities",
+    "az": "İstilik energetikası mühəndisliyi",
+    "en": "Heat power engineering",
+    "ru": "Инженерия теплоэнергетики",
+    "ka": "თბოენერგეტიკის ინჟინერია",
+    "ar": "هندسة الطاقة الحرارية"
+  },
+  {
+    "code": "lab_assistant",
+    "group": "specialities",
+    "az": "Laborant",
+    "en": "Laboratory assistant",
+    "ru": "Лаборант",
+    "ka": "ლაბორანტი",
+    "ar": "فني مختبر"
+  },
+  {
+    "code": "pediatrician",
+    "group": "specialities",
+    "az": "Pediatr",
+    "en": "Pediatrician",
+    "ru": "Педиатр",
+    "ka": "პედიატრი",
+    "ar": "طبيب أطفال"
+  },
+  {
+    "code": "sport",
+    "group": "specialities",
+    "az": "İdman",
+    "en": "Sport",
+    "ru": "Спорт",
+    "ka": "სპორტი",
+    "ar": "الرياضة"
+  },
+  {
+    "code": "marketer",
+    "group": "specialities",
+    "az": "Marketoloq",
+    "en": "Marketer",
+    "ru": "Маркетолог",
+    "ka": "მარკეტოლოგი",
+    "ar": "أخصائي تسويق"
+  },
+  {
+    "code": "zootechnician",
+    "group": "specialities",
+    "az": "Zootexnik",
+    "en": "Zootechnician",
+    "ru": "Зоотехник",
+    "ka": "ზოოტექნიკოსი",
+    "ar": "فني إنتاج حيواني"
+  },
+  {
+    "code": "serviceman",
+    "group": "specialities",
+    "az": "Hərbiçi",
+    "en": "Military serviceman",
+    "ru": "Военнослужащий",
+    "ka": "სამხედრო მოსამსახურე",
+    "ar": "عسكري"
+  },
+  {
+    "code": "artist",
+    "group": "specialities",
+    "az": "Rəssam",
+    "en": "Artist",
+    "ru": "Художник",
+    "ka": "მხატვარი",
+    "ar": "فنان تشكيلي"
+  },
+  {
+    "code": "tour_guiding",
+    "group": "specialities",
+    "az": "Turizm bələdçiliyi",
+    "en": "Tour guiding",
+    "ru": "Экскурсоводческое дело",
+    "ka": "ტურიზმის გიდობა",
+    "ar": "الإرشاد السياحي"
+  },
+  {
+    "code": "locksmith",
+    "group": "specialities",
+    "az": "Çilingər",
+    "en": "Locksmith",
+    "ru": "Слесарь",
+    "ka": "ზეინკალი",
+    "ar": "ميكانيكي تركيبات"
+  },
+  {
+    "code": "radio_telecom_engineering",
+    "group": "specialities",
+    "az": "Radiotexnika və telekommunikasiya mühəndisliyi",
+    "en": "Radio and telecommunication engineering",
+    "ru": "Инженерия радиотехники и телекоммуникаций",
+    "ka": "რადიოტექნიკისა და ტელეკომუნიკაციის ინჟინერია",
+    "ar": "هندسة الراديو والاتصالات"
+  },
+  {
+    "code": "intl_law",
+    "group": "specialities",
+    "az": "Beynəlxalq hüquq",
+    "en": "International law",
+    "ru": "Международное право",
+    "ka": "საერთაშორისო სამართალი",
+    "ar": "القانون الدولي"
+  },
+  {
+    "code": "therapist",
+    "group": "specialities",
+    "az": "Həkim-terapevt",
+    "en": "Internist",
+    "ru": "Врач-терапевт",
+    "ka": "ექიმ-თერაპევტი",
+    "ar": "طبيب باطني"
+  },
+  {
+    "code": "judo",
+    "group": "specialities",
+    "az": "Cüdo",
+    "en": "Judo",
+    "ru": "Дзюдо",
+    "ka": "ძიუდო",
+    "ar": "الجودو"
+  },
+  {
+    "code": "economic_state_regulation",
+    "group": "specialities",
+    "az": "İqtisadiyyatın dövlət tənzimlənməsi",
+    "en": "State regulation of the economy",
+    "ru": "Государственное регулирование экономики",
+    "ka": "ეკონომიკის სახელმწიფო რეგულირება",
+    "ar": "التنظيم الحكومي للاقتصاد"
+  },
+  {
+    "code": "tourism_organizer",
+    "group": "specialities",
+    "az": "Turizm təşkilatçısı",
+    "en": "Tourism organizer",
+    "ru": "Организатор туризма",
+    "ka": "ტურიზმის ორგანიზატორი",
+    "ar": "منظّم رحلات سياحية"
+  },
+  {
+    "code": "standardization_certification",
+    "group": "specialities",
+    "az": "Standartlaşdırma və sertifikasiya",
+    "en": "Standardization and certification",
+    "ru": "Стандартизация и сертификация",
+    "ka": "სტანდარტიზაცია და სერტიფიცირება",
+    "ar": "التقييس والاعتماد"
+  },
+  {
+    "code": "computer_systems",
+    "group": "specialities",
+    "az": "Kompüter sistemləri və kompleksləri",
+    "en": "Computer systems and complexes",
+    "ru": "Компьютерные системы и комплексы",
+    "ka": "კომპიუტერული სისტემები და კომპლექსები",
+    "ar": "أنظمة ومجمعات الحاسوب"
+  },
+  {
+    "code": "veterinarian",
+    "group": "specialities",
+    "az": "Baytar",
+    "en": "Veterinarian",
+    "ru": "Ветеринар",
+    "ka": "ვეტერინარი",
+    "ar": "طبيب بيطري"
+  },
+  {
+    "code": "technologist",
+    "group": "specialities",
+    "az": "Texnoloq",
+    "en": "Technologist",
+    "ru": "Технолог",
+    "ka": "ტექნოლოგი",
+    "ar": "أخصائي تكنولوجيا"
+  },
+  {
+    "code": "speech_therapist",
+    "group": "specialities",
+    "az": "Loqoped",
+    "en": "Speech therapist",
+    "ru": "Логопед",
+    "ka": "ლოგოპედი",
+    "ar": "معالج نطق"
+  },
+  {
+    "code": "german_language",
+    "group": "specialities",
+    "az": "Alman dili",
+    "en": "German language",
+    "ru": "Немецкий язык",
+    "ka": "გერმანული ენა",
+    "ar": "اللغة الألمانية"
+  },
+  {
+    "code": "tailor",
+    "group": "specialities",
+    "az": "Dərzi",
+    "en": "Tailor",
+    "ru": "Портной",
+    "ka": "მკერავი",
+    "ar": "خيّاط"
+  },
+  {
+    "code": "consumer_goods_quality",
+    "group": "specialities",
+    "az": "İstehlak mallarının keyfiyyət ekspertizası",
+    "en": "Quality expertise of consumer goods",
+    "ru": "Экспертиза качества потребительских товаров",
+    "ka": "სამომხმარებლო საქონლის ხარისხის ექსპერტიზა",
+    "ar": "خبرة جودة السلع الاستهلاكية"
+  },
+  {
+    "code": "financial_management",
+    "group": "specialities",
+    "az": "Maliyyə menecmenti",
+    "en": "Financial management",
+    "ru": "Финансовый менеджмент",
+    "ka": "ფინანსური მენეჯმენტი",
+    "ar": "الإدارة المالية"
+  },
+  {
+    "code": "german_teacher",
+    "group": "specialities",
+    "az": "Alman dili müəllimliyi",
+    "en": "German language teaching",
+    "ru": "Преподавание немецкого языка",
+    "ka": "გერმანული ენის მასწავლებელი",
+    "ar": "تعليم اللغة الألمانية"
+  },
+  {
+    "code": "athletics",
+    "group": "specialities",
+    "az": "Atletika",
+    "en": "Athletics",
+    "ru": "Атлетика",
+    "ka": "ატლეტიკა",
+    "ar": "ألعاب القوى"
+  },
+  {
+    "code": "management_information_systems",
+    "group": "specialities",
+    "az": "İdarəetmədə informasiya sistemləri",
+    "en": "Information systems in management",
+    "ru": "Информационные системы в управлении",
+    "ka": "ინფორმაციული სისტემები მართვაში",
+    "ar": "أنظمة المعلومات الإدارية"
+  },
+  {
+    "code": "mathematician",
+    "group": "specialities",
+    "az": "Riyaziyyatçı",
+    "en": "Mathematician",
+    "ru": "Математик",
+    "ka": "მათემატიკოსი",
+    "ar": "عالم رياضيات"
+  },
+  {
+    "code": "melioration_engineering",
+    "group": "specialities",
+    "az": "Meliorasiya mühəndisliyi",
+    "en": "Melioration engineering",
+    "ru": "Инженерия мелиорации",
+    "ka": "მელიორაციის ინჟინერია",
+    "ar": "هندسة الاستصلاح"
+  },
+  {
+    "code": "primary_education",
+    "group": "specialities",
+    "az": "İbtidai təhsil",
+    "en": "Primary education",
+    "ru": "Начальное образование",
+    "ka": "დაწყებითი განათლება",
+    "ar": "التعليم الابتدائي"
+  },
+  {
+    "code": "instrumental_performance",
+    "group": "specialities",
+    "az": "İnstrumental ifaçılıq",
+    "en": "Instrumental performance",
+    "ru": "Инструментальное исполнительство",
+    "ka": "ინსტრუმენტული შესრულება",
+    "ar": "العزف الآلي"
+  },
+  {
+    "code": "music_theory",
+    "group": "specialities",
+    "az": "Musiqi nəzəriyyəsi",
+    "en": "Music theory",
+    "ru": "Теория музыки",
+    "ka": "მუსიკის თეორია",
+    "ar": "نظرية الموسيقى"
+  },
+  {
+    "code": "director",
+    "group": "specialities",
+    "az": "Rejissor",
+    "en": "Director",
+    "ru": "Режиссёр",
+    "ka": "რეჟისორი",
+    "ar": "مخرج"
+  },
+  {
+    "code": "energy",
+    "group": "specialities",
+    "az": "Energetika",
+    "en": "Energy",
+    "ru": "Энергетика",
+    "ka": "ენერგეტიკა",
+    "ar": "الطاقة"
+  },
+  {
+    "code": "life_safety_engineering",
+    "group": "specialities",
+    "az": "Həyat fəaliyyətinin təhlükəsizliyi mühəndisliyi",
+    "en": "Life safety engineering",
+    "ru": "Инженерия безопасности жизнедеятельности",
+    "ka": "სიცოცხლის უსაფრთხოების ინჟინერია",
+    "ar": "هندسة سلامة الحياة"
+  },
+  {
+    "code": "energy_machinery_engineering",
+    "group": "specialities",
+    "az": "Enerji maşınqayırması mühəndisliyi",
+    "en": "Power machinery engineering",
+    "ru": "Инженерия энергетического машиностроения",
+    "ka": "ენერგეტიკული მანქანათმშენებლობის ინჟინერია",
+    "ar": "هندسة آلات الطاقة"
+  },
+  {
+    "code": "french_language_literature",
+    "group": "specialities",
+    "az": "Fransız dili və ədəbiyyatı",
+    "en": "French language and literature",
+    "ru": "Французский язык и литература",
+    "ka": "ფრანგული ენა და ლიტერატურა",
+    "ar": "اللغة الفرنسية وأدبها"
+  },
+  {
+    "code": "assistant_train_driver",
+    "group": "specialities",
+    "az": "Maşinist köməkçisi",
+    "en": "Assistant train driver",
+    "ru": "Помощник машиниста",
+    "ka": "მემანქანის თანაშემწე",
+    "ar": "مساعد سائق قطار"
+  },
+  {
+    "code": "traffic_safety",
+    "group": "specialities",
+    "az": "Yol hərəkətinin təşkili və təhlükəsizliyi",
+    "en": "Traffic organization and safety",
+    "ru": "Организация и безопасность дорожного движения",
+    "ka": "საგზაო მოძრაობის ორგანიზება და უსაფრთხოება",
+    "ar": "تنظيم حركة المرور وسلامتها"
+  },
+  {
+    "code": "network_administration",
+    "group": "specialities",
+    "az": "Kompüter şəbəkələri və şəbəkə inzibatçılığı",
+    "en": "Computer networks and network administration",
+    "ru": "Компьютерные сети и сетевое администрирование",
+    "ka": "კომპიუტერული ქსელები და ქსელის ადმინისტრირება",
+    "ar": "شبكات الحاسوب وإدارة الشبكات"
+  },
+  {
+    "code": "mechatronics_robotics",
+    "group": "specialities",
+    "az": "Mexatronika və robototexnika mühəndisliyi",
+    "en": "Mechatronics and robotics engineering",
+    "ru": "Инженерия мехатроники и робототехники",
+    "ka": "მექატრონიკისა და რობოტიკის ინჟინერია",
+    "ar": "هندسة الميكاترونيك والروبوتات"
+  },
+  {
+    "code": "graphic_design",
+    "group": "specialities",
+    "az": "Qrafik dizayn",
+    "en": "Graphic design",
+    "ru": "Графический дизайн",
+    "ka": "გრაფიკული დიზაინი",
+    "ar": "التصميم الجرافيكي"
+  },
+  {
+    "code": "pedagogy_theory_history",
+    "group": "specialities",
+    "az": "Pedaqogika nəzəriyyəsi və tarixi",
+    "en": "Theory and history of pedagogy",
+    "ru": "Теория и история педагогики",
+    "ka": "პედაგოგიკის თეორია და ისტორია",
+    "ar": "نظرية التربية وتاريخها"
+  },
+  {
+    "code": "communication",
+    "group": "specialities",
+    "az": "Rabitə",
+    "en": "Communications",
+    "ru": "Связь",
+    "ka": "კავშირგაბმულობა",
+    "ar": "الاتصالات"
+  },
+  {
+    "code": "linguistics",
+    "group": "specialities",
+    "az": "Dilşünaslıq",
+    "en": "Linguistics",
+    "ru": "Языкознание",
+    "ka": "ენათმეცნიერება",
+    "ar": "علم اللغة"
+  },
+  {
+    "code": "metallurgical_engineering",
+    "group": "specialities",
+    "az": "Metallurgiya mühəndisliyi",
+    "en": "Metallurgical engineering",
+    "ru": "Металлургическая инженерия",
+    "ka": "მეტალურგიის ინჟინერია",
+    "ar": "هندسة المعادن"
+  },
+  {
+    "code": "intl_business",
+    "group": "specialities",
+    "az": "Beynəlxalq biznes",
+    "en": "International business",
+    "ru": "Международный бизнес",
+    "ka": "საერთაშორისო ბიზნესი",
+    "ar": "الأعمال الدولية"
+  },
+  {
+    "code": "intl_trade",
+    "group": "specialities",
+    "az": "Beynəlxalq ticarət",
+    "en": "International trade",
+    "ru": "Международная торговля",
+    "ka": "საერთაშორისო ვაჭრობა",
+    "ar": "التجارة الدولية"
+  },
+  {
+    "code": "lab_physician",
+    "group": "specialities",
+    "az": "Həkim-laborant",
+    "en": "Laboratory physician",
+    "ru": "Врач-лаборант",
+    "ka": "ექიმ-ლაბორანტი",
+    "ar": "طبيب مختبر"
+  },
+  {
+    "code": "train_driver",
+    "group": "specialities",
+    "az": "Maşinist",
+    "en": "Train driver",
+    "ru": "Машинист",
+    "ka": "მემანქანე",
+    "ar": "سائق قطار"
+  },
+  {
+    "code": "electric_power",
+    "group": "specialities",
+    "az": "Elektroenergetika",
+    "en": "Electric power",
+    "ru": "Электроэнергетика",
+    "ka": "ელექტროენერგეტიკა",
+    "ar": "الطاقة الكهربائية"
+  },
+  {
+    "code": "azerbaijani_language",
+    "group": "specialities",
+    "az": "Azərbaycan dili",
+    "en": "Azerbaijani language",
+    "ru": "Азербайджанский язык",
+    "ka": "აზერბაიჯანული ენა",
+    "ar": "اللغة الأذربيجانية"
+  },
+  {
+    "code": "environmental_protection",
+    "group": "specialities",
+    "az": "Ətraf mühitin mühafizəsi və bərpası",
+    "en": "Environmental protection and restoration",
+    "ru": "Охрана и восстановление окружающей среды",
+    "ka": "გარემოს დაცვა და აღდგენა",
+    "ar": "حماية البيئة واستعادتها"
+  },
+  {
+    "code": "painting_fine_art",
+    "group": "specialities",
+    "az": "Rəngkarlıq",
+    "en": "Fine-art painting",
+    "ru": "Станковая живопись",
+    "ka": "ფერწერული ხელოვნება",
+    "ar": "فن التصوير"
+  },
+  {
+    "code": "industrial_civil_construction",
+    "group": "specialities",
+    "az": "Sənaye və mülki tikinti",
+    "en": "Industrial and civil construction",
+    "ru": "Промышленное и гражданское строительство",
+    "ka": "სამრეწველო და სამოქალაქო მშენებლობა",
+    "ar": "البناء الصناعي والمدني"
+  },
+  {
+    "code": "interior_design",
+    "group": "specialities",
+    "az": "İnteryer dizaynı",
+    "en": "Interior design",
+    "ru": "Дизайн интерьера",
+    "ka": "ინტერიერის დიზაინი",
+    "ar": "التصميم الداخلي"
+  },
+  {
+    "code": "economic_cybernetics",
+    "group": "specialities",
+    "az": "İqtisadi kibernetika",
+    "en": "Economic cybernetics",
+    "ru": "Экономическая кибернетика",
+    "ka": "ეკონომიკური კიბერნეტიკა",
+    "ar": "السيبرنيطيقا الاقتصادية"
+  },
+  {
+    "code": "computer_technician",
+    "group": "specialities",
+    "az": "Kompüter ustası",
+    "en": "Computer repair technician",
+    "ru": "Мастер по ремонту компьютеров",
+    "ka": "კომპიუტერის ხელოსანი",
+    "ar": "فني إصلاح حواسيب"
+  },
+  {
+    "code": "sanitary_feldsher",
+    "group": "specialities",
+    "az": "Sanitar feldşer",
+    "en": "Sanitary feldsher",
+    "ru": "Санитарный фельдшер",
+    "ka": "სანიტარიული ფელდშერი",
+    "ar": "مساعد صحي"
+  },
+  {
+    "code": "hotel_tourism_management",
+    "group": "specialities",
+    "az": "Turist və mehmanxana təsərrüfatının təşkili",
+    "en": "Organization of tourist and hotel services",
+    "ru": "Организация туристического и гостиничного хозяйства",
+    "ka": "ტურისტული და სასტუმრო მეურნეობის ორგანიზება",
+    "ar": "تنظيم الخدمات السياحية والفندقية"
+  },
+  {
+    "code": "az_literature",
+    "group": "specialities",
+    "az": "Azərbaycan ədəbiyyatı",
+    "en": "Azerbaijani literature",
+    "ru": "Азербайджанская литература",
+    "ka": "აზერბაიჯანული ლიტერატურა",
+    "ar": "الأدب الأذربيجاني"
+  },
+  {
+    "code": "construction",
+    "group": "specialities",
+    "az": "İnşaat",
+    "en": "Construction",
+    "ru": "Строительство",
+    "ka": "მშენებლობა",
+    "ar": "البناء"
+  },
+  {
+    "code": "education_assessment",
+    "group": "specialities",
+    "az": "Təhsildə qiymətləndirmə və monitorinq",
+    "en": "Assessment and monitoring in education",
+    "ru": "Оценивание и мониторинг в образовании",
+    "ka": "შეფასება და მონიტორინგი განათლებაში",
+    "ar": "التقييم والمتابعة في التعليم"
+  },
+  {
+    "code": "recycling_engineering",
+    "group": "specialities",
+    "az": "Təkrar emal və bərpa texnologiyaları mühəndisliyi",
+    "en": "Recycling and restoration technology engineering",
+    "ru": "Инженерия технологий переработки и восстановления",
+    "ka": "გადამუშავებისა და აღდგენის ტექნოლოგიების ინჟინერია",
+    "ar": "هندسة تقنيات التدوير والاستعادة"
+  },
+  {
+    "code": "consumer_goods_technology",
+    "group": "specialities",
+    "az": "Çoxişlənən malların texnologiyası mühəndisliyi",
+    "en": "Consumer goods technology engineering",
+    "ru": "Инженерия технологии товаров широкого потребления",
+    "ka": "ფართო მოხმარების საქონლის ტექნოლოგიის ინჟინერია",
+    "ar": "هندسة تكنولوجيا السلع الاستهلاكية"
+  },
+  {
+    "code": "production_accounting_audit",
+    "group": "specialities",
+    "az": "İstehsal sferasında mühasibat uçotu və audit",
+    "en": "Accounting and audit in production",
+    "ru": "Бухгалтерский учёт и аудит в сфере производства",
+    "ka": "ბუღალტრული აღრიცხვა და აუდიტი წარმოებაში",
+    "ar": "المحاسبة والتدقيق في قطاع الإنتاج"
+  },
+  {
+    "code": "food_safety",
+    "group": "specialities",
+    "az": "Qida təhlükəsizliyi",
+    "en": "Food safety",
+    "ru": "Безопасность пищевых продуктов",
+    "ka": "სურსათის უვნებლობა",
+    "ar": "سلامة الأغذية"
+  },
+  {
+    "code": "advertising",
+    "group": "specialities",
+    "az": "Reklam işi",
+    "en": "Advertising",
+    "ru": "Рекламное дело",
+    "ka": "რეკლამის საქმე",
+    "ar": "الإعلان"
+  },
+  {
+    "code": "orientalist",
+    "group": "specialities",
+    "az": "Şərqşünas",
+    "en": "Orientalist",
+    "ru": "Востоковед",
+    "ka": "აღმოსავლეთმცოდნე",
+    "ar": "مستشرق"
+  },
+  {
+    "code": "telecommunication",
+    "group": "specialities",
+    "az": "Telekommunikasiya",
+    "en": "Telecommunication",
+    "ru": "Телекоммуникация",
+    "ka": "ტელეკომუნიკაცია",
+    "ar": "الاتصالات السلكية واللاسلكية"
+  },
+  {
+    "code": "financial_control_audit",
+    "group": "specialities",
+    "az": "Maliyyə nəzarəti və audit",
+    "en": "Financial control and audit",
+    "ru": "Финансовый контроль и аудит",
+    "ka": "ფინანსური კონტროლი და აუდიტი",
+    "ar": "الرقابة المالية والتدقيق"
+  },
+  {
+    "code": "geology_geophysics_engineering",
+    "group": "specialities",
+    "az": "Geologiya və geofizika mühəndisliyi",
+    "en": "Geology and geophysics engineering",
+    "ru": "Инженерия геологии и геофизики",
+    "ka": "გეოლოგიისა და გეოფიზიკის ინჟინერია",
+    "ar": "هندسة الجيولوجيا والجيوفيزياء"
+  },
+  {
+    "code": "orthopedic_dentistry",
+    "group": "specialities",
+    "az": "Ortopedik stomatologiya",
+    "en": "Orthopedic dentistry",
+    "ru": "Ортопедическая стоматология",
+    "ka": "ორთოპედიული სტომატოლოგია",
+    "ar": "تقويم الأسنان"
+  },
+  {
+    "code": "station_duty_officer",
+    "group": "specialities",
+    "az": "Stansiya növbətçisi",
+    "en": "Station duty officer",
+    "ru": "Дежурный по станции",
+    "ka": "სადგურის მორიგე",
+    "ar": "ضابط مناوب في المحطة"
+  },
+  {
+    "code": "religious_studies",
+    "group": "specialities",
+    "az": "Dinşünaslıq",
+    "en": "Religious studies",
+    "ru": "Религиоведение",
+    "ka": "რელიგიათმცოდნეობა",
+    "ar": "علم الأديان"
+  },
+  {
+    "code": "sustainable_development",
+    "group": "specialities",
+    "az": "Davamlı inkişafın idarə edilməsi",
+    "en": "Sustainable development management",
+    "ru": "Управление устойчивым развитием",
+    "ka": "მდგრადი განვითარების მართვა",
+    "ar": "إدارة التنمية المستدامة"
+  },
+  {
+    "code": "russian_language_literature",
+    "group": "specialities",
+    "az": "Rus dili və ədəbiyyatı",
+    "en": "Russian language and literature",
+    "ru": "Русский язык и литература",
+    "ka": "რუსული ენა და ლიტერატურა",
+    "ar": "اللغة الروسية وأدبها"
+  },
+  {
+    "code": "economic_theory",
+    "group": "specialities",
+    "az": "İqtisadi nəzəriyyə",
+    "en": "Economic theory",
+    "ru": "Экономическая теория",
+    "ka": "ეკონომიკური თეორია",
+    "ar": "النظرية الاقتصادية"
+  },
+  {
+    "code": "intl_relations_diplomacy",
+    "group": "specialities",
+    "az": "Beynəlxalq münasibətlər və diplomatiya",
+    "en": "International relations and diplomacy",
+    "ru": "Международные отношения и дипломатия",
+    "ka": "საერთაშორისო ურთიერთობები და დიპლომატია",
+    "ar": "العلاقات الدولية والدبلوماسية"
+  },
+  {
+    "code": "analytical_quality_control",
+    "group": "specialities",
+    "az": "Kimyəvi birləşmələrin keyfiyyətinə analitik nəzarət",
+    "en": "Analytical quality control of chemical compounds",
+    "ru": "Аналитический контроль качества химических соединений",
+    "ka": "ქიმიური ნაერთების ხარისხის ანალიტიკური კონტროლი",
+    "ar": "الرقابة التحليلية على جودة المركبات الكيميائية"
+  },
+  {
+    "code": "communication_systems_engineering",
+    "group": "specialities",
+    "az": "Rabitə qovşaqları və kommunikasiya sistemləri",
+    "en": "Communication hubs and systems",
+    "ru": "Узлы связи и коммуникационные системы",
+    "ka": "კავშირგაბმულობის კვანძები და სისტემები",
+    "ar": "عقد الاتصالات وأنظمتها"
+  },
+  {
+    "code": "public_governance",
+    "group": "specialities",
+    "az": "Dövlət idarəçiliyi",
+    "en": "Public governance",
+    "ru": "Государственное управление",
+    "ka": "სახელმწიფო მმართველობა",
+    "ar": "الحكم والإدارة الحكومية"
+  },
+  {
+    "code": "human_resources_management",
+    "group": "specialities",
+    "az": "İnsan resurslarının idarə edilməsi",
+    "en": "Human resources management",
+    "ru": "Управление человеческими ресурсами",
+    "ka": "ადამიანური რესურსების მართვა",
+    "ar": "إدارة الموارد البشرية"
+  },
+  {
+    "code": "diplomacy",
+    "group": "specialities",
+    "az": "Diplomatiya",
+    "en": "Diplomacy",
+    "ru": "Дипломатия",
+    "ka": "დიპლომატია",
+    "ar": "الدبلوماسية"
+  },
+  {
+    "code": "applied_mathematics",
+    "group": "specialities",
+    "az": "Tətbiqi riyaziyyat",
+    "en": "Applied mathematics",
+    "ru": "Прикладная математика",
+    "ka": "გამოყენებითი მათემატიკა",
+    "ar": "الرياضيات التطبيقية"
+  },
+  {
+    "code": "language_literature_teacher",
+    "group": "specialities",
+    "az": "Dil və ədəbiyyat müəllimliyi",
+    "en": "Language and literature teaching",
+    "ru": "Преподавание языка и литературы",
+    "ka": "ენისა და ლიტერატურის მასწავლებელი",
+    "ar": "تعليم اللغة والأدب"
+  },
+  {
+    "code": "musicologist",
+    "group": "specialities",
+    "az": "Musiqişünas",
+    "en": "Musicologist",
+    "ru": "Музыковед",
+    "ka": "მუსიკისმცოდნე",
+    "ar": "عالم موسيقى"
+  },
+  {
+    "code": "software_engineering",
+    "group": "specialities",
+    "az": "Kompüter sistemlərində proqram təminatı",
+    "en": "Software for computer systems",
+    "ru": "Программное обеспечение компьютерных систем",
+    "ka": "პროგრამული უზრუნველყოფა კომპიუტერულ სისტემებში",
+    "ar": "برمجيات أنظمة الحاسوب"
+  },
+  {
+    "code": "multichannel_telecom",
+    "group": "specialities",
+    "az": "Çoxkanallı telekommunikasiya sistemləri",
+    "en": "Multichannel telecommunication systems",
+    "ru": "Многоканальные телекоммуникационные системы",
+    "ka": "მრავალარხიანი ტელეკომუნიკაციის სისტემები",
+    "ar": "أنظمة الاتصالات متعددة القنوات"
+  },
+  {
+    "code": "customs_expertise",
+    "group": "specialities",
+    "az": "Gömrük ekspertizası",
+    "en": "Customs expertise",
+    "ru": "Таможенная экспертиза",
+    "ka": "საბაჟო ექსპერტიზა",
+    "ar": "الخبرة الجمركية"
+  },
+  {
+    "code": "sports_tourism",
+    "group": "specialities",
+    "az": "İdman turizmi",
+    "en": "Sports tourism",
+    "ru": "Спортивный туризм",
+    "ka": "სპორტული ტურიზმი",
+    "ar": "السياحة الرياضية"
+  },
+  {
+    "code": "finance_tax_law",
+    "group": "specialities",
+    "az": "Maliyyə və vergi hüququ",
+    "en": "Finance and tax law",
+    "ru": "Финансовое и налоговое право",
+    "ka": "ფინანსური და საგადასახადო სამართალი",
+    "ar": "القانون المالي والضريبي"
+  }
+]

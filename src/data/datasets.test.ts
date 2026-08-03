@@ -7,6 +7,10 @@ import interests from './interests.json';
 import nationality from './nationality.json';
 import universities from './universities.json';
 import colleges from './colleges.json';
+import faculties from './faculties.json';
+import specialities from './specialities.json';
+import positions from './positions.json';
+import cities from './cities.json';
 
 /**
  * The dictionary datasets are hand-maintained JSON, edited by scripts and by
@@ -26,6 +30,10 @@ const DATASETS: Record<DictionaryGroup, DictionaryEntry[]> = {
   nationality,
   universities,
   colleges,
+  faculties,
+  specialities,
+  positions,
+  cities,
 } as unknown as Record<DictionaryGroup, DictionaryEntry[]>;
 
 /**
@@ -50,7 +58,44 @@ const FULLY_TRANSLATED: DictionaryGroup[] = [
   'nationality',
   'universities',
   'colleges',
+  'faculties',
+  'specialities',
+  'positions',
+  'cities',
 ];
+
+/**
+ * The `max()` of the form field each dataset feeds (`features/editor/schemas`).
+ * Total over `DictionaryGroup` on purpose: a new dataset has to state which field
+ * it fills, because that is the number its longest translation must respect.
+ *
+ * `languages` is the hard-constraint Select (§13.1) — its label is never typed
+ * into a length-checked field, so the cap here is a display sanity bound.
+ */
+const FIELD_MAX: Record<DictionaryGroup, number> = {
+  skills: 100, // skillSchema.name
+  languages: 100, // resolved from the code, never validated as text
+  interests: 50, // interestSchema.name
+  nationality: 100, // generalInfoSchema.nationality (unbounded; kept sane)
+  universities: 150, // educationSchema.institution
+  colleges: 150, // educationSchema.institution
+  faculties: 100, // educationSchema.faculty
+  specialities: 100, // educationSchema.specialization
+  positions: 50, // experienceSchema.position
+  cities: 100, // basics.location and experienceSchema.location
+};
+
+/**
+ * Pre-existing duplicate-label pairs in `skills`: legacy synonym codes that came
+ * over from the production dictionary and render identically in several locales.
+ * Allowlisted rather than merged, because a stored resume may reference either
+ * code and merging would orphan one of them.
+ */
+const LEGACY_SYNONYMS = new Set([
+  'risk_manage+riskManagement',
+  'conflict_solving+conflictResolution',
+  'organizing+organizationSkills',
+]);
 
 describe.each(Object.entries(DATASETS))('%s dataset', (group, rows) => {
   it('is a non-empty list of rows tagged with its own group', () => {
@@ -78,6 +123,46 @@ describe.each(Object.entries(DATASETS))('%s dataset', (group, rows) => {
         if (label !== undefined) expect(label.trim(), `"${row.code}".${locale} is blank`).toBeTruthy();
       }
     }
+  });
+
+  /**
+   * A dropdown must never offer a value the form would then refuse to save. This
+   * caught a real one: seven `colleges` rows are longer than 100 characters in
+   * Russian, and `educationSchema.institution` capped at 100 — so picking those
+   * colleges in a Russian UI failed validation on a value the app itself supplied.
+   * The cap moved to 150; this is what keeps the two in step.
+   */
+  it('offers no label longer than the field it feeds', () => {
+    const max = FIELD_MAX[group as DictionaryGroup];
+    for (const row of rows) {
+      for (const locale of SUPPORTED_LOCALES) {
+        const label = row[locale];
+        if (label === undefined) continue;
+        expect(label.length, `"${row.code}".${locale} is ${label.length} chars`).toBeLessThanOrEqual(max);
+      }
+    }
+  });
+
+  /**
+   * Two rows with the same label are indistinguishable in the dropdown, and
+   * `findByLabel` can only return one of them — so the other's code is
+   * unreachable and its value silently stops re-localizing.
+   */
+  it('has no two rows sharing a label within one locale', () => {
+    const collisions: string[] = [];
+    for (const locale of SUPPORTED_LOCALES) {
+      const seen = new Map<string, string>();
+      for (const row of rows) {
+        const label = row[locale];
+        if (label === undefined) continue;
+        const first = seen.get(label);
+        if (first && !LEGACY_SYNONYMS.has(`${first}+${row.code}`)) {
+          collisions.push(`${locale}: "${label}" is both ${first} and ${row.code}`);
+        }
+        if (!first) seen.set(label, row.code);
+      }
+    }
+    expect(collisions).toEqual([]);
   });
 });
 

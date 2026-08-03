@@ -1,0 +1,1190 @@
+[
+  {
+    "code": "baku",
+    "group": "cities",
+    "az": "Bakı",
+    "en": "Baku",
+    "ru": "Баку",
+    "ka": "ბაქო",
+    "ar": "باكو"
+  },
+  {
+    "code": "ganja",
+    "group": "cities",
+    "az": "Gəncə",
+    "en": "Ganja",
+    "ru": "Гянджа",
+    "ka": "განჯა",
+    "ar": "غنجة"
+  },
+  {
+    "code": "sumqayit",
+    "group": "cities",
+    "az": "Sumqayıt",
+    "en": "Sumqayit",
+    "ru": "Сумгаит",
+    "ka": "სუმგაითი",
+    "ar": "سومغاييت"
+  },
+  {
+    "code": "mingachevir",
+    "group": "cities",
+    "az": "Mingəçevir",
+    "en": "Mingachevir",
+    "ru": "Мингечевир",
+    "ka": "მინგეჩაური",
+    "ar": "مينغاتشيفير"
+  },
+  {
+    "code": "khirdalan",
+    "group": "cities",
+    "az": "Xırdalan",
+    "en": "Khirdalan",
+    "ru": "Хырдалан",
+    "ka": "ხირდალანი",
+    "ar": "خيردالان"
+  },
+  {
+    "code": "shirvan",
+    "group": "cities",
+    "az": "Şirvan",
+    "en": "Shirvan",
+    "ru": "Ширван",
+    "ka": "შირვანი",
+    "ar": "شيروان"
+  },
+  {
+    "code": "nakhchivan",
+    "group": "cities",
+    "az": "Naxçıvan",
+    "en": "Nakhchivan",
+    "ru": "Нахчыван",
+    "ka": "ნახჩევანი",
+    "ar": "ناختشيفان"
+  },
+  {
+    "code": "lankaran",
+    "group": "cities",
+    "az": "Lənkəran",
+    "en": "Lankaran",
+    "ru": "Ленкорань",
+    "ka": "ლენქორანი",
+    "ar": "لنكران"
+  },
+  {
+    "code": "shaki",
+    "group": "cities",
+    "az": "Şəki",
+    "en": "Shaki",
+    "ru": "Шеки",
+    "ka": "შექი",
+    "ar": "شكي"
+  },
+  {
+    "code": "yevlakh",
+    "group": "cities",
+    "az": "Yevlax",
+    "en": "Yevlakh",
+    "ru": "Евлах",
+    "ka": "ევლახი",
+    "ar": "يفلاخ"
+  },
+  {
+    "code": "naftalan",
+    "group": "cities",
+    "az": "Naftalan",
+    "en": "Naftalan",
+    "ru": "Нафталан",
+    "ka": "ნაფთალანი",
+    "ar": "نفتالان"
+  },
+  {
+    "code": "khankendi",
+    "group": "cities",
+    "az": "Xankəndi",
+    "en": "Khankendi",
+    "ru": "Ханкенди",
+    "ka": "ხანქენდი",
+    "ar": "خانكندي"
+  },
+  {
+    "code": "shusha",
+    "group": "cities",
+    "az": "Şuşa",
+    "en": "Shusha",
+    "ru": "Шуша",
+    "ka": "შუშა",
+    "ar": "شوشا"
+  },
+  {
+    "code": "absheron",
+    "group": "cities",
+    "az": "Abşeron",
+    "en": "Absheron",
+    "ru": "Абшерон",
+    "ka": "აბშერონი",
+    "ar": "أبشرون"
+  },
+  {
+    "code": "aghjabadi",
+    "group": "cities",
+    "az": "Ağcabədi",
+    "en": "Aghjabadi",
+    "ru": "Агджабеди",
+    "ka": "აღჯაბედი",
+    "ar": "أغجابدي"
+  },
+  {
+    "code": "aghdam",
+    "group": "cities",
+    "az": "Ağdam",
+    "en": "Aghdam",
+    "ru": "Агдам",
+    "ka": "აღდამი",
+    "ar": "أغدام"
+  },
+  {
+    "code": "aghdash",
+    "group": "cities",
+    "az": "Ağdaş",
+    "en": "Aghdash",
+    "ru": "Агдаш",
+    "ka": "აღდაში",
+    "ar": "أغداش"
+  },
+  {
+    "code": "aghstafa",
+    "group": "cities",
+    "az": "Ağstafa",
+    "en": "Aghstafa",
+    "ru": "Агстафа",
+    "ka": "აღსტაფა",
+    "ar": "أغستافا"
+  },
+  {
+    "code": "aghsu",
+    "group": "cities",
+    "az": "Ağsu",
+    "en": "Aghsu",
+    "ru": "Агсу",
+    "ka": "აღსუ",
+    "ar": "أغسو"
+  },
+  {
+    "code": "astara",
+    "group": "cities",
+    "az": "Astara",
+    "en": "Astara",
+    "ru": "Астара",
+    "ka": "ასტარა",
+    "ar": "أستارا"
+  },
+  {
+    "code": "babek",
+    "group": "cities",
+    "az": "Babək",
+    "en": "Babek",
+    "ru": "Бабек",
+    "ka": "ბაბექი",
+    "ar": "بابك"
+  },
+  {
+    "code": "balakan",
+    "group": "cities",
+    "az": "Balakən",
+    "en": "Balakan",
+    "ru": "Белоканы",
+    "ka": "ბალაქანი",
+    "ar": "بالاكان"
+  },
+  {
+    "code": "barda",
+    "group": "cities",
+    "az": "Bərdə",
+    "en": "Barda",
+    "ru": "Барда",
+    "ka": "ბერდე",
+    "ar": "بردة"
+  },
+  {
+    "code": "beylagan",
+    "group": "cities",
+    "az": "Beyləqan",
+    "en": "Beylagan",
+    "ru": "Бейлаган",
+    "ka": "ბეილაგანი",
+    "ar": "بيلاغان"
+  },
+  {
+    "code": "bilasuvar",
+    "group": "cities",
+    "az": "Biləsuvar",
+    "en": "Bilasuvar",
+    "ru": "Билясувар",
+    "ka": "ბილასუვარი",
+    "ar": "بيلاسوفار"
+  },
+  {
+    "code": "jabrayil",
+    "group": "cities",
+    "az": "Cəbrayıl",
+    "en": "Jabrayil",
+    "ru": "Джебраил",
+    "ka": "ჯებრაილი",
+    "ar": "جبرائيل"
+  },
+  {
+    "code": "jalilabad",
+    "group": "cities",
+    "az": "Cəlilabad",
+    "en": "Jalilabad",
+    "ru": "Джалилабад",
+    "ka": "ჯალილაბადი",
+    "ar": "جليل آباد"
+  },
+  {
+    "code": "julfa",
+    "group": "cities",
+    "az": "Culfa",
+    "en": "Julfa",
+    "ru": "Джульфа",
+    "ka": "ჯულფა",
+    "ar": "جولفا"
+  },
+  {
+    "code": "dashkasan",
+    "group": "cities",
+    "az": "Daşkəsən",
+    "en": "Dashkasan",
+    "ru": "Дашкесан",
+    "ka": "დაშქესანი",
+    "ar": "داشكسان"
+  },
+  {
+    "code": "fuzuli",
+    "group": "cities",
+    "az": "Füzuli",
+    "en": "Fuzuli",
+    "ru": "Физули",
+    "ka": "ფიზული",
+    "ar": "فضولي"
+  },
+  {
+    "code": "gadabay",
+    "group": "cities",
+    "az": "Gədəbəy",
+    "en": "Gadabay",
+    "ru": "Гедабек",
+    "ka": "გედებეი",
+    "ar": "غدابي"
+  },
+  {
+    "code": "goranboy",
+    "group": "cities",
+    "az": "Goranboy",
+    "en": "Goranboy",
+    "ru": "Геранбой",
+    "ka": "გორანბოი",
+    "ar": "غورانبوي"
+  },
+  {
+    "code": "goychay",
+    "group": "cities",
+    "az": "Göyçay",
+    "en": "Goychay",
+    "ru": "Гёйчай",
+    "ka": "გოიჩაი",
+    "ar": "غويتشاي"
+  },
+  {
+    "code": "goygol",
+    "group": "cities",
+    "az": "Göygöl",
+    "en": "Goygol",
+    "ru": "Гёйгёль",
+    "ka": "გოიგოლი",
+    "ar": "غويغول"
+  },
+  {
+    "code": "hajiqabul",
+    "group": "cities",
+    "az": "Hacıqabul",
+    "en": "Hajiqabul",
+    "ru": "Хаджигабул",
+    "ka": "ჰაჯიყაბული",
+    "ar": "حاجي قابول"
+  },
+  {
+    "code": "imishli",
+    "group": "cities",
+    "az": "İmişli",
+    "en": "Imishli",
+    "ru": "Имишли",
+    "ka": "იმიშლი",
+    "ar": "إيميشلي"
+  },
+  {
+    "code": "ismayilli",
+    "group": "cities",
+    "az": "İsmayıllı",
+    "en": "Ismayilli",
+    "ru": "Исмаиллы",
+    "ka": "ისმაილი",
+    "ar": "إسماعيلي"
+  },
+  {
+    "code": "kalbajar",
+    "group": "cities",
+    "az": "Kəlbəcər",
+    "en": "Kalbajar",
+    "ru": "Кельбаджар",
+    "ka": "ქელბაჯარი",
+    "ar": "كلبجر"
+  },
+  {
+    "code": "kangarli",
+    "group": "cities",
+    "az": "Kəngərli",
+    "en": "Kangarli",
+    "ru": "Кенгерли",
+    "ka": "ქენგერლი",
+    "ar": "كنغرلي"
+  },
+  {
+    "code": "kurdamir",
+    "group": "cities",
+    "az": "Kürdəmir",
+    "en": "Kurdamir",
+    "ru": "Кюрдамир",
+    "ka": "ქურდემირი",
+    "ar": "كوردمير"
+  },
+  {
+    "code": "qakh",
+    "group": "cities",
+    "az": "Qax",
+    "en": "Qakh",
+    "ru": "Гах",
+    "ka": "ყახი",
+    "ar": "قاخ"
+  },
+  {
+    "code": "qazakh",
+    "group": "cities",
+    "az": "Qazax",
+    "en": "Qazakh",
+    "ru": "Казах",
+    "ka": "ყაზახი",
+    "ar": "قازاخ"
+  },
+  {
+    "code": "gabala",
+    "group": "cities",
+    "az": "Qəbələ",
+    "en": "Gabala",
+    "ru": "Габала",
+    "ka": "ყაბალა",
+    "ar": "قبلة"
+  },
+  {
+    "code": "gobustan",
+    "group": "cities",
+    "az": "Qobustan",
+    "en": "Gobustan",
+    "ru": "Гобустан",
+    "ka": "გობუსტანი",
+    "ar": "قوبوستان"
+  },
+  {
+    "code": "guba",
+    "group": "cities",
+    "az": "Quba",
+    "en": "Guba",
+    "ru": "Губа",
+    "ka": "ყუბა",
+    "ar": "قوبا"
+  },
+  {
+    "code": "gubadli",
+    "group": "cities",
+    "az": "Qubadlı",
+    "en": "Gubadli",
+    "ru": "Губадлы",
+    "ka": "ღუბადლი",
+    "ar": "قوبادلي"
+  },
+  {
+    "code": "gusar",
+    "group": "cities",
+    "az": "Qusar",
+    "en": "Gusar",
+    "ru": "Гусар",
+    "ka": "ყუსარი",
+    "ar": "قوسار"
+  },
+  {
+    "code": "lachin",
+    "group": "cities",
+    "az": "Laçın",
+    "en": "Lachin",
+    "ru": "Лачын",
+    "ka": "ლაჩინი",
+    "ar": "لاتشين"
+  },
+  {
+    "code": "lerik",
+    "group": "cities",
+    "az": "Lerik",
+    "en": "Lerik",
+    "ru": "Лерик",
+    "ka": "ლერიქი",
+    "ar": "لريك"
+  },
+  {
+    "code": "masalli",
+    "group": "cities",
+    "az": "Masallı",
+    "en": "Masalli",
+    "ru": "Масаллы",
+    "ka": "მასალი",
+    "ar": "ماسالي"
+  },
+  {
+    "code": "neftchala",
+    "group": "cities",
+    "az": "Neftçala",
+    "en": "Neftchala",
+    "ru": "Нефтечала",
+    "ka": "ნეფთჩალა",
+    "ar": "نفتشالا"
+  },
+  {
+    "code": "oghuz",
+    "group": "cities",
+    "az": "Oğuz",
+    "en": "Oghuz",
+    "ru": "Огуз",
+    "ka": "ოღუზი",
+    "ar": "أوغوز"
+  },
+  {
+    "code": "ordubad",
+    "group": "cities",
+    "az": "Ordubad",
+    "en": "Ordubad",
+    "ru": "Ордубад",
+    "ka": "ორდუბადი",
+    "ar": "أوردوباد"
+  },
+  {
+    "code": "saatli",
+    "group": "cities",
+    "az": "Saatlı",
+    "en": "Saatli",
+    "ru": "Саатлы",
+    "ka": "საათლი",
+    "ar": "ساعتلي"
+  },
+  {
+    "code": "sabirabad",
+    "group": "cities",
+    "az": "Sabirabad",
+    "en": "Sabirabad",
+    "ru": "Сабирабад",
+    "ka": "საბირაბადი",
+    "ar": "صابر آباد"
+  },
+  {
+    "code": "sadarak",
+    "group": "cities",
+    "az": "Sədərək",
+    "en": "Sadarak",
+    "ru": "Садарак",
+    "ka": "სედერექი",
+    "ar": "سدرك"
+  },
+  {
+    "code": "salyan",
+    "group": "cities",
+    "az": "Salyan",
+    "en": "Salyan",
+    "ru": "Сальян",
+    "ka": "სალიანი",
+    "ar": "ساليان"
+  },
+  {
+    "code": "samukh",
+    "group": "cities",
+    "az": "Samux",
+    "en": "Samukh",
+    "ru": "Самух",
+    "ka": "სამუხი",
+    "ar": "ساموخ"
+  },
+  {
+    "code": "shabran",
+    "group": "cities",
+    "az": "Şabran",
+    "en": "Shabran",
+    "ru": "Шабран",
+    "ka": "შაბრანი",
+    "ar": "شابران"
+  },
+  {
+    "code": "shahbuz",
+    "group": "cities",
+    "az": "Şahbuz",
+    "en": "Shahbuz",
+    "ru": "Шахбуз",
+    "ka": "შაჰბუზი",
+    "ar": "شاهبوز"
+  },
+  {
+    "code": "shamakhi",
+    "group": "cities",
+    "az": "Şamaxı",
+    "en": "Shamakhi",
+    "ru": "Шемаха",
+    "ka": "შამახი",
+    "ar": "شماخي"
+  },
+  {
+    "code": "shamkir",
+    "group": "cities",
+    "az": "Şəmkir",
+    "en": "Shamkir",
+    "ru": "Шамкир",
+    "ka": "შემქირი",
+    "ar": "شمكير"
+  },
+  {
+    "code": "sharur",
+    "group": "cities",
+    "az": "Şərur",
+    "en": "Sharur",
+    "ru": "Шарур",
+    "ka": "შერური",
+    "ar": "شارور"
+  },
+  {
+    "code": "siyazan",
+    "group": "cities",
+    "az": "Siyəzən",
+    "en": "Siyazan",
+    "ru": "Сиазань",
+    "ka": "სიაზანი",
+    "ar": "سيازان"
+  },
+  {
+    "code": "tartar",
+    "group": "cities",
+    "az": "Tərtər",
+    "en": "Tartar",
+    "ru": "Тертер",
+    "ka": "თერთერი",
+    "ar": "ترتر"
+  },
+  {
+    "code": "tovuz",
+    "group": "cities",
+    "az": "Tovuz",
+    "en": "Tovuz",
+    "ru": "Товуз",
+    "ka": "თოვუზი",
+    "ar": "توفوز"
+  },
+  {
+    "code": "ujar",
+    "group": "cities",
+    "az": "Ucar",
+    "en": "Ujar",
+    "ru": "Уджар",
+    "ka": "უჯარი",
+    "ar": "أوجار"
+  },
+  {
+    "code": "khachmaz",
+    "group": "cities",
+    "az": "Xaçmaz",
+    "en": "Khachmaz",
+    "ru": "Хачмаз",
+    "ka": "ხაჩმაზი",
+    "ar": "خاتشماز"
+  },
+  {
+    "code": "khizi",
+    "group": "cities",
+    "az": "Xızı",
+    "en": "Khizi",
+    "ru": "Хызы",
+    "ka": "ხიზი",
+    "ar": "خيزي"
+  },
+  {
+    "code": "khojali",
+    "group": "cities",
+    "az": "Xocalı",
+    "en": "Khojali",
+    "ru": "Ходжалы",
+    "ka": "ხოჯალი",
+    "ar": "خوجالي"
+  },
+  {
+    "code": "khojavend",
+    "group": "cities",
+    "az": "Xocavənd",
+    "en": "Khojavend",
+    "ru": "Ходжавенд",
+    "ka": "ხოჯავენდი",
+    "ar": "خوجاوند"
+  },
+  {
+    "code": "yardimli",
+    "group": "cities",
+    "az": "Yardımlı",
+    "en": "Yardimli",
+    "ru": "Ярдымлы",
+    "ka": "იარდიმლი",
+    "ar": "ياردملي"
+  },
+  {
+    "code": "zaqatala",
+    "group": "cities",
+    "az": "Zaqatala",
+    "en": "Zaqatala",
+    "ru": "Закаталы",
+    "ka": "ზაქათალა",
+    "ar": "زاقاتالا"
+  },
+  {
+    "code": "zangilan",
+    "group": "cities",
+    "az": "Zəngilan",
+    "en": "Zangilan",
+    "ru": "Зангилан",
+    "ka": "ზანგილანი",
+    "ar": "زنغيلان"
+  },
+  {
+    "code": "zardab",
+    "group": "cities",
+    "az": "Zərdab",
+    "en": "Zardab",
+    "ru": "Зардаб",
+    "ka": "ზერდაბი",
+    "ar": "زرداب"
+  },
+  {
+    "code": "istanbul",
+    "group": "cities",
+    "az": "İstanbul",
+    "en": "Istanbul",
+    "ru": "Стамбул",
+    "ka": "ისტანბული",
+    "ar": "إسطنبول"
+  },
+  {
+    "code": "ankara",
+    "group": "cities",
+    "az": "Ankara",
+    "en": "Ankara",
+    "ru": "Анкара",
+    "ka": "ანკარა",
+    "ar": "أنقرة"
+  },
+  {
+    "code": "izmir",
+    "group": "cities",
+    "az": "İzmir",
+    "en": "Izmir",
+    "ru": "Измир",
+    "ka": "იზმირი",
+    "ar": "إزمير"
+  },
+  {
+    "code": "antalya",
+    "group": "cities",
+    "az": "Antalya",
+    "en": "Antalya",
+    "ru": "Анталья",
+    "ka": "ანტალია",
+    "ar": "أنطاليا"
+  },
+  {
+    "code": "bursa",
+    "group": "cities",
+    "az": "Bursa",
+    "en": "Bursa",
+    "ru": "Бурса",
+    "ka": "ბურსა",
+    "ar": "بورصة"
+  },
+  {
+    "code": "trabzon",
+    "group": "cities",
+    "az": "Trabzon",
+    "en": "Trabzon",
+    "ru": "Трабзон",
+    "ka": "ტრაპიზონი",
+    "ar": "طرابزون"
+  },
+  {
+    "code": "kars",
+    "group": "cities",
+    "az": "Qars",
+    "en": "Kars",
+    "ru": "Карс",
+    "ka": "ყარსი",
+    "ar": "قارص"
+  },
+  {
+    "code": "moscow",
+    "group": "cities",
+    "az": "Moskva",
+    "en": "Moscow",
+    "ru": "Москва",
+    "ka": "მოსკოვი",
+    "ar": "موسكو"
+  },
+  {
+    "code": "saint_petersburg",
+    "group": "cities",
+    "az": "Sankt-Peterburq",
+    "en": "Saint Petersburg",
+    "ru": "Санкт-Петербург",
+    "ka": "სანკტ-პეტერბურგი",
+    "ar": "سانت بطرسبرغ"
+  },
+  {
+    "code": "kazan",
+    "group": "cities",
+    "az": "Qazan",
+    "en": "Kazan",
+    "ru": "Казань",
+    "ka": "ყაზანი",
+    "ar": "قازان"
+  },
+  {
+    "code": "yekaterinburg",
+    "group": "cities",
+    "az": "Yekaterinburq",
+    "en": "Yekaterinburg",
+    "ru": "Екатеринбург",
+    "ka": "ეკატერინბურგი",
+    "ar": "يكاترينبورغ"
+  },
+  {
+    "code": "novosibirsk",
+    "group": "cities",
+    "az": "Novosibirsk",
+    "en": "Novosibirsk",
+    "ru": "Новосибирск",
+    "ka": "ნოვოსიბირსკი",
+    "ar": "نوفوسيبيرسك"
+  },
+  {
+    "code": "kyiv",
+    "group": "cities",
+    "az": "Kiyev",
+    "en": "Kyiv",
+    "ru": "Киев",
+    "ka": "კიევი",
+    "ar": "كييف"
+  },
+  {
+    "code": "minsk",
+    "group": "cities",
+    "az": "Minsk",
+    "en": "Minsk",
+    "ru": "Минск",
+    "ka": "მინსკი",
+    "ar": "مينسك"
+  },
+  {
+    "code": "tbilisi",
+    "group": "cities",
+    "az": "Tbilisi",
+    "en": "Tbilisi",
+    "ru": "Тбилиси",
+    "ka": "თბილისი",
+    "ar": "تبليسي"
+  },
+  {
+    "code": "batumi",
+    "group": "cities",
+    "az": "Batumi",
+    "en": "Batumi",
+    "ru": "Батуми",
+    "ka": "ბათუმი",
+    "ar": "باتومي"
+  },
+  {
+    "code": "kutaisi",
+    "group": "cities",
+    "az": "Kutaisi",
+    "en": "Kutaisi",
+    "ru": "Кутаиси",
+    "ka": "ქუთაისი",
+    "ar": "كوتايسي"
+  },
+  {
+    "code": "yerevan",
+    "group": "cities",
+    "az": "İrəvan",
+    "en": "Yerevan",
+    "ru": "Ереван",
+    "ka": "ერევანი",
+    "ar": "يريفان"
+  },
+  {
+    "code": "tehran",
+    "group": "cities",
+    "az": "Tehran",
+    "en": "Tehran",
+    "ru": "Тегеран",
+    "ka": "თეირანი",
+    "ar": "طهران"
+  },
+  {
+    "code": "tabriz",
+    "group": "cities",
+    "az": "Təbriz",
+    "en": "Tabriz",
+    "ru": "Тебриз",
+    "ka": "თავრიზი",
+    "ar": "تبريز"
+  },
+  {
+    "code": "astana",
+    "group": "cities",
+    "az": "Astana",
+    "en": "Astana",
+    "ru": "Астана",
+    "ka": "ასტანა",
+    "ar": "أستانا"
+  },
+  {
+    "code": "almaty",
+    "group": "cities",
+    "az": "Almatı",
+    "en": "Almaty",
+    "ru": "Алматы",
+    "ka": "ალმათი",
+    "ar": "ألماتي"
+  },
+  {
+    "code": "tashkent",
+    "group": "cities",
+    "az": "Daşkənd",
+    "en": "Tashkent",
+    "ru": "Ташкент",
+    "ka": "ტაშკენტი",
+    "ar": "طشقند"
+  },
+  {
+    "code": "bishkek",
+    "group": "cities",
+    "az": "Bişkek",
+    "en": "Bishkek",
+    "ru": "Бишкек",
+    "ka": "ბიშკეკი",
+    "ar": "بيشكك"
+  },
+  {
+    "code": "ashgabat",
+    "group": "cities",
+    "az": "Aşqabad",
+    "en": "Ashgabat",
+    "ru": "Ашхабад",
+    "ka": "აშხაბადი",
+    "ar": "عشق آباد"
+  },
+  {
+    "code": "dubai",
+    "group": "cities",
+    "az": "Dubay",
+    "en": "Dubai",
+    "ru": "Дубай",
+    "ka": "დუბაი",
+    "ar": "دبي"
+  },
+  {
+    "code": "abu_dhabi",
+    "group": "cities",
+    "az": "Əbu-Dabi",
+    "en": "Abu Dhabi",
+    "ru": "Абу-Даби",
+    "ka": "აბუ-დაბი",
+    "ar": "أبوظبي"
+  },
+  {
+    "code": "doha",
+    "group": "cities",
+    "az": "Doha",
+    "en": "Doha",
+    "ru": "Доха",
+    "ka": "დოჰა",
+    "ar": "الدوحة"
+  },
+  {
+    "code": "riyadh",
+    "group": "cities",
+    "az": "Ər-Riyad",
+    "en": "Riyadh",
+    "ru": "Рияд",
+    "ka": "რიადი",
+    "ar": "الرياض"
+  },
+  {
+    "code": "jeddah",
+    "group": "cities",
+    "az": "Ciddə",
+    "en": "Jeddah",
+    "ru": "Джидда",
+    "ka": "ჯედა",
+    "ar": "جدة"
+  },
+  {
+    "code": "kuwait_city",
+    "group": "cities",
+    "az": "Küveyt",
+    "en": "Kuwait City",
+    "ru": "Кувейт",
+    "ka": "ქუვეითი",
+    "ar": "مدينة الكويت"
+  },
+  {
+    "code": "cairo",
+    "group": "cities",
+    "az": "Qahirə",
+    "en": "Cairo",
+    "ru": "Каир",
+    "ka": "კაირო",
+    "ar": "القاهرة"
+  },
+  {
+    "code": "amman",
+    "group": "cities",
+    "az": "Amman",
+    "en": "Amman",
+    "ru": "Амман",
+    "ka": "ამანი",
+    "ar": "عمّان"
+  },
+  {
+    "code": "beirut",
+    "group": "cities",
+    "az": "Beyrut",
+    "en": "Beirut",
+    "ru": "Бейрут",
+    "ka": "ბეირუთი",
+    "ar": "بيروت"
+  },
+  {
+    "code": "london",
+    "group": "cities",
+    "az": "London",
+    "en": "London",
+    "ru": "Лондон",
+    "ka": "ლონდონი",
+    "ar": "لندن"
+  },
+  {
+    "code": "berlin",
+    "group": "cities",
+    "az": "Berlin",
+    "en": "Berlin",
+    "ru": "Берлин",
+    "ka": "ბერლინი",
+    "ar": "برلين"
+  },
+  {
+    "code": "paris",
+    "group": "cities",
+    "az": "Paris",
+    "en": "Paris",
+    "ru": "Париж",
+    "ka": "პარიზი",
+    "ar": "باريس"
+  },
+  {
+    "code": "rome",
+    "group": "cities",
+    "az": "Roma",
+    "en": "Rome",
+    "ru": "Рим",
+    "ka": "რომი",
+    "ar": "روما"
+  },
+  {
+    "code": "madrid",
+    "group": "cities",
+    "az": "Madrid",
+    "en": "Madrid",
+    "ru": "Мадрид",
+    "ka": "მადრიდი",
+    "ar": "مدريد"
+  },
+  {
+    "code": "amsterdam",
+    "group": "cities",
+    "az": "Amsterdam",
+    "en": "Amsterdam",
+    "ru": "Амстердам",
+    "ka": "ამსტერდამი",
+    "ar": "أمستردام"
+  },
+  {
+    "code": "vienna",
+    "group": "cities",
+    "az": "Vyana",
+    "en": "Vienna",
+    "ru": "Вена",
+    "ka": "ვენა",
+    "ar": "فيينا"
+  },
+  {
+    "code": "prague",
+    "group": "cities",
+    "az": "Praqa",
+    "en": "Prague",
+    "ru": "Прага",
+    "ka": "პრაღა",
+    "ar": "براغ"
+  },
+  {
+    "code": "warsaw",
+    "group": "cities",
+    "az": "Varşava",
+    "en": "Warsaw",
+    "ru": "Варшава",
+    "ka": "ვარშავა",
+    "ar": "وارسو"
+  },
+  {
+    "code": "budapest",
+    "group": "cities",
+    "az": "Budapeşt",
+    "en": "Budapest",
+    "ru": "Будапешт",
+    "ka": "ბუდაპეშტი",
+    "ar": "بودابست"
+  },
+  {
+    "code": "stockholm",
+    "group": "cities",
+    "az": "Stokholm",
+    "en": "Stockholm",
+    "ru": "Стокгольм",
+    "ka": "სტოკჰოლმი",
+    "ar": "ستوكهولم"
+  },
+  {
+    "code": "riga",
+    "group": "cities",
+    "az": "Riqa",
+    "en": "Riga",
+    "ru": "Рига",
+    "ka": "რიგა",
+    "ar": "ريغا"
+  },
+  {
+    "code": "bucharest",
+    "group": "cities",
+    "az": "Buxarest",
+    "en": "Bucharest",
+    "ru": "Бухарест",
+    "ka": "ბუქარესტი",
+    "ar": "بوخارست"
+  },
+  {
+    "code": "new_york",
+    "group": "cities",
+    "az": "Nyu-York",
+    "en": "New York",
+    "ru": "Нью-Йорк",
+    "ka": "ნიუ-იორკი",
+    "ar": "نيويورك"
+  },
+  {
+    "code": "washington",
+    "group": "cities",
+    "az": "Vaşinqton",
+    "en": "Washington",
+    "ru": "Вашингтон",
+    "ka": "ვაშინგტონი",
+    "ar": "واشنطن"
+  },
+  {
+    "code": "los_angeles",
+    "group": "cities",
+    "az": "Los-Anceles",
+    "en": "Los Angeles",
+    "ru": "Лос-Анджелес",
+    "ka": "ლოს-ანჯელესი",
+    "ar": "لوس أنجلوس"
+  },
+  {
+    "code": "toronto",
+    "group": "cities",
+    "az": "Toronto",
+    "en": "Toronto",
+    "ru": "Торонто",
+    "ka": "ტორონტო",
+    "ar": "تورونتو"
+  },
+  {
+    "code": "beijing",
+    "group": "cities",
+    "az": "Pekin",
+    "en": "Beijing",
+    "ru": "Пекин",
+    "ka": "პეკინი",
+    "ar": "بكين"
+  },
+  {
+    "code": "shanghai",
+    "group": "cities",
+    "az": "Şanxay",
+    "en": "Shanghai",
+    "ru": "Шанхай",
+    "ka": "შანხაი",
+    "ar": "شنغهاي"
+  },
+  {
+    "code": "tokyo",
+    "group": "cities",
+    "az": "Tokio",
+    "en": "Tokyo",
+    "ru": "Токио",
+    "ka": "ტოკიო",
+    "ar": "طوكيو"
+  },
+  {
+    "code": "seoul",
+    "group": "cities",
+    "az": "Seul",
+    "en": "Seoul",
+    "ru": "Сеул",
+    "ka": "სეული",
+    "ar": "سيول"
+  },
+  {
+    "code": "new_delhi",
+    "group": "cities",
+    "az": "Nyu-Dehli",
+    "en": "New Delhi",
+    "ru": "Нью-Дели",
+    "ka": "ნიუ-დელი",
+    "ar": "نيودلهي"
+  },
+  {
+    "code": "sydney",
+    "group": "cities",
+    "az": "Sidney",
+    "en": "Sydney",
+    "ru": "Сидней",
+    "ka": "სიდნეი",
+    "ar": "سيدني"
+  }
+]

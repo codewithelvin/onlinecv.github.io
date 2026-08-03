@@ -12,7 +12,11 @@ export type DictionaryGroup =
   | 'interests'
   | 'nationality'
   | 'universities'
-  | 'colleges';
+  | 'colleges'
+  | 'faculties'
+  | 'specialities'
+  | 'positions'
+  | 'cities';
 
 /**
  * One dictionary row: a stable `code` plus one label column per locale.

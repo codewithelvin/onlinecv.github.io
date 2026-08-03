@@ -2,6 +2,8 @@ import { describe, expect, it, vi } from 'vitest';
 import { screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { renderWithProviders } from '../../../test/renderWithProviders';
+import { EducationModal } from './EducationModal';
+import { ExperienceModal } from './ExperienceModal';
 import { LanguageModal } from './LanguageModal';
 import { SkillModal } from './SkillModal';
 
@@ -226,5 +228,244 @@ describe('SkillModal', () => {
     expect(handle?.getAttribute('aria-valuenow')).toBe('70');
     expect(handle?.getAttribute('aria-valuemin')).toBe('1');
     expect(handle?.getAttribute('aria-valuemax')).toBe('100');
+  });
+});
+
+/**
+ * Faculty and speciality used to be unconstrained text, which is how the
+ * production data ended up with 14k distinct faculties and 16k specialities for
+ * a few hundred real ones. They are dictionary typeaheads now (still free-text
+ * per §13.1), so what these assert is the pair of guarantees that follow: a
+ * listed value gains a CODE — the thing that re-labels it when the CV language
+ * changes — and an unlisted one is still accepted.
+ */
+describe('EducationModal', () => {
+  const base = { open: true, title: 'Təhsil', onCancel: vi.fn() };
+  const university = {
+    type: 'university',
+    institution: 'Bakı Dövlət Universiteti',
+    faculty: '',
+    specialization: '',
+    degree: 'bachelor',
+    startDate: '2007-09',
+    endDate: '2011-06',
+    current: false,
+    comment: '',
+  };
+
+  /** The form item that owns `label`, so per-field queries cannot cross over. */
+  function field(label: string): HTMLElement {
+    const item = screen.getByText(label).closest('.ant-form-item');
+    expect(item).toBeTruthy();
+    return item as HTMLElement;
+  }
+
+  /**
+   * The dictionaries are imported lazily, so the tick starts out `false` and
+   * flips once the chunk lands — assertions on it have to WAIT for the value, not
+   * just for the element (a bare read passes for the wrong reason).
+   */
+  async function expectMatch(label: string, expected: 'true' | 'false'): Promise<void> {
+    await waitFor(() =>
+      expect(
+        field(label)
+          .querySelector('[data-dictionary-match]')
+          ?.getAttribute('data-dictionary-match'),
+      ).toBe(expected),
+    );
+  }
+
+  const save = async (): Promise<void> => {
+    await userEvent.setup().click(screen.getByText('Yadda saxla'));
+  };
+
+  it('suggests listed faculties as you type', async () => {
+    const user = userEvent.setup();
+    renderWithProviders(
+      <EducationModal {...base} defaultValues={university} onSubmit={vi.fn()} />,
+    );
+
+    await user.type(field('Fakültə').querySelector('input') as HTMLInputElement, 'Filolo');
+    const options = await waitFor(() => {
+      const found = Array.from(document.querySelectorAll('.ant-select-item-option-content'));
+      expect(found.length).toBeGreaterThan(0);
+      return found.map((el) => el.textContent);
+    });
+    expect(options).toContain('Filologiya');
+  });
+
+  it('attaches a code to both fields when the values are listed', async () => {
+    const onSubmit = vi.fn();
+    renderWithProviders(
+      <EducationModal
+        {...base}
+        defaultValues={{ ...university, faculty: 'İqtisadiyyat', specialization: 'Maliyyə' }}
+        onSubmit={onSubmit}
+      />,
+    );
+    await expectMatch('Fakültə', 'true');
+    await expectMatch('Peşə (ixtisas)', 'true');
+
+    await save();
+    await waitFor(() => expect(onSubmit).toHaveBeenCalled());
+    expect(onSubmit.mock.calls[0]?.[0]).toMatchObject({
+      facultyCode: 'economics',
+      specializationCode: 'finance',
+    });
+  });
+
+  /**
+   * Starts from a recognized value so the wait proves the dictionary really
+   * loaded, then types over it: recognition has to DROP, and the unlisted text
+   * still has to be accepted and stored verbatim (§13.1 free-text fallback).
+   */
+  it('keeps an unlisted value and stores no code for it', async () => {
+    const user = userEvent.setup();
+    const onSubmit = vi.fn();
+    renderWithProviders(
+      <EducationModal
+        {...base}
+        defaultValues={{ ...university, faculty: 'İqtisadiyyat', specialization: 'Maliyyə' }}
+        onSubmit={onSubmit}
+      />,
+    );
+    await expectMatch('Fakültə', 'true');
+
+    const input = field('Fakültə').querySelector('input') as HTMLInputElement;
+    await user.clear(input);
+    await user.type(input, 'Özüm uydurduğum fakültə');
+    await expectMatch('Fakültə', 'false');
+
+    await save();
+    await waitFor(() => expect(onSubmit).toHaveBeenCalled());
+    const values = onSubmit.mock.calls[0]?.[0];
+    expect(values.faculty).toBe('Özüm uydurduğum fakültə');
+    expect(values.facultyCode).toBeUndefined();
+  });
+
+  /**
+   * The user's rule, and a departure from the source app: not every diploma names
+   * a faculty, so requiring one only made people invent it. The speciality is on
+   * every diploma, so that one stays mandatory.
+   */
+  it('saves a university with no faculty, but not without a speciality', async () => {
+    const onSubmit = vi.fn();
+    const { unmount } = renderWithProviders(
+      <EducationModal
+        {...base}
+        defaultValues={{ ...university, specialization: 'Maliyyə' }}
+        onSubmit={onSubmit}
+      />,
+    );
+    await save();
+    await waitFor(() => expect(onSubmit).toHaveBeenCalled());
+    expect(onSubmit.mock.calls[0]?.[0].faculty).toBe('');
+    unmount();
+
+    const blocked = vi.fn();
+    renderWithProviders(
+      <EducationModal
+        {...base}
+        defaultValues={{ ...university, faculty: 'İqtisadiyyat' }}
+        onSubmit={blocked}
+      />,
+    );
+    await save();
+    await waitFor(() =>
+      expect(field('Peşə (ixtisas)').className).toContain('ant-form-item-has-error'),
+    );
+    expect(blocked).not.toHaveBeenCalled();
+  });
+});
+
+/**
+ * Job title and city are dictionary typeaheads for the same reason the education
+ * fields are — a code is what re-labels the value when the CV language changes,
+ * and free text still has to be accepted for anything the list does not cover.
+ */
+describe('ExperienceModal', () => {
+  const base = { open: true, title: 'İş təcrübəsi', onCancel: vi.fn() };
+  const job = {
+    position: '',
+    company: 'Cybernet',
+    employmentType: undefined,
+    location: '',
+    startDate: '2020-01-01',
+    endDate: '',
+    current: true,
+    description: '',
+    highlights: [],
+  };
+
+  function field(label: string): HTMLElement {
+    const item = screen.getByText(label).closest('.ant-form-item');
+    expect(item).toBeTruthy();
+    return item as HTMLElement;
+  }
+
+  /** See `EducationModal` above: the tick's VALUE has to be awaited. */
+  async function expectMatch(label: string, expected: 'true' | 'false'): Promise<void> {
+    await waitFor(() =>
+      expect(
+        field(label)
+          .querySelector('[data-dictionary-match]')
+          ?.getAttribute('data-dictionary-match'),
+      ).toBe(expected),
+    );
+  }
+
+  it('attaches a code to a listed job title and a listed city', async () => {
+    const onSubmit = vi.fn();
+    renderWithProviders(
+      <ExperienceModal
+        {...base}
+        defaultValues={{ ...job, position: 'Mühasib', location: 'Bakı' }}
+        onSubmit={onSubmit}
+      />,
+    );
+    await expectMatch('Vəzifə', 'true');
+    await expectMatch('Şəhər', 'true');
+
+    await userEvent.setup().click(screen.getByText('Yadda saxla'));
+    await waitFor(() => expect(onSubmit).toHaveBeenCalled());
+    expect(onSubmit.mock.calls[0]?.[0]).toMatchObject({
+      positionCode: 'accountant',
+      locationCode: 'baku',
+    });
+  });
+
+  it('keeps an unlisted job title verbatim, with no code', async () => {
+    const user = userEvent.setup();
+    const onSubmit = vi.fn();
+    renderWithProviders(
+      <ExperienceModal {...base} defaultValues={{ ...job, position: 'Mühasib' }} onSubmit={onSubmit} />,
+    );
+    await expectMatch('Vəzifə', 'true');
+
+    const input = field('Vəzifə').querySelector('input') as HTMLInputElement;
+    await user.clear(input);
+    await user.type(input, 'Baş şüşəsilən');
+    await expectMatch('Vəzifə', 'false');
+
+    await user.click(screen.getByText('Yadda saxla'));
+    await waitFor(() => expect(onSubmit).toHaveBeenCalled());
+    const values = onSubmit.mock.calls[0]?.[0];
+    expect(values.position).toBe('Baş şüşəsilən');
+    expect(values.positionCode).toBeUndefined();
+  });
+
+  /** Cities are searched through `utils/search`, so a keyboard without `ə`/`Ş`
+   *  still reaches them — the defect that once hid "İtalyan" from its own name. */
+  it('finds a city typed without its Azerbaijani diacritics', async () => {
+    const user = userEvent.setup();
+    renderWithProviders(<ExperienceModal {...base} defaultValues={job} onSubmit={vi.fn()} />);
+
+    await user.type(field('Şəhər').querySelector('input') as HTMLInputElement, 'seki');
+    const options = await waitFor(() => {
+      const found = Array.from(document.querySelectorAll('.ant-select-item-option-content'));
+      expect(found.length).toBeGreaterThan(0);
+      return found.map((el) => el.textContent);
+    });
+    expect(options).toContain('Şəki');
   });
 });

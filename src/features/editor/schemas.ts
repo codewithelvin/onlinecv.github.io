@@ -67,17 +67,29 @@ export const experienceSchema = yup.object({
   current: yup.boolean().default(false),
   description: yup.string().trim().max(600, 'maximumSixHundredCharacter').optional(),
   highlights: yup.array(yup.string().max(200, 'highlightMax')).optional(),
+  /** Resolved from the typed title/city on submit — never user input. */
+  positionCode: yup.string().optional(),
+  locationCode: yup.string().optional(),
 });
 
 export const educationSchema = yup.object({
   type: yup.string().required(),
-  institution: yup.string().trim().required('institutionRequired').max(100, 'maximumHundredCharacter'),
-  faculty: yup
-    .string()
-    .trim()
-    .max(100, 'maximumHundredCharacter')
-    .optional()
-    .when('type', { is: 'university', then: (s) => s.required('facultyRequired') }),
+  /**
+   * 150, not the source app's 100: seven rows of the `colleges` dictionary are
+   * longer than 100 characters once translated (the Russian names run to 118), so
+   * a user could pick a college from the dropdown and then be told the value was
+   * too long. A field has to be able to hold what its own dictionary offers —
+   * asserted in `data/datasets.test.ts`.
+   */
+  institution: yup.string().trim().required('institutionRequired').max(150, 'maximumHundredCharacter'),
+  /**
+   * Faculty is ALWAYS optional — a deliberate departure from the source app's
+   * yup, which required it for a university. Plenty of diplomas simply do not
+   * name a faculty, and requiring it forced those users to invent one. The
+   * speciality stays mandatory for college/university (that one is always on the
+   * diploma).
+   */
+  faculty: yup.string().trim().max(100, 'maximumHundredCharacter').optional(),
   specialization: yup
     .string()
     .trim()
@@ -95,7 +107,10 @@ export const educationSchema = yup.object({
   endDate: yup.string().optional().test('after-start', 'endDateAfterStart', endAfterStart),
   current: yup.boolean().default(false),
   comment: yup.string().trim().max(50, 'maximumFiftyCharacter').optional(),
+  /** Dictionary codes resolved from the typed text on submit — never user input. */
   code: yup.string().optional(),
+  facultyCode: yup.string().optional(),
+  specializationCode: yup.string().optional(),
 });
 
 export const skillSchema = yup.object({

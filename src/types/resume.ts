@@ -93,8 +93,10 @@ export interface Basics {
   lastName: string;
   /** `cvtitle` — e.g. "Frontend Developer". */
   headline: string;
-  /** City (free-text; not in source schema). */
+  /** City — suggestions from the `cities` dictionary, free text accepted. */
   location?: string;
+  /** `cities` dictionary code when the typed city resolved to a listed one. */
+  locationCode?: string;
 }
 
 export interface GeneralInfo {
@@ -130,8 +132,12 @@ export interface ExperienceItem {
   id: string;
   company: string;
   position: string;
+  /** `positions` dictionary code when the typed title resolved to a listed one. */
+  positionCode?: string;
   employmentType?: EmploymentType;
   location?: string;
+  /** `cities` dictionary code when the typed city resolved to a listed one. */
+  locationCode?: string;
   /** `YYYY-MM-DD` (full date, displayed DD.MM.YYYY). */
   startDate: string;
   /** `YYYY-MM-DD`; empty when `current`. */
@@ -149,7 +155,16 @@ export interface EducationItem {
   code?: string;
   institution: string;
   faculty?: string;
+  /**
+   * `faculties` dictionary code when the typed faculty resolved to a listed one.
+   * Kept separate from `code` (the institution) because an item carries three
+   * independent dictionary-backed values; the code is the stored truth and
+   * `faculty` is the label snapshot re-derived at render time (§13.1).
+   */
+  facultyCode?: string;
   specialization?: string;
+  /** `specialities` dictionary code when picked; optional (free text otherwise). */
+  specializationCode?: string;
   degree?: DegreeLevel;
   /** `YYYY-MM`. */
   startDate: string;
