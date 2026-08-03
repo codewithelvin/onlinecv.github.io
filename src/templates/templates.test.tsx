@@ -137,4 +137,19 @@ describe('template smoke render', () => {
     expect(ids).toContain('compact');
     expect(listTemplates()[0].manifest.atsSafe).toBe(true);
   });
+
+  /**
+   * `data-page-bleed` is RETIRED. Core used to turn it into a `fixed` View, but
+   * @react-pdf v4 stopped repeating fixed nodes nested inside the parsed-markup
+   * wrapper, so a template relying on it would lose its accent column on every
+   * page but the first — silently. The mechanism is `manifest.pageBleed` now,
+   * and this makes the dead attribute impossible to reintroduce.
+   */
+  for (const { manifest, load } of listTemplates()) {
+    it(`draws no page bleed inside the markup of "${manifest.id}"`, async () => {
+      const Template = (await load()).default;
+      const html = renderToStaticMarkup(createElement(Template, { resume, t, formatDate }));
+      expect(html).not.toContain('data-page-bleed');
+    });
+  }
 });

@@ -1,8 +1,14 @@
 # Adding a UI/CV language
 
-The app ships Azerbaijani (default), Russian, English and Georgian. Adding
-Turkish, German, Farsi, Arabic … is an **additive** change: no component holds a
+The app ships Azerbaijani (default), Russian, English, Georgian and Arabic.
+Adding Turkish, German, Farsi … is an **additive** change: no component holds a
 language list, and no existing translation has to be touched.
+
+Two lists, not one: `SUPPORTED_LOCALES` is what the app is translated into, and
+`CV_LOCALES` (`LocaleMeta.cv`) is what a CV can be *exported* in. They are
+identical today — the flag exists because Arabic needed a font, digit
+localization and a shaping pass before it could join the second list, and a
+language whose script the exporter cannot draw belongs in the UI switcher only.
 
 `src/app/i18n/locales.ts` is the single registry. Because `LOCALES` is a total
 `Record<Locale, LocaleMeta>`, widening the `Locale` union makes the compiler list
@@ -28,7 +34,7 @@ empty values, and that the dayjs data was imported.
 3. **Register the locale** — one entry in `LOCALES`:
    ```ts
    tr: { code: 'tr', short: 'TR', nativeName: 'Türkçe', dir: 'ltr',
-         capitalizeMonths: true, antd: trTR },
+         capitalizeMonths: true, cv: true, antd: trTR },
    ```
    plus the two side-effect imports at the top of that file: the AntD bundle
    (`antd/locale/tr_TR`) and the dayjs locale (`dayjs/locale/tr`). If dayjs has no
@@ -38,7 +44,20 @@ empty values, and that the dayjs data was imported.
    `capitalizeMonths` is `false` for scripts with no title case. Georgian is the
    cautionary case: Mkhedruli *does* have Unicode uppercase forms (Mtavruli), so
    `toLocaleUpperCase('ka')` produced "Თებ" — not a capitalized month but a
-   spelling error, since Mtavruli is only ever used for whole words.
+   spelling error, since Mtavruli is only ever used for whole words. Arabic,
+   Farsi and Hebrew are unicameral, so `false` for them too.
+
+   `cv` says whether a CV may be *exported* in the language. Default it to
+   `true`; set it to `false` only when the exporter demonstrably cannot render
+   the script (Arabic, below), and say why in a comment.
+
+   **Check the dayjs locale for a `postformat`.** dayjs's Arabic data rewrites
+   every digit it formats into Arabic-Indic numerals — and it does that inside
+   `.format('YYYY-MM-DD')` too, the call whose result is *stored*. An Arabic UI
+   would have persisted `٢٠٢٦-٠٧-٣١` as a date of birth: no longer the ISO string
+   the model is defined in, and unreadable to every other locale. `utils/date`
+   overrides `preparse`/`postformat` with identity functions for every locale for
+   that reason; `date.test.ts` asserts stored dates stay in Western digits.
 
    That entry alone lights up the header switcher, the CV-language select, the
    AntD component text, date formatting, `<html lang>`/`<dir>`, and the PDF
@@ -73,13 +92,18 @@ empty values, and that the dayjs data was imported.
    dataset by dataset; values already saved in a CV re-label themselves as soon
    as the column exists, since they are stored as codes rather than text.
 
-   Georgian is fully translated in the four groups whose labels a user reads in a
-   select or on the finished CV — **skills (273), nationality (34), languages
-   (18), interests (17)** — and `src/data/datasets.test.ts` holds those four to
-   full coverage for every supported locale. **`colleges` (127) and the 62
+   Georgian and Arabic are fully translated in the four groups whose labels a user
+   reads in a select or on the finished CV — **skills (342), nationality (34),
+   languages (18), interests (17)** — and `src/data/datasets.test.ts` holds those
+   four to full coverage for every supported locale, so this step is only
+   *optional* until the test says otherwise. **`colleges` (127) and the 62
    Azerbaijani `universities` are deliberately left in Azerbaijani**: they are
    institution *names*, and a transliteration is less useful than the real one.
    (The 50 foreign universities added alongside them carry every locale.)
+
+   Software and product names stay in Latin script in every locale — that is how
+   they are written in a real CV, and transliterating them would make them
+   unsearchable.
 
    One dataset is not optional: **`languages`**. `LanguageItem.code` is the only
    field in the model with no free-text fallback (§13.1), so a language missing
@@ -90,22 +114,66 @@ empty values, and that the dayjs data was imported.
 6. **Template names** — `TemplateManifest.name` requires only `az`, so existing
    template folders keep working untouched. Add the new code when convenient.
 
-## Right-to-left languages (Farsi, Arabic, Hebrew)
+## Right-to-left languages (Arabic, Farsi, Hebrew)
 
-Set `dir: 'rtl'` in the registry entry. That flips the **editor UI**: AntD's
-`ConfigProvider` gets `direction="rtl"` and `<html dir="rtl">` is set, so layout,
-form controls, and icons mirror.
+Arabic is the worked example, and it ships complete: UI, preview and export.
 
-What is **not** solved by that flag:
+`dir: 'rtl'` flips the **editor UI** — AntD's `ConfigProvider` gets
+`direction="rtl"` and `<html dir="rtl">` is set, so layout, form controls and
+icons mirror. Two things had to be done by hand around it:
 
-- **The CV templates.** Their inline styles use physical directions
-  (`paddingLeft`, `textAlign: 'left'`, the modern template's left sidebar) because
-  `react-pdf-html` supports no logical properties. An RTL template needs its own
-  folder — which is exactly what the plug-in system is for; core does not change.
-- **PDF text shaping.** `@react-pdf/renderer` has limited bidi/Arabic support:
-  glyph joining and mixed LTR/RTL runs (a Latin e-mail inside Arabic text) do not
-  reliably shape correctly. The font side is now a solved problem (step 4), the
-  shaping is not.
+- **The preview frame opts out** (`A4Frame` sets `dir="ltr"`). The exported PDF
+  inherits no page direction, so a mirrored preview would stop showing what the
+  export produces — and the page is laid out at full width and scaled from its
+  top-left corner, which under RTL packed it against the right edge and cropped
+  it. Scaling geometry and writing direction are unrelated; the frame keeps them
+  apart.
+- **Physical directions in components.** `insetInlineEnd`/`textAlign: 'end'`
+  rather than `right`, or the control does not mirror. There is no lint rule for
+  this; grep for `right:`/`paddingLeft`/`textAlign: 'right'` when adding an RTL
+  locale.
 
-So an RTL **UI** is a registry entry; an RTL **exported CV** is a separate piece
-of work and should be scoped on its own.
+### PDF shaping: why `utils/arabic` exists
+
+`@react-pdf/textkit` runs its bidi pass FIRST, reordering the line into visual
+order, and pdfkit's `layoutRun` then calls fontkit with `direction: 'ltr'` so it
+will not reorder again. The shaper therefore reads Arabic **backwards**. Measured
+on `مرحبا` with the shipped Noto Sans Arabic:
+
+| | glyphs |
+|---|---|
+| correct (fontkit, RTL) | `alef.fina beh.medi hah.init reh.fina meem.init` |
+| unshaped, through the exporter | `alef.isol beh.init hah.medi reh.fina meem.isol` |
+
+Every letter but one in the wrong contextual form, and `لا` drawn as two isolated
+letters instead of the mandatory lam-alef ligature.
+
+`preshapeArabic` (applied to the rendered markup in `buildResumeDocument`, so no
+template knows about it) does the joining itself and hands the engine **Arabic
+Presentation Forms** — one code point per letter *per position*, so reordering no
+longer changes how anything looks. Two details worth keeping:
+
+- **The tables are derived, not typed.** Every presentation character
+  NFKC-normalizes back to its base letter, and each letter's forms are listed
+  consecutively: 4 code points for a dual-joining letter, 2 for a right-joining
+  one. So the joining classes and the form tables both fall out of data the JS
+  engine already ships. Noto Sans Arabic covers 141 of the 144 Forms-B points.
+- **A U+200C between every pair is required.** The engine re-runs its own joining
+  analysis on whatever it is handed — presentation forms included — and on its
+  reversed line that analysis is wrong again (measured: an INITIAL form on a
+  word-final letter, and a lam-alef ligature invented out of every `ال`). The
+  non-joiner breaks that context and has a zero advance. With it, the exported
+  widths land within 1.9% of correct shaping (most words exact); the residue is
+  the font's own `.wide` justification variants.
+
+**The cost, and it is a real one:** the PDF's text layer holds presentation forms
+separated by U+200C rather than plain letters. `String.normalize('NFKC')` maps
+them back and `arabic.test.ts` asserts that round trip, but a naive ATS parser
+does neither. Deleting the `withNonJoiners` call restores a clean text layer and
+brings back the broken joining — that is the whole trade, in one function.
+
+Still **not** solved: the CV templates lay out left-to-right (physical CSS;
+`react-pdf-html` has no logical properties), so an Arabic CV reads right-to-left
+*within* each block but the blocks themselves — sidebar, date column — keep their
+Latin arrangement. A mirrored template is a new folder, which is exactly what the
+plug-in system is for; core does not change.

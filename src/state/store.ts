@@ -9,8 +9,9 @@ import type {
   ResumeListSection,
   TemplateId,
 } from '../types/resume';
-import { createEmptyResume } from '../utils/empty-resume';
-import { DEFAULT_LOCALE, applyLocale } from '../app/i18n';
+import { createEmptyResume, looksUnstarted } from '../utils/empty-resume';
+import { DEFAULT_LOCALE, applyLocale, syncLocaleUrl } from '../app/i18n';
+import { initialLocale } from '../app/seo-locales';
 import { clearState, loadState, saveState } from '../services/persistence';
 
 /** Item type held by a given list section. */
@@ -38,12 +39,20 @@ export interface ResumeStore {
    * the user had collapsed. `null` = never touched → the editor's default set.
    */
   openSections: string[] | null;
+  /**
+   * True once the user has finished the first-run wizard (FR-13). This — NOT the
+   * current contents of `resume` — is what gates the wizard, so emptying a
+   * required field in the editor is a validation error and never a navigation.
+   */
+  wizardCompleted: boolean;
   /** True once hydration from IndexedDB has completed (or failed). */
   hydrated: boolean;
   /** True when persistence failed and the app is running memory-only (§17). */
   persistenceError: boolean;
 
   hydrate: () => Promise<void>;
+  /** Leave the first-run wizard for good (BR-8 reset is the only way back). */
+  completeWizard: () => void;
   setUiLocale: (locale: Locale) => void;
   setOpenSections: (keys: string[]) => void;
   setResumeLocale: (locale: Locale) => void;
@@ -73,20 +82,24 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
   resume: createEmptyResume(),
   uiLocale: DEFAULT_LOCALE,
   openSections: null,
+  wizardCompleted: false,
   hydrated: false,
   persistenceError: false,
 
   /**
-   * First run starts in Azerbaijani — the primary market — regardless of the
-   * browser's preferred languages; the user can switch from the header and that
-   * choice is what gets persisted.
+   * First run follows the URL's locale if it names one (`/ru/` — a search result
+   * or a shared link), and otherwise starts in Azerbaijani, the primary market,
+   * regardless of the browser's preferred languages. The user can switch from the
+   * header and that choice is what gets persisted.
    */
   hydrate: async () => {
-    type Hydrated = Pick<ResumeStore, 'resume' | 'uiLocale' | 'openSections'>;
+    type Hydrated = Pick<ResumeStore, 'resume' | 'uiLocale' | 'openSections' | 'wizardCompleted'>;
+    const path = typeof window === 'undefined' ? '' : window.location.pathname;
     const fresh: Hydrated = {
       resume: createEmptyResume(DEFAULT_LOCALE),
-      uiLocale: DEFAULT_LOCALE,
+      uiLocale: initialLocale(path, undefined),
       openSections: null,
+      wizardCompleted: false,
     };
     let next: Hydrated;
     try {
@@ -94,8 +107,12 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
       next = persisted
         ? {
             resume: persisted.resume,
-            uiLocale: persisted.uiLocale,
+            // The URL's locale outranks the stored one — see `initialLocale`.
+            uiLocale: initialLocale(path, persisted.uiLocale),
             openSections: persisted.openSections ?? null,
+            // Records written before the flag existed: infer it, so an existing
+            // CV lands in the editor and a half-filled one still gets the wizard.
+            wizardCompleted: persisted.wizardCompleted ?? !looksUnstarted(persisted.resume),
           }
         : fresh;
     } catch {
@@ -106,8 +123,14 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
     set({ ...next, hydrated: true });
   },
 
+  completeWizard: () => set({ wizardCompleted: true }),
+
   setUiLocale: (locale) => {
     applyLocale(locale);
+    // Keep the address bar honest: each language has its own indexable URL
+    // (§19.2), so the one on screen has to be the one in the bar — otherwise a
+    // shared link hands the recipient a different language.
+    syncLocaleUrl(locale);
     set({ uiLocale: locale });
   },
 
@@ -204,7 +227,7 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
   resetResume: async () => {
     const uiLocale = get().uiLocale;
     const resume = createEmptyResume(uiLocale);
-    set({ resume, openSections: null });
+    set({ resume, openSections: null, wizardCompleted: false });
     try {
       await clearState();
     } catch {
@@ -224,7 +247,8 @@ useResumeStore.subscribe((state, prev) => {
   if (
     state.resume === prev.resume &&
     state.uiLocale === prev.uiLocale &&
-    state.openSections === prev.openSections
+    state.openSections === prev.openSections &&
+    state.wizardCompleted === prev.wizardCompleted
   ) {
     return;
   }
@@ -234,6 +258,7 @@ useResumeStore.subscribe((state, prev) => {
       resume: state.resume,
       uiLocale: state.uiLocale,
       openSections: state.openSections,
+      wizardCompleted: state.wizardCompleted,
     }).catch(() => {
       useResumeStore.setState({ persistenceError: true });
     });

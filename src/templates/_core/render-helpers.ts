@@ -4,7 +4,7 @@ import type {
   ExperienceItem,
   Resume,
 } from '../../types/resume';
-import { calcAge } from '../../utils/date';
+import { calcAge, localizeDigits } from '../../utils/date';
 
 /**
  * Pure, side-effect-free helpers shared by templates. Defensive against absent
@@ -84,9 +84,13 @@ export function generalInfoPairs(
   const pairs: Array<[string, string]> = [];
   if (gi.dateOfBirth) {
     const age = calcAge(gi.dateOfBirth);
+    // The age is the one NUMBER on the CV that dayjs never formats, so it needs
+    // the locale's own digits applied by hand (`٣٤` on an Arabic CV, matching
+    // the date beside it).
+    const years = age !== null ? localizeDigits(String(age), resume.locale) : '';
     pairs.push([
       t('cvLabels.dateOfBirth'),
-      `${formatDate(gi.dateOfBirth, fullDateFormat)}${age !== null ? ` (${age} ${t('common.years')})` : ''}`,
+      `${formatDate(gi.dateOfBirth, fullDateFormat)}${years ? ` (${years} ${t('common.years')})` : ''}`,
     ]);
   }
   if (gi.gender) pairs.push([t('cvLabels.gender'), t(`dictionary.${gi.gender}`)]);

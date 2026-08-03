@@ -3,7 +3,6 @@ import { Button, Modal, Space, Typography } from 'antd';
 import { FiDownloadCloud, FiSmartphone, FiWifiOff, FiLock } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { useResumeStore } from '../state/store';
-import { needsWizard } from '../utils/empty-resume';
 import { useScrollLock } from '../hooks/useScrollLock';
 import { getModalContainer } from '../utils/modal-container';
 
@@ -68,7 +67,7 @@ export function PwaInstallPrompt(): JSX.Element | null {
   const [event, setEvent] = useState<BeforeInstallPromptEvent | null>(null);
   const [open, setOpen] = useState(false);
   const hydrated = useResumeStore((s) => s.hydrated);
-  const resume = useResumeStore((s) => s.resume);
+  const wizardCompleted = useResumeStore((s) => s.wizardCompleted);
 
   useEffect(() => {
     if (isStandalone() || wasDismissed()) return;
@@ -98,7 +97,7 @@ export function PwaInstallPrompt(): JSX.Element | null {
    * visitors — the ones for whom installing is actually worth something — see it
    * on the editor instead.
    */
-  const visible = open && hydrated && !needsWizard(resume);
+  const visible = open && hydrated && wizardCompleted;
   useScrollLock(visible);
 
   const close = useCallback(() => {

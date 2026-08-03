@@ -1,12 +1,25 @@
 import type { CSSProperties } from 'react';
-import { CV_FONT_FAMILY } from '../_core/fonts';
 import { modernTheme as m } from './theme';
 
 /** Modern template styles (inline CSSProperties; spec §7.1 subset — flexbox only). */
 export const styles: Record<string, CSSProperties> = {
+  /**
+   * No `fontFamily` here on purpose: core sets it on the page for both targets
+   * (`cvFontStack` for the PDF, `A4Frame` for the preview) so that it can be
+   * ORDERED BY THE CV LANGUAGE. Pinning it in a template puts Inter back in
+   * front, which hands the characters every face shares — the space above all —
+   * to the wrong font and shatters each Arabic or Georgian line into
+   * alternating runs.
+   */
   page: {
-    fontFamily: CV_FONT_FAMILY,
-    backgroundColor: m.pageBg,
+    /**
+     * ⚠️ NO `backgroundColor` HERE. The accent column (`manifest.pageBleed`) is
+     * painted by core as the page's FIRST child, so anything opaque on this root
+     * covers it: an all-white root left the column showing only in the 28pt page
+     * margins above and below, and since the sidebar's own text is white, the
+     * sidebar read as a blank white block. The page and the preview sheet are
+     * already white, so a white root only ever hid something.
+     */
     color: m.text,
     fontSize: 11,
     lineHeight: 1.45,
@@ -24,32 +37,14 @@ export const styles: Record<string, CSSProperties> = {
     flexGrow: 1,
   },
   /**
-   * The accent column's COLOUR, painted as a page-level layer rather than as the
-   * background of the flowing column.
-   *
-   * It has to escape the page margin to reach the paper edges, and a flex child
-   * cannot: negative margins stretch a stretched item upwards but not downwards
-   * (measured — the column came up 28pt short at the foot). Absolute offsets are
-   * honoured in both directions, and `data-page-bleed` makes react-pdf repeat it
-   * on every page (see `blockRenderer` in `services/pdf.ts`). First child, so it
-   * paints behind the sidebar's content.
-   */
-  sidebarBleed: {
-    position: 'absolute',
-    top: -28,
-    bottom: -28,
-    left: 0,
-    width: '34%',
-    backgroundColor: m.accent,
-  },
-  /**
    * `position: relative` on both columns is load-bearing, not decoration: a
    * browser paints POSITIONED elements above in-flow ones regardless of source
-   * order, so the absolutely positioned accent layer above would otherwise cover
-   * the sidebar's text and the left edge of the main column in the preview.
-   * Making the columns positioned too puts them back in document order — behind
-   * nothing, in front of the layer. react-pdf already paints in document order,
-   * so this changes nothing there.
+   * order, and core's accent layer (`manifest.pageBleed`) is absolutely
+   * positioned on the sheet, so it would otherwise cover the sidebar text and
+   * the left edge of the main column in the preview. Making the columns
+   * positioned too puts them back in document order — after the layer, and
+   * therefore on top of it. react-pdf already paints in document order, so this
+   * changes nothing there.
    */
   sidebar: {
     position: 'relative',
@@ -96,7 +91,15 @@ export const styles: Record<string, CSSProperties> = {
   },
   sideItem: { fontSize: 10, color: m.sidebarMuted, marginBottom: 3 },
   barLabel: { fontSize: 10, color: m.sidebarText, marginBottom: 2, marginTop: 5 },
-  barTrack: { width: '100%', height: 5, backgroundColor: m.barTrack, borderRadius: 3 },
+  /** A ROW, not a block: see `barTrack` in `index.tsx` for why it matters. */
+  barTrack: {
+    width: '100%',
+    height: 5,
+    backgroundColor: m.barTrack,
+    borderRadius: 3,
+    display: 'flex',
+    flexDirection: 'row',
+  },
   barFill: { height: 5, backgroundColor: m.barFill, borderRadius: 3 },
   section: { marginBottom: 12, display: 'flex', flexDirection: 'column' },
   /** Heading + first entry, kept on one page (see `KEEP_TOGETHER`). */

@@ -154,7 +154,9 @@ export function TemplatePicker({
                       }}
                       style={{
                         position: "absolute",
-                        right: 8,
+                        /* Logical, not `right`: it has to mirror with the rest of
+                           the UI in a right-to-left locale (`LocaleMeta.dir`). */
+                        insetInlineEnd: 8,
                         bottom: 8,
                         /* Reads as a control sitting ON the picture rather than
                            as part of it, whatever the thumbnail behind it. */

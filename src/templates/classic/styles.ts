@@ -1,5 +1,4 @@
 import type { CSSProperties } from 'react';
-import { CV_FONT_FAMILY } from '../_core/fonts';
 import { classicTheme as c } from './theme';
 
 /**
@@ -8,8 +7,15 @@ import { classicTheme as c } from './theme';
  * stay within flexbox/colors/borders/fonts only — no grid/position/floats.
  */
 export const styles: Record<string, CSSProperties> = {
+  /**
+   * No `fontFamily` here on purpose: core sets it on the page for both targets
+   * (`cvFontStack` for the PDF, `A4Frame` for the preview) so that it can be
+   * ORDERED BY THE CV LANGUAGE. Pinning it in a template puts Inter back in
+   * front, which hands the characters every face shares — the space above all —
+   * to the wrong font and shatters each Arabic or Georgian line into
+   * alternating runs.
+   */
   page: {
-    fontFamily: CV_FONT_FAMILY,
     color: c.text,
     backgroundColor: c.pageBg,
     // Horizontal only — the vertical margin is `manifest.pageMargin`, so it

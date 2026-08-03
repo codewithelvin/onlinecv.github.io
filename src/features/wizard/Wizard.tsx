@@ -33,6 +33,7 @@ export function Wizard(): JSX.Element {
   const updateBasics = useResumeStore((s) => s.updateBasics);
   const updateGeneralInfo = useResumeStore((s) => s.updateGeneralInfo);
   const updateContactEmail = useResumeStore((s) => s.updateContactEmail);
+  const completeWizard = useResumeStore((s) => s.completeWizard);
   const nationality = useDictionary('nationality');
 
   const f1 = useForm<WizardStep1Values>({
@@ -69,6 +70,10 @@ export function Wizard(): JSX.Element {
       // the CV can re-label it per language; free text is kept verbatim.
       nationality: nationality.findByLabel(values.nationality)?.code ?? values.nationality,
     });
+    // Last, and explicitly: the editor is reached by finishing the wizard, never
+    // by the resume happening to hold a name. Clearing a field later is then a
+    // validation error in place instead of a trip back to this screen.
+    completeWizard();
   });
 
   return (
@@ -137,7 +142,9 @@ export function Wizard(): JSX.Element {
                   />
                 </Col>
               </Row>
-              <div style={{ textAlign: 'right' }}>
+              {/* `end`, not `right`: in a right-to-left locale "next" belongs at
+                  the end of the reading direction, i.e. on the left. */}
+              <div style={{ textAlign: 'end' }}>
                 <Button id="wizard-next" type="primary" onClick={() => void next()}>
                   {t('wizard.next')}
                 </Button>

@@ -1,6 +1,6 @@
 import { Children, type JSX, type ReactNode } from 'react';
 import type { TemplateProps } from '../_core/contract';
-import type { LanguageLevel } from '../../types/resume';
+import type { LanguageLevel, Locale } from '../../types/resume';
 import { BulletList } from '../_core/bullets';
 import {
   contactChannels,
@@ -12,6 +12,7 @@ import {
   highlights,
   KEEP_TOGETHER,
 } from '../_core/render-helpers';
+import { mirrorInlineEndPadding, mirrorRow } from '../_core/direction';
 import { styles } from './styles';
 
 const FULL = 'DD.MM.YYYY';
@@ -32,11 +33,11 @@ function Section({ title, children }: { title: string; children: ReactNode }): J
   );
 }
 
-function Bullets({ items }: { items: string[] }): JSX.Element | null {
+function Bullets({ items, locale }: { items: string[]; locale: Locale }): JSX.Element | null {
   return (
     <BulletList
       items={items}
-      listStyle={styles.bulletList}
+      listStyle={styles.bulletList} locale={locale}
       itemStyle={styles.bulletItem}
       markWidth={8}
     />
@@ -61,6 +62,12 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
   const infoParts = generalInfoPairs(resume, t, formatDate, FULL).map(
     ([label, value]) => `${label}: ${value}`,
   );
+
+  // Rows read from the other end in a right-to-left CV: the entry title
+  // belongs at the start of the line and its date at the far end.
+  const headRow = mirrorRow(styles.entryHeadRow, resume.locale);
+  // The gap between title and date follows them across (see the helper).
+  const entryTitle = mirrorInlineEndPadding(styles.entryTitle, resume.locale);
 
   return (
     <div style={styles.page}>
@@ -87,8 +94,8 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
         {hasItems(resume.experience)
           ? resume.experience.map((x) => (
               <div key={x.id} style={styles.entry}>
-                <div style={styles.entryHeadRow}>
-                  <div style={styles.entryTitle}>
+                <div style={headRow}>
+                  <div style={entryTitle}>
                     {[x.position, x.company].filter(Boolean).join(' — ')}
                     {x.location ? `, ${x.location}` : ''}
                   </div>
@@ -97,7 +104,7 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
                   </div>
                 </div>
                 {x.description ? <div style={styles.entryDesc}>{x.description}</div> : null}
-                <Bullets items={highlights(x.highlights)} />
+                <Bullets items={highlights(x.highlights)} locale={resume.locale} />
               </div>
             ))
           : null}
@@ -107,8 +114,8 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
         {hasItems(resume.projects)
           ? resume.projects.map((p) => (
               <div key={p.id} style={styles.entry}>
-                <div style={styles.entryHeadRow}>
-                  <div style={styles.entryTitle}>{p.name}</div>
+                <div style={headRow}>
+                  <div style={entryTitle}>{p.name}</div>
                   {p.url ? (
                     <a style={styles.link} href={p.url}>
                       {p.url}
@@ -116,7 +123,7 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
                   ) : null}
                 </div>
                 {p.description ? <div style={styles.entryDesc}>{p.description}</div> : null}
-                <Bullets items={highlights(p.highlights)} />
+                <Bullets items={highlights(p.highlights)} locale={resume.locale} />
               </div>
             ))
           : null}
@@ -126,8 +133,8 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
         {hasItems(resume.education)
           ? resume.education.map((e) => (
               <div key={e.id} style={styles.entry}>
-                <div style={styles.entryHeadRow}>
-                  <div style={styles.entryTitle}>{e.institution}</div>
+                <div style={headRow}>
+                  <div style={entryTitle}>{e.institution}</div>
                   <div style={styles.entryDate}>
                     {dateRange(e, formatDate, MONTH, t('common.present'))}
                   </div>
@@ -154,8 +161,8 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
         {hasItems(resume.certifications)
           ? resume.certifications.map((cert) => (
               <div key={cert.id} style={styles.entry}>
-                <div style={styles.entryHeadRow}>
-                  <div style={styles.entryTitle}>{cert.name}</div>
+                <div style={headRow}>
+                  <div style={entryTitle}>{cert.name}</div>
                   <div style={styles.entryDate}>
                     {cert.issueDate ? formatDate(cert.issueDate, MONTH) : ''}
                   </div>

@@ -86,6 +86,10 @@ async function renderPdfSource(templateId: TemplateId, resume: Resume): Promise<
     html: renderHtml(Template as never, resume),
     attribution: true,
     pageMargin: entry.manifest.pageMargin,
+    // Passed for the same reason as `locale`: the accent column is the
+    // template's, but core paints it, so a test that omits it is testing a
+    // different document from the one the Download button builds.
+    pageBleed: entry.manifest.pageBleed,
   });
   return pdf(document).toString();
 }

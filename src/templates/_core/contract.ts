@@ -8,5 +8,6 @@ export type {
   ResumeTemplate,
   TemplateManifest,
   PageMargin,
+  PageBleed,
   RegisteredTemplate,
 } from '../../types/template';

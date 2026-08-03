@@ -1,5 +1,9 @@
 import { type JSX, type ReactNode, useLayoutEffect, useRef, useState } from 'react';
-import type { PageMargin } from '../../types/template';
+import type { PageBleed, PageMargin } from '../../types/template';
+import type { Locale } from '../../types/resume';
+import { LOCALES } from '../../app/i18n/locales';
+import { cvFontFamily } from '../../templates/_core/fonts';
+import { bleedSide } from '../../templates/_core/direction';
 
 /**
  * A4 portrait in POINTS — the unit `@react-pdf/renderer` actually lays the
@@ -25,14 +29,27 @@ export function A4Frame({
   children,
   footer,
   pageMargin,
+  pageBleed,
+  locale = 'az',
 }: {
   children: ReactNode;
+  /**
+   * The CV's language (`resume.locale`), NOT the UI's. Drives the font order and
+   * the writing direction of the sheet's content — the preview half of what
+   * `buildResumeDocument` does for the export, so the two cannot drift.
+   */
+  locale?: Locale;
   /**
    * The selected template's per-page vertical margin. Applied to the canvas —
    * exactly as `services/pdf.ts` applies it to react-pdf's `Page` — so the
    * preview keeps matching the export.
    */
   pageMargin?: PageMargin;
+  /**
+   * The template's full-height accent column (`manifest.pageBleed`), painted by
+   * the frame rather than by the template — see `PageBleed` for why.
+   */
+  pageBleed?: PageBleed;
   /**
    * Rendered inside the page, on top of it: the credit line positions itself
    * against the page box (see `attributionPreviewStyle`) so it never takes
@@ -67,6 +84,22 @@ export function A4Frame({
   return (
     <div
       ref={wrapRef}
+      /**
+       * The whole frame is left-to-right, whatever the UI is set to — not just
+       * the sheet inside it.
+       *
+       * Two reasons, and the second one is a layout bug rather than a nicety.
+       * (1) The exported PDF inherits no page direction, so a preview that
+       * mirrored under `<html dir="rtl">` (the Arabic UI) would stop showing what
+       * the export produces. (2) The page is laid out at its full 595pt width and
+       * scaled down with `transformOrigin: top left`; under RTL the browser
+       * places that oversized box against the RIGHT edge of its parent, so it
+       * overflowed to the left and the transform then pulled it further left,
+       * out of the pane and under `overflow: hidden` — which is what "the preview
+       * is shrunk in RTL" looked like. Scaling geometry and writing direction
+       * have nothing to do with each other; this keeps them apart.
+       */
+      dir="ltr"
       style={{
         width: '100%',
         maxWidth: '100%',
@@ -79,6 +112,8 @@ export function A4Frame({
       <div style={{ width: A4_WIDTH * scale, height: contentHeight * scale, flex: '0 0 auto' }}>
         <div
           ref={pageRef}
+          /** Restated on the sheet itself: see the wrapper's `dir` above. */
+          dir="ltr"
           style={{
             width: A4_WIDTH,
             minHeight: A4_HEIGHT,
@@ -99,6 +134,28 @@ export function A4Frame({
           }}
         >
           {/*
+            The accent column, first so the content paints over it. Same box and
+            same numbers as the PDF's page-level `fixed` View: it hugs the SHEET,
+            not the margin-inset text area, so it reaches the paper edges. The
+            text area below is `position: relative`, which keeps it above this
+            layer — CSS paints positioned elements over in-flow ones regardless
+            of source order, so both have to be positioned to respect the order.
+          */}
+          {pageBleed ? (
+            <div
+              style={{
+                position: 'absolute',
+                top: 0,
+                bottom: 0,
+                // Mirrored for a right-to-left CV — the same rule the export
+                // applies, from the same helper.
+                [bleedSide(pageBleed, locale)]: 0,
+                width: pageBleed.width,
+                backgroundColor: pageBleed.color,
+              }}
+            />
+          ) : null}
+          {/*
             The text area, inset from the paper by the template's page margin.
             A MARGIN on this box rather than padding on the sheet, because both
             renderers resolve absolutely positioned children — the modern
@@ -115,6 +172,27 @@ export function A4Frame({
               flexDirection: 'column',
               marginTop: pageMargin?.top ?? 0,
               marginBottom: pageMargin?.bottom ?? 0,
+              /**
+               * Font order and text alignment belong to the CV's language and are
+               * set once, here, for every template — the mirror of what
+               * `buildResumeDocument` puts on react-pdf's `Page`.
+               *
+               * ⚠️ `direction: 'rtl'` is deliberately NOT set, and this is load
+               * bearing. CSS already reverses a flex `row` when `direction` is
+               * rtl, so combined with the explicit `row-reverse` the templates
+               * apply (`mirrorRow`) the preview mirrored TWICE and landed back in
+               * left-to-right — the modern template's sidebar stayed on the left
+               * while its accent column moved to the right, which is what "the
+               * blue sidebar is totally broken in RTL" looked like. react-pdf has
+               * no notion of `direction` at all, so it mirrored once and was
+               * correct, and the two renderers disagreed.
+               *
+               * One mirroring, done explicitly, in both targets. `textAlign` is
+               * safe to set because react-pdf inherits it too, so it means the
+               * same thing on both sides.
+               */
+              fontFamily: cvFontFamily(locale),
+              ...(LOCALES[locale].dir === 'rtl' ? { textAlign: 'right' as const } : {}),
             }}
           >
             {children}

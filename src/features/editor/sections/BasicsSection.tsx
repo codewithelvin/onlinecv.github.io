@@ -2,14 +2,14 @@ import type { JSX } from "react";
 import { Col, Input, Row, Space } from "antd";
 import { useTranslation } from "react-i18next";
 import { useResumeStore } from "../../../state/store";
-import { LETTERS_AND_SPACE } from "../../../utils/patterns";
+import { PERSON_NAME } from "../../../utils/patterns";
 import { Field } from "../../../components/form/fields";
 import { AvatarField } from "../../avatar/AvatarField";
 
 function nameError(value: string, requiredKey: string): string | undefined {
   const v = value.trim();
   if (!v) return requiredKey;
-  if (!LETTERS_AND_SPACE.test(v)) return "onlyLettersAndSpace";
+  if (!PERSON_NAME.test(v)) return "onlyLettersAndSpace";
   if (v.length < 3) return "minThreeChars";
   if (v.length > 50) return "maximumFiftyCharacter";
   return undefined;

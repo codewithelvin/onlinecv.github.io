@@ -16,7 +16,23 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    // The locale-pages plugin reads its head copy from the app i18n bundles.
+    "resolveJsonModule": true
   },
-  "include": ["vite.config.ts"]
+  /*
+   * `vite-plugin-locale-pages.ts` imports the locale registry and the URL helpers
+   * from `src/` on purpose: the emitted pages, the sitemap and the running app must
+   * agree about where each language lives, and duplicating the list here is exactly
+   * how that drifts. So the files it reaches have to be listed too, or tsc refuses
+   * them as outside the project.
+   */
+  "include": [
+    "vite.config.ts",
+    "vite-plugin-locale-pages.ts",
+    "src/app/seo-locales.ts",
+    "src/app/i18n/locales.ts",
+    "src/types/resume.ts"
+  ]
 }

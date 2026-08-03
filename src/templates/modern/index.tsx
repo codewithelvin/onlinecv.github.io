@@ -1,6 +1,6 @@
 import { Children, type JSX, type ReactNode } from 'react';
 import type { TemplateProps } from '../_core/contract';
-import type { LanguageLevel } from '../../types/resume';
+import type { LanguageLevel, Locale } from '../../types/resume';
 import { BulletList } from '../_core/bullets';
 import {
   contactChannels,
@@ -12,6 +12,7 @@ import {
   highlights,
   KEEP_TOGETHER,
 } from '../_core/render-helpers';
+import { mirrorRow } from '../_core/direction';
 import { styles } from './styles';
 
 const FULL = 'DD.MM.YYYY';
@@ -46,8 +47,8 @@ function SideSection({ title, children }: { title: string; children: ReactNode }
   );
 }
 
-function Bullets({ items }: { items: string[] }): JSX.Element | null {
-  return <BulletList items={items} listStyle={styles.bulletList} itemStyle={styles.bulletItem} />;
+function Bullets({ items, locale }: { items: string[]; locale: Locale }): JSX.Element | null {
+  return <BulletList items={items} listStyle={styles.bulletList} locale={locale} itemStyle={styles.bulletItem} />;
 }
 
 /**
@@ -61,11 +62,29 @@ export default function Modern({ resume, t, formatDate }: TemplateProps): JSX.El
   const initials = `${resume.basics.firstName[0] ?? ''}${resume.basics.lastName[0] ?? ''}`.toUpperCase();
   const contacts = contactChannels(resume);
   const infoPairs = generalInfoPairs(resume, t, formatDate, FULL);
+  // The root IS the two-column row, so mirroring it moves the sidebar to the
+  // right for a right-to-left CV. Core mirrors `manifest.pageBleed` to match
+  // (see `bleedSide`), so the accent column follows it.
+  const page = mirrorRow(styles.page, resume.locale);
+  /**
+   * The skill bar fills from the READING edge. `barTrack` is an explicit
+   * mirrored flex row rather than a block with a percentage-width child,
+   * because a block child starts at the inline-start edge — which CSS resolves
+   * against the inherited `direction` (so the preview filled from the right in
+   * Arabic) while react-pdf has no direction at all and always filled from the
+   * left. Same declaration, two different pictures; a mirrored row is the same
+   * picture in both.
+   */
+  const barTrack = mirrorRow(styles.barTrack, resume.locale);
 
   return (
-    <div style={styles.page}>
-      {/* Full-bleed accent column behind the sidebar — see `styles.sidebarBleed`. */}
-      <div style={styles.sidebarBleed} data-page-bleed />
+    <div style={page}>
+      {/*
+        The accent column is NOT drawn here. It is declared as
+        `manifest.pageBleed` and painted by core at page level in both targets,
+        because it has to reach the paper edges and repeat on every page —
+        neither of which an element inside this markup can do. See `PageBleed`.
+      */}
       <div style={styles.sidebar}>
         <div style={styles.avatarWrap}>
           {resume.media.avatar ? (
@@ -102,7 +121,7 @@ export default function Modern({ resume, t, formatDate }: TemplateProps): JSX.El
             ? resume.skills.map((s) => (
                 <div key={s.id}>
                   <div style={styles.barLabel}>{s.name}</div>
-                  <div style={styles.barTrack}>
+                  <div style={barTrack}>
                     <div style={{ ...styles.barFill, width: `${Math.max(0, Math.min(100, s.level))}%` }} />
                   </div>
                 </div>
@@ -138,7 +157,7 @@ export default function Modern({ resume, t, formatDate }: TemplateProps): JSX.El
                     {dateRange(x, formatDate, FULL, t('common.present'))}
                   </div>
                   {x.description ? <div style={styles.entryDesc}>{x.description}</div> : null}
-                  <Bullets items={highlights(x.highlights)} />
+                  <Bullets items={highlights(x.highlights)} locale={resume.locale} />
                 </div>
               ))
             : null}
@@ -155,7 +174,7 @@ export default function Modern({ resume, t, formatDate }: TemplateProps): JSX.El
                     </a>
                   ) : null}
                   {p.description ? <div style={styles.entryDesc}>{p.description}</div> : null}
-                  <Bullets items={highlights(p.highlights)} />
+                  <Bullets items={highlights(p.highlights)} locale={resume.locale} />
                 </div>
               ))
             : null}

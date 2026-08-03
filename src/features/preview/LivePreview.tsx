@@ -22,7 +22,7 @@ export function LivePreview(): JSX.Element {
   const templateId = resume.templateId;
   // Page margins are metadata, not markup: the same numbers go to react-pdf's
   // `Page` on export, so preview and PDF keep the identical text area.
-  const pageMargin = getTemplate(templateId).manifest.pageMargin;
+  const { pageMargin, pageBleed } = getTemplate(templateId).manifest;
   const [Template, setTemplate] = useState<ResumeTemplate | null>(null);
 
   useEffect(() => {
@@ -43,6 +43,10 @@ export function LivePreview(): JSX.Element {
   return (
     <A4Frame
       pageMargin={pageMargin}
+      pageBleed={pageBleed}
+      // The CV's own language, not the UI's: it picks the font order and the
+      // writing direction of the sheet (see `A4Frame`).
+      locale={resume.locale}
       // Rendered by the FRAME, not by the template: every template — including
       // ones added later — then carries the credit without implementing it, and
       // it stays out of the `TemplateProps` contract (spec §7.1).

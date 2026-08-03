@@ -1,7 +1,7 @@
 /**
  * @vitest-environment node
  */
-import { Children, createElement, type ReactElement } from 'react';
+import { Children, createElement, type ReactElement, type ReactNode } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { beforeAll, describe, expect, it } from 'vitest';
 import * as ReactPdf from '@react-pdf/renderer';
@@ -13,6 +13,7 @@ import { buildResumeDocument, registerResumeFonts } from '../services/pdf';
 import { makeDateFormatter } from '../utils/date';
 import { i18n } from '../app/i18n';
 import { getTemplate, listTemplates } from './_core/registry';
+import { cvFontStack } from './_core/fonts';
 
 /**
  * REAL PDF render of every template (spec §7.1: "CI smoke-renders each template
@@ -26,6 +27,8 @@ import { getTemplate, listTemplates } from './_core/registry';
 
 /** A4 portrait height in points, as react-pdf lays it out. */
 const A4_HEIGHT = 841.89;
+/** A4 portrait width in points. */
+const A4_WIDTH = 595.28;
 /** The modern template's sidebar is 34% of the 595.28pt page width. */
 const SIDEBAR_WIDTH = 202.39;
 /** Relative to the project root — vitest's working directory. No node:path, so
@@ -56,6 +59,48 @@ function georgianResume(): Resume {
   r.contact = { email: 'nikoloz@example.ge', items: [] };
   r.summary = 'გამოცდილი დეველოპერი, რომელიც მუშაობს ვებტექნოლოგიებზე.';
   r.skills = [{ id: 's1', name: 'TypeScript', level: 90 }];
+  return r;
+}
+
+/**
+ * A CV in a CV language the app DOES export, but carrying Arabic text — an
+ * Arabic name, employer and summary. This is not a hypothetical: every one of
+ * those fields is free text, so Arabic reaches the exporter regardless of
+ * `Resume.locale` (which cannot be `ar` — see `LocaleMeta.cv`).
+ */
+function arabicTextResume(): Resume {
+  const r = createEmptyResume('en');
+  r.basics = { firstName: 'محمد', lastName: 'العلي', headline: 'مطور واجهات أمامية' };
+  r.contact = { email: 'mohammed@example.com', items: [] };
+  r.summary = 'مطور برمجيات يعمل على تقنيات الويب.';
+  r.skills = [{ id: 's1', name: 'TypeScript', level: 90 }];
+  return r;
+}
+
+/**
+ * A CV whose LANGUAGE is Arabic — `locale: 'ar'` — not merely one with some
+ * Arabic in a free-text field. That distinction is what these guard: the font
+ * order and the text direction are both chosen from `resume.locale`.
+ *
+ * Deliberately WITHOUT dated entries. A line that mixes Arabic with a date is
+ * the trigger for the engine crash pinned down in
+ * "still crashes the engine on mixed Arabic lines", and this fixture exists to
+ * measure fonts and geometry rather than to die before reaching them.
+ */
+function arabicResume(): Resume {
+  const r = createEmptyResume('ar');
+  r.basics = {
+    firstName: 'مرحبا',
+    lastName: 'باكو',
+    headline: 'مطور واجهات أمامية في باكو',
+    location: 'باكو',
+  };
+  r.contact = { email: 'mohammed@example.az', items: [] };
+  r.summary = 'خبرة ١٥ سنة في تطوير الويب';
+  r.skills = [
+    { id: 's1', name: 'السيرة الذاتية', level: 90 },
+    { id: 's2', name: 'مطور واجهات أمامية في باكو', level: 80 },
+  ];
   return r;
 }
 
@@ -115,6 +160,14 @@ async function renderPdfSource(
     ),
     attribution,
     pageMargin: entry.manifest.pageMargin,
+    // Passed for the same reason as `locale`: the accent column is the
+    // template's, but core paints it, so a test that omits it is testing a
+    // different document from the one the Download button builds.
+    pageBleed: entry.manifest.pageBleed,
+    // The CV language, exactly as `exportResumePdf` passes it: it selects the
+    // font ORDER and the text direction. Leaving it out would put these tests
+    // back on a different document from the one the app ships.
+    locale: resume.locale,
   });
   return pdf(document).toString();
 }
@@ -158,6 +211,8 @@ interface TextDraw {
   size: number;
   /** How many glyphs the run paints — a lone marker draws exactly one. */
   glyphs: number;
+  /** The PDF font resource the run is drawn with, e.g. `F7`. */
+  font: string;
 }
 
 /**
@@ -174,6 +229,7 @@ function textDraws(pdfSource: string): TextDraw[] {
   let ctm: Matrix = IDENTITY;
   let textMatrix: Matrix = IDENTITY;
   let size = 0;
+  let font = '';
 
   for (const raw of pdfSource.split(/\r?\n/)) {
     const line = raw.trim();
@@ -189,15 +245,18 @@ function textDraws(pdfSource: string): TextDraw[] {
     if (cm) ctm = concat(cm.slice(1).map(Number) as Matrix, ctm);
     const tm = line.match(new RegExp(`^${SIX_NUMBERS} Tm$`));
     if (tm) textMatrix = tm.slice(1).map(Number) as Matrix;
-    const tf = line.match(/^\/F\d+ ([\d.]+) Tf$/);
-    if (tf) size = Number(tf[1]);
+    const tf = line.match(/^\/(F\d+) ([\d.]+) Tf$/);
+    if (tf) {
+      font = tf[1];
+      size = Number(tf[2]);
+    }
     if (line.endsWith('TJ')) {
       const placed = concat(textMatrix, ctm);
       const glyphs = (line.match(/<[0-9a-f]+>/g) ?? []).reduce(
         (total, hex) => total + (hex.length - 2) / 4,
         0,
       );
-      draws.push({ x: placed[4], y: placed[5], size, glyphs });
+      draws.push({ x: placed[4], y: placed[5], size, glyphs, font });
     }
   }
   return draws;
@@ -267,6 +326,42 @@ describe('pdf export', () => {
       expect(source, 'fell back to Helvetica').not.toContain('Helvetica');
     }, 30_000);
   }
+
+  /**
+   * The Arabic half of the same stack. Arabic is not a CV language yet, but it
+   * is free-text input everywhere, so a name or an employer in Arabic has to
+   * come out of the exporter as letters rather than as blanks.
+   */
+  for (const { manifest } of listTemplates()) {
+    it(`embeds the Arabic font for Arabic text in "${manifest.id}"`, async () => {
+      const source = await renderPdfSource(manifest.id, arabicTextResume());
+      expect(source, 'the Arabic font was never used').toMatch(
+        /BaseFont \/[A-Z]{6}\+NotoSansArabic/,
+      );
+      expect(source, 'Latin text stopped using Inter').toMatch(/BaseFont \/[A-Z]{6}\+Inter/);
+      expect(source, 'fell back to Helvetica').not.toContain('Helvetica');
+    }, 30_000);
+  }
+
+  /**
+   * Arabic comes out JOINED, and it is `buildResumeDocument` that has to do it
+   * (`utils/arabic`) — react-pdf shapes a right-to-left line only after it has
+   * reordered it, so unshaped Arabic exports with the wrong contextual form on
+   * nearly every letter.
+   *
+   * `لا` is the sharpest probe: lam + alef is a MANDATORY ligature, one glyph in
+   * any correct Arabic rendering and two without shaping. Asserting it through
+   * the real document builder is what keeps the pre-shaping wired in — a test
+   * that rebuilt its own document could not catch its removal.
+   */
+  it('joins Arabic on the way into the PDF', async () => {
+    const html = `<div style="font-family: NotoSansArabic; font-size: 12pt">لا</div>`;
+    const source = await pdf(
+      buildResumeDocument(ReactPdf, Html, { html, attribution: false }),
+    ).toString();
+    const glyphs = textDraws(source).reduce((total, draw) => total + draw.glyphs, 0);
+    expect(glyphs, 'lam-alef was drawn as two letters — the text was not shaped').toBe(1);
+  }, 30_000);
 
   it('runs the modern accent sidebar to the bottom edge of the page', async () => {
     const source = await renderPdfSource('modern', sampleResume());
@@ -343,5 +438,241 @@ describe('pdf export', () => {
         Math.abs(width - SIDEBAR_WIDTH) < 1 && Math.abs(height - A4_HEIGHT) < 1,
     );
     expect(fullHeightSidebars).toHaveLength(pages);
+  }, 60_000);
+
+  /**
+   * THE RUN-FRAGMENTATION REGRESSION.
+   *
+   * All three registered faces contain the characters scripts SHARE — the space
+   * above all, plus digits and punctuation — so whichever family is named first
+   * wins them. Inter used to be pinned first for every CV, which meant every
+   * space inside a non-Latin line resolved to Inter; `fontSubstitution` splits a
+   * line at each change of font, so a measured line came out as ELEVEN runs
+   * across two fonts instead of five in one, and the runs either side of a space
+   * were emitted at the same x. That is what "the characters overlap and are
+   * shifted on top of each other" was.
+   *
+   * Measured on GEORGIAN rather than Arabic, deliberately. The mechanism is the
+   * shared space, so it is identical in either script — and an Arabic CV cannot
+   * be rendered by this engine at all (see "still crashes the engine on mixed
+   * Arabic lines"), so Georgian is the only place the fix is observable
+   * end-to-end. The Arabic side is covered by the two document-level tests below.
+   */
+  for (const { manifest } of listTemplates()) {
+    it(`draws a Georgian line in one font in "${manifest.id}"`, async () => {
+      const source = await renderPdfSource(manifest.id, georgianResume());
+      const byLine = new Map<string, TextDraw[]>();
+      for (const draw of textDraws(source)) {
+        const key = draw.y.toFixed(1);
+        byLine.set(key, [...(byLine.get(key) ?? []), draw]);
+      }
+      // The summary is the line worth checking: a short label may legitimately
+      // be a single run either way.
+      const busy = [...byLine.values()].filter((line) => line.length >= 3);
+      expect(busy.length, 'no multi-run lines found — fixture too small?').toBeGreaterThan(0);
+      for (const line of busy) {
+        const fonts = new Set(line.map((d) => d.font));
+        expect(
+          fonts.size,
+          `a line at y=${line[0].y.toFixed(1)} is split across fonts ${[...fonts].join(', ')} — ` +
+            "the CV language's own font is not first in the stack",
+        ).toBeLessThanOrEqual(2);
+      }
+    }, 30_000);
+  }
+
+  /**
+   * Right-to-left CVs are right-aligned, and `textAlign` is the way to do it:
+   * react-pdf inherits it (`BASE_INHERITABLE_PROPERTIES`) so it reaches every
+   * heading and paragraph from the page, and no shipped template pins
+   * `textAlign: 'left'` to override it. `direction` is NOT inheritable in
+   * react-pdf, so setting that on the page would reach nothing.
+   */
+  it('right-aligns a right-to-left CV and leaves the others alone', () => {
+    const page = (locale: Resume['locale']): Record<string, unknown> => {
+      const document = buildResumeDocument(ReactPdf, Html, {
+        html: '<div>x</div>',
+        attribution: false,
+        locale,
+      });
+      const pageElement = Children.toArray(
+        (document as ReactElement<{ children: ReactNode }>).props.children,
+      )[0] as ReactElement<{ style: Record<string, unknown> }>;
+      return pageElement.props.style;
+    };
+    expect(page('ar').textAlign).toBe('right');
+    for (const locale of ['az', 'en', 'ru', 'ka'] as const) {
+      expect(page(locale).textAlign, locale).toBeUndefined();
+    }
+  });
+
+  /**
+   * The font stack must arrive at the page ORDERED BY THE CV LANGUAGE, and as an
+   * array — `@react-pdf` reads a comma string as one family name and would look
+   * for a font literally called "NotoSansArabic, Inter, …".
+   */
+  it('hands the page the CV language\'s font stack as an array', () => {
+    const stackFor = (locale: Resume['locale']): unknown => {
+      const document = buildResumeDocument(ReactPdf, Html, {
+        html: '<div>x</div>',
+        attribution: false,
+        locale,
+      });
+      const pageElement = Children.toArray(
+        (document as ReactElement<{ children: ReactNode }>).props.children,
+      )[0] as ReactElement<{ style: Record<string, unknown> }>;
+      return pageElement.props.style.fontFamily;
+    };
+    expect(stackFor('ar')).toEqual(cvFontStack('ar'));
+    expect(Array.isArray(stackFor('ar'))).toBe(true);
+    expect((stackFor('ar') as string[])[0]).toBe('NotoSansArabic');
+    expect((stackFor('az') as string[])[0]).toBe('Inter');
+  });
+
+  /**
+   * And no template may take the font back. `fontFamily` is inheritable, so a
+   * template that pins its own on the root wins over the page and reintroduces
+   * the fragmentation for every language whose script is not Inter's.
+   */
+  it('has no template pinning its own font family', async () => {
+    for (const { manifest, load } of listTemplates()) {
+      const module = (await load()) as { styles?: Record<string, Record<string, unknown>> };
+      const styles = module.styles;
+      if (!styles) continue;
+      for (const [name, rule] of Object.entries(styles)) {
+        expect(
+          rule.fontFamily,
+          `"${manifest.id}" pins fontFamily on styles.${name} — core owns the stack ` +
+            '(see cvFontStack), because its ORDER depends on the CV language',
+        ).toBeUndefined();
+      }
+    }
+  }, 30_000);
+
+  /**
+   * ARABIC EXPORTS AT ALL — the regression this replaced was a hard failure.
+   *
+   * A line mixing Arabic with left-to-right content (a date, an e-mail, a URL)
+   * used to throw `Cannot read properties of undefined (reading 'id')` out of
+   * `@react-pdf/textkit`'s `reorderLine`, and every real Arabic CV has such a
+   * line: an experience entry puts the job title and its date range on one row.
+   * The user got no PDF and a generic error message.
+   *
+   * The cause is upstream and is fixed by `patches/@react-pdf+textkit+4.4.1.patch`
+   * — `reorderLine` resolves a glyph per CHARACTER through `glyphIndices`, which
+   * disagrees with the glyph count whenever shaping is not one-to-one (Arabic
+   * ligatures merge letters, mark decomposition splits them), and it read `.id`
+   * off the resulting `undefined`. The patch skips such a character instead.
+   *
+   * These tests are therefore also the guard on that patch: delete it, or let
+   * `npm ci` skip `postinstall`, and they fail here rather than in front of a user.
+   */
+  for (const { manifest } of listTemplates()) {
+    it(`exports a dated Arabic CV in "${manifest.id}"`, async () => {
+      const resume = arabicResume();
+      resume.experience = [
+        {
+          id: 'x1',
+          company: 'شركة سايبرنت',
+          position: 'مطور واجهات أمامية',
+          startDate: '2022-01-01',
+          current: true,
+          description: 'قيادة تطوير نظام الضرائب الحكومي.',
+        },
+      ];
+      resume.education = [
+        {
+          id: 'e1',
+          type: 'university',
+          institution: 'جامعة باكو الحكومية',
+          faculty: 'كلية الرياضيات التطبيقية',
+          specialization: 'علوم الحاسوب',
+          degree: 'magister',
+          startDate: '2009-09-01',
+          endDate: '2011-06-30',
+          current: false,
+        },
+      ];
+      const source = await renderPdfSource(manifest.id, resume);
+      expect(source).toContain('%PDF-');
+      // Both faces embedded: Arabic from Noto, the Latin e-mail from Inter. A
+      // Helvetica fallback would mean glyphs the exporter could not draw.
+      expect(source).toMatch(/BaseFont \/[A-Z]{6}\+NotoSansArabic/);
+      expect(source).not.toContain('Helvetica');
+    }, 30_000);
+  }
+
+  /**
+   * And the glyphs land somewhere sensible rather than on top of each other.
+   *
+   * Zero-advance non-joiners legitimately share an x with the run after them
+   * (`utils/arabic` inserts one at each `ال`), so a single-glyph run is not a
+   * collision — anything wider is.
+   */
+  it('paints no Arabic run on top of another', async () => {
+    const resume = arabicResume();
+    resume.experience = [
+      {
+        id: 'x1',
+        company: 'شركة سايبرنت',
+        position: 'مطور واجهات أمامية',
+        startDate: '2022-01-01',
+        current: true,
+      },
+    ];
+    const visible = textDraws(await renderPdfSource('classic', resume)).filter((d) => d.glyphs > 1);
+    expect(visible.length).toBeGreaterThan(0);
+    for (const [i, draw] of visible.entries()) {
+      const collision = visible
+        .slice(i + 1)
+        .find((o) => Math.abs(o.x - draw.x) < 0.5 && Math.abs(o.y - draw.y) < 0.5);
+      expect(
+        collision,
+        `two runs of ${draw.glyphs} and ${collision?.glyphs} glyphs are painted at ` +
+          `(${draw.x.toFixed(1)}, ${draw.y.toFixed(1)})`,
+      ).toBeUndefined();
+    }
+  }, 30_000);
+
+  /**
+   * ⚠️ NOTHING MAY BE PAINTED OVER THE ACCENT COLUMN.
+   *
+   * The column is core's, drawn as the page's FIRST child so everything else
+   * lands on top of it — which is exactly what makes it vulnerable: react-pdf
+   * paints in document order, so any later opaque box covering the same area
+   * hides it. The modern template used to set `backgroundColor: '#ffffff'` on its
+   * root, which covered the whole content area and left the column visible only
+   * in the 28pt page margins above and below. Because the sidebar's own text is
+   * white, the sidebar then read as a blank white block — reported as "the
+   * sidebar is half white and half blue".
+   *
+   * Geometry alone could not catch it: the column's rectangle was present and
+   * the full height of the page, and the earlier test asserting exactly that
+   * passed while the CV looked broken. So this asserts the PAINT ORDER instead —
+   * no filled rectangle after the column may overlap it.
+   */
+  it('paints nothing opaque over a template\'s accent column', async () => {
+    for (const { manifest } of listTemplates()) {
+      const bleed = manifest.pageBleed;
+      if (!bleed) continue;
+      const source = await renderPdfSource(manifest.id, sampleResume());
+      const rects = rectangles(source);
+      const columnWidth = A4_WIDTH * 0.34;
+      const index = rects.findIndex(([, , w, h]) => Math.abs(w - columnWidth) < 1 && h > A4_HEIGHT - 1);
+      expect(index, `"${manifest.id}" never painted its accent column`).toBeGreaterThanOrEqual(0);
+      const [cx, , cw] = rects[index];
+
+      for (const [x, , w, h] of rects.slice(index + 1)) {
+        const overlaps = x < cx + cw && x + w > cx;
+        // A box the size of the whole content area is the giveaway; a small one
+        // (the avatar) legitimately sits on top of the column.
+        const coversMostOfIt = overlaps && w > cw && h > A4_HEIGHT / 2;
+        expect(
+          coversMostOfIt,
+          `"${manifest.id}" paints a ${w.toFixed(0)}x${h.toFixed(0)} box over its accent column — ` +
+            'an opaque template background hides it (see modern/styles.ts)',
+        ).toBe(false);
+      }
+    }
   }, 60_000);
 });

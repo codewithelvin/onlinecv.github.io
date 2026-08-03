@@ -5,7 +5,8 @@
     "az": "Ərəb dili",
     "en": "Arabic language",
     "ru": "Арабский язык",
-    "ka": "არაბული ენა"
+    "ka": "არაბული ენა",
+    "ar": "العربية"
   },
   {
     "code": "azerbaijan",
@@ -13,7 +14,8 @@
     "az": "Azərbaycan dili",
     "en": "Azerbaijani language",
     "ru": "Азербайджанский язык",
-    "ka": "აზერბაიჯანული ენა"
+    "ka": "აზერბაიჯანული ენა",
+    "ar": "الأذربيجانية"
   },
   {
     "code": "chinese",
@@ -21,7 +23,8 @@
     "az": "Çin dili",
     "en": "Chinese language",
     "ru": "Китайский язык",
-    "ka": "ჩინური ენა"
+    "ka": "ჩინური ენა",
+    "ar": "الصينية"
   },
   {
     "code": "english",
@@ -29,7 +32,8 @@
     "az": "İngilis dili",
     "en": "English language",
     "ru": "Английский язык",
-    "ka": "ინგლისური ენა"
+    "ka": "ინგლისური ენა",
+    "ar": "الإنجليزية"
   },
   {
     "code": "french",
@@ -37,7 +41,8 @@
     "az": "Fransız dili",
     "en": "French language",
     "ru": "Французский язык",
-    "ka": "ფრანგული ენა"
+    "ka": "ფრანგული ენა",
+    "ar": "الفرنسية"
   },
   {
     "code": "georgian",
@@ -45,7 +50,8 @@
     "az": "Gürcü dili",
     "en": "Georgian language",
     "ru": "Грузинский язык",
-    "ka": "ქართული ენა"
+    "ka": "ქართული ენა",
+    "ar": "الجورجية"
   },
   {
     "code": "german",
@@ -53,7 +59,8 @@
     "az": "Alman dili",
     "en": "German language",
     "ru": "Немецкий язык",
-    "ka": "გერმანული ენა"
+    "ka": "გერმანული ენა",
+    "ar": "الألمانية"
   },
   {
     "code": "hebrew",
@@ -61,7 +68,8 @@
     "az": "İvrit dili",
     "en": "Hebrew",
     "ru": "Иврит",
-    "ka": "ივრითი"
+    "ka": "ივრითი",
+    "ar": "العبرية"
   },
   {
     "code": "hispanic",
@@ -69,7 +77,8 @@
     "az": "İspan dili",
     "en": "Spanish language",
     "ru": "Испанский язык",
-    "ka": "ესპანური ენა"
+    "ka": "ესპანური ენა",
+    "ar": "الإسبانية"
   },
   {
     "code": "italian",
@@ -77,7 +86,8 @@
     "az": "İtalyan dili",
     "en": "Italian language",
     "ru": "Итальянский язык",
-    "ka": "იტალიური ენა"
+    "ka": "იტალიური ენა",
+    "ar": "الإيطالية"
   },
   {
     "code": "japan",
@@ -85,7 +95,8 @@
     "az": "Yapon dili",
     "en": "Japanese language",
     "ru": "Японский язык",
-    "ka": "იაპონური ენა"
+    "ka": "იაპონური ენა",
+    "ar": "اليابانية"
   },
   {
     "code": "korean",
@@ -93,7 +104,8 @@
     "az": "Koreya dili",
     "en": "Korean language",
     "ru": "Корейский язык",
-    "ka": "კორეული ენა"
+    "ka": "კორეული ენა",
+    "ar": "الكورية"
   },
   {
     "code": "persian",
@@ -101,7 +113,8 @@
     "az": "Fars dili",
     "en": "Persian language",
     "ru": "Персидский язык",
-    "ka": "სპარსული ენა"
+    "ka": "სპარსული ენა",
+    "ar": "الفارسية"
   },
   {
     "code": "polish",
@@ -109,7 +122,8 @@
     "az": "Polyak dili",
     "en": "Polish language",
     "ru": "Польский язык",
-    "ka": "პოლონური ენა"
+    "ka": "პოლონური ენა",
+    "ar": "البولندية"
   },
   {
     "code": "romainan",
@@ -117,7 +131,8 @@
     "az": "Rumın dili",
     "en": "Romanian language",
     "ru": "Румынский язык",
-    "ka": "რუმინული ენა"
+    "ka": "რუმინული ენა",
+    "ar": "الرومانية"
   },
   {
     "code": "russian",
@@ -125,7 +140,8 @@
     "az": "Rus dili",
     "en": "Russian language",
     "ru": "Русский язык",
-    "ka": "რუსული ენა"
+    "ka": "რუსული ენა",
+    "ar": "الروسية"
   },
   {
     "code": "turkish",
@@ -133,7 +149,8 @@
     "az": "Türk dili",
     "en": "Turkish language",
     "ru": "Турецкий язык",
-    "ka": "თურქული ენა"
+    "ka": "თურქული ენა",
+    "ar": "التركية"
   },
   {
     "code": "ukrainian",
@@ -141,6 +158,7 @@
     "az": "Ukrayna dili",
     "en": "Ukrainian language",
     "ru": "Украинский язык",
-    "ka": "უკრაინული ენა"
+    "ka": "უკრაინული ენა",
+    "ar": "الأوكرانية"
   }
 ]

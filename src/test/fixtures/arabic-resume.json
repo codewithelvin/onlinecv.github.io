@@ -1,0 +1,152 @@
+{
+  "id": "default",
+  "updatedAt": "2026-08-02T00:00:00.000Z",
+  "locale": "ar",
+  "templateId": "classic",
+  "attribution": true,
+  "media": {},
+  "basics": {
+    "firstName": "محمد",
+    "lastName": "العلي",
+    "headline": "مطور واجهات أمامية",
+    "location": "باكو"
+  },
+  "generalInfo": {
+    "gender": "male",
+    "maritalStatus": "married",
+    "nationality": "azerbaijani",
+    "dateOfBirth": "1987-06-15",
+    "militaryStatus": "served",
+    "driverLicense": ["A", "B"]
+  },
+  "contact": {
+    "email": "mohammed@example.az",
+    "items": [
+      { "id": "c1", "type": "mobile", "value": "+994558043484" },
+      { "id": "c2", "type": "landline", "value": "+994124985225" },
+      { "id": "c3", "type": "linkedin", "value": "https://www.linkedin.com/in/mohammed/" },
+      { "id": "c4", "type": "github", "value": "https://github.com/mohammed" },
+      { "id": "c5", "type": "address", "value": "باكو، أذربيجان" }
+    ]
+  },
+  "summary": "مطور واجهات أمامية يمتلك خبرة واسعة في بناء واجهات مستخدم جاذبة ومتوافقة مع جميع الشاشات. متمكن من مجموعة من تقنيات الويب الحديثة، ويحرص على تقديم تطبيقات ويب أنيقة وسهلة الاستخدام لجميع المستخدمين.",
+  "experience": [
+    {
+      "id": "x1",
+      "company": "شركة سايبرنت",
+      "position": "مطور واجهات أمامية",
+      "employmentType": "fullTime",
+      "location": "باكو",
+      "startDate": "2022-01-01",
+      "endDate": "",
+      "current": true,
+      "description": "قيادة تطوير نظام الضرائب الحكومي. بناء تطبيقات مبتكرة بالاعتماد على ريأكت وريدكس مع فريق متعدد التخصصات.",
+      "highlights": [
+        "إعادة بناء بوابة المكلفين باستخدام ريأكت وريدكس",
+        "تقليل زمن الظهور الأول بنسبة أربعين بالمئة عبر تقسيم الحزم والتخزين المؤقت"
+      ]
+    },
+    {
+      "id": "x2",
+      "company": "بنك الجمهورية",
+      "position": "مطور ويب",
+      "employmentType": "fullTime",
+      "location": "باكو",
+      "startDate": "2019-03-01",
+      "endDate": "2021-12-31",
+      "current": false,
+      "description": "تطوير وصيانة بوابة الخدمات المصرفية للأفراد وتحسين أدائها.",
+      "highlights": ["توحيد مكونات الواجهة في مكتبة داخلية مشتركة"]
+    },
+    {
+      "id": "x3",
+      "company": "وكالة الإبداع الرقمي",
+      "position": "مصمم ومطور واجهات",
+      "employmentType": "partTime",
+      "location": "باكو",
+      "startDate": "2016-06-01",
+      "endDate": "2019-02-28",
+      "current": false,
+      "description": "تصميم وتنفيذ مواقع تعريفية للعملاء في قطاعات التجارة والتعليم."
+    }
+  ],
+  "education": [
+    {
+      "id": "e1",
+      "type": "university",
+      "institution": "جامعة باكو الحكومية",
+      "faculty": "كلية الرياضيات التطبيقية",
+      "specialization": "علوم الحاسوب",
+      "degree": "magister",
+      "startDate": "2009-09-01",
+      "endDate": "2011-06-30",
+      "current": false
+    },
+    {
+      "id": "e2",
+      "type": "university",
+      "institution": "جامعة الدولة النفطية",
+      "faculty": "كلية الهندسة",
+      "specialization": "هندسة البرمجيات",
+      "degree": "bachelor",
+      "startDate": "2005-09-01",
+      "endDate": "2009-06-30",
+      "current": false
+    },
+    {
+      "id": "e3",
+      "type": "school",
+      "institution": "المدرسة الثانوية رقم مئة وثمانية",
+      "startDate": "1994-09-01",
+      "endDate": "2005-06-30",
+      "current": false
+    }
+  ],
+  "skills": [
+    { "id": "s1", "code": "javascript", "name": "جافاسكريبت", "level": 90 },
+    { "id": "s2", "code": "reactjs", "name": "ريأكت", "level": 85 },
+    { "id": "s3", "name": "تايب سكريبت", "level": 80 },
+    { "id": "s4", "code": "html", "name": "إتش تي إم إل", "level": 95 },
+    { "id": "s5", "code": "css", "name": "سي إس إس", "level": 90 },
+    { "id": "s6", "name": "إدارة الوقت", "level": 75 },
+    { "id": "s7", "name": "العمل الجماعي", "level": 85 },
+    { "id": "s8", "name": "حل المشكلات", "level": 80 }
+  ],
+  "languages": [
+    { "id": "l1", "code": "arab", "name": "العربية", "level": "native" },
+    { "id": "l2", "code": "azerbaijani", "name": "الأذربيجانية", "level": "C1" },
+    { "id": "l3", "code": "english", "name": "الإنجليزية", "level": "B2" }
+  ],
+  "certifications": [
+    {
+      "id": "t1",
+      "name": "شهادة مطور ريأكت المعتمد",
+      "organization": "أكاديمية الويب الحديثة",
+      "issueDate": "2021-05-01",
+      "expirationDate": "",
+      "credentialId": "RD-2021-4417",
+      "credentialUrl": "https://example.com/cert/4417"
+    },
+    {
+      "id": "t2",
+      "name": "أساسيات تجربة المستخدم",
+      "organization": "معهد التصميم الرقمي",
+      "issueDate": "2018-11-01",
+      "expirationDate": ""
+    }
+  ],
+  "interests": [
+    { "id": "i1", "code": "reading", "name": "القراءة" },
+    { "id": "i2", "code": "travel", "name": "السفر" },
+    { "id": "i3", "name": "التصوير الفوتوغرافي" }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "name": "منصة السيرة الذاتية",
+      "description": "أداة تعمل في المتصفح لإنشاء سيرة ذاتية متوافقة مع أنظمة تتبع المتقدمين.",
+      "url": "https://onlinecv.az",
+      "highlights": ["تصدير ملف بي دي إف نصي بالكامل دون خادم"]
+    }
+  ]
+}

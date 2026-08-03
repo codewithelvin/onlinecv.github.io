@@ -6,8 +6,17 @@ import az from './az.json';
 import ru from './ru.json';
 import en from './en.json';
 import ka from './ka.json';
+import ar from './ar.json';
 import type { Locale } from '../../types/resume';
-import { DEFAULT_LOCALE, LOCALES, SUPPORTED_LOCALES, isLocale, toLocale } from './locales';
+import { pathForLocale } from '../seo-locales';
+import {
+  CV_LOCALES,
+  DEFAULT_LOCALE,
+  LOCALES,
+  SUPPORTED_LOCALES,
+  isLocale,
+  toLocale,
+} from './locales';
 
 /**
  * i18next bootstrap. The set of languages lives in `./locales` — this module
@@ -15,7 +24,7 @@ import { DEFAULT_LOCALE, LOCALES, SUPPORTED_LOCALES, isLocale, toLocale } from '
  * (one `import` + one `resources` entry); nothing else needs touching.
  */
 
-export { DEFAULT_LOCALE, LOCALES, SUPPORTED_LOCALES, isLocale, toLocale };
+export { CV_LOCALES, DEFAULT_LOCALE, LOCALES, SUPPORTED_LOCALES, isLocale, toLocale };
 export type { LocaleMeta, TextDirection } from './locales';
 
 void i18n.use(initReactI18next).init({
@@ -24,6 +33,7 @@ void i18n.use(initReactI18next).init({
     ru: { translation: ru },
     en: { translation: en },
     ka: { translation: ka },
+    ar: { translation: ar },
   },
   lng: DEFAULT_LOCALE,
   fallbackLng: DEFAULT_LOCALE,
@@ -43,6 +53,29 @@ export function applyLocale(locale: Locale): void {
     document.documentElement.setAttribute('lang', locale);
     document.documentElement.setAttribute('dir', LOCALES[locale].dir);
   }
+}
+
+/**
+ * Point the address bar at the current language, without navigating.
+ *
+ * Each language has its own indexable URL (`/ru/` — see `app/seo-locales`), so the
+ * language on screen has to be the one in the bar; otherwise a shared link hands
+ * the recipient a different language than the sender saw.
+ *
+ * `replaceState` rather than a real navigation: switching stays instant and the
+ * editor keeps its state, while the URL is still something a visitor can copy,
+ * bookmark or share. Crawlers never take this path — they fetch the static
+ * per-locale files the build emits.
+ *
+ * Lives here rather than beside the other URL helpers because it is the only one
+ * that touches the DOM, and that module is imported by the build-time page
+ * generator, which runs in Node.
+ */
+export function syncLocaleUrl(locale: Locale): void {
+  if (typeof window === 'undefined' || typeof window.history?.replaceState !== 'function') return;
+  const next = pathForLocale(window.location.pathname, locale);
+  if (next === window.location.pathname) return;
+  window.history.replaceState(null, '', `${next}${window.location.search}${window.location.hash}`);
 }
 
 /** The locale i18next is currently running in, normalized to a supported one. */

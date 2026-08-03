@@ -4,434 +4,558 @@
     "group": "universities",
     "az": "Bakı Dövlət Universiteti",
     "en": "Baku State University",
-    "ru": "Бакинский Государственный Университет"
+    "ru": "Бакинский Государственный Университет",
+    "ka": "ბაქოს სახელმწიფო უნივერსიტეტი",
+    "ar": "جامعة باكو الحكومية"
   },
   {
     "code": "bduq",
     "group": "universities",
     "az": "Bakı Dövlət Universiteti (Qazax filialı)",
     "en": "Baku State University (Qazakh branch)",
-    "ru": "Бакинский Государственный Университет (Газахский филиал)"
+    "ru": "Бакинский Государственный Университет (Газахский филиал)",
+    "ka": "ბაქოს სახელმწიფო უნივერსიტეტი (ყაზახის ფილიალი)",
+    "ar": "جامعة باكو الحكومية (فرع قازاخ)"
   },
   {
     "code": "adnsu",
     "group": "universities",
     "az": "Azərbaycan Dövlət Neft və Sənaye Universiteti",
     "en": "Azerbaijan State Oil and Industry University",
-    "ru": "Азербайджанский Государственный Университет Нефти и Промышленности"
+    "ru": "Азербайджанский Государственный Университет Нефти и Промышленности",
+    "ka": "აზერბაიჯანის სახელმწიფო ნავთობისა და მრეწველობის უნივერსიტეტი",
+    "ar": "جامعة أذربيجان الحكومية للنفط والصناعة"
   },
   {
     "code": "bma",
     "group": "universities",
     "az": "Bakı Musiqi Akademiyası",
     "en": "Baku Academy of Music",
-    "ru": "Бакинская Музыкальная Академия"
+    "ru": "Бакинская Музыкальная Академия",
+    "ka": "ბაქოს მუსიკის აკადემია",
+    "ar": "أكاديمية باكو للموسيقى"
   },
   {
     "code": "atu",
     "group": "universities",
     "az": "Azərbaycan Tibb Universiteti",
     "en": "Azerbaijan Medical University",
-    "ru": "Азербайджанский медицинский университет"
+    "ru": "Азербайджанский медицинский университет",
+    "ka": "აზერბაიჯანის სამედიცინო უნივერსიტეტი",
+    "ar": "جامعة أذربيجان الطبية"
   },
   {
     "code": "api",
     "group": "universities",
     "az": "Azərbaycan Dövlət Pedaqoji Universiteti",
     "en": "Azerbaijan State Pedagogical University",
-    "ru": "Азербайджанский Государственный Педагогический Университет"
+    "ru": "Азербайджанский Государственный Педагогический Университет",
+    "ka": "აზერბაიჯანის სახელმწიფო პედაგოგიური უნივერსიტეტი",
+    "ar": "جامعة أذربيجان الحكومية التربوية"
   },
   {
     "code": "apia",
     "group": "universities",
     "az": "Azərbaycan Dövlət Pedaqoji Universiteti (Ağcabədi filialı)",
     "en": "Azerbaijan State Pedagogical University (Aghjabedi branch)",
-    "ru": "Азербайджанский Государственный Педагогический Университет (Агджабединский филиал)"
+    "ru": "Азербайджанский Государственный Педагогический Университет (Агджабединский филиал)",
+    "ka": "აზერბაიჯანის სახელმწიფო პედაგოგიური უნივერსიტეტი (აღჯაბედის ფილიალი)",
+    "ar": "جامعة أذربيجان الحكومية التربوية (فرع أغجابيدي)"
   },
   {
     "code": "apis",
     "group": "universities",
     "az": "Azərbaycan Dövlət Pedaqoji Universiteti (Şəki filialı)",
     "en": "Azerbaijan State Pedagogical University (Sheki branch)",
-    "ru": "Азербайджанский Государственный Педагогический Университет (Шекинский филиал)"
+    "ru": "Азербайджанский Государственный Педагогический Университет (Шекинский филиал)",
+    "ka": "აზერბაიჯანის სახელმწიფო პედაგოგიური უნივერსიტეტი (შექის ფილიალი)",
+    "ar": "جامعة أذربيجان الحكومية التربوية (فرع شكي)"
   },
   {
     "code": "apic",
     "group": "universities",
     "az": "Azərbaycan Dövlət Pedaqoji Universiteti (Cəlilabad filialı)",
     "en": "Azerbaijan State Pedagogical University (Jalilabad branch)",
-    "ru": "Азербайджанский Государственный Педагогический Университет (Джалилабадский филиал)"
+    "ru": "Азербайджанский Государственный Педагогический Университет (Джалилабадский филиал)",
+    "ka": "აზერბაიჯანის სახელმწიფო პედაგოგიური უნივერსიტეტი (ჯალილაბადის ფილიალი)",
+    "ar": "جامعة أذربيجان الحكومية التربوية (فرع جليل آباد)"
   },
   {
     "code": "apiq",
     "group": "universities",
     "az": "Azərbaycan Dövlət Pedaqoji Universiteti (Quba filialı)",
     "en": "Azerbaijan State Pedagogical University (Guba branch)",
-    "ru": "Азербайджанский Государственный Педагогический Университет (Губинский филиал)"
+    "ru": "Азербайджанский Государственный Педагогический Университет (Губинский филиал)",
+    "ka": "აზერბაიჯანის სახელმწიფო პედაგოგიური უნივერსიტეტი (ყუბის ფილიალი)",
+    "ar": "جامعة أذربيجان الحكومية التربوية (فرع قوبا)"
   },
   {
     "code": "apish",
     "group": "universities",
     "az": "Azərbaycan Dövlət Pedaqoji Universiteti (Şamaxı filialı)",
     "en": "Azerbaijan State Pedagogical University (Shamakhi branch)",
-    "ru": "Азербайджанский Государственный Педагогический Университет (Шамахинский филиал)"
+    "ru": "Азербайджанский Государственный Педагогический Университет (Шамахинский филиал)",
+    "ka": "აზერბაიჯანის სახელმწიფო პედაგოგიური უნივერსიტეტი (შამახის ფილიალი)",
+    "ar": "جامعة أذربيجان الحكومية التربوية (فرع شماخي)"
   },
   {
     "code": "amiu",
     "group": "universities",
     "az": "Azərbaycan Dövlət Mədəniyyət və İncəsənət Universiteti",
     "en": "Azerbaijan State University of Culture and Arts",
-    "ru": "Азербайджанский Государственный Университет Культуры и Искусств"
+    "ru": "Азербайджанский Государственный Университет Культуры и Искусств",
+    "ka": "აზერბაიჯანის სახელმწიფო კულტურისა და ხელოვნების უნივერსიტეტი",
+    "ar": "جامعة أذربيجان الحكومية للثقافة والفنون"
   },
   {
     "code": "adau",
     "group": "universities",
     "az": "Azərbaycan Dövlət Aqrar Universiteti",
     "en": "Azerbaijan State Agrarian University",
-    "ru": "Азербайджанский Государственный Аграрный Университет"
+    "ru": "Азербайджанский Государственный Аграрный Университет",
+    "ka": "აზერბაიჯანის სახელმწიფო აგრარული უნივერსიტეტი",
+    "ar": "جامعة أذربيجان الحكومية الزراعية"
   },
   {
     "code": "adiu",
     "group": "universities",
     "az": "Azərbaycan Dövlət İqtisad Universiteti",
     "en": "Azerbaijan State Economic University",
-    "ru": "Азербайджанский Государственный Экономический Университет"
+    "ru": "Азербайджанский Государственный Экономический Университет",
+    "ka": "აზერბაიჯანის სახელმწიფო ეკონომიკური უნივერსიტეტი",
+    "ar": "جامعة أذربيجان الحكومية الاقتصادية"
   },
   {
     "code": "adiuz",
     "group": "universities",
     "az": "Azərbaycan Dövlət İqtisad Universiteti (Zaqatala filialı)",
     "en": "Azerbaijan State Economic University (Zagatala branch)",
-    "ru": "Азербайджанский Государственный Экономический Университет (Закатальский филиал)"
+    "ru": "Азербайджанский Государственный Экономический Университет (Закатальский филиал)",
+    "ka": "აზერბაიჯანის სახელმწიფო ეკონომიკური უნივერსიტეტი (ზაქათალის ფილიალი)",
+    "ar": "جامعة أذربيجان الحكومية الاقتصادية (فرع زاقاتالا)"
   },
   {
     "code": "adiud",
     "group": "universities",
     "az": "Azərbaycan Dövlət İqtisad Universiteti (Dərbənd filialı)",
     "en": "Azerbaijan State Economic University (Darband branch)",
-    "ru": "Азербайджанский Государственный Экономический Университет (Дарбандский филиал)"
+    "ru": "Азербайджанский Государственный Экономический Университет (Дарбандский филиал)",
+    "ka": "აზერბაიჯანის სახელმწიფო ეკონომიკური უნივერსიტეტი (დარბანდის ფილიალი)",
+    "ar": "جامعة أذربيجان الحكومية الاقتصادية (فرع دربند)"
   },
   {
     "code": "adbta",
     "group": "universities",
     "az": "Azərbaycan Dövlət Bədən Tərbiyəsi və İdman Akademiyası",
     "en": "Azerbaijan state physical culture and sports academy",
-    "ru": "Азербайджанская государственная академия физической культуры и спорта"
+    "ru": "Азербайджанская государственная академия физической культуры и спорта",
+    "ka": "აზერბაიჯანის სახელმწიფო ფიზიკური კულტურისა და სპორტის აკადემია",
+    "ar": "أكاديمية أذربيجان الحكومية للتربية البدنية والرياضة"
   },
   {
     "code": "gdu",
     "group": "universities",
     "az": "Gəncə Dövlət Universiteti",
     "en": "Ganja State University",
-    "ru": "Гянджинский государственный университет"
+    "ru": "Гянджинский государственный университет",
+    "ka": "განჯის სახელმწიფო უნივერსიტეტი",
+    "ar": "جامعة كنجة الحكومية"
   },
   {
     "code": "bsu",
     "group": "universities",
     "az": "Bakı Slavyan Universiteti",
     "en": "Baku Slavic University",
-    "ru": "Бакинский Славянский Университет"
+    "ru": "Бакинский Славянский Университет",
+    "ka": "ბაქოს სლავური უნივერსიტეტი",
+    "ar": "جامعة باكو السلافية"
   },
   {
     "code": "aztechu",
     "group": "universities",
     "az": "Azərbaycan Texniki Universiteti",
     "en": "Azerbaijan Technical University",
-    "ru": "Азербайджанский Технический Университет"
+    "ru": "Азербайджанский Технический Университет",
+    "ka": "აზერბაიჯანის ტექნიკური უნივერსიტეტი",
+    "ar": "جامعة أذربيجان التقنية"
   },
   {
     "code": "sdu",
     "group": "universities",
     "az": "Sumqayıt Dövlət Universiteti",
     "en": "Sumgait State University",
-    "ru": "Сумгаитский государственный университет"
+    "ru": "Сумгаитский государственный университет",
+    "ka": "სუმგაითის სახელმწიფო უნივერსიტეტი",
+    "ar": "جامعة سومقاييت الحكومية"
   },
   {
     "code": "ndu",
     "group": "universities",
     "az": "Naxçıvan Dövlət Universiteti",
     "en": "Nakhchivan State University",
-    "ru": "Нахчыванский государственный университет"
+    "ru": "Нахчыванский государственный университет",
+    "ka": "ნახჩივანის სახელმწიფო უნივერსიტეტი",
+    "ar": "جامعة ناختشيفان الحكومية"
   },
   {
     "code": "adu",
     "group": "universities",
     "az": "Azərbaycan Dillər Universiteti",
     "en": "Azerbaijan University of Languages",
-    "ru": "Азербайджанский Университет Языков"
+    "ru": "Азербайджанский Университет Языков",
+    "ka": "აზერბაიჯანის ენების უნივერსიტეტი",
+    "ar": "جامعة أذربيجان للغات"
   },
   {
     "code": "amemiu",
     "group": "universities",
     "az": "Azərbaycan Memarlıq və İnşaat Universiteti",
     "en": "Azerbaijan University of Architecture and Construction",
-    "ru": "Азербайджанский университет архитектуры и строительства"
+    "ru": "Азербайджанский университет архитектуры и строительства",
+    "ka": "აზერბაიჯანის არქიტექტურისა და მშენებლობის უნივერსიტეტი",
+    "ar": "جامعة أذربيجان للهندسة المعمارية والتشييد"
   },
   {
     "code": "aztexnu",
     "group": "universities",
     "az": "Azərbaycan Texnologiya Universiteti",
     "en": "Azerbaijan technology university",
-    "ru": "Азербайджанский технологический университет"
+    "ru": "Азербайджанский технологический университет",
+    "ka": "აზერბაიჯანის ტექნოლოგიების უნივერსიტეტი",
+    "ar": "جامعة أذربيجان للتكنولوجيا"
   },
   {
     "code": "ldu",
     "group": "universities",
     "az": "Lənkəran Dövlət Universiteti",
     "en": "Lankaran State University",
-    "ru": "Ленкоранский государственный университет"
+    "ru": "Ленкоранский государственный университет",
+    "ka": "ლენქორანის სახელმწიფო უნივერსიტეტი",
+    "ar": "جامعة لنكران الحكومية"
   },
   {
     "code": "maa",
     "group": "universities",
     "az": "Milli Aviasiya Akademiyası",
     "en": "National Aviation Academy",
-    "ru": "Национальная авиационная академия"
+    "ru": "Национальная авиационная академия",
+    "ka": "ეროვნული საავიაციო აკადემია",
+    "ar": "أكاديمية الطيران الوطنية"
   },
   {
     "code": "adda",
     "group": "universities",
     "az": "Azərbaycan Dövlət Dəniz Akademiyası",
     "en": "Azerbaijan State Maritime Academy",
-    "ru": "Азербайджанская Государственная Морская Академия"
+    "ru": "Азербайджанская Государственная Морская Академия",
+    "ka": "აზერბაიჯანის სახელმწიფო საზღვაო აკადემია",
+    "ar": "أكاديمية أذربيجان الحكومية البحرية"
   },
   {
     "code": "apdia",
     "group": "universities",
     "az": "Azərbaycan Respublikası Prezidenti yanında Dövlət İdarəçilik Akademiyası",
     "en": "Academy of Public Administration under the President of the Republic of Azerbaijan",
-    "ru": "Академия государственного управления при Президенте Азербайджанской Республики"
+    "ru": "Академия государственного управления при Президенте Азербайджанской Республики",
+    "ka": "აზერბაიჯანის რესპუბლიკის პრეზიდენტთან არსებული საჯარო მმართველობის აკადემია",
+    "ar": "أكاديمية الإدارة العامة لدى رئيس جمهورية أذربيجان"
   },
   {
     "code": "adra",
     "group": "universities",
     "az": "Azərbaycan Dövlət Rəssamlıq Akademiyası",
     "en": "Azerbaijan State Academy of Artist",
-    "ru": "Азербайджанская Государственная Академия Художников"
+    "ru": "Азербайджанская Государственная Академия Художников",
+    "ka": "აზერბაიჯანის სახელმწიფო სახვითი ხელოვნების აკადემია",
+    "ar": "أكاديمية أذربيجان الحكومية للفنون التشكيلية"
   },
   {
     "code": "azmik",
     "group": "universities",
     "az": "Azərbaycan Milli Konservatoriyası",
     "en": "Azerbaijan National Conservatory",
-    "ru": "Азербайджанская национальная консерватория"
+    "ru": "Азербайджанская национальная консерватория",
+    "ka": "აზერბაიჯანის ნაციონალური კონსერვატორია",
+    "ar": "معهد أذربيجان الوطني للموسيقى"
   },
   {
     "code": "nmi",
     "group": "universities",
     "az": "Naxçıvan Müəllimlər İnstitutu",
     "en": "Nakhchivan Institute of Teachers",
-    "ru": "Нахчыванский институт учителей"
+    "ru": "Нахчыванский институт учителей",
+    "ka": "ნახჩივანის მასწავლებელთა ინსტიტუტი",
+    "ar": "معهد ناختشيفان للمعلمين"
   },
   {
     "code": "ada",
     "group": "universities",
     "az": "ADA Universiteti",
     "en": "ADA University",
-    "ru": "Университет АДА"
+    "ru": "Университет АДА",
+    "ka": "ADA უნივერსიტეტი",
+    "ar": "جامعة أدا"
   },
   {
     "code": "atmu",
     "group": "universities",
     "az": "Azərbaycan Turizm və Menecment Universiteti",
     "en": "Azerbaijan Tourism and Management University",
-    "ru": "Азербайджанский Университет Туризма и Менеджмента"
+    "ru": "Азербайджанский Университет Туризма и Менеджмента",
+    "ka": "აზერბაიჯანის ტურიზმისა და მენეჯმენტის უნივერსიტეტი",
+    "ar": "جامعة أذربيجان للسياحة والإدارة"
   },
   {
     "code": "msub",
     "group": "universities",
     "az": "M.V.Lomonosov adına Moskva Dövlət Universitetinin Bakı filialı",
     "en": "Baku branch of Moscow State University named after M.V. Lomonosov",
-    "ru": "Бакинский филиал Московского государственного университета имени М.В.Ломоносова"
+    "ru": "Бакинский филиал Московского государственного университета имени М.В.Ломоносова",
+    "ka": "მ. ვ. ლომონოსოვის სახელობის მოსკოვის სახელმწიფო უნივერსიტეტის ბაქოს ფილიალი",
+    "ar": "فرع باكو لجامعة موسكو الحكومية التي تحمل اسم م. ف. لومونوسوف"
   },
   {
     "code": "banm",
     "group": "universities",
     "az": "Bakı Ali Neft Məktəbi",
     "en": "Baku High Oil School",
-    "ru": "Бакинская Высшая Школа Нефти"
+    "ru": "Бакинская Высшая Школа Нефти",
+    "ka": "ბაქოს უმაღლესი ნავთობის სკოლა",
+    "ar": "مدرسة باكو العليا للنفط"
   },
   {
     "code": "bxo",
     "group": "universities",
     "az": "Bakı Xoreoqrafiya Akademiyası",
     "en": "Baku Academy of Choreography",
-    "ru": "Бакинская академия хореографии"
+    "ru": "Бакинская академия хореографии",
+    "ka": "ბაქოს ქორეოგრაფიის აკადემია",
+    "ar": "أكاديمية باكو للرقص"
   },
   {
     "code": "mdu",
     "group": "universities",
     "az": "Mingəçevir Dövlət Universiteti",
     "en": "Mingachevir State University",
-    "ru": "Мингячевирский государственный университет"
+    "ru": "Мингячевирский государственный университет",
+    "ka": "მინგეჩევირის სახელმწიფო უნივერსიტეტი",
+    "ar": "جامعة مينغاتشيفير الحكومية"
   },
   {
     "code": "bmu",
     "group": "universities",
     "az": "Bakı Mühəndislik Universiteti",
     "en": "Baku Engineering University",
-    "ru": "Бакинский Инженерный Университет"
+    "ru": "Бакинский Инженерный Университет",
+    "ka": "ბაქოს საინჟინრო უნივერსიტეტი",
+    "ar": "جامعة باكو الهندسية"
   },
   {
     "code": "mdtub",
     "group": "universities",
     "az": "İ.M.Seçenov adına Birinci Moskva Dövlət Tibb Universitetinin Bakı filialı",
     "en": "Baku branch of the First Moscow State Medical University named after I.M. Sechenov",
-    "ru": "Бакинский филиал Первого Московского государственного медицинского университета имени И.М.Сеченова"
+    "ru": "Бакинский филиал Первого Московского государственного медицинского университета имени И.М.Сеченова",
+    "ka": "ი. მ. სეჩენოვის სახელობის მოსკოვის პირველი სახელმწიფო სამედიცინო უნივერსიტეტის ბაქოს ფილიალი",
+    "ar": "فرع باكو لجامعة موسكو الحكومية الطبية الأولى التي تحمل اسم إ. م. سيتشينوف"
   },
   {
     "code": "aii",
     "group": "universities",
     "az": "Azərbaycan İlahiyyat İnstitutu",
     "en": "Azerbaijan Institute of Theology",
-    "ru": "Азербайджанский институт теологии"
+    "ru": "Азербайджанский институт теологии",
+    "ka": "აზერბაიჯანის თეოლოგიის ინსტიტუტი",
+    "ar": "معهد أذربيجان للاهوت"
   },
   {
     "code": "dinpa",
     "group": "universities",
     "az": "Azərbaycan Respublikası Daxili İşlər Nazirliyi Polis Akademiyası",
     "en": "Police Academy of the Ministry of Internal Affairs of the Republic of Azerbaijan",
-    "ru": "Полицейская академия Министерства внутренних дел Азербайджанской Республики"
+    "ru": "Полицейская академия Министерства внутренних дел Азербайджанской Республики",
+    "ka": "აზერბაიჯანის რესპუბლიკის შინაგან საქმეთა სამინისტროს პოლიციის აკადემია",
+    "ar": "أكاديمية الشرطة بوزارة الداخلية في جمهورية أذربيجان"
   },
   {
     "code": "dtxa",
     "group": "universities",
     "az": "Azərbaycan Respublikası Dövlət Təhlükəsizliyi Xidmətinin Heydər Əliyev adına Akademiyası",
     "en": "Heydar Aliyev Academy of the State Security Service of the Republic of Azerbaijan",
-    "ru": "Академия Гейдара Алиева Службы Государственной Безопасности Азербайджанской Республики"
+    "ru": "Академия Гейдара Алиева Службы Государственной Безопасности Азербайджанской Республики",
+    "ka": "აზერბაიჯანის რესპუბლიკის სახელმწიფო უშიშროების სამსახურის ჰეიდარ ალიევის სახელობის აკადემია",
+    "ar": "أكاديمية حيدر علييف لدائرة أمن الدولة في جمهورية أذربيجان"
   },
   {
     "code": "fhna",
     "group": "universities",
     "az": "Azərbaycan Respublikası Fövqəladə Hallar Nazirliyinin Akademiyası",
     "en": "Academy of the Ministry of Emergency Situations of the Republic of Azerbaijan",
-    "ru": "Академия МЧС Азербайджанской Республики"
+    "ru": "Академия МЧС Азербайджанской Республики",
+    "ka": "აზერბაიჯანის რესპუბლიკის საგანგებო სიტუაციების სამინისტროს აკადემია",
+    "ar": "أكاديمية وزارة الطوارئ في جمهورية أذربيجان"
   },
   {
     "code": "dgka",
     "group": "universities",
     "az": "Azərbaycan Respublikası Dövlət Gömrük Komitəsinin Akademiyası",
     "en": "Academy of the State Customs Committee of the Republic of Azerbaijan",
-    "ru": "Академия Государственного Таможенного Комитета Азербайджанской Республики"
+    "ru": "Академия Государственного Таможенного Комитета Азербайджанской Республики",
+    "ka": "აზერბაიჯანის რესპუბლიკის სახელმწიფო საბაჟო კომიტეტის აკადემია",
+    "ar": "أكاديمية لجنة الجمارك الحكومية في جمهورية أذربيجان"
   },
   {
     "code": "mmu",
     "group": "universities",
     "az": "Milli Müdafiə Universiteti (Azərbaycan)",
     "en": "National Defense University (Azerbaijan)",
-    "ru": "Университет национальной обороны (Азербайджан)"
+    "ru": "Университет национальной обороны (Азербайджан)",
+    "ka": "ეროვნული თავდაცვის უნივერსიტეტი (აზერბაიჯანი)",
+    "ar": "جامعة الدفاع الوطني (أذربيجان)"
   },
   {
     "code": "haahi",
     "group": "universities",
     "az": "Heydər Əliyev adına Hərbi İnstitut",
     "en": "Military Institute named after Heydar Aliyev",
-    "ru": "Военный институт имени Гейдара Алиева"
+    "ru": "Военный институт имени Гейдара Алиева",
+    "ka": "ჰეიდარ ალიევის სახელობის სამხედრო ინსტიტუტი",
+    "ar": "المعهد العسكري الذي يحمل اسم حيدر علييف"
   },
   {
     "code": "sqha",
     "group": "universities",
     "az": "Azərbaycan Respublikası Silahlı Qüvvələrinin Hərbi Akademiyası",
     "en": "Military Academy of the Armed Forces of the Republic of Azerbaijan",
-    "ru": "Военная академия Вооруженных Сил Азербайджанской Республики"
+    "ru": "Военная академия Вооруженных Сил Азербайджанской Республики",
+    "ka": "აზერბაიჯანის რესპუბლიკის შეიარაღებული ძალების სამხედრო აკადემია",
+    "ar": "الأكاديمية العسكرية للقوات المسلحة في جمهورية أذربيجان"
   },
   {
     "code": "dsxa",
     "group": "universities",
     "az": "Azərbaycan Respublikası Dövlət Sərhəd Xidməti Akademiyası",
     "en": "State Border Service Academy of the Republic of Azerbaijan",
-    "ru": "Академия Государственной пограничной службы Азербайджанской Республики"
+    "ru": "Академия Государственной пограничной службы Азербайджанской Республики",
+    "ka": "აზერბაიჯანის რესპუბლიკის სასაზღვრო სამსახურის აკადემია",
+    "ar": "أكاديمية دائرة الحدود الحكومية في جمهورية أذربيجان"
   },
   {
     "code": "dqahm",
     "group": "universities",
     "az": "Azərbaycan Respublikası Daxili Qoşunların Ali Hərbi Məktəbi",
     "en": "Higher Military School of Internal Troops of the Republic of Azerbaijan",
-    "ru": "Высшее военное училище внутренних войск Азербайджанской Республики"
+    "ru": "Высшее военное училище внутренних войск Азербайджанской Республики",
+    "ka": "აზერბაიჯანის რესპუბლიკის შინაგანი ჯარების უმაღლესი სამხედრო სასწავლებელი",
+    "ar": "المدرسة العسكرية العليا للقوات الداخلية في جمهورية أذربيجان"
   },
   {
     "code": "qku",
     "group": "universities",
     "az": "Qərbi Kaspi Universiteti",
     "en": "Western Caspian University",
-    "ru": "Западно-Каспийский университет"
+    "ru": "Западно-Каспийский университет",
+    "ka": "დასავლეთ კასპიის უნივერსიტეტი",
+    "ar": "جامعة غرب بحر قزوين"
   },
   {
     "code": "azu",
     "group": "universities",
     "az": "Azərbaycan Universiteti",
     "en": "Azerbaijan University",
-    "ru": "Азербайджанский университет"
+    "ru": "Азербайджанский университет",
+    "ka": "აზერბაიჯანის უნივერსიტეტი",
+    "ar": "جامعة أذربيجان"
   },
   {
     "code": "khu",
     "group": "universities",
     "az": "Xəzər Universiteti",
     "en": "Khazar University",
-    "ru": "Хазарский университет"
+    "ru": "Хазарский университет",
+    "ka": "ხაზარის უნივერსიტეტი",
+    "ar": "جامعة خزر"
   },
   {
     "code": "bbu",
     "group": "universities",
     "az": "Bakı Biznes Universiteti",
     "en": "Baku Business University",
-    "ru": "Бакинский Университет Бизнеса"
+    "ru": "Бакинский Университет Бизнеса",
+    "ka": "ბაქოს ბიზნესის უნივერსიტეტი",
+    "ar": "جامعة باكو للأعمال"
   },
   {
     "code": "baau",
     "group": "universities",
     "az": "Bakı Avrasiya Universiteti",
     "en": "Baku Eurasian University",
-    "ru": "Бакинский Евразийский Университет"
+    "ru": "Бакинский Евразийский Университет",
+    "ka": "ბაქოს ევრაზიული უნივერსიტეტი",
+    "ar": "جامعة باكو الأوراسية"
   },
   {
     "code": "bqzu",
     "group": "universities",
     "az": "Bakı Qızlar Universiteti",
     "en": "Baku Girls University",
-    "ru": "Бакинский университет для девушек"
+    "ru": "Бакинский университет для девушек",
+    "ka": "ბაქოს ქალთა უნივერსიტეტი",
+    "ar": "جامعة باكو للبنات"
   },
   {
     "code": "bku",
     "group": "universities",
     "az": "Azərbaycan Kooperasiya Universiteti",
     "en": "Azerbaijan Cooperation University",
-    "ru": "Азербайджанский университет кооперации"
+    "ru": "Азербайджанский университет кооперации",
+    "ka": "აზერბაიჯანის კოოპერაციის უნივერსიტეტი",
+    "ar": "جامعة أذربيجان للتعاون"
   },
   {
     "code": "oyu",
     "group": "universities",
     "az": "Odlar Yurdu Universiteti",
     "en": "Odlar Yurdu University",
-    "ru": "Университет Одлар Юрду"
+    "ru": "Университет Одлар Юрду",
+    "ka": "ოდლარ იურდუს უნივერსიტეტი",
+    "ar": "جامعة أودلار يوردو"
   },
   {
     "code": "tfku",
     "group": "universities",
     "az": "Təfəkkür Universiteti",
     "en": "Tafakkur University",
-    "ru": "Университет Тафаккюр"
+    "ru": "Университет Тафаккюр",
+    "ka": "თაფაქქურის უნივერსიტეტი",
+    "ar": "جامعة تفكر"
   },
   {
     "code": "nuu",
     "group": "universities",
     "az": "\"Naxçıvan\" Universiteti",
     "en": "\"Nakhchivan\" University",
-    "ru": "Университет \"Нахчыван\""
+    "ru": "Университет \"Нахчыван\"",
+    "ka": "„ნახჩივანის“ უნივერსიტეტი",
+    "ar": "جامعة «ناختشيفان»"
   },
   {
     "code": "aesma",
     "group": "universities",
     "az": "Azərbaycan Əmək və Sosial Münasibətlər Akademiyası",
     "en": "Azerbaijan Academy of Labor and Social Relations",
-    "ru": "Азербайджанская Академия Труда и Социальных Отношений"
+    "ru": "Азербайджанская Академия Труда и Социальных Отношений",
+    "ka": "აზერბაიჯანის შრომისა და სოციალურ ურთიერთობათა აკადემია",
+    "ar": "أكاديمية أذربيجان للعمل والعلاقات الاجتماعية"
   },
   {
     "code": "karabakh",
     "group": "universities",
     "az": "Qarabağ Universiteti",
     "en": "Karabakh University",
-    "ru": "Университет Карабах"
+    "ru": "Университет Карабах",
+    "ka": "ყარაბაღის უნივერსიტეტი",
+    "ar": "جامعة كاراباخ"
   },
   {
     "code": "ge_tsu",
@@ -439,7 +563,8 @@
     "az": "Tbilisi Dövlət Universiteti (İvane Cavaxişvili adına)",
     "en": "Ivane Javakhishvili Tbilisi State University",
     "ru": "Тбилисский государственный университет им. Иванэ Джавахишвили",
-    "ka": "ივანე ჯავახიშვილის სახელობის თბილისის სახელმწიფო უნივერსიტეტი"
+    "ka": "ივანე ჯავახიშვილის სახელობის თბილისის სახელმწიფო უნივერსიტეტი",
+    "ar": "جامعة تبليسي الحكومية إيفانه جافاخيشفيلي"
   },
   {
     "code": "ge_gtu",
@@ -447,7 +572,8 @@
     "az": "Gürcüstan Texniki Universiteti",
     "en": "Georgian Technical University",
     "ru": "Грузинский технический университет",
-    "ka": "საქართველოს ტექნიკური უნივერსიტეტი"
+    "ka": "საქართველოს ტექნიკური უნივერსიტეტი",
+    "ar": "الجامعة التقنية الجورجية"
   },
   {
     "code": "ge_isu",
@@ -455,7 +581,8 @@
     "az": "İlia Dövlət Universiteti",
     "en": "Ilia State University",
     "ru": "Государственный университет Ильи Чавчавадзе",
-    "ka": "ილიას სახელმწიფო უნივერსიტეტი"
+    "ka": "ილიას სახელმწიფო უნივერსიტეტი",
+    "ar": "جامعة إيليا الحكومية"
   },
   {
     "code": "ge_tsmu",
@@ -463,7 +590,8 @@
     "az": "Tbilisi Dövlət Tibb Universiteti",
     "en": "Tbilisi State Medical University",
     "ru": "Тбилисский государственный медицинский университет",
-    "ka": "თბილისის სახელმწიფო სამედიცინო უნივერსიტეტი"
+    "ka": "თბილისის სახელმწიფო სამედიცინო უნივერსიტეტი",
+    "ar": "جامعة تبليسي الحكومية الطبية"
   },
   {
     "code": "ge_freeuni",
@@ -471,7 +599,8 @@
     "az": "Tbilisi Azad Universiteti",
     "en": "Free University of Tbilisi",
     "ru": "Свободный университет Тбилиси",
-    "ka": "თბილისის თავისუფალი უნივერსიტეტი"
+    "ka": "თბილისის თავისუფალი უნივერსიტეტი",
+    "ar": "الجامعة الحرة في تبليسي"
   },
   {
     "code": "ge_caucasus",
@@ -479,7 +608,8 @@
     "az": "Qafqaz Universiteti (Tbilisi)",
     "en": "Caucasus University",
     "ru": "Кавказский университет",
-    "ka": "კავკასიის უნივერსიტეტი"
+    "ka": "კავკასიის უნივერსიტეტი",
+    "ar": "جامعة القوقاز"
   },
   {
     "code": "ge_bsu",
@@ -487,7 +617,8 @@
     "az": "Batumi Şota Rustaveli Dövlət Universiteti",
     "en": "Batumi Shota Rustaveli State University",
     "ru": "Батумский государственный университет им. Шота Руставели",
-    "ka": "ბათუმის შოთა რუსთაველის სახელმწიფო უნივერსიტეტი"
+    "ka": "ბათუმის შოთა რუსთაველის სახელმწიფო უნივერსიტეტი",
+    "ar": "جامعة باتومي الحكومية شوتا روستافيلي"
   },
   {
     "code": "ge_atsu",
@@ -495,7 +626,8 @@
     "az": "Akaki Sereteli Dövlət Universiteti (Kutaisi)",
     "en": "Akaki Tsereteli State University",
     "ru": "Государственный университет Акакия Церетели",
-    "ka": "აკაკი წერეთლის სახელმწიფო უნივერსიტეტი"
+    "ka": "აკაკი წერეთლის სახელმწიფო უნივერსიტეტი",
+    "ar": "جامعة أكاكي تسيريتيلي الحكومية"
   },
   {
     "code": "ru_msu",
@@ -503,7 +635,8 @@
     "az": "M. V. Lomonosov adına Moskva Dövlət Universiteti",
     "en": "Lomonosov Moscow State University",
     "ru": "Московский государственный университет им. М. В. Ломоносова",
-    "ka": "ლომონოსოვის სახელობის მოსკოვის სახელმწიფო უნივერსიტეტი"
+    "ka": "ლომონოსოვის სახელობის მოსკოვის სახელმწიფო უნივერსიტეტი",
+    "ar": "جامعة موسكو الحكومية لومونوسوف"
   },
   {
     "code": "ru_spbu",
@@ -511,7 +644,8 @@
     "az": "Sankt-Peterburq Dövlət Universiteti",
     "en": "Saint Petersburg State University",
     "ru": "Санкт-Петербургский государственный университет",
-    "ka": "სანქტ-პეტერბურგის სახელმწიფო უნივერსიტეტი"
+    "ka": "სანქტ-პეტერბურგის სახელმწიფო უნივერსიტეტი",
+    "ar": "جامعة سانت بطرسبرغ الحكومية"
   },
   {
     "code": "ru_hse",
@@ -519,7 +653,8 @@
     "az": "İqtisadiyyat Yüksək Məktəbi (HSE)",
     "en": "HSE University (Higher School of Economics)",
     "ru": "Национальный исследовательский университет «Высшая школа экономики»",
-    "ka": "ეკონომიკის უმაღლესი სკოლა (HSE)"
+    "ka": "ეკონომიკის უმაღლესი სკოლა (HSE)",
+    "ar": "جامعة الاقتصاد العليا"
   },
   {
     "code": "ru_mgimo",
@@ -527,7 +662,8 @@
     "az": "Moskva Dövlət Beynəlxalq Münasibətlər İnstitutu (MGIMO)",
     "en": "Moscow State Institute of International Relations (MGIMO)",
     "ru": "Московский государственный институт международных отношений (МГИМО)",
-    "ka": "მოსკოვის საერთაშორისო ურთიერთობების სახელმწიფო ინსტიტუტი (MGIMO)"
+    "ka": "მოსკოვის საერთაშორისო ურთიერთობების სახელმწიფო ინსტიტუტი (MGIMO)",
+    "ar": "معهد موسكو الحكومي للعلاقات الدولية"
   },
   {
     "code": "ru_mipt",
@@ -535,7 +671,8 @@
     "az": "Moskva Fizika-Texnika İnstitutu (MFTİ)",
     "en": "Moscow Institute of Physics and Technology (MIPT)",
     "ru": "Московский физико-технический институт (МФТИ)",
-    "ka": "მოსკოვის ფიზიკა-ტექნიკის ინსტიტუტი (MIPT)"
+    "ka": "მოსკოვის ფიზიკა-ტექნიკის ინსტიტუტი (MIPT)",
+    "ar": "معهد موسكو للفيزياء والتكنولوجيا"
   },
   {
     "code": "ru_bmstu",
@@ -543,7 +680,8 @@
     "az": "N. E. Bauman adına Moskva Dövlət Texniki Universiteti",
     "en": "Bauman Moscow State Technical University",
     "ru": "Московский государственный технический университет им. Н. Э. Баумана",
-    "ka": "ბაუმანის სახელობის მოსკოვის სახელმწიფო ტექნიკური უნივერსიტეტი"
+    "ka": "ბაუმანის სახელობის მოსკოვის სახელმწიფო ტექნიკური უნივერსიტეტი",
+    "ar": "جامعة موسكو الحكومية التقنية باومان"
   },
   {
     "code": "ru_sechenov",
@@ -551,7 +689,8 @@
     "az": "İ. M. Seçenov adına Birinci Moskva Dövlət Tibb Universiteti",
     "en": "Sechenov First Moscow State Medical University",
     "ru": "Первый Московский государственный медицинский университет им. И. М. Сеченова",
-    "ka": "სეჩენოვის სახელობის მოსკოვის პირველი სამედიცინო უნივერსიტეტი"
+    "ka": "სეჩენოვის სახელობის მოსკოვის პირველი სამედიცინო უნივერსიტეტი",
+    "ar": "جامعة موسكو الحكومية الطبية الأولى سيتشينوف"
   },
   {
     "code": "ru_rudn",
@@ -559,7 +698,8 @@
     "az": "Rusiya Xalqlar Dostluğu Universiteti (RUDN)",
     "en": "RUDN University (Peoples' Friendship University of Russia)",
     "ru": "Российский университет дружбы народов (РУДН)",
-    "ka": "რუსეთის ხალხთა მეგობრობის უნივერსიტეტი (RUDN)"
+    "ka": "რუსეთის ხალხთა მეგობრობის უნივერსიტეტი (RUDN)",
+    "ar": "جامعة الصداقة بين الشعوب الروسية"
   },
   {
     "code": "ru_itmo",
@@ -567,7 +707,8 @@
     "az": "ITMO Universiteti",
     "en": "ITMO University",
     "ru": "Университет ИТМО",
-    "ka": "ITMO უნივერსიტეტი"
+    "ka": "ITMO უნივერსიტეტი",
+    "ar": "جامعة إيتمو"
   },
   {
     "code": "ru_kfu",
@@ -575,7 +716,8 @@
     "az": "Kazan Federal Universiteti",
     "en": "Kazan Federal University",
     "ru": "Казанский федеральный университет",
-    "ka": "ყაზანის ფედერალური უნივერსიტეტი"
+    "ka": "ყაზანის ფედერალური უნივერსიტეტი",
+    "ar": "جامعة قازان الفيدرالية"
   },
   {
     "code": "ru_nsu",
@@ -583,7 +725,8 @@
     "az": "Novosibirsk Dövlət Universiteti",
     "en": "Novosibirsk State University",
     "ru": "Новосибирский государственный университет",
-    "ka": "ნოვოსიბირსკის სახელმწიფო უნივერსიტეტი"
+    "ka": "ნოვოსიბირსკის სახელმწიფო უნივერსიტეტი",
+    "ar": "جامعة نوفوسيبيرسك الحكومية"
   },
   {
     "code": "ru_plekhanov",
@@ -591,7 +734,8 @@
     "az": "G. V. Plexanov adına Rusiya İqtisadiyyat Universiteti",
     "en": "Plekhanov Russian University of Economics",
     "ru": "Российский экономический университет им. Г. В. Плеханова",
-    "ka": "პლეხანოვის სახელობის რუსეთის ეკონომიკური უნივერსიტეტი"
+    "ka": "პლეხანოვის სახელობის რუსეთის ეკონომიკური უნივერსიტეტი",
+    "ar": "جامعة بليخانوف الروسية للاقتصاد"
   },
   {
     "code": "us_mit",
@@ -599,7 +743,8 @@
     "az": "Massaçusets Texnologiya İnstitutu (MIT)",
     "en": "Massachusetts Institute of Technology (MIT)",
     "ru": "Массачусетский технологический институт (MIT)",
-    "ka": "მასაჩუსეტსის ტექნოლოგიური ინსტიტუტი (MIT)"
+    "ka": "მასაჩუსეტსის ტექნოლოგიური ინსტიტუტი (MIT)",
+    "ar": "معهد ماساتشوستس للتقنية"
   },
   {
     "code": "us_stanford",
@@ -607,7 +752,8 @@
     "az": "Stenford Universiteti",
     "en": "Stanford University",
     "ru": "Стэнфордский университет",
-    "ka": "სტენფორდის უნივერსიტეტი"
+    "ka": "სტენფორდის უნივერსიტეტი",
+    "ar": "جامعة ستانفورد"
   },
   {
     "code": "us_harvard",
@@ -615,7 +761,8 @@
     "az": "Harvard Universiteti",
     "en": "Harvard University",
     "ru": "Гарвардский университет",
-    "ka": "ჰარვარდის უნივერსიტეტი"
+    "ka": "ჰარვარდის უნივერსიტეტი",
+    "ar": "جامعة هارفارد"
   },
   {
     "code": "us_caltech",
@@ -623,7 +770,8 @@
     "az": "Kaliforniya Texnologiya İnstitutu (Caltech)",
     "en": "California Institute of Technology (Caltech)",
     "ru": "Калифорнийский технологический институт (Caltech)",
-    "ka": "კალიფორნიის ტექნოლოგიური ინსტიტუტი (Caltech)"
+    "ka": "კალიფორნიის ტექნოლოგიური ინსტიტუტი (Caltech)",
+    "ar": "معهد كاليفورنيا للتقنية"
   },
   {
     "code": "us_berkeley",
@@ -631,7 +779,8 @@
     "az": "Kaliforniya Universiteti, Berkli",
     "en": "University of California, Berkeley",
     "ru": "Калифорнийский университет в Беркли",
-    "ka": "კალიფორნიის უნივერსიტეტი, ბერკლი"
+    "ka": "კალიფორნიის უნივერსიტეტი, ბერკლი",
+    "ar": "جامعة كاليفورنيا، بيركلي"
   },
   {
     "code": "us_princeton",
@@ -639,7 +788,8 @@
     "az": "Prinston Universiteti",
     "en": "Princeton University",
     "ru": "Принстонский университет",
-    "ka": "პრინსტონის უნივერსიტეტი"
+    "ka": "პრინსტონის უნივერსიტეტი",
+    "ar": "جامعة برينستون"
   },
   {
     "code": "us_yale",
@@ -647,7 +797,8 @@
     "az": "Yel Universiteti",
     "en": "Yale University",
     "ru": "Йельский университет",
-    "ka": "იელის უნივერსიტეტი"
+    "ka": "იელის უნივერსიტეტი",
+    "ar": "جامعة ييل"
   },
   {
     "code": "us_chicago",
@@ -655,7 +806,8 @@
     "az": "Çikaqo Universiteti",
     "en": "University of Chicago",
     "ru": "Чикагский университет",
-    "ka": "ჩიკაგოს უნივერსიტეტი"
+    "ka": "ჩიკაგოს უნივერსიტეტი",
+    "ar": "جامعة شيكاغو"
   },
   {
     "code": "us_columbia",
@@ -663,7 +815,8 @@
     "az": "Kolumbiya Universiteti",
     "en": "Columbia University",
     "ru": "Колумбийский университет",
-    "ka": "კოლუმბიის უნივერსიტეტი"
+    "ka": "კოლუმბიის უნივერსიტეტი",
+    "ar": "جامعة كولومبيا"
   },
   {
     "code": "us_upenn",
@@ -671,7 +824,8 @@
     "az": "Pensilvaniya Universiteti",
     "en": "University of Pennsylvania",
     "ru": "Пенсильванский университет",
-    "ka": "პენსილვანიის უნივერსიტეტი"
+    "ka": "პენსილვანიის უნივერსიტეტი",
+    "ar": "جامعة بنسلفانيا"
   },
   {
     "code": "eu_oxford",
@@ -679,7 +833,8 @@
     "az": "Oksford Universiteti",
     "en": "University of Oxford",
     "ru": "Оксфордский университет",
-    "ka": "ოქსფორდის უნივერსიტეტი"
+    "ka": "ოქსფორდის უნივერსიტეტი",
+    "ar": "جامعة أكسفورد"
   },
   {
     "code": "eu_cambridge",
@@ -687,7 +842,8 @@
     "az": "Kembric Universiteti",
     "en": "University of Cambridge",
     "ru": "Кембриджский университет",
-    "ka": "კემბრიჯის უნივერსიტეტი"
+    "ka": "კემბრიჯის უნივერსიტეტი",
+    "ar": "جامعة كامبريدج"
   },
   {
     "code": "eu_imperial",
@@ -695,7 +851,8 @@
     "az": "London İmperial Kolleci",
     "en": "Imperial College London",
     "ru": "Имперский колледж Лондона",
-    "ka": "ლონდონის იმპერიული კოლეჯი"
+    "ka": "ლონდონის იმპერიული კოლეჯი",
+    "ar": "كلية إمبريال لندن"
   },
   {
     "code": "eu_ucl",
@@ -703,7 +860,8 @@
     "az": "London Universitet Kolleci (UCL)",
     "en": "University College London (UCL)",
     "ru": "Университетский колледж Лондона (UCL)",
-    "ka": "ლონდონის უნივერსიტეტ-კოლეჯი (UCL)"
+    "ka": "ლონდონის უნივერსიტეტ-კოლეჯი (UCL)",
+    "ar": "كلية لندن الجامعية"
   },
   {
     "code": "eu_ethz",
@@ -711,7 +869,8 @@
     "az": "Sürix Federal Texnologiya İnstitutu (ETH Zürich)",
     "en": "ETH Zurich",
     "ru": "Швейцарская высшая техническая школа Цюриха (ETH Zürich)",
-    "ka": "ციურიხის ფედერალური ტექნოლოგიური ინსტიტუტი (ETH Zürich)"
+    "ka": "ციურიხის ფედერალური ტექნოლოგიური ინსტიტუტი (ETH Zürich)",
+    "ar": "المعهد التقني الفيدرالي في زيورخ"
   },
   {
     "code": "eu_epfl",
@@ -719,7 +878,8 @@
     "az": "Lozanna Federal Politexnik Məktəbi (EPFL)",
     "en": "École Polytechnique Fédérale de Lausanne (EPFL)",
     "ru": "Федеральная политехническая школа Лозанны (EPFL)",
-    "ka": "ლოზანის ფედერალური პოლიტექნიკური სკოლა (EPFL)"
+    "ka": "ლოზანის ფედერალური პოლიტექნიკური სკოლა (EPFL)",
+    "ar": "المعهد التقني الفيدرالي في لوزان"
   },
   {
     "code": "eu_tum",
@@ -727,7 +887,8 @@
     "az": "Münhen Texniki Universiteti",
     "en": "Technical University of Munich (TUM)",
     "ru": "Мюнхенский технический университет",
-    "ka": "მიუნხენის ტექნიკური უნივერსიტეტი"
+    "ka": "მიუნხენის ტექნიკური უნივერსიტეტი",
+    "ar": "جامعة ميونخ التقنية"
   },
   {
     "code": "eu_lmu",
@@ -735,7 +896,8 @@
     "az": "Münhen Ludviq-Maksimilian Universiteti",
     "en": "Ludwig Maximilian University of Munich (LMU)",
     "ru": "Мюнхенский университет Людвига-Максимилиана",
-    "ka": "მიუნხენის ლუდვიგ-მაქსიმილიანის უნივერსიტეტი"
+    "ka": "მიუნხენის ლუდვიგ-მაქსიმილიანის უნივერსიტეტი",
+    "ar": "جامعة لودفيغ ماكسيميليان في ميونخ"
   },
   {
     "code": "eu_sorbonne",
@@ -743,7 +905,8 @@
     "az": "Sorbonna Universiteti",
     "en": "Sorbonne University",
     "ru": "Университет Сорбонна",
-    "ka": "სორბონის უნივერსიტეტი"
+    "ka": "სორბონის უნივერსიტეტი",
+    "ar": "جامعة السوربون"
   },
   {
     "code": "eu_tudelft",
@@ -751,7 +914,8 @@
     "az": "Delft Texniki Universiteti",
     "en": "Delft University of Technology",
     "ru": "Делфтский технический университет",
-    "ka": "დელფტის ტექნოლოგიური უნივერსიტეტი"
+    "ka": "დელფტის ტექნოლოგიური უნივერსიტეტი",
+    "ar": "جامعة دلفت للتكنولوجيا"
   },
   {
     "code": "tr_bogazici",
@@ -759,7 +923,8 @@
     "az": "Boğaziçi Universiteti",
     "en": "Boğaziçi University",
     "ru": "Университет Богазичи",
-    "ka": "ბოღაზიჩის უნივერსიტეტი"
+    "ka": "ბოღაზიჩის უნივერსიტეტი",
+    "ar": "جامعة بوغازيتشي"
   },
   {
     "code": "tr_odtu",
@@ -767,7 +932,8 @@
     "az": "Orta Doğu Texniki Universiteti (ODTÜ)",
     "en": "Middle East Technical University (METU)",
     "ru": "Ближневосточный технический университет (METU)",
-    "ka": "შუა აღმოსავლეთის ტექნიკური უნივერსიტეტი (METU)"
+    "ka": "შუა აღმოსავლეთის ტექნიკური უნივერსიტეტი (METU)",
+    "ar": "جامعة الشرق الأوسط التقنية"
   },
   {
     "code": "tr_itu",
@@ -775,7 +941,8 @@
     "az": "İstanbul Texniki Universiteti",
     "en": "Istanbul Technical University (ITU)",
     "ru": "Стамбульский технический университет",
-    "ka": "ისტანბულის ტექნიკური უნივერსიტეტი"
+    "ka": "ისტანბულის ტექნიკური უნივერსიტეტი",
+    "ar": "جامعة إستنبول التقنية"
   },
   {
     "code": "tr_istanbul",
@@ -783,7 +950,8 @@
     "az": "İstanbul Universiteti",
     "en": "Istanbul University",
     "ru": "Стамбульский университет",
-    "ka": "ისტანბულის უნივერსიტეტი"
+    "ka": "ისტანბულის უნივერსიტეტი",
+    "ar": "جامعة إستنبول"
   },
   {
     "code": "tr_hacettepe",
@@ -791,7 +959,8 @@
     "az": "Hacettepe Universiteti",
     "en": "Hacettepe University",
     "ru": "Университет Хаджеттепе",
-    "ka": "ჰაჯეთთეფეს უნივერსიტეტი"
+    "ka": "ჰაჯეთთეფეს უნივერსიტეტი",
+    "ar": "جامعة هاجتبه"
   },
   {
     "code": "tr_ankara",
@@ -799,7 +968,8 @@
     "az": "Ankara Universiteti",
     "en": "Ankara University",
     "ru": "Анкарский университет",
-    "ka": "ანკარის უნივერსიტეტი"
+    "ka": "ანკარის უნივერსიტეტი",
+    "ar": "جامعة أنقرة"
   },
   {
     "code": "tr_bilkent",
@@ -807,7 +977,8 @@
     "az": "Bilkent Universiteti",
     "en": "Bilkent University",
     "ru": "Университет Билькент",
-    "ka": "ბილკენტის უნივერსიტეტი"
+    "ka": "ბილკენტის უნივერსიტეტი",
+    "ar": "جامعة بيلكنت"
   },
   {
     "code": "tr_koc",
@@ -815,7 +986,8 @@
     "az": "Koç Universiteti",
     "en": "Koç University",
     "ru": "Университет Коч",
-    "ka": "კოჩის უნივერსიტეტი"
+    "ka": "კოჩის უნივერსიტეტი",
+    "ar": "جامعة كوتش"
   },
   {
     "code": "tr_sabanci",
@@ -823,7 +995,8 @@
     "az": "Sabancı Universiteti",
     "en": "Sabancı University",
     "ru": "Университет Сабанджи",
-    "ka": "საბანჯის უნივერსიტეტი"
+    "ka": "საბანჯის უნივერსიტეტი",
+    "ar": "جامعة صابانجي"
   },
   {
     "code": "tr_ege",
@@ -831,6 +1004,385 @@
     "az": "Ege Universiteti",
     "en": "Ege University",
     "ru": "Эгейский университет",
-    "ka": "ეგეს უნივერსიტეტი"
+    "ka": "ეგეს უნივერსიტეტი",
+    "ar": "جامعة إيجه"
+  },
+  {
+    "code": "eg_cairo",
+    "group": "universities",
+    "az": "Qahirə Universiteti",
+    "en": "Cairo University",
+    "ru": "Каирский университет",
+    "ka": "ქაიროს უნივერსიტეტი",
+    "ar": "جامعة القاهرة"
+  },
+  {
+    "code": "eg_auc",
+    "group": "universities",
+    "az": "Qahirədəki Amerikan Universiteti",
+    "en": "American University in Cairo (AUC)",
+    "ru": "Американский университет в Каире",
+    "ka": "ამერიკული უნივერსიტეტი ქაიროში",
+    "ar": "الجامعة الأمريكية بالقاهرة"
+  },
+  {
+    "code": "eg_ainshams",
+    "group": "universities",
+    "az": "Ayn Şəms Universiteti",
+    "en": "Ain Shams University",
+    "ru": "Университет Айн-Шамс",
+    "ka": "აინ შამსის უნივერსიტეტი",
+    "ar": "جامعة عين شمس"
+  },
+  {
+    "code": "eg_alexandria",
+    "group": "universities",
+    "az": "İsgəndəriyyə Universiteti",
+    "en": "Alexandria University",
+    "ru": "Александрийский университет",
+    "ka": "ალექსანდრიის უნივერსიტეტი",
+    "ar": "جامعة الإسكندرية"
+  },
+  {
+    "code": "eg_azhar",
+    "group": "universities",
+    "az": "Əl-Əzhər Universiteti",
+    "en": "Al-Azhar University",
+    "ru": "Университет аль-Азхар",
+    "ka": "ალ-აზჰარის უნივერსიტეტი",
+    "ar": "جامعة الأزهر"
+  },
+  {
+    "code": "eg_mansoura",
+    "group": "universities",
+    "az": "Mansura Universiteti",
+    "en": "Mansoura University",
+    "ru": "Университет Мансуры",
+    "ka": "მანსურას უნივერსიტეტი",
+    "ar": "جامعة المنصورة"
+  },
+  {
+    "code": "sa_ksu",
+    "group": "universities",
+    "az": "Kral Səud Universiteti",
+    "en": "King Saud University",
+    "ru": "Университет короля Сауда",
+    "ka": "მეფე საუდის უნივერსიტეტი",
+    "ar": "جامعة الملك سعود"
+  },
+  {
+    "code": "sa_kau",
+    "group": "universities",
+    "az": "Kral Əbdüləziz Universiteti",
+    "en": "King Abdulaziz University",
+    "ru": "Университет короля Абдулазиза",
+    "ka": "მეფე აბდულაზიზის უნივერსიტეტი",
+    "ar": "جامعة الملك عبد العزيز"
+  },
+  {
+    "code": "sa_kfupm",
+    "group": "universities",
+    "az": "Kral Fəhd Neft və Minerallar Universiteti",
+    "en": "King Fahd University of Petroleum and Minerals",
+    "ru": "Университет нефти и минералов имени короля Фахда",
+    "ka": "მეფე ფაჰდის ნავთობისა და მინერალების უნივერსიტეტი",
+    "ar": "جامعة الملك فهد للبترول والمعادن"
+  },
+  {
+    "code": "sa_kaust",
+    "group": "universities",
+    "az": "Kral Abdullah Elm və Texnologiya Universiteti (KAUST)",
+    "en": "King Abdullah University of Science and Technology (KAUST)",
+    "ru": "Университет науки и технологий имени короля Абдуллы (KAUST)",
+    "ka": "მეფე აბდულას მეცნიერებისა და ტექნოლოგიების უნივერსიტეტი (KAUST)",
+    "ar": "جامعة الملك عبد الله للعلوم والتقنية"
+  },
+  {
+    "code": "sa_uqu",
+    "group": "universities",
+    "az": "Ümmül-Qura Universiteti",
+    "en": "Umm Al-Qura University",
+    "ru": "Университет Умм аль-Кура",
+    "ka": "უმ ალ-ქურას უნივერსიტეტი",
+    "ar": "جامعة أم القرى"
+  },
+  {
+    "code": "ae_uaeu",
+    "group": "universities",
+    "az": "Birləşmiş Ərəb Əmirlikləri Universiteti",
+    "en": "United Arab Emirates University",
+    "ru": "Университет ОАЭ",
+    "ka": "არაბთა გაერთიანებული საამიროების უნივერსიტეტი",
+    "ar": "جامعة الإمارات العربية المتحدة"
+  },
+  {
+    "code": "ae_khalifa",
+    "group": "universities",
+    "az": "Xəlifə Universiteti",
+    "en": "Khalifa University",
+    "ru": "Университет Халифы",
+    "ka": "ხალიფას უნივერსიტეტი",
+    "ar": "جامعة خليفة"
+  },
+  {
+    "code": "ae_aus",
+    "group": "universities",
+    "az": "Şarcadakı Amerikan Universiteti",
+    "en": "American University of Sharjah",
+    "ru": "Американский университет в Шардже",
+    "ka": "ამერიკული უნივერსიტეტი შარჯაში",
+    "ar": "الجامعة الأمريكية في الشارقة"
+  },
+  {
+    "code": "ae_sharjah",
+    "group": "universities",
+    "az": "Şarca Universiteti",
+    "en": "University of Sharjah",
+    "ru": "Университет Шарджи",
+    "ka": "შარჯას უნივერსიტეტი",
+    "ar": "جامعة الشارقة"
+  },
+  {
+    "code": "qa_qu",
+    "group": "universities",
+    "az": "Qətər Universiteti",
+    "en": "Qatar University",
+    "ru": "Катарский университет",
+    "ka": "ყატარის უნივერსიტეტი",
+    "ar": "جامعة قطر"
+  },
+  {
+    "code": "qa_hbku",
+    "group": "universities",
+    "az": "Həmad bin Xəlifə Universiteti",
+    "en": "Hamad Bin Khalifa University",
+    "ru": "Университет Хамада бин Халифы",
+    "ka": "ჰამად ბინ ხალიფას უნივერსიტეტი",
+    "ar": "جامعة حمد بن خليفة"
+  },
+  {
+    "code": "kw_ku",
+    "group": "universities",
+    "az": "Küveyt Universiteti",
+    "en": "Kuwait University",
+    "ru": "Кувейтский университет",
+    "ka": "ქუვეითის უნივერსიტეტი",
+    "ar": "جامعة الكويت"
+  },
+  {
+    "code": "jo_ju",
+    "group": "universities",
+    "az": "İordaniya Universiteti",
+    "en": "University of Jordan",
+    "ru": "Университет Иордании",
+    "ka": "იორდანიის უნივერსიტეტი",
+    "ar": "الجامعة الأردنية"
+  },
+  {
+    "code": "jo_just",
+    "group": "universities",
+    "az": "İordaniya Elm və Texnologiya Universiteti",
+    "en": "Jordan University of Science and Technology",
+    "ru": "Иорданский университет науки и технологий",
+    "ka": "იორდანიის მეცნიერებისა და ტექნოლოგიების უნივერსიტეტი",
+    "ar": "جامعة العلوم والتكنولوجيا الأردنية"
+  },
+  {
+    "code": "lb_aub",
+    "group": "universities",
+    "az": "Beyrutdakı Amerikan Universiteti",
+    "en": "American University of Beirut (AUB)",
+    "ru": "Американский университет в Бейруте",
+    "ka": "ამერიკული უნივერსიტეტი ბეირუთში",
+    "ar": "الجامعة الأمريكية في بيروت"
+  },
+  {
+    "code": "lb_usj",
+    "group": "universities",
+    "az": "Beyrut Müqəddəs İosif Universiteti",
+    "en": "Saint Joseph University of Beirut",
+    "ru": "Университет Святого Иосифа в Бейруте",
+    "ka": "წმინდა იოსების უნივერსიტეტი ბეირუთში",
+    "ar": "جامعة القديس يوسف في بيروت"
+  },
+  {
+    "code": "lb_ul",
+    "group": "universities",
+    "az": "Livan Universiteti",
+    "en": "Lebanese University",
+    "ru": "Ливанский университет",
+    "ka": "ლიბანის უნივერსიტეტი",
+    "ar": "الجامعة اللبنانية"
+  },
+  {
+    "code": "iq_baghdad",
+    "group": "universities",
+    "az": "Bağdad Universiteti",
+    "en": "University of Baghdad",
+    "ru": "Багдадский университет",
+    "ka": "ბაღდადის უნივერსიტეტი",
+    "ar": "جامعة بغداد"
+  },
+  {
+    "code": "iq_basrah",
+    "group": "universities",
+    "az": "Bəsrə Universiteti",
+    "en": "University of Basrah",
+    "ru": "Университет Басры",
+    "ka": "ბასრას უნივერსიტეტი",
+    "ar": "جامعة البصرة"
+  },
+  {
+    "code": "sy_damascus",
+    "group": "universities",
+    "az": "Dəməşq Universiteti",
+    "en": "Damascus University",
+    "ru": "Дамасский университет",
+    "ka": "დამასკოს უნივერსიტეტი",
+    "ar": "جامعة دمشق"
+  },
+  {
+    "code": "sy_aleppo",
+    "group": "universities",
+    "az": "Hələb Universiteti",
+    "en": "University of Aleppo",
+    "ru": "Университет Алеппо",
+    "ka": "ალეპოს უნივერსიტეტი",
+    "ar": "جامعة حلب"
+  },
+  {
+    "code": "ps_birzeit",
+    "group": "universities",
+    "az": "Birzeyt Universiteti",
+    "en": "Birzeit University",
+    "ru": "Университет Бирзейт",
+    "ka": "ბირზეითის უნივერსიტეტი",
+    "ar": "جامعة بيرزيت"
+  },
+  {
+    "code": "ps_najah",
+    "group": "universities",
+    "az": "Ən-Nəcah Milli Universiteti",
+    "en": "An-Najah National University",
+    "ru": "Национальный университет Ан-Наджах",
+    "ka": "ან-ნაჯაჰის ნაციონალური უნივერსიტეტი",
+    "ar": "جامعة النجاح الوطنية"
+  },
+  {
+    "code": "om_squ",
+    "group": "universities",
+    "az": "Sultan Qabus Universiteti",
+    "en": "Sultan Qaboos University",
+    "ru": "Университет Султана Кабуса",
+    "ka": "სულთან ქაბუსის უნივერსიტეტი",
+    "ar": "جامعة السلطان قابوس"
+  },
+  {
+    "code": "bh_uob",
+    "group": "universities",
+    "az": "Bəhreyn Universiteti",
+    "en": "University of Bahrain",
+    "ru": "Университет Бахрейна",
+    "ka": "ბაჰრეინის უნივერსიტეტი",
+    "ar": "جامعة البحرين"
+  },
+  {
+    "code": "ma_um5",
+    "group": "universities",
+    "az": "Rabatdakı V Məhəmməd Universiteti",
+    "en": "Mohammed V University in Rabat",
+    "ru": "Университет Мохаммеда V в Рабате",
+    "ka": "მუჰამედ V-ის უნივერსიტეტი რაბატში",
+    "ar": "جامعة محمد الخامس بالرباط"
+  },
+  {
+    "code": "ma_aui",
+    "group": "universities",
+    "az": "Əl-Əxavayn Universiteti",
+    "en": "Al Akhawayn University",
+    "ru": "Университет Аль-Ахавайн",
+    "ka": "ალ-აჰავაინის უნივერსიტეტი",
+    "ar": "جامعة الأخوين"
+  },
+  {
+    "code": "ma_uca",
+    "group": "universities",
+    "az": "Qadi Əyyad Universiteti",
+    "en": "Cadi Ayyad University",
+    "ru": "Университет Кади Айяда",
+    "ka": "ქადი აიადის უნივერსიტეტი",
+    "ar": "جامعة القاضي عياض"
+  },
+  {
+    "code": "tn_utm",
+    "group": "universities",
+    "az": "Tunis Əl-Manar Universiteti",
+    "en": "University of Tunis El Manar",
+    "ru": "Университет Тунис Эль-Манар",
+    "ka": "ტუნის ელ-მანარის უნივერსიტეტი",
+    "ar": "جامعة تونس المنار"
+  },
+  {
+    "code": "tn_ucar",
+    "group": "universities",
+    "az": "Karfagen Universiteti",
+    "en": "University of Carthage",
+    "ru": "Университет Карфагена",
+    "ka": "კართაგენის უნივერსიტეტი",
+    "ar": "جامعة قرطاج"
+  },
+  {
+    "code": "dz_algiers",
+    "group": "universities",
+    "az": "Əlcəzair Universiteti",
+    "en": "University of Algiers",
+    "ru": "Алжирский университет",
+    "ka": "ალჟირის უნივერსიტეტი",
+    "ar": "جامعة الجزائر"
+  },
+  {
+    "code": "dz_usthb",
+    "group": "universities",
+    "az": "Hüari Bumedyen Elm və Texnologiya Universiteti",
+    "en": "Houari Boumediene University of Science and Technology",
+    "ru": "Университет науки и технологий имени Хуари Бумедьена",
+    "ka": "ჰუარი ბუმედიენის მეცნიერებისა და ტექნოლოგიების უნივერსიტეტი",
+    "ar": "جامعة هواري بومدين للعلوم والتكنولوجيا"
+  },
+  {
+    "code": "ir_tehran",
+    "group": "universities",
+    "az": "Tehran Universiteti",
+    "en": "University of Tehran",
+    "ru": "Тегеранский университет",
+    "ka": "თეირანის უნივერსიტეტი",
+    "ar": "جامعة طهران"
+  },
+  {
+    "code": "ir_sharif",
+    "group": "universities",
+    "az": "Şərif Texnologiya Universiteti",
+    "en": "Sharif University of Technology",
+    "ru": "Технологический университет Шарифа",
+    "ka": "შარიფის ტექნოლოგიური უნივერსიტეტი",
+    "ar": "جامعة شريف للتكنولوجيا"
+  },
+  {
+    "code": "ir_tabriz",
+    "group": "universities",
+    "az": "Təbriz Universiteti",
+    "en": "University of Tabriz",
+    "ru": "Тебризский университет",
+    "ka": "თავრიზის უნივერსიტეტი",
+    "ar": "جامعة تبريز"
+  },
+  {
+    "code": "ir_amirkabir",
+    "group": "universities",
+    "az": "Əmirkəbir Texnologiya Universiteti",
+    "en": "Amirkabir University of Technology",
+    "ru": "Технологический университет Амиркабир",
+    "ka": "ამირქაბირის ტექნოლოგიური უნივერსიტეტი",
+    "ar": "جامعة أمير كبير للتكنولوجيا"
   }
 ]

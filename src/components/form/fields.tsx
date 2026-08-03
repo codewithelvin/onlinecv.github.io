@@ -11,6 +11,7 @@ import {
   Slider,
 } from 'antd';
 import dayjs from 'dayjs';
+import { searchKey } from '../../utils/search';
 import { type Control, type FieldPath, type FieldValues, useController } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import { FULL_DATE, ISO_DATE, ISO_MONTH, MONTH_YEAR } from '../../utils/date';
@@ -310,7 +311,15 @@ export function RHFSelect<T extends FieldValues>({
           placeholder={placeholder}
           mode={mode}
           showSearch
-          optionFilterProp="label"
+          /**
+           * Same folding as the AutoComplete below, for the same reason:
+           * `optionFilterProp="label"` does a plain case-insensitive match and
+           * cannot find a label beginning with "İ".
+           */
+          filterOption={(input, option) => {
+            const needle = searchKey(input);
+            return needle === '' || searchKey(String(option?.label ?? '')).includes(needle);
+          }}
         />
       )}
     </Field>
@@ -338,9 +347,16 @@ export function RHFAutoComplete<T extends FieldValues>({
           onBlur={field.onBlur}
           options={options}
           placeholder={placeholder}
-          filterOption={(input, option) =>
-            (option?.label ?? '').toLowerCase().includes(input.toLowerCase())
-          }
+          /**
+           * Case- AND diacritic-insensitive. A plain `toLowerCase()` could not
+           * find "İsgəndəriyyə" from "is" — the dotted capital lower-cases to
+           * `i` plus a combining dot — see `utils/search`. The needle is folded
+           * once per keystroke, not once per option.
+           */
+          filterOption={(input, option) => {
+            const needle = searchKey(input);
+            return needle === '' || searchKey(String(option?.label ?? '')).includes(needle);
+          }}
         />
       )}
     </Field>
