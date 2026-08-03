@@ -122,7 +122,8 @@
     "step2": "Personal information",
     "next": "Next",
     "back": "Back",
-    "finish": "Finish"
+    "finish": "Finish",
+    "createdBy": "Created by"
   },
   "avatar": {
     "title": "Edit profile picture",

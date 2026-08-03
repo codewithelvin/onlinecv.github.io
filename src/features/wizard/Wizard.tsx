@@ -1,5 +1,6 @@
 import { type JSX, useState } from 'react';
 import { Button, Card, Col, Row, Space, Steps, Typography } from 'antd';
+import { SiClaude } from 'react-icons/si';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import type { Gender, MaritalStatus } from '../../types/resume';
@@ -23,6 +24,44 @@ import { GENDERS, MARITAL_STATUSES, dictOptions } from '../editor/enums';
 
 /** Two-up on tablet and desktop, stacked on phones (spec §10.3). */
 const HALF = { xs: 24, sm: 12 } as const;
+
+/**
+ * Build credit in the wizard's card footer.
+ *
+ * The prefix is translated (`wizard.createdBy`) because it is ordinary prose, but
+ * "Claude AI" is NOT — a product name reads the same in every locale, the same
+ * call as `ATTRIBUTION_TEXT` on the CV itself. So the line is deliberately split:
+ * one translated fragment, one fixed one.
+ *
+ * The icon sits immediately before the name it belongs to, which is also why it
+ * is `aria-hidden`: the name follows it in the text, so announcing the icon would
+ * repeat the brand. Its placement therefore holds in a right-to-left locale too —
+ * "before the name" is a reading-order relationship, and the browser resolves it.
+ */
+function BuiltWithClaude({ label }: { label: string }): JSX.Element {
+  return (
+    <div
+      id="wizard-credit"
+      style={{
+        marginTop: 20,
+        paddingTop: 12,
+        borderTop: '1px solid #f0f0f0',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        gap: 6,
+        fontSize: 12,
+        // The AA-safe muted grey already pinned in `app/theme.ts`; antd's own
+        // quaternary text would be about 3:1 against white.
+        color: '#8c8c8c',
+      }}
+    >
+      {label}
+      <SiClaude aria-hidden size={14} style={{ color: '#D97757', flexShrink: 0 }} />
+      Claude AI
+    </div>
+  );
+}
 
 /** First-run 2-step wizard (spec FR-13/§10.2): identity → profile basics. */
 export function Wizard(): JSX.Element {
@@ -206,6 +245,8 @@ export function Wizard(): JSX.Element {
             </>
           )}
         </VerticalFields>
+
+        <BuiltWithClaude label={t('wizard.createdBy')} />
       </Card>
     </div>
   );
