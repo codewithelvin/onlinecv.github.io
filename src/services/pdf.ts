@@ -3,8 +3,9 @@ import type { JSX, ReactElement, ReactNode } from 'react';
 // Type-only: erased at build time, so the engine stays in its lazy chunk.
 import type * as ReactPdf from '@react-pdf/renderer';
 import type Html from 'react-pdf-html';
-import type { Resume, TemplateId } from '../types/resume';
-import type { PageMargin } from '../types/template';
+import type { Locale, Resume, TemplateId } from '../types/resume';
+import type { PageBleed, PageMargin } from '../types/template';
+import { LOCALES } from '../app/i18n/locales';
 import { makeDateFormatter } from '../utils/date';
 import {
   ATTRIBUTION_BOTTOM,
@@ -13,10 +14,12 @@ import {
   ATTRIBUTION_TEXT,
   showAttribution,
 } from '../utils/attribution';
+import { preshapeArabic } from '../utils/arabic';
 import { localizeResume, referencedDictionaryGroups } from '../utils/localize-resume';
 import { loadDictionaries } from '../data/dictionaries';
 import { getTemplate } from '../templates/_core/registry';
-import { CV_FONT_STACK } from '../templates/_core/fonts';
+import { cvFontStack } from '../templates/_core/fonts';
+import { bleedSide } from '../templates/_core/direction';
 import { i18n } from '../app/i18n';
 
 /**
@@ -65,6 +68,19 @@ export function registerResumeFonts(pdfLib: typeof ReactPdf, fontBase: string = 
     fonts: [
       { src: `${fontBase}/NotoSansGeorgian-Regular.ttf`, fontWeight: 400 },
       { src: `${fontBase}/NotoSansGeorgian-Bold.ttf`, fontWeight: 700 },
+    ],
+  });
+  /**
+   * Arabic — same two-weight arrangement, same reason. The shaping (initial /
+   * medial / final forms, the lam-alef ligature) comes from fontkit's OpenType
+   * layout, and the right-to-left ordering from `@react-pdf/textkit`'s bidi
+   * pass; both are exercised in `templates.pdf.test.tsx`.
+   */
+  Font.register({
+    family: 'NotoSansArabic',
+    fonts: [
+      { src: `${fontBase}/NotoSansArabic-Regular.ttf`, fontWeight: 400 },
+      { src: `${fontBase}/NotoSansArabic-Bold.ttf`, fontWeight: 700 },
     ],
   });
   // Text-based, ATS-parseable output: don't insert soft hyphens.
@@ -122,6 +138,8 @@ export function buildResumeDocument(
     title,
     attribution,
     pageMargin,
+    pageBleed,
+    locale = 'az',
   }: {
     /** `renderToStaticMarkup` of the template. */
     html: string;
@@ -131,8 +149,17 @@ export function buildResumeDocument(
     attribution: boolean;
     /** The template's per-page vertical margin (`manifest.pageMargin`). */
     pageMargin?: PageMargin;
+    /** The template's full-height accent column (`manifest.pageBleed`). */
+    pageBleed?: PageBleed;
+    /**
+     * The CV's language (`resume.locale`) — NOT the UI's. It decides the font
+     * order and the text direction, both of which are core's business rather
+     * than any template's.
+     */
+    locale?: Locale;
   },
 ): ReactElement {
+  const rtl = LOCALES[locale].dir === 'rtl';
   const { Document, Page, Text, View, StyleSheet } = pdfLib;
 
   /**
@@ -161,13 +188,9 @@ export function buildResumeDocument(
   }): JSX.Element => {
     const attributes = element?.attributes ?? {};
     const keepTogether = attributes['data-keep-together'] !== undefined;
-    // A decorative layer that must escape the page margin and repeat on every
-    // page (the modern template's accent column).
-    const pageBleed = attributes['data-page-bleed'] !== undefined;
     return createElement(View, {
       style: style as never,
       wrap: keepTogether ? false : undefined,
-      fixed: pageBleed ? true : undefined,
       children,
     });
   };
@@ -179,11 +202,29 @@ export function buildResumeDocument(
        * family name and would look for a font literally called
        * "Inter, NotoSansGeorgian". (Only `react-pdf-html` splits commas, which is
        * why the templates' CSS may use the string — see `_core/fonts`.)
+       *
+       * Ordered by the CV's language, and set HERE rather than in a template:
+       * `fontFamily` is one of react-pdf's inheritable properties, so the whole
+       * page picks it up. A template that pins its own would take the shared
+       * characters (space, digits, punctuation) back to Inter and shatter every
+       * Arabic line into alternating runs — see `cvFontStack`.
        */
-      fontFamily: CV_FONT_STACK,
+      fontFamily: cvFontStack(locale),
       fontSize: 10,
       lineHeight: 1.4,
       color: '#1a1a1a',
+      /**
+       * Right-aligned for a right-to-left CV. `textAlign` inherits (react-pdf's
+       * `BASE_INHERITABLE_PROPERTIES`), so every heading and paragraph follows
+       * without a template knowing about it — and no shipped template pins
+       * `textAlign: 'left'`, so nothing overrides it.
+       *
+       * `direction: 'rtl'` is deliberately NOT set: react-pdf does NOT inherit
+       * it, so on the `Page` it would reach nothing, and where it does apply it
+       * changes the bidi base level that `utils/arabic`'s pre-shaping was
+       * measured against.
+       */
+      ...(rtl ? { textAlign: 'right' as const } : {}),
       /**
        * On the PAGE, so react-pdf re-applies it to every page. A template that
        * padded its own root instead would indent page 1 and leave page 2's
@@ -222,6 +263,33 @@ export function buildResumeDocument(
       Page,
       { size: 'A4', style: styles.page },
       /**
+       * The template's accent column, painted FIRST so everything else lands on
+       * top of it, and `fixed` so it repeats on every page.
+       *
+       * A direct child of `Page`, which is the whole point. As an absolutely
+       * positioned div inside the parsed markup it needed `top/bottom: -28` to
+       * cancel the page margin and relied on `fixed` surviving several levels of
+       * nesting — which `@react-pdf` v4 stopped doing, leaving the column on page
+       * 1 only. Here it resolves against the PAGE box, margin included, so
+       * `top: 0, bottom: 0` simply is the full sheet (the same rule the credit
+       * line below depends on).
+       */
+      pageBleed
+        ? createElement(View, {
+            fixed: true,
+            style: {
+              position: 'absolute',
+              top: 0,
+              bottom: 0,
+              // Mirrored for a right-to-left CV, so the column stays on the same
+              // side as the sidebar once the template's root row has flipped.
+              [bleedSide(pageBleed, locale)]: 0,
+              width: pageBleed.width,
+              backgroundColor: pageBleed.color,
+            } as never,
+          })
+        : null,
+      /**
        * `react-pdf-html` wraps the parsed markup in a `View` of its own, and that
        * wrapper — not the template's root element — is the direct child of
        * `Page`. Left at its default `flexGrow: 0` it hugs its content, so a
@@ -236,7 +304,16 @@ export function buildResumeDocument(
         // templates mark such boxes in the markup and `blockRenderer` turns the
         // marker into react-pdf's `wrap` prop.
         renderers: { div: blockRenderer },
-        children: html,
+        /**
+         * Arabic is joined HERE, not by the templates: react-pdf shapes a
+         * right-to-left line after it has already reordered it, so the letters
+         * come out in the wrong contextual forms unless they are handed over
+         * pre-shaped (`utils/arabic`). Applying it to the finished markup keeps
+         * the `TemplateProps` contract untouched — every template, present and
+         * future, gets correct Arabic for free — and the function is a no-op for
+         * a CV with no Arabic in it, so nothing else changes by a byte.
+         */
+        children: preshapeArabic(html),
       }),
       // Rendered here rather than inside a template, so every template — present
       // and future — carries the credit without implementing it (§7.1: the
@@ -285,6 +362,8 @@ export async function exportResumePdf(resume: Resume, templateId: TemplateId): P
     title: `${resume.basics.firstName} ${resume.basics.lastName} — CV`.trim(),
     attribution: showAttribution(resume),
     pageMargin: entry.manifest.pageMargin,
+    pageBleed: entry.manifest.pageBleed,
+    locale: resume.locale,
   });
 
   const blob = await pdf(document).toBlob();

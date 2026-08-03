@@ -39,9 +39,15 @@ export function createEmptyResume(locale: Resume['locale'] = 'az'): Resume {
 }
 
 /**
- * Whether the resume still needs the first-run wizard (FR-13): no identity yet.
+ * Whether a resume looks like it has never been through the first-run wizard
+ * (FR-13): no identity yet.
+ *
+ * NOT the wizard gate — that is `wizardCompleted` on the store. This is only the
+ * back-compat heuristic used at hydration for records written before completion
+ * was tracked. Gating on it live sent the user back to the wizard the moment
+ * they cleared their own name in the editor, losing the whole CV from view.
  */
-export function needsWizard(resume: Resume): boolean {
+export function looksUnstarted(resume: Resume): boolean {
   return !resume.basics.firstName.trim() || !resume.contact.email.trim();
 }
 

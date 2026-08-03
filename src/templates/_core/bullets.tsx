@@ -1,4 +1,6 @@
 import type { CSSProperties, JSX } from 'react';
+import type { Locale } from '../../types/resume';
+import { isRtl } from './direction';
 
 /**
  * Achievement bullets, drawn as explicit flex rows — NOT as `<ul>`/`<li>`.
@@ -31,6 +33,7 @@ export function BulletList({
   listStyle,
   itemStyle,
   markWidth = DEFAULT_MARK_WIDTH,
+  locale = 'az',
 }: {
   /** Bullet texts; an empty list renders nothing (BR-5). */
   items: string[];
@@ -40,12 +43,32 @@ export function BulletList({
    *  marker and the text inherit them, in CSS and in react-pdf alike. */
   itemStyle?: CSSProperties;
   markWidth?: number;
+  /**
+   * The CV's language (`resume.locale`); only its DIRECTION is used. In a
+   * right-to-left CV the marker belongs to the right of its text and the list's
+   * indent to the right of the block. Neither renderer arranges that on its own —
+   * react-pdf has no logical properties and never sets Yoga's direction — so the
+   * sides are chosen here, once, on behalf of every template.
+   */
+  locale?: Locale;
 }): JSX.Element | null {
   if (items.length === 0) return null;
+  const rtl = isRtl(locale);
+  /**
+   * A template's `paddingLeft` here means the INLINE-START indent. Left as-is in
+   * a right-to-left CV it would indent from the far edge, leaving the markers
+   * hanging outside the text block, so it moves across.
+   */
+  const { paddingLeft, ...restList } = listStyle ?? {};
+  const indent =
+    paddingLeft === undefined ? undefined : { [rtl ? 'paddingRight' : 'paddingLeft']: paddingLeft };
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', ...listStyle }}>
+    <div style={{ display: 'flex', flexDirection: 'column', ...restList, ...indent }}>
       {items.map((item, i) => (
-        <div key={i} style={{ display: 'flex', flexDirection: 'row', ...itemStyle }}>
+        <div
+          key={i}
+          style={{ display: 'flex', flexDirection: rtl ? 'row-reverse' : 'row', ...itemStyle }}
+        >
           <div style={{ width: markWidth, flexGrow: 0, flexShrink: 0 }}>{BULLET}</div>
           {/* `flexBasis: 0` + `minWidth: 0` so a long bullet wraps inside the
               row instead of widening it — the one place CSS and Yoga would

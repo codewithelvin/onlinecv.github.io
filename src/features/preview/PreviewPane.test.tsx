@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from 'vitest';
-import { screen, waitFor } from '@testing-library/react';
+import { act, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { renderWithProviders } from '../../test/renderWithProviders';
 import { useResumeStore } from '../../state/store';
@@ -78,6 +78,37 @@ describe('PreviewPane attribution', () => {
     expect(textArea.style.marginBottom).toBe(`${margin?.bottom}px`);
     expect(textArea.style.position).toBe('relative');
     expect(textArea.style.padding).toBe('');
+  });
+
+  /**
+   * The preview FRAME opts out of the UI's direction, not just the sheet.
+   *
+   * Under `<html dir="rtl">` (the Arabic UI) the mirrored preview stopped
+   * showing what the export produces — and worse, the page is laid out at its
+   * full 595pt width and scaled down from its top-left corner, so in RTL the
+   * browser packed that oversized box against the right edge, the transform
+   * dragged it further left, and `overflow: hidden` cropped it. Asserting the
+   * attribute on the SCALING wrapper (the ancestor that measures and clips), not
+   * only on the sheet, is what pins the fix.
+   */
+  it('keeps the whole preview frame left-to-right whatever the UI direction is', async () => {
+    useResumeStore.getState().setUiLocale('ar');
+    try {
+      renderWithProviders(<PreviewPane />);
+      const sheet = (await screen.findByText(ATTRIBUTION_TEXT)).parentElement as HTMLElement;
+      expect(document.documentElement.getAttribute('dir')).toBe('rtl');
+      expect(sheet.getAttribute('dir')).toBe('ltr');
+
+      // The sheet is scaled inside a sizing box inside the measured wrapper —
+      // and it is that outermost box whose direction decides where the
+      // unscaled page is placed before the transform runs.
+      const frame = sheet.parentElement?.parentElement as HTMLElement;
+      expect(frame.style.overflow, 'not the clipping wrapper').toBe('hidden');
+      expect(frame.getAttribute('dir')).toBe('ltr');
+    } finally {
+      // Inside `act`: the pane is still mounted, so this re-renders it.
+      act(() => useResumeStore.getState().setUiLocale('az'));
+    }
   });
 
   /** Records written before the flag existed must keep showing the credit. */

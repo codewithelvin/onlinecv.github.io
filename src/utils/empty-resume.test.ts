@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { canExport, createEmptyResume, needsWizard } from './empty-resume';
+import { canExport, createEmptyResume, looksUnstarted } from './empty-resume';
 
 describe('empty-resume', () => {
   it('creates a single-resume default with the ATS template', () => {
@@ -20,12 +20,12 @@ describe('empty-resume', () => {
     expect(createEmptyResume().attribution).toBe(true);
   });
 
-  it('needsWizard until identity + email are present', () => {
+  it('looksUnstarted until identity + email are present', () => {
     const r = createEmptyResume();
-    expect(needsWizard(r)).toBe(true);
+    expect(looksUnstarted(r)).toBe(true);
     r.basics.firstName = 'Elvin';
     r.contact.email = 'elvin@example.az';
-    expect(needsWizard(r)).toBe(false);
+    expect(looksUnstarted(r)).toBe(false);
   });
 
   it('gates export on first/last name + valid email (BR-4)', () => {

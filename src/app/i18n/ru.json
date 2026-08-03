@@ -211,7 +211,7 @@
   "validation": {
     "userFirstnameRequired": "Введите ваше имя",
     "userLastnameRequired": "Введите вашу фамилию",
-    "onlyLettersAndSpace": "Можно вводить только буквы и пробелы",
+    "onlyLettersAndSpace": "Допускаются только буквы, пробелы, дефисы и апострофы",
     "minThreeChars": "Необходимо ввести минимум 3 символа",
     "maximumFiftyCharacter": "Можно ввести не более 50 символов",
     "maximumHundredCharacter": "Можно ввести не более 100 символов",

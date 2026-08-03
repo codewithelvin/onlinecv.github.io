@@ -2,7 +2,7 @@ import type { JSX } from 'react';
 import { Select, Space, Typography } from 'antd';
 import { useTranslation } from 'react-i18next';
 import type { Locale } from '../../types/resume';
-import { LOCALES, SUPPORTED_LOCALES } from '../../app/i18n';
+import { CV_LOCALES, LOCALES } from '../../app/i18n';
 import { useResumeStore } from '../../state/store';
 
 /**
@@ -10,6 +10,9 @@ import { useResumeStore } from '../../state/store';
  * separate from the UI locale (spec §10.1). Typed content is never translated —
  * but dictionary-backed values (skills, languages, interests, nationality,
  * institutions) do follow this select, since they are stored as codes.
+ *
+ * `CV_LOCALES`, not `SUPPORTED_LOCALES`: a language can be translated for the UI
+ * before the exporter can render a CV in it (Arabic — see `LocaleMeta.cv`).
  */
 export function CvLanguageSelect(): JSX.Element {
   const { t } = useTranslation();
@@ -29,7 +32,7 @@ export function CvLanguageSelect(): JSX.Element {
         aria-labelledby={labelId}
         value={locale}
         onChange={(v: Locale) => setResumeLocale(v)}
-        options={SUPPORTED_LOCALES.map((code) => ({
+        options={CV_LOCALES.map((code) => ({
           label: LOCALES[code].nativeName,
           value: code,
         }))}

@@ -22,6 +22,12 @@ export interface PersistedState {
    * way the editor falls back to its default set.
    */
   openSections?: string[] | null;
+  /**
+   * True once the first-run wizard has been finished. Absent in records written
+   * before this was tracked — the store then infers it from the resume itself
+   * (see `looksUnstarted`), so an existing CV is never sent back to the wizard.
+   */
+  wizardCompleted?: boolean;
 }
 
 function openDb(): Promise<IDBDatabase> {

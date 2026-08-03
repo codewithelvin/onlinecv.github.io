@@ -17,8 +17,35 @@ describe('resume store', () => {
       resume: createEmptyResume('az'),
       uiLocale: 'az',
       openSections: null,
+      wizardCompleted: false,
       hydrated: false,
     });
+  });
+
+  /**
+   * Regression: the wizard used to be gated on `resume` itself, so clearing the
+   * name field in the editor threw the user back to the first-run wizard and the
+   * whole CV disappeared from the screen. Completion is now its own state.
+   */
+  it('keeps the wizard finished after the name is cleared again', () => {
+    const s = useResumeStore.getState();
+    s.updateBasics({ firstName: 'Elvin', lastName: 'Huseynov' });
+    s.updateContactEmail('elvin@example.az');
+    s.completeWizard();
+    expect(useResumeStore.getState().wizardCompleted).toBe(true);
+
+    useResumeStore.getState().updateBasics({ firstName: '' });
+    expect(useResumeStore.getState().resume.basics.firstName).toBe('');
+    expect(useResumeStore.getState().wizardCompleted).toBe(true);
+
+    useResumeStore.getState().updateContactEmail('');
+    expect(useResumeStore.getState().wizardCompleted).toBe(true);
+  });
+
+  it('sends the user back to the wizard on reset (BR-8)', async () => {
+    useResumeStore.getState().completeWizard();
+    await useResumeStore.getState().resetResume();
+    expect(useResumeStore.getState().wizardCompleted).toBe(false);
   });
 
   it('adds, updates, removes and reorders list items', () => {

@@ -11,5 +11,4 @@ export const modernTheme = {
   faint: '#6b7280',
   heading: '#111827',
   rule: '#e5e7eb',
-  pageBg: '#ffffff',
 };

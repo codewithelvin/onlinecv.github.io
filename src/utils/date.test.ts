@@ -33,6 +33,37 @@ describe('date utils', () => {
     expect(formatMonthYear('2026-02', 'ka')).toBe('თებ 2026');
   });
 
+  /**
+   * dayjs's Arabic locale rewrites every digit it formats into Arabic-Indic
+   * numerals — including `format('YYYY-MM-DD')`, which is how a picked date
+   * becomes the value stored in IndexedDB. Left alone, an Arabic UI would
+   * persist `٢٠٢٦-٠٧-٣١` as a date of birth and no other locale could read it
+   * back. `utils/date` neutralizes `preparse`/`postformat` for that reason;
+   * this is the assertion that it stays neutralized.
+   */
+  it.each(SUPPORTED_LOCALES)('keeps stored dates in Western digits in %s', (locale) => {
+    dayjs.locale(locale);
+    try {
+      expect(dayjs('2026-07-31').format('YYYY-MM-DD')).toBe('2026-07-31');
+      // …and a date written in that locale still parses back to the same day.
+      expect(dayjs(dayjs('2026-07-31').format('YYYY-MM-DD')).date()).toBe(31);
+    } finally {
+      dayjs.locale('az');
+    }
+  });
+
+  /**
+   * DISPLAY is the other half of that split: what the reader sees does follow
+   * the locale's numerals (`LocaleMeta.digits`), it is only the stored value
+   * that must not. Both come out of the same formatter, so both are asserted.
+   */
+  it('writes dates in the locale’s own numerals', () => {
+    expect(formatFullDate('2026-07-31', 'az')).toBe('31.07.2026');
+    expect(formatFullDate('2026-07-31', 'ar')).toBe('٣١.٠٧.٢٠٢٦');
+    // Arabic month names, Arabic digits — dayjs supplies the first, we the second.
+    expect(formatMonthYear('2026-02', 'ar')).toBe('فبراير ٢٠٢٦');
+  });
+
   it('returns empty string for empty/invalid input', () => {
     const fmt = makeDateFormatter('az');
     expect(fmt('')).toBe('');

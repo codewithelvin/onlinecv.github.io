@@ -31,7 +31,16 @@ export function ExportButton({
     try {
       const { exportResumePdf } = await import('../../services/pdf');
       await exportResumePdf(resume, resume.templateId);
-    } catch {
+    } catch (error) {
+      /**
+       * The user gets the friendly message; the console gets the real one.
+       *
+       * This used to be a bare `catch {}`, which meant an export failure was
+       * completely undiagnosable: a bug report could only ever say "it shows the
+       * error" with nothing to act on. Logging costs nothing and is the only
+       * trace of a failure that happens on someone else's machine.
+       */
+      console.error('PDF export failed', error);
       void message.error(t('export.error'));
     } finally {
       setLoading(false);

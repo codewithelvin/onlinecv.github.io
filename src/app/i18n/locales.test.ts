@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import dayjs from 'dayjs';
-import { i18n } from './index';
-import { DEFAULT_LOCALE, LOCALES, SUPPORTED_LOCALES, isLocale, toLocale } from './locales';
+import { applyLocale, i18n } from './index';
+import { CV_LOCALES, DEFAULT_LOCALE, LOCALES, SUPPORTED_LOCALES, isLocale, toLocale } from './locales';
 
 /**
  * The "adding a language" contract (`docs/adding-a-language.md`).
@@ -82,6 +82,53 @@ describe('locale registry', () => {
       expect(shorts.has(meta.short), `"${meta.short}" is used twice`).toBe(false);
       shorts.add(meta.short);
     }
+  });
+
+  /**
+   * A locale can be translated for the UI before the exporter can render a CV in
+   * it. `CV_LOCALES` is that distinction, and it only ever narrows: the default
+   * locale must stay exportable, or the app's own first-run CV is unbuildable.
+   */
+  it('offers a subset of the UI languages as CV languages, always including the default', () => {
+    expect(CV_LOCALES.every((code) => SUPPORTED_LOCALES.includes(code))).toBe(true);
+    expect(CV_LOCALES).toContain(DEFAULT_LOCALE);
+    for (const locale of SUPPORTED_LOCALES) {
+      expect(typeof LOCALES[locale].cv, `"${locale}" does not declare \`cv\``).toBe('boolean');
+    }
+  });
+
+  /**
+   * Arabic is the app's first right-to-left locale, its first unicameral-plus-
+   * RTL script, and the first with numerals of its own. It is exportable — the
+   * letters are joined on the way into the PDF by `utils/arabic`, since
+   * react-pdf shapes an RTL line only after reordering it.
+   */
+  it('describes Arabic as right-to-left, uncased, Arabic-numeralled and exportable', () => {
+    expect(SUPPORTED_LOCALES).toContain('ar');
+    expect(LOCALES.ar.dir).toBe('rtl');
+    expect(LOCALES.ar.capitalizeMonths, 'Arabic has no letter case').toBe(false);
+    expect(LOCALES.ar.digits).toBe('arab');
+    expect(CV_LOCALES).toContain('ar');
+  });
+
+  /** Everything else reads Western digits — the flag is not a free-for-all. */
+  it('leaves the other locales on Western digits', () => {
+    for (const locale of SUPPORTED_LOCALES.filter((l) => l !== 'ar')) {
+      expect(LOCALES[locale].digits, `"${locale}" changed its numerals`).toBe('latn');
+    }
+  });
+
+  /**
+   * `applyLocale` is what an RTL locale actually costs: AntD reads the direction
+   * from `LOCALES` reactively, but the document attributes are imperative, and
+   * `<html dir>` is what mirrors the page itself.
+   */
+  it('writes lang and dir onto the document when the locale changes', () => {
+    applyLocale('ar');
+    expect(document.documentElement.getAttribute('lang')).toBe('ar');
+    expect(document.documentElement.getAttribute('dir')).toBe('rtl');
+    applyLocale(DEFAULT_LOCALE);
+    expect(document.documentElement.getAttribute('dir')).toBe('ltr');
   });
 
   it('normalizes locale-ish values', () => {

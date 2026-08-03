@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
+import { localePages } from './vite-plugin-locale-pages';
 
 /**
  * Public path the built app is served from. MUST match the real URL or every
@@ -92,6 +93,12 @@ export default defineConfig({
         enabled: false,
       },
     }),
+    /**
+     * One static landing page per language (`/az/`, `/ru/`, …) plus the sitemap
+     * and robots.txt. Last in the list, so it rewrites the HTML the other plugins
+     * have already produced.
+     */
+    localePages(),
   ],
   build: {
     target: 'es2020',
@@ -102,5 +109,18 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./src/test/setup.ts'],
     css: false,
+    /**
+     * Vitest's default is 5s, which this suite genuinely outgrows: several tests
+     * mount the WHOLE editor plus the live preview, and others render real PDFs
+     * through `@react-pdf`. Alone they land in 1–3s, but when files compete for
+     * cores they drift past 5s and fail on the clock rather than on an assertion
+     * — a flake that has bitten `HomePage` and `EditorPanel` repeatedly and was
+     * previously papered over by stating `30_000` on individual tests.
+     *
+     * Raised globally so the whole class is fixed rather than the two tests that
+     * happened to cross the line most recently. It cannot mask a hang: a real
+     * infinite loop still fails, just 30s later.
+     */
+    testTimeout: 30_000,
   },
 });

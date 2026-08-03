@@ -1,5 +1,5 @@
 import * as yup from 'yup';
-import { E164_PHONE, LETTERS_AND_SPACE, PROFILE_URL } from '../../utils/patterns';
+import { E164_PHONE, PERSON_NAME, PROFILE_URL } from '../../utils/patterns';
 import { calcAge } from '../../utils/date';
 
 /**
@@ -148,7 +148,7 @@ const nameRule = (requiredKey: string) =>
   yup
     .string()
     .trim()
-    .matches(LETTERS_AND_SPACE, 'onlyLettersAndSpace')
+    .matches(PERSON_NAME, 'onlyLettersAndSpace')
     .min(3, 'minThreeChars')
     .max(50, 'maximumFiftyCharacter')
     .required(requiredKey);

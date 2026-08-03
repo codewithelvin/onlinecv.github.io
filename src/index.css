@@ -61,6 +61,34 @@
 }
 
 /*
+ * Arabic — the same arrangement as Georgian above, for the same reason: Inter
+ * has not one Arabic glyph, and the Noto build is script-only (no Latin), so the
+ * two never compete for a code point.
+ *
+ * The range covers Arabic (U+0600–06FF), the Arabic Supplement (U+0750–077F) and
+ * Extended-A (U+08A0–08FF), plus the Presentation Forms blocks (U+FB50–FDFF,
+ * U+FE70–FEFF). The presentation forms are legacy pre-shaped characters — the
+ * app never writes them, but text pasted from an older document can carry them,
+ * and without the range that paste would fall back to a system font mid-word.
+ */
+@font-face {
+  font-family: 'NotoSansArabic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ttf/NotoSansArabic-Regular.ttf') format('truetype');
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+@font-face {
+  font-family: 'NotoSansArabic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/ttf/NotoSansArabic-Bold.ttf') format('truetype');
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+/*
  * `min-height`, deliberately NOT `height: 100%`.
  *
  * Ant Design locks background scrolling while a modal is open by injecting

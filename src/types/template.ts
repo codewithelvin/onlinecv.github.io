@@ -33,6 +33,32 @@ export interface PageMargin {
   bottom: number;
 }
 
+/**
+ * A solid colour column running the full height of EVERY page, behind the
+ * content — the modern template's accent sidebar.
+ *
+ * Declared here rather than drawn by the template, because it is the one piece of
+ * a template that cannot be expressed as an element in the flow. It has to reach
+ * the paper edges, so it must escape `pageMargin`; and it has to repeat on page
+ * 2, which only a page-level element does. It used to be an absolutely positioned
+ * div inside the template marked `data-page-bleed`, which core turned into a
+ * `fixed` View — that worked until `@react-pdf` v4 stopped repeating `fixed`
+ * nodes nested inside the parsed-markup wrapper, and the column vanished from
+ * every page but the first.
+ *
+ * As a manifest field, core paints it as a direct child of the page in BOTH
+ * targets from one declaration, so the preview and the export cannot disagree,
+ * and no template needs to know how pagination works.
+ */
+export interface PageBleed {
+  /** Column width — a percentage of the page width, or points. */
+  width: string | number;
+  /** Fill colour. */
+  color: string;
+  /** Which edge it hugs; defaults to the left. */
+  side?: 'left' | 'right';
+}
+
 /** Metadata each template folder exports (`manifest.ts`). */
 export interface TemplateManifest {
   /** MUST equal the folder name. */
@@ -47,6 +73,8 @@ export interface TemplateManifest {
   thumbnail: string;
   /** Per-page vertical margin. Omitted = none (the template pads itself). */
   pageMargin?: PageMargin;
+  /** Full-height accent column painted behind the content on every page. */
+  pageBleed?: PageBleed;
 }
 
 /** A registry entry: eager manifest + lazy component loader. */

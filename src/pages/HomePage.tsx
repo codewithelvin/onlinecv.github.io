@@ -1,7 +1,6 @@
 import type { JSX } from 'react';
 import { Layout, Space, Spin } from 'antd';
 import { useResumeStore } from '../state/store';
-import { needsWizard } from '../utils/empty-resume';
 import { Brand } from '../components/Brand';
 import { TelegramButton } from '../components/TelegramButton';
 import { LanguageSwitcher } from '../features/i18n/LanguageSwitcher';
@@ -11,7 +10,7 @@ import { EditorLayout } from '../layouts/EditorLayout';
 /** Root page (spec §7 pages): loading gate → first-run wizard → full editor. */
 export function HomePage(): JSX.Element {
   const hydrated = useResumeStore((s) => s.hydrated);
-  const resume = useResumeStore((s) => s.resume);
+  const wizardCompleted = useResumeStore((s) => s.wizardCompleted);
 
   if (!hydrated) {
     return (
@@ -24,7 +23,7 @@ export function HomePage(): JSX.Element {
     );
   }
 
-  if (needsWizard(resume)) {
+  if (!wizardCompleted) {
     return (
       <Layout className="min-h-viewport">
         <Layout.Header

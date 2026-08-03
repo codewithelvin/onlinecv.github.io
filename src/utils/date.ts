@@ -5,6 +5,7 @@ import type { Locale } from '../types/resume';
 // Importing the registry also loads every locale's dayjs data (side-effect
 // imports live there), which `updateLocale` below depends on.
 import { LOCALES, SUPPORTED_LOCALES } from '../app/i18n/locales';
+import { toArabicDigits } from './arabic';
 
 dayjs.extend(customParseFormat);
 dayjs.extend(updateLocale);
@@ -35,17 +36,35 @@ function capitalizedMonthsShort(locale: Locale): string[] {
 }
 
 /**
+ * Identity `preparse`/`postformat`, replacing whatever a locale ships.
+ *
+ * dayjs's Arabic locale rewrites EVERY digit of every formatted string into
+ * Arabic-Indic numerals (and `,` into `،`). That is a display convention, but
+ * dayjs applies it to `.format()` as such — including `format('YYYY-MM-DD')`,
+ * the call that produces the value stored in IndexedDB. An Arabic UI would
+ * therefore persist `٢٠٢٦-٠٧-٣١` as a date of birth: no longer the ISO string
+ * the model is defined in (§13), unsortable, and unreadable to every other
+ * locale the moment the user switches languages.
+ *
+ * Neutralizing the pair keeps the Arabic month and weekday names while leaving
+ * the digits alone, so the storage format is the same in all locales.
+ */
+const KEEP_DIGITS = { preparse: (s: string) => s, postformat: (s: string) => s };
+
+/**
  * Per-locale dayjs overrides, applied once for every registered locale:
  *
  *  - `weekStart: 1` — the week starts on Monday everywhere (`az`/`ru` already
  *    ship this, `en` defaults to Sunday). Ant Design's pickers read it through
  *    `dayjs.localeData().firstDayOfWeek()`, so this fixes every calendar at once.
  *  - capitalized short month names (see above).
+ *  - Western digits (see above) — a no-op for every locale but `ar`.
  */
 for (const locale of SUPPORTED_LOCALES) {
   dayjs.updateLocale(locale, {
     weekStart: 1,
     monthsShort: capitalizedMonthsShort(locale),
+    ...KEEP_DIGITS,
   });
 }
 
@@ -67,8 +86,22 @@ export function makeDateFormatter(locale: Locale): (iso: string, fmt?: string) =
   return (iso: string, fmt: string = FULL_DATE): string => {
     if (!iso) return '';
     const d = dayjs(iso).locale(locale);
-    return d.isValid() ? d.format(fmt) : '';
+    return d.isValid() ? localizeDigits(d.format(fmt), locale) : '';
   };
+}
+
+/**
+ * Rewrite a FORMATTED string's digits into the locale's own numerals
+ * (`31.07.2026` → `٣١.٠٧.٢٠٢٦` in Arabic). `LocaleMeta.digits` decides; every
+ * other locale is a no-op.
+ *
+ * Deliberately at the display end rather than in dayjs, which applies its
+ * `postformat` to `.format()` as such — including the `YYYY-MM-DD` call whose
+ * result is STORED. Formatting for the eye and formatting for the record are two
+ * different things, and only the first one localizes.
+ */
+export function localizeDigits(text: string, locale: Locale): string {
+  return LOCALES[locale].digits === 'arab' ? toArabicDigits(text) : text;
 }
 
 /** Format a full ISO date (`YYYY-MM-DD`) as `DD.MM.YYYY` in the given locale. */

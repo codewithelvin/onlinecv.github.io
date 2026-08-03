@@ -38,6 +38,7 @@ describe('PwaInstallPrompt', () => {
       resume: filledResume(),
       uiLocale: 'az',
       hydrated: true,
+      wizardCompleted: true,
       persistenceError: false,
     });
   });
@@ -69,7 +70,7 @@ describe('PwaInstallPrompt', () => {
 
   /** A modal over the first-run wizard reads as the app being broken. */
   it('never covers the first-run wizard', () => {
-    useResumeStore.setState({ resume: createEmptyResume('az') });
+    useResumeStore.setState({ resume: createEmptyResume('az'), wizardCompleted: false });
     renderWithProviders(<PwaInstallPrompt />);
     fireBeforeInstallPrompt();
     expect(screen.queryByText('OnlineCV-ni cihazınıza quraşdırın')).toBeNull();

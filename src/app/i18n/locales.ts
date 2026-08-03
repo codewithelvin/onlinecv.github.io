@@ -3,10 +3,12 @@ import azAZ from 'antd/locale/az_AZ';
 import ruRU from 'antd/locale/ru_RU';
 import enUS from 'antd/locale/en_US';
 import kaGE from 'antd/locale/ka_GE';
+import arEG from 'antd/locale/ar_EG';
 import 'dayjs/locale/az';
 import 'dayjs/locale/ru';
 import 'dayjs/locale/en';
 import 'dayjs/locale/ka';
+import 'dayjs/locale/ar';
 import type { Locale } from '../../types/resume';
 
 /**
@@ -48,6 +50,31 @@ export interface LocaleMeta {
    * month, it is a spelling error. Arabic, Farsi and Hebrew have no case at all.
    */
   capitalizeMonths: boolean;
+  /**
+   * Which digits the locale READS. `arab` renders `2026` as `٢٠٢٦` on the
+   * finished CV (dates, age) — the convention in Arabic typesetting.
+   *
+   * Display only, and applied to already-formatted output: what is STORED stays
+   * ISO in Western digits. dayjs's Arabic locale does the same rewriting inside
+   * `.format()` itself, which would have reached `format('YYYY-MM-DD')` and
+   * persisted `٢٠٢٦-٠٧-٣١` as a date of birth — `utils/date` turns that off and
+   * localizes the digits here instead, where only display passes through.
+   */
+  digits: 'latn' | 'arab';
+  /**
+   * Whether the locale may also be chosen as the CV's OWN language
+   * (`Resume.locale`), i.e. whether the EXPORT can be rendered in it. Separate
+   * from the UI locale on purpose (spec §10.1) — translating the app is one
+   * thing, producing a correct PDF in that language is another.
+   *
+   * Every shipped locale is exportable today. The flag exists because that is
+   * not automatic: Arabic needed a font (`_core/fonts`), digit localization
+   * (above) and a pre-shaping pass in `services/pdf.ts` before it could be
+   * offered here, and it was `false` until all three were in place. A language
+   * whose script the exporter cannot draw belongs in the UI switcher but not in
+   * `CV_LOCALES`.
+   */
+  cv: boolean;
   /** Ant Design component-text bundle (`antd/locale/*`). */
   antd: AntdLocale;
 }
@@ -63,6 +90,8 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     nativeName: 'Azərbaycan',
     dir: 'ltr',
     capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
     antd: azAZ,
   },
   ru: {
@@ -71,6 +100,8 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     nativeName: 'Русский',
     dir: 'ltr',
     capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
     antd: ruRU,
   },
   en: {
@@ -79,6 +110,8 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     nativeName: 'English',
     dir: 'ltr',
     capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
     antd: enUS,
   },
   /**
@@ -94,12 +127,42 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     nativeName: 'ქართული',
     dir: 'ltr',
     capitalizeMonths: false,
+    digits: 'latn',
+    cv: true,
     antd: kaGE,
+  },
+  /**
+   * Arabic — the first right-to-left locale, so it is the first one where `dir`
+   * does real work: AntD flips its components and `<html dir="rtl">` mirrors the
+   * layout. Its font (`NotoSansArabic`) is registered exactly like the Georgian
+   * one, and Arabic has no letter case at all, hence `capitalizeMonths: false`.
+   *
+   * It is also the first locale that needed work beyond a translation before it
+   * could be EXPORTED (`cv`): the letters are joined by `utils/arabic` on the way
+   * into the PDF, because react-pdf shapes a right-to-left line after it has
+   * already reordered it — see that module, and `docs/adding-a-language.md`.
+   */
+  ar: {
+    code: 'ar',
+    short: 'AR',
+    nativeName: 'العربية',
+    dir: 'rtl',
+    capitalizeMonths: false,
+    digits: 'arab',
+    cv: true,
+    antd: arEG,
   },
 };
 
 /** Every supported locale, in switcher order. */
 export const SUPPORTED_LOCALES = Object.keys(LOCALES) as Locale[];
+
+/**
+ * The locales a CV itself can be written in — `SUPPORTED_LOCALES` minus the ones
+ * the exporter cannot render correctly yet (`LocaleMeta.cv`). Only the
+ * CV-language select reads this; the UI switcher offers everything.
+ */
+export const CV_LOCALES = SUPPORTED_LOCALES.filter((code) => LOCALES[code].cv);
 
 /**
  * First run starts in Azerbaijani — the primary market — and this is also the

@@ -29,13 +29,28 @@ const DATASETS: Record<DictionaryGroup, DictionaryEntry[]> = {
 } as unknown as Record<DictionaryGroup, DictionaryEntry[]>;
 
 /**
- * Groups whose labels a Georgian user actually reads in a select or on the CV,
- * and which are therefore fully translated. `universities`/`colleges` are lists
- * of Azerbaijani institutions: their names stay Azerbaijani in every locale
- * (only the foreign universities added for other markets carry a `ka`), because
- * a transliterated institution name is less useful than the real one.
+ * EVERY group is fully translated — there is no exemption left.
+ *
+ * `universities` and `colleges` used to be excluded on the grounds that a
+ * transliterated Azerbaijani institution name is less useful than the real one.
+ * That reasoning does not survive contact with the product: the institution is
+ * printed on the CV and picked from a select, so in a Georgian or Arabic UI those
+ * rows fell back to Azerbaijani and the user was reading a script they may not
+ * know in the middle of their own CV. Institution names are now transliterated
+ * (Georgian) and rendered in Arabic like any other proper noun, which is what
+ * both languages do with foreign institutions anyway.
+ *
+ * Keeping the list total over `DictionaryGroup` is deliberate: adding a dataset
+ * forces a decision here rather than silently shipping an untranslated one.
  */
-const FULLY_TRANSLATED: DictionaryGroup[] = ['skills', 'languages', 'interests', 'nationality'];
+const FULLY_TRANSLATED: DictionaryGroup[] = [
+  'skills',
+  'languages',
+  'interests',
+  'nationality',
+  'universities',
+  'colleges',
+];
 
 describe.each(Object.entries(DATASETS))('%s dataset', (group, rows) => {
   it('is a non-empty list of rows tagged with its own group', () => {
@@ -87,6 +102,7 @@ describe('dictionary translation coverage', () => {
       ru: 'russian',
       en: 'english',
       ka: 'georgian',
+      ar: 'arab',
     };
     for (const locale of SUPPORTED_LOCALES) {
       const code = ownLanguage[locale];

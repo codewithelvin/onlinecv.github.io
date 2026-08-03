@@ -1,0 +1,148 @@
+diff --git a/node_modules/@react-pdf/textkit/lib/textkit.cjs b/node_modules/@react-pdf/textkit/lib/textkit.cjs
+index 7879740..f98e2fa 100644
+--- a/node_modules/@react-pdf/textkit/lib/textkit.cjs
++++ b/node_modules/@react-pdf/textkit/lib/textkit.cjs
+@@ -1097,26 +1097,59 @@ var reorderLine = function reorderLine(attributedString) {
+ 
+   // No need for bidi reordering
+   if (segments.length === 0) return attributedString;
+-  var indices = getReorderedIndices(attributedString.string, segments);
+   var updatedString = bidi$2.getReorderedString(attributedString.string, embeddingLevels);
+-  var updatedRuns = attributedString.runs.map(function (run) {
+-    var selectedIndices = indices.slice(run.start, run.end);
+-    var updatedGlyphs = [];
+-    var updatedPositions = [];
+-    var addedGlyphs = new Set();
+-    for (var i = 0; i < selectedIndices.length; i += 1) {
+-      var index = selectedIndices[i];
+-      var glyph = getItemAtIndex(attributedString.runs, 'glyphs', index);
+-      if (addedGlyphs.has(glyph.id)) continue;
+-      updatedGlyphs.push(glyph);
+-      updatedPositions.push(getItemAtIndex(attributedString.runs, 'positions', index));
+-      if (glyph.isLigature) {
+-        addedGlyphs.add(glyph.id);
++
++  // PATCHED (onlinecv): reorder RUNS (Unicode bidi rule L2), never move glyphs
++  // between them. Upstream rebuilt each run's glyph list from the line's
++  // reordered CHARACTER indices via getItemAtIndex(allRuns, ...), which reaches
++  // across run boundaries. Two consequences, both fatal for Arabic:
++  //   1. a run painted with font A could receive glyph ids belonging to font B,
++  //      and glyph ids are per-font, so the wrong outlines were drawn (Latin
++  //      letters appearing inside Arabic words);
++  //   2. the index lookup returned undefined whenever a run's character count
++  //      and glyph count disagree (ligatures merge letters, mark decomposition
++  //      splits them), and upstream read .id off it.
++  // Runs are already itemized one-font, one-bidi-level, which is exactly L2's
++  // granularity: reverse contiguous stretches of runs from the highest level
++  // down to the lowest odd level, then reverse the glyphs inside each odd-level
++  // run. Equivalent to L2 at character granularity, but no glyph ever leaves the
++  // run whose font draws it, so nothing can be dropped or mis-drawn.
++  var orderedRuns = attributedString.runs.slice();
++  var runLevels = orderedRuns.map(function (run) {
++    return (run.attributes && run.attributes.bidiLevel) || 0;
++  });
++  var oddLevels = runLevels.filter(function (l) {
++    return l % 2 === 1;
++  });
++  if (oddLevels.length > 0) {
++    var maxLevel = Math.max.apply(null, runLevels);
++    var minOddLevel = Math.min.apply(null, oddLevels);
++    for (var lvl = maxLevel; lvl >= minOddLevel; lvl -= 1) {
++      var i = 0;
++      while (i < orderedRuns.length) {
++        if (runLevels[i] >= lvl) {
++          var j = i;
++          while (j + 1 < orderedRuns.length && runLevels[j + 1] >= lvl) j += 1;
++          for (var a = i, b = j; a < b; a += 1, b -= 1) {
++            var tmpRun = orderedRuns[a];
++            orderedRuns[a] = orderedRuns[b];
++            orderedRuns[b] = tmpRun;
++            var tmpLevel = runLevels[a];
++            runLevels[a] = runLevels[b];
++            runLevels[b] = tmpLevel;
++          }
++          i = j + 1;
++        } else {
++          i += 1;
++        }
+       }
+     }
++  }
++  var updatedRuns = orderedRuns.map(function (run, index) {
++    if (runLevels[index] % 2 === 0) return run;
+     return _extends__default.default({}, run, {
+-      glyphs: updatedGlyphs,
+-      positions: updatedPositions
++      glyphs: (run.glyphs || []).slice().reverse(),
++      positions: (run.positions || []).slice().reverse()
+     });
+   });
+   return _extends__default.default({}, attributedString, {
+diff --git a/node_modules/@react-pdf/textkit/lib/textkit.js b/node_modules/@react-pdf/textkit/lib/textkit.js
+index 9c407c8..b828789 100644
+--- a/node_modules/@react-pdf/textkit/lib/textkit.js
++++ b/node_modules/@react-pdf/textkit/lib/textkit.js
+@@ -1083,26 +1083,47 @@ var reorderLine = function reorderLine(attributedString) {
+ 
+   // No need for bidi reordering
+   if (segments.length === 0) return attributedString;
+-  var indices = getReorderedIndices(attributedString.string, segments);
+   var updatedString = bidi$2.getReorderedString(attributedString.string, embeddingLevels);
+-  var updatedRuns = attributedString.runs.map(function (run) {
+-    var selectedIndices = indices.slice(run.start, run.end);
+-    var updatedGlyphs = [];
+-    var updatedPositions = [];
+-    var addedGlyphs = new Set();
+-    for (var i = 0; i < selectedIndices.length; i += 1) {
+-      var index = selectedIndices[i];
+-      var glyph = getItemAtIndex(attributedString.runs, 'glyphs', index);
+-      if (addedGlyphs.has(glyph.id)) continue;
+-      updatedGlyphs.push(glyph);
+-      updatedPositions.push(getItemAtIndex(attributedString.runs, 'positions', index));
+-      if (glyph.isLigature) {
+-        addedGlyphs.add(glyph.id);
++
++  // PATCHED (onlinecv): reorder RUNS (UBA L2), never move glyphs between them.
++  // See patches/README.md — the previous behaviour drew glyphs with the wrong
++  // font and dropped characters whose glyph lookup failed.
++  var orderedRuns = attributedString.runs.slice();
++  var runLevels = orderedRuns.map(function (run) {
++    return (run.attributes && run.attributes.bidiLevel) || 0;
++  });
++  var oddLevels = runLevels.filter(function (l) {
++    return l % 2 === 1;
++  });
++  if (oddLevels.length > 0) {
++    var maxLevel = Math.max.apply(null, runLevels);
++    var minOddLevel = Math.min.apply(null, oddLevels);
++    for (var lvl = maxLevel; lvl >= minOddLevel; lvl -= 1) {
++      var i = 0;
++      while (i < orderedRuns.length) {
++        if (runLevels[i] >= lvl) {
++          var j = i;
++          while (j + 1 < orderedRuns.length && runLevels[j + 1] >= lvl) j += 1;
++          for (var a = i, b = j; a < b; a += 1, b -= 1) {
++            var tmpRun = orderedRuns[a];
++            orderedRuns[a] = orderedRuns[b];
++            orderedRuns[b] = tmpRun;
++            var tmpLevel = runLevels[a];
++            runLevels[a] = runLevels[b];
++            runLevels[b] = tmpLevel;
++          }
++          i = j + 1;
++        } else {
++          i += 1;
++        }
+       }
+     }
++  }
++  var updatedRuns = orderedRuns.map(function (run, index) {
++    if (runLevels[index] % 2 === 0) return run;
+     return _extends({}, run, {
+-      glyphs: updatedGlyphs,
+-      positions: updatedPositions
++      glyphs: (run.glyphs || []).slice().reverse(),
++      positions: (run.positions || []).slice().reverse()
+     });
+   });
+   return _extends({}, attributedString, {
