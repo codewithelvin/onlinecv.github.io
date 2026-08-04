@@ -36,19 +36,25 @@ export const contactSchema = yup.object({
     })
     .when('type', {
       is: 'linkedin',
-      then: (s) => s.matches(PROFILE_URL.linkedin, 'shouldBeLinkedinUrl').max(100, 'maximumHundredCharacter'),
+      then: (s) =>
+        s.matches(PROFILE_URL.linkedin, 'shouldBeLinkedinUrl').max(100, 'maximumHundredCharacter'),
     })
     .when('type', {
       is: 'facebook',
-      then: (s) => s.matches(PROFILE_URL.facebook, 'shouldBeFacebookUrl').max(100, 'maximumHundredCharacter'),
+      then: (s) =>
+        s.matches(PROFILE_URL.facebook, 'shouldBeFacebookUrl').max(100, 'maximumHundredCharacter'),
     })
     .when('type', {
       is: 'github',
-      then: (s) => s.matches(PROFILE_URL.github, 'shouldBeGithubUrl').max(100, 'maximumHundredCharacter'),
+      then: (s) =>
+        s.matches(PROFILE_URL.github, 'shouldBeGithubUrl').max(100, 'maximumHundredCharacter'),
     })
     .when('type', {
       is: 'instagram',
-      then: (s) => s.matches(PROFILE_URL.instagram, 'shouldBeInstagramUrl').max(100, 'maximumHundredCharacter'),
+      then: (s) =>
+        s
+          .matches(PROFILE_URL.instagram, 'shouldBeInstagramUrl')
+          .max(100, 'maximumHundredCharacter'),
     })
     .when('type', {
       is: 'x',
@@ -81,7 +87,11 @@ export const educationSchema = yup.object({
    * too long. A field has to be able to hold what its own dictionary offers —
    * asserted in `data/datasets.test.ts`.
    */
-  institution: yup.string().trim().required('institutionRequired').max(150, 'maximumHundredCharacter'),
+  institution: yup
+    .string()
+    .trim()
+    .required('institutionRequired')
+    .max(150, 'maximumHundredCharacter'),
   /**
    * Faculty is ALWAYS optional — a deliberate departure from the source app's
    * yup, which required it for a university. Plenty of diplomas simply do not
@@ -143,7 +153,12 @@ export const certificationSchema = yup.object({
       return value >= issueDate;
     }),
   credentialId: yup.string().trim().max(100, 'maximumHundredCharacter').optional(),
-  credentialUrl: yup.string().trim().url('credentialUrlInvalid').max(200, 'credentialUrlInvalid').optional(),
+  credentialUrl: yup
+    .string()
+    .trim()
+    .url('credentialUrlInvalid')
+    .max(200, 'credentialUrlInvalid')
+    .optional(),
   comment: yup.string().trim().max(100, 'maximumHundredCharacter').optional(),
 });
 
@@ -159,12 +174,31 @@ export const projectSchema = yup.object({
   highlights: yup.array(yup.string().max(200, 'highlightMax')).optional(),
 });
 
+/**
+ * A person's name: the right SHAPE (`PERSON_NAME`), not longer than the column,
+ * and present.
+ *
+ * ⚠️ NO MINIMUM LENGTH, and that is a deliberate removal rather than an omission.
+ * This rule carried `.min(3)` — the production value reconciled from the original
+ * app, whose users all wrote Azerbaijani names. A Korean surname is ONE syllable
+ * (김, 이, 박, and 이 covers a fifth of the country), a Korean given name is
+ * usually two, so `min(3)` rejected the surname of every Korean user the moment
+ * the locale shipped — and it had already been rejecting "Bo", "Li" and "Jo".
+ *
+ * Same class of bug as the name pattern that only knew Latin and Cyrillic letters,
+ * and as the driver-licence categories that were one country's list: a rule
+ * derived from one market, applied to all of them. What the rule was actually
+ * protecting against is an empty field, and `.required()` on a trimmed string is
+ * exactly that check — a name cannot be shorter than one letter.
+ *
+ * `BasicsSection`'s inline `nameError` mirrors this; both had to change, or the
+ * wizard would accept a name the editor then flagged.
+ */
 const nameRule = (requiredKey: string) =>
   yup
     .string()
     .trim()
     .matches(PERSON_NAME, 'onlyLettersAndSpace')
-    .min(3, 'minThreeChars')
     .max(50, 'maximumFiftyCharacter')
     .required(requiredKey);
 

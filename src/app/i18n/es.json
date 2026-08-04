@@ -225,7 +225,6 @@
     "userFirstnameRequired": "Introduzca su nombre",
     "userLastnameRequired": "Introduzca sus apellidos",
     "onlyLettersAndSpace": "Solo se permiten letras, espacios, guiones y apóstrofos",
-    "minThreeChars": "Hay que introducir un mínimo de 3 caracteres",
     "maximumFiftyCharacter": "Se puede introducir un máximo de 50 caracteres",
     "maximumHundredCharacter": "Se puede introducir un máximo de 100 caracteres",
     "maximumTwoHundredCharacter": "Se puede introducir un máximo de 200 caracteres",

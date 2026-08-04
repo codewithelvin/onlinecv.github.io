@@ -18,6 +18,12 @@ const NATIVE_NAME: Record<string, string> = {
   es: 'José Núñez',
   // Hebrew: an unpointed name, as it is normally written.
   he: 'דוד כהן',
+  /**
+   * Korean: family name first, and it is a SINGLE Hangul syllable — which is why
+   * the name rule's `min(3)` had to go (see `schemas.ts`). Each syllable is one
+   * `\p{L}` code point, so the pattern itself needed no change.
+   */
+  ko: '김민준',
 };
 
 describe('PERSON_NAME', () => {

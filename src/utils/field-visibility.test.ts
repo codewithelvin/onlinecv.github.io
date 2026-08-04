@@ -195,7 +195,10 @@ describe('field visibility', () => {
         const shown = await markup(probe(), load);
         if (!shown.includes(CITY)) continue;
         printedBy += 1;
-        expect(await markup(probe(['location']), load), `${manifest.id} still prints the city`).not.toContain(CITY);
+        expect(
+          await markup(probe(['location']), load),
+          `${manifest.id} still prints the city`,
+        ).not.toContain(CITY);
       }
       expect(printedBy, 'no template prints the city — the case proves nothing').toBeGreaterThan(0);
     });

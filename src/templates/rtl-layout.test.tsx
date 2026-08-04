@@ -49,8 +49,7 @@ async function markup(templateId: string, locale: Resume['locale']): Promise<str
 }
 
 /** Inline styles on every element, as `style="…"` strings. */
-const styles = (html: string): string[] =>
-  [...html.matchAll(/style="([^"]*)"/g)].map((m) => m[1]);
+const styles = (html: string): string[] => [...html.matchAll(/style="([^"]*)"/g)].map((m) => m[1]);
 
 describe('right-to-left block layout', () => {
   for (const { manifest } of listTemplates()) {

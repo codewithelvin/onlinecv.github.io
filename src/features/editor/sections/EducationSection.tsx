@@ -114,7 +114,10 @@ export function EducationSection(): JSX.Element {
             ed.editingItem
               ? toValues(ed.editingItem, {
                   institution: institution(ed.editingItem),
-                  faculty: faculties.resolve(ed.editingItem.facultyCode, ed.editingItem.faculty ?? ''),
+                  faculty: faculties.resolve(
+                    ed.editingItem.facultyCode,
+                    ed.editingItem.faculty ?? '',
+                  ),
                   specialization: specialities.resolve(
                     ed.editingItem.specializationCode,
                     ed.editingItem.specialization ?? '',

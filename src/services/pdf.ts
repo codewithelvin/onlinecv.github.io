@@ -97,6 +97,29 @@ export function registerResumeFonts(pdfLib: typeof ReactPdf, fontBase: string = 
       { src: `${fontBase}/NotoSansHebrew-Bold.ttf`, fontWeight: 700 },
     ],
   });
+  /**
+   * Korean. Hangul is written with 11,172 precomposed syllables, so this is the
+   * one script face that is MEGABYTES rather than tens of kilobytes — 2.0 MB per
+   * weight against Hebrew's 27 KB. It needs no shaping (a syllable is a single
+   * code point) and no bidi, so the file size is very nearly the whole cost of
+   * the locale.
+   *
+   * ⚠️ THE `.ttf` IS DELIBERATE, and the `.woff2` that `index.css` uses for the
+   * PREVIEW must not be substituted for it here. fontkit reads woff2 perfectly
+   * well and the export succeeds — but `@react-pdf/pdfkit` then embeds the WHOLE
+   * font instead of subsetting it, because subsetting reads the `glyf`/`loca`
+   * tables that a woff2 stores transformed. MEASURED on the same one-page Korean
+   * document: **25 KB** from these TTFs, **1.7 MB** from the woff2s. A 6× larger
+   * file in `public/` is the app's problem; a 68× larger PDF is the user's, and
+   * they are about to attach it to a job application.
+   */
+  Font.register({
+    family: 'NanumGothic',
+    fonts: [
+      { src: `${fontBase}/NanumGothic-Regular.ttf`, fontWeight: 400 },
+      { src: `${fontBase}/NanumGothic-Bold.ttf`, fontWeight: 700 },
+    ],
+  });
   // Text-based, ATS-parseable output: don't insert soft hyphens.
   Font.registerHyphenationCallback((word) => [word]);
 
@@ -370,9 +393,7 @@ export async function exportResumePdf(resume: Resume, templateId: TemplateId): P
   const visible = applyFieldVisibility(resume);
   const dicts = await loadDictionaries(referencedDictionaryGroups(visible));
   const localized = localizeResume(visible, resume.locale, dicts);
-  const html = renderToStaticMarkup(
-    createElement(Template, { resume: localized, t, formatDate }),
-  );
+  const html = renderToStaticMarkup(createElement(Template, { resume: localized, t, formatDate }));
 
   const document = buildResumeDocument(pdfLib, HtmlComponent, {
     html,

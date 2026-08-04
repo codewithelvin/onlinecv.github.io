@@ -82,7 +82,8 @@ describe('field visibility toggles', () => {
   it('re-checking removes the field from hiddenFields rather than piling up', async () => {
     const user = userEvent.setup();
     const { container } = renderWithProviders(<EditorPanel />);
-    const box = (): HTMLInputElement => container.querySelector<HTMLInputElement>(toggleId('gender'))!;
+    const box = (): HTMLInputElement =>
+      container.querySelector<HTMLInputElement>(toggleId('gender'))!;
 
     await user.click(box());
     expect(useResumeStore.getState().resume.hiddenFields).toEqual(['gender']);

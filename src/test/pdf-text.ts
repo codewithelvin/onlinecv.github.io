@@ -45,9 +45,7 @@ function toUnicodeByFont(pdf: string): Map<string, Map<string, string>> {
 
       const table = new Map<string, string>();
       const hexToText = (hex: string): string =>
-        (hex.match(/.{4}/g) ?? [])
-          .map((unit) => String.fromCharCode(parseInt(unit, 16)))
-          .join('');
+        (hex.match(/.{4}/g) ?? []).map((unit) => String.fromCharCode(parseInt(unit, 16))).join('');
 
       for (const block of cmap.matchAll(/beginbfchar([\s\S]*?)endbfchar/g)) {
         for (const pair of block[1].matchAll(/<([0-9a-fA-F]+)>\s*<([0-9a-fA-F]+)>/g)) {
@@ -63,10 +61,7 @@ function toUnicodeByFont(pdf: string): Map<string, Map<string, string>> {
           const hi = parseInt(row[2], 16);
           const dst = parseInt(row[3], 16);
           for (let id = lo; id <= hi && id - lo < 0x10000; id += 1) {
-            table.set(
-              id.toString(16).padStart(4, '0'),
-              String.fromCharCode(dst + (id - lo)),
-            );
+            table.set(id.toString(16).padStart(4, '0'), String.fromCharCode(dst + (id - lo)));
           }
         }
       }
@@ -211,7 +206,12 @@ export function missingWords(pdf: string, source: string): string[] {
   const haystack = pdfPlainText(pdf);
   return source
     .split(/\s+/)
-    .map((word) => word.replace(/^[(),.·—:;]+|[(),.·—:;]+$/g, '').replace(INVISIBLE, '').normalize('NFKC'))
+    .map((word) =>
+      word
+        .replace(/^[(),.·—:;]+|[(),.·—:;]+$/g, '')
+        .replace(INVISIBLE, '')
+        .normalize('NFKC'),
+    )
     .filter((word) => word.length > 1)
     .filter((word) => !haystack.includes(word));
 }

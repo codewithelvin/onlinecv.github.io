@@ -1,0 +1,24 @@
+# Build output — generated, and `dist/` holds the emitted per-locale pages.
+dist
+dev-dist
+coverage
+node_modules
+
+# Generated or vendored: reformatting these breaks the tool that reads them.
+# `patches/` in particular is applied by `patch-package` as a byte-exact diff.
+package-lock.json
+patches
+
+# Fonts and images. Prettier skips unknown extensions anyway; listed so that
+# `--write .` cannot be surprised by a new asset type.
+public/fonts
+public/pwa
+
+# Markdown, deliberately. The prose here is hand-wrapped at 80 columns, which
+# `proseWrap: "preserve"` neither enforces nor helps with, and Prettier pads
+# every table cell to the width of the widest one in its column: the audit table
+# in `docs/browser-support.md` has one 350-character cell, so all five rows come
+# out 393 characters wide and any edit to one cell reflows the whole table.
+# Formatting is worth having where it settles arguments about code; here it just
+# makes the docs harder to edit by hand.
+*.md

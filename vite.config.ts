@@ -50,7 +50,8 @@ export default defineConfig({
       manifest: {
         name: 'OnlineCV',
         short_name: 'OnlineCV',
-        description: 'ATS-friendly resume/CV builder — build and export your CV entirely in your browser.',
+        description:
+          'ATS-friendly resume/CV builder — build and export your CV entirely in your browser.',
         lang: 'az',
         dir: 'ltr',
         theme_color: '#1877F2',
@@ -60,7 +61,12 @@ export default defineConfig({
         orientation: 'any',
         display: 'standalone',
         icons: [
-          { src: `${BASE}pwa/maskable.png`, type: 'image/png', sizes: '512x512', purpose: 'maskable' },
+          {
+            src: `${BASE}pwa/maskable.png`,
+            type: 'image/png',
+            sizes: '512x512',
+            purpose: 'maskable',
+          },
           { src: `${BASE}pwa/logo48.png`, type: 'image/png', sizes: '48x48' },
           { src: `${BASE}pwa/logo72.png`, type: 'image/png', sizes: '72x72' },
           { src: `${BASE}pwa/logo96.png`, type: 'image/png', sizes: '96x96' },
@@ -73,6 +79,36 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2,ttf,json}'],
+        /**
+         * The Korean PDF fonts are the ONLY assets kept out of the precache, and
+         * the reason is arithmetic. `NanumGothic` is 4.1 MB across its two weights
+         * — six times all three other script faces put together — against a
+         * precache that is 6.9 MB in total, so precaching it would make every
+         * install of the app well over half again as big, for a script most of its
+         * users will never type. The Korean UI and PREVIEW are unaffected and work
+         * offline from the first load: those draw the same face from the woff2 pair
+         * in `fonts/woff2/` (758 KB), which stays precached with everything else.
+         *
+         * What it costs, stated plainly: the FIRST Korean PDF export needs the
+         * network. `runtimeCaching` below then keeps the files, so every export
+         * after it — offline included — is served from the cache.
+         */
+        globIgnores: ['**/NanumGothic-*.ttf'],
+        runtimeCaching: [
+          {
+            // `registerResumeFonts` (services/pdf.ts) fetches these by URL at
+            // export time, so a runtime handler is all it takes to make them
+            // offline-safe once they have been fetched once. CacheFirst, because a
+            // font file at a hashed-by-content path never changes.
+            urlPattern: /\/fonts\/ttf\/NanumGothic-[A-Za-z]+\.ttf$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'onlinecv-korean-pdf-fonts',
+              expiration: { maxEntries: 4 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+        ],
         maximumFileSizeToCacheInBytes: 6 * 1024 * 1024,
         // Must be base-qualified, or the offline fallback resolves to the domain
         // root and misses the app entirely.

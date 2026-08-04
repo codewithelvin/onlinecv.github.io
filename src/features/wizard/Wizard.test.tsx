@@ -22,14 +22,17 @@ async function pickOption(
   id: string,
   label: string,
 ): Promise<void> {
-  const selector = container.querySelector(id)?.closest('.ant-select')?.querySelector('.ant-select-selector');
+  const selector = container
+    .querySelector(id)
+    ?.closest('.ant-select')
+    ?.querySelector('.ant-select-selector');
   expect(selector, `${id} is not a Select`).toBeTruthy();
   await user.click(selector as Element);
   // The dropdown renders through a portal, so it is queried off `document`.
   await waitFor(() => expect(document.querySelector('.ant-select-item-option')).toBeTruthy());
-  const option = [...document.querySelectorAll<HTMLElement>('.ant-select-item-option-content')].find(
-    (el) => el.textContent === label,
-  );
+  const option = [
+    ...document.querySelectorAll<HTMLElement>('.ant-select-item-option-content'),
+  ].find((el) => el.textContent === label);
   expect(option, `no "${label}" option`).toBeTruthy();
   await user.click(option as HTMLElement);
 }

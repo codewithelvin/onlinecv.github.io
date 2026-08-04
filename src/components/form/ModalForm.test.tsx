@@ -71,7 +71,10 @@ describe('ModalForm chrome', () => {
       const dialogs = [...document.querySelectorAll('.ant-modal')];
       const dialog = dialogs[dialogs.length - 1];
       expect(dialog.querySelector('.ant-modal-close'), `× at ${width}px`).toBeNull();
-      expect(dialog.querySelector('.ant-modal-footer .ant-btn'), `no exit at ${width}px`).toBeTruthy();
+      expect(
+        dialog.querySelector('.ant-modal-footer .ant-btn'),
+        `no exit at ${width}px`,
+      ).toBeTruthy();
     }
   });
 

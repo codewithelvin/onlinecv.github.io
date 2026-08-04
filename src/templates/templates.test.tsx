@@ -9,8 +9,16 @@ import { getTemplate, listTemplates } from './_core/registry';
 
 function sampleResume(): Resume {
   const r = createEmptyResume('az');
-  r.basics = { firstName: 'Elvin', lastName: 'Huseynov', headline: 'Frontend Developer', location: 'Bakı' };
-  r.contact = { email: 'elvin@example.az', items: [{ id: 'c1', type: 'github', value: 'https://github.com/elvin' }] };
+  r.basics = {
+    firstName: 'Elvin',
+    lastName: 'Huseynov',
+    headline: 'Frontend Developer',
+    location: 'Bakı',
+  };
+  r.contact = {
+    email: 'elvin@example.az',
+    items: [{ id: 'c1', type: 'github', value: 'https://github.com/elvin' }],
+  };
   r.summary = 'Experienced developer.';
   r.experience = [
     {
@@ -24,7 +32,15 @@ function sampleResume(): Resume {
     },
   ];
   r.education = [
-    { id: 'ed1', type: 'university', institution: 'BSU', degree: 'bachelor', startDate: '2007-09', endDate: '2011-06', current: false },
+    {
+      id: 'ed1',
+      type: 'university',
+      institution: 'BSU',
+      degree: 'bachelor',
+      startDate: '2007-09',
+      endDate: '2011-06',
+      current: false,
+    },
   ];
   r.skills = [{ id: 's1', name: 'TypeScript', level: 90 }];
   r.languages = [{ id: 'l1', code: 'english', name: 'English', level: 'C1' }];
@@ -70,7 +86,10 @@ describe('template smoke render', () => {
       expect(groups.length, 'no keep-together group at all').toBeGreaterThan(0);
       for (const group of groups) {
         // Heading + at least one block of content, or the marker buys nothing.
-        expect(group.children.length, `"${group.textContent}" holds only its heading`).toBeGreaterThan(1);
+        expect(
+          group.children.length,
+          `"${group.textContent}" holds only its heading`,
+        ).toBeGreaterThan(1);
       }
 
       // And no heading is left outside one.
@@ -102,11 +121,14 @@ describe('template smoke render', () => {
       const rows = [...doc.querySelectorAll('div[style*="space-between"]')];
       expect(rows.length, 'no title/date row found').toBeGreaterThan(0);
       for (const row of rows) {
-        expect(row.children.length, 'a row with one child cannot space anything').toBeGreaterThan(1);
+        expect(row.children.length, 'a row with one child cannot space anything').toBeGreaterThan(
+          1,
+        );
         for (const child of row.children) {
-          expect(child.tagName, `<${child.tagName.toLowerCase()}> would be bucketed inline`).not.toBe(
-            'SPAN',
-          );
+          expect(
+            child.tagName,
+            `<${child.tagName.toLowerCase()}> would be bucketed inline`,
+          ).not.toBe('SPAN');
         }
       }
     });

@@ -55,7 +55,9 @@ export function CertificationsSection(): JSX.Element {
       ids={ed.items.map((x) => x.id)}
       titles={ed.items.map((x) => x.name)}
       subtitles={ed.items.map((x) =>
-        [x.organization, x.issueDate ? fmt(x.issueDate, MONTH_YEAR) : ''].filter(Boolean).join(' · '),
+        [x.organization, x.issueDate ? fmt(x.issueDate, MONTH_YEAR) : '']
+          .filter(Boolean)
+          .join(' · '),
       )}
       addLabel={t('common.add')}
       onAdd={ed.openAdd}

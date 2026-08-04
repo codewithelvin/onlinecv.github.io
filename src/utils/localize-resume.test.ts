@@ -5,14 +5,46 @@ import { createEmptyResume } from './empty-resume';
 import { localizeResume, referencedDictionaryGroups } from './localize-resume';
 
 const dicts: DictionaryBundle = {
-  skills: [{ code: 'accounting', group: 'skills', az: 'Mühasibatlıq', en: 'Accounting', ru: 'Бухгалтерия' }],
-  languages: [{ code: 'english', group: 'languages', az: 'İngilis dili', en: 'English', ru: 'Английский' }],
+  skills: [
+    {
+      code: 'accounting',
+      group: 'skills',
+      az: 'Mühasibatlıq',
+      en: 'Accounting',
+      ru: 'Бухгалтерия',
+    },
+  ],
+  languages: [
+    { code: 'english', group: 'languages', az: 'İngilis dili', en: 'English', ru: 'Английский' },
+  ],
   interests: [{ code: 'chess', group: 'interests', az: 'Şahmat', en: 'Chess', ru: 'Шахматы' }],
-  nationality: [{ code: 'azerbaijani', group: 'nationality', az: 'Azərbaycanlı', en: 'Azerbijani', ru: 'Азербайджанец/ка' }],
-  universities: [{ code: 'bsu', group: 'universities', az: 'Bakı Dövlət Universiteti', en: 'Baku State University', ru: 'Бакинский государственный университет' }],
-  faculties: [{ code: 'economics', group: 'faculties', az: 'İqtisadiyyat', en: 'Economics', ru: 'Экономика' }],
-  specialities: [{ code: 'finance', group: 'specialities', az: 'Maliyyə', en: 'Finance', ru: 'Финансы' }],
-  positions: [{ code: 'accountant', group: 'positions', az: 'Mühasib', en: 'Accountant', ru: 'Бухгалтер' }],
+  nationality: [
+    {
+      code: 'azerbaijani',
+      group: 'nationality',
+      az: 'Azərbaycanlı',
+      en: 'Azerbijani',
+      ru: 'Азербайджанец/ка',
+    },
+  ],
+  universities: [
+    {
+      code: 'bsu',
+      group: 'universities',
+      az: 'Bakı Dövlət Universiteti',
+      en: 'Baku State University',
+      ru: 'Бакинский государственный университет',
+    },
+  ],
+  faculties: [
+    { code: 'economics', group: 'faculties', az: 'İqtisadiyyat', en: 'Economics', ru: 'Экономика' },
+  ],
+  specialities: [
+    { code: 'finance', group: 'specialities', az: 'Maliyyə', en: 'Finance', ru: 'Финансы' },
+  ],
+  positions: [
+    { code: 'accountant', group: 'positions', az: 'Mühasib', en: 'Accountant', ru: 'Бухгалтер' },
+  ],
   cities: [{ code: 'baku', group: 'cities', az: 'Bakı', en: 'Baku', ru: 'Баку' }],
 };
 
@@ -38,7 +70,13 @@ function resume(): Resume {
       current: true,
     },
     // Free text: a title that is not in the dictionary stays as typed.
-    { id: 'w2', position: 'Baş şüşəsilən', company: 'Filankəs MMC', startDate: '2015-01-01', current: false },
+    {
+      id: 'w2',
+      position: 'Baş şüşəsilən',
+      company: 'Filankəs MMC',
+      startDate: '2015-01-01',
+      current: false,
+    },
   ];
   r.interests = [{ id: 'i1', code: 'chess', name: 'Şahmat' }];
   r.education = [
@@ -186,16 +224,28 @@ describe('localizeResume', () => {
       r.basics = { ...r.basics, location: 'Bakı', locationCode: undefined };
       r.experience = [
         {
-          id: 'w1', company: 'Cybernet', position: 'Mühasib', positionCode: undefined,
-          location: 'Bakı', locationCode: undefined, startDate: '2020-01-01', current: true,
+          id: 'w1',
+          company: 'Cybernet',
+          position: 'Mühasib',
+          positionCode: undefined,
+          location: 'Bakı',
+          locationCode: undefined,
+          startDate: '2020-01-01',
+          current: true,
         },
       ];
       r.education = [
         {
-          id: 'e1', type: 'university', institution: 'Bakı Dövlət Universiteti', code: undefined,
-          faculty: 'İqtisadiyyat', facultyCode: undefined,
-          specialization: 'Maliyyə', specializationCode: undefined,
-          startDate: '2007-09', current: false,
+          id: 'e1',
+          type: 'university',
+          institution: 'Bakı Dövlət Universiteti',
+          code: undefined,
+          faculty: 'İqtisadiyyat',
+          facultyCode: undefined,
+          specialization: 'Maliyyə',
+          specializationCode: undefined,
+          startDate: '2007-09',
+          current: false,
         },
       ];
       r.skills = [{ id: 's1', name: 'Mühasibatlıq', level: 80 }];

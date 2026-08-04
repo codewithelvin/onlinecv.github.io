@@ -12,7 +12,7 @@ export type TemplateId = string;
  * language: `LOCALES` in `app/i18n/locales.ts` is a total record over it, so the
  * compiler then lists everything that still needs the new entry.
  */
-export type Locale = 'az' | 'ru' | 'en' | 'ka' | 'ar' | 'es' | 'he';
+export type Locale = 'az' | 'ru' | 'en' | 'ka' | 'ar' | 'es' | 'he' | 'ko';
 
 /**
  * A short label translated per locale. Only the default locale (`az`) is
@@ -35,17 +35,7 @@ export type MilitaryStatus = 'served' | 'unserved' | 'unfit';
  * only — see `GeneralInfo.driverLicense` for why they cannot be a constraint.
  */
 export type LicenseCategory =
-  | 'A1'
-  | 'A'
-  | 'B1'
-  | 'B'
-  | 'BE'
-  | 'C1'
-  | 'C'
-  | 'CE'
-  | 'D1'
-  | 'D'
-  | 'DE';
+  'A1' | 'A' | 'B1' | 'B' | 'BE' | 'C1' | 'C' | 'CE' | 'D1' | 'D' | 'DE';
 
 export type Gender = 'male' | 'female';
 
@@ -56,13 +46,7 @@ export type EducationType = 'school' | 'college' | 'university';
 
 /** Employment type (`experiencetype` in the source). */
 export type EmploymentType =
-  | 'fullTime'
-  | 'partTime'
-  | 'selfEmployed'
-  | 'freelance'
-  | 'contract'
-  | 'internship'
-  | 'seasonal';
+  'fullTime' | 'partTime' | 'selfEmployed' | 'freelance' | 'contract' | 'internship' | 'seasonal';
 
 /**
  * Generic contact channel discriminator. Semantic names (not the source's MUI
@@ -302,10 +286,4 @@ export interface Resume {
 
 /** Keys of `Resume` whose value is an array of items carrying an `id`. */
 export type ResumeListSection =
-  | 'experience'
-  | 'education'
-  | 'skills'
-  | 'languages'
-  | 'certifications'
-  | 'interests'
-  | 'projects';
+  'experience' | 'education' | 'skills' | 'languages' | 'certifications' | 'interests' | 'projects';

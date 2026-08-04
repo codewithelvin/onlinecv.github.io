@@ -63,6 +63,25 @@ function georgianResume(): Resume {
 }
 
 /**
+ * A Korean CV. Hangul is the one script whose face is measured in MEGABYTES
+ * (`NanumGothic`, 2 MB per weight against Hebrew's 27 KB), which is why
+ * `vite.config.ts` keeps it out of the service worker's precache — so the
+ * assertion that it really is the font doing the drawing matters more here than
+ * elsewhere: a silent Helvetica fallback would be a page of blank boxes.
+ *
+ * Latin is mixed in on purpose. A Korean CV names its tools in Latin, and a
+ * Korean-led font stack has to keep serving both from one line.
+ */
+function koreanResume(): Resume {
+  const r = createEmptyResume('ko');
+  r.basics = { firstName: '민준', lastName: '김', headline: '프런트엔드 개발자' };
+  r.contact = { email: 'minjun@example.kr', items: [] };
+  r.summary = '웹 기술을 다루는 소프트웨어 개발자입니다.';
+  r.skills = [{ id: 's1', name: 'TypeScript', level: 90 }];
+  return r;
+}
+
+/**
  * A CV in a CV language the app DOES export, but carrying Arabic text — an
  * Arabic name, employer and summary. This is not a hypothetical: every one of
  * those fields is free text, so Arabic reaches the exporter regardless of
@@ -287,7 +306,7 @@ describe('pdf export', () => {
    * indents page 1 and leaves every later page's content hard against the paper
    * edge — reported from a real two-page export.
    */
-  it('puts each template\'s vertical margin on the page itself', () => {
+  it("puts each template's vertical margin on the page itself", () => {
     for (const { manifest } of listTemplates()) {
       expect(manifest.pageMargin, `${manifest.id} declares no page margin`).toBeDefined();
       const document = buildResumeDocument(ReactPdf, Html, {
@@ -344,6 +363,41 @@ describe('pdf export', () => {
   }
 
   /**
+   * The Korean half of the stack, which does NOT behave like the Georgian and Arabic
+   * halves above — and that is why it is asserted separately.
+   *
+   * ⚠️ A KOREAN CV CONTAINS NO INTER AT ALL, deliberately. `cvFontStack` puts the
+   * document's own script first, and unlike the three Noto faces (script-only builds
+   * with no Latin in them) a Korean text face ships Latin too, because Korean is
+   * written with Latin mixed in. So NanumGothic answers for the e-mail address and
+   * for "TypeScript" as well as for the Hangul, and Inter is never consulted.
+   *
+   * That is the better trade, and it was measured rather than assumed: Nanum's
+   * shared characters land within 5% of Inter's (space 0.280 vs 0.281 em), and a
+   * Korean line that takes its spaces from its own font stays ONE run instead of
+   * alternating between two — the fault that once drew Arabic runs on top of each
+   * other. Asserting Inter's ABSENCE pins that, so reordering the stack fails here
+   * rather than silently changing every Latin word in every Korean CV.
+   *
+   * The other thing pinned: the face must be SUBSETTED. `@react-pdf` only subsets a
+   * font it can read `glyf`/`loca` from, which is why `registerResumeFonts` points
+   * at the TTF rather than at the six-times-smaller woff2 the preview uses — with
+   * the woff2 a one-page Korean CV measured 1.7 MB instead of 25 KB. The `ABCDEF+`
+   * prefix on a `BaseFont` name IS the subset marker, so matching it asserts a few
+   * dozen embedded glyphs rather than all 12,887.
+   */
+  for (const { manifest } of listTemplates()) {
+    it(`embeds a subset of the Korean font in "${manifest.id}"`, async () => {
+      const source = await renderPdfSource(manifest.id, koreanResume());
+      expect(source, 'the Korean font was never used').toMatch(/BaseFont \/[A-Z]{6}\+NanumGothic/);
+      expect(source, 'fell back to Helvetica').not.toContain('Helvetica');
+      expect(source, 'the Korean face stopped serving the Latin text too').not.toMatch(
+        /BaseFont \/[A-Z]{6}\+Inter/,
+      );
+    }, 30_000);
+  }
+
+  /**
    * Arabic comes out JOINED, and it is `buildResumeDocument` that has to do it
    * (`utils/arabic`) — react-pdf shapes a right-to-left line only after it has
    * reordered it, so unshaped Arabic exports with the wrong contextual form on
@@ -384,7 +438,9 @@ describe('pdf export', () => {
       renderPdfSource('modern', sampleResume()),
       renderPdfSource('modern', sampleResume(), true),
     ]);
-    const sidebar = rectangles(withCredit).find(([, , width]) => Math.abs(width - SIDEBAR_WIDTH) < 1);
+    const sidebar = rectangles(withCredit).find(
+      ([, , width]) => Math.abs(width - SIDEBAR_WIDTH) < 1,
+    );
     expect(sidebar?.[3]).toBeCloseTo(A4_HEIGHT, 0);
     expect(pageCount(withCredit)).toBe(pageCount(without));
     // The footer is real content, not a no-op element.
@@ -511,7 +567,7 @@ describe('pdf export', () => {
    * array — `@react-pdf` reads a comma string as one family name and would look
    * for a font literally called "NotoSansArabic, Inter, …".
    */
-  it('hands the page the CV language\'s font stack as an array', () => {
+  it("hands the page the CV language's font stack as an array", () => {
     const stackFor = (locale: Resume['locale']): unknown => {
       const document = buildResumeDocument(ReactPdf, Html, {
         html: '<div>x</div>',
@@ -651,14 +707,16 @@ describe('pdf export', () => {
    * passed while the CV looked broken. So this asserts the PAINT ORDER instead —
    * no filled rectangle after the column may overlap it.
    */
-  it('paints nothing opaque over a template\'s accent column', async () => {
+  it("paints nothing opaque over a template's accent column", async () => {
     for (const { manifest } of listTemplates()) {
       const bleed = manifest.pageBleed;
       if (!bleed) continue;
       const source = await renderPdfSource(manifest.id, sampleResume());
       const rects = rectangles(source);
       const columnWidth = A4_WIDTH * 0.34;
-      const index = rects.findIndex(([, , w, h]) => Math.abs(w - columnWidth) < 1 && h > A4_HEIGHT - 1);
+      const index = rects.findIndex(
+        ([, , w, h]) => Math.abs(w - columnWidth) < 1 && h > A4_HEIGHT - 1,
+      );
       expect(index, `"${manifest.id}" never painted its accent column`).toBeGreaterThanOrEqual(0);
       const [cx, , cw] = rects[index];
 

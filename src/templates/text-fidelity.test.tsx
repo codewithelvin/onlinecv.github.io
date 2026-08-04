@@ -76,6 +76,30 @@ const WORDS = {
     skill: 'ניהול זמן',
     highlight: 'בנייה מחדש של פורטל הלקוחות',
   },
+  /**
+   * Korean — the first East Asian script here, and what is interesting about it is
+   * how LITTLE it needs. Hangul is written with precomposed syllables, one code
+   * point each, so there are no contextual forms and nothing for a shaping pass to
+   * do; it reads left-to-right, so no bidi either. If that reasoning holds the words
+   * come back exactly as they went in — and `LocaleMeta.cv: true` rests on this
+   * passing rather than on the reasoning.
+   *
+   * The surname is a single syllable on purpose (see `PERSON_NAME`), and the company
+   * name mixes Latin into Hangul, which is how Korean CVs are really written — that
+   * is also the case where `cvFontStack` hands one line to two faces.
+   */
+  ko: {
+    firstName: '민준',
+    lastName: '김',
+    headline: '프런트엔드 개발자',
+    summary: '웹 기술을 다루는 소프트웨어 개발자이며 품질과 협업을 중시합니다',
+    company: '사이버넷 Cybernet',
+    position: '선임 프런트엔드 개발자',
+    institution: '서울대학교',
+    faculty: '컴퓨터공학부',
+    skill: '시간 관리',
+    highlight: '납세자 포털 전면 재구축',
+  },
   ru: {
     firstName: 'Иван',
     lastName: 'Петров',
@@ -193,10 +217,14 @@ describe('exported text matches the input', () => {
      * (Latin letters inside Arabic words) and characters dropped by the previous
      * patch. Do not delete it to make the suite green.
      */
-    it.fails(`still loses Arabic words in "${manifest.id}"`, async () => {
-      const source = await render(manifest.id, resumeFor('ar'));
-      expect(missingWords(source, Object.values(WORDS.ar).join(' '))).toEqual([]);
-    }, 60_000);
+    it.fails(
+      `still loses Arabic words in "${manifest.id}"`,
+      async () => {
+        const source = await render(manifest.id, resumeFor('ar'));
+        expect(missingWords(source, Object.values(WORDS.ar).join(' '))).toEqual([]);
+      },
+      60_000,
+    );
   }
 
   /**
@@ -219,10 +247,14 @@ describe('exported text matches the input', () => {
      * some glyphs the shaper produces. They paint correctly; they just cannot be
      * turned back into text. Expected-failure for the same reason as above.
      */
-    it.fails(`draws unnameable glyphs for Arabic in "${manifest.id}"`, async () => {
-      const source = await render(manifest.id, resumeFor('ar'));
-      expect(pdfTextRuns(source).flatMap((run) => run.unmapped)).toEqual([]);
-    }, 120_000);
+    it.fails(
+      `draws unnameable glyphs for Arabic in "${manifest.id}"`,
+      async () => {
+        const source = await render(manifest.id, resumeFor('ar'));
+        expect(pdfTextRuns(source).flatMap((run) => run.unmapped)).toEqual([]);
+      },
+      120_000,
+    );
   }
 
   /**

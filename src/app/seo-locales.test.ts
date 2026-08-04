@@ -80,7 +80,9 @@ describe('hreflangAlternates', () => {
     const alternates = hreflangAlternates();
     expect(alternates).toHaveLength(SUPPORTED_LOCALES.length + 1);
     for (const locale of SUPPORTED_LOCALES) {
-      expect(alternates.some((a) => a.hreflang === locale && a.href === localeUrl(locale))).toBe(true);
+      expect(alternates.some((a) => a.hreflang === locale && a.href === localeUrl(locale))).toBe(
+        true,
+      );
     }
   });
 

@@ -116,11 +116,15 @@ describe.each(Object.entries(DATASETS))('%s dataset', (group, rows) => {
    */
   it('labels every row in the default locale, and never blank in any locale', () => {
     for (const row of rows) {
-      expect(row[DEFAULT_LOCALE]?.trim(), `"${row.code}" has no ${DEFAULT_LOCALE} label`).toBeTruthy();
+      expect(
+        row[DEFAULT_LOCALE]?.trim(),
+        `"${row.code}" has no ${DEFAULT_LOCALE} label`,
+      ).toBeTruthy();
       for (const locale of SUPPORTED_LOCALES) {
         const label = row[locale];
         // Absent is fine (it falls back); present-but-empty is not.
-        if (label !== undefined) expect(label.trim(), `"${row.code}".${locale} is blank`).toBeTruthy();
+        if (label !== undefined)
+          expect(label.trim(), `"${row.code}".${locale} is blank`).toBeTruthy();
       }
     }
   });
@@ -138,7 +142,10 @@ describe.each(Object.entries(DATASETS))('%s dataset', (group, rows) => {
       for (const locale of SUPPORTED_LOCALES) {
         const label = row[locale];
         if (label === undefined) continue;
-        expect(label.length, `"${row.code}".${locale} is ${label.length} chars`).toBeLessThanOrEqual(max);
+        expect(
+          label.length,
+          `"${row.code}".${locale} is ${label.length} chars`,
+        ).toBeLessThanOrEqual(max);
       }
     }
   });
@@ -192,6 +199,7 @@ describe('dictionary translation coverage', () => {
       // `hispanic` rather than `spanish` — a stored CV may already reference it.
       es: 'hispanic',
       he: 'hebrew',
+      ko: 'korean',
     };
     for (const locale of SUPPORTED_LOCALES) {
       const code = ownLanguage[locale];

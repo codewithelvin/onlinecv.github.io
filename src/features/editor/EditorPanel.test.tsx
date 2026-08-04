@@ -76,9 +76,7 @@ describe('EditorPanel', () => {
    */
   it('keeps labels tight against their controls', () => {
     renderWithProviders(<EditorPanel />);
-    const css = [...document.querySelectorAll('style')]
-      .map((el) => el.textContent ?? '')
-      .join('');
+    const css = [...document.querySelectorAll('style')].map((el) => el.textContent ?? '').join('');
     expect(css, 'antd is still emitting its 8px vertical label padding').not.toContain(
       'padding:0 0 8px',
     );
@@ -229,9 +227,7 @@ describe('EditorPanel', () => {
       const shownYear = Number((header?.textContent ?? '').match(/\d{4}/)?.[0]);
       expect(shownYear).toBeLessThan(dayjs().year());
       // Opening a VIEW must not fill the field — an untouched date stays empty.
-      expect(container.querySelector<HTMLInputElement>('#generalInfo-dateOfBirth')?.value).toBe(
-        '',
-      );
+      expect(container.querySelector<HTMLInputElement>('#generalInfo-dateOfBirth')?.value).toBe('');
     });
   });
 
@@ -314,12 +310,13 @@ describe('EditorPanel', () => {
     );
     expect(headers.some((h) => h.includes('Ümumi məlumat'))).toBe(false);
 
-    const basicsPanel = container
-      .querySelector('#basics-firstName')
-      ?.closest('.ant-collapse-item');
+    const basicsPanel = container.querySelector('#basics-firstName')?.closest('.ant-collapse-item');
     expect(basicsPanel, 'no basics panel').toBeTruthy();
     for (const id of ['generalInfo-gender', 'generalInfo-nationality', 'generalInfo-summary']) {
-      expect(basicsPanel?.querySelector(`#${id}`), `#${id} is outside the basics panel`).toBeTruthy();
+      expect(
+        basicsPanel?.querySelector(`#${id}`),
+        `#${id} is outside the basics panel`,
+      ).toBeTruthy();
     }
 
     // No standalone "Haqqımda" accordion any more…

@@ -20,7 +20,11 @@ import { clearState, loadState, saveState } from '../services/persistence';
 type ItemOf<K extends ResumeListSection> = NonNullable<Resume[K]>[number];
 
 /** Immutably replace a list section, keeping `Resume`'s type. */
-function withList<K extends ResumeListSection>(resume: Resume, section: K, items: ItemOf<K>[]): Resume {
+function withList<K extends ResumeListSection>(
+  resume: Resume,
+  section: K,
+  items: ItemOf<K>[],
+): Resume {
   return { ...resume, [section]: items } as Resume;
 }
 
@@ -204,7 +208,9 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
     })),
 
   addItem: (section, item) =>
-    set((s) => ({ resume: touch(withList(s.resume, section, [...readList(s.resume, section), item])) })),
+    set((s) => ({
+      resume: touch(withList(s.resume, section, [...readList(s.resume, section), item])),
+    })),
 
   updateItem: (section, id, item) =>
     set((s) => ({

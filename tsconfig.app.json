@@ -25,7 +25,12 @@
     "exactOptionalPropertyTypes": false,
     "forceConsistentCasingInFileNames": true,
 
-    "types": ["vite/client", "vite-plugin-pwa/react", "vitest/globals", "@testing-library/jest-dom"],
+    "types": [
+      "vite/client",
+      "vite-plugin-pwa/react",
+      "vitest/globals",
+      "@testing-library/jest-dom"
+    ],
     "resolveJsonModule": true
   },
   "include": ["src", "vite-env.d.ts"]

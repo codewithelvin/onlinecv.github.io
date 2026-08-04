@@ -225,7 +225,6 @@
     "userFirstnameRequired": "הזינו את שמכם הפרטי",
     "userLastnameRequired": "הזינו את שם המשפחה שלכם",
     "onlyLettersAndSpace": "מותרים אותיות, רווחים, מקפים וגרשים בלבד",
-    "minThreeChars": "יש להזין 3 תווים לפחות",
     "maximumFiftyCharacter": "ניתן להזין 50 תווים לכל היותר",
     "maximumHundredCharacter": "ניתן להזין 100 תווים לכל היותר",
     "maximumTwoHundredCharacter": "ניתן להזין 200 תווים לכל היותר",

@@ -225,7 +225,6 @@
     "userFirstnameRequired": "Adınızı daxil edin",
     "userLastnameRequired": "Soyadınızı daxil edin",
     "onlyLettersAndSpace": "Yalnız hərf, boşluq, defis və apostrof daxil etmək olar",
-    "minThreeChars": "Minimum 3 simvol daxil edilməlidir",
     "maximumFiftyCharacter": "Maksimum 50 simvol daxil etmək olar",
     "maximumHundredCharacter": "Maksimum 100 simvol daxil etmək olar",
     "maximumTwoHundredCharacter": "Maksimum 200 simvol daxil etmək olar",

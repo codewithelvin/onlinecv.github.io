@@ -19,7 +19,13 @@ const FULL = 'DD.MM.YYYY';
 const MONTH = 'MMM YYYY';
 
 /** Heading + first block never split across pages — see the classic template. */
-function MainSection({ title, children }: { title: string; children: ReactNode }): JSX.Element | null {
+function MainSection({
+  title,
+  children,
+}: {
+  title: string;
+  children: ReactNode;
+}): JSX.Element | null {
   if (!children) return null;
   const [first, ...rest] = Children.toArray(children);
   return (
@@ -33,7 +39,13 @@ function MainSection({ title, children }: { title: string; children: ReactNode }
   );
 }
 
-function SideSection({ title, children }: { title: string; children: ReactNode }): JSX.Element | null {
+function SideSection({
+  title,
+  children,
+}: {
+  title: string;
+  children: ReactNode;
+}): JSX.Element | null {
   if (!children) return null;
   const [first, ...rest] = Children.toArray(children);
   return (
@@ -48,7 +60,14 @@ function SideSection({ title, children }: { title: string; children: ReactNode }
 }
 
 function Bullets({ items, locale }: { items: string[]; locale: Locale }): JSX.Element | null {
-  return <BulletList items={items} listStyle={styles.bulletList} locale={locale} itemStyle={styles.bulletItem} />;
+  return (
+    <BulletList
+      items={items}
+      listStyle={styles.bulletList}
+      locale={locale}
+      itemStyle={styles.bulletItem}
+    />
+  );
 }
 
 /**
@@ -59,7 +78,8 @@ export default function Modern({ resume, t, formatDate }: TemplateProps): JSX.El
   const levelLabel = (level: LanguageLevel): string =>
     level === 'native' ? t('dictionary.native') : level;
 
-  const initials = `${resume.basics.firstName[0] ?? ''}${resume.basics.lastName[0] ?? ''}`.toUpperCase();
+  const initials =
+    `${resume.basics.firstName[0] ?? ''}${resume.basics.lastName[0] ?? ''}`.toUpperCase();
   const contacts = contactChannels(resume);
   const infoPairs = generalInfoPairs(resume, t, formatDate, FULL);
   // The root IS the two-column row, so mirroring it moves the sidebar to the
@@ -94,7 +114,9 @@ export default function Modern({ resume, t, formatDate }: TemplateProps): JSX.El
           )}
         </div>
         <div style={styles.sideName}>{fullName(resume)}</div>
-        {resume.basics.headline ? <div style={styles.sideHeadline}>{resume.basics.headline}</div> : null}
+        {resume.basics.headline ? (
+          <div style={styles.sideHeadline}>{resume.basics.headline}</div>
+        ) : null}
 
         <SideSection title={t('sections.contact')}>
           {contacts.length > 0
@@ -122,7 +144,12 @@ export default function Modern({ resume, t, formatDate }: TemplateProps): JSX.El
                 <div key={s.id}>
                   <div style={styles.barLabel}>{s.name}</div>
                   <div style={barTrack}>
-                    <div style={{ ...styles.barFill, width: `${Math.max(0, Math.min(100, s.level))}%` }} />
+                    <div
+                      style={{
+                        ...styles.barFill,
+                        width: `${Math.max(0, Math.min(100, s.level))}%`,
+                      }}
+                    />
                   </div>
                 </div>
               ))

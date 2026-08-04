@@ -103,8 +103,12 @@ export function localizeResume(resume: Resume, locale: Locale, dicts: Dictionary
   const basics = relabel(
     resume.basics,
     'location',
-    resolveLabel(entries('cities'), resume.basics.locationCode, resume.basics.location ?? '', locale) ||
-      undefined,
+    resolveLabel(
+      entries('cities'),
+      resume.basics.locationCode,
+      resume.basics.location ?? '',
+      locale,
+    ) || undefined,
   );
 
   const experience = mapStable(resume.experience, (e) => {

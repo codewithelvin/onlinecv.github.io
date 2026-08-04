@@ -21,12 +21,14 @@ const NON_DECOMPOSING = /[əı]/g;
 const FOLDED: Record<string, string> = { ə: 'e', ı: 'i' };
 
 export function searchKey(text: string): string {
-  return text
-    .normalize('NFD')
-    // Combining marks, i.e. everything NFD just split off.
-    .replace(/\p{M}+/gu, '')
-    .toLowerCase()
-    .replace(NON_DECOMPOSING, (ch) => FOLDED[ch]);
+  return (
+    text
+      .normalize('NFD')
+      // Combining marks, i.e. everything NFD just split off.
+      .replace(/\p{M}+/gu, '')
+      .toLowerCase()
+      .replace(NON_DECOMPOSING, (ch) => FOLDED[ch])
+  );
 }
 
 /**

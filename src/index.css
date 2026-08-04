@@ -1,32 +1,32 @@
 /* Inter (UI + CV body). Static per-weight woff2 for the web UI; the PDF export
    registers the TTFs separately via @react-pdf Font.register (see services/pdf.ts). */
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/woff2/Inter-Regular.woff2') format('woff2');
+  src: url("/fonts/woff2/Inter-Regular.woff2") format("woff2");
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('/fonts/woff2/Inter-Medium.woff2') format('woff2');
+  src: url("/fonts/woff2/Inter-Medium.woff2") format("woff2");
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url('/fonts/woff2/Inter-SemiBold.woff2') format('woff2');
+  src: url("/fonts/woff2/Inter-SemiBold.woff2") format("woff2");
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/woff2/Inter-Bold.woff2') format('woff2');
+  src: url("/fonts/woff2/Inter-Bold.woff2") format("woff2");
 }
 
 /*
@@ -44,19 +44,19 @@
  * Russian and English users never fetch it at all.
  */
 @font-face {
-  font-family: 'NotoSansGeorgian';
+  font-family: "NotoSansGeorgian";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/ttf/NotoSansGeorgian-Regular.ttf') format('truetype');
+  src: url("/fonts/ttf/NotoSansGeorgian-Regular.ttf") format("truetype");
   unicode-range: U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F;
 }
 @font-face {
-  font-family: 'NotoSansGeorgian';
+  font-family: "NotoSansGeorgian";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/ttf/NotoSansGeorgian-Bold.ttf') format('truetype');
+  src: url("/fonts/ttf/NotoSansGeorgian-Bold.ttf") format("truetype");
   unicode-range: U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F;
 }
 
@@ -72,19 +72,19 @@
  * and without the range that paste would fall back to a system font mid-word.
  */
 @font-face {
-  font-family: 'NotoSansArabic';
+  font-family: "NotoSansArabic";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/ttf/NotoSansArabic-Regular.ttf') format('truetype');
+  src: url("/fonts/ttf/NotoSansArabic-Regular.ttf") format("truetype");
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
 }
 @font-face {
-  font-family: 'NotoSansArabic';
+  font-family: "NotoSansArabic";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/ttf/NotoSansArabic-Bold.ttf') format('truetype');
+  src: url("/fonts/ttf/NotoSansArabic-Bold.ttf") format("truetype");
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
 }
 
@@ -98,20 +98,57 @@
  * and the wide/final variants that pasted legacy text can carry.
  */
 @font-face {
-  font-family: 'NotoSansHebrew';
+  font-family: "NotoSansHebrew";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/ttf/NotoSansHebrew-Regular.ttf') format('truetype');
+  src: url("/fonts/ttf/NotoSansHebrew-Regular.ttf") format("truetype");
   unicode-range: U+0590-05FF, U+FB1D-FB4F;
 }
 @font-face {
-  font-family: 'NotoSansHebrew';
+  font-family: "NotoSansHebrew";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/ttf/NotoSansHebrew-Bold.ttf') format('truetype');
+  src: url("/fonts/ttf/NotoSansHebrew-Bold.ttf") format("truetype");
   unicode-range: U+0590-05FF, U+FB1D-FB4F;
+}
+
+/*
+ * Korean (Hangul). NanumGothic — the only face here that is not a Noto, because
+ * Noto Sans KR ships no static TTF (google/fonts has the variable font only, and
+ * react-pdf's fontkit cannot use those) and its OTF is 4.6 MB per weight against
+ * Nanum's 2.0 MB for the same full 11,172-syllable coverage. Both checked with
+ * fontkit; Nanum is also the face Korean documents and résumés are set in.
+ *
+ * ⚠️ THIS IS THE ONE SCRIPT WHOSE PREVIEW AND EXPORT LOAD DIFFERENT FILES, and it
+ * is deliberate. The browser gets the woff2: 341 KB + 417 KB instead of 2.0 MB +
+ * 2.1 MB, a sixth of the bytes for exactly the same glyphs and metrics. The export
+ * cannot use it — `@react-pdf` stops SUBSETTING a woff2 and embeds all 12,887
+ * glyphs, which took one measured Korean CV from 25 KB to 1.7 MB. See
+ * `services/pdf.ts`.
+ *
+ * The ranges: U+1100–11FF is conjoining Jamo (decomposed Hangul, which pasted text
+ * can carry), U+3130–318F is Compatibility Jamo (the letters in isolation, as a
+ * keyboard emits them mid-composition), U+AC00–D7A3 is the precomposed syllable
+ * block all normal Korean text is written in, and U+3000–303F is CJK punctuation,
+ * because a Korean line legitimately contains `·` and `〜`.
+ */
+@font-face {
+  font-family: "NanumGothic";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/woff2/NanumGothic-Regular.woff2") format("woff2");
+  unicode-range: U+1100-11FF, U+3000-303F, U+3130-318F, U+AC00-D7A3;
+}
+@font-face {
+  font-family: "NanumGothic";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/woff2/NanumGothic-Bold.woff2") format("woff2");
+  unicode-range: U+1100-11FF, U+3000-303F, U+3130-318F, U+AC00-D7A3;
 }
 
 /*
@@ -134,8 +171,27 @@ body,
 body {
   margin: 0;
   background: #f5f5f5;
-  font-family: Inter, NotoSansGeorgian, 'Segoe UI', Roboto, 'Noto Sans', -apple-system,
-    BlinkMacSystemFont, sans-serif;
+  /* MUST list the same families as `FONT_FAMILY` in `app/theme.ts`, which is what
+     AntD's components use. It cannot import that constant, and `index.css` cannot
+     be asserted under vitest (`css: false` makes `?raw` return an empty string), so
+     the two are kept in step by hand — and they had already drifted: this list
+     stopped at NotoSansGeorgian and never gained the Arabic or Hebrew faces, so
+     every non-AntD element in those UIs was drawn by whatever the OS happened to
+     have. Windows hid it (Segoe UI covers both); a machine with no font for the
+     script would have shown tofu. `theme.test.ts` guards the JS half of the pair —
+     that every family in `CV_FONT_STACK` reaches `FONT_FAMILY`. */
+  font-family:
+    Inter,
+    NotoSansGeorgian,
+    NotoSansArabic,
+    NotoSansHebrew,
+    NanumGothic,
+    "Segoe UI",
+    Roboto,
+    "Noto Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* Pin the text scale on mobile: Gecko and Blink each reserve the right to
@@ -310,6 +366,7 @@ html {
   overflow-x: hidden;
   overflow-y: auto;
   padding-inline-end: 12px;
+  padding-inline-start: 12px;
 }
 
 /* Content scrolls UNDER the buttons, so they need an edge of their own. */

@@ -40,7 +40,11 @@ export function useDictionary(group: DictionaryGroup): {
   }, [group]);
 
   const options = useMemo<Option[]>(
-    () => entries.map((e) => ({ value: dictionaryLabel(e, locale), label: dictionaryLabel(e, locale) })),
+    () =>
+      entries.map((e) => ({
+        value: dictionaryLabel(e, locale),
+        label: dictionaryLabel(e, locale),
+      })),
     [entries, locale],
   );
 

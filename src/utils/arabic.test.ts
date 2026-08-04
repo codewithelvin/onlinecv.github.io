@@ -89,7 +89,9 @@ describe('preshapeArabic', () => {
    */
   it('preserves the text under NFKC normalization', () => {
     for (const source of ['مرحبا', 'لا', 'السيرة الذاتية', 'محمد علي', 'إدارة المشاريع']) {
-      const restored = preshapeArabic(source).replace(/\u200C/g, '').normalize('NFKC');
+      const restored = preshapeArabic(source)
+        .replace(/\u200C/g, '')
+        .normalize('NFKC');
       expect(restored, `"${source}" did not round-trip`).toBe(source);
     }
   });
@@ -100,7 +102,8 @@ describe('preshapeArabic', () => {
    * byte-identical.
    */
   it('leaves non-Arabic text exactly as it was', () => {
-    const markup = '<div data-keep-together="true"><span>Elvin Hüseynov</span> — ნიკოლოზ Жуков</div>';
+    const markup =
+      '<div data-keep-together="true"><span>Elvin Hüseynov</span> — ნიკოლოზ Жуков</div>';
     expect(preshapeArabic(markup)).toBe(markup);
     expect(preshapeArabic('')).toBe('');
   });

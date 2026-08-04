@@ -11,14 +11,18 @@ import type { Locale } from '../../types/resume';
  * carried no flags until now. Inline SVG draws the same everywhere and costs no
  * request.
  *
- * These are simplified: bands, cantons and crescents, no coats of arms and no
- * 50 stars — at 24×16 the detail is invisible and the silhouette is what
- * identifies a flag. They are decorative, so `Flag` hides them from assistive
- * technology; the endonym and the ISO code next to them carry the meaning.
+ * SIMPLIFIED IS NOT INVENTED, and the line between them is the rule this file is
+ * built on. Simplification is allowed where it does not change what the flag IS:
+ * Spain without its coat of arms is the civil flag, and Georgia's Bolnisi crosses
+ * are drawn as plain bars. It is NOT allowed where the detail is the identity, so
+ * the US canton carries all fifty stars in the real nine-row arrangement, the
+ * Saudi inscription is set as actual Arabic text, and Korea's four trigrams are the
+ * four real ones in their four real corners. They are decorative, so `Flag` hides
+ * them from assistive technology; the endonym and the ISO code carry the meaning.
  *
- * A flag names a COUNTRY, not a language, so three of these are a choice rather
- * than a fact: English takes the United States, Spanish takes Spain, and Arabic
- * takes the Arab League's green-and-gold rather than any one of its 22 states.
+ * A flag names a COUNTRY, not a language, so four of these are a choice rather than
+ * a fact: English takes the United States, Spanish takes Spain, Arabic takes Saudi
+ * Arabia (of its 22 states) and Korean takes the South.
  */
 
 /** Colour of the middle band on the Azerbaijani flag — the crescent is cut from it. */
@@ -27,6 +31,15 @@ const US_RED = '#B22234';
 const GE_RED = '#FF0000';
 const SA_GREEN = '#006C35';
 const IL_BLUE = '#0038B8';
+const KR_RED = '#cd2e3a';
+const KR_BLUE = '#0047a0';
+
+/**
+ * The angle everything on the Korean flag is rotated by: `atan(2/3)`, the angle of
+ * a 3:2 flag's own diagonal. Both the taeguk's dividing line and the four trigrams
+ * follow it, which is why one constant serves all of them.
+ */
+const KR_DIAGONAL = 33.69006752597979;
 
 /**
  * The 50 star positions on the US canton: nine rows, six stars then five,
@@ -170,18 +183,52 @@ const FLAGS: Record<Locale, ReactNode> = {
       <rect width={24} height={16} fill="#fff" />
       <rect y={2.1} width={24} height={2.1} fill={IL_BLUE} />
       <rect y={11.8} width={24} height={2.1} fill={IL_BLUE} />
-      <polygon
-        points="12,5.1 14.6,9.6 9.4,9.6"
-        fill="none"
-        stroke={IL_BLUE}
-        strokeWidth={0.62}
-      />
-      <polygon
-        points="12,10.9 9.4,6.4 14.6,6.4"
-        fill="none"
-        stroke={IL_BLUE}
-        strokeWidth={0.62}
-      />
+      <polygon points="12,5.1 14.6,9.6 9.4,9.6" fill="none" stroke={IL_BLUE} strokeWidth={0.62} />
+      <polygon points="12,10.9 9.4,6.4 14.6,6.4" fill="none" stroke={IL_BLUE} strokeWidth={0.62} />
+    </>
+  ),
+  /**
+   * South Korea — the Taegukgi, at its OFFICIAL construction rather than an
+   * eyeballed approximation.
+   *
+   * This flag is the one case where "simplified but real" could not be done by
+   * hand: its four trigrams are not decoration, they are 건·곤·감·리 (heaven, earth,
+   * water, fire), and which corner each sits in and which of its three bars are
+   * broken is what the flag MEANS. Getting a bar wrong draws a flag that does not
+   * exist. So the geometry below is the government construction, transcribed: the
+   * taeguk is half the flag's height, the trigrams are three bars of length 24 and
+   * width 4 on a 144×96 field, and everything is rotated by the flag's diagonal.
+   *
+   * Drawn in that 144×96 coordinate system and scaled into this file's 24×16 box,
+   * so the numbers stay the published ones and can be checked against the source.
+   * Each trigram is one `path` of vertical strokes stacked along x: three whole
+   * bars is 건, three split ones is 곤, and the two mixed ones are 감 and 리.
+   * Conveniently every trigram on this flag is palindromic (solid-solid-solid,
+   * broken-broken-broken, broken-solid-broken, solid-broken-solid), so no ordering
+   * question arises for any of them.
+   */
+  ko: (
+    <>
+      <rect width={24} height={16} fill="#fff" />
+      <g transform="translate(12 8) scale(0.1666667)">
+        <g stroke="#000" strokeWidth={4} fill="none">
+          {/* Upper hoist 건 (three whole bars) and, opposite it, lower fly 곤. */}
+          <path
+            transform={`rotate(${KR_DIAGONAL})`}
+            d="M-50-12v24m6 0v-24m6 0v24m76 0V1m0-2v-11m6 0v11m0 2v11m6 0V1m0-2v-11"
+          />
+          {/* Lower hoist 리 (solid-broken-solid) and upper fly 감 (broken-solid-broken). */}
+          <path
+            transform={`rotate(${-KR_DIAGONAL})`}
+            d="M-50-12v24m6 0V1m0-2v-11m6 0v24m76 0V1m0-2v-11m6 0v24m6 0V1m0-2v-11"
+          />
+        </g>
+        {/* The taeguk: red over blue, divided by an S of two 12-radius arcs. */}
+        <g transform={`rotate(${KR_DIAGONAL})`}>
+          <path fill={KR_RED} d="M12 0a18 18 0 1 1 -36 0a24 24 0 1 1 48 0" />
+          <path fill={KR_BLUE} d="M-24 0a24 24 0 1 0 48 0A12 12 0 1 0 0 0a12 12 0 1 1 -24 0" />
+        </g>
+      </g>
     </>
   ),
 };

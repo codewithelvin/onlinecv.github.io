@@ -54,8 +54,7 @@ async function exportPdf(templateId: string, resume: Resume): Promise<string> {
   ).toString();
 }
 
-const pageCount = (source: string): number =>
-  (source.match(/\/Type \/Page[^s]/g) ?? []).length;
+const pageCount = (source: string): number => (source.match(/\/Type \/Page[^s]/g) ?? []).length;
 
 const rectangles = (source: string): number[][] =>
   [...source.matchAll(/(-?[\d.]+) (-?[\d.]+) (-?[\d.]+) (-?[\d.]+) re/g)].map((m) =>

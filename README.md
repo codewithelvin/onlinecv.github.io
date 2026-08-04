@@ -2,19 +2,19 @@
 
 A browser-only, **ATS-friendly** resume/CV builder. Create a clean CV entirely in your browser and export it as a real, text-based (machine-parseable) PDF — **no account, no backend, and no data ever leaves your device**.
 
-Rebuild of `onlinecv.az` for the Azerbaijani job market. Multilingual UI (Azerbaijani / Russian / English / Georgian), installable PWA, works offline.
+Rebuild of `onlinecv.az` for the Azerbaijani job market. Multilingual UI (Azerbaijani / Arabic / English / Spanish / Georgian / Korean / Russian / Hebrew), installable PWA, works offline.
 
 ## Highlights
 
 - **100% client-side.** All resume data lives in **IndexedDB** (one resume per browser). The only network calls are optional analytics.
 - **Live preview + text PDF export.** The in-browser preview is native HTML (fast, live); on **Download**, the same template HTML is converted to a real ATS PDF via `@react-pdf/renderer` + `react-pdf-html` (lazy-loaded — kept out of the initial bundle).
 - **Three templates.** `classic` (ATS single-column, default), `compact` (dense, ATS-safe), `modern` (accent sidebar with avatar). Templates are **plug-ins** auto-discovered from `src/templates/` — add a folder, rebuild, done.
-- **Multilingual.** Azerbaijani, Russian, English and Georgian; the UI locale (app chrome) and the CV locale (exported headings) are independent. Adding a language is additive — see [docs/adding-a-language.md](docs/adding-a-language.md).
+- **Multilingual — eight languages.** Azerbaijani (default), Arabic, English, Spanish, Georgian, Korean, Russian and Hebrew, every one of them exportable as the CV's own language; the UI locale (app chrome) and the CV locale (exported headings) are independent. Adding a language is additive — see [docs/adding-a-language.md](docs/adding-a-language.md).
 - **Fully responsive PWA.** Phone → 4K, portrait + landscape; installable and offline-capable (incl. offline PDF export).
 
 ## Tech stack
 
-React 18 · Vite 6 · TypeScript (strict) · Ant Design 5 · Zustand · React Hook Form + yup · dayjs · react-i18next · React Icons · `@react-pdf/renderer` + `react-pdf-html` · `vite-plugin-pwa` · `schema-dts` · `react-easy-crop`. Tests: Vitest + React Testing Library.
+React 18 · Vite 6 · TypeScript (strict) · Ant Design 5 · Zustand · React Hook Form + yup · dayjs · react-i18next · React Icons · `@react-pdf/renderer` + `react-pdf-html` · `vite-plugin-pwa` · `schema-dts` · `react-easy-crop`. Tests: Vitest + React Testing Library. Formatting: Prettier (`npm run format`).
 
 ## Getting started
 
@@ -31,6 +31,8 @@ npm run dev        # start the dev server
 | `npm run build` | Type-check + production build (`dist/`) |
 | `npm run preview` | Serve the production build locally |
 | `npm run lint` | ESLint |
+| `npm run format` | Prettier — write |
+| `npm run format:check` | Prettier — check only (CI runs this first) |
 | `npm run typecheck` | TypeScript, no emit |
 | `npm run test` | Vitest (run once) |
 
@@ -93,7 +95,7 @@ Adding a template = add a folder under `src/templates/<id>/` (`index.tsx`, `styl
 
 ## Deployment
 
-GitHub Actions → GitHub Pages (custom domain `onlinecv.az` via `public/CNAME`). On push to `main`, the workflow lints, type-checks, tests, builds, and deploys. One-time: repo **Settings → Pages → Source = GitHub Actions**.
+GitHub Actions → GitHub Pages (custom domain `onlinecv.az` via `public/CNAME`). On push to `main`, the workflow checks formatting, lints, type-checks, tests, builds, and deploys. One-time: repo **Settings → Pages → Source = GitHub Actions**.
 
 ### The `base` path
 

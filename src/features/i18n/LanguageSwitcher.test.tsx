@@ -81,7 +81,9 @@ describe('LanguageSwitcher', () => {
       const tile = document.getElementById(`ui-language-${code}`);
       expect(tile, `no tile for "${code}"`).toBeTruthy();
       expect(tile?.textContent).toContain(LOCALES[code].nativeName);
-      expect(tile?.textContent, `"${code}" shows no ISO code`).toContain(`(${LOCALES[code].short})`);
+      expect(tile?.textContent, `"${code}" shows no ISO code`).toContain(
+        `(${LOCALES[code].short})`,
+      );
       // The flag is drawn per locale, and is decorative.
       const flag = tile?.querySelector(`svg[data-flag="${code}"]`);
       expect(flag, `no flag for "${code}"`).toBeTruthy();
@@ -148,7 +150,9 @@ describe('LanguageSwitcher', () => {
 
       fireEvent.click(close as HTMLElement);
       await waitFor(() => {
-        expect(container.querySelector('#ui-language')?.getAttribute('aria-expanded')).toBe('false');
+        expect(container.querySelector('#ui-language')?.getAttribute('aria-expanded')).toBe(
+          'false',
+        );
       });
       // Left without switching.
       expect(useResumeStore.getState().uiLocale).toBe('az');
@@ -177,7 +181,9 @@ describe('LanguageSwitcher', () => {
       fireEvent.click(currentTile as HTMLElement);
 
       await waitFor(() => {
-        expect(container.querySelector('#ui-language')?.getAttribute('aria-expanded')).toBe('false');
+        expect(container.querySelector('#ui-language')?.getAttribute('aria-expanded')).toBe(
+          'false',
+        );
       });
       expect(useResumeStore.getState().uiLocale).toBe('az');
     });
@@ -210,7 +216,10 @@ describe('LanguageSwitcher', () => {
         (s) => s.firstElementChild?.textContent === t(`regions.${region}`),
       );
       for (const code of SUPPORTED_LOCALES.filter((c) => LOCALES[c].region === region)) {
-        expect(section?.querySelector(`#ui-language-${code}`), `${code} is in the wrong group`).toBeTruthy();
+        expect(
+          section?.querySelector(`#ui-language-${code}`),
+          `${code} is in the wrong group`,
+        ).toBeTruthy();
       }
     }
   });

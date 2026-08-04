@@ -39,7 +39,14 @@ function Section({ title, children }: { title: string; children: ReactNode }): J
 }
 
 function Bullets({ items, locale }: { items: string[]; locale: Locale }): JSX.Element | null {
-  return <BulletList items={items} listStyle={styles.bulletList} locale={locale} itemStyle={styles.bulletItem} />;
+  return (
+    <BulletList
+      items={items}
+      listStyle={styles.bulletList}
+      locale={locale}
+      itemStyle={styles.bulletItem}
+    />
+  );
 }
 
 /**
@@ -62,7 +69,10 @@ export default function Classic({ resume, t, formatDate }: TemplateProps): JSX.E
   const languageText = resume.languages
     .map((l) => `${l.name} (${levelLabel(l.level)})`)
     .join('  •  ');
-  const interestText = (resume.interests ?? []).map((i) => i.name).filter(Boolean).join(', ');
+  const interestText = (resume.interests ?? [])
+    .map((i) => i.name)
+    .filter(Boolean)
+    .join(', ');
 
   return (
     <div style={styles.page}>
@@ -149,11 +159,7 @@ export default function Classic({ resume, t, formatDate }: TemplateProps): JSX.E
                   </div>
                 </div>
                 <div style={styles.entrySub}>
-                  {[
-                    e.degree ? t(`dictionary.${e.degree}`) : '',
-                    e.faculty,
-                    e.specialization,
-                  ]
+                  {[e.degree ? t(`dictionary.${e.degree}`) : '', e.faculty, e.specialization]
                     .filter(Boolean)
                     .join(', ')}
                 </div>
@@ -164,7 +170,9 @@ export default function Classic({ resume, t, formatDate }: TemplateProps): JSX.E
       </Section>
 
       <Section title={t('sections.skills')}>
-        {skillNames.length > 0 ? <div style={styles.inlineList}>{skillNames.join(', ')}</div> : null}
+        {skillNames.length > 0 ? (
+          <div style={styles.inlineList}>{skillNames.join(', ')}</div>
+        ) : null}
       </Section>
 
       <Section title={t('sections.languages')}>

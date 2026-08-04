@@ -66,9 +66,12 @@ export function applyFieldVisibility(resume: Resume): Resume {
   if (!hidden || hidden.length === 0) return resume;
   const hide = (field: HideableField): boolean => hidden.includes(field);
 
-  const media = hide('avatar') && resume.media.avatar ? { ...resume.media, avatar: undefined } : resume.media;
+  const media =
+    hide('avatar') && resume.media.avatar ? { ...resume.media, avatar: undefined } : resume.media;
 
-  const basics = hide('location') ? { ...resume.basics, location: undefined, locationCode: undefined } : resume.basics;
+  const basics = hide('location')
+    ? { ...resume.basics, location: undefined, locationCode: undefined }
+    : resume.basics;
 
   // Rebuilt only when one of ITS fields is hidden, so hiding (say) the avatar
   // leaves `generalInfo` identical and the memoized consumers below see no change.

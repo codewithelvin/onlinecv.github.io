@@ -101,7 +101,11 @@ export function Wizard(): JSX.Element {
 
   const finish = f2.handleSubmit((values) => {
     if (!step1) return;
-    updateBasics({ firstName: step1.firstName, lastName: step1.lastName, headline: values.headline });
+    updateBasics({
+      firstName: step1.firstName,
+      lastName: step1.lastName,
+      headline: values.headline,
+    });
     updateContactEmail(step1.email);
     // Marital status and nationality are optional here, so an untouched field
     // must stay unset rather than land on the CV as an empty row.

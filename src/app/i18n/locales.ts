@@ -6,6 +6,7 @@ import kaGE from 'antd/locale/ka_GE';
 import arEG from 'antd/locale/ar_EG';
 import esES from 'antd/locale/es_ES';
 import heIL from 'antd/locale/he_IL';
+import koKR from 'antd/locale/ko_KR';
 import 'dayjs/locale/az';
 import 'dayjs/locale/ru';
 import 'dayjs/locale/en';
@@ -13,6 +14,7 @@ import 'dayjs/locale/ka';
 import 'dayjs/locale/ar';
 import 'dayjs/locale/es';
 import 'dayjs/locale/he';
+import 'dayjs/locale/ko';
 import type { Locale } from '../../types/resume';
 
 /**
@@ -45,13 +47,7 @@ export type TextDirection = 'ltr' | 'rtl';
  * Portuguese locale is one word here and no i18n work.
  */
 export type LocaleRegion =
-  | 'caucasusWestAsia'
-  | 'europe'
-  | 'middleEast'
-  | 'asia'
-  | 'americas'
-  | 'pacific'
-  | 'africa';
+  'caucasusWestAsia' | 'europe' | 'middleEast' | 'asia' | 'americas' | 'pacific' | 'africa';
 
 /**
  * Display order of the picker's groups. The default locale's own region leads,
@@ -250,6 +246,35 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     cv: true,
     region: 'middleEast',
     antd: heIL,
+  },
+  /**
+   * Korean — the first East Asian locale, and the first one whose script needs a
+   * MEGABYTE-scale font rather than a 30 KB one: Hangul composes 11,172
+   * precomposed syllables, none of which Inter has. `NanumGothic` covers all of
+   * them (verified with fontkit) and is registered like the other script faces —
+   * see `services/pdf.ts` for why the PDF gets a 2 MB TTF while the preview gets a
+   * 340 KB woff2 of the same face.
+   *
+   * Cheap in every other respect, and for the reason Hebrew was: Hangul is drawn
+   * from precomposed syllable code points, so there are no contextual forms and
+   * nothing for a shaping pass to do. It is also left-to-right, so none of the RTL
+   * machinery is involved either. `cv: true` rests on `text-fidelity.test.tsx`
+   * recovering every Korean word from the exported PDF, not on that reasoning.
+   *
+   * `capitalizeMonths: false` — Hangul is unicameral, and dayjs's Korean months
+   * are numerals anyway (`1월`), which have no case to change. `digits: 'latn'`:
+   * Korean has native number words but writes dates in Western digits.
+   */
+  ko: {
+    code: 'ko',
+    short: 'KO',
+    nativeName: '한국어',
+    dir: 'ltr',
+    capitalizeMonths: false,
+    digits: 'latn',
+    cv: true,
+    region: 'asia',
+    antd: koKR,
   },
 };
 

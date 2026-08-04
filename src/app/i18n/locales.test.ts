@@ -1,7 +1,14 @@
 import { describe, expect, it } from 'vitest';
 import dayjs from 'dayjs';
 import { applyLocale, i18n } from './index';
-import { CV_LOCALES, DEFAULT_LOCALE, LOCALES, SUPPORTED_LOCALES, isLocale, toLocale } from './locales';
+import {
+  CV_LOCALES,
+  DEFAULT_LOCALE,
+  LOCALES,
+  SUPPORTED_LOCALES,
+  isLocale,
+  toLocale,
+} from './locales';
 
 /**
  * The "adding a language" contract (`docs/adding-a-language.md`).
@@ -44,7 +51,10 @@ describe('locale registry', () => {
 
     for (const locale of SUPPORTED_LOCALES.filter((l) => l !== DEFAULT_LOCALE)) {
       const actual = keyPaths(bundle(locale)).sort();
-      expect(actual.filter((k) => !expected.includes(k)), `"${locale}" has extra keys`).toEqual([]);
+      expect(
+        actual.filter((k) => !expected.includes(k)),
+        `"${locale}" has extra keys`,
+      ).toEqual([]);
       expect(
         expected.filter((k) => !actual.includes(k)),
         `"${locale}" is missing keys`,

@@ -1,8 +1,8 @@
 # Adding a UI/CV language
 
-The app ships Azerbaijani (default), Russian, English, Georgian, Arabic and
-Spanish. Adding Turkish, German, Farsi … is an **additive** change: no component
-holds a language list, and no existing translation has to be touched.
+The app ships Azerbaijani (default), Russian, English, Georgian, Arabic, Spanish,
+Hebrew and Korean. Adding Turkish, German, Farsi … is an **additive** change: no
+component holds a language list, and no existing translation has to be touched.
 
 Spanish is the worked example of the *easy* case, and worth reading first if the
 new language is written in Latin or Cyrillic: steps 1–3 plus the dictionaries, no
@@ -98,7 +98,14 @@ empty values, and that the dayjs data was imported.
    - a static TTF per weight in `public/fonts/ttf/` (react-pdf's fontkit cannot
      use variable fonts) plus its licence next to `OFL.txt`;
    - the family appended to `CV_FONT_STACK` in `src/templates/_core/fonts.ts` and
-     to `FONT_FAMILY` in `src/app/theme.ts`;
+     to `FONT_FAMILY` in `src/app/theme.ts` **and to the `body` rule in
+     `src/index.css`** — that is *three* places, and the third is the one that
+     drifts. `FONT_FAMILY` reaches AntD's components; the CSS rule reaches
+     everything else, and it had silently missed the Arabic and Hebrew faces for
+     two locales because Segoe UI covers both scripts on Windows and hid it.
+     `fonts.test.ts` now fails if a family in `CV_FONT_STACK` is missing from
+     `FONT_FAMILY`; the CSS half cannot be asserted (`css: false` under vitest
+     makes `?raw` return an empty string), so check it by hand or in a browser;
    - `Font.register` for it in `registerResumeFonts` (`src/services/pdf.ts`);
    - a `unicode-range`-scoped `@font-face` in `src/index.css`, so the other
      locales never download it — and so the preview draws the same face the PDF
@@ -111,6 +118,32 @@ empty values, and that the dayjs data was imported.
    handed the array.) `templates.pdf.test.tsx` asserts a CV in the new script
    embeds both families and never falls back to Helvetica.
 
+   **A megabyte-scale font needs two more decisions, and Korean is the worked
+   example.** Hangul has 11,172 precomposed syllables, so `NanumGothic` is 2.0 MB
+   per weight against Hebrew's 27 KB — 4.1 MB for the pair, against a precache of
+   6.9 MB for the whole app. So:
+
+   - **Ship the woff2 for the preview and the TTF for the export.** The woff2 is
+     341 KB + 417 KB for exactly the same glyphs, and the browser can use it. The
+     exporter cannot: fontkit *reads* a woff2 quite happily, but `@react-pdf` then
+     stops SUBSETTING and embeds the whole face, which took a measured one-page
+     Korean CV from **25 KB to 1.7 MB**. A bigger file in `public/` is the app's
+     problem; a 68× bigger PDF is the user's. This is the only script where the
+     two targets load different files, and both sides say so in a comment.
+   - **Keep the export TTFs out of the precache** (`globIgnores` +
+     a `runtimeCaching` `CacheFirst` rule in `vite.config.ts`). Precaching them
+     would have made every install of the app well over half again as big for a
+     script most users will never type. The cost, which is worth stating in the
+     PR: the *first* Korean PDF export needs the network. The UI and the preview
+     are unaffected — they run off the precached woff2.
+   - **Check the metrics before letting the new face lead.** `cvFontStack` puts
+     the CV's own script first, which means that face also supplies every space,
+     digit and comma. That is why Noto Georgian leading a Georgian CV prints
+     double-width commas. `NanumGothic`'s shared characters are within 5% of
+     Inter's (space 0.280 vs 0.281 em), so Korean pays nothing — but a Korean text
+     face also ships **Latin**, unlike the script-only Noto builds, so a Korean CV
+     contains no Inter at all. That is a deliberate, asserted outcome, not a bug.
+
 ## Required steps, continued
 
 5. **Dictionary labels** — add a `"tr"` column to every file in `src/data/`.
@@ -121,13 +154,22 @@ empty values, and that the dayjs data was imported.
    a user in the new language would otherwise be reading Azerbaijani in the middle
    of their own résumé.
 
-   The volume, at the time of writing: skills 342, specialities 305, faculties 263,
-   positions 243, universities 154, cities 132, colleges 127, nationality 34,
-   languages 18, interests 17 — **1,635 rows**. Do it with a script that rebuilds
+   The volume, at the time of writing: skills 342, specialities 305, universities
+   264, faculties 263, positions 243, cities 132, colleges 127, nationality 34,
+   languages 18, interests 17 — **1,745 rows**. Do it with a script that rebuilds
    each row key-by-key (so the new column lands in the same place in every file)
    and *refuses to write* on an unmapped code, a duplicate label within the
    dataset, or a label longer than `FIELD_MAX` for that group. The three legacy
    synonym pairs in `skills` are the only rows allowed to share a label.
+
+   Two guards worth adding to that script for a NON-LATIN locale, both of which
+   have caught real mistakes: refuse a label containing a script from a
+   *neighbouring* column (a copy-paste leak — `טרabzון` and `ბar-ილანის` both
+   shipped that way and were found by grepping for Latin inside non-Latin columns),
+   and refuse one that contains no character of the new script at all *unless* it is
+   a deliberate Latin product name. Korean needs the second exemption more than any
+   other locale: 53 of its 342 skills are `Microsoft Excel`, `PostgreSQL`, `Figma` —
+   names that stay Latin in a real Korean CV.
 
    Values already saved in a CV re-label themselves as soon as the column exists,
    since they are stored as codes rather than as text.
@@ -157,9 +199,47 @@ empty values, and that the dayjs data was imported.
 6. **Template names** — `TemplateManifest.name` requires only `az`, so existing
    template folders keep working untouched. Add the new code when convenient.
 
+## Check that the language's own users can express their own data
+
+This is where the real defects have been, every single time, and none of them was
+in the translation. A locale is not shipped until its speakers can type their own
+details into it.
+
+The rules that broke, in order of discovery:
+
+- **The name pattern** allowed Latin + Azerbaijani + Cyrillic letters only, so an
+  Arabic or Georgian user could not get past the first wizard field. Now `\p{L}`.
+- **The languages dictionary** had no Georgian row while the Georgian UI shipped,
+  and `LanguageItem.code` is the one field with no free-text fallback — so a
+  Georgian user could not claim their mother tongue. `datasets.test.ts` guards it.
+- **Driver-licence categories** were a hard 11-value enum of the Azerbaijani set,
+  shown to all locales, and it actively discarded anything else. The axis was wrong
+  too: a licence is issued by a COUNTRY, not by the language the app is read in.
+  Now suggestions + free text.
+- **`min(3)` on first and last name.** A Korean surname is ONE syllable — 김, 이,
+  박, and 이 alone belongs to about a fifth of the country — so the rule refused the
+  surname of every Korean user. (It had also been refusing "Bo" and "Li" for years.)
+  Removed: `.required()` on a trimmed string is the check that was actually wanted.
+
+So for each new locale, ask concretely: **what does a name look like, what does a
+date look like, and what would this person put in every enum-ish field?** Check the
+name rule, `languages.json`, and anything with a fixed option list.
+
+Two known cosmetic gaps that Korean exposed and did NOT change, because both are
+spec'd formats (§10.2) applied uniformly to every locale:
+
+- `MONTH_YEAR` is `MMM YYYY`, so a Korean CV reads `3월 2020` where the convention
+  is `2020년 3월`; `FULL_DATE` is `DD.MM.YYYY` where Korean writes `2020.03.01`.
+  Fixing this properly means a per-locale date-format table, which is a spec change
+  rather than a bug fix — raise it before doing it.
+- The age's counter word DID change, because that one was inside core rather than in
+  the spec: `withUnit` in `render-helpers.ts` now writes `39세` and `39 il`,
+  deriving the rule from the unit's own script so a future Japanese or Chinese
+  locale inherits it.
+
 ## Right-to-left languages (Arabic, Hebrew, Farsi)
 
-Both shipped RTL locales are complete — UI, preview and export — but they cost
+The two shipped RTL locales are complete — UI, preview and export — but they cost
 very different amounts, and the difference is worth understanding before adding
 the next one.
 
@@ -178,6 +258,15 @@ Thaana), expect the Arabic work to carry it. If it is cursive-joining (Farsi,
 Urdu, Syriac), expect to need `utils/arabic`'s treatment** — Farsi in particular
 uses the Arabic script and would go through `preshapeArabic`, so it inherits both
 the shaping fix and its text-layer trade-off.
+
+**Korean generalizes the same rule past direction.** It is left-to-right, so none
+of the RTL machinery is involved, and it needs no shaping either — for the Hebrew
+reason rather than a new one: Hangul is written with **precomposed syllables**, one
+code point per syllable, so there is nothing contextual to resolve. Its whole cost
+was the font's SIZE (see step 4). Generalized: *what makes a script expensive is
+per-glyph context, not the alphabet* — a Devanagari or Thai locale would be the
+next genuinely hard case, because both reorder and combine marks; a Cyrillic,
+Greek, Hangul or Kana one is a translation plus a font.
 
 Arabic is the worked example of the hard case, and it ships complete: UI, preview
 and export.

@@ -26,7 +26,7 @@ export function ContactSection(): JSX.Element {
 
   const addId = useScopedId('add');
   const [index, setIndex] = useState<number | null>(null);
-  const editing = index !== null && index >= 0 ? items[index] ?? null : null;
+  const editing = index !== null && index >= 0 ? (items[index] ?? null) : null;
   const isAdding = index === -1;
 
   const emailError = !email.trim()
@@ -36,7 +36,11 @@ export function ContactSection(): JSX.Element {
       : undefined;
 
   const onSubmit = (v: ContactFormValues): void => {
-    const item: ContactItem = { id: editing?.id ?? createId(), type: v.type as ContactType, value: v.value.trim() };
+    const item: ContactItem = {
+      id: editing?.id ?? createId(),
+      type: v.type as ContactType,
+      value: v.value.trim(),
+    };
     if (isAdding) addContact(item);
     else if (editing) updateContact(editing.id, item);
     setIndex(null);

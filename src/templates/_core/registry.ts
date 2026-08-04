@@ -1,8 +1,4 @@
-import type {
-  RegisteredTemplate,
-  ResumeTemplate,
-  TemplateManifest,
-} from '../../types/template';
+import type { RegisteredTemplate, ResumeTemplate, TemplateManifest } from '../../types/template';
 
 /**
  * Template registry (spec §7.1). The SINGLE place that scans the templates

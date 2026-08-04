@@ -225,7 +225,6 @@
     "userFirstnameRequired": "Enter your name",
     "userLastnameRequired": "Enter your last name",
     "onlyLettersAndSpace": "Only letters, spaces, hyphens and apostrophes are allowed",
-    "minThreeChars": "A minimum of 3 characters must be entered",
     "maximumFiftyCharacter": "A maximum of 50 characters can be entered",
     "maximumHundredCharacter": "A maximum of 100 characters can be entered",
     "maximumTwoHundredCharacter": "A maximum of 200 characters can be entered",

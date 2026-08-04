@@ -1,0 +1,21 @@
+# Normalize text files to LF in the index AND in the working tree.
+#
+# The index is already LF everywhere (`git ls-files --eol` → `i/lf` for every
+# tracked text file), but `core.autocrlf=true` checks a Windows working tree out
+# as CRLF. Prettier compares against the file on disk, so without `eol=lf` a
+# fresh clone on Windows would fail `npm run format:check` on line endings alone,
+# in files nobody had touched. This pins the two tools to the same answer.
+* text=auto eol=lf
+
+# Binary, so git never tries to normalize or diff them as text.
+*.ttf binary
+*.woff2 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.pdf binary
+
+# Keep the patch-package diffs byte-exact: they are applied by line, and a
+# line-ending rewrite makes `patch-package` fail to apply them at all.
+patches/** -text

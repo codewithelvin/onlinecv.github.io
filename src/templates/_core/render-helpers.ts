@@ -1,9 +1,4 @@
-import type {
-  ContactItem,
-  EducationItem,
-  ExperienceItem,
-  Resume,
-} from '../../types/resume';
+import type { ContactItem, EducationItem, ExperienceItem, Resume } from '../../types/resume';
 import { calcAge, localizeDigits } from '../../utils/date';
 
 /**
@@ -67,6 +62,23 @@ export function contactDisplay(item: ContactItem): string {
 }
 
 /**
+ * Scripts that set a counter word TIGHT against its number: `39세`, not `39 세`.
+ *
+ * Derived from the unit string itself rather than declared per locale, for the
+ * same reason `utils/arabic`'s tables are derived — the rule is a property of the
+ * word being appended, so a future Japanese or Chinese locale gets it for free and
+ * `LocaleMeta` needs no new field. Korean is the case that raised it: `common.years`
+ * is `세`, and the hard-coded space read as a typo on the finished CV.
+ */
+const NO_SPACE_BEFORE_UNIT =
+  /^[\p{Script=Hangul}\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]/u;
+
+/** Join a value and its unit the way the unit's own script writes it. */
+export function withUnit(value: string, unit: string): string {
+  return NO_SPACE_BEFORE_UNIT.test(unit) ? `${value}${unit}` : `${value} ${unit}`;
+}
+
+/**
  * The "general info" rows, in ONE fixed order for every template.
  *
  * This is CV data, not template design: which of these a reader sees must not
@@ -90,11 +102,14 @@ export function generalInfoPairs(
     const years = age !== null ? localizeDigits(String(age), resume.locale) : '';
     pairs.push([
       t('cvLabels.dateOfBirth'),
-      `${formatDate(gi.dateOfBirth, fullDateFormat)}${years ? ` (${years} ${t('common.years')})` : ''}`,
+      `${formatDate(gi.dateOfBirth, fullDateFormat)}${
+        years ? ` (${withUnit(years, t('common.years'))})` : ''
+      }`,
     ]);
   }
   if (gi.gender) pairs.push([t('cvLabels.gender'), t(`dictionary.${gi.gender}`)]);
-  if (gi.maritalStatus) pairs.push([t('cvLabels.maritalStatus'), t(`dictionary.${gi.maritalStatus}`)]);
+  if (gi.maritalStatus)
+    pairs.push([t('cvLabels.maritalStatus'), t(`dictionary.${gi.maritalStatus}`)]);
   if (gi.nationality) pairs.push([t('cvLabels.nationality'), gi.nationality]);
   if (gi.militaryStatus) pairs.push([t('cvLabels.military'), t(`dictionary.${gi.militaryStatus}`)]);
   if (gi.driverLicense && gi.driverLicense.length > 0) {

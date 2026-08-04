@@ -6,14 +6,19 @@ export const BRAND = '#1877F2';
 export const BRAND_ACCESSIBLE = '#1461c7';
 
 /**
- * UI font stack. The three Noto faces sit behind Inter for the same reason they do
- * in the CV stack (`templates/_core/fonts.ts`): Inter has no glyphs for Georgian,
- * Arabic or Hebrew, so without them those UIs fall through to whatever the OS
- * happens to have. Every `@font-face` block in `index.css` is
- * `unicode-range`-scoped, so nothing is downloaded for the Latin/Cyrillic locales.
+ * UI font stack. The script faces sit behind Inter for the same reason they do in
+ * the CV stack (`templates/_core/fonts.ts`): Inter has no glyphs for Georgian,
+ * Arabic, Hebrew or Hangul, so without them those UIs fall through to whatever the
+ * OS happens to have. Every `@font-face` block in `index.css` is
+ * `unicode-range`-scoped, so nothing is downloaded for the Latin/Cyrillic locales
+ * — which matters most for `NanumGothic`, the only one big enough to notice.
+ *
+ * `NanumGothic` is last deliberately, even though it is the only one of the four
+ * that carries Latin: leading with Inter keeps the UI's own letterforms identical
+ * in all eight languages, and Hangul reaches Nanum by per-glyph fallback anyway.
  */
 export const FONT_FAMILY =
-  "Inter, NotoSansGeorgian, NotoSansArabic, NotoSansHebrew, 'Segoe UI', Roboto, 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif";
+  "Inter, NotoSansGeorgian, NotoSansArabic, NotoSansHebrew, NanumGothic, 'Segoe UI', Roboto, 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif";
 
 /**
  * Ant Design `ConfigProvider` theme (spec §10.2). Primary uses the AA-safe

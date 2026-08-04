@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { SUPPORTED_LOCALES } from '../../app/i18n/locales';
+import { FONT_FAMILY } from '../../app/theme';
 import { CV_FONT_STACK, cvFontFamily, cvFontStack } from './fonts';
 
 /**
@@ -24,6 +25,8 @@ describe('cvFontStack', () => {
   it('puts the script that needs its own face first', () => {
     expect(cvFontStack('ar')[0]).toBe('NotoSansArabic');
     expect(cvFontStack('ka')[0]).toBe('NotoSansGeorgian');
+    expect(cvFontStack('he')[0]).toBe('NotoSansHebrew');
+    expect(cvFontStack('ko')[0]).toBe('NanumGothic');
   });
 
   it('leaves Inter in front for the Latin and Cyrillic locales', () => {
@@ -41,5 +44,29 @@ describe('cvFontStack', () => {
   it('renders as a CSS declaration for the preview', () => {
     expect(cvFontFamily('ar')).toBe(cvFontStack('ar').join(', '));
     expect(cvFontFamily('ar').startsWith('NotoSansArabic,')).toBe(true);
+  });
+
+  /**
+   * The EDITOR has to be able to draw every script the CV can, and its stack is a
+   * second copy of this one (`FONT_FAMILY` in `app/theme.ts`, which AntD's
+   * `ConfigProvider` applies, plus the `body` rule in `index.css`).
+   *
+   * This caught a real drift: both copies stopped at `NotoSansGeorgian` and never
+   * gained the Arabic or Hebrew faces, so those UIs were drawn by whatever the OS
+   * happened to have. Windows hid it — Segoe UI covers both scripts — and Hangul
+   * would have hidden it the same way, right up to the first machine with no
+   * Korean font installed.
+   *
+   * The `index.css` half cannot be asserted (`css: false` under vitest makes
+   * `?raw` return an empty string), so this guards the JS half and the CSS carries
+   * a comment. Adding a face to `CV_FONT_STACK` now fails here until the editor
+   * gets it too.
+   */
+  it('offers every CV face to the editor UI as well', () => {
+    for (const family of CV_FONT_STACK) {
+      expect(FONT_FAMILY, `${family} is missing from the UI font stack`).toContain(family);
+    }
+    // Inter still leads, so the chrome looks the same in all eight languages.
+    expect(FONT_FAMILY.startsWith('Inter,')).toBe(true);
   });
 });

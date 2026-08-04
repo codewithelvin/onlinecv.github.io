@@ -16,7 +16,13 @@ import type { Option } from '../../components/form/fields';
 export const GENDERS: Gender[] = ['male', 'female'];
 export const MARITAL_STATUSES: MaritalStatus[] = ['single', 'married'];
 export const MILITARY_STATUSES: MilitaryStatus[] = ['served', 'unserved', 'unfit'];
-export const DEGREE_LEVELS: DegreeLevel[] = ['bachelor', 'magister', 'doctorant', 'residency', 'phd'];
+export const DEGREE_LEVELS: DegreeLevel[] = [
+  'bachelor',
+  'magister',
+  'doctorant',
+  'residency',
+  'phd',
+];
 export const EDUCATION_TYPES: EducationType[] = ['school', 'college', 'university'];
 export const EMPLOYMENT_TYPES: EmploymentType[] = [
   'fullTime',

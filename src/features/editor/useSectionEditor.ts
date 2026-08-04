@@ -10,7 +10,9 @@ const ADD = -1;
  * section. Generic over the item type; the store's list actions are cast once
  * to this item type (the store validates shape via its own typed signatures).
  */
-export function useSectionEditor<Item extends { id: string }>(section: ResumeListSection): {
+export function useSectionEditor<Item extends { id: string }>(
+  section: ResumeListSection,
+): {
   items: Item[];
   index: number | null;
   isAdding: boolean;
@@ -37,7 +39,7 @@ export function useSectionEditor<Item extends { id: string }>(section: ResumeLis
 
   const [index, setIndex] = useState<number | null>(null);
 
-  const editingItem = index !== null && index >= 0 ? items[index] ?? null : null;
+  const editingItem = index !== null && index >= 0 ? (items[index] ?? null) : null;
 
   return {
     items,

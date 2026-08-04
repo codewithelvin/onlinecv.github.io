@@ -25,7 +25,11 @@ function toRadian(deg: number): number {
   return (deg * Math.PI) / 180;
 }
 
-function rotatedSize(width: number, height: number, rotation: number): { width: number; height: number } {
+function rotatedSize(
+  width: number,
+  height: number,
+  rotation: number,
+): { width: number; height: number } {
   const rad = toRadian(rotation);
   return {
     width: Math.abs(Math.cos(rad) * width) + Math.abs(Math.sin(rad) * height),

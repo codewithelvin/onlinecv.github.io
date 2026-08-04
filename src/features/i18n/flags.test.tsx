@@ -91,21 +91,56 @@ describe('Flag', () => {
     ]);
     // Crescent = two discs; the star = two squares, one rotated 45°.
     expect(svg.querySelectorAll('circle')).toHaveLength(2);
-    expect([...svg.querySelectorAll('rect')].some((r) => r.getAttribute('transform')?.includes('rotate(45'))).toBe(true);
+    expect(
+      [...svg.querySelectorAll('rect')].some((r) =>
+        r.getAttribute('transform')?.includes('rotate(45'),
+      ),
+    ).toBe(true);
   });
 
   it('gives Georgia five crosses', () => {
     const svg = draw('ka');
-    const red = [...svg.querySelectorAll('rect')].filter((r) => r.getAttribute('fill') === '#FF0000');
+    const red = [...svg.querySelectorAll('rect')].filter(
+      (r) => r.getAttribute('fill') === '#FF0000',
+    );
     // The central cross is 2 bars; each of the four Bolnisi crosses is 2 more.
     expect(red).toHaveLength(2 + 4 * 2);
+  });
+
+  /**
+   * The Taegukgi's four trigrams are 건·곤·감·리 — heaven, earth, water, fire — and
+   * which bars are broken is what each one IS, so the count of strokes is the
+   * checkable part: 건 is three whole bars, 곤 three split ones (6), 감 is
+   * broken-solid-broken (5) and 리 solid-broken-solid (4). They are authored as two
+   * paths of nine subpaths each, one per diagonal, plus the two taeguk halves.
+   */
+  it('gives South Korea a red-and-blue taeguk and four correct trigrams', () => {
+    const svg = draw('ko');
+    // The stroke is declared once on the group the two paths share.
+    const trigrams = [...svg.querySelectorAll('g[stroke="#000"] path')];
+    expect(trigrams).toHaveLength(2);
+    for (const path of trigrams) {
+      // 3 + 6 on one diagonal, 4 + 5 on the other: nine strokes either way.
+      const strokes = (path.getAttribute('d') ?? '').match(/[Mm]/g) ?? [];
+      expect(strokes).toHaveLength(9);
+      // Rotated by the flag's own diagonal, atan(2/3) — one sign each.
+      expect(path.getAttribute('transform')).toMatch(/^rotate\(-?33\.69/);
+    }
+
+    const filled = [...svg.querySelectorAll('path')].map((p) => p.getAttribute('fill'));
+    expect(filled).toContain('#cd2e3a');
+    expect(filled).toContain('#0047a0');
   });
 
   it('gives Russia and Spain their bands, in order', () => {
     const ru = [...draw('ru').querySelectorAll('rect')].filter(
       (r) => Number(r.getAttribute('width')) === 24,
     );
-    expect(ru.slice(0, 3).map((r) => r.getAttribute('fill'))).toEqual(['#fff', '#0039A6', '#D52B1E']);
+    expect(ru.slice(0, 3).map((r) => r.getAttribute('fill'))).toEqual([
+      '#fff',
+      '#0039A6',
+      '#D52B1E',
+    ]);
 
     const es = [...draw('es').querySelectorAll('rect')];
     expect(es[0].getAttribute('fill')).toBe('#AA151B');

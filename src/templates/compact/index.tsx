@@ -37,7 +37,8 @@ function Bullets({ items, locale }: { items: string[]; locale: Locale }): JSX.El
   return (
     <BulletList
       items={items}
-      listStyle={styles.bulletList} locale={locale}
+      listStyle={styles.bulletList}
+      locale={locale}
       itemStyle={styles.bulletItem}
       markWidth={8}
     />
@@ -55,7 +56,10 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
   const contacts = contactChannels(resume).map(contactDisplay);
   const skillNames = resume.skills.map((s) => s.name).filter(Boolean);
   const languageText = resume.languages.map((l) => `${l.name} (${levelLabel(l.level)})`).join(', ');
-  const interestText = (resume.interests ?? []).map((i) => i.name).filter(Boolean).join(', ');
+  const interestText = (resume.interests ?? [])
+    .map((i) => i.name)
+    .filter(Boolean)
+    .join(', ');
 
   // Same rows as every other template (`generalInfoPairs`), run together on one
   // line — condensed is this template's job, dropping the user's data is not.
@@ -79,7 +83,9 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
             {resume.basics.location ? ` · ${resume.basics.location}` : ''}
           </div>
         ) : null}
-        {contacts.length > 0 ? <div style={styles.contactLine}>{contacts.join('  •  ')}</div> : null}
+        {contacts.length > 0 ? (
+          <div style={styles.contactLine}>{contacts.join('  •  ')}</div>
+        ) : null}
       </div>
 
       <Section title={t('sections.summary')}>
@@ -150,7 +156,9 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
       </Section>
 
       <Section title={t('sections.skills')}>
-        {skillNames.length > 0 ? <div style={styles.inlineList}>{skillNames.join(', ')}</div> : null}
+        {skillNames.length > 0 ? (
+          <div style={styles.inlineList}>{skillNames.join(', ')}</div>
+        ) : null}
       </Section>
 
       <Section title={t('sections.languages')}>

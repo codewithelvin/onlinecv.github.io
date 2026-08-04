@@ -1,36 +1,17 @@
-import type { JSX } from "react";
-import {
-  AutoComplete,
-  Col,
-  DatePicker,
-  Input,
-  Row,
-  Select,
-  Space,
-  theme,
-} from "antd";
-import dayjs from "dayjs";
-import { useTranslation } from "react-i18next";
-import type {
-  Gender,
-  MaritalStatus,
-  MilitaryStatus,
-} from "../../../types/resume";
-import { useResumeStore } from "../../../state/store";
-import {
-  FULL_DATE,
-  ISO_DATE,
-  calcAge,
-  datePlaceholder,
-  dobPickerStart,
-} from "../../../utils/date";
-import { useDictionary } from "../../../hooks/useDictionary";
-import { resolveDictionaryValue } from "../../../utils/dictionary";
-import { searchKey } from "../../../utils/search";
-import { toLocale } from "../../../app/i18n/locales";
-import { DictionaryMatch, Field } from "../../../components/form/fields";
-import { useScopedId } from "../../../components/form/field-scope";
-import { FieldVisibility } from "../FieldVisibility";
+import type { JSX } from 'react';
+import { AutoComplete, Col, DatePicker, Input, Row, Select, Space, theme } from 'antd';
+import dayjs from 'dayjs';
+import { useTranslation } from 'react-i18next';
+import type { Gender, MaritalStatus, MilitaryStatus } from '../../../types/resume';
+import { useResumeStore } from '../../../state/store';
+import { FULL_DATE, ISO_DATE, calcAge, datePlaceholder, dobPickerStart } from '../../../utils/date';
+import { useDictionary } from '../../../hooks/useDictionary';
+import { resolveDictionaryValue } from '../../../utils/dictionary';
+import { searchKey } from '../../../utils/search';
+import { toLocale } from '../../../app/i18n/locales';
+import { DictionaryMatch, Field } from '../../../components/form/fields';
+import { useScopedId } from '../../../components/form/field-scope';
+import { FieldVisibility } from '../FieldVisibility';
 import {
   GENDERS,
   MARITAL_STATUSES,
@@ -38,7 +19,7 @@ import {
   dictOptions,
   licenseOptions,
   normalizeLicenseCategories,
-} from "../enums";
+} from '../enums';
 
 /** Max length of the short self-description (spec §16). */
 const SUMMARY_MAX = 300;
@@ -51,20 +32,20 @@ export function GeneralInfoSection(): JSX.Element {
   const update = useResumeStore((s) => s.updateGeneralInfo);
   const summary = useResumeStore((s) => s.resume.summary);
   const setSummary = useResumeStore((s) => s.updateSummary);
-  const nationality = useDictionary("nationality");
+  const nationality = useDictionary('nationality');
   const { token } = theme.useToken();
-  const ageId = useScopedId("dateOfBirth-age");
+  const ageId = useScopedId('dateOfBirth-age');
 
   const dob = gi.dateOfBirth ? dayjs(gi.dateOfBirth) : null;
   const age = calcAge(gi.dateOfBirth);
   const summaryTooLong = summary.length > SUMMARY_MAX;
 
   return (
-    <Space direction="vertical" style={{ width: "100%" }} size="middle">
+    <Space direction="vertical" style={{ width: '100%' }} size="middle">
       <Row gutter={12}>
         <Col xs={24} sm={12}>
           <Field
-            label={t("fields.gender")}
+            label={t('fields.gender')}
             name="gender"
             required
             extra={<FieldVisibility field="gender" />}
@@ -73,7 +54,7 @@ export function GeneralInfoSection(): JSX.Element {
               <Select
                 {...a11y}
                 value={gi.gender}
-                placeholder={t("common.select")}
+                placeholder={t('common.select')}
                 options={dictOptions(GENDERS, t)}
                 onChange={(v: Gender) => update({ gender: v })}
               />
@@ -84,7 +65,7 @@ export function GeneralInfoSection(): JSX.Element {
           {/* Not required (and clearable): plenty of people would rather not
               state it at all, and the CV omits the row when it is empty. */}
           <Field
-            label={t("fields.maritalStatus")}
+            label={t('fields.maritalStatus')}
             name="maritalStatus"
             extra={<FieldVisibility field="maritalStatus" />}
           >
@@ -93,11 +74,9 @@ export function GeneralInfoSection(): JSX.Element {
                 {...a11y}
                 allowClear
                 value={gi.maritalStatus}
-                placeholder={t("common.select")}
+                placeholder={t('common.select')}
                 options={dictOptions(MARITAL_STATUSES, t)}
-                onChange={(v: MaritalStatus | undefined) =>
-                  update({ maritalStatus: v })
-                }
+                onChange={(v: MaritalStatus | undefined) => update({ maritalStatus: v })}
               />
             )}
           </Field>
@@ -109,7 +88,7 @@ export function GeneralInfoSection(): JSX.Element {
               it on a language switch; `resolve` turns it back into text here, and
               anything unrecognized falls through unchanged. */}
           <Field
-            label={t("fields.nationality")}
+            label={t('fields.nationality')}
             name="nationality"
             extra={<FieldVisibility field="nationality" />}
           >
@@ -122,19 +101,14 @@ export function GeneralInfoSection(): JSX.Element {
                   nationality.locale,
                 )}
                 options={nationality.options}
-                onChange={(v) =>
-                  update({ nationality: nationality.findByLabel(v)?.code ?? v })
-                }
+                onChange={(v) => update({ nationality: nationality.findByLabel(v)?.code ?? v })}
                 /* The LAST call site that still filtered with a plain
                    `toLowerCase()`, and it had the same defect the rest were fixed
                    for: `İ` lower-cases to `i` plus a combining dot, so typing
                    "it" could not find "İtalyan". See `utils/search`. */
                 filterOption={(input, option) => {
                   const needle = searchKey(input);
-                  return (
-                    needle === "" ||
-                    searchKey(String(option?.label ?? "")).includes(needle)
-                  );
+                  return needle === '' || searchKey(String(option?.label ?? '')).includes(needle);
                 }}
               >
                 {/* A recognized nationality is stored as a dictionary CODE and
@@ -150,10 +124,8 @@ export function GeneralInfoSection(): JSX.Element {
                 <Input
                   suffix={
                     <DictionaryMatch
-                      recognized={Boolean(
-                        nationality.findByCode(gi.nationality),
-                      )}
-                      title={t("fields.dictionaryMatch")}
+                      recognized={Boolean(nationality.findByCode(gi.nationality))}
+                      title={t('fields.dictionaryMatch')}
                     />
                   }
                 />
@@ -163,7 +135,7 @@ export function GeneralInfoSection(): JSX.Element {
         </Col>
         <Col xs={24} sm={12}>
           <Field
-            label={t("fields.dateOfBirth")}
+            label={t('fields.dateOfBirth')}
             name="dateOfBirth"
             required
             extra={<FieldVisibility field="dateOfBirth" />}
@@ -171,7 +143,7 @@ export function GeneralInfoSection(): JSX.Element {
             {(a11y) => (
               <DatePicker
                 {...a11y}
-                style={{ width: "100%" }}
+                style={{ width: '100%' }}
                 format={FULL_DATE}
                 /* Advertises that the field is typeable, and opens the panel a
                    generation back instead of on today — a birthday is never
@@ -194,23 +166,21 @@ export function GeneralInfoSection(): JSX.Element {
                       style={{
                         color: token.colorTextDescription,
                         fontSize: token.fontSizeSM,
-                        whiteSpace: "nowrap",
+                        whiteSpace: 'nowrap',
                       }}
                     >
-                      {`${t("cvLabels.age")}: ${age}`}
+                      {`${t('cvLabels.age')}: ${age}`}
                     </span>
                   ) : undefined
                 }
-                onChange={(d) =>
-                  update({ dateOfBirth: d ? d.format(ISO_DATE) : "" })
-                }
+                onChange={(d) => update({ dateOfBirth: d ? d.format(ISO_DATE) : '' })}
               />
             )}
           </Field>
         </Col>
         <Col xs={24} sm={12}>
           <Field
-            label={t("fields.militaryStatus")}
+            label={t('fields.militaryStatus')}
             name="militaryStatus"
             extra={<FieldVisibility field="militaryStatus" />}
           >
@@ -220,16 +190,14 @@ export function GeneralInfoSection(): JSX.Element {
                 allowClear
                 value={gi.militaryStatus}
                 options={dictOptions(MILITARY_STATUSES, t)}
-                onChange={(v: MilitaryStatus | undefined) =>
-                  update({ militaryStatus: v })
-                }
+                onChange={(v: MilitaryStatus | undefined) => update({ militaryStatus: v })}
               />
             )}
           </Field>
         </Col>
         <Col xs={24} sm={12}>
           <Field
-            label={t("fields.driverLicense")}
+            label={t('fields.driverLicense')}
             name="driverLicense"
             extra={<FieldVisibility field="driverLicense" />}
           >
@@ -243,12 +211,10 @@ export function GeneralInfoSection(): JSX.Element {
                 {...a11y}
                 mode="tags"
                 allowClear
-                placeholder={t("common.selectOrType")}
+                placeholder={t('common.selectOrType')}
                 value={gi.driverLicense ?? []}
                 options={licenseOptions()}
-                onChange={(v: string[]) =>
-                  update({ driverLicense: normalizeLicenseCategories(v) })
-                }
+                onChange={(v: string[]) => update({ driverLicense: normalizeLicenseCategories(v) })}
               />
             )}
           </Field>
@@ -258,13 +224,9 @@ export function GeneralInfoSection(): JSX.Element {
           counter BELOW the textarea, and with the margin zeroed it collided with
           the bottom edge of the accordion panel. */}
       <Field
-        label={t("fields.summaryText")}
+        label={t('fields.summaryText')}
         name="summary"
-        error={
-          summaryTooLong
-            ? t("validation.maximumThreeHundredCharacter")
-            : undefined
-        }
+        error={summaryTooLong ? t('validation.maximumThreeHundredCharacter') : undefined}
         extra={<FieldVisibility field="summary" />}
       >
         {(a11y) => (

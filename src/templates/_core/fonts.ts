@@ -5,11 +5,18 @@ import type { Locale } from '../../types/resume';
  * app supports.
  *
  * Inter carries Latin (Azerbaijani `ə ğ ı İ ş` included) and Cyrillic but NOT a
- * single Georgian or Arabic glyph, so a CV in either script rendered in Inter
- * alone exports as a page of blanks: `@react-pdf` falls back to Helvetica per
- * glyph, and Helvetica has no more of them than Inter does. The two Noto faces
- * cover exactly the gaps — both are script-only builds with no Latin at all, so
- * none of the three ever competes for a code point.
+ * single Georgian, Arabic, Hebrew or Hangul glyph, so a CV in any of those
+ * scripts rendered in Inter alone exports as a page of blanks: `@react-pdf` falls
+ * back to Helvetica per glyph, and Helvetica has no more of them than Inter does.
+ * The extra faces cover exactly the gaps.
+ *
+ * The three Noto faces are script-only builds with no Latin at all, so they can
+ * never compete with Inter for a code point. `NanumGothic` is the exception —
+ * Korean fonts ship Latin because Korean text is written with it mixed in — but
+ * competing is harmless here, and MEASURED rather than assumed: its Latin
+ * advances land within 5% of Inter's (space 0.280 vs 0.281 em, comma 0.303 vs
+ * 0.288, `a` 0.545 vs 0.562), so it can lead a Korean CV without the
+ * double-width-punctuation problem Noto Georgian has (see below).
  *
  * Both targets get per-glyph fallback from this one declaration:
  *
@@ -25,7 +32,13 @@ import type { Locale } from '../../types/resume';
  * `services/pdf.ts` (PDF) and an `@font-face` in `index.css` (preview) —
  * otherwise the same CV renders in two different faces.
  */
-export const CV_FONT_STACK = ['Inter', 'NotoSansGeorgian', 'NotoSansArabic', 'NotoSansHebrew'];
+export const CV_FONT_STACK = [
+  'Inter',
+  'NotoSansGeorgian',
+  'NotoSansArabic',
+  'NotoSansHebrew',
+  'NanumGothic',
+];
 
 /** `CV_FONT_STACK` as a CSS declaration, for the templates' inline styles. */
 export const CV_FONT_FAMILY = CV_FONT_STACK.join(', ');
@@ -40,12 +53,13 @@ const PRIMARY_FONT: Partial<Record<Locale, string>> = {
   ka: 'NotoSansGeorgian',
   ar: 'NotoSansArabic',
   he: 'NotoSansHebrew',
+  ko: 'NanumGothic',
 };
 
 /**
  * WHAT ORDER CANNOT DO, so that nobody tries to fix it here again.
  *
- * All three faces carry the characters scripts SHARE \u2014 space, digits, Latin
+ * Every face carries the characters scripts SHARE \u2014 space, digits, Latin
  * punctuation \u2014 and `@react-pdf/layout`'s `fontSubstitution` resolves each code
  * point against the stack strictly first-match-first, with the previously used
  * font ranked BELOW the whole stack (`pickFontFromFontStack`). There is no
@@ -59,6 +73,11 @@ const PRIMARY_FONT: Partial<Record<Locale, string>> = {
  * e-mail addresses and skill names, and led by Inter it gives its Georgian prose
  * Latin-proportioned spaces instead. Both are compromises; neither is a bug that
  * reordering can remove.
+ *
+ * How big the compromise is depends on the FACE, though, not on the principle:
+ * `NanumGothic`'s shared characters are within 5% of Inter's (space 0.280, comma
+ * 0.303, `(` 0.363), because a Korean text face is designed to sit next to Latin.
+ * A Korean CV led by it therefore pays nothing measurable, unlike a Georgian one.
  *
  * The CV's own language wins, because that is where the bulk of the text is. Per
  * text-element stacks would be the real fix, but `fontFamily` would have to be

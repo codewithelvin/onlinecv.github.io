@@ -119,11 +119,7 @@ describe('dictionary recognition', () => {
 
   it('marks a value that resolves to a dictionary entry', async () => {
     renderWithProviders(
-      <SkillModal
-        {...base}
-        defaultValues={{ name: 'TypeScript', level: 70 }}
-        onSubmit={vi.fn()}
-      />,
+      <SkillModal {...base} defaultValues={{ name: 'TypeScript', level: 70 }} onSubmit={vi.fn()} />,
     );
     await waitFor(async () => expect(await matchState()).toBe('true'));
     // The tick is announced, not decorative — it is the field's only state read-out.
@@ -143,9 +139,9 @@ describe('dictionary recognition', () => {
     // Free text is a supported value, so the input keeps it verbatim. (Queried by
     // class, not by id: the scoped `#skill-name` id comes from the `FieldScope` in
     // `EditorPanel`, and this test renders the modal on its own.)
-    expect(
-      document.querySelector<HTMLInputElement>('.ant-select-auto-complete input')?.value,
-    ).toBe('Fərdi icad etdiyim bacarıq');
+    expect(document.querySelector<HTMLInputElement>('.ant-select-auto-complete input')?.value).toBe(
+      'Fərdi icad etdiyim bacarıq',
+    );
   });
 
   /**
@@ -281,9 +277,7 @@ describe('EducationModal', () => {
 
   it('suggests listed faculties as you type', async () => {
     const user = userEvent.setup();
-    renderWithProviders(
-      <EducationModal {...base} defaultValues={university} onSubmit={vi.fn()} />,
-    );
+    renderWithProviders(<EducationModal {...base} defaultValues={university} onSubmit={vi.fn()} />);
 
     await user.type(field('Fakültə').querySelector('input') as HTMLInputElement, 'Filolo');
     const options = await waitFor(() => {
@@ -438,7 +432,11 @@ describe('ExperienceModal', () => {
     const user = userEvent.setup();
     const onSubmit = vi.fn();
     renderWithProviders(
-      <ExperienceModal {...base} defaultValues={{ ...job, position: 'Mühasib' }} onSubmit={onSubmit} />,
+      <ExperienceModal
+        {...base}
+        defaultValues={{ ...job, position: 'Mühasib' }}
+        onSubmit={onSubmit}
+      />,
     );
     await expectMatch('Vəzifə', 'true');
 

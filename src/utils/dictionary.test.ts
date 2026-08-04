@@ -3,7 +3,13 @@ import type { DictionaryEntry } from '../types/dictionary';
 import { resolveLabel, toOptions } from './dictionary';
 
 const entries: DictionaryEntry[] = [
-  { code: 'english', group: 'languages', az: 'İngilis dili', en: 'English language', ru: 'Английский язык' },
+  {
+    code: 'english',
+    group: 'languages',
+    az: 'İngilis dili',
+    en: 'English language',
+    ru: 'Английский язык',
+  },
 ];
 
 describe('dictionary utils', () => {

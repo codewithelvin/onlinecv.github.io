@@ -225,7 +225,6 @@
     "userFirstnameRequired": "أدخل اسمك",
     "userLastnameRequired": "أدخل لقبك",
     "onlyLettersAndSpace": "يُسمح بالحروف والمسافات والشرطات والفواصل العليا فقط",
-    "minThreeChars": "يجب إدخال 3 أحرف على الأقل",
     "maximumFiftyCharacter": "يمكن إدخال 50 حرفًا كحد أقصى",
     "maximumHundredCharacter": "يمكن إدخال 100 حرف كحد أقصى",
     "maximumTwoHundredCharacter": "يمكن إدخال 200 حرف كحد أقصى",

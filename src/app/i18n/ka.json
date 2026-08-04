@@ -225,7 +225,6 @@
     "userFirstnameRequired": "შეიყვანეთ სახელი",
     "userLastnameRequired": "შეიყვანეთ გვარი",
     "onlyLettersAndSpace": "დასაშვებია მხოლოდ ასოები, შორისები, ტირეები და აპოსტროფები",
-    "minThreeChars": "საჭიროა მინიმუმ 3 სიმბოლო",
     "maximumFiftyCharacter": "დასაშვებია მაქსიმუმ 50 სიმბოლო",
     "maximumHundredCharacter": "დასაშვებია მაქსიმუმ 100 სიმბოლო",
     "maximumTwoHundredCharacter": "დასაშვებია მაქსიმუმ 200 სიმბოლო",

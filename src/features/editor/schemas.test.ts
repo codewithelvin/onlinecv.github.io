@@ -1,11 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { AnyObjectSchema, ValidationError } from 'yup';
-import {
-  contactSchema,
-  experienceSchema,
-  wizardStep1Schema,
-  wizardStep2Schema,
-} from './schemas';
+import { contactSchema, experienceSchema, wizardStep1Schema, wizardStep2Schema } from './schemas';
 
 async function messagesOf(schema: AnyObjectSchema, value: unknown): Promise<string[]> {
   try {
@@ -44,6 +39,44 @@ describe('validation schemas (§16)', () => {
       'shouldMatchPhone',
     );
     expect(await messagesOf(contactSchema, { type: 'mobile', value: '+994501112233' })).toEqual([]);
+  });
+
+  /**
+   * A Korean surname is ONE syllable — 김, 이, 박 — and 이 alone belongs to about a
+   * fifth of the country. The wizard's name rule carried `.min(3)`, inherited from
+   * the source app whose users all wrote Azerbaijani names, so shipping the Korean
+   * locale would have shipped a first field a Korean user could not get past. Two
+   * letters ("Bo", "Li") were already refused for the same reason.
+   *
+   * `.required()` is what actually guards this field; a name cannot be shorter than
+   * one letter. `BasicsSection.test` covers the editor's copy of the rule.
+   */
+  it('accepts a one-syllable surname and a two-letter given name', async () => {
+    for (const [firstName, lastName] of [
+      ['민준', '김'],
+      ['Bo', 'Li'],
+    ]) {
+      expect(
+        await messagesOf(wizardStep1Schema, {
+          firstName,
+          lastName,
+          email: 'test@example.az',
+          dateOfBirth: '1990-01-01',
+        }),
+        `${firstName} ${lastName} was rejected`,
+      ).toEqual([]);
+    }
+  });
+
+  it('still requires a name to be there at all', async () => {
+    const msgs = await messagesOf(wizardStep1Schema, {
+      firstName: '   ',
+      lastName: '',
+      email: 'test@example.az',
+      dateOfBirth: '1990-01-01',
+    });
+    expect(msgs).toContain('userFirstnameRequired');
+    expect(msgs).toContain('userLastnameRequired');
   });
 
   it('enforces the age range in the wizard', async () => {

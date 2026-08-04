@@ -5,7 +5,11 @@ import { useResumeStore } from '../../state/store';
 import { useDebouncedValue } from '../../hooks/useDebouncedValue';
 import { useLocalizedResume } from '../../hooks/useLocalizedResume';
 import { makeDateFormatter } from '../../utils/date';
-import { ATTRIBUTION_TEXT, attributionPreviewStyle, showAttribution } from '../../utils/attribution';
+import {
+  ATTRIBUTION_TEXT,
+  attributionPreviewStyle,
+  showAttribution,
+} from '../../utils/attribution';
 import { getTemplate } from '../../templates/_core/registry';
 import { i18n } from '../../app/i18n';
 import { A4Frame } from './A4Frame';

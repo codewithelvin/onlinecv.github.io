@@ -77,7 +77,13 @@ export const styles: Record<string, CSSProperties> = {
     justifyContent: 'center',
   },
   sideName: { fontSize: 18, fontWeight: 700, textAlign: 'center', color: m.sidebarText },
-  sideHeadline: { fontSize: 11, textAlign: 'center', color: m.sidebarMuted, marginTop: 2, marginBottom: 8 },
+  sideHeadline: {
+    fontSize: 11,
+    textAlign: 'center',
+    color: m.sidebarMuted,
+    marginTop: 2,
+    marginBottom: 8,
+  },
   sideSection: { marginTop: 12, display: 'flex', flexDirection: 'column' },
   sideTitle: {
     fontSize: 11,
