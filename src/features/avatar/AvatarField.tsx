@@ -3,6 +3,7 @@ import { App, Avatar, Button, Space } from 'antd';
 import { FiCamera, FiTrash2 } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { useResumeStore } from '../../state/store';
+import { CLARITY_MASK } from '../../services/analytics';
 import { FieldVisibility } from '../editor/FieldVisibility';
 import { AvatarCropperModal } from './AvatarCropperModal';
 
@@ -83,7 +84,9 @@ export function AvatarField(): JSX.Element {
 
   return (
     <Space align="center" size="middle" wrap>
-      <Avatar size={72} src={avatar} shape="circle" alt={initials}>
+      {/* The user's photograph and their initials — both withheld from Clarity's
+          session replays, like the preview sheet (see `CLARITY_MASK`). */}
+      <Avatar size={72} src={avatar} shape="circle" alt={initials} {...CLARITY_MASK}>
         {avatar ? null : initials || '?'}
       </Avatar>
       <Space>

@@ -36,12 +36,39 @@ npm run dev        # start the dev server
 
 ## Environment variables
 
-Optional, injected at build time from repository secrets. When unset, analytics is simply not initialized.
+Read at build time. When a value is unset (or blank), that integration is simply not initialized.
 
 | Variable | Purpose |
 |----------|---------|
 | `VITE_GA_MEASUREMENT_ID` | Google Analytics measurement id (`G-XXXXXXX`) |
 | `VITE_CLARITY_PROJECT_ID` | Microsoft Clarity project id |
+
+Both live in the committed **`.env.production`**. They are public identifiers — a static site
+ships them in its own bundle — so a repository secret would only have hidden them from
+contributors, while an unset secret expanding to an empty string would have *silently* disabled
+analytics (an inline `VITE_*` env var outranks every `.env` file in Vite).
+
+The filename is the dev/prod gate, and it is why `services/analytics.ts` needs no `NODE_ENV`
+check of its own: Vite loads `.env.production` for `npm run build` and `npm run preview`, but
+**not** for `npm run dev` (mode=development) or `npm run test` (mode=test). Moving these ids
+into plain `.env` would start reporting local development traffic as real users.
+
+### Analytics and user data
+
+Clarity records session replays, and the app promises the CV never leaves the device (§18/BR-3).
+Clarity masks `<input>`/`<textarea>` values by default, but the live preview renders that same
+data as ordinary DOM text — so anything displaying the user's own data must carry the
+`CLARITY_MASK` attribute exported by `services/analytics.ts`. Currently that is the `A4Frame`
+sheet (which covers every template, including any added later) and the avatar.
+
+**Set the Clarity dashboard's masking mode to `Strict`.** One gap is not closable from here: Ant
+Design renders a chosen `Select` value as TEXT (`.ant-select-selection-item`), not as an input
+value, so it gets none of Clarity's default input masking. Measured on the built app with a
+seeded CV, these four were readable outside any mask — `Kişi` (gender), `Subay` (marital
+status), `Xidmət etmişəm` (military status), `Azərbaycan` (nationality) — and the same applies
+to every other `Select`-backed pick (city, university, faculty, speciality, position). `Strict`
+covers all of them at once, including selects added later, which per-element attributes would
+not.
 
 ## Project structure
 

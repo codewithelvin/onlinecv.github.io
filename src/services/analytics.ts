@@ -2,16 +2,44 @@
  * Analytics boundary (spec §20/§22, BR-3). The ONLY permitted network calls.
  * Both integrations are no-ops unless their `VITE_*` id is set at build time,
  * and both fail silently offline (§19.1). No consent banner (per build plan A5).
+ *
+ * Dev/prod gating is done by the ENV FILE, not by a check here: the ids live in
+ * `.env.production`, which Vite loads for `vite build`/`vite preview` but not for
+ * `npm run dev` or `vitest run`. So development and tests read `undefined` and
+ * initialize nothing.
  */
+
+/** The queueing stub Clarity's tag drains once it loads (`clarity.q`). */
+type ClarityQueue = {
+  (...args: unknown[]): void;
+  q?: unknown[];
+};
 
 declare global {
   interface Window {
     dataLayer?: unknown[];
     gtag?: (...args: unknown[]) => void;
+    clarity?: ClarityQueue;
   }
 }
 
 let initialized = false;
+
+/**
+ * Spread onto any element whose text is the USER'S OWN CV data.
+ *
+ * Clarity records session replays, and the app's promise — on the landing page
+ * and in §18/BR-3 — is that the CV never leaves the device. Clarity masks
+ * `<input>`/`<textarea>` values by default, but the live preview renders the very
+ * same data as ordinary DOM text, so without this the replay would ship the
+ * user's name, phone, e-mail, date of birth and whole employment history to
+ * Microsoft. A no-op when Clarity is not initialized.
+ *
+ * NOTE: Ant Design renders a chosen `Select` value as TEXT (`.ant-select-selection-item`),
+ * not as an input value, so dictionary-backed picks are not covered by Clarity's
+ * default input masking — see the masking note in README.
+ */
+export const CLARITY_MASK = { 'data-clarity-mask': 'true' } as const;
 
 function injectScript(src: string, async = true): void {
   const el = document.createElement('script');
@@ -23,18 +51,44 @@ function injectScript(src: string, async = true): void {
 function initGoogleAnalytics(measurementId: string): void {
   injectScript(`https://www.googletagmanager.com/gtag/js?id=${measurementId}`);
   window.dataLayer = window.dataLayer ?? [];
-  window.gtag = function gtag(...args: unknown[]) {
-    window.dataLayer?.push(args);
+
+  /**
+   * ⚠️ MUST push `arguments`, never a rest array — this is not a style choice.
+   *
+   * gtag.js brands a dataLayer entry as a COMMAND with
+   * `toString.call(x) === '[object Arguments]' || hasOwnProperty(x, 'callee')`,
+   * and its processing loop tests `Array.isArray` FIRST: a real array is read as
+   * the unrelated `["some.global.fn", ...args]` form, where the failed lookup is
+   * swallowed by an empty `catch`. A rest array therefore drops `js` and `config`
+   * in complete silence — gtag.js loads, the network tab looks healthy, and not
+   * one hit is ever recorded. (Verified against the live tag: the `IE()` command
+   * predicate gates `config`/`event`/`js`/`get` behind that same brand check.)
+   *
+   * This is why the official snippet is `function gtag(){dataLayer.push(arguments)}`.
+   */
+  window.gtag = function gtag(): void {
+    // eslint-disable-next-line prefer-rest-params -- an Arguments object is the wire format gtag.js brands on; a rest array is silently discarded. See above.
+    window.dataLayer?.push(arguments);
   };
+
   window.gtag('js', new Date());
   window.gtag('config', measurementId);
 }
 
 function initClarity(projectId: string): void {
-  const script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.text = `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","${projectId}");`;
-  document.head.appendChild(script);
+  /**
+   * Clarity's published snippet is an inline bootstrapper that queues calls made
+   * before the tag arrives and then appends the tag. Both halves are done here in
+   * TypeScript rather than as an injected `<script>` body: identical behaviour,
+   * but no inline script — so it keeps working if a CSP is ever added, and the
+   * tag URL is assertable in a test instead of being buried in a JS string.
+   */
+  const queue: ClarityQueue = function clarity(): void {
+    // eslint-disable-next-line prefer-rest-params -- parity with Clarity's own stub, which the tag drains as Arguments objects.
+    (queue.q = queue.q ?? []).push(arguments);
+  };
+  window.clarity = window.clarity ?? queue;
+  injectScript(`https://www.clarity.ms/tag/${projectId}`);
 }
 
 /** Initialize analytics once, if ids are configured. Safe to call in any environment. */
@@ -42,8 +96,10 @@ export function initAnalytics(): void {
   if (initialized || typeof document === 'undefined') return;
   initialized = true;
 
-  const ga = import.meta.env.VITE_GA_MEASUREMENT_ID;
-  const clarity = import.meta.env.VITE_CLARITY_PROJECT_ID;
+  // Trimmed, so a blank or whitespace-only value from CI counts as "not set"
+  // rather than building a `gtag/js?id=` request that can never resolve.
+  const ga = import.meta.env.VITE_GA_MEASUREMENT_ID?.trim();
+  const clarity = import.meta.env.VITE_CLARITY_PROJECT_ID?.trim();
 
   try {
     if (ga) initGoogleAnalytics(ga);

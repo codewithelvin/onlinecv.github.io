@@ -2,6 +2,7 @@ import { type JSX, type ReactNode, useLayoutEffect, useRef, useState } from 'rea
 import type { PageBleed, PageMargin } from '../../types/template';
 import type { Locale } from '../../types/resume';
 import { LOCALES } from '../../app/i18n/locales';
+import { CLARITY_MASK } from '../../services/analytics';
 import { cvFontFamily } from '../../templates/_core/fonts';
 import { bleedSide } from '../../templates/_core/direction';
 
@@ -84,6 +85,13 @@ export function A4Frame({
   return (
     <div
       ref={wrapRef}
+      /**
+       * Everything inside the frame is the user's own CV, so the whole sheet is
+       * withheld from Clarity's session replays. Declared HERE, on the frame,
+       * rather than in any template: a template added later inherits it without
+       * knowing Clarity exists, exactly like the credit line and the page margins.
+       */
+      {...CLARITY_MASK}
       /**
        * The whole frame is left-to-right, whatever the UI is set to — not just
        * the sheet inside it.
