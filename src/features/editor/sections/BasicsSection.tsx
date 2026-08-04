@@ -7,6 +7,7 @@ import { useDictionary } from "../../../hooks/useDictionary";
 import { searchKey } from "../../../utils/search";
 import { DictionaryMatch, Field } from "../../../components/form/fields";
 import { AvatarField } from "../../avatar/AvatarField";
+import { FieldVisibility } from "../FieldVisibility";
 
 function nameError(value: string, requiredKey: string): string | undefined {
   const v = value.trim();
@@ -92,7 +93,11 @@ export function BasicsSection(): JSX.Element {
               accepted (§13.1). The typed label is stored as-is and the resolved
               CODE alongside it — that code is what re-labels the city when the CV
               language changes, so what is shown here is derived from it. */}
-          <Field label={t("fields.location")} name="location">
+          <Field
+            label={t("fields.location")}
+            name="location"
+            extra={<FieldVisibility field="location" />}
+          >
             {(a11y) => (
               <AutoComplete
                 {...a11y}

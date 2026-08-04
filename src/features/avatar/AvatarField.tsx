@@ -3,6 +3,7 @@ import { App, Avatar, Button, Space } from 'antd';
 import { FiCamera, FiTrash2 } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { useResumeStore } from '../../state/store';
+import { FieldVisibility } from '../editor/FieldVisibility';
 import { AvatarCropperModal } from './AvatarCropperModal';
 
 const MAX_BYTES = 10 * 1024 * 1024;
@@ -106,6 +107,11 @@ export function AvatarField(): JSX.Element {
           </Button>
         ) : null}
       </Space>
+      {/* Only once there is a photo to print: "show in CV" says nothing about an
+          empty slot. Unlike Remove, this keeps the cropped image — a photo is
+          expected on a CV here and unwelcome in many markets abroad, so the same
+          resume is exported both ways without re-cropping. */}
+      {avatar ? <FieldVisibility field="avatar" /> : null}
       <input
         ref={inputRef}
         id="avatar-file"

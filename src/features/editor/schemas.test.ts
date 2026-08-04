@@ -1,6 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import type { AnyObjectSchema, ValidationError } from 'yup';
-import { contactSchema, experienceSchema, wizardStep1Schema } from './schemas';
+import {
+  contactSchema,
+  experienceSchema,
+  wizardStep1Schema,
+  wizardStep2Schema,
+} from './schemas';
 
 async function messagesOf(schema: AnyObjectSchema, value: unknown): Promise<string[]> {
   try {
@@ -52,5 +57,31 @@ describe('validation schemas (§16)', () => {
         dateOfBirth: tooYoung,
       }),
     ).toContain('dobRange');
+  });
+
+  /**
+   * The source app demanded a marital status and a nationality before it would let
+   * anyone past the wizard. Neither identifies a candidate, both are personal, and
+   * in many markets stating them is discouraged — so the wizard now asks for the
+   * CV title and gender only, and the CV omits whatever was left blank (BR-5).
+   */
+  it('lets the wizard through without a marital status or nationality', async () => {
+    expect(
+      await messagesOf(wizardStep2Schema, { headline: 'Frontend Developer', gender: 'male' }),
+    ).toEqual([]);
+    expect(
+      await messagesOf(wizardStep2Schema, {
+        headline: 'Frontend Developer',
+        gender: 'male',
+        maritalStatus: '',
+        nationality: '',
+      }),
+    ).toEqual([]);
+  });
+
+  it('still requires the CV title and gender', async () => {
+    const msgs = await messagesOf(wizardStep2Schema, { headline: '', gender: undefined });
+    expect(msgs).toContain('cvTitleRequired');
+    expect(msgs).toContain('genderRequired');
   });
 });

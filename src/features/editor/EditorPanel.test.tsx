@@ -191,11 +191,14 @@ describe('EditorPanel', () => {
       const age = container.querySelector('#generalInfo-dateOfBirth-age');
       expect(age?.textContent).toBe(`Yaş: ${calcAge('2000-01-01')}`);
       expect(age?.closest('.ant-picker-suffix'), 'age is outside the suffix slot').toBeTruthy();
+      // The `extra` slot under the field is where the age used to live and now
+      // holds the "show in CV" toggle, so the guard is on the age NOT being there
+      // rather than on the slot being empty.
       const item = container.querySelector('#generalInfo-dateOfBirth')?.closest('.ant-form-item');
       expect(
-        item?.querySelector('.ant-form-item-extra'),
+        item?.querySelector('.ant-form-item-extra')?.textContent ?? '',
         'age is still rendered under the field',
-      ).toBeFalsy();
+      ).not.toContain('Yaş');
     });
   });
 

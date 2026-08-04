@@ -4,12 +4,14 @@ import type {
   Contact,
   ContactItem,
   GeneralInfo,
+  HideableField,
   Locale,
   Resume,
   ResumeListSection,
   TemplateId,
 } from '../types/resume';
 import { createEmptyResume, looksUnstarted } from '../utils/empty-resume';
+import { withFieldVisibility } from '../utils/field-visibility';
 import { DEFAULT_LOCALE, applyLocale, syncLocaleUrl } from '../app/i18n';
 import { initialLocale } from '../app/seo-locales';
 import { clearState, loadState, saveState } from '../services/persistence';
@@ -59,6 +61,11 @@ export interface ResumeStore {
   setTemplate: (templateId: TemplateId) => void;
   /** Show/hide the "Made with www.onlinecv.az" credit on the CV. */
   setAttribution: (attribution: boolean) => void;
+  /**
+   * Print a personal-details field on the CV, or keep it in the editor only. The
+   * value itself is never touched — see `utils/field-visibility`.
+   */
+  setFieldVisible: (field: HideableField, visible: boolean) => void;
 
   updateBasics: (patch: Partial<Basics>) => void;
   updateGeneralInfo: (patch: Partial<GeneralInfo>) => void;
@@ -141,6 +148,14 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
   setTemplate: (templateId) => set((s) => ({ resume: touch({ ...s.resume, templateId }) })),
 
   setAttribution: (attribution) => set((s) => ({ resume: touch({ ...s.resume, attribution }) })),
+
+  setFieldVisible: (field, visible) =>
+    set((s) => ({
+      resume: touch({
+        ...s.resume,
+        hiddenFields: withFieldVisibility(s.resume.hiddenFields, field, visible),
+      }),
+    })),
 
   updateBasics: (patch) =>
     set((s) => ({ resume: touch({ ...s.resume, basics: { ...s.resume.basics, ...patch } }) })),

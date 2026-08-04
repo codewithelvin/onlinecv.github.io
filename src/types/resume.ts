@@ -106,8 +106,9 @@ export interface GeneralInfo {
    * templates skip the row (they already guard on falsy).
    */
   gender?: Gender;
+  /** Optional to ENTER as well (see `hiddenFields`) — no yup rule requires it. */
   maritalStatus?: MaritalStatus;
-  /** Nationality dictionary code or free text. */
+  /** Nationality dictionary code or free text; `''` when not given. */
   nationality: string;
   /** `YYYY-MM-DD`. Age is derived for display, never stored. */
   dateOfBirth: string;
@@ -223,6 +224,27 @@ export interface ProjectItem {
   highlights?: string[];
 }
 
+/**
+ * A personal-details field the user can keep OFF the rendered CV while still
+ * holding the value in the editor (`Resume.hiddenFields`).
+ *
+ * Name, surname and CV title are deliberately absent: a CV without them is not a
+ * CV, and every template's header is built from them. Everything else in the
+ * "Əsas məlumatlar" panel is here — what belongs on a résumé differs by market
+ * (many employers outside the region expect no photo, no marital status and no
+ * date of birth), so the choice is the user's rather than the template's.
+ */
+export type HideableField =
+  | 'avatar'
+  | 'location'
+  | 'gender'
+  | 'maritalStatus'
+  | 'nationality'
+  | 'dateOfBirth'
+  | 'militaryStatus'
+  | 'driverLicense'
+  | 'summary';
+
 export interface Resume {
   /** Single-resume fixed key. */
   id: 'default';
@@ -238,6 +260,14 @@ export interface Resume {
    * use `showAttribution()` rather than the raw field.
    */
   attribution?: boolean;
+  /**
+   * Personal-details fields kept out of the rendered CV (preview AND exported
+   * PDF) while their values stay in the editor. Opt-OUT, like `attribution`:
+   * absent or empty means everything is shown, so records persisted before the
+   * feature existed render exactly as they did — read it through
+   * `utils/field-visibility` rather than the raw field.
+   */
+  hiddenFields?: HideableField[];
   media: Media;
   basics: Basics;
   generalInfo: GeneralInfo;

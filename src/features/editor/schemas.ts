@@ -182,11 +182,18 @@ export const wizardStep1Schema = yup.object({
     }),
 });
 
+/**
+ * Marital status and nationality are OPTIONAL — a departure from the source app,
+ * which demanded both before it would let anyone in. Neither is needed to identify
+ * a candidate, both are personal, and in many markets stating them is discouraged;
+ * the CV simply omits an empty row (BR-5). They can also be entered now and kept
+ * off the printed CV later — see `HideableField`.
+ */
 export const wizardStep2Schema = yup.object({
   headline: yup.string().trim().required('cvTitleRequired').max(50, 'maximumFiftyCharacter'),
   gender: yup.string().required('genderRequired'),
-  maritalStatus: yup.string().required('maritalRequired'),
-  nationality: yup.string().trim().required('nationalityRequired'),
+  maritalStatus: yup.string().optional(),
+  nationality: yup.string().trim().optional(),
 });
 
 export type ContactFormValues = yup.InferType<typeof contactSchema>;

@@ -81,9 +81,10 @@ export function Wizard(): JSX.Element {
     defaultValues: { firstName: '', lastName: '', email: '', dateOfBirth: '' },
   });
   const f2 = useForm<WizardStep2Values>({
-    // Gender and marital status start EMPTY on purpose (they are still required):
-    // a preselected "Kişi"/"Subay" silently ends up on the CV of everyone who
-    // skims past them, so the user picks both explicitly.
+    // Gender and marital status start EMPTY on purpose: a preselected
+    // "Kişi"/"Subay" silently ends up on the CV of everyone who skims past them.
+    // Gender is still required, so it has to be picked; marital status may simply
+    // be left alone.
     defaultValues: {
       headline: '',
       gender: undefined,
@@ -102,13 +103,16 @@ export function Wizard(): JSX.Element {
     if (!step1) return;
     updateBasics({ firstName: step1.firstName, lastName: step1.lastName, headline: values.headline });
     updateContactEmail(step1.email);
+    // Marital status and nationality are optional here, so an untouched field
+    // must stay unset rather than land on the CV as an empty row.
+    const stated = values.nationality?.trim() ?? '';
     updateGeneralInfo({
       dateOfBirth: step1.dateOfBirth,
       gender: values.gender as Gender,
-      maritalStatus: values.maritalStatus as MaritalStatus,
+      maritalStatus: (values.maritalStatus as MaritalStatus | undefined) || undefined,
       // Store the dictionary code when the value matches a known nationality, so
       // the CV can re-label it per language; free text is kept verbatim.
-      nationality: nationality.findByLabel(values.nationality)?.code ?? values.nationality,
+      nationality: stated ? (nationality.findByLabel(stated)?.code ?? stated) : '',
     });
     // Last, and explicitly: the editor is reached by finishing the wizard, never
     // by the resume happening to hold a name. Clearing a field later is then a
@@ -210,10 +214,7 @@ export function Wizard(): JSX.Element {
                     name="nationality"
                     label={t('fields.nationality')}
                     options={nationality.options}
-                    recognized={Boolean(
-                      f2.watch('nationality') && nationality.findByLabel(f2.watch('nationality')),
-                    )}
-                    required
+                    recognized={Boolean(nationality.findByLabel(f2.watch('nationality') ?? ''))}
                   />
                 </Col>
               </Row>
@@ -235,7 +236,7 @@ export function Wizard(): JSX.Element {
                     label={t('fields.maritalStatus')}
                     options={dictOptions(MARITAL_STATUSES, t)}
                     placeholder={t('common.select')}
-                    required
+                    allowClear
                   />
                 </Col>
               </Row>

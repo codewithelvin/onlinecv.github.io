@@ -3,15 +3,21 @@ import type { DictionaryBundle, DictionaryGroup } from '../types/dictionary';
 import type { Locale, Resume } from '../types/resume';
 import { getCachedDictionaries, loadDictionaries } from '../data/dictionaries';
 import { localizeResume, referencedDictionaryGroups } from '../utils/localize-resume';
+import { applyFieldVisibility } from '../utils/field-visibility';
 
 /**
- * A copy of `resume` whose dictionary-backed labels (skills, languages,
- * interests, nationality, institutions) read in `locale` — what makes the
- * preview follow the CV-language switch. Only the dictionaries the resume
- * actually references are fetched.
+ * The resume as the CV renders it: personal details the user turned off are
+ * blanked (`applyFieldVisibility`) and dictionary-backed labels (skills,
+ * languages, interests, nationality, institutions) read in `locale` — what makes
+ * the preview follow the CV-language switch. Only the dictionaries the resume
+ * actually references are fetched, and a hidden field references none.
+ *
+ * `services/pdf.ts` composes the same two projections in the same order, so the
+ * preview and the export cannot disagree about what is on the page.
  */
 export function useLocalizedResume(resume: Resume, locale: Locale): Resume {
-  const groups = useMemo(() => referencedDictionaryGroups(resume), [resume]);
+  const visible = useMemo(() => applyFieldVisibility(resume), [resume]);
+  const groups = useMemo(() => referencedDictionaryGroups(visible), [visible]);
   // Effects can't depend on a fresh array, so the group SET is the dependency.
   const groupKey = groups.join(',');
   const [dicts, setDicts] = useState<DictionaryBundle>(() => getCachedDictionaries(groups));
@@ -30,5 +36,5 @@ export function useLocalizedResume(resume: Resume, locale: Locale): Resume {
     };
   }, [groupKey]);
 
-  return useMemo(() => localizeResume(resume, locale, dicts), [resume, locale, dicts]);
+  return useMemo(() => localizeResume(visible, locale, dicts), [visible, locale, dicts]);
 }

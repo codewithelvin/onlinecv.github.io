@@ -31,6 +31,7 @@ import { searchKey } from "../../../utils/search";
 import { toLocale } from "../../../app/i18n/locales";
 import { DictionaryMatch, Field } from "../../../components/form/fields";
 import { useScopedId } from "../../../components/form/field-scope";
+import { FieldVisibility } from "../FieldVisibility";
 import {
   GENDERS,
   LICENSE_CATEGORIES,
@@ -63,7 +64,12 @@ export function GeneralInfoSection(): JSX.Element {
     <Space direction="vertical" style={{ width: "100%" }} size="middle">
       <Row gutter={12}>
         <Col xs={24} sm={12}>
-          <Field label={t("fields.gender")} name="gender" required>
+          <Field
+            label={t("fields.gender")}
+            name="gender"
+            required
+            extra={<FieldVisibility field="gender" />}
+          >
             {(a11y) => (
               <Select
                 {...a11y}
@@ -76,18 +82,23 @@ export function GeneralInfoSection(): JSX.Element {
           </Field>
         </Col>
         <Col xs={24} sm={12}>
+          {/* Not required (and clearable): plenty of people would rather not
+              state it at all, and the CV omits the row when it is empty. */}
           <Field
             label={t("fields.maritalStatus")}
             name="maritalStatus"
-            required
+            extra={<FieldVisibility field="maritalStatus" />}
           >
             {(a11y) => (
               <Select
                 {...a11y}
+                allowClear
                 value={gi.maritalStatus}
                 placeholder={t("common.select")}
                 options={dictOptions(MARITAL_STATUSES, t)}
-                onChange={(v: MaritalStatus) => update({ maritalStatus: v })}
+                onChange={(v: MaritalStatus | undefined) =>
+                  update({ maritalStatus: v })
+                }
               />
             )}
           </Field>
@@ -98,7 +109,11 @@ export function GeneralInfoSection(): JSX.Element {
               code — not the label it was picked in — is what lets the CV re-label
               it on a language switch; `resolve` turns it back into text here, and
               anything unrecognized falls through unchanged. */}
-          <Field label={t("fields.nationality")} name="nationality" required>
+          <Field
+            label={t("fields.nationality")}
+            name="nationality"
+            extra={<FieldVisibility field="nationality" />}
+          >
             {(a11y) => (
               <AutoComplete
                 {...a11y}
@@ -148,7 +163,12 @@ export function GeneralInfoSection(): JSX.Element {
           </Field>
         </Col>
         <Col xs={24} sm={12}>
-          <Field label={t("fields.dateOfBirth")} name="dateOfBirth" required>
+          <Field
+            label={t("fields.dateOfBirth")}
+            name="dateOfBirth"
+            required
+            extra={<FieldVisibility field="dateOfBirth" />}
+          >
             {(a11y) => (
               <DatePicker
                 {...a11y}
@@ -190,7 +210,11 @@ export function GeneralInfoSection(): JSX.Element {
           </Field>
         </Col>
         <Col xs={24} sm={12}>
-          <Field label={t("fields.militaryStatus")} name="militaryStatus">
+          <Field
+            label={t("fields.militaryStatus")}
+            name="militaryStatus"
+            extra={<FieldVisibility field="militaryStatus" />}
+          >
             {(a11y) => (
               <Select
                 {...a11y}
@@ -205,7 +229,11 @@ export function GeneralInfoSection(): JSX.Element {
           </Field>
         </Col>
         <Col xs={24} sm={12}>
-          <Field label={t("fields.driverLicense")} name="driverLicense">
+          <Field
+            label={t("fields.driverLicense")}
+            name="driverLicense"
+            extra={<FieldVisibility field="driverLicense" />}
+          >
             {(a11y) => (
               <Select
                 {...a11y}
@@ -236,6 +264,7 @@ export function GeneralInfoSection(): JSX.Element {
             ? t("validation.maximumThreeHundredCharacter")
             : undefined
         }
+        extra={<FieldVisibility field="summary" />}
       >
         {(a11y) => (
           <Input.TextArea
