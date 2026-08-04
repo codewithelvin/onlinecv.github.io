@@ -51,6 +51,15 @@
     "install": "ინსტალაცია",
     "later": "მოგვიანებით"
   },
+  "regions": {
+    "caucasusWestAsia": "კავკასია და დასავლეთ აზია",
+    "europe": "ევროპა",
+    "middleEast": "შუა აღმოსავლეთი",
+    "asia": "აზია",
+    "americas": "ამერიკა",
+    "pacific": "წყნარი ოკეანის რეგიონი",
+    "africa": "აფრიკა"
+  },
   "sections": {
     "basics": "ძირითადი მონაცემები",
     "generalInfo": "ზოგადი ინფორმაცია",

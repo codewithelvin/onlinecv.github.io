@@ -51,6 +51,15 @@
     "install": "Install",
     "later": "Later"
   },
+  "regions": {
+    "caucasusWestAsia": "Caucasus and West Asia",
+    "europe": "Europe",
+    "middleEast": "Middle East",
+    "asia": "Asia",
+    "americas": "Americas",
+    "pacific": "Pacific",
+    "africa": "Africa"
+  },
   "sections": {
     "basics": "Basics",
     "generalInfo": "General information",

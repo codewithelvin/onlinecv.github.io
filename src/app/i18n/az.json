@@ -51,6 +51,15 @@
     "install": "Quraşdır",
     "later": "Sonra"
   },
+  "regions": {
+    "caucasusWestAsia": "Qafqaz və Qərbi Asiya",
+    "europe": "Avropa",
+    "middleEast": "Yaxın Şərq",
+    "asia": "Asiya",
+    "americas": "Amerika qitəsi",
+    "pacific": "Sakit okean regionu",
+    "africa": "Afrika"
+  },
   "sections": {
     "basics": "Əsas məlumatlar",
     "generalInfo": "Ümumi məlumat",

@@ -33,6 +33,40 @@ import type { Locale } from '../../types/resume';
 /** Writing direction. Right-to-left locales (fa, ar, he) need `rtl`. */
 export type TextDirection = 'ltr' | 'rtl';
 
+/**
+ * The heading a language sits under in the picker.
+ *
+ * Assigned by where the language ORIGINATES, not by where it is spoken — English,
+ * Spanish, Russian and Arabic are each spoken across several of these, so any
+ * other rule would need a language to appear twice. The full set is declared
+ * up front (with translations already in place) so adding a Japanese or a
+ * Portuguese locale is one word here and no i18n work.
+ */
+export type LocaleRegion =
+  | 'caucasusWestAsia'
+  | 'europe'
+  | 'middleEast'
+  | 'asia'
+  | 'americas'
+  | 'pacific'
+  | 'africa';
+
+/**
+ * Display order of the picker's groups. The default locale's own region leads,
+ * for the same reason it leads `SUPPORTED_LOCALES` — it is the app's home market —
+ * and the rest follow west-to-east-ish. A region with no languages in it is not
+ * rendered, so listing all seven here costs nothing.
+ */
+export const REGION_ORDER: LocaleRegion[] = [
+  'caucasusWestAsia',
+  'europe',
+  'middleEast',
+  'asia',
+  'americas',
+  'pacific',
+  'africa',
+];
+
 export interface LocaleMeta {
   /** Locale code; doubles as the i18next resource key and the dayjs locale name. */
   code: Locale;
@@ -77,6 +111,13 @@ export interface LocaleMeta {
    * `CV_LOCALES`.
    */
   cv: boolean;
+  /**
+   * Which group the language picker files it under — see `LocaleRegion`. The flag
+   * drawn beside it lives in `features/i18n/flags`, not here: this module is
+   * imported by `vite-plugin-locale-pages.ts` and therefore has to stay free of
+   * JSX and of anything browser-only.
+   */
+  region: LocaleRegion;
   /** Ant Design component-text bundle (`antd/locale/*`). */
   antd: AntdLocale;
 }
@@ -95,6 +136,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     capitalizeMonths: true,
     digits: 'latn',
     cv: true,
+    region: 'caucasusWestAsia',
     antd: azAZ,
   },
   ru: {
@@ -105,6 +147,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     capitalizeMonths: true,
     digits: 'latn',
     cv: true,
+    region: 'europe',
     antd: ruRU,
   },
   en: {
@@ -115,6 +158,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     capitalizeMonths: true,
     digits: 'latn',
     cv: true,
+    region: 'europe',
     antd: enUS,
   },
   /**
@@ -132,6 +176,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     capitalizeMonths: false,
     digits: 'latn',
     cv: true,
+    region: 'caucasusWestAsia',
     antd: kaGE,
   },
   /**
@@ -153,6 +198,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     capitalizeMonths: false,
     digits: 'arab',
     cv: true,
+    region: 'middleEast',
     antd: arEG,
   },
   /**
@@ -175,6 +221,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     capitalizeMonths: true,
     digits: 'latn',
     cv: true,
+    region: 'europe',
     antd: esES,
   },
 };

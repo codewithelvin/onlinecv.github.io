@@ -14,6 +14,7 @@ import {
   CV_LOCALES,
   DEFAULT_LOCALE,
   LOCALES,
+  REGION_ORDER,
   SUPPORTED_LOCALES,
   isLocale,
   toLocale,
@@ -25,8 +26,8 @@ import {
  * (one `import` + one `resources` entry); nothing else needs touching.
  */
 
-export { CV_LOCALES, DEFAULT_LOCALE, LOCALES, SUPPORTED_LOCALES, isLocale, toLocale };
-export type { LocaleMeta, TextDirection } from './locales';
+export { CV_LOCALES, DEFAULT_LOCALE, LOCALES, REGION_ORDER, SUPPORTED_LOCALES, isLocale, toLocale };
+export type { LocaleMeta, LocaleRegion, TextDirection } from './locales';
 
 void i18n.use(initReactI18next).init({
   resources: {

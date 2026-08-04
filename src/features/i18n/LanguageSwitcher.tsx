@@ -1,54 +1,53 @@
-import type { JSX } from 'react';
-import { Button, Dropdown, Tooltip } from 'antd';
-import { FiChevronDown, FiGlobe } from 'react-icons/fi';
+import { type JSX, useState } from 'react';
+import { Button, Tooltip } from 'antd';
+import { FiGlobe } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
-import { LOCALES, SUPPORTED_LOCALES, toLocale } from '../../app/i18n';
+import { LOCALES } from '../../app/i18n';
 import { useResumeStore } from '../../state/store';
+import { LanguageModal } from './LanguageModal';
 
 /**
  * UI language switcher (spec §10.1). Persists via the store → IndexedDB. The
  * options come from the locale registry, so a new language appears here as soon
  * as it is registered.
  *
- * A dropdown rather than the row of chips this used to be: the chips grew with
- * every language (Georgian made four), and the header they share with the brand
- * and the Telegram button has no room to grow on a phone. One trigger costs the
- * same width whether the app speaks three languages or ten, and the menu has the
- * space to name each one in its own language instead of abbreviating it to two
- * letters.
+ * One trigger, and a MODAL rather than the dropdown this used to open. A menu is
+ * the right shape for a handful of one-line options and the wrong one once each
+ * option wants a flag, an endonym and a code, and once the options want grouping:
+ * a dropdown that tall on a phone becomes a scrolling strip pinned under the
+ * header, while a dialog owns the screen it needs. The trigger costs the same
+ * width whether the app speaks three languages or thirty.
  *
- * No flags. They would be a nice affordance if they worked, but Windows ships no
- * glyphs for the regional-indicator emoji (🇦🇿 renders as the letters "AZ"), and a
- * flag names a country rather than a language — Russian and English in particular
- * have no single one. The endonym is unambiguous everywhere.
+ * The globe carries no chevron any more — that glyph promises a menu directly
+ * below, which is no longer what happens.
  */
 export function LanguageSwitcher(): JSX.Element {
   const { t } = useTranslation();
+  const [open, setOpen] = useState(false);
   const uiLocale = useResumeStore((s) => s.uiLocale);
   const setUiLocale = useResumeStore((s) => s.setUiLocale);
   const label = t('header.language');
 
   return (
-    <Dropdown
-      trigger={['click']}
-      menu={{
-        selectable: true,
-        selectedKeys: [uiLocale],
-        onClick: ({ key }) => setUiLocale(toLocale(key)),
-        items: SUPPORTED_LOCALES.map((code) => ({
-          key: code,
-          // The id goes on a node inside the label: antd's menu items take no
-          // `id` of their own, and QA automation needs to address each option.
-          label: <span id={`ui-language-${code}`}>{LOCALES[code].nativeName}</span>,
-        })),
-      }}
-    >
+    <>
       <Tooltip title={label}>
-        <Button id="ui-language" aria-label={label} icon={<FiGlobe aria-hidden />}>
+        <Button
+          id="ui-language"
+          aria-label={label}
+          aria-haspopup="dialog"
+          aria-expanded={open}
+          icon={<FiGlobe aria-hidden />}
+          onClick={() => setOpen(true)}
+        >
           {LOCALES[uiLocale].short}
-          <FiChevronDown aria-hidden style={{ marginInlineStart: 2, verticalAlign: -1 }} />
         </Button>
       </Tooltip>
-    </Dropdown>
+      <LanguageModal
+        open={open}
+        current={uiLocale}
+        onSelect={setUiLocale}
+        onClose={() => setOpen(false)}
+      />
+    </>
   );
 }

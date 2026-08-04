@@ -215,6 +215,27 @@ html {
 }
 
 /*
+ * The language picker is deliberately titleless — but a dialog still needs an
+ * accessible NAME, and antd's mechanism for that is the header: it points the
+ * dialog's `aria-labelledby` at the title element. (An `aria-label` prop is NOT
+ * forwarded to the node carrying `role="dialog"` — measured.) So the header is
+ * rendered and hidden from sight here rather than dropped, which keeps the name.
+ *
+ * Taken out of flow, so the hairline rule above does not draw either. Four
+ * classes, comfortably past antd's two.
+ */
+.ant-modal.app-modal.language-picker .ant-modal-content .ant-modal-header {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  border: 0;
+}
+
+/*
  * App modals: title and action buttons pinned, only the body between them
  * scrolls. `app-modal` is put on the dialog by `hooks/useModalChrome`.
  *

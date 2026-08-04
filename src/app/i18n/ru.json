@@ -51,6 +51,15 @@
     "install": "Установить",
     "later": "Позже"
   },
+  "regions": {
+    "caucasusWestAsia": "Кавказ и Западная Азия",
+    "europe": "Европа",
+    "middleEast": "Ближний Восток",
+    "asia": "Азия",
+    "americas": "Америка",
+    "pacific": "Тихоокеанский регион",
+    "africa": "Африка"
+  },
   "sections": {
     "basics": "Основная информация",
     "generalInfo": "Общая информация",

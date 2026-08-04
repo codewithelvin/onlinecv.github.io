@@ -51,6 +51,15 @@
     "install": "تثبيت",
     "later": "لاحقًا"
   },
+  "regions": {
+    "caucasusWestAsia": "القوقاز وغرب آسيا",
+    "europe": "أوروبا",
+    "middleEast": "الشرق الأوسط",
+    "asia": "آسيا",
+    "americas": "الأمريكتان",
+    "pacific": "المحيط الهادئ",
+    "africa": "أفريقيا"
+  },
   "sections": {
     "basics": "المعلومات الأساسية",
     "generalInfo": "معلومات عامة",

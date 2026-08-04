@@ -43,8 +43,25 @@ empty values, and that the dayjs data was imported.
 3. **Register the locale** — one entry in `LOCALES`:
    ```ts
    tr: { code: 'tr', short: 'TR', nativeName: 'Türkçe', dir: 'ltr',
-         capitalizeMonths: true, cv: true, antd: trTR },
+         capitalizeMonths: true, digits: 'latn', cv: true,
+         region: 'caucasusWestAsia', antd: trTR },
    ```
+
+   `region` is the heading the picker files the language under (`LocaleRegion`),
+   assigned by where the language ORIGINATES — English, Spanish, Russian and Arabic
+   are each spoken across several regions, so any other rule would need a language
+   in two groups at once. All seven regions are already translated, so this is one
+   word and no i18n work; a region with no languages in it is not rendered.
+
+   **A flag, too** — `src/features/i18n/flags.tsx` holds a total
+   `Record<Locale, ReactNode>`, so the compiler will not let the new locale through
+   without one. Two rules there: it must be the REAL flag (see that file's note on
+   why the artwork is inline SVG rather than `🇹🇷` — Windows ships no
+   regional-indicator glyphs, so the emoji renders as the letters "TR"), and
+   simplification is allowed only where it does not change what the flag IS. Bands
+   and emblems get drawn; the US canton carries all fifty stars because the count is
+   how the flag is recognized; the Saudi shahada is set as real Arabic text rather
+   than decorative strokes. `flags.test.tsx` pins each of those.
    plus the two side-effect imports at the top of that file: the AntD bundle
    (`antd/locale/tr_TR`) and the dayjs locale (`dayjs/locale/tr`). If dayjs has no
    data for the language, import the closest one and note it — dayjs only supplies
