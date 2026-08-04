@@ -6,7 +6,8 @@
     "en": "Director",
     "ru": "Директор",
     "ka": "დირექტორი",
-    "ar": "مدير"
+    "ar": "مدير",
+    "es": "Director"
   },
   {
     "code": "general_director",
@@ -15,7 +16,8 @@
     "en": "General director",
     "ru": "Генеральный директор",
     "ka": "გენერალური დირექტორი",
-    "ar": "مدير عام"
+    "ar": "مدير عام",
+    "es": "Director general"
   },
   {
     "code": "executive_director",
@@ -24,7 +26,8 @@
     "en": "Executive director",
     "ru": "Исполнительный директор",
     "ka": "აღმასრულებელი დირექტორი",
-    "ar": "مدير تنفيذي"
+    "ar": "مدير تنفيذي",
+    "es": "Director ejecutivo"
   },
   {
     "code": "deputy_director",
@@ -33,7 +36,8 @@
     "en": "Deputy director",
     "ru": "Заместитель директора",
     "ka": "დირექტორის მოადგილე",
-    "ar": "نائب المدير"
+    "ar": "نائب المدير",
+    "es": "Subdirector"
   },
   {
     "code": "department_head",
@@ -42,7 +46,8 @@
     "en": "Head of department",
     "ru": "Начальник отдела",
     "ka": "განყოფილების უფროსი",
-    "ar": "رئيس قسم"
+    "ar": "رئيس قسم",
+    "es": "Jefe de departamento"
   },
   {
     "code": "manager",
@@ -51,7 +56,8 @@
     "en": "Manager",
     "ru": "Менеджер",
     "ka": "მენეჯერი",
-    "ar": "مسؤول"
+    "ar": "مسؤول",
+    "es": "Gerente"
   },
   {
     "code": "project_manager",
@@ -60,7 +66,8 @@
     "en": "Project manager",
     "ru": "Менеджер проектов",
     "ka": "პროექტის მენეჯერი",
-    "ar": "مدير مشروع"
+    "ar": "مدير مشروع",
+    "es": "Jefe de proyecto"
   },
   {
     "code": "team_lead",
@@ -69,7 +76,8 @@
     "en": "Team lead",
     "ru": "Руководитель группы",
     "ka": "გუნდის ლიდერი",
-    "ar": "قائد فريق"
+    "ar": "قائد فريق",
+    "es": "Jefe de equipo"
   },
   {
     "code": "shift_supervisor",
@@ -78,7 +86,8 @@
     "en": "Shift supervisor",
     "ru": "Начальник смены",
     "ka": "ცვლის უფროსი",
-    "ar": "مشرف وردية"
+    "ar": "مشرف وردية",
+    "es": "Jefe de turno"
   },
   {
     "code": "branch_manager",
@@ -87,7 +96,8 @@
     "en": "Branch manager",
     "ru": "Управляющий филиалом",
     "ka": "ფილიალის მმართველი",
-    "ar": "مدير فرع"
+    "ar": "مدير فرع",
+    "es": "Director de sucursal"
   },
   {
     "code": "operations_manager",
@@ -96,7 +106,8 @@
     "en": "Operations manager",
     "ru": "Операционный менеджер",
     "ka": "ოპერაციების მენეჯერი",
-    "ar": "مدير العمليات"
+    "ar": "مدير العمليات",
+    "es": "Director de operaciones"
   },
   {
     "code": "office_manager",
@@ -105,7 +116,8 @@
     "en": "Office manager",
     "ru": "Офис-менеджер",
     "ka": "ოფის-მენეჯერი",
-    "ar": "مدير مكتب"
+    "ar": "مدير مكتب",
+    "es": "Responsable de oficina"
   },
   {
     "code": "administrator",
@@ -114,7 +126,8 @@
     "en": "Administrator",
     "ru": "Администратор",
     "ka": "ადმინისტრატორი",
-    "ar": "إداري"
+    "ar": "إداري",
+    "es": "Administrador"
   },
   {
     "code": "supervisor",
@@ -123,7 +136,8 @@
     "en": "Supervisor",
     "ru": "Супервайзер",
     "ka": "ზედამხედველი",
-    "ar": "مشرف"
+    "ar": "مشرف",
+    "es": "Supervisor"
   },
   {
     "code": "coordinator",
@@ -132,7 +146,8 @@
     "en": "Coordinator",
     "ru": "Координатор",
     "ka": "კოორდინატორი",
-    "ar": "منسق"
+    "ar": "منسق",
+    "es": "Coordinador"
   },
   {
     "code": "specialist",
@@ -141,7 +156,8 @@
     "en": "Specialist",
     "ru": "Специалист",
     "ka": "სპეციალისტი",
-    "ar": "أخصائي"
+    "ar": "أخصائي",
+    "es": "Especialista"
   },
   {
     "code": "senior_specialist",
@@ -150,7 +166,8 @@
     "en": "Senior specialist",
     "ru": "Главный специалист",
     "ka": "მთავარი სპეციალისტი",
-    "ar": "أخصائي أول"
+    "ar": "أخصائي أول",
+    "es": "Especialista sénior"
   },
   {
     "code": "leading_specialist",
@@ -159,7 +176,8 @@
     "en": "Leading specialist",
     "ru": "Ведущий специалист",
     "ka": "წამყვანი სპეციალისტი",
-    "ar": "أخصائي رئيسي"
+    "ar": "أخصائي رئيسي",
+    "es": "Especialista principal"
   },
   {
     "code": "assistant",
@@ -168,7 +186,8 @@
     "en": "Assistant",
     "ru": "Помощник",
     "ka": "ასისტენტი",
-    "ar": "مساعد"
+    "ar": "مساعد",
+    "es": "Asistente"
   },
   {
     "code": "intern",
@@ -177,7 +196,8 @@
     "en": "Intern",
     "ru": "Стажёр",
     "ka": "სტაჟიორი",
-    "ar": "متدرب"
+    "ar": "متدرب",
+    "es": "Becario"
   },
   {
     "code": "secretary",
@@ -186,7 +206,8 @@
     "en": "Secretary",
     "ru": "Секретарь",
     "ka": "მდივანი",
-    "ar": "سكرتير"
+    "ar": "سكرتير",
+    "es": "Secretario"
   },
   {
     "code": "receptionist",
@@ -195,7 +216,8 @@
     "en": "Receptionist",
     "ru": "Администратор ресепшн",
     "ka": "რეცეფციონისტი",
-    "ar": "موظف استقبال"
+    "ar": "موظف استقبال",
+    "es": "Recepcionista"
   },
   {
     "code": "records_clerk",
@@ -204,7 +226,8 @@
     "en": "Records clerk",
     "ru": "Делопроизводитель",
     "ka": "საქმისმწარმოებელი",
-    "ar": "كاتب سجلات"
+    "ar": "كاتب سجلات",
+    "es": "Auxiliar de registro"
   },
   {
     "code": "document_controller",
@@ -213,7 +236,8 @@
     "en": "Document controller",
     "ru": "Специалист по документообороту",
     "ka": "დოკუმენტბრუნვის სპეციალისტი",
-    "ar": "مسؤول ضبط الوثائق"
+    "ar": "مسؤول ضبط الوثائق",
+    "es": "Controlador de documentos"
   },
   {
     "code": "archivist",
@@ -222,7 +246,8 @@
     "en": "Archivist",
     "ru": "Архивариус",
     "ka": "არქივარიუსი",
-    "ar": "أمين أرشيف"
+    "ar": "أمين أرشيف",
+    "es": "Archivero"
   },
   {
     "code": "business_analyst",
@@ -231,7 +256,8 @@
     "en": "Business analyst",
     "ru": "Бизнес-аналитик",
     "ka": "ბიზნეს ანალიტიკოსი",
-    "ar": "محلل أعمال"
+    "ar": "محلل أعمال",
+    "es": "Analista de negocio"
   },
   {
     "code": "business_development_manager",
@@ -240,7 +266,8 @@
     "en": "Business development manager",
     "ru": "Менеджер по развитию бизнеса",
     "ka": "ბიზნესის განვითარების მენეჯერი",
-    "ar": "مدير تطوير الأعمال"
+    "ar": "مدير تطوير الأعمال",
+    "es": "Responsable de desarrollo de negocio"
   },
   {
     "code": "consultant",
@@ -249,7 +276,8 @@
     "en": "Consultant",
     "ru": "Консультант",
     "ka": "კონსულტანტი",
-    "ar": "مستشار"
+    "ar": "مستشار",
+    "es": "Consultor"
   },
   {
     "code": "entrepreneur",
@@ -258,7 +286,8 @@
     "en": "Entrepreneur",
     "ru": "Предприниматель",
     "ka": "მეწარმე",
-    "ar": "صاحب عمل"
+    "ar": "صاحب عمل",
+    "es": "Empresario"
   },
   {
     "code": "founder",
@@ -267,7 +296,8 @@
     "en": "Founder",
     "ru": "Основатель",
     "ka": "დამფუძნებელი",
-    "ar": "مؤسس"
+    "ar": "مؤسس",
+    "es": "Fundador"
   },
   {
     "code": "freelancer",
@@ -276,7 +306,8 @@
     "en": "Freelancer",
     "ru": "Фрилансер",
     "ka": "ფრილანსერი",
-    "ar": "عامل مستقل"
+    "ar": "عامل مستقل",
+    "es": "Freelance"
   },
   {
     "code": "volunteer",
@@ -285,7 +316,8 @@
     "en": "Volunteer",
     "ru": "Волонтёр",
     "ka": "მოხალისე",
-    "ar": "متطوع"
+    "ar": "متطوع",
+    "es": "Voluntario"
   },
   {
     "code": "accountant",
@@ -294,7 +326,8 @@
     "en": "Accountant",
     "ru": "Бухгалтер",
     "ka": "ბუღალტერი",
-    "ar": "محاسب"
+    "ar": "محاسب",
+    "es": "Contable"
   },
   {
     "code": "chief_accountant",
@@ -303,7 +336,8 @@
     "en": "Chief accountant",
     "ru": "Главный бухгалтер",
     "ka": "მთავარი ბუღალტერი",
-    "ar": "رئيس الحسابات"
+    "ar": "رئيس الحسابات",
+    "es": "Jefe de contabilidad"
   },
   {
     "code": "financial_manager",
@@ -312,7 +346,8 @@
     "en": "Finance manager",
     "ru": "Финансовый менеджер",
     "ka": "ფინანსური მენეჯერი",
-    "ar": "مدير مالي"
+    "ar": "مدير مالي",
+    "es": "Director financiero"
   },
   {
     "code": "financial_analyst",
@@ -321,7 +356,8 @@
     "en": "Financial analyst",
     "ru": "Финансовый аналитик",
     "ka": "ფინანსური ანალიტიკოსი",
-    "ar": "محلل مالي"
+    "ar": "محلل مالي",
+    "es": "Analista financiero"
   },
   {
     "code": "economist",
@@ -330,7 +366,8 @@
     "en": "Economist",
     "ru": "Экономист",
     "ka": "ეკონომისტი",
-    "ar": "اقتصادي"
+    "ar": "اقتصادي",
+    "es": "Economista"
   },
   {
     "code": "auditor",
@@ -339,7 +376,8 @@
     "en": "Auditor",
     "ru": "Аудитор",
     "ka": "აუდიტორი",
-    "ar": "مدقق حسابات"
+    "ar": "مدقق حسابات",
+    "es": "Auditor"
   },
   {
     "code": "internal_auditor",
@@ -348,7 +386,8 @@
     "en": "Internal auditor",
     "ru": "Внутренний аудитор",
     "ka": "შიდა აუდიტორი",
-    "ar": "مدقق داخلي"
+    "ar": "مدقق داخلي",
+    "es": "Auditor interno"
   },
   {
     "code": "cashier",
@@ -357,7 +396,8 @@
     "en": "Cashier",
     "ru": "Кассир",
     "ka": "მოლარე",
-    "ar": "أمين صندوق"
+    "ar": "أمين صندوق",
+    "es": "Cajero"
   },
   {
     "code": "bank_teller",
@@ -366,7 +406,8 @@
     "en": "Bank teller",
     "ru": "Банковский операционист",
     "ka": "ბანკის ოპერატორი",
-    "ar": "موظف صرف بنكي"
+    "ar": "موظف صرف بنكي",
+    "es": "Cajero de banco"
   },
   {
     "code": "credit_specialist",
@@ -375,7 +416,8 @@
     "en": "Credit specialist",
     "ru": "Кредитный специалист",
     "ka": "საკრედიტო სპეციალისტი",
-    "ar": "أخصائي قروض"
+    "ar": "أخصائي قروض",
+    "es": "Especialista en créditos"
   },
   {
     "code": "treasurer",
@@ -384,7 +426,8 @@
     "en": "Treasurer",
     "ru": "Казначей",
     "ka": "ხაზინადარი",
-    "ar": "أمين خزينة"
+    "ar": "أمين خزينة",
+    "es": "Tesorero"
   },
   {
     "code": "tax_specialist",
@@ -393,7 +436,8 @@
     "en": "Tax specialist",
     "ru": "Специалист по налогам",
     "ka": "საგადასახადო სპეციალისტი",
-    "ar": "أخصائي ضرائب"
+    "ar": "أخصائي ضرائب",
+    "es": "Especialista fiscal"
   },
   {
     "code": "payroll_specialist",
@@ -402,7 +446,8 @@
     "en": "Payroll specialist",
     "ru": "Специалист по расчёту зарплаты",
     "ka": "ხელფასის სპეციალისტი",
-    "ar": "أخصائي رواتب"
+    "ar": "أخصائي رواتب",
+    "es": "Especialista en nóminas"
   },
   {
     "code": "collections_specialist",
@@ -411,7 +456,8 @@
     "en": "Collections specialist",
     "ru": "Специалист по взысканию долгов",
     "ka": "ვალების ამოღების სპეციალისტი",
-    "ar": "أخصائي تحصيل ديون"
+    "ar": "أخصائي تحصيل ديون",
+    "es": "Especialista en cobros"
   },
   {
     "code": "risk_manager",
@@ -420,7 +466,8 @@
     "en": "Risk manager",
     "ru": "Риск-менеджер",
     "ka": "რისკების მენეჯერი",
-    "ar": "مدير مخاطر"
+    "ar": "مدير مخاطر",
+    "es": "Gestor de riesgos"
   },
   {
     "code": "compliance_officer",
@@ -429,7 +476,8 @@
     "en": "Compliance officer",
     "ru": "Специалист по комплаенсу",
     "ka": "შესაბამისობის სპეციალისტი",
-    "ar": "مسؤول الالتزام"
+    "ar": "مسؤول الالتزام",
+    "es": "Responsable de cumplimiento"
   },
   {
     "code": "insurance_agent",
@@ -438,7 +486,8 @@
     "en": "Insurance agent",
     "ru": "Страховой агент",
     "ka": "სადაზღვევო აგენტი",
-    "ar": "وكيل تأمين"
+    "ar": "وكيل تأمين",
+    "es": "Agente de seguros"
   },
   {
     "code": "salesperson",
@@ -447,7 +496,8 @@
     "en": "Salesperson",
     "ru": "Продавец",
     "ka": "გამყიდველი",
-    "ar": "بائع"
+    "ar": "بائع",
+    "es": "Vendedor"
   },
   {
     "code": "sales_cashier",
@@ -456,7 +506,8 @@
     "en": "Sales cashier",
     "ru": "Продавец-кассир",
     "ka": "გამყიდველ-მოლარე",
-    "ar": "بائع أمين صندوق"
+    "ar": "بائع أمين صندوق",
+    "es": "Cajero de tienda"
   },
   {
     "code": "sales_manager",
@@ -465,7 +516,8 @@
     "en": "Sales manager",
     "ru": "Менеджер по продажам",
     "ka": "გაყიდვების მენეჯერი",
-    "ar": "مدير مبيعات"
+    "ar": "مدير مبيعات",
+    "es": "Jefe de ventas"
   },
   {
     "code": "sales_representative",
@@ -474,7 +526,8 @@
     "en": "Sales representative",
     "ru": "Торговый представитель",
     "ka": "გაყიდვების წარმომადგენელი",
-    "ar": "مندوب مبيعات"
+    "ar": "مندوب مبيعات",
+    "es": "Representante de ventas"
   },
   {
     "code": "sales_consultant",
@@ -483,7 +536,8 @@
     "en": "Sales consultant",
     "ru": "Консультант по продажам",
     "ka": "გაყიდვების კონსულტანტი",
-    "ar": "مستشار مبيعات"
+    "ar": "مستشار مبيعات",
+    "es": "Asesor comercial"
   },
   {
     "code": "store_manager",
@@ -492,7 +546,8 @@
     "en": "Store manager",
     "ru": "Управляющий магазином",
     "ka": "მაღაზიის მმართველი",
-    "ar": "مدير متجر"
+    "ar": "مدير متجر",
+    "es": "Encargado de tienda"
   },
   {
     "code": "merchandiser",
@@ -501,7 +556,8 @@
     "en": "Merchandiser",
     "ru": "Мерчендайзер",
     "ka": "მერჩენდაიზერი",
-    "ar": "منسق عرض السلع"
+    "ar": "منسق عرض السلع",
+    "es": "Merchandiser"
   },
   {
     "code": "key_account_manager",
@@ -510,7 +566,8 @@
     "en": "Key account manager",
     "ru": "Менеджер по ключевым клиентам",
     "ka": "საკვანძო კლიენტების მენეჯერი",
-    "ar": "مدير حسابات رئيسية"
+    "ar": "مدير حسابات رئيسية",
+    "es": "Gestor de cuentas clave"
   },
   {
     "code": "customer_service_specialist",
@@ -519,7 +576,8 @@
     "en": "Customer service specialist",
     "ru": "Специалист по работе с клиентами",
     "ka": "მომხმარებელთა მომსახურების სპეციალისტი",
-    "ar": "أخصائي خدمة العملاء"
+    "ar": "أخصائي خدمة العملاء",
+    "es": "Especialista en atención al cliente"
   },
   {
     "code": "call_center_operator",
@@ -528,7 +586,8 @@
     "en": "Call centre operator",
     "ru": "Оператор call-центра",
     "ka": "ქოლ-ცენტრის ოპერატორი",
-    "ar": "مشغّل مركز اتصال"
+    "ar": "مشغّل مركز اتصال",
+    "es": "Teleoperador"
   },
   {
     "code": "procurement_specialist",
@@ -537,7 +596,8 @@
     "en": "Procurement specialist",
     "ru": "Специалист по закупкам",
     "ka": "შესყიდვების სპეციალისტი",
-    "ar": "أخصائي مشتريات"
+    "ar": "أخصائي مشتريات",
+    "es": "Especialista en compras"
   },
   {
     "code": "purchasing_manager",
@@ -546,7 +606,8 @@
     "en": "Purchasing manager",
     "ru": "Менеджер по закупкам",
     "ka": "შესყიდვების მენეჯერი",
-    "ar": "مدير المشتريات"
+    "ar": "مدير المشتريات",
+    "es": "Jefe de compras"
   },
   {
     "code": "supply_specialist",
@@ -555,7 +616,8 @@
     "en": "Supply specialist",
     "ru": "Специалист по снабжению",
     "ka": "მომარაგების სპეციალისტი",
-    "ar": "أخصائي تجهيز"
+    "ar": "أخصائي تجهيز",
+    "es": "Especialista en abastecimiento"
   },
   {
     "code": "contracts_specialist",
@@ -564,7 +626,8 @@
     "en": "Contracts specialist",
     "ru": "Специалист по договорам",
     "ka": "ხელშეკრულებების სპეციალისტი",
-    "ar": "أخصائي عقود"
+    "ar": "أخصائي عقود",
+    "es": "Especialista en contratos"
   },
   {
     "code": "real_estate_agent",
@@ -573,7 +636,8 @@
     "en": "Real estate agent",
     "ru": "Агент по недвижимости",
     "ka": "უძრავი ქონების აგენტი",
-    "ar": "وكيل عقارات"
+    "ar": "وكيل عقارات",
+    "es": "Agente inmobiliario"
   },
   {
     "code": "programmer",
@@ -582,7 +646,8 @@
     "en": "Programmer",
     "ru": "Программист",
     "ka": "პროგრამისტი",
-    "ar": "مبرمج"
+    "ar": "مبرمج",
+    "es": "Programador"
   },
   {
     "code": "software_engineer",
@@ -591,7 +656,8 @@
     "en": "Software engineer",
     "ru": "Инженер-программист",
     "ka": "პროგრამული უზრუნველყოფის ინჟინერი",
-    "ar": "مهندس برمجيات"
+    "ar": "مهندس برمجيات",
+    "es": "Ingeniero de software"
   },
   {
     "code": "frontend_developer",
@@ -600,7 +666,8 @@
     "en": "Frontend developer",
     "ru": "Frontend-разработчик",
     "ka": "Frontend დეველოპერი",
-    "ar": "مطوّر واجهات أمامية"
+    "ar": "مطوّر واجهات أمامية",
+    "es": "Desarrollador frontend"
   },
   {
     "code": "backend_developer",
@@ -609,7 +676,8 @@
     "en": "Backend developer",
     "ru": "Backend-разработчик",
     "ka": "Backend დეველოპერი",
-    "ar": "مطوّر خدمات خلفية"
+    "ar": "مطوّر خدمات خلفية",
+    "es": "Desarrollador backend"
   },
   {
     "code": "fullstack_developer",
@@ -618,7 +686,8 @@
     "en": "Full-stack developer",
     "ru": "Full-stack разработчик",
     "ka": "Full-stack დეველოპერი",
-    "ar": "مطوّر متكامل"
+    "ar": "مطوّر متكامل",
+    "es": "Desarrollador full-stack"
   },
   {
     "code": "web_developer",
@@ -627,7 +696,8 @@
     "en": "Web developer",
     "ru": "Веб-разработчик",
     "ka": "ვებ დეველოპერი",
-    "ar": "مطوّر ويب"
+    "ar": "مطوّر ويب",
+    "es": "Desarrollador web"
   },
   {
     "code": "mobile_developer",
@@ -636,7 +706,8 @@
     "en": "Mobile app developer",
     "ru": "Разработчик мобильных приложений",
     "ka": "მობილური აპლიკაციების დეველოპერი",
-    "ar": "مطوّر تطبيقات جوال"
+    "ar": "مطوّر تطبيقات جوال",
+    "es": "Desarrollador móvil"
   },
   {
     "code": "qa_engineer",
@@ -645,7 +716,8 @@
     "en": "QA engineer",
     "ru": "Инженер по тестированию",
     "ka": "QA ინჟინერი",
-    "ar": "مهندس اختبار"
+    "ar": "مهندس اختبار",
+    "es": "Ingeniero de QA"
   },
   {
     "code": "devops_engineer",
@@ -654,7 +726,8 @@
     "en": "DevOps engineer",
     "ru": "DevOps-инженер",
     "ka": "DevOps ინჟინერი",
-    "ar": "مهندس DevOps"
+    "ar": "مهندس DevOps",
+    "es": "Ingeniero DevOps"
   },
   {
     "code": "system_administrator",
@@ -663,7 +736,8 @@
     "en": "System administrator",
     "ru": "Системный администратор",
     "ka": "სისტემური ადმინისტრატორი",
-    "ar": "مدير أنظمة"
+    "ar": "مدير أنظمة",
+    "es": "Administrador de sistemas"
   },
   {
     "code": "network_engineer",
@@ -672,7 +746,8 @@
     "en": "Network engineer",
     "ru": "Сетевой инженер",
     "ka": "ქსელის ინჟინერი",
-    "ar": "مهندس شبكات"
+    "ar": "مهندس شبكات",
+    "es": "Ingeniero de redes"
   },
   {
     "code": "database_administrator",
@@ -681,7 +756,8 @@
     "en": "Database administrator",
     "ru": "Администратор баз данных",
     "ka": "მონაცემთა ბაზის ადმინისტრატორი",
-    "ar": "مدير قواعد بيانات"
+    "ar": "مدير قواعد بيانات",
+    "es": "Administrador de bases de datos"
   },
   {
     "code": "data_analyst",
@@ -690,7 +766,8 @@
     "en": "Data analyst",
     "ru": "Аналитик данных",
     "ka": "მონაცემთა ანალიტიკოსი",
-    "ar": "محلل بيانات"
+    "ar": "محلل بيانات",
+    "es": "Analista de datos"
   },
   {
     "code": "data_scientist",
@@ -699,7 +776,8 @@
     "en": "Data scientist",
     "ru": "Специалист по данным",
     "ka": "მონაცემთა მეცნიერი",
-    "ar": "عالم بيانات"
+    "ar": "عالم بيانات",
+    "es": "Científico de datos"
   },
   {
     "code": "system_analyst",
@@ -708,7 +786,8 @@
     "en": "Systems analyst",
     "ru": "Системный аналитик",
     "ka": "სისტემური ანალიტიკოსი",
-    "ar": "محلل أنظمة"
+    "ar": "محلل أنظمة",
+    "es": "Analista de sistemas"
   },
   {
     "code": "it_support_specialist",
@@ -717,7 +796,8 @@
     "en": "IT support specialist",
     "ru": "Специалист технической поддержки",
     "ka": "IT მხარდაჭერის სპეციალისტი",
-    "ar": "أخصائي دعم تقني"
+    "ar": "أخصائي دعم تقني",
+    "es": "Especialista en soporte técnico"
   },
   {
     "code": "cybersecurity_specialist",
@@ -726,7 +806,8 @@
     "en": "Cybersecurity specialist",
     "ru": "Специалист по кибербезопасности",
     "ka": "კიბერუსაფრთხოების სპეციალისტი",
-    "ar": "أخصائي أمن سيبراني"
+    "ar": "أخصائي أمن سيبراني",
+    "es": "Especialista en ciberseguridad"
   },
   {
     "code": "it_manager",
@@ -735,7 +816,8 @@
     "en": "IT manager",
     "ru": "IT-менеджер",
     "ka": "IT მენეჯერი",
-    "ar": "مدير تقنية المعلومات"
+    "ar": "مدير تقنية المعلومات",
+    "es": "Director de TI"
   },
   {
     "code": "product_manager",
@@ -744,7 +826,8 @@
     "en": "Product manager",
     "ru": "Менеджер продукта",
     "ka": "პროდუქტის მენეჯერი",
-    "ar": "مدير منتج"
+    "ar": "مدير منتج",
+    "es": "Gestor de producto"
   },
   {
     "code": "ui_ux_designer",
@@ -753,7 +836,8 @@
     "en": "UI/UX designer",
     "ru": "UI/UX дизайнер",
     "ka": "UI/UX დიზაინერი",
-    "ar": "مصمم واجهات المستخدم"
+    "ar": "مصمم واجهات المستخدم",
+    "es": "Diseñador UI/UX"
   },
   {
     "code": "seo_specialist",
@@ -762,7 +846,8 @@
     "en": "SEO specialist",
     "ru": "SEO-специалист",
     "ka": "SEO სპეციალისტი",
-    "ar": "أخصائي تحسين محركات البحث"
+    "ar": "أخصائي تحسين محركات البحث",
+    "es": "Especialista en SEO"
   },
   {
     "code": "computer_operator",
@@ -771,7 +856,8 @@
     "en": "Computer operator",
     "ru": "Оператор ЭВМ",
     "ka": "კომპიუტერის ოპერატორი",
-    "ar": "مشغّل حاسوب"
+    "ar": "مشغّل حاسوب",
+    "es": "Operador informático"
   },
   {
     "code": "marketing_manager",
@@ -780,7 +866,8 @@
     "en": "Marketing manager",
     "ru": "Менеджер по маркетингу",
     "ka": "მარკეტინგის მენეჯერი",
-    "ar": "مدير تسويق"
+    "ar": "مدير تسويق",
+    "es": "Director de marketing"
   },
   {
     "code": "marketing_specialist",
@@ -789,7 +876,8 @@
     "en": "Marketing specialist",
     "ru": "Специалист по маркетингу",
     "ka": "მარკეტინგის სპეციალისტი",
-    "ar": "أخصائي تسويق"
+    "ar": "أخصائي تسويق",
+    "es": "Especialista en marketing"
   },
   {
     "code": "digital_marketing_specialist",
@@ -798,7 +886,8 @@
     "en": "Digital marketing specialist",
     "ru": "Специалист по цифровому маркетингу",
     "ka": "ციფრული მარკეტინგის სპეციალისტი",
-    "ar": "أخصائي تسويق رقمي"
+    "ar": "أخصائي تسويق رقمي",
+    "es": "Especialista en marketing digital"
   },
   {
     "code": "smm_specialist",
@@ -807,7 +896,8 @@
     "en": "Social media specialist",
     "ru": "Специалист по социальным сетям",
     "ka": "სოციალური მედიის სპეციალისტი",
-    "ar": "أخصائي وسائل التواصل"
+    "ar": "أخصائي وسائل التواصل",
+    "es": "Especialista en redes sociales"
   },
   {
     "code": "brand_manager",
@@ -816,7 +906,8 @@
     "en": "Brand manager",
     "ru": "Бренд-менеджер",
     "ka": "ბრენდის მენეჯერი",
-    "ar": "مدير علامة تجارية"
+    "ar": "مدير علامة تجارية",
+    "es": "Gestor de marca"
   },
   {
     "code": "pr_specialist",
@@ -825,7 +916,8 @@
     "en": "PR specialist",
     "ru": "Специалист по связям с общественностью",
     "ka": "საზოგადოებასთან ურთიერთობის სპეციალისტი",
-    "ar": "أخصائي علاقات عامة"
+    "ar": "أخصائي علاقات عامة",
+    "es": "Especialista en relaciones públicas"
   },
   {
     "code": "content_manager",
@@ -834,7 +926,8 @@
     "en": "Content manager",
     "ru": "Контент-менеджер",
     "ka": "კონტენტ მენეჯერი",
-    "ar": "مدير محتوى"
+    "ar": "مدير محتوى",
+    "es": "Gestor de contenidos"
   },
   {
     "code": "copywriter",
@@ -843,7 +936,8 @@
     "en": "Copywriter",
     "ru": "Копирайтер",
     "ka": "კოპირაიტერი",
-    "ar": "كاتب إعلاني"
+    "ar": "كاتب إعلاني",
+    "es": "Redactor publicitario"
   },
   {
     "code": "graphic_designer",
@@ -852,7 +946,8 @@
     "en": "Graphic designer",
     "ru": "Графический дизайнер",
     "ka": "გრაფიკული დიზაინერი",
-    "ar": "مصمم جرافيك"
+    "ar": "مصمم جرافيك",
+    "es": "Diseñador gráfico"
   },
   {
     "code": "interior_designer",
@@ -861,7 +956,8 @@
     "en": "Interior designer",
     "ru": "Дизайнер интерьера",
     "ka": "ინტერიერის დიზაინერი",
-    "ar": "مصمم داخلي"
+    "ar": "مصمم داخلي",
+    "es": "Diseñador de interiores"
   },
   {
     "code": "photographer",
@@ -870,7 +966,8 @@
     "en": "Photographer",
     "ru": "Фотограф",
     "ka": "ფოტოგრაფი",
-    "ar": "مصوّر"
+    "ar": "مصوّر",
+    "es": "Fotógrafo"
   },
   {
     "code": "videographer",
@@ -879,7 +976,8 @@
     "en": "Videographer",
     "ru": "Видеооператор",
     "ka": "ვიდეოგრაფი",
-    "ar": "مصوّر فيديو"
+    "ar": "مصوّر فيديو",
+    "es": "Videógrafo"
   },
   {
     "code": "video_editor",
@@ -888,7 +986,8 @@
     "en": "Video editor",
     "ru": "Видеомонтажёр",
     "ka": "ვიდეო რედაქტორი",
-    "ar": "محرر فيديو"
+    "ar": "محرر فيديو",
+    "es": "Editor de vídeo"
   },
   {
     "code": "journalist",
@@ -897,7 +996,8 @@
     "en": "Journalist",
     "ru": "Журналист",
     "ka": "ჟურნალისტი",
-    "ar": "صحفي"
+    "ar": "صحفي",
+    "es": "Periodista"
   },
   {
     "code": "editor",
@@ -906,7 +1006,8 @@
     "en": "Editor",
     "ru": "Редактор",
     "ka": "რედაქტორი",
-    "ar": "محرر"
+    "ar": "محرر",
+    "es": "Redactor"
   },
   {
     "code": "presenter",
@@ -915,7 +1016,8 @@
     "en": "Presenter",
     "ru": "Ведущий",
     "ka": "წამყვანი",
-    "ar": "مذيع"
+    "ar": "مذيع",
+    "es": "Presentador"
   },
   {
     "code": "stage_director",
@@ -924,7 +1026,8 @@
     "en": "Stage director",
     "ru": "Режиссёр",
     "ka": "რეჟისორი",
-    "ar": "مخرج"
+    "ar": "مخرج",
+    "es": "Director de escena"
   },
   {
     "code": "translator",
@@ -933,7 +1036,8 @@
     "en": "Translator",
     "ru": "Переводчик",
     "ka": "თარჯიმანი",
-    "ar": "مترجم"
+    "ar": "مترجم",
+    "es": "Traductor"
   },
   {
     "code": "hr_specialist",
@@ -942,7 +1046,8 @@
     "en": "HR specialist",
     "ru": "Специалист по кадрам",
     "ka": "ადამიანური რესურსების სპეციალისტი",
-    "ar": "أخصائي موارد بشرية"
+    "ar": "أخصائي موارد بشرية",
+    "es": "Especialista en RRHH"
   },
   {
     "code": "hr_manager",
@@ -951,7 +1056,8 @@
     "en": "HR manager",
     "ru": "Менеджер по персоналу",
     "ka": "ადამიანური რესურსების მენეჯერი",
-    "ar": "مدير موارد بشرية"
+    "ar": "مدير موارد بشرية",
+    "es": "Director de RRHH"
   },
   {
     "code": "recruiter",
@@ -960,7 +1066,8 @@
     "en": "Recruiter",
     "ru": "Рекрутер",
     "ka": "რეკრუტერი",
-    "ar": "أخصائي توظيف"
+    "ar": "أخصائي توظيف",
+    "es": "Reclutador"
   },
   {
     "code": "trainer",
@@ -969,7 +1076,8 @@
     "en": "Trainer",
     "ru": "Тренер",
     "ka": "ტრენერი",
-    "ar": "مدرب"
+    "ar": "مدرب",
+    "es": "Formador"
   },
   {
     "code": "lawyer",
@@ -978,7 +1086,8 @@
     "en": "Lawyer",
     "ru": "Юрист",
     "ka": "იურისტი",
-    "ar": "محامٍ"
+    "ar": "محامٍ",
+    "es": "Jurista"
   },
   {
     "code": "advocate",
@@ -987,7 +1096,8 @@
     "en": "Advocate",
     "ru": "Адвокат",
     "ka": "ადვოკატი",
-    "ar": "محامي مرافعة"
+    "ar": "محامي مرافعة",
+    "es": "Abogado"
   },
   {
     "code": "legal_advisor",
@@ -996,7 +1106,8 @@
     "en": "Legal advisor",
     "ru": "Юридический консультант",
     "ka": "იურიდიული კონსულტანტი",
-    "ar": "مستشار قانوني"
+    "ar": "مستشار قانوني",
+    "es": "Asesor jurídico"
   },
   {
     "code": "notary",
@@ -1005,7 +1116,8 @@
     "en": "Notary",
     "ru": "Нотариус",
     "ka": "ნოტარიუსი",
-    "ar": "كاتب عدل"
+    "ar": "كاتب عدل",
+    "es": "Notario"
   },
   {
     "code": "inspector",
@@ -1014,7 +1126,8 @@
     "en": "Inspector",
     "ru": "Инспектор",
     "ka": "ინსპექტორი",
-    "ar": "مفتش"
+    "ar": "مفتش",
+    "es": "Inspector"
   },
   {
     "code": "civil_servant",
@@ -1023,7 +1136,8 @@
     "en": "Civil servant",
     "ru": "Государственный служащий",
     "ka": "საჯარო მოსამსახურე",
-    "ar": "موظف حكومي"
+    "ar": "موظف حكومي",
+    "es": "Funcionario público"
   },
   {
     "code": "customs_officer",
@@ -1032,7 +1146,8 @@
     "en": "Customs officer",
     "ru": "Сотрудник таможни",
     "ka": "საბაჟო თანამშრომელი",
-    "ar": "موظف جمارك"
+    "ar": "موظف جمارك",
+    "es": "Agente de aduanas"
   },
   {
     "code": "customs_broker",
@@ -1041,7 +1156,8 @@
     "en": "Customs broker",
     "ru": "Таможенный брокер",
     "ka": "საბაჟო ბროკერი",
-    "ar": "وسيط جمركي"
+    "ar": "وسيط جمركي",
+    "es": "Despachante de aduanas"
   },
   {
     "code": "police_officer",
@@ -1050,7 +1166,8 @@
     "en": "Police officer",
     "ru": "Сотрудник полиции",
     "ka": "პოლიციელი",
-    "ar": "ضابط شرطة"
+    "ar": "ضابط شرطة",
+    "es": "Policía"
   },
   {
     "code": "serviceman",
@@ -1059,7 +1176,8 @@
     "en": "Serviceman",
     "ru": "Военнослужащий",
     "ka": "სამხედრო მოსამსახურე",
-    "ar": "عسكري"
+    "ar": "عسكري",
+    "es": "Militar"
   },
   {
     "code": "firefighter",
@@ -1068,7 +1186,8 @@
     "en": "Firefighter",
     "ru": "Пожарный",
     "ka": "მეხანძრე",
-    "ar": "رجل إطفاء"
+    "ar": "رجل إطفاء",
+    "es": "Bombero"
   },
   {
     "code": "security_guard",
@@ -1077,7 +1196,8 @@
     "en": "Security guard",
     "ru": "Охранник",
     "ka": "დაცვის თანამშრომელი",
-    "ar": "حارس أمن"
+    "ar": "حارس أمن",
+    "es": "Guardia de seguridad"
   },
   {
     "code": "watchman",
@@ -1086,7 +1206,8 @@
     "en": "Watchman",
     "ru": "Сторож",
     "ka": "დარაჯი",
-    "ar": "خفير"
+    "ar": "خفير",
+    "es": "Sereno"
   },
   {
     "code": "engineer",
@@ -1095,7 +1216,8 @@
     "en": "Engineer",
     "ru": "Инженер",
     "ka": "ინჟინერი",
-    "ar": "مهندس"
+    "ar": "مهندس",
+    "es": "Ingeniero"
   },
   {
     "code": "civil_engineer",
@@ -1104,7 +1226,8 @@
     "en": "Civil engineer",
     "ru": "Инженер-строитель",
     "ka": "სამოქალაქო ინჟინერი",
-    "ar": "مهندس مدني"
+    "ar": "مهندس مدني",
+    "es": "Ingeniero civil"
   },
   {
     "code": "project_engineer",
@@ -1113,7 +1236,8 @@
     "en": "Project engineer",
     "ru": "Инженер проекта",
     "ka": "პროექტის ინჟინერი",
-    "ar": "مهندس مشروع"
+    "ar": "مهندس مشروع",
+    "es": "Ingeniero de proyectos"
   },
   {
     "code": "planning_engineer",
@@ -1122,7 +1246,8 @@
     "en": "Planning engineer",
     "ru": "Инженер по планированию",
     "ka": "დაგეგმვის ინჟინერი",
-    "ar": "مهندس تخطيط"
+    "ar": "مهندس تخطيط",
+    "es": "Ingeniero de planificación"
   },
   {
     "code": "maintenance_engineer",
@@ -1131,7 +1256,8 @@
     "en": "Maintenance engineer",
     "ru": "Инженер по эксплуатации",
     "ka": "ტექნიკური მომსახურების ინჟინერი",
-    "ar": "مهندس صيانة"
+    "ar": "مهندس صيانة",
+    "es": "Ingeniero de mantenimiento"
   },
   {
     "code": "mechanical_engineer",
@@ -1140,7 +1266,8 @@
     "en": "Mechanical engineer",
     "ru": "Инженер-механик",
     "ka": "ინჟინერ-მექანიკოსი",
-    "ar": "مهندس ميكانيكي"
+    "ar": "مهندس ميكانيكي",
+    "es": "Ingeniero mecánico"
   },
   {
     "code": "electrical_engineer",
@@ -1149,7 +1276,8 @@
     "en": "Electrical engineer",
     "ru": "Инженер-электрик",
     "ka": "ინჟინერ-ელექტრიკოსი",
-    "ar": "مهندس كهربائي"
+    "ar": "مهندس كهربائي",
+    "es": "Ingeniero eléctrico"
   },
   {
     "code": "instrumentation_engineer",
@@ -1158,7 +1286,8 @@
     "en": "Instrumentation engineer",
     "ru": "Инженер КИПиА",
     "ka": "საზომ-საკონტროლო ინჟინერი",
-    "ar": "مهندس أجهزة قياس"
+    "ar": "مهندس أجهزة قياس",
+    "es": "Ingeniero de instrumentación"
   },
   {
     "code": "architect",
@@ -1167,7 +1296,8 @@
     "en": "Architect",
     "ru": "Архитектор",
     "ka": "არქიტექტორი",
-    "ar": "مهندس معماري"
+    "ar": "مهندس معماري",
+    "es": "Arquitecto"
   },
   {
     "code": "quantity_surveyor",
@@ -1176,7 +1306,8 @@
     "en": "Quantity surveyor",
     "ru": "Инженер-сметчик",
     "ka": "ხარჯთაღრიცხვის სპეციალისტი",
-    "ar": "أخصائي حصر كميات"
+    "ar": "أخصائي حصر كميات",
+    "es": "Aparejador"
   },
   {
     "code": "site_manager",
@@ -1185,7 +1316,8 @@
     "en": "Site manager",
     "ru": "Начальник строительного участка",
     "ka": "სამშენებლო უბნის უფროსი",
-    "ar": "مدير موقع إنشاءات"
+    "ar": "مدير موقع إنشاءات",
+    "es": "Jefe de obra"
   },
   {
     "code": "foreman",
@@ -1194,7 +1326,8 @@
     "en": "Foreman",
     "ru": "Мастер",
     "ka": "ოსტატი",
-    "ar": "رئيس عمال"
+    "ar": "رئيس عمال",
+    "es": "Encargado de obra"
   },
   {
     "code": "land_surveyor",
@@ -1203,7 +1336,8 @@
     "en": "Land surveyor",
     "ru": "Геодезист",
     "ka": "გეოდეზისტი",
-    "ar": "مساح"
+    "ar": "مساح",
+    "es": "Topógrafo"
   },
   {
     "code": "hse_specialist",
@@ -1212,7 +1346,8 @@
     "en": "HSE specialist",
     "ru": "Специалист по охране труда",
     "ka": "შრომის უსაფრთხოების სპეციალისტი",
-    "ar": "أخصائي الصحة والسلامة"
+    "ar": "أخصائي الصحة والسلامة",
+    "es": "Especialista en seguridad laboral"
   },
   {
     "code": "quality_control_specialist",
@@ -1221,7 +1356,8 @@
     "en": "Quality control specialist",
     "ru": "Специалист по контролю качества",
     "ka": "ხარისხის კონტროლის სპეციალისტი",
-    "ar": "أخصائي مراقبة الجودة"
+    "ar": "أخصائي مراقبة الجودة",
+    "es": "Especialista en control de calidad"
   },
   {
     "code": "technician",
@@ -1230,7 +1366,8 @@
     "en": "Technician",
     "ru": "Техник",
     "ka": "ტექნიკოსი",
-    "ar": "تقني"
+    "ar": "تقني",
+    "es": "Técnico"
   },
   {
     "code": "technologist",
@@ -1239,7 +1376,8 @@
     "en": "Technologist",
     "ru": "Технолог",
     "ka": "ტექნოლოგი",
-    "ar": "أخصائي تكنولوجيا"
+    "ar": "أخصائي تكنولوجيا",
+    "es": "Tecnólogo"
   },
   {
     "code": "mechanic",
@@ -1248,7 +1386,8 @@
     "en": "Mechanic",
     "ru": "Механик",
     "ka": "მექანიკოსი",
-    "ar": "ميكانيكي"
+    "ar": "ميكانيكي",
+    "es": "Mecánico"
   },
   {
     "code": "electrician",
@@ -1257,7 +1396,8 @@
     "en": "Electrician",
     "ru": "Электрик",
     "ka": "ელექტრიკოსი",
-    "ar": "كهربائي"
+    "ar": "كهربائي",
+    "es": "Electricista"
   },
   {
     "code": "welder",
@@ -1266,7 +1406,8 @@
     "en": "Welder",
     "ru": "Сварщик",
     "ka": "შემდუღებელი",
-    "ar": "لحّام"
+    "ar": "لحّام",
+    "es": "Soldador"
   },
   {
     "code": "plumber",
@@ -1275,7 +1416,8 @@
     "en": "Plumber",
     "ru": "Сантехник",
     "ka": "სანტექნიკოსი",
-    "ar": "سبّاك"
+    "ar": "سبّاك",
+    "es": "Fontanero"
   },
   {
     "code": "carpenter",
@@ -1284,7 +1426,8 @@
     "en": "Carpenter",
     "ru": "Столяр",
     "ka": "ხურო",
-    "ar": "نجّار"
+    "ar": "نجّار",
+    "es": "Carpintero"
   },
   {
     "code": "mason",
@@ -1293,7 +1436,8 @@
     "en": "Mason",
     "ru": "Каменщик",
     "ka": "ქვისმთლელი",
-    "ar": "بنّاء"
+    "ar": "بنّاء",
+    "es": "Albañil"
   },
   {
     "code": "plasterer",
@@ -1302,7 +1446,8 @@
     "en": "Plasterer",
     "ru": "Штукатур",
     "ka": "მბათქაშებელი",
-    "ar": "مبيّض جبس"
+    "ar": "مبيّض جبس",
+    "es": "Yesero"
   },
   {
     "code": "painter_decorator",
@@ -1311,7 +1456,8 @@
     "en": "Painter and decorator",
     "ru": "Маляр",
     "ka": "მღებავი",
-    "ar": "دهّان"
+    "ar": "دهّان",
+    "es": "Pintor decorador"
   },
   {
     "code": "concrete_worker",
@@ -1320,7 +1466,8 @@
     "en": "Concrete worker",
     "ru": "Бетонщик",
     "ka": "ბეტონის მუშა",
-    "ar": "عامل خرسانة"
+    "ar": "عامل خرسانة",
+    "es": "Operario de hormigón"
   },
   {
     "code": "locksmith",
@@ -1329,7 +1476,8 @@
     "en": "Locksmith",
     "ru": "Слесарь",
     "ka": "ზეინკალი",
-    "ar": "ميكانيكي تركيبات"
+    "ar": "ميكانيكي تركيبات",
+    "es": "Cerrajero"
   },
   {
     "code": "turner",
@@ -1338,7 +1486,8 @@
     "en": "Turner",
     "ru": "Токарь",
     "ka": "ხარატი",
-    "ar": "خرّاط"
+    "ar": "خرّاط",
+    "es": "Tornero"
   },
   {
     "code": "crane_operator",
@@ -1347,7 +1496,8 @@
     "en": "Crane operator",
     "ru": "Крановщик",
     "ka": "ამწის ოპერატორი",
-    "ar": "مشغّل رافعة"
+    "ar": "مشغّل رافعة",
+    "es": "Gruista"
   },
   {
     "code": "excavator_operator",
@@ -1356,7 +1506,8 @@
     "en": "Excavator operator",
     "ru": "Экскаваторщик",
     "ka": "ექსკავატორის ოპერატორი",
-    "ar": "مشغّل حفارة"
+    "ar": "مشغّل حفارة",
+    "es": "Operador de excavadora"
   },
   {
     "code": "machine_operator",
@@ -1365,7 +1516,8 @@
     "en": "Machine operator",
     "ru": "Оператор станка",
     "ka": "ჩარხის ოპერატორი",
-    "ar": "مشغّل آلة"
+    "ar": "مشغّل آلة",
+    "es": "Operador de máquina"
   },
   {
     "code": "production_operator",
@@ -1374,7 +1526,8 @@
     "en": "Production operator",
     "ru": "Оператор производства",
     "ka": "წარმოების ოპერატორი",
-    "ar": "مشغّل إنتاج"
+    "ar": "مشغّل إنتاج",
+    "es": "Operario de producción"
   },
   {
     "code": "operator",
@@ -1383,7 +1536,8 @@
     "en": "Operator",
     "ru": "Оператор",
     "ka": "ოპერატორი",
-    "ar": "مشغّل"
+    "ar": "مشغّل",
+    "es": "Operador"
   },
   {
     "code": "laboratory_assistant",
@@ -1392,7 +1546,8 @@
     "en": "Laboratory assistant",
     "ru": "Лаборант",
     "ka": "ლაბორანტი",
-    "ar": "فني مختبر"
+    "ar": "فني مختبر",
+    "es": "Auxiliar de laboratorio"
   },
   {
     "code": "worker",
@@ -1401,7 +1556,8 @@
     "en": "Worker",
     "ru": "Рабочий",
     "ka": "მუშა",
-    "ar": "عامل"
+    "ar": "عامل",
+    "es": "Obrero"
   },
   {
     "code": "petroleum_engineer",
@@ -1410,7 +1566,8 @@
     "en": "Petroleum engineer",
     "ru": "Инженер нефтегазового дела",
     "ka": "ნავთობისა და გაზის ინჟინერი",
-    "ar": "مهندس نفط وغاز"
+    "ar": "مهندس نفط وغاز",
+    "es": "Ingeniero de petróleo"
   },
   {
     "code": "drilling_engineer",
@@ -1419,7 +1576,8 @@
     "en": "Drilling engineer",
     "ru": "Инженер по бурению",
     "ka": "ბურღვის ინჟინერი",
-    "ar": "مهندس حفر"
+    "ar": "مهندس حفر",
+    "es": "Ingeniero de perforación"
   },
   {
     "code": "process_engineer",
@@ -1428,7 +1586,8 @@
     "en": "Process engineer",
     "ru": "Инженер-технолог",
     "ka": "პროცესის ინჟინერი",
-    "ar": "مهندس عمليات"
+    "ar": "مهندس عمليات",
+    "es": "Ingeniero de procesos"
   },
   {
     "code": "energy_engineer",
@@ -1437,7 +1596,8 @@
     "en": "Energy engineer",
     "ru": "Инженер-энергетик",
     "ka": "ენერგეტიკის ინჟინერი",
-    "ar": "مهندس طاقة"
+    "ar": "مهندس طاقة",
+    "es": "Ingeniero energético"
   },
   {
     "code": "geologist",
@@ -1446,7 +1606,8 @@
     "en": "Geologist",
     "ru": "Геолог",
     "ka": "გეოლოგი",
-    "ar": "جيولوجي"
+    "ar": "جيولوجي",
+    "es": "Geólogo"
   },
   {
     "code": "geophysicist",
@@ -1455,7 +1616,8 @@
     "en": "Geophysicist",
     "ru": "Геофизик",
     "ka": "გეოფიზიკოსი",
-    "ar": "جيوفيزيائي"
+    "ar": "جيوفيزيائي",
+    "es": "Geofísico"
   },
   {
     "code": "driver",
@@ -1464,7 +1626,8 @@
     "en": "Driver",
     "ru": "Водитель",
     "ka": "მძღოლი",
-    "ar": "سائق"
+    "ar": "سائق",
+    "es": "Conductor"
   },
   {
     "code": "truck_driver",
@@ -1473,7 +1636,8 @@
     "en": "Truck driver",
     "ru": "Водитель грузовика",
     "ka": "სატვირთოს მძღოლი",
-    "ar": "سائق شاحنة"
+    "ar": "سائق شاحنة",
+    "es": "Camionero"
   },
   {
     "code": "courier",
@@ -1482,7 +1646,8 @@
     "en": "Courier",
     "ru": "Курьер",
     "ka": "კურიერი",
-    "ar": "مندوب توصيل"
+    "ar": "مندوب توصيل",
+    "es": "Mensajero"
   },
   {
     "code": "logistics_manager",
@@ -1491,7 +1656,8 @@
     "en": "Logistics manager",
     "ru": "Менеджер по логистике",
     "ka": "ლოგისტიკის მენეჯერი",
-    "ar": "مدير لوجستيات"
+    "ar": "مدير لوجستيات",
+    "es": "Director de logística"
   },
   {
     "code": "logistics_specialist",
@@ -1500,7 +1666,8 @@
     "en": "Logistics specialist",
     "ru": "Специалист по логистике",
     "ka": "ლოგისტიკის სპეციალისტი",
-    "ar": "أخصائي لوجستيات"
+    "ar": "أخصائي لوجستيات",
+    "es": "Especialista en logística"
   },
   {
     "code": "warehouse_manager",
@@ -1509,7 +1676,8 @@
     "en": "Warehouse manager",
     "ru": "Заведующий складом",
     "ka": "საწყობის უფროსი",
-    "ar": "مدير مستودع"
+    "ar": "مدير مستودع",
+    "es": "Jefe de almacén"
   },
   {
     "code": "storekeeper",
@@ -1518,7 +1686,8 @@
     "en": "Storekeeper",
     "ru": "Кладовщик",
     "ka": "მესაწყობე",
-    "ar": "أمين مخزن"
+    "ar": "أمين مخزن",
+    "es": "Almacenero"
   },
   {
     "code": "freight_forwarder",
@@ -1527,7 +1696,8 @@
     "en": "Freight forwarder",
     "ru": "Экспедитор",
     "ka": "ექსპედიტორი",
-    "ar": "وكيل شحن"
+    "ar": "وكيل شحن",
+    "es": "Transitario"
   },
   {
     "code": "dispatcher",
@@ -1536,7 +1706,8 @@
     "en": "Dispatcher",
     "ru": "Диспетчер",
     "ka": "დისპეტჩერი",
-    "ar": "منسق حركة"
+    "ar": "منسق حركة",
+    "es": "Despachador"
   },
   {
     "code": "train_driver",
@@ -1545,7 +1716,8 @@
     "en": "Train driver",
     "ru": "Машинист",
     "ka": "მემანქანე",
-    "ar": "سائق قطار"
+    "ar": "سائق قطار",
+    "es": "Maquinista"
   },
   {
     "code": "pilot",
@@ -1554,7 +1726,8 @@
     "en": "Pilot",
     "ru": "Пилот",
     "ka": "პილოტი",
-    "ar": "طيار"
+    "ar": "طيار",
+    "es": "Piloto"
   },
   {
     "code": "flight_attendant",
@@ -1563,7 +1736,8 @@
     "en": "Flight attendant",
     "ru": "Бортпроводник",
     "ka": "სტიუარდესა",
-    "ar": "مضيف طيران"
+    "ar": "مضيف طيران",
+    "es": "Auxiliar de vuelo"
   },
   {
     "code": "ship_captain",
@@ -1572,7 +1746,8 @@
     "en": "Ship captain",
     "ru": "Капитан судна",
     "ka": "გემის კაპიტანი",
-    "ar": "قبطان سفينة"
+    "ar": "قبطان سفينة",
+    "es": "Capitán de barco"
   },
   {
     "code": "sailor",
@@ -1581,7 +1756,8 @@
     "en": "Sailor",
     "ru": "Моряк",
     "ka": "მეზღვაური",
-    "ar": "بحّار"
+    "ar": "بحّار",
+    "es": "Marinero"
   },
   {
     "code": "loader",
@@ -1590,7 +1766,8 @@
     "en": "Loader",
     "ru": "Грузчик",
     "ka": "დამტვირთავი",
-    "ar": "عامل تحميل"
+    "ar": "عامل تحميل",
+    "es": "Mozo de carga"
   },
   {
     "code": "postman",
@@ -1599,7 +1776,8 @@
     "en": "Postman",
     "ru": "Почтальон",
     "ka": "ფოსტალიონი",
-    "ar": "ساعي بريد"
+    "ar": "ساعي بريد",
+    "es": "Cartero"
   },
   {
     "code": "doctor",
@@ -1608,7 +1786,8 @@
     "en": "Physician",
     "ru": "Врач",
     "ka": "ექიმი",
-    "ar": "طبيب"
+    "ar": "طبيب",
+    "es": "Médico"
   },
   {
     "code": "surgeon",
@@ -1617,7 +1796,8 @@
     "en": "Surgeon",
     "ru": "Хирург",
     "ka": "ქირურგი",
-    "ar": "جرّاح"
+    "ar": "جرّاح",
+    "es": "Cirujano"
   },
   {
     "code": "pediatrician",
@@ -1626,7 +1806,8 @@
     "en": "Pediatrician",
     "ru": "Педиатр",
     "ka": "პედიატრი",
-    "ar": "طبيب أطفال"
+    "ar": "طبيب أطفال",
+    "es": "Pediatra"
   },
   {
     "code": "internist",
@@ -1635,7 +1816,8 @@
     "en": "Internist",
     "ru": "Терапевт",
     "ka": "თერაპევტი",
-    "ar": "طبيب باطني"
+    "ar": "طبيب باطني",
+    "es": "Internista"
   },
   {
     "code": "dentist",
@@ -1644,7 +1826,8 @@
     "en": "Dentist",
     "ru": "Стоматолог",
     "ka": "სტომატოლოგი",
-    "ar": "طبيب أسنان"
+    "ar": "طبيب أسنان",
+    "es": "Dentista"
   },
   {
     "code": "nurse",
@@ -1653,7 +1836,8 @@
     "en": "Nurse",
     "ru": "Медсестра",
     "ka": "მედდა",
-    "ar": "ممرّض"
+    "ar": "ممرّض",
+    "es": "Enfermero"
   },
   {
     "code": "paramedic",
@@ -1662,7 +1846,8 @@
     "en": "Feldsher (paramedic)",
     "ru": "Фельдшер",
     "ka": "ფელდშერი",
-    "ar": "مساعد طبي"
+    "ar": "مساعد طبي",
+    "es": "Técnico sanitario"
   },
   {
     "code": "midwife",
@@ -1671,7 +1856,8 @@
     "en": "Midwife",
     "ru": "Акушерка",
     "ka": "ბებიაქალი",
-    "ar": "قابلة"
+    "ar": "قابلة",
+    "es": "Matrona"
   },
   {
     "code": "orderly",
@@ -1680,7 +1866,8 @@
     "en": "Orderly",
     "ru": "Санитар",
     "ka": "სანიტარი",
-    "ar": "مساعد تمريض"
+    "ar": "مساعد تمريض",
+    "es": "Celador"
   },
   {
     "code": "pharmacist",
@@ -1689,7 +1876,8 @@
     "en": "Pharmacist",
     "ru": "Фармацевт",
     "ka": "ფარმაცევტი",
-    "ar": "صيدلي"
+    "ar": "صيدلي",
+    "es": "Farmacéutico"
   },
   {
     "code": "psychologist",
@@ -1698,7 +1886,8 @@
     "en": "Psychologist",
     "ru": "Психолог",
     "ka": "ფსიქოლოგი",
-    "ar": "أخصائي نفسي"
+    "ar": "أخصائي نفسي",
+    "es": "Psicólogo"
   },
   {
     "code": "speech_therapist",
@@ -1707,7 +1896,8 @@
     "en": "Speech therapist",
     "ru": "Логопед",
     "ka": "ლოგოპედი",
-    "ar": "معالج نطق"
+    "ar": "معالج نطق",
+    "es": "Logopeda"
   },
   {
     "code": "massage_therapist",
@@ -1716,7 +1906,8 @@
     "en": "Massage therapist",
     "ru": "Массажист",
     "ka": "მასაჟისტი",
-    "ar": "أخصائي تدليك"
+    "ar": "أخصائي تدليك",
+    "es": "Masajista"
   },
   {
     "code": "veterinarian",
@@ -1725,7 +1916,8 @@
     "en": "Veterinarian",
     "ru": "Ветеринар",
     "ka": "ვეტერინარი",
-    "ar": "طبيب بيطري"
+    "ar": "طبيب بيطري",
+    "es": "Veterinario"
   },
   {
     "code": "medical_representative",
@@ -1734,7 +1926,8 @@
     "en": "Medical representative",
     "ru": "Медицинский представитель",
     "ka": "სამედიცინო წარმომადგენელი",
-    "ar": "مندوب طبي"
+    "ar": "مندوب طبي",
+    "es": "Visitador médico"
   },
   {
     "code": "teacher",
@@ -1743,7 +1936,8 @@
     "en": "Teacher",
     "ru": "Учитель",
     "ka": "მასწავლებელი",
-    "ar": "مدرّس"
+    "ar": "مدرّس",
+    "es": "Profesor"
   },
   {
     "code": "primary_teacher",
@@ -1752,7 +1946,8 @@
     "en": "Primary school teacher",
     "ru": "Учитель начальных классов",
     "ka": "დაწყებითი კლასების მასწავლებელი",
-    "ar": "مدرّس مرحلة ابتدائية"
+    "ar": "مدرّس مرحلة ابتدائية",
+    "es": "Maestro de primaria"
   },
   {
     "code": "kindergarten_teacher",
@@ -1761,7 +1956,8 @@
     "en": "Kindergarten teacher",
     "ru": "Воспитатель",
     "ka": "აღმზრდელი",
-    "ar": "مربية أطفال"
+    "ar": "مربية أطفال",
+    "es": "Educador infantil"
   },
   {
     "code": "senior_lecturer",
@@ -1770,7 +1966,8 @@
     "en": "Senior lecturer",
     "ru": "Старший преподаватель",
     "ka": "უფროსი ლექტორი",
-    "ar": "محاضر أول"
+    "ar": "محاضر أول",
+    "es": "Profesor adjunto"
   },
   {
     "code": "associate_professor",
@@ -1779,7 +1976,8 @@
     "en": "Associate professor",
     "ru": "Доцент",
     "ka": "ასოცირებული პროფესორი",
-    "ar": "أستاذ مشارك"
+    "ar": "أستاذ مشارك",
+    "es": "Profesor titular"
   },
   {
     "code": "professor",
@@ -1788,7 +1986,8 @@
     "en": "Professor",
     "ru": "Профессор",
     "ka": "პროფესორი",
-    "ar": "أستاذ جامعي"
+    "ar": "أستاذ جامعي",
+    "es": "Catedrático"
   },
   {
     "code": "school_principal",
@@ -1797,7 +1996,8 @@
     "en": "School principal",
     "ru": "Директор школы",
     "ka": "სკოლის დირექტორი",
-    "ar": "مدير مدرسة"
+    "ar": "مدير مدرسة",
+    "es": "Director de escuela"
   },
   {
     "code": "methodologist",
@@ -1806,7 +2006,8 @@
     "en": "Methodologist",
     "ru": "Методист",
     "ka": "მეთოდისტი",
-    "ar": "أخصائي مناهج"
+    "ar": "أخصائي مناهج",
+    "es": "Metodólogo"
   },
   {
     "code": "private_tutor",
@@ -1815,7 +2016,8 @@
     "en": "Private tutor",
     "ru": "Репетитор",
     "ka": "კერძო მასწავლებელი",
-    "ar": "مدرّس خصوصي"
+    "ar": "مدرّس خصوصي",
+    "es": "Profesor particular"
   },
   {
     "code": "librarian",
@@ -1824,7 +2026,8 @@
     "en": "Librarian",
     "ru": "Библиотекарь",
     "ka": "ბიბლიოთეკარი",
-    "ar": "أمين مكتبة"
+    "ar": "أمين مكتبة",
+    "es": "Bibliotecario"
   },
   {
     "code": "researcher",
@@ -1833,7 +2036,8 @@
     "en": "Researcher",
     "ru": "Научный сотрудник",
     "ka": "მეცნიერ-თანამშრომელი",
-    "ar": "باحث علمي"
+    "ar": "باحث علمي",
+    "es": "Investigador"
   },
   {
     "code": "sports_coach",
@@ -1842,7 +2046,8 @@
     "en": "Sports coach",
     "ru": "Тренер по спорту",
     "ka": "სპორტული მწვრთნელი",
-    "ar": "مدرب رياضي"
+    "ar": "مدرب رياضي",
+    "es": "Entrenador deportivo"
   },
   {
     "code": "fitness_instructor",
@@ -1851,7 +2056,8 @@
     "en": "Fitness instructor",
     "ru": "Фитнес-инструктор",
     "ka": "ფიტნესის ინსტრუქტორი",
-    "ar": "مدرب لياقة"
+    "ar": "مدرب لياقة",
+    "es": "Instructor de fitness"
   },
   {
     "code": "social_worker",
@@ -1860,7 +2066,8 @@
     "en": "Social worker",
     "ru": "Социальный работник",
     "ka": "სოციალური მუშაკი",
-    "ar": "أخصائي اجتماعي"
+    "ar": "أخصائي اجتماعي",
+    "es": "Trabajador social"
   },
   {
     "code": "statistician",
@@ -1869,7 +2076,8 @@
     "en": "Statistician",
     "ru": "Статистик",
     "ka": "სტატისტიკოსი",
-    "ar": "إحصائي"
+    "ar": "إحصائي",
+    "es": "Estadístico"
   },
   {
     "code": "sociologist",
@@ -1878,7 +2086,8 @@
     "en": "Sociologist",
     "ru": "Социолог",
     "ka": "სოციოლოგი",
-    "ar": "عالم اجتماع"
+    "ar": "عالم اجتماع",
+    "es": "Sociólogo"
   },
   {
     "code": "ecologist",
@@ -1887,7 +2096,8 @@
     "en": "Ecologist",
     "ru": "Эколог",
     "ka": "ეკოლოგი",
-    "ar": "خبير بيئي"
+    "ar": "خبير بيئي",
+    "es": "Ecólogo"
   },
   {
     "code": "chemist",
@@ -1896,7 +2106,8 @@
     "en": "Chemist",
     "ru": "Химик",
     "ka": "ქიმიკოსი",
-    "ar": "كيميائي"
+    "ar": "كيميائي",
+    "es": "Químico"
   },
   {
     "code": "cook",
@@ -1905,7 +2116,8 @@
     "en": "Cook",
     "ru": "Повар",
     "ka": "მზარეული",
-    "ar": "طبّاخ"
+    "ar": "طبّاخ",
+    "es": "Cocinero"
   },
   {
     "code": "head_chef",
@@ -1914,7 +2126,8 @@
     "en": "Head chef",
     "ru": "Шеф-повар",
     "ka": "შეფ-მზარეული",
-    "ar": "رئيس طهاة"
+    "ar": "رئيس طهاة",
+    "es": "Jefe de cocina"
   },
   {
     "code": "kitchen_assistant",
@@ -1923,7 +2136,8 @@
     "en": "Kitchen assistant",
     "ru": "Помощник повара",
     "ka": "მზარეულის დამხმარე",
-    "ar": "مساعد طبّاخ"
+    "ar": "مساعد طبّاخ",
+    "es": "Ayudante de cocina"
   },
   {
     "code": "waiter",
@@ -1932,7 +2146,8 @@
     "en": "Waiter",
     "ru": "Официант",
     "ka": "მიმტანი",
-    "ar": "نادل"
+    "ar": "نادل",
+    "es": "Camarero"
   },
   {
     "code": "barista",
@@ -1941,7 +2156,8 @@
     "en": "Barista",
     "ru": "Бариста",
     "ka": "ბარისტა",
-    "ar": "باريستا"
+    "ar": "باريستا",
+    "es": "Barista"
   },
   {
     "code": "bartender",
@@ -1950,7 +2166,8 @@
     "en": "Bartender",
     "ru": "Бармен",
     "ka": "ბარმენი",
-    "ar": "ساقي مشروبات"
+    "ar": "ساقي مشروبات",
+    "es": "Barman"
   },
   {
     "code": "confectioner",
@@ -1959,7 +2176,8 @@
     "en": "Confectioner",
     "ru": "Кондитер",
     "ka": "კონდიტერი",
-    "ar": "حلواني"
+    "ar": "حلواني",
+    "es": "Pastelero"
   },
   {
     "code": "baker",
@@ -1968,7 +2186,8 @@
     "en": "Baker",
     "ru": "Пекарь",
     "ka": "მცხობელი",
-    "ar": "خبّاز"
+    "ar": "خبّاز",
+    "es": "Panadero"
   },
   {
     "code": "butcher",
@@ -1977,7 +2196,8 @@
     "en": "Butcher",
     "ru": "Мясник",
     "ka": "ხორცის დამჭრელი",
-    "ar": "جزّار"
+    "ar": "جزّار",
+    "es": "Carnicero"
   },
   {
     "code": "restaurant_manager",
@@ -1986,7 +2206,8 @@
     "en": "Restaurant manager",
     "ru": "Управляющий рестораном",
     "ka": "რესტორნის მმართველი",
-    "ar": "مدير مطعم"
+    "ar": "مدير مطعم",
+    "es": "Encargado de restaurante"
   },
   {
     "code": "hotel_receptionist",
@@ -1995,7 +2216,8 @@
     "en": "Hotel receptionist",
     "ru": "Администратор отеля",
     "ka": "სასტუმროს ადმინისტრატორი",
-    "ar": "موظف استقبال فندق"
+    "ar": "موظف استقبال فندق",
+    "es": "Recepcionista de hotel"
   },
   {
     "code": "housekeeper",
@@ -2004,7 +2226,8 @@
     "en": "Housekeeper",
     "ru": "Горничная",
     "ka": "ნომრების დამლაგებელი",
-    "ar": "عامل نظافة الغرف"
+    "ar": "عامل نظافة الغرف",
+    "es": "Personal de pisos"
   },
   {
     "code": "tour_guide",
@@ -2013,7 +2236,8 @@
     "en": "Tour guide",
     "ru": "Гид",
     "ka": "გიდი",
-    "ar": "مرشد سياحي"
+    "ar": "مرشد سياحي",
+    "es": "Guía turístico"
   },
   {
     "code": "travel_agent",
@@ -2022,7 +2246,8 @@
     "en": "Travel agent",
     "ru": "Турагент",
     "ka": "ტურაგენტი",
-    "ar": "وكيل سفر"
+    "ar": "وكيل سفر",
+    "es": "Agente de viajes"
   },
   {
     "code": "cleaner",
@@ -2031,7 +2256,8 @@
     "en": "Cleaner",
     "ru": "Уборщик",
     "ka": "დამლაგებელი",
-    "ar": "عامل نظافة"
+    "ar": "عامل نظافة",
+    "es": "Personal de limpieza"
   },
   {
     "code": "barber",
@@ -2040,7 +2266,8 @@
     "en": "Barber",
     "ru": "Парикмахер (мужской)",
     "ka": "დალაქი",
-    "ar": "حلاق"
+    "ar": "حلاق",
+    "es": "Barbero"
   },
   {
     "code": "hairdresser",
@@ -2049,7 +2276,8 @@
     "en": "Hairdresser",
     "ru": "Парикмахер",
     "ka": "თმის სტილისტი",
-    "ar": "مصمم شعر"
+    "ar": "مصمم شعر",
+    "es": "Peluquero"
   },
   {
     "code": "beauty_specialist",
@@ -2058,7 +2286,8 @@
     "en": "Beauty specialist",
     "ru": "Мастер по красоте",
     "ka": "სილამაზის სპეციალისტი",
-    "ar": "أخصائية تجميل"
+    "ar": "أخصائية تجميل",
+    "es": "Esteticista"
   },
   {
     "code": "manicurist",
@@ -2067,7 +2296,8 @@
     "en": "Manicurist",
     "ru": "Мастер маникюра",
     "ka": "მანიკიურის მასტერი",
-    "ar": "أخصائية عناية بالأظافر"
+    "ar": "أخصائية عناية بالأظافر",
+    "es": "Manicurista"
   },
   {
     "code": "cosmetologist",
@@ -2076,7 +2306,8 @@
     "en": "Cosmetologist",
     "ru": "Косметолог",
     "ka": "კოსმეტოლოგი",
-    "ar": "طبيب تجميل"
+    "ar": "طبيب تجميل",
+    "es": "Cosmetólogo"
   },
   {
     "code": "tailor",
@@ -2085,7 +2316,8 @@
     "en": "Tailor",
     "ru": "Портной",
     "ka": "მკერავი",
-    "ar": "خيّاط"
+    "ar": "خيّاط",
+    "es": "Sastre"
   },
   {
     "code": "shoemaker",
@@ -2094,7 +2326,8 @@
     "en": "Shoemaker",
     "ru": "Сапожник",
     "ka": "მეწაღე",
-    "ar": "إسكافي"
+    "ar": "إسكافي",
+    "es": "Zapatero"
   },
   {
     "code": "gardener",
@@ -2103,7 +2336,8 @@
     "en": "Gardener",
     "ru": "Садовник",
     "ka": "მებაღე",
-    "ar": "بستاني"
+    "ar": "بستاني",
+    "es": "Jardinero"
   },
   {
     "code": "nanny",
@@ -2112,7 +2346,8 @@
     "en": "Nanny",
     "ru": "Няня",
     "ka": "ძიძა",
-    "ar": "جليسة أطفال"
+    "ar": "جليسة أطفال",
+    "es": "Niñera"
   },
   {
     "code": "agronomist",
@@ -2121,7 +2356,8 @@
     "en": "Agronomist",
     "ru": "Агроном",
     "ka": "აგრონომი",
-    "ar": "مهندس زراعي"
+    "ar": "مهندس زراعي",
+    "es": "Agrónomo"
   },
   {
     "code": "zootechnician",
@@ -2130,7 +2366,8 @@
     "en": "Zootechnician",
     "ru": "Зоотехник",
     "ka": "ზოოტექნიკოსი",
-    "ar": "فني إنتاج حيواني"
+    "ar": "فني إنتاج حيواني",
+    "es": "Zootécnico"
   },
   {
     "code": "tractor_driver",
@@ -2139,7 +2376,8 @@
     "en": "Tractor driver",
     "ru": "Тракторист",
     "ka": "ტრაქტორისტი",
-    "ar": "سائق تراكتور"
+    "ar": "سائق تراكتور",
+    "es": "Tractorista"
   },
   {
     "code": "farmer",
@@ -2148,7 +2386,8 @@
     "en": "Farmer",
     "ru": "Фермер",
     "ka": "ფერმერი",
-    "ar": "مزارع"
+    "ar": "مزارع",
+    "es": "Agricultor"
   },
   {
     "code": "beekeeper",
@@ -2157,7 +2396,8 @@
     "en": "Beekeeper",
     "ru": "Пчеловод",
     "ka": "მეფუტკრე",
-    "ar": "نحّال"
+    "ar": "نحّال",
+    "es": "Apicultor"
   },
   {
     "code": "musician",
@@ -2166,7 +2406,8 @@
     "en": "Musician",
     "ru": "Музыкант",
     "ka": "მუსიკოსი",
-    "ar": "موسيقي"
+    "ar": "موسيقي",
+    "es": "Músico"
   },
   {
     "code": "artist",
@@ -2175,7 +2416,8 @@
     "en": "Artist",
     "ru": "Художник",
     "ka": "მხატვარი",
-    "ar": "فنان تشكيلي"
+    "ar": "فنان تشكيلي",
+    "es": "Artista plástico"
   },
   {
     "code": "actor",
@@ -2184,6 +2426,7 @@
     "en": "Actor",
     "ru": "Актёр",
     "ka": "მსახიობი",
-    "ar": "ممثل"
+    "ar": "ممثل",
+    "es": "Actor"
   }
 ]

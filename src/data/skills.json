@@ -6,7 +6,8 @@
     "en": "Microsoft Excel",
     "ru": "Microsoft Excel",
     "ka": "Microsoft Excel",
-    "ar": "Microsoft Excel"
+    "ar": "Microsoft Excel",
+    "es": "Microsoft Excel"
   },
   {
     "code": "php",
@@ -15,7 +16,8 @@
     "en": "PHP language",
     "ru": "Язык PHP",
     "ka": "PHP ენა",
-    "ar": "لغة PHP"
+    "ar": "لغة PHP",
+    "es": "PHP"
   },
   {
     "code": "ms_word",
@@ -24,7 +26,8 @@
     "en": "Microsoft Word",
     "ru": "Microsoft Word",
     "ka": "Microsoft Word",
-    "ar": "Microsoft Word"
+    "ar": "Microsoft Word",
+    "es": "Microsoft Word"
   },
   {
     "code": "ms_power",
@@ -33,7 +36,8 @@
     "en": "Microsoft PowerPoint",
     "ru": "Microsoft PowerPoint",
     "ka": "Microsoft PowerPoint",
-    "ar": "Microsoft PowerPoint"
+    "ar": "Microsoft PowerPoint",
+    "es": "Microsoft PowerPoint"
   },
   {
     "code": "adaptation",
@@ -42,7 +46,8 @@
     "en": "Adaptability to new conditions",
     "ru": "Приспособляемость к новым условиям",
     "ka": "ახალ პირობებთან ადაპტაცია",
-    "ar": "التأقلم مع الظروف الجديدة"
+    "ar": "التأقلم مع الظروف الجديدة",
+    "es": "Adaptación a nuevas condiciones"
   },
   {
     "code": "problem_solving",
@@ -51,7 +56,8 @@
     "en": "Solving problems quickly",
     "ru": "Быстрое решение проблем",
     "ka": "პრობლემების სწრაფი გადაწყვეტა",
-    "ar": "حل المشكلات بسرعة"
+    "ar": "حل المشكلات بسرعة",
+    "es": "Resolución rápida de problemas"
   },
   {
     "code": "team_work",
@@ -60,7 +66,8 @@
     "en": "Individual and team work",
     "ru": "Индивидуальная и командная работа",
     "ka": "ინდივიდუალური და გუნდური მუშაობა",
-    "ar": "العمل الفردي والجماعي"
+    "ar": "العمل الفردي والجماعي",
+    "es": "Trabajo individual y en equipo"
   },
   {
     "code": "punct_present",
@@ -69,7 +76,8 @@
     "en": "Punctuality and presentation skills",
     "ru": "Пунктуальность и презентационные навыки",
     "ka": "პუნქტუალურობა და პრეზენტაციის უნარი",
-    "ar": "الالتزام بالمواعيد ومهارات العرض"
+    "ar": "الالتزام بالمواعيد ومهارات العرض",
+    "es": "Puntualidad y buena presencia"
   },
   {
     "code": "pressure_work",
@@ -78,7 +86,8 @@
     "en": "Working under pressure",
     "ru": "Работа под давлением",
     "ka": "მუშაობა დაძაბულ პირობებში",
-    "ar": "العمل تحت الضغط"
+    "ar": "العمل تحت الضغط",
+    "es": "Trabajo bajo presión"
   },
   {
     "code": "1c",
@@ -87,7 +96,8 @@
     "en": "1C Accounting",
     "ru": "1С Бухгалтерия",
     "ka": "1C ბუღალტერია",
-    "ar": "برنامج 1C للمحاسبة"
+    "ar": "برنامج 1C للمحاسبة",
+    "es": "1C Contabilidad"
   },
   {
     "code": "autocad",
@@ -96,7 +106,8 @@
     "en": "AutoCAD",
     "ru": "Автокад",
     "ka": "AutoCAD",
-    "ar": "AutoCAD"
+    "ar": "AutoCAD",
+    "es": "AutoCAD"
   },
   {
     "code": "photoshop",
@@ -105,7 +116,8 @@
     "en": "Adobe Photoshop",
     "ru": "Adobe Photoshop",
     "ka": "Adobe Photoshop",
-    "ar": "Adobe Photoshop"
+    "ar": "Adobe Photoshop",
+    "es": "Adobe Photoshop"
   },
   {
     "code": "javascript",
@@ -114,7 +126,8 @@
     "en": "JavaScript",
     "ru": "JavaScript",
     "ka": "JavaScript",
-    "ar": "JavaScript"
+    "ar": "JavaScript",
+    "es": "JavaScript"
   },
   {
     "code": "painting",
@@ -123,7 +136,8 @@
     "en": "Draw pictures",
     "ru": "Рисовать картинки",
     "ka": "ხატვა",
-    "ar": "الرسم"
+    "ar": "الرسم",
+    "es": "Dibujo"
   },
   {
     "code": "selling",
@@ -132,7 +146,8 @@
     "en": "Selling",
     "ru": "Продажа",
     "ka": "გაყიდვები",
-    "ar": "البيع"
+    "ar": "البيع",
+    "es": "Ventas"
   },
   {
     "code": "management",
@@ -141,7 +156,8 @@
     "en": "Management",
     "ru": "Управление",
     "ka": "მენეჯმენტი",
-    "ar": "الإدارة"
+    "ar": "الإدارة",
+    "es": "Gestión"
   },
   {
     "code": "illustrator",
@@ -150,7 +166,8 @@
     "en": "Adobe Illustrator",
     "ru": "Adobe Illustrator",
     "ka": "Adobe Illustrator",
-    "ar": "Adobe Illustrator"
+    "ar": "Adobe Illustrator",
+    "es": "Adobe Illustrator"
   },
   {
     "code": "organizing",
@@ -159,7 +176,8 @@
     "en": "Organizing skill",
     "ru": "Организационные навыки",
     "ka": "ორგანიზების უნარი",
-    "ar": "مهارة التنظيم"
+    "ar": "مهارة التنظيم",
+    "es": "Capacidad de organización"
   },
   {
     "code": "time_management",
@@ -168,7 +186,8 @@
     "en": "Time management",
     "ru": "Управление временем",
     "ka": "დროის მართვა",
-    "ar": "إدارة الوقت"
+    "ar": "إدارة الوقت",
+    "es": "Gestión del tiempo"
   },
   {
     "code": "conflict_solving",
@@ -177,7 +196,8 @@
     "en": "Conflict resolution",
     "ru": "Разрешение конфликтов",
     "ka": "კონფლიქტების მოგვარება",
-    "ar": "حل النزاعات"
+    "ar": "حل النزاعات",
+    "es": "Resolución de conflictos"
   },
   {
     "code": "critical_thinking",
@@ -186,7 +206,8 @@
     "en": "Critical thinking",
     "ru": "Критическое мышление",
     "ka": "კრიტიკული აზროვნება",
-    "ar": "التفكير النقدي"
+    "ar": "التفكير النقدي",
+    "es": "Pensamiento crítico"
   },
   {
     "code": "project_planning",
@@ -195,7 +216,8 @@
     "en": "Project planning",
     "ru": "Планирование проектов",
     "ka": "პროექტის დაგეგმვა",
-    "ar": "تخطيط المشاريع"
+    "ar": "تخطيط المشاريع",
+    "es": "Planificación de proyectos"
   },
   {
     "code": "gantt",
@@ -204,7 +226,8 @@
     "en": "Gantt charts",
     "ru": "Диаграммы Ганта",
     "ka": "განტის დიაგრამები",
-    "ar": "مخططات جانت"
+    "ar": "مخططات جانت",
+    "es": "Diagramas de Gantt"
   },
   {
     "code": "risk_manage",
@@ -213,7 +236,8 @@
     "en": "Risk management",
     "ru": "Управление рисками",
     "ka": "რისკების მართვა",
-    "ar": "إدارة المخاطر"
+    "ar": "إدارة المخاطر",
+    "es": "Gestión de riesgos"
   },
   {
     "code": "project_management",
@@ -222,7 +246,8 @@
     "en": "Project management",
     "ru": "Управление проектом",
     "ka": "პროექტების მართვა",
-    "ar": "إدارة المشاريع"
+    "ar": "إدارة المشاريع",
+    "es": "Gestión de proyectos"
   },
   {
     "code": "analytical_thinking",
@@ -231,7 +256,8 @@
     "en": "Analytical thinking",
     "ru": "Аналитическое мышление",
     "ka": "ანალიტიკური აზროვნება",
-    "ar": "التفكير التحليلي"
+    "ar": "التفكير التحليلي",
+    "es": "Pensamiento analítico"
   },
   {
     "code": "cooking_skill",
@@ -240,7 +266,8 @@
     "en": "Cooking",
     "ru": "Кулинария",
     "ka": "კულინარია",
-    "ar": "الطبخ"
+    "ar": "الطبخ",
+    "es": "Cocina"
   },
   {
     "code": "phone_sales",
@@ -249,7 +276,8 @@
     "en": "Telephone sales skills",
     "ru": "Навык телефонной продажи",
     "ka": "სატელეფონო გაყიდვები",
-    "ar": "مهارات البيع عبر الهاتف"
+    "ar": "مهارات البيع عبر الهاتف",
+    "es": "Venta telefónica"
   },
   {
     "code": "convince",
@@ -258,7 +286,8 @@
     "en": "Ability to convince",
     "ru": "Способность убеждать",
     "ka": "დარწმუნების უნარი",
-    "ar": "القدرة على الإقناع"
+    "ar": "القدرة على الإقناع",
+    "es": "Capacidad de persuasión"
   },
   {
     "code": "teaching",
@@ -267,7 +296,8 @@
     "en": "Teaching skill",
     "ru": "Навык преподавания",
     "ka": "სწავლების უნარი",
-    "ar": "مهارة التدريس"
+    "ar": "مهارة التدريس",
+    "es": "Capacidad docente"
   },
   {
     "code": "tax_codex",
@@ -276,7 +306,8 @@
     "en": "Knowledge of the tax code",
     "ru": "Знание налогового кодекса",
     "ka": "საგადასახადო კოდექსის ცოდნა",
-    "ar": "الإلمام بالقانون الضريبي"
+    "ar": "الإلمام بالقانون الضريبي",
+    "es": "Conocimiento del código tributario"
   },
   {
     "code": "cash_book",
@@ -285,7 +316,8 @@
     "en": "Keeping a cash book",
     "ru": "Ведения кассовой книги",
     "ka": "სალაროს წიგნის წარმოება",
-    "ar": "مسك دفتر الصندوق"
+    "ar": "مسك دفتر الصندوق",
+    "es": "Llevanza del libro de caja"
   },
   {
     "code": "warehouse_book",
@@ -294,7 +326,8 @@
     "en": "Warehouse accounting",
     "ru": "Ведения складского учета",
     "ka": "საწყობის აღრიცხვა",
-    "ar": "محاسبة المخازن"
+    "ar": "محاسبة المخازن",
+    "es": "Contabilidad de almacén"
   },
   {
     "code": "inventories",
@@ -303,7 +336,8 @@
     "en": "Conducting inventories",
     "ru": "Проведения инвентаризаций",
     "ka": "ინვენტარიზაციის ჩატარება",
-    "ar": "إجراء الجرد"
+    "ar": "إجراء الجرد",
+    "es": "Realización de inventarios"
   },
   {
     "code": "reconciliation_acts",
@@ -312,7 +346,8 @@
     "en": "Composing reconciliation acts",
     "ru": "Составления актов сверок",
     "ka": "შედარების აქტების შედგენა",
-    "ar": "إعداد محاضر التسوية"
+    "ar": "إعداد محاضر التسوية",
+    "es": "Elaboración de actas de conciliación"
   },
   {
     "code": "computer_knowledge",
@@ -321,7 +356,8 @@
     "en": "Computer skills",
     "ru": "Компьютерные навыки",
     "ka": "კომპიუტერული ცოდნა",
-    "ar": "مهارات الحاسوب"
+    "ar": "مهارات الحاسوب",
+    "es": "Conocimientos informáticos"
   },
   {
     "code": "css",
@@ -330,7 +366,8 @@
     "en": "CSS",
     "ru": "CSS",
     "ka": "CSS",
-    "ar": "CSS"
+    "ar": "CSS",
+    "es": "CSS"
   },
   {
     "code": "python",
@@ -339,7 +376,8 @@
     "en": "Python programming language",
     "ru": "Язык программирования Python",
     "ka": "Python პროგრამირების ენა",
-    "ar": "لغة البرمجة Python"
+    "ar": "لغة البرمجة Python",
+    "es": "Python"
   },
   {
     "code": "agility",
@@ -348,7 +386,8 @@
     "en": "Agility",
     "ru": "Гибкость",
     "ka": "მოქნილობა",
-    "ar": "الرشاقة"
+    "ar": "الرشاقة",
+    "es": "Agilidad"
   },
   {
     "code": "cplusplus",
@@ -357,7 +396,8 @@
     "en": "C++",
     "ru": "C++",
     "ka": "C++",
-    "ar": "C++"
+    "ar": "C++",
+    "es": "C++"
   },
   {
     "code": "research",
@@ -366,7 +406,8 @@
     "en": "Research",
     "ru": "Исследование",
     "ka": "კვლევა",
-    "ar": "البحث"
+    "ar": "البحث",
+    "es": "Investigación"
   },
   {
     "code": "sales",
@@ -375,7 +416,8 @@
     "en": "Sales skills",
     "ru": "Навыки продаж",
     "ka": "გაყიდვების უნარი",
-    "ar": "مهارات المبيعات"
+    "ar": "مهارات المبيعات",
+    "es": "Habilidades comerciales"
   },
   {
     "code": "playing_piano",
@@ -384,7 +426,8 @@
     "en": "Playing the piano",
     "ru": "Игра на пианино",
     "ka": "ფორტეპიანოზე დაკვრა",
-    "ar": "العزف على البيانو"
+    "ar": "العزف على البيانو",
+    "es": "Tocar el piano"
   },
   {
     "code": "negotiation",
@@ -393,7 +436,8 @@
     "en": "Negotiation skills",
     "ru": "Ведение переговоров",
     "ka": "მოლაპარაკების უნარი",
-    "ar": "مهارات التفاوض"
+    "ar": "مهارات التفاوض",
+    "es": "Habilidades de negociación"
   },
   {
     "code": "stress_resilience",
@@ -402,7 +446,8 @@
     "en": "Stress resilience",
     "ru": "Стрессоустойчивость",
     "ka": "სტრესისადმი მდგრადობა",
-    "ar": "تحمّل الضغوط"
+    "ar": "تحمّل الضغوط",
+    "es": "Resistencia al estrés"
   },
   {
     "code": "oracle_sql",
@@ -411,7 +456,8 @@
     "en": "Oracle SQL",
     "ru": "Oracle SQL",
     "ka": "Oracle SQL",
-    "ar": "Oracle SQL"
+    "ar": "Oracle SQL",
+    "es": "Oracle SQL"
   },
   {
     "code": "smm",
@@ -420,7 +466,8 @@
     "en": "SMM (Social Media Marketing)",
     "ru": "SMM (Маркетинг в социальных сетях)",
     "ka": "SMM (სოციალური მედია მარკეტინგი)",
-    "ar": "التسويق عبر وسائل التواصل الاجتماعي (SMM)"
+    "ar": "التسويق عبر وسائل التواصل الاجتماعي (SMM)",
+    "es": "SMM (marketing en redes sociales)"
   },
   {
     "code": "social_relations",
@@ -429,7 +476,8 @@
     "en": "Social relations",
     "ru": "Социальные отношения",
     "ka": "სოციალური ურთიერთობები",
-    "ar": "العلاقات الاجتماعية"
+    "ar": "العلاقات الاجتماعية",
+    "es": "Relaciones sociales"
   },
   {
     "code": "reactjs",
@@ -438,7 +486,8 @@
     "en": "ReactJS",
     "ru": "ReactJS",
     "ka": "ReactJS",
-    "ar": "ReactJS"
+    "ar": "ReactJS",
+    "es": "ReactJS"
   },
   {
     "code": "next_js",
@@ -447,7 +496,8 @@
     "en": "Next.js",
     "ru": "Next.js",
     "ka": "Next.js",
-    "ar": "Next.js"
+    "ar": "Next.js",
+    "es": "Next.js"
   },
   {
     "code": "microfrontend",
@@ -456,7 +506,8 @@
     "en": "Microfrontend",
     "ru": "Микрофронтенд",
     "ka": "მიკროფრონტენდი",
-    "ar": "الواجهات الأمامية المصغّرة"
+    "ar": "الواجهات الأمامية المصغّرة",
+    "es": "Microfrontend"
   },
   {
     "code": "language_learning",
@@ -465,7 +516,8 @@
     "en": "Language learning skills",
     "ru": "Навыки изучения языка",
     "ka": "ენების შესწავლის უნარი",
-    "ar": "مهارات تعلّم اللغات"
+    "ar": "مهارات تعلّم اللغات",
+    "es": "Capacidad para aprender idiomas"
   },
   {
     "code": "marketing",
@@ -474,7 +526,8 @@
     "en": "Marketing",
     "ru": "Маркетинг",
     "ka": "მარკეტინგი",
-    "ar": "التسويق"
+    "ar": "التسويق",
+    "es": "Marketing"
   },
   {
     "code": "first_aid",
@@ -483,7 +536,8 @@
     "en": "First aid",
     "ru": "Первая помощь",
     "ka": "პირველადი დახმარება",
-    "ar": "الإسعافات الأولية"
+    "ar": "الإسعافات الأولية",
+    "es": "Primeros auxilios"
   },
   {
     "code": "presentation",
@@ -492,7 +546,8 @@
     "en": "Presentation skills",
     "ru": "Навыки презентации",
     "ka": "პრეზენტაციის უნარი",
-    "ar": "مهارات العرض والتقديم"
+    "ar": "مهارات العرض والتقديم",
+    "es": "Habilidades de presentación"
   },
   {
     "code": "writing_articles",
@@ -501,7 +556,8 @@
     "en": "Writing articles",
     "ru": "Написание статей",
     "ka": "სტატიების წერა",
-    "ar": "كتابة المقالات"
+    "ar": "كتابة المقالات",
+    "es": "Redacción de artículos"
   },
   {
     "code": "strategic_planning",
@@ -510,7 +566,8 @@
     "en": "Strategic planning",
     "ru": "Стратегическое планирование",
     "ka": "სტრატეგიული დაგეგმვა",
-    "ar": "التخطيط الاستراتيجي"
+    "ar": "التخطيط الاستراتيجي",
+    "es": "Planificación estratégica"
   },
   {
     "code": "creative_thinking",
@@ -519,7 +576,8 @@
     "en": "Creative thinking",
     "ru": "Креативное мышление",
     "ka": "კრეატიული აზროვნება",
-    "ar": "التفكير الإبداعي"
+    "ar": "التفكير الإبداعي",
+    "es": "Pensamiento creativo"
   },
   {
     "code": "baking_sweets",
@@ -528,7 +586,8 @@
     "en": "Baking sweets",
     "ru": "Выпекать сладости",
     "ka": "ნამცხვრების ცხობა",
-    "ar": "إعداد الحلويات"
+    "ar": "إعداد الحلويات",
+    "es": "Repostería"
   },
   {
     "code": "weaving",
@@ -537,7 +596,8 @@
     "en": "Weaving",
     "ru": "Ткачество",
     "ka": "ქსოვა",
-    "ar": "النسيج"
+    "ar": "النسيج",
+    "es": "Tejido"
   },
   {
     "code": "copywriting",
@@ -546,7 +606,8 @@
     "en": "Copywriting",
     "ru": "Копирайтинг",
     "ka": "კოპირაითინგი",
-    "ar": "كتابة المحتوى الإعلاني"
+    "ar": "كتابة المحتوى الإعلاني",
+    "es": "Redacción publicitaria"
   },
   {
     "code": "java",
@@ -555,7 +616,8 @@
     "en": "Java programming language",
     "ru": "Язык программирования Java",
     "ka": "Java პროგრამირების ენა",
-    "ar": "لغة البرمجة Java"
+    "ar": "لغة البرمجة Java",
+    "es": "Java"
   },
   {
     "code": "injecting",
@@ -564,7 +626,8 @@
     "en": "To inject",
     "ru": "Сделать укол",
     "ka": "ინექციის გაკეთება",
-    "ar": "إعطاء الحقن"
+    "ar": "إعطاء الحقن",
+    "es": "Aplicación de inyecciones"
   },
   {
     "code": "patientCare",
@@ -573,7 +636,8 @@
     "en": "Patient care",
     "ru": "Уход за пациентами",
     "ka": "პაციენტის მოვლა",
-    "ar": "رعاية المرضى"
+    "ar": "رعاية المرضى",
+    "es": "Cuidado de pacientes"
   },
   {
     "code": "woundDressing",
@@ -582,7 +646,8 @@
     "en": "Wound dressing",
     "ru": "Перевязка раны",
     "ka": "ჭრილობის შეხვევა",
-    "ar": "تضميد الجروح"
+    "ar": "تضميد الجروح",
+    "es": "Curación de heridas"
   },
   {
     "code": "vitalSignsMonitoring",
@@ -591,7 +656,8 @@
     "en": "Vital signs monitoring",
     "ru": "Мониторинг жизненных показателей",
     "ka": "სასიცოცხლო ჩვენებების მონიტორინგი",
-    "ar": "مراقبة العلامات الحيوية"
+    "ar": "مراقبة العلامات الحيوية",
+    "es": "Control de signos vitales"
   },
   {
     "code": "medicationAdministration",
@@ -600,7 +666,8 @@
     "en": "Medication administration",
     "ru": "Применение медикаментов",
     "ka": "მედიკამენტების მიწოდება",
-    "ar": "إعطاء الأدوية"
+    "ar": "إعطاء الأدوية",
+    "es": "Administración de medicamentos"
   },
   {
     "code": "emergencyCare",
@@ -609,7 +676,8 @@
     "en": "Emergency care",
     "ru": "Неотложная помощь",
     "ka": "გადაუდებელი დახმარება",
-    "ar": "الرعاية الطارئة"
+    "ar": "الرعاية الطارئة",
+    "es": "Atención de urgencias"
   },
   {
     "code": "infectionControl",
@@ -618,7 +686,8 @@
     "en": "Infection control",
     "ru": "Контроль инфекций",
     "ka": "ინფექციის კონტროლი",
-    "ar": "مكافحة العدوى"
+    "ar": "مكافحة العدوى",
+    "es": "Control de infecciones"
   },
   {
     "code": "surveillance",
@@ -627,7 +696,8 @@
     "en": "Surveillance",
     "ru": "Наблюдение",
     "ka": "მეთვალყურეობა",
-    "ar": "المراقبة"
+    "ar": "المراقبة",
+    "es": "Vigilancia"
   },
   {
     "code": "accessControl",
@@ -636,7 +706,8 @@
     "en": "Access control",
     "ru": "Контроль доступа",
     "ka": "დაშვების კონტროლი",
-    "ar": "ضبط الدخول"
+    "ar": "ضبط الدخول",
+    "es": "Control de accesos"
   },
   {
     "code": "patrolling",
@@ -645,7 +716,8 @@
     "en": "Patrolling",
     "ru": "Патрулирование",
     "ka": "პატრულირება",
-    "ar": "الدوريات"
+    "ar": "الدوريات",
+    "es": "Patrullaje"
   },
   {
     "code": "reportingIncidents",
@@ -654,7 +726,8 @@
     "en": "Reporting incidents",
     "ru": "Сообщение о происшествиях",
     "ka": "ინციდენტების შესახებ ანგარიშგება",
-    "ar": "الإبلاغ عن الحوادث"
+    "ar": "الإبلاغ عن الحوادث",
+    "es": "Elaboración de partes de incidencias"
   },
   {
     "code": "financialReporting",
@@ -663,7 +736,8 @@
     "en": "Financial reporting",
     "ru": "Финансовая отчетность",
     "ka": "ფინანსური ანგარიშგება",
-    "ar": "إعداد التقارير المالية"
+    "ar": "إعداد التقارير المالية",
+    "es": "Informes financieros"
   },
   {
     "code": "taxPreparation",
@@ -672,7 +746,8 @@
     "en": "Tax preparation",
     "ru": "Подготовка налогов",
     "ka": "საგადასახადო დეკლარაციების მომზადება",
-    "ar": "إعداد الإقرارات الضريبية"
+    "ar": "إعداد الإقرارات الضريبية",
+    "es": "Preparación de impuestos"
   },
   {
     "code": "budgeting",
@@ -681,7 +756,8 @@
     "en": "Budgeting",
     "ru": "Бюджетирование",
     "ka": "ბიუჯეტირება",
-    "ar": "إعداد الموازنات"
+    "ar": "إعداد الموازنات",
+    "es": "Elaboración de presupuestos"
   },
   {
     "code": "accountReconciliation",
@@ -690,7 +766,8 @@
     "en": "Account reconciliation",
     "ru": "Сверка счетов",
     "ka": "ანგარიშების შედარება",
-    "ar": "تسوية الحسابات"
+    "ar": "تسوية الحسابات",
+    "es": "Conciliación de cuentas"
   },
   {
     "code": "payrollProcessing",
@@ -699,7 +776,8 @@
     "en": "Payroll processing",
     "ru": "Обработка заработной платы",
     "ka": "ხელფასების დარიცხვა",
-    "ar": "إعداد كشوف الرواتب"
+    "ar": "إعداد كشوف الرواتب",
+    "es": "Gestión de nóminas"
   },
   {
     "code": "financialAnalysis",
@@ -708,7 +786,8 @@
     "en": "Financial analysis",
     "ru": "Финансовый анализ",
     "ka": "ფინანსური ანალიზი",
-    "ar": "التحليل المالي"
+    "ar": "التحليل المالي",
+    "es": "Análisis financiero"
   },
   {
     "code": "auditing",
@@ -717,7 +796,8 @@
     "en": "Auditing",
     "ru": "Аудит",
     "ka": "აუდიტი",
-    "ar": "التدقيق"
+    "ar": "التدقيق",
+    "es": "Auditoría"
   },
   {
     "code": "compliance",
@@ -726,7 +806,8 @@
     "en": "Compliance",
     "ru": "Соответствие",
     "ka": "შესაბამისობა (კომპლაენსი)",
-    "ar": "الامتثال"
+    "ar": "الامتثال",
+    "es": "Cumplimiento normativo"
   },
   {
     "code": "interviewing",
@@ -735,7 +816,8 @@
     "en": "Interviewing",
     "ru": "Интервьюирование",
     "ka": "ინტერვიუირება",
-    "ar": "إجراء المقابلات"
+    "ar": "إجراء المقابلات",
+    "es": "Realización de entrevistas"
   },
   {
     "code": "editing",
@@ -744,7 +826,8 @@
     "en": "Editing",
     "ru": "Редактирование",
     "ka": "რედაქტირება",
-    "ar": "التحرير"
+    "ar": "التحرير",
+    "es": "Edición de textos"
   },
   {
     "code": "pressReleaseWriting",
@@ -753,7 +836,8 @@
     "en": "Press release writing",
     "ru": "Написание пресс-релизов",
     "ka": "პრესრელიზების წერა",
-    "ar": "كتابة البيانات الصحفية"
+    "ar": "كتابة البيانات الصحفية",
+    "es": "Redacción de notas de prensa"
   },
   {
     "code": "newsEditing",
@@ -762,7 +846,8 @@
     "en": "News editing",
     "ru": "Редактирование новостей",
     "ka": "სიახლეების რედაქტირება",
-    "ar": "تحرير الأخبار"
+    "ar": "تحرير الأخبار",
+    "es": "Edición de noticias"
   },
   {
     "code": "customerService",
@@ -771,7 +856,8 @@
     "en": "Customer service",
     "ru": "Обслуживание клиентов",
     "ka": "მომხმარებელთა მომსახურება",
-    "ar": "خدمة العملاء"
+    "ar": "خدمة العملاء",
+    "es": "Atención al cliente"
   },
   {
     "code": "phoneHandling",
@@ -780,7 +866,8 @@
     "en": "Phone handling",
     "ru": "Обработка звонков",
     "ka": "სატელეფონო ზარების მართვა",
-    "ar": "التعامل مع المكالمات الهاتفية"
+    "ar": "التعامل مع المكالمات الهاتفية",
+    "es": "Atención telefónica"
   },
   {
     "code": "appointmentScheduling",
@@ -789,7 +876,8 @@
     "en": "Appointment scheduling",
     "ru": "Запись на прием",
     "ka": "შეხვედრების დაგეგმვა",
-    "ar": "جدولة المواعيد"
+    "ar": "جدولة المواعيد",
+    "es": "Gestión de citas"
   },
   {
     "code": "greetingGuests",
@@ -798,7 +886,8 @@
     "en": "Greeting guests",
     "ru": "Приветствие гостей",
     "ka": "სტუმრების მიღება",
-    "ar": "استقبال الضيوف"
+    "ar": "استقبال الضيوف",
+    "es": "Recepción de visitantes"
   },
   {
     "code": "administrativeSupport",
@@ -807,7 +896,8 @@
     "en": "Administrative support",
     "ru": "Административная поддержка",
     "ka": "ადმინისტრაციული მხარდაჭერა",
-    "ar": "الدعم الإداري"
+    "ar": "الدعم الإداري",
+    "es": "Apoyo administrativo"
   },
   {
     "code": "dataEntry",
@@ -816,7 +906,8 @@
     "en": "Data entry",
     "ru": "Ввод данных",
     "ka": "მონაცემების შეტანა",
-    "ar": "إدخال البيانات"
+    "ar": "إدخال البيانات",
+    "es": "Introducción de datos"
   },
   {
     "code": "frontDeskManagement",
@@ -825,7 +916,8 @@
     "en": "Front desk management",
     "ru": "Управление стойкой регистрации",
     "ka": "მიმღების მართვა",
-    "ar": "إدارة مكتب الاستقبال"
+    "ar": "إدارة مكتب الاستقبال",
+    "es": "Gestión de recepción"
   },
   {
     "code": "skinCare",
@@ -834,7 +926,8 @@
     "en": "Skin care",
     "ru": "Уход за кожей",
     "ka": "კანის მოვლა",
-    "ar": "العناية بالبشرة"
+    "ar": "العناية بالبشرة",
+    "es": "Cuidado de la piel"
   },
   {
     "code": "facialTreatments",
@@ -843,7 +936,8 @@
     "en": "Facial treatments",
     "ru": "Уход за лицом",
     "ka": "სახის პროცედურები",
-    "ar": "علاجات الوجه"
+    "ar": "علاجات الوجه",
+    "es": "Tratamientos faciales"
   },
   {
     "code": "hairRemoval",
@@ -852,7 +946,8 @@
     "en": "Hair removal",
     "ru": "Удаление волос",
     "ka": "თმის მოცილება",
-    "ar": "إزالة الشعر"
+    "ar": "إزالة الشعر",
+    "es": "Depilación"
   },
   {
     "code": "makeupApplication",
@@ -861,7 +956,8 @@
     "en": "Makeup application",
     "ru": "Применение макияжа",
     "ka": "მაკიაჟის გაკეთება",
-    "ar": "تطبيق المكياج"
+    "ar": "تطبيق المكياج",
+    "es": "Maquillaje"
   },
   {
     "code": "manicurePedicure",
@@ -870,7 +966,8 @@
     "en": "Manicure and pedicure",
     "ru": "Маникюр и педикюр",
     "ka": "მანიკური და პედიკური",
-    "ar": "المانيكير والبديكير"
+    "ar": "المانيكير والبديكير",
+    "es": "Manicura y pedicura"
   },
   {
     "code": "nailArt",
@@ -879,7 +976,8 @@
     "en": "Nail art",
     "ru": "Нейл-арт",
     "ka": "ნეილ-არტი",
-    "ar": "فن الأظافر"
+    "ar": "فن الأظافر",
+    "es": "Decoración de uñas"
   },
   {
     "code": "massageTherapy",
@@ -888,7 +986,8 @@
     "en": "Massage therapy",
     "ru": "Массажная терапия",
     "ka": "მასაჟი",
-    "ar": "العلاج بالتدليك"
+    "ar": "العلاج بالتدليك",
+    "es": "Masaje terapéutico"
   },
   {
     "code": "antiAgingTreatments",
@@ -897,7 +996,8 @@
     "en": "Anti-aging treatments",
     "ru": "Антивозрастные процедуры",
     "ka": "ანტიასაკობრივი პროცედურები",
-    "ar": "علاجات مكافحة الشيخوخة"
+    "ar": "علاجات مكافحة الشيخوخة",
+    "es": "Tratamientos antiedad"
   },
   {
     "code": "cashHandling",
@@ -906,7 +1006,8 @@
     "en": "Cash handling",
     "ru": "Обработка наличных",
     "ka": "ნაღდ ფულთან მუშაობა",
-    "ar": "التعامل مع النقد"
+    "ar": "التعامل مع النقد",
+    "es": "Manejo de efectivo"
   },
   {
     "code": "registerOperation",
@@ -915,7 +1016,8 @@
     "en": "Register operation",
     "ru": "Операции с кассой",
     "ka": "სალარო აპარატის მართვა",
-    "ar": "تشغيل آلة تسجيل النقد"
+    "ar": "تشغيل آلة تسجيل النقد",
+    "es": "Manejo de caja registradora"
   },
   {
     "code": "receiptIssuing",
@@ -924,7 +1026,8 @@
     "en": "Receipt issuing",
     "ru": "Выдача чека",
     "ka": "ქვითრების გამოცემა",
-    "ar": "إصدار الإيصالات"
+    "ar": "إصدار الإيصالات",
+    "es": "Emisión de recibos"
   },
   {
     "code": "paymentVerification",
@@ -933,7 +1036,8 @@
     "en": "Payment verification",
     "ru": "Проверка платежей",
     "ka": "გადახდების შემოწმება",
-    "ar": "التحقق من المدفوعات"
+    "ar": "التحقق من المدفوعات",
+    "es": "Verificación de pagos"
   },
   {
     "code": "inventoryManagement",
@@ -942,7 +1046,8 @@
     "en": "Inventory management",
     "ru": "Управление инвентарем",
     "ka": "მარაგების მართვა",
-    "ar": "إدارة المخزون"
+    "ar": "إدارة المخزون",
+    "es": "Gestión de inventario"
   },
   {
     "code": "balanceReconciliation",
@@ -951,7 +1056,8 @@
     "en": "Balance reconciliation",
     "ru": "Сверка баланса",
     "ka": "ბალანსის შედარება",
-    "ar": "تسوية الأرصدة"
+    "ar": "تسوية الأرصدة",
+    "es": "Conciliación de saldos"
   },
   {
     "code": "stockReceiving",
@@ -960,7 +1066,8 @@
     "en": "Stock receiving",
     "ru": "Прием товара",
     "ka": "საქონლის მიღება",
-    "ar": "استلام البضائع"
+    "ar": "استلام البضائع",
+    "es": "Recepción de mercancía"
   },
   {
     "code": "orderFulfillment",
@@ -969,7 +1076,8 @@
     "en": "Order fulfillment",
     "ru": "Выполнение заказов",
     "ka": "შეკვეთების შესრულება",
-    "ar": "تجهيز الطلبات"
+    "ar": "تجهيز الطلبات",
+    "es": "Preparación de pedidos"
   },
   {
     "code": "shippingPreparation",
@@ -978,7 +1086,8 @@
     "en": "Shipping preparation",
     "ru": "Подготовка к отправке",
     "ka": "გასაგზავნად მომზადება",
-    "ar": "تحضير الشحنات"
+    "ar": "تحضير الشحنات",
+    "es": "Preparación de envíos"
   },
   {
     "code": "qualityControl",
@@ -987,7 +1096,8 @@
     "en": "Quality control",
     "ru": "Контроль качества",
     "ka": "ხარისხის კონტროლი",
-    "ar": "مراقبة الجودة"
+    "ar": "مراقبة الجودة",
+    "es": "Control de calidad"
   },
   {
     "code": "warehouseSafety",
@@ -996,7 +1106,8 @@
     "en": "Warehouse safety",
     "ru": "Безопасность на складе",
     "ka": "საწყობის უსაფრთხოება",
-    "ar": "السلامة في المستودعات"
+    "ar": "السلامة في المستودعات",
+    "es": "Seguridad en el almacén"
   },
   {
     "code": "wiringInstallation",
@@ -1005,7 +1116,8 @@
     "en": "Wiring installation",
     "ru": "Установка проводки",
     "ka": "გაყვანილობის მონტაჟი",
-    "ar": "تمديد الأسلاك الكهربائية"
+    "ar": "تمديد الأسلاك الكهربائية",
+    "es": "Instalación de cableado"
   },
   {
     "code": "circuitRepair",
@@ -1014,7 +1126,8 @@
     "en": "Circuit repair",
     "ru": "Ремонт цепей",
     "ka": "ელექტრული წრედების შეკეთება",
-    "ar": "إصلاح الدوائر الكهربائية"
+    "ar": "إصلاح الدوائر الكهربائية",
+    "es": "Reparación de circuitos"
   },
   {
     "code": "electricalTesting",
@@ -1023,7 +1136,8 @@
     "en": "Electrical testing",
     "ru": "Электрические испытания",
     "ka": "ელექტრული ტესტირება",
-    "ar": "الاختبارات الكهربائية"
+    "ar": "الاختبارات الكهربائية",
+    "es": "Mediciones eléctricas"
   },
   {
     "code": "troubleshooting",
@@ -1032,7 +1146,8 @@
     "en": "Troubleshooting",
     "ru": "Устранение неполадок",
     "ka": "ხარვეზების აღმოჩენა და აღმოფხვრა",
-    "ar": "تشخيص الأعطال"
+    "ar": "تشخيص الأعطال",
+    "es": "Resolución de averías"
   },
   {
     "code": "installationOfElectricalEquipment",
@@ -1041,7 +1156,8 @@
     "en": "Installation of electrical equipment",
     "ru": "Установка электрического оборудования",
     "ka": "ელექტროაღჭურვილობის მონტაჟი",
-    "ar": "تركيب المعدات الكهربائية"
+    "ar": "تركيب المعدات الكهربائية",
+    "es": "Instalación de equipos eléctricos"
   },
   {
     "code": "safetyStandards",
@@ -1050,7 +1166,8 @@
     "en": "Safety standards",
     "ru": "Стандарты безопасности",
     "ka": "უსაფრთხოების სტანდარტები",
-    "ar": "معايير السلامة"
+    "ar": "معايير السلامة",
+    "es": "Normas de seguridad"
   },
   {
     "code": "maintenanceOfElectricalSystems",
@@ -1059,7 +1176,8 @@
     "en": "Maintenance of electrical systems",
     "ru": "Техническое обслуживание электрических систем",
     "ka": "ელექტროსისტემების მოვლა",
-    "ar": "صيانة الأنظمة الكهربائية"
+    "ar": "صيانة الأنظمة الكهربائية",
+    "es": "Mantenimiento de instalaciones eléctricas"
   },
   {
     "code": "serverManagement",
@@ -1068,7 +1186,8 @@
     "en": "Server management",
     "ru": "Управление сервером",
     "ka": "სერვერების მართვა",
-    "ar": "إدارة الخوادم"
+    "ar": "إدارة الخوادم",
+    "es": "Administración de servidores"
   },
   {
     "code": "networkConfiguration",
@@ -1077,7 +1196,8 @@
     "en": "Network configuration",
     "ru": "Конфигурация сети",
     "ka": "ქსელის კონფიგურაცია",
-    "ar": "إعداد الشبكات"
+    "ar": "إعداد الشبكات",
+    "es": "Configuración de redes"
   },
   {
     "code": "databaseManagement",
@@ -1086,7 +1206,8 @@
     "en": "Database management",
     "ru": "Управление базой данных",
     "ka": "მონაცემთა ბაზების მართვა",
-    "ar": "إدارة قواعد البيانات"
+    "ar": "إدارة قواعد البيانات",
+    "es": "Gestión de bases de datos"
   },
   {
     "code": "systemMonitoring",
@@ -1095,7 +1216,8 @@
     "en": "System monitoring",
     "ru": "Мониторинг системы",
     "ka": "სისტემის მონიტორინგი",
-    "ar": "مراقبة الأنظمة"
+    "ar": "مراقبة الأنظمة",
+    "es": "Supervisión de sistemas"
   },
   {
     "code": "securityManagement",
@@ -1104,7 +1226,8 @@
     "en": "Security management",
     "ru": "Управление безопасностью",
     "ka": "უსაფრთხოების მართვა",
-    "ar": "إدارة الأمن"
+    "ar": "إدارة الأمن",
+    "es": "Gestión de la seguridad"
   },
   {
     "code": "backupAndRecovery",
@@ -1113,7 +1236,8 @@
     "en": "Backup and recovery",
     "ru": "Резервное копирование и восстановление",
     "ka": "სარეზერვო კოპირება და აღდგენა",
-    "ar": "النسخ الاحتياطي والاستعادة"
+    "ar": "النسخ الاحتياطي والاستعادة",
+    "es": "Copias de seguridad y recuperación"
   },
   {
     "code": "softwareInstallation",
@@ -1122,7 +1246,8 @@
     "en": "Software installation",
     "ru": "Установка программного обеспечения",
     "ka": "პროგრამული უზრუნველყოფის ინსტალაცია",
-    "ar": "تثبيت البرمجيات"
+    "ar": "تثبيت البرمجيات",
+    "es": "Instalación de software"
   },
   {
     "code": "productDisplay",
@@ -1131,7 +1256,8 @@
     "en": "Product display",
     "ru": "Выставка товара",
     "ka": "პროდუქციის განლაგება",
-    "ar": "عرض المنتجات"
+    "ar": "عرض المنتجات",
+    "es": "Exposición de productos"
   },
   {
     "code": "stockOrganization",
@@ -1140,7 +1266,8 @@
     "en": "Stock organization",
     "ru": "Организация запасов",
     "ka": "მარაგების ორგანიზება",
-    "ar": "تنظيم البضائع"
+    "ar": "تنظيم البضائع",
+    "es": "Organización del stock"
   },
   {
     "code": "salesOptimization",
@@ -1149,7 +1276,8 @@
     "en": "Sales optimization",
     "ru": "Оптимизация продаж",
     "ka": "გაყიდვების ოპტიმიზაცია",
-    "ar": "تحسين المبيعات"
+    "ar": "تحسين المبيعات",
+    "es": "Optimización de las ventas"
   },
   {
     "code": "salesAnalysis",
@@ -1158,7 +1286,8 @@
     "en": "Sales analysis",
     "ru": "Анализ продаж",
     "ka": "გაყიდვების ანალიზი",
-    "ar": "تحليل المبيعات"
+    "ar": "تحليل المبيعات",
+    "es": "Análisis de ventas"
   },
   {
     "code": "promotionalActivities",
@@ -1167,7 +1296,8 @@
     "en": "Promotional activities",
     "ru": "Рекламные мероприятия",
     "ka": "სარეკლამო აქტივობები",
-    "ar": "الأنشطة الترويجية"
+    "ar": "الأنشطة الترويجية",
+    "es": "Acciones promocionales"
   },
   {
     "code": "customerEngagement",
@@ -1176,7 +1306,8 @@
     "en": "Customer engagement",
     "ru": "Взаимодействие с клиентами",
     "ka": "მომხმარებელთან ურთიერთობა",
-    "ar": "التفاعل مع العملاء"
+    "ar": "التفاعل مع العملاء",
+    "es": "Fidelización de clientes"
   },
   {
     "code": "culinarySkills",
@@ -1185,7 +1316,8 @@
     "en": "Culinary skills",
     "ru": "Кулинарные навыки",
     "ka": "კულინარიული უნარები",
-    "ar": "مهارات الطهي"
+    "ar": "مهارات الطهي",
+    "es": "Artes culinarias"
   },
   {
     "code": "menuPlanning",
@@ -1194,7 +1326,8 @@
     "en": "Menu planning",
     "ru": "Планирование меню",
     "ka": "მენიუს დაგეგმვა",
-    "ar": "تخطيط قوائم الطعام"
+    "ar": "تخطيط قوائم الطعام",
+    "es": "Diseño de menús"
   },
   {
     "code": "foodPreparation",
@@ -1203,7 +1336,8 @@
     "en": "Food preparation",
     "ru": "Подготовка пищи",
     "ka": "საკვების მომზადება",
-    "ar": "تحضير الطعام"
+    "ar": "تحضير الطعام",
+    "es": "Preparación de alimentos"
   },
   {
     "code": "foodPresentation",
@@ -1212,7 +1346,8 @@
     "en": "Food presentation",
     "ru": "Презентация блюд",
     "ka": "კერძის გაფორმება",
-    "ar": "تقديم الطعام"
+    "ar": "تقديم الطعام",
+    "es": "Presentación de platos"
   },
   {
     "code": "kitchenManagement",
@@ -1221,7 +1356,8 @@
     "en": "Kitchen management",
     "ru": "Управление кухней",
     "ka": "სამზარეულოს მართვა",
-    "ar": "إدارة المطبخ"
+    "ar": "إدارة المطبخ",
+    "es": "Gestión de cocina"
   },
   {
     "code": "teamCoordination",
@@ -1230,7 +1366,8 @@
     "en": "Team coordination",
     "ru": "Координация команды",
     "ka": "გუნდის კოორდინაცია",
-    "ar": "تنسيق فرق العمل"
+    "ar": "تنسيق فرق العمل",
+    "es": "Coordinación de equipos"
   },
   {
     "code": "routeOptimization",
@@ -1239,7 +1376,8 @@
     "en": "Route optimization",
     "ru": "Оптимизация маршрутов",
     "ka": "მარშრუტების ოპტიმიზაცია",
-    "ar": "تحسين المسارات"
+    "ar": "تحسين المسارات",
+    "es": "Optimización de rutas"
   },
   {
     "code": "supplyChainManagement",
@@ -1248,7 +1386,8 @@
     "en": "Supply chain management",
     "ru": "Управление цепочкой поставок",
     "ka": "მიწოდების ჯაჭვის მართვა",
-    "ar": "إدارة سلاسل التوريد"
+    "ar": "إدارة سلاسل التوريد",
+    "es": "Gestión de la cadena de suministro"
   },
   {
     "code": "transportationPlanning",
@@ -1257,7 +1396,8 @@
     "en": "Transportation planning",
     "ru": "Планирование транспортировки",
     "ka": "ტრანსპორტირების დაგეგმვა",
-    "ar": "تخطيط النقل"
+    "ar": "تخطيط النقل",
+    "es": "Planificación del transporte"
   },
   {
     "code": "freightManagement",
@@ -1266,7 +1406,8 @@
     "en": "Freight management",
     "ru": "Управление грузоперевозками",
     "ka": "ტვირთების მართვა",
-    "ar": "إدارة الشحن"
+    "ar": "إدارة الشحن",
+    "es": "Gestión de mercancías"
   },
   {
     "code": "logisticsAnalysis",
@@ -1275,7 +1416,8 @@
     "en": "Logistics analysis",
     "ru": "Анализ логистики",
     "ka": "ლოგისტიკური ანალიზი",
-    "ar": "تحليل الخدمات اللوجستية"
+    "ar": "تحليل الخدمات اللوجستية",
+    "es": "Análisis logístico"
   },
   {
     "code": "trafficFlowAnalysis",
@@ -1284,7 +1426,8 @@
     "en": "Traffic flow analysis",
     "ru": "Анализ потока трафика",
     "ka": "სატრანსპორტო ნაკადის ანალიზი",
-    "ar": "تحليل حركة المرور"
+    "ar": "تحليل حركة المرور",
+    "es": "Análisis del tráfico"
   },
   {
     "code": "costOptimization",
@@ -1293,7 +1436,8 @@
     "en": "Cost optimization",
     "ru": "Оптимизация затрат",
     "ka": "ხარჯების ოპტიმიზაცია",
-    "ar": "تحسين التكاليف"
+    "ar": "تحسين التكاليف",
+    "es": "Optimización de costes"
   },
   {
     "code": "graphicDesign",
@@ -1302,7 +1446,8 @@
     "en": "Graphic design",
     "ru": "Графический дизайн",
     "ka": "გრაფიკული დიზაინი",
-    "ar": "التصميم الجرافيكي"
+    "ar": "التصميم الجرافيكي",
+    "es": "Diseño gráfico"
   },
   {
     "code": "visualCommunication",
@@ -1311,7 +1456,8 @@
     "en": "Visual communication",
     "ru": "Визуальная коммуникация",
     "ka": "ვიზუალური კომუნიკაცია",
-    "ar": "التواصل البصري"
+    "ar": "التواصل البصري",
+    "es": "Comunicación visual"
   },
   {
     "code": "typography",
@@ -1320,7 +1466,8 @@
     "en": "Typography",
     "ru": "Типография",
     "ka": "ტიპოგრაფიკა",
-    "ar": "فن الطباعة والخطوط"
+    "ar": "فن الطباعة والخطوط",
+    "es": "Tipografía"
   },
   {
     "code": "webDesign",
@@ -1329,7 +1476,8 @@
     "en": "Web design",
     "ru": "Веб-дизайн",
     "ka": "ვებდიზაინი",
-    "ar": "تصميم المواقع"
+    "ar": "تصميم المواقع",
+    "es": "Diseño web"
   },
   {
     "code": "userExperience",
@@ -1338,7 +1486,8 @@
     "en": "User experience",
     "ru": "Пользовательский опыт",
     "ka": "მომხმარებლის გამოცდილება (UX)",
-    "ar": "تجربة المستخدم"
+    "ar": "تجربة المستخدم",
+    "es": "Experiencia de usuario"
   },
   {
     "code": "colorTheory",
@@ -1347,7 +1496,8 @@
     "en": "Color theory",
     "ru": "Теория цвета",
     "ka": "ფერთა თეორია",
-    "ar": "نظرية الألوان"
+    "ar": "نظرية الألوان",
+    "es": "Teoría del color"
   },
   {
     "code": "photoshopSkills",
@@ -1356,7 +1506,8 @@
     "en": "Photoshop skills",
     "ru": "Навыки Photoshop",
     "ka": "Photoshop-ის ცოდნა",
-    "ar": "مهارات Photoshop"
+    "ar": "مهارات Photoshop",
+    "es": "Manejo de Photoshop"
   },
   {
     "code": "illustration",
@@ -1365,7 +1516,8 @@
     "en": "Illustration",
     "ru": "Иллюстрация",
     "ka": "ილუსტრირება",
-    "ar": "الرسم التوضيحي"
+    "ar": "الرسم التوضيحي",
+    "es": "Ilustración"
   },
   {
     "code": "serverSideProgramming",
@@ -1374,7 +1526,8 @@
     "en": "Server-side programming",
     "ru": "Программирование на серверной стороне",
     "ka": "სერვერული პროგრამირება",
-    "ar": "البرمجة من جانب الخادم"
+    "ar": "البرمجة من جانب الخادم",
+    "es": "Programación de servidor"
   },
   {
     "code": "apiDevelopment",
@@ -1383,7 +1536,8 @@
     "en": "API development",
     "ru": "Разработка API",
     "ka": "API-ის შემუშავება",
-    "ar": "تطوير واجهات برمجة التطبيقات"
+    "ar": "تطوير واجهات برمجة التطبيقات",
+    "es": "Desarrollo de API"
   },
   {
     "code": "versionControl",
@@ -1392,7 +1546,8 @@
     "en": "Version control",
     "ru": "Контроль версий",
     "ka": "ვერსიების კონტროლი",
-    "ar": "إدارة إصدارات الشيفرة"
+    "ar": "إدارة إصدارات الشيفرة",
+    "es": "Control de versiones"
   },
   {
     "code": "cloudIntegration",
@@ -1401,7 +1556,8 @@
     "en": "Cloud integration",
     "ru": "Интеграция в облаке",
     "ka": "ღრუბლოვანი ინტეგრაცია",
-    "ar": "التكامل السحابي"
+    "ar": "التكامل السحابي",
+    "es": "Integración en la nube"
   },
   {
     "code": "performanceOptimization",
@@ -1410,7 +1566,8 @@
     "en": "Performance optimization",
     "ru": "Оптимизация производительности",
     "ka": "წარმადობის ოპტიმიზაცია",
-    "ar": "تحسين الأداء"
+    "ar": "تحسين الأداء",
+    "es": "Optimización del rendimiento"
   },
   {
     "code": "errorHandling",
@@ -1419,7 +1576,8 @@
     "en": "Error handling",
     "ru": "Обработка ошибок",
     "ka": "შეცდომების დამუშავება",
-    "ar": "معالجة الأخطاء"
+    "ar": "معالجة الأخطاء",
+    "es": "Gestión de errores"
   },
   {
     "code": "containerization",
@@ -1428,7 +1586,8 @@
     "en": "Containerization",
     "ru": "Контейнеризация",
     "ka": "კონტეინერიზაცია",
-    "ar": "الحاويات (Containers)"
+    "ar": "الحاويات (Containers)",
+    "es": "Contenedorización"
   },
   {
     "code": "environmentalImpactAssessment",
@@ -1437,7 +1596,8 @@
     "en": "Environmental impact assessment",
     "ru": "Оценка воздействия на окружающую среду",
     "ka": "გარემოზე ზემოქმედების შეფასება",
-    "ar": "تقييم الأثر البيئي"
+    "ar": "تقييم الأثر البيئي",
+    "es": "Evaluación de impacto ambiental"
   },
   {
     "code": "wasteManagement",
@@ -1446,7 +1606,8 @@
     "en": "Waste management",
     "ru": "Управление отходами",
     "ka": "ნარჩენების მართვა",
-    "ar": "إدارة النفايات"
+    "ar": "إدارة النفايات",
+    "es": "Gestión de residuos"
   },
   {
     "code": "pollutionControl",
@@ -1455,7 +1616,8 @@
     "en": "Pollution control",
     "ru": "Контроль загрязнения",
     "ka": "დაბინძურების კონტროლი",
-    "ar": "مكافحة التلوث"
+    "ar": "مكافحة التلوث",
+    "es": "Control de la contaminación"
   },
   {
     "code": "waterQualityManagement",
@@ -1464,7 +1626,8 @@
     "en": "Water quality management",
     "ru": "Управление качеством воды",
     "ka": "წყლის ხარისხის მართვა",
-    "ar": "إدارة جودة المياه"
+    "ar": "إدارة جودة المياه",
+    "es": "Gestión de la calidad del agua"
   },
   {
     "code": "energyEfficiency",
@@ -1473,7 +1636,8 @@
     "en": "Energy efficiency",
     "ru": "Энергоэффективность",
     "ka": "ენერგოეფექტურობა",
-    "ar": "كفاءة الطاقة"
+    "ar": "كفاءة الطاقة",
+    "es": "Eficiencia energética"
   },
   {
     "code": "ecosystemManagement",
@@ -1482,7 +1646,8 @@
     "en": "Ecosystem management",
     "ru": "Управление экосистемами",
     "ka": "ეკოსისტემების მართვა",
-    "ar": "إدارة النظم البيئية"
+    "ar": "إدارة النظم البيئية",
+    "es": "Gestión de ecosistemas"
   },
   {
     "code": "legalResearch",
@@ -1491,7 +1656,8 @@
     "en": "Legal research",
     "ru": "Юридические исследования",
     "ka": "იურიდიული კვლევა",
-    "ar": "البحث القانوني"
+    "ar": "البحث القانوني",
+    "es": "Investigación jurídica"
   },
   {
     "code": "contractDrafting",
@@ -1500,7 +1666,8 @@
     "en": "Contract drafting",
     "ru": "Составление контрактов",
     "ka": "ხელშეკრულებების შედგენა",
-    "ar": "صياغة العقود"
+    "ar": "صياغة العقود",
+    "es": "Redacción de contratos"
   },
   {
     "code": "litigation",
@@ -1509,7 +1676,8 @@
     "en": "Litigation",
     "ru": "Судебные разбирательства",
     "ka": "სასამართლო დავები",
-    "ar": "التقاضي"
+    "ar": "التقاضي",
+    "es": "Litigios"
   },
   {
     "code": "legalAdvisory",
@@ -1518,7 +1686,8 @@
     "en": "Legal advisory",
     "ru": "Юридическое консультирование",
     "ka": "იურიდიული კონსულტაცია",
-    "ar": "الاستشارات القانونية"
+    "ar": "الاستشارات القانونية",
+    "es": "Asesoría jurídica"
   },
   {
     "code": "disputeResolution",
@@ -1527,7 +1696,8 @@
     "en": "Dispute resolution",
     "ru": "Разрешение споров",
     "ka": "დავების მოგვარება",
-    "ar": "تسوية النزاعات"
+    "ar": "تسوية النزاعات",
+    "es": "Resolución de controversias"
   },
   {
     "code": "intellectualProperty",
@@ -1536,7 +1706,8 @@
     "en": "Intellectual property",
     "ru": "Интеллектуальная собственность",
     "ka": "ინტელექტუალური საკუთრება",
-    "ar": "الملكية الفكرية"
+    "ar": "الملكية الفكرية",
+    "es": "Propiedad intelectual"
   },
   {
     "code": "riskAssessment",
@@ -1545,7 +1716,8 @@
     "en": "Risk assessment",
     "ru": "Оценка рисков",
     "ka": "რისკების შეფასება",
-    "ar": "تقييم المخاطر"
+    "ar": "تقييم المخاطر",
+    "es": "Evaluación de riesgos"
   },
   {
     "code": "claimsProcessing",
@@ -1554,7 +1726,8 @@
     "en": "Claims processing",
     "ru": "Обработка претензий",
     "ka": "სადაზღვევო მოთხოვნების დამუშავება",
-    "ar": "معالجة المطالبات"
+    "ar": "معالجة المطالبات",
+    "es": "Gestión de siniestros"
   },
   {
     "code": "customerConsultation",
@@ -1563,7 +1736,8 @@
     "en": "Customer consultation",
     "ru": "Консультации с клиентами",
     "ka": "მომხმარებელთა კონსულტირება",
-    "ar": "استشارة العملاء"
+    "ar": "استشارة العملاء",
+    "es": "Asesoramiento al cliente"
   },
   {
     "code": "insuranceRegulations",
@@ -1572,7 +1746,8 @@
     "en": "Insurance regulations",
     "ru": "Стандарты страхования",
     "ka": "სადაზღვევო რეგულაციები",
-    "ar": "أنظمة التأمين"
+    "ar": "أنظمة التأمين",
+    "es": "Normativa de seguros"
   },
   {
     "code": "premiumCalculation",
@@ -1581,7 +1756,8 @@
     "en": "Premium calculation",
     "ru": "Расчет премии",
     "ka": "სადაზღვევო პრემიის გაანგარიშება",
-    "ar": "حساب أقساط التأمين"
+    "ar": "حساب أقساط التأمين",
+    "es": "Cálculo de primas"
   },
   {
     "code": "policyRenewal",
@@ -1590,7 +1766,8 @@
     "en": "Policy renewal",
     "ru": "Продление полиса",
     "ka": "პოლისის განახლება",
-    "ar": "تجديد وثائق التأمين"
+    "ar": "تجديد وثائق التأمين",
+    "es": "Renovación de pólizas"
   },
   {
     "code": "testPlanning",
@@ -1599,7 +1776,8 @@
     "en": "Test planning",
     "ru": "Планирование тестирования",
     "ka": "ტესტირების დაგეგმვა",
-    "ar": "تخطيط الاختبارات"
+    "ar": "تخطيط الاختبارات",
+    "es": "Planificación de pruebas"
   },
   {
     "code": "manualTesting",
@@ -1608,7 +1786,8 @@
     "en": "Manual testing",
     "ru": "Ручное тестирование",
     "ka": "მანუალური ტესტირება",
-    "ar": "الاختبار اليدوي"
+    "ar": "الاختبار اليدوي",
+    "es": "Pruebas manuales"
   },
   {
     "code": "automatedTesting",
@@ -1617,7 +1796,8 @@
     "en": "Automated testing",
     "ru": "Автоматизированное тестирование",
     "ka": "ავტომატიზებული ტესტირება",
-    "ar": "الاختبار الآلي"
+    "ar": "الاختبار الآلي",
+    "es": "Pruebas automatizadas"
   },
   {
     "code": "performanceTesting",
@@ -1626,7 +1806,8 @@
     "en": "Performance testing",
     "ru": "Тестирование производительности",
     "ka": "წარმადობის ტესტირება",
-    "ar": "اختبار الأداء"
+    "ar": "اختبار الأداء",
+    "es": "Pruebas de rendimiento"
   },
   {
     "code": "regressionTesting",
@@ -1635,7 +1816,8 @@
     "en": "Regression testing",
     "ru": "Регрессионное тестирование",
     "ka": "რეგრესიული ტესტირება",
-    "ar": "اختبار الانحدار"
+    "ar": "اختبار الانحدار",
+    "es": "Pruebas de regresión"
   },
   {
     "code": "testAutomationTools",
@@ -1644,7 +1826,8 @@
     "en": "Test automation tools",
     "ru": "Инструменты автоматизации тестирования",
     "ka": "ტესტების ავტომატიზაციის ხელსაწყოები",
-    "ar": "أدوات أتمتة الاختبار"
+    "ar": "أدوات أتمتة الاختبار",
+    "es": "Herramientas de automatización de pruebas"
   },
   {
     "code": "continuousIntegration",
@@ -1653,7 +1836,8 @@
     "en": "Continuous integration",
     "ru": "Непрерывная интеграция",
     "ka": "უწყვეტი ინტეგრაცია",
-    "ar": "التكامل المستمر"
+    "ar": "التكامل المستمر",
+    "es": "Integración continua"
   },
   {
     "code": "qualityStandards",
@@ -1662,7 +1846,8 @@
     "en": "Quality standards",
     "ru": "Стандарты качества",
     "ka": "ხარისხის სტანდარტები",
-    "ar": "معايير الجودة"
+    "ar": "معايير الجودة",
+    "es": "Normas de calidad"
   },
   {
     "code": "campaignStrategy",
@@ -1671,7 +1856,8 @@
     "en": "Campaign strategy",
     "ru": "Стратегия кампании",
     "ka": "კამპანიის სტრატეგია",
-    "ar": "استراتيجية الحملات"
+    "ar": "استراتيجية الحملات",
+    "es": "Estrategia de campañas"
   },
   {
     "code": "budgetManagement",
@@ -1680,7 +1866,8 @@
     "en": "Budget management",
     "ru": "Управление бюджетом",
     "ka": "ბიუჯეტის მართვა",
-    "ar": "إدارة الميزانية"
+    "ar": "إدارة الميزانية",
+    "es": "Gestión de presupuestos"
   },
   {
     "code": "marketResearch",
@@ -1689,7 +1876,8 @@
     "en": "Market research",
     "ru": "Маркетинговые исследования",
     "ka": "ბაზრის კვლევა",
-    "ar": "أبحاث السوق"
+    "ar": "أبحاث السوق",
+    "es": "Investigación de mercado"
   },
   {
     "code": "mediaPlanning",
@@ -1698,7 +1886,8 @@
     "en": "Media planning",
     "ru": "Медиапланирование",
     "ka": "მედიადაგეგმვა",
-    "ar": "التخطيط الإعلامي"
+    "ar": "التخطيط الإعلامي",
+    "es": "Planificación de medios"
   },
   {
     "code": "advertisingChannels",
@@ -1707,7 +1896,8 @@
     "en": "Advertising channels",
     "ru": "Рекламные каналы",
     "ka": "სარეკლამო არხები",
-    "ar": "القنوات الإعلانية"
+    "ar": "القنوات الإعلانية",
+    "es": "Canales publicitarios"
   },
   {
     "code": "digitalMarketing",
@@ -1716,7 +1906,8 @@
     "en": "Digital marketing",
     "ru": "Цифровой маркетинг",
     "ka": "ციფრული მარკეტინგი",
-    "ar": "التسويق الرقمي"
+    "ar": "التسويق الرقمي",
+    "es": "Marketing digital"
   },
   {
     "code": "brandAwareness",
@@ -1725,7 +1916,8 @@
     "en": "Brand awareness",
     "ru": "Осведомленность о бренде",
     "ka": "ბრენდის ცნობადობა",
-    "ar": "الوعي بالعلامة التجارية"
+    "ar": "الوعي بالعلامة التجارية",
+    "es": "Notoriedad de marca"
   },
   {
     "code": "socialMediaMarketing",
@@ -1734,7 +1926,8 @@
     "en": "Social media marketing",
     "ru": "Маркетинг в социальных сетях",
     "ka": "სოციალური მედია მარკეტინგი",
-    "ar": "التسويق عبر وسائل التواصل الاجتماعي"
+    "ar": "التسويق عبر وسائل التواصل الاجتماعي",
+    "es": "Marketing en redes sociales"
   },
   {
     "code": "contentCreation",
@@ -1743,7 +1936,8 @@
     "en": "Content creation",
     "ru": "Создание контента",
     "ka": "კონტენტის შექმნა",
-    "ar": "صناعة المحتوى"
+    "ar": "صناعة المحتوى",
+    "es": "Creación de contenidos"
   },
   {
     "code": "advertisingMetrics",
@@ -1752,7 +1946,8 @@
     "en": "Advertising metrics",
     "ru": "Рекламные метрики",
     "ka": "სარეკლამო მეტრიკები",
-    "ar": "مؤشرات قياس الإعلانات"
+    "ar": "مؤشرات قياس الإعلانات",
+    "es": "Métricas publicitarias"
   },
   {
     "code": "politicalTheory",
@@ -1761,7 +1956,8 @@
     "en": "Political theory",
     "ru": "Политическая теория",
     "ka": "პოლიტიკური თეორია",
-    "ar": "النظرية السياسية"
+    "ar": "النظرية السياسية",
+    "es": "Teoría política"
   },
   {
     "code": "comparativePolitics",
@@ -1770,7 +1966,8 @@
     "en": "Comparative politics",
     "ru": "Сравнительная политика",
     "ka": "შედარებითი პოლიტიკა",
-    "ar": "السياسة المقارنة"
+    "ar": "السياسة المقارنة",
+    "es": "Política comparada"
   },
   {
     "code": "internationalRelations",
@@ -1779,7 +1976,8 @@
     "en": "International relations",
     "ru": "Международные отношения",
     "ka": "საერთაშორისო ურთიერთობები",
-    "ar": "العلاقات الدولية"
+    "ar": "العلاقات الدولية",
+    "es": "Relaciones internacionales"
   },
   {
     "code": "politicalResearch",
@@ -1788,7 +1986,8 @@
     "en": "Political research",
     "ru": "Политическое исследование",
     "ka": "პოლიტიკური კვლევა",
-    "ar": "البحث السياسي"
+    "ar": "البحث السياسي",
+    "es": "Investigación política"
   },
   {
     "code": "publicPolicy",
@@ -1797,7 +1996,8 @@
     "en": "Public policy",
     "ru": "Государственная политика",
     "ka": "საჯარო პოლიტიკა",
-    "ar": "السياسات العامة"
+    "ar": "السياسات العامة",
+    "es": "Políticas públicas"
   },
   {
     "code": "politicalCommunication",
@@ -1806,7 +2006,8 @@
     "en": "Political communication",
     "ru": "Политическая коммуникация",
     "ka": "პოლიტიკური კომუნიკაცია",
-    "ar": "التواصل السياسي"
+    "ar": "التواصل السياسي",
+    "es": "Comunicación política"
   },
   {
     "code": "electionAnalysis",
@@ -1815,7 +2016,8 @@
     "en": "Election analysis",
     "ru": "Анализ выборов",
     "ka": "არჩევნების ანალიზი",
-    "ar": "تحليل الانتخابات"
+    "ar": "تحليل الانتخابات",
+    "es": "Análisis electoral"
   },
   {
     "code": "politicalEconomy",
@@ -1824,7 +2026,8 @@
     "en": "Political economy",
     "ru": "Политическая экономика",
     "ka": "პოლიტიკური ეკონომიკა",
-    "ar": "الاقتصاد السياسي"
+    "ar": "الاقتصاد السياسي",
+    "es": "Economía política"
   },
   {
     "code": "supplierManagement",
@@ -1833,7 +2036,8 @@
     "en": "Supplier management",
     "ru": "Управление поставщиками",
     "ka": "მომწოდებლების მართვა",
-    "ar": "إدارة الموردين"
+    "ar": "إدارة الموردين",
+    "es": "Gestión de proveedores"
   },
   {
     "code": "contractNegotiation",
@@ -1842,7 +2046,8 @@
     "en": "Contract negotiation",
     "ru": "Переговоры по контрактам",
     "ka": "ხელშეკრულებებზე მოლაპარაკება",
-    "ar": "التفاوض على العقود"
+    "ar": "التفاوض على العقود",
+    "es": "Negociación de contratos"
   },
   {
     "code": "inventoryControl",
@@ -1851,7 +2056,8 @@
     "en": "Inventory control",
     "ru": "Контроль за запасами",
     "ka": "მარაგების კონტროლი",
-    "ar": "ضبط المخزون"
+    "ar": "ضبط المخزون",
+    "es": "Control de inventario"
   },
   {
     "code": "vendorSelection",
@@ -1860,7 +2066,8 @@
     "en": "Vendor selection",
     "ru": "Выбор поставщика",
     "ka": "მომწოდებლის შერჩევა",
-    "ar": "اختيار الموردين"
+    "ar": "اختيار الموردين",
+    "es": "Selección de proveedores"
   },
   {
     "code": "sustainabilityPurchasing",
@@ -1869,7 +2076,8 @@
     "en": "Sustainability purchasing",
     "ru": "Устойчивые закупки",
     "ka": "მდგრადი შესყიდვები",
-    "ar": "المشتريات المستدامة"
+    "ar": "المشتريات المستدامة",
+    "es": "Compras sostenibles"
   },
   {
     "code": "communityEngagement",
@@ -1878,7 +2086,8 @@
     "en": "Community engagement",
     "ru": "Взаимодействие с сообществом",
     "ka": "საზოგადოებასთან ურთიერთობა",
-    "ar": "العمل المجتمعي"
+    "ar": "العمل المجتمعي",
+    "es": "Dinamización comunitaria"
   },
   {
     "code": "eventCoordination",
@@ -1887,7 +2096,8 @@
     "en": "Event coordination",
     "ru": "Координация мероприятий",
     "ka": "ღონისძიებების კოორდინაცია",
-    "ar": "تنسيق الفعاليات"
+    "ar": "تنسيق الفعاليات",
+    "es": "Coordinación de eventos"
   },
   {
     "code": "teamCollaboration",
@@ -1896,7 +2106,8 @@
     "en": "Team collaboration",
     "ru": "Сотрудничество в команде",
     "ka": "გუნდური თანამშრომლობა",
-    "ar": "التعاون ضمن الفريق"
+    "ar": "التعاون ضمن الفريق",
+    "es": "Colaboración en equipo"
   },
   {
     "code": "communicationSkills",
@@ -1905,7 +2116,8 @@
     "en": "Communication skills",
     "ru": "Коммуникационные навыки",
     "ka": "კომუნიკაციის უნარი",
-    "ar": "مهارات التواصل"
+    "ar": "مهارات التواصل",
+    "es": "Habilidades de comunicación"
   },
   {
     "code": "fundraising",
@@ -1914,7 +2126,8 @@
     "en": "Fundraising",
     "ru": "Сбор средств",
     "ka": "ფონდების მოძიება",
-    "ar": "جمع التبرعات"
+    "ar": "جمع التبرعات",
+    "es": "Captación de fondos"
   },
   {
     "code": "empathy",
@@ -1923,7 +2136,8 @@
     "en": "Empathy",
     "ru": "Эмпатия",
     "ka": "ემპათია",
-    "ar": "التعاطف"
+    "ar": "التعاطف",
+    "es": "Empatía"
   },
   {
     "code": "leadership",
@@ -1932,7 +2146,8 @@
     "en": "Leadership",
     "ru": "Лидерство",
     "ka": "ლიდერობა",
-    "ar": "القيادة"
+    "ar": "القيادة",
+    "es": "Liderazgo"
   },
   {
     "code": "organizationSkills",
@@ -1941,7 +2156,8 @@
     "en": "Organization skills",
     "ru": "Организационные навыки",
     "ka": "ორგანიზების უნარები",
-    "ar": "مهارات التنظيم"
+    "ar": "مهارات التنظيم",
+    "es": "Capacidad de organización"
   },
   {
     "code": "creditAnalysis",
@@ -1950,7 +2166,8 @@
     "en": "Credit analysis",
     "ru": "Кредитный анализ",
     "ka": "საკრედიტო ანალიზი",
-    "ar": "التحليل الائتماني"
+    "ar": "التحليل الائتماني",
+    "es": "Análisis de crédito"
   },
   {
     "code": "loanAssessment",
@@ -1959,7 +2176,8 @@
     "en": "Loan assessment",
     "ru": "Оценка кредита",
     "ka": "სესხის შეფასება",
-    "ar": "تقييم القروض"
+    "ar": "تقييم القروض",
+    "es": "Evaluación de préstamos"
   },
   {
     "code": "creditRiskManagement",
@@ -1968,7 +2186,8 @@
     "en": "Credit risk management",
     "ru": "Управление кредитными рисками",
     "ka": "საკრედიტო რისკების მართვა",
-    "ar": "إدارة مخاطر الائتمان"
+    "ar": "إدارة مخاطر الائتمان",
+    "es": "Gestión del riesgo de crédito"
   },
   {
     "code": "creditReporting",
@@ -1977,7 +2196,8 @@
     "en": "Credit reporting",
     "ru": "Кредитное отчетность",
     "ka": "საკრედიტო ანგარიშგება",
-    "ar": "إعداد التقارير الائتمانية"
+    "ar": "إعداد التقارير الائتمانية",
+    "es": "Informes de crédito"
   },
   {
     "code": "loanDocumentation",
@@ -1986,7 +2206,8 @@
     "en": "Loan documentation",
     "ru": "Документация по кредиту",
     "ka": "სესხის დოკუმენტაცია",
-    "ar": "توثيق القروض"
+    "ar": "توثيق القروض",
+    "es": "Documentación de préstamos"
   },
   {
     "code": "creditPolicies",
@@ -1995,7 +2216,8 @@
     "en": "Credit policies",
     "ru": "Кредитные политики",
     "ka": "საკრედიტო პოლიტიკა",
-    "ar": "سياسات الائتمان"
+    "ar": "سياسات الائتمان",
+    "es": "Políticas de crédito"
   },
   {
     "code": "customerCreditAssessment",
@@ -2004,7 +2226,8 @@
     "en": "Customer credit assessment",
     "ru": "Оценка кредитоспособности клиента",
     "ka": "მომხმარებლის კრედიტუნარიანობის შეფასება",
-    "ar": "تقييم الجدارة الائتمانية للعملاء"
+    "ar": "تقييم الجدارة الائتمانية للعملاء",
+    "es": "Evaluación crediticia del cliente"
   },
   {
     "code": "accountManagement",
@@ -2013,7 +2236,8 @@
     "en": "Account management",
     "ru": "Управление счетами",
     "ka": "ანგარიშების მართვა",
-    "ar": "إدارة الحسابات"
+    "ar": "إدارة الحسابات",
+    "es": "Gestión de cuentas"
   },
   {
     "code": "loanProcessing",
@@ -2022,7 +2246,8 @@
     "en": "Loan processing",
     "ru": "Обработка кредитов",
     "ka": "სესხების დამუშავება",
-    "ar": "معالجة القروض"
+    "ar": "معالجة القروض",
+    "es": "Tramitación de préstamos"
   },
   {
     "code": "riskManagement",
@@ -2031,7 +2256,8 @@
     "en": "Risk management",
     "ru": "Управление рисками",
     "ka": "რისკების მართვა",
-    "ar": "إدارة المخاطر"
+    "ar": "إدارة المخاطر",
+    "es": "Gestión de riesgos"
   },
   {
     "code": "transactionProcessing",
@@ -2040,7 +2266,8 @@
     "en": "Transaction processing",
     "ru": "Обработка транзакций",
     "ka": "ტრანზაქციების დამუშავება",
-    "ar": "معالجة المعاملات"
+    "ar": "معالجة المعاملات",
+    "es": "Procesamiento de transacciones"
   },
   {
     "code": "bankingSoftware",
@@ -2049,7 +2276,8 @@
     "en": "Banking software",
     "ru": "Банковское программное обеспечение",
     "ka": "საბანკო პროგრამული უზრუნველყოფა",
-    "ar": "الأنظمة البنكية"
+    "ar": "الأنظمة البنكية",
+    "es": "Software bancario"
   },
   {
     "code": "treasuryManagement",
@@ -2058,7 +2286,8 @@
     "en": "Treasury management",
     "ru": "Управление казначейством",
     "ka": "ხაზინის მართვა",
-    "ar": "إدارة الخزينة"
+    "ar": "إدارة الخزينة",
+    "es": "Gestión de tesorería"
   },
   {
     "code": "recruitment",
@@ -2067,7 +2296,8 @@
     "en": "Recruitment",
     "ru": "Набор персонала",
     "ka": "რეკრუტინგი",
-    "ar": "التوظيف"
+    "ar": "التوظيف",
+    "es": "Reclutamiento"
   },
   {
     "code": "talentManagement",
@@ -2076,7 +2306,8 @@
     "en": "Talent management",
     "ru": "Управление талантами",
     "ka": "ტალანტების მართვა",
-    "ar": "إدارة المواهب"
+    "ar": "إدارة المواهب",
+    "es": "Gestión del talento"
   },
   {
     "code": "hrCompliance",
@@ -2085,7 +2316,8 @@
     "en": "HR compliance",
     "ru": "Соответствие требованиям в области HR",
     "ka": "შრომის კანონმდებლობის შესაბამისობა",
-    "ar": "الامتثال في الموارد البشرية"
+    "ar": "الامتثال في الموارد البشرية",
+    "es": "Cumplimiento en RRHH"
   },
   {
     "code": "workplaceSafety",
@@ -2094,7 +2326,8 @@
     "en": "Workplace safety",
     "ru": "Безопасность на рабочем месте",
     "ka": "სამუშაო ადგილის უსაფრთხოება",
-    "ar": "السلامة في مكان العمل"
+    "ar": "السلامة في مكان العمل",
+    "es": "Seguridad laboral"
   },
   {
     "code": "conflictResolution",
@@ -2103,7 +2336,8 @@
     "en": "Conflict resolution",
     "ru": "Разрешение конфликтов",
     "ka": "კონფლიქტების მოგვარება",
-    "ar": "حل النزاعات"
+    "ar": "حل النزاعات",
+    "es": "Resolución de conflictos"
   },
   {
     "code": "surveying",
@@ -2112,7 +2346,8 @@
     "en": "Surveying",
     "ru": "Геодезические измерения",
     "ka": "აზომვითი სამუშაოები",
-    "ar": "المساحة"
+    "ar": "المساحة",
+    "es": "Topografía"
   },
   {
     "code": "geodeticSurvey",
@@ -2121,7 +2356,8 @@
     "en": "Geodetic survey",
     "ru": "Геодезическое обследование",
     "ka": "გეოდეზიური აზომვა",
-    "ar": "المسح الجيوديسي"
+    "ar": "المسح الجيوديسي",
+    "es": "Levantamiento geodésico"
   },
   {
     "code": "landBoundaryDetermination",
@@ -2130,7 +2366,8 @@
     "en": "Land boundary determination",
     "ru": "Определение границ участка",
     "ka": "მიწის საზღვრების დადგენა",
-    "ar": "تحديد حدود الأراضي"
+    "ar": "تحديد حدود الأراضي",
+    "es": "Delimitación de linderos"
   },
   {
     "code": "gpsMapping",
@@ -2139,7 +2376,8 @@
     "en": "GPS mapping",
     "ru": "Геодезическая съемка с использованием GPS",
     "ka": "GPS კარტოგრაფირება",
-    "ar": "رسم الخرائط بنظام GPS"
+    "ar": "رسم الخرائط بنظام GPS",
+    "es": "Cartografía con GPS"
   },
   {
     "code": "dataAnalysis",
@@ -2148,7 +2386,8 @@
     "en": "Data analysis",
     "ru": "Анализ данных",
     "ka": "მონაცემთა ანალიზი",
-    "ar": "تحليل البيانات"
+    "ar": "تحليل البيانات",
+    "es": "Análisis de datos"
   },
   {
     "code": "cadSoftware",
@@ -2157,7 +2396,8 @@
     "en": "CAD software",
     "ru": "Программное обеспечение CAD",
     "ka": "CAD პროგრამები",
-    "ar": "برامج التصميم بالحاسوب (CAD)"
+    "ar": "برامج التصميم بالحاسوب (CAD)",
+    "es": "Programas CAD"
   },
   {
     "code": "cartography",
@@ -2166,7 +2406,8 @@
     "en": "Cartography",
     "ru": "Картография",
     "ka": "კარტოგრაფია",
-    "ar": "رسم الخرائط"
+    "ar": "رسم الخرائط",
+    "es": "Cartografía"
   },
   {
     "code": "landTopography",
@@ -2175,7 +2416,8 @@
     "en": "Land topography",
     "ru": "Топография земли",
     "ka": "ტოპოგრაფია",
-    "ar": "طوبوغرافيا الأراضي"
+    "ar": "طوبوغرافيا الأراضي",
+    "es": "Topografía del terreno"
   },
   {
     "code": "trainingPlanning",
@@ -2184,7 +2426,8 @@
     "en": "Training planning",
     "ru": "Планирование тренировок",
     "ka": "ვარჯიშის დაგეგმვა",
-    "ar": "تخطيط التدريب"
+    "ar": "تخطيط التدريب",
+    "es": "Planificación de la formación"
   },
   {
     "code": "athleteDevelopment",
@@ -2193,7 +2436,8 @@
     "en": "Athlete development",
     "ru": "Развитие спортсмена",
     "ka": "სპორტსმენის განვითარება",
-    "ar": "تطوير الرياضيين"
+    "ar": "تطوير الرياضيين",
+    "es": "Desarrollo de deportistas"
   },
   {
     "code": "performanceAnalysis",
@@ -2202,7 +2446,8 @@
     "en": "Performance analysis",
     "ru": "Анализ производительности",
     "ka": "შედეგების ანალიზი",
-    "ar": "تحليل الأداء"
+    "ar": "تحليل الأداء",
+    "es": "Análisis del rendimiento"
   },
   {
     "code": "motivationalSkills",
@@ -2211,7 +2456,8 @@
     "en": "Motivational skills",
     "ru": "Мотивационные навыки",
     "ka": "მოტივირების უნარი",
-    "ar": "مهارات التحفيز"
+    "ar": "مهارات التحفيز",
+    "es": "Capacidad de motivación"
   },
   {
     "code": "strategyDevelopment",
@@ -2220,7 +2466,8 @@
     "en": "Strategy development",
     "ru": "Разработка стратегии",
     "ka": "სტრატეგიის შემუშავება",
-    "ar": "وضع الاستراتيجيات"
+    "ar": "وضع الاستراتيجيات",
+    "es": "Desarrollo de estrategias"
   },
   {
     "code": "teamBuilding",
@@ -2229,7 +2476,8 @@
     "en": "Team building",
     "ru": "Построение команды",
     "ka": "გუნდის ჩამოყალიბება",
-    "ar": "بناء الفريق"
+    "ar": "بناء الفريق",
+    "es": "Creación de equipos"
   },
   {
     "code": "fitnessAssessment",
@@ -2238,7 +2486,8 @@
     "en": "Fitness assessment",
     "ru": "Оценка физической подготовки",
     "ka": "ფიზიკური მდგომარეობის შეფასება",
-    "ar": "تقييم اللياقة البدنية"
+    "ar": "تقييم اللياقة البدنية",
+    "es": "Evaluación de la condición física"
   },
   {
     "code": "individualizedTraining",
@@ -2247,7 +2496,8 @@
     "en": "Individualized training",
     "ru": "Индивидуальный тренинг",
     "ka": "ინდივიდუალური ვარჯიში",
-    "ar": "التدريب الفردي"
+    "ar": "التدريب الفردي",
+    "es": "Entrenamiento personalizado"
   },
   {
     "code": "medicationDispensing",
@@ -2256,7 +2506,8 @@
     "en": "Medication dispensing",
     "ru": "Отпуск лекарств",
     "ka": "მედიკამენტების გაცემა",
-    "ar": "صرف الأدوية"
+    "ar": "صرف الأدوية",
+    "es": "Dispensación de medicamentos"
   },
   {
     "code": "medicationStorage",
@@ -2265,7 +2516,8 @@
     "en": "Medication storage",
     "ru": "Хранение лекарств",
     "ka": "მედიკამენტების შენახვა",
-    "ar": "تخزين الأدوية"
+    "ar": "تخزين الأدوية",
+    "es": "Almacenamiento de medicamentos"
   },
   {
     "code": "drugPreparation",
@@ -2274,7 +2526,8 @@
     "en": "Drug preparation",
     "ru": "Приготовление лекарств",
     "ka": "პრეპარატების მომზადება",
-    "ar": "تحضير الأدوية"
+    "ar": "تحضير الأدوية",
+    "es": "Preparación de medicamentos"
   },
   {
     "code": "pharmacology",
@@ -2283,7 +2536,8 @@
     "en": "Pharmacology",
     "ru": "Фармакология",
     "ka": "ფარმაკოლოგია",
-    "ar": "علم الأدوية"
+    "ar": "علم الأدوية",
+    "es": "Farmacología"
   },
   {
     "code": "medicationMonitoring",
@@ -2292,7 +2546,8 @@
     "en": "Medication monitoring",
     "ru": "Мониторинг лекарств",
     "ka": "მედიკამენტების მონიტორინგი",
-    "ar": "متابعة العلاج الدوائي"
+    "ar": "متابعة العلاج الدوائي",
+    "es": "Seguimiento de la medicación"
   },
   {
     "code": "childDevelopment",
@@ -2301,7 +2556,8 @@
     "en": "Child development",
     "ru": "Развитие ребенка",
     "ka": "ბავშვის განვითარება",
-    "ar": "تنمية الطفل"
+    "ar": "تنمية الطفل",
+    "es": "Desarrollo infantil"
   },
   {
     "code": "lessonPlanning",
@@ -2310,7 +2566,8 @@
     "en": "Lesson planning",
     "ru": "Планирование уроков",
     "ka": "გაკვეთილის დაგეგმვა",
-    "ar": "تخطيط الدروس"
+    "ar": "تخطيط الدروس",
+    "es": "Planificación de clases"
   },
   {
     "code": "earlyLearningMethods",
@@ -2319,7 +2576,8 @@
     "en": "Early learning methods",
     "ru": "Методы раннего обучения",
     "ka": "ადრეული განვითარების მეთოდები",
-    "ar": "أساليب التعلّم المبكر"
+    "ar": "أساليب التعلّم المبكر",
+    "es": "Métodos de aprendizaje temprano"
   },
   {
     "code": "classroomManagement",
@@ -2328,7 +2586,8 @@
     "en": "Classroom management",
     "ru": "Управление классом",
     "ka": "საკლასო ოთახის მართვა",
-    "ar": "إدارة الصف"
+    "ar": "إدارة الصف",
+    "es": "Gestión del aula"
   },
   {
     "code": "creativeActivities",
@@ -2337,7 +2596,8 @@
     "en": "Creative activities",
     "ru": "Творческая деятельность",
     "ka": "შემოქმედებითი აქტივობები",
-    "ar": "الأنشطة الإبداعية"
+    "ar": "الأنشطة الإبداعية",
+    "es": "Actividades creativas"
   },
   {
     "code": "languageDevelopment",
@@ -2346,7 +2606,8 @@
     "en": "Language development",
     "ru": "Развитие языка",
     "ka": "მეტყველების განვითარება",
-    "ar": "تنمية اللغة"
+    "ar": "تنمية اللغة",
+    "es": "Desarrollo del lenguaje"
   },
   {
     "code": "childPsychology",
@@ -2355,7 +2616,8 @@
     "en": "Child psychology",
     "ru": "Детская психология",
     "ka": "ბავშვთა ფსიქოლოგია",
-    "ar": "علم نفس الطفل"
+    "ar": "علم نفس الطفل",
+    "es": "Psicología infantil"
   },
   {
     "code": "parentCommunication",
@@ -2364,7 +2626,8 @@
     "en": "Parent communication",
     "ru": "Общение с родителями",
     "ka": "მშობლებთან კომუნიკაცია",
-    "ar": "التواصل مع أولياء الأمور"
+    "ar": "التواصل مع أولياء الأمور",
+    "es": "Comunicación con las familias"
   },
   {
     "code": "socialSkillsDevelopment",
@@ -2373,7 +2636,8 @@
     "en": "Social skills development",
     "ru": "Развитие социальных навыков",
     "ka": "სოციალური უნარების განვითარება",
-    "ar": "تنمية المهارات الاجتماعية"
+    "ar": "تنمية المهارات الاجتماعية",
+    "es": "Desarrollo de habilidades sociales"
   },
   {
     "code": "assessmentAndEvaluation",
@@ -2382,7 +2646,8 @@
     "en": "Assessment and evaluation",
     "ru": "Оценка и оценивание",
     "ka": "შეფასება და ანალიზი",
-    "ar": "القياس والتقويم"
+    "ar": "القياس والتقويم",
+    "es": "Evaluación del aprendizaje"
   },
   {
     "code": "psychologicalAssessment",
@@ -2391,7 +2656,8 @@
     "en": "Psychological assessment",
     "ru": "Психологическая оценка",
     "ka": "ფსიქოლოგიური შეფასება",
-    "ar": "التقييم النفسي"
+    "ar": "التقييم النفسي",
+    "es": "Evaluación psicológica"
   },
   {
     "code": "counseling",
@@ -2400,7 +2666,8 @@
     "en": "Counseling",
     "ru": "Консультирование",
     "ka": "კონსულტირება",
-    "ar": "الإرشاد النفسي"
+    "ar": "الإرشاد النفسي",
+    "es": "Orientación psicológica"
   },
   {
     "code": "mentalHealthSupport",
@@ -2409,7 +2676,8 @@
     "en": "Mental health support",
     "ru": "Поддержка психического здоровья",
     "ka": "ფსიქიკური ჯანმრთელობის მხარდაჭერა",
-    "ar": "دعم الصحة النفسية"
+    "ar": "دعم الصحة النفسية",
+    "es": "Apoyo en salud mental"
   },
   {
     "code": "behavioralTherapy",
@@ -2418,7 +2686,8 @@
     "en": "Behavioral therapy",
     "ru": "Поведенческая терапия",
     "ka": "ქცევითი თერაპია",
-    "ar": "العلاج السلوكي"
+    "ar": "العلاج السلوكي",
+    "es": "Terapia conductual"
   },
   {
     "code": "stressManagement",
@@ -2427,7 +2696,8 @@
     "en": "Stress management",
     "ru": "Управление стрессом",
     "ka": "სტრესის მართვა",
-    "ar": "إدارة التوتر"
+    "ar": "إدارة التوتر",
+    "es": "Gestión del estrés"
   },
   {
     "code": "cognitiveBehavioralTherapy",
@@ -2436,7 +2706,8 @@
     "en": "Cognitive-behavioral therapy",
     "ru": "Когнитивно-поведенческая терапия",
     "ka": "კოგნიტურ-ქცევითი თერაპია",
-    "ar": "العلاج المعرفي السلوكي"
+    "ar": "العلاج المعرفي السلوكي",
+    "es": "Terapia cognitivo-conductual"
   },
   {
     "code": "emotionalSupport",
@@ -2445,7 +2716,8 @@
     "en": "Emotional support",
     "ru": "Эмоциональная поддержка",
     "ka": "ემოციური მხარდაჭერა",
-    "ar": "الدعم العاطفي"
+    "ar": "الدعم العاطفي",
+    "es": "Apoyo emocional"
   },
   {
     "code": "psychotherapy",
@@ -2454,7 +2726,8 @@
     "en": "Psychotherapy",
     "ru": "Психотерапия",
     "ka": "ფსიქოთერაპია",
-    "ar": "العلاج النفسي"
+    "ar": "العلاج النفسي",
+    "es": "Psicoterapia"
   },
   {
     "code": "ms_office_suite",
@@ -2463,7 +2736,8 @@
     "en": "Microsoft Office",
     "ru": "Microsoft Office",
     "ka": "Microsoft Office",
-    "ar": "Microsoft Office"
+    "ar": "Microsoft Office",
+    "es": "Microsoft Office"
   },
   {
     "code": "ms_outlook",
@@ -2472,7 +2746,8 @@
     "en": "Microsoft Outlook",
     "ru": "Microsoft Outlook",
     "ka": "Microsoft Outlook",
-    "ar": "Microsoft Outlook"
+    "ar": "Microsoft Outlook",
+    "es": "Microsoft Outlook"
   },
   {
     "code": "ms_access",
@@ -2481,7 +2756,8 @@
     "en": "Microsoft Access",
     "ru": "Microsoft Access",
     "ka": "Microsoft Access",
-    "ar": "Microsoft Access"
+    "ar": "Microsoft Access",
+    "es": "Microsoft Access"
   },
   {
     "code": "ms_teams",
@@ -2490,7 +2766,8 @@
     "en": "Microsoft Teams",
     "ru": "Microsoft Teams",
     "ka": "Microsoft Teams",
-    "ar": "Microsoft Teams"
+    "ar": "Microsoft Teams",
+    "es": "Microsoft Teams"
   },
   {
     "code": "windows",
@@ -2499,7 +2776,8 @@
     "en": "Windows operating system",
     "ru": "Операционная система Windows",
     "ka": "Windows ოპერაციული სისტემა",
-    "ar": "نظام التشغيل Windows"
+    "ar": "نظام التشغيل Windows",
+    "es": "Sistema operativo Windows"
   },
   {
     "code": "linux",
@@ -2508,7 +2786,8 @@
     "en": "Linux",
     "ru": "Linux",
     "ka": "Linux",
-    "ar": "Linux"
+    "ar": "Linux",
+    "es": "Linux"
   },
   {
     "code": "zoom",
@@ -2517,7 +2796,8 @@
     "en": "Zoom",
     "ru": "Zoom",
     "ka": "Zoom",
-    "ar": "Zoom"
+    "ar": "Zoom",
+    "es": "Zoom"
   },
   {
     "code": "html",
@@ -2526,7 +2806,8 @@
     "en": "HTML",
     "ru": "HTML",
     "ka": "HTML",
-    "ar": "HTML"
+    "ar": "HTML",
+    "es": "HTML"
   },
   {
     "code": "sql",
@@ -2535,7 +2816,8 @@
     "en": "SQL",
     "ru": "SQL",
     "ka": "SQL",
-    "ar": "SQL"
+    "ar": "SQL",
+    "es": "SQL"
   },
   {
     "code": "mysql",
@@ -2544,7 +2826,8 @@
     "en": "MySQL",
     "ru": "MySQL",
     "ka": "MySQL",
-    "ar": "MySQL"
+    "ar": "MySQL",
+    "es": "MySQL"
   },
   {
     "code": "ms_sql_server",
@@ -2553,7 +2836,8 @@
     "en": "Microsoft SQL Server",
     "ru": "Microsoft SQL Server",
     "ka": "Microsoft SQL Server",
-    "ar": "Microsoft SQL Server"
+    "ar": "Microsoft SQL Server",
+    "es": "Microsoft SQL Server"
   },
   {
     "code": "postgresql",
@@ -2562,7 +2846,8 @@
     "en": "PostgreSQL",
     "ru": "PostgreSQL",
     "ka": "PostgreSQL",
-    "ar": "PostgreSQL"
+    "ar": "PostgreSQL",
+    "es": "PostgreSQL"
   },
   {
     "code": "bootstrap",
@@ -2571,7 +2856,8 @@
     "en": "Bootstrap",
     "ru": "Bootstrap",
     "ka": "Bootstrap",
-    "ar": "Bootstrap"
+    "ar": "Bootstrap",
+    "es": "Bootstrap"
   },
   {
     "code": "jquery",
@@ -2580,7 +2866,8 @@
     "en": "jQuery",
     "ru": "jQuery",
     "ka": "jQuery",
-    "ar": "jQuery"
+    "ar": "jQuery",
+    "es": "jQuery"
   },
   {
     "code": "typescript",
@@ -2589,7 +2876,8 @@
     "en": "TypeScript",
     "ru": "TypeScript",
     "ka": "TypeScript",
-    "ar": "TypeScript"
+    "ar": "TypeScript",
+    "es": "TypeScript"
   },
   {
     "code": "nodejs",
@@ -2598,7 +2886,8 @@
     "en": "Node.js",
     "ru": "Node.js",
     "ka": "Node.js",
-    "ar": "Node.js"
+    "ar": "Node.js",
+    "es": "Node.js"
   },
   {
     "code": "wordpress",
@@ -2607,7 +2896,8 @@
     "en": "WordPress",
     "ru": "WordPress",
     "ka": "WordPress",
-    "ar": "WordPress"
+    "ar": "WordPress",
+    "es": "WordPress"
   },
   {
     "code": "git",
@@ -2616,7 +2906,8 @@
     "en": "Git",
     "ru": "Git",
     "ka": "Git",
-    "ar": "Git"
+    "ar": "Git",
+    "es": "Git"
   },
   {
     "code": "github",
@@ -2625,7 +2916,8 @@
     "en": "GitHub",
     "ru": "GitHub",
     "ka": "GitHub",
-    "ar": "GitHub"
+    "ar": "GitHub",
+    "es": "GitHub"
   },
   {
     "code": "programming",
@@ -2634,7 +2926,8 @@
     "en": "Programming",
     "ru": "Программирование",
     "ka": "პროგრამირება",
-    "ar": "البرمجة"
+    "ar": "البرمجة",
+    "es": "Programación"
   },
   {
     "code": "coreldraw",
@@ -2643,7 +2936,8 @@
     "en": "CorelDRAW",
     "ru": "CorelDRAW",
     "ka": "CorelDRAW",
-    "ar": "CorelDRAW"
+    "ar": "CorelDRAW",
+    "es": "CorelDRAW"
   },
   {
     "code": "canva",
@@ -2652,7 +2946,8 @@
     "en": "Canva",
     "ru": "Canva",
     "ka": "Canva",
-    "ar": "Canva"
+    "ar": "Canva",
+    "es": "Canva"
   },
   {
     "code": "after_effects",
@@ -2661,7 +2956,8 @@
     "en": "Adobe After Effects",
     "ru": "Adobe After Effects",
     "ka": "Adobe After Effects",
-    "ar": "Adobe After Effects"
+    "ar": "Adobe After Effects",
+    "es": "Adobe After Effects"
   },
   {
     "code": "premiere_pro",
@@ -2670,7 +2966,8 @@
     "en": "Adobe Premiere Pro",
     "ru": "Adobe Premiere Pro",
     "ka": "Adobe Premiere Pro",
-    "ar": "Adobe Premiere Pro"
+    "ar": "Adobe Premiere Pro",
+    "es": "Adobe Premiere Pro"
   },
   {
     "code": "lightroom",
@@ -2679,7 +2976,8 @@
     "en": "Adobe Lightroom",
     "ru": "Adobe Lightroom",
     "ka": "Adobe Lightroom",
-    "ar": "Adobe Lightroom"
+    "ar": "Adobe Lightroom",
+    "es": "Adobe Lightroom"
   },
   {
     "code": "figma",
@@ -2688,7 +2986,8 @@
     "en": "Figma",
     "ru": "Figma",
     "ka": "Figma",
-    "ar": "Figma"
+    "ar": "Figma",
+    "es": "Figma"
   },
   {
     "code": "video_editing",
@@ -2697,7 +2996,8 @@
     "en": "Video editing",
     "ru": "Видеомонтаж",
     "ka": "ვიდეომონტაჟი",
-    "ar": "مونتاج الفيديو"
+    "ar": "مونتاج الفيديو",
+    "es": "Edición de vídeo"
   },
   {
     "code": "archicad",
@@ -2706,7 +3006,8 @@
     "en": "ArchiCAD",
     "ru": "ArchiCAD",
     "ka": "ArchiCAD",
-    "ar": "ArchiCAD"
+    "ar": "ArchiCAD",
+    "es": "ArchiCAD"
   },
   {
     "code": "3ds_max",
@@ -2715,7 +3016,8 @@
     "en": "3ds Max",
     "ru": "3ds Max",
     "ka": "3ds Max",
-    "ar": "3ds Max"
+    "ar": "3ds Max",
+    "es": "3ds Max"
   },
   {
     "code": "revit",
@@ -2724,7 +3026,8 @@
     "en": "Autodesk Revit",
     "ru": "Autodesk Revit",
     "ka": "Autodesk Revit",
-    "ar": "Autodesk Revit"
+    "ar": "Autodesk Revit",
+    "es": "Autodesk Revit"
   },
   {
     "code": "sketchup",
@@ -2733,7 +3036,8 @@
     "en": "SketchUp",
     "ru": "SketchUp",
     "ka": "SketchUp",
-    "ar": "SketchUp"
+    "ar": "SketchUp",
+    "es": "SketchUp"
   },
   {
     "code": "solidworks",
@@ -2742,7 +3046,8 @@
     "en": "SolidWorks",
     "ru": "SolidWorks",
     "ka": "SolidWorks",
-    "ar": "SolidWorks"
+    "ar": "SolidWorks",
+    "es": "SolidWorks"
   },
   {
     "code": "lumion",
@@ -2751,7 +3056,8 @@
     "en": "Lumion",
     "ru": "Lumion",
     "ka": "Lumion",
-    "ar": "Lumion"
+    "ar": "Lumion",
+    "es": "Lumion"
   },
   {
     "code": "arcgis",
@@ -2760,7 +3066,8 @@
     "en": "ArcGIS",
     "ru": "ArcGIS",
     "ka": "ArcGIS",
-    "ar": "ArcGIS"
+    "ar": "ArcGIS",
+    "es": "ArcGIS"
   },
   {
     "code": "netcad",
@@ -2769,7 +3076,8 @@
     "en": "Netcad",
     "ru": "Netcad",
     "ka": "Netcad",
-    "ar": "Netcad"
+    "ar": "Netcad",
+    "es": "Netcad"
   },
   {
     "code": "matlab",
@@ -2778,7 +3086,8 @@
     "en": "MATLAB",
     "ru": "MATLAB",
     "ka": "MATLAB",
-    "ar": "MATLAB"
+    "ar": "MATLAB",
+    "es": "MATLAB"
   },
   {
     "code": "power_bi",
@@ -2787,7 +3096,8 @@
     "en": "Microsoft Power BI",
     "ru": "Microsoft Power BI",
     "ka": "Microsoft Power BI",
-    "ar": "Microsoft Power BI"
+    "ar": "Microsoft Power BI",
+    "es": "Microsoft Power BI"
   },
   {
     "code": "sap",
@@ -2796,7 +3106,8 @@
     "en": "SAP",
     "ru": "SAP",
     "ka": "SAP",
-    "ar": "SAP"
+    "ar": "SAP",
+    "es": "SAP"
   },
   {
     "code": "crm",
@@ -2805,7 +3116,8 @@
     "en": "CRM systems",
     "ru": "CRM-системы",
     "ka": "CRM სისტემები",
-    "ar": "أنظمة CRM"
+    "ar": "أنظمة CRM",
+    "es": "Sistemas CRM"
   },
   {
     "code": "erp",
@@ -2814,7 +3126,8 @@
     "en": "ERP systems",
     "ru": "ERP-системы",
     "ka": "ERP სისტემები",
-    "ar": "أنظمة ERP"
+    "ar": "أنظمة ERP",
+    "es": "Sistemas ERP"
   },
   {
     "code": "jira",
@@ -2823,7 +3136,8 @@
     "en": "Jira",
     "ru": "Jira",
     "ka": "Jira",
-    "ar": "Jira"
+    "ar": "Jira",
+    "es": "Jira"
   },
   {
     "code": "spss",
@@ -2832,7 +3146,8 @@
     "en": "IBM SPSS",
     "ru": "IBM SPSS",
     "ka": "IBM SPSS",
-    "ar": "IBM SPSS"
+    "ar": "IBM SPSS",
+    "es": "IBM SPSS"
   },
   {
     "code": "e_taxes",
@@ -2841,7 +3156,8 @@
     "en": "E-taxes (Azerbaijani tax portal)",
     "ru": "E-taxes (налоговый портал Азербайджана)",
     "ka": "E-taxes (აზერბაიჯანის საგადასახადო პორტალი)",
-    "ar": "E-taxes (البوابة الضريبية الأذربيجانية)"
+    "ar": "E-taxes (البوابة الضريبية الأذربيجانية)",
+    "es": "E-taxes (portal tributario de Azerbaiyán)"
   },
   {
     "code": "emas",
@@ -2850,7 +3166,8 @@
     "en": "EMAS (electronic employment contracts system)",
     "ru": "ƏMAS (система электронных трудовых договоров)",
     "ka": "ƏMAS (შრომითი ხელშეკრულებების სისტემა)",
-    "ar": "EMAS (نظام عقود العمل الإلكترونية)"
+    "ar": "EMAS (نظام عقود العمل الإلكترونية)",
+    "es": "EMAS (contratos laborales electrónicos)"
   },
   {
     "code": "logo_tiger",
@@ -2859,7 +3176,8 @@
     "en": "Logo Tiger",
     "ru": "Logo Tiger",
     "ka": "Logo Tiger",
-    "ar": "Logo Tiger"
+    "ar": "Logo Tiger",
+    "es": "Logo Tiger"
   },
   {
     "code": "btp",
@@ -2868,7 +3186,8 @@
     "en": "BTP accounting software",
     "ru": "BTP (бухгалтерская программа)",
     "ka": "BTP (საბუღალტრო პროგრამა)",
-    "ar": "برنامج BTP للمحاسبة"
+    "ar": "برنامج BTP للمحاسبة",
+    "es": "BTP (programa de contabilidad)"
   },
   {
     "code": "helpdesk",
@@ -2877,7 +3196,8 @@
     "en": "Helpdesk (technical support)",
     "ru": "Helpdesk (техническая поддержка)",
     "ka": "Helpdesk (ტექნიკური მხარდაჭერა)",
-    "ar": "الدعم الفني (Helpdesk)"
+    "ar": "الدعم الفني (Helpdesk)",
+    "es": "Helpdesk (soporte técnico)"
   },
   {
     "code": "responsibility",
@@ -2886,7 +3206,8 @@
     "en": "Responsibility",
     "ru": "Ответственность",
     "ka": "პასუხისმგებლობა",
-    "ar": "تحمّل المسؤولية"
+    "ar": "تحمّل المسؤولية",
+    "es": "Responsabilidad"
   },
   {
     "code": "punctuality",
@@ -2895,7 +3216,8 @@
     "en": "Punctuality",
     "ru": "Пунктуальность",
     "ka": "პუნქტუალურობა",
-    "ar": "الالتزام بالمواعيد"
+    "ar": "الالتزام بالمواعيد",
+    "es": "Puntualidad"
   },
   {
     "code": "patience",
@@ -2904,7 +3226,8 @@
     "en": "Patience",
     "ru": "Терпеливость",
     "ka": "მოთმინება",
-    "ar": "الصبر"
+    "ar": "الصبر",
+    "es": "Paciencia"
   },
   {
     "code": "attention_to_detail",
@@ -2913,7 +3236,8 @@
     "en": "Attention to detail",
     "ru": "Внимание к деталям",
     "ka": "დეტალებისადმი ყურადღება",
-    "ar": "الانتباه للتفاصيل"
+    "ar": "الانتباه للتفاصيل",
+    "es": "Atención al detalle"
   },
   {
     "code": "promptness",
@@ -2922,7 +3246,8 @@
     "en": "Promptness",
     "ru": "Оперативность",
     "ka": "ოპერატიულობა",
-    "ar": "سرعة الإنجاز"
+    "ar": "سرعة الإنجاز",
+    "es": "Rapidez"
   },
   {
     "code": "public_speaking",
@@ -2931,7 +3256,8 @@
     "en": "Public speaking",
     "ru": "Ораторское искусство",
     "ka": "საჯარო გამოსვლა",
-    "ar": "الخطابة أمام الجمهور"
+    "ar": "الخطابة أمام الجمهور",
+    "es": "Oratoria"
   },
   {
     "code": "active_listening",
@@ -2940,7 +3266,8 @@
     "en": "Active listening",
     "ru": "Активное слушание",
     "ka": "აქტიური მოსმენა",
-    "ar": "الإنصات الفعّال"
+    "ar": "الإنصات الفعّال",
+    "es": "Escucha activa"
   },
   {
     "code": "decision_making",
@@ -2949,7 +3276,8 @@
     "en": "Decision making",
     "ru": "Принятие решений",
     "ka": "გადაწყვეტილების მიღება",
-    "ar": "اتخاذ القرار"
+    "ar": "اتخاذ القرار",
+    "es": "Toma de decisiones"
   },
   {
     "code": "fast_learning",
@@ -2958,7 +3286,8 @@
     "en": "Fast learning",
     "ru": "Быстрая обучаемость",
     "ka": "სწრაფად სწავლის უნარი",
-    "ar": "سرعة التعلّم"
+    "ar": "سرعة التعلّم",
+    "es": "Aprendizaje rápido"
   },
   {
     "code": "work_ethic",
@@ -2967,7 +3296,8 @@
     "en": "Work ethic",
     "ru": "Трудовая этика",
     "ka": "შრომის ეთიკა",
-    "ar": "أخلاقيات العمل"
+    "ar": "أخلاقيات العمل",
+    "es": "Ética profesional"
   },
   {
     "code": "initiative",
@@ -2976,7 +3306,8 @@
     "en": "Initiative",
     "ru": "Инициативность",
     "ka": "ინიციატივიანობა",
-    "ar": "روح المبادرة"
+    "ar": "روح المبادرة",
+    "es": "Iniciativa"
   },
   {
     "code": "discipline",
@@ -2985,7 +3316,8 @@
     "en": "Discipline",
     "ru": "Дисциплинированность",
     "ka": "დისციპლინა",
-    "ar": "الانضباط"
+    "ar": "الانضباط",
+    "es": "Disciplina"
   },
   {
     "code": "reliability",
@@ -2994,7 +3326,8 @@
     "en": "Reliability",
     "ru": "Надёжность",
     "ka": "სანდოობა",
-    "ar": "الموثوقية"
+    "ar": "الموثوقية",
+    "es": "Fiabilidad"
   },
   {
     "code": "honesty",
@@ -3003,7 +3336,8 @@
     "en": "Honesty",
     "ru": "Честность",
     "ka": "პატიოსნება",
-    "ar": "الأمانة"
+    "ar": "الأمانة",
+    "es": "Honestidad"
   },
   {
     "code": "logical_thinking",
@@ -3012,7 +3346,8 @@
     "en": "Logical thinking",
     "ru": "Логическое мышление",
     "ka": "ლოგიკური აზროვნება",
-    "ar": "التفكير المنطقي"
+    "ar": "التفكير المنطقي",
+    "es": "Pensamiento lógico"
   },
   {
     "code": "numeracy",
@@ -3021,7 +3356,8 @@
     "en": "Numeracy",
     "ru": "Математические навыки",
     "ka": "მათემატიკური უნარები",
-    "ar": "المهارات الحسابية"
+    "ar": "المهارات الحسابية",
+    "es": "Conocimientos matemáticos"
   },
   {
     "code": "translation",
@@ -3030,7 +3366,8 @@
     "en": "Translation",
     "ru": "Перевод",
     "ka": "თარგმნა",
-    "ar": "الترجمة"
+    "ar": "الترجمة",
+    "es": "Traducción"
   },
   {
     "code": "open_mindedness",
@@ -3039,7 +3376,8 @@
     "en": "Open-mindedness",
     "ru": "Открытость новому",
     "ka": "ღია აზროვნება",
-    "ar": "الانفتاح الذهني"
+    "ar": "الانفتاح الذهني",
+    "es": "Mentalidad abierta"
   },
   {
     "code": "driving",
@@ -3048,7 +3386,8 @@
     "en": "Driving skills",
     "ru": "Навыки вождения",
     "ka": "მართვის უნარი",
-    "ar": "مهارات القيادة"
+    "ar": "مهارات القيادة",
+    "es": "Conducción"
   },
   {
     "code": "welding",
@@ -3057,7 +3396,8 @@
     "en": "Welding",
     "ru": "Сварочные работы",
     "ka": "შედუღება",
-    "ar": "اللحام"
+    "ar": "اللحام",
+    "es": "Soldadura"
   },
   {
     "code": "car_repair",
@@ -3066,7 +3406,8 @@
     "en": "Car repair",
     "ru": "Ремонт автомобилей",
     "ka": "ავტომობილის შეკეთება",
-    "ar": "إصلاح السيارات"
+    "ar": "إصلاح السيارات",
+    "es": "Reparación de automóviles"
   },
   {
     "code": "assembly_installation",
@@ -3075,6 +3416,7 @@
     "en": "Assembly and installation",
     "ru": "Монтажные работы",
     "ka": "სამონტაჟო სამუშაოები",
-    "ar": "التجميع والتركيب"
+    "ar": "التجميع والتركيب",
+    "es": "Montaje e instalación"
   }
 ]

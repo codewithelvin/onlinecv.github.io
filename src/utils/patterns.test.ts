@@ -14,6 +14,8 @@ const NATIVE_NAME: Record<string, string> = {
   ru: 'Иван Петров',
   ka: 'გიორგი ბერიძე',
   ar: 'محمد العلي',
+  // An accented vowel and an eñe — what an ASCII-Latin rule would have rejected.
+  es: 'José Núñez',
 };
 
 describe('PERSON_NAME', () => {

@@ -1,8 +1,17 @@
 # Adding a UI/CV language
 
-The app ships Azerbaijani (default), Russian, English, Georgian and Arabic.
-Adding Turkish, German, Farsi … is an **additive** change: no component holds a
-language list, and no existing translation has to be touched.
+The app ships Azerbaijani (default), Russian, English, Georgian, Arabic and
+Spanish. Adding Turkish, German, Farsi … is an **additive** change: no component
+holds a language list, and no existing translation has to be touched.
+
+Spanish is the worked example of the *easy* case, and worth reading first if the
+new language is written in Latin or Cyrillic: steps 1–3 plus the dictionaries, no
+font work, no shaping, no digit handling. Inter already covers `á é í ó ú ü ñ ¿ ¡`
+(check with fontkit, as step 4 describes), so `cv: true` held from the start.
+
+Order in the switchers is **not** the order you declare the entry in:
+`SUPPORTED_LOCALES` sorts the default locale first and the rest alphabetically by
+`short`, so a new language places itself.
 
 Two lists, not one: `SUPPORTED_LOCALES` is what the app is translated into, and
 `CV_LOCALES` (`LocaleMeta.cv`) is what a CV can be *exported* in. They are
@@ -85,31 +94,48 @@ empty values, and that the dayjs data was imported.
    handed the array.) `templates.pdf.test.tsx` asserts a CV in the new script
    embeds both families and never falls back to Helvetica.
 
-## Optional steps
+## Required steps, continued
 
-5. **Dictionary labels** — add a `"tr"` column to `src/data/*.json`. Rows without
-   it fall back to `az` via `dictionaryLabel()`, so this can be done gradually,
-   dataset by dataset; values already saved in a CV re-label themselves as soon
-   as the column exists, since they are stored as codes rather than text.
+5. **Dictionary labels** — add a `"tr"` column to every file in `src/data/`.
+   **This is no longer optional**: `src/data/datasets.test.ts` holds *all ten*
+   groups to full coverage for every supported locale, so the suite goes red the
+   moment the union is widened and stays red until the last row is translated.
+   That is deliberate — the label is printed on the CV and picked from a select, so
+   a user in the new language would otherwise be reading Azerbaijani in the middle
+   of their own résumé.
 
-   Georgian and Arabic are fully translated in the four groups whose labels a user
-   reads in a select or on the finished CV — **skills (342), nationality (34),
-   languages (18), interests (17)** — and `src/data/datasets.test.ts` holds those
-   four to full coverage for every supported locale, so this step is only
-   *optional* until the test says otherwise. **`colleges` (127) and the 62
-   Azerbaijani `universities` are deliberately left in Azerbaijani**: they are
-   institution *names*, and a transliteration is less useful than the real one.
-   (The 50 foreign universities added alongside them carry every locale.)
+   The volume, at the time of writing: skills 342, specialities 305, faculties 263,
+   positions 243, universities 154, cities 132, colleges 127, nationality 34,
+   languages 18, interests 17 — **1,635 rows**. Do it with a script that rebuilds
+   each row key-by-key (so the new column lands in the same place in every file)
+   and *refuses to write* on an unmapped code, a duplicate label within the
+   dataset, or a label longer than `FIELD_MAX` for that group. The three legacy
+   synonym pairs in `skills` are the only rows allowed to share a label.
 
-   Software and product names stay in Latin script in every locale — that is how
-   they are written in a real CV, and transliterating them would make them
-   unsearchable.
+   Values already saved in a CV re-label themselves as soon as the column exists,
+   since they are stored as codes rather than as text.
 
-   One dataset is not optional: **`languages`**. `LanguageItem.code` is the only
-   field in the model with no free-text fallback (§13.1), so a language missing
-   from that file cannot be claimed on a CV at all — shipping a Georgian UI while
-   Georgian was absent from the list meant a Georgian user could not list their
-   own mother tongue. A test now asserts every UI language has a row.
+   Conventions the earlier locales settled on:
+   - **Software and product names stay in Latin** in every locale — that is how
+     they are written in a real CV, and translating them would make them
+     unsearchable. Same for the AZ-market tools (`Logo Tiger`, `E-taxes`, `BTP`).
+   - **Institution and place names translate their descriptors and keep the proper
+     name**: "Universidad Estatal de Bakú", not a transliteration of the whole
+     string. Use the established exonym where the language has one (Bakú, Moscú,
+     Estambul, El Cairo) and leave the rest in its international Latin form.
+   - **`specialities` holds both programme names and profession names** on purpose
+     ("Contabilidad" *and* "Contable"), because the field is labelled "Profession
+     (specialty)" and users enter both. They must not collapse into one label.
+
+   One dataset matters more than the others: **`languages`**. `LanguageItem.code`
+   is the only field in the model with no free-text fallback (§13.1), so a language
+   missing from that file cannot be claimed on a CV at all — shipping a Georgian UI
+   while Georgian was absent from the list meant a Georgian user could not list
+   their own mother tongue. A test asserts every UI language has a row, and it maps
+   the locale to a code rather than assuming they match: Spanish is `hispanic`,
+   the name the original dictionary used.
+
+## Optional step
 
 6. **Template names** — `TemplateManifest.name` requires only `az`, so existing
    template folders keep working untouched. Add the new code when convenient.

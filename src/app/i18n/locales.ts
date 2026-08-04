@@ -4,11 +4,13 @@ import ruRU from 'antd/locale/ru_RU';
 import enUS from 'antd/locale/en_US';
 import kaGE from 'antd/locale/ka_GE';
 import arEG from 'antd/locale/ar_EG';
+import esES from 'antd/locale/es_ES';
 import 'dayjs/locale/az';
 import 'dayjs/locale/ru';
 import 'dayjs/locale/en';
 import 'dayjs/locale/ka';
 import 'dayjs/locale/ar';
+import 'dayjs/locale/es';
 import type { Locale } from '../../types/resume';
 
 /**
@@ -80,8 +82,9 @@ export interface LocaleMeta {
 }
 
 /**
- * Declaration order is display order in the language switchers, so the primary
- * market comes first.
+ * Declaration order is NOT display order — see `SUPPORTED_LOCALES` below, which
+ * sorts them. Keeping the entries grouped by when they were added instead keeps
+ * each one next to the comment explaining what it needed.
  */
 export const LOCALES: Record<Locale, LocaleMeta> = {
   az: {
@@ -152,17 +155,29 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     cv: true,
     antd: arEG,
   },
+  /**
+   * Spanish — the first locale that needed nothing but a translation: Latin
+   * script, so Inter already covers every letter it uses (`á é í ó ú ü ñ ¿ ¡`,
+   * verified against the shipped TTFs), and react-pdf draws it with no shaping or
+   * digit work. Hence `cv: true` from the start.
+   *
+   * `capitalizeMonths: true` is a house-style call, not orthography: Spanish
+   * writes month names in lower case, exactly as Russian does, and `ru` is already
+   * title-cased here so a CV reads the same whichever language it is in. It is
+   * safe in a way Georgian was not — upper-casing a Latin letter yields a Latin
+   * capital, while `toLocaleUpperCase('ka')` produced Mtavruli, a different form.
+   */
+  es: {
+    code: 'es',
+    short: 'ES',
+    nativeName: 'Español',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
+    antd: esES,
+  },
 };
-
-/** Every supported locale, in switcher order. */
-export const SUPPORTED_LOCALES = Object.keys(LOCALES) as Locale[];
-
-/**
- * The locales a CV itself can be written in — `SUPPORTED_LOCALES` minus the ones
- * the exporter cannot render correctly yet (`LocaleMeta.cv`). Only the
- * CV-language select reads this; the UI switcher offers everything.
- */
-export const CV_LOCALES = SUPPORTED_LOCALES.filter((code) => LOCALES[code].cv);
 
 /**
  * First run starts in Azerbaijani — the primary market — and this is also the
@@ -171,6 +186,35 @@ export const CV_LOCALES = SUPPORTED_LOCALES.filter((code) => LOCALES[code].cv);
  * to be present.
  */
 export const DEFAULT_LOCALE = 'az' satisfies Locale;
+
+/**
+ * Every supported locale, in the order the switchers list them: the app's own
+ * language first, then the rest alphabetically.
+ *
+ * A RULE, not the declaration order this used to take. Declaration order made
+ * "where does a new language appear" an accident of when it was added — Spanish
+ * appended itself after Arabic, and past three or four entries the list simply
+ * reads as unsorted. The default locale stays pinned first because it is the app's
+ * own language and the one most of its users want.
+ *
+ * Sorted on `short` rather than on `nativeName`: comparing across scripts has no
+ * script-independent answer (`'العربية'.localeCompare('English')` depends on ICU
+ * collation data), while the two-letter chips are ASCII and sort the same
+ * everywhere. `CV_LOCALES` filters this list, so both selects agree.
+ */
+export const SUPPORTED_LOCALES = (Object.keys(LOCALES) as Locale[]).sort((a, b) => {
+  if (a === b) return 0;
+  if (a === DEFAULT_LOCALE) return -1;
+  if (b === DEFAULT_LOCALE) return 1;
+  return LOCALES[a].short.localeCompare(LOCALES[b].short);
+});
+
+/**
+ * The locales a CV itself can be written in — `SUPPORTED_LOCALES` minus the ones
+ * the exporter cannot render correctly yet (`LocaleMeta.cv`). Only the
+ * CV-language select reads this; the UI switcher offers everything.
+ */
+export const CV_LOCALES = SUPPORTED_LOCALES.filter((code) => LOCALES[code].cv);
 
 /** Type guard for untrusted locale values (persisted state, `i18n.language`). */
 export function isLocale(value: unknown): value is Locale {

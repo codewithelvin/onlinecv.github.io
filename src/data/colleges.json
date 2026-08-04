@@ -6,7 +6,8 @@
     "en": "Baku Medical College No. 1",
     "ru": "Бакинский Медицинский Колледж №1",
     "ka": "ბაქოს №1 სამედიცინო კოლეჯი",
-    "ar": "كلية باكو الطبية رقم ١"
+    "ar": "كلية باكو الطبية رقم ١",
+    "es": "Escuela de Medicina de Bakú n.º 1"
   },
   {
     "code": "bbmc",
@@ -15,7 +16,8 @@
     "en": "Baku Base Medical College number 2",
     "ru": "Бакинский Базовый Медицинский Колледж №2",
     "ka": "ბაქოს №2 საბაზო სამედიცინო კოლეჯი",
-    "ar": "كلية باكو الطبية الأساسية رقم ٢"
+    "ar": "كلية باكو الطبية الأساسية رقم ٢",
+    "es": "Escuela de Medicina de Base de Bakú n.º 2"
   },
   {
     "code": "agpc",
@@ -24,7 +26,8 @@
     "en": "Agjabadi Pedagogical College",
     "ru": "Агджабединский педагогический колледж",
     "ka": "აღჯაბედის პედაგოგიური კოლეჯი",
-    "ar": "كلية أغجابيدي التربوية"
+    "ar": "كلية أغجابيدي التربوية",
+    "es": "Escuela Pedagógica de Aghjabadi"
   },
   {
     "code": "ascec",
@@ -33,7 +36,8 @@
     "en": "Agdam State Socio-Economic College",
     "ru": "Агдамский государственный социально-экономический колледж",
     "ka": "აღდამის სახელმწიფო სოციალურ-ეკონომიკური კოლეჯი",
-    "ar": "كلية أغدام الحكومية الاجتماعية والاقتصادية"
+    "ar": "كلية أغدام الحكومية الاجتماعية والاقتصادية",
+    "es": "Escuela Socioeconómica Estatal de Aghdam"
   },
   {
     "code": "amc",
@@ -42,7 +46,8 @@
     "en": "Aghdam Music College",
     "ru": "Агдамский музыкальный колледж",
     "ka": "აღდამის მუსიკის კოლეჯი",
-    "ar": "كلية أغدام للموسيقى"
+    "ar": "كلية أغدام للموسيقى",
+    "es": "Escuela de Música de Aghdam"
   },
   {
     "code": "ashc",
@@ -51,7 +56,8 @@
     "en": "Agdash State Humanitarian College",
     "ru": "Агдашский государственный гуманитарный колледж",
     "ka": "აღდაშის სახელმწიფო ჰუმანიტარული კოლეჯი",
-    "ar": "كلية أغداش الحكومية للعلوم الإنسانية"
+    "ar": "كلية أغداش الحكومية للعلوم الإنسانية",
+    "es": "Escuela Estatal de Humanidades de Aghdash"
   },
   {
     "code": "aspc",
@@ -60,7 +66,8 @@
     "en": "Astara Pedagogical College",
     "ru": "Астаринский педагогический колледж",
     "ka": "ასთარას პედაგოგიური კოლეჯი",
-    "ar": "كلية أستارا التربوية"
+    "ar": "كلية أستارا التربوية",
+    "es": "Escuela Pedagógica de Astara"
   },
   {
     "code": "amcasma",
@@ -69,7 +76,8 @@
     "en": "Azerbaijan Maritime College under the Azerbaijan State Maritime Academy",
     "ru": "Азербайджанский Морской Колледж при Азербайджанской Государственной Морской Академии",
     "ka": "აზერბაიჯანის საზღვაო კოლეჯი აზერბაიჯანის სახელმწიფო საზღვაო აკადემიასთან",
-    "ar": "كلية أذربيجان البحرية التابعة لأكاديمية أذربيجان الحكومية البحرية"
+    "ar": "كلية أذربيجان البحرية التابعة لأكاديمية أذربيجان الحكومية البحرية",
+    "es": "Escuela Marítima de Azerbaiyán adscrita a la Academia Marítima Estatal de Azerbaiyán"
   },
   {
     "code": "acfeasue",
@@ -78,7 +86,8 @@
     "en": "Azerbaijan College of Finance and Economics under the Azerbaijan State University of Economics",
     "ru": "Азербайджанский финансово-экономический колледж при Азербайджанском государственном экономическом университете",
     "ka": "აზერბაიჯანის ფინანსებისა და ეკონომიკის კოლეჯი აზერბაიჯანის სახელმწიფო ეკონომიკურ უნივერსიტეტთან",
-    "ar": "كلية أذربيجان للمالية والاقتصاد التابعة لجامعة أذربيجان الحكومية الاقتصادية"
+    "ar": "كلية أذربيجان للمالية والاقتصاد التابعة لجامعة أذربيجان الحكومية الاقتصادية",
+    "es": "Escuela de Finanzas y Economía de Azerbaiyán adscrita a la Universidad Estatal de Economía de Azerbaiyán"
   },
   {
     "code": "secasue",
@@ -87,7 +96,8 @@
     "en": "Socio-Economic College under Azerbaijan State University of Economics",
     "ru": "Социально-экономический колледж при Азербайджанском государственном экономическом университете",
     "ka": "სოციალურ-ეკონომიკური კოლეჯი აზერბაიჯანის სახელმწიფო ეკონომიკურ უნივერსიტეტთან",
-    "ar": "الكلية الاجتماعية والاقتصادية التابعة لجامعة أذربيجان الحكومية الاقتصادية"
+    "ar": "الكلية الاجتماعية والاقتصادية التابعة لجامعة أذربيجان الحكومية الاقتصادية",
+    "es": "Escuela Socioeconómica adscrita a la Universidad Estatal de Economía de Azerbaiyán"
   },
   {
     "code": "cfiasue",
@@ -96,7 +106,8 @@
     "en": "College of Food Industry under Azerbaijan State University of Economics",
     "ru": "Колледж пищевой промышленности Азербайджанского государственного экономического университета",
     "ka": "კვების მრეწველობის კოლეჯი აზერბაიჯანის სახელმწიფო ეკონომიკურ უნივერსიტეტთან",
-    "ar": "كلية صناعة الأغذية التابعة لجامعة أذربيجان الحكومية الاقتصادية"
+    "ar": "كلية صناعة الأغذية التابعة لجامعة أذربيجان الحكومية الاقتصادية",
+    "es": "Escuela de Industria Alimentaria adscrita a la Universidad Estatal de Economía de Azerbaiyán"
   },
   {
     "code": "hcasuca",
@@ -105,7 +116,8 @@
     "en": "Humanitarian College under the Azerbaijan State University of Culture and Arts",
     "ru": "Гуманитарный колледж при Азербайджанском государственном университете культуры и искусств",
     "ka": "ჰუმანიტარული კოლეჯი აზერბაიჯანის სახელმწიფო კულტურისა და ხელოვნების უნივერსიტეტთან",
-    "ar": "الكلية الإنسانية التابعة لجامعة أذربيجان الحكومية للثقافة والفنون"
+    "ar": "الكلية الإنسانية التابعة لجامعة أذربيجان الحكومية للثقافة والفنون",
+    "es": "Escuela de Humanidades adscrita a la Universidad Estatal de Cultura y Artes de Azerbaiyán"
   },
   {
     "code": "boecasoiu",
@@ -114,7 +126,8 @@
     "en": "Baku Oil and Energy College under Azerbaijan State Oil and Industry University",
     "ru": "Бакинский Нефтеэнергетический Колледж при Азербайджанском Государственном Университете Нефти и Промышленности",
     "ka": "ბაქოს ნავთობისა და ენერგეტიკის კოლეჯი აზერბაიჯანის სახელმწიფო ნავთობისა და მრეწველობის უნივერსიტეტთან",
-    "ar": "كلية باكو للنفط والطاقة التابعة لجامعة أذربيجان الحكومية للنفط والصناعة"
+    "ar": "كلية باكو للنفط والطاقة التابعة لجامعة أذربيجان الحكومية للنفط والصناعة",
+    "es": "Escuela de Petróleo y Energía de Bakú adscrita a la Universidad Estatal de Petróleo e Industria de Azerbaiyán"
   },
   {
     "code": "citasoiu",
@@ -123,7 +136,8 @@
     "en": "College of Industry and Technology under Azerbaijan State Oil and Industry University",
     "ru": "Колледж Промышленности и Технологий Азербайджанского Государственного Университета Нефти и Промышленности",
     "ka": "მრეწველობისა და ტექნოლოგიების კოლეჯი აზერბაიჯანის სახელმწიფო ნავთობისა და მრეწველობის უნივერსიტეტთან",
-    "ar": "كلية الصناعة والتكنولوجيا التابعة لجامعة أذربيجان الحكومية للنفط والصناعة"
+    "ar": "كلية الصناعة والتكنولوجيا التابعة لجامعة أذربيجان الحكومية للنفط والصناعة",
+    "es": "Escuela de Industria y Tecnología adscrita a la Universidad Estatal de Petróleo e Industria de Azerbaiyán"
   },
   {
     "code": "aspcaspu",
@@ -132,7 +146,8 @@
     "en": "Azerbaijan State Pedagogical College under Azerbaijan State Pedagogical University",
     "ru": "Азербайджанский Государственный Педагогический Колледж при Азербайджанском Государственном Педагогическом Университете",
     "ka": "აზერბაიჯანის სახელმწიფო პედაგოგიური კოლეჯი აზერბაიჯანის სახელმწიფო პედაგოგიურ უნივერსიტეტთან",
-    "ar": "كلية أذربيجان الحكومية التربوية التابعة لجامعة أذربيجان الحكومية التربوية"
+    "ar": "كلية أذربيجان الحكومية التربوية التابعة لجامعة أذربيجان الحكومية التربوية",
+    "es": "Escuela Pedagógica Estatal de Azerbaiyán adscrita a la Universidad Pedagógica Estatal de Azerbaiyán"
   },
   {
     "code": "ccauac",
@@ -141,7 +156,8 @@
     "en": "College of Construction under the Azerbaijan University of Architecture and Construction",
     "ru": "Колледж Строительства при Азербайджанском Университете Архитектуры и Строительства",
     "ka": "მშენებლობის კოლეჯი აზერბაიჯანის არქიტექტურისა და მშენებლობის უნივერსიტეტთან",
-    "ar": "كلية التشييد التابعة لجامعة أذربيجان للهندسة المعمارية والتشييد"
+    "ar": "كلية التشييد التابعة لجامعة أذربيجان للهندسة المعمارية والتشييد",
+    "es": "Escuela de Construcción adscrita a la Universidad de Arquitectura y Construcción de Azerbaiyán"
   },
   {
     "code": "mcanc",
@@ -150,7 +166,8 @@
     "en": "Music College under Azerbaijan National Conservatory",
     "ru": "Музыкальный колледж при Азербайджанской Национальной Консерватории",
     "ka": "მუსიკის კოლეჯი აზერბაიჯანის ნაციონალურ კონსერვატორიასთან",
-    "ar": "كلية الموسيقى التابعة لمعهد أذربيجان الوطني للموسيقى"
+    "ar": "كلية الموسيقى التابعة لمعهد أذربيجان الوطني للموسيقى",
+    "es": "Escuela de Música adscrita al Conservatorio Nacional de Azerbaiyán"
   },
   {
     "code": "smcanc",
@@ -159,7 +176,8 @@
     "en": "Sumgayit Music College under the Azerbaijan National Conservatory",
     "ru": "Сумгаитский Музыкальный Колледж при Азербайджанской Национальной Консерватории",
     "ka": "სუმგაითის მუსიკის კოლეჯი აზერბაიჯანის ნაციონალურ კონსერვატორიასთან",
-    "ar": "كلية سومقاييت للموسيقى التابعة لمعهد أذربيجان الوطني للموسيقى"
+    "ar": "كلية سومقاييت للموسيقى التابعة لمعهد أذربيجان الوطني للموسيقى",
+    "es": "Escuela de Música de Sumqayit adscrita al Conservatorio Nacional de Azerbaiyán"
   },
   {
     "code": "caaaa",
@@ -168,7 +186,8 @@
     "en": "College of Arts under Azerbaijan Art Academy",
     "ru": "Колледж Искусств при Азербайджанской Академии Художеств",
     "ka": "ხელოვნების კოლეჯი აზერბაიჯანის ხელოვნების აკადემიასთან",
-    "ar": "كلية الفنون التابعة لأكاديمية أذربيجان للفنون"
+    "ar": "كلية الفنون التابعة لأكاديمية أذربيجان للفنون",
+    "es": "Escuela de Artes adscrita a la Academia de Bellas Artes de Azerbaiyán"
   },
   {
     "code": "bscctatu",
@@ -177,7 +196,8 @@
     "en": "Baku State College of Communication and Transport under Azerbaijan Technical University",
     "ru": "Бакинский Государственный Колледж Связи и Транспорта при Азербайджанском Техническом Университете",
     "ka": "ბაქოს კავშირგაბმულობისა და ტრანსპორტის სახელმწიფო კოლეჯი აზერბაიჯანის ტექნიკურ უნივერსიტეტთან",
-    "ar": "كلية باكو الحكومية للاتصالات والنقل التابعة لجامعة أذربيجان التقنية"
+    "ar": "كلية باكو الحكومية للاتصالات والنقل التابعة لجامعة أذربيجان التقنية",
+    "es": "Escuela Estatal de Comunicaciones y Transporte de Bakú adscrita a la Universidad Técnica de Azerbaiyán"
   },
   {
     "code": "btcatu",
@@ -186,7 +206,8 @@
     "en": "Baku Technical College under Azerbaijan Technical University",
     "ru": "Бакинский Технический Колледж при Азербайджанском Техническом Университете",
     "ka": "ბაქოს ტექნიკური კოლეჯი აზერბაიჯანის ტექნიკურ უნივერსიტეტთან",
-    "ar": "كلية باكو التقنية التابعة لجامعة أذربيجان التقنية"
+    "ar": "كلية باكو التقنية التابعة لجامعة أذربيجان التقنية",
+    "es": "Escuela Técnica de Bakú adscrita a la Universidad Técnica de Azerbaiyán"
   },
   {
     "code": "cehbsu",
@@ -195,7 +216,8 @@
     "en": "College of Economics and Humanities under Baku State University",
     "ru": "Колледж Экономики и Гуманитарных наук при Бакинском Государственном Университете",
     "ka": "ეკონომიკისა და ჰუმანიტარულ მეცნიერებათა კოლეჯი ბაქოს სახელმწიფო უნივერსიტეტთან",
-    "ar": "كلية الاقتصاد والعلوم الإنسانية التابعة لجامعة باكو الحكومية"
+    "ar": "كلية الاقتصاد والعلوم الإنسانية التابعة لجامعة باكو الحكومية",
+    "es": "Escuela de Economía y Humanidades adscrita a la Universidad Estatal de Bakú"
   },
   {
     "code": "bscmt",
@@ -204,7 +226,8 @@
     "en": "Barda State College of Management and Technology",
     "ru": "Бардинский государственный колледж управления и технологий",
     "ka": "ბარდის სახელმწიფო მენეჯმენტისა და ტექნოლოგიების კოლეჯი",
-    "ar": "كلية بردة الحكومية للإدارة والتكنولوجيا"
+    "ar": "كلية بردة الحكومية للإدارة والتكنولوجيا",
+    "es": "Escuela Estatal de Gestión y Tecnología de Barda"
   },
   {
     "code": "biic",
@@ -213,7 +236,8 @@
     "en": "Bibiheybat Islamic College",
     "ru": "Исламский колледж Бибиэйбат",
     "ka": "ბიბიჰეიბათის ისლამური კოლეჯი",
-    "ar": "كلية بيبي هيبت الإسلامية"
+    "ar": "كلية بيبي هيبت الإسلامية",
+    "es": "Colegio Islámico de Bibiheybat"
   },
   {
     "code": "jalmc",
@@ -222,7 +246,8 @@
     "en": "Jalilabad Medical College",
     "ru": "Джалилабадский медицинский колледж",
     "ka": "ჯალილაბადის სამედიცინო კოლეჯი",
-    "ar": "كلية جليل آباد الطبية"
+    "ar": "كلية جليل آباد الطبية",
+    "es": "Escuela de Medicina de Jalilabad"
   },
   {
     "code": "rcgsu",
@@ -231,7 +256,8 @@
     "en": "Regional College under Ganja State University",
     "ru": "Региональный колледж при Гянджинском государственном университете",
     "ka": "რეგიონული კოლეჯი განჯის სახელმწიფო უნივერსიტეტთან",
-    "ar": "الكلية الإقليمية التابعة لجامعة كنجة الحكومية"
+    "ar": "الكلية الإقليمية التابعة لجامعة كنجة الحكومية",
+    "es": "Escuela Regional adscrita a la Universidad Estatal de Ganyá"
   },
   {
     "code": "ganic",
@@ -240,7 +266,8 @@
     "en": "Ganja Islamic College",
     "ru": "Гянджинский исламский колледж",
     "ka": "განჯის ისლამური კოლეჯი",
-    "ar": "كلية كنجة الإسلامية"
+    "ar": "كلية كنجة الإسلامية",
+    "es": "Colegio Islámico de Ganyá"
   },
   {
     "code": "ganmc",
@@ -249,7 +276,8 @@
     "en": "Ganja Medical College",
     "ru": "Гянджинский медицинский колледж",
     "ka": "განჯის სამედიცინო კოლეჯი",
-    "ar": "كلية كنجة الطبية"
+    "ar": "كلية كنجة الطبية",
+    "es": "Escuela de Medicina de Ganyá"
   },
   {
     "code": "gsmtc",
@@ -258,7 +286,8 @@
     "en": "Goychay State Management and Technology College",
     "ru": "Гейчайский Государственный Колледж Управления и Технологии",
     "ka": "გოიჩაის სახელმწიფო მენეჯმენტისა და ტექნოლოგიების კოლეჯი",
-    "ar": "كلية غويتشاي الحكومية للإدارة والتكنولوجيا"
+    "ar": "كلية غويتشاي الحكومية للإدارة والتكنولوجيا",
+    "es": "Escuela Estatal de Gestión y Tecnología de Goychay"
   },
   {
     "code": "heyic",
@@ -267,7 +296,8 @@
     "en": "Heydar Islamic College",
     "ru": "Исламский колледж Гейдара",
     "ka": "ჰეიდარის ისლამური კოლეჯი",
-    "ar": "كلية حيدر الإسلامية"
+    "ar": "كلية حيدر الإسلامية",
+    "es": "Colegio Islámico Heydar"
   },
   {
     "code": "ishtc",
@@ -276,7 +306,8 @@
     "en": "Ismayilli State Humanitarian and Technology College",
     "ru": "Исмаиллинский государственный гуманитарно-технический колледж",
     "ka": "ისმაილის სახელმწიფო ჰუმანიტარულ-ტექნოლოგიური კოლეჯი",
-    "ar": "كلية إسماعيلي الحكومية للعلوم الإنسانية والتكنولوجيا"
+    "ar": "كلية إسماعيلي الحكومية للعلوم الإنسانية والتكنولوجيا",
+    "es": "Escuela Estatal de Humanidades y Tecnología de Ismayilli"
   },
   {
     "code": "kssec",
@@ -285,7 +316,8 @@
     "en": "Kazakh State Socio-Economic College",
     "ru": "Казахский государственный социально-экономический колледж",
     "ka": "ყაზახის სახელმწიფო სოციალურ-ეკონომიკური კოლეჯი",
-    "ar": "كلية قازاخ الحكومية الاجتماعية والاقتصادية"
+    "ar": "كلية قازاخ الحكومية الاجتماعية والاقتصادية",
+    "es": "Escuela Socioeconómica Estatal de Qazakh"
   },
   {
     "code": "gssec",
@@ -294,7 +326,8 @@
     "en": "Guba State Socio-Economic College",
     "ru": "Губинский государственный социально-экономический колледж",
     "ka": "ყუბის სახელმწიფო სოციალურ-ეკონომიკური კოლეჯი",
-    "ar": "كلية قوبا الحكومية الاجتماعية والاقتصادية"
+    "ar": "كلية قوبا الحكومية الاجتماعية والاقتصادية",
+    "es": "Escuela Socioeconómica Estatal de Guba"
   },
   {
     "code": "guic",
@@ -303,7 +336,8 @@
     "en": "Guba Islamic College",
     "ru": "Губинский исламский колледж",
     "ka": "ყუბის ისლამური კოლეჯი",
-    "ar": "كلية قوبا الإسلامية"
+    "ar": "كلية قوبا الإسلامية",
+    "es": "Colegio Islámico de Guba"
   },
   {
     "code": "gumc",
@@ -312,7 +346,8 @@
     "en": "Guba Medical College",
     "ru": "Губинский медицинский колледж",
     "ka": "ყუბის სამედიცინო კოლეჯი",
-    "ar": "كلية قوبا الطبية"
+    "ar": "كلية قوبا الطبية",
+    "es": "Escuela de Medicina de Guba"
   },
   {
     "code": "satclsu",
@@ -321,7 +356,8 @@
     "en": "Social and Agrarian-Technological College under Lankaran State University",
     "ru": "Социально-аграрно-технологический колледж при Ленкоранском государственном университете",
     "ka": "სოციალურ და აგრარულ-ტექნოლოგიური კოლეჯი ლენქორანის სახელმწიფო უნივერსიტეტთან",
-    "ar": "الكلية الاجتماعية والزراعية التكنولوجية التابعة لجامعة لنكران الحكومية"
+    "ar": "الكلية الاجتماعية والزراعية التكنولوجية التابعة لجامعة لنكران الحكومية",
+    "es": "Escuela Social y Agrotecnológica adscrita a la Universidad Estatal de Lankaran"
   },
   {
     "code": "lasc",
@@ -330,7 +366,8 @@
     "en": "Lankaran Islamic College",
     "ru": "Ленкоранский исламский колледж",
     "ka": "ლენქორანის ისლამური კოლეჯი",
-    "ar": "كلية لنكران الإسلامية"
+    "ar": "كلية لنكران الإسلامية",
+    "es": "Colegio Islámico de Lankaran"
   },
   {
     "code": "lamc",
@@ -339,7 +376,8 @@
     "en": "Lankaran Medical College",
     "ru": "Ленкоранский медицинский колледж",
     "ka": "ლენქორანის სამედიცინო კოლეჯი",
-    "ar": "كلية لنكران الطبية"
+    "ar": "كلية لنكران الطبية",
+    "es": "Escuela de Medicina de Lankaran"
   },
   {
     "code": "msrc",
@@ -348,7 +386,8 @@
     "en": "Masalli State Regional College",
     "ru": "Масаллинский Государственный Региональный Колледж",
     "ka": "მასალის სახელმწიფო რეგიონული კოლეჯი",
-    "ar": "كلية ماساللي الحكومية الإقليمية"
+    "ar": "كلية ماساللي الحكومية الإقليمية",
+    "es": "Escuela Regional Estatal de Masalli"
   },
   {
     "code": "mimc",
@@ -357,7 +396,8 @@
     "en": "Mingachevir Medical College",
     "ru": "Мингячевирский медицинский колледж",
     "ka": "მინგეჩევირის სამედიცინო კოლეჯი",
-    "ar": "كلية مينغاتشيفير الطبية"
+    "ar": "كلية مينغاتشيفير الطبية",
+    "es": "Escuela de Medicina de Mingachevir"
   },
   {
     "code": "mitc",
@@ -366,7 +406,8 @@
     "en": "Mingachevir Tourism College",
     "ru": "Мингячевирский колледж туризма",
     "ka": "მინგეჩევირის ტურიზმის კოლეჯი",
-    "ar": "كلية مينغاتشيفير للسياحة"
+    "ar": "كلية مينغاتشيفير للسياحة",
+    "es": "Escuela de Turismo de Mingachevir"
   },
   {
     "code": "nstc",
@@ -375,7 +416,8 @@
     "en": "Nakhchivan State Technical College",
     "ru": "Нахчыванский Государственный Технический Колледж",
     "ka": "ნახჩივანის სახელმწიფო ტექნიკური კოლეჯი",
-    "ar": "كلية ناختشيفان الحكومية التقنية"
+    "ar": "كلية ناختشيفان الحكومية التقنية",
+    "es": "Escuela Técnica Estatal de Najicheván"
   },
   {
     "code": "nakhmc",
@@ -384,7 +426,8 @@
     "en": "Nakhchivan Music College",
     "ru": "Нахчыванский Музыкальный Колледж",
     "ka": "ნახჩივანის მუსიკის კოლეჯი",
-    "ar": "كلية ناختشيفان للموسيقى"
+    "ar": "كلية ناختشيفان للموسيقى",
+    "es": "Escuela de Música de Najicheván"
   },
   {
     "code": "namedc",
@@ -393,7 +436,8 @@
     "en": "Nakhchivan Medical College",
     "ru": "Нахчыванский медицинский колледж",
     "ka": "ნახჩივანის სამედიცინო კოლეჯი",
-    "ar": "كلية ناختشيفان الطبية"
+    "ar": "كلية ناختشيفان الطبية",
+    "es": "Escuela de Medicina de Najicheván"
   },
   {
     "code": "naric",
@@ -402,7 +446,8 @@
     "en": "Nardaran Islamic College",
     "ru": "Исламский колледж Нардаран",
     "ka": "ნარდარანის ისლამური კოლეჯი",
-    "ar": "كلية ناردران الإسلامية"
+    "ar": "كلية ناردران الإسلامية",
+    "es": "Colegio Islámico de Nardaran"
   },
   {
     "code": "samc",
@@ -411,7 +456,8 @@
     "en": "Saatly Medical College",
     "ru": "Саатлинский медицинский колледж",
     "ka": "საათლის სამედიცინო კოლეჯი",
-    "ar": "كلية ساعتلي الطبية"
+    "ar": "كلية ساعتلي الطبية",
+    "es": "Escuela de Medicina de Saatli"
   },
   {
     "code": "sssec",
@@ -420,7 +466,8 @@
     "en": "Sabirabad State Socio-Economic College",
     "ru": "Сабирабадский государственный социально-экономический колледж",
     "ka": "საბირაბადის სახელმწიფო სოციალურ-ეკონომიკური კოლეჯი",
-    "ar": "كلية صابر آباد الحكومية الاجتماعية والاقتصادية"
+    "ar": "كلية صابر آباد الحكومية الاجتماعية والاقتصادية",
+    "es": "Escuela Socioeconómica Estatal de Sabirabad"
   },
   {
     "code": "sstcssu",
@@ -429,7 +476,8 @@
     "en": "Sumgayit State Technical College under Sumgayit State University",
     "ru": "Сумгаитский государственный технический колледж при Сумгаитском государственном университете",
     "ka": "სუმგაითის სახელმწიფო ტექნიკური კოლეჯი სუმგაითის სახელმწიფო უნივერსიტეტთან",
-    "ar": "كلية سومقاييت الحكومية التقنية التابعة لجامعة سومقاييت الحكومية"
+    "ar": "كلية سومقاييت الحكومية التقنية التابعة لجامعة سومقاييت الحكومية",
+    "es": "Escuela Técnica Estatal de Sumqayit adscrita a la Universidad Estatal de Sumqayit"
   },
   {
     "code": "summc",
@@ -438,7 +486,8 @@
     "en": "Sumgayit Medical College",
     "ru": "Сумгаитский медицинский колледж",
     "ka": "სუმგაითის სამედიცინო კოლეჯი",
-    "ar": "كلية سومقاييت الطبية"
+    "ar": "كلية سومقاييت الطبية",
+    "es": "Escuela de Medicina de Sumqayit"
   },
   {
     "code": "shamsrc",
@@ -447,7 +496,8 @@
     "en": "Shamakhi State Regional College",
     "ru": "Шамахинский государственный региональный колледж",
     "ka": "შამახის სახელმწიფო რეგიონული კოლეჯი",
-    "ar": "كلية شماخي الحكومية الإقليمية"
+    "ar": "كلية شماخي الحكومية الإقليمية",
+    "es": "Escuela Regional Estatal de Shamakhi"
   },
   {
     "code": "shic",
@@ -456,7 +506,8 @@
     "en": "Shabnam (Girls) Islamic College",
     "ru": "Исламский колледж Шабнам (для девочек)",
     "ka": "„შაბნამის“ (ქალთა) ისლამური კოლეჯი",
-    "ar": "كلية «شبنم» الإسلامية للبنات"
+    "ar": "كلية «شبنم» الإسلامية للبنات",
+    "es": "Colegio Islámico Shabnam (femenino)"
   },
   {
     "code": "shsrc",
@@ -465,7 +516,8 @@
     "en": "Sheki State Regional College",
     "ru": "Шекинский Государственный Региональный Колледж",
     "ka": "შექის სახელმწიფო რეგიონული კოლეჯი",
-    "ar": "كلية شكي الحكومية الإقليمية"
+    "ar": "كلية شكي الحكومية الإقليمية",
+    "es": "Escuela Regional Estatal de Shaki"
   },
   {
     "code": "shhaic",
@@ -474,7 +526,8 @@
     "en": "Sheki (Hafizlik) Islamic College",
     "ru": "Шекинский (Хафизликский) исламский колледж",
     "ka": "შექის (ჰაფიზლიქის) ისლამური კოლეჯი",
-    "ar": "كلية شكي الإسلامية (تحفيظ القرآن)"
+    "ar": "كلية شكي الإسلامية (تحفيظ القرآن)",
+    "es": "Colegio Islámico de Shaki (Hafizlik)"
   },
   {
     "code": "shmec",
@@ -483,7 +536,8 @@
     "en": "Sheki Medical College",
     "ru": "Шекинский медицинский колледж",
     "ka": "შექის სამედიცინო კოლეჯი",
-    "ar": "كلية شكي الطبية"
+    "ar": "كلية شكي الطبية",
+    "es": "Escuela de Medicina de Shaki"
   },
   {
     "code": "shsceh",
@@ -492,7 +546,8 @@
     "en": "Shirvan State College of Economics and Humanities",
     "ru": "Ширванский государственный экономико-гуманитарный колледж",
     "ka": "შირვანის სახელმწიფო ეკონომიკისა და ჰუმანიტარულ მეცნიერებათა კოლეჯი",
-    "ar": "كلية شيروان الحكومية للاقتصاد والعلوم الإنسانية"
+    "ar": "كلية شيروان الحكومية للاقتصاد والعلوم الإنسانية",
+    "es": "Escuela Estatal de Economía y Humanidades de Shirvan"
   },
   {
     "code": "shhc",
@@ -501,7 +556,8 @@
     "en": "Shusha Humanitarian College",
     "ru": "Шушинский гуманитарный колледж",
     "ka": "შუშის ჰუმანიტარული კოლეჯი",
-    "ar": "كلية شوشا للعلوم الإنسانية"
+    "ar": "كلية شوشا للعلوم الإنسانية",
+    "es": "Escuela de Humanidades de Shusha"
   },
   {
     "code": "tssec",
@@ -510,7 +566,8 @@
     "en": "Tovuz State Socio-Economic College",
     "ru": "Товузский государственный социально-экономический колледж",
     "ka": "თოვუზის სახელმწიფო სოციალურ-ეკონომიკური კოლეჯი",
-    "ar": "كلية توفوز الحكومية الاجتماعية والاقتصادية"
+    "ar": "كلية توفوز الحكومية الاجتماعية والاقتصادية",
+    "es": "Escuela Socioeconómica Estatal de Tovuz"
   },
   {
     "code": "zscmt",
@@ -519,7 +576,8 @@
     "en": "Zagatala State College of Management and Technology",
     "ru": "Загатальский государственный колледж управления и технологий",
     "ka": "ზაქათალის სახელმწიფო მენეჯმენტისა და ტექნოლოგიების კოლეჯი",
-    "ar": "كلية زاقاتالا الحكومية للإدارة والتكنولوجيا"
+    "ar": "كلية زاقاتالا الحكومية للإدارة والتكنولوجيا",
+    "es": "Escuela Estatal de Gestión y Tecnología de Zaqatala"
   },
   {
     "code": "zaic",
@@ -528,7 +586,8 @@
     "en": "Zagatala Islamic College",
     "ru": "Загатальский исламский колледж",
     "ka": "ზაქათალის ისლამური კოლეჯი",
-    "ar": "كلية زاقاتالا الإسلامية"
+    "ar": "كلية زاقاتالا الإسلامية",
+    "es": "Colegio Islámico de Zaqatala"
   },
   {
     "code": "bbcc",
@@ -537,7 +596,8 @@
     "en": "Baku Business and Cooperation College",
     "ru": "Бакинский Колледж Бизнеса и Сотрудничества",
     "ka": "ბაქოს ბიზნესისა და კოოპერაციის კოლეჯი",
-    "ar": "كلية باكو للأعمال والتعاون"
+    "ar": "كلية باكو للأعمال والتعاون",
+    "es": "Escuela de Negocios y Cooperación de Bakú"
   },
   {
     "code": "oyusc",
@@ -546,7 +606,8 @@
     "en": "Odlar Yurdu University Secondary College",
     "ru": "Средний колледж Университета Одлар Юрду",
     "ka": "ოდლარ იურდუს უნივერსიტეტის საშუალო კოლეჯი",
-    "ar": "الكلية الثانوية لجامعة أودلار يوردو"
+    "ar": "الكلية الثانوية لجامعة أودلار يوردو",
+    "es": "Escuela Secundaria de la Universidad Odlar Yurdu"
   },
   {
     "code": "ajvhs",
@@ -555,7 +616,8 @@
     "en": "Absheron Jeyranbatan Vocational High School",
     "ru": "Абшеронская Джейранбатанская профессиональная средняя школа",
     "ka": "აბშერონის ჯეირანბათანის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في جيران باتان بأبشرون"
+    "ar": "المدرسة المهنية الثانوية في جيران باتان بأبشرون",
+    "es": "Liceo Profesional de Jeyranbatan (Absheron)"
   },
   {
     "code": "bvhs",
@@ -564,7 +626,8 @@
     "en": "Bilasuvar Vocational High School",
     "ru": "Билясуварская профессиональная средняя школа",
     "ka": "ბილასუვარის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في بيلاسوفار"
+    "ar": "المدرسة المهنية الثانوية في بيلاسوفار",
+    "es": "Liceo Profesional de Bilasuvar"
   },
   {
     "code": "goyvhs",
@@ -573,7 +636,8 @@
     "en": "Goychay Vocational High School",
     "ru": "Гейчайская профессиональная средняя школа",
     "ka": "გოიჩაის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في غويتشاي"
+    "ar": "المدرسة المهنية الثانوية في غويتشاي",
+    "es": "Liceo Profesional de Goychay"
   },
   {
     "code": "gadvhs",
@@ -582,7 +646,8 @@
     "en": "Gadabey Vocational High School",
     "ru": "Кедабекская профессиональная средняя школа",
     "ka": "გედაბეის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في كدبك"
+    "ar": "المدرسة المهنية الثانوية في كدبك",
+    "es": "Liceo Profesional de Gadabay"
   },
   {
     "code": "kvhs",
@@ -591,7 +656,8 @@
     "en": "Kurdamir Vocational High School",
     "ru": "Кюрдамирская профессиональная средняя школа",
     "ka": "ქურდამირის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في كوردامير"
+    "ar": "المدرسة المهنية الثانوية في كوردامير",
+    "es": "Liceo Profesional de Kurdamir"
   },
   {
     "code": "gakvhs",
@@ -600,7 +666,8 @@
     "en": "Gakh Vocational High School",
     "ru": "Гахская профессиональная средняя школа",
     "ka": "ყახის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في قاخ"
+    "ar": "المدرسة المهنية الثانوية في قاخ",
+    "es": "Liceo Profesional de Qakh"
   },
   {
     "code": "gubvhs",
@@ -609,7 +676,8 @@
     "en": "Guba Vocational High School",
     "ru": "Губинская профессиональная средняя школа",
     "ka": "ყუბის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في قوبا"
+    "ar": "المدرسة المهنية الثانوية في قوبا",
+    "es": "Liceo Profesional de Guba"
   },
   {
     "code": "svhs",
@@ -618,7 +686,8 @@
     "en": "Saatly Vocational High School",
     "ru": "Саатлинская профессиональная средняя школа",
     "ka": "საათლის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في ساعتلي"
+    "ar": "المدرسة المهنية الثانوية في ساعتلي",
+    "es": "Liceo Profesional de Saatli"
   },
   {
     "code": "savhs",
@@ -627,7 +696,8 @@
     "en": "Sabirabad Vocational High School",
     "ru": "Сабирабадская профессиональная средняя школа",
     "ka": "საბირაბადის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في صابر آباد"
+    "ar": "المدرسة المهنية الثانوية في صابر آباد",
+    "es": "Liceo Profesional de Sabirabad"
   },
   {
     "code": "salvhs",
@@ -636,7 +706,8 @@
     "en": "Salyan Vocational High School",
     "ru": "Сальянская профессиональная средняя школа",
     "ka": "სალიანის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في سالیان"
+    "ar": "المدرسة المهنية الثانوية في سالیان",
+    "es": "Liceo Profesional de Salyan"
   },
   {
     "code": "bavhs",
@@ -645,7 +716,8 @@
     "en": "Barda Vocational High School",
     "ru": "Бардинская профессиональная средняя школа",
     "ka": "ბარდის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في بردة"
+    "ar": "المدرسة المهنية الثانوية في بردة",
+    "es": "Liceo Profesional de Barda"
   },
   {
     "code": "shvhs",
@@ -654,7 +726,8 @@
     "en": "Shamakhi Vocational High School",
     "ru": "Шамахинская профессиональная средняя школа",
     "ka": "შამახის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في شماخي"
+    "ar": "المدرسة المهنية الثانوية في شماخي",
+    "es": "Liceo Profesional de Shamakhi"
   },
   {
     "code": "shavhs",
@@ -663,7 +736,8 @@
     "en": "Shamkir Vocational High School",
     "ru": "Шамкирская профессиональная средняя школа",
     "ka": "შამქირის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في شمكير"
+    "ar": "المدرسة المهنية الثانوية في شمكير",
+    "es": "Liceo Profesional de Shamkir"
   },
   {
     "code": "sharvhs",
@@ -672,7 +746,8 @@
     "en": "Sharur Vocational High School",
     "ru": "Шарурская профессиональная средняя школа",
     "ka": "შარურის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في شرور"
+    "ar": "المدرسة المهنية الثانوية في شرور",
+    "es": "Liceo Profesional de Sharur"
   },
   {
     "code": "shivhs",
@@ -681,7 +756,8 @@
     "en": "Shirvan Vocational High School",
     "ru": "Ширванская профессиональная средняя школа",
     "ka": "შირვანის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في شيروان"
+    "ar": "المدرسة المهنية الثانوية في شيروان",
+    "es": "Liceo Profesional de Shirvan"
   },
   {
     "code": "zvhs",
@@ -690,7 +766,8 @@
     "en": "Zardab Vocational High School",
     "ru": "Зардабская профессиональная средняя школа",
     "ka": "ზარდაბის პროფესიული ლიცეუმი",
-    "ar": "المدرسة المهنية الثانوية في زرداب"
+    "ar": "المدرسة المهنية الثانوية في زرداب",
+    "es": "Liceo Profesional de Zardab"
   },
   {
     "code": "isvtc",
@@ -699,7 +776,8 @@
     "en": "Ismayilli State Vocational Training Center",
     "ru": "Исмаиллинский государственный центр профессионального обучения",
     "ka": "ისმაილის სახელმწიფო პროფესიული მომზადების ცენტრი",
-    "ar": "مركز إسماعيلي الحكومي للتدريب المهني"
+    "ar": "مركز إسماعيلي الحكومي للتدريب المهني",
+    "es": "Centro Estatal de Formación Profesional de Ismayilli"
   },
   {
     "code": "agvs",
@@ -708,7 +786,8 @@
     "en": "Agjabedi Vocational School",
     "ru": "Агджабединская профессиональная школа",
     "ka": "აღჯაბედის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في أغجابيدي"
+    "ar": "المدرسة المهنية في أغجابيدي",
+    "es": "Escuela Profesional de Aghjabadi"
   },
   {
     "code": "agdvs",
@@ -717,7 +796,8 @@
     "en": "Agdash Vocational School",
     "ru": "Агдашское профессиональное училище",
     "ka": "აღდაშის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في أغداش"
+    "ar": "المدرسة المهنية في أغداش",
+    "es": "Escuela Profesional de Aghdash"
   },
   {
     "code": "beyvs",
@@ -726,7 +806,8 @@
     "en": "Beylagan Vocational School",
     "ru": "Бейлаганское профессионально-техническое училище",
     "ka": "ბეილაგანის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في بيلاقان"
+    "ar": "المدرسة المهنية في بيلاقان",
+    "es": "Escuela Profesional de Beylagan"
   },
   {
     "code": "jabvs",
@@ -735,7 +816,8 @@
     "en": "Jabrayil Vocational School",
     "ru": "Джебраилское профессиональное училище",
     "ka": "ჯებრაილის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في جبرايل"
+    "ar": "المدرسة المهنية في جبرايل",
+    "es": "Escuela Profesional de Jabrayil"
   },
   {
     "code": "julvs",
@@ -744,7 +826,8 @@
     "en": "Julfa Vocational School",
     "ru": "Джульфинское профессиональное училище",
     "ka": "ჯულფის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في جولفا"
+    "ar": "المدرسة المهنية في جولفا",
+    "es": "Escuela Profesional de Julfa"
   },
   {
     "code": "dashvs",
@@ -753,7 +836,8 @@
     "en": "Dashkasan Vocational School",
     "ru": "Дашкесанская профессиональная школа",
     "ka": "დაშქესანის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في داشكسن"
+    "ar": "المدرسة المهنية في داشكسن",
+    "es": "Escuela Profesional de Dashkasan"
   },
   {
     "code": "gorvs",
@@ -762,7 +846,8 @@
     "en": "Goranboy Vocational School",
     "ru": "Геранбойское профессиональное училище",
     "ka": "გორანბოის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في غورانبوي"
+    "ar": "المدرسة المهنية في غورانبوي",
+    "es": "Escuela Profesional de Goranboy"
   },
   {
     "code": "goyvs",
@@ -771,7 +856,8 @@
     "en": "Goygol Vocational School",
     "ru": "Гёйгёльское профессиональное училище",
     "ka": "გოიგოლის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في غويغول"
+    "ar": "المدرسة المهنية في غويغول",
+    "es": "Escuela Profesional de Goygol"
   },
   {
     "code": "imivs",
@@ -780,7 +866,8 @@
     "en": "Imishli Vocational School",
     "ru": "Имишлинская профессиональная школа",
     "ka": "იმიშლის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في إيميشلي"
+    "ar": "المدرسة المهنية في إيميشلي",
+    "es": "Escuela Profesional de Imishli"
   },
   {
     "code": "khivs",
@@ -789,7 +876,8 @@
     "en": "Khizı Vocational School",
     "ru": "Хызы профессиональное училище",
     "ka": "ხიზის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في خيزي"
+    "ar": "المدرسة المهنية في خيزي",
+    "es": "Escuela Profesional de Khizi"
   },
   {
     "code": "kalvs",
@@ -798,7 +886,8 @@
     "en": "Kalbajar Vocational School",
     "ru": "Кельбаджарское профессиональное училище",
     "ka": "ქელბაჯარის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في كلبجر"
+    "ar": "المدرسة المهنية في كلبجر",
+    "es": "Escuela Profesional de Kalbajar"
   },
   {
     "code": "gusvs",
@@ -807,7 +896,8 @@
     "en": "Guba Special Vocational School",
     "ru": "Губинская специальная профессиональная школа",
     "ka": "ყუბის სპეციალური პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية الخاصة في قوبا"
+    "ar": "المدرسة المهنية الخاصة في قوبا",
+    "es": "Escuela Profesional Especial de Guba"
   },
   {
     "code": "lacvs",
@@ -816,7 +906,8 @@
     "en": "Lachin Vocational School",
     "ru": "Лачинское профессиональное училище",
     "ka": "ლაჩინის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في لاتشين"
+    "ar": "المدرسة المهنية في لاتشين",
+    "es": "Escuela Profesional de Lachin"
   },
   {
     "code": "masvs",
@@ -825,7 +916,8 @@
     "en": "Masalli Vocational School",
     "ru": "Масаллинская профессиональная школа",
     "ka": "მასალის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في ماساللي"
+    "ar": "المدرسة المهنية في ماساللي",
+    "es": "Escuela Profesional de Masalli"
   },
   {
     "code": "minvs",
@@ -834,7 +926,8 @@
     "en": "Mingachevir Vocational School",
     "ru": "Мингячевирская профессиональная школа",
     "ka": "მინგეჩევირის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في مينغاتشيفير"
+    "ar": "المدرسة المهنية في مينغاتشيفير",
+    "es": "Escuela Profesional de Mingachevir"
   },
   {
     "code": "nafvs",
@@ -843,7 +936,8 @@
     "en": "Naftalan Vocational School",
     "ru": "Нафталанское профессиональное училище",
     "ka": "ნაფთალანის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في نفتالان"
+    "ar": "المدرسة المهنية في نفتالان",
+    "es": "Escuela Profesional de Naftalan"
   },
   {
     "code": "nefvs",
@@ -852,7 +946,8 @@
     "en": "Neftchala Vocational School",
     "ru": "Нефтчалинское профессиональное училище",
     "ka": "ნეფთჩალის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في نفتشالا"
+    "ar": "المدرسة المهنية في نفتشالا",
+    "es": "Escuela Profesional de Neftchala"
   },
   {
     "code": "oguvs",
@@ -861,7 +956,8 @@
     "en": "Oguz Vocational School",
     "ru": "Огузское профессионально-техническое училище",
     "ka": "ოღუზის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في أوغوز"
+    "ar": "المدرسة المهنية في أوغوز",
+    "es": "Escuela Profesional de Oghuz"
   },
   {
     "code": "ordvs",
@@ -870,7 +966,8 @@
     "en": "Ordubad Vocational School",
     "ru": "Ордубадское профессионально-техническое училище",
     "ka": "ორდუბადის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في أوردوباد"
+    "ar": "المدرسة المهنية في أوردوباد",
+    "es": "Escuela Profesional de Ordubad"
   },
   {
     "code": "siyvs",
@@ -879,7 +976,8 @@
     "en": "Siyazan Vocational School",
     "ru": "Сиязанское профессионально-техническое училище",
     "ka": "სიაზანის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في سيازان"
+    "ar": "المدرسة المهنية في سيازان",
+    "es": "Escuela Profesional de Siyazan"
   },
   {
     "code": "shavs",
@@ -888,7 +986,8 @@
     "en": "Shabran Vocational School",
     "ru": "Шабранское профессиональное училище",
     "ka": "შაბრანის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في شابران"
+    "ar": "المدرسة المهنية في شابران",
+    "es": "Escuela Profesional de Shabran"
   },
   {
     "code": "tarvs",
@@ -897,7 +996,8 @@
     "en": "Tartar Vocational School",
     "ru": "Тартарское профессиональное училище",
     "ka": "თართარის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في ترتر"
+    "ar": "المدرسة المهنية في ترتر",
+    "es": "Escuela Profesional de Tartar"
   },
   {
     "code": "yarvs",
@@ -906,7 +1006,8 @@
     "en": "Yardymly Vocational School",
     "ru": "Ярдымлинское профессиональное училище",
     "ka": "იარდიმლის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في ياردملي"
+    "ar": "المدرسة المهنية في ياردملي",
+    "es": "Escuela Profesional de Yardimli"
   },
   {
     "code": "yevvs",
@@ -915,7 +1016,8 @@
     "en": "Yevlakh Vocational School",
     "ru": "Евлахское профессиональное училище",
     "ka": "იევლახის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في يفلاخ"
+    "ar": "المدرسة المهنية في يفلاخ",
+    "es": "Escuela Profesional de Yevlakh"
   },
   {
     "code": "zagvs",
@@ -924,7 +1026,8 @@
     "en": "Zagatala Vocational School",
     "ru": "Загатальское профессиональное училище",
     "ka": "ზაქათალის პროფესიული სასწავლებელი",
-    "ar": "المدرسة المهنية في زاقاتالا"
+    "ar": "المدرسة المهنية في زاقاتالا",
+    "es": "Escuela Profesional de Zaqatala"
   },
   {
     "code": "asvec",
@@ -933,7 +1036,8 @@
     "en": "Aghdam State Vocational Education Center",
     "ru": "Агдамский государственный центр профессионального образования",
     "ka": "აღდამის სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز أغدام الحكومي للتعليم المهني"
+    "ar": "مركز أغدام الحكومي للتعليم المهني",
+    "es": "Centro Estatal de Educación Profesional de Aghdam"
   },
   {
     "code": "bsvtcart",
@@ -942,7 +1046,8 @@
     "en": "Baku State Vocational Training Center for Aviation and Road Transport",
     "ru": "Бакинский государственный центр профессионального обучения авиации и автомобильного транспорта",
     "ka": "ბაქოს ავიაციისა და საავტომობილო ტრანსპორტის სახელმწიფო პროფესიული მომზადების ცენტრი",
-    "ar": "مركز باكو الحكومي للتدريب المهني في الطيران والنقل البري"
+    "ar": "مركز باكو الحكومي للتدريب المهني في الطيران والنقل البري",
+    "es": "Centro Estatal de Formación Profesional de Bakú de Aviación y Transporte por Carretera"
   },
   {
     "code": "bsvec",
@@ -951,7 +1056,8 @@
     "en": "Balakan State Vocational Education Center",
     "ru": "Балаканский государственный центр профессионального образования",
     "ka": "ბალაქანის სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز بالاكان الحكومي للتعليم المهني"
+    "ar": "مركز بالاكان الحكومي للتعليم المهني",
+    "es": "Centro Estatal de Educación Profesional de Balakan"
   },
   {
     "code": "jsvec",
@@ -960,7 +1066,8 @@
     "en": "Jalilabad State Vocational Education Center",
     "ru": "Джалилабадский государственный центр профессионального образования",
     "ka": "ჯალილაბადის სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز جليل آباد الحكومي للتعليم المهني"
+    "ar": "مركز جليل آباد الحكومي للتعليم المهني",
+    "es": "Centro Estatal de Educación Profesional de Jalilabad"
   },
   {
     "code": "bsvtcrm",
@@ -969,7 +1076,8 @@
     "en": "Baku State Vocational Training Center for Railway and Metro",
     "ru": "Бакинский государственный центр профессионального обучения железной дороги и метрополитена",
     "ka": "ბაქოს რკინიგზისა და მეტროს სახელმწიფო პროფესიული მომზადების ცენტრი",
-    "ar": "مركز باكو الحكومي للتدريب المهني في السكك الحديدية والمترو"
+    "ar": "مركز باكو الحكومي للتدريب المهني في السكك الحديدية والمترو",
+    "es": "Centro Estatal de Formación Profesional de Bakú de Ferrocarril y Metro"
   },
   {
     "code": "bsvtcstspw",
@@ -978,7 +1086,8 @@
     "en": "Baku State Vocational Training Center for Sea Transport, Shipbuilding and Port Works",
     "ru": "Бакинский государственный центр профессионального обучения морского транспорта, судостроения и портовых работ",
     "ka": "ბაქოს საზღვაო ტრანსპორტის, გემთმშენებლობისა და საპორტო სამუშაოების სახელმწიფო პროფესიული მომზადების ცენტრი",
-    "ar": "مركز باكو الحكومي للتدريب المهني في النقل البحري وبناء السفن وأعمال الميناء"
+    "ar": "مركز باكو الحكومي للتدريب المهني في النقل البحري وبناء السفن وأعمال الميناء",
+    "es": "Centro Estatal de Formación Profesional de Bakú de Transporte Marítimo, Construcción Naval y Obras Portuarias"
   },
   {
     "code": "bsvecpi",
@@ -987,7 +1096,8 @@
     "en": "Baku State Vocational Education Center for Processing Industry",
     "ru": "Бакинский Государственный Центр Профессионального Образования Перерабатывающей Промышленности",
     "ka": "ბაქოს გადამამუშავებელი მრეწველობის სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز باكو الحكومي للتعليم المهني في الصناعات التحويلية"
+    "ar": "مركز باكو الحكومي للتعليم المهني في الصناعات التحويلية",
+    "es": "Centro Estatal de Educación Profesional de Bakú de Industria de Transformación"
   },
   {
     "code": "fsvec",
@@ -996,7 +1106,8 @@
     "en": "Fuzuli State Vocational Education Center",
     "ru": "Физулинский государственный центр профессионального образования",
     "ka": "ფიზულის სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز فضولي الحكومي للتعليم المهني"
+    "ar": "مركز فضولي الحكومي للتعليم المهني",
+    "es": "Centro Estatal de Educación Profesional de Fuzuli"
   },
   {
     "code": "ksvec",
@@ -1005,7 +1116,8 @@
     "en": "Khachmaz State Vocational Education Center",
     "ru": "Хачмазский государственный центр профессионального образования",
     "ka": "ხაჩმაზის სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز خاتشماز الحكومي للتعليم المهني"
+    "ar": "مركز خاتشماز الحكومي للتعليم المهني",
+    "es": "Centro Estatal de Educación Profesional de Khachmaz"
   },
   {
     "code": "ssvecsa",
@@ -1014,7 +1126,8 @@
     "en": "Sumgayit State Vocational Education Center for Service Areas",
     "ru": "Сумгаитский Государственный Центр Профессионального Образования По Сферам Обслуживания",
     "ka": "სუმგაითის მომსახურების სფეროს სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز سومقاييت الحكومي للتعليم المهني في مجالات الخدمات"
+    "ar": "مركز سومقاييت الحكومي للتعليم المهني في مجالات الخدمات",
+    "es": "Centro Estatal de Educación Profesional de Sumqayit del Sector de Servicios"
   },
   {
     "code": "bsvecpcs",
@@ -1023,7 +1136,8 @@
     "en": "Baku State Vocational Education Center for Public Catering and Service",
     "ru": "Бакинский Государственный Центр Профессионального Образования Общественного Питания и Сервиса",
     "ka": "ბაქოს საზოგადოებრივი კვებისა და მომსახურების სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز باكو الحكومي للتعليم المهني في التغذية العامة والخدمات"
+    "ar": "مركز باكو الحكومي للتعليم المهني في التغذية العامة والخدمات",
+    "es": "Centro Estatal de Educación Profesional de Bakú de Restauración Colectiva y Servicios"
   },
   {
     "code": "gsvec",
@@ -1032,7 +1146,8 @@
     "en": "Gabala State Vocational Education Center",
     "ru": "Габалинский государственный центр профессионального образования",
     "ka": "გაბალის სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز قبلة الحكومي للتعليم المهني"
+    "ar": "مركز قبلة الحكومي للتعليم المهني",
+    "es": "Centro Estatal de Educación Profesional de Gabala"
   },
   {
     "code": "lsvec",
@@ -1041,7 +1156,8 @@
     "en": "Lankaran State Vocational Education Center",
     "ru": "Ленкоранский государственный центр профессионального образования",
     "ka": "ლენქორანის სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز لنكران الحكومي للتعليم المهني"
+    "ar": "مركز لنكران الحكومي للتعليم المهني",
+    "es": "Centro Estatal de Educación Profesional de Lankaran"
   },
   {
     "code": "bsveccc",
@@ -1050,7 +1166,8 @@
     "en": "Baku State Vocational Education Center for Culture and Crafts",
     "ru": "Бакинский Государственный Центр Профессионального Образования Культуры и Ремесел",
     "ka": "ბაქოს კულტურისა და ხელოსნობის სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز باكو الحكومي للتعليم المهني في الثقافة والحِرَف"
+    "ar": "مركز باكو الحكومي للتعليم المهني في الثقافة والحِرَف",
+    "es": "Centro Estatal de Educación Profesional de Bakú de Cultura y Artesanía"
   },
   {
     "code": "bsveccit",
@@ -1059,7 +1176,8 @@
     "en": "Baku State Vocational Education Center for Communication and Information Technologies",
     "ru": "Бакинский Государственный Центр Профессионального Образования Связи и Информационных Технологий",
     "ka": "ბაქოს კავშირგაბმულობისა და საინფორმაციო ტექნოლოგიების სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز باكو الحكومي للتعليم المهني في الاتصالات وتقنية المعلومات"
+    "ar": "مركز باكو الحكومي للتعليم المهني في الاتصالات وتقنية المعلومات",
+    "es": "Centro Estatal de Educación Profesional de Bakú de Comunicaciones y Tecnologías de la Información"
   },
   {
     "code": "bsvecii",
@@ -1068,7 +1186,8 @@
     "en": "Baku State Vocational Education Center for Industry and Innovation",
     "ru": "Бакинский Государственный Центр Профессионального Образования Промышленности и Инноваций",
     "ka": "ბაქოს მრეწველობისა და ინოვაციების სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز باكو الحكومي للتعليم المهني في الصناعة والابتكار"
+    "ar": "مركز باكو الحكومي للتعليم المهني في الصناعة والابتكار",
+    "es": "Centro Estatal de Educación Profesional de Bakú de Industria e Innovación"
   },
   {
     "code": "gsvecit",
@@ -1077,7 +1196,8 @@
     "en": "Ganja State Vocational Education Center for Industry and Technologies",
     "ru": "Гянджинский государственный центр профессионального образования промышленности и технологий",
     "ka": "განჯის მრეწველობისა და ტექნოლოგიების სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز كنجة الحكومي للتعليم المهني في الصناعة والتكنولوجيا"
+    "ar": "مركز كنجة الحكومي للتعليم المهني في الصناعة والتكنولوجيا",
+    "es": "Centro Estatal de Educación Profesional de Ganyá de Industria y Tecnologías"
   },
   {
     "code": "ssveciht",
@@ -1086,7 +1206,8 @@
     "en": "Sumgayit State Vocational Education Center for Industry and High Technologies",
     "ru": "Сумгаитский государственный центр профессионального образования промышленности и высоких технологий",
     "ka": "სუმგაითის მრეწველობისა და მაღალი ტექნოლოგიების სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز سومقاييت الحكومي للتعليم المهني في الصناعة والتقنيات العالية"
+    "ar": "مركز سومقاييت الحكومي للتعليم المهني في الصناعة والتقنيات العالية",
+    "es": "Centro Estatal de Educación Profesional de Sumqayit de Industria y Altas Tecnologías"
   },
   {
     "code": "ssvec",
@@ -1095,7 +1216,8 @@
     "en": "Sheki State Vocational Education Center",
     "ru": "Шекинский государственный центр профессионального образования",
     "ka": "შექის სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز شكي الحكومي للتعليم المهني"
+    "ar": "مركز شكي الحكومي للتعليم المهني",
+    "es": "Centro Estatal de Educación Profesional de Shaki"
   },
   {
     "code": "bsvectt",
@@ -1104,7 +1226,8 @@
     "en": "Baku State Vocational Education Center for Techniques and Technologies",
     "ru": "Бакинский Государственный Центр Профессионального Образования Техники и Технологий",
     "ka": "ბაქოს ტექნიკისა და ტექნოლოგიების სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز باكو الحكومي للتعليم المهني في التقنيات والتكنولوجيا"
+    "ar": "مركز باكو الحكومي للتعليم المهني في التقنيات والتكنولوجيا",
+    "es": "Centro Estatal de Educación Profesional de Bakú de Técnica y Tecnologías"
   },
   {
     "code": "gsvects",
@@ -1113,7 +1236,8 @@
     "en": "Ganja State Vocational Education Center for Trade and Service",
     "ru": "Гянджинский государственный центр профессионального образования торговли и обслуживания",
     "ka": "განჯის ვაჭრობისა და მომსახურების სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز كنجة الحكومي للتعليم المهني في التجارة والخدمات"
+    "ar": "مركز كنجة الحكومي للتعليم المهني في التجارة والخدمات",
+    "es": "Centro Estatal de Educación Profesional de Ganyá de Comercio y Servicios"
   },
   {
     "code": "bsvtcciw",
@@ -1122,7 +1246,8 @@
     "en": "Baku State Vocational Training Center for Construction and Installation Works",
     "ru": "Бакинский государственный центр профессионального обучения строительно-монтажным работам",
     "ka": "ბაქოს სამშენებლო და სამონტაჟო სამუშაოების სახელმწიფო პროფესიული მომზადების ცენტრი",
-    "ar": "مركز باكو الحكومي للتدريب المهني في أعمال البناء والتركيب"
+    "ar": "مركز باكو الحكومي للتدريب المهني في أعمال البناء والتركيب",
+    "es": "Centro Estatal de Formación Profesional de Bakú de Obras de Construcción y Montaje"
   },
   {
     "code": "tsvec",
@@ -1131,7 +1256,8 @@
     "en": "Tovuz State Vocational Education Center",
     "ru": "Товузский государственный центр профессионального образования",
     "ka": "თოვუზის სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز توفوز الحكومي للتعليم المهني"
+    "ar": "مركز توفوز الحكومي للتعليم المهني",
+    "es": "Centro Estatal de Educación Profesional de Tovuz"
   },
   {
     "code": "bsvectss",
@@ -1140,6 +1266,7 @@
     "en": "Baku State Vocational Education Center for Tourism and Social Services",
     "ru": "Бакинский государственный центр профессионального образования по туризму и социальным услугам",
     "ka": "ბაქოს ტურიზმისა და სოციალური მომსახურების სახელმწიფო პროფესიული განათლების ცენტრი",
-    "ar": "مركز باكو الحكومي للتعليم المهني في السياحة والخدمات الاجتماعية"
+    "ar": "مركز باكو الحكومي للتعليم المهني في السياحة والخدمات الاجتماعية",
+    "es": "Centro Estatal de Educación Profesional de Bakú de Turismo y Servicios Sociales"
   }
 ]

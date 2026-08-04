@@ -85,6 +85,24 @@ describe('locale registry', () => {
   });
 
   /**
+   * The switchers list `SUPPORTED_LOCALES` as-is, so its order IS the menu order.
+   * It used to be the order the entries happened to be declared in, which meant a
+   * new language appeared wherever it was appended — Spanish landed after Arabic
+   * and the list read as unsorted. Asserted as the rule rather than as a fixed
+   * list, so the next language sorts itself into place.
+   */
+  it('lists the default locale first and the rest alphabetically', () => {
+    expect(SUPPORTED_LOCALES[0], 'the app’s own language comes first').toBe(DEFAULT_LOCALE);
+
+    const rest = SUPPORTED_LOCALES.slice(1).map((code) => LOCALES[code].short);
+    expect(rest).toEqual([...rest].sort((a, b) => a.localeCompare(b)));
+    // Every locale still present — sorting must not drop or duplicate one.
+    expect(new Set(SUPPORTED_LOCALES).size).toBe(Object.keys(LOCALES).length);
+    // The CV-language select filters the same list, so the two agree.
+    expect(CV_LOCALES).toEqual(SUPPORTED_LOCALES.filter((code) => LOCALES[code].cv));
+  });
+
+  /**
    * A locale can be translated for the UI before the exporter can render a CV in
    * it. `CV_LOCALES` is that distinction, and it only ever narrows: the default
    * locale must stay exportable, or the app's own first-run CV is unbuildable.

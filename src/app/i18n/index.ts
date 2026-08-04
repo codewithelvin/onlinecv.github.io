@@ -7,6 +7,7 @@ import ru from './ru.json';
 import en from './en.json';
 import ka from './ka.json';
 import ar from './ar.json';
+import es from './es.json';
 import type { Locale } from '../../types/resume';
 import { pathForLocale } from '../seo-locales';
 import {
@@ -34,6 +35,7 @@ void i18n.use(initReactI18next).init({
     en: { translation: en },
     ka: { translation: ka },
     ar: { translation: ar },
+    es: { translation: es },
   },
   lng: DEFAULT_LOCALE,
   fallbackLng: DEFAULT_LOCALE,
