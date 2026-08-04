@@ -22,7 +22,8 @@ export function SectionBody({
 }: {
   ids: string[];
   titles: string[];
-  subtitles: string[];
+  /** See `ItemListProps.subtitles` — a node, so a value can own its direction. */
+  subtitles: ReactNode[];
   addLabel: string;
   onAdd: () => void;
   onEdit: (i: number) => void;

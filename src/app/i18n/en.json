@@ -22,7 +22,8 @@
     "seeCredential": "See credential",
     "years": "years",
     "deleteConfirm": "Confirm deletion?",
-    "select": "Select"
+    "select": "Select",
+    "selectOrType": "Select or type"
   },
   "preview": {
     "attribution": "Show a link to our site on your CV to support the project?"

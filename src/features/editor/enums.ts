@@ -67,3 +67,34 @@ export function dictOptions(values: readonly string[], t: TFunction): Option[] {
 export function licenseOptions(): Option[] {
   return LICENSE_CATEGORIES.map((v) => ({ value: v, label: v }));
 }
+
+/** Longest accepted licence category — room for a word, not a sentence. */
+const LICENSE_MAX_LENGTH = 20;
+/** Most categories one person can hold; keeps the CV row a row. */
+const LICENSE_MAX_COUNT = 15;
+
+/**
+ * Clean up licence categories typed by hand.
+ *
+ * The field accepts free text because the categories differ by issuing country
+ * (see `GeneralInfo.driverLicense`), so `LICENSE_CATEGORIES` cannot filter the
+ * input any more — but the values are printed on the CV verbatim, so they still
+ * need trimming, de-duplication and a length bound.
+ *
+ * Case is deliberately left alone: upper-casing would be right for `b`→`B` and
+ * WRONG for Russia's `Tm`/`Tb`, which are officially mixed case.
+ */
+export function normalizeLicenseCategories(values: readonly string[]): string[] {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const value of values) {
+    const clean = value.replace(/\s+/g, ' ').trim().slice(0, LICENSE_MAX_LENGTH);
+    // Compare case-insensitively so "b" cannot be added next to "B".
+    const key = clean.toUpperCase();
+    if (!clean || seen.has(key)) continue;
+    seen.add(key);
+    out.push(clean);
+    if (out.length === LICENSE_MAX_COUNT) break;
+  }
+  return out;
+}

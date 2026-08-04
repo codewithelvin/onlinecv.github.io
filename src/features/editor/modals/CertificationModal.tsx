@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import { ModalForm } from '../../../components/form/ModalForm';
 import { RHFDate, RHFText } from '../../../components/form/fields';
+import { VALUE_DIR } from '../../../utils/bidi';
 import { yupResolver } from '../../../utils/yup-resolver';
 import { certificationSchema, type CertificationFormValues } from '../schemas';
 import type { ItemModalProps } from './types';
@@ -49,13 +50,21 @@ export function CertificationModal({
           />
         </Col>
       </Row>
+      {/* Identifiers, not prose — they read the same way in every UI language
+          (`utils/bidi`). */}
       <RHFText
         control={control}
         name="credentialId"
         label={t('fields.credentialId')}
+        dir={VALUE_DIR}
         maxLength={100}
       />
-      <RHFText control={control} name="credentialUrl" label={t('fields.credentialUrl')} />
+      <RHFText
+        control={control}
+        name="credentialUrl"
+        label={t('fields.credentialUrl')}
+        dir={VALUE_DIR}
+      />
     </ModalForm>
   );
 }

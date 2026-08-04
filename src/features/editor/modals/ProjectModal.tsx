@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import { ModalForm } from '../../../components/form/ModalForm';
 import { RHFLines, RHFText, RHFTextArea } from '../../../components/form/fields';
+import { VALUE_DIR } from '../../../utils/bidi';
 import { yupResolver } from '../../../utils/yup-resolver';
 import { projectSchema, type ProjectFormValues } from '../schemas';
 import type { ItemModalProps } from './types';
@@ -28,7 +29,8 @@ export function ProjectModal({
         maxLength={100}
         required
       />
-      <RHFText control={control} name="url" label={t('fields.projectUrl')} />
+      {/* A URL, not prose — see `utils/bidi`. */}
+      <RHFText control={control} name="url" label={t('fields.projectUrl')} dir={VALUE_DIR} />
       <RHFTextArea
         control={control}
         name="description"

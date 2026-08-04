@@ -13,6 +13,7 @@ import {
 import dayjs, { type Dayjs } from 'dayjs';
 import { FiCheck } from 'react-icons/fi';
 import { searchKey } from '../../utils/search';
+import type { ValueDirection } from '../../utils/bidi';
 import { type Control, type FieldPath, type FieldValues, useController } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import { toLocale } from '../../app/i18n/locales';
@@ -150,7 +151,19 @@ export function RHFText<T extends FieldValues>({
   placeholder,
   maxLength,
   type,
-}: BaseProps<T> & { placeholder?: string; maxLength?: number; type?: string }): JSX.Element {
+  dir,
+}: BaseProps<T> & {
+  placeholder?: string;
+  maxLength?: number;
+  type?: string;
+  /**
+   * Writing direction of the VALUE, for a field holding a machine identifier
+   * (phone, e-mail, handle, URL) rather than prose — pass `VALUE_DIR`. Without
+   * it the control inherits the interface direction and a right-to-left UI
+   * moves a leading `+` or `@` to the other end of the value. See `utils/bidi`.
+   */
+  dir?: ValueDirection;
+}): JSX.Element {
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
   return (
@@ -161,6 +174,7 @@ export function RHFText<T extends FieldValues>({
           {...a11y}
           value={field.value ?? ''}
           type={type}
+          dir={dir}
           placeholder={placeholder}
           maxLength={maxLength}
         />

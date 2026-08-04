@@ -1,6 +1,7 @@
 import type { JSX } from 'react';
 import { useTranslation } from 'react-i18next';
 import type { ProjectItem } from '../../../types/resume';
+import { VALUE_DIR } from '../../../utils/bidi';
 import { createId } from '../../../utils/id';
 import { useSectionEditor } from '../useSectionEditor';
 import { ProjectModal } from '../modals/ProjectModal';
@@ -36,7 +37,9 @@ export function ProjectsSection(): JSX.Element {
     <SectionBody
       ids={ed.items.map((x) => x.id)}
       titles={ed.items.map((x) => x.name)}
-      subtitles={ed.items.map((x) => x.url ?? '')}
+      /* The URL owns its direction, so a trailing `/` cannot jump to the other
+         end of it in a right-to-left UI (`utils/bidi`). */
+      subtitles={ed.items.map((x) => (x.url ? <span dir={VALUE_DIR}>{x.url}</span> : ''))}
       addLabel={t('common.add')}
       onAdd={ed.openAdd}
       onEdit={ed.openEdit}

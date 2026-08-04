@@ -22,7 +22,8 @@
     "seeCredential": "عرض الشهادة",
     "years": "سنة",
     "deleteConfirm": "هل تؤكد الحذف؟",
-    "select": "اختر"
+    "select": "اختر",
+    "selectOrType": "اختر أو اكتب"
   },
   "preview": {
     "attribution": "هل تريد إظهار رابط موقعنا في سيرتك الذاتية لدعم المشروع؟"
@@ -259,7 +260,7 @@
     "projectUrlInvalid": "يجب أن يكون الرابط صحيحًا",
     "contactTypeRequired": "اختيار نوع التواصل إلزامي",
     "valueRequired": "حقل القيمة لا يمكن أن يكون فارغًا",
-    "shouldMatchPhone": "أدخل رقم الهاتف بالصيغة الدولية: +994XXXXXXXXX",
+    "shouldMatchPhone": "أدخل رقم الهاتف بالصيغة الدولية: ‎+994XXXXXXXXX",
     "shouldBeValidUrl": "يجب إدخال رابط صحيح في الحقل",
     "shouldBeLinkedinUrl": "الرابط الذي أدخلته لا يعود إلى LinkedIn",
     "shouldBeFacebookUrl": "الرابط الذي أدخلته لا يعود إلى Facebook",

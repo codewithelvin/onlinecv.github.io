@@ -22,7 +22,8 @@
     "seeCredential": "Sertifikata bax",
     "years": "yaş",
     "deleteConfirm": "Silinməni təsdiqləyirsinizmi?",
-    "select": "Seçin"
+    "select": "Seçin",
+    "selectOrType": "Seçin və ya yazın"
   },
   "preview": {
     "attribution": "Layihəyə yardım etmək üçün saytımızın linkini CV-nizdə görünsün?"

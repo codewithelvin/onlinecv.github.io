@@ -22,7 +22,8 @@
     "seeCredential": "הצגת האישור",
     "years": "שנים",
     "deleteConfirm": "לאשר את המחיקה?",
-    "select": "בחר"
+    "select": "בחר",
+    "selectOrType": "בחרו או הקלידו"
   },
   "preview": {
     "attribution": "להציג קישור לאתר שלנו בקורות החיים כדי לתמוך בפרויקט?"

@@ -5,6 +5,7 @@ import { FiPlus } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import type { ContactItem, ContactType } from '../../../types/resume';
 import { useResumeStore } from '../../../state/store';
+import { VALUE_DIR } from '../../../utils/bidi';
 import { createId } from '../../../utils/id';
 import { useScopedId } from '../../../components/form/field-scope';
 import { Field } from '../../../components/form/fields';
@@ -54,6 +55,7 @@ export function ContactSection(): JSX.Element {
           <Input
             {...a11y}
             type="email"
+            dir={VALUE_DIR}
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -63,7 +65,10 @@ export function ContactSection(): JSX.Element {
       <ItemList
         ids={items.map((c) => c.id)}
         titles={items.map((c) => t(`dictionary.${c.type}`))}
-        subtitles={items.map((c) => c.value)}
+        /* The saved value is read back under the same rule it was typed under:
+           a phone number reads left-to-right in a right-to-left UI, an address
+           follows its own script. See `utils/bidi`. */
+        subtitles={items.map((c) => (c.value ? <span dir={VALUE_DIR}>{c.value}</span> : ''))}
         onEdit={(i) => setIndex(i)}
         onRemove={(i) => removeContact(items[i].id)}
       />

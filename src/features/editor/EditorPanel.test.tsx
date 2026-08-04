@@ -236,6 +236,71 @@ describe('EditorPanel', () => {
   });
 
   /**
+   * Licence categories are not the same in every country — Russia issues
+   * `M`/`Tm`/`Tb`, the EU also has `A2`/`C1E`, Israel `D2`/`D3`, and most Arab
+   * countries use no letters at all — and the axis is the country that ISSUED
+   * the licence, not the app's language. So the shipped Azerbaijani list can
+   * only suggest (§13.1), and the field has to accept anything typed.
+   */
+  describe('driver licence', () => {
+    /** rc-select opens on the SELECTOR, not on the wrapper or the input. */
+    const openLicences = async (
+      user: ReturnType<typeof userEvent.setup>,
+      container: HTMLElement,
+    ): Promise<void> => {
+      const selector = container
+        .querySelector('#generalInfo-driverLicense')
+        ?.closest('.ant-select')
+        ?.querySelector('.ant-select-selector');
+      expect(selector, 'no licence select').toBeTruthy();
+      await user.click(selector as Element);
+    };
+
+    it('offers the Azerbaijani categories as suggestions', async () => {
+      const user = userEvent.setup();
+      const { container } = renderWithProviders(<EditorPanel />);
+      await openLicences(user, container);
+
+      const options = await waitFor(() => {
+        const found = [...document.querySelectorAll('.ant-select-item-option-content')].map(
+          (el) => el.textContent,
+        );
+        expect(found.length).toBeGreaterThan(0);
+        return found;
+      });
+      expect(options).toContain('B');
+      expect(options).toContain('BE');
+    });
+
+    it('keeps a category that is not in the shipped list', async () => {
+      const user = userEvent.setup();
+      const { container } = renderWithProviders(<EditorPanel />);
+      await openLicences(user, container);
+
+      // A Russian trolleybus licence: valid, and unrepresentable before this.
+      const input = container.querySelector<HTMLInputElement>('#generalInfo-driverLicense');
+      await user.type(input as HTMLInputElement, 'Tb');
+
+      // `tags` mode offers what was typed as its own option — that option
+      // existing at all IS the free-text affordance, so click it rather than
+      // relying on the Enter key (rc-select's keydown does not commit under
+      // jsdom, measured).
+      const option = await waitFor(() => {
+        const found = [...document.querySelectorAll('.ant-select-item-option')].find(
+          (el) => el.textContent === 'Tb',
+        );
+        expect(found, 'the typed value is not offered').toBeTruthy();
+        return found;
+      });
+      await user.click(option as Element);
+
+      await waitFor(() =>
+        expect(useResumeStore.getState().resume.generalInfo.driverLicense).toEqual(['Tb']),
+      );
+    });
+  });
+
+  /**
    * The general-info fields moved INTO the basics panel; they must not have gone
    * missing on the way, and the ids QA automation records must not have been
    * rewritten by the move (that half is covered above, in "QA automation ids").

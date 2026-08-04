@@ -149,6 +149,36 @@ describe('locale registry', () => {
     expect(document.documentElement.getAttribute('dir')).toBe('ltr');
   });
 
+  /**
+   * A right-to-left sentence that quotes a phone number in international format
+   * draws its `+` at the wrong end. `+` is a bidi-neutral character, so between
+   * Arabic text and the digits it resolves right-to-left and lands AFTER the
+   * number, which is the very format the message is trying to teach. A
+   * LEFT-TO-RIGHT MARK (U+200E) in front of it turns the digits left-to-right
+   * (rule W7) and pulls the sign into the same run.
+   *
+   * Form controls solve this with `dir="auto"` (`utils/bidi`); a translated
+   * string is not a control, so it carries the mark itself. Checked as a rule so
+   * the next RTL locale cannot ship without it.
+   */
+  it('isolates a quoted phone format in every right-to-left locale', () => {
+    const rtl = SUPPORTED_LOCALES.filter((locale) => LOCALES[locale].dir === 'rtl');
+    expect(rtl.length, 'no right-to-left locale to check').toBeGreaterThan(0);
+
+    for (const locale of rtl) {
+      const t = i18n.getFixedT(locale);
+      for (const path of keyPaths(bundle(locale))) {
+        const value = String(t(path));
+        const at = value.search(/\+\d/);
+        if (at === -1) continue;
+        expect(
+          value.slice(Math.max(0, at - 1), at),
+          `"${locale}" ${path} quotes "+" without a U+200E in front of it`,
+        ).toBe('\u200E');
+      }
+    }
+  });
+
   it('normalizes locale-ish values', () => {
     expect(toLocale('ka-GE')).toBe('ka');
     // Case-insensitive: a persisted value is untrusted input, and "KA" means

@@ -18,7 +18,13 @@ import { useScopedId } from './form/field-scope';
 export interface ItemListProps {
   ids: string[];
   titles: string[];
-  subtitles: string[];
+  /**
+   * Secondary line per item. A node rather than a string so a section can hand
+   * over a value that owns its writing direction — a phone number must read
+   * left-to-right even in a right-to-left UI (see `utils/bidi`). Pass `''` for
+   * "no subtitle"; an element is always truthy and would render an empty line.
+   */
+  subtitles: ReactNode[];
   onEdit: (index: number) => void;
   onRemove: (index: number) => void;
   /** When provided, renders accessible up/down reorder controls. */

@@ -30,7 +30,10 @@ export type LanguageLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2' | 'native';
 /** Military service status. */
 export type MilitaryStatus = 'served' | 'unserved' | 'unfit';
 
-/** Official Azerbaijani driver-license categories. */
+/**
+ * The official Azerbaijani driver-license categories, offered as SUGGESTIONS
+ * only — see `GeneralInfo.driverLicense` for why they cannot be a constraint.
+ */
 export type LicenseCategory =
   | 'A1'
   | 'A'
@@ -113,8 +116,23 @@ export interface GeneralInfo {
   /** `YYYY-MM-DD`. Age is derived for display, never stored. */
   dateOfBirth: string;
   militaryStatus?: MilitaryStatus;
-  /** Multi-select; source stored a single varchar. */
-  driverLicense?: LicenseCategory[];
+  /**
+   * Licence categories held. Multi-select; the source stored a single varchar.
+   *
+   * `string[]`, NOT `LicenseCategory[]`: the categories are **not the same in
+   * every country**, so the shipped list (`LICENSE_CATEGORIES`, the Azerbaijani
+   * set) can only be a suggestion — §13.1's rule, and the same reason
+   * `nationality` is a string. The EU/UNECE model also has `AM`, `A2`, `C1E`,
+   * `D1E`; Russia issues `M`, `Tm`, `Tb`; Israel has `D2`/`D3` plus numeric
+   * classes; most Arab countries do not use letter categories at all. Note the
+   * axis is the country that ISSUED the licence, never the UI language — an
+   * Azerbaijani writing a Spanish CV still holds Azerbaijani categories, which
+   * is why this is free text rather than a per-locale list.
+   *
+   * Values reach the CV verbatim, so normalize through
+   * `normalizeLicenseCategories` before storing.
+   */
+  driverLicense?: string[];
 }
 
 export interface ContactItem {

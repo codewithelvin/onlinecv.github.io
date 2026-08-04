@@ -13,7 +13,6 @@ import dayjs from "dayjs";
 import { useTranslation } from "react-i18next";
 import type {
   Gender,
-  LicenseCategory,
   MaritalStatus,
   MilitaryStatus,
 } from "../../../types/resume";
@@ -34,11 +33,11 @@ import { useScopedId } from "../../../components/form/field-scope";
 import { FieldVisibility } from "../FieldVisibility";
 import {
   GENDERS,
-  LICENSE_CATEGORIES,
   MARITAL_STATUSES,
   MILITARY_STATUSES,
   dictOptions,
   licenseOptions,
+  normalizeLicenseCategories,
 } from "../enums";
 
 /** Max length of the short self-description (spec §16). */
@@ -234,19 +233,21 @@ export function GeneralInfoSection(): JSX.Element {
             name="driverLicense"
             extra={<FieldVisibility field="driverLicense" />}
           >
+            {/* `tags`, not `multiple`: the shipped categories are the
+                Azerbaijani set and licence categories are not the same in every
+                country (Russia's `M`/`Tm`/`Tb`, the EU's `A2`/`C1E`, Israel's
+                `D2`/`D3`, and the Arab systems have no letters at all), so the
+                list can only suggest — §13.1. See `GeneralInfo.driverLicense`. */}
             {(a11y) => (
               <Select
                 {...a11y}
-                mode="multiple"
+                mode="tags"
                 allowClear
+                placeholder={t("common.selectOrType")}
                 value={gi.driverLicense ?? []}
                 options={licenseOptions()}
-                onChange={(v: LicenseCategory[]) =>
-                  update({
-                    driverLicense: v.filter((c) =>
-                      LICENSE_CATEGORIES.includes(c),
-                    ),
-                  })
+                onChange={(v: string[]) =>
+                  update({ driverLicense: normalizeLicenseCategories(v) })
                 }
               />
             )}

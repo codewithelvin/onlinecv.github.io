@@ -22,7 +22,8 @@
     "seeCredential": "Ver credencial",
     "years": "años",
     "deleteConfirm": "¿Confirma la eliminación?",
-    "select": "Seleccione"
+    "select": "Seleccione",
+    "selectOrType": "Seleccione o escriba"
   },
   "preview": {
     "attribution": "¿Mostrar el enlace a nuestro sitio en su CV para apoyar el proyecto?"
