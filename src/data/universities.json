@@ -7,7 +7,8 @@
     "ru": "Бакинский Государственный Университет",
     "ka": "ბაქოს სახელმწიფო უნივერსიტეტი",
     "ar": "جامعة باكو الحكومية",
-    "es": "Universidad Estatal de Bakú"
+    "es": "Universidad Estatal de Bakú",
+    "he": "האוניברסיטה הממלכתית של באקו"
   },
   {
     "code": "bduq",
@@ -17,7 +18,8 @@
     "ru": "Бакинский Государственный Университет (Газахский филиал)",
     "ka": "ბაქოს სახელმწიფო უნივერსიტეტი (ყაზახის ფილიალი)",
     "ar": "جامعة باكو الحكومية (فرع قازاخ)",
-    "es": "Universidad Estatal de Bakú (sede de Qazakh)"
+    "es": "Universidad Estatal de Bakú (sede de Qazakh)",
+    "he": "האוניברסיטה הממלכתית של באקו (שלוחת קזאך)"
   },
   {
     "code": "adnsu",
@@ -27,7 +29,8 @@
     "ru": "Азербайджанский Государственный Университет Нефти и Промышленности",
     "ka": "აზერბაიჯანის სახელმწიფო ნავთობისა და მრეწველობის უნივერსიტეტი",
     "ar": "جامعة أذربيجان الحكومية للنفط والصناعة",
-    "es": "Universidad Estatal de Petróleo e Industria de Azerbaiyán"
+    "es": "Universidad Estatal de Petróleo e Industria de Azerbaiyán",
+    "he": "האוניברסיטה הממלכתית לנפט ותעשייה של אזרבייג'ן"
   },
   {
     "code": "bma",
@@ -37,7 +40,8 @@
     "ru": "Бакинская Музыкальная Академия",
     "ka": "ბაქოს მუსიკის აკადემია",
     "ar": "أكاديمية باكو للموسيقى",
-    "es": "Academia de Música de Bakú"
+    "es": "Academia de Música de Bakú",
+    "he": "האקדמיה למוזיקה בבאקו"
   },
   {
     "code": "atu",
@@ -47,7 +51,8 @@
     "ru": "Азербайджанский медицинский университет",
     "ka": "აზერბაიჯანის სამედიცინო უნივერსიტეტი",
     "ar": "جامعة أذربيجان الطبية",
-    "es": "Universidad de Medicina de Azerbaiyán"
+    "es": "Universidad de Medicina de Azerbaiyán",
+    "he": "האוניברסיטה לרפואה של אזרבייג'ן"
   },
   {
     "code": "api",
@@ -57,7 +62,8 @@
     "ru": "Азербайджанский Государственный Педагогический Университет",
     "ka": "აზერბაიჯანის სახელმწიფო პედაგოგიური უნივერსიტეტი",
     "ar": "جامعة أذربيجان الحكومية التربوية",
-    "es": "Universidad Pedagógica Estatal de Azerbaiyán"
+    "es": "Universidad Pedagógica Estatal de Azerbaiyán",
+    "he": "האוניברסיטה הפדגוגית הממלכתית של אזרבייג'ן"
   },
   {
     "code": "apia",
@@ -67,7 +73,8 @@
     "ru": "Азербайджанский Государственный Педагогический Университет (Агджабединский филиал)",
     "ka": "აზერბაიჯანის სახელმწიფო პედაგოგიური უნივერსიტეტი (აღჯაბედის ფილიალი)",
     "ar": "جامعة أذربيجان الحكومية التربوية (فرع أغجابيدي)",
-    "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Aghjabadi)"
+    "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Aghjabadi)",
+    "he": "האוניברסיטה הפדגוגית של אזרבייג'ן (שלוחת אגג'בדי)"
   },
   {
     "code": "apis",
@@ -77,7 +84,8 @@
     "ru": "Азербайджанский Государственный Педагогический Университет (Шекинский филиал)",
     "ka": "აზერბაიჯანის სახელმწიფო პედაგოგიური უნივერსიტეტი (შექის ფილიალი)",
     "ar": "جامعة أذربيجان الحكومية التربوية (فرع شكي)",
-    "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Shaki)"
+    "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Shaki)",
+    "he": "האוניברסיטה הפדגוגית של אזרבייג'ן (שלוחת שאקי)"
   },
   {
     "code": "apic",
@@ -87,7 +95,8 @@
     "ru": "Азербайджанский Государственный Педагогический Университет (Джалилабадский филиал)",
     "ka": "აზერბაიჯანის სახელმწიფო პედაგოგიური უნივერსიტეტი (ჯალილაბადის ფილიალი)",
     "ar": "جامعة أذربيجان الحكومية التربوية (فرع جليل آباد)",
-    "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Jalilabad)"
+    "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Jalilabad)",
+    "he": "האוניברסיטה הפדגוגית של אזרבייג'ן (שלוחת ג'לילאבאד)"
   },
   {
     "code": "apiq",
@@ -97,7 +106,8 @@
     "ru": "Азербайджанский Государственный Педагогический Университет (Губинский филиал)",
     "ka": "აზერბაიჯანის სახელმწიფო პედაგოგიური უნივერსიტეტი (ყუბის ფილიალი)",
     "ar": "جامعة أذربيجان الحكومية التربوية (فرع قوبا)",
-    "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Guba)"
+    "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Guba)",
+    "he": "האוניברסיטה הפדגוגית של אזרבייג'ן (שלוחת גובה)"
   },
   {
     "code": "apish",
@@ -107,7 +117,8 @@
     "ru": "Азербайджанский Государственный Педагогический Университет (Шамахинский филиал)",
     "ka": "აზერბაიჯანის სახელმწიფო პედაგოგიური უნივერსიტეტი (შამახის ფილიალი)",
     "ar": "جامعة أذربيجان الحكومية التربوية (فرع شماخي)",
-    "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Shamakhi)"
+    "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Shamakhi)",
+    "he": "האוניברסיטה הפדגוגית של אזרבייג'ן (שלוחת שמאכי)"
   },
   {
     "code": "amiu",
@@ -117,7 +128,8 @@
     "ru": "Азербайджанский Государственный Университет Культуры и Искусств",
     "ka": "აზერბაიჯანის სახელმწიფო კულტურისა და ხელოვნების უნივერსიტეტი",
     "ar": "جامعة أذربيجان الحكومية للثقافة والفنون",
-    "es": "Universidad Estatal de Cultura y Artes de Azerbaiyán"
+    "es": "Universidad Estatal de Cultura y Artes de Azerbaiyán",
+    "he": "האוניברסיטה הממלכתית לתרבות ואמנויות של אזרבייג'ן"
   },
   {
     "code": "adau",
@@ -127,7 +139,8 @@
     "ru": "Азербайджанский Государственный Аграрный Университет",
     "ka": "აზერბაიჯანის სახელმწიფო აგრარული უნივერსიტეტი",
     "ar": "جامعة أذربيجان الحكومية الزراعية",
-    "es": "Universidad Agraria Estatal de Azerbaiyán"
+    "es": "Universidad Agraria Estatal de Azerbaiyán",
+    "he": "האוניברסיטה החקלאית הממלכתית של אזרבייג'ן"
   },
   {
     "code": "adiu",
@@ -137,7 +150,8 @@
     "ru": "Азербайджанский Государственный Экономический Университет",
     "ka": "აზერბაიჯანის სახელმწიფო ეკონომიკური უნივერსიტეტი",
     "ar": "جامعة أذربيجان الحكومية الاقتصادية",
-    "es": "Universidad Estatal de Economía de Azerbaiyán"
+    "es": "Universidad Estatal de Economía de Azerbaiyán",
+    "he": "האוניברסיטה הכלכלית הממלכתית של אזרבייג'ן"
   },
   {
     "code": "adiuz",
@@ -147,7 +161,8 @@
     "ru": "Азербайджанский Государственный Экономический Университет (Закатальский филиал)",
     "ka": "აზერბაიჯანის სახელმწიფო ეკონომიკური უნივერსიტეტი (ზაქათალის ფილიალი)",
     "ar": "جامعة أذربيجان الحكومية الاقتصادية (فرع زاقاتالا)",
-    "es": "Universidad Estatal de Economía de Azerbaiyán (sede de Zaqatala)"
+    "es": "Universidad Estatal de Economía de Azerbaiyán (sede de Zaqatala)",
+    "he": "האוניברסיטה הכלכלית של אזרבייג'ן (שלוחת זקטלה)"
   },
   {
     "code": "adiud",
@@ -157,7 +172,8 @@
     "ru": "Азербайджанский Государственный Экономический Университет (Дарбандский филиал)",
     "ka": "აზერბაიჯანის სახელმწიფო ეკონომიკური უნივერსიტეტი (დარბანდის ფილიალი)",
     "ar": "جامعة أذربيجان الحكومية الاقتصادية (فرع دربند)",
-    "es": "Universidad Estatal de Economía de Azerbaiyán (sede de Darband)"
+    "es": "Universidad Estatal de Economía de Azerbaiyán (sede de Darband)",
+    "he": "האוניברסיטה הכלכלית של אזרבייג'ן (שלוחת דרבנד)"
   },
   {
     "code": "adbta",
@@ -167,7 +183,8 @@
     "ru": "Азербайджанская государственная академия физической культуры и спорта",
     "ka": "აზერბაიჯანის სახელმწიფო ფიზიკური კულტურისა და სპორტის აკადემია",
     "ar": "أكاديمية أذربيجان الحكومية للتربية البدنية والرياضة",
-    "es": "Academia Estatal de Cultura Física y Deporte de Azerbaiyán"
+    "es": "Academia Estatal de Cultura Física y Deporte de Azerbaiyán",
+    "he": "האקדמיה הממלכתית לחינוך גופני וספורט של אזרבייג'ן"
   },
   {
     "code": "gdu",
@@ -177,7 +194,8 @@
     "ru": "Гянджинский государственный университет",
     "ka": "განჯის სახელმწიფო უნივერსიტეტი",
     "ar": "جامعة كنجة الحكومية",
-    "es": "Universidad Estatal de Ganyá"
+    "es": "Universidad Estatal de Ganyá",
+    "he": "האוניברסיטה הממלכתית של גנג'ה"
   },
   {
     "code": "bsu",
@@ -187,7 +205,8 @@
     "ru": "Бакинский Славянский Университет",
     "ka": "ბაქოს სლავური უნივერსიტეტი",
     "ar": "جامعة باكو السلافية",
-    "es": "Universidad Eslava de Bakú"
+    "es": "Universidad Eslava de Bakú",
+    "he": "האוניברסיטה הסלאבית בבאקו"
   },
   {
     "code": "aztechu",
@@ -197,7 +216,8 @@
     "ru": "Азербайджанский Технический Университет",
     "ka": "აზერბაიჯანის ტექნიკური უნივერსიტეტი",
     "ar": "جامعة أذربيجان التقنية",
-    "es": "Universidad Técnica de Azerbaiyán"
+    "es": "Universidad Técnica de Azerbaiyán",
+    "he": "האוניברסיטה הטכנית של אזרבייג'ן"
   },
   {
     "code": "sdu",
@@ -207,7 +227,8 @@
     "ru": "Сумгаитский государственный университет",
     "ka": "სუმგაითის სახელმწიფო უნივერსიტეტი",
     "ar": "جامعة سومقاييت الحكومية",
-    "es": "Universidad Estatal de Sumqayit"
+    "es": "Universidad Estatal de Sumqayit",
+    "he": "האוניברסיטה הממלכתית של סומגאיט"
   },
   {
     "code": "ndu",
@@ -217,7 +238,8 @@
     "ru": "Нахчыванский государственный университет",
     "ka": "ნახჩივანის სახელმწიფო უნივერსიტეტი",
     "ar": "جامعة ناختشيفان الحكومية",
-    "es": "Universidad Estatal de Najicheván"
+    "es": "Universidad Estatal de Najicheván",
+    "he": "האוניברסיטה הממלכתית של נחצ'יוואן"
   },
   {
     "code": "adu",
@@ -227,7 +249,8 @@
     "ru": "Азербайджанский Университет Языков",
     "ka": "აზერბაიჯანის ენების უნივერსიტეტი",
     "ar": "جامعة أذربيجان للغات",
-    "es": "Universidad de Idiomas de Azerbaiyán"
+    "es": "Universidad de Idiomas de Azerbaiyán",
+    "he": "האוניברסיטה לשפות של אזרבייג'ן"
   },
   {
     "code": "amemiu",
@@ -237,7 +260,8 @@
     "ru": "Азербайджанский университет архитектуры и строительства",
     "ka": "აზერბაიჯანის არქიტექტურისა და მშენებლობის უნივერსიტეტი",
     "ar": "جامعة أذربيجان للهندسة المعمارية والتشييد",
-    "es": "Universidad de Arquitectura y Construcción de Azerbaiyán"
+    "es": "Universidad de Arquitectura y Construcción de Azerbaiyán",
+    "he": "האוניברסיטה לאדריכלות ובנייה של אזרבייג'ן"
   },
   {
     "code": "aztexnu",
@@ -247,7 +271,8 @@
     "ru": "Азербайджанский технологический университет",
     "ka": "აზერბაიჯანის ტექნოლოგიების უნივერსიტეტი",
     "ar": "جامعة أذربيجان للتكنولوجيا",
-    "es": "Universidad Tecnológica de Azerbaiyán"
+    "es": "Universidad Tecnológica de Azerbaiyán",
+    "he": "האוניברסיטה הטכנולוגית של אזרבייג'ן"
   },
   {
     "code": "ldu",
@@ -257,7 +282,8 @@
     "ru": "Ленкоранский государственный университет",
     "ka": "ლენქორანის სახელმწიფო უნივერსიტეტი",
     "ar": "جامعة لنكران الحكومية",
-    "es": "Universidad Estatal de Lankaran"
+    "es": "Universidad Estatal de Lankaran",
+    "he": "האוניברסיטה הממלכתית של לנקראן"
   },
   {
     "code": "maa",
@@ -267,7 +293,8 @@
     "ru": "Национальная авиационная академия",
     "ka": "ეროვნული საავიაციო აკადემია",
     "ar": "أكاديمية الطيران الوطنية",
-    "es": "Academia Nacional de Aviación"
+    "es": "Academia Nacional de Aviación",
+    "he": "האקדמיה הלאומית לתעופה"
   },
   {
     "code": "adda",
@@ -277,7 +304,8 @@
     "ru": "Азербайджанская Государственная Морская Академия",
     "ka": "აზერბაიჯანის სახელმწიფო საზღვაო აკადემია",
     "ar": "أكاديمية أذربيجان الحكومية البحرية",
-    "es": "Academia Marítima Estatal de Azerbaiyán"
+    "es": "Academia Marítima Estatal de Azerbaiyán",
+    "he": "האקדמיה הימית הממלכתית של אזרבייג'ן"
   },
   {
     "code": "apdia",
@@ -287,7 +315,8 @@
     "ru": "Академия государственного управления при Президенте Азербайджанской Республики",
     "ka": "აზერბაიჯანის რესპუბლიკის პრეზიდენტთან არსებული საჯარო მმართველობის აკადემია",
     "ar": "أكاديمية الإدارة العامة لدى رئيس جمهورية أذربيجان",
-    "es": "Academia de Administración Pública dependiente del Presidente de la República de Azerbaiyán"
+    "es": "Academia de Administración Pública dependiente del Presidente de la República de Azerbaiyán",
+    "he": "האקדמיה למנהל ציבורי שליד נשיא רפובליקת אזרבייג'ן"
   },
   {
     "code": "adra",
@@ -297,7 +326,8 @@
     "ru": "Азербайджанская Государственная Академия Художников",
     "ka": "აზერბაიჯანის სახელმწიფო სახვითი ხელოვნების აკადემია",
     "ar": "أكاديمية أذربيجان الحكومية للفنون التشكيلية",
-    "es": "Academia Estatal de Bellas Artes de Azerbaiyán"
+    "es": "Academia Estatal de Bellas Artes de Azerbaiyán",
+    "he": "האקדמיה הממלכתית לאמנות של אזרבייג'ן"
   },
   {
     "code": "azmik",
@@ -307,7 +337,8 @@
     "ru": "Азербайджанская национальная консерватория",
     "ka": "აზერბაიჯანის ნაციონალური კონსერვატორია",
     "ar": "معهد أذربيجان الوطني للموسيقى",
-    "es": "Conservatorio Nacional de Azerbaiyán"
+    "es": "Conservatorio Nacional de Azerbaiyán",
+    "he": "הקונסרבטוריון הלאומי של אזרבייג'ן"
   },
   {
     "code": "nmi",
@@ -317,7 +348,8 @@
     "ru": "Нахчыванский институт учителей",
     "ka": "ნახჩივანის მასწავლებელთა ინსტიტუტი",
     "ar": "معهد ناختشيفان للمعلمين",
-    "es": "Instituto de Docentes de Najicheván"
+    "es": "Instituto de Docentes de Najicheván",
+    "he": "המכון להכשרת מורים בנחצ'יוואן"
   },
   {
     "code": "ada",
@@ -327,7 +359,8 @@
     "ru": "Университет АДА",
     "ka": "ADA უნივერსიტეტი",
     "ar": "جامعة أدا",
-    "es": "Universidad ADA"
+    "es": "Universidad ADA",
+    "he": "אוניברסיטת ADA"
   },
   {
     "code": "atmu",
@@ -337,7 +370,8 @@
     "ru": "Азербайджанский Университет Туризма и Менеджмента",
     "ka": "აზერბაიჯანის ტურიზმისა და მენეჯმენტის უნივერსიტეტი",
     "ar": "جامعة أذربيجان للسياحة والإدارة",
-    "es": "Universidad de Turismo y Gestión de Azerbaiyán"
+    "es": "Universidad de Turismo y Gestión de Azerbaiyán",
+    "he": "האוניברסיטה לתיירות וניהול של אזרבייג'ן"
   },
   {
     "code": "msub",
@@ -347,7 +381,8 @@
     "ru": "Бакинский филиал Московского государственного университета имени М.В.Ломоносова",
     "ka": "მ. ვ. ლომონოსოვის სახელობის მოსკოვის სახელმწიფო უნივერსიტეტის ბაქოს ფილიალი",
     "ar": "فرع باكو لجامعة موسكو الحكومية التي تحمل اسم م. ف. لومونوسوف",
-    "es": "Sede de Bakú de la Universidad Estatal de Moscú Lomonósov"
+    "es": "Sede de Bakú de la Universidad Estatal de Moscú Lomonósov",
+    "he": "שלוחת באקו של האוניברסיטה הממלכתית של מוסקבה על שם לומונוסוב"
   },
   {
     "code": "banm",
@@ -357,7 +392,8 @@
     "ru": "Бакинская Высшая Школа Нефти",
     "ka": "ბაქოს უმაღლესი ნავთობის სკოლა",
     "ar": "مدرسة باكو العليا للنفط",
-    "es": "Escuela Superior del Petróleo de Bakú"
+    "es": "Escuela Superior del Petróleo de Bakú",
+    "he": "בית הספר הגבוה לנפט בבאקו"
   },
   {
     "code": "bxo",
@@ -367,7 +403,8 @@
     "ru": "Бакинская академия хореографии",
     "ka": "ბაქოს ქორეოგრაფიის აკადემია",
     "ar": "أكاديمية باكو للرقص",
-    "es": "Academia de Coreografía de Bakú"
+    "es": "Academia de Coreografía de Bakú",
+    "he": "האקדמיה לכוריאוגרפיה בבאקו"
   },
   {
     "code": "mdu",
@@ -377,7 +414,8 @@
     "ru": "Мингячевирский государственный университет",
     "ka": "მინგეჩევირის სახელმწიფო უნივერსიტეტი",
     "ar": "جامعة مينغاتشيفير الحكومية",
-    "es": "Universidad Estatal de Mingachevir"
+    "es": "Universidad Estatal de Mingachevir",
+    "he": "האוניברסיטה הממלכתית של מינגצ'ביר"
   },
   {
     "code": "bmu",
@@ -387,7 +425,8 @@
     "ru": "Бакинский Инженерный Университет",
     "ka": "ბაქოს საინჟინრო უნივერსიტეტი",
     "ar": "جامعة باكو الهندسية",
-    "es": "Universidad de Ingeniería de Bakú"
+    "es": "Universidad de Ingeniería de Bakú",
+    "he": "האוניברסיטה להנדסה בבאקו"
   },
   {
     "code": "mdtub",
@@ -397,7 +436,8 @@
     "ru": "Бакинский филиал Первого Московского государственного медицинского университета имени И.М.Сеченова",
     "ka": "ი. მ. სეჩენოვის სახელობის მოსკოვის პირველი სახელმწიფო სამედიცინო უნივერსიტეტის ბაქოს ფილიალი",
     "ar": "فرع باكو لجامعة موسكو الحكومية الطبية الأولى التي تحمل اسم إ. م. سيتشينوف",
-    "es": "Sede de Bakú de la Primera Universidad Médica Estatal Séchenov de Moscú"
+    "es": "Sede de Bakú de la Primera Universidad Médica Estatal Séchenov de Moscú",
+    "he": "שלוחת באקו של האוניברסיטה הרפואית הראשונה של מוסקבה על שם סצ'נוב"
   },
   {
     "code": "aii",
@@ -407,7 +447,8 @@
     "ru": "Азербайджанский институт теологии",
     "ka": "აზერბაიჯანის თეოლოგიის ინსტიტუტი",
     "ar": "معهد أذربيجان للاهوت",
-    "es": "Instituto de Teología de Azerbaiyán"
+    "es": "Instituto de Teología de Azerbaiyán",
+    "he": "המכון לתיאולוגיה של אזרבייג'ן"
   },
   {
     "code": "dinpa",
@@ -417,7 +458,8 @@
     "ru": "Полицейская академия Министерства внутренних дел Азербайджанской Республики",
     "ka": "აზერბაიჯანის რესპუბლიკის შინაგან საქმეთა სამინისტროს პოლიციის აკადემია",
     "ar": "أكاديمية الشرطة بوزارة الداخلية في جمهورية أذربيجان",
-    "es": "Academia de Policía del Ministerio del Interior de la República de Azerbaiyán"
+    "es": "Academia de Policía del Ministerio del Interior de la República de Azerbaiyán",
+    "he": "האקדמיה למשטרה של משרד הפנים של אזרבייג'ן"
   },
   {
     "code": "dtxa",
@@ -427,7 +469,8 @@
     "ru": "Академия Гейдара Алиева Службы Государственной Безопасности Азербайджанской Республики",
     "ka": "აზერბაიჯანის რესპუბლიკის სახელმწიფო უშიშროების სამსახურის ჰეიდარ ალიევის სახელობის აკადემია",
     "ar": "أكاديمية حيدر علييف لدائرة أمن الدولة في جمهورية أذربيجان",
-    "es": "Academia Heydar Aliyev del Servicio de Seguridad del Estado de Azerbaiyán"
+    "es": "Academia Heydar Aliyev del Servicio de Seguridad del Estado de Azerbaiyán",
+    "he": "האקדמיה על שם היידר אלייב של שירות הביטחון הממלכתי"
   },
   {
     "code": "fhna",
@@ -437,7 +480,8 @@
     "ru": "Академия МЧС Азербайджанской Республики",
     "ka": "აზერბაიჯანის რესპუბლიკის საგანგებო სიტუაციების სამინისტროს აკადემია",
     "ar": "أكاديمية وزارة الطوارئ في جمهورية أذربيجان",
-    "es": "Academia del Ministerio de Situaciones de Emergencia de Azerbaiyán"
+    "es": "Academia del Ministerio de Situaciones de Emergencia de Azerbaiyán",
+    "he": "האקדמיה של המשרד למצבי חירום של אזרבייג'ן"
   },
   {
     "code": "dgka",
@@ -447,7 +491,8 @@
     "ru": "Академия Государственного Таможенного Комитета Азербайджанской Республики",
     "ka": "აზერბაიჯანის რესპუბლიკის სახელმწიფო საბაჟო კომიტეტის აკადემია",
     "ar": "أكاديمية لجنة الجمارك الحكومية في جمهورية أذربيجان",
-    "es": "Academia del Comité Estatal de Aduanas de Azerbaiyán"
+    "es": "Academia del Comité Estatal de Aduanas de Azerbaiyán",
+    "he": "האקדמיה של הוועדה הממלכתית למכס של אזרבייג'ן"
   },
   {
     "code": "mmu",
@@ -457,7 +502,8 @@
     "ru": "Университет национальной обороны (Азербайджан)",
     "ka": "ეროვნული თავდაცვის უნივერსიტეტი (აზერბაიჯანი)",
     "ar": "جامعة الدفاع الوطني (أذربيجان)",
-    "es": "Universidad de Defensa Nacional (Azerbaiyán)"
+    "es": "Universidad de Defensa Nacional (Azerbaiyán)",
+    "he": "האוניברסיטה להגנה לאומית (אזרבייג'ן)"
   },
   {
     "code": "haahi",
@@ -467,7 +513,8 @@
     "ru": "Военный институт имени Гейдара Алиева",
     "ka": "ჰეიდარ ალიევის სახელობის სამხედრო ინსტიტუტი",
     "ar": "المعهد العسكري الذي يحمل اسم حيدر علييف",
-    "es": "Instituto Militar Heydar Aliyev"
+    "es": "Instituto Militar Heydar Aliyev",
+    "he": "המכון הצבאי על שם היידר אלייב"
   },
   {
     "code": "sqha",
@@ -477,7 +524,8 @@
     "ru": "Военная академия Вооруженных Сил Азербайджанской Республики",
     "ka": "აზერბაიჯანის რესპუბლიკის შეიარაღებული ძალების სამხედრო აკადემია",
     "ar": "الأكاديمية العسكرية للقوات المسلحة في جمهورية أذربيجان",
-    "es": "Academia Militar de las Fuerzas Armadas de Azerbaiyán"
+    "es": "Academia Militar de las Fuerzas Armadas de Azerbaiyán",
+    "he": "האקדמיה הצבאית של הכוחות המזוינים של אזרבייג'ן"
   },
   {
     "code": "dsxa",
@@ -487,7 +535,8 @@
     "ru": "Академия Государственной пограничной службы Азербайджанской Республики",
     "ka": "აზერბაიჯანის რესპუბლიკის სასაზღვრო სამსახურის აკადემია",
     "ar": "أكاديمية دائرة الحدود الحكومية في جمهورية أذربيجان",
-    "es": "Academia del Servicio Estatal de Fronteras de Azerbaiyán"
+    "es": "Academia del Servicio Estatal de Fronteras de Azerbaiyán",
+    "he": "האקדמיה של שירות הגבול הממלכתי של אזרבייג'ן"
   },
   {
     "code": "dqahm",
@@ -497,7 +546,8 @@
     "ru": "Высшее военное училище внутренних войск Азербайджанской Республики",
     "ka": "აზერბაიჯანის რესპუბლიკის შინაგანი ჯარების უმაღლესი სამხედრო სასწავლებელი",
     "ar": "المدرسة العسكرية العليا للقوات الداخلية في جمهورية أذربيجان",
-    "es": "Escuela Militar Superior de las Tropas Internas de Azerbaiyán"
+    "es": "Escuela Militar Superior de las Tropas Internas de Azerbaiyán",
+    "he": "בית הספר הצבאי הגבוה של הכוחות הפנימיים של אזרבייג'ן"
   },
   {
     "code": "qku",
@@ -507,7 +557,8 @@
     "ru": "Западно-Каспийский университет",
     "ka": "დასავლეთ კასპიის უნივერსიტეტი",
     "ar": "جامعة غرب بحر قزوين",
-    "es": "Universidad del Caspio Occidental"
+    "es": "Universidad del Caspio Occidental",
+    "he": "האוניברסיטה הקספית המערבית"
   },
   {
     "code": "azu",
@@ -517,7 +568,8 @@
     "ru": "Азербайджанский университет",
     "ka": "აზერბაიჯანის უნივერსიტეტი",
     "ar": "جامعة أذربيجان",
-    "es": "Universidad de Azerbaiyán"
+    "es": "Universidad de Azerbaiyán",
+    "he": "אוניברסיטת אזרבייג'ן"
   },
   {
     "code": "khu",
@@ -527,7 +579,8 @@
     "ru": "Хазарский университет",
     "ka": "ხაზარის უნივერსიტეტი",
     "ar": "جامعة خزر",
-    "es": "Universidad Khazar"
+    "es": "Universidad Khazar",
+    "he": "אוניברסיטת חזר"
   },
   {
     "code": "bbu",
@@ -537,7 +590,8 @@
     "ru": "Бакинский Университет Бизнеса",
     "ka": "ბაქოს ბიზნესის უნივერსიტეტი",
     "ar": "جامعة باكو للأعمال",
-    "es": "Universidad de Negocios de Bakú"
+    "es": "Universidad de Negocios de Bakú",
+    "he": "האוניברסיטה לעסקים בבאקו"
   },
   {
     "code": "baau",
@@ -547,7 +601,8 @@
     "ru": "Бакинский Евразийский Университет",
     "ka": "ბაქოს ევრაზიული უნივერსიტეტი",
     "ar": "جامعة باكو الأوراسية",
-    "es": "Universidad Euroasiática de Bakú"
+    "es": "Universidad Euroasiática de Bakú",
+    "he": "האוניברסיטה האירואסייתית בבאקו"
   },
   {
     "code": "bqzu",
@@ -557,7 +612,8 @@
     "ru": "Бакинский университет для девушек",
     "ka": "ბაქოს ქალთა უნივერსიტეტი",
     "ar": "جامعة باكو للبنات",
-    "es": "Universidad de Mujeres de Bakú"
+    "es": "Universidad de Mujeres de Bakú",
+    "he": "אוניברסיטת הנשים בבאקו"
   },
   {
     "code": "bku",
@@ -567,7 +623,8 @@
     "ru": "Азербайджанский университет кооперации",
     "ka": "აზერბაიჯანის კოოპერაციის უნივერსიტეტი",
     "ar": "جامعة أذربيجان للتعاون",
-    "es": "Universidad de Cooperación de Azerbaiyán"
+    "es": "Universidad de Cooperación de Azerbaiyán",
+    "he": "האוניברסיטה לשיתוף פעולה של אזרבייג'ן"
   },
   {
     "code": "oyu",
@@ -577,7 +634,8 @@
     "ru": "Университет Одлар Юрду",
     "ka": "ოდლარ იურდუს უნივერსიტეტი",
     "ar": "جامعة أودلار يوردو",
-    "es": "Universidad Odlar Yurdu"
+    "es": "Universidad Odlar Yurdu",
+    "he": "אוניברסיטת אודלר יורדו"
   },
   {
     "code": "tfku",
@@ -587,7 +645,8 @@
     "ru": "Университет Тафаккюр",
     "ka": "თაფაქქურის უნივერსიტეტი",
     "ar": "جامعة تفكر",
-    "es": "Universidad Tafakkur"
+    "es": "Universidad Tafakkur",
+    "he": "אוניברסיטת תפכור"
   },
   {
     "code": "nuu",
@@ -597,7 +656,8 @@
     "ru": "Университет \"Нахчыван\"",
     "ka": "„ნახჩივანის“ უნივერსიტეტი",
     "ar": "جامعة «ناختشيفان»",
-    "es": "Universidad «Najicheván»"
+    "es": "Universidad «Najicheván»",
+    "he": "אוניברסיטת «נחצ'יוואן»"
   },
   {
     "code": "aesma",
@@ -607,7 +667,8 @@
     "ru": "Азербайджанская Академия Труда и Социальных Отношений",
     "ka": "აზერბაიჯანის შრომისა და სოციალურ ურთიერთობათა აკადემია",
     "ar": "أكاديمية أذربيجان للعمل والعلاقات الاجتماعية",
-    "es": "Academia de Trabajo y Relaciones Sociales de Azerbaiyán"
+    "es": "Academia de Trabajo y Relaciones Sociales de Azerbaiyán",
+    "he": "האקדמיה לעבודה ויחסים חברתיים של אזרבייג'ן"
   },
   {
     "code": "karabakh",
@@ -617,7 +678,8 @@
     "ru": "Университет Карабах",
     "ka": "ყარაბაღის უნივერსიტეტი",
     "ar": "جامعة كاراباخ",
-    "es": "Universidad de Karabaj"
+    "es": "Universidad de Karabaj",
+    "he": "אוניברסיטת קרבאך"
   },
   {
     "code": "ge_tsu",
@@ -627,7 +689,8 @@
     "ru": "Тбилисский государственный университет им. Иванэ Джавахишвили",
     "ka": "ივანე ჯავახიშვილის სახელობის თბილისის სახელმწიფო უნივერსიტეტი",
     "ar": "جامعة تبليسي الحكومية إيفانه جافاخيشفيلي",
-    "es": "Universidad Estatal de Tiflis Ivane Javakhishvili"
+    "es": "Universidad Estatal de Tiflis Ivane Javakhishvili",
+    "he": "האוניברסיטה הממלכתית של טביליסי על שם איוואנה ג'וואחישווילי"
   },
   {
     "code": "ge_gtu",
@@ -637,7 +700,8 @@
     "ru": "Грузинский технический университет",
     "ka": "საქართველოს ტექნიკური უნივერსიტეტი",
     "ar": "الجامعة التقنية الجورجية",
-    "es": "Universidad Técnica de Georgia"
+    "es": "Universidad Técnica de Georgia",
+    "he": "האוניברסיטה הטכנית של גאורגיה"
   },
   {
     "code": "ge_isu",
@@ -647,7 +711,8 @@
     "ru": "Государственный университет Ильи Чавчавадзе",
     "ka": "ილიას სახელმწიფო უნივერსიტეტი",
     "ar": "جامعة إيليا الحكومية",
-    "es": "Universidad Estatal Ilia"
+    "es": "Universidad Estatal Ilia",
+    "he": "האוניברסיטה הממלכתית איליה"
   },
   {
     "code": "ge_tsmu",
@@ -657,7 +722,8 @@
     "ru": "Тбилисский государственный медицинский университет",
     "ka": "თბილისის სახელმწიფო სამედიცინო უნივერსიტეტი",
     "ar": "جامعة تبليسي الحكومية الطبية",
-    "es": "Universidad Estatal de Medicina de Tiflis"
+    "es": "Universidad Estatal de Medicina de Tiflis",
+    "he": "האוניברסיטה הממלכתית לרפואה בטביליסי"
   },
   {
     "code": "ge_freeuni",
@@ -667,7 +733,8 @@
     "ru": "Свободный университет Тбилиси",
     "ka": "თბილისის თავისუფალი უნივერსიტეტი",
     "ar": "الجامعة الحرة في تبليسي",
-    "es": "Universidad Libre de Tiflis"
+    "es": "Universidad Libre de Tiflis",
+    "he": "האוניברסיטה החופשית בטביליסי"
   },
   {
     "code": "ge_caucasus",
@@ -677,7 +744,8 @@
     "ru": "Кавказский университет",
     "ka": "კავკასიის უნივერსიტეტი",
     "ar": "جامعة القوقاز",
-    "es": "Universidad del Cáucaso"
+    "es": "Universidad del Cáucaso",
+    "he": "אוניברסיטת הקווקז"
   },
   {
     "code": "ge_bsu",
@@ -687,7 +755,8 @@
     "ru": "Батумский государственный университет им. Шота Руставели",
     "ka": "ბათუმის შოთა რუსთაველის სახელმწიფო უნივერსიტეტი",
     "ar": "جامعة باتومي الحكومية شوتا روستافيلي",
-    "es": "Universidad Estatal de Batumi Shota Rustaveli"
+    "es": "Universidad Estatal de Batumi Shota Rustaveli",
+    "he": "האוניברסיטה הממלכתית של בטומי על שם שוטה רוסתוולי"
   },
   {
     "code": "ge_atsu",
@@ -697,7 +766,8 @@
     "ru": "Государственный университет Акакия Церетели",
     "ka": "აკაკი წერეთლის სახელმწიფო უნივერსიტეტი",
     "ar": "جامعة أكاكي تسيريتيلي الحكومية",
-    "es": "Universidad Estatal Akaki Tsereteli"
+    "es": "Universidad Estatal Akaki Tsereteli",
+    "he": "האוניברסיטה הממלכתית אקקי צרתלי"
   },
   {
     "code": "ru_msu",
@@ -707,7 +777,8 @@
     "ru": "Московский государственный университет им. М. В. Ломоносова",
     "ka": "ლომონოსოვის სახელობის მოსკოვის სახელმწიფო უნივერსიტეტი",
     "ar": "جامعة موسكو الحكومية لومونوسوف",
-    "es": "Universidad Estatal de Moscú Lomonósov"
+    "es": "Universidad Estatal de Moscú Lomonósov",
+    "he": "האוניברסיטה הממלכתית של מוסקבה על שם לומונוסוב"
   },
   {
     "code": "ru_spbu",
@@ -717,7 +788,8 @@
     "ru": "Санкт-Петербургский государственный университет",
     "ka": "სანქტ-პეტერბურგის სახელმწიფო უნივერსიტეტი",
     "ar": "جامعة سانت بطرسبرغ الحكومية",
-    "es": "Universidad Estatal de San Petersburgo"
+    "es": "Universidad Estatal de San Petersburgo",
+    "he": "האוניברסיטה הממלכתית של סנקט פטרבורג"
   },
   {
     "code": "ru_hse",
@@ -727,7 +799,8 @@
     "ru": "Национальный исследовательский университет «Высшая школа экономики»",
     "ka": "ეკონომიკის უმაღლესი სკოლა (HSE)",
     "ar": "جامعة الاقتصاد العليا",
-    "es": "Escuela Superior de Economía (HSE)"
+    "es": "Escuela Superior de Economía (HSE)",
+    "he": "בית הספר הגבוה לכלכלה (HSE)"
   },
   {
     "code": "ru_mgimo",
@@ -737,7 +810,8 @@
     "ru": "Московский государственный институт международных отношений (МГИМО)",
     "ka": "მოსკოვის საერთაშორისო ურთიერთობების სახელმწიფო ინსტიტუტი (MGIMO)",
     "ar": "معهد موسكو الحكومي للعلاقات الدولية",
-    "es": "Instituto Estatal de Relaciones Internacionales de Moscú (MGIMO)"
+    "es": "Instituto Estatal de Relaciones Internacionales de Moscú (MGIMO)",
+    "he": "המכון הממלכתי ליחסים בינלאומיים של מוסקבה (MGIMO)"
   },
   {
     "code": "ru_mipt",
@@ -747,7 +821,8 @@
     "ru": "Московский физико-технический институт (МФТИ)",
     "ka": "მოსკოვის ფიზიკა-ტექნიკის ინსტიტუტი (MIPT)",
     "ar": "معهد موسكو للفيزياء والتكنولوجيا",
-    "es": "Instituto de Física y Tecnología de Moscú (MIPT)"
+    "es": "Instituto de Física y Tecnología de Moscú (MIPT)",
+    "he": "המכון לפיזיקה וטכנולוגיה של מוסקבה (MIPT)"
   },
   {
     "code": "ru_bmstu",
@@ -757,7 +832,8 @@
     "ru": "Московский государственный технический университет им. Н. Э. Баумана",
     "ka": "ბაუმანის სახელობის მოსკოვის სახელმწიფო ტექნიკური უნივერსიტეტი",
     "ar": "جامعة موسكو الحكومية التقنية باومان",
-    "es": "Universidad Técnica Estatal Bauman de Moscú"
+    "es": "Universidad Técnica Estatal Bauman de Moscú",
+    "he": "האוניברסיטה הטכנית הממלכתית של מוסקבה על שם באומן"
   },
   {
     "code": "ru_sechenov",
@@ -767,7 +843,8 @@
     "ru": "Первый Московский государственный медицинский университет им. И. М. Сеченова",
     "ka": "სეჩენოვის სახელობის მოსკოვის პირველი სამედიცინო უნივერსიტეტი",
     "ar": "جامعة موسكو الحكومية الطبية الأولى سيتشينوف",
-    "es": "Primera Universidad Médica Estatal Séchenov de Moscú"
+    "es": "Primera Universidad Médica Estatal Séchenov de Moscú",
+    "he": "האוניברסיטה הרפואית הראשונה של מוסקבה על שם סצ'נוב"
   },
   {
     "code": "ru_rudn",
@@ -777,7 +854,8 @@
     "ru": "Российский университет дружбы народов (РУДН)",
     "ka": "რუსეთის ხალხთა მეგობრობის უნივერსიტეტი (RUDN)",
     "ar": "جامعة الصداقة بين الشعوب الروسية",
-    "es": "Universidad RUDN (Universidad de la Amistad de los Pueblos de Rusia)"
+    "es": "Universidad RUDN (Universidad de la Amistad de los Pueblos de Rusia)",
+    "he": "אוניברסיטת RUDN (אוניברסיטת ידידות העמים של רוסיה)"
   },
   {
     "code": "ru_itmo",
@@ -787,7 +865,8 @@
     "ru": "Университет ИТМО",
     "ka": "ITMO უნივერსიტეტი",
     "ar": "جامعة إيتمو",
-    "es": "Universidad ITMO"
+    "es": "Universidad ITMO",
+    "he": "אוניברסיטת ITMO"
   },
   {
     "code": "ru_kfu",
@@ -797,7 +876,8 @@
     "ru": "Казанский федеральный университет",
     "ka": "ყაზანის ფედერალური უნივერსიტეტი",
     "ar": "جامعة قازان الفيدرالية",
-    "es": "Universidad Federal de Kazán"
+    "es": "Universidad Federal de Kazán",
+    "he": "האוניברסיטה הפדרלית של קאזאן"
   },
   {
     "code": "ru_nsu",
@@ -807,7 +887,8 @@
     "ru": "Новосибирский государственный университет",
     "ka": "ნოვოსიბირსკის სახელმწიფო უნივერსიტეტი",
     "ar": "جامعة نوفوسيبيرسك الحكومية",
-    "es": "Universidad Estatal de Novosibirsk"
+    "es": "Universidad Estatal de Novosibirsk",
+    "he": "האוניברסיטה הממלכתית של נובוסיבירסק"
   },
   {
     "code": "ru_plekhanov",
@@ -817,7 +898,8 @@
     "ru": "Российский экономический университет им. Г. В. Плеханова",
     "ka": "პლეხანოვის სახელობის რუსეთის ეკონომიკური უნივერსიტეტი",
     "ar": "جامعة بليخانوف الروسية للاقتصاد",
-    "es": "Universidad Rusa de Economía Plejánov"
+    "es": "Universidad Rusa de Economía Plejánov",
+    "he": "האוניברסיטה הרוסית לכלכלה על שם פלכאנוב"
   },
   {
     "code": "us_mit",
@@ -827,7 +909,8 @@
     "ru": "Массачусетский технологический институт (MIT)",
     "ka": "მასაჩუსეტსის ტექნოლოგიური ინსტიტუტი (MIT)",
     "ar": "معهد ماساتشوستس للتقنية",
-    "es": "Instituto Tecnológico de Massachusetts (MIT)"
+    "es": "Instituto Tecnológico de Massachusetts (MIT)",
+    "he": "המכון הטכנולוגי של מסצ'וסטס (MIT)"
   },
   {
     "code": "us_stanford",
@@ -837,7 +920,8 @@
     "ru": "Стэнфордский университет",
     "ka": "სტენფორდის უნივერსიტეტი",
     "ar": "جامعة ستانفورد",
-    "es": "Universidad de Stanford"
+    "es": "Universidad de Stanford",
+    "he": "אוניברסיטת סטנפורד"
   },
   {
     "code": "us_harvard",
@@ -847,7 +931,8 @@
     "ru": "Гарвардский университет",
     "ka": "ჰარვარდის უნივერსიტეტი",
     "ar": "جامعة هارفارد",
-    "es": "Universidad de Harvard"
+    "es": "Universidad de Harvard",
+    "he": "אוניברסיטת הרווארד"
   },
   {
     "code": "us_caltech",
@@ -857,7 +942,8 @@
     "ru": "Калифорнийский технологический институт (Caltech)",
     "ka": "კალიფორნიის ტექნოლოგიური ინსტიტუტი (Caltech)",
     "ar": "معهد كاليفورنيا للتقنية",
-    "es": "Instituto de Tecnología de California (Caltech)"
+    "es": "Instituto de Tecnología de California (Caltech)",
+    "he": "המכון הטכנולוגי של קליפורניה (Caltech)"
   },
   {
     "code": "us_berkeley",
@@ -867,7 +953,8 @@
     "ru": "Калифорнийский университет в Беркли",
     "ka": "კალიფორნიის უნივერსიტეტი, ბერკლი",
     "ar": "جامعة كاليفورنيا، بيركلي",
-    "es": "Universidad de California en Berkeley"
+    "es": "Universidad de California en Berkeley",
+    "he": "אוניברסיטת קליפורניה בברקלי"
   },
   {
     "code": "us_princeton",
@@ -877,7 +964,8 @@
     "ru": "Принстонский университет",
     "ka": "პრინსტონის უნივერსიტეტი",
     "ar": "جامعة برينستون",
-    "es": "Universidad de Princeton"
+    "es": "Universidad de Princeton",
+    "he": "אוניברסיטת פרינסטון"
   },
   {
     "code": "us_yale",
@@ -887,7 +975,8 @@
     "ru": "Йельский университет",
     "ka": "იელის უნივერსიტეტი",
     "ar": "جامعة ييل",
-    "es": "Universidad de Yale"
+    "es": "Universidad de Yale",
+    "he": "אוניברסיטת ייל"
   },
   {
     "code": "us_chicago",
@@ -897,7 +986,8 @@
     "ru": "Чикагский университет",
     "ka": "ჩიკაგოს უნივერსიტეტი",
     "ar": "جامعة شيكاغو",
-    "es": "Universidad de Chicago"
+    "es": "Universidad de Chicago",
+    "he": "אוניברסיטת שיקגו"
   },
   {
     "code": "us_columbia",
@@ -907,7 +997,8 @@
     "ru": "Колумбийский университет",
     "ka": "კოლუმბიის უნივერსიტეტი",
     "ar": "جامعة كولومبيا",
-    "es": "Universidad de Columbia"
+    "es": "Universidad de Columbia",
+    "he": "אוניברסיטת קולומביה"
   },
   {
     "code": "us_upenn",
@@ -917,7 +1008,8 @@
     "ru": "Пенсильванский университет",
     "ka": "პენსილვანიის უნივერსიტეტი",
     "ar": "جامعة بنسلفانيا",
-    "es": "Universidad de Pensilvania"
+    "es": "Universidad de Pensilvania",
+    "he": "אוניברסיטת פנסילבניה"
   },
   {
     "code": "eu_oxford",
@@ -927,7 +1019,8 @@
     "ru": "Оксфордский университет",
     "ka": "ოქსფორდის უნივერსიტეტი",
     "ar": "جامعة أكسفورد",
-    "es": "Universidad de Oxford"
+    "es": "Universidad de Oxford",
+    "he": "אוניברסיטת אוקספורד"
   },
   {
     "code": "eu_cambridge",
@@ -937,7 +1030,8 @@
     "ru": "Кембриджский университет",
     "ka": "კემბრიჯის უნივერსიტეტი",
     "ar": "جامعة كامبريدج",
-    "es": "Universidad de Cambridge"
+    "es": "Universidad de Cambridge",
+    "he": "אוניברסיטת קיימברידג'"
   },
   {
     "code": "eu_imperial",
@@ -947,7 +1041,8 @@
     "ru": "Имперский колледж Лондона",
     "ka": "ლონდონის იმპერიული კოლეჯი",
     "ar": "كلية إمبريال لندن",
-    "es": "Imperial College de Londres"
+    "es": "Imperial College de Londres",
+    "he": "אימפריאל קולג' לונדון"
   },
   {
     "code": "eu_ucl",
@@ -957,7 +1052,8 @@
     "ru": "Университетский колледж Лондона (UCL)",
     "ka": "ლონდონის უნივერსიტეტ-კოლეჯი (UCL)",
     "ar": "كلية لندن الجامعية",
-    "es": "University College de Londres (UCL)"
+    "es": "University College de Londres (UCL)",
+    "he": "יוניברסיטי קולג' לונדון (UCL)"
   },
   {
     "code": "eu_ethz",
@@ -967,7 +1063,8 @@
     "ru": "Швейцарская высшая техническая школа Цюриха (ETH Zürich)",
     "ka": "ციურიხის ფედერალური ტექნოლოგიური ინსტიტუტი (ETH Zürich)",
     "ar": "المعهد التقني الفيدرالي في زيورخ",
-    "es": "ETH Zúrich"
+    "es": "ETH Zúrich",
+    "he": "ETH ציריך"
   },
   {
     "code": "eu_epfl",
@@ -977,7 +1074,8 @@
     "ru": "Федеральная политехническая школа Лозанны (EPFL)",
     "ka": "ლოზანის ფედერალური პოლიტექნიკური სკოლა (EPFL)",
     "ar": "المعهد التقني الفيدرالي في لوزان",
-    "es": "Escuela Politécnica Federal de Lausana (EPFL)"
+    "es": "Escuela Politécnica Federal de Lausana (EPFL)",
+    "he": "בית הספר הפוליטכני הפדרלי בלוזאן (EPFL)"
   },
   {
     "code": "eu_tum",
@@ -987,7 +1085,8 @@
     "ru": "Мюнхенский технический университет",
     "ka": "მიუნხენის ტექნიკური უნივერსიტეტი",
     "ar": "جامعة ميونخ التقنية",
-    "es": "Universidad Técnica de Múnich (TUM)"
+    "es": "Universidad Técnica de Múnich (TUM)",
+    "he": "האוניברסיטה הטכנית של מינכן (TUM)"
   },
   {
     "code": "eu_lmu",
@@ -997,7 +1096,8 @@
     "ru": "Мюнхенский университет Людвига-Максимилиана",
     "ka": "მიუნხენის ლუდვიგ-მაქსიმილიანის უნივერსიტეტი",
     "ar": "جامعة لودفيغ ماكسيميليان في ميونخ",
-    "es": "Universidad Ludwig Maximilian de Múnich (LMU)"
+    "es": "Universidad Ludwig Maximilian de Múnich (LMU)",
+    "he": "אוניברסיטת לודוויג מקסימיליאן במינכן (LMU)"
   },
   {
     "code": "eu_sorbonne",
@@ -1007,7 +1107,8 @@
     "ru": "Университет Сорбонна",
     "ka": "სორბონის უნივერსიტეტი",
     "ar": "جامعة السوربون",
-    "es": "Universidad de la Sorbona"
+    "es": "Universidad de la Sorbona",
+    "he": "אוניברסיטת סורבון"
   },
   {
     "code": "eu_tudelft",
@@ -1017,7 +1118,8 @@
     "ru": "Делфтский технический университет",
     "ka": "დელფტის ტექნოლოგიური უნივერსიტეტი",
     "ar": "جامعة دلفت للتكنولوجيا",
-    "es": "Universidad Técnica de Delft"
+    "es": "Universidad Técnica de Delft",
+    "he": "האוניברסיטה הטכנולוגית של דלפט"
   },
   {
     "code": "tr_bogazici",
@@ -1027,7 +1129,8 @@
     "ru": "Университет Богазичи",
     "ka": "ბოღაზიჩის უნივერსიტეტი",
     "ar": "جامعة بوغازيتشي",
-    "es": "Universidad Boğaziçi"
+    "es": "Universidad Boğaziçi",
+    "he": "אוניברסיטת בוגזיצ'י"
   },
   {
     "code": "tr_odtu",
@@ -1037,7 +1140,8 @@
     "ru": "Ближневосточный технический университет (METU)",
     "ka": "შუა აღმოსავლეთის ტექნიკური უნივერსიტეტი (METU)",
     "ar": "جامعة الشرق الأوسط التقنية",
-    "es": "Universidad Técnica de Oriente Medio (METU)"
+    "es": "Universidad Técnica de Oriente Medio (METU)",
+    "he": "האוניברסיטה הטכנית של המזרח התיכון (METU)"
   },
   {
     "code": "tr_itu",
@@ -1047,7 +1151,8 @@
     "ru": "Стамбульский технический университет",
     "ka": "ისტანბულის ტექნიკური უნივერსიტეტი",
     "ar": "جامعة إستنبول التقنية",
-    "es": "Universidad Técnica de Estambul (ITU)"
+    "es": "Universidad Técnica de Estambul (ITU)",
+    "he": "האוניברסיטה הטכנית של איסטנבול (ITU)"
   },
   {
     "code": "tr_istanbul",
@@ -1057,7 +1162,8 @@
     "ru": "Стамбульский университет",
     "ka": "ისტანბულის უნივერსიტეტი",
     "ar": "جامعة إستنبول",
-    "es": "Universidad de Estambul"
+    "es": "Universidad de Estambul",
+    "he": "אוניברסיטת איסטנבול"
   },
   {
     "code": "tr_hacettepe",
@@ -1067,7 +1173,8 @@
     "ru": "Университет Хаджеттепе",
     "ka": "ჰაჯეთთეფეს უნივერსიტეტი",
     "ar": "جامعة هاجتبه",
-    "es": "Universidad Hacettepe"
+    "es": "Universidad Hacettepe",
+    "he": "אוניברסיטת חג'טפה"
   },
   {
     "code": "tr_ankara",
@@ -1077,7 +1184,8 @@
     "ru": "Анкарский университет",
     "ka": "ანკარის უნივერსიტეტი",
     "ar": "جامعة أنقرة",
-    "es": "Universidad de Ankara"
+    "es": "Universidad de Ankara",
+    "he": "אוניברסיטת אנקרה"
   },
   {
     "code": "tr_bilkent",
@@ -1087,7 +1195,8 @@
     "ru": "Университет Билькент",
     "ka": "ბილკენტის უნივერსიტეტი",
     "ar": "جامعة بيلكنت",
-    "es": "Universidad Bilkent"
+    "es": "Universidad Bilkent",
+    "he": "אוניברסיטת בילקנט"
   },
   {
     "code": "tr_koc",
@@ -1097,7 +1206,8 @@
     "ru": "Университет Коч",
     "ka": "კოჩის უნივერსიტეტი",
     "ar": "جامعة كوتش",
-    "es": "Universidad Koç"
+    "es": "Universidad Koç",
+    "he": "אוניברסיטת קוץ'"
   },
   {
     "code": "tr_sabanci",
@@ -1107,7 +1217,8 @@
     "ru": "Университет Сабанджи",
     "ka": "საბანჯის უნივერსიტეტი",
     "ar": "جامعة صابانجي",
-    "es": "Universidad Sabancı"
+    "es": "Universidad Sabancı",
+    "he": "אוניברסיטת סבנג'י"
   },
   {
     "code": "tr_ege",
@@ -1117,7 +1228,8 @@
     "ru": "Эгейский университет",
     "ka": "ეგეს უნივერსიტეტი",
     "ar": "جامعة إيجه",
-    "es": "Universidad Ege"
+    "es": "Universidad Ege",
+    "he": "אוניברסיטת אגה"
   },
   {
     "code": "eg_cairo",
@@ -1127,7 +1239,8 @@
     "ru": "Каирский университет",
     "ka": "ქაიროს უნივერსიტეტი",
     "ar": "جامعة القاهرة",
-    "es": "Universidad de El Cairo"
+    "es": "Universidad de El Cairo",
+    "he": "אוניברסיטת קהיר"
   },
   {
     "code": "eg_auc",
@@ -1137,7 +1250,8 @@
     "ru": "Американский университет в Каире",
     "ka": "ამერიკული უნივერსიტეტი ქაიროში",
     "ar": "الجامعة الأمريكية بالقاهرة",
-    "es": "Universidad Americana de El Cairo (AUC)"
+    "es": "Universidad Americana de El Cairo (AUC)",
+    "he": "האוניברסיטה האמריקאית בקהיר (AUC)"
   },
   {
     "code": "eg_ainshams",
@@ -1147,7 +1261,8 @@
     "ru": "Университет Айн-Шамс",
     "ka": "აინ შამსის უნივერსიტეტი",
     "ar": "جامعة عين شمس",
-    "es": "Universidad Ain Shams"
+    "es": "Universidad Ain Shams",
+    "he": "אוניברסיטת עין שמס"
   },
   {
     "code": "eg_alexandria",
@@ -1157,7 +1272,8 @@
     "ru": "Александрийский университет",
     "ka": "ალექსანდრიის უნივერსიტეტი",
     "ar": "جامعة الإسكندرية",
-    "es": "Universidad de Alejandría"
+    "es": "Universidad de Alejandría",
+    "he": "אוניברסיטת אלכסנדריה"
   },
   {
     "code": "eg_azhar",
@@ -1167,7 +1283,8 @@
     "ru": "Университет аль-Азхар",
     "ka": "ალ-აზჰარის უნივერსიტეტი",
     "ar": "جامعة الأزهر",
-    "es": "Universidad de Al-Azhar"
+    "es": "Universidad de Al-Azhar",
+    "he": "אוניברסיטת אל-אזהר"
   },
   {
     "code": "eg_mansoura",
@@ -1177,7 +1294,8 @@
     "ru": "Университет Мансуры",
     "ka": "მანსურას უნივერსიტეტი",
     "ar": "جامعة المنصورة",
-    "es": "Universidad de Mansura"
+    "es": "Universidad de Mansura",
+    "he": "אוניברסיטת אל-מנסורה"
   },
   {
     "code": "sa_ksu",
@@ -1187,7 +1305,8 @@
     "ru": "Университет короля Сауда",
     "ka": "მეფე საუდის უნივერსიტეტი",
     "ar": "جامعة الملك سعود",
-    "es": "Universidad Rey Saúd"
+    "es": "Universidad Rey Saúd",
+    "he": "אוניברסיטת המלך סעוד"
   },
   {
     "code": "sa_kau",
@@ -1197,7 +1316,8 @@
     "ru": "Университет короля Абдулазиза",
     "ka": "მეფე აბდულაზიზის უნივერსიტეტი",
     "ar": "جامعة الملك عبد العزيز",
-    "es": "Universidad Rey Abdulaziz"
+    "es": "Universidad Rey Abdulaziz",
+    "he": "אוניברסיטת המלך עבד אל-עזיז"
   },
   {
     "code": "sa_kfupm",
@@ -1207,7 +1327,8 @@
     "ru": "Университет нефти и минералов имени короля Фахда",
     "ka": "მეფე ფაჰდის ნავთობისა და მინერალების უნივერსიტეტი",
     "ar": "جامعة الملك فهد للبترول والمعادن",
-    "es": "Universidad Rey Fahd de Petróleo y Minerales"
+    "es": "Universidad Rey Fahd de Petróleo y Minerales",
+    "he": "אוניברסיטת המלך פהד לנפט ומחצבים"
   },
   {
     "code": "sa_kaust",
@@ -1217,7 +1338,8 @@
     "ru": "Университет науки и технологий имени короля Абдуллы (KAUST)",
     "ka": "მეფე აბდულას მეცნიერებისა და ტექნოლოგიების უნივერსიტეტი (KAUST)",
     "ar": "جامعة الملك عبد الله للعلوم والتقنية",
-    "es": "Universidad Rey Abdalá de Ciencia y Tecnología (KAUST)"
+    "es": "Universidad Rey Abdalá de Ciencia y Tecnología (KAUST)",
+    "he": "אוניברסיטת המלך עבדאללה למדע וטכנולוגיה (KAUST)"
   },
   {
     "code": "sa_uqu",
@@ -1227,7 +1349,8 @@
     "ru": "Университет Умм аль-Кура",
     "ka": "უმ ალ-ქურას უნივერსიტეტი",
     "ar": "جامعة أم القرى",
-    "es": "Universidad Umm Al-Qura"
+    "es": "Universidad Umm Al-Qura",
+    "he": "אוניברסיטת אום אל-קורא"
   },
   {
     "code": "ae_uaeu",
@@ -1237,7 +1360,8 @@
     "ru": "Университет ОАЭ",
     "ka": "არაბთა გაერთიანებული საამიროების უნივერსიტეტი",
     "ar": "جامعة الإمارات العربية المتحدة",
-    "es": "Universidad de los Emiratos Árabes Unidos"
+    "es": "Universidad de los Emiratos Árabes Unidos",
+    "he": "אוניברסיטת איחוד האמירויות הערביות"
   },
   {
     "code": "ae_khalifa",
@@ -1247,7 +1371,8 @@
     "ru": "Университет Халифы",
     "ka": "ხალიფას უნივერსიტეტი",
     "ar": "جامعة خليفة",
-    "es": "Universidad Khalifa"
+    "es": "Universidad Khalifa",
+    "he": "אוניברסיטת חליפה"
   },
   {
     "code": "ae_aus",
@@ -1257,7 +1382,8 @@
     "ru": "Американский университет в Шардже",
     "ka": "ამერიკული უნივერსიტეტი შარჯაში",
     "ar": "الجامعة الأمريكية في الشارقة",
-    "es": "Universidad Americana de Sharjah"
+    "es": "Universidad Americana de Sharjah",
+    "he": "האוניברסיטה האמריקאית בשארג'ה"
   },
   {
     "code": "ae_sharjah",
@@ -1267,7 +1393,8 @@
     "ru": "Университет Шарджи",
     "ka": "შარჯას უნივერსიტეტი",
     "ar": "جامعة الشارقة",
-    "es": "Universidad de Sharjah"
+    "es": "Universidad de Sharjah",
+    "he": "אוניברסיטת שארג'ה"
   },
   {
     "code": "qa_qu",
@@ -1277,7 +1404,8 @@
     "ru": "Катарский университет",
     "ka": "ყატარის უნივერსიტეტი",
     "ar": "جامعة قطر",
-    "es": "Universidad de Catar"
+    "es": "Universidad de Catar",
+    "he": "אוניברסיטת קטאר"
   },
   {
     "code": "qa_hbku",
@@ -1287,7 +1415,8 @@
     "ru": "Университет Хамада бин Халифы",
     "ka": "ჰამად ბინ ხალიფას უნივერსიტეტი",
     "ar": "جامعة حمد بن خليفة",
-    "es": "Universidad Hamad Bin Khalifa"
+    "es": "Universidad Hamad Bin Khalifa",
+    "he": "אוניברסיטת חמד בן חליפה"
   },
   {
     "code": "kw_ku",
@@ -1297,7 +1426,8 @@
     "ru": "Кувейтский университет",
     "ka": "ქუვეითის უნივერსიტეტი",
     "ar": "جامعة الكويت",
-    "es": "Universidad de Kuwait"
+    "es": "Universidad de Kuwait",
+    "he": "אוניברסיטת כווית"
   },
   {
     "code": "jo_ju",
@@ -1307,7 +1437,8 @@
     "ru": "Университет Иордании",
     "ka": "იორდანიის უნივერსიტეტი",
     "ar": "الجامعة الأردنية",
-    "es": "Universidad de Jordania"
+    "es": "Universidad de Jordania",
+    "he": "האוניברסיטה של ירדן"
   },
   {
     "code": "jo_just",
@@ -1317,7 +1448,8 @@
     "ru": "Иорданский университет науки и технологий",
     "ka": "იორდანიის მეცნიერებისა და ტექნოლოგიების უნივერსიტეტი",
     "ar": "جامعة العلوم والتكنولوجيا الأردنية",
-    "es": "Universidad de Ciencia y Tecnología de Jordania"
+    "es": "Universidad de Ciencia y Tecnología de Jordania",
+    "he": "אוניברסיטת ירדן למדע וטכנולוגיה"
   },
   {
     "code": "lb_aub",
@@ -1327,7 +1459,8 @@
     "ru": "Американский университет в Бейруте",
     "ka": "ამერიკული უნივერსიტეტი ბეირუთში",
     "ar": "الجامعة الأمريكية في بيروت",
-    "es": "Universidad Americana de Beirut (AUB)"
+    "es": "Universidad Americana de Beirut (AUB)",
+    "he": "האוניברסיטה האמריקאית בביירות (AUB)"
   },
   {
     "code": "lb_usj",
@@ -1337,7 +1470,8 @@
     "ru": "Университет Святого Иосифа в Бейруте",
     "ka": "წმინდა იოსების უნივერსიტეტი ბეირუთში",
     "ar": "جامعة القديس يوسف في بيروت",
-    "es": "Universidad Saint Joseph de Beirut"
+    "es": "Universidad Saint Joseph de Beirut",
+    "he": "אוניברסיטת סן ז'וזף בביירות"
   },
   {
     "code": "lb_ul",
@@ -1347,7 +1481,8 @@
     "ru": "Ливанский университет",
     "ka": "ლიბანის უნივერსიტეტი",
     "ar": "الجامعة اللبنانية",
-    "es": "Universidad Libanesa"
+    "es": "Universidad Libanesa",
+    "he": "האוניברסיטה הלבנונית"
   },
   {
     "code": "iq_baghdad",
@@ -1357,7 +1492,8 @@
     "ru": "Багдадский университет",
     "ka": "ბაღდადის უნივერსიტეტი",
     "ar": "جامعة بغداد",
-    "es": "Universidad de Bagdad"
+    "es": "Universidad de Bagdad",
+    "he": "אוניברסיטת בגדד"
   },
   {
     "code": "iq_basrah",
@@ -1367,7 +1503,8 @@
     "ru": "Университет Басры",
     "ka": "ბასრას უნივერსიტეტი",
     "ar": "جامعة البصرة",
-    "es": "Universidad de Basora"
+    "es": "Universidad de Basora",
+    "he": "אוניברסיטת בצרה"
   },
   {
     "code": "sy_damascus",
@@ -1377,7 +1514,8 @@
     "ru": "Дамасский университет",
     "ka": "დამასკოს უნივერსიტეტი",
     "ar": "جامعة دمشق",
-    "es": "Universidad de Damasco"
+    "es": "Universidad de Damasco",
+    "he": "אוניברסיטת דמשק"
   },
   {
     "code": "sy_aleppo",
@@ -1387,7 +1525,8 @@
     "ru": "Университет Алеппо",
     "ka": "ალეპოს უნივერსიტეტი",
     "ar": "جامعة حلب",
-    "es": "Universidad de Alepo"
+    "es": "Universidad de Alepo",
+    "he": "אוניברסיטת חלב"
   },
   {
     "code": "ps_birzeit",
@@ -1397,7 +1536,8 @@
     "ru": "Университет Бирзейт",
     "ka": "ბირზეითის უნივერსიტეტი",
     "ar": "جامعة بيرزيت",
-    "es": "Universidad de Birzeit"
+    "es": "Universidad de Birzeit",
+    "he": "אוניברסיטת ביר זית"
   },
   {
     "code": "ps_najah",
@@ -1407,7 +1547,8 @@
     "ru": "Национальный университет Ан-Наджах",
     "ka": "ან-ნაჯაჰის ნაციონალური უნივერსიტეტი",
     "ar": "جامعة النجاح الوطنية",
-    "es": "Universidad Nacional An-Najah"
+    "es": "Universidad Nacional An-Najah",
+    "he": "אוניברסיטת אן-נג'אח הלאומית"
   },
   {
     "code": "om_squ",
@@ -1417,7 +1558,8 @@
     "ru": "Университет Султана Кабуса",
     "ka": "სულთან ქაბუსის უნივერსიტეტი",
     "ar": "جامعة السلطان قابوس",
-    "es": "Universidad Sultán Qabús"
+    "es": "Universidad Sultán Qabús",
+    "he": "אוניברסיטת סולטאן קאבוס"
   },
   {
     "code": "bh_uob",
@@ -1427,7 +1569,8 @@
     "ru": "Университет Бахрейна",
     "ka": "ბაჰრეინის უნივერსიტეტი",
     "ar": "جامعة البحرين",
-    "es": "Universidad de Baréin"
+    "es": "Universidad de Baréin",
+    "he": "אוניברסיטת בחריין"
   },
   {
     "code": "ma_um5",
@@ -1437,7 +1580,8 @@
     "ru": "Университет Мохаммеда V в Рабате",
     "ka": "მუჰამედ V-ის უნივერსიტეტი რაბატში",
     "ar": "جامعة محمد الخامس بالرباط",
-    "es": "Universidad Mohammed V de Rabat"
+    "es": "Universidad Mohammed V de Rabat",
+    "he": "אוניברסיטת מוחמד החמישי ברבאט"
   },
   {
     "code": "ma_aui",
@@ -1447,7 +1591,8 @@
     "ru": "Университет Аль-Ахавайн",
     "ka": "ალ-აჰავაინის უნივერსიტეტი",
     "ar": "جامعة الأخوين",
-    "es": "Universidad Al Akhawayn"
+    "es": "Universidad Al Akhawayn",
+    "he": "אוניברסיטת אל-אחוויין"
   },
   {
     "code": "ma_uca",
@@ -1457,7 +1602,8 @@
     "ru": "Университет Кади Айяда",
     "ka": "ქადი აიადის უნივერსიტეტი",
     "ar": "جامعة القاضي عياض",
-    "es": "Universidad Cadi Ayyad"
+    "es": "Universidad Cadi Ayyad",
+    "he": "אוניברסיטת קאדי עיאד"
   },
   {
     "code": "tn_utm",
@@ -1467,7 +1613,8 @@
     "ru": "Университет Тунис Эль-Манар",
     "ka": "ტუნის ელ-მანარის უნივერსიტეტი",
     "ar": "جامعة تونس المنار",
-    "es": "Universidad de Túnez El Manar"
+    "es": "Universidad de Túnez El Manar",
+    "he": "אוניברסיטת תוניס אל-מנאר"
   },
   {
     "code": "tn_ucar",
@@ -1477,7 +1624,8 @@
     "ru": "Университет Карфагена",
     "ka": "კართაგენის უნივერსიტეტი",
     "ar": "جامعة قرطاج",
-    "es": "Universidad de Cartago"
+    "es": "Universidad de Cartago",
+    "he": "אוניברסיטת קרתגו"
   },
   {
     "code": "dz_algiers",
@@ -1487,7 +1635,8 @@
     "ru": "Алжирский университет",
     "ka": "ალჟირის უნივერსიტეტი",
     "ar": "جامعة الجزائر",
-    "es": "Universidad de Argel"
+    "es": "Universidad de Argel",
+    "he": "אוניברסיטת אלג'יר"
   },
   {
     "code": "dz_usthb",
@@ -1497,7 +1646,8 @@
     "ru": "Университет науки и технологий имени Хуари Бумедьена",
     "ka": "ჰუარი ბუმედიენის მეცნიერებისა და ტექნოლოგიების უნივერსიტეტი",
     "ar": "جامعة هواري بومدين للعلوم والتكنولوجيا",
-    "es": "Universidad de Ciencia y Tecnología Houari Boumediene"
+    "es": "Universidad de Ciencia y Tecnología Houari Boumediene",
+    "he": "אוניברסיטת הוארי בומדיין למדע וטכנולוגיה"
   },
   {
     "code": "ir_tehran",
@@ -1507,7 +1657,8 @@
     "ru": "Тегеранский университет",
     "ka": "თეირანის უნივერსიტეტი",
     "ar": "جامعة طهران",
-    "es": "Universidad de Teherán"
+    "es": "Universidad de Teherán",
+    "he": "אוניברסיטת טהרן"
   },
   {
     "code": "ir_sharif",
@@ -1517,7 +1668,8 @@
     "ru": "Технологический университет Шарифа",
     "ka": "შარიფის ტექნოლოგიური უნივერსიტეტი",
     "ar": "جامعة شريف للتكنولوجيا",
-    "es": "Universidad Tecnológica Sharif"
+    "es": "Universidad Tecnológica Sharif",
+    "he": "האוניברסיטה הטכנולוגית שריף"
   },
   {
     "code": "ir_tabriz",
@@ -1527,7 +1679,8 @@
     "ru": "Тебризский университет",
     "ka": "თავრიზის უნივერსიტეტი",
     "ar": "جامعة تبريز",
-    "es": "Universidad de Tabriz"
+    "es": "Universidad de Tabriz",
+    "he": "אוניברסיטת תבריז"
   },
   {
     "code": "ir_amirkabir",
@@ -1537,7 +1690,8 @@
     "ru": "Технологический университет Амиркабир",
     "ka": "ამირქაბირის ტექნოლოგიური უნივერსიტეტი",
     "ar": "جامعة أمير كبير للتكنولوجيا",
-    "es": "Universidad Tecnológica Amirkabir"
+    "es": "Universidad Tecnológica Amirkabir",
+    "he": "האוניברסיטה הטכנולוגית אמירכביר"
   },
   {
     "code": "es_ucm",
@@ -1547,7 +1701,8 @@
     "ru": "Мадридский университет Комплутенсе",
     "ka": "მადრიდის კომპლუტენსეს უნივერსიტეტი",
     "ar": "جامعة كومبلوتنسي في مدريد",
-    "es": "Universidad Complutense de Madrid"
+    "es": "Universidad Complutense de Madrid",
+    "he": "האוניברסיטה הקומפלוטנסית של מדריד"
   },
   {
     "code": "es_uam",
@@ -1557,7 +1712,8 @@
     "ru": "Мадридский автономный университет",
     "ka": "მადრიდის ავტონომიური უნივერსიტეტი",
     "ar": "جامعة مدريد المستقلة",
-    "es": "Universidad Autónoma de Madrid"
+    "es": "Universidad Autónoma de Madrid",
+    "he": "האוניברסיטה האוטונומית של מדריד"
   },
   {
     "code": "es_upm",
@@ -1567,7 +1723,8 @@
     "ru": "Мадридский политехнический университет",
     "ka": "მადრიდის ტექნიკური უნივერსიტეტი",
     "ar": "جامعة مدريد التقنية",
-    "es": "Universidad Politécnica de Madrid"
+    "es": "Universidad Politécnica de Madrid",
+    "he": "האוניברסיטה הפוליטכנית של מדריד"
   },
   {
     "code": "es_uc3m",
@@ -1577,7 +1734,8 @@
     "ru": "Университет Карлоса III в Мадриде",
     "ka": "კარლოს III-ის უნივერსიტეტი მადრიდში",
     "ar": "جامعة كارلوس الثالث في مدريد",
-    "es": "Universidad Carlos III de Madrid"
+    "es": "Universidad Carlos III de Madrid",
+    "he": "אוניברסיטת קרלוס השלישי במדריד"
   },
   {
     "code": "es_ub",
@@ -1587,7 +1745,8 @@
     "ru": "Барселонский университет",
     "ka": "ბარსელონას უნივერსიტეტი",
     "ar": "جامعة برشلونة",
-    "es": "Universidad de Barcelona"
+    "es": "Universidad de Barcelona",
+    "he": "אוניברסיטת ברצלונה"
   },
   {
     "code": "es_uab",
@@ -1597,7 +1756,8 @@
     "ru": "Автономный университет Барселоны",
     "ka": "ბარსელონას ავტონომიური უნივერსიტეტი",
     "ar": "جامعة برشلونة المستقلة",
-    "es": "Universidad Autónoma de Barcelona"
+    "es": "Universidad Autónoma de Barcelona",
+    "he": "האוניברסיטה האוטונומית של ברצלונה"
   },
   {
     "code": "es_upc",
@@ -1607,7 +1767,8 @@
     "ru": "Политехнический университет Каталонии",
     "ka": "კატალონიის ტექნიკური უნივერსიტეტი",
     "ar": "جامعة كاتالونيا التقنية",
-    "es": "Universidad Politécnica de Cataluña"
+    "es": "Universidad Politécnica de Cataluña",
+    "he": "האוניברסיטה הפוליטכנית של קטלוניה"
   },
   {
     "code": "es_upf",
@@ -1617,7 +1778,8 @@
     "ru": "Университет Помпеу Фабра",
     "ka": "პომპეუ ფაბრას უნივერსიტეტი",
     "ar": "جامعة بومبيو فابرا",
-    "es": "Universidad Pompeu Fabra"
+    "es": "Universidad Pompeu Fabra",
+    "he": "אוניברסיטת פומפאו פברה"
   },
   {
     "code": "es_usal",
@@ -1627,7 +1789,8 @@
     "ru": "Саламанкский университет",
     "ka": "სალამანკის უნივერსიტეტი",
     "ar": "جامعة سلامنكا",
-    "es": "Universidad de Salamanca"
+    "es": "Universidad de Salamanca",
+    "he": "אוניברסיטת סלמנקה"
   },
   {
     "code": "es_uv",
@@ -1637,7 +1800,8 @@
     "ru": "Университет Валенсии",
     "ka": "ვალენსიის უნივერსიტეტი",
     "ar": "جامعة فالنسيا",
-    "es": "Universidad de Valencia"
+    "es": "Universidad de Valencia",
+    "he": "אוניברסיטת ולנסיה"
   },
   {
     "code": "es_upv",
@@ -1647,7 +1811,8 @@
     "ru": "Политехнический университет Валенсии",
     "ka": "ვალენსიის ტექნიკური უნივერსიტეტი",
     "ar": "جامعة فالنسيا التقنية",
-    "es": "Universidad Politécnica de Valencia"
+    "es": "Universidad Politécnica de Valencia",
+    "he": "האוניברסיטה הפוליטכנית של ולנסיה"
   },
   {
     "code": "es_sevilla",
@@ -1657,7 +1822,8 @@
     "ru": "Севильский университет",
     "ka": "სევილიის უნივერსიტეტი",
     "ar": "جامعة إشبيلية",
-    "es": "Universidad de Sevilla"
+    "es": "Universidad de Sevilla",
+    "he": "אוניברסיטת סביליה"
   },
   {
     "code": "es_unizar",
@@ -1667,7 +1833,8 @@
     "ru": "Университет Сарагосы",
     "ka": "სარაგოსას უნივერსიტეტი",
     "ar": "جامعة سرقسطة",
-    "es": "Universidad de Zaragoza"
+    "es": "Universidad de Zaragoza",
+    "he": "אוניברסיטת סרגוסה"
   },
   {
     "code": "es_ugr",
@@ -1677,7 +1844,8 @@
     "ru": "Гранадский университет",
     "ka": "გრანადის უნივერსიტეტი",
     "ar": "جامعة غرناطة",
-    "es": "Universidad de Granada"
+    "es": "Universidad de Granada",
+    "he": "אוניברסיטת גרנדה"
   },
   {
     "code": "es_unav",
@@ -1687,7 +1855,8 @@
     "ru": "Университет Наварры",
     "ka": "ნავარას უნივერსიტეტი",
     "ar": "جامعة نافارا",
-    "es": "Universidad de Navarra"
+    "es": "Universidad de Navarra",
+    "he": "אוניברסיטת נבארה"
   },
   {
     "code": "es_uned",
@@ -1697,7 +1866,8 @@
     "ru": "Национальный университет дистанционного образования (UNED)",
     "ka": "დისტანციური განათლების ნაციონალური უნივერსიტეტი (UNED)",
     "ar": "الجامعة الوطنية للتعليم عن بعد",
-    "es": "Universidad Nacional de Educación a Distancia (UNED)"
+    "es": "Universidad Nacional de Educación a Distancia (UNED)",
+    "he": "האוניברסיטה הלאומית ללימודים מרחוק (UNED)"
   },
   {
     "code": "es_iese",
@@ -1707,7 +1877,8 @@
     "ru": "Бизнес-школа IESE",
     "ka": "IESE-ს ბიზნესის სკოლა",
     "ar": "كلية إيسي لإدارة الأعمال",
-    "es": "IESE Business School"
+    "es": "IESE Business School",
+    "he": "בית הספר לעסקים IESE"
   },
   {
     "code": "es_esade",
@@ -1717,7 +1888,8 @@
     "ru": "Бизнес-школа ESADE",
     "ka": "ESADE-ს ბიზნესის სკოლა",
     "ar": "كلية إيسادي لإدارة الأعمال",
-    "es": "ESADE Business School"
+    "es": "ESADE Business School",
+    "he": "בית הספר לעסקים ESADE"
   },
   {
     "code": "mx_unam",
@@ -1727,7 +1899,8 @@
     "ru": "Национальный автономный университет Мексики (UNAM)",
     "ka": "მექსიკის ნაციონალური ავტონომიური უნივერსიტეტი (UNAM)",
     "ar": "جامعة المكسيك الوطنية المستقلة",
-    "es": "Universidad Nacional Autónoma de México (UNAM)"
+    "es": "Universidad Nacional Autónoma de México (UNAM)",
+    "he": "האוניברסיטה הלאומית האוטונומית של מקסיקו (UNAM)"
   },
   {
     "code": "mx_ipn",
@@ -1737,7 +1910,8 @@
     "ru": "Национальный политехнический институт (Мексика)",
     "ka": "ნაციონალური პოლიტექნიკური ინსტიტუტი (მექსიკა)",
     "ar": "المعهد الوطني للتقنية في المكسيك",
-    "es": "Instituto Politécnico Nacional (México)"
+    "es": "Instituto Politécnico Nacional (México)",
+    "he": "המכון הפוליטכני הלאומי (מקסיקו)"
   },
   {
     "code": "mx_itesm",
@@ -1747,7 +1921,8 @@
     "ru": "Технологический институт Монтеррея",
     "ka": "მონტერეის ტექნოლოგიური ინსტიტუტი",
     "ar": "معهد مونتيري للتقنية",
-    "es": "Tecnológico de Monterrey"
+    "es": "Tecnológico de Monterrey",
+    "he": "המכון הטכנולוגי של מונטריי"
   },
   {
     "code": "mx_uam",
@@ -1757,7 +1932,8 @@
     "ru": "Автономный столичный университет (Мексика)",
     "ka": "მეტროპოლიტენის ავტონომიური უნივერსიტეტი (მექსიკა)",
     "ar": "الجامعة الحضرية المستقلة",
-    "es": "Universidad Autónoma Metropolitana (México)"
+    "es": "Universidad Autónoma Metropolitana (México)",
+    "he": "האוניברסיטה האוטונומית המטרופוליטנית (מקסיקו)"
   },
   {
     "code": "mx_itam",
@@ -1767,7 +1943,8 @@
     "ru": "Автономный технологический институт Мексики (ITAM)",
     "ka": "მექსიკის ავტონომიური ტექნოლოგიური ინსტიტუტი (ITAM)",
     "ar": "معهد المكسيك التقني المستقل",
-    "es": "Instituto Tecnológico Autónomo de México (ITAM)"
+    "es": "Instituto Tecnológico Autónomo de México (ITAM)",
+    "he": "המכון הטכנולוגי האוטונומי של מקסיקו (ITAM)"
   },
   {
     "code": "mx_udg",
@@ -1777,7 +1954,8 @@
     "ru": "Университет Гвадалахары",
     "ka": "გვადალახარას უნივერსიტეტი",
     "ar": "جامعة غوادالاخارا",
-    "es": "Universidad de Guadalajara"
+    "es": "Universidad de Guadalajara",
+    "he": "אוניברסיטת גוודלחרה"
   },
   {
     "code": "mx_uanl",
@@ -1787,7 +1965,8 @@
     "ru": "Автономный университет Нуэво-Леона",
     "ka": "ნუევო-ლეონის ავტონომიური უნივერსიტეტი",
     "ar": "جامعة نويبو ليون المستقلة",
-    "es": "Universidad Autónoma de Nuevo León"
+    "es": "Universidad Autónoma de Nuevo León",
+    "he": "האוניברסיטה האוטונומית של נואבו לאון"
   },
   {
     "code": "ar_uba",
@@ -1797,7 +1976,8 @@
     "ru": "Университет Буэнос-Айреса",
     "ka": "ბუენოს-აირესის უნივერსიტეტი",
     "ar": "جامعة بوينس آيرس",
-    "es": "Universidad de Buenos Aires"
+    "es": "Universidad de Buenos Aires",
+    "he": "אוניברסיטת בואנוס איירס"
   },
   {
     "code": "ar_unc",
@@ -1807,7 +1987,8 @@
     "ru": "Национальный университет Кордовы",
     "ka": "კორდობას ნაციონალური უნივერსიტეტი",
     "ar": "جامعة قرطبة الوطنية",
-    "es": "Universidad Nacional de Córdoba"
+    "es": "Universidad Nacional de Córdoba",
+    "he": "האוניברסיטה הלאומית של קורדובה"
   },
   {
     "code": "ar_unlp",
@@ -1817,7 +1998,8 @@
     "ru": "Национальный университет Ла-Платы",
     "ka": "ლა-პლატას ნაციონალური უნივერსიტეტი",
     "ar": "جامعة لا بلاتا الوطنية",
-    "es": "Universidad Nacional de La Plata"
+    "es": "Universidad Nacional de La Plata",
+    "he": "האוניברסיטה הלאומית של לה פלטה"
   },
   {
     "code": "ar_utn",
@@ -1827,7 +2009,8 @@
     "ru": "Национальный технологический университет (Аргентина)",
     "ka": "ნაციონალური ტექნოლოგიური უნივერსიტეტი (არგენტინა)",
     "ar": "الجامعة التقنية الوطنية (الأرجنتين)",
-    "es": "Universidad Tecnológica Nacional (Argentina)"
+    "es": "Universidad Tecnológica Nacional (Argentina)",
+    "he": "האוניברסיטה הטכנולוגית הלאומית (ארגנטינה)"
   },
   {
     "code": "ar_uca",
@@ -1837,7 +2020,8 @@
     "ru": "Католический университет Аргентины",
     "ka": "არგენტინის კათოლიკური უნივერსიტეტი",
     "ar": "الجامعة الكاثوليكية الأرجنتينية",
-    "es": "Universidad Católica Argentina"
+    "es": "Universidad Católica Argentina",
+    "he": "האוניברסיטה הקתולית של ארגנטינה"
   },
   {
     "code": "ar_itba",
@@ -1847,7 +2031,8 @@
     "ru": "Технологический институт Буэнос-Айреса",
     "ka": "ბუენოს-აირესის ტექნოლოგიური ინსტიტუტი",
     "ar": "معهد بوينس آيرس التقني",
-    "es": "Instituto Tecnológico de Buenos Aires"
+    "es": "Instituto Tecnológico de Buenos Aires",
+    "he": "המכון הטכנולוגי של בואנוס איירס"
   },
   {
     "code": "co_unal",
@@ -1857,7 +2042,8 @@
     "ru": "Национальный университет Колумбии",
     "ka": "კოლუმბიის ნაციონალური უნივერსიტეტი",
     "ar": "جامعة كولومبيا الوطنية",
-    "es": "Universidad Nacional de Colombia"
+    "es": "Universidad Nacional de Colombia",
+    "he": "האוניברסיטה הלאומית של קולומביה"
   },
   {
     "code": "co_uniandes",
@@ -1867,7 +2053,8 @@
     "ru": "Университет Лос-Андес (Колумбия)",
     "ka": "ლოს-ანდესის უნივერსიტეტი (კოლუმბია)",
     "ar": "جامعة لوس أنديس (كولومبيا)",
-    "es": "Universidad de los Andes (Colombia)"
+    "es": "Universidad de los Andes (Colombia)",
+    "he": "אוניברסיטת לוס אנדס (קולומביה)"
   },
   {
     "code": "co_javeriana",
@@ -1877,7 +2064,8 @@
     "ru": "Папский университет Хавериана",
     "ka": "ხავერიანას პაპის უნივერსიტეტი",
     "ar": "جامعة خافيريانا البابوية",
-    "es": "Pontificia Universidad Javeriana"
+    "es": "Pontificia Universidad Javeriana",
+    "he": "האוניברסיטה האפיפיורית חוורייאנה"
   },
   {
     "code": "co_udea",
@@ -1887,7 +2075,8 @@
     "ru": "Университет Антьокии",
     "ka": "ანტიოკიის უნივერსიტეტი",
     "ar": "جامعة أنتيوكيا",
-    "es": "Universidad de Antioquia"
+    "es": "Universidad de Antioquia",
+    "he": "אוניברסיטת אנטיוקיה"
   },
   {
     "code": "co_eafit",
@@ -1897,7 +2086,8 @@
     "ru": "Университет EAFIT",
     "ka": "EAFIT-ის უნივერსიტეტი",
     "ar": "جامعة إيافيت",
-    "es": "Universidad EAFIT"
+    "es": "Universidad EAFIT",
+    "he": "אוניברסיטת EAFIT"
   },
   {
     "code": "cl_uchile",
@@ -1907,7 +2097,8 @@
     "ru": "Университет Чили",
     "ka": "ჩილეს უნივერსიტეტი",
     "ar": "جامعة تشيلي",
-    "es": "Universidad de Chile"
+    "es": "Universidad de Chile",
+    "he": "אוניברסיטת צ'ילה"
   },
   {
     "code": "cl_puc",
@@ -1917,7 +2108,8 @@
     "ru": "Папский католический университет Чили",
     "ka": "ჩილეს პაპის კათოლიკური უნივერსიტეტი",
     "ar": "الجامعة الكاثوليكية البابوية في تشيلي",
-    "es": "Pontificia Universidad Católica de Chile"
+    "es": "Pontificia Universidad Católica de Chile",
+    "he": "האוניברסיטה הקתולית האפיפיורית של צ'ילה"
   },
   {
     "code": "cl_usach",
@@ -1927,7 +2119,8 @@
     "ru": "Университет Сантьяго-де-Чили",
     "ka": "სანტიაგო-დე-ჩილეს უნივერსიტეტი",
     "ar": "جامعة سانتياغو دي تشيلي",
-    "es": "Universidad de Santiago de Chile"
+    "es": "Universidad de Santiago de Chile",
+    "he": "אוניברסיטת סנטיאגו דה צ'ילה"
   },
   {
     "code": "cl_usm",
@@ -1937,7 +2130,8 @@
     "ru": "Технический университет Федерико Санта-Мария",
     "ka": "ფედერიკო სანტა მარიას ტექნიკური უნივერსიტეტი",
     "ar": "جامعة فيديريكو سانتا ماريا التقنية",
-    "es": "Universidad Técnica Federico Santa María"
+    "es": "Universidad Técnica Federico Santa María",
+    "he": "האוניברסיטה הטכנית פדריקו סנטה מריה"
   },
   {
     "code": "cl_udec",
@@ -1947,7 +2141,8 @@
     "ru": "Университет Консепсьона",
     "ka": "კონსეპსიონის უნივერსიტეტი",
     "ar": "جامعة كونسيبسيون",
-    "es": "Universidad de Concepción"
+    "es": "Universidad de Concepción",
+    "he": "אוניברסיטת קונספסיון"
   },
   {
     "code": "pe_unmsm",
@@ -1957,7 +2152,8 @@
     "ru": "Национальный университет Сан-Маркос",
     "ka": "სან-მარკოსის ნაციონალური უნივერსიტეტი",
     "ar": "جامعة سان ماركوس الوطنية الكبرى",
-    "es": "Universidad Nacional Mayor de San Marcos"
+    "es": "Universidad Nacional Mayor de San Marcos",
+    "he": "האוניברסיטה הלאומית סן מרקוס"
   },
   {
     "code": "pe_pucp",
@@ -1967,7 +2163,8 @@
     "ru": "Папский католический университет Перу",
     "ka": "პერუს პაპის კათოლიკური უნივერსიტეტი",
     "ar": "الجامعة الكاثوليكية البابوية في بيرو",
-    "es": "Pontificia Universidad Católica del Perú"
+    "es": "Pontificia Universidad Católica del Perú",
+    "he": "האוניברסיטה הקתולית האפיפיורית של פרו"
   },
   {
     "code": "pe_uni",
@@ -1977,7 +2174,8 @@
     "ru": "Национальный инженерный университет (Перу)",
     "ka": "ნაციონალური საინჟინრო უნივერსიტეტი (პერუ)",
     "ar": "الجامعة الوطنية للهندسة (بيرو)",
-    "es": "Universidad Nacional de Ingeniería (Perú)"
+    "es": "Universidad Nacional de Ingeniería (Perú)",
+    "he": "האוניברסיטה הלאומית להנדסה (פרו)"
   },
   {
     "code": "ve_ucv",
@@ -1987,7 +2185,8 @@
     "ru": "Центральный университет Венесуэлы",
     "ka": "ვენესუელას ცენტრალური უნივერსიტეტი",
     "ar": "جامعة فنزويلا المركزية",
-    "es": "Universidad Central de Venezuela"
+    "es": "Universidad Central de Venezuela",
+    "he": "האוניברסיטה המרכזית של ונצואלה"
   },
   {
     "code": "ve_usb",
@@ -1997,7 +2196,8 @@
     "ru": "Университет Симона Боливара",
     "ka": "სიმონ ბოლივარის უნივერსიტეტი",
     "ar": "جامعة سيمون بوليفار",
-    "es": "Universidad Simón Bolívar"
+    "es": "Universidad Simón Bolívar",
+    "he": "אוניברסיטת סימון בוליבר"
   },
   {
     "code": "ve_ucab",
@@ -2007,7 +2207,8 @@
     "ru": "Католический университет Андреса Бельо",
     "ka": "ანდრეს ბელიოს კათოლიკური უნივერსიტეტი",
     "ar": "جامعة أندريس بيو الكاثوليكية",
-    "es": "Universidad Católica Andrés Bello"
+    "es": "Universidad Católica Andrés Bello",
+    "he": "האוניברסיטה הקתולית אנדרס בייו"
   },
   {
     "code": "ec_usfq",
@@ -2017,7 +2218,8 @@
     "ru": "Университет Сан-Франсиско-де-Кито",
     "ka": "სან-ფრანსისკო-დე-კიტოს უნივერსიტეტი",
     "ar": "جامعة سان فرانسيسكو دي كيتو",
-    "es": "Universidad San Francisco de Quito"
+    "es": "Universidad San Francisco de Quito",
+    "he": "אוניברסיטת סן פרנסיסקו דה קיטו"
   },
   {
     "code": "ec_epn",
@@ -2027,7 +2229,8 @@
     "ru": "Национальная политехническая школа (Эквадор)",
     "ka": "ნაციონალური პოლიტექნიკური სკოლა (ეკვადორი)",
     "ar": "المدرسة الوطنية التقنية (الإكوادور)",
-    "es": "Escuela Politécnica Nacional (Ecuador)"
+    "es": "Escuela Politécnica Nacional (Ecuador)",
+    "he": "בית הספר הפוליטכני הלאומי (אקוודור)"
   },
   {
     "code": "ec_puce",
@@ -2037,7 +2240,8 @@
     "ru": "Папский католический университет Эквадора",
     "ka": "ეკვადორის პაპის კათოლიკური უნივერსიტეტი",
     "ar": "الجامعة الكاثوليكية البابوية في الإكوادور",
-    "es": "Pontificia Universidad Católica del Ecuador"
+    "es": "Pontificia Universidad Católica del Ecuador",
+    "he": "האוניברסיטה הקתולית האפיפיורית של אקוודור"
   },
   {
     "code": "uy_udelar",
@@ -2047,7 +2251,8 @@
     "ru": "Университет Республики (Уругвай)",
     "ka": "რესპუბლიკის უნივერსიტეტი (ურუგვაი)",
     "ar": "جامعة الجمهورية (أوروغواي)",
-    "es": "Universidad de la República (Uruguay)"
+    "es": "Universidad de la República (Uruguay)",
+    "he": "אוניברסיטת הרפובליקה (אורוגוואי)"
   },
   {
     "code": "uy_ort",
@@ -2057,7 +2262,8 @@
     "ru": "Университет ORT Уругвая",
     "ka": "ურუგვაის ORT-ის უნივერსიტეტი",
     "ar": "جامعة أورت أوروغواي",
-    "es": "Universidad ORT Uruguay"
+    "es": "Universidad ORT Uruguay",
+    "he": "אוניברסיטת ORT אורוגוואי"
   },
   {
     "code": "cr_ucr",
@@ -2067,7 +2273,8 @@
     "ru": "Университет Коста-Рики",
     "ka": "კოსტა-რიკის უნივერსიტეტი",
     "ar": "جامعة كوستاريكا",
-    "es": "Universidad de Costa Rica"
+    "es": "Universidad de Costa Rica",
+    "he": "אוניברסיטת קוסטה ריקה"
   },
   {
     "code": "cr_tec",
@@ -2077,7 +2284,8 @@
     "ru": "Технологический институт Коста-Рики",
     "ka": "კოსტა-რიკის ტექნოლოგიური ინსტიტუტი",
     "ar": "معهد كوستاريكا التقني",
-    "es": "Instituto Tecnológico de Costa Rica"
+    "es": "Instituto Tecnológico de Costa Rica",
+    "he": "המכון הטכנולוגי של קוסטה ריקה"
   },
   {
     "code": "cu_uh",
@@ -2087,7 +2295,8 @@
     "ru": "Гаванский университет",
     "ka": "ჰავანის უნივერსიტეტი",
     "ar": "جامعة هافانا",
-    "es": "Universidad de La Habana"
+    "es": "Universidad de La Habana",
+    "he": "אוניברסיטת הוואנה"
   },
   {
     "code": "do_uasd",
@@ -2097,7 +2306,8 @@
     "ru": "Автономный университет Санто-Доминго",
     "ka": "სანტო-დომინგოს ავტონომიური უნივერსიტეტი",
     "ar": "جامعة سانتو دومينغو المستقلة",
-    "es": "Universidad Autónoma de Santo Domingo"
+    "es": "Universidad Autónoma de Santo Domingo",
+    "he": "האוניברסיטה האוטונומית של סנטו דומינגו"
   },
   {
     "code": "do_intec",
@@ -2107,7 +2317,8 @@
     "ru": "Технологический институт Санто-Доминго",
     "ka": "სანტო-დომინგოს ტექნოლოგიური ინსტიტუტი",
     "ar": "معهد سانتو دومينغو التقني",
-    "es": "Instituto Tecnológico de Santo Domingo"
+    "es": "Instituto Tecnológico de Santo Domingo",
+    "he": "המכון הטכנולוגי של סנטו דומינגו"
   },
   {
     "code": "gt_usac",
@@ -2117,7 +2328,8 @@
     "ru": "Университет Сан-Карлос в Гватемале",
     "ka": "სან-კარლოსის უნივერსიტეტი გვატემალაში",
     "ar": "جامعة سان كارلوس في غواتيمالا",
-    "es": "Universidad de San Carlos de Guatemala"
+    "es": "Universidad de San Carlos de Guatemala",
+    "he": "אוניברסיטת סן קרלוס בגואטמלה"
   },
   {
     "code": "gt_ufm",
@@ -2127,7 +2339,8 @@
     "ru": "Университет Франсиско Маррокина",
     "ka": "ფრანსისკო მაროკინის უნივერსიტეტი",
     "ar": "جامعة فرانسيسكو ماروكين",
-    "es": "Universidad Francisco Marroquín"
+    "es": "Universidad Francisco Marroquín",
+    "he": "אוניברסיטת פרנסיסקו מארוקין"
   },
   {
     "code": "pa_up",
@@ -2137,7 +2350,8 @@
     "ru": "Университет Панамы",
     "ka": "პანამის უნივერსიტეტი",
     "ar": "جامعة بنما",
-    "es": "Universidad de Panamá"
+    "es": "Universidad de Panamá",
+    "he": "אוניברסיטת פנמה"
   },
   {
     "code": "pa_utp",
@@ -2147,7 +2361,8 @@
     "ru": "Технологический университет Панамы",
     "ka": "პანამის ტექნოლოგიური უნივერსიტეტი",
     "ar": "جامعة بنما التقنية",
-    "es": "Universidad Tecnológica de Panamá"
+    "es": "Universidad Tecnológica de Panamá",
+    "he": "האוניברסיטה הטכנולוגית של פנמה"
   },
   {
     "code": "bo_umsa",
@@ -2157,7 +2372,8 @@
     "ru": "Университет Сан-Андрес (Боливия)",
     "ka": "სან-ანდრესის უნივერსიტეტი (ბოლივია)",
     "ar": "جامعة سان أندريس الكبرى (بوليفيا)",
-    "es": "Universidad Mayor de San Andrés (Bolivia)"
+    "es": "Universidad Mayor de San Andrés (Bolivia)",
+    "he": "האוניברסיטה הגדולה סן אנדרס (בוליביה)"
   },
   {
     "code": "bo_umss",
@@ -2167,7 +2383,8 @@
     "ru": "Университет Сан-Симон",
     "ka": "სან-სიმონის უნივერსიტეტი",
     "ar": "جامعة سان سيمون الكبرى",
-    "es": "Universidad Mayor de San Simón"
+    "es": "Universidad Mayor de San Simón",
+    "he": "האוניברסיטה הגדולה סן סימון"
   },
   {
     "code": "py_una",
@@ -2177,7 +2394,8 @@
     "ru": "Национальный университет Асунсьона",
     "ka": "ასუნსიონის ნაციონალური უნივერსიტეტი",
     "ar": "جامعة أسونسيون الوطنية",
-    "es": "Universidad Nacional de Asunción"
+    "es": "Universidad Nacional de Asunción",
+    "he": "האוניברסיטה הלאומית של אסונסיון"
   },
   {
     "code": "sv_ues",
@@ -2187,7 +2405,8 @@
     "ru": "Университет Сальвадора",
     "ka": "სალვადორის უნივერსიტეტი",
     "ar": "جامعة السلفادور",
-    "es": "Universidad de El Salvador"
+    "es": "Universidad de El Salvador",
+    "he": "אוניברסיטת אל סלוודור"
   },
   {
     "code": "hn_unah",
@@ -2197,7 +2416,8 @@
     "ru": "Национальный автономный университет Гондураса",
     "ka": "ჰონდურასის ნაციონალური ავტონომიური უნივერსიტეტი",
     "ar": "جامعة هندوراس الوطنية المستقلة",
-    "es": "Universidad Nacional Autónoma de Honduras"
+    "es": "Universidad Nacional Autónoma de Honduras",
+    "he": "האוניברסיטה הלאומית האוטונומית של הונדורס"
   },
   {
     "code": "ni_unan",
@@ -2207,7 +2427,8 @@
     "ru": "Национальный автономный университет Никарагуа",
     "ka": "ნიკარაგუას ნაციონალური ავტონომიური უნივერსიტეტი",
     "ar": "جامعة نيكاراغوا الوطنية المستقلة",
-    "es": "Universidad Nacional Autónoma de Nicaragua"
+    "es": "Universidad Nacional Autónoma de Nicaragua",
+    "he": "האוניברסיטה הלאומית האוטונומית של ניקרגואה"
   },
   {
     "code": "pr_upr",
@@ -2217,6 +2438,139 @@
     "ru": "Университет Пуэрто-Рико",
     "ka": "პუერტო-რიკოს უნივერსიტეტი",
     "ar": "جامعة بورتوريكو",
-    "es": "Universidad de Puerto Rico"
+    "es": "Universidad de Puerto Rico",
+    "he": "אוניברסיטת פוארטו ריקו"
+  },
+  {
+    "code": "il_huji",
+    "group": "universities",
+    "az": "Yerusəlim İbrani Universiteti",
+    "en": "Hebrew University of Jerusalem",
+    "ru": "Еврейский университет в Иерусалиме",
+    "ka": "იერუსალიმის ებრაული უნივერსიტეტი",
+    "ar": "الجامعة العبرية في القدس",
+    "es": "Universidad Hebrea de Jerusalén",
+    "he": "האוניברסיטה העברית בירושלים"
+  },
+  {
+    "code": "il_tau",
+    "group": "universities",
+    "az": "Tel-Əviv Universiteti",
+    "en": "Tel Aviv University",
+    "ru": "Тель-Авивский университет",
+    "ka": "თელ-ავივის უნივერსიტეტი",
+    "ar": "جامعة تل أبيب",
+    "es": "Universidad de Tel Aviv",
+    "he": "אוניברסיטת תל אביב"
+  },
+  {
+    "code": "il_technion",
+    "group": "universities",
+    "az": "Texnion — İsrail Texnologiya İnstitutu",
+    "en": "Technion — Israel Institute of Technology",
+    "ru": "Технион — Израильский технологический институт",
+    "ka": "ტექნიონი — ისრაელის ტექნოლოგიური ინსტიტუტი",
+    "ar": "التخنيون — معهد إسرائيل للتقنية",
+    "es": "Technion — Instituto Tecnológico de Israel",
+    "he": "הטכניון — מכון טכנולוגי לישראל"
+  },
+  {
+    "code": "il_weizmann",
+    "group": "universities",
+    "az": "Veytsman Elmi İnstitutu",
+    "en": "Weizmann Institute of Science",
+    "ru": "Институт Вейцмана",
+    "ka": "ვაისმანის სამეცნიერო ინსტიტუტი",
+    "ar": "معهد وايزمان للعلوم",
+    "es": "Instituto Weizmann de Ciencias",
+    "he": "מכון ויצמן למדע"
+  },
+  {
+    "code": "il_bgu",
+    "group": "universities",
+    "az": "Negevdəki Ben-Qurion Universiteti",
+    "en": "Ben-Gurion University of the Negev",
+    "ru": "Университет им. Бен-Гуриона в Негеве",
+    "ka": "ბენ-გურიონის უნივერსიტეტი ნეგევში",
+    "ar": "جامعة بن غوريون في النقب",
+    "es": "Universidad Ben-Gurión del Néguev",
+    "he": "אוניברסיטת בן-גוריון בנגב"
+  },
+  {
+    "code": "il_biu",
+    "group": "universities",
+    "az": "Bar-İlan Universiteti",
+    "en": "Bar-Ilan University",
+    "ru": "Университет Бар-Илан",
+    "ka": "ბარ-ილანის უნივერსიტეტი",
+    "ar": "جامعة بار إيلان",
+    "es": "Universidad Bar-Ilán",
+    "he": "אוניברסיטת בר-אילן"
+  },
+  {
+    "code": "il_haifa",
+    "group": "universities",
+    "az": "Hayfa Universiteti",
+    "en": "University of Haifa",
+    "ru": "Хайфский университет",
+    "ka": "ჰაიფის უნივერსიტეტი",
+    "ar": "جامعة حيفا",
+    "es": "Universidad de Haifa",
+    "he": "אוניברסיטת חיפה"
+  },
+  {
+    "code": "il_reichman",
+    "group": "universities",
+    "az": "Reyxman Universiteti (Herzliya)",
+    "en": "Reichman University (IDC Herzliya)",
+    "ru": "Университет Рейхмана (Герцлия)",
+    "ka": "რაიხმანის უნივერსიტეტი (ჰერცლია)",
+    "ar": "جامعة رايخمان (هرتسليا)",
+    "es": "Universidad Reichman (Herzliya)",
+    "he": "אוניברסיטת רייכמן (הרצליה)"
+  },
+  {
+    "code": "il_openu",
+    "group": "universities",
+    "az": "İsrailin Açıq Universiteti",
+    "en": "Open University of Israel",
+    "ru": "Открытый университет Израиля",
+    "ka": "ისრაელის ღია უნივერსიტეტი",
+    "ar": "جامعة إسرائيل المفتوحة",
+    "es": "Universidad Abierta de Israel",
+    "he": "האוניברסיטה הפתוחה"
+  },
+  {
+    "code": "il_ariel",
+    "group": "universities",
+    "az": "Ariel Universiteti",
+    "en": "Ariel University",
+    "ru": "Университет Ариэля",
+    "ka": "არიელის უნივერსიტეტი",
+    "ar": "جامعة أريئيل",
+    "es": "Universidad de Ariel",
+    "he": "אוניברסיטת אריאל"
+  },
+  {
+    "code": "il_bezalel",
+    "group": "universities",
+    "az": "Betsalel İncəsənət və Dizayn Akademiyası",
+    "en": "Bezalel Academy of Arts and Design",
+    "ru": "Академия искусства и дизайна «Бецалель»",
+    "ka": "ბეცალელის ხელოვნებისა და დიზაინის აკადემია",
+    "ar": "أكاديمية بتسلئيل للفنون والتصميم",
+    "es": "Academia de Arte y Diseño Bezalel",
+    "he": "בצלאל — אקדמיה לאמנות ולעיצוב"
+  },
+  {
+    "code": "il_shenkar",
+    "group": "universities",
+    "az": "Şenkar Mühəndislik və Dizayn Kolleci",
+    "en": "Shenkar College of Engineering and Design",
+    "ru": "Колледж инженерии и дизайна Шенкар",
+    "ka": "შენკარის ინჟინერიისა და დიზაინის კოლეჯი",
+    "ar": "كلية شنكار للهندسة والتصميم",
+    "es": "Escuela de Ingeniería y Diseño Shenkar",
+    "he": "שנקר — הנדסה ועיצוב"
   }
 ]

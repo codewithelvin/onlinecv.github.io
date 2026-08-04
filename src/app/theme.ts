@@ -6,15 +6,14 @@ export const BRAND = '#1877F2';
 export const BRAND_ACCESSIBLE = '#1461c7';
 
 /**
- * UI font stack. `NotoSansGeorgian` and `NotoSansArabic` sit behind Inter for the
- * same reason they do in the CV stack (`templates/_core/fonts.ts`): Inter has no
- * glyphs for either script, so without them those UIs fall through to whatever
- * the OS happens to have. Both `@font-face` blocks in `index.css` are
- * `unicode-range`-scoped, so nothing is downloaded for the Latin/Cyrillic
- * locales.
+ * UI font stack. The three Noto faces sit behind Inter for the same reason they do
+ * in the CV stack (`templates/_core/fonts.ts`): Inter has no glyphs for Georgian,
+ * Arabic or Hebrew, so without them those UIs fall through to whatever the OS
+ * happens to have. Every `@font-face` block in `index.css` is
+ * `unicode-range`-scoped, so nothing is downloaded for the Latin/Cyrillic locales.
  */
 export const FONT_FAMILY =
-  "Inter, NotoSansGeorgian, NotoSansArabic, 'Segoe UI', Roboto, 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif";
+  "Inter, NotoSansGeorgian, NotoSansArabic, NotoSansHebrew, 'Segoe UI', Roboto, 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif";
 
 /**
  * Ant Design `ConfigProvider` theme (spec §10.2). Primary uses the AA-safe

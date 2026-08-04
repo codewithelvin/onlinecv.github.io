@@ -56,6 +56,26 @@ const WORDS = {
     skill: 'დროის მართვა',
     highlight: 'პორტალის სრული გადაწერა',
   },
+  /**
+   * Hebrew is right-to-left like Arabic, so it goes through the same bidi
+   * reordering — but it needs no shaping pass (no contextual letter forms, no
+   * mandatory ligatures) and therefore neither pre-shaping nor non-joiners, which
+   * are what damage Arabic's text layer. If that reasoning holds, Hebrew comes back
+   * intact and belongs in the must-survive list rather than beside Arabic. This is
+   * the assertion `LocaleMeta.cv: true` rests on for Hebrew.
+   */
+  he: {
+    firstName: 'דוד',
+    lastName: 'כהן',
+    headline: 'מפתח צד לקוח',
+    summary: 'מפתח תוכנה בעל ניסיון בפיתוח מערכות ובעבודה מול לקוחות',
+    company: 'סייברנט',
+    position: 'מפתח בכיר',
+    institution: 'האוניברסיטה העברית בירושלים',
+    faculty: 'הפקולטה למתמטיקה שימושית',
+    skill: 'ניהול זמן',
+    highlight: 'בנייה מחדש של פורטל הלקוחות',
+  },
   ru: {
     firstName: 'Иван',
     lastName: 'Петров',
@@ -129,14 +149,21 @@ async function render(templateId: string, resume: Resume): Promise<string> {
 }
 
 const LOCALES = Object.keys(WORDS) as (keyof typeof WORDS)[];
-/** The locales whose text MUST survive intact. Arabic is tracked separately. */
-const LTR_LOCALES = LOCALES.filter((l) => l !== 'ar');
+/**
+ * The locales whose text MUST survive intact — everything except Arabic, which is
+ * tracked as a documented expected failure below.
+ *
+ * NOT "the left-to-right ones", which is what this list used to be called: Hebrew
+ * is right-to-left and still expected to come back whole, because what damages
+ * Arabic is the shaping workaround, not the direction.
+ */
+const MUST_SURVIVE = LOCALES.filter((l) => l !== 'ar');
 
 describe('exported text matches the input', () => {
   beforeAll(() => registerResumeFonts(ReactPdf, 'public/fonts/ttf'));
 
   for (const { manifest } of listTemplates()) {
-    for (const locale of LTR_LOCALES) {
+    for (const locale of MUST_SURVIVE) {
       it(`keeps every word in "${manifest.id}" (${locale})`, async () => {
         const source = await render(manifest.id, resumeFor(locale));
         expect(missingWords(source, Object.values(WORDS[locale]).join(' '))).toEqual([]);
@@ -179,7 +206,7 @@ describe('exported text matches the input', () => {
    */
   for (const { manifest } of listTemplates()) {
     it(`draws only glyphs its fonts can name in "${manifest.id}"`, async () => {
-      for (const locale of LTR_LOCALES) {
+      for (const locale of MUST_SURVIVE) {
         const source = await render(manifest.id, resumeFor(locale));
         const unmapped = pdfTextRuns(source).flatMap((run) => run.unmapped);
         expect(unmapped, `${manifest.id} (${locale}) drew unmappable glyphs`).toEqual([]);

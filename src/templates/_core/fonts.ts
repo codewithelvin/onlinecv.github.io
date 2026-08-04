@@ -25,7 +25,7 @@ import type { Locale } from '../../types/resume';
  * `services/pdf.ts` (PDF) and an `@font-face` in `index.css` (preview) —
  * otherwise the same CV renders in two different faces.
  */
-export const CV_FONT_STACK = ['Inter', 'NotoSansGeorgian', 'NotoSansArabic'];
+export const CV_FONT_STACK = ['Inter', 'NotoSansGeorgian', 'NotoSansArabic', 'NotoSansHebrew'];
 
 /** `CV_FONT_STACK` as a CSS declaration, for the templates' inline styles. */
 export const CV_FONT_FAMILY = CV_FONT_STACK.join(', ');
@@ -39,6 +39,7 @@ export const CV_FONT_FAMILY = CV_FONT_STACK.join(', ');
 const PRIMARY_FONT: Partial<Record<Locale, string>> = {
   ka: 'NotoSansGeorgian',
   ar: 'NotoSansArabic',
+  he: 'NotoSansHebrew',
 };
 
 /**

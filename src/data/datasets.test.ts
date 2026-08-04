@@ -191,6 +191,7 @@ describe('dictionary translation coverage', () => {
       // The row predates the locale, and its code is the original dictionary's
       // `hispanic` rather than `spanish` — a stored CV may already reference it.
       es: 'hispanic',
+      he: 'hebrew',
     };
     for (const locale of SUPPORTED_LOCALES) {
       const code = ownLanguage[locale];

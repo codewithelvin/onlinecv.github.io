@@ -89,6 +89,32 @@
 }
 
 /*
+ * Hebrew — same arrangement again. Verified with fontkit: Inter has none of the 22
+ * letters and this Noto build has no Latin at all, so neither can answer for the
+ * other.
+ *
+ * U+0590–05FF is Hebrew itself (letters, niqqud, cantillation); U+FB1D–FB4F is the
+ * Alphabetic Presentation Forms block, which holds precomposed letter+dagesh pairs
+ * and the wide/final variants that pasted legacy text can carry.
+ */
+@font-face {
+  font-family: 'NotoSansHebrew';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ttf/NotoSansHebrew-Regular.ttf') format('truetype');
+  unicode-range: U+0590-05FF, U+FB1D-FB4F;
+}
+@font-face {
+  font-family: 'NotoSansHebrew';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/ttf/NotoSansHebrew-Bold.ttf') format('truetype');
+  unicode-range: U+0590-05FF, U+FB1D-FB4F;
+}
+
+/*
  * `min-height`, deliberately NOT `height: 100%`.
  *
  * Ant Design locks background scrolling while a modal is open by injecting

@@ -26,6 +26,7 @@ const AZ_RED = '#EF3340';
 const US_RED = '#B22234';
 const GE_RED = '#FF0000';
 const SA_GREEN = '#006C35';
+const IL_BLUE = '#0038B8';
 
 /**
  * The 50 star positions on the US canton: nine rows, six stars then five,
@@ -155,6 +156,32 @@ const FLAGS: Record<Locale, ReactNode> = {
     <>
       <rect width={24} height={16} fill="#AA151B" />
       <rect y={4} width={24} height={8} fill="#F1BF00" />
+    </>
+  ),
+  /**
+   * Israel: white field, two blue stripes, and the Magen David between them.
+   *
+   * The star is drawn as the flag draws it — two overlapping equilateral triangles
+   * STROKED rather than filled, so the interlaced hexagram with the open centre is
+   * what appears. A filled hexagram would be a different emblem.
+   */
+  he: (
+    <>
+      <rect width={24} height={16} fill="#fff" />
+      <rect y={2.1} width={24} height={2.1} fill={IL_BLUE} />
+      <rect y={11.8} width={24} height={2.1} fill={IL_BLUE} />
+      <polygon
+        points="12,5.1 14.6,9.6 9.4,9.6"
+        fill="none"
+        stroke={IL_BLUE}
+        strokeWidth={0.62}
+      />
+      <polygon
+        points="12,10.9 9.4,6.4 14.6,6.4"
+        fill="none"
+        stroke={IL_BLUE}
+        strokeWidth={0.62}
+      />
     </>
   ),
 };

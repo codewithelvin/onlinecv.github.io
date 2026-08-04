@@ -7,7 +7,8 @@
     "ru": "Экономика",
     "ka": "ეკონომიკა",
     "ar": "الاقتصاد",
-    "es": "Economía"
+    "es": "Economía",
+    "he": "כלכלה"
   },
   {
     "code": "philology",
@@ -17,7 +18,8 @@
     "ru": "Филология",
     "ka": "ფილოლოგია",
     "ar": "فقه اللغة",
-    "es": "Filología"
+    "es": "Filología",
+    "he": "פילולוגיה"
   },
   {
     "code": "economics_management",
@@ -27,7 +29,8 @@
     "ru": "Экономика и управление",
     "ka": "ეკონომიკა და მართვა",
     "ar": "الاقتصاد والإدارة",
-    "es": "Economía y gestión"
+    "es": "Economía y gestión",
+    "he": "כלכלה וניהול"
   },
   {
     "code": "pedagogical",
@@ -37,7 +40,8 @@
     "ru": "Педагогический",
     "ka": "პედაგოგიური",
     "ar": "التربية",
-    "es": "Pedagogía"
+    "es": "Pedagogía",
+    "he": "פדגוגיה"
   },
   {
     "code": "law",
@@ -47,7 +51,8 @@
     "ru": "Юридический",
     "ka": "სამართალი",
     "ar": "القانون",
-    "es": "Derecho"
+    "es": "Derecho",
+    "he": "משפטים"
   },
   {
     "code": "engineering",
@@ -57,7 +62,8 @@
     "ru": "Инженерный",
     "ka": "ინჟინერია",
     "ar": "الهندسة",
-    "es": "Ingeniería"
+    "es": "Ingeniería",
+    "he": "הנדסה"
   },
   {
     "code": "history",
@@ -67,7 +73,8 @@
     "ru": "История",
     "ka": "ისტორია",
     "ar": "التاريخ",
-    "es": "Historia"
+    "es": "Historia",
+    "he": "היסטוריה"
   },
   {
     "code": "finance",
@@ -77,7 +84,8 @@
     "ru": "Финансы",
     "ka": "ფინანსები",
     "ar": "المالية",
-    "es": "Finanzas"
+    "es": "Finanzas",
+    "he": "מימון"
   },
   {
     "code": "history_geography",
@@ -87,7 +95,8 @@
     "ru": "История и география",
     "ka": "ისტორია და გეოგრაფია",
     "ar": "التاريخ والجغرافيا",
-    "es": "Historia y geografía"
+    "es": "Historia y geografía",
+    "he": "היסטוריה וגיאוגרפיה"
   },
   {
     "code": "business_and_management",
@@ -97,7 +106,8 @@
     "ru": "Бизнес и менеджмент",
     "ka": "ბიზნესი და მენეჯმენტი",
     "ar": "الأعمال والإدارة",
-    "es": "Negocios y gestión"
+    "es": "Negocios y gestión",
+    "he": "עסקים וניהול"
   },
   {
     "code": "geography",
@@ -107,7 +117,8 @@
     "ru": "География",
     "ka": "გეოგრაფია",
     "ar": "الجغرافيا",
-    "es": "Geografía"
+    "es": "Geografía",
+    "he": "גיאוגרפיה"
   },
   {
     "code": "transport",
@@ -117,7 +128,8 @@
     "ru": "Транспорт",
     "ka": "ტრანსპორტი",
     "ar": "النقل",
-    "es": "Transporte"
+    "es": "Transporte",
+    "he": "תחבורה"
   },
   {
     "code": "intl_relations_economics",
@@ -127,7 +139,8 @@
     "ru": "Международные отношения и экономика",
     "ka": "საერთაშორისო ურთიერთობები და ეკონომიკა",
     "ar": "العلاقات الدولية والاقتصاد",
-    "es": "Relaciones internacionales y economía"
+    "es": "Relaciones internacionales y economía",
+    "he": "יחסים בינלאומיים וכלכלה"
   },
   {
     "code": "physics",
@@ -137,7 +150,8 @@
     "ru": "Физика",
     "ka": "ფიზიკა",
     "ar": "الفيزياء",
-    "es": "Física"
+    "es": "Física",
+    "he": "פיזיקה"
   },
   {
     "code": "biology",
@@ -147,7 +161,8 @@
     "ru": "Биология",
     "ka": "ბიოლოგია",
     "ar": "الأحياء",
-    "es": "Biología"
+    "es": "Biología",
+    "he": "ביולוגיה"
   },
   {
     "code": "chemistry_biology",
@@ -157,7 +172,8 @@
     "ru": "Химия и биология",
     "ka": "ქიმია და ბიოლოგია",
     "ar": "الكيمياء والأحياء",
-    "es": "Química y biología"
+    "es": "Química y biología",
+    "he": "כימיה וביולוגיה"
   },
   {
     "code": "chemistry",
@@ -167,7 +183,8 @@
     "ru": "Химия",
     "ka": "ქიმია",
     "ar": "الكيمياء",
-    "es": "Química"
+    "es": "Química",
+    "he": "כימיה"
   },
   {
     "code": "mathematics",
@@ -177,7 +194,8 @@
     "ru": "Математика",
     "ka": "მათემატიკა",
     "ar": "الرياضيات",
-    "es": "Matemáticas"
+    "es": "Matemáticas",
+    "he": "מתמטיקה"
   },
   {
     "code": "treatment",
@@ -187,7 +205,8 @@
     "ru": "Лечебное дело",
     "ka": "სამკურნალო საქმე",
     "ar": "الطب العلاجي",
-    "es": "Medicina general"
+    "es": "Medicina general",
+    "he": "רפואה כללית"
   },
   {
     "code": "education",
@@ -197,7 +216,8 @@
     "ru": "Образование",
     "ka": "განათლება",
     "ar": "التعليم",
-    "es": "Educación"
+    "es": "Educación",
+    "he": "חינוך"
   },
   {
     "code": "math_informatics",
@@ -207,7 +227,8 @@
     "ru": "Математика и информатика",
     "ka": "მათემატიკა და ინფორმატიკა",
     "ar": "الرياضيات والمعلوماتية",
-    "es": "Matemáticas e informática"
+    "es": "Matemáticas e informática",
+    "he": "מתמטיקה ומדעי המחשב"
   },
   {
     "code": "business_administration",
@@ -217,7 +238,8 @@
     "ru": "Управление бизнесом",
     "ka": "ბიზნესის ადმინისტრირება",
     "ar": "إدارة الأعمال",
-    "es": "Administración de empresas"
+    "es": "Administración de empresas",
+    "he": "מנהל עסקים"
   },
   {
     "code": "intl_relations",
@@ -227,7 +249,8 @@
     "ru": "Международные отношения",
     "ka": "საერთაშორისო ურთიერთობები",
     "ar": "العلاقات الدولية",
-    "es": "Relaciones internacionales"
+    "es": "Relaciones internacionales",
+    "he": "יחסים בינלאומיים"
   },
   {
     "code": "social_sciences_psychology",
@@ -237,7 +260,8 @@
     "ru": "Социальные науки и психология",
     "ka": "სოციალური მეცნიერებები და ფსიქოლოგია",
     "ar": "العلوم الاجتماعية وعلم النفس",
-    "es": "Ciencias sociales y psicología"
+    "es": "Ciencias sociales y psicología",
+    "he": "מדעי החברה ופסיכולוגיה"
   },
   {
     "code": "energy",
@@ -247,7 +271,8 @@
     "ru": "Энергетика",
     "ka": "ენერგეტიკა",
     "ar": "الطاقة",
-    "es": "Energética"
+    "es": "Energética",
+    "he": "אנרגטיקה"
   },
   {
     "code": "applied_math_cybernetics",
@@ -257,7 +282,8 @@
     "ru": "Прикладная математика и кибернетика",
     "ka": "გამოყენებითი მათემატიკა და კიბერნეტიკა",
     "ar": "الرياضيات التطبيقية والسيبرنيطيقا",
-    "es": "Matemáticas aplicadas y cibernética"
+    "es": "Matemáticas aplicadas y cibernética",
+    "he": "מתמטיקה שימושית וקיברנטיקה"
   },
   {
     "code": "accounting",
@@ -267,7 +293,8 @@
     "ru": "Бухгалтерский учёт",
     "ka": "ბუღალტრული აღრიცხვა",
     "ar": "المحاسبة",
-    "es": "Contabilidad"
+    "es": "Contabilidad",
+    "he": "חשבונאות"
   },
   {
     "code": "management",
@@ -277,7 +304,8 @@
     "ru": "Менеджмент",
     "ka": "მენეჯმენტი",
     "ar": "الإدارة",
-    "es": "Gestión"
+    "es": "Gestión",
+    "he": "ניהול"
   },
   {
     "code": "accounting_audit",
@@ -287,7 +315,8 @@
     "ru": "Бухгалтерский учёт и аудит",
     "ka": "ბუღალტრული აღრიცხვა და აუდიტი",
     "ar": "المحاسبة والتدقيق",
-    "es": "Contabilidad y auditoría"
+    "es": "Contabilidad y auditoría",
+    "he": "חשבונאות וביקורת"
   },
   {
     "code": "mechanics_mathematics",
@@ -297,7 +326,8 @@
     "ru": "Механико-математический",
     "ka": "მექანიკა-მათემატიკა",
     "ar": "الميكانيكا والرياضيات",
-    "es": "Mecánica y matemáticas"
+    "es": "Mecánica y matemáticas",
+    "he": "מכניקה ומתמטיקה"
   },
   {
     "code": "oil_gas_field",
@@ -307,7 +337,8 @@
     "ru": "Нефтегазопромысловый",
     "ka": "ნავთობისა და გაზის მოპოვება",
     "ar": "حقول النفط والغاز",
-    "es": "Extracción de petróleo y gas"
+    "es": "Extracción de petróleo y gas",
+    "he": "הפקת נפט וגז"
   },
   {
     "code": "general_economics",
@@ -317,7 +348,8 @@
     "ru": "Общая экономика",
     "ka": "ზოგადი ეკონომიკა",
     "ar": "الاقتصاد العام",
-    "es": "Economía general"
+    "es": "Economía general",
+    "he": "כלכלה כללית"
   },
   {
     "code": "foreign_languages",
@@ -327,7 +359,8 @@
     "ru": "Иностранные языки",
     "ka": "უცხო ენები",
     "ar": "اللغات الأجنبية",
-    "es": "Idiomas extranjeros"
+    "es": "Idiomas extranjeros",
+    "he": "שפות זרות"
   },
   {
     "code": "finance_accounting",
@@ -337,7 +370,8 @@
     "ru": "Финансы и бухгалтерия",
     "ka": "ფინანსები და ბუღალტერია",
     "ar": "المالية والمحاسبة",
-    "es": "Finanzas y contabilidad"
+    "es": "Finanzas y contabilidad",
+    "he": "מימון וחשבונאות"
   },
   {
     "code": "oil_mechanics",
@@ -347,7 +381,8 @@
     "ru": "Нефтемеханический",
     "ka": "ნავთობის მექანიკა",
     "ar": "ميكانيكا النفط",
-    "es": "Mecánica petrolera"
+    "es": "Mecánica petrolera",
+    "he": "מכניקת נפט"
   },
   {
     "code": "jurisprudence",
@@ -357,7 +392,8 @@
     "ru": "Правоведение",
     "ka": "სამართალმცოდნეობა",
     "ar": "الحقوق",
-    "es": "Jurisprudencia"
+    "es": "Jurisprudencia",
+    "he": "תורת המשפט"
   },
   {
     "code": "administration",
@@ -367,7 +403,8 @@
     "ru": "Управление",
     "ka": "მართვა",
     "ar": "التسيير",
-    "es": "Administración"
+    "es": "Administración",
+    "he": "מנהל"
   },
   {
     "code": "translation",
@@ -377,7 +414,8 @@
     "ru": "Перевод",
     "ka": "თარგმანი",
     "ar": "الترجمة",
-    "es": "Traducción"
+    "es": "Traducción",
+    "he": "תרגום"
   },
   {
     "code": "public_administration",
@@ -387,7 +425,8 @@
     "ru": "Административное управление",
     "ka": "ადმინისტრაციული მართვა",
     "ar": "الإدارة العامة",
-    "es": "Administración pública"
+    "es": "Administración pública",
+    "he": "מנהל ציבורי"
   },
   {
     "code": "journalism",
@@ -397,7 +436,8 @@
     "ru": "Журналистика",
     "ka": "ჟურნალისტიკა",
     "ar": "الصحافة",
-    "es": "Periodismo"
+    "es": "Periodismo",
+    "he": "עיתונאות"
   },
   {
     "code": "construction",
@@ -407,7 +447,8 @@
     "ru": "Строительство",
     "ka": "მშენებლობა",
     "ar": "البناء",
-    "es": "Construcción"
+    "es": "Construcción",
+    "he": "בנייה"
   },
   {
     "code": "it_management",
@@ -417,7 +458,8 @@
     "ru": "Информационные технологии и управление",
     "ka": "ინფორმაციული ტექნოლოგიები და მართვა",
     "ar": "تقنية المعلومات والإدارة",
-    "es": "Tecnologías de la información y gestión"
+    "es": "Tecnologías de la información y gestión",
+    "he": "טכנולוגיות מידע וניהול"
   },
   {
     "code": "geology",
@@ -427,7 +469,8 @@
     "ru": "Геология",
     "ka": "გეოლოგია",
     "ar": "الجيولوجيا",
-    "es": "Geología"
+    "es": "Geología",
+    "he": "גיאולוגיה"
   },
   {
     "code": "primary_education",
@@ -437,7 +480,8 @@
     "ru": "Начальное образование",
     "ka": "დაწყებითი განათლება",
     "ar": "التعليم الابتدائي",
-    "es": "Educación primaria"
+    "es": "Educación primaria",
+    "he": "חינוך יסודי"
   },
   {
     "code": "intl_economic_relations",
@@ -447,7 +491,8 @@
     "ru": "Международные экономические отношения",
     "ka": "საერთაშორისო ეკონომიკური ურთიერთობები",
     "ar": "العلاقات الاقتصادية الدولية",
-    "es": "Relaciones económicas internacionales"
+    "es": "Relaciones económicas internacionales",
+    "he": "יחסים כלכליים בינלאומיים"
   },
   {
     "code": "construction_economics",
@@ -457,7 +502,8 @@
     "ru": "Строительно-экономический",
     "ka": "მშენებლობის ეკონომიკა",
     "ar": "اقتصاد البناء",
-    "es": "Economía de la construcción"
+    "es": "Economía de la construcción",
+    "he": "כלכלת הבנייה"
   },
   {
     "code": "social_work",
@@ -467,7 +513,8 @@
     "ru": "Социальная работа",
     "ka": "სოციალური მუშაობა",
     "ar": "العمل الاجتماعي",
-    "es": "Trabajo social"
+    "es": "Trabajo social",
+    "he": "עבודה סוציאלית"
   },
   {
     "code": "agronomy",
@@ -477,7 +524,8 @@
     "ru": "Агрономия",
     "ka": "აგრონომია",
     "ar": "علم الزراعة",
-    "es": "Agronomía"
+    "es": "Agronomía",
+    "he": "אגרונומיה"
   },
   {
     "code": "primary_teaching",
@@ -487,7 +535,8 @@
     "ru": "Преподавание в начальных классах",
     "ka": "დაწყებითი კლასების მასწავლებლობა",
     "ar": "تعليم المرحلة الابتدائية",
-    "es": "Docencia en educación primaria"
+    "es": "Docencia en educación primaria",
+    "he": "הוראה בחינוך היסודי"
   },
   {
     "code": "oriental_studies",
@@ -497,7 +546,8 @@
     "ru": "Востоковедение",
     "ka": "აღმოსავლეთმცოდნეობა",
     "ar": "الدراسات الشرقية",
-    "es": "Estudios orientales"
+    "es": "Estudios orientales",
+    "he": "לימודי המזרח"
   },
   {
     "code": "preschool_education",
@@ -507,7 +557,8 @@
     "ru": "Дошкольное образование",
     "ka": "სკოლამდელი განათლება",
     "ar": "التعليم ما قبل المدرسي",
-    "es": "Educación infantil"
+    "es": "Educación infantil",
+    "he": "חינוך לגיל הרך"
   },
   {
     "code": "nursing",
@@ -517,7 +568,8 @@
     "ru": "Сестринское дело",
     "ka": "საექთნო საქმე",
     "ar": "التمريض",
-    "es": "Enfermería"
+    "es": "Enfermería",
+    "he": "סיעוד"
   },
   {
     "code": "design",
@@ -527,7 +579,8 @@
     "ru": "Дизайн",
     "ka": "დიზაინი",
     "ar": "التصميم",
-    "es": "Diseño"
+    "es": "Diseño",
+    "he": "עיצוב"
   },
   {
     "code": "chemical_technology",
@@ -537,7 +590,8 @@
     "ru": "Химическая технология",
     "ka": "ქიმიური ტექნოლოგია",
     "ar": "التكنولوجيا الكيميائية",
-    "es": "Tecnología química"
+    "es": "Tecnología química",
+    "he": "טכנולוגיה כימית"
   },
   {
     "code": "banking",
@@ -547,7 +601,8 @@
     "ru": "Банковское дело",
     "ka": "საბანკო საქმე",
     "ar": "الأعمال المصرفية",
-    "es": "Banca"
+    "es": "Banca",
+    "he": "בנקאות"
   },
   {
     "code": "ecology",
@@ -557,7 +612,8 @@
     "ru": "Экология",
     "ka": "ეკოლოგია",
     "ar": "علم البيئة",
-    "es": "Ecología"
+    "es": "Ecología",
+    "he": "אקולוגיה"
   },
   {
     "code": "finance_affairs",
@@ -567,7 +623,8 @@
     "ru": "Финансовое дело",
     "ka": "ფინანსური საქმე",
     "ar": "الشؤون المالية",
-    "es": "Asuntos financieros"
+    "es": "Asuntos financieros",
+    "he": "ענייני כספים"
   },
   {
     "code": "pharmacy",
@@ -577,7 +634,8 @@
     "ru": "Фармация",
     "ka": "ფარმაცია",
     "ar": "الصيدلة",
-    "es": "Farmacia"
+    "es": "Farmacia",
+    "he": "רוקחות"
   },
   {
     "code": "tourism",
@@ -587,7 +645,8 @@
     "ru": "Туризм",
     "ka": "ტურიზმი",
     "ar": "السياحة",
-    "es": "Turismo"
+    "es": "Turismo",
+    "he": "תיירות"
   },
   {
     "code": "finance_credit",
@@ -597,7 +656,8 @@
     "ru": "Финансы и кредит",
     "ka": "ფინანსები და კრედიტი",
     "ar": "المالية والقروض",
-    "es": "Finanzas y crédito"
+    "es": "Finanzas y crédito",
+    "he": "מימון ואשראי"
   },
   {
     "code": "english_language",
@@ -607,7 +667,8 @@
     "ru": "Английский язык",
     "ka": "ინგლისური ენა",
     "ar": "اللغة الإنجليزية",
-    "es": "Lengua inglesa"
+    "es": "Lengua inglesa",
+    "he": "השפה האנגלית"
   },
   {
     "code": "intl_relations_regional",
@@ -617,7 +678,8 @@
     "ru": "Международные отношения и регионоведение",
     "ka": "საერთაშორისო ურთიერთობები და რეგიონმცოდნეობა",
     "ar": "العلاقات الدولية والدراسات الإقليمية",
-    "es": "Relaciones internacionales y estudios regionales"
+    "es": "Relaciones internacionales y estudios regionales",
+    "he": "יחסים בינלאומיים ולימודי אזור"
   },
   {
     "code": "culturology",
@@ -627,7 +689,8 @@
     "ru": "Культурология",
     "ka": "კულტუროლოგია",
     "ar": "علم الثقافة",
-    "es": "Culturología"
+    "es": "Culturología",
+    "he": "תורת התרבות"
   },
   {
     "code": "business_organization",
@@ -637,7 +700,8 @@
     "ru": "Организация и управление бизнесом",
     "ka": "ბიზნესის ორგანიზება და მართვა",
     "ar": "تنظيم وإدارة الأعمال",
-    "es": "Organización y gestión de empresas"
+    "es": "Organización y gestión de empresas",
+    "he": "ארגון וניהול עסקים"
   },
   {
     "code": "geological_exploration",
@@ -647,7 +711,8 @@
     "ru": "Геологическая разведка",
     "ka": "გეოლოგიური ძიება",
     "ar": "الاستكشاف الجيولوجي",
-    "es": "Exploración geológica"
+    "es": "Exploración geológica",
+    "he": "חיפושים גיאולוגיים"
   },
   {
     "code": "architecture",
@@ -657,7 +722,8 @@
     "ru": "Архитектура",
     "ka": "არქიტექტურა",
     "ar": "الهندسة المعمارية",
-    "es": "Arquitectura"
+    "es": "Arquitectura",
+    "he": "אדריכלות"
   },
   {
     "code": "merchandising",
@@ -667,7 +733,8 @@
     "ru": "Товароведение",
     "ka": "სასაქონლომცოდნეობა",
     "ar": "علم البضائع",
-    "es": "Merchandising"
+    "es": "Merchandising",
+    "he": "מרצ'נדייזינג"
   },
   {
     "code": "world_economy",
@@ -677,7 +744,8 @@
     "ru": "Мировая экономика",
     "ka": "მსოფლიო ეკონომიკა",
     "ar": "الاقتصاد العالمي",
-    "es": "Economía mundial"
+    "es": "Economía mundial",
+    "he": "כלכלה עולמית"
   },
   {
     "code": "treatment_prophylaxis",
@@ -687,7 +755,8 @@
     "ru": "Лечебно-профилактическое дело",
     "ka": "სამკურნალო-პროფილაქტიკური საქმე",
     "ar": "الطب العلاجي والوقائي",
-    "es": "Medicina y profilaxis"
+    "es": "Medicina y profilaxis",
+    "he": "רפואה ומנע"
   },
   {
     "code": "physics_electric_power",
@@ -697,7 +766,8 @@
     "ru": "Физика и электроэнергетика",
     "ka": "ფიზიკა და ელექტროენერგეტიკა",
     "ar": "الفيزياء والطاقة الكهربائية",
-    "es": "Física y energía eléctrica"
+    "es": "Física y energía eléctrica",
+    "he": "פיזיקה ואנרגיית חשמל"
   },
   {
     "code": "family_home_education",
@@ -707,7 +777,8 @@
     "ru": "Семейное и домашнее обучение",
     "ka": "ოჯახური და საშინაო განათლება",
     "ar": "التعليم الأسري والمنزلي",
-    "es": "Educación familiar y del hogar"
+    "es": "Educación familiar y del hogar",
+    "he": "חינוך למשפחה ולבית"
   },
   {
     "code": "business_economics",
@@ -717,7 +788,8 @@
     "ru": "Бизнес и экономика",
     "ka": "ბიზნესი და ეკონომიკა",
     "ar": "الأعمال والاقتصاد",
-    "es": "Negocios y economía"
+    "es": "Negocios y economía",
+    "he": "עסקים וכלכלה"
   },
   {
     "code": "transport_logistics",
@@ -727,7 +799,8 @@
     "ru": "Транспорт и логистика",
     "ka": "ტრანსპორტი და ლოგისტიკა",
     "ar": "النقل واللوجستيات",
-    "es": "Transporte y logística"
+    "es": "Transporte y logística",
+    "he": "תחבורה ולוגיסטיקה"
   },
   {
     "code": "information_technologies",
@@ -737,7 +810,8 @@
     "ru": "Информационные технологии",
     "ka": "ინფორმაციული ტექნოლოგიები",
     "ar": "تقنية المعلومات",
-    "es": "Tecnologías de la información"
+    "es": "Tecnologías de la información",
+    "he": "טכנולוגיות מידע"
   },
   {
     "code": "metallurgy",
@@ -747,7 +821,8 @@
     "ru": "Металлургия",
     "ka": "მეტალურგია",
     "ar": "علم المعادن",
-    "es": "Metalurgia"
+    "es": "Metalurgia",
+    "he": "מטלורגיה"
   },
   {
     "code": "preschool_teaching",
@@ -757,7 +832,8 @@
     "ru": "Дошкольное обучение и воспитание",
     "ka": "სკოლამდელი აღზრდა",
     "ar": "التعليم والتربية في مرحلة ما قبل المدرسة",
-    "es": "Docencia y crianza en educación infantil"
+    "es": "Docencia y crianza en educación infantil",
+    "he": "הוראה וחינוך בגיל הרך"
   },
   {
     "code": "ecology_soil_science",
@@ -767,7 +843,8 @@
     "ru": "Экология и почвоведение",
     "ka": "ეკოლოგია და ნიადაგმცოდნეობა",
     "ar": "علم البيئة وعلم التربة",
-    "es": "Ecología y edafología"
+    "es": "Ecología y edafología",
+    "he": "אקולוגיה ומדעי הקרקע"
   },
   {
     "code": "psychology",
@@ -777,7 +854,8 @@
     "ru": "Психология",
     "ka": "ფსიქოლოგია",
     "ar": "علم النفس",
-    "es": "Psicología"
+    "es": "Psicología",
+    "he": "פסיכולוגיה"
   },
   {
     "code": "regional_studies_economics",
@@ -787,7 +865,8 @@
     "ru": "Регионоведение и экономика",
     "ka": "რეგიონმცოდნეობა და ეკონომიკა",
     "ar": "الدراسات الإقليمية والاقتصاد",
-    "es": "Estudios regionales y economía"
+    "es": "Estudios regionales y economía",
+    "he": "לימודי אזור וכלכלה"
   },
   {
     "code": "technology_design",
@@ -797,7 +876,8 @@
     "ru": "Технология и дизайн",
     "ka": "ტექნოლოგია და დიზაინი",
     "ar": "التكنولوجيا والتصميم",
-    "es": "Tecnología y diseño"
+    "es": "Tecnología y diseño",
+    "he": "טכנולוגיה ועיצוב"
   },
   {
     "code": "medicine",
@@ -807,7 +887,8 @@
     "ru": "Медицина",
     "ka": "მედიცინა",
     "ar": "الطب",
-    "es": "Medicina"
+    "es": "Medicina",
+    "he": "רפואה"
   },
   {
     "code": "coaching",
@@ -817,7 +898,8 @@
     "ru": "Тренерское дело",
     "ka": "მწვრთნელობა",
     "ar": "التدريب الرياضي",
-    "es": "Entrenamiento deportivo"
+    "es": "Entrenamiento deportivo",
+    "he": "אימון ספורט"
   },
   {
     "code": "tourism_hospitality",
@@ -827,7 +909,8 @@
     "ru": "Туризм и гостеприимство",
     "ka": "ტურიზმი და მასპინძლობა",
     "ar": "السياحة والضيافة",
-    "es": "Turismo y hostelería"
+    "es": "Turismo y hostelería",
+    "he": "תיירות ומלונאות"
   },
   {
     "code": "history_philology",
@@ -837,7 +920,8 @@
     "ru": "Историко-филологический",
     "ka": "ისტორია-ფილოლოგია",
     "ar": "التاريخ وفقه اللغة",
-    "es": "Historia y filología"
+    "es": "Historia y filología",
+    "he": "היסטוריה ופילולוגיה"
   },
   {
     "code": "commerce",
@@ -847,7 +931,8 @@
     "ru": "Коммерция",
     "ka": "კომერცია",
     "ar": "التجارة",
-    "es": "Comercio"
+    "es": "Comercio",
+    "he": "מסחר"
   },
   {
     "code": "foreign_lang_teaching",
@@ -857,7 +942,8 @@
     "ru": "Преподавание иностранного языка",
     "ka": "უცხო ენის მასწავლებლობა",
     "ar": "تعليم اللغات الأجنبية",
-    "es": "Docencia de idiomas extranjeros"
+    "es": "Docencia de idiomas extranjeros",
+    "he": "הוראת שפות זרות"
   },
   {
     "code": "machine_building",
@@ -867,7 +953,8 @@
     "ru": "Машиностроение",
     "ka": "მანქანათმშენებლობა",
     "ar": "بناء الآلات",
-    "es": "Construcción de maquinaria"
+    "es": "Construcción de maquinaria",
+    "he": "בניית מכונות"
   },
   {
     "code": "pediatrics",
@@ -877,7 +964,8 @@
     "ru": "Педиатрия",
     "ka": "პედიატრია",
     "ar": "طب الأطفال",
-    "es": "Pediatría"
+    "es": "Pediatría",
+    "he": "רפואת ילדים"
   },
   {
     "code": "political_management",
@@ -887,7 +975,8 @@
     "ru": "Политическое управление",
     "ka": "პოლიტიკური მართვა",
     "ar": "الإدارة السياسية",
-    "es": "Gestión política"
+    "es": "Gestión política",
+    "he": "ניהול פוליטי"
   },
   {
     "code": "mechanics_it",
@@ -897,7 +986,8 @@
     "ru": "Механика и информационные технологии",
     "ka": "მექანიკა და ინფორმაციული ტექნოლოგიები",
     "ar": "الميكانيكا وتقنية المعلومات",
-    "es": "Mecánica y tecnologías de la información"
+    "es": "Mecánica y tecnologías de la información",
+    "he": "מכניקה וטכנולוגיות מידע"
   },
   {
     "code": "agrarian_engineering",
@@ -907,7 +997,8 @@
     "ru": "Аграрно-инженерный",
     "ka": "აგრარული და საინჟინრო",
     "ar": "الزراعة والهندسة",
-    "es": "Estudios agrarios e ingeniería"
+    "es": "Estudios agrarios e ingeniería",
+    "he": "לימודי חקלאות והנדסה"
   },
   {
     "code": "water_engineering",
@@ -917,7 +1008,8 @@
     "ru": "Водное хозяйство и инженерные коммуникационные системы",
     "ka": "წყლის მეურნეობა და საინჟინრო კომუნიკაციები",
     "ar": "إدارة المياه وأنظمة الاتصالات الهندسية",
-    "es": "Gestión del agua y sistemas de comunicaciones de ingeniería"
+    "es": "Gestión del agua y sistemas de comunicaciones de ingeniería",
+    "he": "ניהול מים ומערכות תקשורת הנדסיות"
   },
   {
     "code": "dentistry",
@@ -927,7 +1019,8 @@
     "ru": "Стоматология",
     "ka": "სტომატოლოგია",
     "ar": "طب الأسنان",
-    "es": "Odontología"
+    "es": "Odontología",
+    "he": "רפואת שיניים"
   },
   {
     "code": "humanities_social_sciences",
@@ -937,7 +1030,8 @@
     "ru": "Гуманитарные и социальные науки",
     "ka": "ჰუმანიტარული და სოციალური მეცნიერებები",
     "ar": "العلوم الإنسانية والاجتماعية",
-    "es": "Humanidades y ciencias sociales"
+    "es": "Humanidades y ciencias sociales",
+    "he": "מדעי הרוח והחברה"
   },
   {
     "code": "painting_art",
@@ -947,7 +1041,8 @@
     "ru": "Живопись",
     "ka": "ფერწერა",
     "ar": "الرسم",
-    "es": "Pintura"
+    "es": "Pintura",
+    "he": "ציור"
   },
   {
     "code": "energy_automation",
@@ -957,7 +1052,8 @@
     "ru": "Энергетика и автоматика",
     "ka": "ენერგეტიკა და ავტომატიკა",
     "ar": "الطاقة والأتمتة",
-    "es": "Energética y automatización"
+    "es": "Energética y automatización",
+    "he": "אנרגטיקה ואוטומציה"
   },
   {
     "code": "humanities",
@@ -967,7 +1063,8 @@
     "ru": "Гуманитарные науки",
     "ka": "ჰუმანიტარული მეცნიერებები",
     "ar": "العلوم الإنسانية",
-    "es": "Humanidades"
+    "es": "Humanidades",
+    "he": "מדעי הרוח"
   },
   {
     "code": "digital_economy",
@@ -977,7 +1074,8 @@
     "ru": "Цифровая экономика",
     "ka": "ციფრული ეკონომიკა",
     "ar": "الاقتصاد الرقمي",
-    "es": "Economía digital"
+    "es": "Economía digital",
+    "he": "כלכלה דיגיטלית"
   },
   {
     "code": "marketing",
@@ -987,7 +1085,8 @@
     "ru": "Маркетинг",
     "ka": "მარკეტინგი",
     "ar": "التسويق",
-    "es": "Marketing"
+    "es": "Marketing",
+    "he": "שיווק"
   },
   {
     "code": "social_pedagogy",
@@ -997,7 +1096,8 @@
     "ru": "Социально-педагогический",
     "ka": "სოციალურ-პედაგოგიური",
     "ar": "التربية الاجتماعية",
-    "es": "Pedagogía social"
+    "es": "Pedagogía social",
+    "he": "פדגוגיה חברתית"
   },
   {
     "code": "special_technology",
@@ -1007,7 +1107,8 @@
     "ru": "Специальная техника и технология",
     "ka": "სპეციალური ტექნიკა და ტექნოლოგია",
     "ar": "التقنيات والتكنولوجيا الخاصة",
-    "es": "Maquinaria y tecnología especial"
+    "es": "Maquinaria y tecnología especial",
+    "he": "מכונות וטכנולוגיה מיוחדות"
   },
   {
     "code": "art_studies",
@@ -1017,7 +1118,8 @@
     "ru": "Искусствоведение",
     "ka": "ხელოვნებათმცოდნეობა",
     "ar": "علم الفنون",
-    "es": "Estudios de arte"
+    "es": "Estudios de arte",
+    "he": "לימודי אמנות"
   },
   {
     "code": "info_telecom_technologies",
@@ -1027,7 +1129,8 @@
     "ru": "Информационные и телекоммуникационные технологии",
     "ka": "ინფორმაციული და ტელეკომუნიკაციო ტექნოლოგიები",
     "ar": "تقنيات المعلومات والاتصالات",
-    "es": "Tecnologías de la información y telecomunicaciones"
+    "es": "Tecnologías de la información y telecomunicaciones",
+    "he": "טכנולוגיות מידע ותקשורת"
   },
   {
     "code": "agribusiness_management",
@@ -1037,7 +1140,8 @@
     "ru": "Агробизнес и управление",
     "ka": "აგრობიზნესი და მართვა",
     "ar": "الأعمال الزراعية والإدارة",
-    "es": "Agronegocios y gestión"
+    "es": "Agronegocios y gestión",
+    "he": "אגרו-עסקים וניהול"
   },
   {
     "code": "sabah_groups",
@@ -1047,7 +1151,8 @@
     "ru": "Группы SABAH",
     "ka": "SABAH-ის ჯგუფები",
     "ar": "مجموعات صباح",
-    "es": "Grupos SABAH"
+    "es": "Grupos SABAH",
+    "he": "קבוצות SABAH"
   },
   {
     "code": "physical_education_sport",
@@ -1057,7 +1162,8 @@
     "ru": "Физическое воспитание и спорт",
     "ka": "ფიზიკური აღზრდა და სპორტი",
     "ar": "التربية البدنية والرياضة",
-    "es": "Educación física y deporte"
+    "es": "Educación física y deporte",
+    "he": "חינוך גופני וספורט"
   },
   {
     "code": "physics_mathematics",
@@ -1067,7 +1173,8 @@
     "ru": "Физико-математический",
     "ka": "ფიზიკა-მათემატიკა",
     "ar": "الفيزياء والرياضيات",
-    "es": "Física y matemáticas"
+    "es": "Física y matemáticas",
+    "he": "פיזיקה ומתמטיקה"
   },
   {
     "code": "engineering_economics",
@@ -1077,7 +1184,8 @@
     "ru": "Инженерная экономика и управление",
     "ka": "საინჟინრო ეკონომიკა და მართვა",
     "ar": "الاقتصاد الهندسي والإدارة",
-    "es": "Economía y gestión de la ingeniería"
+    "es": "Economía y gestión de la ingeniería",
+    "he": "כלכלה וניהול בהנדסה"
   },
   {
     "code": "school_psychological_service",
@@ -1087,7 +1195,8 @@
     "ru": "Социально-психологическая служба в образовании",
     "ka": "სოციალურ-ფსიქოლოგიური სამსახური განათლებაში",
     "ar": "الخدمة الاجتماعية والنفسية في التعليم",
-    "es": "Servicios sociales y psicológicos en la educación"
+    "es": "Servicios sociales y psicológicos en la educación",
+    "he": "שירותים חברתיים ופסיכולוגיים בחינוך"
   },
   {
     "code": "computer_engineering",
@@ -1097,7 +1206,8 @@
     "ru": "Компьютерная инженерия",
     "ka": "კომპიუტერული ინჟინერია",
     "ar": "هندسة الحاسوب",
-    "es": "Ingeniería informática"
+    "es": "Ingeniería informática",
+    "he": "הנדסת מחשבים"
   },
   {
     "code": "agrotechnology",
@@ -1107,7 +1217,8 @@
     "ru": "Агротехнология",
     "ka": "აგროტექნოლოგია",
     "ar": "التكنولوجيا الزراعية",
-    "es": "Agrotecnología"
+    "es": "Agrotecnología",
+    "he": "אגרוטכנולוגיה"
   },
   {
     "code": "food_engineering",
@@ -1117,7 +1228,8 @@
     "ru": "Пищевая инженерия",
     "ka": "კვების ინჟინერია",
     "ar": "هندسة الأغذية",
-    "es": "Ingeniería alimentaria"
+    "es": "Ingeniería alimentaria",
+    "he": "הנדסת מזון"
   },
   {
     "code": "russian_school_economics",
@@ -1127,7 +1239,8 @@
     "ru": "Русская экономическая школа",
     "ka": "რუსული ეკონომიკის სკოლა",
     "ar": "المدرسة الروسية للاقتصاد",
-    "es": "Escuela Rusa de Economía"
+    "es": "Escuela Rusa de Economía",
+    "he": "בית הספר הרוסי לכלכלה"
   },
   {
     "code": "radio_engineering_communication",
@@ -1137,7 +1250,8 @@
     "ru": "Радиотехника и связь",
     "ka": "რადიოტექნიკა და კავშირგაბმულობა",
     "ar": "الهندسة الراديوية والاتصالات",
-    "es": "Radiotecnia y comunicaciones"
+    "es": "Radiotecnia y comunicaciones",
+    "he": "הנדסת רדיו ותקשורת"
   },
   {
     "code": "natural_history",
@@ -1147,7 +1261,8 @@
     "ru": "Естествознание",
     "ka": "ბუნებისმეტყველება",
     "ar": "العلوم الطبيعية",
-    "es": "Ciencias naturales"
+    "es": "Ciencias naturales",
+    "he": "מדעי הטבע"
   },
   {
     "code": "instrumental_performance",
@@ -1157,7 +1272,8 @@
     "ru": "Инструментальное исполнительство",
     "ka": "ინსტრუმენტული შესრულება",
     "ar": "العزف الآلي",
-    "es": "Interpretación instrumental"
+    "es": "Interpretación instrumental",
+    "he": "נגינה בכלי"
   },
   {
     "code": "english_teaching",
@@ -1167,7 +1283,8 @@
     "ru": "Преподавание английского языка",
     "ka": "ინგლისური ენის მასწავლებლობა",
     "ar": "تعليم اللغة الإنجليزية",
-    "es": "Docencia de lengua inglesa"
+    "es": "Docencia de lengua inglesa",
+    "he": "הוראת אנגלית"
   },
   {
     "code": "tourism_hotel",
@@ -1177,7 +1294,8 @@
     "ru": "Туризм и гостиничное дело",
     "ka": "ტურიზმი და სასტუმრო საქმე",
     "ar": "السياحة وإدارة الفنادق",
-    "es": "Turismo y gestión hotelera"
+    "es": "Turismo y gestión hotelera",
+    "he": "תיירות וניהול מלונות"
   },
   {
     "code": "electrical_engineering_energy",
@@ -1187,7 +1305,8 @@
     "ru": "Электротехника и энергетика",
     "ka": "ელექტროტექნიკა და ენერგეტიკა",
     "ar": "الهندسة الكهربائية والطاقة",
-    "es": "Ingeniería eléctrica y energética"
+    "es": "Ingeniería eléctrica y energética",
+    "he": "הנדסת חשמל ואנרגיה"
   },
   {
     "code": "natural_science_agriculture",
@@ -1197,7 +1316,8 @@
     "ru": "Естествознание и сельское хозяйство",
     "ka": "ბუნებისმეტყველება და სოფლის მეურნეობა",
     "ar": "العلوم الطبيعية والزراعة",
-    "es": "Ciencias naturales y agricultura"
+    "es": "Ciencias naturales y agricultura",
+    "he": "מדעי הטבע וחקלאות"
   },
   {
     "code": "architecture_engineering",
@@ -1207,7 +1327,8 @@
     "ru": "Архитектура и инженерия",
     "ka": "არქიტექტურა და ინჟინერია",
     "ar": "الهندسة المعمارية والهندسية",
-    "es": "Arquitectura e ingeniería"
+    "es": "Arquitectura e ingeniería",
+    "he": "אדריכלות והנדסה"
   },
   {
     "code": "industrial_organization",
@@ -1217,7 +1338,8 @@
     "ru": "Организация и управление промышленностью",
     "ka": "მრეწველობის ორგანიზება და მართვა",
     "ar": "تنظيم وإدارة الصناعة",
-    "es": "Organización y gestión industrial"
+    "es": "Organización y gestión industrial",
+    "he": "ארגון וניהול תעשייתי"
   },
   {
     "code": "traffic_organization",
@@ -1227,7 +1349,8 @@
     "ru": "Организация дорожного движения",
     "ka": "საგზაო მოძრაობის ორგანიზება",
     "ar": "تنظيم حركة المرور",
-    "es": "Organización del tráfico"
+    "es": "Organización del tráfico",
+    "he": "ארגון התנועה"
   },
   {
     "code": "medical_prophylaxis",
@@ -1237,7 +1360,8 @@
     "ru": "Медицинская профилактика",
     "ka": "სამედიცინო პროფილაქტიკა",
     "ar": "الوقاية الطبية",
-    "es": "Profilaxis médica"
+    "es": "Profilaxis médica",
+    "he": "רפואה מונעת"
   },
   {
     "code": "state_municipal_administration",
@@ -1247,7 +1371,8 @@
     "ru": "Государственное и муниципальное управление",
     "ka": "სახელმწიფო და მუნიციპალური მართვა",
     "ar": "الإدارة الحكومية والبلدية",
-    "es": "Administración estatal y municipal"
+    "es": "Administración estatal y municipal",
+    "he": "מנהל ממשלתי ומוניציפלי"
   },
   {
     "code": "machine_building_robotics",
@@ -1257,7 +1382,8 @@
     "ru": "Машиностроение и робототехника",
     "ka": "მანქანათმშენებლობა და რობოტიკა",
     "ar": "بناء الآلات والروبوتات",
-    "es": "Construcción de maquinaria y robótica"
+    "es": "Construcción de maquinaria y robótica",
+    "he": "בניית מכונות ורובוטיקה"
   },
   {
     "code": "midwifery",
@@ -1267,7 +1393,8 @@
     "ru": "Акушерское дело",
     "ka": "მეანობა",
     "ar": "القبالة",
-    "es": "Obstetricia"
+    "es": "Obstetricia",
+    "he": "מיילדות"
   },
   {
     "code": "air_transport",
@@ -1277,7 +1404,8 @@
     "ru": "Воздушный транспорт",
     "ka": "საჰაერო ტრანსპორტი",
     "ar": "النقل الجوي",
-    "es": "Transporte aéreo"
+    "es": "Transporte aéreo",
+    "he": "תעופה"
   },
   {
     "code": "aerospace",
@@ -1287,7 +1415,8 @@
     "ru": "Аэрокосмический",
     "ka": "აეროკოსმოსური",
     "ar": "الفضاء الجوي",
-    "es": "Aeroespacial"
+    "es": "Aeroespacial",
+    "he": "חלל ואווירונאוטיקה"
   },
   {
     "code": "computer_science",
@@ -1297,7 +1426,8 @@
     "ru": "Компьютерные науки",
     "ka": "კომპიუტერული მეცნიერებები",
     "ar": "علوم الحاسوب",
-    "es": "Ciencias de la computación"
+    "es": "Ciencias de la computación",
+    "he": "מדעי המחשב"
   },
   {
     "code": "informatics",
@@ -1307,7 +1437,8 @@
     "ru": "Информатика",
     "ka": "ინფორმატიკა",
     "ar": "المعلوماتية",
-    "es": "Informática"
+    "es": "Informática",
+    "he": "אינפורמטיקה"
   },
   {
     "code": "soil_science_agrochemistry",
@@ -1317,7 +1448,8 @@
     "ru": "Почвоведение и агрохимия",
     "ka": "ნიადაგმცოდნეობა და აგროქიმია",
     "ar": "علم التربة والكيمياء الزراعية",
-    "es": "Edafología y agroquímica"
+    "es": "Edafología y agroquímica",
+    "he": "מדעי הקרקע ואגרוכימיה"
   },
   {
     "code": "vocational_training",
@@ -1327,7 +1459,8 @@
     "ru": "Профессиональное обучение",
     "ka": "პროფესიული მომზადება",
     "ar": "التدريب المهني",
-    "es": "Formación profesional"
+    "es": "Formación profesional",
+    "he": "הכשרה מקצועית"
   },
   {
     "code": "civil_engineering",
@@ -1337,7 +1470,8 @@
     "ru": "Строительная инженерия",
     "ka": "სამოქალაქო ინჟინერია",
     "ar": "الهندسة المدنية",
-    "es": "Ingeniería civil"
+    "es": "Ingeniería civil",
+    "he": "הנדסה אזרחית"
   },
   {
     "code": "economics_law",
@@ -1347,7 +1481,8 @@
     "ru": "Экономика и право",
     "ka": "ეკონომიკა და სამართალი",
     "ar": "الاقتصاد والقانون",
-    "es": "Economía y derecho"
+    "es": "Economía y derecho",
+    "he": "כלכלה ומשפטים"
   },
   {
     "code": "customs",
@@ -1357,7 +1492,8 @@
     "ru": "Таможенное дело",
     "ka": "საბაჟო საქმე",
     "ar": "الجمارك",
-    "es": "Aduanas"
+    "es": "Aduanas",
+    "he": "מכס"
   },
   {
     "code": "intl_law",
@@ -1367,7 +1503,8 @@
     "ru": "Международное право",
     "ka": "საერთაშორისო სამართალი",
     "ar": "القانون الدولي",
-    "es": "Derecho internacional"
+    "es": "Derecho internacional",
+    "he": "משפט בינלאומי"
   },
   {
     "code": "library_information",
@@ -1377,7 +1514,8 @@
     "ru": "Библиотековедение и информация",
     "ka": "ბიბლიოთეკათმცოდნეობა და ინფორმაცია",
     "ar": "علم المكتبات والمعلومات",
-    "es": "Biblioteconomía y documentación"
+    "es": "Biblioteconomía y documentación",
+    "he": "ספרנות ומידענות"
   },
   {
     "code": "social_management",
@@ -1387,7 +1525,8 @@
     "ru": "Социальный менеджмент",
     "ka": "სოციალური მენეჯმენტი",
     "ar": "الإدارة الاجتماعية",
-    "es": "Gestión social"
+    "es": "Gestión social",
+    "he": "ניהול חברתי"
   },
   {
     "code": "math_informatics_teaching",
@@ -1397,7 +1536,8 @@
     "ru": "Преподавание математики и информатики",
     "ka": "მათემატიკისა და ინფორმატიკის მასწავლებლობა",
     "ar": "تعليم الرياضيات والمعلوماتية",
-    "es": "Docencia de matemáticas e informática"
+    "es": "Docencia de matemáticas e informática",
+    "he": "הוראת מתמטיקה ואינפורמטיקה"
   },
   {
     "code": "intl_relations_law",
@@ -1407,7 +1547,8 @@
     "ru": "Международные отношения и право",
     "ka": "საერთაშორისო ურთიერთობები და სამართალი",
     "ar": "العلاقات الدولية والقانون",
-    "es": "Relaciones internacionales y derecho"
+    "es": "Relaciones internacionales y derecho",
+    "he": "יחסים בינלאומיים ומשפט"
   },
   {
     "code": "military_medicine",
@@ -1417,7 +1558,8 @@
     "ru": "Военная медицина",
     "ka": "სამხედრო მედიცინა",
     "ar": "الطب العسكري",
-    "es": "Medicina militar"
+    "es": "Medicina militar",
+    "he": "רפואה צבאית"
   },
   {
     "code": "art",
@@ -1427,7 +1569,8 @@
     "ru": "Искусство",
     "ka": "ხელოვნება",
     "ar": "الفنون",
-    "es": "Arte"
+    "es": "Arte",
+    "he": "אמנות"
   },
   {
     "code": "tourism_organization",
@@ -1437,7 +1580,8 @@
     "ru": "Организация туристического дела",
     "ka": "ტურიზმის საქმის ორგანიზება",
     "ar": "تنظيم أعمال السياحة",
-    "es": "Organización del turismo"
+    "es": "Organización del turismo",
+    "he": "ארגון תיירות"
   },
   {
     "code": "chemical_engineering",
@@ -1447,7 +1591,8 @@
     "ru": "Химическая инженерия",
     "ka": "ქიმიური ინჟინერია",
     "ar": "الهندسة الكيميائية",
-    "es": "Ingeniería química"
+    "es": "Ingeniería química",
+    "he": "הנדסה כימית"
   },
   {
     "code": "finance_economics",
@@ -1457,7 +1602,8 @@
     "ru": "Финансово-экономический",
     "ka": "ფინანსები და ეკონომიკა",
     "ar": "المالية والاقتصاد",
-    "es": "Finanzas y economía"
+    "es": "Finanzas y economía",
+    "he": "מימון וכלכלה"
   },
   {
     "code": "piano",
@@ -1467,7 +1613,8 @@
     "ru": "Фортепиано",
     "ka": "ფორტეპიანო",
     "ar": "البيانو",
-    "es": "Piano"
+    "es": "Piano",
+    "he": "פסנתר"
   },
   {
     "code": "regional_studies",
@@ -1477,7 +1624,8 @@
     "ru": "Регионоведение",
     "ka": "რეგიონმცოდნეობა",
     "ar": "الدراسات الإقليمية",
-    "es": "Estudios regionales"
+    "es": "Estudios regionales",
+    "he": "לימודי אזור"
   },
   {
     "code": "construction_technology",
@@ -1487,7 +1635,8 @@
     "ru": "Строительная технология",
     "ka": "სამშენებლო ტექნოლოგია",
     "ar": "تكنولوجيا البناء",
-    "es": "Tecnología de la construcción"
+    "es": "Tecnología de la construcción",
+    "he": "טכנולוגיית בנייה"
   },
   {
     "code": "veterinary",
@@ -1497,7 +1646,8 @@
     "ru": "Ветеринария",
     "ka": "ვეტერინარია",
     "ar": "الطب البيطري",
-    "es": "Veterinaria"
+    "es": "Veterinaria",
+    "he": "רפואה וטרינרית"
   },
   {
     "code": "physics_technical_sciences",
@@ -1507,7 +1657,8 @@
     "ru": "Физика и технические дисциплины",
     "ka": "ფიზიკა და ტექნიკური დისციპლინები",
     "ar": "الفيزياء والعلوم التقنية",
-    "es": "Física y ciencias técnicas"
+    "es": "Física y ciencias técnicas",
+    "he": "פיזיקה ומדעים טכניים"
   },
   {
     "code": "natural_sciences_engineering",
@@ -1517,7 +1668,8 @@
     "ru": "Естественные науки и инженерия",
     "ka": "საბუნებისმეტყველო მეცნიერებები და ინჟინერია",
     "ar": "العلوم الطبيعية والهندسة",
-    "es": "Ciencias naturales e ingeniería"
+    "es": "Ciencias naturales e ingeniería",
+    "he": "מדעי הטבע והנדסה"
   },
   {
     "code": "tax_taxation",
@@ -1527,7 +1679,8 @@
     "ru": "Налоги и налогообложение",
     "ka": "გადასახადები და დაბეგვრა",
     "ar": "الضرائب والجباية",
-    "es": "Impuestos y fiscalidad"
+    "es": "Impuestos y fiscalidad",
+    "he": "מיסים ומיסוי"
   },
   {
     "code": "oil_gas_engineering",
@@ -1537,7 +1690,8 @@
     "ru": "Нефтегазовая инженерия",
     "ka": "ნავთობისა და გაზის ინჟინერია",
     "ar": "هندسة النفط والغاز",
-    "es": "Ingeniería de petróleo y gas"
+    "es": "Ingeniería de petróleo y gas",
+    "he": "הנדסת נפט וגז"
   },
   {
     "code": "expertise_technology",
@@ -1547,7 +1701,8 @@
     "ru": "Экспертиза и технология",
     "ka": "ექსპერტიზა და ტექნოლოგია",
     "ar": "الخبرة والتكنولوجيا",
-    "es": "Peritaje y tecnología"
+    "es": "Peritaje y tecnología",
+    "he": "חקר מומחה וטכנולוגיה"
   },
   {
     "code": "automation_computer_engineering",
@@ -1557,7 +1712,8 @@
     "ru": "Автоматика и вычислительная техника",
     "ka": "ავტომატიკა და კომპიუტერული ტექნიკა",
     "ar": "الأتمتة وتقنية الحاسوب",
-    "es": "Automatización e ingeniería informática"
+    "es": "Automatización e ingeniería informática",
+    "he": "אוטומציה והנדסת מחשבים"
   },
   {
     "code": "business",
@@ -1567,7 +1723,8 @@
     "ru": "Бизнес",
     "ka": "ბიზნესი",
     "ar": "الأعمال",
-    "es": "Negocios"
+    "es": "Negocios",
+    "he": "עסקים"
   },
   {
     "code": "informatics_management",
@@ -1577,7 +1734,8 @@
     "ru": "Информатика и управление",
     "ka": "ინფორმატიკა და მართვა",
     "ar": "المعلوماتية والإدارة",
-    "es": "Informática y gestión"
+    "es": "Informática y gestión",
+    "he": "אינפורמטיקה וניהול"
   },
   {
     "code": "primary_education_methodology",
@@ -1587,7 +1745,8 @@
     "ru": "Педагогика и методика начального образования",
     "ka": "დაწყებითი განათლების პედაგოგიკა და მეთოდიკა",
     "ar": "تربية وأساليب التعليم الابتدائي",
-    "es": "Pedagogía y metodología de la educación primaria"
+    "es": "Pedagogía y metodología de la educación primaria",
+    "he": "פדגוגיה ומתודיקה של החינוך היסודי"
   },
   {
     "code": "humanities_education_social",
@@ -1597,7 +1756,8 @@
     "ru": "Гуманитарные, педагогические и социальные науки",
     "ka": "ჰუმანიტარული, საგანმანათლებლო და სოციალური მეცნიერებები",
     "ar": "العلوم الإنسانية والتربوية والاجتماعية",
-    "es": "Humanidades, educación y ciencias sociales"
+    "es": "Humanidades, educación y ciencias sociales",
+    "he": "מדעי הרוח, חינוך ומדעי החברה"
   },
   {
     "code": "applied_mathematics",
@@ -1607,7 +1767,8 @@
     "ru": "Прикладная математика",
     "ka": "გამოყენებითი მათემატიკა",
     "ar": "الرياضيات التطبيقية",
-    "es": "Matemáticas aplicadas"
+    "es": "Matemáticas aplicadas",
+    "he": "מתמטיקה שימושית"
   },
   {
     "code": "social_sciences",
@@ -1617,7 +1778,8 @@
     "ru": "Социальные науки",
     "ka": "სოციალური მეცნიერებები",
     "ar": "العلوم الاجتماعية",
-    "es": "Ciencias sociales"
+    "es": "Ciencias sociales",
+    "he": "מדעי החברה"
   },
   {
     "code": "philology_journalism",
@@ -1627,7 +1789,8 @@
     "ru": "Филология и журналистика",
     "ka": "ფილოლოგია და ჟურნალისტიკა",
     "ar": "فقه اللغة والصحافة",
-    "es": "Filología y periodismo"
+    "es": "Filología y periodismo",
+    "he": "פילולוגיה ועיתונאות"
   },
   {
     "code": "pedagogy_psychology",
@@ -1637,7 +1800,8 @@
     "ru": "Педагогика и психология",
     "ka": "პედაგოგიკა და ფსიქოლოგია",
     "ar": "التربية وعلم النفس",
-    "es": "Pedagogía y psicología"
+    "es": "Pedagogía y psicología",
+    "he": "פדגוגיה ופסיכולוגיה"
   },
   {
     "code": "intl_relations_management",
@@ -1647,7 +1811,8 @@
     "ru": "Международные отношения и управление",
     "ka": "საერთაშორისო ურთიერთობები და მართვა",
     "ar": "العلاقات الدولية والإدارة",
-    "es": "Relaciones internacionales y gestión"
+    "es": "Relaciones internacionales y gestión",
+    "he": "יחסים בינלאומיים וניהול"
   },
   {
     "code": "engineering_business_management",
@@ -1657,7 +1822,8 @@
     "ru": "Инженерный бизнес и менеджмент",
     "ka": "საინჟინრო ბიზნესი და მენეჯმენტი",
     "ar": "الأعمال الهندسية والإدارة",
-    "es": "Negocios de ingeniería y gestión"
+    "es": "Negocios de ingeniería y gestión",
+    "he": "עסקי הנדסה וניהול"
   },
   {
     "code": "political_social_sciences",
@@ -1667,7 +1833,8 @@
     "ru": "Политические и общественные науки",
     "ka": "პოლიტიკური და საზოგადოებრივი მეცნიერებები",
     "ar": "العلوم السياسية والاجتماعية",
-    "es": "Ciencias políticas y sociales"
+    "es": "Ciencias políticas y sociales",
+    "he": "מדעי המדינה והחברה"
   },
   {
     "code": "philology_primary_education",
@@ -1677,7 +1844,8 @@
     "ru": "Филология и начальное образование",
     "ka": "ფილოლოგია და დაწყებითი განათლება",
     "ar": "فقه اللغة والتعليم الابتدائي",
-    "es": "Filología y educación primaria"
+    "es": "Filología y educación primaria",
+    "he": "פילולוגיה וחינוך יסודי"
   },
   {
     "code": "turkic_world_economics",
@@ -1687,7 +1855,8 @@
     "ru": "Экономический факультет тюркского мира",
     "ka": "თურქული სამყაროს ეკონომიკის ფაკულტეტი",
     "ar": "كلية اقتصاد العالم التركي",
-    "es": "Facultad de Economía del Mundo Túrquico"
+    "es": "Facultad de Economía del Mundo Túrquico",
+    "he": "הפקולטה לכלכלה של העולם הטורקי"
   },
   {
     "code": "architecture_construction",
@@ -1697,7 +1866,8 @@
     "ru": "Архитектура и строительство",
     "ka": "არქიტექტურა და მშენებლობა",
     "ar": "الهندسة المعمارية والبناء",
-    "es": "Arquitectura y construcción"
+    "es": "Arquitectura y construcción",
+    "he": "אדריכלות ובנייה"
   },
   {
     "code": "theatre_arts",
@@ -1707,7 +1877,8 @@
     "ru": "Театральное искусство",
     "ka": "თეატრალური ხელოვნება",
     "ar": "الفنون المسرحية",
-    "es": "Artes escénicas"
+    "es": "Artes escénicas",
+    "he": "אמנויות הבמה"
   },
   {
     "code": "zooengineering",
@@ -1717,7 +1888,8 @@
     "ru": "Зооинженерия",
     "ka": "ზოოინჟინერია",
     "ar": "هندسة الإنتاج الحيواني",
-    "es": "Zooingeniería"
+    "es": "Zooingeniería",
+    "he": "הנדסת חי"
   },
   {
     "code": "metallurgy_materials",
@@ -1727,7 +1899,8 @@
     "ru": "Металлургия и материаловедение",
     "ka": "მეტალურგია და მატერიალმცოდნეობა",
     "ar": "علم المعادن وعلم المواد",
-    "es": "Metalurgia y ciencia de materiales"
+    "es": "Metalurgia y ciencia de materiales",
+    "he": "מטלורגיה ומדע החומרים"
   },
   {
     "code": "automation",
@@ -1737,7 +1910,8 @@
     "ru": "Автоматика",
     "ka": "ავტომატიკა",
     "ar": "الأتمتة",
-    "es": "Automatización"
+    "es": "Automatización",
+    "he": "אוטומציה"
   },
   {
     "code": "humanities_languages",
@@ -1747,7 +1921,8 @@
     "ru": "Гуманитарные науки и языки",
     "ka": "ჰუმანიტარული მეცნიერებები და ენები",
     "ar": "العلوم الإنسانية واللغات",
-    "es": "Humanidades e idiomas"
+    "es": "Humanidades e idiomas",
+    "he": "מדעי הרוח ושפות"
   },
   {
     "code": "music",
@@ -1757,7 +1932,8 @@
     "ru": "Музыка",
     "ka": "მუსიკა",
     "ar": "الموسيقى",
-    "es": "Música"
+    "es": "Música",
+    "he": "מוזיקה"
   },
   {
     "code": "postal_communication",
@@ -1767,7 +1943,8 @@
     "ru": "Почтовая связь",
     "ka": "საფოსტო კავშირი",
     "ar": "الاتصالات البريدية",
-    "es": "Comunicación postal"
+    "es": "Comunicación postal",
+    "he": "תקשורת דואר"
   },
   {
     "code": "technology",
@@ -1777,7 +1954,8 @@
     "ru": "Технология",
     "ka": "ტექნოლოგია",
     "ar": "التكنولوجيا",
-    "es": "Tecnología"
+    "es": "Tecnología",
+    "he": "טכנולוגיה"
   },
   {
     "code": "transport_technologies",
@@ -1787,7 +1965,8 @@
     "ru": "Транспортные технологии",
     "ka": "ტრანსპორტის ტექნოლოგიები",
     "ar": "تكنولوجيا النقل",
-    "es": "Tecnologías del transporte"
+    "es": "Tecnologías del transporte",
+    "he": "טכנולוגיות תחבורה"
   },
   {
     "code": "az_language_literature_teaching",
@@ -1797,7 +1976,8 @@
     "ru": "Преподавание азербайджанского языка и литературы",
     "ka": "აზერბაიჯანული ენისა და ლიტერატურის მასწავლებლობა",
     "ar": "تعليم اللغة الأذربيجانية وأدبها",
-    "es": "Docencia de lengua y literatura azerbaiyanas"
+    "es": "Docencia de lengua y literatura azerbaiyanas",
+    "he": "הוראת שפה וספרות אזרבייג'נית"
   },
   {
     "code": "economic_legal_regulation",
@@ -1807,7 +1987,8 @@
     "ru": "Правовое регулирование экономики",
     "ka": "ეკონომიკის სამართლებრივი რეგულირება",
     "ar": "التنظيم القانوني للاقتصاد",
-    "es": "Regulación jurídica de la economía"
+    "es": "Regulación jurídica de la economía",
+    "he": "רגולציה משפטית של הכלכלה"
   },
   {
     "code": "ecological_engineering",
@@ -1817,7 +1998,8 @@
     "ru": "Инженерия экологии",
     "ka": "ეკოლოგიის ინჟინერია",
     "ar": "الهندسة البيئية",
-    "es": "Ingeniería ecológica"
+    "es": "Ingeniería ecológica",
+    "he": "הנדסה אקולוגית"
   },
   {
     "code": "medical_biology",
@@ -1827,7 +2009,8 @@
     "ru": "Медицинская биология",
     "ka": "სამედიცინო ბიოლოგია",
     "ar": "الأحياء الطبية",
-    "es": "Biología médica"
+    "es": "Biología médica",
+    "he": "ביולוגיה רפואית"
   },
   {
     "code": "technological_machines",
@@ -1837,7 +2020,8 @@
     "ru": "Технологические машины",
     "ka": "ტექნოლოგიური მანქანები",
     "ar": "الآلات التكنولوجية",
-    "es": "Maquinaria tecnológica"
+    "es": "Maquinaria tecnológica",
+    "he": "מכונות טכנולוגיות"
   },
   {
     "code": "light_industry_logistics",
@@ -1847,7 +2031,8 @@
     "ru": "Инженерия легкой промышленности и логистика",
     "ka": "მსუბუქი მრეწველობის ინჟინერია და ლოგისტიკა",
     "ar": "هندسة الصناعات الخفيفة واللوجستيات",
-    "es": "Ingeniería de industria ligera y logística"
+    "es": "Ingeniería de industria ligera y logística",
+    "he": "הנדסת תעשייה קלה ולוגיסטיקה"
   },
   {
     "code": "intl_relations_foreign_languages",
@@ -1857,7 +2042,8 @@
     "ru": "Международные отношения и иностранные языки",
     "ka": "საერთაშორისო ურთიერთობები და უცხო ენები",
     "ar": "العلاقات الدولية واللغات الأجنبية",
-    "es": "Relaciones internacionales e idiomas extranjeros"
+    "es": "Relaciones internacionales e idiomas extranjeros",
+    "he": "יחסים בינלאומיים ושפות זרות"
   },
   {
     "code": "mechanics",
@@ -1867,7 +2053,8 @@
     "ru": "Механика",
     "ka": "მექანიკა",
     "ar": "الميكانيكا",
-    "es": "Mecánica"
+    "es": "Mecánica",
+    "he": "מכניקה"
   },
   {
     "code": "fine_arts",
@@ -1877,7 +2064,8 @@
     "ru": "Изобразительное искусство",
     "ka": "სახვითი ხელოვნება",
     "ar": "الفنون التشكيلية",
-    "es": "Bellas artes"
+    "es": "Bellas artes",
+    "he": "אמנויות יפות"
   },
   {
     "code": "veterinary_zooengineering",
@@ -1887,7 +2075,8 @@
     "ru": "Ветеринарная медицина и зооинженерия",
     "ka": "ვეტერინარული მედიცინა და ზოოინჟინერია",
     "ar": "الطب البيطري وهندسة الإنتاج الحيواني",
-    "es": "Veterinaria y zooingeniería"
+    "es": "Veterinaria y zooingeniería",
+    "he": "רפואה וטרינרית והנדסת חי"
   },
   {
     "code": "history_geography_arts",
@@ -1897,7 +2086,8 @@
     "ru": "История, география и искусство",
     "ka": "ისტორია-გეოგრაფია და ხელოვნება",
     "ar": "التاريخ والجغرافيا والفنون",
-    "es": "Historia, geografía y arte"
+    "es": "Historia, geografía y arte",
+    "he": "היסטוריה, גיאוגרפיה ואמנות"
   },
   {
     "code": "theology",
@@ -1907,7 +2097,8 @@
     "ru": "Теология",
     "ka": "თეოლოგია",
     "ar": "اللاهوت",
-    "es": "Teología"
+    "es": "Teología",
+    "he": "תיאולוגיה"
   },
   {
     "code": "customs_organization",
@@ -1917,7 +2108,8 @@
     "ru": "Организация таможенного дела",
     "ka": "საბაჟო საქმის ორგანიზება",
     "ar": "تنظيم الأعمال الجمركية",
-    "es": "Organización de asuntos aduaneros"
+    "es": "Organización de asuntos aduaneros",
+    "he": "ארגון ענייני המכס"
   },
   {
     "code": "public_health",
@@ -1927,7 +2119,8 @@
     "ru": "Общественное здравоохранение",
     "ka": "საზოგადოებრივი ჯანდაცვა",
     "ar": "الصحة العامة",
-    "es": "Salud pública"
+    "es": "Salud pública",
+    "he": "בריאות הציבור"
   },
   {
     "code": "economics_administrative_sciences",
@@ -1937,7 +2130,8 @@
     "ru": "Экономика и административные науки",
     "ka": "ეკონომიკა და ადმინისტრაციული მეცნიერებები",
     "ar": "الاقتصاد والعلوم الإدارية",
-    "es": "Ciencias económicas y administrativas"
+    "es": "Ciencias económicas y administrativas",
+    "he": "מדעי הכלכלה והמנהל"
   },
   {
     "code": "turkic_world_business",
@@ -1947,7 +2141,8 @@
     "ru": "Факультет управления тюркского мира",
     "ka": "თურქული სამყაროს ბიზნესის ფაკულტეტი",
     "ar": "كلية إدارة الأعمال للعالم التركي",
-    "es": "Facultad de Negocios del Mundo Túrquico"
+    "es": "Facultad de Negocios del Mundo Túrquico",
+    "he": "הפקולטה לעסקים של העולם הטורקי"
   },
   {
     "code": "radio_engineering",
@@ -1957,7 +2152,8 @@
     "ru": "Радиотехника",
     "ka": "რადიოტექნიკა",
     "ar": "الهندسة الراديوية",
-    "es": "Radiotecnia"
+    "es": "Radiotecnia",
+    "he": "הנדסת רדיו"
   },
   {
     "code": "fine_arts_teaching",
@@ -1967,7 +2163,8 @@
     "ru": "Преподавание изобразительного искусства",
     "ka": "სახვითი ხელოვნების მასწავლებლობა",
     "ar": "تعليم الفنون التشكيلية",
-    "es": "Docencia en bellas artes"
+    "es": "Docencia en bellas artes",
+    "he": "הוראת אמנות"
   },
   {
     "code": "information_security",
@@ -1977,7 +2174,8 @@
     "ru": "Информационная безопасность",
     "ka": "ინფორმაციული უსაფრთხოება",
     "ar": "أمن المعلومات",
-    "es": "Seguridad de la información"
+    "es": "Seguridad de la información",
+    "he": "אבטחת מידע"
   },
   {
     "code": "high_technologies_innovation",
@@ -1987,7 +2185,8 @@
     "ru": "Высокие технологии и инновационная инженерия",
     "ka": "მაღალი ტექნოლოგიები და ინოვაციური ინჟინერია",
     "ar": "التقنيات العالية والهندسة الابتكارية",
-    "es": "Altas tecnologías e ingeniería innovadora"
+    "es": "Altas tecnologías e ingeniería innovadora",
+    "he": "טכנולוגיות עתירות ידע והנדסה חדשנית"
   },
   {
     "code": "social_administration_law",
@@ -1997,7 +2196,8 @@
     "ru": "Социальное управление и право",
     "ka": "სოციალური მართვა და სამართალი",
     "ar": "الإدارة الاجتماعية والقانون",
-    "es": "Administración social y derecho"
+    "es": "Administración social y derecho",
+    "he": "מנהל חברתי ומשפט"
   },
   {
     "code": "linguistics",
@@ -2007,7 +2207,8 @@
     "ru": "Языкознание",
     "ka": "ენათმეცნიერება",
     "ar": "علم اللغة",
-    "es": "Lingüística"
+    "es": "Lingüística",
+    "he": "בלשנות"
   },
   {
     "code": "agrarian_economics",
@@ -2017,7 +2218,8 @@
     "ru": "Аграрная экономика",
     "ka": "აგრარული ეკონომიკა",
     "ar": "الاقتصاد الزراعي",
-    "es": "Economía agraria"
+    "es": "Economía agraria",
+    "he": "כלכלה חקלאית"
   },
   {
     "code": "intl_school_economics",
@@ -2027,7 +2229,8 @@
     "ru": "Международная школа экономики",
     "ka": "ეკონომიკის საერთაშორისო სკოლა",
     "ar": "المدرسة الدولية للاقتصاد",
-    "es": "Escuela Internacional de Economía"
+    "es": "Escuela Internacional de Economía",
+    "he": "בית הספר הבינלאומי לכלכלה"
   },
   {
     "code": "ship_navigation",
@@ -2037,7 +2240,8 @@
     "ru": "Судовождение",
     "ka": "გემის ნავიგაცია",
     "ar": "قيادة السفن",
-    "es": "Navegación marítima"
+    "es": "Navegación marítima",
+    "he": "ניווט ימי"
   },
   {
     "code": "informatics_teaching",
@@ -2047,7 +2251,8 @@
     "ru": "Преподавание информатики",
     "ka": "ინფორმატიკის მასწავლებლობა",
     "ar": "تعليم المعلوماتية",
-    "es": "Docencia en informática"
+    "es": "Docencia en informática",
+    "he": "הוראת אינפורמטיקה"
   },
   {
     "code": "telecommunication",
@@ -2057,7 +2262,8 @@
     "ru": "Телекоммуникация",
     "ka": "ტელეკომუნიკაცია",
     "ar": "الاتصالات السلكية واللاسلكية",
-    "es": "Telecomunicaciones"
+    "es": "Telecomunicaciones",
+    "he": "טלקומוניקציה"
   },
   {
     "code": "religious_studies",
@@ -2067,7 +2273,8 @@
     "ru": "Религиоведение",
     "ka": "რელიგიათმცოდნეობა",
     "ar": "علم الأديان",
-    "es": "Estudios religiosos"
+    "es": "Estudios religiosos",
+    "he": "מדעי הדתות"
   },
   {
     "code": "production_automation",
@@ -2077,7 +2284,8 @@
     "ru": "Автоматизация производственных процессов",
     "ka": "წარმოების პროცესების ავტომატიზაცია",
     "ar": "أتمتة العمليات الإنتاجية",
-    "es": "Automatización de procesos productivos"
+    "es": "Automatización de procesos productivos",
+    "he": "אוטומציה של תהליכי ייצור"
   },
   {
     "code": "expertise_standardization",
@@ -2087,7 +2295,8 @@
     "ru": "Экспертиза и стандартизация",
     "ka": "ექსპერტიზა და სტანდარტიზაცია",
     "ar": "الخبرة والتقييس",
-    "es": "Peritaje y normalización"
+    "es": "Peritaje y normalización",
+    "he": "חקר מומחה ותקינה"
   },
   {
     "code": "architecture_design",
@@ -2097,7 +2306,8 @@
     "ru": "Архитектура и дизайн",
     "ka": "არქიტექტურა და დიზაინი",
     "ar": "الهندسة المعمارية والتصميم",
-    "es": "Arquitectura y diseño"
+    "es": "Arquitectura y diseño",
+    "he": "אדריכלות ועיצוב"
   },
   {
     "code": "political_science",
@@ -2107,7 +2317,8 @@
     "ru": "Политические науки",
     "ka": "პოლიტიკური მეცნიერებები",
     "ar": "العلوم السياسية",
-    "es": "Ciencias políticas"
+    "es": "Ciencias políticas",
+    "he": "מדע המדינה"
   },
   {
     "code": "biology_teaching",
@@ -2117,7 +2328,8 @@
     "ru": "Преподавание биологии",
     "ka": "ბიოლოგიის მასწავლებლობა",
     "ar": "تعليم الأحياء",
-    "es": "Docencia en biología"
+    "es": "Docencia en biología",
+    "he": "הוראת ביולוגיה"
   },
   {
     "code": "consumer_goods_expertise",
@@ -2127,7 +2339,8 @@
     "ru": "Экспертиза и маркетинг потребительских товаров",
     "ka": "სამომხმარებლო საქონლის ექსპერტიზა და მარკეტინგი",
     "ar": "خبرة وتسويق السلع الاستهلاكية",
-    "es": "Peritaje y marketing de bienes de consumo"
+    "es": "Peritaje y marketing de bienes de consumo",
+    "he": "חקר ושיווק מוצרי צריכה"
   },
   {
     "code": "information_document_management",
@@ -2137,7 +2350,8 @@
     "ru": "Информационный и документальный менеджмент",
     "ka": "ინფორმაციისა და დოკუმენტების მენეჯმენტი",
     "ar": "إدارة المعلومات والوثائق",
-    "es": "Gestión de la información y documentación"
+    "es": "Gestión de la información y documentación",
+    "he": "ניהול מידע ומסמכים"
   },
   {
     "code": "sport_games",
@@ -2147,7 +2361,8 @@
     "ru": "Спортивные игры",
     "ka": "სპორტული თამაშები",
     "ar": "الألعاب الرياضية",
-    "es": "Juegos deportivos"
+    "es": "Juegos deportivos",
+    "he": "משחקי ספורט"
   },
   {
     "code": "politology",
@@ -2157,7 +2372,8 @@
     "ru": "Политология",
     "ka": "პოლიტოლოგია",
     "ar": "العلوم السياسية والحكم",
-    "es": "Politología"
+    "es": "Politología",
+    "he": "פוליטולוגיה"
   },
   {
     "code": "film_television",
@@ -2167,7 +2383,8 @@
     "ru": "Кино и телевидение",
     "ka": "კინო და ტელევიზია",
     "ar": "السينما والتلفزيون",
-    "es": "Cine y televisión"
+    "es": "Cine y televisión",
+    "he": "קולנוע וטלוויזיה"
   },
   {
     "code": "energy_engineering",
@@ -2177,7 +2394,8 @@
     "ru": "Инженерия энергетики",
     "ka": "ენერგეტიკის ინჟინერია",
     "ar": "هندسة الطاقة",
-    "es": "Ingeniería energética"
+    "es": "Ingeniería energética",
+    "he": "הנדסת אנרגיה"
   },
   {
     "code": "decorative_applied_arts",
@@ -2187,7 +2405,8 @@
     "ru": "Декоративно-прикладное искусство",
     "ka": "დეკორატიულ-გამოყენებითი ხელოვნება",
     "ar": "الفنون الزخرفية التطبيقية",
-    "es": "Artes decorativas y aplicadas"
+    "es": "Artes decorativas y aplicadas",
+    "he": "אמנות דקורטיבית ושימושית"
   },
   {
     "code": "geography_teaching",
@@ -2197,7 +2416,8 @@
     "ru": "Преподавание географии",
     "ka": "გეოგრაფიის მასწავლებლობა",
     "ar": "تعليم الجغرافيا",
-    "es": "Docencia en geografía"
+    "es": "Docencia en geografía",
+    "he": "הוראת גיאוגרפיה"
   },
   {
     "code": "communication",
@@ -2207,7 +2427,8 @@
     "ru": "Связь",
     "ka": "კავშირგაბმულობა",
     "ar": "الاتصالات",
-    "es": "Comunicaciones"
+    "es": "Comunicaciones",
+    "he": "תקשורת"
   },
   {
     "code": "electric_power_engineering",
@@ -2217,7 +2438,8 @@
     "ru": "Электроэнергетическая инженерия",
     "ka": "ელექტროენერგეტიკის ინჟინერია",
     "ar": "هندسة الطاقة الكهربائية",
-    "es": "Ingeniería de energía eléctrica"
+    "es": "Ingeniería de energía eléctrica",
+    "he": "הנדסת אנרגיית חשמל"
   },
   {
     "code": "folk_instruments",
@@ -2227,7 +2449,8 @@
     "ru": "Народные инструменты",
     "ka": "ხალხური საკრავები",
     "ar": "الآلات الشعبية",
-    "es": "Instrumentos populares"
+    "es": "Instrumentos populares",
+    "he": "כלי נגינה עממיים"
   },
   {
     "code": "industrial_civil_construction",
@@ -2237,7 +2460,8 @@
     "ru": "Промышленное и гражданское строительство",
     "ka": "სამრეწველო და სამოქალაქო მშენებლობა",
     "ar": "البناء الصناعي والمدني",
-    "es": "Construcción industrial y civil"
+    "es": "Construcción industrial y civil",
+    "he": "בנייה תעשייתית ואזרחית"
   },
   {
     "code": "mechanical_engineering",
@@ -2247,7 +2471,8 @@
     "ru": "Инженерная механика",
     "ka": "მექანიკის ინჟინერია",
     "ar": "الهندسة الميكانيكية",
-    "es": "Ingeniería mecánica"
+    "es": "Ingeniería mecánica",
+    "he": "הנדסת מכונות"
   },
   {
     "code": "automation_control",
@@ -2257,7 +2482,8 @@
     "ru": "Автоматика и управление",
     "ka": "ავტომატიკა და მართვა",
     "ar": "الأتمتة والتحكم",
-    "es": "Automatización y control"
+    "es": "Automatización y control",
+    "he": "אוטומציה ובקרה"
   },
   {
     "code": "metallurgical_engineering",
@@ -2267,7 +2493,8 @@
     "ru": "Металлургическая инженерия",
     "ka": "მეტალურგიის ინჟინერია",
     "ar": "هندسة المعادن",
-    "es": "Ingeniería metalúrgica"
+    "es": "Ingeniería metalúrgica",
+    "he": "הנדסה מטלורגית"
   },
   {
     "code": "military",
@@ -2277,7 +2504,8 @@
     "ru": "Военный",
     "ka": "სამხედრო",
     "ar": "العسكرية",
-    "es": "Asuntos militares"
+    "es": "Asuntos militares",
+    "he": "ענייני צבא"
   },
   {
     "code": "electricity_supply",
@@ -2287,7 +2515,8 @@
     "ru": "Электроснабжение",
     "ka": "ელექტრომომარაგება",
     "ar": "التغذية الكهربائية",
-    "es": "Suministro eléctrico"
+    "es": "Suministro eléctrico",
+    "he": "אספקת חשמל"
   },
   {
     "code": "music_art",
@@ -2297,7 +2526,8 @@
     "ru": "Музыкальное искусство",
     "ka": "მუსიკალური ხელოვნება",
     "ar": "الفن الموسيقي",
-    "es": "Arte musical"
+    "es": "Arte musical",
+    "he": "אמנות המוזיקה"
   },
   {
     "code": "statistics",
@@ -2307,7 +2537,8 @@
     "ru": "Статистика",
     "ka": "სტატისტიკა",
     "ar": "الإحصاء",
-    "es": "Estadística"
+    "es": "Estadística",
+    "he": "סטטיסטיקה"
   },
   {
     "code": "electrical_engineering",
@@ -2317,7 +2548,8 @@
     "ru": "Электротехническая инженерия",
     "ka": "ელექტროინჟინერია",
     "ar": "الهندسة الكهربائية",
-    "es": "Ingeniería eléctrica"
+    "es": "Ingeniería eléctrica",
+    "he": "הנדסת חשמל"
   },
   {
     "code": "it_systems_engineering",
@@ -2327,7 +2559,8 @@
     "ru": "Инженерия информационных технологий и систем",
     "ka": "ინფორმაციული ტექნოლოგიებისა და სისტემების ინჟინერია",
     "ar": "هندسة تقنية المعلومات والأنظمة",
-    "es": "Tecnologías de la información e ingeniería de sistemas"
+    "es": "Tecnologías de la información e ingeniería de sistemas",
+    "he": "טכנולוגיות מידע והנדסת מערכות"
   },
   {
     "code": "physical_education_teaching",
@@ -2337,7 +2570,8 @@
     "ru": "Преподавание физического воспитания",
     "ka": "ფიზიკური აღზრდის მასწავლებლობა",
     "ar": "تعليم التربية البدنية",
-    "es": "Docencia en educación física"
+    "es": "Docencia en educación física",
+    "he": "הוראת חינוך גופני"
   },
   {
     "code": "computer_networks",
@@ -2347,7 +2581,8 @@
     "ru": "Компьютерные сети",
     "ka": "კომპიუტერული ქსელები",
     "ar": "شبكات الحاسوب",
-    "es": "Redes informáticas"
+    "es": "Redes informáticas",
+    "he": "רשתות מחשבים"
   },
   {
     "code": "social_work_translation",
@@ -2357,7 +2592,8 @@
     "ru": "Социальная работа и перевод",
     "ka": "სოციალური მუშაობა და თარგმანი",
     "ar": "العمل الاجتماعي والترجمة",
-    "es": "Trabajo social y traducción"
+    "es": "Trabajo social y traducción",
+    "he": "עבודה סוציאלית ותרגום"
   },
   {
     "code": "archive_records_management",
@@ -2367,7 +2603,8 @@
     "ru": "Архивное дело и делопроизводство",
     "ka": "საარქივო საქმე და საქმისწარმოება",
     "ar": "الأرشيف وإدارة السجلات",
-    "es": "Archivística y gestión documental"
+    "es": "Archivística y gestión documental",
+    "he": "ארכיונאות וניהול רשומות"
   },
   {
     "code": "world_economy_commerce",
@@ -2377,7 +2614,8 @@
     "ru": "Мировая экономика и коммерция",
     "ka": "მსოფლიო ეკონომიკა და კომერცია",
     "ar": "الاقتصاد العالمي والتجارة",
-    "es": "Economía mundial y comercio"
+    "es": "Economía mundial y comercio",
+    "he": "כלכלה עולמית ומסחר"
   },
   {
     "code": "corrective_education",
@@ -2387,7 +2625,8 @@
     "ru": "Коррекционное обучение",
     "ka": "კორექციული სწავლება",
     "ar": "التعليم التصحيحي",
-    "es": "Educación especial"
+    "es": "Educación especial",
+    "he": "חינוך מיוחד"
   },
   {
     "code": "painting_fine_art",
@@ -2397,7 +2636,8 @@
     "ru": "Станковая живопись",
     "ka": "ფერწერული ხელოვნება",
     "ar": "فن التصوير",
-    "es": "Pintura artística"
+    "es": "Pintura artística",
+    "he": "ציור אמנותי"
   },
   {
     "code": "russian_language_literature",
@@ -2407,7 +2647,8 @@
     "ru": "Русский язык и литература",
     "ka": "რუსული ენა და ლიტერატურა",
     "ar": "اللغة الروسية وأدبها",
-    "es": "Lengua y literatura rusas"
+    "es": "Lengua y literatura rusas",
+    "he": "שפה וספרות רוסית"
   },
   {
     "code": "tax_banking",
@@ -2417,7 +2658,8 @@
     "ru": "Налоговое и банковское дело",
     "ka": "გადასახადები და საბანკო საქმე",
     "ar": "الضرائب والأعمال المصرفية",
-    "es": "Fiscalidad y banca"
+    "es": "Fiscalidad y banca",
+    "he": "מיסוי ובנקאות"
   },
   {
     "code": "sociology",
@@ -2427,7 +2669,8 @@
     "ru": "Социология",
     "ka": "სოციოლოგია",
     "ar": "علم الاجتماع",
-    "es": "Sociología"
+    "es": "Sociología",
+    "he": "סוציולוגיה"
   },
   {
     "code": "music_teaching",
@@ -2437,7 +2680,8 @@
     "ru": "Преподавание музыки",
     "ka": "მუსიკის მასწავლებლობა",
     "ar": "تعليم الموسيقى",
-    "es": "Docencia en música"
+    "es": "Docencia en música",
+    "he": "הוראת מוזיקה"
   },
   {
     "code": "technology_teaching",
@@ -2447,7 +2691,8 @@
     "ru": "Преподавание технологии",
     "ka": "ტექნოლოგიის მასწავლებლობა",
     "ar": "تعليم التكنولوجيا",
-    "es": "Docencia en tecnología"
+    "es": "Docencia en tecnología",
+    "he": "הוראת טכנולוגיה"
   },
   {
     "code": "chemistry_biology_teaching",
@@ -2457,7 +2702,8 @@
     "ru": "Преподавание химии и биологии",
     "ka": "ქიმიისა და ბიოლოგიის მასწავლებლობა",
     "ar": "تعليم الكيمياء والأحياء",
-    "es": "Docencia de química y biología"
+    "es": "Docencia de química y biología",
+    "he": "הוראת כימיה וביולוגיה"
   },
   {
     "code": "social_work_psychology",
@@ -2467,7 +2713,8 @@
     "ru": "Социальная работа и психология",
     "ka": "სოციალური მუშაობა და ფსიქოლოგია",
     "ar": "العمل الاجتماعي وعلم النفس",
-    "es": "Trabajo social y psicología"
+    "es": "Trabajo social y psicología",
+    "he": "עבודה סוציאלית ופסיכולוגיה"
   },
   {
     "code": "state_public_relations",
@@ -2477,7 +2724,8 @@
     "ru": "Государственные и общественные отношения",
     "ka": "სახელმწიფო და საზოგადოებრივი ურთიერთობები",
     "ar": "العلاقات الحكومية والعامة",
-    "es": "Relaciones estatales y públicas"
+    "es": "Relaciones estatales y públicas",
+    "he": "יחסי מדינה וציבור"
   },
   {
     "code": "machine_engineering",
@@ -2487,7 +2735,8 @@
     "ru": "Машинная инженерия",
     "ka": "მანქანათა ინჟინერია",
     "ar": "هندسة الآلات",
-    "es": "Ingeniería de máquinas"
+    "es": "Ingeniería de máquinas",
+    "he": "הנדסת מכשירים"
   },
   {
     "code": "service_engineering",
@@ -2497,7 +2746,8 @@
     "ru": "Инженерия сервиса",
     "ka": "მომსახურების ინჟინერია",
     "ar": "هندسة الخدمات",
-    "es": "Ingeniería de servicios"
+    "es": "Ingeniería de servicios",
+    "he": "הנדסת שירות"
   },
   {
     "code": "fire_safety",
@@ -2507,7 +2757,8 @@
     "ru": "Пожарная безопасность",
     "ka": "ხანძარსაწინააღმდეგო უსაფრთხოება",
     "ar": "السلامة من الحرائق",
-    "es": "Seguridad contra incendios"
+    "es": "Seguridad contra incendios",
+    "he": "בטיחות אש"
   },
   {
     "code": "border_troops",
@@ -2517,7 +2768,8 @@
     "ru": "Пограничные войска",
     "ka": "სასაზღვრო ჯარები",
     "ar": "قوات الحدود",
-    "es": "Tropas fronterizas"
+    "es": "Tropas fronterizas",
+    "he": "משמר הגבול"
   },
   {
     "code": "food_products_engineering",
@@ -2527,7 +2779,8 @@
     "ru": "Инженерия пищевых продуктов",
     "ka": "კვების პროდუქტების ინჟინერია",
     "ar": "هندسة المنتجات الغذائية",
-    "es": "Ingeniería de productos alimentarios"
+    "es": "Ingeniería de productos alimentarios",
+    "he": "הנדסת מוצרי מזון"
   },
   {
     "code": "electronics_telecom_radio_engineering",
@@ -2537,7 +2790,8 @@
     "ru": "Инженерия электроники, телекоммуникаций и радиотехники",
     "ka": "ელექტრონიკის, ტელეკომუნიკაციისა და რადიოტექნიკის ინჟინერია",
     "ar": "هندسة الإلكترونيات والاتصالات والراديو",
-    "es": "Electrónica, telecomunicaciones y radiotecnia"
+    "es": "Electrónica, telecomunicaciones y radiotecnia",
+    "he": "אלקטרוניקה, טלקומוניקציה והנדסת רדיו"
   },
   {
     "code": "directing",
@@ -2547,7 +2801,8 @@
     "ru": "Режиссура",
     "ka": "რეჟისურა",
     "ar": "الإخراج",
-    "es": "Dirección escénica"
+    "es": "Dirección escénica",
+    "he": "בימוי"
   },
   {
     "code": "music_history_theory",
@@ -2557,7 +2812,8 @@
     "ru": "История и теория музыки",
     "ka": "მუსიკის ისტორია და თეორია",
     "ar": "تاريخ الموسيقى ونظريتها",
-    "es": "Historia y teoría de la música"
+    "es": "Historia y teoría de la música",
+    "he": "היסטוריה ותורת המוזיקה"
   },
   {
     "code": "insurance",
@@ -2567,7 +2823,8 @@
     "ru": "Страховое дело",
     "ka": "დაზღვევის საქმე",
     "ar": "أعمال التأمين",
-    "es": "Seguros"
+    "es": "Seguros",
+    "he": "ביטוח"
   },
   {
     "code": "agrarian_engineering_field",
@@ -2577,7 +2834,8 @@
     "ru": "Аграрная инженерия",
     "ka": "აგრარული ინჟინერია",
     "ar": "الهندسة الزراعية",
-    "es": "Ingeniería agraria"
+    "es": "Ingeniería agraria",
+    "he": "הנדסה חקלאית"
   },
   {
     "code": "az_philology",
@@ -2587,7 +2845,8 @@
     "ru": "Азербайджанская филология",
     "ka": "აზერბაიჯანული ფილოლოგია",
     "ar": "فقه اللغة الأذربيجانية",
-    "es": "Filología azerbaiyana"
+    "es": "Filología azerbaiyana",
+    "he": "פילולוגיה אזרבייג'נית"
   },
   {
     "code": "philology_translation",
@@ -2597,7 +2856,8 @@
     "ru": "Филология и перевод",
     "ka": "ფილოლოგია და თარგმანი",
     "ar": "فقه اللغة والترجمة",
-    "es": "Filología y traducción"
+    "es": "Filología y traducción",
+    "he": "פילולוגיה ותרגום"
   },
   {
     "code": "transport_logistics_engineering",
@@ -2607,7 +2867,8 @@
     "ru": "Инженерия логистики и транспортных технологий",
     "ka": "ლოგისტიკისა და ტრანსპორტის ტექნოლოგიების ინჟინერია",
     "ar": "هندسة اللوجستيات وتكنولوجيا النقل",
-    "es": "Ingeniería de logística y tecnología del transporte"
+    "es": "Ingeniería de logística y tecnología del transporte",
+    "he": "הנדסת לוגיסטיקה וטכנולוגיית תחבורה"
   },
   {
     "code": "transportation_organization",
@@ -2617,7 +2878,8 @@
     "ru": "Организация перевозок на транспорте",
     "ka": "ტრანსპორტზე გადაზიდვების ორგანიზება",
     "ar": "تنظيم النقل والشحن",
-    "es": "Organización del transporte"
+    "es": "Organización del transporte",
+    "he": "ארגון ההובלה"
   },
   {
     "code": "unec_design_school",
@@ -2627,6 +2889,7 @@
     "ru": "Школа дизайна UNEC",
     "ka": "UNEC-ის დიზაინის სკოლა",
     "ar": "مدرسة التصميم UNEC",
-    "es": "Escuela de Diseño de UNEC"
+    "es": "Escuela de Diseño de UNEC",
+    "he": "בית הספר לעיצוב של UNEC"
   }
 ]

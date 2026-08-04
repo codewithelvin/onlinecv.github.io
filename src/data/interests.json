@@ -7,7 +7,8 @@
     "ru": "Чтение книги",
     "ka": "წიგნების კითხვა",
     "ar": "قراءة الكتب",
-    "es": "Leer libros"
+    "es": "Leer libros",
+    "he": "קריאת ספרים"
   },
   {
     "code": "music_listen",
@@ -17,7 +18,8 @@
     "ru": "Слушать музыку",
     "ka": "მუსიკის მოსმენა",
     "ar": "الاستماع إلى الموسيقى",
-    "es": "Escuchar música"
+    "es": "Escuchar música",
+    "he": "האזנה למוזיקה"
   },
   {
     "code": "play_games",
@@ -27,7 +29,8 @@
     "ru": "Играть в игры",
     "ka": "თამაშების თამაში",
     "ar": "ممارسة الألعاب",
-    "es": "Videojuegos"
+    "es": "Videojuegos",
+    "he": "משחקי מחשב"
   },
   {
     "code": "sport",
@@ -37,7 +40,8 @@
     "ru": "Заниматься спортом",
     "ka": "სპორტით დაკავება",
     "ar": "ممارسة الرياضة",
-    "es": "Practicar deporte"
+    "es": "Practicar deporte",
+    "he": "עשיית ספורט"
   },
   {
     "code": "sing_a_song",
@@ -47,7 +51,8 @@
     "ru": "Петь песню",
     "ka": "სიმღერა",
     "ar": "الغناء",
-    "es": "Cantar"
+    "es": "Cantar",
+    "he": "שירה"
   },
   {
     "code": "cooking",
@@ -57,7 +62,8 @@
     "ru": "Готовить блюдо",
     "ka": "კულინარია",
     "ar": "الطبخ",
-    "es": "Cocinar"
+    "es": "Cocinar",
+    "he": "בישול"
   },
   {
     "code": "chess",
@@ -67,7 +73,8 @@
     "ru": "Играть в шахматы",
     "ka": "ჭადრაკი",
     "ar": "لعب الشطرنج",
-    "es": "Jugar al ajedrez"
+    "es": "Jugar al ajedrez",
+    "he": "שחמט"
   },
   {
     "code": "self_development",
@@ -77,7 +84,8 @@
     "ru": "Личное развитие",
     "ka": "პიროვნული განვითარება",
     "ar": "تطوير الذات",
-    "es": "Desarrollo personal"
+    "es": "Desarrollo personal",
+    "he": "התפתחות אישית"
   },
   {
     "code": "technology",
@@ -87,7 +95,8 @@
     "ru": "Технологии",
     "ka": "ტექნოლოგიები",
     "ar": "التقنيات",
-    "es": "Tecnología"
+    "es": "Tecnología",
+    "he": "טכנולוגיה"
   },
   {
     "code": "blogging",
@@ -97,7 +106,8 @@
     "ru": "Ведение блога",
     "ka": "ბლოგინგი",
     "ar": "التدوين",
-    "es": "Blogging"
+    "es": "Blogging",
+    "he": "בלוגים"
   },
   {
     "code": "photography",
@@ -107,7 +117,8 @@
     "ru": "Фотосъемки",
     "ka": "ფოტოგრაფია",
     "ar": "التصوير الفوتوغرافي",
-    "es": "Fotografía"
+    "es": "Fotografía",
+    "he": "צילום"
   },
   {
     "code": "design",
@@ -117,7 +128,8 @@
     "ru": "Дизайн",
     "ka": "დიზაინი",
     "ar": "التصميم",
-    "es": "Diseño"
+    "es": "Diseño",
+    "he": "עיצוב"
   },
   {
     "code": "learning_languages",
@@ -127,7 +139,8 @@
     "ru": "Изучение языков",
     "ka": "ენების შესწავლა",
     "ar": "تعلّم اللغات",
-    "es": "Aprender idiomas"
+    "es": "Aprender idiomas",
+    "he": "לימוד שפות"
   },
   {
     "code": "music_production",
@@ -137,7 +150,8 @@
     "ru": "Сочинять музыку",
     "ka": "მუსიკის შექმნა",
     "ar": "تأليف الموسيقى",
-    "es": "Componer música"
+    "es": "Componer música",
+    "he": "כתיבת מוזיקה"
   },
   {
     "code": "watch_movies",
@@ -147,7 +161,8 @@
     "ru": "Смотреть кино",
     "ka": "ფილმების ყურება",
     "ar": "مشاهدة الأفلام",
-    "es": "Ver películas"
+    "es": "Ver películas",
+    "he": "צפייה בסרטים"
   },
   {
     "code": "football",
@@ -157,7 +172,8 @@
     "ru": "Играть в футбол",
     "ka": "ფეხბურთი",
     "ar": "لعب كرة القدم",
-    "es": "Jugar al fútbol"
+    "es": "Jugar al fútbol",
+    "he": "כדורגל"
   },
   {
     "code": "crossword",
@@ -167,6 +183,7 @@
     "ru": "Решать кроссворды",
     "ka": "კროსვორდების ამოხსნა",
     "ar": "حل الكلمات المتقاطعة",
-    "es": "Resolver crucigramas"
+    "es": "Resolver crucigramas",
+    "he": "פתרון תשבצים"
   }
 ]

@@ -157,9 +157,30 @@ empty values, and that the dayjs data was imported.
 6. **Template names** — `TemplateManifest.name` requires only `az`, so existing
    template folders keep working untouched. Add the new code when convenient.
 
-## Right-to-left languages (Arabic, Farsi, Hebrew)
+## Right-to-left languages (Arabic, Hebrew, Farsi)
 
-Arabic is the worked example, and it ships complete: UI, preview and export.
+Both shipped RTL locales are complete — UI, preview and export — but they cost
+very different amounts, and the difference is worth understanding before adding
+the next one.
+
+**Hebrew was cheap: a font, a registry entry, and nothing else.** Direction is
+handled by the machinery Arabic already forced into place (`dir`, `isRtl`,
+`mirrorRow`, `bleedSide`, and the rewritten `reorderLine` in
+`patches/@react-pdf+textkit+4.4.1.patch`), and Hebrew needs **no shaping pass**:
+its letters have no contextual initial/medial/final forms and no mandatory
+ligatures, so there is no equivalent of `utils/arabic` and none of the text-layer
+damage that workaround causes. Its exported text comes back **intact** —
+`text-fidelity.test.tsx` holds Hebrew to the same must-survive standard as
+Russian and Georgian, which is what `cv: true` rests on.
+
+So the rule for the next RTL language: **if the script is non-joining (Hebrew,
+Thaana), expect the Arabic work to carry it. If it is cursive-joining (Farsi,
+Urdu, Syriac), expect to need `utils/arabic`'s treatment** — Farsi in particular
+uses the Arabic script and would go through `preshapeArabic`, so it inherits both
+the shaping fix and its text-layer trade-off.
+
+Arabic is the worked example of the hard case, and it ships complete: UI, preview
+and export.
 
 `dir: 'rtl'` flips the **editor UI** — AntD's `ConfigProvider` gets
 `direction="rtl"` and `<html dir="rtl">` is set, so layout, form controls and

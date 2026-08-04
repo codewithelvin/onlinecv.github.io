@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { SUPPORTED_LOCALES } from '../../app/i18n/locales';
+import { LOCALES, SUPPORTED_LOCALES } from '../../app/i18n/locales';
 import { bleedSide, isRtl, mirrorRow } from './direction';
 
 /**
@@ -8,11 +8,24 @@ import { bleedSide, isRtl, mirrorRow } from './direction';
  * These pin the explicit mirroring the templates and core rely on instead.
  */
 describe('isRtl', () => {
-  it('is true for Arabic and false for every other supported locale', () => {
-    expect(isRtl('ar')).toBe(true);
-    for (const locale of SUPPORTED_LOCALES.filter((l) => l !== 'ar')) {
-      expect(isRtl(locale), locale).toBe(false);
+  /**
+   * Driven off the registry rather than naming a locale: this used to assert that
+   * Arabic was the ONLY right-to-left language, which stopped being true the day
+   * Hebrew was added. The rule is what matters — `isRtl` must agree with
+   * `LOCALES[locale].dir` for every locale, so a new RTL language is covered the
+   * moment it is registered.
+   */
+  it('agrees with the registry for every supported locale', () => {
+    for (const locale of SUPPORTED_LOCALES) {
+      expect(isRtl(locale), locale).toBe(LOCALES[locale].dir === 'rtl');
     }
+  });
+
+  it('finds the right-to-left languages the app actually ships', () => {
+    const rtl = SUPPORTED_LOCALES.filter(isRtl);
+    expect(rtl, 'no RTL locale left — the mirroring below is untested').not.toEqual([]);
+    expect(rtl).toContain('ar');
+    expect(rtl).toContain('he');
   });
 });
 

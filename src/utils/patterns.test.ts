@@ -16,6 +16,8 @@ const NATIVE_NAME: Record<string, string> = {
   ar: 'محمد العلي',
   // An accented vowel and an eñe — what an ASCII-Latin rule would have rejected.
   es: 'José Núñez',
+  // Hebrew: an unpointed name, as it is normally written.
+  he: 'דוד כהן',
 };
 
 describe('PERSON_NAME', () => {

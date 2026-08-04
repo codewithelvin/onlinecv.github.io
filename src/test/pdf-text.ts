@@ -159,24 +159,46 @@ const INVISIBLE = /[\u200B-\u200F\u202A-\u202E\u2066-\u2069]/g;
 const RTL = /[\u0590-\u05FF\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB1D-\uFDFF\uFE70-\uFEFF]/;
 
 export function pdfPlainText(pdf: string): string {
-  return pdfTextRuns(pdf)
-    // Top-to-bottom, then along the line. Direction does not matter here: this
-    // is for asking WHETHER a word survived, not where it sits.
-    .sort((a, b) => (Math.abs(a.y - b.y) > 1 ? b.y - a.y : a.x - b.x))
-    .map((run) => {
-      /**
-       * A right-to-left run is PAINTED in visual order, so its glyphs come out
-       * of the content stream last-letter-first. Reversing restores the logical
-       * order the text was written in, which is what a word comparison needs —
-       * without this every Arabic word "goes missing" whether or not the export
-       * is actually broken, and the test would be useless.
-       */
-      const text = RTL.test(run.text) ? [...run.text].reverse().join('') : run.text;
-      return text;
-    })
-    .join(' ')
-    .replace(INVISIBLE, '')
-    .normalize('NFKC');
+  /**
+   * Runs are grouped into LINES and concatenated with NO separator, which is what a
+   * real extractor does: a run boundary is not a word boundary.
+   *
+   * That distinction matters more than it sounds. The exporter starts a new
+   * positioned run whenever a glyph needs its own placement (kerning, mark
+   * attachment) or the font changes, so a single word routinely spans several runs
+   * — a Hebrew headline came out as four runs splitting `מפתח צד לקוח` mid-word,
+   * and joining runs with a space reported nineteen intact words as missing. Real
+   * spaces are drawn as their own space glyphs and are already inside the runs, so
+   * nothing is lost by not inserting more.
+   */
+  const lines = new Map<number, PdfTextRun[]>();
+  for (const run of pdfTextRuns(pdf)) {
+    // Rounded to the point: glyphs on one baseline can differ by a hair.
+    const key = Math.round(run.y);
+    const line = lines.get(key);
+    if (line) line.push(run);
+    else lines.set(key, [run]);
+  }
+
+  const out: string[] = [];
+  for (const key of [...lines.keys()].sort((a, b) => b - a)) {
+    const visual = (lines.get(key) ?? [])
+      .sort((a, b) => a.x - b.x)
+      .map((run) => run.text)
+      .join('');
+    out.push(visual);
+    /**
+     * A right-to-left line is PAINTED in visual order, so the content stream holds
+     * it last-letter-first. BOTH orders go into the haystack, because this function
+     * answers "did the characters survive" and not "in what order were they
+     * written": reading order in an RTL export is a separate, documented
+     * limitation, and a comparison that conflated the two would report every
+     * Hebrew and Arabic word missing whether or not the export was really broken.
+     */
+    if (RTL.test(visual)) out.push([...visual].reverse().join(''));
+  }
+
+  return out.join('\n').replace(INVISIBLE, '').normalize('NFKC');
 }
 
 /**

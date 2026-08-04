@@ -5,12 +5,14 @@ import enUS from 'antd/locale/en_US';
 import kaGE from 'antd/locale/ka_GE';
 import arEG from 'antd/locale/ar_EG';
 import esES from 'antd/locale/es_ES';
+import heIL from 'antd/locale/he_IL';
 import 'dayjs/locale/az';
 import 'dayjs/locale/ru';
 import 'dayjs/locale/en';
 import 'dayjs/locale/ka';
 import 'dayjs/locale/ar';
 import 'dayjs/locale/es';
+import 'dayjs/locale/he';
 import type { Locale } from '../../types/resume';
 
 /**
@@ -223,6 +225,31 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     cv: true,
     region: 'europe',
     antd: esES,
+  },
+  /**
+   * Hebrew — right-to-left like Arabic, and it needs its own font
+   * (`NotoSansHebrew`; Inter has not one of the 22 letters, verified with fontkit).
+   *
+   * But UNLIKE Arabic it needs no shaping pass: Hebrew letters have no contextual
+   * initial/medial/final forms and no mandatory ligatures, so there is nothing for
+   * `utils/arabic`'s equivalent to do — the only RTL machinery it relies on is the
+   * bidi reordering in `@react-pdf/textkit`, which the shipped `patch-package` fix
+   * already rewrote correctly. Its export is asserted end-to-end by the text
+   * fidelity test rather than assumed, which is what `cv: true` rests on.
+   *
+   * `digits: 'latn'` — Hebrew has numerals of its own but writes dates in Western
+   * ones. `capitalizeMonths: false` — the script is unicameral, like Arabic.
+   */
+  he: {
+    code: 'he',
+    short: 'HE',
+    nativeName: 'עברית',
+    dir: 'rtl',
+    capitalizeMonths: false,
+    digits: 'latn',
+    cv: true,
+    region: 'middleEast',
+    antd: heIL,
   },
 };
 

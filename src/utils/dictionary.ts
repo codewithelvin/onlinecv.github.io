@@ -16,8 +16,20 @@ export function dictionaryLabel(entry: DictionaryEntry, locale: Locale): string 
  * to the stored free-text when the code is unknown or custom (§13.1).
  *
  * This is what makes dictionary-backed values (skills, languages, interests,
- * nationality, institutions) follow a language switch: the code is the stored
- * truth and the label is derived at render time.
+ * nationality, institutions, cities, positions) follow a language switch: the code
+ * is the stored truth and the label is derived at render time.
+ *
+ * WHEN THERE IS NO CODE, the stored text is looked up as a label before giving up
+ * — the same migration `resolveDictionaryValue` does for nationality, and for the
+ * same reason. Several of these fields gained their code column long after the app
+ * shipped (`cities`, `positions`, `faculties`, `specialities` on 2026-08-03), so a
+ * CV written before that holds a perfectly good "Bakı" with no `locationCode` and
+ * would otherwise stay frozen in Azerbaijani for ever — while the identical city
+ * picked today re-labels. That difference reads as a bug, and it is one.
+ *
+ * Exact match only, deliberately: the point is to recognize a value that WAS the
+ * dictionary's own spelling in some language, not to guess at typos. A genuinely
+ * free-text value still comes back untouched, which is what §13.1 promises.
  */
 export function resolveLabel(
   entries: DictionaryEntry[],
@@ -29,7 +41,7 @@ export function resolveLabel(
     const entry = entries.find((e) => e.code === code);
     if (entry) return dictionaryLabel(entry, locale);
   }
-  return fallbackText;
+  return resolveDictionaryValue(entries, fallbackText, locale);
 }
 
 /**

@@ -22,24 +22,42 @@ function institutionGroup(type: EducationItem['type']): DictionaryGroup | undefi
   return undefined;
 }
 
-/** Which dictionaries this resume actually references — the rest stay unloaded. */
+/**
+ * Which dictionaries this resume actually references — the rest stay unloaded.
+ *
+ * A group is needed as soon as a field it backs holds ANYTHING, not just when a
+ * code is present: `resolveLabel` looks an uncoded value up as a label so that a CV
+ * written before these fields had code columns still re-localizes (see that
+ * function), and it can only do that with the dictionary in hand. Gating on the
+ * code alone is what made those values look permanently frozen.
+ *
+ * The cost is bounded and was measured: the dictionary chunks are all precached by
+ * the service worker anyway, so this changes when a chunk is PARSED, not whether it
+ * is downloaded.
+ */
 export function referencedDictionaryGroups(resume: Resume): DictionaryGroup[] {
   const groups = new Set<DictionaryGroup>();
-  // Nationality holds either a code or free text, so it can only be told apart
-  // by looking it up.
-  if (resume.generalInfo.nationality) groups.add('nationality');
-  if (resume.skills.some((s) => s.code)) groups.add('skills');
-  if (resume.languages.some((l) => l.code)) groups.add('languages');
-  if ((resume.interests ?? []).some((i) => i.code)) groups.add('interests');
-  if (resume.experience.some((e) => e.positionCode)) groups.add('positions');
-  if (resume.basics.locationCode || resume.experience.some((e) => e.locationCode)) {
+  const text = (value: string | undefined): boolean => Boolean(value && value.trim());
+
+  // Nationality holds either a code or free text in one field, so it can only be
+  // told apart by looking it up.
+  if (text(resume.generalInfo.nationality)) groups.add('nationality');
+  if (resume.skills.some((s) => s.code || text(s.name))) groups.add('skills');
+  if (resume.languages.some((l) => l.code || text(l.name))) groups.add('languages');
+  if ((resume.interests ?? []).some((i) => i.code || text(i.name))) groups.add('interests');
+  if (resume.experience.some((e) => e.positionCode || text(e.position))) groups.add('positions');
+  if (
+    resume.basics.locationCode ||
+    text(resume.basics.location) ||
+    resume.experience.some((e) => e.locationCode || text(e.location))
+  ) {
     groups.add('cities');
   }
   for (const item of resume.education) {
-    const group = item.code ? institutionGroup(item.type) : undefined;
+    const group = item.code || text(item.institution) ? institutionGroup(item.type) : undefined;
     if (group) groups.add(group);
-    if (item.facultyCode) groups.add('faculties');
-    if (item.specializationCode) groups.add('specialities');
+    if (item.facultyCode || text(item.faculty)) groups.add('faculties');
+    if (item.specializationCode || text(item.specialization)) groups.add('specialities');
   }
   return [...groups];
 }

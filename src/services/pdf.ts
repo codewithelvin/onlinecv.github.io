@@ -84,6 +84,19 @@ export function registerResumeFonts(pdfLib: typeof ReactPdf, fontBase: string = 
       { src: `${fontBase}/NotoSansArabic-Bold.ttf`, fontWeight: 700 },
     ],
   });
+  /**
+   * Hebrew — right-to-left, so it leans on the same bidi reordering Arabic does
+   * (rewritten in `patches/@react-pdf+textkit+4.4.1.patch`), but it needs NO
+   * shaping pass: Hebrew letters have no contextual forms and no mandatory
+   * ligatures, so there is no equivalent of `utils/arabic` for it.
+   */
+  Font.register({
+    family: 'NotoSansHebrew',
+    fonts: [
+      { src: `${fontBase}/NotoSansHebrew-Regular.ttf`, fontWeight: 400 },
+      { src: `${fontBase}/NotoSansHebrew-Bold.ttf`, fontWeight: 700 },
+    ],
+  });
   // Text-based, ATS-parseable output: don't insert soft hyphens.
   Font.registerHyphenationCallback((word) => [word]);
 

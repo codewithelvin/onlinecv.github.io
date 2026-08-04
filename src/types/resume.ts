@@ -12,7 +12,7 @@ export type TemplateId = string;
  * language: `LOCALES` in `app/i18n/locales.ts` is a total record over it, so the
  * compiler then lists everything that still needs the new entry.
  */
-export type Locale = 'az' | 'ru' | 'en' | 'ka' | 'ar' | 'es';
+export type Locale = 'az' | 'ru' | 'en' | 'ka' | 'ar' | 'es' | 'he';
 
 /**
  * A short label translated per locale. Only the default locale (`az`) is
