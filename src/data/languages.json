@@ -10,7 +10,11 @@
     "es": "Árabe",
     "he": "ערבית",
     "ko": "아랍어",
-    "zh": "阿拉伯语"
+    "zh": "阿拉伯语",
+    "fr": "Arabe",
+    "de": "Arabisch",
+    "it": "Arabo",
+    "tr": "Arapça"
   },
   {
     "code": "azerbaijan",
@@ -23,7 +27,11 @@
     "es": "Azerbaiyano",
     "he": "אזרבייג'נית",
     "ko": "아제르바이잔어",
-    "zh": "阿塞拜疆语"
+    "zh": "阿塞拜疆语",
+    "fr": "Azerbaïdjanais",
+    "de": "Aserbaidschanisch",
+    "it": "Azerbaigiano",
+    "tr": "Azerice"
   },
   {
     "code": "chinese",
@@ -36,7 +44,11 @@
     "es": "Chino",
     "he": "סינית",
     "ko": "중국어",
-    "zh": "汉语"
+    "zh": "汉语",
+    "fr": "Chinois",
+    "de": "Chinesisch",
+    "it": "Cinese",
+    "tr": "Çince"
   },
   {
     "code": "english",
@@ -49,7 +61,11 @@
     "es": "Inglés",
     "he": "אנגלית",
     "ko": "영어",
-    "zh": "英语"
+    "zh": "英语",
+    "fr": "Anglais",
+    "de": "Englisch",
+    "it": "Inglese",
+    "tr": "İngilizce"
   },
   {
     "code": "french",
@@ -62,7 +78,11 @@
     "es": "Francés",
     "he": "צרפתית",
     "ko": "프랑스어",
-    "zh": "法语"
+    "zh": "法语",
+    "fr": "Français",
+    "de": "Französisch",
+    "it": "Francese",
+    "tr": "Fransızca"
   },
   {
     "code": "georgian",
@@ -75,7 +95,11 @@
     "es": "Georgiano",
     "he": "גאורגית",
     "ko": "조지아어",
-    "zh": "格鲁吉亚语"
+    "zh": "格鲁吉亚语",
+    "fr": "Géorgien",
+    "de": "Georgisch",
+    "it": "Georgiano",
+    "tr": "Gürcüce"
   },
   {
     "code": "german",
@@ -88,7 +112,11 @@
     "es": "Alemán",
     "he": "גרמנית",
     "ko": "독일어",
-    "zh": "德语"
+    "zh": "德语",
+    "fr": "Allemand",
+    "de": "Deutsch",
+    "it": "Tedesco",
+    "tr": "Almanca"
   },
   {
     "code": "hebrew",
@@ -101,7 +129,11 @@
     "es": "Hebreo",
     "he": "עברית",
     "ko": "히브리어",
-    "zh": "希伯来语"
+    "zh": "希伯来语",
+    "fr": "Hébreu",
+    "de": "Hebräisch",
+    "it": "Ebraico",
+    "tr": "İbranice"
   },
   {
     "code": "hispanic",
@@ -114,7 +146,11 @@
     "es": "Español",
     "he": "ספרדית",
     "ko": "스페인어",
-    "zh": "西班牙语"
+    "zh": "西班牙语",
+    "fr": "Espagnol",
+    "de": "Spanisch",
+    "it": "Spagnolo",
+    "tr": "İspanyolca"
   },
   {
     "code": "italian",
@@ -127,7 +163,11 @@
     "es": "Italiano",
     "he": "איטלקית",
     "ko": "이탈리아어",
-    "zh": "意大利语"
+    "zh": "意大利语",
+    "fr": "Italien",
+    "de": "Italienisch",
+    "it": "Italiano",
+    "tr": "İtalyanca"
   },
   {
     "code": "japan",
@@ -140,7 +180,11 @@
     "es": "Japonés",
     "he": "יפנית",
     "ko": "일본어",
-    "zh": "日语"
+    "zh": "日语",
+    "fr": "Japonais",
+    "de": "Japanisch",
+    "it": "Giapponese",
+    "tr": "Japonca"
   },
   {
     "code": "korean",
@@ -153,7 +197,11 @@
     "es": "Coreano",
     "he": "קוריאנית",
     "ko": "한국어",
-    "zh": "韩语"
+    "zh": "韩语",
+    "fr": "Coréen",
+    "de": "Koreanisch",
+    "it": "Coreano",
+    "tr": "Korece"
   },
   {
     "code": "persian",
@@ -166,7 +214,11 @@
     "es": "Persa",
     "he": "פרסית",
     "ko": "페르시아어",
-    "zh": "波斯语"
+    "zh": "波斯语",
+    "fr": "Persan",
+    "de": "Persisch",
+    "it": "Persiano",
+    "tr": "Farsça"
   },
   {
     "code": "polish",
@@ -179,7 +231,11 @@
     "es": "Polaco",
     "he": "פולנית",
     "ko": "폴란드어",
-    "zh": "波兰语"
+    "zh": "波兰语",
+    "fr": "Polonais",
+    "de": "Polnisch",
+    "it": "Polacco",
+    "tr": "Lehçe"
   },
   {
     "code": "romainan",
@@ -192,7 +248,11 @@
     "es": "Rumano",
     "he": "רומנית",
     "ko": "루마니아어",
-    "zh": "罗马尼亚语"
+    "zh": "罗马尼亚语",
+    "fr": "Roumain",
+    "de": "Rumänisch",
+    "it": "Romeno",
+    "tr": "Romence"
   },
   {
     "code": "russian",
@@ -205,7 +265,11 @@
     "es": "Ruso",
     "he": "רוסית",
     "ko": "러시아어",
-    "zh": "俄语"
+    "zh": "俄语",
+    "fr": "Russe",
+    "de": "Russisch",
+    "it": "Russo",
+    "tr": "Rusça"
   },
   {
     "code": "turkish",
@@ -218,7 +282,11 @@
     "es": "Turco",
     "he": "טורקית",
     "ko": "터키어",
-    "zh": "土耳其语"
+    "zh": "土耳其语",
+    "fr": "Turc",
+    "de": "Türkisch",
+    "it": "Turco",
+    "tr": "Türkçe"
   },
   {
     "code": "ukrainian",
@@ -231,6 +299,10 @@
     "es": "Ucraniano",
     "he": "אוקראינית",
     "ko": "우크라이나어",
-    "zh": "乌克兰语"
+    "zh": "乌克兰语",
+    "fr": "Ukrainien",
+    "de": "Ukrainisch",
+    "it": "Ucraino",
+    "tr": "Ukraynaca"
   }
 ]

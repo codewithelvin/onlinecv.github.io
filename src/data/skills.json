@@ -10,7 +10,11 @@
     "es": "Microsoft Excel",
     "he": "Microsoft Excel",
     "ko": "Microsoft Excel",
-    "zh": "Microsoft Excel"
+    "zh": "Microsoft Excel",
+    "fr": "Microsoft Excel",
+    "de": "Microsoft Excel",
+    "it": "Microsoft Excel",
+    "tr": "Microsoft Excel"
   },
   {
     "code": "php",
@@ -23,7 +27,11 @@
     "es": "PHP",
     "he": "PHP",
     "ko": "PHP",
-    "zh": "PHP"
+    "zh": "PHP",
+    "fr": "PHP",
+    "de": "PHP",
+    "it": "PHP",
+    "tr": "PHP"
   },
   {
     "code": "ms_word",
@@ -36,7 +44,11 @@
     "es": "Microsoft Word",
     "he": "Microsoft Word",
     "ko": "Microsoft Word",
-    "zh": "Microsoft Word"
+    "zh": "Microsoft Word",
+    "fr": "Microsoft Word",
+    "de": "Microsoft Word",
+    "it": "Microsoft Word",
+    "tr": "Microsoft Word"
   },
   {
     "code": "ms_power",
@@ -49,7 +61,11 @@
     "es": "Microsoft PowerPoint",
     "he": "Microsoft PowerPoint",
     "ko": "Microsoft PowerPoint",
-    "zh": "Microsoft PowerPoint"
+    "zh": "Microsoft PowerPoint",
+    "fr": "Microsoft PowerPoint",
+    "de": "Microsoft PowerPoint",
+    "it": "Microsoft PowerPoint",
+    "tr": "Microsoft PowerPoint"
   },
   {
     "code": "adaptation",
@@ -62,7 +78,11 @@
     "es": "Adaptación a nuevas condiciones",
     "he": "הסתגלות לתנאים חדשים",
     "ko": "새로운 환경 적응력",
-    "zh": "适应新环境的能力"
+    "zh": "适应新环境的能力",
+    "fr": "Adaptation aux changements",
+    "de": "Anpassungsfähigkeit an Neues",
+    "it": "Adattamento ai cambiamenti",
+    "tr": "Yeniliklere uyum sağlama"
   },
   {
     "code": "problem_solving",
@@ -75,7 +95,11 @@
     "es": "Resolución rápida de problemas",
     "he": "פתרון בעיות במהירות",
     "ko": "신속한 문제 해결",
-    "zh": "快速解决问题"
+    "zh": "快速解决问题",
+    "fr": "Résolution rapide des problèmes",
+    "de": "Schnelle Problemlösung",
+    "it": "Risoluzione rapida dei problemi",
+    "tr": "Sorunları hızlı çözme"
   },
   {
     "code": "team_work",
@@ -88,7 +112,11 @@
     "es": "Trabajo individual y en equipo",
     "he": "עבודה עצמאית ובצוות",
     "ko": "개인 및 팀 업무",
-    "zh": "独立与团队协作"
+    "zh": "独立与团队协作",
+    "fr": "Travail individuel et en équipe",
+    "de": "Einzel- und Teamarbeit",
+    "it": "Lavoro individuale e in team",
+    "tr": "Bireysel ve takım hâlinde çalışma"
   },
   {
     "code": "punct_present",
@@ -101,7 +129,11 @@
     "es": "Puntualidad y buena presencia",
     "he": "דייקנות והופעה ייצוגית",
     "ko": "시간 엄수 및 발표 능력",
-    "zh": "守时与表达能力"
+    "zh": "守时与表达能力",
+    "fr": "Ponctualité et sens de la présentation",
+    "de": "Pünktlichkeit und Präsentationsgeschick",
+    "it": "Puntualità e capacità di presentazione",
+    "tr": "Dakiklik ve sunum becerisi"
   },
   {
     "code": "pressure_work",
@@ -114,7 +146,11 @@
     "es": "Trabajo bajo presión",
     "he": "עבודה תחת לחץ",
     "ko": "압박 속 업무 수행",
-    "zh": "在高压环境下工作"
+    "zh": "在高压环境下工作",
+    "fr": "Travail sous pression",
+    "de": "Arbeiten unter Druck",
+    "it": "Lavoro sotto pressione",
+    "tr": "Baskı altında çalışma"
   },
   {
     "code": "1c",
@@ -127,7 +163,11 @@
     "es": "1C Contabilidad",
     "he": "1C הנהלת חשבונות",
     "ko": "1C 회계",
-    "zh": "1C 会计软件"
+    "zh": "1C 会计软件",
+    "fr": "Comptabilité 1C",
+    "de": "1C Buchhaltung",
+    "it": "Contabilità 1C",
+    "tr": "1C Muhasebe"
   },
   {
     "code": "autocad",
@@ -140,7 +180,11 @@
     "es": "AutoCAD",
     "he": "AutoCAD",
     "ko": "AutoCAD",
-    "zh": "AutoCAD"
+    "zh": "AutoCAD",
+    "fr": "AutoCAD",
+    "de": "AutoCAD",
+    "it": "AutoCAD",
+    "tr": "AutoCAD"
   },
   {
     "code": "photoshop",
@@ -153,7 +197,11 @@
     "es": "Adobe Photoshop",
     "he": "Adobe Photoshop",
     "ko": "Adobe Photoshop",
-    "zh": "Adobe Photoshop"
+    "zh": "Adobe Photoshop",
+    "fr": "Adobe Photoshop",
+    "de": "Adobe Photoshop",
+    "it": "Adobe Photoshop",
+    "tr": "Adobe Photoshop"
   },
   {
     "code": "javascript",
@@ -166,7 +214,11 @@
     "es": "JavaScript",
     "he": "JavaScript",
     "ko": "JavaScript",
-    "zh": "JavaScript"
+    "zh": "JavaScript",
+    "fr": "JavaScript",
+    "de": "JavaScript",
+    "it": "JavaScript",
+    "tr": "JavaScript"
   },
   {
     "code": "painting",
@@ -179,7 +231,11 @@
     "es": "Dibujo",
     "he": "ציור",
     "ko": "그림 그리기",
-    "zh": "绘画"
+    "zh": "绘画",
+    "fr": "Dessin",
+    "de": "Zeichnen",
+    "it": "Disegno",
+    "tr": "Resim çizme"
   },
   {
     "code": "selling",
@@ -192,7 +248,11 @@
     "es": "Ventas",
     "he": "מכירות",
     "ko": "판매",
-    "zh": "销售"
+    "zh": "销售",
+    "fr": "Vente",
+    "de": "Verkauf",
+    "it": "Vendita",
+    "tr": "Satış"
   },
   {
     "code": "management",
@@ -205,7 +265,11 @@
     "es": "Gestión",
     "he": "ניהול",
     "ko": "관리",
-    "zh": "管理"
+    "zh": "管理",
+    "fr": "Management",
+    "de": "Unternehmensführung",
+    "it": "Management",
+    "tr": "Yöneticilik"
   },
   {
     "code": "illustrator",
@@ -218,7 +282,11 @@
     "es": "Adobe Illustrator",
     "he": "Adobe Illustrator",
     "ko": "Adobe Illustrator",
-    "zh": "Adobe Illustrator"
+    "zh": "Adobe Illustrator",
+    "fr": "Adobe Illustrator",
+    "de": "Adobe Illustrator",
+    "it": "Adobe Illustrator",
+    "tr": "Adobe Illustrator"
   },
   {
     "code": "organizing",
@@ -231,7 +299,11 @@
     "es": "Capacidad de organización",
     "he": "יכולת ארגון",
     "ko": "조직 관리 능력",
-    "zh": "组织能力"
+    "zh": "组织能力",
+    "fr": "Sens de l'organisation",
+    "de": "Organisationsgeschick",
+    "it": "Capacità organizzativa",
+    "tr": "Organizasyon becerisi"
   },
   {
     "code": "time_management",
@@ -244,7 +316,11 @@
     "es": "Gestión del tiempo",
     "he": "ניהול זמן",
     "ko": "시간 관리",
-    "zh": "时间管理"
+    "zh": "时间管理",
+    "fr": "Gestion du temps",
+    "de": "Zeitmanagement",
+    "it": "Gestione del tempo",
+    "tr": "Zaman yönetimi"
   },
   {
     "code": "conflict_solving",
@@ -257,7 +333,11 @@
     "es": "Resolución de conflictos",
     "he": "יישוב סכסוכים",
     "ko": "갈등 조정",
-    "zh": "冲突调解"
+    "zh": "冲突调解",
+    "fr": "Résolution des conflits",
+    "de": "Konfliktlösung",
+    "it": "Risoluzione dei conflitti",
+    "tr": "Çatışma çözümü"
   },
   {
     "code": "critical_thinking",
@@ -270,7 +350,11 @@
     "es": "Pensamiento crítico",
     "he": "חשיבה ביקורתית",
     "ko": "비판적 사고",
-    "zh": "批判性思维"
+    "zh": "批判性思维",
+    "fr": "Esprit critique",
+    "de": "Kritisches Denken",
+    "it": "Pensiero critico",
+    "tr": "Eleştirel düşünme"
   },
   {
     "code": "project_planning",
@@ -283,7 +367,11 @@
     "es": "Planificación de proyectos",
     "he": "תכנון פרויקטים",
     "ko": "프로젝트 기획",
-    "zh": "项目规划"
+    "zh": "项目规划",
+    "fr": "Planification de projet",
+    "de": "Projektplanung",
+    "it": "Pianificazione di progetto",
+    "tr": "Proje planlama"
   },
   {
     "code": "gantt",
@@ -296,7 +384,11 @@
     "es": "Diagramas de Gantt",
     "he": "תרשימי גאנט",
     "ko": "간트 차트",
-    "zh": "甘特图"
+    "zh": "甘特图",
+    "fr": "Diagrammes de Gantt",
+    "de": "Gantt-Diagramme",
+    "it": "Diagrammi di Gantt",
+    "tr": "Gantt şemaları"
   },
   {
     "code": "risk_manage",
@@ -309,7 +401,11 @@
     "es": "Gestión de riesgos",
     "he": "ניהול סיכונים",
     "ko": "리스크 관리",
-    "zh": "风险管理"
+    "zh": "风险管理",
+    "fr": "Gestion des risques",
+    "de": "Risikomanagement",
+    "it": "Gestione dei rischi",
+    "tr": "Risk yönetimi"
   },
   {
     "code": "project_management",
@@ -322,7 +418,11 @@
     "es": "Gestión de proyectos",
     "he": "ניהול פרויקטים",
     "ko": "프로젝트 관리",
-    "zh": "项目管理"
+    "zh": "项目管理",
+    "fr": "Gestion de projet",
+    "de": "Projektmanagement",
+    "it": "Gestione di progetti",
+    "tr": "Proje yönetimi"
   },
   {
     "code": "analytical_thinking",
@@ -335,7 +435,11 @@
     "es": "Pensamiento analítico",
     "he": "חשיבה אנליטית",
     "ko": "분석적 사고",
-    "zh": "分析思维"
+    "zh": "分析思维",
+    "fr": "Pensée analytique",
+    "de": "Analytisches Denken",
+    "it": "Pensiero analitico",
+    "tr": "Analitik düşünme"
   },
   {
     "code": "cooking_skill",
@@ -348,7 +452,11 @@
     "es": "Cocina",
     "he": "בישול",
     "ko": "요리",
-    "zh": "烹饪"
+    "zh": "烹饪",
+    "fr": "Cuisine",
+    "de": "Kochen",
+    "it": "Cucina",
+    "tr": "Aşçılık"
   },
   {
     "code": "phone_sales",
@@ -361,7 +469,11 @@
     "es": "Venta telefónica",
     "he": "מכירות טלפוניות",
     "ko": "전화 영업",
-    "zh": "电话销售技巧"
+    "zh": "电话销售技巧",
+    "fr": "Vente par téléphone",
+    "de": "Telefonverkauf",
+    "it": "Vendita telefonica",
+    "tr": "Telefonla satış"
   },
   {
     "code": "convince",
@@ -374,7 +486,11 @@
     "es": "Capacidad de persuasión",
     "he": "יכולת שכנוע",
     "ko": "설득력",
-    "zh": "说服能力"
+    "zh": "说服能力",
+    "fr": "Force de persuasion",
+    "de": "Überzeugungskraft",
+    "it": "Capacità di persuasione",
+    "tr": "İkna kabiliyeti"
   },
   {
     "code": "teaching",
@@ -387,7 +503,11 @@
     "es": "Capacidad docente",
     "he": "יכולת הוראה",
     "ko": "교수법",
-    "zh": "教学能力"
+    "zh": "教学能力",
+    "fr": "Compétences pédagogiques",
+    "de": "Didaktische Fähigkeiten",
+    "it": "Capacità didattiche",
+    "tr": "Öğretme becerisi"
   },
   {
     "code": "tax_codex",
@@ -400,7 +520,11 @@
     "es": "Conocimiento del código tributario",
     "he": "היכרות עם דיני המס",
     "ko": "세법 지식",
-    "zh": "熟悉税法"
+    "zh": "熟悉税法",
+    "fr": "Connaissance du code fiscal",
+    "de": "Kenntnis des Steuerrechts",
+    "it": "Conoscenza del codice fiscale",
+    "tr": "Vergi mevzuatı bilgisi"
   },
   {
     "code": "cash_book",
@@ -413,7 +537,11 @@
     "es": "Llevanza del libro de caja",
     "he": "ניהול ספר קופה",
     "ko": "현금출납장 작성",
-    "zh": "现金账簿管理"
+    "zh": "现金账簿管理",
+    "fr": "Tenue du livre de caisse",
+    "de": "Führung des Kassenbuchs",
+    "it": "Tenuta del libro cassa",
+    "tr": "Kasa defteri tutma"
   },
   {
     "code": "warehouse_book",
@@ -426,7 +554,11 @@
     "es": "Contabilidad de almacén",
     "he": "הנהלת חשבונות מחסן",
     "ko": "창고 회계",
-    "zh": "仓库核算"
+    "zh": "仓库核算",
+    "fr": "Comptabilité d'entrepôt",
+    "de": "Lagerbuchhaltung",
+    "it": "Contabilità di magazzino",
+    "tr": "Ambar muhasebesi"
   },
   {
     "code": "inventories",
@@ -439,7 +571,11 @@
     "es": "Realización de inventarios",
     "he": "ביצוע ספירות מלאי",
     "ko": "재고 조사",
-    "zh": "存货盘点"
+    "zh": "存货盘点",
+    "fr": "Réalisation d'inventaires",
+    "de": "Durchführung von Inventuren",
+    "it": "Realizzazione di inventari",
+    "tr": "Envanter sayımı yapma"
   },
   {
     "code": "reconciliation_acts",
@@ -452,7 +588,11 @@
     "es": "Elaboración de actas de conciliación",
     "he": "הכנת דוחות התאמה",
     "ko": "대조 확인서 작성",
-    "zh": "编制对账单"
+    "zh": "编制对账单",
+    "fr": "Établissement de procès-verbaux de rapprochement",
+    "de": "Erstellung von Abstimmungsprotokollen",
+    "it": "Redazione di verbali di riconciliazione",
+    "tr": "Mutabakat tutanağı düzenleme"
   },
   {
     "code": "computer_knowledge",
@@ -465,7 +605,11 @@
     "es": "Conocimientos informáticos",
     "he": "ידע במחשבים",
     "ko": "컴퓨터 활용 능력",
-    "zh": "计算机应用能力"
+    "zh": "计算机应用能力",
+    "fr": "Compétences informatiques",
+    "de": "Computerkenntnisse",
+    "it": "Competenze informatiche",
+    "tr": "Bilgisayar bilgisi"
   },
   {
     "code": "css",
@@ -478,7 +622,11 @@
     "es": "CSS",
     "he": "CSS",
     "ko": "CSS",
-    "zh": "CSS"
+    "zh": "CSS",
+    "fr": "CSS",
+    "de": "CSS",
+    "it": "CSS",
+    "tr": "CSS"
   },
   {
     "code": "python",
@@ -491,7 +639,11 @@
     "es": "Python",
     "he": "Python",
     "ko": "Python",
-    "zh": "Python"
+    "zh": "Python",
+    "fr": "Python",
+    "de": "Python",
+    "it": "Python",
+    "tr": "Python"
   },
   {
     "code": "agility",
@@ -504,7 +656,11 @@
     "es": "Agilidad",
     "he": "זריזות",
     "ko": "민첩성",
-    "zh": "灵活应变"
+    "zh": "灵活应变",
+    "fr": "Agilité",
+    "de": "Agilität",
+    "it": "Agilità",
+    "tr": "Çeviklik"
   },
   {
     "code": "cplusplus",
@@ -517,7 +673,11 @@
     "es": "C++",
     "he": "C++",
     "ko": "C++",
-    "zh": "C++"
+    "zh": "C++",
+    "fr": "C++",
+    "de": "C++",
+    "it": "C++",
+    "tr": "C++"
   },
   {
     "code": "research",
@@ -530,7 +690,11 @@
     "es": "Investigación",
     "he": "מחקר",
     "ko": "연구",
-    "zh": "调查研究"
+    "zh": "调查研究",
+    "fr": "Recherche",
+    "de": "Recherche",
+    "it": "Ricerca",
+    "tr": "Araştırma"
   },
   {
     "code": "sales",
@@ -543,7 +707,11 @@
     "es": "Habilidades comerciales",
     "he": "כשרון מכירתי",
     "ko": "영업 역량",
-    "zh": "销售技巧"
+    "zh": "销售技巧",
+    "fr": "Compétences en vente",
+    "de": "Verkaufskompetenz",
+    "it": "Competenze di vendita",
+    "tr": "Satış becerisi"
   },
   {
     "code": "playing_piano",
@@ -556,7 +724,11 @@
     "es": "Tocar el piano",
     "he": "נגינה בפסנתר",
     "ko": "피아노 연주",
-    "zh": "弹钢琴"
+    "zh": "弹钢琴",
+    "fr": "Jeu du piano",
+    "de": "Klavierspiel",
+    "it": "Suonare il pianoforte",
+    "tr": "Piyano çalma"
   },
   {
     "code": "negotiation",
@@ -569,7 +741,11 @@
     "es": "Habilidades de negociación",
     "he": "ניהול משא ומתן",
     "ko": "협상 능력",
-    "zh": "谈判技巧"
+    "zh": "谈判技巧",
+    "fr": "Conduite de négociations",
+    "de": "Verhandlungsführung",
+    "it": "Conduzione di trattative",
+    "tr": "Müzakere yürütme"
   },
   {
     "code": "stress_resilience",
@@ -582,7 +758,11 @@
     "es": "Resistencia al estrés",
     "he": "עמידות בלחץ",
     "ko": "스트레스 내성",
-    "zh": "抗压能力"
+    "zh": "抗压能力",
+    "fr": "Résistance au stress",
+    "de": "Stressresistenz",
+    "it": "Resistenza allo stress",
+    "tr": "Stres dayanıklılığı"
   },
   {
     "code": "oracle_sql",
@@ -595,7 +775,11 @@
     "es": "Oracle SQL",
     "he": "Oracle SQL",
     "ko": "Oracle SQL",
-    "zh": "Oracle SQL"
+    "zh": "Oracle SQL",
+    "fr": "Oracle SQL",
+    "de": "Oracle SQL",
+    "it": "Oracle SQL",
+    "tr": "Oracle SQL"
   },
   {
     "code": "smm",
@@ -608,7 +792,11 @@
     "es": "SMM (marketing en redes sociales)",
     "he": "SMM (שיווק ברשתות חברתיות)",
     "ko": "SMM (소셜미디어 마케팅)",
-    "zh": "SMM（社交媒体营销）"
+    "zh": "SMM（社交媒体营销）",
+    "fr": "SMM (marketing sur les réseaux sociaux)",
+    "de": "SMM (Social-Media-Marketing)",
+    "it": "SMM (social media marketing)",
+    "tr": "SMM (sosyal medya pazarlaması)"
   },
   {
     "code": "social_relations",
@@ -621,7 +809,11 @@
     "es": "Relaciones sociales",
     "he": "קשרים חברתיים",
     "ko": "대인 관계",
-    "zh": "社会交往"
+    "zh": "社会交往",
+    "fr": "Relations sociales",
+    "de": "Soziale Beziehungen",
+    "it": "Relazioni sociali",
+    "tr": "Sosyal ilişkiler"
   },
   {
     "code": "reactjs",
@@ -634,7 +826,11 @@
     "es": "ReactJS",
     "he": "ReactJS",
     "ko": "ReactJS",
-    "zh": "ReactJS"
+    "zh": "ReactJS",
+    "fr": "ReactJS",
+    "de": "ReactJS",
+    "it": "ReactJS",
+    "tr": "ReactJS"
   },
   {
     "code": "next_js",
@@ -647,7 +843,11 @@
     "es": "Next.js",
     "he": "Next.js",
     "ko": "Next.js",
-    "zh": "Next.js"
+    "zh": "Next.js",
+    "fr": "Next.js",
+    "de": "Next.js",
+    "it": "Next.js",
+    "tr": "Next.js"
   },
   {
     "code": "microfrontend",
@@ -660,7 +860,11 @@
     "es": "Microfrontend",
     "he": "Microfrontend",
     "ko": "마이크로 프런트엔드",
-    "zh": "微前端"
+    "zh": "微前端",
+    "fr": "Micro-frontend",
+    "de": "Micro-Frontend",
+    "it": "Micro-frontend",
+    "tr": "Mikro frontend"
   },
   {
     "code": "language_learning",
@@ -673,7 +877,11 @@
     "es": "Capacidad para aprender idiomas",
     "he": "יכולת לימוד שפות",
     "ko": "외국어 학습 능력",
-    "zh": "语言学习能力"
+    "zh": "语言学习能力",
+    "fr": "Aptitude à apprendre les langues",
+    "de": "Sprachlernfähigkeit",
+    "it": "Attitudine ad apprendere le lingue",
+    "tr": "Dil öğrenme becerisi"
   },
   {
     "code": "marketing",
@@ -686,7 +894,11 @@
     "es": "Marketing",
     "he": "שיווק",
     "ko": "마케팅",
-    "zh": "市场营销"
+    "zh": "市场营销",
+    "fr": "Marketing",
+    "de": "Marketing",
+    "it": "Marketing",
+    "tr": "Pazarlama"
   },
   {
     "code": "first_aid",
@@ -699,7 +911,11 @@
     "es": "Primeros auxilios",
     "he": "עזרה ראשונה",
     "ko": "응급 처치",
-    "zh": "急救"
+    "zh": "急救",
+    "fr": "Premiers secours",
+    "de": "Erste Hilfe",
+    "it": "Primo soccorso",
+    "tr": "İlk yardım"
   },
   {
     "code": "presentation",
@@ -712,7 +928,11 @@
     "es": "Habilidades de presentación",
     "he": "מיומנות הצגה",
     "ko": "프레젠테이션 능력",
-    "zh": "演示汇报能力"
+    "zh": "演示汇报能力",
+    "fr": "Compétences en présentation",
+    "de": "Präsentationsfähigkeit",
+    "it": "Capacità di presentazione",
+    "tr": "Sunum becerisi"
   },
   {
     "code": "writing_articles",
@@ -725,7 +945,11 @@
     "es": "Redacción de artículos",
     "he": "כתיבת מאמרים",
     "ko": "기사 작성",
-    "zh": "撰写文章"
+    "zh": "撰写文章",
+    "fr": "Rédaction d'articles",
+    "de": "Verfassen von Artikeln",
+    "it": "Redazione di articoli",
+    "tr": "Makale yazma"
   },
   {
     "code": "strategic_planning",
@@ -738,7 +962,11 @@
     "es": "Planificación estratégica",
     "he": "תכנון אסטרטגי",
     "ko": "전략 기획",
-    "zh": "战略规划"
+    "zh": "战略规划",
+    "fr": "Planification stratégique",
+    "de": "Strategische Planung",
+    "it": "Pianificazione strategica",
+    "tr": "Stratejik planlama"
   },
   {
     "code": "creative_thinking",
@@ -751,7 +979,11 @@
     "es": "Pensamiento creativo",
     "he": "חשיבה יצירתית",
     "ko": "창의적 사고",
-    "zh": "创造性思维"
+    "zh": "创造性思维",
+    "fr": "Pensée créative",
+    "de": "Kreatives Denken",
+    "it": "Pensiero creativo",
+    "tr": "Yaratıcı düşünme"
   },
   {
     "code": "baking_sweets",
@@ -764,7 +996,11 @@
     "es": "Repostería",
     "he": "אפיית מתוקים",
     "ko": "제과 제빵",
-    "zh": "烘焙甜点"
+    "zh": "烘焙甜点",
+    "fr": "Pâtisserie",
+    "de": "Süßwaren backen",
+    "it": "Pasticceria",
+    "tr": "Tatlı yapımı"
   },
   {
     "code": "weaving",
@@ -777,7 +1013,11 @@
     "es": "Tejido",
     "he": "סריגה",
     "ko": "직조",
-    "zh": "编织"
+    "zh": "编织",
+    "fr": "Tissage",
+    "de": "Weben",
+    "it": "Tessitura",
+    "tr": "Dokuma"
   },
   {
     "code": "copywriting",
@@ -790,7 +1030,11 @@
     "es": "Redacción publicitaria",
     "he": "קופירייטינג",
     "ko": "카피라이팅",
-    "zh": "文案撰写"
+    "zh": "文案撰写",
+    "fr": "Rédaction publicitaire",
+    "de": "Werbetexten",
+    "it": "Copywriting",
+    "tr": "Metin yazarlığı"
   },
   {
     "code": "java",
@@ -803,7 +1047,11 @@
     "es": "Java",
     "he": "Java",
     "ko": "Java",
-    "zh": "Java"
+    "zh": "Java",
+    "fr": "Java",
+    "de": "Java",
+    "it": "Java",
+    "tr": "Java"
   },
   {
     "code": "injecting",
@@ -816,7 +1064,11 @@
     "es": "Aplicación de inyecciones",
     "he": "מתן זריקות",
     "ko": "주사 시행",
-    "zh": "注射操作"
+    "zh": "注射操作",
+    "fr": "Réalisation d'injections",
+    "de": "Injektionen verabreichen",
+    "it": "Somministrazione di iniezioni",
+    "tr": "Enjeksiyon yapma"
   },
   {
     "code": "patientCare",
@@ -829,7 +1081,11 @@
     "es": "Cuidado de pacientes",
     "he": "טיפול בחולים",
     "ko": "환자 간호",
-    "zh": "病患护理"
+    "zh": "病患护理",
+    "fr": "Soins aux patients",
+    "de": "Patientenbetreuung",
+    "it": "Assistenza ai pazienti",
+    "tr": "Hasta bakımı"
   },
   {
     "code": "woundDressing",
@@ -842,7 +1098,11 @@
     "es": "Curación de heridas",
     "he": "חבישת פצעים",
     "ko": "상처 드레싱",
-    "zh": "伤口包扎"
+    "zh": "伤口包扎",
+    "fr": "Pansement des plaies",
+    "de": "Wundverbände",
+    "it": "Medicazione delle ferite",
+    "tr": "Yara pansumanı"
   },
   {
     "code": "vitalSignsMonitoring",
@@ -855,7 +1115,11 @@
     "es": "Control de signos vitales",
     "he": "מדידת מדדים חיוניים",
     "ko": "활력징후 측정",
-    "zh": "生命体征监测"
+    "zh": "生命体征监测",
+    "fr": "Surveillance des signes vitaux",
+    "de": "Überwachung der Vitalzeichen",
+    "it": "Monitoraggio dei parametri vitali",
+    "tr": "Yaşam belirtilerini izleme"
   },
   {
     "code": "medicationAdministration",
@@ -868,7 +1132,11 @@
     "es": "Administración de medicamentos",
     "he": "מתן תרופות",
     "ko": "약물 투여",
-    "zh": "给药操作"
+    "zh": "给药操作",
+    "fr": "Administration de médicaments",
+    "de": "Verabreichung von Medikamenten",
+    "it": "Somministrazione di farmaci",
+    "tr": "İlaç uygulama"
   },
   {
     "code": "emergencyCare",
@@ -881,7 +1149,11 @@
     "es": "Atención de urgencias",
     "he": "טיפול במצבי חירום",
     "ko": "응급 치료",
-    "zh": "急诊救护"
+    "zh": "急诊救护",
+    "fr": "Soins d'urgence",
+    "de": "Notfallversorgung",
+    "it": "Cure di emergenza",
+    "tr": "Acil bakım"
   },
   {
     "code": "infectionControl",
@@ -894,7 +1166,11 @@
     "es": "Control de infecciones",
     "he": "מנע זיהומים",
     "ko": "감염 관리",
-    "zh": "感染控制"
+    "zh": "感染控制",
+    "fr": "Contrôle des infections",
+    "de": "Infektionskontrolle",
+    "it": "Controllo delle infezioni",
+    "tr": "Enfeksiyon kontrolü"
   },
   {
     "code": "surveillance",
@@ -907,7 +1183,11 @@
     "es": "Vigilancia",
     "he": "השגחה",
     "ko": "감시",
-    "zh": "监控值守"
+    "zh": "监控值守",
+    "fr": "Surveillance",
+    "de": "Beobachtung",
+    "it": "Sorveglianza",
+    "tr": "Gözetim"
   },
   {
     "code": "accessControl",
@@ -920,7 +1200,11 @@
     "es": "Control de accesos",
     "he": "בקרת כניסה",
     "ko": "출입 통제",
-    "zh": "门禁管理"
+    "zh": "门禁管理",
+    "fr": "Contrôle d'accès",
+    "de": "Zugangskontrolle",
+    "it": "Controllo degli accessi",
+    "tr": "Giriş kontrolü"
   },
   {
     "code": "patrolling",
@@ -933,7 +1217,11 @@
     "es": "Patrullaje",
     "he": "סיורים",
     "ko": "순찰",
-    "zh": "巡逻"
+    "zh": "巡逻",
+    "fr": "Patrouille",
+    "de": "Patrouillendienst",
+    "it": "Servizio di pattuglia",
+    "tr": "Devriye görevi"
   },
   {
     "code": "reportingIncidents",
@@ -946,7 +1234,11 @@
     "es": "Elaboración de partes de incidencias",
     "he": "דיווח על תקריות",
     "ko": "사건 보고",
-    "zh": "事件上报"
+    "zh": "事件上报",
+    "fr": "Signalement d'incidents",
+    "de": "Meldung von Vorfällen",
+    "it": "Segnalazione di incidenti",
+    "tr": "Olay bildirimi"
   },
   {
     "code": "financialReporting",
@@ -959,7 +1251,11 @@
     "es": "Informes financieros",
     "he": "דיווח כספי",
     "ko": "재무 보고",
-    "zh": "财务报告编制"
+    "zh": "财务报告编制",
+    "fr": "Reporting financier",
+    "de": "Finanzberichterstattung",
+    "it": "Reporting finanziario",
+    "tr": "Finansal raporlama"
   },
   {
     "code": "taxPreparation",
@@ -972,7 +1268,11 @@
     "es": "Preparación de impuestos",
     "he": "הכנת דוחות מס",
     "ko": "세무 신고 준비",
-    "zh": "纳税申报"
+    "zh": "纳税申报",
+    "fr": "Préparation des déclarations fiscales",
+    "de": "Steuererklärungen erstellen",
+    "it": "Preparazione delle dichiarazioni fiscali",
+    "tr": "Vergi beyanı hazırlama"
   },
   {
     "code": "budgeting",
@@ -985,7 +1285,11 @@
     "es": "Elaboración de presupuestos",
     "he": "הכנת תקציב",
     "ko": "예산 편성",
-    "zh": "预算编制"
+    "zh": "预算编制",
+    "fr": "Élaboration du budget",
+    "de": "Budgeterstellung",
+    "it": "Redazione del budget",
+    "tr": "Bütçe hazırlama"
   },
   {
     "code": "accountReconciliation",
@@ -998,7 +1302,11 @@
     "es": "Conciliación de cuentas",
     "he": "התאמת חשבונות",
     "ko": "계정 조정",
-    "zh": "账目核对"
+    "zh": "账目核对",
+    "fr": "Rapprochement des comptes",
+    "de": "Kontenabstimmung",
+    "it": "Riconciliazione dei conti",
+    "tr": "Hesap mutabakatı"
   },
   {
     "code": "payrollProcessing",
@@ -1011,7 +1319,11 @@
     "es": "Gestión de nóminas",
     "he": "חישוב שכר",
     "ko": "급여 처리",
-    "zh": "薪酬核算"
+    "zh": "薪酬核算",
+    "fr": "Traitement de la paie",
+    "de": "Lohnabrechnung",
+    "it": "Elaborazione delle paghe",
+    "tr": "Bordro işlemleri"
   },
   {
     "code": "financialAnalysis",
@@ -1024,7 +1336,11 @@
     "es": "Análisis financiero",
     "he": "ניתוח פיננסי",
     "ko": "재무 분석",
-    "zh": "财务分析"
+    "zh": "财务分析",
+    "fr": "Analyse financière",
+    "de": "Finanzanalyse",
+    "it": "Analisi finanziaria",
+    "tr": "Finansal analiz"
   },
   {
     "code": "auditing",
@@ -1037,7 +1353,11 @@
     "es": "Auditoría",
     "he": "ביקורת חשבונות",
     "ko": "회계 감사",
-    "zh": "审计"
+    "zh": "审计",
+    "fr": "Audit",
+    "de": "Wirtschaftsprüfung",
+    "it": "Revisione contabile",
+    "tr": "Denetim"
   },
   {
     "code": "compliance",
@@ -1050,7 +1370,11 @@
     "es": "Cumplimiento normativo",
     "he": "עמידה ברגולציה",
     "ko": "컴플라이언스",
-    "zh": "合规管理"
+    "zh": "合规管理",
+    "fr": "Conformité",
+    "de": "Compliance",
+    "it": "Conformità",
+    "tr": "Uyum"
   },
   {
     "code": "interviewing",
@@ -1063,7 +1387,11 @@
     "es": "Realización de entrevistas",
     "he": "ניהול ראיונות",
     "ko": "인터뷰 진행",
-    "zh": "采访"
+    "zh": "采访",
+    "fr": "Conduite d'entretiens",
+    "de": "Interviews führen",
+    "it": "Conduzione di interviste",
+    "tr": "Mülakat yapma"
   },
   {
     "code": "editing",
@@ -1076,7 +1404,11 @@
     "es": "Edición de textos",
     "he": "עריכת טקסטים",
     "ko": "편집",
-    "zh": "编辑校订"
+    "zh": "编辑校订",
+    "fr": "Révision de textes",
+    "de": "Textredaktion",
+    "it": "Revisione di testi",
+    "tr": "Metin düzenleme"
   },
   {
     "code": "pressReleaseWriting",
@@ -1089,7 +1421,11 @@
     "es": "Redacción de notas de prensa",
     "he": "כתיבת הודעות לעיתונות",
     "ko": "보도자료 작성",
-    "zh": "新闻稿撰写"
+    "zh": "新闻稿撰写",
+    "fr": "Rédaction de communiqués de presse",
+    "de": "Verfassen von Pressemitteilungen",
+    "it": "Redazione di comunicati stampa",
+    "tr": "Basın bülteni yazma"
   },
   {
     "code": "newsEditing",
@@ -1102,7 +1438,11 @@
     "es": "Edición de noticias",
     "he": "עריכת חדשות",
     "ko": "뉴스 편집",
-    "zh": "新闻编辑"
+    "zh": "新闻编辑",
+    "fr": "Édition d'actualités",
+    "de": "Nachrichtenredaktion",
+    "it": "Redazione di notizie",
+    "tr": "Haber editörlüğü"
   },
   {
     "code": "customerService",
@@ -1115,7 +1455,11 @@
     "es": "Atención al cliente",
     "he": "שירות לקוחות",
     "ko": "고객 서비스",
-    "zh": "客户服务"
+    "zh": "客户服务",
+    "fr": "Service client",
+    "de": "Kundenservice",
+    "it": "Servizio clienti",
+    "tr": "Müşteri hizmeti"
   },
   {
     "code": "phoneHandling",
@@ -1128,7 +1472,11 @@
     "es": "Atención telefónica",
     "he": "מענה טלפוני",
     "ko": "전화 응대",
-    "zh": "电话接待"
+    "zh": "电话接待",
+    "fr": "Réception d'appels",
+    "de": "Telefonate führen",
+    "it": "Gestione delle telefonate",
+    "tr": "Telefonla görüşme"
   },
   {
     "code": "appointmentScheduling",
@@ -1141,7 +1489,11 @@
     "es": "Gestión de citas",
     "he": "תיאום פגישות",
     "ko": "예약 관리",
-    "zh": "预约安排"
+    "zh": "预约安排",
+    "fr": "Gestion des rendez-vous",
+    "de": "Terminplanung",
+    "it": "Gestione degli appuntamenti",
+    "tr": "Randevu planlama"
   },
   {
     "code": "greetingGuests",
@@ -1154,7 +1506,11 @@
     "es": "Recepción de visitantes",
     "he": "קבלת אורחים",
     "ko": "고객 맞이",
-    "zh": "迎宾接待"
+    "zh": "迎宾接待",
+    "fr": "Accueil des visiteurs",
+    "de": "Gästeempfang",
+    "it": "Accoglienza degli ospiti",
+    "tr": "Konukları karşılama"
   },
   {
     "code": "administrativeSupport",
@@ -1167,7 +1523,11 @@
     "es": "Apoyo administrativo",
     "he": "תמיכה אדמיניסטרטיבית",
     "ko": "행정 지원",
-    "zh": "行政支持"
+    "zh": "行政支持",
+    "fr": "Soutien administratif",
+    "de": "Administrative Unterstützung",
+    "it": "Supporto amministrativo",
+    "tr": "İdari destek"
   },
   {
     "code": "dataEntry",
@@ -1180,7 +1540,11 @@
     "es": "Introducción de datos",
     "he": "הזנת נתונים",
     "ko": "데이터 입력",
-    "zh": "数据录入"
+    "zh": "数据录入",
+    "fr": "Saisie de données",
+    "de": "Datenerfassung",
+    "it": "Inserimento dati",
+    "tr": "Veri girişi"
   },
   {
     "code": "frontDeskManagement",
@@ -1193,7 +1557,11 @@
     "es": "Gestión de recepción",
     "he": "ניהול דלפק קבלה",
     "ko": "프런트 데스크 운영",
-    "zh": "前台管理"
+    "zh": "前台管理",
+    "fr": "Gestion de l'accueil",
+    "de": "Empfangsmanagement",
+    "it": "Gestione della reception",
+    "tr": "Resepsiyon yönetimi"
   },
   {
     "code": "skinCare",
@@ -1206,7 +1574,11 @@
     "es": "Cuidado de la piel",
     "he": "טיפוח העור",
     "ko": "피부 관리",
-    "zh": "皮肤护理"
+    "zh": "皮肤护理",
+    "fr": "Soins de la peau",
+    "de": "Hautpflege",
+    "it": "Cura della pelle",
+    "tr": "Cilt bakımı"
   },
   {
     "code": "facialTreatments",
@@ -1219,7 +1591,11 @@
     "es": "Tratamientos faciales",
     "he": "טיפולי פנים",
     "ko": "페이셜 케어",
-    "zh": "面部护理"
+    "zh": "面部护理",
+    "fr": "Soins du visage",
+    "de": "Gesichtsbehandlungen",
+    "it": "Trattamenti viso",
+    "tr": "Yüz bakımı"
   },
   {
     "code": "hairRemoval",
@@ -1232,7 +1608,11 @@
     "es": "Depilación",
     "he": "הסרת שיער",
     "ko": "제모",
-    "zh": "脱毛"
+    "zh": "脱毛",
+    "fr": "Épilation",
+    "de": "Haarentfernung",
+    "it": "Epilazione",
+    "tr": "Tüy alma"
   },
   {
     "code": "makeupApplication",
@@ -1245,7 +1625,11 @@
     "es": "Maquillaje",
     "he": "איפור",
     "ko": "메이크업",
-    "zh": "化妆"
+    "zh": "化妆",
+    "fr": "Application de maquillage",
+    "de": "Make-up auflegen",
+    "it": "Applicazione del trucco",
+    "tr": "Makyaj uygulama"
   },
   {
     "code": "manicurePedicure",
@@ -1258,7 +1642,11 @@
     "es": "Manicura y pedicura",
     "he": "מניקור ופדיקור",
     "ko": "매니큐어·페디큐어",
-    "zh": "美甲与美足"
+    "zh": "美甲与美足",
+    "fr": "Manucure et pédicure",
+    "de": "Manikür und Pediküre",
+    "it": "Manicure e pedicure",
+    "tr": "Manikür ve pedikür"
   },
   {
     "code": "nailArt",
@@ -1271,7 +1659,11 @@
     "es": "Decoración de uñas",
     "he": "עיצוב ציפורניים",
     "ko": "네일 아트",
-    "zh": "美甲彩绘"
+    "zh": "美甲彩绘",
+    "fr": "Nail art",
+    "de": "Nailart",
+    "it": "Nail art",
+    "tr": "Tırnak sanatı"
   },
   {
     "code": "massageTherapy",
@@ -1284,7 +1676,11 @@
     "es": "Masaje terapéutico",
     "he": "עיסוי טיפולי",
     "ko": "마사지 테라피",
-    "zh": "按摩理疗"
+    "zh": "按摩理疗",
+    "fr": "Massothérapie",
+    "de": "Massagetherapie",
+    "it": "Massoterapia",
+    "tr": "Masaj terapisi"
   },
   {
     "code": "antiAgingTreatments",
@@ -1297,7 +1693,11 @@
     "es": "Tratamientos antiedad",
     "he": "טיפולי אנטי-אייג'ינג",
     "ko": "안티에이징 케어",
-    "zh": "抗衰护理"
+    "zh": "抗衰护理",
+    "fr": "Soins anti-âge",
+    "de": "Anti-Aging-Behandlungen",
+    "it": "Trattamenti anti-età",
+    "tr": "Yaşlanma karşıtı bakım"
   },
   {
     "code": "cashHandling",
@@ -1310,7 +1710,11 @@
     "es": "Manejo de efectivo",
     "he": "טיפול במזומן",
     "ko": "현금 취급",
-    "zh": "现金收付"
+    "zh": "现金收付",
+    "fr": "Gestion des espèces",
+    "de": "Bargeldhandhabung",
+    "it": "Gestione del contante",
+    "tr": "Nakit yönetimi"
   },
   {
     "code": "registerOperation",
@@ -1323,7 +1727,11 @@
     "es": "Manejo de caja registradora",
     "he": "הפעלת קופה רושמת",
     "ko": "금전등록기 조작",
-    "zh": "收银机操作"
+    "zh": "收银机操作",
+    "fr": "Opérations de caisse",
+    "de": "Kassenbedienung",
+    "it": "Operazioni di cassa",
+    "tr": "Kasa işlemleri"
   },
   {
     "code": "receiptIssuing",
@@ -1336,7 +1744,11 @@
     "es": "Emisión de recibos",
     "he": "הנפקת קבלות",
     "ko": "영수증 발행",
-    "zh": "开具票据"
+    "zh": "开具票据",
+    "fr": "Émission de reçus",
+    "de": "Belegausgabe",
+    "it": "Emissione di ricevute",
+    "tr": "Fiş verme"
   },
   {
     "code": "paymentVerification",
@@ -1349,7 +1761,11 @@
     "es": "Verificación de pagos",
     "he": "אימות תשלומים",
     "ko": "결제 확인",
-    "zh": "付款核验"
+    "zh": "付款核验",
+    "fr": "Vérification des paiements",
+    "de": "Zahlungsprüfung",
+    "it": "Verifica dei pagamenti",
+    "tr": "Ödeme doğrulama"
   },
   {
     "code": "inventoryManagement",
@@ -1362,7 +1778,11 @@
     "es": "Gestión de inventario",
     "he": "ניהול מלאי",
     "ko": "재고 관리",
-    "zh": "库存管理"
+    "zh": "库存管理",
+    "fr": "Gestion des stocks",
+    "de": "Bestandsverwaltung",
+    "it": "Gestione delle scorte",
+    "tr": "Envanter yönetimi"
   },
   {
     "code": "balanceReconciliation",
@@ -1375,7 +1795,11 @@
     "es": "Conciliación de saldos",
     "he": "התאמת יתרות",
     "ko": "잔액 조정",
-    "zh": "余额对账"
+    "zh": "余额对账",
+    "fr": "Rapprochement des soldes",
+    "de": "Saldenabstimmung",
+    "it": "Riconciliazione dei saldi",
+    "tr": "Bakiye mutabakatı"
   },
   {
     "code": "stockReceiving",
@@ -1388,7 +1812,11 @@
     "es": "Recepción de mercancía",
     "he": "קליטת סחורה",
     "ko": "입고 처리",
-    "zh": "收货入库"
+    "zh": "收货入库",
+    "fr": "Réception des marchandises",
+    "de": "Warenannahme",
+    "it": "Ricezione della merce",
+    "tr": "Mal kabul"
   },
   {
     "code": "orderFulfillment",
@@ -1401,7 +1829,11 @@
     "es": "Preparación de pedidos",
     "he": "הכנת הזמנות",
     "ko": "주문 처리",
-    "zh": "订单履行"
+    "zh": "订单履行",
+    "fr": "Traitement des commandes",
+    "de": "Auftragsabwicklung",
+    "it": "Evasione degli ordini",
+    "tr": "Sipariş karşılama"
   },
   {
     "code": "shippingPreparation",
@@ -1414,7 +1846,11 @@
     "es": "Preparación de envíos",
     "he": "הכנת משלוחים",
     "ko": "출고 준비",
-    "zh": "发货备货"
+    "zh": "发货备货",
+    "fr": "Préparation des expéditions",
+    "de": "Versandvorbereitung",
+    "it": "Preparazione delle spedizioni",
+    "tr": "Sevkiyata hazırlık"
   },
   {
     "code": "qualityControl",
@@ -1427,7 +1863,11 @@
     "es": "Control de calidad",
     "he": "בקרת איכות",
     "ko": "품질 관리",
-    "zh": "质量控制"
+    "zh": "质量控制",
+    "fr": "Contrôle qualité",
+    "de": "Qualitätskontrolle",
+    "it": "Controllo qualità",
+    "tr": "Kalite kontrolü"
   },
   {
     "code": "warehouseSafety",
@@ -1440,7 +1880,11 @@
     "es": "Seguridad en el almacén",
     "he": "בטיחות במחסן",
     "ko": "창고 안전",
-    "zh": "仓储安全"
+    "zh": "仓储安全",
+    "fr": "Sécurité en entrepôt",
+    "de": "Lagersicherheit",
+    "it": "Sicurezza in magazzino",
+    "tr": "Ambar güvenliği"
   },
   {
     "code": "wiringInstallation",
@@ -1453,7 +1897,11 @@
     "es": "Instalación de cableado",
     "he": "התקנת חיווט",
     "ko": "배선 설치",
-    "zh": "布线安装"
+    "zh": "布线安装",
+    "fr": "Installation de câblage",
+    "de": "Kabelinstallation",
+    "it": "Installazione di cablaggi",
+    "tr": "Kablo tesisatı kurulumu"
   },
   {
     "code": "circuitRepair",
@@ -1466,7 +1914,11 @@
     "es": "Reparación de circuitos",
     "he": "תיקון מעגלים",
     "ko": "회로 수리",
-    "zh": "电路维修"
+    "zh": "电路维修",
+    "fr": "Réparation de circuits",
+    "de": "Schaltungsreparatur",
+    "it": "Riparazione di circuiti",
+    "tr": "Devre onarımı"
   },
   {
     "code": "electricalTesting",
@@ -1479,7 +1931,11 @@
     "es": "Mediciones eléctricas",
     "he": "בדיקות חשמל",
     "ko": "전기 시험",
-    "zh": "电气检测"
+    "zh": "电气检测",
+    "fr": "Essais électriques",
+    "de": "Elektrische Prüfungen",
+    "it": "Prove elettriche",
+    "tr": "Elektrik testleri"
   },
   {
     "code": "troubleshooting",
@@ -1492,7 +1948,11 @@
     "es": "Resolución de averías",
     "he": "אבחון תקלות",
     "ko": "장애 진단",
-    "zh": "故障排查"
+    "zh": "故障排查",
+    "fr": "Diagnostic de pannes",
+    "de": "Fehlersuche und -behebung",
+    "it": "Ricerca e risoluzione dei guasti",
+    "tr": "Arıza giderme"
   },
   {
     "code": "installationOfElectricalEquipment",
@@ -1505,7 +1965,11 @@
     "es": "Instalación de equipos eléctricos",
     "he": "התקנת ציוד חשמלי",
     "ko": "전기 설비 설치",
-    "zh": "电气设备安装"
+    "zh": "电气设备安装",
+    "fr": "Installation d'équipements électriques",
+    "de": "Installation elektrischer Anlagen",
+    "it": "Installazione di apparecchiature elettriche",
+    "tr": "Elektrik ekipmanı kurulumu"
   },
   {
     "code": "safetyStandards",
@@ -1518,7 +1982,11 @@
     "es": "Normas de seguridad",
     "he": "תקני בטיחות",
     "ko": "안전 기준",
-    "zh": "安全规范"
+    "zh": "安全规范",
+    "fr": "Normes de sécurité",
+    "de": "Sicherheitsstandards",
+    "it": "Standard di sicurezza",
+    "tr": "Güvenlik standartları"
   },
   {
     "code": "maintenanceOfElectricalSystems",
@@ -1531,7 +1999,11 @@
     "es": "Mantenimiento de instalaciones eléctricas",
     "he": "תחזוקת מערכות חשמל",
     "ko": "전기 시스템 유지보수",
-    "zh": "电气系统维护"
+    "zh": "电气系统维护",
+    "fr": "Maintenance des systèmes électriques",
+    "de": "Wartung elektrischer Systeme",
+    "it": "Manutenzione di impianti elettrici",
+    "tr": "Elektrik sistemleri bakımı"
   },
   {
     "code": "serverManagement",
@@ -1544,7 +2016,11 @@
     "es": "Administración de servidores",
     "he": "ניהול שרתים",
     "ko": "서버 관리",
-    "zh": "服务器管理"
+    "zh": "服务器管理",
+    "fr": "Gestion de serveurs",
+    "de": "Serververwaltung",
+    "it": "Gestione dei server",
+    "tr": "Sunucu yönetimi"
   },
   {
     "code": "networkConfiguration",
@@ -1557,7 +2033,11 @@
     "es": "Configuración de redes",
     "he": "הגדרת רשתות",
     "ko": "네트워크 구성",
-    "zh": "网络配置"
+    "zh": "网络配置",
+    "fr": "Configuration réseau",
+    "de": "Netzwerkkonfiguration",
+    "it": "Configurazione di rete",
+    "tr": "Ağ yapılandırması"
   },
   {
     "code": "databaseManagement",
@@ -1570,7 +2050,11 @@
     "es": "Gestión de bases de datos",
     "he": "ניהול בסיסי נתונים",
     "ko": "데이터베이스 관리",
-    "zh": "数据库管理"
+    "zh": "数据库管理",
+    "fr": "Gestion de bases de données",
+    "de": "Datenbankverwaltung",
+    "it": "Gestione di basi di dati",
+    "tr": "Veritabanı yönetimi"
   },
   {
     "code": "systemMonitoring",
@@ -1583,7 +2067,11 @@
     "es": "Supervisión de sistemas",
     "he": "ניטור מערכות",
     "ko": "시스템 모니터링",
-    "zh": "系统监控"
+    "zh": "系统监控",
+    "fr": "Supervision des systèmes",
+    "de": "Systemüberwachung",
+    "it": "Monitoraggio dei sistemi",
+    "tr": "Sistem izleme"
   },
   {
     "code": "securityManagement",
@@ -1596,7 +2084,11 @@
     "es": "Gestión de la seguridad",
     "he": "ניהול אבטחה",
     "ko": "보안 관리",
-    "zh": "安全管理"
+    "zh": "安全管理",
+    "fr": "Gestion de la sécurité",
+    "de": "Sicherheitsmanagement",
+    "it": "Gestione della sicurezza",
+    "tr": "Güvenlik yönetimi"
   },
   {
     "code": "backupAndRecovery",
@@ -1609,7 +2101,11 @@
     "es": "Copias de seguridad y recuperación",
     "he": "גיבוי ושחזור",
     "ko": "백업 및 복구",
-    "zh": "备份与恢复"
+    "zh": "备份与恢复",
+    "fr": "Sauvegarde et restauration",
+    "de": "Sicherung und Wiederherstellung",
+    "it": "Backup e ripristino",
+    "tr": "Yedekleme ve geri yükleme"
   },
   {
     "code": "softwareInstallation",
@@ -1622,7 +2118,11 @@
     "es": "Instalación de software",
     "he": "התקנת תוכנה",
     "ko": "소프트웨어 설치",
-    "zh": "软件安装"
+    "zh": "软件安装",
+    "fr": "Installation de logiciels",
+    "de": "Softwareinstallation",
+    "it": "Installazione di software",
+    "tr": "Yazılım kurulumu"
   },
   {
     "code": "productDisplay",
@@ -1635,7 +2135,11 @@
     "es": "Exposición de productos",
     "he": "סידור מוצרים",
     "ko": "상품 진열",
-    "zh": "商品陈列"
+    "zh": "商品陈列",
+    "fr": "Mise en rayon",
+    "de": "Warenpräsentation",
+    "it": "Esposizione dei prodotti",
+    "tr": "Ürün sergileme"
   },
   {
     "code": "stockOrganization",
@@ -1648,7 +2152,11 @@
     "es": "Organización del stock",
     "he": "ארגון מלאי",
     "ko": "재고 정리",
-    "zh": "货品整理"
+    "zh": "货品整理",
+    "fr": "Organisation des stocks",
+    "de": "Bestandsorganisation",
+    "it": "Organizzazione delle scorte",
+    "tr": "Stok düzenleme"
   },
   {
     "code": "salesOptimization",
@@ -1661,7 +2169,11 @@
     "es": "Optimización de las ventas",
     "he": "אופטימיזציה של מכירות",
     "ko": "매출 최적화",
-    "zh": "销售优化"
+    "zh": "销售优化",
+    "fr": "Optimisation des ventes",
+    "de": "Verkaufsoptimierung",
+    "it": "Ottimizzazione delle vendite",
+    "tr": "Satış optimizasyonu"
   },
   {
     "code": "salesAnalysis",
@@ -1674,7 +2186,11 @@
     "es": "Análisis de ventas",
     "he": "ניתוח מכירות",
     "ko": "매출 분석",
-    "zh": "销售分析"
+    "zh": "销售分析",
+    "fr": "Analyse des ventes",
+    "de": "Verkaufsanalyse",
+    "it": "Analisi delle vendite",
+    "tr": "Satış analizi"
   },
   {
     "code": "promotionalActivities",
@@ -1687,7 +2203,11 @@
     "es": "Acciones promocionales",
     "he": "פעילות קידום מכירות",
     "ko": "판촉 활동",
-    "zh": "促销活动"
+    "zh": "促销活动",
+    "fr": "Actions promotionnelles",
+    "de": "Werbeaktionen",
+    "it": "Attività promozionali",
+    "tr": "Promosyon faaliyetleri"
   },
   {
     "code": "customerEngagement",
@@ -1700,7 +2220,11 @@
     "es": "Fidelización de clientes",
     "he": "שימור לקוחות",
     "ko": "고객 응대",
-    "zh": "客户互动"
+    "zh": "客户互动",
+    "fr": "Relation client",
+    "de": "Kundenbindung",
+    "it": "Coinvolgimento del cliente",
+    "tr": "Müşteri ilişkisi kurma"
   },
   {
     "code": "culinarySkills",
@@ -1713,7 +2237,11 @@
     "es": "Artes culinarias",
     "he": "אמנות הבישול",
     "ko": "조리 역량",
-    "zh": "厨艺"
+    "zh": "厨艺",
+    "fr": "Compétences culinaires",
+    "de": "Kulinarische Fähigkeiten",
+    "it": "Competenze culinarie",
+    "tr": "Mutfak becerileri"
   },
   {
     "code": "menuPlanning",
@@ -1726,7 +2254,11 @@
     "es": "Diseño de menús",
     "he": "בניית תפריט",
     "ko": "메뉴 기획",
-    "zh": "菜单设计"
+    "zh": "菜单设计",
+    "fr": "Élaboration de menus",
+    "de": "Menüplanung",
+    "it": "Pianificazione del menu",
+    "tr": "Menü planlama"
   },
   {
     "code": "foodPreparation",
@@ -1739,7 +2271,11 @@
     "es": "Preparación de alimentos",
     "he": "הכנת מזון",
     "ko": "음식 준비",
-    "zh": "食材加工"
+    "zh": "食材加工",
+    "fr": "Préparation des aliments",
+    "de": "Speisenzubereitung",
+    "it": "Preparazione degli alimenti",
+    "tr": "Yemek hazırlama"
   },
   {
     "code": "foodPresentation",
@@ -1752,7 +2288,11 @@
     "es": "Presentación de platos",
     "he": "הגשת מנות",
     "ko": "음식 플레이팅",
-    "zh": "菜品摆盘"
+    "zh": "菜品摆盘",
+    "fr": "Présentation des plats",
+    "de": "Speisenpräsentation",
+    "it": "Presentazione dei piatti",
+    "tr": "Yemek sunumu"
   },
   {
     "code": "kitchenManagement",
@@ -1765,7 +2305,11 @@
     "es": "Gestión de cocina",
     "he": "ניהול מטבח",
     "ko": "주방 관리",
-    "zh": "厨房管理"
+    "zh": "厨房管理",
+    "fr": "Gestion de cuisine",
+    "de": "Küchenmanagement",
+    "it": "Gestione della cucina",
+    "tr": "Mutfak yönetimi"
   },
   {
     "code": "teamCoordination",
@@ -1778,7 +2322,11 @@
     "es": "Coordinación de equipos",
     "he": "תיאום צוותים",
     "ko": "팀 조율",
-    "zh": "团队协调"
+    "zh": "团队协调",
+    "fr": "Coordination d'équipe",
+    "de": "Teamkoordination",
+    "it": "Coordinamento del team",
+    "tr": "Takım koordinasyonu"
   },
   {
     "code": "routeOptimization",
@@ -1791,7 +2339,11 @@
     "es": "Optimización de rutas",
     "he": "אופטימיזציה של מסלולים",
     "ko": "경로 최적화",
-    "zh": "线路优化"
+    "zh": "线路优化",
+    "fr": "Optimisation des itinéraires",
+    "de": "Routenoptimierung",
+    "it": "Ottimizzazione dei percorsi",
+    "tr": "Güzergâh optimizasyonu"
   },
   {
     "code": "supplyChainManagement",
@@ -1804,7 +2356,11 @@
     "es": "Gestión de la cadena de suministro",
     "he": "ניהול שרשרת אספקה",
     "ko": "공급망 관리",
-    "zh": "供应链管理"
+    "zh": "供应链管理",
+    "fr": "Gestion de la chaîne d'approvisionnement",
+    "de": "Lieferkettenmanagement",
+    "it": "Gestione della catena di fornitura",
+    "tr": "Tedarik zinciri yönetimi"
   },
   {
     "code": "transportationPlanning",
@@ -1817,7 +2373,11 @@
     "es": "Planificación del transporte",
     "he": "תכנון תחבורה",
     "ko": "운송 계획",
-    "zh": "运输规划"
+    "zh": "运输规划",
+    "fr": "Planification des transports",
+    "de": "Transportplanung",
+    "it": "Pianificazione dei trasporti",
+    "tr": "Taşımacılık planlaması"
   },
   {
     "code": "freightManagement",
@@ -1830,7 +2390,11 @@
     "es": "Gestión de mercancías",
     "he": "ניהול מטענים",
     "ko": "화물 관리",
-    "zh": "货运管理"
+    "zh": "货运管理",
+    "fr": "Gestion du fret",
+    "de": "Frachtmanagement",
+    "it": "Gestione delle spedizioni",
+    "tr": "Yük taşıma yönetimi"
   },
   {
     "code": "logisticsAnalysis",
@@ -1843,7 +2407,11 @@
     "es": "Análisis logístico",
     "he": "ניתוח לוגיסטי",
     "ko": "물류 분석",
-    "zh": "物流分析"
+    "zh": "物流分析",
+    "fr": "Analyse logistique",
+    "de": "Logistikanalyse",
+    "it": "Analisi logistica",
+    "tr": "Lojistik analizi"
   },
   {
     "code": "trafficFlowAnalysis",
@@ -1856,7 +2424,11 @@
     "es": "Análisis del tráfico",
     "he": "ניתוח זרימת תנועה",
     "ko": "교통 흐름 분석",
-    "zh": "车流分析"
+    "zh": "车流分析",
+    "fr": "Analyse des flux de circulation",
+    "de": "Verkehrsflussanalyse",
+    "it": "Analisi dei flussi di traffico",
+    "tr": "Trafik akışı analizi"
   },
   {
     "code": "costOptimization",
@@ -1869,7 +2441,11 @@
     "es": "Optimización de costes",
     "he": "ייעול עלויות",
     "ko": "비용 최적화",
-    "zh": "成本优化"
+    "zh": "成本优化",
+    "fr": "Optimisation des coûts",
+    "de": "Kostenoptimierung",
+    "it": "Ottimizzazione dei costi",
+    "tr": "Maliyet optimizasyonu"
   },
   {
     "code": "graphicDesign",
@@ -1882,7 +2458,11 @@
     "es": "Diseño gráfico",
     "he": "עיצוב גרפי",
     "ko": "그래픽 디자인",
-    "zh": "平面设计"
+    "zh": "平面设计",
+    "fr": "Design graphique",
+    "de": "Grafikdesign",
+    "it": "Design grafico",
+    "tr": "Grafik tasarım"
   },
   {
     "code": "visualCommunication",
@@ -1895,7 +2475,11 @@
     "es": "Comunicación visual",
     "he": "תקשורת חזותית",
     "ko": "비주얼 커뮤니케이션",
-    "zh": "视觉传达"
+    "zh": "视觉传达",
+    "fr": "Communication visuelle",
+    "de": "Visuelle Kommunikation",
+    "it": "Comunicazione visiva",
+    "tr": "Görsel iletişim"
   },
   {
     "code": "typography",
@@ -1908,7 +2492,11 @@
     "es": "Tipografía",
     "he": "טיפוגרפיה",
     "ko": "타이포그래피",
-    "zh": "字体排印"
+    "zh": "字体排印",
+    "fr": "Typographie",
+    "de": "Typografie",
+    "it": "Tipografia",
+    "tr": "Tipografi"
   },
   {
     "code": "webDesign",
@@ -1921,7 +2509,11 @@
     "es": "Diseño web",
     "he": "עיצוב אתרים",
     "ko": "웹 디자인",
-    "zh": "网页设计"
+    "zh": "网页设计",
+    "fr": "Design web",
+    "de": "Webdesign",
+    "it": "Web design",
+    "tr": "Web tasarımı"
   },
   {
     "code": "userExperience",
@@ -1934,7 +2526,11 @@
     "es": "Experiencia de usuario",
     "he": "חוויית משתמש",
     "ko": "사용자 경험",
-    "zh": "用户体验"
+    "zh": "用户体验",
+    "fr": "Expérience utilisateur",
+    "de": "Benutzererfahrung",
+    "it": "Esperienza utente",
+    "tr": "Kullanıcı deneyimi"
   },
   {
     "code": "colorTheory",
@@ -1947,7 +2543,11 @@
     "es": "Teoría del color",
     "he": "תורת הצבע",
     "ko": "색채 이론",
-    "zh": "色彩理论"
+    "zh": "色彩理论",
+    "fr": "Théorie des couleurs",
+    "de": "Farbenlehre",
+    "it": "Teoria del colore",
+    "tr": "Renk teorisi"
   },
   {
     "code": "photoshopSkills",
@@ -1960,7 +2560,11 @@
     "es": "Manejo de Photoshop",
     "he": "שליטה ב-Photoshop",
     "ko": "Photoshop 활용 능력",
-    "zh": "Photoshop 应用能力"
+    "zh": "Photoshop 应用能力",
+    "fr": "Maîtrise de Photoshop",
+    "de": "Photoshop-Kenntnisse",
+    "it": "Competenze in Photoshop",
+    "tr": "Photoshop becerileri"
   },
   {
     "code": "illustration",
@@ -1973,7 +2577,11 @@
     "es": "Ilustración",
     "he": "איור",
     "ko": "일러스트레이션",
-    "zh": "插画"
+    "zh": "插画",
+    "fr": "Illustration",
+    "de": "Illustration",
+    "it": "Illustrazione",
+    "tr": "İllüstrasyon"
   },
   {
     "code": "serverSideProgramming",
@@ -1986,7 +2594,11 @@
     "es": "Programación de servidor",
     "he": "תכנות בצד השרת",
     "ko": "서버 사이드 프로그래밍",
-    "zh": "服务端开发"
+    "zh": "服务端开发",
+    "fr": "Programmation côté serveur",
+    "de": "Serverseitige Programmierung",
+    "it": "Programmazione lato server",
+    "tr": "Sunucu tarafı programlama"
   },
   {
     "code": "apiDevelopment",
@@ -1999,7 +2611,11 @@
     "es": "Desarrollo de API",
     "he": "פיתוח API",
     "ko": "API 개발",
-    "zh": "API 开发"
+    "zh": "API 开发",
+    "fr": "Développement d'API",
+    "de": "API-Entwicklung",
+    "it": "Sviluppo di API",
+    "tr": "API geliştirme"
   },
   {
     "code": "versionControl",
@@ -2012,7 +2628,11 @@
     "es": "Control de versiones",
     "he": "ניהול גרסאות",
     "ko": "버전 관리",
-    "zh": "版本控制"
+    "zh": "版本控制",
+    "fr": "Gestion de versions",
+    "de": "Versionsverwaltung",
+    "it": "Controllo di versione",
+    "tr": "Sürüm kontrolü"
   },
   {
     "code": "cloudIntegration",
@@ -2025,7 +2645,11 @@
     "es": "Integración en la nube",
     "he": "אינטגרציה בענן",
     "ko": "클라우드 연동",
-    "zh": "云服务集成"
+    "zh": "云服务集成",
+    "fr": "Intégration cloud",
+    "de": "Cloud-Integration",
+    "it": "Integrazione cloud",
+    "tr": "Bulut entegrasyonu"
   },
   {
     "code": "performanceOptimization",
@@ -2038,7 +2662,11 @@
     "es": "Optimización del rendimiento",
     "he": "שיפור ביצועים",
     "ko": "성능 최적화",
-    "zh": "性能优化"
+    "zh": "性能优化",
+    "fr": "Optimisation des performances",
+    "de": "Leistungsoptimierung",
+    "it": "Ottimizzazione delle prestazioni",
+    "tr": "Performans optimizasyonu"
   },
   {
     "code": "errorHandling",
@@ -2051,7 +2679,11 @@
     "es": "Gestión de errores",
     "he": "טיפול בשגיאות",
     "ko": "오류 처리",
-    "zh": "错误处理"
+    "zh": "错误处理",
+    "fr": "Gestion des erreurs",
+    "de": "Fehlerbehandlung",
+    "it": "Gestione degli errori",
+    "tr": "Hata yönetimi"
   },
   {
     "code": "containerization",
@@ -2064,7 +2696,11 @@
     "es": "Contenedorización",
     "he": "קונטיינריזציה",
     "ko": "컨테이너화",
-    "zh": "容器化"
+    "zh": "容器化",
+    "fr": "Conteneurisation",
+    "de": "Containerisierung",
+    "it": "Containerizzazione",
+    "tr": "Konteynerleştirme"
   },
   {
     "code": "environmentalImpactAssessment",
@@ -2077,7 +2713,11 @@
     "es": "Evaluación de impacto ambiental",
     "he": "הערכת השפעה סביבתית",
     "ko": "환경 영향 평가",
-    "zh": "环境影响评价"
+    "zh": "环境影响评价",
+    "fr": "Évaluation de l'impact environnemental",
+    "de": "Umweltverträglichkeitsprüfung",
+    "it": "Valutazione dell'impatto ambientale",
+    "tr": "Çevresel etki değerlendirmesi"
   },
   {
     "code": "wasteManagement",
@@ -2090,7 +2730,11 @@
     "es": "Gestión de residuos",
     "he": "ניהול פסולת",
     "ko": "폐기물 관리",
-    "zh": "废弃物管理"
+    "zh": "废弃物管理",
+    "fr": "Gestion des déchets",
+    "de": "Abfallwirtschaft",
+    "it": "Gestione dei rifiuti",
+    "tr": "Atık yönetimi"
   },
   {
     "code": "pollutionControl",
@@ -2103,7 +2747,11 @@
     "es": "Control de la contaminación",
     "he": "בקרת זיהום",
     "ko": "오염 관리",
-    "zh": "污染治理"
+    "zh": "污染治理",
+    "fr": "Lutte contre la pollution",
+    "de": "Schadstoffkontrolle",
+    "it": "Controllo dell'inquinamento",
+    "tr": "Kirlilik kontrolü"
   },
   {
     "code": "waterQualityManagement",
@@ -2116,7 +2764,11 @@
     "es": "Gestión de la calidad del agua",
     "he": "ניהול איכות מים",
     "ko": "수질 관리",
-    "zh": "水质管理"
+    "zh": "水质管理",
+    "fr": "Gestion de la qualité de l'eau",
+    "de": "Wasserqualitätsmanagement",
+    "it": "Gestione della qualità dell'acqua",
+    "tr": "Su kalitesi yönetimi"
   },
   {
     "code": "energyEfficiency",
@@ -2129,7 +2781,11 @@
     "es": "Eficiencia energética",
     "he": "יעילות אנרגטית",
     "ko": "에너지 효율",
-    "zh": "节能"
+    "zh": "节能",
+    "fr": "Efficacité énergétique",
+    "de": "Energieeffizienz",
+    "it": "Efficienza energetica",
+    "tr": "Enerji verimliliği"
   },
   {
     "code": "ecosystemManagement",
@@ -2142,7 +2798,11 @@
     "es": "Gestión de ecosistemas",
     "he": "ניהול מערכות אקולוגיות",
     "ko": "생태계 관리",
-    "zh": "生态系统管理"
+    "zh": "生态系统管理",
+    "fr": "Gestion des écosystèmes",
+    "de": "Ökosystemmanagement",
+    "it": "Gestione degli ecosistemi",
+    "tr": "Ekosistem yönetimi"
   },
   {
     "code": "legalResearch",
@@ -2155,7 +2815,11 @@
     "es": "Investigación jurídica",
     "he": "מחקר משפטי",
     "ko": "법률 조사",
-    "zh": "法律检索"
+    "zh": "法律检索",
+    "fr": "Recherche juridique",
+    "de": "Juristische Recherche",
+    "it": "Ricerca giuridica",
+    "tr": "Hukuki araştırma"
   },
   {
     "code": "contractDrafting",
@@ -2168,7 +2832,11 @@
     "es": "Redacción de contratos",
     "he": "עריכת חוזים",
     "ko": "계약서 작성",
-    "zh": "合同起草"
+    "zh": "合同起草",
+    "fr": "Rédaction de contrats",
+    "de": "Vertragsgestaltung",
+    "it": "Redazione di contratti",
+    "tr": "Sözleşme hazırlama"
   },
   {
     "code": "litigation",
@@ -2181,7 +2849,11 @@
     "es": "Litigios",
     "he": "ליטיגציה",
     "ko": "소송 수행",
-    "zh": "诉讼"
+    "zh": "诉讼",
+    "fr": "Contentieux",
+    "de": "Prozessführung",
+    "it": "Contenzioso",
+    "tr": "Dava takibi"
   },
   {
     "code": "legalAdvisory",
@@ -2194,7 +2866,11 @@
     "es": "Asesoría jurídica",
     "he": "ייעוץ משפטי",
     "ko": "법률 자문",
-    "zh": "法律咨询"
+    "zh": "法律咨询",
+    "fr": "Conseil juridique",
+    "de": "Rechtsberatung",
+    "it": "Consulenza legale",
+    "tr": "Hukuki danışmanlık"
   },
   {
     "code": "disputeResolution",
@@ -2207,7 +2883,11 @@
     "es": "Resolución de controversias",
     "he": "יישוב מחלוקות",
     "ko": "분쟁 해결",
-    "zh": "争议解决"
+    "zh": "争议解决",
+    "fr": "Règlement des litiges",
+    "de": "Streitbeilegung",
+    "it": "Risoluzione delle controversie",
+    "tr": "Uyuşmazlık çözümü"
   },
   {
     "code": "intellectualProperty",
@@ -2220,7 +2900,11 @@
     "es": "Propiedad intelectual",
     "he": "קניין רוחני",
     "ko": "지식재산권",
-    "zh": "知识产权"
+    "zh": "知识产权",
+    "fr": "Propriété intellectuelle",
+    "de": "Geistiges Eigentum",
+    "it": "Proprietà intellettuale",
+    "tr": "Fikri mülkiyet"
   },
   {
     "code": "riskAssessment",
@@ -2233,7 +2917,11 @@
     "es": "Evaluación de riesgos",
     "he": "הערכת סיכונים",
     "ko": "리스크 평가",
-    "zh": "风险评估"
+    "zh": "风险评估",
+    "fr": "Évaluation des risques",
+    "de": "Risikobewertung",
+    "it": "Valutazione dei rischi",
+    "tr": "Risk değerlendirmesi"
   },
   {
     "code": "claimsProcessing",
@@ -2246,7 +2934,11 @@
     "es": "Gestión de siniestros",
     "he": "טיפול בתביעות",
     "ko": "보험금 청구 처리",
-    "zh": "理赔处理"
+    "zh": "理赔处理",
+    "fr": "Traitement des sinistres",
+    "de": "Schadensbearbeitung",
+    "it": "Gestione dei sinistri",
+    "tr": "Hasar işlemleri"
   },
   {
     "code": "customerConsultation",
@@ -2259,7 +2951,11 @@
     "es": "Asesoramiento al cliente",
     "he": "ייעוץ ללקוחות",
     "ko": "고객 상담",
-    "zh": "客户咨询"
+    "zh": "客户咨询",
+    "fr": "Conseil à la clientèle",
+    "de": "Kundenberatung",
+    "it": "Consulenza al cliente",
+    "tr": "Müşteri danışmanlığı"
   },
   {
     "code": "insuranceRegulations",
@@ -2272,7 +2968,11 @@
     "es": "Normativa de seguros",
     "he": "רגולציית ביטוח",
     "ko": "보험 규정",
-    "zh": "保险法规"
+    "zh": "保险法规",
+    "fr": "Réglementation des assurances",
+    "de": "Versicherungsvorschriften",
+    "it": "Normativa assicurativa",
+    "tr": "Sigorta mevzuatı"
   },
   {
     "code": "premiumCalculation",
@@ -2285,7 +2985,11 @@
     "es": "Cálculo de primas",
     "he": "חישוב פרמיות",
     "ko": "보험료 산정",
-    "zh": "保费计算"
+    "zh": "保费计算",
+    "fr": "Calcul des primes",
+    "de": "Prämienberechnung",
+    "it": "Calcolo dei premi",
+    "tr": "Prim hesaplama"
   },
   {
     "code": "policyRenewal",
@@ -2298,7 +3002,11 @@
     "es": "Renovación de pólizas",
     "he": "חידוש פוליסות",
     "ko": "보험 갱신",
-    "zh": "保单续保"
+    "zh": "保单续保",
+    "fr": "Renouvellement des contrats d'assurance",
+    "de": "Erneuerung von Versicherungspolicen",
+    "it": "Rinnovo delle polizze",
+    "tr": "Poliçe yenileme"
   },
   {
     "code": "testPlanning",
@@ -2311,7 +3019,11 @@
     "es": "Planificación de pruebas",
     "he": "תכנון בדיקות",
     "ko": "테스트 계획",
-    "zh": "测试计划"
+    "zh": "测试计划",
+    "fr": "Planification des tests",
+    "de": "Testplanung",
+    "it": "Pianificazione dei test",
+    "tr": "Test planlama"
   },
   {
     "code": "manualTesting",
@@ -2324,7 +3036,11 @@
     "es": "Pruebas manuales",
     "he": "בדיקות ידניות",
     "ko": "수동 테스트",
-    "zh": "手工测试"
+    "zh": "手工测试",
+    "fr": "Tests manuels",
+    "de": "Manuelles Testen",
+    "it": "Test manuali",
+    "tr": "Manuel test"
   },
   {
     "code": "automatedTesting",
@@ -2337,7 +3053,11 @@
     "es": "Pruebas automatizadas",
     "he": "בדיקות אוטומטיות",
     "ko": "자동화 테스트",
-    "zh": "自动化测试"
+    "zh": "自动化测试",
+    "fr": "Tests automatisés",
+    "de": "Automatisiertes Testen",
+    "it": "Test automatizzati",
+    "tr": "Otomatik test"
   },
   {
     "code": "performanceTesting",
@@ -2350,7 +3070,11 @@
     "es": "Pruebas de rendimiento",
     "he": "בדיקות עומסים",
     "ko": "성능 테스트",
-    "zh": "性能测试"
+    "zh": "性能测试",
+    "fr": "Tests de performance",
+    "de": "Leistungstests",
+    "it": "Test di prestazione",
+    "tr": "Performans testi"
   },
   {
     "code": "regressionTesting",
@@ -2363,7 +3087,11 @@
     "es": "Pruebas de regresión",
     "he": "בדיקות רגרסיה",
     "ko": "회귀 테스트",
-    "zh": "回归测试"
+    "zh": "回归测试",
+    "fr": "Tests de régression",
+    "de": "Regressionstests",
+    "it": "Test di regressione",
+    "tr": "Regresyon testi"
   },
   {
     "code": "testAutomationTools",
@@ -2376,7 +3104,11 @@
     "es": "Herramientas de automatización de pruebas",
     "he": "כלי אוטומציה לבדיקות",
     "ko": "테스트 자동화 도구",
-    "zh": "测试自动化工具"
+    "zh": "测试自动化工具",
+    "fr": "Outils d'automatisation des tests",
+    "de": "Testautomatisierungswerkzeuge",
+    "it": "Strumenti di automazione dei test",
+    "tr": "Test otomasyon araçları"
   },
   {
     "code": "continuousIntegration",
@@ -2389,7 +3121,11 @@
     "es": "Integración continua",
     "he": "אינטגרציה מתמשכת",
     "ko": "지속적 통합",
-    "zh": "持续集成"
+    "zh": "持续集成",
+    "fr": "Intégration continue",
+    "de": "Kontinuierliche Integration",
+    "it": "Integrazione continua",
+    "tr": "Sürekli entegrasyon"
   },
   {
     "code": "qualityStandards",
@@ -2402,7 +3138,11 @@
     "es": "Normas de calidad",
     "he": "תקני איכות",
     "ko": "품질 기준",
-    "zh": "质量标准"
+    "zh": "质量标准",
+    "fr": "Normes de qualité",
+    "de": "Qualitätsstandards",
+    "it": "Standard di qualità",
+    "tr": "Kalite standartları"
   },
   {
     "code": "campaignStrategy",
@@ -2415,7 +3155,11 @@
     "es": "Estrategia de campañas",
     "he": "אסטרטגיית קמפיינים",
     "ko": "캠페인 전략",
-    "zh": "推广策略"
+    "zh": "推广策略",
+    "fr": "Stratégie de campagne",
+    "de": "Kampagnenstrategie",
+    "it": "Strategia di campagna",
+    "tr": "Kampanya stratejisi"
   },
   {
     "code": "budgetManagement",
@@ -2428,7 +3172,11 @@
     "es": "Gestión de presupuestos",
     "he": "ניהול תקציב",
     "ko": "예산 관리",
-    "zh": "预算管理"
+    "zh": "预算管理",
+    "fr": "Gestion du budget",
+    "de": "Budgetverwaltung",
+    "it": "Gestione del budget",
+    "tr": "Bütçe yönetimi"
   },
   {
     "code": "marketResearch",
@@ -2441,7 +3189,11 @@
     "es": "Investigación de mercado",
     "he": "מחקר שוק",
     "ko": "시장 조사",
-    "zh": "市场调研"
+    "zh": "市场调研",
+    "fr": "Étude de marché",
+    "de": "Marktforschung",
+    "it": "Ricerca di mercato",
+    "tr": "Pazar araştırması"
   },
   {
     "code": "mediaPlanning",
@@ -2454,7 +3206,11 @@
     "es": "Planificación de medios",
     "he": "תכנון מדיה",
     "ko": "미디어 플래닝",
-    "zh": "媒体投放规划"
+    "zh": "媒体投放规划",
+    "fr": "Planification média",
+    "de": "Mediaplanung",
+    "it": "Pianificazione dei media",
+    "tr": "Medya planlaması"
   },
   {
     "code": "advertisingChannels",
@@ -2467,7 +3223,11 @@
     "es": "Canales publicitarios",
     "he": "ערוצי פרסום",
     "ko": "광고 채널",
-    "zh": "广告渠道"
+    "zh": "广告渠道",
+    "fr": "Canaux publicitaires",
+    "de": "Werbekanäle",
+    "it": "Canali pubblicitari",
+    "tr": "Reklam kanalları"
   },
   {
     "code": "digitalMarketing",
@@ -2480,7 +3240,11 @@
     "es": "Marketing digital",
     "he": "שיווק דיגיטלי",
     "ko": "디지털 마케팅",
-    "zh": "数字营销"
+    "zh": "数字营销",
+    "fr": "Marketing digital",
+    "de": "Digitales Marketing",
+    "it": "Marketing digitale",
+    "tr": "Dijital pazarlama"
   },
   {
     "code": "brandAwareness",
@@ -2493,7 +3257,11 @@
     "es": "Notoriedad de marca",
     "he": "מודעות למותג",
     "ko": "브랜드 인지도",
-    "zh": "品牌认知度"
+    "zh": "品牌认知度",
+    "fr": "Notoriété de la marque",
+    "de": "Markenbekanntheit",
+    "it": "Notorietà del marchio",
+    "tr": "Marka bilinirliği"
   },
   {
     "code": "socialMediaMarketing",
@@ -2506,7 +3274,11 @@
     "es": "Marketing en redes sociales",
     "he": "שיווק ברשתות חברתיות",
     "ko": "소셜미디어 마케팅",
-    "zh": "社交媒体营销"
+    "zh": "社交媒体营销",
+    "fr": "Marketing sur les réseaux sociaux",
+    "de": "Social-Media-Marketing",
+    "it": "Social media marketing",
+    "tr": "Sosyal medya pazarlaması"
   },
   {
     "code": "contentCreation",
@@ -2519,7 +3291,11 @@
     "es": "Creación de contenidos",
     "he": "יצירת תוכן",
     "ko": "콘텐츠 제작",
-    "zh": "内容创作"
+    "zh": "内容创作",
+    "fr": "Création de contenu",
+    "de": "Content-Erstellung",
+    "it": "Creazione di contenuti",
+    "tr": "İçerik üretimi"
   },
   {
     "code": "advertisingMetrics",
@@ -2532,7 +3308,11 @@
     "es": "Métricas publicitarias",
     "he": "מדדי פרסום",
     "ko": "광고 지표",
-    "zh": "广告数据分析"
+    "zh": "广告数据分析",
+    "fr": "Indicateurs publicitaires",
+    "de": "Werbekennzahlen",
+    "it": "Metriche pubblicitarie",
+    "tr": "Reklam metrikleri"
   },
   {
     "code": "politicalTheory",
@@ -2545,7 +3325,11 @@
     "es": "Teoría política",
     "he": "תורת המדינה",
     "ko": "정치 이론",
-    "zh": "政治理论"
+    "zh": "政治理论",
+    "fr": "Théorie politique",
+    "de": "Politische Theorie",
+    "it": "Teoria politica",
+    "tr": "Siyaset teorisi"
   },
   {
     "code": "comparativePolitics",
@@ -2558,7 +3342,11 @@
     "es": "Política comparada",
     "he": "פוליטיקה משווה",
     "ko": "비교 정치",
-    "zh": "比较政治"
+    "zh": "比较政治",
+    "fr": "Politique comparée",
+    "de": "Vergleichende Politik",
+    "it": "Politica comparata",
+    "tr": "Karşılaştırmalı siyaset"
   },
   {
     "code": "internationalRelations",
@@ -2571,7 +3359,11 @@
     "es": "Relaciones internacionales",
     "he": "יחסים בינלאומיים",
     "ko": "국제 관계",
-    "zh": "国际关系"
+    "zh": "国际关系",
+    "fr": "Relations internationales",
+    "de": "Internationale Beziehungen",
+    "it": "Relazioni internazionali",
+    "tr": "Uluslararası ilişkiler"
   },
   {
     "code": "politicalResearch",
@@ -2584,7 +3376,11 @@
     "es": "Investigación política",
     "he": "מחקר פוליטי",
     "ko": "정치 연구",
-    "zh": "政治研究"
+    "zh": "政治研究",
+    "fr": "Recherche politique",
+    "de": "Politische Forschung",
+    "it": "Ricerca politica",
+    "tr": "Siyasi araştırma"
   },
   {
     "code": "publicPolicy",
@@ -2597,7 +3393,11 @@
     "es": "Políticas públicas",
     "he": "מדיניות ציבורית",
     "ko": "공공 정책",
-    "zh": "公共政策"
+    "zh": "公共政策",
+    "fr": "Politiques publiques",
+    "de": "Öffentliche Politik",
+    "it": "Politiche pubbliche",
+    "tr": "Kamu politikası"
   },
   {
     "code": "politicalCommunication",
@@ -2610,7 +3410,11 @@
     "es": "Comunicación política",
     "he": "תקשורת פוליטית",
     "ko": "정치 커뮤니케이션",
-    "zh": "政治传播"
+    "zh": "政治传播",
+    "fr": "Communication politique",
+    "de": "Politische Kommunikation",
+    "it": "Comunicazione politica",
+    "tr": "Siyasi iletişim"
   },
   {
     "code": "electionAnalysis",
@@ -2623,7 +3427,11 @@
     "es": "Análisis electoral",
     "he": "ניתוח בחירות",
     "ko": "선거 분석",
-    "zh": "选举分析"
+    "zh": "选举分析",
+    "fr": "Analyse électorale",
+    "de": "Wahlanalyse",
+    "it": "Analisi elettorale",
+    "tr": "Seçim analizi"
   },
   {
     "code": "politicalEconomy",
@@ -2636,7 +3444,11 @@
     "es": "Economía política",
     "he": "כלכלה פוליטית",
     "ko": "정치 경제",
-    "zh": "政治经济学"
+    "zh": "政治经济学",
+    "fr": "Économie politique",
+    "de": "Politische Ökonomie",
+    "it": "Economia politica",
+    "tr": "Siyasal iktisat"
   },
   {
     "code": "supplierManagement",
@@ -2649,7 +3461,11 @@
     "es": "Gestión de proveedores",
     "he": "ניהול ספקים",
     "ko": "공급업체 관리",
-    "zh": "供应商管理"
+    "zh": "供应商管理",
+    "fr": "Gestion des fournisseurs",
+    "de": "Lieferantenmanagement",
+    "it": "Gestione dei fornitori",
+    "tr": "Tedarikçi yönetimi"
   },
   {
     "code": "contractNegotiation",
@@ -2662,7 +3478,11 @@
     "es": "Negociación de contratos",
     "he": "משא ומתן על חוזים",
     "ko": "계약 협상",
-    "zh": "合同谈判"
+    "zh": "合同谈判",
+    "fr": "Négociation de contrats",
+    "de": "Vertragsverhandlung",
+    "it": "Negoziazione di contratti",
+    "tr": "Sözleşme müzakeresi"
   },
   {
     "code": "inventoryControl",
@@ -2675,7 +3495,11 @@
     "es": "Control de inventario",
     "he": "בקרת מלאי",
     "ko": "재고 통제",
-    "zh": "存货控制"
+    "zh": "存货控制",
+    "fr": "Contrôle des stocks",
+    "de": "Bestandskontrolle",
+    "it": "Controllo delle scorte",
+    "tr": "Stok kontrolü"
   },
   {
     "code": "vendorSelection",
@@ -2688,7 +3512,11 @@
     "es": "Selección de proveedores",
     "he": "בחירת ספקים",
     "ko": "협력업체 선정",
-    "zh": "供应商选择"
+    "zh": "供应商选择",
+    "fr": "Sélection des fournisseurs",
+    "de": "Lieferantenauswahl",
+    "it": "Selezione dei fornitori",
+    "tr": "Tedarikçi seçimi"
   },
   {
     "code": "sustainabilityPurchasing",
@@ -2701,7 +3529,11 @@
     "es": "Compras sostenibles",
     "he": "רכש בר-קיימא",
     "ko": "지속가능 구매",
-    "zh": "可持续采购"
+    "zh": "可持续采购",
+    "fr": "Achats durables",
+    "de": "Nachhaltige Beschaffung",
+    "it": "Acquisti sostenibili",
+    "tr": "Sürdürülebilir satın alma"
   },
   {
     "code": "communityEngagement",
@@ -2714,7 +3546,11 @@
     "es": "Dinamización comunitaria",
     "he": "עבודה קהילתית",
     "ko": "지역사회 참여",
-    "zh": "社群运营"
+    "zh": "社群运营",
+    "fr": "Engagement communautaire",
+    "de": "Gemeinwesenarbeit",
+    "it": "Coinvolgimento della comunità",
+    "tr": "Toplumla ilişki kurma"
   },
   {
     "code": "eventCoordination",
@@ -2727,7 +3563,11 @@
     "es": "Coordinación de eventos",
     "he": "הפקת אירועים",
     "ko": "행사 기획",
-    "zh": "活动统筹"
+    "zh": "活动统筹",
+    "fr": "Coordination d'événements",
+    "de": "Veranstaltungskoordination",
+    "it": "Coordinamento di eventi",
+    "tr": "Etkinlik koordinasyonu"
   },
   {
     "code": "teamCollaboration",
@@ -2740,7 +3580,11 @@
     "es": "Colaboración en equipo",
     "he": "שיתוף פעולה בצוות",
     "ko": "팀 협업",
-    "zh": "团队合作"
+    "zh": "团队合作",
+    "fr": "Collaboration en équipe",
+    "de": "Zusammenarbeit im Team",
+    "it": "Collaborazione in team",
+    "tr": "Takım hâlinde iş birliği"
   },
   {
     "code": "communicationSkills",
@@ -2753,7 +3597,11 @@
     "es": "Habilidades de comunicación",
     "he": "כושר תקשורת",
     "ko": "의사소통 능력",
-    "zh": "沟通能力"
+    "zh": "沟通能力",
+    "fr": "Compétences en communication",
+    "de": "Kommunikationsfähigkeit",
+    "it": "Capacità comunicative",
+    "tr": "İletişim becerileri"
   },
   {
     "code": "fundraising",
@@ -2766,7 +3614,11 @@
     "es": "Captación de fondos",
     "he": "גיוס כספים",
     "ko": "기금 모금",
-    "zh": "筹款"
+    "zh": "筹款",
+    "fr": "Collecte de fonds",
+    "de": "Mittelbeschaffung",
+    "it": "Raccolta fondi",
+    "tr": "Kaynak yaratma"
   },
   {
     "code": "empathy",
@@ -2779,7 +3631,11 @@
     "es": "Empatía",
     "he": "אמפתיה",
     "ko": "공감 능력",
-    "zh": "共情能力"
+    "zh": "共情能力",
+    "fr": "Empathie",
+    "de": "Empathie",
+    "it": "Empatia",
+    "tr": "Empati"
   },
   {
     "code": "leadership",
@@ -2792,7 +3648,11 @@
     "es": "Liderazgo",
     "he": "מנהיגות",
     "ko": "리더십",
-    "zh": "领导力"
+    "zh": "领导力",
+    "fr": "Leadership",
+    "de": "Führungsstärke",
+    "it": "Leadership",
+    "tr": "Liderlik"
   },
   {
     "code": "organizationSkills",
@@ -2805,7 +3665,11 @@
     "es": "Capacidad de organización",
     "he": "יכולת ארגון",
     "ko": "조직 관리 능력",
-    "zh": "组织协调能力"
+    "zh": "组织协调能力",
+    "fr": "Capacités organisationnelles",
+    "de": "Organisationsfähigkeiten",
+    "it": "Capacità di organizzazione",
+    "tr": "Organizasyon becerileri"
   },
   {
     "code": "creditAnalysis",
@@ -2818,7 +3682,11 @@
     "es": "Análisis de crédito",
     "he": "ניתוח אשראי",
     "ko": "신용 분석",
-    "zh": "信用分析"
+    "zh": "信用分析",
+    "fr": "Analyse de crédit",
+    "de": "Kreditanalyse",
+    "it": "Analisi del credito",
+    "tr": "Kredi analizi"
   },
   {
     "code": "loanAssessment",
@@ -2831,7 +3699,11 @@
     "es": "Evaluación de préstamos",
     "he": "הערכת הלוואות",
     "ko": "대출 심사",
-    "zh": "贷款评估"
+    "zh": "贷款评估",
+    "fr": "Évaluation des prêts",
+    "de": "Kreditbewertung",
+    "it": "Valutazione dei prestiti",
+    "tr": "Kredi değerlendirmesi"
   },
   {
     "code": "creditRiskManagement",
@@ -2844,7 +3716,11 @@
     "es": "Gestión del riesgo de crédito",
     "he": "ניהול סיכוני אשראי",
     "ko": "신용 리스크 관리",
-    "zh": "信用风险管理"
+    "zh": "信用风险管理",
+    "fr": "Gestion du risque de crédit",
+    "de": "Kreditrisikomanagement",
+    "it": "Gestione del rischio di credito",
+    "tr": "Kredi riski yönetimi"
   },
   {
     "code": "creditReporting",
@@ -2857,7 +3733,11 @@
     "es": "Informes de crédito",
     "he": "דיווחי אשראי",
     "ko": "신용 보고",
-    "zh": "征信报告"
+    "zh": "征信报告",
+    "fr": "Reporting de crédit",
+    "de": "Kreditberichterstattung",
+    "it": "Reporting del credito",
+    "tr": "Kredi raporlaması"
   },
   {
     "code": "loanDocumentation",
@@ -2870,7 +3750,11 @@
     "es": "Documentación de préstamos",
     "he": "תיעוד הלוואות",
     "ko": "대출 서류 작성",
-    "zh": "贷款资料整理"
+    "zh": "贷款资料整理",
+    "fr": "Documentation des prêts",
+    "de": "Kreditdokumentation",
+    "it": "Documentazione dei prestiti",
+    "tr": "Kredi dokümantasyonu"
   },
   {
     "code": "creditPolicies",
@@ -2883,7 +3767,11 @@
     "es": "Políticas de crédito",
     "he": "מדיניות אשראי",
     "ko": "여신 정책",
-    "zh": "信贷政策"
+    "zh": "信贷政策",
+    "fr": "Politiques de crédit",
+    "de": "Kreditrichtlinien",
+    "it": "Politiche di credito",
+    "tr": "Kredi politikaları"
   },
   {
     "code": "customerCreditAssessment",
@@ -2896,7 +3784,11 @@
     "es": "Evaluación crediticia del cliente",
     "he": "הערכת אשראי ללקוח",
     "ko": "고객 신용 평가",
-    "zh": "客户信用评估"
+    "zh": "客户信用评估",
+    "fr": "Évaluation du crédit client",
+    "de": "Kundenkreditprüfung",
+    "it": "Valutazione del credito al cliente",
+    "tr": "Müşteri kredi değerlendirmesi"
   },
   {
     "code": "accountManagement",
@@ -2909,7 +3801,11 @@
     "es": "Gestión de cuentas",
     "he": "ניהול חשבונות",
     "ko": "계좌 관리",
-    "zh": "账户管理"
+    "zh": "账户管理",
+    "fr": "Gestion des comptes",
+    "de": "Kontenverwaltung",
+    "it": "Gestione dei conti",
+    "tr": "Hesap yönetimi"
   },
   {
     "code": "loanProcessing",
@@ -2922,7 +3818,11 @@
     "es": "Tramitación de préstamos",
     "he": "טיפול בהלוואות",
     "ko": "대출 처리",
-    "zh": "贷款办理"
+    "zh": "贷款办理",
+    "fr": "Traitement des prêts",
+    "de": "Kreditbearbeitung",
+    "it": "Elaborazione dei prestiti",
+    "tr": "Kredi işlemleri"
   },
   {
     "code": "riskManagement",
@@ -2935,7 +3835,11 @@
     "es": "Gestión de riesgos",
     "he": "ניהול סיכונים",
     "ko": "리스크 관리",
-    "zh": "风险管控"
+    "zh": "风险管控",
+    "fr": "Gestion des risques",
+    "de": "Risikomanagement",
+    "it": "Gestione dei rischi",
+    "tr": "Risk yönetimi"
   },
   {
     "code": "transactionProcessing",
@@ -2948,7 +3852,11 @@
     "es": "Procesamiento de transacciones",
     "he": "עיבוד עסקאות",
     "ko": "거래 처리",
-    "zh": "交易处理"
+    "zh": "交易处理",
+    "fr": "Traitement des opérations",
+    "de": "Transaktionsverarbeitung",
+    "it": "Elaborazione delle transazioni",
+    "tr": "İşlem yürütme"
   },
   {
     "code": "bankingSoftware",
@@ -2961,7 +3869,11 @@
     "es": "Software bancario",
     "he": "מערכות בנקאיות",
     "ko": "은행 전산 시스템",
-    "zh": "银行业务系统"
+    "zh": "银行业务系统",
+    "fr": "Logiciels bancaires",
+    "de": "Bankensoftware",
+    "it": "Software bancario",
+    "tr": "Bankacılık yazılımı"
   },
   {
     "code": "treasuryManagement",
@@ -2974,7 +3886,11 @@
     "es": "Gestión de tesorería",
     "he": "ניהול גזברות",
     "ko": "자금 관리",
-    "zh": "资金管理"
+    "zh": "资金管理",
+    "fr": "Gestion de trésorerie",
+    "de": "Treasury-Management",
+    "it": "Gestione della tesoreria",
+    "tr": "Hazine yönetimi"
   },
   {
     "code": "recruitment",
@@ -2987,7 +3903,11 @@
     "es": "Reclutamiento",
     "he": "גיוס עובדים",
     "ko": "채용",
-    "zh": "招聘"
+    "zh": "招聘",
+    "fr": "Recrutement",
+    "de": "Personalbeschaffung",
+    "it": "Reclutamento",
+    "tr": "İşe alım"
   },
   {
     "code": "talentManagement",
@@ -3000,7 +3920,11 @@
     "es": "Gestión del talento",
     "he": "ניהול טאלנטים",
     "ko": "인재 관리",
-    "zh": "人才管理"
+    "zh": "人才管理",
+    "fr": "Gestion des talents",
+    "de": "Talentmanagement",
+    "it": "Gestione dei talenti",
+    "tr": "Yetenek yönetimi"
   },
   {
     "code": "hrCompliance",
@@ -3013,7 +3937,11 @@
     "es": "Cumplimiento en RRHH",
     "he": "ציות בדיני עבודה",
     "ko": "인사 컴플라이언스",
-    "zh": "人事合规"
+    "zh": "人事合规",
+    "fr": "Conformité RH",
+    "de": "Personalrechtliche Compliance",
+    "it": "Conformità HR",
+    "tr": "İnsan kaynakları uyumu"
   },
   {
     "code": "workplaceSafety",
@@ -3026,7 +3954,11 @@
     "es": "Seguridad laboral",
     "he": "בטיחות בעבודה",
     "ko": "산업 안전",
-    "zh": "职业安全"
+    "zh": "职业安全",
+    "fr": "Sécurité au travail",
+    "de": "Arbeitssicherheit",
+    "it": "Sicurezza sul lavoro",
+    "tr": "İş yerinde güvenlik"
   },
   {
     "code": "conflictResolution",
@@ -3039,7 +3971,11 @@
     "es": "Resolución de conflictos",
     "he": "יישוב סכסוכים",
     "ko": "갈등 조정",
-    "zh": "矛盾化解"
+    "zh": "矛盾化解",
+    "fr": "Résolution des conflits",
+    "de": "Konfliktlösung",
+    "it": "Risoluzione dei conflitti",
+    "tr": "Çatışma çözümü"
   },
   {
     "code": "surveying",
@@ -3052,7 +3988,11 @@
     "es": "Topografía",
     "he": "מדידות",
     "ko": "측량",
-    "zh": "测绘"
+    "zh": "测绘",
+    "fr": "Levés topographiques",
+    "de": "Geländevermessung",
+    "it": "Rilievi topografici",
+    "tr": "Arazi ölçümleri"
   },
   {
     "code": "geodeticSurvey",
@@ -3065,7 +4005,11 @@
     "es": "Levantamiento geodésico",
     "he": "מדידות גיאודטיות",
     "ko": "측지 측량",
-    "zh": "大地测量"
+    "zh": "大地测量",
+    "fr": "Levés géodésiques",
+    "de": "Geodätische Vermessung",
+    "it": "Rilievi geodetici",
+    "tr": "Jeodezik ölçüm"
   },
   {
     "code": "landBoundaryDetermination",
@@ -3078,7 +4022,11 @@
     "es": "Delimitación de linderos",
     "he": "קביעת גבולות מקרקעין",
     "ko": "지적 경계 측정",
-    "zh": "土地界址测定"
+    "zh": "土地界址测定",
+    "fr": "Détermination des limites de propriété",
+    "de": "Grenzfeststellung",
+    "it": "Determinazione dei confini terrieri",
+    "tr": "Arazi sınırlarının belirlenmesi"
   },
   {
     "code": "gpsMapping",
@@ -3091,7 +4039,11 @@
     "es": "Cartografía con GPS",
     "he": "מיפוי באמצעות GPS",
     "ko": "GPS 매핑",
-    "zh": "GPS 测绘"
+    "zh": "GPS 测绘",
+    "fr": "Cartographie GPS",
+    "de": "GPS-Kartierung",
+    "it": "Mappatura GPS",
+    "tr": "GPS haritalama"
   },
   {
     "code": "dataAnalysis",
@@ -3104,7 +4056,11 @@
     "es": "Análisis de datos",
     "he": "ניתוח נתונים",
     "ko": "데이터 분석",
-    "zh": "数据分析"
+    "zh": "数据分析",
+    "fr": "Analyse de données",
+    "de": "Datenanalyse",
+    "it": "Analisi dei dati",
+    "tr": "Veri analizi"
   },
   {
     "code": "cadSoftware",
@@ -3117,7 +4073,11 @@
     "es": "Programas CAD",
     "he": "תוכנות CAD",
     "ko": "CAD 소프트웨어",
-    "zh": "CAD 软件"
+    "zh": "CAD 软件",
+    "fr": "Logiciels de CAO",
+    "de": "CAD-Software",
+    "it": "Software CAD",
+    "tr": "CAD yazılımı"
   },
   {
     "code": "cartography",
@@ -3130,7 +4090,11 @@
     "es": "Cartografía",
     "he": "קרטוגרפיה",
     "ko": "지도 제작",
-    "zh": "地图制图"
+    "zh": "地图制图",
+    "fr": "Cartographie",
+    "de": "Kartografie",
+    "it": "Cartografia",
+    "tr": "Kartografya"
   },
   {
     "code": "landTopography",
@@ -3143,7 +4107,11 @@
     "es": "Topografía del terreno",
     "he": "טופוגרפיה של השטח",
     "ko": "지형 측량",
-    "zh": "地形测量"
+    "zh": "地形测量",
+    "fr": "Topographie du terrain",
+    "de": "Geländetopografie",
+    "it": "Topografia del terreno",
+    "tr": "Arazi topografyası"
   },
   {
     "code": "trainingPlanning",
@@ -3156,7 +4124,11 @@
     "es": "Planificación de la formación",
     "he": "תכנון הדרכות",
     "ko": "훈련 계획",
-    "zh": "训练计划制定"
+    "zh": "训练计划制定",
+    "fr": "Planification des formations",
+    "de": "Trainingsplanung",
+    "it": "Pianificazione degli allenamenti",
+    "tr": "Antrenman planlaması"
   },
   {
     "code": "athleteDevelopment",
@@ -3169,7 +4141,11 @@
     "es": "Desarrollo de deportistas",
     "he": "פיתוח ספורטאים",
     "ko": "선수 육성",
-    "zh": "运动员培养"
+    "zh": "运动员培养",
+    "fr": "Développement des athlètes",
+    "de": "Sportlerentwicklung",
+    "it": "Sviluppo degli atleti",
+    "tr": "Sporcu gelişimi"
   },
   {
     "code": "performanceAnalysis",
@@ -3182,7 +4158,11 @@
     "es": "Análisis del rendimiento",
     "he": "ניתוח ביצועים",
     "ko": "경기력 분석",
-    "zh": "表现分析"
+    "zh": "表现分析",
+    "fr": "Analyse de la performance",
+    "de": "Leistungsanalyse",
+    "it": "Analisi della prestazione",
+    "tr": "Performans analizi"
   },
   {
     "code": "motivationalSkills",
@@ -3195,7 +4175,11 @@
     "es": "Capacidad de motivación",
     "he": "יכולת מוטיבציה",
     "ko": "동기 부여 능력",
-    "zh": "激励能力"
+    "zh": "激励能力",
+    "fr": "Capacités de motivation",
+    "de": "Motivationsfähigkeit",
+    "it": "Capacità motivazionali",
+    "tr": "Motivasyon becerileri"
   },
   {
     "code": "strategyDevelopment",
@@ -3208,7 +4192,11 @@
     "es": "Desarrollo de estrategias",
     "he": "פיתוח אסטרטגיה",
     "ko": "전략 수립",
-    "zh": "战术制定"
+    "zh": "战术制定",
+    "fr": "Élaboration de stratégies",
+    "de": "Strategieentwicklung",
+    "it": "Sviluppo di strategie",
+    "tr": "Strateji geliştirme"
   },
   {
     "code": "teamBuilding",
@@ -3221,7 +4209,11 @@
     "es": "Creación de equipos",
     "he": "בניית צוות",
     "ko": "팀 빌딩",
-    "zh": "团队建设"
+    "zh": "团队建设",
+    "fr": "Cohésion d'équipe",
+    "de": "Teambildung",
+    "it": "Costruzione del team",
+    "tr": "Takım oluşturma"
   },
   {
     "code": "fitnessAssessment",
@@ -3234,7 +4226,11 @@
     "es": "Evaluación de la condición física",
     "he": "הערכת כושר גופני",
     "ko": "체력 평가",
-    "zh": "体能评估"
+    "zh": "体能评估",
+    "fr": "Évaluation de la condition physique",
+    "de": "Fitnessbeurteilung",
+    "it": "Valutazione della forma fisica",
+    "tr": "Fiziksel uygunluk değerlendirmesi"
   },
   {
     "code": "individualizedTraining",
@@ -3247,7 +4243,11 @@
     "es": "Entrenamiento personalizado",
     "he": "אימון אישי",
     "ko": "개인별 훈련",
-    "zh": "个性化训练"
+    "zh": "个性化训练",
+    "fr": "Entraînement individualisé",
+    "de": "Individuelles Training",
+    "it": "Allenamento personalizzato",
+    "tr": "Bireysel antrenman"
   },
   {
     "code": "medicationDispensing",
@@ -3260,7 +4260,11 @@
     "es": "Dispensación de medicamentos",
     "he": "ניפוק תרופות",
     "ko": "조제",
-    "zh": "药品调剂"
+    "zh": "药品调剂",
+    "fr": "Délivrance de médicaments",
+    "de": "Medikamentenabgabe",
+    "it": "Dispensazione di farmaci",
+    "tr": "İlaç verme"
   },
   {
     "code": "medicationStorage",
@@ -3273,7 +4277,11 @@
     "es": "Almacenamiento de medicamentos",
     "he": "אחסון תרופות",
     "ko": "의약품 보관",
-    "zh": "药品储存"
+    "zh": "药品储存",
+    "fr": "Stockage des médicaments",
+    "de": "Medikamentenlagerung",
+    "it": "Conservazione dei farmaci",
+    "tr": "İlaç saklama"
   },
   {
     "code": "drugPreparation",
@@ -3286,7 +4294,11 @@
     "es": "Preparación de medicamentos",
     "he": "הכנת תרופות",
     "ko": "약제 조제",
-    "zh": "药物配制"
+    "zh": "药物配制",
+    "fr": "Préparation de médicaments",
+    "de": "Arzneimittelherstellung",
+    "it": "Preparazione di farmaci",
+    "tr": "İlaç hazırlama"
   },
   {
     "code": "pharmacology",
@@ -3299,7 +4311,11 @@
     "es": "Farmacología",
     "he": "פרמקולוגיה",
     "ko": "약리학",
-    "zh": "药理学"
+    "zh": "药理学",
+    "fr": "Pharmacologie",
+    "de": "Pharmakologie",
+    "it": "Farmacologia",
+    "tr": "Farmakoloji"
   },
   {
     "code": "medicationMonitoring",
@@ -3312,7 +4328,11 @@
     "es": "Seguimiento de la medicación",
     "he": "מעקב טיפול תרופתי",
     "ko": "약물 모니터링",
-    "zh": "用药监测"
+    "zh": "用药监测",
+    "fr": "Suivi des médicaments",
+    "de": "Medikamentenüberwachung",
+    "it": "Monitoraggio dei farmaci",
+    "tr": "İlaç takibi"
   },
   {
     "code": "childDevelopment",
@@ -3325,7 +4345,11 @@
     "es": "Desarrollo infantil",
     "he": "התפתחות הילד",
     "ko": "아동 발달",
-    "zh": "儿童发展"
+    "zh": "儿童发展",
+    "fr": "Développement de l'enfant",
+    "de": "Kindesentwicklung",
+    "it": "Sviluppo del bambino",
+    "tr": "Çocuk gelişimi"
   },
   {
     "code": "lessonPlanning",
@@ -3338,7 +4362,11 @@
     "es": "Planificación de clases",
     "he": "תכנון שיעורים",
     "ko": "수업 계획",
-    "zh": "备课"
+    "zh": "备课",
+    "fr": "Préparation des cours",
+    "de": "Unterrichtsplanung",
+    "it": "Pianificazione delle lezioni",
+    "tr": "Ders planlama"
   },
   {
     "code": "earlyLearningMethods",
@@ -3351,7 +4379,11 @@
     "es": "Métodos de aprendizaje temprano",
     "he": "שיטות למידה בגיל הרך",
     "ko": "유아 교육법",
-    "zh": "早期教育方法"
+    "zh": "早期教育方法",
+    "fr": "Méthodes d'apprentissage précoce",
+    "de": "Frühkindliche Lernmethoden",
+    "it": "Metodi di apprendimento precoce",
+    "tr": "Erken öğrenme yöntemleri"
   },
   {
     "code": "classroomManagement",
@@ -3364,7 +4396,11 @@
     "es": "Gestión del aula",
     "he": "ניהול כיתה",
     "ko": "학급 운영",
-    "zh": "课堂管理"
+    "zh": "课堂管理",
+    "fr": "Gestion de classe",
+    "de": "Klassenführung",
+    "it": "Gestione della classe",
+    "tr": "Sınıf yönetimi"
   },
   {
     "code": "creativeActivities",
@@ -3377,7 +4413,11 @@
     "es": "Actividades creativas",
     "he": "פעילויות יצירה",
     "ko": "창의 활동",
-    "zh": "创意活动组织"
+    "zh": "创意活动组织",
+    "fr": "Activités créatives",
+    "de": "Kreative Aktivitäten",
+    "it": "Attività creative",
+    "tr": "Yaratıcı etkinlikler"
   },
   {
     "code": "languageDevelopment",
@@ -3390,7 +4430,11 @@
     "es": "Desarrollo del lenguaje",
     "he": "פיתוח שפה",
     "ko": "언어 발달 지도",
-    "zh": "语言启蒙"
+    "zh": "语言启蒙",
+    "fr": "Développement du langage",
+    "de": "Sprachentwicklung",
+    "it": "Sviluppo del linguaggio",
+    "tr": "Dil gelişimi"
   },
   {
     "code": "childPsychology",
@@ -3403,7 +4447,11 @@
     "es": "Psicología infantil",
     "he": "פסיכולוגיה של הילד",
     "ko": "아동 심리",
-    "zh": "儿童心理学"
+    "zh": "儿童心理学",
+    "fr": "Psychologie de l'enfant",
+    "de": "Kinderpsychologie",
+    "it": "Psicologia infantile",
+    "tr": "Çocuk psikolojisi"
   },
   {
     "code": "parentCommunication",
@@ -3416,7 +4464,11 @@
     "es": "Comunicación con las familias",
     "he": "תקשורת עם הורים",
     "ko": "학부모 소통",
-    "zh": "家长沟通"
+    "zh": "家长沟通",
+    "fr": "Communication avec les parents",
+    "de": "Elternkommunikation",
+    "it": "Comunicazione con i genitori",
+    "tr": "Velilerle iletişim"
   },
   {
     "code": "socialSkillsDevelopment",
@@ -3429,7 +4481,11 @@
     "es": "Desarrollo de habilidades sociales",
     "he": "פיתוח מיומנויות חברתיות",
     "ko": "사회성 발달 지도",
-    "zh": "社交能力培养"
+    "zh": "社交能力培养",
+    "fr": "Développement des compétences sociales",
+    "de": "Förderung sozialer Kompetenzen",
+    "it": "Sviluppo delle competenze sociali",
+    "tr": "Sosyal becerilerin geliştirilmesi"
   },
   {
     "code": "assessmentAndEvaluation",
@@ -3442,7 +4498,11 @@
     "es": "Evaluación del aprendizaje",
     "he": "הערכה ומדידה בחינוך",
     "ko": "평가 및 진단",
-    "zh": "考核与评价"
+    "zh": "考核与评价",
+    "fr": "Contrôle et évaluation",
+    "de": "Bewertung und Beurteilung",
+    "it": "Verifica e valutazione",
+    "tr": "Ölçme ve değerlendirme"
   },
   {
     "code": "psychologicalAssessment",
@@ -3455,7 +4515,11 @@
     "es": "Evaluación psicológica",
     "he": "אבחון פסיכולוגי",
     "ko": "심리 검사",
-    "zh": "心理测评"
+    "zh": "心理测评",
+    "fr": "Évaluation psychologique",
+    "de": "Psychologische Beurteilung",
+    "it": "Valutazione psicologica",
+    "tr": "Psikolojik değerlendirme"
   },
   {
     "code": "counseling",
@@ -3468,7 +4532,11 @@
     "es": "Orientación psicológica",
     "he": "ייעוץ פסיכולוגי",
     "ko": "상담",
-    "zh": "心理咨询"
+    "zh": "心理咨询",
+    "fr": "Accompagnement psychologique",
+    "de": "Beratung",
+    "it": "Consulenza psicologica",
+    "tr": "Psikolojik danışma"
   },
   {
     "code": "mentalHealthSupport",
@@ -3481,7 +4549,11 @@
     "es": "Apoyo en salud mental",
     "he": "תמיכה בבריאות הנפש",
     "ko": "정신건강 지원",
-    "zh": "心理健康支持"
+    "zh": "心理健康支持",
+    "fr": "Soutien en santé mentale",
+    "de": "Unterstützung der psychischen Gesundheit",
+    "it": "Supporto alla salute mentale",
+    "tr": "Ruh sağlığı desteği"
   },
   {
     "code": "behavioralTherapy",
@@ -3494,7 +4566,11 @@
     "es": "Terapia conductual",
     "he": "טיפול התנהגותי",
     "ko": "행동 치료",
-    "zh": "行为治疗"
+    "zh": "行为治疗",
+    "fr": "Thérapie comportementale",
+    "de": "Verhaltenstherapie",
+    "it": "Terapia comportamentale",
+    "tr": "Davranış terapisi"
   },
   {
     "code": "stressManagement",
@@ -3507,7 +4583,11 @@
     "es": "Gestión del estrés",
     "he": "ניהול לחץ",
     "ko": "스트레스 관리",
-    "zh": "压力管理"
+    "zh": "压力管理",
+    "fr": "Gestion du stress",
+    "de": "Stressbewältigung",
+    "it": "Gestione dello stress",
+    "tr": "Stres yönetimi"
   },
   {
     "code": "cognitiveBehavioralTherapy",
@@ -3520,7 +4600,11 @@
     "es": "Terapia cognitivo-conductual",
     "he": "טיפול קוגניטיבי-התנהגותי",
     "ko": "인지행동치료",
-    "zh": "认知行为疗法"
+    "zh": "认知行为疗法",
+    "fr": "Thérapie cognitivo-comportementale",
+    "de": "Kognitive Verhaltenstherapie",
+    "it": "Terapia cognitivo-comportamentale",
+    "tr": "Bilişsel davranışçı terapi"
   },
   {
     "code": "emotionalSupport",
@@ -3533,7 +4617,11 @@
     "es": "Apoyo emocional",
     "he": "תמיכה רגשית",
     "ko": "정서적 지지",
-    "zh": "情绪支持"
+    "zh": "情绪支持",
+    "fr": "Soutien émotionnel",
+    "de": "Emotionale Unterstützung",
+    "it": "Supporto emotivo",
+    "tr": "Duygusal destek"
   },
   {
     "code": "psychotherapy",
@@ -3546,7 +4634,11 @@
     "es": "Psicoterapia",
     "he": "פסיכותרפיה",
     "ko": "심리 치료",
-    "zh": "心理治疗"
+    "zh": "心理治疗",
+    "fr": "Psychothérapie",
+    "de": "Psychotherapie",
+    "it": "Psicoterapia",
+    "tr": "Psikoterapi"
   },
   {
     "code": "ms_office_suite",
@@ -3559,7 +4651,11 @@
     "es": "Microsoft Office",
     "he": "Microsoft Office",
     "ko": "Microsoft Office",
-    "zh": "Microsoft Office"
+    "zh": "Microsoft Office",
+    "fr": "Microsoft Office",
+    "de": "Microsoft Office",
+    "it": "Microsoft Office",
+    "tr": "Microsoft Office"
   },
   {
     "code": "ms_outlook",
@@ -3572,7 +4668,11 @@
     "es": "Microsoft Outlook",
     "he": "Microsoft Outlook",
     "ko": "Microsoft Outlook",
-    "zh": "Microsoft Outlook"
+    "zh": "Microsoft Outlook",
+    "fr": "Microsoft Outlook",
+    "de": "Microsoft Outlook",
+    "it": "Microsoft Outlook",
+    "tr": "Microsoft Outlook"
   },
   {
     "code": "ms_access",
@@ -3585,7 +4685,11 @@
     "es": "Microsoft Access",
     "he": "Microsoft Access",
     "ko": "Microsoft Access",
-    "zh": "Microsoft Access"
+    "zh": "Microsoft Access",
+    "fr": "Microsoft Access",
+    "de": "Microsoft Access",
+    "it": "Microsoft Access",
+    "tr": "Microsoft Access"
   },
   {
     "code": "ms_teams",
@@ -3598,7 +4702,11 @@
     "es": "Microsoft Teams",
     "he": "Microsoft Teams",
     "ko": "Microsoft Teams",
-    "zh": "Microsoft Teams"
+    "zh": "Microsoft Teams",
+    "fr": "Microsoft Teams",
+    "de": "Microsoft Teams",
+    "it": "Microsoft Teams",
+    "tr": "Microsoft Teams"
   },
   {
     "code": "windows",
@@ -3611,7 +4719,11 @@
     "es": "Sistema operativo Windows",
     "he": "מערכת ההפעלה Windows",
     "ko": "Windows 운영체제",
-    "zh": "Windows 操作系统"
+    "zh": "Windows 操作系统",
+    "fr": "Système d'exploitation Windows",
+    "de": "Betriebssystem Windows",
+    "it": "Sistema operativo Windows",
+    "tr": "Windows işletim sistemi"
   },
   {
     "code": "linux",
@@ -3624,7 +4736,11 @@
     "es": "Linux",
     "he": "Linux",
     "ko": "Linux",
-    "zh": "Linux"
+    "zh": "Linux",
+    "fr": "Linux",
+    "de": "Linux",
+    "it": "Linux",
+    "tr": "Linux"
   },
   {
     "code": "zoom",
@@ -3637,7 +4753,11 @@
     "es": "Zoom",
     "he": "Zoom",
     "ko": "Zoom",
-    "zh": "Zoom"
+    "zh": "Zoom",
+    "fr": "Zoom",
+    "de": "Zoom",
+    "it": "Zoom",
+    "tr": "Zoom"
   },
   {
     "code": "html",
@@ -3650,7 +4770,11 @@
     "es": "HTML",
     "he": "HTML",
     "ko": "HTML",
-    "zh": "HTML"
+    "zh": "HTML",
+    "fr": "HTML",
+    "de": "HTML",
+    "it": "HTML",
+    "tr": "HTML"
   },
   {
     "code": "sql",
@@ -3663,7 +4787,11 @@
     "es": "SQL",
     "he": "SQL",
     "ko": "SQL",
-    "zh": "SQL"
+    "zh": "SQL",
+    "fr": "SQL",
+    "de": "SQL",
+    "it": "SQL",
+    "tr": "SQL"
   },
   {
     "code": "mysql",
@@ -3676,7 +4804,11 @@
     "es": "MySQL",
     "he": "MySQL",
     "ko": "MySQL",
-    "zh": "MySQL"
+    "zh": "MySQL",
+    "fr": "MySQL",
+    "de": "MySQL",
+    "it": "MySQL",
+    "tr": "MySQL"
   },
   {
     "code": "ms_sql_server",
@@ -3689,7 +4821,11 @@
     "es": "Microsoft SQL Server",
     "he": "Microsoft SQL Server",
     "ko": "Microsoft SQL Server",
-    "zh": "Microsoft SQL Server"
+    "zh": "Microsoft SQL Server",
+    "fr": "Microsoft SQL Server",
+    "de": "Microsoft SQL Server",
+    "it": "Microsoft SQL Server",
+    "tr": "Microsoft SQL Server"
   },
   {
     "code": "postgresql",
@@ -3702,7 +4838,11 @@
     "es": "PostgreSQL",
     "he": "PostgreSQL",
     "ko": "PostgreSQL",
-    "zh": "PostgreSQL"
+    "zh": "PostgreSQL",
+    "fr": "PostgreSQL",
+    "de": "PostgreSQL",
+    "it": "PostgreSQL",
+    "tr": "PostgreSQL"
   },
   {
     "code": "bootstrap",
@@ -3715,7 +4855,11 @@
     "es": "Bootstrap",
     "he": "Bootstrap",
     "ko": "Bootstrap",
-    "zh": "Bootstrap"
+    "zh": "Bootstrap",
+    "fr": "Bootstrap",
+    "de": "Bootstrap",
+    "it": "Bootstrap",
+    "tr": "Bootstrap"
   },
   {
     "code": "jquery",
@@ -3728,7 +4872,11 @@
     "es": "jQuery",
     "he": "jQuery",
     "ko": "jQuery",
-    "zh": "jQuery"
+    "zh": "jQuery",
+    "fr": "jQuery",
+    "de": "jQuery",
+    "it": "jQuery",
+    "tr": "jQuery"
   },
   {
     "code": "typescript",
@@ -3741,7 +4889,11 @@
     "es": "TypeScript",
     "he": "TypeScript",
     "ko": "TypeScript",
-    "zh": "TypeScript"
+    "zh": "TypeScript",
+    "fr": "TypeScript",
+    "de": "TypeScript",
+    "it": "TypeScript",
+    "tr": "TypeScript"
   },
   {
     "code": "nodejs",
@@ -3754,7 +4906,11 @@
     "es": "Node.js",
     "he": "Node.js",
     "ko": "Node.js",
-    "zh": "Node.js"
+    "zh": "Node.js",
+    "fr": "Node.js",
+    "de": "Node.js",
+    "it": "Node.js",
+    "tr": "Node.js"
   },
   {
     "code": "wordpress",
@@ -3767,7 +4923,11 @@
     "es": "WordPress",
     "he": "WordPress",
     "ko": "WordPress",
-    "zh": "WordPress"
+    "zh": "WordPress",
+    "fr": "WordPress",
+    "de": "WordPress",
+    "it": "WordPress",
+    "tr": "WordPress"
   },
   {
     "code": "git",
@@ -3780,7 +4940,11 @@
     "es": "Git",
     "he": "Git",
     "ko": "Git",
-    "zh": "Git"
+    "zh": "Git",
+    "fr": "Git",
+    "de": "Git",
+    "it": "Git",
+    "tr": "Git"
   },
   {
     "code": "github",
@@ -3793,7 +4957,11 @@
     "es": "GitHub",
     "he": "GitHub",
     "ko": "GitHub",
-    "zh": "GitHub"
+    "zh": "GitHub",
+    "fr": "GitHub",
+    "de": "GitHub",
+    "it": "GitHub",
+    "tr": "GitHub"
   },
   {
     "code": "programming",
@@ -3806,7 +4974,11 @@
     "es": "Programación",
     "he": "תכנות",
     "ko": "프로그래밍",
-    "zh": "程序设计"
+    "zh": "程序设计",
+    "fr": "Programmation",
+    "de": "Programmierung",
+    "it": "Programmazione",
+    "tr": "Programlama"
   },
   {
     "code": "coreldraw",
@@ -3819,7 +4991,11 @@
     "es": "CorelDRAW",
     "he": "CorelDRAW",
     "ko": "CorelDRAW",
-    "zh": "CorelDRAW"
+    "zh": "CorelDRAW",
+    "fr": "CorelDRAW",
+    "de": "CorelDRAW",
+    "it": "CorelDRAW",
+    "tr": "CorelDRAW"
   },
   {
     "code": "canva",
@@ -3832,7 +5008,11 @@
     "es": "Canva",
     "he": "Canva",
     "ko": "Canva",
-    "zh": "Canva"
+    "zh": "Canva",
+    "fr": "Canva",
+    "de": "Canva",
+    "it": "Canva",
+    "tr": "Canva"
   },
   {
     "code": "after_effects",
@@ -3845,7 +5025,11 @@
     "es": "Adobe After Effects",
     "he": "Adobe After Effects",
     "ko": "Adobe After Effects",
-    "zh": "Adobe After Effects"
+    "zh": "Adobe After Effects",
+    "fr": "Adobe After Effects",
+    "de": "Adobe After Effects",
+    "it": "Adobe After Effects",
+    "tr": "Adobe After Effects"
   },
   {
     "code": "premiere_pro",
@@ -3858,7 +5042,11 @@
     "es": "Adobe Premiere Pro",
     "he": "Adobe Premiere Pro",
     "ko": "Adobe Premiere Pro",
-    "zh": "Adobe Premiere Pro"
+    "zh": "Adobe Premiere Pro",
+    "fr": "Adobe Premiere Pro",
+    "de": "Adobe Premiere Pro",
+    "it": "Adobe Premiere Pro",
+    "tr": "Adobe Premiere Pro"
   },
   {
     "code": "lightroom",
@@ -3871,7 +5059,11 @@
     "es": "Adobe Lightroom",
     "he": "Adobe Lightroom",
     "ko": "Adobe Lightroom",
-    "zh": "Adobe Lightroom"
+    "zh": "Adobe Lightroom",
+    "fr": "Adobe Lightroom",
+    "de": "Adobe Lightroom",
+    "it": "Adobe Lightroom",
+    "tr": "Adobe Lightroom"
   },
   {
     "code": "figma",
@@ -3884,7 +5076,11 @@
     "es": "Figma",
     "he": "Figma",
     "ko": "Figma",
-    "zh": "Figma"
+    "zh": "Figma",
+    "fr": "Figma",
+    "de": "Figma",
+    "it": "Figma",
+    "tr": "Figma"
   },
   {
     "code": "video_editing",
@@ -3897,7 +5093,11 @@
     "es": "Edición de vídeo",
     "he": "עריכת וידאו",
     "ko": "영상 편집",
-    "zh": "视频剪辑"
+    "zh": "视频剪辑",
+    "fr": "Montage vidéo",
+    "de": "Videobearbeitung",
+    "it": "Montaggio video",
+    "tr": "Video montaj"
   },
   {
     "code": "archicad",
@@ -3910,7 +5110,11 @@
     "es": "ArchiCAD",
     "he": "ArchiCAD",
     "ko": "ArchiCAD",
-    "zh": "ArchiCAD"
+    "zh": "ArchiCAD",
+    "fr": "ArchiCAD",
+    "de": "ArchiCAD",
+    "it": "ArchiCAD",
+    "tr": "ArchiCAD"
   },
   {
     "code": "3ds_max",
@@ -3923,7 +5127,11 @@
     "es": "3ds Max",
     "he": "3ds Max",
     "ko": "3ds Max",
-    "zh": "3ds Max"
+    "zh": "3ds Max",
+    "fr": "3ds Max",
+    "de": "3ds Max",
+    "it": "3ds Max",
+    "tr": "3ds Max"
   },
   {
     "code": "revit",
@@ -3936,7 +5144,11 @@
     "es": "Autodesk Revit",
     "he": "Autodesk Revit",
     "ko": "Autodesk Revit",
-    "zh": "Autodesk Revit"
+    "zh": "Autodesk Revit",
+    "fr": "Autodesk Revit",
+    "de": "Autodesk Revit",
+    "it": "Autodesk Revit",
+    "tr": "Autodesk Revit"
   },
   {
     "code": "sketchup",
@@ -3949,7 +5161,11 @@
     "es": "SketchUp",
     "he": "SketchUp",
     "ko": "SketchUp",
-    "zh": "SketchUp"
+    "zh": "SketchUp",
+    "fr": "SketchUp",
+    "de": "SketchUp",
+    "it": "SketchUp",
+    "tr": "SketchUp"
   },
   {
     "code": "solidworks",
@@ -3962,7 +5178,11 @@
     "es": "SolidWorks",
     "he": "SolidWorks",
     "ko": "SolidWorks",
-    "zh": "SolidWorks"
+    "zh": "SolidWorks",
+    "fr": "SolidWorks",
+    "de": "SolidWorks",
+    "it": "SolidWorks",
+    "tr": "SolidWorks"
   },
   {
     "code": "lumion",
@@ -3975,7 +5195,11 @@
     "es": "Lumion",
     "he": "Lumion",
     "ko": "Lumion",
-    "zh": "Lumion"
+    "zh": "Lumion",
+    "fr": "Lumion",
+    "de": "Lumion",
+    "it": "Lumion",
+    "tr": "Lumion"
   },
   {
     "code": "arcgis",
@@ -3988,7 +5212,11 @@
     "es": "ArcGIS",
     "he": "ArcGIS",
     "ko": "ArcGIS",
-    "zh": "ArcGIS"
+    "zh": "ArcGIS",
+    "fr": "ArcGIS",
+    "de": "ArcGIS",
+    "it": "ArcGIS",
+    "tr": "ArcGIS"
   },
   {
     "code": "netcad",
@@ -4001,7 +5229,11 @@
     "es": "Netcad",
     "he": "Netcad",
     "ko": "Netcad",
-    "zh": "Netcad"
+    "zh": "Netcad",
+    "fr": "Netcad",
+    "de": "Netcad",
+    "it": "Netcad",
+    "tr": "Netcad"
   },
   {
     "code": "matlab",
@@ -4014,7 +5246,11 @@
     "es": "MATLAB",
     "he": "MATLAB",
     "ko": "MATLAB",
-    "zh": "MATLAB"
+    "zh": "MATLAB",
+    "fr": "MATLAB",
+    "de": "MATLAB",
+    "it": "MATLAB",
+    "tr": "MATLAB"
   },
   {
     "code": "power_bi",
@@ -4027,7 +5263,11 @@
     "es": "Microsoft Power BI",
     "he": "Microsoft Power BI",
     "ko": "Microsoft Power BI",
-    "zh": "Microsoft Power BI"
+    "zh": "Microsoft Power BI",
+    "fr": "Microsoft Power BI",
+    "de": "Microsoft Power BI",
+    "it": "Microsoft Power BI",
+    "tr": "Microsoft Power BI"
   },
   {
     "code": "sap",
@@ -4040,7 +5280,11 @@
     "es": "SAP",
     "he": "SAP",
     "ko": "SAP",
-    "zh": "SAP"
+    "zh": "SAP",
+    "fr": "SAP",
+    "de": "SAP",
+    "it": "SAP",
+    "tr": "SAP"
   },
   {
     "code": "crm",
@@ -4053,7 +5297,11 @@
     "es": "Sistemas CRM",
     "he": "מערכות CRM",
     "ko": "CRM 시스템",
-    "zh": "CRM 系统"
+    "zh": "CRM 系统",
+    "fr": "Systèmes CRM",
+    "de": "CRM-Systeme",
+    "it": "Sistemi CRM",
+    "tr": "CRM sistemleri"
   },
   {
     "code": "erp",
@@ -4066,7 +5314,11 @@
     "es": "Sistemas ERP",
     "he": "מערכות ERP",
     "ko": "ERP 시스템",
-    "zh": "ERP 系统"
+    "zh": "ERP 系统",
+    "fr": "Systèmes ERP",
+    "de": "ERP-Systeme",
+    "it": "Sistemi ERP",
+    "tr": "ERP sistemleri"
   },
   {
     "code": "jira",
@@ -4079,7 +5331,11 @@
     "es": "Jira",
     "he": "Jira",
     "ko": "Jira",
-    "zh": "Jira"
+    "zh": "Jira",
+    "fr": "Jira",
+    "de": "Jira",
+    "it": "Jira",
+    "tr": "Jira"
   },
   {
     "code": "spss",
@@ -4092,7 +5348,11 @@
     "es": "IBM SPSS",
     "he": "IBM SPSS",
     "ko": "IBM SPSS",
-    "zh": "IBM SPSS"
+    "zh": "IBM SPSS",
+    "fr": "IBM SPSS",
+    "de": "IBM SPSS",
+    "it": "IBM SPSS",
+    "tr": "IBM SPSS"
   },
   {
     "code": "e_taxes",
@@ -4105,7 +5365,11 @@
     "es": "E-taxes (portal tributario de Azerbaiyán)",
     "he": "E-taxes (פורטל המס של אזרבייג'ן)",
     "ko": "E-taxes (아제르바이잔 세무 포털)",
-    "zh": "E-taxes（阿塞拜疆税务门户）"
+    "zh": "E-taxes（阿塞拜疆税务门户）",
+    "fr": "E-taxes (portail fiscal azerbaïdjanais)",
+    "de": "E-taxes (aserbaidschanisches Steuerportal)",
+    "it": "E-taxes (portale fiscale azerbaigiano)",
+    "tr": "E-taxes (Azerbaycan vergi portalı)"
   },
   {
     "code": "emas",
@@ -4118,7 +5382,11 @@
     "es": "EMAS (contratos laborales electrónicos)",
     "he": "EMAS (חוזי עבודה אלקטרוניים)",
     "ko": "EMAS (전자 고용계약 시스템)",
-    "zh": "EMAS（电子劳动合同系统）"
+    "zh": "EMAS（电子劳动合同系统）",
+    "fr": "EMAS (contrats de travail électroniques)",
+    "de": "EMAS (elektronisches Arbeitsvertragssystem)",
+    "it": "EMAS (contratti di lavoro elettronici)",
+    "tr": "EMAS (elektronik iş sözleşmeleri sistemi)"
   },
   {
     "code": "logo_tiger",
@@ -4131,7 +5399,11 @@
     "es": "Logo Tiger",
     "he": "Logo Tiger",
     "ko": "Logo Tiger",
-    "zh": "Logo Tiger"
+    "zh": "Logo Tiger",
+    "fr": "Logo Tiger",
+    "de": "Logo Tiger",
+    "it": "Logo Tiger",
+    "tr": "Logo Tiger"
   },
   {
     "code": "btp",
@@ -4144,7 +5416,11 @@
     "es": "BTP (programa de contabilidad)",
     "he": "BTP (תוכנת הנהלת חשבונות)",
     "ko": "BTP 회계 프로그램",
-    "zh": "BTP 会计软件"
+    "zh": "BTP 会计软件",
+    "fr": "BTP (logiciel de comptabilité)",
+    "de": "BTP (Buchhaltungssoftware)",
+    "it": "BTP (software di contabilità)",
+    "tr": "BTP (muhasebe yazılımı)"
   },
   {
     "code": "helpdesk",
@@ -4157,7 +5433,11 @@
     "es": "Helpdesk (soporte técnico)",
     "he": "Helpdesk (תמיכה טכנית)",
     "ko": "헬프데스크 (기술 지원)",
-    "zh": "Helpdesk（技术支持）"
+    "zh": "Helpdesk（技术支持）",
+    "fr": "Helpdesk (support technique)",
+    "de": "Helpdesk (technischer Support)",
+    "it": "Helpdesk (supporto tecnico)",
+    "tr": "Helpdesk (teknik destek)"
   },
   {
     "code": "responsibility",
@@ -4170,7 +5450,11 @@
     "es": "Responsabilidad",
     "he": "אחריות",
     "ko": "책임감",
-    "zh": "责任心"
+    "zh": "责任心",
+    "fr": "Sens des responsabilités",
+    "de": "Verantwortungsbewusstsein",
+    "it": "Senso di responsabilità",
+    "tr": "Sorumluluk bilinci"
   },
   {
     "code": "punctuality",
@@ -4183,7 +5467,11 @@
     "es": "Puntualidad",
     "he": "דייקנות",
     "ko": "시간 엄수",
-    "zh": "守时"
+    "zh": "守时",
+    "fr": "Ponctualité",
+    "de": "Pünktlichkeit",
+    "it": "Puntualità",
+    "tr": "Dakiklik"
   },
   {
     "code": "patience",
@@ -4196,7 +5484,11 @@
     "es": "Paciencia",
     "he": "סבלנות",
     "ko": "인내심",
-    "zh": "耐心"
+    "zh": "耐心",
+    "fr": "Patience",
+    "de": "Geduld",
+    "it": "Pazienza",
+    "tr": "Sabır"
   },
   {
     "code": "attention_to_detail",
@@ -4209,7 +5501,11 @@
     "es": "Atención al detalle",
     "he": "תשומת לב לפרטים",
     "ko": "세심함",
-    "zh": "注重细节"
+    "zh": "注重细节",
+    "fr": "Souci du détail",
+    "de": "Detailgenauigkeit",
+    "it": "Attenzione ai dettagli",
+    "tr": "Detaylara dikkat"
   },
   {
     "code": "promptness",
@@ -4222,7 +5518,11 @@
     "es": "Rapidez",
     "he": "מהירות תגובה",
     "ko": "신속성",
-    "zh": "行动迅速"
+    "zh": "行动迅速",
+    "fr": "Réactivité",
+    "de": "Zügigkeit",
+    "it": "Prontezza",
+    "tr": "Operasyonel hız"
   },
   {
     "code": "public_speaking",
@@ -4235,7 +5535,11 @@
     "es": "Oratoria",
     "he": "דיבור בפני קהל",
     "ko": "대중 연설",
-    "zh": "公开演讲"
+    "zh": "公开演讲",
+    "fr": "Prise de parole en public",
+    "de": "Redegewandtheit",
+    "it": "Parlare in pubblico",
+    "tr": "Hitabet"
   },
   {
     "code": "active_listening",
@@ -4248,7 +5552,11 @@
     "es": "Escucha activa",
     "he": "הקשבה פעילה",
     "ko": "경청",
-    "zh": "积极倾听"
+    "zh": "积极倾听",
+    "fr": "Écoute active",
+    "de": "Aktives Zuhören",
+    "it": "Ascolto attivo",
+    "tr": "Aktif dinleme"
   },
   {
     "code": "decision_making",
@@ -4261,7 +5569,11 @@
     "es": "Toma de decisiones",
     "he": "קבלת החלטות",
     "ko": "의사 결정",
-    "zh": "决策能力"
+    "zh": "决策能力",
+    "fr": "Prise de décision",
+    "de": "Entscheidungsfähigkeit",
+    "it": "Capacità decisionale",
+    "tr": "Karar verme becerisi"
   },
   {
     "code": "fast_learning",
@@ -4274,7 +5586,11 @@
     "es": "Aprendizaje rápido",
     "he": "למידה מהירה",
     "ko": "빠른 습득력",
-    "zh": "学习能力强"
+    "zh": "学习能力强",
+    "fr": "Apprentissage rapide",
+    "de": "Schnelle Lernfähigkeit",
+    "it": "Apprendimento rapido",
+    "tr": "Hızlı öğrenme becerisi"
   },
   {
     "code": "work_ethic",
@@ -4287,7 +5603,11 @@
     "es": "Ética profesional",
     "he": "אתיקה מקצועית",
     "ko": "직업 윤리",
-    "zh": "职业素养"
+    "zh": "职业素养",
+    "fr": "Éthique de travail",
+    "de": "Arbeitsethik",
+    "it": "Etica del lavoro",
+    "tr": "İş etiği"
   },
   {
     "code": "initiative",
@@ -4300,7 +5620,11 @@
     "es": "Iniciativa",
     "he": "יוזמה",
     "ko": "주도성",
-    "zh": "主动性"
+    "zh": "主动性",
+    "fr": "Esprit d'initiative",
+    "de": "Eigeninitiative",
+    "it": "Spirito di iniziativa",
+    "tr": "Girişimcilik ruhu"
   },
   {
     "code": "discipline",
@@ -4313,7 +5637,11 @@
     "es": "Disciplina",
     "he": "משמעת",
     "ko": "자기 관리",
-    "zh": "自律"
+    "zh": "自律",
+    "fr": "Discipline",
+    "de": "Disziplin",
+    "it": "Disciplina",
+    "tr": "Disiplin"
   },
   {
     "code": "reliability",
@@ -4326,7 +5654,11 @@
     "es": "Fiabilidad",
     "he": "אמינות",
     "ko": "신뢰성",
-    "zh": "可靠稳妥"
+    "zh": "可靠稳妥",
+    "fr": "Fiabilité",
+    "de": "Zuverlässigkeit",
+    "it": "Affidabilità",
+    "tr": "Güvenilirlik"
   },
   {
     "code": "honesty",
@@ -4339,7 +5671,11 @@
     "es": "Honestidad",
     "he": "יושרה",
     "ko": "정직성",
-    "zh": "诚实"
+    "zh": "诚实",
+    "fr": "Honnêteté",
+    "de": "Ehrlichkeit",
+    "it": "Onestà",
+    "tr": "Dürüstlük"
   },
   {
     "code": "logical_thinking",
@@ -4352,7 +5688,11 @@
     "es": "Pensamiento lógico",
     "he": "חשיבה לוגית",
     "ko": "논리적 사고",
-    "zh": "逻辑思维"
+    "zh": "逻辑思维",
+    "fr": "Pensée logique",
+    "de": "Logisches Denken",
+    "it": "Pensiero logico",
+    "tr": "Mantıklı düşünme"
   },
   {
     "code": "numeracy",
@@ -4365,7 +5705,11 @@
     "es": "Conocimientos matemáticos",
     "he": "ידע מתמטי",
     "ko": "수치 감각",
-    "zh": "数字运算能力"
+    "zh": "数字运算能力",
+    "fr": "Compétences en calcul",
+    "de": "Mathematische Kenntnisse",
+    "it": "Competenze matematiche",
+    "tr": "Matematiksel bilgi"
   },
   {
     "code": "translation",
@@ -4378,7 +5722,11 @@
     "es": "Traducción",
     "he": "תרגום",
     "ko": "번역",
-    "zh": "翻译"
+    "zh": "翻译",
+    "fr": "Traduction",
+    "de": "Übersetzung",
+    "it": "Traduzione",
+    "tr": "Çeviri"
   },
   {
     "code": "open_mindedness",
@@ -4391,7 +5739,11 @@
     "es": "Mentalidad abierta",
     "he": "פתיחות מחשבתית",
     "ko": "열린 사고",
-    "zh": "开放心态"
+    "zh": "开放心态",
+    "fr": "Ouverture d'esprit",
+    "de": "Offenheit",
+    "it": "Apertura mentale",
+    "tr": "Açık fikirlilik"
   },
   {
     "code": "driving",
@@ -4404,7 +5756,11 @@
     "es": "Conducción",
     "he": "נהיגה",
     "ko": "운전 능력",
-    "zh": "驾驶技能"
+    "zh": "驾驶技能",
+    "fr": "Conduite automobile",
+    "de": "Fahrpraxis",
+    "it": "Guida di autoveicoli",
+    "tr": "Sürücülük becerisi"
   },
   {
     "code": "welding",
@@ -4417,7 +5773,11 @@
     "es": "Soldadura",
     "he": "ריתוך",
     "ko": "용접",
-    "zh": "焊接"
+    "zh": "焊接",
+    "fr": "Travaux de soudure",
+    "de": "Schweißarbeiten",
+    "it": "Lavori di saldatura",
+    "tr": "Kaynak işleri"
   },
   {
     "code": "car_repair",
@@ -4430,7 +5790,11 @@
     "es": "Reparación de automóviles",
     "he": "תיקון רכבים",
     "ko": "자동차 수리",
-    "zh": "汽车维修"
+    "zh": "汽车维修",
+    "fr": "Réparation automobile",
+    "de": "Autoreparatur",
+    "it": "Riparazione di automobili",
+    "tr": "Otomobil tamiri"
   },
   {
     "code": "assembly_installation",
@@ -4443,6 +5807,10 @@
     "es": "Montaje e instalación",
     "he": "הרכבה והתקנה",
     "ko": "조립 및 설치",
-    "zh": "组装与安装"
+    "zh": "组装与安装",
+    "fr": "Montage et installation",
+    "de": "Montage- und Installationsarbeiten",
+    "it": "Montaggio e installazione",
+    "tr": "Montaj işleri"
   }
 ]

@@ -10,7 +10,11 @@
     "es": "Universidad Estatal de Bakú",
     "he": "האוניברסיטה הממלכתית של באקו",
     "ko": "바쿠 국립대학교",
-    "zh": "巴库国立大学"
+    "zh": "巴库国立大学",
+    "fr": "Université d'État de Bakou",
+    "de": "Staatliche Universität Baku",
+    "it": "Università statale di Baku",
+    "tr": "Bakü Devlet Üniversitesi"
   },
   {
     "code": "bduq",
@@ -23,7 +27,11 @@
     "es": "Universidad Estatal de Bakú (sede de Qazakh)",
     "he": "האוניברסיטה הממלכתית של באקו (שלוחת קזאך)",
     "ko": "바쿠 국립대학교 (가자흐 분교)",
-    "zh": "巴库国立大学（加扎赫分校）"
+    "zh": "巴库国立大学（加扎赫分校）",
+    "fr": "Université d'État de Bakou (antenne de Qazakh)",
+    "de": "Staatliche Universität Baku (Zweigstelle Qazakh)",
+    "it": "Università statale di Baku (sede di Qazakh)",
+    "tr": "Bakü Devlet Üniversitesi (Kazah şubesi)"
   },
   {
     "code": "adnsu",
@@ -36,7 +44,11 @@
     "es": "Universidad Estatal de Petróleo e Industria de Azerbaiyán",
     "he": "האוניברסיטה הממלכתית לנפט ותעשייה של אזרבייג'ן",
     "ko": "아제르바이잔 국립석유산업대학교",
-    "zh": "阿塞拜疆国立石油与工业大学"
+    "zh": "阿塞拜疆国立石油与工业大学",
+    "fr": "Université d'État du pétrole et de l'industrie d'Azerbaïdjan",
+    "de": "Aserbaidschanische Staatliche Universität für Erdöl und Industrie",
+    "it": "Università statale del petrolio e dell'industria dell'Azerbaigian",
+    "tr": "Azerbaycan Devlet Petrol ve Sanayi Üniversitesi"
   },
   {
     "code": "bma",
@@ -49,7 +61,11 @@
     "es": "Academia de Música de Bakú",
     "he": "האקדמיה למוזיקה בבאקו",
     "ko": "바쿠 음악아카데미",
-    "zh": "巴库音乐学院"
+    "zh": "巴库音乐学院",
+    "fr": "Académie de musique de Bakou",
+    "de": "Musikakademie Baku",
+    "it": "Accademia di musica di Baku",
+    "tr": "Bakü Müzik Akademisi"
   },
   {
     "code": "atu",
@@ -62,7 +78,11 @@
     "es": "Universidad de Medicina de Azerbaiyán",
     "he": "האוניברסיטה לרפואה של אזרבייג'ן",
     "ko": "아제르바이잔 의과대학교",
-    "zh": "阿塞拜疆医科大学"
+    "zh": "阿塞拜疆医科大学",
+    "fr": "Université de médecine d'Azerbaïdjan",
+    "de": "Aserbaidschanische Medizinische Universität",
+    "it": "Università di medicina dell'Azerbaigian",
+    "tr": "Azerbaycan Tıp Üniversitesi"
   },
   {
     "code": "api",
@@ -75,7 +95,11 @@
     "es": "Universidad Pedagógica Estatal de Azerbaiyán",
     "he": "האוניברסיטה הפדגוגית הממלכתית של אזרבייג'ן",
     "ko": "아제르바이잔 국립사범대학교",
-    "zh": "阿塞拜疆国立师范大学"
+    "zh": "阿塞拜疆国立师范大学",
+    "fr": "Université pédagogique d'État d'Azerbaïdjan",
+    "de": "Aserbaidschanische Staatliche Pädagogische Universität",
+    "it": "Università pedagogica statale dell'Azerbaigian",
+    "tr": "Azerbaycan Devlet Pedagoji Üniversitesi"
   },
   {
     "code": "apia",
@@ -88,7 +112,11 @@
     "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Aghjabadi)",
     "he": "האוניברסיטה הפדגוגית של אזרבייג'ן (שלוחת אגג'בדי)",
     "ko": "아제르바이잔 국립사범대학교 (아그자바디 분교)",
-    "zh": "阿塞拜疆国立师范大学（阿格贾巴迪分校）"
+    "zh": "阿塞拜疆国立师范大学（阿格贾巴迪分校）",
+    "fr": "Université pédagogique d'État d'Azerbaïdjan (antenne d'Aghjabadi)",
+    "de": "Aserbaidschanische Staatliche Pädagogische Universität (Zweigstelle Aghjabadi)",
+    "it": "Università pedagogica statale dell'Azerbaigian (sede di Aghjabadi)",
+    "tr": "Azerbaycan Devlet Pedagoji Üniversitesi (Ağcabedi şubesi)"
   },
   {
     "code": "apis",
@@ -101,7 +129,11 @@
     "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Shaki)",
     "he": "האוניברסיטה הפדגוגית של אזרבייג'ן (שלוחת שאקי)",
     "ko": "아제르바이잔 국립사범대학교 (셰키 분교)",
-    "zh": "阿塞拜疆国立师范大学（舍基分校）"
+    "zh": "阿塞拜疆国立师范大学（舍基分校）",
+    "fr": "Université pédagogique d'État d'Azerbaïdjan (antenne de Sheki)",
+    "de": "Aserbaidschanische Staatliche Pädagogische Universität (Zweigstelle Scheki)",
+    "it": "Università pedagogica statale dell'Azerbaigian (sede di Sheki)",
+    "tr": "Azerbaycan Devlet Pedagoji Üniversitesi (Şeki şubesi)"
   },
   {
     "code": "apic",
@@ -114,7 +146,11 @@
     "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Jalilabad)",
     "he": "האוניברסיטה הפדגוגית של אזרבייג'ן (שלוחת ג'לילאבאד)",
     "ko": "아제르바이잔 국립사범대학교 (잘릴라바드 분교)",
-    "zh": "阿塞拜疆国立师范大学（贾利拉巴德分校）"
+    "zh": "阿塞拜疆国立师范大学（贾利拉巴德分校）",
+    "fr": "Université pédagogique d'État d'Azerbaïdjan (antenne de Jalilabad)",
+    "de": "Aserbaidschanische Staatliche Pädagogische Universität (Zweigstelle Dschalilabad)",
+    "it": "Università pedagogica statale dell'Azerbaigian (sede di Jalilabad)",
+    "tr": "Azerbaycan Devlet Pedagoji Üniversitesi (Celilabad şubesi)"
   },
   {
     "code": "apiq",
@@ -127,7 +163,11 @@
     "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Guba)",
     "he": "האוניברסיטה הפדגוגית של אזרבייג'ן (שלוחת גובה)",
     "ko": "아제르바이잔 국립사범대학교 (구바 분교)",
-    "zh": "阿塞拜疆国立师范大学（库巴分校）"
+    "zh": "阿塞拜疆国立师范大学（库巴分校）",
+    "fr": "Université pédagogique d'État d'Azerbaïdjan (antenne de Guba)",
+    "de": "Aserbaidschanische Staatliche Pädagogische Universität (Zweigstelle Guba)",
+    "it": "Università pedagogica statale dell'Azerbaigian (sede di Guba)",
+    "tr": "Azerbaycan Devlet Pedagoji Üniversitesi (Guba şubesi)"
   },
   {
     "code": "apish",
@@ -140,7 +180,11 @@
     "es": "Universidad Pedagógica Estatal de Azerbaiyán (sede de Shamakhi)",
     "he": "האוניברסיטה הפדגוגית של אזרבייג'ן (שלוחת שמאכי)",
     "ko": "아제르바이잔 국립사범대학교 (샤마히 분교)",
-    "zh": "阿塞拜疆国立师范大学（沙马基分校）"
+    "zh": "阿塞拜疆国立师范大学（沙马基分校）",
+    "fr": "Université pédagogique d'État d'Azerbaïdjan (antenne de Shamakhi)",
+    "de": "Aserbaidschanische Staatliche Pädagogische Universität (Zweigstelle Schamachi)",
+    "it": "Università pedagogica statale dell'Azerbaigian (sede di Shamakhi)",
+    "tr": "Azerbaycan Devlet Pedagoji Üniversitesi (Şamahı şubesi)"
   },
   {
     "code": "amiu",
@@ -153,7 +197,11 @@
     "es": "Universidad Estatal de Cultura y Artes de Azerbaiyán",
     "he": "האוניברסיטה הממלכתית לתרבות ואמנויות של אזרבייג'ן",
     "ko": "아제르바이잔 국립문화예술대학교",
-    "zh": "阿塞拜疆国立文化艺术大学"
+    "zh": "阿塞拜疆国立文化艺术大学",
+    "fr": "Université d'État de la culture et des arts d'Azerbaïdjan",
+    "de": "Aserbaidschanische Staatliche Universität für Kultur und Kunst",
+    "it": "Università statale di cultura e arti dell'Azerbaigian",
+    "tr": "Azerbaycan Devlet Kültür ve Sanat Üniversitesi"
   },
   {
     "code": "adau",
@@ -166,7 +214,11 @@
     "es": "Universidad Agraria Estatal de Azerbaiyán",
     "he": "האוניברסיטה החקלאית הממלכתית של אזרבייג'ן",
     "ko": "아제르바이잔 국립농업대학교",
-    "zh": "阿塞拜疆国立农业大学"
+    "zh": "阿塞拜疆国立农业大学",
+    "fr": "Université agraire d'État d'Azerbaïdjan",
+    "de": "Aserbaidschanische Staatliche Agraruniversität",
+    "it": "Università agraria statale dell'Azerbaigian",
+    "tr": "Azerbaycan Devlet Tarım Üniversitesi"
   },
   {
     "code": "adiu",
@@ -179,7 +231,11 @@
     "es": "Universidad Estatal de Economía de Azerbaiyán",
     "he": "האוניברסיטה הכלכלית הממלכתית של אזרבייג'ן",
     "ko": "아제르바이잔 국립경제대학교",
-    "zh": "阿塞拜疆国立经济大学"
+    "zh": "阿塞拜疆国立经济大学",
+    "fr": "Université d'État d'économie d'Azerbaïdjan",
+    "de": "Aserbaidschanische Staatliche Wirtschaftsuniversität",
+    "it": "Università statale di economia dell'Azerbaigian",
+    "tr": "Azerbaycan Devlet İktisat Üniversitesi"
   },
   {
     "code": "adiuz",
@@ -192,7 +248,11 @@
     "es": "Universidad Estatal de Economía de Azerbaiyán (sede de Zaqatala)",
     "he": "האוניברסיטה הכלכלית של אזרבייג'ן (שלוחת זקטלה)",
     "ko": "아제르바이잔 국립경제대학교 (자카탈라 분교)",
-    "zh": "阿塞拜疆国立经济大学（扎卡塔拉分校）"
+    "zh": "阿塞拜疆国立经济大学（扎卡塔拉分校）",
+    "fr": "Université d'État d'économie d'Azerbaïdjan (antenne de Zagatala)",
+    "de": "Aserbaidschanische Staatliche Wirtschaftsuniversität (Zweigstelle Sagatala)",
+    "it": "Università statale di economia dell'Azerbaigian (sede di Zagatala)",
+    "tr": "Azerbaycan Devlet İktisat Üniversitesi (Zakatala şubesi)"
   },
   {
     "code": "adiud",
@@ -205,7 +265,11 @@
     "es": "Universidad Estatal de Economía de Azerbaiyán (sede de Darband)",
     "he": "האוניברסיטה הכלכלית של אזרבייג'ן (שלוחת דרבנד)",
     "ko": "아제르바이잔 국립경제대학교 (다르반드 분교)",
-    "zh": "阿塞拜疆国立经济大学（达尔班德分校）"
+    "zh": "阿塞拜疆国立经济大学（达尔班德分校）",
+    "fr": "Université d'État d'économie d'Azerbaïdjan (antenne de Derbent)",
+    "de": "Aserbaidschanische Staatliche Wirtschaftsuniversität (Zweigstelle Derbent)",
+    "it": "Università statale di economia dell'Azerbaigian (sede di Derbent)",
+    "tr": "Azerbaycan Devlet İktisat Üniversitesi (Derbent şubesi)"
   },
   {
     "code": "adbta",
@@ -218,7 +282,11 @@
     "es": "Academia Estatal de Cultura Física y Deporte de Azerbaiyán",
     "he": "האקדמיה הממלכתית לחינוך גופני וספורט של אזרבייג'ן",
     "ko": "아제르바이잔 국립체육스포츠아카데미",
-    "zh": "阿塞拜疆国立体育运动学院"
+    "zh": "阿塞拜疆国立体育运动学院",
+    "fr": "Académie d'État d'éducation physique et de sport d'Azerbaïdjan",
+    "de": "Aserbaidschanische Staatliche Akademie für Körperkultur und Sport",
+    "it": "Accademia statale di educazione fisica e sport dell'Azerbaigian",
+    "tr": "Azerbaycan Devlet Beden Eğitimi ve Spor Akademisi"
   },
   {
     "code": "gdu",
@@ -231,7 +299,11 @@
     "es": "Universidad Estatal de Ganyá",
     "he": "האוניברסיטה הממלכתית של גנג'ה",
     "ko": "간자 국립대학교",
-    "zh": "甘贾国立大学"
+    "zh": "甘贾国立大学",
+    "fr": "Université d'État de Ganja",
+    "de": "Staatliche Universität Ganja",
+    "it": "Università statale di Ganja",
+    "tr": "Gence Devlet Üniversitesi"
   },
   {
     "code": "bsu",
@@ -244,7 +316,11 @@
     "es": "Universidad Eslava de Bakú",
     "he": "האוניברסיטה הסלאבית בבאקו",
     "ko": "바쿠 슬라브대학교",
-    "zh": "巴库斯拉夫大学"
+    "zh": "巴库斯拉夫大学",
+    "fr": "Université slave de Bakou",
+    "de": "Slawische Universität Baku",
+    "it": "Università slava di Baku",
+    "tr": "Bakü Slavyan Üniversitesi"
   },
   {
     "code": "aztechu",
@@ -257,7 +333,11 @@
     "es": "Universidad Técnica de Azerbaiyán",
     "he": "האוניברסיטה הטכנית של אזרבייג'ן",
     "ko": "아제르바이잔 공과대학교",
-    "zh": "阿塞拜疆技术大学"
+    "zh": "阿塞拜疆技术大学",
+    "fr": "Université technique d'Azerbaïdjan",
+    "de": "Technische Universität Aserbaidschan",
+    "it": "Università tecnica dell'Azerbaigian",
+    "tr": "Azerbaycan Teknik Üniversitesi"
   },
   {
     "code": "sdu",
@@ -270,7 +350,11 @@
     "es": "Universidad Estatal de Sumqayit",
     "he": "האוניברסיטה הממלכתית של סומגאיט",
     "ko": "숨가이트 국립대학교",
-    "zh": "苏姆盖特国立大学"
+    "zh": "苏姆盖特国立大学",
+    "fr": "Université d'État de Sumgayit",
+    "de": "Staatliche Universität Sumgayit",
+    "it": "Università statale di Sumgayit",
+    "tr": "Sumgayıt Devlet Üniversitesi"
   },
   {
     "code": "ndu",
@@ -283,7 +367,11 @@
     "es": "Universidad Estatal de Najicheván",
     "he": "האוניברסיטה הממלכתית של נחצ'יוואן",
     "ko": "나흐치반 국립대학교",
-    "zh": "纳希切万国立大学"
+    "zh": "纳希切万国立大学",
+    "fr": "Université d'État de Nakhitchevan",
+    "de": "Staatliche Universität Nachitschewan",
+    "it": "Università statale di Nakhchivan",
+    "tr": "Nahçıvan Devlet Üniversitesi"
   },
   {
     "code": "adu",
@@ -296,7 +384,11 @@
     "es": "Universidad de Idiomas de Azerbaiyán",
     "he": "האוניברסיטה לשפות של אזרבייג'ן",
     "ko": "아제르바이잔 외국어대학교",
-    "zh": "阿塞拜疆语言大学"
+    "zh": "阿塞拜疆语言大学",
+    "fr": "Université des langues d'Azerbaïdjan",
+    "de": "Aserbaidschanische Universität der Sprachen",
+    "it": "Università delle lingue dell'Azerbaigian",
+    "tr": "Azerbaycan Diller Üniversitesi"
   },
   {
     "code": "amemiu",
@@ -309,7 +401,11 @@
     "es": "Universidad de Arquitectura y Construcción de Azerbaiyán",
     "he": "האוניברסיטה לאדריכלות ובנייה של אזרבייג'ן",
     "ko": "아제르바이잔 건축건설대학교",
-    "zh": "阿塞拜疆建筑与工程大学"
+    "zh": "阿塞拜疆建筑与工程大学",
+    "fr": "Université d'architecture et de construction d'Azerbaïdjan",
+    "de": "Aserbaidschanische Universität für Architektur und Bauwesen",
+    "it": "Università di architettura e costruzioni dell'Azerbaigian",
+    "tr": "Azerbaycan Mimarlık ve İnşaat Üniversitesi"
   },
   {
     "code": "aztexnu",
@@ -322,7 +418,11 @@
     "es": "Universidad Tecnológica de Azerbaiyán",
     "he": "האוניברסיטה הטכנולוגית של אזרבייג'ן",
     "ko": "아제르바이잔 기술대학교",
-    "zh": "阿塞拜疆工艺大学"
+    "zh": "阿塞拜疆工艺大学",
+    "fr": "Université de technologie d'Azerbaïdjan",
+    "de": "Aserbaidschanische Technologieuniversität",
+    "it": "Università di tecnologia dell'Azerbaigian",
+    "tr": "Azerbaycan Teknoloji Üniversitesi"
   },
   {
     "code": "ldu",
@@ -335,7 +435,11 @@
     "es": "Universidad Estatal de Lankaran",
     "he": "האוניברסיטה הממלכתית של לנקראן",
     "ko": "랑카란 국립대학교",
-    "zh": "连科兰国立大学"
+    "zh": "连科兰国立大学",
+    "fr": "Université d'État de Lankaran",
+    "de": "Staatliche Universität Lankaran",
+    "it": "Università statale di Lankaran",
+    "tr": "Lenkeran Devlet Üniversitesi"
   },
   {
     "code": "maa",
@@ -348,7 +452,11 @@
     "es": "Academia Nacional de Aviación",
     "he": "האקדמיה הלאומית לתעופה",
     "ko": "국립항공아카데미",
-    "zh": "国立航空学院"
+    "zh": "国立航空学院",
+    "fr": "Académie nationale de l'aviation",
+    "de": "Nationale Akademie für Luftfahrt",
+    "it": "Accademia nazionale dell'aviazione",
+    "tr": "Millî Havacılık Akademisi"
   },
   {
     "code": "adda",
@@ -361,7 +469,11 @@
     "es": "Academia Marítima Estatal de Azerbaiyán",
     "he": "האקדמיה הימית הממלכתית של אזרבייג'ן",
     "ko": "아제르바이잔 국립해양아카데미",
-    "zh": "阿塞拜疆国立海事学院"
+    "zh": "阿塞拜疆国立海事学院",
+    "fr": "Académie maritime d'État d'Azerbaïdjan",
+    "de": "Aserbaidschanische Staatliche Seefahrtsakademie",
+    "it": "Accademia marittima statale dell'Azerbaigian",
+    "tr": "Azerbaycan Devlet Deniz Akademisi"
   },
   {
     "code": "apdia",
@@ -374,7 +486,11 @@
     "es": "Academia de Administración Pública dependiente del Presidente de la República de Azerbaiyán",
     "he": "האקדמיה למנהל ציבורי שליד נשיא רפובליקת אזרבייג'ן",
     "ko": "아제르바이잔 대통령 직속 국가행정아카데미",
-    "zh": "阿塞拜疆共和国总统直属公共管理学院"
+    "zh": "阿塞拜疆共和国总统直属公共管理学院",
+    "fr": "Académie d'administration publique auprès du Président de la République d'Azerbaïdjan",
+    "de": "Akademie für öffentliche Verwaltung beim Präsidenten der Republik Aserbaidschan",
+    "it": "Accademia di amministrazione pubblica presso il Presidente dell'Azerbaigian",
+    "tr": "Azerbaycan Cumhurbaşkanlığına Bağlı Devlet İdarecilik Akademisi"
   },
   {
     "code": "adra",
@@ -387,7 +503,11 @@
     "es": "Academia Estatal de Bellas Artes de Azerbaiyán",
     "he": "האקדמיה הממלכתית לאמנות של אזרבייג'ן",
     "ko": "아제르바이잔 국립미술아카데미",
-    "zh": "阿塞拜疆国立艺术学院"
+    "zh": "阿塞拜疆国立艺术学院",
+    "fr": "Académie d'État des beaux-arts d'Azerbaïdjan",
+    "de": "Aserbaidschanische Staatliche Kunstakademie",
+    "it": "Accademia statale di belle arti dell'Azerbaigian",
+    "tr": "Azerbaycan Devlet Ressamlık Akademisi"
   },
   {
     "code": "azmik",
@@ -400,7 +520,11 @@
     "es": "Conservatorio Nacional de Azerbaiyán",
     "he": "הקונסרבטוריון הלאומי של אזרבייג'ן",
     "ko": "아제르바이잔 국립음악원",
-    "zh": "阿塞拜疆国立音乐学院"
+    "zh": "阿塞拜疆国立音乐学院",
+    "fr": "Conservatoire national d'Azerbaïdjan",
+    "de": "Aserbaidschanisches Nationalkonservatorium",
+    "it": "Conservatorio nazionale dell'Azerbaigian",
+    "tr": "Azerbaycan Millî Konservatuvarı"
   },
   {
     "code": "nmi",
@@ -413,7 +537,11 @@
     "es": "Instituto de Docentes de Najicheván",
     "he": "המכון להכשרת מורים בנחצ'יוואן",
     "ko": "나흐치반 교원대학",
-    "zh": "纳希切万师范学院"
+    "zh": "纳希切万师范学院",
+    "fr": "Institut des enseignants de Nakhitchevan",
+    "de": "Lehrerinstitut Nachitschewan",
+    "it": "Istituto degli insegnanti di Nakhchivan",
+    "tr": "Nahçıvan Öğretmenler Enstitüsü"
   },
   {
     "code": "ada",
@@ -426,7 +554,11 @@
     "es": "Universidad ADA",
     "he": "אוניברסיטת ADA",
     "ko": "ADA 대학교",
-    "zh": "ADA 大学"
+    "zh": "ADA 大学",
+    "fr": "Université ADA",
+    "de": "ADA-Universität",
+    "it": "Università ADA",
+    "tr": "ADA Üniversitesi"
   },
   {
     "code": "atmu",
@@ -439,7 +571,11 @@
     "es": "Universidad de Turismo y Gestión de Azerbaiyán",
     "he": "האוניברסיטה לתיירות וניהול של אזרבייג'ן",
     "ko": "아제르바이잔 관광경영대학교",
-    "zh": "阿塞拜疆旅游与管理大学"
+    "zh": "阿塞拜疆旅游与管理大学",
+    "fr": "Université du tourisme et du management d'Azerbaïdjan",
+    "de": "Aserbaidschanische Universität für Tourismus und Management",
+    "it": "Università del turismo e del management dell'Azerbaigian",
+    "tr": "Azerbaycan Turizm ve Yönetim Üniversitesi"
   },
   {
     "code": "msub",
@@ -452,7 +588,11 @@
     "es": "Sede de Bakú de la Universidad Estatal de Moscú Lomonósov",
     "he": "שלוחת באקו של האוניברסיטה הממלכתית של מוסקבה על שם לומונוסוב",
     "ko": "로모노소프 모스크바 국립대학교 바쿠 분교",
-    "zh": "莫斯科国立罗蒙诺索夫大学巴库分校"
+    "zh": "莫斯科国立罗蒙诺索夫大学巴库分校",
+    "fr": "Antenne de Bakou de l'Université d'État Lomonossov de Moscou",
+    "de": "Zweigstelle Baku der Lomonossow-Universität Moskau",
+    "it": "Sede di Baku dell'Università statale Lomonosov di Mosca",
+    "tr": "Lomonosov Moskova Devlet Üniversitesi Bakü Şubesi"
   },
   {
     "code": "banm",
@@ -465,7 +605,11 @@
     "es": "Escuela Superior del Petróleo de Bakú",
     "he": "בית הספר הגבוה לנפט בבאקו",
     "ko": "바쿠 고등석유학교",
-    "zh": "巴库高等石油学校"
+    "zh": "巴库高等石油学校",
+    "fr": "École supérieure du pétrole de Bakou",
+    "de": "Höhere Erdölschule Baku",
+    "it": "Scuola superiore del petrolio di Baku",
+    "tr": "Bakü Yüksek Petrol Okulu"
   },
   {
     "code": "bxo",
@@ -478,7 +622,11 @@
     "es": "Academia de Coreografía de Bakú",
     "he": "האקדמיה לכוריאוגרפיה בבאקו",
     "ko": "바쿠 무용아카데미",
-    "zh": "巴库舞蹈学院"
+    "zh": "巴库舞蹈学院",
+    "fr": "Académie de chorégraphie de Bakou",
+    "de": "Choreografieakademie Baku",
+    "it": "Accademia di coreografia di Baku",
+    "tr": "Bakü Koreografi Akademisi"
   },
   {
     "code": "mdu",
@@ -491,7 +639,11 @@
     "es": "Universidad Estatal de Mingachevir",
     "he": "האוניברסיטה הממלכתית של מינגצ'ביר",
     "ko": "민게체비르 국립대학교",
-    "zh": "明盖切维尔国立大学"
+    "zh": "明盖切维尔国立大学",
+    "fr": "Université d'État de Mingachevir",
+    "de": "Staatliche Universität Mingatschewir",
+    "it": "Università statale di Mingachevir",
+    "tr": "Mingeçevir Devlet Üniversitesi"
   },
   {
     "code": "bmu",
@@ -504,7 +656,11 @@
     "es": "Universidad de Ingeniería de Bakú",
     "he": "האוניברסיטה להנדסה בבאקו",
     "ko": "바쿠 엔지니어링대학교",
-    "zh": "巴库工程大学"
+    "zh": "巴库工程大学",
+    "fr": "Université d'ingénierie de Bakou",
+    "de": "Ingenieuruniversität Baku",
+    "it": "Università di ingegneria di Baku",
+    "tr": "Bakü Mühendislik Üniversitesi"
   },
   {
     "code": "mdtub",
@@ -517,7 +673,11 @@
     "es": "Sede de Bakú de la Primera Universidad Médica Estatal Séchenov de Moscú",
     "he": "שלוחת באקו של האוניברסיטה הרפואית הראשונה של מוסקבה על שם סצ'נוב",
     "ko": "세체노프 제1모스크바 국립의과대학교 바쿠 분교",
-    "zh": "莫斯科第一国立谢切诺夫医科大学巴库分校"
+    "zh": "莫斯科第一国立谢切诺夫医科大学巴库分校",
+    "fr": "Antenne de Bakou de la Première Université de médecine Setchenov de Moscou",
+    "de": "Zweigstelle Baku der Ersten Moskauer Medizinischen Setschenow-Universität",
+    "it": "Sede di Baku della Prima Università di medicina Sečenov di Mosca",
+    "tr": "Seçenov Birinci Moskova Devlet Tıp Üniversitesi Bakü Şubesi"
   },
   {
     "code": "aii",
@@ -530,7 +690,11 @@
     "es": "Instituto de Teología de Azerbaiyán",
     "he": "המכון לתיאולוגיה של אזרבייג'ן",
     "ko": "아제르바이잔 신학대학",
-    "zh": "阿塞拜疆神学院"
+    "zh": "阿塞拜疆神学院",
+    "fr": "Institut de théologie d'Azerbaïdjan",
+    "de": "Aserbaidschanisches Institut für Theologie",
+    "it": "Istituto di teologia dell'Azerbaigian",
+    "tr": "Azerbaycan İlahiyat Enstitüsü"
   },
   {
     "code": "dinpa",
@@ -543,7 +707,11 @@
     "es": "Academia de Policía del Ministerio del Interior de la República de Azerbaiyán",
     "he": "האקדמיה למשטרה של משרד הפנים של אזרבייג'ן",
     "ko": "아제르바이잔 내무부 경찰아카데미",
-    "zh": "阿塞拜疆共和国内务部警察学院"
+    "zh": "阿塞拜疆共和国内务部警察学院",
+    "fr": "Académie de police du ministère de l'Intérieur de la République d'Azerbaïdjan",
+    "de": "Polizeiakademie des Innenministeriums der Republik Aserbaidschan",
+    "it": "Accademia di polizia del Ministero dell'Interno dell'Azerbaigian",
+    "tr": "Azerbaycan Cumhuriyeti İçişleri Bakanlığı Polis Akademisi"
   },
   {
     "code": "dtxa",
@@ -556,7 +724,11 @@
     "es": "Academia Heydar Aliyev del Servicio de Seguridad del Estado de Azerbaiyán",
     "he": "האקדמיה על שם היידר אלייב של שירות הביטחון הממלכתי",
     "ko": "아제르바이잔 국가보안국 헤이다르 알리예프 아카데미",
-    "zh": "阿塞拜疆共和国国家安全局海达尔·阿利耶夫学院"
+    "zh": "阿塞拜疆共和国国家安全局海达尔·阿利耶夫学院",
+    "fr": "Académie Heydar Aliyev du Service de sécurité d'État de la République d'Azerbaïdjan",
+    "de": "Heydar-Aliyev-Akademie des Staatssicherheitsdienstes der Republik Aserbaidschan",
+    "it": "Accademia Heydar Aliyev del Servizio di sicurezza statale dell'Azerbaigian",
+    "tr": "Azerbaycan Cumhuriyeti Devlet Güvenlik Servisi Haydar Aliyev Akademisi"
   },
   {
     "code": "fhna",
@@ -569,7 +741,11 @@
     "es": "Academia del Ministerio de Situaciones de Emergencia de Azerbaiyán",
     "he": "האקדמיה של המשרד למצבי חירום של אזרבייג'ן",
     "ko": "아제르바이잔 비상사태부 아카데미",
-    "zh": "阿塞拜疆共和国紧急情况部学院"
+    "zh": "阿塞拜疆共和国紧急情况部学院",
+    "fr": "Académie du ministère des Situations d'urgence de la République d'Azerbaïdjan",
+    "de": "Akademie des Ministeriums für Notsituationen der Republik Aserbaidschan",
+    "it": "Accademia del Ministero delle situazioni di emergenza dell'Azerbaigian",
+    "tr": "Azerbaycan Cumhuriyeti Olağanüstü Haller Bakanlığı Akademisi"
   },
   {
     "code": "dgka",
@@ -582,7 +758,11 @@
     "es": "Academia del Comité Estatal de Aduanas de Azerbaiyán",
     "he": "האקדמיה של הוועדה הממלכתית למכס של אזרבייג'ן",
     "ko": "아제르바이잔 국가관세위원회 아카데미",
-    "zh": "阿塞拜疆共和国国家海关委员会学院"
+    "zh": "阿塞拜疆共和国国家海关委员会学院",
+    "fr": "Académie du Comité d'État des douanes de la République d'Azerbaïdjan",
+    "de": "Akademie des Staatlichen Zollkomitees der Republik Aserbaidschan",
+    "it": "Accademia del Comitato statale delle dogane dell'Azerbaigian",
+    "tr": "Azerbaycan Cumhuriyeti Devlet Gümrük Komitesi Akademisi"
   },
   {
     "code": "mmu",
@@ -595,7 +775,11 @@
     "es": "Universidad de Defensa Nacional (Azerbaiyán)",
     "he": "האוניברסיטה להגנה לאומית (אזרבייג'ן)",
     "ko": "아제르바이잔 국방대학교",
-    "zh": "阿塞拜疆国防大学"
+    "zh": "阿塞拜疆国防大学",
+    "fr": "Université de la défense nationale (Azerbaïdjan)",
+    "de": "Nationale Verteidigungsuniversität (Aserbaidschan)",
+    "it": "Università della difesa nazionale (Azerbaigian)",
+    "tr": "Millî Savunma Üniversitesi (Azerbaycan)"
   },
   {
     "code": "haahi",
@@ -608,7 +792,11 @@
     "es": "Instituto Militar Heydar Aliyev",
     "he": "המכון הצבאי על שם היידר אלייב",
     "ko": "헤이다르 알리예프 군사대학",
-    "zh": "海达尔·阿利耶夫军事学院"
+    "zh": "海达尔·阿利耶夫军事学院",
+    "fr": "Institut militaire Heydar Aliyev",
+    "de": "Heydar-Aliyev-Militärinstitut",
+    "it": "Istituto militare Heydar Aliyev",
+    "tr": "Haydar Aliyev Askeri Enstitüsü"
   },
   {
     "code": "sqha",
@@ -621,7 +809,11 @@
     "es": "Academia Militar de las Fuerzas Armadas de Azerbaiyán",
     "he": "האקדמיה הצבאית של הכוחות המזוינים של אזרבייג'ן",
     "ko": "아제르바이잔 군사아카데미",
-    "zh": "阿塞拜疆共和国武装力量军事学院"
+    "zh": "阿塞拜疆共和国武装力量军事学院",
+    "fr": "Académie militaire des Forces armées de la République d'Azerbaïdjan",
+    "de": "Militärakademie der Streitkräfte der Republik Aserbaidschan",
+    "it": "Accademia militare delle Forze armate dell'Azerbaigian",
+    "tr": "Azerbaycan Cumhuriyeti Silahlı Kuvvetleri Askeri Akademisi"
   },
   {
     "code": "dsxa",
@@ -634,7 +826,11 @@
     "es": "Academia del Servicio Estatal de Fronteras de Azerbaiyán",
     "he": "האקדמיה של שירות הגבול הממלכתי של אזרבייג'ן",
     "ko": "아제르바이잔 국경수비청 아카데미",
-    "zh": "阿塞拜疆共和国国家边防局学院"
+    "zh": "阿塞拜疆共和国国家边防局学院",
+    "fr": "Académie du Service d'État des frontières de la République d'Azerbaïdjan",
+    "de": "Akademie des Staatlichen Grenzdienstes der Republik Aserbaidschan",
+    "it": "Accademia del Servizio statale di frontiera dell'Azerbaigian",
+    "tr": "Azerbaycan Cumhuriyeti Devlet Sınır Servisi Akademisi"
   },
   {
     "code": "dqahm",
@@ -647,7 +843,11 @@
     "es": "Escuela Militar Superior de las Tropas Internas de Azerbaiyán",
     "he": "בית הספר הצבאי הגבוה של הכוחות הפנימיים של אזרבייג'ן",
     "ko": "아제르바이잔 내무군 고등군사학교",
-    "zh": "阿塞拜疆共和国内卫部队高等军事学校"
+    "zh": "阿塞拜疆共和国内卫部队高等军事学校",
+    "fr": "École militaire supérieure des Troupes intérieures de la République d'Azerbaïdjan",
+    "de": "Höhere Militärschule der Inneren Truppen der Republik Aserbaidschan",
+    "it": "Scuola militare superiore delle Truppe interne dell'Azerbaigian",
+    "tr": "Azerbaycan Cumhuriyeti İç Birlikler Yüksek Askeri Okulu"
   },
   {
     "code": "qku",
@@ -660,7 +860,11 @@
     "es": "Universidad del Caspio Occidental",
     "he": "האוניברסיטה הקספית המערבית",
     "ko": "서카스피해대학교",
-    "zh": "西里海大学"
+    "zh": "西里海大学",
+    "fr": "Université de la Caspienne occidentale",
+    "de": "Westkaspische Universität",
+    "it": "Università del Caspio occidentale",
+    "tr": "Batı Hazar Üniversitesi"
   },
   {
     "code": "azu",
@@ -673,7 +877,11 @@
     "es": "Universidad de Azerbaiyán",
     "he": "אוניברסיטת אזרבייג'ן",
     "ko": "아제르바이잔 대학교",
-    "zh": "阿塞拜疆大学"
+    "zh": "阿塞拜疆大学",
+    "fr": "Université d'Azerbaïdjan",
+    "de": "Universität Aserbaidschan",
+    "it": "Università dell'Azerbaigian",
+    "tr": "Azerbaycan Üniversitesi"
   },
   {
     "code": "khu",
@@ -686,7 +894,11 @@
     "es": "Universidad Khazar",
     "he": "אוניברסיטת חזר",
     "ko": "하자르 대학교",
-    "zh": "哈扎尔大学"
+    "zh": "哈扎尔大学",
+    "fr": "Université Khazar",
+    "de": "Chasar-Universität",
+    "it": "Università Khazar",
+    "tr": "Hazar Üniversitesi"
   },
   {
     "code": "bbu",
@@ -699,7 +911,11 @@
     "es": "Universidad de Negocios de Bakú",
     "he": "האוניברסיטה לעסקים בבאקו",
     "ko": "바쿠 비즈니스대학교",
-    "zh": "巴库商业大学"
+    "zh": "巴库商业大学",
+    "fr": "Université de commerce de Bakou",
+    "de": "Wirtschaftsuniversität Baku",
+    "it": "Università di business di Baku",
+    "tr": "Bakü İşletme Üniversitesi"
   },
   {
     "code": "baau",
@@ -712,7 +928,11 @@
     "es": "Universidad Euroasiática de Bakú",
     "he": "האוניברסיטה האירואסייתית בבאקו",
     "ko": "바쿠 유라시아대학교",
-    "zh": "巴库欧亚大学"
+    "zh": "巴库欧亚大学",
+    "fr": "Université eurasienne de Bakou",
+    "de": "Eurasische Universität Baku",
+    "it": "Università eurasiatica di Baku",
+    "tr": "Bakü Avrasya Üniversitesi"
   },
   {
     "code": "bqzu",
@@ -725,7 +945,11 @@
     "es": "Universidad de Mujeres de Bakú",
     "he": "אוניברסיטת הנשים בבאקו",
     "ko": "바쿠 여자대학교",
-    "zh": "巴库女子大学"
+    "zh": "巴库女子大学",
+    "fr": "Université des filles de Bakou",
+    "de": "Mädchenuniversität Baku",
+    "it": "Università femminile di Baku",
+    "tr": "Bakü Kızlar Üniversitesi"
   },
   {
     "code": "bku",
@@ -738,7 +962,11 @@
     "es": "Universidad de Cooperación de Azerbaiyán",
     "he": "האוניברסיטה לשיתוף פעולה של אזרבייג'ן",
     "ko": "아제르바이잔 협동대학교",
-    "zh": "阿塞拜疆合作大学"
+    "zh": "阿塞拜疆合作大学",
+    "fr": "Université de la coopération d'Azerbaïdjan",
+    "de": "Aserbaidschanische Universität für Kooperation",
+    "it": "Università della cooperazione dell'Azerbaigian",
+    "tr": "Azerbaycan Kooperasyon Üniversitesi"
   },
   {
     "code": "oyu",
@@ -751,7 +979,11 @@
     "es": "Universidad Odlar Yurdu",
     "he": "אוניברסיטת אודלר יורדו",
     "ko": "오들라르 유르두 대학교",
-    "zh": "奥德拉尔尤尔杜大学"
+    "zh": "奥德拉尔尤尔杜大学",
+    "fr": "Université Odlar Yurdu",
+    "de": "Odlar-Yurdu-Universität",
+    "it": "Università Odlar Yurdu",
+    "tr": "Odlar Yurdu Üniversitesi"
   },
   {
     "code": "tfku",
@@ -764,7 +996,11 @@
     "es": "Universidad Tafakkur",
     "he": "אוניברסיטת תפכור",
     "ko": "타파쿠르 대학교",
-    "zh": "塔法库尔大学"
+    "zh": "塔法库尔大学",
+    "fr": "Université Tafakkur",
+    "de": "Tafakkur-Universität",
+    "it": "Università Tafakkur",
+    "tr": "Tefekkür Üniversitesi"
   },
   {
     "code": "nuu",
@@ -777,7 +1013,11 @@
     "es": "Universidad «Najicheván»",
     "he": "אוניברסיטת «נחצ'יוואן»",
     "ko": "나흐치반 대학교",
-    "zh": "纳希切万大学"
+    "zh": "纳希切万大学",
+    "fr": "Université « Nakhitchevan »",
+    "de": "Universität „Nachitschewan“",
+    "it": "Università «Nakhchivan»",
+    "tr": "“Nahçıvan” Üniversitesi"
   },
   {
     "code": "aesma",
@@ -790,7 +1030,11 @@
     "es": "Academia de Trabajo y Relaciones Sociales de Azerbaiyán",
     "he": "האקדמיה לעבודה ויחסים חברתיים של אזרבייג'ן",
     "ko": "아제르바이잔 노동사회관계아카데미",
-    "zh": "阿塞拜疆劳动与社会关系学院"
+    "zh": "阿塞拜疆劳动与社会关系学院",
+    "fr": "Académie du travail et des relations sociales d'Azerbaïdjan",
+    "de": "Aserbaidschanische Akademie für Arbeit und soziale Beziehungen",
+    "it": "Accademia del lavoro e delle relazioni sociali dell'Azerbaigian",
+    "tr": "Azerbaycan Emek ve Sosyal İlişkiler Akademisi"
   },
   {
     "code": "karabakh",
@@ -803,7 +1047,11 @@
     "es": "Universidad de Karabaj",
     "he": "אוניברסיטת קרבאך",
     "ko": "카라바흐 대학교",
-    "zh": "卡拉巴赫大学"
+    "zh": "卡拉巴赫大学",
+    "fr": "Université du Karabagh",
+    "de": "Universität Karabach",
+    "it": "Università del Karabakh",
+    "tr": "Karabağ Üniversitesi"
   },
   {
     "code": "ge_tsu",
@@ -816,7 +1064,11 @@
     "es": "Universidad Estatal de Tiflis Ivane Javakhishvili",
     "he": "האוניברסיטה הממלכתית של טביליסי על שם איוואנה ג'וואחישווילי",
     "ko": "이반 자바히슈빌리 트빌리시 국립대학교",
-    "zh": "伊万·贾瓦希什维利第比利斯国立大学"
+    "zh": "伊万·贾瓦希什维利第比利斯国立大学",
+    "fr": "Université d'État Ivané Djavakhichvili de Tbilissi",
+    "de": "Staatliche Iwane-Dschawachischwili-Universität Tiflis",
+    "it": "Università statale Ivane Javakhishvili di Tbilisi",
+    "tr": "İvane Cavahişvili Tiflis Devlet Üniversitesi"
   },
   {
     "code": "ge_gtu",
@@ -829,7 +1081,11 @@
     "es": "Universidad Técnica de Georgia",
     "he": "האוניברסיטה הטכנית של גאורגיה",
     "ko": "조지아 공과대학교",
-    "zh": "格鲁吉亚技术大学"
+    "zh": "格鲁吉亚技术大学",
+    "fr": "Université technique de Géorgie",
+    "de": "Technische Universität Georgien",
+    "it": "Università tecnica della Georgia",
+    "tr": "Gürcistan Teknik Üniversitesi"
   },
   {
     "code": "ge_isu",
@@ -842,7 +1098,11 @@
     "es": "Universidad Estatal Ilia",
     "he": "האוניברסיטה הממלכתית איליה",
     "ko": "일리아 국립대학교",
-    "zh": "伊利亚国立大学"
+    "zh": "伊利亚国立大学",
+    "fr": "Université d'État Ilia",
+    "de": "Staatliche Ilia-Universität",
+    "it": "Università statale Ilia",
+    "tr": "İlia Devlet Üniversitesi"
   },
   {
     "code": "ge_tsmu",
@@ -855,7 +1115,11 @@
     "es": "Universidad Estatal de Medicina de Tiflis",
     "he": "האוניברסיטה הממלכתית לרפואה בטביליסי",
     "ko": "트빌리시 국립의과대학교",
-    "zh": "第比利斯国立医科大学"
+    "zh": "第比利斯国立医科大学",
+    "fr": "Université de médecine d'État de Tbilissi",
+    "de": "Staatliche Medizinische Universität Tiflis",
+    "it": "Università statale di medicina di Tbilisi",
+    "tr": "Tiflis Devlet Tıp Üniversitesi"
   },
   {
     "code": "ge_freeuni",
@@ -868,7 +1132,11 @@
     "es": "Universidad Libre de Tiflis",
     "he": "האוניברסיטה החופשית בטביליסי",
     "ko": "트빌리시 자유대학교",
-    "zh": "第比利斯自由大学"
+    "zh": "第比利斯自由大学",
+    "fr": "Université libre de Tbilissi",
+    "de": "Freie Universität Tiflis",
+    "it": "Università libera di Tbilisi",
+    "tr": "Tiflis Hür Üniversitesi"
   },
   {
     "code": "ge_caucasus",
@@ -881,7 +1149,11 @@
     "es": "Universidad del Cáucaso",
     "he": "אוניברסיטת הקווקז",
     "ko": "캅카스 대학교",
-    "zh": "高加索大学"
+    "zh": "高加索大学",
+    "fr": "Université du Caucase (Tbilissi)",
+    "de": "Kaukasus-Universität (Tiflis)",
+    "it": "Università del Caucaso (Tbilisi)",
+    "tr": "Kafkas Üniversitesi (Tiflis)"
   },
   {
     "code": "ge_bsu",
@@ -894,7 +1166,11 @@
     "es": "Universidad Estatal de Batumi Shota Rustaveli",
     "he": "האוניברסיטה הממלכתית של בטומי על שם שוטה רוסתוולי",
     "ko": "바투미 쇼타 루스타벨리 국립대학교",
-    "zh": "巴统肖塔·鲁斯塔维利国立大学"
+    "zh": "巴统肖塔·鲁斯塔维利国立大学",
+    "fr": "Université d'État Chota Roustaveli de Batoumi",
+    "de": "Staatliche Schota-Rustaweli-Universität Batumi",
+    "it": "Università statale Shota Rustaveli di Batumi",
+    "tr": "Batum Şota Rustaveli Devlet Üniversitesi"
   },
   {
     "code": "ge_atsu",
@@ -907,7 +1183,11 @@
     "es": "Universidad Estatal Akaki Tsereteli",
     "he": "האוניברסיטה הממלכתית אקקי צרתלי",
     "ko": "아카키 체레텔리 국립대학교",
-    "zh": "阿卡基·采列捷利国立大学"
+    "zh": "阿卡基·采列捷利国立大学",
+    "fr": "Université d'État Akaki Tsereteli (Koutaïssi)",
+    "de": "Staatliche Akaki-Zereteli-Universität (Kutaissi)",
+    "it": "Università statale Akaki Tsereteli (Kutaisi)",
+    "tr": "Akaki Tsereteli Devlet Üniversitesi (Kutaisi)"
   },
   {
     "code": "ru_msu",
@@ -920,7 +1200,11 @@
     "es": "Universidad Estatal de Moscú Lomonósov",
     "he": "האוניברסיטה הממלכתית של מוסקבה על שם לומונוסוב",
     "ko": "로모노소프 모스크바 국립대학교",
-    "zh": "莫斯科国立罗蒙诺索夫大学"
+    "zh": "莫斯科国立罗蒙诺索夫大学",
+    "fr": "Université d'État Lomonossov de Moscou",
+    "de": "Lomonossow-Universität Moskau",
+    "it": "Università statale Lomonosov di Mosca",
+    "tr": "Lomonosov Moskova Devlet Üniversitesi"
   },
   {
     "code": "ru_spbu",
@@ -933,7 +1217,11 @@
     "es": "Universidad Estatal de San Petersburgo",
     "he": "האוניברסיטה הממלכתית של סנקט פטרבורג",
     "ko": "상트페테르부르크 국립대학교",
-    "zh": "圣彼得堡国立大学"
+    "zh": "圣彼得堡国立大学",
+    "fr": "Université d'État de Saint-Pétersbourg",
+    "de": "Staatliche Universität Sankt Petersburg",
+    "it": "Università statale di San Pietroburgo",
+    "tr": "Sankt Petersburg Devlet Üniversitesi"
   },
   {
     "code": "ru_hse",
@@ -946,7 +1234,11 @@
     "es": "Escuela Superior de Economía (HSE)",
     "he": "בית הספר הגבוה לכלכלה (HSE)",
     "ko": "러시아 고등경제대학교",
-    "zh": "俄罗斯高等经济学院"
+    "zh": "俄罗斯高等经济学院",
+    "fr": "École des hautes études en sciences économiques (HSE)",
+    "de": "Hochschule für Wirtschaft (HSE)",
+    "it": "Scuola superiore di economia (HSE)",
+    "tr": "Yüksek Ekonomi Okulu (HSE)"
   },
   {
     "code": "ru_mgimo",
@@ -959,7 +1251,11 @@
     "es": "Instituto Estatal de Relaciones Internacionales de Moscú (MGIMO)",
     "he": "המכון הממלכתי ליחסים בינלאומיים של מוסקבה (MGIMO)",
     "ko": "모스크바 국제관계대학교 (MGIMO)",
-    "zh": "莫斯科国立国际关系学院"
+    "zh": "莫斯科国立国际关系学院",
+    "fr": "Institut d'État des relations internationales de Moscou (MGIMO)",
+    "de": "Moskauer Staatliches Institut für Internationale Beziehungen (MGIMO)",
+    "it": "Istituto statale di relazioni internazionali di Mosca (MGIMO)",
+    "tr": "Moskova Devlet Uluslararası İlişkiler Enstitüsü (MGIMO)"
   },
   {
     "code": "ru_mipt",
@@ -972,7 +1268,11 @@
     "es": "Instituto de Física y Tecnología de Moscú (MIPT)",
     "he": "המכון לפיזיקה וטכנולוגיה של מוסקבה (MIPT)",
     "ko": "모스크바 물리기술대학교 (MIPT)",
-    "zh": "莫斯科物理技术学院"
+    "zh": "莫斯科物理技术学院",
+    "fr": "Institut de physique et de technologie de Moscou (MIPT)",
+    "de": "Moskauer Institut für Physik und Technologie (MIPT)",
+    "it": "Istituto di fisica e tecnologia di Mosca (MIPT)",
+    "tr": "Moskova Fizik-Teknik Enstitüsü (MFTİ)"
   },
   {
     "code": "ru_bmstu",
@@ -985,7 +1285,11 @@
     "es": "Universidad Técnica Estatal Bauman de Moscú",
     "he": "האוניברסיטה הטכנית הממלכתית של מוסקבה על שם באומן",
     "ko": "바우만 모스크바 국립공과대학교",
-    "zh": "莫斯科鲍曼国立技术大学"
+    "zh": "莫斯科鲍曼国立技术大学",
+    "fr": "Université technique d'État Baouman de Moscou",
+    "de": "Staatliche Technische Bauman-Universität Moskau",
+    "it": "Università tecnica statale Bauman di Mosca",
+    "tr": "Bauman Moskova Devlet Teknik Üniversitesi"
   },
   {
     "code": "ru_sechenov",
@@ -998,7 +1302,11 @@
     "es": "Primera Universidad Médica Estatal Séchenov de Moscú",
     "he": "האוניברסיטה הרפואית הראשונה של מוסקבה על שם סצ'נוב",
     "ko": "세체노프 제1모스크바 국립의과대학교",
-    "zh": "莫斯科第一国立谢切诺夫医科大学"
+    "zh": "莫斯科第一国立谢切诺夫医科大学",
+    "fr": "Première Université de médecine d'État Setchenov de Moscou",
+    "de": "Erste Moskauer Staatliche Medizinische Setschenow-Universität",
+    "it": "Prima Università statale di medicina Sečenov di Mosca",
+    "tr": "Seçenov Birinci Moskova Devlet Tıp Üniversitesi"
   },
   {
     "code": "ru_rudn",
@@ -1011,7 +1319,11 @@
     "es": "Universidad RUDN (Universidad de la Amistad de los Pueblos de Rusia)",
     "he": "אוניברסיטת RUDN (אוניברסיטת ידידות העמים של רוסיה)",
     "ko": "러시아 민족우호대학교 (RUDN)",
-    "zh": "俄罗斯人民友谊大学"
+    "zh": "俄罗斯人民友谊大学",
+    "fr": "Université russe de l'amitié des peuples (RUDN)",
+    "de": "Russische Universität der Völkerfreundschaft (RUDN)",
+    "it": "Università russa dell'amicizia tra i popoli (RUDN)",
+    "tr": "Rusya Halklar Dostluğu Üniversitesi (RUDN)"
   },
   {
     "code": "ru_itmo",
@@ -1024,7 +1336,11 @@
     "es": "Universidad ITMO",
     "he": "אוניברסיטת ITMO",
     "ko": "ITMO 대학교",
-    "zh": "圣彼得堡国立信息技术机械与光学大学"
+    "zh": "圣彼得堡国立信息技术机械与光学大学",
+    "fr": "Université ITMO",
+    "de": "ITMO-Universität",
+    "it": "Università ITMO",
+    "tr": "ITMO Üniversitesi"
   },
   {
     "code": "ru_kfu",
@@ -1037,7 +1353,11 @@
     "es": "Universidad Federal de Kazán",
     "he": "האוניברסיטה הפדרלית של קאזאן",
     "ko": "카잔 연방대학교",
-    "zh": "喀山联邦大学"
+    "zh": "喀山联邦大学",
+    "fr": "Université fédérale de Kazan",
+    "de": "Föderale Universität Kasan",
+    "it": "Università federale di Kazan",
+    "tr": "Kazan Federal Üniversitesi"
   },
   {
     "code": "ru_nsu",
@@ -1050,7 +1370,11 @@
     "es": "Universidad Estatal de Novosibirsk",
     "he": "האוניברסיטה הממלכתית של נובוסיבירסק",
     "ko": "노보시비르스크 국립대학교",
-    "zh": "新西伯利亚国立大学"
+    "zh": "新西伯利亚国立大学",
+    "fr": "Université d'État de Novossibirsk",
+    "de": "Staatliche Universität Nowosibirsk",
+    "it": "Università statale di Novosibirsk",
+    "tr": "Novosibirsk Devlet Üniversitesi"
   },
   {
     "code": "ru_plekhanov",
@@ -1063,7 +1387,11 @@
     "es": "Universidad Rusa de Economía Plejánov",
     "he": "האוניברסיטה הרוסית לכלכלה על שם פלכאנוב",
     "ko": "플레하노프 러시아 경제대학교",
-    "zh": "普列汉诺夫俄罗斯经济大学"
+    "zh": "普列汉诺夫俄罗斯经济大学",
+    "fr": "Université russe d'économie Plekhanov",
+    "de": "Russische Plechanow-Wirtschaftsuniversität",
+    "it": "Università russa di economia Plechanov",
+    "tr": "Plehanov Rusya Ekonomi Üniversitesi"
   },
   {
     "code": "us_mit",
@@ -1076,7 +1404,11 @@
     "es": "Instituto Tecnológico de Massachusetts (MIT)",
     "he": "המכון הטכנולוגי של מסצ'וסטס (MIT)",
     "ko": "매사추세츠 공과대학교 (MIT)",
-    "zh": "麻省理工学院"
+    "zh": "麻省理工学院",
+    "fr": "Institut de technologie du Massachusetts (MIT)",
+    "de": "Massachusetts Institute of Technology (MIT)",
+    "it": "Istituto di tecnologia del Massachusetts (MIT)",
+    "tr": "Massachusetts Teknoloji Enstitüsü (MIT)"
   },
   {
     "code": "us_stanford",
@@ -1089,7 +1421,11 @@
     "es": "Universidad de Stanford",
     "he": "אוניברסיטת סטנפורד",
     "ko": "스탠퍼드 대학교",
-    "zh": "斯坦福大学"
+    "zh": "斯坦福大学",
+    "fr": "Université Stanford",
+    "de": "Universität Stanford",
+    "it": "Università di Stanford",
+    "tr": "Stanford Üniversitesi"
   },
   {
     "code": "us_harvard",
@@ -1102,7 +1438,11 @@
     "es": "Universidad de Harvard",
     "he": "אוניברסיטת הרווארד",
     "ko": "하버드 대학교",
-    "zh": "哈佛大学"
+    "zh": "哈佛大学",
+    "fr": "Université Harvard",
+    "de": "Universität Harvard",
+    "it": "Università di Harvard",
+    "tr": "Harvard Üniversitesi"
   },
   {
     "code": "us_caltech",
@@ -1115,7 +1455,11 @@
     "es": "Instituto de Tecnología de California (Caltech)",
     "he": "המכון הטכנולוגי של קליפורניה (Caltech)",
     "ko": "캘리포니아 공과대학교 (Caltech)",
-    "zh": "加州理工学院"
+    "zh": "加州理工学院",
+    "fr": "Institut de technologie de Californie (Caltech)",
+    "de": "California Institute of Technology (Caltech)",
+    "it": "Istituto di tecnologia della California (Caltech)",
+    "tr": "Kaliforniya Teknoloji Enstitüsü (Caltech)"
   },
   {
     "code": "us_berkeley",
@@ -1128,7 +1472,11 @@
     "es": "Universidad de California en Berkeley",
     "he": "אוניברסיטת קליפורניה בברקלי",
     "ko": "캘리포니아 대학교 버클리",
-    "zh": "加州大学伯克利分校"
+    "zh": "加州大学伯克利分校",
+    "fr": "Université de Californie à Berkeley",
+    "de": "Universität von Kalifornien, Berkeley",
+    "it": "Università della California, Berkeley",
+    "tr": "Kaliforniya Üniversitesi, Berkeley"
   },
   {
     "code": "us_princeton",
@@ -1141,7 +1489,11 @@
     "es": "Universidad de Princeton",
     "he": "אוניברסיטת פרינסטון",
     "ko": "프린스턴 대학교",
-    "zh": "普林斯顿大学"
+    "zh": "普林斯顿大学",
+    "fr": "Université de Princeton",
+    "de": "Universität Princeton",
+    "it": "Università di Princeton",
+    "tr": "Princeton Üniversitesi"
   },
   {
     "code": "us_yale",
@@ -1154,7 +1506,11 @@
     "es": "Universidad de Yale",
     "he": "אוניברסיטת ייל",
     "ko": "예일 대학교",
-    "zh": "耶鲁大学"
+    "zh": "耶鲁大学",
+    "fr": "Université Yale",
+    "de": "Universität Yale",
+    "it": "Università di Yale",
+    "tr": "Yale Üniversitesi"
   },
   {
     "code": "us_chicago",
@@ -1167,7 +1523,11 @@
     "es": "Universidad de Chicago",
     "he": "אוניברסיטת שיקגו",
     "ko": "시카고 대학교",
-    "zh": "芝加哥大学"
+    "zh": "芝加哥大学",
+    "fr": "Université de Chicago",
+    "de": "Universität Chicago",
+    "it": "Università di Chicago",
+    "tr": "Chicago Üniversitesi"
   },
   {
     "code": "us_columbia",
@@ -1180,7 +1540,11 @@
     "es": "Universidad de Columbia",
     "he": "אוניברסיטת קולומביה",
     "ko": "컬럼비아 대학교",
-    "zh": "哥伦比亚大学"
+    "zh": "哥伦比亚大学",
+    "fr": "Université Columbia",
+    "de": "Columbia-Universität",
+    "it": "Università Columbia",
+    "tr": "Columbia Üniversitesi"
   },
   {
     "code": "us_upenn",
@@ -1193,7 +1557,11 @@
     "es": "Universidad de Pensilvania",
     "he": "אוניברסיטת פנסילבניה",
     "ko": "펜실베이니아 대학교",
-    "zh": "宾夕法尼亚大学"
+    "zh": "宾夕法尼亚大学",
+    "fr": "Université de Pennsylvanie",
+    "de": "Universität von Pennsylvania",
+    "it": "Università della Pennsylvania",
+    "tr": "Pennsylvania Üniversitesi"
   },
   {
     "code": "eu_oxford",
@@ -1206,7 +1574,11 @@
     "es": "Universidad de Oxford",
     "he": "אוניברסיטת אוקספורד",
     "ko": "옥스퍼드 대학교",
-    "zh": "牛津大学"
+    "zh": "牛津大学",
+    "fr": "Université d'Oxford",
+    "de": "Universität Oxford",
+    "it": "Università di Oxford",
+    "tr": "Oxford Üniversitesi"
   },
   {
     "code": "eu_cambridge",
@@ -1219,7 +1591,11 @@
     "es": "Universidad de Cambridge",
     "he": "אוניברסיטת קיימברידג'",
     "ko": "케임브리지 대학교",
-    "zh": "剑桥大学"
+    "zh": "剑桥大学",
+    "fr": "Université de Cambridge",
+    "de": "Universität Cambridge",
+    "it": "Università di Cambridge",
+    "tr": "Cambridge Üniversitesi"
   },
   {
     "code": "eu_imperial",
@@ -1232,7 +1608,11 @@
     "es": "Imperial College de Londres",
     "he": "אימפריאל קולג' לונדון",
     "ko": "임피리얼 칼리지 런던",
-    "zh": "伦敦帝国理工学院"
+    "zh": "伦敦帝国理工学院",
+    "fr": "Imperial College de Londres",
+    "de": "Imperial College London",
+    "it": "Imperial College London",
+    "tr": "Imperial College London"
   },
   {
     "code": "eu_ucl",
@@ -1245,7 +1625,11 @@
     "es": "University College de Londres (UCL)",
     "he": "יוניברסיטי קולג' לונדון (UCL)",
     "ko": "유니버시티 칼리지 런던 (UCL)",
-    "zh": "伦敦大学学院"
+    "zh": "伦敦大学学院",
+    "fr": "University College de Londres (UCL)",
+    "de": "University College London (UCL)",
+    "it": "University College London (UCL)",
+    "tr": "University College London (UCL)"
   },
   {
     "code": "eu_ethz",
@@ -1258,7 +1642,11 @@
     "es": "ETH Zúrich",
     "he": "ETH ציריך",
     "ko": "취리히 연방공과대학교",
-    "zh": "苏黎世联邦理工学院"
+    "zh": "苏黎世联邦理工学院",
+    "fr": "École polytechnique fédérale de Zurich (ETH Zurich)",
+    "de": "ETH Zürich",
+    "it": "ETH di Zurigo",
+    "tr": "ETH Zürih"
   },
   {
     "code": "eu_epfl",
@@ -1271,7 +1659,11 @@
     "es": "Escuela Politécnica Federal de Lausana (EPFL)",
     "he": "בית הספר הפוליטכני הפדרלי בלוזאן (EPFL)",
     "ko": "로잔 연방공과대학교 (EPFL)",
-    "zh": "洛桑联邦理工学院"
+    "zh": "洛桑联邦理工学院",
+    "fr": "École polytechnique fédérale de Lausanne (EPFL)",
+    "de": "ETH Lausanne (EPFL)",
+    "it": "Politecnico federale di Losanna (EPFL)",
+    "tr": "Lozan Federal Politeknik Okulu (EPFL)"
   },
   {
     "code": "eu_tum",
@@ -1284,7 +1676,11 @@
     "es": "Universidad Técnica de Múnich (TUM)",
     "he": "האוניברסיטה הטכנית של מינכן (TUM)",
     "ko": "뮌헨 공과대학교",
-    "zh": "慕尼黑工业大学"
+    "zh": "慕尼黑工业大学",
+    "fr": "Université technique de Munich",
+    "de": "Technische Universität München",
+    "it": "Università tecnica di Monaco di Baviera",
+    "tr": "Münih Teknik Üniversitesi"
   },
   {
     "code": "eu_lmu",
@@ -1297,7 +1693,11 @@
     "es": "Universidad Ludwig Maximilian de Múnich (LMU)",
     "he": "אוניברסיטת לודוויג מקסימיליאן במינכן (LMU)",
     "ko": "뮌헨 루트비히 막시밀리안 대학교",
-    "zh": "慕尼黑大学"
+    "zh": "慕尼黑大学",
+    "fr": "Université Louis-et-Maximilien de Munich",
+    "de": "Ludwig-Maximilians-Universität München",
+    "it": "Università Ludwig Maximilian di Monaco di Baviera",
+    "tr": "Münih Ludwig Maximilian Üniversitesi"
   },
   {
     "code": "eu_sorbonne",
@@ -1310,7 +1710,11 @@
     "es": "Universidad de la Sorbona",
     "he": "אוניברסיטת סורבון",
     "ko": "소르본 대학교",
-    "zh": "索邦大学"
+    "zh": "索邦大学",
+    "fr": "Sorbonne Université",
+    "de": "Sorbonne-Universität",
+    "it": "Università della Sorbona",
+    "tr": "Sorbonne Üniversitesi"
   },
   {
     "code": "eu_tudelft",
@@ -1323,7 +1727,11 @@
     "es": "Universidad Técnica de Delft",
     "he": "האוניברסיטה הטכנולוגית של דלפט",
     "ko": "델프트 공과대학교",
-    "zh": "代尔夫特理工大学"
+    "zh": "代尔夫特理工大学",
+    "fr": "Université de technologie de Delft",
+    "de": "Technische Universität Delft",
+    "it": "Politecnico di Delft",
+    "tr": "Delft Teknik Üniversitesi"
   },
   {
     "code": "tr_bogazici",
@@ -1336,7 +1744,11 @@
     "es": "Universidad Boğaziçi",
     "he": "אוניברסיטת בוגזיצ'י",
     "ko": "보아지치 대학교",
-    "zh": "博阿济奇大学"
+    "zh": "博阿济奇大学",
+    "fr": "Université Boğaziçi",
+    "de": "Boğaziçi-Universität",
+    "it": "Università Boğaziçi",
+    "tr": "Boğaziçi Üniversitesi"
   },
   {
     "code": "tr_odtu",
@@ -1349,7 +1761,11 @@
     "es": "Universidad Técnica de Oriente Medio (METU)",
     "he": "האוניברסיטה הטכנית של המזרח התיכון (METU)",
     "ko": "중동공과대학교 (METU)",
-    "zh": "中东技术大学"
+    "zh": "中东技术大学",
+    "fr": "Université technique du Moyen-Orient (ODTÜ)",
+    "de": "Technische Universität des Nahen Ostens (ODTÜ)",
+    "it": "Università tecnica del Medio Oriente (ODTÜ)",
+    "tr": "Orta Doğu Teknik Üniversitesi (ODTÜ)"
   },
   {
     "code": "tr_itu",
@@ -1362,7 +1778,11 @@
     "es": "Universidad Técnica de Estambul (ITU)",
     "he": "האוניברסיטה הטכנית של איסטנבול (ITU)",
     "ko": "이스탄불 공과대학교",
-    "zh": "伊斯坦布尔技术大学"
+    "zh": "伊斯坦布尔技术大学",
+    "fr": "Université technique d'Istanbul (İTÜ)",
+    "de": "Technische Universität Istanbul (İTÜ)",
+    "it": "Università tecnica di Istanbul (İTÜ)",
+    "tr": "İstanbul Teknik Üniversitesi (İTÜ)"
   },
   {
     "code": "tr_istanbul",
@@ -1375,7 +1795,11 @@
     "es": "Universidad de Estambul",
     "he": "אוניברסיטת איסטנבול",
     "ko": "이스탄불 대학교",
-    "zh": "伊斯坦布尔大学"
+    "zh": "伊斯坦布尔大学",
+    "fr": "Université d'Istanbul",
+    "de": "Universität Istanbul",
+    "it": "Università di Istanbul",
+    "tr": "İstanbul Üniversitesi"
   },
   {
     "code": "tr_hacettepe",
@@ -1388,7 +1812,11 @@
     "es": "Universidad Hacettepe",
     "he": "אוניברסיטת חג'טפה",
     "ko": "하제테페 대학교",
-    "zh": "哈杰特佩大学"
+    "zh": "哈杰特佩大学",
+    "fr": "Université Hacettepe",
+    "de": "Hacettepe-Universität",
+    "it": "Università Hacettepe",
+    "tr": "Hacettepe Üniversitesi"
   },
   {
     "code": "tr_ankara",
@@ -1401,7 +1829,11 @@
     "es": "Universidad de Ankara",
     "he": "אוניברסיטת אנקרה",
     "ko": "앙카라 대학교",
-    "zh": "安卡拉大学"
+    "zh": "安卡拉大学",
+    "fr": "Université d'Ankara",
+    "de": "Universität Ankara",
+    "it": "Università di Ankara",
+    "tr": "Ankara Üniversitesi"
   },
   {
     "code": "tr_bilkent",
@@ -1414,7 +1846,11 @@
     "es": "Universidad Bilkent",
     "he": "אוניברסיטת בילקנט",
     "ko": "빌켄트 대학교",
-    "zh": "比尔肯特大学"
+    "zh": "比尔肯特大学",
+    "fr": "Université Bilkent",
+    "de": "Bilkent-Universität",
+    "it": "Università Bilkent",
+    "tr": "Bilkent Üniversitesi"
   },
   {
     "code": "tr_koc",
@@ -1427,7 +1863,11 @@
     "es": "Universidad Koç",
     "he": "אוניברסיטת קוץ'",
     "ko": "코치 대학교",
-    "zh": "科奇大学"
+    "zh": "科奇大学",
+    "fr": "Université Koç",
+    "de": "Koç-Universität",
+    "it": "Università Koç",
+    "tr": "Koç Üniversitesi"
   },
   {
     "code": "tr_sabanci",
@@ -1440,7 +1880,11 @@
     "es": "Universidad Sabancı",
     "he": "אוניברסיטת סבנג'י",
     "ko": "사반지 대학교",
-    "zh": "萨班哲大学"
+    "zh": "萨班哲大学",
+    "fr": "Université Sabancı",
+    "de": "Sabancı-Universität",
+    "it": "Università Sabancı",
+    "tr": "Sabancı Üniversitesi"
   },
   {
     "code": "tr_ege",
@@ -1453,7 +1897,11 @@
     "es": "Universidad Ege",
     "he": "אוניברסיטת אגה",
     "ko": "에게 대학교",
-    "zh": "爱琴大学"
+    "zh": "爱琴大学",
+    "fr": "Université Ege",
+    "de": "Ege-Universität",
+    "it": "Università Ege",
+    "tr": "Ege Üniversitesi"
   },
   {
     "code": "eg_cairo",
@@ -1466,7 +1914,11 @@
     "es": "Universidad de El Cairo",
     "he": "אוניברסיטת קהיר",
     "ko": "카이로 대학교",
-    "zh": "开罗大学"
+    "zh": "开罗大学",
+    "fr": "Université du Caire",
+    "de": "Universität Kairo",
+    "it": "Università del Cairo",
+    "tr": "Kahire Üniversitesi"
   },
   {
     "code": "eg_auc",
@@ -1479,7 +1931,11 @@
     "es": "Universidad Americana de El Cairo (AUC)",
     "he": "האוניברסיטה האמריקאית בקהיר (AUC)",
     "ko": "카이로 아메리칸 대학교",
-    "zh": "开罗美国大学"
+    "zh": "开罗美国大学",
+    "fr": "Université américaine du Caire (AUC)",
+    "de": "Amerikanische Universität Kairo (AUC)",
+    "it": "Università americana del Cairo (AUC)",
+    "tr": "Kahire Amerikan Üniversitesi (AUC)"
   },
   {
     "code": "eg_ainshams",
@@ -1492,7 +1948,11 @@
     "es": "Universidad Ain Shams",
     "he": "אוניברסיטת עין שמס",
     "ko": "아인샴스 대학교",
-    "zh": "艾因夏姆斯大学"
+    "zh": "艾因夏姆斯大学",
+    "fr": "Université Ain Shams",
+    "de": "Ain-Schams-Universität",
+    "it": "Università Ain Shams",
+    "tr": "Ayn Şems Üniversitesi"
   },
   {
     "code": "eg_alexandria",
@@ -1505,7 +1965,11 @@
     "es": "Universidad de Alejandría",
     "he": "אוניברסיטת אלכסנדריה",
     "ko": "알렉산드리아 대학교",
-    "zh": "亚历山大大学"
+    "zh": "亚历山大大学",
+    "fr": "Université d'Alexandrie",
+    "de": "Universität Alexandria",
+    "it": "Università di Alessandria d'Egitto",
+    "tr": "İskenderiye Üniversitesi"
   },
   {
     "code": "eg_azhar",
@@ -1518,7 +1982,11 @@
     "es": "Universidad de Al-Azhar",
     "he": "אוניברסיטת אל-אזהר",
     "ko": "알아즈하르 대학교",
-    "zh": "爱资哈尔大学"
+    "zh": "爱资哈尔大学",
+    "fr": "Université al-Azhar",
+    "de": "Al-Azhar-Universität",
+    "it": "Università al-Azhar",
+    "tr": "El-Ezher Üniversitesi"
   },
   {
     "code": "eg_mansoura",
@@ -1531,7 +1999,11 @@
     "es": "Universidad de Mansura",
     "he": "אוניברסיטת אל-מנסורה",
     "ko": "만수라 대학교",
-    "zh": "曼苏拉大学"
+    "zh": "曼苏拉大学",
+    "fr": "Université de Mansoura",
+    "de": "Universität Mansura",
+    "it": "Università di Mansoura",
+    "tr": "Mansura Üniversitesi"
   },
   {
     "code": "sa_ksu",
@@ -1544,7 +2016,11 @@
     "es": "Universidad Rey Saúd",
     "he": "אוניברסיטת המלך סעוד",
     "ko": "킹사우드 대학교",
-    "zh": "沙特国王大学"
+    "zh": "沙特国王大学",
+    "fr": "Université du Roi Saoud",
+    "de": "König-Saud-Universität",
+    "it": "Università Re Saud",
+    "tr": "Kral Suud Üniversitesi"
   },
   {
     "code": "sa_kau",
@@ -1557,7 +2033,11 @@
     "es": "Universidad Rey Abdulaziz",
     "he": "אוניברסיטת המלך עבד אל-עזיז",
     "ko": "킹압둘아지즈 대학교",
-    "zh": "阿卜杜勒阿齐兹国王大学"
+    "zh": "阿卜杜勒阿齐兹国王大学",
+    "fr": "Université du Roi Abdulaziz",
+    "de": "König-Abdulaziz-Universität",
+    "it": "Università Re Abdulaziz",
+    "tr": "Kral Abdülaziz Üniversitesi"
   },
   {
     "code": "sa_kfupm",
@@ -1570,7 +2050,11 @@
     "es": "Universidad Rey Fahd de Petróleo y Minerales",
     "he": "אוניברסיטת המלך פהד לנפט ומחצבים",
     "ko": "킹파드 석유광물대학교",
-    "zh": "法赫德国王石油矿产大学"
+    "zh": "法赫德国王石油矿产大学",
+    "fr": "Université du Roi Fahd du pétrole et des minéraux",
+    "de": "König-Fahd-Universität für Erdöl und Mineralien",
+    "it": "Università Re Fahd del petrolio e dei minerali",
+    "tr": "Kral Fahd Petrol ve Mineraller Üniversitesi"
   },
   {
     "code": "sa_kaust",
@@ -1583,7 +2067,11 @@
     "es": "Universidad Rey Abdalá de Ciencia y Tecnología (KAUST)",
     "he": "אוניברסיטת המלך עבדאללה למדע וטכנולוגיה (KAUST)",
     "ko": "킹압둘라 과학기술대학교 (KAUST)",
-    "zh": "阿卜杜拉国王科技大学"
+    "zh": "阿卜杜拉国王科技大学",
+    "fr": "Université des sciences et technologies du Roi Abdallah (KAUST)",
+    "de": "König-Abdullah-Universität für Wissenschaft und Technologie (KAUST)",
+    "it": "Università di scienza e tecnologia Re Abdullah (KAUST)",
+    "tr": "Kral Abdullah Bilim ve Teknoloji Üniversitesi (KAUST)"
   },
   {
     "code": "sa_uqu",
@@ -1596,7 +2084,11 @@
     "es": "Universidad Umm Al-Qura",
     "he": "אוניברסיטת אום אל-קורא",
     "ko": "움알쿠라 대학교",
-    "zh": "乌姆·库拉大学"
+    "zh": "乌姆·库拉大学",
+    "fr": "Université Oumm al-Qura",
+    "de": "Umm-al-Qura-Universität",
+    "it": "Università Umm al-Qura",
+    "tr": "Ümmülkura Üniversitesi"
   },
   {
     "code": "ae_uaeu",
@@ -1609,7 +2101,11 @@
     "es": "Universidad de los Emiratos Árabes Unidos",
     "he": "אוניברסיטת איחוד האמירויות הערביות",
     "ko": "아랍에미리트 대학교",
-    "zh": "阿联酋大学"
+    "zh": "阿联酋大学",
+    "fr": "Université des Émirats arabes unis",
+    "de": "Universität der Vereinigten Arabischen Emirate",
+    "it": "Università degli Emirati Arabi Uniti",
+    "tr": "Birleşik Arap Emirlikleri Üniversitesi"
   },
   {
     "code": "ae_khalifa",
@@ -1622,7 +2118,11 @@
     "es": "Universidad Khalifa",
     "he": "אוניברסיטת חליפה",
     "ko": "칼리파 대학교",
-    "zh": "哈利法大学"
+    "zh": "哈利法大学",
+    "fr": "Université Khalifa",
+    "de": "Khalifa-Universität",
+    "it": "Università Khalifa",
+    "tr": "Halife Üniversitesi"
   },
   {
     "code": "ae_aus",
@@ -1635,7 +2135,11 @@
     "es": "Universidad Americana de Sharjah",
     "he": "האוניברסיטה האמריקאית בשארג'ה",
     "ko": "샤르자 아메리칸 대학교",
-    "zh": "沙迦美国大学"
+    "zh": "沙迦美国大学",
+    "fr": "Université américaine de Charjah",
+    "de": "Amerikanische Universität Schardscha",
+    "it": "Università americana di Sharjah",
+    "tr": "Şarja Amerikan Üniversitesi"
   },
   {
     "code": "ae_sharjah",
@@ -1648,7 +2152,11 @@
     "es": "Universidad de Sharjah",
     "he": "אוניברסיטת שארג'ה",
     "ko": "샤르자 대학교",
-    "zh": "沙迦大学"
+    "zh": "沙迦大学",
+    "fr": "Université de Charjah",
+    "de": "Universität Schardscha",
+    "it": "Università di Sharjah",
+    "tr": "Şarja Üniversitesi"
   },
   {
     "code": "qa_qu",
@@ -1661,7 +2169,11 @@
     "es": "Universidad de Catar",
     "he": "אוניברסיטת קטאר",
     "ko": "카타르 대학교",
-    "zh": "卡塔尔大学"
+    "zh": "卡塔尔大学",
+    "fr": "Université du Qatar",
+    "de": "Universität Katar",
+    "it": "Università del Qatar",
+    "tr": "Katar Üniversitesi"
   },
   {
     "code": "qa_hbku",
@@ -1674,7 +2186,11 @@
     "es": "Universidad Hamad Bin Khalifa",
     "he": "אוניברסיטת חמד בן חליפה",
     "ko": "하마드 빈 칼리파 대학교",
-    "zh": "哈马德·本·哈利法大学"
+    "zh": "哈马德·本·哈利法大学",
+    "fr": "Université Hamad Bin Khalifa",
+    "de": "Hamad-bin-Khalifa-Universität",
+    "it": "Università Hamad Bin Khalifa",
+    "tr": "Hamad bin Halife Üniversitesi"
   },
   {
     "code": "kw_ku",
@@ -1687,7 +2203,11 @@
     "es": "Universidad de Kuwait",
     "he": "אוניברסיטת כווית",
     "ko": "쿠웨이트 대학교",
-    "zh": "科威特大学"
+    "zh": "科威特大学",
+    "fr": "Université du Koweït",
+    "de": "Universität Kuwait",
+    "it": "Università del Kuwait",
+    "tr": "Kuveyt Üniversitesi"
   },
   {
     "code": "jo_ju",
@@ -1700,7 +2220,11 @@
     "es": "Universidad de Jordania",
     "he": "האוניברסיטה של ירדן",
     "ko": "요르단 대학교",
-    "zh": "约旦大学"
+    "zh": "约旦大学",
+    "fr": "Université de Jordanie",
+    "de": "Universität Jordanien",
+    "it": "Università della Giordania",
+    "tr": "Ürdün Üniversitesi"
   },
   {
     "code": "jo_just",
@@ -1713,7 +2237,11 @@
     "es": "Universidad de Ciencia y Tecnología de Jordania",
     "he": "אוניברסיטת ירדן למדע וטכנולוגיה",
     "ko": "요르단 과학기술대학교",
-    "zh": "约旦科技大学"
+    "zh": "约旦科技大学",
+    "fr": "Université des sciences et technologies de Jordanie",
+    "de": "Jordanische Universität für Wissenschaft und Technologie",
+    "it": "Università di scienza e tecnologia della Giordania",
+    "tr": "Ürdün Bilim ve Teknoloji Üniversitesi"
   },
   {
     "code": "lb_aub",
@@ -1726,7 +2254,11 @@
     "es": "Universidad Americana de Beirut (AUB)",
     "he": "האוניברסיטה האמריקאית בביירות (AUB)",
     "ko": "베이루트 아메리칸 대학교 (AUB)",
-    "zh": "贝鲁特美国大学"
+    "zh": "贝鲁特美国大学",
+    "fr": "Université américaine de Beyrouth (AUB)",
+    "de": "Amerikanische Universität Beirut (AUB)",
+    "it": "Università americana di Beirut (AUB)",
+    "tr": "Beyrut Amerikan Üniversitesi (AUB)"
   },
   {
     "code": "lb_usj",
@@ -1739,7 +2271,11 @@
     "es": "Universidad Saint Joseph de Beirut",
     "he": "אוניברסיטת סן ז'וזף בביירות",
     "ko": "베이루트 성요셉 대학교",
-    "zh": "贝鲁特圣约瑟夫大学"
+    "zh": "贝鲁特圣约瑟夫大学",
+    "fr": "Université Saint-Joseph de Beyrouth",
+    "de": "Universität Saint-Joseph Beirut",
+    "it": "Università San Giuseppe di Beirut",
+    "tr": "Beyrut Saint Joseph Üniversitesi"
   },
   {
     "code": "lb_ul",
@@ -1752,7 +2288,11 @@
     "es": "Universidad Libanesa",
     "he": "האוניברסיטה הלבנונית",
     "ko": "레바논 대학교",
-    "zh": "黎巴嫩大学"
+    "zh": "黎巴嫩大学",
+    "fr": "Université libanaise",
+    "de": "Libanesische Universität",
+    "it": "Università libanese",
+    "tr": "Lübnan Üniversitesi"
   },
   {
     "code": "iq_baghdad",
@@ -1765,7 +2305,11 @@
     "es": "Universidad de Bagdad",
     "he": "אוניברסיטת בגדד",
     "ko": "바그다드 대학교",
-    "zh": "巴格达大学"
+    "zh": "巴格达大学",
+    "fr": "Université de Bagdad",
+    "de": "Universität Bagdad",
+    "it": "Università di Baghdad",
+    "tr": "Bağdat Üniversitesi"
   },
   {
     "code": "iq_basrah",
@@ -1778,7 +2322,11 @@
     "es": "Universidad de Basora",
     "he": "אוניברסיטת בצרה",
     "ko": "바스라 대학교",
-    "zh": "巴士拉大学"
+    "zh": "巴士拉大学",
+    "fr": "Université de Bassorah",
+    "de": "Universität Basra",
+    "it": "Università di Bassora",
+    "tr": "Basra Üniversitesi"
   },
   {
     "code": "sy_damascus",
@@ -1791,7 +2339,11 @@
     "es": "Universidad de Damasco",
     "he": "אוניברסיטת דמשק",
     "ko": "다마스쿠스 대학교",
-    "zh": "大马士革大学"
+    "zh": "大马士革大学",
+    "fr": "Université de Damas",
+    "de": "Universität Damaskus",
+    "it": "Università di Damasco",
+    "tr": "Şam Üniversitesi"
   },
   {
     "code": "sy_aleppo",
@@ -1804,7 +2356,11 @@
     "es": "Universidad de Alepo",
     "he": "אוניברסיטת חלב",
     "ko": "알레포 대학교",
-    "zh": "阿勒颇大学"
+    "zh": "阿勒颇大学",
+    "fr": "Université d'Alep",
+    "de": "Universität Aleppo",
+    "it": "Università di Aleppo",
+    "tr": "Halep Üniversitesi"
   },
   {
     "code": "ps_birzeit",
@@ -1817,7 +2373,11 @@
     "es": "Universidad de Birzeit",
     "he": "אוניברסיטת ביר זית",
     "ko": "비르자이트 대학교",
-    "zh": "比尔泽特大学"
+    "zh": "比尔泽特大学",
+    "fr": "Université de Birzeit",
+    "de": "Universität Birzeit",
+    "it": "Università di Birzeit",
+    "tr": "Birzeyt Üniversitesi"
   },
   {
     "code": "ps_najah",
@@ -1830,7 +2390,11 @@
     "es": "Universidad Nacional An-Najah",
     "he": "אוניברסיטת אן-נג'אח הלאומית",
     "ko": "안나자흐 국립대학교",
-    "zh": "纳贾赫国立大学"
+    "zh": "纳贾赫国立大学",
+    "fr": "Université nationale An-Najah",
+    "de": "Nationale An-Najah-Universität",
+    "it": "Università nazionale An-Najah",
+    "tr": "En-Necah Millî Üniversitesi"
   },
   {
     "code": "om_squ",
@@ -1843,7 +2407,11 @@
     "es": "Universidad Sultán Qabús",
     "he": "אוניברסיטת סולטאן קאבוס",
     "ko": "술탄 카부스 대학교",
-    "zh": "苏丹卡布斯大学"
+    "zh": "苏丹卡布斯大学",
+    "fr": "Université Sultan Qabous",
+    "de": "Sultan-Qabus-Universität",
+    "it": "Università Sultan Qaboos",
+    "tr": "Sultan Kabus Üniversitesi"
   },
   {
     "code": "bh_uob",
@@ -1856,7 +2424,11 @@
     "es": "Universidad de Baréin",
     "he": "אוניברסיטת בחריין",
     "ko": "바레인 대학교",
-    "zh": "巴林大学"
+    "zh": "巴林大学",
+    "fr": "Université de Bahreïn",
+    "de": "Universität Bahrain",
+    "it": "Università del Bahrein",
+    "tr": "Bahreyn Üniversitesi"
   },
   {
     "code": "ma_um5",
@@ -1869,7 +2441,11 @@
     "es": "Universidad Mohammed V de Rabat",
     "he": "אוניברסיטת מוחמד החמישי ברבאט",
     "ko": "라바트 모하메드 5세 대학교",
-    "zh": "拉巴特穆罕默德五世大学"
+    "zh": "拉巴特穆罕默德五世大学",
+    "fr": "Université Mohammed V de Rabat",
+    "de": "Mohammed-V.-Universität Rabat",
+    "it": "Università Mohammed V di Rabat",
+    "tr": "Rabat V. Muhammed Üniversitesi"
   },
   {
     "code": "ma_aui",
@@ -1882,7 +2458,11 @@
     "es": "Universidad Al Akhawayn",
     "he": "אוניברסיטת אל-אחוויין",
     "ko": "알아카와인 대학교",
-    "zh": "艾赫瓦因大学"
+    "zh": "艾赫瓦因大学",
+    "fr": "Université Al Akhawayn",
+    "de": "Al-Akhawayn-Universität",
+    "it": "Università Al Akhawayn",
+    "tr": "El-Ahaveyn Üniversitesi"
   },
   {
     "code": "ma_uca",
@@ -1895,7 +2475,11 @@
     "es": "Universidad Cadi Ayyad",
     "he": "אוניברסיטת קאדי עיאד",
     "ko": "카디 아야드 대학교",
-    "zh": "卡迪·阿亚德大学"
+    "zh": "卡迪·阿亚德大学",
+    "fr": "Université Cadi Ayyad",
+    "de": "Cadi-Ayyad-Universität",
+    "it": "Università Cadi Ayyad",
+    "tr": "Kadı Iyad Üniversitesi"
   },
   {
     "code": "tn_utm",
@@ -1908,7 +2492,11 @@
     "es": "Universidad de Túnez El Manar",
     "he": "אוניברסיטת תוניס אל-מנאר",
     "ko": "튀니스 엘마나르 대학교",
-    "zh": "突尼斯埃尔马纳尔大学"
+    "zh": "突尼斯埃尔马纳尔大学",
+    "fr": "Université de Tunis El Manar",
+    "de": "Universität Tunis El Manar",
+    "it": "Università di Tunisi El Manar",
+    "tr": "Tunus El Manar Üniversitesi"
   },
   {
     "code": "tn_ucar",
@@ -1921,7 +2509,11 @@
     "es": "Universidad de Cartago",
     "he": "אוניברסיטת קרתגו",
     "ko": "카르타고 대학교",
-    "zh": "迦太基大学"
+    "zh": "迦太基大学",
+    "fr": "Université de Carthage",
+    "de": "Universität Karthago",
+    "it": "Università di Cartagine",
+    "tr": "Kartaca Üniversitesi"
   },
   {
     "code": "dz_algiers",
@@ -1934,7 +2526,11 @@
     "es": "Universidad de Argel",
     "he": "אוניברסיטת אלג'יר",
     "ko": "알제 대학교",
-    "zh": "阿尔及尔大学"
+    "zh": "阿尔及尔大学",
+    "fr": "Université d'Alger",
+    "de": "Universität Algier",
+    "it": "Università di Algeri",
+    "tr": "Cezayir Üniversitesi"
   },
   {
     "code": "dz_usthb",
@@ -1947,7 +2543,11 @@
     "es": "Universidad de Ciencia y Tecnología Houari Boumediene",
     "he": "אוניברסיטת הוארי בומדיין למדע וטכנולוגיה",
     "ko": "우아리 부메디엔 과학기술대학교",
-    "zh": "胡阿里·布迈丁科技大学"
+    "zh": "胡阿里·布迈丁科技大学",
+    "fr": "Université des sciences et de la technologie Houari-Boumédiène",
+    "de": "Universität für Wissenschaft und Technologie Houari Boumediene",
+    "it": "Università di scienza e tecnologia Houari Boumediene",
+    "tr": "Huari Bumedyen Bilim ve Teknoloji Üniversitesi"
   },
   {
     "code": "ir_tehran",
@@ -1960,7 +2560,11 @@
     "es": "Universidad de Teherán",
     "he": "אוניברסיטת טהרן",
     "ko": "테헤란 대학교",
-    "zh": "德黑兰大学"
+    "zh": "德黑兰大学",
+    "fr": "Université de Téhéran",
+    "de": "Universität Teheran",
+    "it": "Università di Teheran",
+    "tr": "Tahran Üniversitesi"
   },
   {
     "code": "ir_sharif",
@@ -1973,7 +2577,11 @@
     "es": "Universidad Tecnológica Sharif",
     "he": "האוניברסיטה הטכנולוגית שריף",
     "ko": "샤리프 공과대학교",
-    "zh": "谢里夫理工大学"
+    "zh": "谢里夫理工大学",
+    "fr": "Université de technologie Sharif",
+    "de": "Sharif-Universität für Technologie",
+    "it": "Università di tecnologia Sharif",
+    "tr": "Şerif Teknoloji Üniversitesi"
   },
   {
     "code": "ir_tabriz",
@@ -1986,7 +2594,11 @@
     "es": "Universidad de Tabriz",
     "he": "אוניברסיטת תבריז",
     "ko": "타브리즈 대학교",
-    "zh": "大不里士大学"
+    "zh": "大不里士大学",
+    "fr": "Université de Tabriz",
+    "de": "Universität Tabriz",
+    "it": "Università di Tabriz",
+    "tr": "Tebriz Üniversitesi"
   },
   {
     "code": "ir_amirkabir",
@@ -1999,7 +2611,11 @@
     "es": "Universidad Tecnológica Amirkabir",
     "he": "האוניברסיטה הטכנולוגית אמירכביר",
     "ko": "아미르카비르 공과대학교",
-    "zh": "阿米尔卡比尔理工大学"
+    "zh": "阿米尔卡比尔理工大学",
+    "fr": "Université de technologie Amirkabir",
+    "de": "Amirkabir-Universität für Technologie",
+    "it": "Università di tecnologia Amirkabir",
+    "tr": "Emirkebir Teknoloji Üniversitesi"
   },
   {
     "code": "es_ucm",
@@ -2012,7 +2628,11 @@
     "es": "Universidad Complutense de Madrid",
     "he": "האוניברסיטה הקומפלוטנסית של מדריד",
     "ko": "마드리드 콤플루텐세 대학교",
-    "zh": "马德里康普顿斯大学"
+    "zh": "马德里康普顿斯大学",
+    "fr": "Université Complutense de Madrid",
+    "de": "Universität Complutense Madrid",
+    "it": "Università Complutense di Madrid",
+    "tr": "Madrid Complutense Üniversitesi"
   },
   {
     "code": "es_uam",
@@ -2025,7 +2645,11 @@
     "es": "Universidad Autónoma de Madrid",
     "he": "האוניברסיטה האוטונומית של מדריד",
     "ko": "마드리드 자치대학교",
-    "zh": "马德里自治大学"
+    "zh": "马德里自治大学",
+    "fr": "Université autonome de Madrid",
+    "de": "Autonome Universität Madrid",
+    "it": "Università autonoma di Madrid",
+    "tr": "Madrid Özerk Üniversitesi"
   },
   {
     "code": "es_upm",
@@ -2038,7 +2662,11 @@
     "es": "Universidad Politécnica de Madrid",
     "he": "האוניברסיטה הפוליטכנית של מדריד",
     "ko": "마드리드 공과대학교",
-    "zh": "马德里理工大学"
+    "zh": "马德里理工大学",
+    "fr": "Université polytechnique de Madrid",
+    "de": "Technische Universität Madrid",
+    "it": "Università politecnica di Madrid",
+    "tr": "Madrid Politeknik Üniversitesi"
   },
   {
     "code": "es_uc3m",
@@ -2051,7 +2679,11 @@
     "es": "Universidad Carlos III de Madrid",
     "he": "אוניברסיטת קרלוס השלישי במדריד",
     "ko": "마드리드 카를로스 3세 대학교",
-    "zh": "马德里卡洛斯三世大学"
+    "zh": "马德里卡洛斯三世大学",
+    "fr": "Université Charles-III de Madrid",
+    "de": "Universität Carlos III Madrid",
+    "it": "Università Carlo III di Madrid",
+    "tr": "Madrid III. Carlos Üniversitesi"
   },
   {
     "code": "es_ub",
@@ -2064,7 +2696,11 @@
     "es": "Universidad de Barcelona",
     "he": "אוניברסיטת ברצלונה",
     "ko": "바르셀로나 대학교",
-    "zh": "巴塞罗那大学"
+    "zh": "巴塞罗那大学",
+    "fr": "Université de Barcelone",
+    "de": "Universität Barcelona",
+    "it": "Università di Barcellona",
+    "tr": "Barselona Üniversitesi"
   },
   {
     "code": "es_uab",
@@ -2077,7 +2713,11 @@
     "es": "Universidad Autónoma de Barcelona",
     "he": "האוניברסיטה האוטונומית של ברצלונה",
     "ko": "바르셀로나 자치대학교",
-    "zh": "巴塞罗那自治大学"
+    "zh": "巴塞罗那自治大学",
+    "fr": "Université autonome de Barcelone",
+    "de": "Autonome Universität Barcelona",
+    "it": "Università autonoma di Barcellona",
+    "tr": "Barselona Özerk Üniversitesi"
   },
   {
     "code": "es_upc",
@@ -2090,7 +2730,11 @@
     "es": "Universidad Politécnica de Cataluña",
     "he": "האוניברסיטה הפוליטכנית של קטלוניה",
     "ko": "카탈루냐 공과대학교",
-    "zh": "加泰罗尼亚理工大学"
+    "zh": "加泰罗尼亚理工大学",
+    "fr": "Université polytechnique de Catalogne",
+    "de": "Technische Universität Katalonien",
+    "it": "Università politecnica della Catalogna",
+    "tr": "Katalonya Politeknik Üniversitesi"
   },
   {
     "code": "es_upf",
@@ -2103,7 +2747,11 @@
     "es": "Universidad Pompeu Fabra",
     "he": "אוניברסיטת פומפאו פברה",
     "ko": "폼페우 파브라 대학교",
-    "zh": "庞培法布拉大学"
+    "zh": "庞培法布拉大学",
+    "fr": "Université Pompeu Fabra",
+    "de": "Universität Pompeu Fabra",
+    "it": "Università Pompeu Fabra",
+    "tr": "Pompeu Fabra Üniversitesi"
   },
   {
     "code": "es_usal",
@@ -2116,7 +2764,11 @@
     "es": "Universidad de Salamanca",
     "he": "אוניברסיטת סלמנקה",
     "ko": "살라망카 대학교",
-    "zh": "萨拉曼卡大学"
+    "zh": "萨拉曼卡大学",
+    "fr": "Université de Salamanque",
+    "de": "Universität Salamanca",
+    "it": "Università di Salamanca",
+    "tr": "Salamanca Üniversitesi"
   },
   {
     "code": "es_uv",
@@ -2129,7 +2781,11 @@
     "es": "Universidad de Valencia",
     "he": "אוניברסיטת ולנסיה",
     "ko": "발렌시아 대학교",
-    "zh": "巴伦西亚大学"
+    "zh": "巴伦西亚大学",
+    "fr": "Université de Valence",
+    "de": "Universität Valencia",
+    "it": "Università di Valencia",
+    "tr": "Valensiya Üniversitesi"
   },
   {
     "code": "es_upv",
@@ -2142,7 +2798,11 @@
     "es": "Universidad Politécnica de Valencia",
     "he": "האוניברסיטה הפוליטכנית של ולנסיה",
     "ko": "발렌시아 공과대학교",
-    "zh": "巴伦西亚理工大学"
+    "zh": "巴伦西亚理工大学",
+    "fr": "Université polytechnique de Valence",
+    "de": "Technische Universität Valencia",
+    "it": "Università politecnica di Valencia",
+    "tr": "Valensiya Politeknik Üniversitesi"
   },
   {
     "code": "es_sevilla",
@@ -2155,7 +2815,11 @@
     "es": "Universidad de Sevilla",
     "he": "אוניברסיטת סביליה",
     "ko": "세비야 대학교",
-    "zh": "塞维利亚大学"
+    "zh": "塞维利亚大学",
+    "fr": "Université de Séville",
+    "de": "Universität Sevilla",
+    "it": "Università di Siviglia",
+    "tr": "Sevilla Üniversitesi"
   },
   {
     "code": "es_unizar",
@@ -2168,7 +2832,11 @@
     "es": "Universidad de Zaragoza",
     "he": "אוניברסיטת סרגוסה",
     "ko": "사라고사 대학교",
-    "zh": "萨拉戈萨大学"
+    "zh": "萨拉戈萨大学",
+    "fr": "Université de Saragosse",
+    "de": "Universität Saragossa",
+    "it": "Università di Saragozza",
+    "tr": "Zaragoza Üniversitesi"
   },
   {
     "code": "es_ugr",
@@ -2181,7 +2849,11 @@
     "es": "Universidad de Granada",
     "he": "אוניברסיטת גרנדה",
     "ko": "그라나다 대학교",
-    "zh": "格拉纳达大学"
+    "zh": "格拉纳达大学",
+    "fr": "Université de Grenade",
+    "de": "Universität Granada",
+    "it": "Università di Granada",
+    "tr": "Granada Üniversitesi"
   },
   {
     "code": "es_unav",
@@ -2194,7 +2866,11 @@
     "es": "Universidad de Navarra",
     "he": "אוניברסיטת נבארה",
     "ko": "나바라 대학교",
-    "zh": "纳瓦拉大学"
+    "zh": "纳瓦拉大学",
+    "fr": "Université de Navarre",
+    "de": "Universität Navarra",
+    "it": "Università di Navarra",
+    "tr": "Navarra Üniversitesi"
   },
   {
     "code": "es_uned",
@@ -2207,7 +2883,11 @@
     "es": "Universidad Nacional de Educación a Distancia (UNED)",
     "he": "האוניברסיטה הלאומית ללימודים מרחוק (UNED)",
     "ko": "스페인 국립원격교육대학교 (UNED)",
-    "zh": "西班牙国立远程教育大学"
+    "zh": "西班牙国立远程教育大学",
+    "fr": "Université nationale d'enseignement à distance (UNED)",
+    "de": "Nationale Fernuniversität (UNED)",
+    "it": "Università nazionale di istruzione a distanza (UNED)",
+    "tr": "Millî Uzaktan Eğitim Üniversitesi (UNED)"
   },
   {
     "code": "es_iese",
@@ -2220,7 +2900,11 @@
     "es": "IESE Business School",
     "he": "בית הספר לעסקים IESE",
     "ko": "IESE 경영대학원",
-    "zh": "IESE 商学院"
+    "zh": "IESE 商学院",
+    "fr": "IESE Business School",
+    "de": "IESE Business School",
+    "it": "IESE Business School",
+    "tr": "IESE İşletme Okulu"
   },
   {
     "code": "es_esade",
@@ -2233,7 +2917,11 @@
     "es": "ESADE Business School",
     "he": "בית הספר לעסקים ESADE",
     "ko": "ESADE 경영대학원",
-    "zh": "ESADE 商学院"
+    "zh": "ESADE 商学院",
+    "fr": "ESADE Business School",
+    "de": "ESADE Business School",
+    "it": "ESADE Business School",
+    "tr": "ESADE İşletme Okulu"
   },
   {
     "code": "mx_unam",
@@ -2246,7 +2934,11 @@
     "es": "Universidad Nacional Autónoma de México (UNAM)",
     "he": "האוניברסיטה הלאומית האוטונומית של מקסיקו (UNAM)",
     "ko": "멕시코 국립자치대학교 (UNAM)",
-    "zh": "墨西哥国立自治大学"
+    "zh": "墨西哥国立自治大学",
+    "fr": "Université nationale autonome du Mexique (UNAM)",
+    "de": "Nationale Autonome Universität von Mexiko (UNAM)",
+    "it": "Università nazionale autonoma del Messico (UNAM)",
+    "tr": "Meksika Ulusal Özerk Üniversitesi (UNAM)"
   },
   {
     "code": "mx_ipn",
@@ -2259,7 +2951,11 @@
     "es": "Instituto Politécnico Nacional (México)",
     "he": "המכון הפוליטכני הלאומי (מקסיקו)",
     "ko": "국립공과대학 (멕시코)",
-    "zh": "墨西哥国立理工学院"
+    "zh": "墨西哥国立理工学院",
+    "fr": "Institut polytechnique national (Mexique)",
+    "de": "Nationales Polytechnisches Institut (Mexiko)",
+    "it": "Istituto politecnico nazionale (Messico)",
+    "tr": "Millî Politeknik Enstitüsü (Meksika)"
   },
   {
     "code": "mx_itesm",
@@ -2272,7 +2968,11 @@
     "es": "Tecnológico de Monterrey",
     "he": "המכון הטכנולוגי של מונטריי",
     "ko": "몬테레이 공과대학교",
-    "zh": "蒙特雷科技大学"
+    "zh": "蒙特雷科技大学",
+    "fr": "Institut de technologie de Monterrey",
+    "de": "Technologisches Institut Monterrey",
+    "it": "Istituto di tecnologia di Monterrey",
+    "tr": "Monterrey Teknoloji Enstitüsü"
   },
   {
     "code": "mx_uam",
@@ -2285,7 +2985,11 @@
     "es": "Universidad Autónoma Metropolitana (México)",
     "he": "האוניברסיטה האוטונומית המטרופוליטנית (מקסיקו)",
     "ko": "메트로폴리탄 자치대학교 (멕시코)",
-    "zh": "墨西哥都市自治大学"
+    "zh": "墨西哥都市自治大学",
+    "fr": "Université autonome métropolitaine (Mexique)",
+    "de": "Autonome Metropolitanuniversität (Mexiko)",
+    "it": "Università autonoma metropolitana (Messico)",
+    "tr": "Metropolitan Özerk Üniversitesi (Meksika)"
   },
   {
     "code": "mx_itam",
@@ -2298,7 +3002,11 @@
     "es": "Instituto Tecnológico Autónomo de México (ITAM)",
     "he": "המכון הטכנולוגי האוטונומי של מקסיקו (ITAM)",
     "ko": "멕시코 자치기술대학교 (ITAM)",
-    "zh": "墨西哥自治理工学院"
+    "zh": "墨西哥自治理工学院",
+    "fr": "Institut technologique autonome de Mexico (ITAM)",
+    "de": "Autonomes Technologisches Institut von Mexiko (ITAM)",
+    "it": "Istituto tecnologico autonomo del Messico (ITAM)",
+    "tr": "Meksika Özerk Teknoloji Enstitüsü (ITAM)"
   },
   {
     "code": "mx_udg",
@@ -2311,7 +3019,11 @@
     "es": "Universidad de Guadalajara",
     "he": "אוניברסיטת גוודלחרה",
     "ko": "과달라하라 대학교",
-    "zh": "瓜达拉哈拉大学"
+    "zh": "瓜达拉哈拉大学",
+    "fr": "Université de Guadalajara",
+    "de": "Universität Guadalajara",
+    "it": "Università di Guadalajara",
+    "tr": "Guadalajara Üniversitesi"
   },
   {
     "code": "mx_uanl",
@@ -2324,7 +3036,11 @@
     "es": "Universidad Autónoma de Nuevo León",
     "he": "האוניברסיטה האוטונומית של נואבו לאון",
     "ko": "누에보레온 자치대학교",
-    "zh": "新莱昂自治大学"
+    "zh": "新莱昂自治大学",
+    "fr": "Université autonome de Nuevo León",
+    "de": "Autonome Universität Nuevo León",
+    "it": "Università autonoma di Nuevo León",
+    "tr": "Nuevo León Özerk Üniversitesi"
   },
   {
     "code": "ar_uba",
@@ -2337,7 +3053,11 @@
     "es": "Universidad de Buenos Aires",
     "he": "אוניברסיטת בואנוס איירס",
     "ko": "부에노스아이레스 대학교",
-    "zh": "布宜诺斯艾利斯大学"
+    "zh": "布宜诺斯艾利斯大学",
+    "fr": "Université de Buenos Aires",
+    "de": "Universität Buenos Aires",
+    "it": "Università di Buenos Aires",
+    "tr": "Buenos Aires Üniversitesi"
   },
   {
     "code": "ar_unc",
@@ -2350,7 +3070,11 @@
     "es": "Universidad Nacional de Córdoba",
     "he": "האוניברסיטה הלאומית של קורדובה",
     "ko": "코르도바 국립대학교",
-    "zh": "科尔多瓦国立大学"
+    "zh": "科尔多瓦国立大学",
+    "fr": "Université nationale de Córdoba",
+    "de": "Nationale Universität Córdoba",
+    "it": "Università nazionale di Córdoba",
+    "tr": "Córdoba Millî Üniversitesi"
   },
   {
     "code": "ar_unlp",
@@ -2363,7 +3087,11 @@
     "es": "Universidad Nacional de La Plata",
     "he": "האוניברסיטה הלאומית של לה פלטה",
     "ko": "라플라타 국립대학교",
-    "zh": "拉普拉塔国立大学"
+    "zh": "拉普拉塔国立大学",
+    "fr": "Université nationale de La Plata",
+    "de": "Nationale Universität La Plata",
+    "it": "Università nazionale di La Plata",
+    "tr": "La Plata Millî Üniversitesi"
   },
   {
     "code": "ar_utn",
@@ -2376,7 +3104,11 @@
     "es": "Universidad Tecnológica Nacional (Argentina)",
     "he": "האוניברסיטה הטכנולוגית הלאומית (ארגנטינה)",
     "ko": "국립공과대학교 (아르헨티나)",
-    "zh": "阿根廷国立技术大学"
+    "zh": "阿根廷国立技术大学",
+    "fr": "Université technologique nationale (Argentine)",
+    "de": "Nationale Technologische Universität (Argentinien)",
+    "it": "Università tecnologica nazionale (Argentina)",
+    "tr": "Millî Teknoloji Üniversitesi (Arjantin)"
   },
   {
     "code": "ar_uca",
@@ -2389,7 +3121,11 @@
     "es": "Universidad Católica Argentina",
     "he": "האוניברסיטה הקתולית של ארגנטינה",
     "ko": "아르헨티나 가톨릭대학교",
-    "zh": "阿根廷天主教大学"
+    "zh": "阿根廷天主教大学",
+    "fr": "Université catholique argentine",
+    "de": "Katholische Universität Argentiniens",
+    "it": "Università cattolica argentina",
+    "tr": "Arjantin Katolik Üniversitesi"
   },
   {
     "code": "ar_itba",
@@ -2402,7 +3138,11 @@
     "es": "Instituto Tecnológico de Buenos Aires",
     "he": "המכון הטכנולוגי של בואנוס איירס",
     "ko": "부에노스아이레스 공과대학교",
-    "zh": "布宜诺斯艾利斯理工学院"
+    "zh": "布宜诺斯艾利斯理工学院",
+    "fr": "Institut de technologie de Buenos Aires",
+    "de": "Technologisches Institut Buenos Aires",
+    "it": "Istituto di tecnologia di Buenos Aires",
+    "tr": "Buenos Aires Teknoloji Enstitüsü"
   },
   {
     "code": "co_unal",
@@ -2415,7 +3155,11 @@
     "es": "Universidad Nacional de Colombia",
     "he": "האוניברסיטה הלאומית של קולומביה",
     "ko": "콜롬비아 국립대학교",
-    "zh": "哥伦比亚国立大学"
+    "zh": "哥伦比亚国立大学",
+    "fr": "Université nationale de Colombie",
+    "de": "Nationale Universität Kolumbiens",
+    "it": "Università nazionale della Colombia",
+    "tr": "Kolombiya Millî Üniversitesi"
   },
   {
     "code": "co_uniandes",
@@ -2428,7 +3172,11 @@
     "es": "Universidad de los Andes (Colombia)",
     "he": "אוניברסיטת לוס אנדס (קולומביה)",
     "ko": "로스안데스 대학교 (콜롬비아)",
-    "zh": "哥伦比亚安第斯大学"
+    "zh": "哥伦比亚安第斯大学",
+    "fr": "Université des Andes (Colombie)",
+    "de": "Universität der Anden (Kolumbien)",
+    "it": "Università delle Ande (Colombia)",
+    "tr": "And Üniversitesi (Kolombiya)"
   },
   {
     "code": "co_javeriana",
@@ -2441,7 +3189,11 @@
     "es": "Pontificia Universidad Javeriana",
     "he": "האוניברסיטה האפיפיורית חוורייאנה",
     "ko": "하베리아나 교황청립대학교",
-    "zh": "哈维里亚那教皇大学"
+    "zh": "哈维里亚那教皇大学",
+    "fr": "Université pontificale Javeriana",
+    "de": "Päpstliche Universität Javeriana",
+    "it": "Università pontificia Javeriana",
+    "tr": "Papalık Javeriana Üniversitesi"
   },
   {
     "code": "co_udea",
@@ -2454,7 +3206,11 @@
     "es": "Universidad de Antioquia",
     "he": "אוניברסיטת אנטיוקיה",
     "ko": "안티오키아 대학교",
-    "zh": "安蒂奥基亚大学"
+    "zh": "安蒂奥基亚大学",
+    "fr": "Université d'Antioquia",
+    "de": "Universität Antioquia",
+    "it": "Università di Antioquia",
+    "tr": "Antioquia Üniversitesi"
   },
   {
     "code": "co_eafit",
@@ -2467,7 +3223,11 @@
     "es": "Universidad EAFIT",
     "he": "אוניברסיטת EAFIT",
     "ko": "EAFIT 대학교",
-    "zh": "EAFIT 大学"
+    "zh": "EAFIT 大学",
+    "fr": "Université EAFIT",
+    "de": "EAFIT-Universität",
+    "it": "Università EAFIT",
+    "tr": "EAFIT Üniversitesi"
   },
   {
     "code": "cl_uchile",
@@ -2480,7 +3240,11 @@
     "es": "Universidad de Chile",
     "he": "אוניברסיטת צ'ילה",
     "ko": "칠레 대학교",
-    "zh": "智利大学"
+    "zh": "智利大学",
+    "fr": "Université du Chili",
+    "de": "Universität von Chile",
+    "it": "Università del Cile",
+    "tr": "Şili Üniversitesi"
   },
   {
     "code": "cl_puc",
@@ -2493,7 +3257,11 @@
     "es": "Pontificia Universidad Católica de Chile",
     "he": "האוניברסיטה הקתולית האפיפיורית של צ'ילה",
     "ko": "칠레 교황청립가톨릭대학교",
-    "zh": "智利天主教大学"
+    "zh": "智利天主教大学",
+    "fr": "Université pontificale catholique du Chili",
+    "de": "Päpstliche Katholische Universität von Chile",
+    "it": "Università pontificia cattolica del Cile",
+    "tr": "Şili Papalık Katolik Üniversitesi"
   },
   {
     "code": "cl_usach",
@@ -2506,7 +3274,11 @@
     "es": "Universidad de Santiago de Chile",
     "he": "אוניברסיטת סנטיאגו דה צ'ילה",
     "ko": "산티아고 데 칠레 대학교",
-    "zh": "圣地亚哥大学"
+    "zh": "圣地亚哥大学",
+    "fr": "Université de Santiago du Chili",
+    "de": "Universität Santiago de Chile",
+    "it": "Università di Santiago del Cile",
+    "tr": "Santiago de Chile Üniversitesi"
   },
   {
     "code": "cl_usm",
@@ -2519,7 +3291,11 @@
     "es": "Universidad Técnica Federico Santa María",
     "he": "האוניברסיטה הטכנית פדריקו סנטה מריה",
     "ko": "페데리코 산타 마리아 공과대학교",
-    "zh": "费德里科·圣玛丽亚理工大学"
+    "zh": "费德里科·圣玛丽亚理工大学",
+    "fr": "Université technique Federico Santa María",
+    "de": "Technische Universität Federico Santa María",
+    "it": "Università tecnica Federico Santa María",
+    "tr": "Federico Santa María Teknik Üniversitesi"
   },
   {
     "code": "cl_udec",
@@ -2532,7 +3308,11 @@
     "es": "Universidad de Concepción",
     "he": "אוניברסיטת קונספסיון",
     "ko": "콘셉시온 대학교",
-    "zh": "康塞普西翁大学"
+    "zh": "康塞普西翁大学",
+    "fr": "Université de Concepción",
+    "de": "Universität Concepción",
+    "it": "Università di Concepción",
+    "tr": "Concepción Üniversitesi"
   },
   {
     "code": "pe_unmsm",
@@ -2545,7 +3325,11 @@
     "es": "Universidad Nacional Mayor de San Marcos",
     "he": "האוניברסיטה הלאומית סן מרקוס",
     "ko": "산마르코스 국립대학교",
-    "zh": "圣马科斯国立大学"
+    "zh": "圣马科斯国立大学",
+    "fr": "Université nationale de San Marcos",
+    "de": "Nationale Universität San Marcos",
+    "it": "Università nazionale di San Marcos",
+    "tr": "San Marcos Millî Üniversitesi"
   },
   {
     "code": "pe_pucp",
@@ -2558,7 +3342,11 @@
     "es": "Pontificia Universidad Católica del Perú",
     "he": "האוניברסיטה הקתולית האפיפיורית של פרו",
     "ko": "페루 교황청립가톨릭대학교",
-    "zh": "秘鲁天主教大学"
+    "zh": "秘鲁天主教大学",
+    "fr": "Université pontificale catholique du Pérou",
+    "de": "Päpstliche Katholische Universität von Peru",
+    "it": "Università pontificia cattolica del Perù",
+    "tr": "Peru Papalık Katolik Üniversitesi"
   },
   {
     "code": "pe_uni",
@@ -2571,7 +3359,11 @@
     "es": "Universidad Nacional de Ingeniería (Perú)",
     "he": "האוניברסיטה הלאומית להנדסה (פרו)",
     "ko": "국립공과대학교 (페루)",
-    "zh": "秘鲁国立工程大学"
+    "zh": "秘鲁国立工程大学",
+    "fr": "Université nationale d'ingénierie (Pérou)",
+    "de": "Nationale Universität für Ingenieurwesen (Peru)",
+    "it": "Università nazionale di ingegneria (Perù)",
+    "tr": "Millî Mühendislik Üniversitesi (Peru)"
   },
   {
     "code": "ve_ucv",
@@ -2584,7 +3376,11 @@
     "es": "Universidad Central de Venezuela",
     "he": "האוניברסיטה המרכזית של ונצואלה",
     "ko": "베네수엘라 중앙대학교",
-    "zh": "委内瑞拉中央大学"
+    "zh": "委内瑞拉中央大学",
+    "fr": "Université centrale du Venezuela",
+    "de": "Zentraluniversität von Venezuela",
+    "it": "Università centrale del Venezuela",
+    "tr": "Venezuela Merkez Üniversitesi"
   },
   {
     "code": "ve_usb",
@@ -2597,7 +3393,11 @@
     "es": "Universidad Simón Bolívar",
     "he": "אוניברסיטת סימון בוליבר",
     "ko": "시몬 볼리바르 대학교",
-    "zh": "西蒙·玻利瓦尔大学"
+    "zh": "西蒙·玻利瓦尔大学",
+    "fr": "Université Simón Bolívar",
+    "de": "Simón-Bolívar-Universität",
+    "it": "Università Simón Bolívar",
+    "tr": "Simón Bolívar Üniversitesi"
   },
   {
     "code": "ve_ucab",
@@ -2610,7 +3410,11 @@
     "es": "Universidad Católica Andrés Bello",
     "he": "האוניברסיטה הקתולית אנדרס בייו",
     "ko": "안드레스 베요 가톨릭대학교",
-    "zh": "安德烈斯·贝略天主教大学"
+    "zh": "安德烈斯·贝略天主教大学",
+    "fr": "Université catholique Andrés Bello",
+    "de": "Katholische Universität Andrés Bello",
+    "it": "Università cattolica Andrés Bello",
+    "tr": "Andrés Bello Katolik Üniversitesi"
   },
   {
     "code": "ec_usfq",
@@ -2623,7 +3427,11 @@
     "es": "Universidad San Francisco de Quito",
     "he": "אוניברסיטת סן פרנסיסקו דה קיטו",
     "ko": "산프란시스코 데 키토 대학교",
-    "zh": "基多圣弗朗西斯科大学"
+    "zh": "基多圣弗朗西斯科大学",
+    "fr": "Université San Francisco de Quito",
+    "de": "Universität San Francisco de Quito",
+    "it": "Università San Francisco de Quito",
+    "tr": "San Francisco de Quito Üniversitesi"
   },
   {
     "code": "ec_epn",
@@ -2636,7 +3444,11 @@
     "es": "Escuela Politécnica Nacional (Ecuador)",
     "he": "בית הספר הפוליטכני הלאומי (אקוודור)",
     "ko": "국립공과학교 (에콰도르)",
-    "zh": "厄瓜多尔国立理工学院"
+    "zh": "厄瓜多尔国立理工学院",
+    "fr": "École polytechnique nationale (Équateur)",
+    "de": "Nationale Polytechnische Schule (Ecuador)",
+    "it": "Scuola politecnica nazionale (Ecuador)",
+    "tr": "Millî Politeknik Okulu (Ekvador)"
   },
   {
     "code": "ec_puce",
@@ -2649,7 +3461,11 @@
     "es": "Pontificia Universidad Católica del Ecuador",
     "he": "האוניברסיטה הקתולית האפיפיורית של אקוודור",
     "ko": "에콰도르 교황청립가톨릭대학교",
-    "zh": "厄瓜多尔天主教大学"
+    "zh": "厄瓜多尔天主教大学",
+    "fr": "Université pontificale catholique de l'Équateur",
+    "de": "Päpstliche Katholische Universität von Ecuador",
+    "it": "Università pontificia cattolica dell'Ecuador",
+    "tr": "Ekvador Papalık Katolik Üniversitesi"
   },
   {
     "code": "uy_udelar",
@@ -2662,7 +3478,11 @@
     "es": "Universidad de la República (Uruguay)",
     "he": "אוניברסיטת הרפובליקה (אורוגוואי)",
     "ko": "우루과이 공화국 대학교",
-    "zh": "乌拉圭共和国大学"
+    "zh": "乌拉圭共和国大学",
+    "fr": "Université de la République (Uruguay)",
+    "de": "Universität der Republik (Uruguay)",
+    "it": "Università della Repubblica (Uruguay)",
+    "tr": "Cumhuriyet Üniversitesi (Uruguay)"
   },
   {
     "code": "uy_ort",
@@ -2675,7 +3495,11 @@
     "es": "Universidad ORT Uruguay",
     "he": "אוניברסיטת ORT אורוגוואי",
     "ko": "ORT 우루과이 대학교",
-    "zh": "乌拉圭 ORT 大学"
+    "zh": "乌拉圭 ORT 大学",
+    "fr": "Université ORT Uruguay",
+    "de": "ORT-Universität Uruguay",
+    "it": "Università ORT Uruguay",
+    "tr": "ORT Uruguay Üniversitesi"
   },
   {
     "code": "cr_ucr",
@@ -2688,7 +3512,11 @@
     "es": "Universidad de Costa Rica",
     "he": "אוניברסיטת קוסטה ריקה",
     "ko": "코스타리카 대학교",
-    "zh": "哥斯达黎加大学"
+    "zh": "哥斯达黎加大学",
+    "fr": "Université du Costa Rica",
+    "de": "Universität von Costa Rica",
+    "it": "Università del Costa Rica",
+    "tr": "Kosta Rika Üniversitesi"
   },
   {
     "code": "cr_tec",
@@ -2701,7 +3529,11 @@
     "es": "Instituto Tecnológico de Costa Rica",
     "he": "המכון הטכנולוגי של קוסטה ריקה",
     "ko": "코스타리카 공과대학교",
-    "zh": "哥斯达黎加理工学院"
+    "zh": "哥斯达黎加理工学院",
+    "fr": "Institut de technologie du Costa Rica",
+    "de": "Technologisches Institut von Costa Rica",
+    "it": "Istituto di tecnologia del Costa Rica",
+    "tr": "Kosta Rika Teknoloji Enstitüsü"
   },
   {
     "code": "cu_uh",
@@ -2714,7 +3546,11 @@
     "es": "Universidad de La Habana",
     "he": "אוניברסיטת הוואנה",
     "ko": "아바나 대학교",
-    "zh": "哈瓦那大学"
+    "zh": "哈瓦那大学",
+    "fr": "Université de La Havane",
+    "de": "Universität Havanna",
+    "it": "Università dell'Avana",
+    "tr": "Havana Üniversitesi"
   },
   {
     "code": "do_uasd",
@@ -2727,7 +3563,11 @@
     "es": "Universidad Autónoma de Santo Domingo",
     "he": "האוניברסיטה האוטונומית של סנטו דומינגו",
     "ko": "산토도밍고 자치대학교",
-    "zh": "圣多明各自治大学"
+    "zh": "圣多明各自治大学",
+    "fr": "Université autonome de Saint-Domingue",
+    "de": "Autonome Universität Santo Domingo",
+    "it": "Università autonoma di Santo Domingo",
+    "tr": "Santo Domingo Özerk Üniversitesi"
   },
   {
     "code": "do_intec",
@@ -2740,7 +3580,11 @@
     "es": "Instituto Tecnológico de Santo Domingo",
     "he": "המכון הטכנולוגי של סנטו דומינגו",
     "ko": "산토도밍고 공과대학교",
-    "zh": "圣多明各理工学院"
+    "zh": "圣多明各理工学院",
+    "fr": "Institut de technologie de Saint-Domingue",
+    "de": "Technologisches Institut Santo Domingo",
+    "it": "Istituto di tecnologia di Santo Domingo",
+    "tr": "Santo Domingo Teknoloji Enstitüsü"
   },
   {
     "code": "gt_usac",
@@ -2753,7 +3597,11 @@
     "es": "Universidad de San Carlos de Guatemala",
     "he": "אוניברסיטת סן קרלוס בגואטמלה",
     "ko": "과테말라 산카를로스 대학교",
-    "zh": "危地马拉圣卡洛斯大学"
+    "zh": "危地马拉圣卡洛斯大学",
+    "fr": "Université San Carlos du Guatemala",
+    "de": "Universität San Carlos von Guatemala",
+    "it": "Università San Carlos del Guatemala",
+    "tr": "Guatemala San Carlos Üniversitesi"
   },
   {
     "code": "gt_ufm",
@@ -2766,7 +3614,11 @@
     "es": "Universidad Francisco Marroquín",
     "he": "אוניברסיטת פרנסיסקו מארוקין",
     "ko": "프란시스코 마로킨 대학교",
-    "zh": "弗朗西斯科·马罗金大学"
+    "zh": "弗朗西斯科·马罗金大学",
+    "fr": "Université Francisco Marroquín",
+    "de": "Universität Francisco Marroquín",
+    "it": "Università Francisco Marroquín",
+    "tr": "Francisco Marroquín Üniversitesi"
   },
   {
     "code": "pa_up",
@@ -2779,7 +3631,11 @@
     "es": "Universidad de Panamá",
     "he": "אוניברסיטת פנמה",
     "ko": "파나마 대학교",
-    "zh": "巴拿马大学"
+    "zh": "巴拿马大学",
+    "fr": "Université du Panama",
+    "de": "Universität Panama",
+    "it": "Università di Panama",
+    "tr": "Panama Üniversitesi"
   },
   {
     "code": "pa_utp",
@@ -2792,7 +3648,11 @@
     "es": "Universidad Tecnológica de Panamá",
     "he": "האוניברסיטה הטכנולוגית של פנמה",
     "ko": "파나마 공과대학교",
-    "zh": "巴拿马理工大学"
+    "zh": "巴拿马理工大学",
+    "fr": "Université technologique du Panama",
+    "de": "Technologische Universität Panama",
+    "it": "Università tecnologica di Panama",
+    "tr": "Panama Teknoloji Üniversitesi"
   },
   {
     "code": "bo_umsa",
@@ -2805,7 +3665,11 @@
     "es": "Universidad Mayor de San Andrés (Bolivia)",
     "he": "האוניברסיטה הגדולה סן אנדרס (בוליביה)",
     "ko": "산안드레스 고등대학교 (볼리비아)",
-    "zh": "圣安德烈斯高等大学"
+    "zh": "圣安德烈斯高等大学",
+    "fr": "Université supérieure de San Andrés (Bolivie)",
+    "de": "Höhere Universität San Andrés (Bolivien)",
+    "it": "Università maggiore di San Andrés (Bolivia)",
+    "tr": "San Andrés Yüksek Üniversitesi (Bolivya)"
   },
   {
     "code": "bo_umss",
@@ -2818,7 +3682,11 @@
     "es": "Universidad Mayor de San Simón",
     "he": "האוניברסיטה הגדולה סן סימון",
     "ko": "산시몬 고등대학교",
-    "zh": "圣西蒙高等大学"
+    "zh": "圣西蒙高等大学",
+    "fr": "Université supérieure de San Simón",
+    "de": "Höhere Universität San Simón",
+    "it": "Università maggiore di San Simón",
+    "tr": "San Simón Yüksek Üniversitesi"
   },
   {
     "code": "py_una",
@@ -2831,7 +3699,11 @@
     "es": "Universidad Nacional de Asunción",
     "he": "האוניברסיטה הלאומית של אסונסיון",
     "ko": "아순시온 국립대학교",
-    "zh": "亚松森国立大学"
+    "zh": "亚松森国立大学",
+    "fr": "Université nationale d'Asunción",
+    "de": "Nationale Universität Asunción",
+    "it": "Università nazionale di Asunción",
+    "tr": "Asunción Millî Üniversitesi"
   },
   {
     "code": "sv_ues",
@@ -2844,7 +3716,11 @@
     "es": "Universidad de El Salvador",
     "he": "אוניברסיטת אל סלוודור",
     "ko": "엘살바도르 대학교",
-    "zh": "萨尔瓦多大学"
+    "zh": "萨尔瓦多大学",
+    "fr": "Université du Salvador",
+    "de": "Universität von El Salvador",
+    "it": "Università di El Salvador",
+    "tr": "El Salvador Üniversitesi"
   },
   {
     "code": "hn_unah",
@@ -2857,7 +3733,11 @@
     "es": "Universidad Nacional Autónoma de Honduras",
     "he": "האוניברסיטה הלאומית האוטונומית של הונדורס",
     "ko": "온두라스 국립자치대학교",
-    "zh": "洪都拉斯国立自治大学"
+    "zh": "洪都拉斯国立自治大学",
+    "fr": "Université nationale autonome du Honduras",
+    "de": "Nationale Autonome Universität von Honduras",
+    "it": "Università nazionale autonoma dell'Honduras",
+    "tr": "Honduras Ulusal Özerk Üniversitesi"
   },
   {
     "code": "ni_unan",
@@ -2870,7 +3750,11 @@
     "es": "Universidad Nacional Autónoma de Nicaragua",
     "he": "האוניברסיטה הלאומית האוטונומית של ניקרגואה",
     "ko": "니카라과 국립자치대학교",
-    "zh": "尼加拉瓜国立自治大学"
+    "zh": "尼加拉瓜国立自治大学",
+    "fr": "Université nationale autonome du Nicaragua",
+    "de": "Nationale Autonome Universität von Nicaragua",
+    "it": "Università nazionale autonoma del Nicaragua",
+    "tr": "Nikaragua Ulusal Özerk Üniversitesi"
   },
   {
     "code": "pr_upr",
@@ -2883,7 +3767,11 @@
     "es": "Universidad de Puerto Rico",
     "he": "אוניברסיטת פוארטו ריקו",
     "ko": "푸에르토리코 대학교",
-    "zh": "波多黎各大学"
+    "zh": "波多黎各大学",
+    "fr": "Université de Porto Rico",
+    "de": "Universität von Puerto Rico",
+    "it": "Università di Porto Rico",
+    "tr": "Porto Riko Üniversitesi"
   },
   {
     "code": "il_huji",
@@ -2896,7 +3784,11 @@
     "es": "Universidad Hebrea de Jerusalén",
     "he": "האוניברסיטה העברית בירושלים",
     "ko": "예루살렘 히브리 대학교",
-    "zh": "耶路撒冷希伯来大学"
+    "zh": "耶路撒冷希伯来大学",
+    "fr": "Université hébraïque de Jérusalem",
+    "de": "Hebräische Universität Jerusalem",
+    "it": "Università Ebraica di Gerusalemme",
+    "tr": "Kudüs İbrani Üniversitesi"
   },
   {
     "code": "il_tau",
@@ -2909,7 +3801,11 @@
     "es": "Universidad de Tel Aviv",
     "he": "אוניברסיטת תל אביב",
     "ko": "텔아비브 대학교",
-    "zh": "特拉维夫大学"
+    "zh": "特拉维夫大学",
+    "fr": "Université de Tel-Aviv",
+    "de": "Universität Tel Aviv",
+    "it": "Università di Tel Aviv",
+    "tr": "Tel Aviv Üniversitesi"
   },
   {
     "code": "il_technion",
@@ -2922,7 +3818,11 @@
     "es": "Technion — Instituto Tecnológico de Israel",
     "he": "הטכניון — מכון טכנולוגי לישראל",
     "ko": "테크니온 이스라엘 공과대학교",
-    "zh": "以色列理工学院"
+    "zh": "以色列理工学院",
+    "fr": "Technion — Institut de technologie d'Israël",
+    "de": "Technion — Israelisches Institut für Technologie",
+    "it": "Technion — Istituto di tecnologia d'Israele",
+    "tr": "Technion — İsrail Teknoloji Enstitüsü"
   },
   {
     "code": "il_weizmann",
@@ -2935,7 +3835,11 @@
     "es": "Instituto Weizmann de Ciencias",
     "he": "מכון ויצמן למדע",
     "ko": "바이츠만 과학연구소",
-    "zh": "魏茨曼科学研究所"
+    "zh": "魏茨曼科学研究所",
+    "fr": "Institut Weizmann des sciences",
+    "de": "Weizmann-Institut für Wissenschaften",
+    "it": "Istituto Weizmann per le scienze",
+    "tr": "Weizmann Bilim Enstitüsü"
   },
   {
     "code": "il_bgu",
@@ -2948,7 +3852,11 @@
     "es": "Universidad Ben-Gurión del Néguev",
     "he": "אוניברסיטת בן-גוריון בנגב",
     "ko": "벤구리온 대학교",
-    "zh": "内盖夫本-古里安大学"
+    "zh": "内盖夫本-古里安大学",
+    "fr": "Université Ben Gourion du Néguev",
+    "de": "Ben-Gurion-Universität des Negev",
+    "it": "Università Ben Gurion del Negev",
+    "tr": "Negev Ben-Gurion Üniversitesi"
   },
   {
     "code": "il_biu",
@@ -2961,7 +3869,11 @@
     "es": "Universidad Bar-Ilán",
     "he": "אוניברסיטת בר-אילן",
     "ko": "바르일란 대학교",
-    "zh": "巴伊兰大学"
+    "zh": "巴伊兰大学",
+    "fr": "Université Bar-Ilan",
+    "de": "Bar-Ilan-Universität",
+    "it": "Università Bar-Ilan",
+    "tr": "Bar-İlan Üniversitesi"
   },
   {
     "code": "il_haifa",
@@ -2974,7 +3886,11 @@
     "es": "Universidad de Haifa",
     "he": "אוניברסיטת חיפה",
     "ko": "하이파 대학교",
-    "zh": "海法大学"
+    "zh": "海法大学",
+    "fr": "Université de Haïfa",
+    "de": "Universität Haifa",
+    "it": "Università di Haifa",
+    "tr": "Hayfa Üniversitesi"
   },
   {
     "code": "il_reichman",
@@ -2987,7 +3903,11 @@
     "es": "Universidad Reichman (Herzliya)",
     "he": "אוניברסיטת רייכמן (הרצליה)",
     "ko": "라이히만 대학교",
-    "zh": "赖希曼大学"
+    "zh": "赖希曼大学",
+    "fr": "Université Reichman (Herzliya)",
+    "de": "Reichman-Universität (Herzlia)",
+    "it": "Università Reichman (Herzliya)",
+    "tr": "Reichman Üniversitesi (Herzliya)"
   },
   {
     "code": "il_openu",
@@ -3000,7 +3920,11 @@
     "es": "Universidad Abierta de Israel",
     "he": "האוניברסיטה הפתוחה",
     "ko": "이스라엘 열린대학교",
-    "zh": "以色列开放大学"
+    "zh": "以色列开放大学",
+    "fr": "Université ouverte d'Israël",
+    "de": "Offene Universität Israel",
+    "it": "Università aperta d'Israele",
+    "tr": "İsrail Açık Üniversitesi"
   },
   {
     "code": "il_ariel",
@@ -3013,7 +3937,11 @@
     "es": "Universidad de Ariel",
     "he": "אוניברסיטת אריאל",
     "ko": "아리엘 대학교",
-    "zh": "阿里埃勒大学"
+    "zh": "阿里埃勒大学",
+    "fr": "Université d'Ariel",
+    "de": "Universität Ariel",
+    "it": "Università di Ariel",
+    "tr": "Ariel Üniversitesi"
   },
   {
     "code": "il_bezalel",
@@ -3026,7 +3954,11 @@
     "es": "Academia de Arte y Diseño Bezalel",
     "he": "בצלאל — אקדמיה לאמנות ולעיצוב",
     "ko": "베잘렐 미술디자인 아카데미",
-    "zh": "贝扎雷艺术设计学院"
+    "zh": "贝扎雷艺术设计学院",
+    "fr": "Académie des arts et du design Bezalel",
+    "de": "Bezalel-Akademie für Kunst und Design",
+    "it": "Accademia di arti e design Bezalel",
+    "tr": "Bezalel Sanat ve Tasarım Akademisi"
   },
   {
     "code": "il_shenkar",
@@ -3039,7 +3971,11 @@
     "es": "Escuela de Ingeniería y Diseño Shenkar",
     "he": "שנקר — הנדסה ועיצוב",
     "ko": "셴카르 공학디자인 대학",
-    "zh": "申卡尔工程与设计学院"
+    "zh": "申卡尔工程与设计学院",
+    "fr": "Collège d'ingénierie et de design Shenkar",
+    "de": "Shenkar-College für Ingenieurwesen und Design",
+    "it": "Collegio di ingegneria e design Shenkar",
+    "tr": "Shenkar Mühendislik ve Tasarım Koleji"
   },
   {
     "code": "kr_snu",
@@ -3052,7 +3988,11 @@
     "es": "Universidad Nacional de Seúl",
     "he": "האוניברסיטה הלאומית של סיאול",
     "ko": "서울대학교",
-    "zh": "首尔大学"
+    "zh": "首尔大学",
+    "fr": "Université nationale de Séoul",
+    "de": "Nationaluniversität Seoul",
+    "it": "Università nazionale di Seul",
+    "tr": "Seul Millî Üniversitesi"
   },
   {
     "code": "kr_yonsei",
@@ -3065,7 +4005,11 @@
     "es": "Universidad Yonsei",
     "he": "אוניברסיטת יונסיי",
     "ko": "연세대학교",
-    "zh": "延世大学"
+    "zh": "延世大学",
+    "fr": "Université Yonsei",
+    "de": "Yonsei-Universität",
+    "it": "Università Yonsei",
+    "tr": "Yonsei Üniversitesi"
   },
   {
     "code": "kr_korea",
@@ -3078,7 +4022,11 @@
     "es": "Universidad de Corea",
     "he": "אוניברסיטת קוריאה",
     "ko": "고려대학교",
-    "zh": "高丽大学"
+    "zh": "高丽大学",
+    "fr": "Université de Corée",
+    "de": "Korea-Universität",
+    "it": "Università della Corea",
+    "tr": "Kore Üniversitesi"
   },
   {
     "code": "kr_kaist",
@@ -3091,7 +4039,11 @@
     "es": "KAIST (Instituto Avanzado de Ciencia y Tecnología de Corea)",
     "he": "מכון קוריאה למדע וטכנולוגיה (KAIST)",
     "ko": "한국과학기술원 (KAIST)",
-    "zh": "韩国科学技术院"
+    "zh": "韩国科学技术院",
+    "fr": "KAIST (Institut supérieur coréen des sciences et technologies)",
+    "de": "KAIST (Koreanisches Institut für Wissenschaft und Technologie)",
+    "it": "KAIST (Istituto coreano avanzato di scienza e tecnologia)",
+    "tr": "KAIST (Kore İleri Bilim ve Teknoloji Enstitüsü)"
   },
   {
     "code": "kr_postech",
@@ -3104,7 +4056,11 @@
     "es": "POSTECH (Universidad de Ciencia y Tecnología de Pohang)",
     "he": "אוניברסיטת פוהאנג למדע וטכנולוגיה (POSTECH)",
     "ko": "포항공과대학교 (POSTECH)",
-    "zh": "浦项科技大学"
+    "zh": "浦项科技大学",
+    "fr": "POSTECH (Université des sciences et technologies de Pohang)",
+    "de": "POSTECH (Universität für Wissenschaft und Technologie Pohang)",
+    "it": "POSTECH (Università di scienza e tecnologia di Pohang)",
+    "tr": "POSTECH (Pohang Bilim ve Teknoloji Üniversitesi)"
   },
   {
     "code": "kr_skku",
@@ -3117,7 +4073,11 @@
     "es": "Universidad Sungkyunkwan",
     "he": "אוניברסיטת סונגקיונקוואן",
     "ko": "성균관대학교",
-    "zh": "成均馆大学"
+    "zh": "成均馆大学",
+    "fr": "Université Sungkyunkwan",
+    "de": "Sungkyunkwan-Universität",
+    "it": "Università Sungkyunkwan",
+    "tr": "Sungkyunkwan Üniversitesi"
   },
   {
     "code": "kr_hanyang",
@@ -3130,7 +4090,11 @@
     "es": "Universidad Hanyang",
     "he": "אוניברסיטת האניאנג",
     "ko": "한양대학교",
-    "zh": "汉阳大学"
+    "zh": "汉阳大学",
+    "fr": "Université Hanyang",
+    "de": "Hanyang-Universität",
+    "it": "Università Hanyang",
+    "tr": "Hanyang Üniversitesi"
   },
   {
     "code": "kr_cau",
@@ -3143,7 +4107,11 @@
     "es": "Universidad Chung-Ang",
     "he": "אוניברסיטת צ'ונג-אנג",
     "ko": "중앙대학교",
-    "zh": "中央大学"
+    "zh": "中央大学",
+    "fr": "Université Chung-Ang",
+    "de": "Chung-Ang-Universität",
+    "it": "Università Chung-Ang",
+    "tr": "Chung-Ang Üniversitesi"
   },
   {
     "code": "kr_khu",
@@ -3156,7 +4124,11 @@
     "es": "Universidad Kyung Hee",
     "he": "אוניברסיטת קיונג הי",
     "ko": "경희대학교",
-    "zh": "庆熙大学"
+    "zh": "庆熙大学",
+    "fr": "Université Kyung Hee",
+    "de": "Kyung-Hee-Universität",
+    "it": "Università Kyung Hee",
+    "tr": "Kyung Hee Üniversitesi"
   },
   {
     "code": "kr_sogang",
@@ -3169,7 +4141,11 @@
     "es": "Universidad Sogang",
     "he": "אוניברסיטת סוגאנג",
     "ko": "서강대학교",
-    "zh": "西江大学"
+    "zh": "西江大学",
+    "fr": "Université Sogang",
+    "de": "Sogang-Universität",
+    "it": "Università Sogang",
+    "tr": "Sogang Üniversitesi"
   },
   {
     "code": "kr_ewha",
@@ -3182,7 +4158,11 @@
     "es": "Universidad Femenina Ewha",
     "he": "אוניברסיטת הנשים איווה",
     "ko": "이화여자대학교",
-    "zh": "梨花女子大学"
+    "zh": "梨花女子大学",
+    "fr": "Université féminine Ewha",
+    "de": "Ewha-Frauenuniversität",
+    "it": "Università femminile Ewha",
+    "tr": "Ewha Kadın Üniversitesi"
   },
   {
     "code": "kr_hufs",
@@ -3195,7 +4175,11 @@
     "es": "Universidad Hankuk de Estudios Extranjeros",
     "he": "אוניברסיטת האנקוק ללימודי חוץ",
     "ko": "한국외국어대학교",
-    "zh": "韩国外国语大学"
+    "zh": "韩国外国语大学",
+    "fr": "Université des études étrangères Hankuk",
+    "de": "Hankuk-Universität für Fremdsprachen",
+    "it": "Università di studi stranieri Hankuk",
+    "tr": "Hankuk Yabancı Diller Üniversitesi"
   },
   {
     "code": "kr_konkuk",
@@ -3208,7 +4192,11 @@
     "es": "Universidad Konkuk",
     "he": "אוניברסיטת קונקוק",
     "ko": "건국대학교",
-    "zh": "建国大学"
+    "zh": "建国大学",
+    "fr": "Université Konkuk",
+    "de": "Konkuk-Universität",
+    "it": "Università Konkuk",
+    "tr": "Konkuk Üniversitesi"
   },
   {
     "code": "kr_dongguk",
@@ -3221,7 +4209,11 @@
     "es": "Universidad Dongguk",
     "he": "אוניברסיטת דונגגוק",
     "ko": "동국대학교",
-    "zh": "东国大学"
+    "zh": "东国大学",
+    "fr": "Université Dongguk",
+    "de": "Dongguk-Universität",
+    "it": "Università Dongguk",
+    "tr": "Dongguk Üniversitesi"
   },
   {
     "code": "kr_sejong",
@@ -3234,7 +4226,11 @@
     "es": "Universidad Sejong",
     "he": "אוניברסיטת סג'ונג",
     "ko": "세종대학교",
-    "zh": "世宗大学"
+    "zh": "世宗大学",
+    "fr": "Université Sejong",
+    "de": "Sejong-Universität",
+    "it": "Università Sejong",
+    "tr": "Sejong Üniversitesi"
   },
   {
     "code": "kr_hongik",
@@ -3247,7 +4243,11 @@
     "es": "Universidad Hongik",
     "he": "אוניברסיטת הונגיק",
     "ko": "홍익대학교",
-    "zh": "弘益大学"
+    "zh": "弘益大学",
+    "fr": "Université Hongik",
+    "de": "Hongik-Universität",
+    "it": "Università Hongik",
+    "tr": "Hongik Üniversitesi"
   },
   {
     "code": "kr_kookmin",
@@ -3260,7 +4260,11 @@
     "es": "Universidad Kookmin",
     "he": "אוניברסיטת קוקמין",
     "ko": "국민대학교",
-    "zh": "国民大学"
+    "zh": "国民大学",
+    "fr": "Université Kookmin",
+    "de": "Kookmin-Universität",
+    "it": "Università Kookmin",
+    "tr": "Kookmin Üniversitesi"
   },
   {
     "code": "kr_soongsil",
@@ -3273,7 +4277,11 @@
     "es": "Universidad Soongsil",
     "he": "אוניברסיטת סונגסיל",
     "ko": "숭실대학교",
-    "zh": "崇实大学"
+    "zh": "崇实大学",
+    "fr": "Université Soongsil",
+    "de": "Soongsil-Universität",
+    "it": "Università Soongsil",
+    "tr": "Soongsil Üniversitesi"
   },
   {
     "code": "kr_ajou",
@@ -3286,7 +4294,11 @@
     "es": "Universidad Ajou",
     "he": "אוניברסיטת אג'ו",
     "ko": "아주대학교",
-    "zh": "亚洲大学"
+    "zh": "亚洲大学",
+    "fr": "Université Ajou",
+    "de": "Ajou-Universität",
+    "it": "Università Ajou",
+    "tr": "Ajou Üniversitesi"
   },
   {
     "code": "kr_inha",
@@ -3299,7 +4311,11 @@
     "es": "Universidad Inha",
     "he": "אוניברסיטת אינהא",
     "ko": "인하대학교",
-    "zh": "仁荷大学"
+    "zh": "仁荷大学",
+    "fr": "Université Inha",
+    "de": "Inha-Universität",
+    "it": "Università Inha",
+    "tr": "Inha Üniversitesi"
   },
   {
     "code": "kr_unist",
@@ -3312,7 +4328,11 @@
     "es": "UNIST (Instituto Nacional de Ciencia y Tecnología de Ulsan)",
     "he": "המכון הלאומי למדע וטכנולוגיה באולסן (UNIST)",
     "ko": "울산과학기술원 (UNIST)",
-    "zh": "蔚山科学技术院"
+    "zh": "蔚山科学技术院",
+    "fr": "UNIST (Institut national des sciences et technologies d'Ulsan)",
+    "de": "UNIST (Nationales Institut für Wissenschaft und Technologie Ulsan)",
+    "it": "UNIST (Istituto nazionale di scienza e tecnologia di Ulsan)",
+    "tr": "UNIST (Ulsan Millî Bilim ve Teknoloji Enstitüsü)"
   },
   {
     "code": "kr_gist",
@@ -3325,7 +4345,11 @@
     "es": "GIST (Instituto de Ciencia y Tecnología de Gwangju)",
     "he": "מכון גוואנגג'ו למדע וטכנולוגיה (GIST)",
     "ko": "광주과학기술원 (GIST)",
-    "zh": "光州科学技术院"
+    "zh": "光州科学技术院",
+    "fr": "GIST (Institut des sciences et technologies de Gwangju)",
+    "de": "GIST (Institut für Wissenschaft und Technologie Gwangju)",
+    "it": "GIST (Istituto di scienza e tecnologia di Gwangju)",
+    "tr": "GIST (Gwangju Bilim ve Teknoloji Enstitüsü)"
   },
   {
     "code": "kr_pusan",
@@ -3338,7 +4362,11 @@
     "es": "Universidad Nacional de Pusán",
     "he": "האוניברסיטה הלאומית של בוסאן",
     "ko": "부산대학교",
-    "zh": "釜山大学"
+    "zh": "釜山大学",
+    "fr": "Université nationale de Pusan",
+    "de": "Nationaluniversität Pusan",
+    "it": "Università nazionale di Pusan",
+    "tr": "Pusan Millî Üniversitesi"
   },
   {
     "code": "kr_knu",
@@ -3351,7 +4379,11 @@
     "es": "Universidad Nacional de Kyungpook",
     "he": "האוניברסיטה הלאומית קיונגפוק",
     "ko": "경북대학교",
-    "zh": "庆北大学"
+    "zh": "庆北大学",
+    "fr": "Université nationale de Kyungpook",
+    "de": "Nationaluniversität Kyungpook",
+    "it": "Università nazionale di Kyungpook",
+    "tr": "Kyungpook Millî Üniversitesi"
   },
   {
     "code": "kr_cnu",
@@ -3364,7 +4396,11 @@
     "es": "Universidad Nacional de Chungnam",
     "he": "האוניברסיטה הלאומית צ'ונגנאם",
     "ko": "충남대학교",
-    "zh": "忠南大学"
+    "zh": "忠南大学",
+    "fr": "Université nationale de Chungnam",
+    "de": "Nationaluniversität Chungnam",
+    "it": "Università nazionale di Chungnam",
+    "tr": "Chungnam Millî Üniversitesi"
   },
   {
     "code": "kr_jnu",
@@ -3377,7 +4413,11 @@
     "es": "Universidad Nacional de Chonnam",
     "he": "האוניברסיטה הלאומית צ'ונאם",
     "ko": "전남대학교",
-    "zh": "全南大学"
+    "zh": "全南大学",
+    "fr": "Université nationale de Chonnam",
+    "de": "Nationaluniversität Chonnam",
+    "it": "Università nazionale di Chonnam",
+    "tr": "Chonnam Millî Üniversitesi"
   },
   {
     "code": "kr_uos",
@@ -3390,7 +4430,11 @@
     "es": "Universidad de Seúl",
     "he": "אוניברסיטת סיאול העירונית",
     "ko": "서울시립대학교",
-    "zh": "首尔市立大学"
+    "zh": "首尔市立大学",
+    "fr": "Université de la ville de Séoul",
+    "de": "Städtische Universität Seoul",
+    "it": "Università municipale di Seul",
+    "tr": "Seul Şehir Üniversitesi"
   },
   {
     "code": "kr_seoultech",
@@ -3403,7 +4447,11 @@
     "es": "Universidad Nacional de Ciencia y Tecnología de Seúl",
     "he": "האוניברסיטה הלאומית למדע וטכנולוגיה בסיאול",
     "ko": "서울과학기술대학교",
-    "zh": "首尔科学技术大学"
+    "zh": "首尔科学技术大学",
+    "fr": "Université nationale des sciences et technologies de Séoul",
+    "de": "Nationale Universität für Wissenschaft und Technologie Seoul",
+    "it": "Università nazionale di scienza e tecnologia di Seul",
+    "tr": "Seul Millî Bilim ve Teknoloji Üniversitesi"
   },
   {
     "code": "kr_knou",
@@ -3416,7 +4464,11 @@
     "es": "Universidad Nacional Abierta de Corea",
     "he": "האוניברסיטה הפתוחה הלאומית של קוריאה",
     "ko": "한국방송통신대학교",
-    "zh": "韩国放送通信大学"
+    "zh": "韩国放送通信大学",
+    "fr": "Université nationale ouverte de Corée",
+    "de": "Koreanische Nationale Fernuniversität",
+    "it": "Università nazionale aperta della Corea",
+    "tr": "Kore Millî Açık Üniversitesi"
   },
   {
     "code": "kr_catholic",
@@ -3429,7 +4481,11 @@
     "es": "Universidad Católica de Corea",
     "he": "האוניברסיטה הקתולית של קוריאה",
     "ko": "가톨릭대학교",
-    "zh": "韩国天主教大学"
+    "zh": "韩国天主教大学",
+    "fr": "Université catholique de Corée",
+    "de": "Katholische Universität von Korea",
+    "it": "Università cattolica della Corea",
+    "tr": "Kore Katolik Üniversitesi"
   },
   {
     "code": "cn_pku",
@@ -3442,7 +4498,11 @@
     "es": "Universidad de Pekín",
     "he": "אוניברסיטת פקין",
     "ko": "베이징대학교",
-    "zh": "北京大学"
+    "zh": "北京大学",
+    "fr": "Université de Pékin",
+    "de": "Peking-Universität",
+    "it": "Università di Pechino",
+    "tr": "Pekin Üniversitesi"
   },
   {
     "code": "cn_tsinghua",
@@ -3455,7 +4515,11 @@
     "es": "Universidad Tsinghua",
     "he": "אוניברסיטת צינגחואה",
     "ko": "칭화대학교",
-    "zh": "清华大学"
+    "zh": "清华大学",
+    "fr": "Université Tsinghua",
+    "de": "Tsinghua-Universität",
+    "it": "Università Tsinghua",
+    "tr": "Tsinghua Üniversitesi"
   },
   {
     "code": "cn_fudan",
@@ -3468,7 +4532,11 @@
     "es": "Universidad Fudan",
     "he": "אוניברסיטת פודאן",
     "ko": "푸단대학교",
-    "zh": "复旦大学"
+    "zh": "复旦大学",
+    "fr": "Université Fudan",
+    "de": "Fudan-Universität",
+    "it": "Università Fudan",
+    "tr": "Fudan Üniversitesi"
   },
   {
     "code": "cn_sjtu",
@@ -3481,7 +4549,11 @@
     "es": "Universidad Jiao Tong de Shanghái",
     "he": "אוניברסיטת ג׳יאו טונג שנגחאי",
     "ko": "상하이교통대학교",
-    "zh": "上海交通大学"
+    "zh": "上海交通大学",
+    "fr": "Université Jiao Tong de Shanghai",
+    "de": "Jiao-Tong-Universität Shanghai",
+    "it": "Università Jiao Tong di Shanghai",
+    "tr": "Şanghay Jiao Tong Üniversitesi"
   },
   {
     "code": "cn_zju",
@@ -3494,7 +4566,11 @@
     "es": "Universidad de Zhejiang",
     "he": "אוניברסיטת ג׳ג׳יאנג",
     "ko": "저장대학교",
-    "zh": "浙江大学"
+    "zh": "浙江大学",
+    "fr": "Université du Zhejiang",
+    "de": "Zhejiang-Universität",
+    "it": "Università dello Zhejiang",
+    "tr": "Zhejiang Üniversitesi"
   },
   {
     "code": "cn_nju",
@@ -3507,7 +4583,11 @@
     "es": "Universidad de Nankín",
     "he": "אוניברסיטת ננג׳ינג",
     "ko": "난징대학교",
-    "zh": "南京大学"
+    "zh": "南京大学",
+    "fr": "Université de Nankin",
+    "de": "Universität Nanjing",
+    "it": "Università di Nanchino",
+    "tr": "Nanjing Üniversitesi"
   },
   {
     "code": "cn_ustc",
@@ -3520,7 +4600,11 @@
     "es": "Universidad de Ciencia y Tecnología de China",
     "he": "אוניברסיטת המדע והטכנולוגיה של סין",
     "ko": "중국과학기술대학교",
-    "zh": "中国科学技术大学"
+    "zh": "中国科学技术大学",
+    "fr": "Université des sciences et technologies de Chine",
+    "de": "Universität für Wissenschaft und Technologie Chinas",
+    "it": "Università di scienza e tecnologia della Cina",
+    "tr": "Çin Bilim ve Teknoloji Üniversitesi"
   },
   {
     "code": "cn_hit",
@@ -3533,7 +4617,11 @@
     "es": "Instituto de Tecnología de Harbin",
     "he": "המכון הטכנולוגי של הארבין",
     "ko": "하얼빈공업대학교",
-    "zh": "哈尔滨工业大学"
+    "zh": "哈尔滨工业大学",
+    "fr": "Institut de technologie de Harbin",
+    "de": "Technologisches Institut Harbin",
+    "it": "Istituto di tecnologia di Harbin",
+    "tr": "Harbin Teknoloji Enstitüsü"
   },
   {
     "code": "cn_xjtu",
@@ -3546,7 +4634,11 @@
     "es": "Universidad Jiao Tong de Xi'an",
     "he": "אוניברסיטת ג׳יאו טונג שיאן",
     "ko": "시안교통대학교",
-    "zh": "西安交通大学"
+    "zh": "西安交通大学",
+    "fr": "Université Jiaotong de Xi'an",
+    "de": "Jiaotong-Universität Xi'an",
+    "it": "Università Jiaotong di Xi'an",
+    "tr": "Xi'an Jiaotong Üniversitesi"
   },
   {
     "code": "cn_ruc",
@@ -3559,7 +4651,11 @@
     "es": "Universidad Renmin de China",
     "he": "אוניברסיטת רנמין של סין",
     "ko": "중국인민대학교",
-    "zh": "中国人民大学"
+    "zh": "中国人民大学",
+    "fr": "Université du Peuple de Chine",
+    "de": "Volksuniversität Chinas",
+    "it": "Università del Popolo della Cina",
+    "tr": "Çin Halk Üniversitesi"
   },
   {
     "code": "cn_bnu",
@@ -3572,7 +4668,11 @@
     "es": "Universidad Normal de Pekín",
     "he": "האוניברסיטה הפדגוגית של בייג׳ינג",
     "ko": "베이징사범대학교",
-    "zh": "北京师范大学"
+    "zh": "北京师范大学",
+    "fr": "Université normale de Pékin",
+    "de": "Pädagogische Universität Peking",
+    "it": "Università normale di Pechino",
+    "tr": "Pekin Pedagoji Üniversitesi"
   },
   {
     "code": "cn_buaa",
@@ -3585,7 +4685,11 @@
     "es": "Universidad de Aeronáutica y Astronáutica de Pekín",
     "he": "אוניברסיטת בייג׳ינג לאווירונאוטיקה ואסטרונאוטיקה",
     "ko": "베이징항공항천대학교",
-    "zh": "北京航空航天大学"
+    "zh": "北京航空航天大学",
+    "fr": "Université Beihang (aéronautique et astronautique de Pékin)",
+    "de": "Beihang-Universität (Luft- und Raumfahrt Peking)",
+    "it": "Università Beihang (aeronautica e astronautica di Pechino)",
+    "tr": "Beihang Üniversitesi (Pekin Havacılık ve Uzay)"
   },
   {
     "code": "cn_bit",
@@ -3598,7 +4702,11 @@
     "es": "Instituto de Tecnología de Pekín",
     "he": "המכון הטכנולוגי של בייג׳ינג",
     "ko": "베이징이공대학교",
-    "zh": "北京理工大学"
+    "zh": "北京理工大学",
+    "fr": "Institut de technologie de Pékin",
+    "de": "Technologisches Institut Peking",
+    "it": "Istituto di tecnologia di Pechino",
+    "tr": "Pekin Teknoloji Enstitüsü"
   },
   {
     "code": "cn_cauniv",
@@ -3611,7 +4719,11 @@
     "es": "Universidad Agrícola de China",
     "he": "האוניברסיטה החקלאית של סין",
     "ko": "중국농업대학교",
-    "zh": "中国农业大学"
+    "zh": "中国农业大学",
+    "fr": "Université d'agriculture de Chine",
+    "de": "Landwirtschaftliche Universität Chinas",
+    "it": "Università agraria della Cina",
+    "tr": "Çin Tarım Üniversitesi"
   },
   {
     "code": "cn_nankai",
@@ -3624,7 +4736,11 @@
     "es": "Universidad de Nankai",
     "he": "אוניברסיטת ננקאי",
     "ko": "난카이대학교",
-    "zh": "南开大学"
+    "zh": "南开大学",
+    "fr": "Université Nankai",
+    "de": "Nankai-Universität",
+    "it": "Università Nankai",
+    "tr": "Nankai Üniversitesi"
   },
   {
     "code": "cn_tju",
@@ -3637,7 +4753,11 @@
     "es": "Universidad de Tianjin",
     "he": "אוניברסיטת טיאנג׳ין",
     "ko": "톈진대학교",
-    "zh": "天津大学"
+    "zh": "天津大学",
+    "fr": "Université de Tianjin",
+    "de": "Universität Tianjin",
+    "it": "Università di Tianjin",
+    "tr": "Tianjin Üniversitesi"
   },
   {
     "code": "cn_tongji",
@@ -3650,7 +4770,11 @@
     "es": "Universidad Tongji",
     "he": "אוניברסיטת טונגג׳י",
     "ko": "퉁지대학교",
-    "zh": "同济大学"
+    "zh": "同济大学",
+    "fr": "Université Tongji",
+    "de": "Tongji-Universität",
+    "it": "Università Tongji",
+    "tr": "Tongji Üniversitesi"
   },
   {
     "code": "cn_ecnu",
@@ -3663,7 +4787,11 @@
     "es": "Universidad Normal del Este de China",
     "he": "האוניברסיטה הפדגוגית של מזרח סין",
     "ko": "화둥사범대학교",
-    "zh": "华东师范大学"
+    "zh": "华东师范大学",
+    "fr": "Université normale de Chine de l'Est",
+    "de": "Pädagogische Universität Ostchina",
+    "it": "Università normale della Cina orientale",
+    "tr": "Doğu Çin Pedagoji Üniversitesi"
   },
   {
     "code": "cn_seu",
@@ -3676,7 +4804,11 @@
     "es": "Universidad del Sudeste",
     "he": "אוניברסיטת דרום-מזרח",
     "ko": "둥난대학교",
-    "zh": "东南大学"
+    "zh": "东南大学",
+    "fr": "Université du Sud-Est",
+    "de": "Südost-Universität",
+    "it": "Università del Sud-Est",
+    "tr": "Güneydoğu Üniversitesi"
   },
   {
     "code": "cn_whu",
@@ -3689,7 +4821,11 @@
     "es": "Universidad de Wuhan",
     "he": "אוניברסיטת ווהאן",
     "ko": "우한대학교",
-    "zh": "武汉大学"
+    "zh": "武汉大学",
+    "fr": "Université de Wuhan",
+    "de": "Universität Wuhan",
+    "it": "Università di Wuhan",
+    "tr": "Wuhan Üniversitesi"
   },
   {
     "code": "cn_hust",
@@ -3702,7 +4838,11 @@
     "es": "Universidad de Ciencia y Tecnología de Huazhong",
     "he": "אוניברסיטת המדע והטכנולוגיה הואג׳ונג",
     "ko": "화중과학기술대학교",
-    "zh": "华中科技大学"
+    "zh": "华中科技大学",
+    "fr": "Université des sciences et technologies de Huazhong",
+    "de": "Universität für Wissenschaft und Technologie Huazhong",
+    "it": "Università di scienza e tecnologia di Huazhong",
+    "tr": "Huazhong Bilim ve Teknoloji Üniversitesi"
   },
   {
     "code": "cn_sysu",
@@ -3715,7 +4855,11 @@
     "es": "Universidad Sun Yat-sen",
     "he": "אוניברסיטת סון יאט-סן",
     "ko": "중산대학교",
-    "zh": "中山大学"
+    "zh": "中山大学",
+    "fr": "Université Sun Yat-sen",
+    "de": "Sun-Yat-sen-Universität",
+    "it": "Università Sun Yat-sen",
+    "tr": "Sun Yat-sen Üniversitesi"
   },
   {
     "code": "cn_scut",
@@ -3728,7 +4872,11 @@
     "es": "Universidad Tecnológica del Sur de China",
     "he": "האוניברסיטה הטכנולוגית של דרום סין",
     "ko": "화난이공대학교",
-    "zh": "华南理工大学"
+    "zh": "华南理工大学",
+    "fr": "Université de technologie de Chine du Sud",
+    "de": "Technologische Universität Südchina",
+    "it": "Università di tecnologia della Cina meridionale",
+    "tr": "Güney Çin Teknoloji Üniversitesi"
   },
   {
     "code": "cn_csu",
@@ -3741,7 +4889,11 @@
     "es": "Universidad Central del Sur",
     "he": "אוניברסיטת דרום-מרכז",
     "ko": "중난대학교",
-    "zh": "中南大学"
+    "zh": "中南大学",
+    "fr": "Université du Centre-Sud",
+    "de": "Zentralsüd-Universität",
+    "it": "Università Centro-Sud",
+    "tr": "Merkez Güney Üniversitesi"
   },
   {
     "code": "cn_hnu",
@@ -3754,7 +4906,11 @@
     "es": "Universidad de Hunan",
     "he": "אוניברסיטת חונאן",
     "ko": "후난대학교",
-    "zh": "湖南大学"
+    "zh": "湖南大学",
+    "fr": "Université du Hunan",
+    "de": "Universität Hunan",
+    "it": "Università dello Hunan",
+    "tr": "Hunan Üniversitesi"
   },
   {
     "code": "cn_xmu",
@@ -3767,7 +4923,11 @@
     "es": "Universidad de Xiamen",
     "he": "אוניברסיטת שיאמן",
     "ko": "샤먼대학교",
-    "zh": "厦门大学"
+    "zh": "厦门大学",
+    "fr": "Université de Xiamen",
+    "de": "Universität Xiamen",
+    "it": "Università di Xiamen",
+    "tr": "Xiamen Üniversitesi"
   },
   {
     "code": "cn_scu",
@@ -3780,7 +4940,11 @@
     "es": "Universidad de Sichuan",
     "he": "אוניברסיטת סיצ׳ואן",
     "ko": "쓰촨대학교",
-    "zh": "四川大学"
+    "zh": "四川大学",
+    "fr": "Université du Sichuan",
+    "de": "Universität Sichuan",
+    "it": "Università del Sichuan",
+    "tr": "Sichuan Üniversitesi"
   },
   {
     "code": "cn_uestc",
@@ -3793,7 +4957,11 @@
     "es": "Universidad de Ciencia y Tecnología Electrónica de China",
     "he": "אוניברסיטת המדע והטכנולוגיה האלקטרונית של סין",
     "ko": "전자과학기술대학교",
-    "zh": "电子科技大学"
+    "zh": "电子科技大学",
+    "fr": "Université des sciences et technologies électroniques de Chine",
+    "de": "Universität für elektronische Wissenschaft und Technologie Chinas",
+    "it": "Università di scienza e tecnologia elettronica della Cina",
+    "tr": "Çin Elektronik Bilim ve Teknoloji Üniversitesi"
   },
   {
     "code": "cn_cqu",
@@ -3806,7 +4974,11 @@
     "es": "Universidad de Chongqing",
     "he": "אוניברסיטת צ׳ונגצ׳ינג",
     "ko": "충칭대학교",
-    "zh": "重庆大学"
+    "zh": "重庆大学",
+    "fr": "Université de Chongqing",
+    "de": "Universität Chongqing",
+    "it": "Università di Chongqing",
+    "tr": "Chongqing Üniversitesi"
   },
   {
     "code": "cn_nwpu",
@@ -3819,7 +4991,11 @@
     "es": "Universidad Politécnica del Noroeste",
     "he": "האוניברסיטה הפוליטכנית הצפון-מערבית",
     "ko": "시베이공업대학교",
-    "zh": "西北工业大学"
+    "zh": "西北工业大学",
+    "fr": "Université polytechnique du Nord-Ouest",
+    "de": "Polytechnische Universität Nordwest",
+    "it": "Università politecnica del Nord-Ovest",
+    "tr": "Kuzeybatı Politeknik Üniversitesi"
   },
   {
     "code": "cn_jlu",
@@ -3832,7 +5008,11 @@
     "es": "Universidad de Jilin",
     "he": "אוניברסיטת ג׳ילין",
     "ko": "지린대학교",
-    "zh": "吉林大学"
+    "zh": "吉林大学",
+    "fr": "Université du Jilin",
+    "de": "Universität Jilin",
+    "it": "Università del Jilin",
+    "tr": "Jilin Üniversitesi"
   },
   {
     "code": "cn_dlut",
@@ -3845,7 +5025,11 @@
     "es": "Universidad Tecnológica de Dalian",
     "he": "האוניברסיטה הטכנולוגית של דאליאן",
     "ko": "다롄이공대학교",
-    "zh": "大连理工大学"
+    "zh": "大连理工大学",
+    "fr": "Université de technologie de Dalian",
+    "de": "Technologische Universität Dalian",
+    "it": "Università di tecnologia di Dalian",
+    "tr": "Dalian Teknoloji Üniversitesi"
   },
   {
     "code": "cn_sdu",
@@ -3858,7 +5042,11 @@
     "es": "Universidad de Shandong",
     "he": "אוניברסיטת שאנדונג",
     "ko": "산둥대학교",
-    "zh": "山东大学"
+    "zh": "山东大学",
+    "fr": "Université du Shandong",
+    "de": "Universität Shandong",
+    "it": "Università dello Shandong",
+    "tr": "Shandong Üniversitesi"
   },
   {
     "code": "cn_uibe",
@@ -3871,7 +5059,11 @@
     "es": "Universidad de Negocios Internacionales y Economía",
     "he": "אוניברסיטת המסחר והכלכלה הבינלאומיים",
     "ko": "대외경제무역대학교",
-    "zh": "对外经济贸易大学"
+    "zh": "对外经济贸易大学",
+    "fr": "Université du commerce international et de l'économie",
+    "de": "Universität für internationale Wirtschaft und Handel",
+    "it": "Università di commercio internazionale ed economia",
+    "tr": "Uluslararası İşletme ve Ekonomi Üniversitesi"
   },
   {
     "code": "cn_cufe",
@@ -3884,7 +5076,11 @@
     "es": "Universidad Central de Finanzas y Economía",
     "he": "האוניברסיטה המרכזית לפיננסים וכלכלה",
     "ko": "중앙재경대학교",
-    "zh": "中央财经大学"
+    "zh": "中央财经大学",
+    "fr": "Université centrale de finance et d'économie",
+    "de": "Zentraluniversität für Finanzen und Wirtschaft",
+    "it": "Università centrale di finanza ed economia",
+    "tr": "Merkez Maliye ve Ekonomi Üniversitesi"
   },
   {
     "code": "cn_bfsu",
@@ -3897,7 +5093,11 @@
     "es": "Universidad de Estudios Extranjeros de Pekín",
     "he": "אוניברסיטת בייג׳ינג ללימודי חוץ",
     "ko": "베이징외국어대학교",
-    "zh": "北京外国语大学"
+    "zh": "北京外国语大学",
+    "fr": "Université des études étrangères de Pékin",
+    "de": "Fremdsprachenuniversität Peking",
+    "it": "Università di studi stranieri di Pechino",
+    "tr": "Pekin Yabancı Diller Üniversitesi"
   },
   {
     "code": "cn_cupl",
@@ -3910,7 +5110,11 @@
     "es": "Universidad de Ciencia Política y Derecho de China",
     "he": "האוניברסיטה הסינית למדע המדינה ולמשפטים",
     "ko": "중국정법대학교",
-    "zh": "中国政法大学"
+    "zh": "中国政法大学",
+    "fr": "Université de science politique et de droit de Chine",
+    "de": "Universität für Politikwissenschaft und Recht Chinas",
+    "it": "Università di scienze politiche e diritto della Cina",
+    "tr": "Çin Siyaset Bilimi ve Hukuk Üniversitesi"
   },
   {
     "code": "cn_bupt",
@@ -3923,7 +5127,11 @@
     "es": "Universidad de Correos y Telecomunicaciones de Pekín",
     "he": "אוניברסיטת בייג׳ינג לדואר ולתקשורת",
     "ko": "베이징우전대학교",
-    "zh": "北京邮电大学"
+    "zh": "北京邮电大学",
+    "fr": "Université des postes et télécommunications de Pékin",
+    "de": "Universität für Post und Telekommunikation Peking",
+    "it": "Università delle poste e telecomunicazioni di Pechino",
+    "tr": "Pekin Posta ve Telekomünikasyon Üniversitesi"
   },
   {
     "code": "cn_cup",
@@ -3936,7 +5144,11 @@
     "es": "Universidad del Petróleo de China (Pekín)",
     "he": "האוניברסיטה הסינית לנפט (בייג׳ינג)",
     "ko": "중국석유대학교(베이징)",
-    "zh": "中国石油大学（北京）"
+    "zh": "中国石油大学（北京）",
+    "fr": "Université du pétrole de Chine (Pékin)",
+    "de": "Erdöluniversität Chinas (Peking)",
+    "it": "Università del petrolio della Cina (Pechino)",
+    "tr": "Çin Petrol Üniversitesi (Pekin)"
   },
   {
     "code": "cn_open",
@@ -3949,6 +5161,1030 @@
     "es": "Universidad Abierta de China",
     "he": "האוניברסיטה הפתוחה של סין",
     "ko": "중국국가개방대학교",
-    "zh": "国家开放大学"
+    "zh": "国家开放大学",
+    "fr": "Université ouverte de Chine",
+    "de": "Offene Universität Chinas",
+    "it": "Università aperta della Cina",
+    "tr": "Çin Açık Üniversitesi"
+  },
+  {
+    "code": "fr_psl",
+    "group": "universities",
+    "az": "PSL Universiteti (Paris Elmlər və Ədəbiyyat)",
+    "en": "PSL University (Paris Sciences et Lettres)",
+    "ru": "Университет PSL (Париж, наука и литература)",
+    "ka": "PSL უნივერსიტეტი (პარიზი)",
+    "ar": "جامعة باريس للعلوم والآداب (PSL)",
+    "es": "Universidad PSL (París Ciencias y Letras)",
+    "he": "אוניברסיטת PSL (פריז)",
+    "ko": "PSL 대학교 (파리 과학인문대학)",
+    "zh": "巴黎文理研究大学",
+    "fr": "Université PSL (Paris Sciences et Lettres)",
+    "de": "PSL-Universität Paris",
+    "it": "Università PSL di Parigi",
+    "tr": "PSL Üniversitesi (Paris)"
+  },
+  {
+    "code": "fr_polytechnique",
+    "group": "universities",
+    "az": "Politexnik Məktəbi (Paris)",
+    "en": "École Polytechnique",
+    "ru": "Политехническая школа (Париж)",
+    "ka": "პოლიტექნიკური სკოლა (პარიზი)",
+    "ar": "المدرسة المتعددة التقنيات (باريس)",
+    "es": "Escuela Politécnica (París)",
+    "he": "בית הספר הפוליטכני (פריז)",
+    "ko": "에콜 폴리테크니크",
+    "zh": "巴黎综合理工学院",
+    "fr": "École polytechnique",
+    "de": "École Polytechnique (Paris)",
+    "it": "École Polytechnique (Parigi)",
+    "tr": "Politeknik Okulu (Paris)"
+  },
+  {
+    "code": "fr_ens",
+    "group": "universities",
+    "az": "Paris Ali Normal Məktəbi (ENS)",
+    "en": "École Normale Supérieure (ENS Paris)",
+    "ru": "Высшая нормальная школа (Париж)",
+    "ka": "უმაღლესი ნორმალური სკოლა (პარიზი)",
+    "ar": "المدرسة العليا للأساتذة (باريس)",
+    "es": "Escuela Normal Superior (París)",
+    "he": "בית הספר הנורמלי הגבוה (פריז)",
+    "ko": "파리 고등사범학교",
+    "zh": "巴黎高等师范学院",
+    "fr": "École normale supérieure (ENS Paris)",
+    "de": "École Normale Supérieure Paris",
+    "it": "École Normale Supérieure di Parigi",
+    "tr": "Paris Yüksek Öğretmen Okulu (ENS)"
+  },
+  {
+    "code": "fr_saclay",
+    "group": "universities",
+    "az": "Paris-Sakle Universiteti",
+    "en": "Paris-Saclay University",
+    "ru": "Университет Париж-Сакле",
+    "ka": "პარიზ-საკლეს უნივერსიტეტი",
+    "ar": "جامعة باريس ساكلي",
+    "es": "Universidad de París-Saclay",
+    "he": "אוניברסיטת פריז-סקלה",
+    "ko": "파리-사클레 대학교",
+    "zh": "巴黎-萨克雷大学",
+    "fr": "Université Paris-Saclay",
+    "de": "Universität Paris-Saclay",
+    "it": "Università Paris-Saclay",
+    "tr": "Paris-Saclay Üniversitesi"
+  },
+  {
+    "code": "fr_paris_cite",
+    "group": "universities",
+    "az": "Paris Site Universiteti",
+    "en": "Université Paris Cité",
+    "ru": "Университет Париж Сите",
+    "ka": "პარიზ სიტეს უნივერსიტეტი",
+    "ar": "جامعة باريس سيتيه",
+    "es": "Universidad París Cité",
+    "he": "אוניברסיטת פריז סיטה",
+    "ko": "파리 시테 대학교",
+    "zh": "巴黎西岱大学",
+    "fr": "Université Paris Cité",
+    "de": "Universität Paris Cité",
+    "it": "Università Paris Cité",
+    "tr": "Paris Cité Üniversitesi"
+  },
+  {
+    "code": "fr_paris1",
+    "group": "universities",
+    "az": "Panteon-Sorbonna Universiteti (Paris 1)",
+    "en": "Panthéon-Sorbonne University (Paris 1)",
+    "ru": "Университет Пантеон-Сорбонна (Париж 1)",
+    "ka": "პანთეონ-სორბონის უნივერსიტეტი (პარიზი 1)",
+    "ar": "جامعة بانتيون السوربون (باريس 1)",
+    "es": "Universidad Panthéon-Sorbonne (París 1)",
+    "he": "אוניברסיטת פנתיאון-סורבון (פריז 1)",
+    "ko": "팡테옹-소르본 대학교 (파리 1대학)",
+    "zh": "巴黎第一大学（先贤祠-索邦）",
+    "fr": "Université Paris 1 Panthéon-Sorbonne",
+    "de": "Universität Panthéon-Sorbonne (Paris 1)",
+    "it": "Università Panthéon-Sorbonne (Parigi 1)",
+    "tr": "Panthéon-Sorbonne Üniversitesi (Paris 1)"
+  },
+  {
+    "code": "fr_sciencespo",
+    "group": "universities",
+    "az": "Paris Siyasi Elmlər İnstitutu (Sciences Po)",
+    "en": "Sciences Po Paris",
+    "ru": "Институт политических исследований (Sciences Po)",
+    "ka": "პარიზის პოლიტიკურ მეცნიერებათა ინსტიტუტი",
+    "ar": "معهد الدراسات السياسية بباريس",
+    "es": "Instituto de Estudios Políticos de París",
+    "he": "מכון פריז למדע המדינה",
+    "ko": "파리정치대학 (시앙스포)",
+    "zh": "巴黎政治学院",
+    "fr": "Sciences Po Paris",
+    "de": "Sciences Po Paris",
+    "it": "Sciences Po Parigi",
+    "tr": "Sciences Po Paris"
+  },
+  {
+    "code": "fr_dauphine",
+    "group": "universities",
+    "az": "Paris Dofin Universiteti",
+    "en": "Université Paris Dauphine",
+    "ru": "Университет Париж-Дофин",
+    "ka": "პარიზ დოფინის უნივერსიტეტი",
+    "ar": "جامعة باريس دوفين",
+    "es": "Universidad París Dauphine",
+    "he": "אוניברסיטת פריז דופין",
+    "ko": "파리 도핀 대학교",
+    "zh": "巴黎多菲纳大学",
+    "fr": "Université Paris Dauphine – PSL",
+    "de": "Universität Paris Dauphine",
+    "it": "Università Paris Dauphine",
+    "tr": "Paris Dauphine Üniversitesi"
+  },
+  {
+    "code": "fr_hec",
+    "group": "universities",
+    "az": "HEC Paris Biznes Məktəbi",
+    "en": "HEC Paris",
+    "ru": "Высшая коммерческая школа Парижа (HEC)",
+    "ka": "HEC პარიზის ბიზნეს სკოლა",
+    "ar": "كلية إدارة الأعمال HEC باريس",
+    "es": "HEC París",
+    "he": "HEC פריז",
+    "ko": "HEC 파리 경영대학원",
+    "zh": "巴黎高等商学院",
+    "fr": "HEC Paris",
+    "de": "HEC Paris",
+    "it": "HEC Parigi",
+    "tr": "HEC Paris İşletme Okulu"
+  },
+  {
+    "code": "fr_essec",
+    "group": "universities",
+    "az": "ESSEC Biznes Məktəbi",
+    "en": "ESSEC Business School",
+    "ru": "Бизнес-школа ESSEC",
+    "ka": "ESSEC ბიზნეს სკოლა",
+    "ar": "كلية إدارة الأعمال ESSEC",
+    "es": "ESSEC Business School",
+    "he": "בית הספר לעסקים ESSEC",
+    "ko": "ESSEC 경영대학원",
+    "zh": "埃塞克高等商学院",
+    "fr": "ESSEC Business School",
+    "de": "ESSEC Business School",
+    "it": "ESSEC Business School",
+    "tr": "ESSEC İşletme Okulu"
+  },
+  {
+    "code": "fr_insead",
+    "group": "universities",
+    "az": "INSEAD",
+    "en": "INSEAD",
+    "ru": "INSEAD",
+    "ka": "INSEAD",
+    "ar": "إنسياد",
+    "es": "INSEAD",
+    "he": "INSEAD",
+    "ko": "INSEAD 경영대학원",
+    "zh": "欧洲工商管理学院",
+    "fr": "INSEAD",
+    "de": "INSEAD",
+    "it": "INSEAD",
+    "tr": "INSEAD"
+  },
+  {
+    "code": "fr_centralesupelec",
+    "group": "universities",
+    "az": "CentraleSupélec",
+    "en": "CentraleSupélec",
+    "ru": "CentraleSupélec",
+    "ka": "CentraleSupélec",
+    "ar": "سنترال سوبيليك",
+    "es": "CentraleSupélec",
+    "he": "סנטרל סופלק",
+    "ko": "상트랄쉬펠렉",
+    "zh": "中央理工-高等电力学院",
+    "fr": "CentraleSupélec",
+    "de": "CentraleSupélec",
+    "it": "CentraleSupélec",
+    "tr": "CentraleSupélec"
+  },
+  {
+    "code": "fr_lyon1",
+    "group": "universities",
+    "az": "Klod Bernar Lion 1 Universiteti",
+    "en": "Claude Bernard University Lyon 1",
+    "ru": "Университет Клода Бернара Лион 1",
+    "ka": "კლოდ ბერნარის ლიონ 1-ის უნივერსიტეტი",
+    "ar": "جامعة كلود برنار ليون 1",
+    "es": "Universidad Claude Bernard Lyon 1",
+    "he": "אוניברסיטת קלוד ברנאר ליון 1",
+    "ko": "클로드 베르나르 리옹 1 대학교",
+    "zh": "里昂第一大学",
+    "fr": "Université Claude Bernard Lyon 1",
+    "de": "Universität Claude Bernard Lyon 1",
+    "it": "Università Claude Bernard Lione 1",
+    "tr": "Claude Bernard Lyon 1 Üniversitesi"
+  },
+  {
+    "code": "fr_strasbourg",
+    "group": "universities",
+    "az": "Strasburq Universiteti",
+    "en": "University of Strasbourg",
+    "ru": "Страсбургский университет",
+    "ka": "სტრასბურგის უნივერსიტეტი",
+    "ar": "جامعة ستراسبورغ",
+    "es": "Universidad de Estrasburgo",
+    "he": "אוניברסיטת שטרסבורג",
+    "ko": "스트라스부르 대학교",
+    "zh": "斯特拉斯堡大学",
+    "fr": "Université de Strasbourg",
+    "de": "Universität Straßburg",
+    "it": "Università di Strasburgo",
+    "tr": "Strazburg Üniversitesi"
+  },
+  {
+    "code": "fr_amu",
+    "group": "universities",
+    "az": "Eks-Marsel Universiteti",
+    "en": "Aix-Marseille University",
+    "ru": "Университет Экс-Марсель",
+    "ka": "ექს-მარსელის უნივერსიტეტი",
+    "ar": "جامعة إيكس مرسيليا",
+    "es": "Universidad de Aix-Marsella",
+    "he": "אוניברסיטת אקס-מרסיי",
+    "ko": "엑스-마르세유 대학교",
+    "zh": "艾克斯-马赛大学",
+    "fr": "Aix-Marseille Université",
+    "de": "Universität Aix-Marseille",
+    "it": "Università di Aix-Marsiglia",
+    "tr": "Aix-Marseille Üniversitesi"
+  },
+  {
+    "code": "de_heidelberg",
+    "group": "universities",
+    "az": "Haydelberq Universiteti",
+    "en": "Heidelberg University",
+    "ru": "Гейдельбергский университет",
+    "ka": "ჰაიდელბერგის უნივერსიტეტი",
+    "ar": "جامعة هايدلبرغ",
+    "es": "Universidad de Heidelberg",
+    "he": "אוניברסיטת היידלברג",
+    "ko": "하이델베르크 대학교",
+    "zh": "海德堡大学",
+    "fr": "Université de Heidelberg",
+    "de": "Universität Heidelberg",
+    "it": "Università di Heidelberg",
+    "tr": "Heidelberg Üniversitesi"
+  },
+  {
+    "code": "de_hu_berlin",
+    "group": "universities",
+    "az": "Berlin Humboldt Universiteti",
+    "en": "Humboldt University of Berlin",
+    "ru": "Берлинский университет имени Гумбольдта",
+    "ka": "ბერლინის ჰუმბოლდტის უნივერსიტეტი",
+    "ar": "جامعة هومبولت في برلين",
+    "es": "Universidad Humboldt de Berlín",
+    "he": "אוניברסיטת הומבולדט בברלין",
+    "ko": "베를린 훔볼트 대학교",
+    "zh": "柏林洪堡大学",
+    "fr": "Université Humboldt de Berlin",
+    "de": "Humboldt-Universität zu Berlin",
+    "it": "Università Humboldt di Berlino",
+    "tr": "Berlin Humboldt Üniversitesi"
+  },
+  {
+    "code": "de_fu_berlin",
+    "group": "universities",
+    "az": "Berlin Azad Universiteti",
+    "en": "Free University of Berlin",
+    "ru": "Свободный университет Берлина",
+    "ka": "ბერლინის თავისუფალი უნივერსიტეტი",
+    "ar": "جامعة برلين الحرة",
+    "es": "Universidad Libre de Berlín",
+    "he": "האוניברסיטה החופשית של ברלין",
+    "ko": "베를린 자유대학교",
+    "zh": "柏林自由大学",
+    "fr": "Université libre de Berlin",
+    "de": "Freie Universität Berlin",
+    "it": "Università Libera di Berlino",
+    "tr": "Berlin Hür Üniversitesi"
+  },
+  {
+    "code": "de_tu_berlin",
+    "group": "universities",
+    "az": "Berlin Texniki Universiteti",
+    "en": "Technical University of Berlin",
+    "ru": "Берлинский технический университет",
+    "ka": "ბერლინის ტექნიკური უნივერსიტეტი",
+    "ar": "جامعة برلين التقنية",
+    "es": "Universidad Técnica de Berlín",
+    "he": "האוניברסיטה הטכנית של ברלין",
+    "ko": "베를린 공과대학교",
+    "zh": "柏林工业大学",
+    "fr": "Université technique de Berlin",
+    "de": "Technische Universität Berlin",
+    "it": "Università tecnica di Berlino",
+    "tr": "Berlin Teknik Üniversitesi"
+  },
+  {
+    "code": "de_charite",
+    "group": "universities",
+    "az": "Charité — Berlin Universitet Tibb Mərkəzi",
+    "en": "Charité — Berlin University Medicine",
+    "ru": "Шарите — медицинский университет Берлина",
+    "ka": "შარიტე — ბერლინის უნივერსიტეტის მედიცინა",
+    "ar": "شاريتيه — كلية الطب بجامعة برلين",
+    "es": "Charité — Medicina Universitaria de Berlín",
+    "he": "שריטה — הפקולטה לרפואה של ברלין",
+    "ko": "샤리테 베를린 의과대학",
+    "zh": "柏林夏里特医学院",
+    "fr": "Charité — Médecine universitaire de Berlin",
+    "de": "Charité – Universitätsmedizin Berlin",
+    "it": "Charité — Medicina universitaria di Berlino",
+    "tr": "Charité — Berlin Üniversite Tıp Merkezi"
+  },
+  {
+    "code": "de_rwth",
+    "group": "universities",
+    "az": "Aaxen Texniki Universiteti (RWTH)",
+    "en": "RWTH Aachen University",
+    "ru": "Ахенский технический университет (RWTH)",
+    "ka": "აახენის ტექნიკური უნივერსიტეტი (RWTH)",
+    "ar": "جامعة آخن التقنية (RWTH)",
+    "es": "Universidad Técnica de Aquisgrán (RWTH)",
+    "he": "האוניברסיטה הטכנית של אאכן",
+    "ko": "아헨 공과대학교",
+    "zh": "亚琛工业大学",
+    "fr": "Université technique de Rhénanie-Westphalie (RWTH Aix-la-Chapelle)",
+    "de": "RWTH Aachen",
+    "it": "Università tecnica di Aquisgrana (RWTH)",
+    "tr": "Aachen Teknik Üniversitesi (RWTH)"
+  },
+  {
+    "code": "de_kit",
+    "group": "universities",
+    "az": "Karlsrue Texnologiya İnstitutu (KIT)",
+    "en": "Karlsruhe Institute of Technology (KIT)",
+    "ru": "Технологический институт Карлсруэ (KIT)",
+    "ka": "კარლსრუეს ტექნოლოგიური ინსტიტუტი (KIT)",
+    "ar": "معهد كارلسروه للتكنولوجيا (KIT)",
+    "es": "Instituto de Tecnología de Karlsruhe (KIT)",
+    "he": "המכון הטכנולוגי של קרלסרוהה",
+    "ko": "카를스루에 공과대학교",
+    "zh": "卡尔斯鲁厄理工学院",
+    "fr": "Institut de technologie de Karlsruhe (KIT)",
+    "de": "Karlsruher Institut für Technologie (KIT)",
+    "it": "Istituto di tecnologia di Karlsruhe (KIT)",
+    "tr": "Karlsruhe Teknoloji Enstitüsü (KIT)"
+  },
+  {
+    "code": "de_tuebingen",
+    "group": "universities",
+    "az": "Tübingen Universiteti",
+    "en": "University of Tübingen",
+    "ru": "Тюбингенский университет",
+    "ka": "ტიუბინგენის უნივერსიტეტი",
+    "ar": "جامعة توبنغن",
+    "es": "Universidad de Tubinga",
+    "he": "אוניברסיטת טובינגן",
+    "ko": "튀빙겐 대학교",
+    "zh": "图宾根大学",
+    "fr": "Université de Tübingen",
+    "de": "Universität Tübingen",
+    "it": "Università di Tubinga",
+    "tr": "Tübingen Üniversitesi"
+  },
+  {
+    "code": "de_freiburg",
+    "group": "universities",
+    "az": "Frayburq Universiteti",
+    "en": "University of Freiburg",
+    "ru": "Фрайбургский университет",
+    "ka": "ფრაიბურგის უნივერსიტეტი",
+    "ar": "جامعة فرايبورغ",
+    "es": "Universidad de Friburgo",
+    "he": "אוניברסיטת פריבורג",
+    "ko": "프라이부르크 대학교",
+    "zh": "弗赖堡大学",
+    "fr": "Université de Fribourg-en-Brisgau",
+    "de": "Universität Freiburg",
+    "it": "Università di Friburgo in Brisgovia",
+    "tr": "Freiburg Üniversitesi"
+  },
+  {
+    "code": "de_goettingen",
+    "group": "universities",
+    "az": "Göttingen Universiteti",
+    "en": "University of Göttingen",
+    "ru": "Гёттингенский университет",
+    "ka": "გიოტინგენის უნივერსიტეტი",
+    "ar": "جامعة غوتينغن",
+    "es": "Universidad de Gotinga",
+    "he": "אוניברסיטת גטינגן",
+    "ko": "괴팅겐 대학교",
+    "zh": "哥廷根大学",
+    "fr": "Université de Göttingen",
+    "de": "Universität Göttingen",
+    "it": "Università di Gottinga",
+    "tr": "Göttingen Üniversitesi"
+  },
+  {
+    "code": "de_bonn",
+    "group": "universities",
+    "az": "Bonn Universiteti",
+    "en": "University of Bonn",
+    "ru": "Боннский университет",
+    "ka": "ბონის უნივერსიტეტი",
+    "ar": "جامعة بون",
+    "es": "Universidad de Bonn",
+    "he": "אוניברסיטת בון",
+    "ko": "본 대학교",
+    "zh": "波恩大学",
+    "fr": "Université de Bonn",
+    "de": "Universität Bonn",
+    "it": "Università di Bonn",
+    "tr": "Bonn Üniversitesi"
+  },
+  {
+    "code": "de_hamburg",
+    "group": "universities",
+    "az": "Hamburq Universiteti",
+    "en": "University of Hamburg",
+    "ru": "Гамбургский университет",
+    "ka": "ჰამბურგის უნივერსიტეტი",
+    "ar": "جامعة هامبورغ",
+    "es": "Universidad de Hamburgo",
+    "he": "אוניברסיטת המבורג",
+    "ko": "함부르크 대학교",
+    "zh": "汉堡大学",
+    "fr": "Université de Hambourg",
+    "de": "Universität Hamburg",
+    "it": "Università di Amburgo",
+    "tr": "Hamburg Üniversitesi"
+  },
+  {
+    "code": "de_koeln",
+    "group": "universities",
+    "az": "Köln Universiteti",
+    "en": "University of Cologne",
+    "ru": "Кёльнский университет",
+    "ka": "კიოლნის უნივერსიტეტი",
+    "ar": "جامعة كولونيا",
+    "es": "Universidad de Colonia",
+    "he": "אוניברסיטת קלן",
+    "ko": "쾰른 대학교",
+    "zh": "科隆大学",
+    "fr": "Université de Cologne",
+    "de": "Universität zu Köln",
+    "it": "Università di Colonia",
+    "tr": "Köln Üniversitesi"
+  },
+  {
+    "code": "de_frankfurt",
+    "group": "universities",
+    "az": "Frankfurt Höte Universiteti",
+    "en": "Goethe University Frankfurt",
+    "ru": "Франкфуртский университет имени Гёте",
+    "ka": "ფრანკფურტის გოეთეს უნივერსიტეტი",
+    "ar": "جامعة غوته في فرانكفورت",
+    "es": "Universidad Goethe de Fráncfort",
+    "he": "אוניברסיטת גתה בפרנקפורט",
+    "ko": "프랑크푸르트 괴테 대학교",
+    "zh": "法兰克福歌德大学",
+    "fr": "Université Goethe de Francfort",
+    "de": "Goethe-Universität Frankfurt",
+    "it": "Università Goethe di Francoforte",
+    "tr": "Frankfurt Goethe Üniversitesi"
+  },
+  {
+    "code": "de_tu_dresden",
+    "group": "universities",
+    "az": "Drezden Texniki Universiteti",
+    "en": "Dresden University of Technology",
+    "ru": "Дрезденский технический университет",
+    "ka": "დრეზდენის ტექნიკური უნივერსიტეტი",
+    "ar": "جامعة درسدن التقنية",
+    "es": "Universidad Técnica de Dresde",
+    "he": "האוניברסיטה הטכנית של דרזדן",
+    "ko": "드레스덴 공과대학교",
+    "zh": "德累斯顿工业大学",
+    "fr": "Université technique de Dresde",
+    "de": "Technische Universität Dresden",
+    "it": "Università tecnica di Dresda",
+    "tr": "Dresden Teknik Üniversitesi"
+  },
+  {
+    "code": "it_bologna",
+    "group": "universities",
+    "az": "Boloniya Universiteti",
+    "en": "University of Bologna",
+    "ru": "Болонский университет",
+    "ka": "ბოლონიის უნივერსიტეტი",
+    "ar": "جامعة بولونيا",
+    "es": "Universidad de Bolonia",
+    "he": "אוניברסיטת בולוניה",
+    "ko": "볼로냐 대학교",
+    "zh": "博洛尼亚大学",
+    "fr": "Université de Bologne",
+    "de": "Universität Bologna",
+    "it": "Università di Bologna",
+    "tr": "Bologna Üniversitesi"
+  },
+  {
+    "code": "it_sapienza",
+    "group": "universities",
+    "az": "Roma Sapienza Universiteti",
+    "en": "Sapienza University of Rome",
+    "ru": "Римский университет Ла Сапиенца",
+    "ka": "რომის საპიენცას უნივერსიტეტი",
+    "ar": "جامعة سابينزا في روما",
+    "es": "Universidad Sapienza de Roma",
+    "he": "אוניברסיטת ספיינצה ברומא",
+    "ko": "로마 사피엔차 대학교",
+    "zh": "罗马大学",
+    "fr": "Université Sapienza de Rome",
+    "de": "Universität La Sapienza Rom",
+    "it": "Sapienza Università di Roma",
+    "tr": "Roma Sapienza Üniversitesi"
+  },
+  {
+    "code": "it_polimi",
+    "group": "universities",
+    "az": "Milan Politexnik Universiteti",
+    "en": "Polytechnic University of Milan",
+    "ru": "Миланский политехнический университет",
+    "ka": "მილანის პოლიტექნიკური უნივერსიტეტი",
+    "ar": "جامعة ميلانو للتكنولوجيا",
+    "es": "Politécnico de Milán",
+    "he": "הפוליטכניון של מילאנו",
+    "ko": "밀라노 공과대학교",
+    "zh": "米兰理工大学",
+    "fr": "École polytechnique de Milan",
+    "de": "Polytechnische Universität Mailand",
+    "it": "Politecnico di Milano",
+    "tr": "Milano Politeknik Üniversitesi"
+  },
+  {
+    "code": "it_unimi",
+    "group": "universities",
+    "az": "Milan Universiteti",
+    "en": "University of Milan",
+    "ru": "Миланский университет",
+    "ka": "მილანის უნივერსიტეტი",
+    "ar": "جامعة ميلانو",
+    "es": "Universidad de Milán",
+    "he": "אוניברסיטת מילאנו",
+    "ko": "밀라노 대학교",
+    "zh": "米兰大学",
+    "fr": "Université de Milan",
+    "de": "Universität Mailand",
+    "it": "Università degli Studi di Milano",
+    "tr": "Milano Üniversitesi"
+  },
+  {
+    "code": "it_bocconi",
+    "group": "universities",
+    "az": "Bokkoni Universiteti",
+    "en": "Bocconi University",
+    "ru": "Университет Боккони",
+    "ka": "ბოკონის უნივერსიტეტი",
+    "ar": "جامعة بوكوني",
+    "es": "Universidad Bocconi",
+    "he": "אוניברסיטת בוקוני",
+    "ko": "보코니 대학교",
+    "zh": "博科尼大学",
+    "fr": "Université Bocconi",
+    "de": "Bocconi-Universität",
+    "it": "Università Bocconi",
+    "tr": "Bocconi Üniversitesi"
+  },
+  {
+    "code": "it_cattolica",
+    "group": "universities",
+    "az": "Müqəddəs Ürək Katolik Universiteti",
+    "en": "Catholic University of the Sacred Heart",
+    "ru": "Католический университет Святого Сердца",
+    "ka": "წმინდა გულის კათოლიკური უნივერსიტეტი",
+    "ar": "الجامعة الكاثوليكية للقلب المقدس",
+    "es": "Universidad Católica del Sagrado Corazón",
+    "he": "האוניברסיטה הקתולית של הלב הקדוש",
+    "ko": "성심 가톨릭 대학교",
+    "zh": "圣心天主教大学",
+    "fr": "Université catholique du Sacré-Cœur",
+    "de": "Katholische Universität vom Heiligen Herzen",
+    "it": "Università Cattolica del Sacro Cuore",
+    "tr": "Kutsal Kalp Katolik Üniversitesi"
+  },
+  {
+    "code": "it_padova",
+    "group": "universities",
+    "az": "Padova Universiteti",
+    "en": "University of Padua",
+    "ru": "Падуанский университет",
+    "ka": "პადოვის უნივერსიტეტი",
+    "ar": "جامعة بادوفا",
+    "es": "Universidad de Padua",
+    "he": "אוניברסיטת פאדובה",
+    "ko": "파도바 대학교",
+    "zh": "帕多瓦大学",
+    "fr": "Université de Padoue",
+    "de": "Universität Padua",
+    "it": "Università di Padova",
+    "tr": "Padova Üniversitesi"
+  },
+  {
+    "code": "it_pisa",
+    "group": "universities",
+    "az": "Piza Universiteti",
+    "en": "University of Pisa",
+    "ru": "Пизанский университет",
+    "ka": "პიზის უნივერსიტეტი",
+    "ar": "جامعة بيزا",
+    "es": "Universidad de Pisa",
+    "he": "אוניברסיטת פיזה",
+    "ko": "피사 대학교",
+    "zh": "比萨大学",
+    "fr": "Université de Pise",
+    "de": "Universität Pisa",
+    "it": "Università di Pisa",
+    "tr": "Pisa Üniversitesi"
+  },
+  {
+    "code": "it_sns",
+    "group": "universities",
+    "az": "Piza Ali Normal Məktəbi",
+    "en": "Scuola Normale Superiore di Pisa",
+    "ru": "Высшая нормальная школа в Пизе",
+    "ka": "პიზის უმაღლესი ნორმალური სკოლა",
+    "ar": "المدرسة العليا للأساتذة في بيزا",
+    "es": "Escuela Normal Superior de Pisa",
+    "he": "בית הספר הנורמלי הגבוה בפיזה",
+    "ko": "피사 고등사범학교",
+    "zh": "比萨高等师范学校",
+    "fr": "École normale supérieure de Pise",
+    "de": "Scuola Normale Superiore Pisa",
+    "it": "Scuola Normale Superiore di Pisa",
+    "tr": "Pisa Yüksek Öğretmen Okulu"
+  },
+  {
+    "code": "it_torino",
+    "group": "universities",
+    "az": "Turin Universiteti",
+    "en": "University of Turin",
+    "ru": "Туринский университет",
+    "ka": "ტურინის უნივერსიტეტი",
+    "ar": "جامعة تورينو",
+    "es": "Universidad de Turín",
+    "he": "אוניברסיטת טורינו",
+    "ko": "토리노 대학교",
+    "zh": "都灵大学",
+    "fr": "Université de Turin",
+    "de": "Universität Turin",
+    "it": "Università di Torino",
+    "tr": "Torino Üniversitesi"
+  },
+  {
+    "code": "it_polito",
+    "group": "universities",
+    "az": "Turin Politexnik Universiteti",
+    "en": "Polytechnic University of Turin",
+    "ru": "Туринский политехнический университет",
+    "ka": "ტურინის პოლიტექნიკური უნივერსიტეტი",
+    "ar": "جامعة تورينو للتكنولوجيا",
+    "es": "Politécnico de Turín",
+    "he": "הפוליטכניון של טורינו",
+    "ko": "토리노 공과대학교",
+    "zh": "都灵理工大学",
+    "fr": "École polytechnique de Turin",
+    "de": "Polytechnische Universität Turin",
+    "it": "Politecnico di Torino",
+    "tr": "Torino Politeknik Üniversitesi"
+  },
+  {
+    "code": "it_firenze",
+    "group": "universities",
+    "az": "Florensiya Universiteti",
+    "en": "University of Florence",
+    "ru": "Флорентийский университет",
+    "ka": "ფლორენციის უნივერსიტეტი",
+    "ar": "جامعة فلورنسا",
+    "es": "Universidad de Florencia",
+    "he": "אוניברסיטת פירנצה",
+    "ko": "피렌체 대학교",
+    "zh": "佛罗伦萨大学",
+    "fr": "Université de Florence",
+    "de": "Universität Florenz",
+    "it": "Università di Firenze",
+    "tr": "Floransa Üniversitesi"
+  },
+  {
+    "code": "it_federico2",
+    "group": "universities",
+    "az": "Neapol II Federiko Universiteti",
+    "en": "University of Naples Federico II",
+    "ru": "Неапольский университет имени Фридриха II",
+    "ka": "ნეაპოლის ფრედერიკ II-ის უნივერსიტეტი",
+    "ar": "جامعة نابولي فيدريكو الثاني",
+    "es": "Universidad de Nápoles Federico II",
+    "he": "אוניברסיטת נאפולי פדריקו השני",
+    "ko": "나폴리 페데리코 2세 대학교",
+    "zh": "那不勒斯腓特烈二世大学",
+    "fr": "Université de Naples Frédéric-II",
+    "de": "Universität Neapel Federico II",
+    "it": "Università di Napoli Federico II",
+    "tr": "Napoli Federico II Üniversitesi"
+  },
+  {
+    "code": "it_cafoscari",
+    "group": "universities",
+    "az": "Venesiya Ka Foskari Universiteti",
+    "en": "Ca' Foscari University of Venice",
+    "ru": "Университет Ка Фоскари в Венеции",
+    "ka": "ვენეციის კა ფოსკარის უნივერსიტეტი",
+    "ar": "جامعة كا فوسكاري في البندقية",
+    "es": "Universidad Ca' Foscari de Venecia",
+    "he": "אוניברסיטת קא פוסקארי בוונציה",
+    "ko": "베네치아 카포스카리 대학교",
+    "zh": "威尼斯大学",
+    "fr": "Université Ca' Foscari de Venise",
+    "de": "Ca'-Foscari-Universität Venedig",
+    "it": "Università Ca' Foscari Venezia",
+    "tr": "Venedik Ca' Foscari Üniversitesi"
+  },
+  {
+    "code": "it_bicocca",
+    "group": "universities",
+    "az": "Milan-Bikokka Universiteti",
+    "en": "University of Milano-Bicocca",
+    "ru": "Университет Милан-Бикокка",
+    "ka": "მილან-ბიკოკას უნივერსიტეტი",
+    "ar": "جامعة ميلانو بيكوكا",
+    "es": "Universidad de Milán-Bicocca",
+    "he": "אוניברסיטת מילאנו-ביקוקה",
+    "ko": "밀라노-비코카 대학교",
+    "zh": "米兰比可卡大学",
+    "fr": "Université de Milan-Bicocca",
+    "de": "Universität Mailand-Bicocca",
+    "it": "Università di Milano-Bicocca",
+    "tr": "Milano-Bicocca Üniversitesi"
+  },
+  {
+    "code": "tr_gazi",
+    "group": "universities",
+    "az": "Qazi Universiteti",
+    "en": "Gazi University",
+    "ru": "Университет Гази",
+    "ka": "გაზის უნივერსიტეტი",
+    "ar": "جامعة غازي",
+    "es": "Universidad Gazi",
+    "he": "אוניברסיטת גאזי",
+    "ko": "가지 대학교",
+    "zh": "加齐大学",
+    "fr": "Université Gazi",
+    "de": "Gazi-Universität",
+    "it": "Università Gazi",
+    "tr": "Gazi Üniversitesi"
+  },
+  {
+    "code": "tr_ytu",
+    "group": "universities",
+    "az": "Yıldız Texniki Universiteti",
+    "en": "Yıldız Technical University",
+    "ru": "Технический университет Йылдыз",
+    "ka": "იალდიზის ტექნიკური უნივერსიტეტი",
+    "ar": "جامعة يلدز التقنية",
+    "es": "Universidad Técnica Yıldız",
+    "he": "האוניברסיטה הטכנית ילדיז",
+    "ko": "이을드즈 공과대학교",
+    "zh": "耶尔德兹技术大学",
+    "fr": "Université technique Yıldız",
+    "de": "Technische Universität Yıldız",
+    "it": "Università tecnica Yıldız",
+    "tr": "Yıldız Teknik Üniversitesi"
+  },
+  {
+    "code": "tr_marmara",
+    "group": "universities",
+    "az": "Marmara Universiteti",
+    "en": "Marmara University",
+    "ru": "Университет Мармара",
+    "ka": "მარმარას უნივერსიტეტი",
+    "ar": "جامعة مرمرة",
+    "es": "Universidad de Mármara",
+    "he": "אוניברסיטת מרמרה",
+    "ko": "마르마라 대학교",
+    "zh": "马尔马拉大学",
+    "fr": "Université de Marmara",
+    "de": "Marmara-Universität",
+    "it": "Università di Marmara",
+    "tr": "Marmara Üniversitesi"
+  },
+  {
+    "code": "tr_deu",
+    "group": "universities",
+    "az": "Doqquz Eylül Universiteti",
+    "en": "Dokuz Eylül University",
+    "ru": "Университет Докуз Эйлюль",
+    "ka": "დოქუზ ეილულის უნივერსიტეტი",
+    "ar": "جامعة دوقوز أيلول",
+    "es": "Universidad Dokuz Eylül",
+    "he": "אוניברסיטת דוקוז אילול",
+    "ko": "도쿠즈 에일륄 대학교",
+    "zh": "九月九日大学",
+    "fr": "Université Dokuz Eylül",
+    "de": "Dokuz-Eylül-Universität",
+    "it": "Università Dokuz Eylül",
+    "tr": "Dokuz Eylül Üniversitesi"
+  },
+  {
+    "code": "tr_gtu",
+    "group": "universities",
+    "az": "Gebze Texniki Universiteti",
+    "en": "Gebze Technical University",
+    "ru": "Технический университет Гебзе",
+    "ka": "გებზეს ტექნიკური უნივერსიტეტი",
+    "ar": "جامعة غيبزة التقنية",
+    "es": "Universidad Técnica de Gebze",
+    "he": "האוניברסיטה הטכנית של גבזה",
+    "ko": "게브제 공과대학교",
+    "zh": "盖布泽技术大学",
+    "fr": "Université technique de Gebze",
+    "de": "Technische Universität Gebze",
+    "it": "Università tecnica di Gebze",
+    "tr": "Gebze Teknik Üniversitesi"
+  },
+  {
+    "code": "tr_ataturk",
+    "group": "universities",
+    "az": "Atatürk Universiteti",
+    "en": "Atatürk University",
+    "ru": "Университет Ататюрка",
+    "ka": "ათათურქის უნივერსიტეტი",
+    "ar": "جامعة أتاتورك",
+    "es": "Universidad Atatürk",
+    "he": "אוניברסיטת אתאתורק",
+    "ko": "아타튀르크 대학교",
+    "zh": "阿塔图尔克大学",
+    "fr": "Université Atatürk",
+    "de": "Atatürk-Universität",
+    "it": "Università Atatürk",
+    "tr": "Atatürk Üniversitesi"
+  },
+  {
+    "code": "tr_cukurova",
+    "group": "universities",
+    "az": "Çukurova Universiteti",
+    "en": "Çukurova University",
+    "ru": "Университет Чукурова",
+    "ka": "ჩუქუროვას უნივერსიტეტი",
+    "ar": "جامعة تشوكوروفا",
+    "es": "Universidad de Çukurova",
+    "he": "אוניברסיטת צ׳וקורובה",
+    "ko": "추쿠로바 대학교",
+    "zh": "楚库罗瓦大学",
+    "fr": "Université de Çukurova",
+    "de": "Çukurova-Universität",
+    "it": "Università di Çukurova",
+    "tr": "Çukurova Üniversitesi"
+  },
+  {
+    "code": "tr_akdeniz",
+    "group": "universities",
+    "az": "Akdəniz Universiteti",
+    "en": "Akdeniz University",
+    "ru": "Университет Акдениз",
+    "ka": "აქდენიზის უნივერსიტეტი",
+    "ar": "جامعة أكدنيز",
+    "es": "Universidad Akdeniz",
+    "he": "אוניברסיטת אקדניז",
+    "ko": "아크데니즈 대학교",
+    "zh": "阿克代尼兹大学",
+    "fr": "Université Akdeniz",
+    "de": "Akdeniz-Universität",
+    "it": "Università Akdeniz",
+    "tr": "Akdeniz Üniversitesi"
+  },
+  {
+    "code": "tr_erciyes",
+    "group": "universities",
+    "az": "Erciyes Universiteti",
+    "en": "Erciyes University",
+    "ru": "Университет Эрджиес",
+    "ka": "ერჯიესის უნივერსიტეტი",
+    "ar": "جامعة أرجييس",
+    "es": "Universidad Erciyes",
+    "he": "אוניברסיטת ארג׳יאס",
+    "ko": "에르지예스 대학교",
+    "zh": "埃尔吉耶斯大学",
+    "fr": "Université Erciyes",
+    "de": "Erciyes-Universität",
+    "it": "Università Erciyes",
+    "tr": "Erciyes Üniversitesi"
+  },
+  {
+    "code": "tr_selcuk",
+    "group": "universities",
+    "az": "Səlcuq Universiteti",
+    "en": "Selçuk University",
+    "ru": "Университет Сельчук",
+    "ka": "სელჩუქის უნივერსიტეტი",
+    "ar": "جامعة سلجوق",
+    "es": "Universidad Selçuk",
+    "he": "אוניברסיטת סלצ׳וק",
+    "ko": "셀추크 대학교",
+    "zh": "塞尔柱大学",
+    "fr": "Université Selçuk",
+    "de": "Selçuk-Universität",
+    "it": "Università Selçuk",
+    "tr": "Selçuk Üniversitesi"
+  },
+  {
+    "code": "tr_uludag",
+    "group": "universities",
+    "az": "Bursa Uludağ Universiteti",
+    "en": "Bursa Uludağ University",
+    "ru": "Университет Бурса Улудаг",
+    "ka": "ბურსა ულუდაღის უნივერსიტეტი",
+    "ar": "جامعة بورصة أولوداغ",
+    "es": "Universidad Bursa Uludağ",
+    "he": "אוניברסיטת בורסה אולודאג",
+    "ko": "부르사 울루다으 대학교",
+    "zh": "布尔萨乌鲁达大学",
+    "fr": "Université Bursa Uludağ",
+    "de": "Bursa-Uludağ-Universität",
+    "it": "Università Bursa Uludağ",
+    "tr": "Bursa Uludağ Üniversitesi"
+  },
+  {
+    "code": "tr_anadolu",
+    "group": "universities",
+    "az": "Anadolu Universiteti",
+    "en": "Anadolu University",
+    "ru": "Университет Анадолу",
+    "ka": "ანადოლუს უნივერსიტეტი",
+    "ar": "جامعة أنادولو",
+    "es": "Universidad de Anatolia",
+    "he": "אוניברסיטת אנדולו",
+    "ko": "아나돌루 대학교",
+    "zh": "安纳多卢大学",
+    "fr": "Université d'Anatolie",
+    "de": "Anadolu-Universität",
+    "it": "Università di Anatolia",
+    "tr": "Anadolu Üniversitesi"
+  },
+  {
+    "code": "tr_ktu",
+    "group": "universities",
+    "az": "Qaradəniz Texniki Universiteti",
+    "en": "Karadeniz Technical University",
+    "ru": "Черноморский технический университет",
+    "ka": "შავი ზღვის ტექნიკური უნივერსიტეტი",
+    "ar": "جامعة البحر الأسود التقنية",
+    "es": "Universidad Técnica del Mar Negro",
+    "he": "האוניברסיטה הטכנית של הים השחור",
+    "ko": "카라데니즈 공과대학교",
+    "zh": "黑海技术大学",
+    "fr": "Université technique de la mer Noire",
+    "de": "Technische Universität Karadeniz",
+    "it": "Università tecnica del Mar Nero",
+    "tr": "Karadeniz Teknik Üniversitesi"
+  },
+  {
+    "code": "tr_iyte",
+    "group": "universities",
+    "az": "İzmir Yüksək Texnologiya İnstitutu",
+    "en": "İzmir Institute of Technology",
+    "ru": "Измирский технологический институт",
+    "ka": "იზმირის ტექნოლოგიური ინსტიტუტი",
+    "ar": "معهد إزمير للتكنولوجيا",
+    "es": "Instituto de Tecnología de Esmirna",
+    "he": "המכון הטכנולוגי של איזמיר",
+    "ko": "이즈미르 공과대학교",
+    "zh": "伊兹密尔理工学院",
+    "fr": "Institut de technologie d’Izmir",
+    "de": "Technologisches Institut Izmir",
+    "it": "Istituto di tecnologia di Smirne",
+    "tr": "İzmir Yüksek Teknoloji Enstitüsü"
+  },
+  {
+    "code": "tr_ozyegin",
+    "group": "universities",
+    "az": "Özyeğin Universiteti",
+    "en": "Özyeğin University",
+    "ru": "Университет Озйегин",
+    "ka": "ოზიეღინის უნივერსიტეტი",
+    "ar": "جامعة أوزيغين",
+    "es": "Universidad Özyeğin",
+    "he": "אוניברסיטת אוזייגין",
+    "ko": "외제인 대학교",
+    "zh": "厄兹耶因大学",
+    "fr": "Université Özyeğin",
+    "de": "Özyeğin-Universität",
+    "it": "Università Özyeğin",
+    "tr": "Özyeğin Üniversitesi"
   }
 ]

@@ -98,10 +98,47 @@ describe('Wizard', () => {
       expect(credit.textContent).toBe(`${prefix}Claude AI`);
     });
 
-    it('gives each locale its own wording', () => {
-      const wordings = SUPPORTED_LOCALES.map((l) => i18n.getFixedT(l)('wizard.createdBy'));
-      // Not a translation-quality check — just that nobody pasted English in.
-      expect(new Set(wordings).size).toBe(wordings.length);
+    /**
+     * ⚠️ THE PREMISE HERE BROKE ONCE, and the fix is the point of the comment.
+     *
+     * This asserted that all N wordings are DISTINCT, as a cheap proxy for "nobody
+     * pasted one locale's text into another". Turkish falsified it: `wizard.createdBy`
+     * is "Hazırlayan" in both Azerbaijani and Turkish, because they are sister
+     * languages in the same Turkic branch and that genuinely is the same word. A
+     * distinctness rule quietly assumes every pair of shipped languages is unrelated,
+     * which stopped being true the moment a second Oghuz language arrived — the same
+     * class of broken assumption as `direction.test.ts` asserting Arabic was the only
+     * RTL locale until Hebrew landed.
+     *
+     * So the rule is now what was actually meant: no locale may reuse the wording of
+     * an UNRELATED language. Related pairs are declared, not inferred, so a future
+     * Portuguese-beside-Spanish or Kazakh-beside-Turkish addition states its case
+     * here instead of quietly weakening the guard — and nobody is tempted to distort
+     * a translation to satisfy a test.
+     */
+    const RELATED_LANGUAGES: Array<[string, string]> = [['az', 'tr']];
+
+    it('gives each unrelated locale its own wording', () => {
+      const isRelated = (a: string, b: string): boolean =>
+        RELATED_LANGUAGES.some(([x, y]) => (x === a && y === b) || (x === b && y === a));
+
+      const collisions: string[] = [];
+      for (const a of SUPPORTED_LOCALES) {
+        for (const b of SUPPORTED_LOCALES) {
+          if (a >= b || isRelated(a, b)) continue;
+          const [wa, wb] = [a, b].map((l) => i18n.getFixedT(l)('wizard.createdBy'));
+          if (wa === wb) collisions.push(`${a} and ${b} both say "${wa}"`);
+        }
+      }
+      expect(collisions).toEqual([]);
+    });
+
+    /** The declared pairs must be real — a stale entry would hide a genuine paste. */
+    it('only declares related languages that actually agree', () => {
+      for (const [a, b] of RELATED_LANGUAGES) {
+        const [wa, wb] = [a, b].map((l) => i18n.getFixedT(l)('wizard.createdBy'));
+        expect(wa, `"${a}"/"${b}" are declared related but no longer agree`).toBe(wb);
+      }
     });
 
     it('survives to the second step', async () => {

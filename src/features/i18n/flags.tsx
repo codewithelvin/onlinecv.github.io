@@ -37,6 +37,22 @@ const KR_RED = '#cd2e3a';
 const KR_BLUE = '#0047a0';
 const CN_RED = '#EE1C25';
 const CN_YELLOW = '#FFFF00';
+/**
+ * France, at the government's CURRENT charter rather than the shade most stock
+ * artwork still uses: the navy `#000091` and `#E1000F` were restored in July 2020,
+ * reversing the lighter 1976 pair (`#0055A4`/`#EF4135`). Both are real, so this is
+ * a choice, and it is the one the French state itself publishes.
+ */
+const FR_BLUE = '#000091';
+const FR_RED = '#E1000F';
+/** Germany, at the federal cabinet's 1999 specification. */
+const DE_RED = '#FF0000';
+const DE_GOLD = '#FFCC00';
+/** Italy: the sRGB renderings of the 2006 Pantone definition (17-6153 / 11-0601 / 18-1662). */
+const IT_GREEN = '#008C45';
+const IT_WHITE = '#F4F5F0';
+const IT_RED = '#CD212A';
+const TR_RED = '#E30A17';
 
 /**
  * The angle everything on the Korean flag is rotated by: `atan(2/3)`, the angle of
@@ -105,6 +121,23 @@ const CN_SMALL: Array<[number, number]> = [
  */
 const PENTAGRAM_WAIST = Math.cos((72 * Math.PI) / 180) / Math.cos((36 * Math.PI) / 180);
 
+/**
+ * The ten vertices of a five-pointed star — outer point, waist, outer point … —
+ * `rotate` degrees clockwise from one-point-up.
+ *
+ * Shared by the Chinese and Turkish flags, which need the same shape at different
+ * rotations. Kept as the ten-vertex outline rather than the self-intersecting
+ * five-vertex `{5/2}` polygon the published Turkish artwork uses: the two render
+ * identically, and this one does not depend on the fill rule.
+ */
+function pentagramPoints(cx: number, cy: number, r: number, rotate = 0): string {
+  return Array.from({ length: 10 }, (_, i) => {
+    const angle = ((-90 + rotate + i * 36) * Math.PI) / 180;
+    const radius = i % 2 === 0 ? r : r * PENTAGRAM_WAIST;
+    return `${(cx + radius * Math.cos(angle)).toFixed(3)},${(cy + radius * Math.sin(angle)).toFixed(3)}`;
+  }).join(' ');
+}
+
 /** One of the Chinese flag's stars: `rotate` degrees clockwise from one-point-up. */
 function CnStar({
   cx,
@@ -117,13 +150,32 @@ function CnStar({
   r: number;
   rotate?: number;
 }): JSX.Element {
-  const points = Array.from({ length: 10 }, (_, i) => {
-    const angle = ((-90 + rotate + i * 36) * Math.PI) / 180;
-    const radius = i % 2 === 0 ? r : r * PENTAGRAM_WAIST;
-    return `${(cx + radius * Math.cos(angle)).toFixed(3)},${(cy + radius * Math.sin(angle)).toFixed(3)}`;
-  }).join(' ');
-  return <polygon points={points} fill={CN_YELLOW} />;
+  return <polygon points={pentagramPoints(cx, cy, r, rotate)} fill={CN_YELLOW} />;
 }
+
+/**
+ * The Turkish flag's crescent and star, at the construction in the Türk Bayrağı
+ * Kanunu — and this flag is the one case in this file where the published
+ * geometry maps onto the 24 × 16 box EXACTLY: Turkey's official ratio is 2:3, so
+ * the law's 90000 × 60000 field is the same shape, scaled by 1/3750. Every number
+ * below is therefore the legal one, checkable against the source.
+ *
+ * `E = ⅓G`, the one measurement the law's summary tables state ambiguously (edge
+ * to edge? centre to centre?), is NOT used here. The star's centre is taken from
+ * the official artwork instead, which resolves it: at 49250 the star's inner point
+ * reaches x = 41750, i.e. PAST the crescent's horn tips at 42675 — the star sits
+ * inside the crescent's opening rather than clear of it, which is the detail an
+ * eyeballed Turkish flag always gets wrong.
+ *
+ * ⚠️ AND THE ROTATION, which no prose description of this flag states: the five
+ * points sit at 180°, ±108° and ±36°, so ONE POINT AIMS AT THE HOIST — straight
+ * into the crescent. Derived from the official artwork's own vertex coordinates,
+ * not guessed; `rotate: -90` puts a point at 180° for a shape with 72° symmetry.
+ */
+const TR_SCALE = 24 / 90000;
+const TR_CRESCENT_OUTER = { cx: 30000, r: 15000 };
+const TR_CRESCENT_INNER = { cx: 33750, r: 12000 };
+const TR_STAR = { cx: 49250, r: 7500, rotate: -90 };
 
 /** A small Bolnisi cross, as used four times on the Georgian flag. */
 function SmallCross({ cx, cy }: { cx: number; cy: number }): JSX.Element {
@@ -306,6 +358,71 @@ const FLAGS: Record<Locale, ReactNode> = {
           rotate={(Math.atan2(CN_BIG[1] - y, CN_BIG[0] - x) * 180) / Math.PI + 90}
         />
       ))}
+    </>
+  ),
+  /*
+   * France, Germany and Italy are the simple case this file was waiting for:
+   * three equal bands each, nothing to simplify and nothing to get wrong beyond
+   * the order of the colours and which way the bands run. France and Italy are
+   * VERTICAL (hoist-side colour first — blue for France, green for Italy) and
+   * Germany is HORIZONTAL, black at the top.
+   *
+   * France's naval ensign does use unequal 30:33:37 bands, so that the stripes
+   * look even when the flag is flapping. It is not this flag: the land flag has
+   * been equal thirds since 1853, and the app is not a ship.
+   */
+  fr: (
+    <>
+      <rect width={8} height={16} fill={FR_BLUE} />
+      <rect x={8} width={8} height={16} fill="#fff" />
+      <rect x={16} width={8} height={16} fill={FR_RED} />
+    </>
+  ),
+  de: (
+    <>
+      <rect width={24} height={5.34} fill="#000" />
+      <rect y={5.33} width={24} height={5.34} fill={DE_RED} />
+      <rect y={10.66} width={24} height={5.34} fill={DE_GOLD} />
+    </>
+  ),
+  it: (
+    <>
+      <rect width={8} height={16} fill={IT_GREEN} />
+      <rect x={8} width={8} height={16} fill={IT_WHITE} />
+      <rect x={16} width={8} height={16} fill={IT_RED} />
+    </>
+  ),
+  /**
+   * Turkey — the crescent and star at the legal construction described above
+   * `TR_SCALE`, which this 24 × 16 box happens to fit exactly.
+   *
+   * The crescent is a white disc with a red disc bitten out of it, the same
+   * technique the Azerbaijani flag above uses — and the two are worth comparing,
+   * because they are genuinely different flags rather than variations: Turkey's
+   * bite is offset by 1/16 of the flag's height and its star has FIVE points
+   * turned to face the crescent, Azerbaijan's is offset differently and its star
+   * has EIGHT. The star is drawn after the bite, so where it reaches into the
+   * crescent's opening it is white on red, exactly as the flag is.
+   */
+  tr: (
+    <>
+      <rect width={24} height={16} fill={TR_RED} />
+      <circle
+        cx={TR_CRESCENT_OUTER.cx * TR_SCALE}
+        cy={8}
+        r={TR_CRESCENT_OUTER.r * TR_SCALE}
+        fill="#fff"
+      />
+      <circle
+        cx={TR_CRESCENT_INNER.cx * TR_SCALE}
+        cy={8}
+        r={TR_CRESCENT_INNER.r * TR_SCALE}
+        fill={TR_RED}
+      />
+      <polygon
+        points={pentagramPoints(TR_STAR.cx * TR_SCALE, 8, TR_STAR.r * TR_SCALE, TR_STAR.rotate)}
+        fill="#fff"
+      />
     </>
   ),
 };

@@ -183,6 +183,92 @@ describe('Flag', () => {
     }
   });
 
+  /**
+   * Three tricolours whose only failure modes are the order of the bands and
+   * whether they run the right way — so that is exactly what is pinned. France and
+   * Italy are vertical with the hoist-side colour first; Germany is horizontal,
+   * black at the top. Getting France's direction wrong draws the Dutch flag's
+   * cousin, and reversing Italy's draws no flag at all.
+   */
+  it('gives France, Germany and Italy their bands, in order and the right way up', () => {
+    const bands = (locale: 'fr' | 'de' | 'it', vertical: boolean): string[] =>
+      [...draw(locale).querySelectorAll('rect')]
+        // The hairline border is the only stroked rect, and it paints no band.
+        .filter((r) => r.getAttribute('fill') !== 'none')
+        .filter(
+          (r) => Number(r.getAttribute(vertical ? 'height' : 'width')) === (vertical ? 16 : 24),
+        )
+        .map((r) => r.getAttribute('fill') as string);
+
+    expect(bands('fr', true)).toEqual(['#000091', '#fff', '#E1000F']);
+    expect(bands('it', true)).toEqual(['#008C45', '#F4F5F0', '#CD212A']);
+    expect(bands('de', false)).toEqual(['#000', '#FF0000', '#FFCC00']);
+
+    // Vertical means each band is a third of the WIDTH, at x = 0, 8, 16.
+    for (const locale of ['fr', 'it'] as const) {
+      const xs = [...draw(locale).querySelectorAll('rect')]
+        .filter((r) => Number(r.getAttribute('height')) === 16)
+        .map((r) => Number(r.getAttribute('x') ?? 0));
+      expect(xs).toEqual([0, 8, 16]);
+    }
+  });
+
+  /**
+   * Turkey is the one flag here whose published construction fits this box exactly
+   * (its official ratio is 2:3), so the legal numbers are assertable as such: the
+   * crescent's outer circle is centred at ½G with radius ¼G, its inner circle is
+   * offset by 1/16 G with radius ⅕G.
+   *
+   * The two things an eyeballed Turkish flag gets wrong are both here. The star is
+   * ROTATED so one of its points aims at the hoist, straight into the crescent —
+   * not upright. And it sits far enough in that its inner point passes the
+   * crescent's horn tips, which is derived from the two circles rather than typed,
+   * so the relationship holds even if the geometry is ever rescaled.
+   */
+  it('gives Turkey the legal crescent, and a star turned to face it', () => {
+    const svg = draw('tr');
+    expect(svg.querySelector('rect')?.getAttribute('fill')).toBe('#E30A17');
+
+    const [outer, inner] = [...svg.querySelectorAll('circle')];
+    // G is this box's height, 16. ½G from the hoist, radius ¼G.
+    expect(Number(outer.getAttribute('cx'))).toBeCloseTo(8, 6);
+    expect(Number(outer.getAttribute('r'))).toBeCloseTo(4, 6);
+    expect(outer.getAttribute('fill')).toBe('#fff');
+    // Offset towards the fly by 1/16 G = 1, radius ⅕G — and bitten out in red.
+    expect(Number(inner.getAttribute('cx'))).toBeCloseTo(9, 6);
+    expect(Number(inner.getAttribute('r'))).toBeCloseTo(3.2, 6);
+    expect(inner.getAttribute('fill')).toBe('#E30A17');
+    for (const circle of [outer, inner]) {
+      expect(Number(circle.getAttribute('cy'))).toBe(8);
+    }
+
+    const star = svg.querySelector('polygon');
+    expect(star?.getAttribute('fill')).toBe('#fff');
+    const vertices = (star?.getAttribute('points') ?? '')
+      .split(' ')
+      .map((p) => p.split(',').map(Number) as [number, number]);
+    expect(vertices).toHaveLength(10);
+
+    const cx = vertices.reduce((sum, [x]) => sum + x, 0) / vertices.length;
+    const cy = vertices.reduce((sum, [, y]) => sum + y, 0) / vertices.length;
+    // Circumscribed diameter ¼G = 4, on the centre line. Precision 3, because the
+    // vertices are authored with `toFixed(3)` and the centroid inherits that.
+    expect(Math.max(...vertices.map(([x, y]) => Math.hypot(x - cx, y - cy)))).toBeCloseTo(2, 3);
+    expect(cy).toBeCloseTo(8, 3);
+
+    // ONE POINT AIMS AT THE HOIST: the first vertex is a point of the star, due
+    // left of its centre — not up, which is how this star is usually drawn.
+    const [firstX, firstY] = vertices[0];
+    expect(firstY).toBeCloseTo(cy, 3);
+    expect(firstX).toBeLessThan(cx);
+
+    // And it reaches PAST the crescent's horn tips, i.e. into the opening. The tip
+    // is where the two circles meet, derived here rather than hard-coded.
+    const hornTipX = (4 ** 2 - 3.2 ** 2 - 8 ** 2 + 9 ** 2) / (2 * (9 - 8));
+    expect(hornTipX).toBeCloseTo(11.38, 6);
+    expect(firstX).toBeLessThan(hornTipX);
+  });
+
   it('gives Russia and Spain their bands, in order', () => {
     const ru = [...draw('ru').querySelectorAll('rect')].filter(
       (r) => Number(r.getAttribute('width')) === 24,

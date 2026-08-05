@@ -31,6 +31,17 @@ const NATIVE_NAME: Record<string, string> = {
    * them out; `min(3)` is already gone (see `schemas.ts`) and this pins it.
    */
   zh: '李明',
+  // A French name with an accent and the hyphen a compound given name carries.
+  fr: 'Jean-Luc Béart',
+  // German: an umlaut and an eszett, the two letters an ASCII rule would refuse.
+  de: 'Jürgen Weiß',
+  it: 'Giuseppe Lo Càscio',
+  /**
+   * Turkish: `ş` and `ğ`, plus the DOTLESS `ı` — which is a distinct letter here
+   * rather than a decorated `i`, and is why the fold in `utils/search` has to map
+   * it explicitly (NFD leaves it alone).
+   */
+  tr: 'Işıl Şahingöz',
 };
 
 describe('PERSON_NAME', () => {

@@ -18,7 +18,8 @@ export type TemplateId = string;
  * (`zh-TW`/`zh-HK`) would be a second locale, not a variant of this one — the
  * labels differ, not just the glyphs.
  */
-export type Locale = 'az' | 'ru' | 'en' | 'ka' | 'ar' | 'es' | 'he' | 'ko' | 'zh';
+export type Locale =
+  'az' | 'ru' | 'en' | 'ka' | 'ar' | 'es' | 'he' | 'ko' | 'zh' | 'fr' | 'de' | 'it' | 'tr';
 
 /**
  * A short label translated per locale. Only the default locale (`az`) is

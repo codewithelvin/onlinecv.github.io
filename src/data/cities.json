@@ -10,7 +10,11 @@
     "es": "Bakú",
     "he": "באקו",
     "ko": "바쿠",
-    "zh": "巴库"
+    "zh": "巴库",
+    "fr": "Bakou",
+    "de": "Baku",
+    "it": "Baku",
+    "tr": "Bakü"
   },
   {
     "code": "ganja",
@@ -23,7 +27,11 @@
     "es": "Ganyá",
     "he": "גנג'ה",
     "ko": "간자",
-    "zh": "甘贾"
+    "zh": "甘贾",
+    "fr": "Ganja",
+    "de": "Ganja",
+    "it": "Ganja",
+    "tr": "Gence"
   },
   {
     "code": "sumqayit",
@@ -36,7 +44,11 @@
     "es": "Sumqayit",
     "he": "סומגאיט",
     "ko": "숨가이트",
-    "zh": "苏姆盖特"
+    "zh": "苏姆盖特",
+    "fr": "Sumqayit",
+    "de": "Sumqayit",
+    "it": "Sumqayit",
+    "tr": "Sumgayıt"
   },
   {
     "code": "mingachevir",
@@ -49,7 +61,11 @@
     "es": "Mingachevir",
     "he": "מינגצ'ביר",
     "ko": "민게체비르",
-    "zh": "明盖切维尔"
+    "zh": "明盖切维尔",
+    "fr": "Mingachevir",
+    "de": "Mingachevir",
+    "it": "Mingachevir",
+    "tr": "Mingeçevir"
   },
   {
     "code": "khirdalan",
@@ -62,7 +78,11 @@
     "es": "Khirdalan",
     "he": "חירדלאן",
     "ko": "히르달란",
-    "zh": "希尔达兰"
+    "zh": "希尔达兰",
+    "fr": "Khirdalan",
+    "de": "Khirdalan",
+    "it": "Khirdalan",
+    "tr": "Hırdalan"
   },
   {
     "code": "shirvan",
@@ -75,7 +95,11 @@
     "es": "Shirvan",
     "he": "שירוואן",
     "ko": "시르반",
-    "zh": "希尔万"
+    "zh": "希尔万",
+    "fr": "Shirvan",
+    "de": "Shirvan",
+    "it": "Shirvan",
+    "tr": "Şirvan"
   },
   {
     "code": "nakhchivan",
@@ -88,7 +112,11 @@
     "es": "Najicheván",
     "he": "נחצ'יוואן",
     "ko": "나흐치반",
-    "zh": "纳希切万"
+    "zh": "纳希切万",
+    "fr": "Nakhitchevan",
+    "de": "Nachitschewan",
+    "it": "Nakhchivan",
+    "tr": "Nahçıvan"
   },
   {
     "code": "lankaran",
@@ -101,7 +129,11 @@
     "es": "Lankaran",
     "he": "לנקראן",
     "ko": "랑카란",
-    "zh": "连科兰"
+    "zh": "连科兰",
+    "fr": "Lankaran",
+    "de": "Lankaran",
+    "it": "Lankaran",
+    "tr": "Lenkeran"
   },
   {
     "code": "shaki",
@@ -114,7 +146,11 @@
     "es": "Shaki",
     "he": "שאקי",
     "ko": "셰키",
-    "zh": "舍基"
+    "zh": "舍基",
+    "fr": "Shaki",
+    "de": "Shaki",
+    "it": "Shaki",
+    "tr": "Şeki"
   },
   {
     "code": "yevlakh",
@@ -127,7 +163,11 @@
     "es": "Yevlakh",
     "he": "יבלאך",
     "ko": "예블라흐",
-    "zh": "耶夫拉赫"
+    "zh": "耶夫拉赫",
+    "fr": "Yevlakh",
+    "de": "Yevlakh",
+    "it": "Yevlakh",
+    "tr": "Yevlah"
   },
   {
     "code": "naftalan",
@@ -140,7 +180,11 @@
     "es": "Naftalan",
     "he": "נפטלאן",
     "ko": "나프탈란",
-    "zh": "纳夫塔兰"
+    "zh": "纳夫塔兰",
+    "fr": "Naftalan",
+    "de": "Naftalan",
+    "it": "Naftalan",
+    "tr": "Naftalan"
   },
   {
     "code": "khankendi",
@@ -153,7 +197,11 @@
     "es": "Khankendi",
     "he": "חנקנדי",
     "ko": "한켄디",
-    "zh": "汗肯迪"
+    "zh": "汗肯迪",
+    "fr": "Khankendi",
+    "de": "Khankendi",
+    "it": "Khankendi",
+    "tr": "Hankendi"
   },
   {
     "code": "shusha",
@@ -166,7 +214,11 @@
     "es": "Shusha",
     "he": "שושה",
     "ko": "슈샤",
-    "zh": "舒沙"
+    "zh": "舒沙",
+    "fr": "Shusha",
+    "de": "Shusha",
+    "it": "Shusha",
+    "tr": "Şuşa"
   },
   {
     "code": "absheron",
@@ -179,7 +231,11 @@
     "es": "Absheron",
     "he": "אבשרון",
     "ko": "압셰론",
-    "zh": "阿布沙龙"
+    "zh": "阿布沙龙",
+    "fr": "Absheron",
+    "de": "Absheron",
+    "it": "Absheron",
+    "tr": "Abşeron"
   },
   {
     "code": "aghjabadi",
@@ -192,7 +248,11 @@
     "es": "Aghjabadi",
     "he": "אגג'בדי",
     "ko": "아그자바디",
-    "zh": "阿格贾巴迪"
+    "zh": "阿格贾巴迪",
+    "fr": "Aghjabadi",
+    "de": "Aghjabadi",
+    "it": "Aghjabadi",
+    "tr": "Ağcabedi"
   },
   {
     "code": "aghdam",
@@ -205,7 +265,11 @@
     "es": "Aghdam",
     "he": "אגדם",
     "ko": "아그담",
-    "zh": "阿格达姆"
+    "zh": "阿格达姆",
+    "fr": "Aghdam",
+    "de": "Aghdam",
+    "it": "Aghdam",
+    "tr": "Ağdam"
   },
   {
     "code": "aghdash",
@@ -218,7 +282,11 @@
     "es": "Aghdash",
     "he": "אגדאש",
     "ko": "아그다시",
-    "zh": "阿格达什"
+    "zh": "阿格达什",
+    "fr": "Aghdash",
+    "de": "Aghdash",
+    "it": "Aghdash",
+    "tr": "Ağdaş"
   },
   {
     "code": "aghstafa",
@@ -231,7 +299,11 @@
     "es": "Aghstafa",
     "he": "אגסטפה",
     "ko": "아그스타파",
-    "zh": "阿格斯塔法"
+    "zh": "阿格斯塔法",
+    "fr": "Aghstafa",
+    "de": "Aghstafa",
+    "it": "Aghstafa",
+    "tr": "Ağstafa"
   },
   {
     "code": "aghsu",
@@ -244,7 +316,11 @@
     "es": "Aghsu",
     "he": "אגסו",
     "ko": "아그수",
-    "zh": "阿格苏"
+    "zh": "阿格苏",
+    "fr": "Aghsu",
+    "de": "Aghsu",
+    "it": "Aghsu",
+    "tr": "Ağsu"
   },
   {
     "code": "astara",
@@ -257,7 +333,11 @@
     "es": "Astara",
     "he": "אסטרה",
     "ko": "아스타라",
-    "zh": "阿斯塔拉"
+    "zh": "阿斯塔拉",
+    "fr": "Astara",
+    "de": "Astara",
+    "it": "Astara",
+    "tr": "Astara"
   },
   {
     "code": "babek",
@@ -270,7 +350,11 @@
     "es": "Babek",
     "he": "באבק",
     "ko": "바베크",
-    "zh": "巴巴克"
+    "zh": "巴巴克",
+    "fr": "Babek",
+    "de": "Babek",
+    "it": "Babek",
+    "tr": "Babek"
   },
   {
     "code": "balakan",
@@ -283,7 +367,11 @@
     "es": "Balakan",
     "he": "בלאקן",
     "ko": "발라칸",
-    "zh": "巴拉坎"
+    "zh": "巴拉坎",
+    "fr": "Balakan",
+    "de": "Balakan",
+    "it": "Balakan",
+    "tr": "Balaken"
   },
   {
     "code": "barda",
@@ -296,7 +384,11 @@
     "es": "Barda",
     "he": "ברדה",
     "ko": "바르다",
-    "zh": "巴尔达"
+    "zh": "巴尔达",
+    "fr": "Barda",
+    "de": "Barda",
+    "it": "Barda",
+    "tr": "Berde"
   },
   {
     "code": "beylagan",
@@ -309,7 +401,11 @@
     "es": "Beylagan",
     "he": "ביילגן",
     "ko": "베일라간",
-    "zh": "贝拉甘"
+    "zh": "贝拉甘",
+    "fr": "Beylagan",
+    "de": "Beylagan",
+    "it": "Beylagan",
+    "tr": "Beylegan"
   },
   {
     "code": "bilasuvar",
@@ -322,7 +418,11 @@
     "es": "Bilasuvar",
     "he": "בילאסובר",
     "ko": "빌라수바르",
-    "zh": "比拉苏瓦尔"
+    "zh": "比拉苏瓦尔",
+    "fr": "Bilasuvar",
+    "de": "Bilasuvar",
+    "it": "Bilasuvar",
+    "tr": "Bilesuvar"
   },
   {
     "code": "jabrayil",
@@ -335,7 +435,11 @@
     "es": "Jabrayil",
     "he": "ג'בראיל",
     "ko": "자브라일",
-    "zh": "贾布拉伊尔"
+    "zh": "贾布拉伊尔",
+    "fr": "Jabrayil",
+    "de": "Jabrayil",
+    "it": "Jabrayil",
+    "tr": "Cebrayıl"
   },
   {
     "code": "jalilabad",
@@ -348,7 +452,11 @@
     "es": "Jalilabad",
     "he": "ג'לילאבאד",
     "ko": "잘릴라바드",
-    "zh": "贾利拉巴德"
+    "zh": "贾利拉巴德",
+    "fr": "Jalilabad",
+    "de": "Jalilabad",
+    "it": "Jalilabad",
+    "tr": "Celilabad"
   },
   {
     "code": "julfa",
@@ -361,7 +469,11 @@
     "es": "Julfa",
     "he": "ג'ולפה",
     "ko": "줄파",
-    "zh": "朱利法"
+    "zh": "朱利法",
+    "fr": "Julfa",
+    "de": "Julfa",
+    "it": "Julfa",
+    "tr": "Culfa"
   },
   {
     "code": "dashkasan",
@@ -374,7 +486,11 @@
     "es": "Dashkasan",
     "he": "דשקסן",
     "ko": "다시카산",
-    "zh": "达什凯桑"
+    "zh": "达什凯桑",
+    "fr": "Dashkasan",
+    "de": "Dashkasan",
+    "it": "Dashkasan",
+    "tr": "Daşkesen"
   },
   {
     "code": "fuzuli",
@@ -387,7 +503,11 @@
     "es": "Fuzuli",
     "he": "פוזולי",
     "ko": "푸줄리",
-    "zh": "富祖利"
+    "zh": "富祖利",
+    "fr": "Fuzuli",
+    "de": "Fuzuli",
+    "it": "Fuzuli",
+    "tr": "Fuzuli"
   },
   {
     "code": "gadabay",
@@ -400,7 +520,11 @@
     "es": "Gadabay",
     "he": "גדבאי",
     "ko": "가다베이",
-    "zh": "盖达贝"
+    "zh": "盖达贝",
+    "fr": "Gadabay",
+    "de": "Gadabay",
+    "it": "Gadabay",
+    "tr": "Gedebey"
   },
   {
     "code": "goranboy",
@@ -413,7 +537,11 @@
     "es": "Goranboy",
     "he": "גורנבוי",
     "ko": "고란보이",
-    "zh": "戈兰博伊"
+    "zh": "戈兰博伊",
+    "fr": "Goranboy",
+    "de": "Goranboy",
+    "it": "Goranboy",
+    "tr": "Goranboy"
   },
   {
     "code": "goychay",
@@ -426,7 +554,11 @@
     "es": "Goychay",
     "he": "גויצ'אי",
     "ko": "괴이차이",
-    "zh": "格伊柴"
+    "zh": "格伊柴",
+    "fr": "Goychay",
+    "de": "Goychay",
+    "it": "Goychay",
+    "tr": "Göyçay"
   },
   {
     "code": "goygol",
@@ -439,7 +571,11 @@
     "es": "Goygol",
     "he": "גויגול",
     "ko": "괴이괼",
-    "zh": "格伊格尔"
+    "zh": "格伊格尔",
+    "fr": "Goygol",
+    "de": "Goygol",
+    "it": "Goygol",
+    "tr": "Göygöl"
   },
   {
     "code": "hajiqabul",
@@ -452,7 +588,11 @@
     "es": "Hajiqabul",
     "he": "האג'יקבול",
     "ko": "하지카불",
-    "zh": "哈吉加布尔"
+    "zh": "哈吉加布尔",
+    "fr": "Hajiqabul",
+    "de": "Hajiqabul",
+    "it": "Hajiqabul",
+    "tr": "Hacıkabul"
   },
   {
     "code": "imishli",
@@ -465,7 +605,11 @@
     "es": "Imishli",
     "he": "אימישלי",
     "ko": "이미실리",
-    "zh": "伊米什利"
+    "zh": "伊米什利",
+    "fr": "Imishli",
+    "de": "Imishli",
+    "it": "Imishli",
+    "tr": "İmişli"
   },
   {
     "code": "ismayilli",
@@ -478,7 +622,11 @@
     "es": "Ismayilli",
     "he": "איסמעילי",
     "ko": "이스마일리",
-    "zh": "伊斯马伊利"
+    "zh": "伊斯马伊利",
+    "fr": "Ismayilli",
+    "de": "Ismayilli",
+    "it": "Ismayilli",
+    "tr": "İsmayıllı"
   },
   {
     "code": "kalbajar",
@@ -491,7 +639,11 @@
     "es": "Kalbajar",
     "he": "כלבג'ר",
     "ko": "칼바자르",
-    "zh": "凯尔巴扎尔"
+    "zh": "凯尔巴扎尔",
+    "fr": "Kalbajar",
+    "de": "Kalbajar",
+    "it": "Kalbajar",
+    "tr": "Kelbecer"
   },
   {
     "code": "kangarli",
@@ -504,7 +656,11 @@
     "es": "Kangarli",
     "he": "קנגרלי",
     "ko": "캉가를리",
-    "zh": "坎加尔利"
+    "zh": "坎加尔利",
+    "fr": "Kangarli",
+    "de": "Kangarli",
+    "it": "Kangarli",
+    "tr": "Kengerli"
   },
   {
     "code": "kurdamir",
@@ -517,7 +673,11 @@
     "es": "Kurdamir",
     "he": "כורדמיר",
     "ko": "쿠르다미르",
-    "zh": "库尔达米尔"
+    "zh": "库尔达米尔",
+    "fr": "Kurdamir",
+    "de": "Kurdamir",
+    "it": "Kurdamir",
+    "tr": "Kürdemir"
   },
   {
     "code": "qakh",
@@ -530,7 +690,11 @@
     "es": "Qakh",
     "he": "קאך",
     "ko": "가흐",
-    "zh": "加赫"
+    "zh": "加赫",
+    "fr": "Qakh",
+    "de": "Qakh",
+    "it": "Qakh",
+    "tr": "Kah"
   },
   {
     "code": "qazakh",
@@ -543,7 +707,11 @@
     "es": "Qazakh",
     "he": "קזאך",
     "ko": "가자흐",
-    "zh": "加扎赫"
+    "zh": "加扎赫",
+    "fr": "Qazakh",
+    "de": "Qazakh",
+    "it": "Qazakh",
+    "tr": "Kazah"
   },
   {
     "code": "gabala",
@@ -556,7 +724,11 @@
     "es": "Gabala",
     "he": "גבלה",
     "ko": "가발라",
-    "zh": "加巴拉"
+    "zh": "加巴拉",
+    "fr": "Gabala",
+    "de": "Gabala",
+    "it": "Gabala",
+    "tr": "Gebele"
   },
   {
     "code": "gobustan",
@@ -569,7 +741,11 @@
     "es": "Gobustan",
     "he": "גובוסטן",
     "ko": "고부스탄",
-    "zh": "戈布斯坦"
+    "zh": "戈布斯坦",
+    "fr": "Gobustan",
+    "de": "Gobustan",
+    "it": "Gobustan",
+    "tr": "Gobustan"
   },
   {
     "code": "guba",
@@ -582,7 +758,11 @@
     "es": "Guba",
     "he": "גובה",
     "ko": "구바",
-    "zh": "库巴"
+    "zh": "库巴",
+    "fr": "Guba",
+    "de": "Guba",
+    "it": "Guba",
+    "tr": "Guba"
   },
   {
     "code": "gubadli",
@@ -595,7 +775,11 @@
     "es": "Gubadli",
     "he": "גובדלי",
     "ko": "구바들리",
-    "zh": "库巴德利"
+    "zh": "库巴德利",
+    "fr": "Gubadli",
+    "de": "Gubadli",
+    "it": "Gubadli",
+    "tr": "Gubadlı"
   },
   {
     "code": "gusar",
@@ -608,7 +792,11 @@
     "es": "Gusar",
     "he": "גוסאר",
     "ko": "구사르",
-    "zh": "库萨尔"
+    "zh": "库萨尔",
+    "fr": "Gusar",
+    "de": "Gusar",
+    "it": "Gusar",
+    "tr": "Gusar"
   },
   {
     "code": "lachin",
@@ -621,7 +809,11 @@
     "es": "Lachin",
     "he": "לצ'ין",
     "ko": "라친",
-    "zh": "拉钦"
+    "zh": "拉钦",
+    "fr": "Lachin",
+    "de": "Lachin",
+    "it": "Lachin",
+    "tr": "Laçın"
   },
   {
     "code": "lerik",
@@ -634,7 +826,11 @@
     "es": "Lerik",
     "he": "לריק",
     "ko": "레리크",
-    "zh": "莱里克"
+    "zh": "莱里克",
+    "fr": "Lerik",
+    "de": "Lerik",
+    "it": "Lerik",
+    "tr": "Lerik"
   },
   {
     "code": "masalli",
@@ -647,7 +843,11 @@
     "es": "Masalli",
     "he": "מסלי",
     "ko": "마살리",
-    "zh": "马萨利"
+    "zh": "马萨利",
+    "fr": "Masalli",
+    "de": "Masalli",
+    "it": "Masalli",
+    "tr": "Masallı"
   },
   {
     "code": "neftchala",
@@ -660,7 +860,11 @@
     "es": "Neftchala",
     "he": "נפטצ'לה",
     "ko": "네프트찰라",
-    "zh": "内夫特恰拉"
+    "zh": "内夫特恰拉",
+    "fr": "Neftchala",
+    "de": "Neftchala",
+    "it": "Neftchala",
+    "tr": "Neftçala"
   },
   {
     "code": "oghuz",
@@ -673,7 +877,11 @@
     "es": "Oghuz",
     "he": "אוגוז",
     "ko": "오구즈",
-    "zh": "奥古兹"
+    "zh": "奥古兹",
+    "fr": "Oghuz",
+    "de": "Oghuz",
+    "it": "Oghuz",
+    "tr": "Oğuz"
   },
   {
     "code": "ordubad",
@@ -686,7 +894,11 @@
     "es": "Ordubad",
     "he": "אורדובאד",
     "ko": "오르두바드",
-    "zh": "奥尔杜巴德"
+    "zh": "奥尔杜巴德",
+    "fr": "Ordubad",
+    "de": "Ordubad",
+    "it": "Ordubad",
+    "tr": "Ordubad"
   },
   {
     "code": "saatli",
@@ -699,7 +911,11 @@
     "es": "Saatli",
     "he": "סאטלי",
     "ko": "사아틀리",
-    "zh": "萨阿特利"
+    "zh": "萨阿特利",
+    "fr": "Saatli",
+    "de": "Saatli",
+    "it": "Saatli",
+    "tr": "Saatlı"
   },
   {
     "code": "sabirabad",
@@ -712,7 +928,11 @@
     "es": "Sabirabad",
     "he": "סביראבאד",
     "ko": "사비라바드",
-    "zh": "萨比拉巴德"
+    "zh": "萨比拉巴德",
+    "fr": "Sabirabad",
+    "de": "Sabirabad",
+    "it": "Sabirabad",
+    "tr": "Sabirabad"
   },
   {
     "code": "sadarak",
@@ -725,7 +945,11 @@
     "es": "Sadarak",
     "he": "סדרק",
     "ko": "사다라크",
-    "zh": "萨达拉克"
+    "zh": "萨达拉克",
+    "fr": "Sadarak",
+    "de": "Sadarak",
+    "it": "Sadarak",
+    "tr": "Sederek"
   },
   {
     "code": "salyan",
@@ -738,7 +962,11 @@
     "es": "Salyan",
     "he": "סליאן",
     "ko": "살리안",
-    "zh": "萨利扬"
+    "zh": "萨利扬",
+    "fr": "Salyan",
+    "de": "Salyan",
+    "it": "Salyan",
+    "tr": "Salyan"
   },
   {
     "code": "samukh",
@@ -751,7 +979,11 @@
     "es": "Samukh",
     "he": "סמוך",
     "ko": "사무흐",
-    "zh": "萨穆赫"
+    "zh": "萨穆赫",
+    "fr": "Samukh",
+    "de": "Samukh",
+    "it": "Samukh",
+    "tr": "Samuh"
   },
   {
     "code": "shabran",
@@ -764,7 +996,11 @@
     "es": "Shabran",
     "he": "שברן",
     "ko": "샤브란",
-    "zh": "沙布兰"
+    "zh": "沙布兰",
+    "fr": "Shabran",
+    "de": "Shabran",
+    "it": "Shabran",
+    "tr": "Şabran"
   },
   {
     "code": "shahbuz",
@@ -777,7 +1013,11 @@
     "es": "Shahbuz",
     "he": "שהבוז",
     "ko": "샤흐부즈",
-    "zh": "沙赫布兹"
+    "zh": "沙赫布兹",
+    "fr": "Shahbuz",
+    "de": "Shahbuz",
+    "it": "Shahbuz",
+    "tr": "Şahbuz"
   },
   {
     "code": "shamakhi",
@@ -790,7 +1030,11 @@
     "es": "Shamakhi",
     "he": "שמאכי",
     "ko": "샤마히",
-    "zh": "沙马基"
+    "zh": "沙马基",
+    "fr": "Shamakhi",
+    "de": "Shamakhi",
+    "it": "Shamakhi",
+    "tr": "Şamahı"
   },
   {
     "code": "shamkir",
@@ -803,7 +1047,11 @@
     "es": "Shamkir",
     "he": "שמכיר",
     "ko": "샴키르",
-    "zh": "沙姆基尔"
+    "zh": "沙姆基尔",
+    "fr": "Shamkir",
+    "de": "Shamkir",
+    "it": "Shamkir",
+    "tr": "Şemkir"
   },
   {
     "code": "sharur",
@@ -816,7 +1064,11 @@
     "es": "Sharur",
     "he": "שרור",
     "ko": "샤루르",
-    "zh": "沙鲁尔"
+    "zh": "沙鲁尔",
+    "fr": "Sharur",
+    "de": "Sharur",
+    "it": "Sharur",
+    "tr": "Şerur"
   },
   {
     "code": "siyazan",
@@ -829,7 +1081,11 @@
     "es": "Siyazan",
     "he": "סיאזן",
     "ko": "시야잔",
-    "zh": "锡亚赞"
+    "zh": "锡亚赞",
+    "fr": "Siyazan",
+    "de": "Siyazan",
+    "it": "Siyazan",
+    "tr": "Siyezen"
   },
   {
     "code": "tartar",
@@ -842,7 +1098,11 @@
     "es": "Tartar",
     "he": "טרטר",
     "ko": "타르타르",
-    "zh": "泰尔泰尔"
+    "zh": "泰尔泰尔",
+    "fr": "Tartar",
+    "de": "Tartar",
+    "it": "Tartar",
+    "tr": "Terter"
   },
   {
     "code": "tovuz",
@@ -855,7 +1115,11 @@
     "es": "Tovuz",
     "he": "טובוז",
     "ko": "토부즈",
-    "zh": "托武兹"
+    "zh": "托武兹",
+    "fr": "Tovuz",
+    "de": "Tovuz",
+    "it": "Tovuz",
+    "tr": "Tovuz"
   },
   {
     "code": "ujar",
@@ -868,7 +1132,11 @@
     "es": "Ujar",
     "he": "אוג'אר",
     "ko": "우자르",
-    "zh": "乌贾尔"
+    "zh": "乌贾尔",
+    "fr": "Ujar",
+    "de": "Ujar",
+    "it": "Ujar",
+    "tr": "Ucar"
   },
   {
     "code": "khachmaz",
@@ -881,7 +1149,11 @@
     "es": "Khachmaz",
     "he": "חצ'מז",
     "ko": "하치마즈",
-    "zh": "哈奇马兹"
+    "zh": "哈奇马兹",
+    "fr": "Khachmaz",
+    "de": "Khachmaz",
+    "it": "Khachmaz",
+    "tr": "Haçmaz"
   },
   {
     "code": "khizi",
@@ -894,7 +1166,11 @@
     "es": "Khizi",
     "he": "חיזי",
     "ko": "히지",
-    "zh": "希兹"
+    "zh": "希兹",
+    "fr": "Khizi",
+    "de": "Khizi",
+    "it": "Khizi",
+    "tr": "Hızı"
   },
   {
     "code": "khojali",
@@ -907,7 +1183,11 @@
     "es": "Khojali",
     "he": "חוג'לי",
     "ko": "호잘리",
-    "zh": "霍贾利"
+    "zh": "霍贾利",
+    "fr": "Khojali",
+    "de": "Khojali",
+    "it": "Khojali",
+    "tr": "Hocalı"
   },
   {
     "code": "khojavend",
@@ -920,7 +1200,11 @@
     "es": "Khojavend",
     "he": "חוג'בנד",
     "ko": "호자벤드",
-    "zh": "霍贾文德"
+    "zh": "霍贾文德",
+    "fr": "Khojavend",
+    "de": "Khojavend",
+    "it": "Khojavend",
+    "tr": "Hocavend"
   },
   {
     "code": "yardimli",
@@ -933,7 +1217,11 @@
     "es": "Yardimli",
     "he": "ירדימלי",
     "ko": "야르딤리",
-    "zh": "亚尔德姆利"
+    "zh": "亚尔德姆利",
+    "fr": "Yardimli",
+    "de": "Yardimli",
+    "it": "Yardimli",
+    "tr": "Yardımlı"
   },
   {
     "code": "zaqatala",
@@ -946,7 +1234,11 @@
     "es": "Zaqatala",
     "he": "זקטלה",
     "ko": "자카탈라",
-    "zh": "扎卡塔拉"
+    "zh": "扎卡塔拉",
+    "fr": "Zaqatala",
+    "de": "Zaqatala",
+    "it": "Zaqatala",
+    "tr": "Zakatala"
   },
   {
     "code": "zangilan",
@@ -959,7 +1251,11 @@
     "es": "Zangilan",
     "he": "זנגילן",
     "ko": "잔길란",
-    "zh": "赞吉兰"
+    "zh": "赞吉兰",
+    "fr": "Zangilan",
+    "de": "Zangilan",
+    "it": "Zangilan",
+    "tr": "Zengilan"
   },
   {
     "code": "zardab",
@@ -972,7 +1268,11 @@
     "es": "Zardab",
     "he": "זרדאב",
     "ko": "자르다브",
-    "zh": "扎尔达布"
+    "zh": "扎尔达布",
+    "fr": "Zardab",
+    "de": "Zardab",
+    "it": "Zardab",
+    "tr": "Zerdab"
   },
   {
     "code": "istanbul",
@@ -985,7 +1285,11 @@
     "es": "Estambul",
     "he": "איסטנבול",
     "ko": "이스탄불",
-    "zh": "伊斯坦布尔"
+    "zh": "伊斯坦布尔",
+    "fr": "Istanbul",
+    "de": "Istanbul",
+    "it": "Istanbul",
+    "tr": "İstanbul"
   },
   {
     "code": "ankara",
@@ -998,7 +1302,11 @@
     "es": "Ankara",
     "he": "אנקרה",
     "ko": "앙카라",
-    "zh": "安卡拉"
+    "zh": "安卡拉",
+    "fr": "Ankara",
+    "de": "Ankara",
+    "it": "Ankara",
+    "tr": "Ankara"
   },
   {
     "code": "izmir",
@@ -1011,7 +1319,11 @@
     "es": "Esmirna",
     "he": "איזמיר",
     "ko": "이즈미르",
-    "zh": "伊兹密尔"
+    "zh": "伊兹密尔",
+    "fr": "Izmir",
+    "de": "Izmir",
+    "it": "Smirne",
+    "tr": "İzmir"
   },
   {
     "code": "antalya",
@@ -1024,7 +1336,11 @@
     "es": "Antalya",
     "he": "אנטליה",
     "ko": "안탈리아",
-    "zh": "安塔利亚"
+    "zh": "安塔利亚",
+    "fr": "Antalya",
+    "de": "Antalya",
+    "it": "Antalya",
+    "tr": "Antalya"
   },
   {
     "code": "bursa",
@@ -1037,7 +1353,11 @@
     "es": "Bursa",
     "he": "בורסה",
     "ko": "부르사",
-    "zh": "布尔萨"
+    "zh": "布尔萨",
+    "fr": "Bursa",
+    "de": "Bursa",
+    "it": "Bursa",
+    "tr": "Bursa"
   },
   {
     "code": "trabzon",
@@ -1050,7 +1370,11 @@
     "es": "Trebisonda",
     "he": "טרביזון",
     "ko": "트라브존",
-    "zh": "特拉布宗"
+    "zh": "特拉布宗",
+    "fr": "Trébizonde",
+    "de": "Trabzon",
+    "it": "Trebisonda",
+    "tr": "Trabzon"
   },
   {
     "code": "kars",
@@ -1063,7 +1387,11 @@
     "es": "Kars",
     "he": "קארס",
     "ko": "카르스",
-    "zh": "卡尔斯"
+    "zh": "卡尔斯",
+    "fr": "Kars",
+    "de": "Kars",
+    "it": "Kars",
+    "tr": "Kars"
   },
   {
     "code": "moscow",
@@ -1076,7 +1404,11 @@
     "es": "Moscú",
     "he": "מוסקבה",
     "ko": "모스크바",
-    "zh": "莫斯科"
+    "zh": "莫斯科",
+    "fr": "Moscou",
+    "de": "Moskau",
+    "it": "Mosca",
+    "tr": "Moskova"
   },
   {
     "code": "saint_petersburg",
@@ -1089,7 +1421,11 @@
     "es": "San Petersburgo",
     "he": "סנקט פטרבורג",
     "ko": "상트페테르부르크",
-    "zh": "圣彼得堡"
+    "zh": "圣彼得堡",
+    "fr": "Saint-Pétersbourg",
+    "de": "Sankt Petersburg",
+    "it": "San Pietroburgo",
+    "tr": "Sankt Petersburg"
   },
   {
     "code": "kazan",
@@ -1102,7 +1438,11 @@
     "es": "Kazán",
     "he": "קאזאן",
     "ko": "카잔",
-    "zh": "喀山"
+    "zh": "喀山",
+    "fr": "Kazan",
+    "de": "Kasan",
+    "it": "Kazan",
+    "tr": "Kazan"
   },
   {
     "code": "yekaterinburg",
@@ -1115,7 +1455,11 @@
     "es": "Ekaterimburgo",
     "he": "יקטרינבורג",
     "ko": "예카테린부르크",
-    "zh": "叶卡捷琳堡"
+    "zh": "叶卡捷琳堡",
+    "fr": "Iekaterinbourg",
+    "de": "Jekaterinburg",
+    "it": "Ekaterinburg",
+    "tr": "Yekaterinburg"
   },
   {
     "code": "novosibirsk",
@@ -1128,7 +1472,11 @@
     "es": "Novosibirsk",
     "he": "נובוסיבירסק",
     "ko": "노보시비르스크",
-    "zh": "新西伯利亚"
+    "zh": "新西伯利亚",
+    "fr": "Novossibirsk",
+    "de": "Nowosibirsk",
+    "it": "Novosibirsk",
+    "tr": "Novosibirsk"
   },
   {
     "code": "kyiv",
@@ -1141,7 +1489,11 @@
     "es": "Kiev",
     "he": "קייב",
     "ko": "키이우",
-    "zh": "基辅"
+    "zh": "基辅",
+    "fr": "Kyiv",
+    "de": "Kyjiw",
+    "it": "Kiev",
+    "tr": "Kiev"
   },
   {
     "code": "minsk",
@@ -1154,7 +1506,11 @@
     "es": "Minsk",
     "he": "מינסק",
     "ko": "민스크",
-    "zh": "明斯克"
+    "zh": "明斯克",
+    "fr": "Minsk",
+    "de": "Minsk",
+    "it": "Minsk",
+    "tr": "Minsk"
   },
   {
     "code": "tbilisi",
@@ -1167,7 +1523,11 @@
     "es": "Tiflis",
     "he": "טביליסי",
     "ko": "트빌리시",
-    "zh": "第比利斯"
+    "zh": "第比利斯",
+    "fr": "Tbilissi",
+    "de": "Tiflis",
+    "it": "Tbilisi",
+    "tr": "Tiflis"
   },
   {
     "code": "batumi",
@@ -1180,7 +1540,11 @@
     "es": "Batumi",
     "he": "בטומי",
     "ko": "바투미",
-    "zh": "巴统"
+    "zh": "巴统",
+    "fr": "Batoumi",
+    "de": "Batumi",
+    "it": "Batumi",
+    "tr": "Batum"
   },
   {
     "code": "kutaisi",
@@ -1193,7 +1557,11 @@
     "es": "Kutaisi",
     "he": "קוטאיסי",
     "ko": "쿠타이시",
-    "zh": "库塔伊西"
+    "zh": "库塔伊西",
+    "fr": "Koutaïssi",
+    "de": "Kutaissi",
+    "it": "Kutaisi",
+    "tr": "Kutaisi"
   },
   {
     "code": "yerevan",
@@ -1206,7 +1574,11 @@
     "es": "Ereván",
     "he": "ירוואן",
     "ko": "예레반",
-    "zh": "埃里温"
+    "zh": "埃里温",
+    "fr": "Erevan",
+    "de": "Jerewan",
+    "it": "Erevan",
+    "tr": "Erivan"
   },
   {
     "code": "tehran",
@@ -1219,7 +1591,11 @@
     "es": "Teherán",
     "he": "טהרן",
     "ko": "테헤란",
-    "zh": "德黑兰"
+    "zh": "德黑兰",
+    "fr": "Téhéran",
+    "de": "Teheran",
+    "it": "Teheran",
+    "tr": "Tahran"
   },
   {
     "code": "tabriz",
@@ -1232,7 +1608,11 @@
     "es": "Tabriz",
     "he": "תבריז",
     "ko": "타브리즈",
-    "zh": "大不里士"
+    "zh": "大不里士",
+    "fr": "Tabriz",
+    "de": "Tabriz",
+    "it": "Tabriz",
+    "tr": "Tebriz"
   },
   {
     "code": "astana",
@@ -1245,7 +1625,11 @@
     "es": "Astaná",
     "he": "אסטנה",
     "ko": "아스타나",
-    "zh": "阿斯塔纳"
+    "zh": "阿斯塔纳",
+    "fr": "Astana",
+    "de": "Astana",
+    "it": "Astana",
+    "tr": "Astana"
   },
   {
     "code": "almaty",
@@ -1258,7 +1642,11 @@
     "es": "Almatý",
     "he": "אלמטי",
     "ko": "알마티",
-    "zh": "阿拉木图"
+    "zh": "阿拉木图",
+    "fr": "Almaty",
+    "de": "Almaty",
+    "it": "Almaty",
+    "tr": "Almatı"
   },
   {
     "code": "tashkent",
@@ -1271,7 +1659,11 @@
     "es": "Taskent",
     "he": "טשקנט",
     "ko": "타슈켄트",
-    "zh": "塔什干"
+    "zh": "塔什干",
+    "fr": "Tachkent",
+    "de": "Taschkent",
+    "it": "Tashkent",
+    "tr": "Taşkent"
   },
   {
     "code": "bishkek",
@@ -1284,7 +1676,11 @@
     "es": "Biskek",
     "he": "בישקק",
     "ko": "비슈케크",
-    "zh": "比什凯克"
+    "zh": "比什凯克",
+    "fr": "Bichkek",
+    "de": "Bischkek",
+    "it": "Bishkek",
+    "tr": "Bişkek"
   },
   {
     "code": "ashgabat",
@@ -1297,7 +1693,11 @@
     "es": "Asjabad",
     "he": "אשגבט",
     "ko": "아시가바트",
-    "zh": "阿什哈巴德"
+    "zh": "阿什哈巴德",
+    "fr": "Achgabat",
+    "de": "Aschgabat",
+    "it": "Ashgabat",
+    "tr": "Aşkabat"
   },
   {
     "code": "dubai",
@@ -1310,7 +1710,11 @@
     "es": "Dubái",
     "he": "דובאי",
     "ko": "두바이",
-    "zh": "迪拜"
+    "zh": "迪拜",
+    "fr": "Dubaï",
+    "de": "Dubai",
+    "it": "Dubai",
+    "tr": "Dubai"
   },
   {
     "code": "abu_dhabi",
@@ -1323,7 +1727,11 @@
     "es": "Abu Dabi",
     "he": "אבו דאבי",
     "ko": "아부다비",
-    "zh": "阿布扎比"
+    "zh": "阿布扎比",
+    "fr": "Abou Dabi",
+    "de": "Abu Dhabi",
+    "it": "Abu Dhabi",
+    "tr": "Abu Dabi"
   },
   {
     "code": "doha",
@@ -1336,7 +1744,11 @@
     "es": "Doha",
     "he": "דוחה",
     "ko": "도하",
-    "zh": "多哈"
+    "zh": "多哈",
+    "fr": "Doha",
+    "de": "Doha",
+    "it": "Doha",
+    "tr": "Doha"
   },
   {
     "code": "riyadh",
@@ -1349,7 +1761,11 @@
     "es": "Riad",
     "he": "ריאד",
     "ko": "리야드",
-    "zh": "利雅得"
+    "zh": "利雅得",
+    "fr": "Riyad",
+    "de": "Riad",
+    "it": "Riad",
+    "tr": "Riyad"
   },
   {
     "code": "jeddah",
@@ -1362,7 +1778,11 @@
     "es": "Yeda",
     "he": "ג'דה",
     "ko": "제다",
-    "zh": "吉达"
+    "zh": "吉达",
+    "fr": "Djeddah",
+    "de": "Dschidda",
+    "it": "Gedda",
+    "tr": "Cidde"
   },
   {
     "code": "kuwait_city",
@@ -1375,7 +1795,11 @@
     "es": "Ciudad de Kuwait",
     "he": "כווית סיטי",
     "ko": "쿠웨이트시티",
-    "zh": "科威特城"
+    "zh": "科威特城",
+    "fr": "Koweït",
+    "de": "Kuwait-Stadt",
+    "it": "Kuwait City",
+    "tr": "Kuveyt"
   },
   {
     "code": "cairo",
@@ -1388,7 +1812,11 @@
     "es": "El Cairo",
     "he": "קהיר",
     "ko": "카이로",
-    "zh": "开罗"
+    "zh": "开罗",
+    "fr": "Le Caire",
+    "de": "Kairo",
+    "it": "Il Cairo",
+    "tr": "Kahire"
   },
   {
     "code": "amman",
@@ -1401,7 +1829,11 @@
     "es": "Ammán",
     "he": "עמאן",
     "ko": "암만",
-    "zh": "安曼"
+    "zh": "安曼",
+    "fr": "Amman",
+    "de": "Amman",
+    "it": "Amman",
+    "tr": "Amman"
   },
   {
     "code": "beirut",
@@ -1414,7 +1846,11 @@
     "es": "Beirut",
     "he": "ביירות",
     "ko": "베이루트",
-    "zh": "贝鲁特"
+    "zh": "贝鲁特",
+    "fr": "Beyrouth",
+    "de": "Beirut",
+    "it": "Beirut",
+    "tr": "Beyrut"
   },
   {
     "code": "london",
@@ -1427,7 +1863,11 @@
     "es": "Londres",
     "he": "לונדון",
     "ko": "런던",
-    "zh": "伦敦"
+    "zh": "伦敦",
+    "fr": "Londres",
+    "de": "London",
+    "it": "Londra",
+    "tr": "Londra"
   },
   {
     "code": "berlin",
@@ -1440,7 +1880,11 @@
     "es": "Berlín",
     "he": "ברלין",
     "ko": "베를린",
-    "zh": "柏林"
+    "zh": "柏林",
+    "fr": "Berlin",
+    "de": "Berlin",
+    "it": "Berlin",
+    "tr": "Berlin"
   },
   {
     "code": "paris",
@@ -1453,7 +1897,11 @@
     "es": "París",
     "he": "פריז",
     "ko": "파리",
-    "zh": "巴黎"
+    "zh": "巴黎",
+    "fr": "Paris",
+    "de": "Paris",
+    "it": "Parigi",
+    "tr": "Paris"
   },
   {
     "code": "rome",
@@ -1466,7 +1914,11 @@
     "es": "Roma",
     "he": "רומא",
     "ko": "로마",
-    "zh": "罗马"
+    "zh": "罗马",
+    "fr": "Rome",
+    "de": "Rom",
+    "it": "Roma",
+    "tr": "Roma"
   },
   {
     "code": "madrid",
@@ -1479,7 +1931,11 @@
     "es": "Madrid",
     "he": "מדריד",
     "ko": "마드리드",
-    "zh": "马德里"
+    "zh": "马德里",
+    "fr": "Madrid",
+    "de": "Madrid",
+    "it": "Madrid",
+    "tr": "Madrid"
   },
   {
     "code": "amsterdam",
@@ -1492,7 +1948,11 @@
     "es": "Ámsterdam",
     "he": "אמסטרדם",
     "ko": "암스테르담",
-    "zh": "阿姆斯特丹"
+    "zh": "阿姆斯特丹",
+    "fr": "Amsterdam",
+    "de": "Amsterdam",
+    "it": "Amsterdam",
+    "tr": "Amsterdam"
   },
   {
     "code": "vienna",
@@ -1505,7 +1965,11 @@
     "es": "Viena",
     "he": "וינה",
     "ko": "빈",
-    "zh": "维也纳"
+    "zh": "维也纳",
+    "fr": "Vienne",
+    "de": "Wien",
+    "it": "Vienna",
+    "tr": "Viyana"
   },
   {
     "code": "prague",
@@ -1518,7 +1982,11 @@
     "es": "Praga",
     "he": "פראג",
     "ko": "프라하",
-    "zh": "布拉格"
+    "zh": "布拉格",
+    "fr": "Prague",
+    "de": "Prag",
+    "it": "Praga",
+    "tr": "Prag"
   },
   {
     "code": "warsaw",
@@ -1531,7 +1999,11 @@
     "es": "Varsovia",
     "he": "ורשה",
     "ko": "바르샤바",
-    "zh": "华沙"
+    "zh": "华沙",
+    "fr": "Varsovie",
+    "de": "Warschau",
+    "it": "Varsavia",
+    "tr": "Varşova"
   },
   {
     "code": "budapest",
@@ -1544,7 +2016,11 @@
     "es": "Budapest",
     "he": "בודפשט",
     "ko": "부다페스트",
-    "zh": "布达佩斯"
+    "zh": "布达佩斯",
+    "fr": "Budapest",
+    "de": "Budapest",
+    "it": "Budapest",
+    "tr": "Budapeşte"
   },
   {
     "code": "stockholm",
@@ -1557,7 +2033,11 @@
     "es": "Estocolmo",
     "he": "שטוקהולם",
     "ko": "스톡홀름",
-    "zh": "斯德哥尔摩"
+    "zh": "斯德哥尔摩",
+    "fr": "Stockholm",
+    "de": "Stockholm",
+    "it": "Stoccolma",
+    "tr": "Stokholm"
   },
   {
     "code": "riga",
@@ -1570,7 +2050,11 @@
     "es": "Riga",
     "he": "ריגה",
     "ko": "리가",
-    "zh": "里加"
+    "zh": "里加",
+    "fr": "Riga",
+    "de": "Riga",
+    "it": "Riga",
+    "tr": "Riga"
   },
   {
     "code": "bucharest",
@@ -1583,7 +2067,11 @@
     "es": "Bucarest",
     "he": "בוקרשט",
     "ko": "부쿠레슈티",
-    "zh": "布加勒斯特"
+    "zh": "布加勒斯特",
+    "fr": "Bucarest",
+    "de": "Bukarest",
+    "it": "Bucarest",
+    "tr": "Bükreş"
   },
   {
     "code": "new_york",
@@ -1596,7 +2084,11 @@
     "es": "Nueva York",
     "he": "ניו יורק",
     "ko": "뉴욕",
-    "zh": "纽约"
+    "zh": "纽约",
+    "fr": "New York",
+    "de": "New York",
+    "it": "New York",
+    "tr": "New York"
   },
   {
     "code": "washington",
@@ -1609,7 +2101,11 @@
     "es": "Washington",
     "he": "וושינגטון",
     "ko": "워싱턴",
-    "zh": "华盛顿"
+    "zh": "华盛顿",
+    "fr": "Washington",
+    "de": "Washington",
+    "it": "Washington",
+    "tr": "Washington"
   },
   {
     "code": "los_angeles",
@@ -1622,7 +2118,11 @@
     "es": "Los Ángeles",
     "he": "לוס אנג'לס",
     "ko": "로스앤젤레스",
-    "zh": "洛杉矶"
+    "zh": "洛杉矶",
+    "fr": "Los Angeles",
+    "de": "Los Angeles",
+    "it": "Los Angeles",
+    "tr": "Los Angeles"
   },
   {
     "code": "toronto",
@@ -1635,7 +2135,11 @@
     "es": "Toronto",
     "he": "טורונטו",
     "ko": "토론토",
-    "zh": "多伦多"
+    "zh": "多伦多",
+    "fr": "Toronto",
+    "de": "Toronto",
+    "it": "Toronto",
+    "tr": "Toronto"
   },
   {
     "code": "beijing",
@@ -1648,7 +2152,11 @@
     "es": "Pekín",
     "he": "בייג'ינג",
     "ko": "베이징",
-    "zh": "北京"
+    "zh": "北京",
+    "fr": "Pékin",
+    "de": "Peking",
+    "it": "Pechino",
+    "tr": "Pekin"
   },
   {
     "code": "shanghai",
@@ -1661,7 +2169,11 @@
     "es": "Shanghái",
     "he": "שנחאי",
     "ko": "상하이",
-    "zh": "上海"
+    "zh": "上海",
+    "fr": "Shanghai",
+    "de": "Shanghai",
+    "it": "Shanghai",
+    "tr": "Şanghay"
   },
   {
     "code": "tokyo",
@@ -1674,7 +2186,11 @@
     "es": "Tokio",
     "he": "טוקיו",
     "ko": "도쿄",
-    "zh": "东京"
+    "zh": "东京",
+    "fr": "Tokyo",
+    "de": "Tokio",
+    "it": "Tokyo",
+    "tr": "Tokyo"
   },
   {
     "code": "seoul",
@@ -1687,7 +2203,11 @@
     "es": "Seúl",
     "he": "סיאול",
     "ko": "서울",
-    "zh": "首尔"
+    "zh": "首尔",
+    "fr": "Séoul",
+    "de": "Seoul",
+    "it": "Seul",
+    "tr": "Seul"
   },
   {
     "code": "new_delhi",
@@ -1700,7 +2220,11 @@
     "es": "Nueva Delhi",
     "he": "ניו דלהי",
     "ko": "뉴델리",
-    "zh": "新德里"
+    "zh": "新德里",
+    "fr": "New Delhi",
+    "de": "Neu-Delhi",
+    "it": "Nuova Delhi",
+    "tr": "Yeni Delhi"
   },
   {
     "code": "sydney",
@@ -1713,6 +2237,10 @@
     "es": "Sídney",
     "he": "סידני",
     "ko": "시드니",
-    "zh": "悉尼"
+    "zh": "悉尼",
+    "fr": "Sydney",
+    "de": "Sydney",
+    "it": "Sydney",
+    "tr": "Sydney"
   }
 ]

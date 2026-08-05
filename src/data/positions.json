@@ -10,7 +10,11 @@
     "es": "Director",
     "he": "מנהל",
     "ko": "이사",
-    "zh": "主任"
+    "zh": "主任",
+    "fr": "Directeur",
+    "de": "Direktor",
+    "it": "Direttore",
+    "tr": "Direktör"
   },
   {
     "code": "general_director",
@@ -23,7 +27,11 @@
     "es": "Director general",
     "he": "מנהל כללי",
     "ko": "대표이사",
-    "zh": "总经理"
+    "zh": "总经理",
+    "fr": "Directeur général",
+    "de": "Generaldirektor",
+    "it": "Direttore generale",
+    "tr": "Genel müdür"
   },
   {
     "code": "executive_director",
@@ -36,7 +44,11 @@
     "es": "Director ejecutivo",
     "he": "מנכ\"ל",
     "ko": "전무이사",
-    "zh": "执行董事"
+    "zh": "执行董事",
+    "fr": "Directeur exécutif",
+    "de": "Geschäftsführer",
+    "it": "Direttore esecutivo",
+    "tr": "İcra direktörü"
   },
   {
     "code": "deputy_director",
@@ -49,7 +61,11 @@
     "es": "Subdirector",
     "he": "סגן מנהל",
     "ko": "부이사",
-    "zh": "副主任"
+    "zh": "副主任",
+    "fr": "Directeur adjoint",
+    "de": "Stellvertretender Direktor",
+    "it": "Vicedirettore",
+    "tr": "Direktör yardımcısı"
   },
   {
     "code": "department_head",
@@ -62,7 +78,11 @@
     "es": "Jefe de departamento",
     "he": "ראש מחלקה",
     "ko": "부서장",
-    "zh": "部门主管"
+    "zh": "部门主管",
+    "fr": "Chef de service",
+    "de": "Abteilungsleiter",
+    "it": "Responsabile di reparto",
+    "tr": "Bölüm müdürü"
   },
   {
     "code": "manager",
@@ -75,7 +95,11 @@
     "es": "Gerente",
     "he": "מנג'ר",
     "ko": "매니저",
-    "zh": "经理"
+    "zh": "经理",
+    "fr": "Manager",
+    "de": "Manager",
+    "it": "Manager",
+    "tr": "Yönetici"
   },
   {
     "code": "project_manager",
@@ -88,7 +112,11 @@
     "es": "Jefe de proyecto",
     "he": "מנהל פרויקטים",
     "ko": "프로젝트 매니저",
-    "zh": "项目经理"
+    "zh": "项目经理",
+    "fr": "Chef de projet",
+    "de": "Projektmanager",
+    "it": "Project manager",
+    "tr": "Proje yöneticisi"
   },
   {
     "code": "team_lead",
@@ -101,7 +129,11 @@
     "es": "Jefe de equipo",
     "he": "ראש צוות",
     "ko": "팀장",
-    "zh": "团队负责人"
+    "zh": "团队负责人",
+    "fr": "Chef d'équipe",
+    "de": "Teamleiter",
+    "it": "Team leader",
+    "tr": "Takım lideri"
   },
   {
     "code": "shift_supervisor",
@@ -114,7 +146,11 @@
     "es": "Jefe de turno",
     "he": "אחראי משמרת",
     "ko": "교대 감독자",
-    "zh": "班组长"
+    "zh": "班组长",
+    "fr": "Chef de quart",
+    "de": "Schichtleiter",
+    "it": "Capoturno",
+    "tr": "Vardiya sorumlusu"
   },
   {
     "code": "branch_manager",
@@ -127,7 +163,11 @@
     "es": "Director de sucursal",
     "he": "מנהל סניף",
     "ko": "지점장",
-    "zh": "分公司经理"
+    "zh": "分公司经理",
+    "fr": "Directeur d'agence",
+    "de": "Filialleiter",
+    "it": "Direttore di filiale",
+    "tr": "Şube müdürü"
   },
   {
     "code": "operations_manager",
@@ -140,7 +180,11 @@
     "es": "Director de operaciones",
     "he": "מנהל תפעול",
     "ko": "운영 관리자",
-    "zh": "运营经理"
+    "zh": "运营经理",
+    "fr": "Responsable des opérations",
+    "de": "Betriebsleiter",
+    "it": "Responsabile operativo",
+    "tr": "Operasyon yöneticisi"
   },
   {
     "code": "office_manager",
@@ -153,7 +197,11 @@
     "es": "Responsable de oficina",
     "he": "מנהל משרד",
     "ko": "사무 관리자",
-    "zh": "行政主管"
+    "zh": "行政主管",
+    "fr": "Responsable de bureau",
+    "de": "Büroleiter",
+    "it": "Office manager",
+    "tr": "Ofis yöneticisi"
   },
   {
     "code": "administrator",
@@ -166,7 +214,11 @@
     "es": "Administrador",
     "he": "אדמיניסטרטור",
     "ko": "관리자",
-    "zh": "行政管理员"
+    "zh": "行政管理员",
+    "fr": "Administrateur",
+    "de": "Administrator",
+    "it": "Amministratore",
+    "tr": "Yönetim görevlisi"
   },
   {
     "code": "supervisor",
@@ -179,7 +231,11 @@
     "es": "Supervisor",
     "he": "מפקח",
     "ko": "감독자",
-    "zh": "主管"
+    "zh": "主管",
+    "fr": "Superviseur",
+    "de": "Aufseher",
+    "it": "Supervisore",
+    "tr": "Süpervizör"
   },
   {
     "code": "coordinator",
@@ -192,7 +248,11 @@
     "es": "Coordinador",
     "he": "רכז",
     "ko": "코디네이터",
-    "zh": "协调员"
+    "zh": "协调员",
+    "fr": "Coordinateur",
+    "de": "Koordinator",
+    "it": "Coordinatore",
+    "tr": "Koordinatör"
   },
   {
     "code": "specialist",
@@ -205,7 +265,11 @@
     "es": "Especialista",
     "he": "מומחה",
     "ko": "전문가",
-    "zh": "专员"
+    "zh": "专员",
+    "fr": "Spécialiste",
+    "de": "Spezialist",
+    "it": "Specialista",
+    "tr": "Uzman"
   },
   {
     "code": "senior_specialist",
@@ -218,7 +282,11 @@
     "es": "Especialista sénior",
     "he": "מומחה בכיר",
     "ko": "선임 전문가",
-    "zh": "高级专员"
+    "zh": "高级专员",
+    "fr": "Spécialiste principal",
+    "de": "Hauptspezialist",
+    "it": "Specialista senior",
+    "tr": "Baş uzman"
   },
   {
     "code": "leading_specialist",
@@ -231,7 +299,11 @@
     "es": "Especialista principal",
     "he": "מומחה מוביל",
     "ko": "수석 전문가",
-    "zh": "首席专员"
+    "zh": "首席专员",
+    "fr": "Spécialiste en chef",
+    "de": "Leitender Spezialist",
+    "it": "Specialista capo",
+    "tr": "Kıdemli uzman"
   },
   {
     "code": "assistant",
@@ -244,7 +316,11 @@
     "es": "Asistente",
     "he": "עוזר",
     "ko": "보조원",
-    "zh": "助理"
+    "zh": "助理",
+    "fr": "Assistant",
+    "de": "Assistent",
+    "it": "Assistente",
+    "tr": "Asistan"
   },
   {
     "code": "intern",
@@ -257,7 +333,11 @@
     "es": "Becario",
     "he": "מתמחה",
     "ko": "인턴",
-    "zh": "实习生"
+    "zh": "实习生",
+    "fr": "Stagiaire",
+    "de": "Praktikant",
+    "it": "Tirocinante",
+    "tr": "Stajyer"
   },
   {
     "code": "secretary",
@@ -270,7 +350,11 @@
     "es": "Secretario",
     "he": "מזכיר",
     "ko": "비서",
-    "zh": "秘书"
+    "zh": "秘书",
+    "fr": "Secrétaire",
+    "de": "Sekretär",
+    "it": "Segretario",
+    "tr": "Sekreter"
   },
   {
     "code": "receptionist",
@@ -283,7 +367,11 @@
     "es": "Recepcionista",
     "he": "פקיד קבלה",
     "ko": "안내 직원",
-    "zh": "前台接待"
+    "zh": "前台接待",
+    "fr": "Réceptionniste",
+    "de": "Empfangsmitarbeiter",
+    "it": "Receptionist",
+    "tr": "Resepsiyonist"
   },
   {
     "code": "records_clerk",
@@ -296,7 +384,11 @@
     "es": "Auxiliar de registro",
     "he": "פקיד רשומות",
     "ko": "문서 담당자",
-    "zh": "档案登记员"
+    "zh": "档案登记员",
+    "fr": "Agent administratif",
+    "de": "Sachbearbeiter",
+    "it": "Addetto al protocollo",
+    "tr": "Evrak memuru"
   },
   {
     "code": "document_controller",
@@ -309,7 +401,11 @@
     "es": "Controlador de documentos",
     "he": "בקר מסמכים",
     "ko": "문서 관리 담당자",
-    "zh": "文件管理员"
+    "zh": "文件管理员",
+    "fr": "Gestionnaire documentaire",
+    "de": "Dokumentenkontrolleur",
+    "it": "Addetto alla gestione documenti",
+    "tr": "Doküman kontrol uzmanı"
   },
   {
     "code": "archivist",
@@ -322,7 +418,11 @@
     "es": "Archivero",
     "he": "ארכיונאי",
     "ko": "기록물 관리사",
-    "zh": "档案管理员"
+    "zh": "档案管理员",
+    "fr": "Archiviste",
+    "de": "Archivar",
+    "it": "Archivista",
+    "tr": "Arşivci"
   },
   {
     "code": "business_analyst",
@@ -335,7 +435,11 @@
     "es": "Analista de negocio",
     "he": "אנליסט עסקי",
     "ko": "비즈니스 분석가",
-    "zh": "业务分析师"
+    "zh": "业务分析师",
+    "fr": "Analyste métier",
+    "de": "Business-Analyst",
+    "it": "Analista di business",
+    "tr": "İş analisti"
   },
   {
     "code": "business_development_manager",
@@ -348,7 +452,11 @@
     "es": "Responsable de desarrollo de negocio",
     "he": "מנהל פיתוח עסקי",
     "ko": "사업 개발 관리자",
-    "zh": "业务拓展经理"
+    "zh": "业务拓展经理",
+    "fr": "Responsable du développement commercial",
+    "de": "Manager für Geschäftsentwicklung",
+    "it": "Responsabile sviluppo commerciale",
+    "tr": "İş geliştirme yöneticisi"
   },
   {
     "code": "consultant",
@@ -361,7 +469,11 @@
     "es": "Consultor",
     "he": "יועץ",
     "ko": "컨설턴트",
-    "zh": "顾问"
+    "zh": "顾问",
+    "fr": "Consultant",
+    "de": "Berater",
+    "it": "Consulente",
+    "tr": "Danışman"
   },
   {
     "code": "entrepreneur",
@@ -374,7 +486,11 @@
     "es": "Empresario",
     "he": "יזם",
     "ko": "사업가",
-    "zh": "创业者"
+    "zh": "创业者",
+    "fr": "Entrepreneur",
+    "de": "Unternehmer",
+    "it": "Imprenditore",
+    "tr": "Girişimci"
   },
   {
     "code": "founder",
@@ -387,7 +503,11 @@
     "es": "Fundador",
     "he": "מייסד",
     "ko": "창업자",
-    "zh": "创始人"
+    "zh": "创始人",
+    "fr": "Fondateur",
+    "de": "Gründer",
+    "it": "Fondatore",
+    "tr": "Kurucu"
   },
   {
     "code": "freelancer",
@@ -400,7 +520,11 @@
     "es": "Freelance",
     "he": "פרילנסר",
     "ko": "프리랜서",
-    "zh": "自由职业者"
+    "zh": "自由职业者",
+    "fr": "Freelance",
+    "de": "Freiberufler",
+    "it": "Freelance",
+    "tr": "Serbest çalışan"
   },
   {
     "code": "volunteer",
@@ -413,7 +537,11 @@
     "es": "Voluntario",
     "he": "מתנדב",
     "ko": "자원봉사자",
-    "zh": "志愿者"
+    "zh": "志愿者",
+    "fr": "Bénévole",
+    "de": "Freiwilliger",
+    "it": "Volontario",
+    "tr": "Gönüllü"
   },
   {
     "code": "accountant",
@@ -426,7 +554,11 @@
     "es": "Contable",
     "he": "מנהל חשבונות",
     "ko": "회계 담당자",
-    "zh": "会计"
+    "zh": "会计",
+    "fr": "Comptable",
+    "de": "Buchhalter",
+    "it": "Contabile",
+    "tr": "Muhasebeci"
   },
   {
     "code": "chief_accountant",
@@ -439,7 +571,11 @@
     "es": "Jefe de contabilidad",
     "he": "חשב ראשי",
     "ko": "회계 팀장",
-    "zh": "总会计师"
+    "zh": "总会计师",
+    "fr": "Chef comptable",
+    "de": "Hauptbuchhalter",
+    "it": "Capo contabile",
+    "tr": "Baş muhasebeci"
   },
   {
     "code": "financial_manager",
@@ -452,7 +588,11 @@
     "es": "Director financiero",
     "he": "מנהל כספים",
     "ko": "재무 관리자",
-    "zh": "财务经理"
+    "zh": "财务经理",
+    "fr": "Directeur financier",
+    "de": "Finanzmanager",
+    "it": "Responsabile finanziario",
+    "tr": "Finans yöneticisi"
   },
   {
     "code": "financial_analyst",
@@ -465,7 +605,11 @@
     "es": "Analista financiero",
     "he": "אנליסט פיננסי",
     "ko": "재무 분석가",
-    "zh": "财务分析师"
+    "zh": "财务分析师",
+    "fr": "Analyste financier",
+    "de": "Finanzanalyst",
+    "it": "Analista finanziario",
+    "tr": "Finansal analist"
   },
   {
     "code": "economist",
@@ -478,7 +622,11 @@
     "es": "Economista",
     "he": "כלכלן",
     "ko": "경제 전문가",
-    "zh": "经济师"
+    "zh": "经济师",
+    "fr": "Économiste",
+    "de": "Volkswirt",
+    "it": "Economista",
+    "tr": "Ekonomist"
   },
   {
     "code": "auditor",
@@ -491,7 +639,11 @@
     "es": "Auditor",
     "he": "מבקר",
     "ko": "감사인",
-    "zh": "审计师"
+    "zh": "审计师",
+    "fr": "Auditeur",
+    "de": "Wirtschaftsprüfer",
+    "it": "Revisore",
+    "tr": "Denetçi"
   },
   {
     "code": "internal_auditor",
@@ -504,7 +656,11 @@
     "es": "Auditor interno",
     "he": "מבקר פנים",
     "ko": "내부 감사인",
-    "zh": "内部审计师"
+    "zh": "内部审计师",
+    "fr": "Auditeur interne",
+    "de": "Interner Revisor",
+    "it": "Revisore interno",
+    "tr": "İç denetçi"
   },
   {
     "code": "cashier",
@@ -517,7 +673,11 @@
     "es": "Cajero",
     "he": "קופאי",
     "ko": "계산원",
-    "zh": "收银员"
+    "zh": "收银员",
+    "fr": "Caissier",
+    "de": "Kassierer",
+    "it": "Cassiere",
+    "tr": "Kasiyer"
   },
   {
     "code": "bank_teller",
@@ -530,7 +690,11 @@
     "es": "Cajero de banco",
     "he": "פקיד בנק",
     "ko": "은행 창구 직원",
-    "zh": "银行柜员"
+    "zh": "银行柜员",
+    "fr": "Guichetier de banque",
+    "de": "Bankkaufmann",
+    "it": "Operatore di sportello",
+    "tr": "Banka gişe görevlisi"
   },
   {
     "code": "credit_specialist",
@@ -543,7 +707,11 @@
     "es": "Especialista en créditos",
     "he": "מומחה אשראי",
     "ko": "여신 전문가",
-    "zh": "信贷专员"
+    "zh": "信贷专员",
+    "fr": "Spécialiste crédit",
+    "de": "Kreditspezialist",
+    "it": "Specialista del credito",
+    "tr": "Kredi uzmanı"
   },
   {
     "code": "treasurer",
@@ -556,7 +724,11 @@
     "es": "Tesorero",
     "he": "גזבר",
     "ko": "자금 담당자",
-    "zh": "资金管理员"
+    "zh": "资金管理员",
+    "fr": "Trésorier",
+    "de": "Schatzmeister",
+    "it": "Tesoriere",
+    "tr": "Hazine görevlisi"
   },
   {
     "code": "tax_specialist",
@@ -569,7 +741,11 @@
     "es": "Especialista fiscal",
     "he": "מומחה מיסים",
     "ko": "세무 전문가",
-    "zh": "税务专员"
+    "zh": "税务专员",
+    "fr": "Spécialiste fiscal",
+    "de": "Steuerspezialist",
+    "it": "Specialista fiscale",
+    "tr": "Vergi uzmanı"
   },
   {
     "code": "payroll_specialist",
@@ -582,7 +758,11 @@
     "es": "Especialista en nóminas",
     "he": "חשב שכר",
     "ko": "급여 담당자",
-    "zh": "薪酬专员"
+    "zh": "薪酬专员",
+    "fr": "Gestionnaire de paie",
+    "de": "Lohnbuchhalter",
+    "it": "Specialista paghe",
+    "tr": "Bordro uzmanı"
   },
   {
     "code": "collections_specialist",
@@ -595,7 +775,11 @@
     "es": "Especialista en cobros",
     "he": "מומחה גבייה",
     "ko": "채권 회수 담당자",
-    "zh": "催收专员"
+    "zh": "催收专员",
+    "fr": "Chargé de recouvrement",
+    "de": "Spezialist für Forderungseinzug",
+    "it": "Specialista del recupero crediti",
+    "tr": "Tahsilat uzmanı"
   },
   {
     "code": "risk_manager",
@@ -608,7 +792,11 @@
     "es": "Gestor de riesgos",
     "he": "מנהל סיכונים",
     "ko": "리스크 관리자",
-    "zh": "风险管理经理"
+    "zh": "风险管理经理",
+    "fr": "Responsable des risques",
+    "de": "Risikomanager",
+    "it": "Risk manager",
+    "tr": "Risk yöneticisi"
   },
   {
     "code": "compliance_officer",
@@ -621,7 +809,11 @@
     "es": "Responsable de cumplimiento",
     "he": "אחראי ציות",
     "ko": "준법 감시 담당자",
-    "zh": "合规专员"
+    "zh": "合规专员",
+    "fr": "Responsable de la conformité",
+    "de": "Compliance-Beauftragter",
+    "it": "Responsabile della compliance",
+    "tr": "Uyum görevlisi"
   },
   {
     "code": "insurance_agent",
@@ -634,7 +826,11 @@
     "es": "Agente de seguros",
     "he": "סוכן ביטוח",
     "ko": "보험 설계사",
-    "zh": "保险代理人"
+    "zh": "保险代理人",
+    "fr": "Agent d'assurance",
+    "de": "Versicherungsvertreter",
+    "it": "Agente assicurativo",
+    "tr": "Sigorta acentesi"
   },
   {
     "code": "salesperson",
@@ -647,7 +843,11 @@
     "es": "Vendedor",
     "he": "איש מכירות",
     "ko": "판매원",
-    "zh": "销售员"
+    "zh": "销售员",
+    "fr": "Vendeur",
+    "de": "Verkäufer",
+    "it": "Venditore",
+    "tr": "Satış görevlisi"
   },
   {
     "code": "sales_cashier",
@@ -660,7 +860,11 @@
     "es": "Cajero de tienda",
     "he": "קופאי בחנות",
     "ko": "판매 계산원",
-    "zh": "销售收银员"
+    "zh": "销售收银员",
+    "fr": "Vendeur-caissier",
+    "de": "Verkäufer-Kassierer",
+    "it": "Venditore-cassiere",
+    "tr": "Satış-kasa görevlisi"
   },
   {
     "code": "sales_manager",
@@ -673,7 +877,11 @@
     "es": "Jefe de ventas",
     "he": "מנהל מכירות",
     "ko": "영업 관리자",
-    "zh": "销售经理"
+    "zh": "销售经理",
+    "fr": "Responsable des ventes",
+    "de": "Vertriebsleiter",
+    "it": "Responsabile vendite",
+    "tr": "Satış yöneticisi"
   },
   {
     "code": "sales_representative",
@@ -686,7 +894,11 @@
     "es": "Representante de ventas",
     "he": "נציג מכירות",
     "ko": "영업 담당자",
-    "zh": "销售代表"
+    "zh": "销售代表",
+    "fr": "Représentant commercial",
+    "de": "Vertriebsmitarbeiter",
+    "it": "Rappresentante commerciale",
+    "tr": "Satış temsilcisi"
   },
   {
     "code": "sales_consultant",
@@ -699,7 +911,11 @@
     "es": "Asesor comercial",
     "he": "יועץ מכירות",
     "ko": "판매 상담원",
-    "zh": "销售顾问"
+    "zh": "销售顾问",
+    "fr": "Conseiller de vente",
+    "de": "Verkaufsberater",
+    "it": "Consulente di vendita",
+    "tr": "Satış danışmanı"
   },
   {
     "code": "store_manager",
@@ -712,7 +928,11 @@
     "es": "Encargado de tienda",
     "he": "מנהל חנות",
     "ko": "매장 관리자",
-    "zh": "店长"
+    "zh": "店长",
+    "fr": "Directeur de magasin",
+    "de": "Filialleiter Einzelhandel",
+    "it": "Direttore di negozio",
+    "tr": "Mağaza müdürü"
   },
   {
     "code": "merchandiser",
@@ -725,7 +945,11 @@
     "es": "Merchandiser",
     "he": "מרצ'נדייזר",
     "ko": "머천다이저",
-    "zh": "陈列理货员"
+    "zh": "陈列理货员",
+    "fr": "Merchandiser",
+    "de": "Merchandiser",
+    "it": "Merchandiser",
+    "tr": "Merchandiser"
   },
   {
     "code": "key_account_manager",
@@ -738,7 +962,11 @@
     "es": "Gestor de cuentas clave",
     "he": "מנהל לקוחות מרכזיים",
     "ko": "주요 거래처 관리자",
-    "zh": "大客户经理"
+    "zh": "大客户经理",
+    "fr": "Responsable grands comptes",
+    "de": "Key-Account-Manager",
+    "it": "Key account manager",
+    "tr": "Kilit müşteri yöneticisi"
   },
   {
     "code": "customer_service_specialist",
@@ -751,7 +979,11 @@
     "es": "Especialista en atención al cliente",
     "he": "מומחה שירות לקוחות",
     "ko": "고객 서비스 전문가",
-    "zh": "客户服务专员"
+    "zh": "客户服务专员",
+    "fr": "Spécialiste du service client",
+    "de": "Kundendienstspezialist",
+    "it": "Specialista del servizio clienti",
+    "tr": "Müşteri hizmetleri uzmanı"
   },
   {
     "code": "call_center_operator",
@@ -764,7 +996,11 @@
     "es": "Teleoperador",
     "he": "נציג מוקד טלפוני",
     "ko": "콜센터 상담원",
-    "zh": "呼叫中心话务员"
+    "zh": "呼叫中心话务员",
+    "fr": "Téléopérateur",
+    "de": "Callcenter-Mitarbeiter",
+    "it": "Operatore di call center",
+    "tr": "Çağrı merkezi operatörü"
   },
   {
     "code": "procurement_specialist",
@@ -777,7 +1013,11 @@
     "es": "Especialista en compras",
     "he": "מומחה רכש",
     "ko": "구매 전문가",
-    "zh": "采购专员"
+    "zh": "采购专员",
+    "fr": "Spécialiste des achats",
+    "de": "Einkaufsspezialist",
+    "it": "Specialista degli acquisti",
+    "tr": "Satın alma uzmanı"
   },
   {
     "code": "purchasing_manager",
@@ -790,7 +1030,11 @@
     "es": "Jefe de compras",
     "he": "מנהל רכש",
     "ko": "구매 관리자",
-    "zh": "采购经理"
+    "zh": "采购经理",
+    "fr": "Responsable des achats",
+    "de": "Einkaufsleiter",
+    "it": "Responsabile acquisti",
+    "tr": "Satın alma müdürü"
   },
   {
     "code": "supply_specialist",
@@ -803,7 +1047,11 @@
     "es": "Especialista en abastecimiento",
     "he": "מומחה אספקה",
     "ko": "자재 조달 담당자",
-    "zh": "供应专员"
+    "zh": "供应专员",
+    "fr": "Spécialiste de l'approvisionnement",
+    "de": "Versorgungsspezialist",
+    "it": "Specialista degli approvvigionamenti",
+    "tr": "Tedarik uzmanı"
   },
   {
     "code": "contracts_specialist",
@@ -816,7 +1064,11 @@
     "es": "Especialista en contratos",
     "he": "מומחה חוזים",
     "ko": "계약 담당자",
-    "zh": "合同专员"
+    "zh": "合同专员",
+    "fr": "Spécialiste des contrats",
+    "de": "Vertragsspezialist",
+    "it": "Specialista contrattuale",
+    "tr": "Sözleşme uzmanı"
   },
   {
     "code": "real_estate_agent",
@@ -829,7 +1081,11 @@
     "es": "Agente inmobiliario",
     "he": "מתווך נדל\"ן",
     "ko": "부동산 중개인",
-    "zh": "房产经纪人"
+    "zh": "房产经纪人",
+    "fr": "Agent immobilier",
+    "de": "Immobilienmakler",
+    "it": "Agente immobiliare",
+    "tr": "Emlak danışmanı"
   },
   {
     "code": "programmer",
@@ -842,7 +1098,11 @@
     "es": "Programador",
     "he": "מתכנת",
     "ko": "프로그래머",
-    "zh": "程序员"
+    "zh": "程序员",
+    "fr": "Programmeur",
+    "de": "Programmierer",
+    "it": "Programmatore",
+    "tr": "Programcı"
   },
   {
     "code": "software_engineer",
@@ -855,7 +1115,11 @@
     "es": "Ingeniero de software",
     "he": "מהנדס תוכנה",
     "ko": "소프트웨어 엔지니어",
-    "zh": "软件工程师"
+    "zh": "软件工程师",
+    "fr": "Ingénieur logiciel",
+    "de": "Softwareingenieur",
+    "it": "Ingegnere del software",
+    "tr": "Yazılım mühendisi"
   },
   {
     "code": "frontend_developer",
@@ -868,7 +1132,11 @@
     "es": "Desarrollador frontend",
     "he": "מפתח Frontend",
     "ko": "프런트엔드 개발자",
-    "zh": "前端开发工程师"
+    "zh": "前端开发工程师",
+    "fr": "Développeur frontend",
+    "de": "Frontend-Entwickler",
+    "it": "Sviluppatore frontend",
+    "tr": "Frontend geliştirici"
   },
   {
     "code": "backend_developer",
@@ -881,7 +1149,11 @@
     "es": "Desarrollador backend",
     "he": "מפתח Backend",
     "ko": "백엔드 개발자",
-    "zh": "后端开发工程师"
+    "zh": "后端开发工程师",
+    "fr": "Développeur backend",
+    "de": "Backend-Entwickler",
+    "it": "Sviluppatore backend",
+    "tr": "Backend geliştirici"
   },
   {
     "code": "fullstack_developer",
@@ -894,7 +1166,11 @@
     "es": "Desarrollador full-stack",
     "he": "מפתח Full-stack",
     "ko": "풀스택 개발자",
-    "zh": "全栈开发工程师"
+    "zh": "全栈开发工程师",
+    "fr": "Développeur full-stack",
+    "de": "Full-Stack-Entwickler",
+    "it": "Sviluppatore full-stack",
+    "tr": "Full-stack geliştirici"
   },
   {
     "code": "web_developer",
@@ -907,7 +1183,11 @@
     "es": "Desarrollador web",
     "he": "מפתח אתרים",
     "ko": "웹 개발자",
-    "zh": "网页开发工程师"
+    "zh": "网页开发工程师",
+    "fr": "Développeur web",
+    "de": "Webentwickler",
+    "it": "Sviluppatore web",
+    "tr": "Web geliştirici"
   },
   {
     "code": "mobile_developer",
@@ -920,7 +1200,11 @@
     "es": "Desarrollador móvil",
     "he": "מפתח אפליקציות",
     "ko": "모바일 앱 개발자",
-    "zh": "移动应用开发工程师"
+    "zh": "移动应用开发工程师",
+    "fr": "Développeur mobile",
+    "de": "Mobile-App-Entwickler",
+    "it": "Sviluppatore mobile",
+    "tr": "Mobil uygulama geliştirici"
   },
   {
     "code": "qa_engineer",
@@ -933,7 +1217,11 @@
     "es": "Ingeniero de QA",
     "he": "מהנדס QA",
     "ko": "QA 엔지니어",
-    "zh": "测试工程师"
+    "zh": "测试工程师",
+    "fr": "Ingénieur QA",
+    "de": "QA-Ingenieur",
+    "it": "Ingegnere QA",
+    "tr": "Test mühendisi"
   },
   {
     "code": "devops_engineer",
@@ -946,7 +1234,11 @@
     "es": "Ingeniero DevOps",
     "he": "מהנדס DevOps",
     "ko": "DevOps 엔지니어",
-    "zh": "DevOps 工程师"
+    "zh": "DevOps 工程师",
+    "fr": "Ingénieur DevOps",
+    "de": "DevOps-Ingenieur",
+    "it": "Ingegnere DevOps",
+    "tr": "DevOps mühendisi"
   },
   {
     "code": "system_administrator",
@@ -959,7 +1251,11 @@
     "es": "Administrador de sistemas",
     "he": "מנהל מערכות",
     "ko": "시스템 관리자",
-    "zh": "系统管理员"
+    "zh": "系统管理员",
+    "fr": "Administrateur système",
+    "de": "Systemadministrator",
+    "it": "Amministratore di sistema",
+    "tr": "Sistem yöneticisi"
   },
   {
     "code": "network_engineer",
@@ -972,7 +1268,11 @@
     "es": "Ingeniero de redes",
     "he": "מהנדס רשתות",
     "ko": "네트워크 엔지니어",
-    "zh": "网络工程师"
+    "zh": "网络工程师",
+    "fr": "Ingénieur réseau",
+    "de": "Netzwerkingenieur",
+    "it": "Ingegnere di rete",
+    "tr": "Ağ mühendisi"
   },
   {
     "code": "database_administrator",
@@ -985,7 +1285,11 @@
     "es": "Administrador de bases de datos",
     "he": "מנהל בסיסי נתונים",
     "ko": "데이터베이스 관리자",
-    "zh": "数据库管理员"
+    "zh": "数据库管理员",
+    "fr": "Administrateur de bases de données",
+    "de": "Datenbankadministrator",
+    "it": "Amministratore di database",
+    "tr": "Veritabanı yöneticisi"
   },
   {
     "code": "data_analyst",
@@ -998,7 +1302,11 @@
     "es": "Analista de datos",
     "he": "אנליסט נתונים",
     "ko": "데이터 분석가",
-    "zh": "数据分析师"
+    "zh": "数据分析师",
+    "fr": "Analyste de données",
+    "de": "Datenanalyst",
+    "it": "Analista di dati",
+    "tr": "Veri analisti"
   },
   {
     "code": "data_scientist",
@@ -1011,7 +1319,11 @@
     "es": "Científico de datos",
     "he": "מדען נתונים",
     "ko": "데이터 사이언티스트",
-    "zh": "数据科学家"
+    "zh": "数据科学家",
+    "fr": "Data scientist",
+    "de": "Data Scientist",
+    "it": "Data scientist",
+    "tr": "Veri bilimci"
   },
   {
     "code": "system_analyst",
@@ -1024,7 +1336,11 @@
     "es": "Analista de sistemas",
     "he": "אנליסט מערכות",
     "ko": "시스템 분석가",
-    "zh": "系统分析师"
+    "zh": "系统分析师",
+    "fr": "Analyste système",
+    "de": "Systemanalytiker",
+    "it": "Analista di sistema",
+    "tr": "Sistem analisti"
   },
   {
     "code": "it_support_specialist",
@@ -1037,7 +1353,11 @@
     "es": "Especialista en soporte técnico",
     "he": "מומחה תמיכה טכנית",
     "ko": "IT 지원 전문가",
-    "zh": "IT 支持专员"
+    "zh": "IT 支持专员",
+    "fr": "Technicien support informatique",
+    "de": "IT-Support-Spezialist",
+    "it": "Specialista supporto IT",
+    "tr": "BT destek uzmanı"
   },
   {
     "code": "cybersecurity_specialist",
@@ -1050,7 +1370,11 @@
     "es": "Especialista en ciberseguridad",
     "he": "מומחה אבטחת מידע",
     "ko": "정보보안 전문가",
-    "zh": "网络安全专员"
+    "zh": "网络安全专员",
+    "fr": "Spécialiste en cybersécurité",
+    "de": "Spezialist für Cybersicherheit",
+    "it": "Specialista di cybersicurezza",
+    "tr": "Siber güvenlik uzmanı"
   },
   {
     "code": "it_manager",
@@ -1063,7 +1387,11 @@
     "es": "Director de TI",
     "he": "מנהל מערכות מידע",
     "ko": "IT 관리자",
-    "zh": "IT 经理"
+    "zh": "IT 经理",
+    "fr": "Responsable informatique",
+    "de": "IT-Manager",
+    "it": "Responsabile IT",
+    "tr": "BT yöneticisi"
   },
   {
     "code": "product_manager",
@@ -1076,7 +1404,11 @@
     "es": "Gestor de producto",
     "he": "מנהל מוצר",
     "ko": "프로덕트 매니저",
-    "zh": "产品经理"
+    "zh": "产品经理",
+    "fr": "Chef de produit",
+    "de": "Produktmanager",
+    "it": "Product manager",
+    "tr": "Ürün yöneticisi"
   },
   {
     "code": "ui_ux_designer",
@@ -1089,7 +1421,11 @@
     "es": "Diseñador UI/UX",
     "he": "מעצב UI/UX",
     "ko": "UI/UX 디자이너",
-    "zh": "UI/UX 设计师"
+    "zh": "UI/UX 设计师",
+    "fr": "Designer UI/UX",
+    "de": "UI/UX-Designer",
+    "it": "Designer UI/UX",
+    "tr": "UI/UX tasarımcısı"
   },
   {
     "code": "seo_specialist",
@@ -1102,7 +1438,11 @@
     "es": "Especialista en SEO",
     "he": "מומחה SEO",
     "ko": "SEO 전문가",
-    "zh": "SEO 专员"
+    "zh": "SEO 专员",
+    "fr": "Spécialiste SEO",
+    "de": "SEO-Spezialist",
+    "it": "Specialista SEO",
+    "tr": "SEO uzmanı"
   },
   {
     "code": "computer_operator",
@@ -1115,7 +1455,11 @@
     "es": "Operador informático",
     "he": "מפעיל מחשב",
     "ko": "컴퓨터 조작원",
-    "zh": "计算机操作员"
+    "zh": "计算机操作员",
+    "fr": "Opérateur informatique",
+    "de": "EDV-Operator",
+    "it": "Operatore informatico",
+    "tr": "Bilgisayar operatörü"
   },
   {
     "code": "marketing_manager",
@@ -1128,7 +1472,11 @@
     "es": "Director de marketing",
     "he": "מנהל שיווק",
     "ko": "마케팅 관리자",
-    "zh": "市场经理"
+    "zh": "市场经理",
+    "fr": "Responsable marketing",
+    "de": "Marketingleiter",
+    "it": "Responsabile marketing",
+    "tr": "Pazarlama yöneticisi"
   },
   {
     "code": "marketing_specialist",
@@ -1141,7 +1489,11 @@
     "es": "Especialista en marketing",
     "he": "מומחה שיווק",
     "ko": "마케팅 전문가",
-    "zh": "市场专员"
+    "zh": "市场专员",
+    "fr": "Spécialiste marketing",
+    "de": "Marketingspezialist",
+    "it": "Specialista di marketing",
+    "tr": "Pazarlama uzmanı"
   },
   {
     "code": "digital_marketing_specialist",
@@ -1154,7 +1506,11 @@
     "es": "Especialista en marketing digital",
     "he": "מומחה שיווק דיגיטלי",
     "ko": "디지털 마케팅 전문가",
-    "zh": "数字营销专员"
+    "zh": "数字营销专员",
+    "fr": "Spécialiste en marketing digital",
+    "de": "Spezialist für digitales Marketing",
+    "it": "Specialista di marketing digitale",
+    "tr": "Dijital pazarlama uzmanı"
   },
   {
     "code": "smm_specialist",
@@ -1167,7 +1523,11 @@
     "es": "Especialista en redes sociales",
     "he": "מומחה רשתות חברתיות",
     "ko": "소셜미디어 전문가",
-    "zh": "社交媒体专员"
+    "zh": "社交媒体专员",
+    "fr": "Spécialiste réseaux sociaux",
+    "de": "Social-Media-Spezialist",
+    "it": "Specialista social media",
+    "tr": "Sosyal medya uzmanı"
   },
   {
     "code": "brand_manager",
@@ -1180,7 +1540,11 @@
     "es": "Gestor de marca",
     "he": "מנהל מותג",
     "ko": "브랜드 매니저",
-    "zh": "品牌经理"
+    "zh": "品牌经理",
+    "fr": "Responsable de marque",
+    "de": "Brandmanager",
+    "it": "Brand manager",
+    "tr": "Marka yöneticisi"
   },
   {
     "code": "pr_specialist",
@@ -1193,7 +1557,11 @@
     "es": "Especialista en relaciones públicas",
     "he": "מומחה יחסי ציבור",
     "ko": "홍보 전문가",
-    "zh": "公关专员"
+    "zh": "公关专员",
+    "fr": "Spécialiste des relations publiques",
+    "de": "PR-Spezialist",
+    "it": "Specialista di relazioni pubbliche",
+    "tr": "Halkla ilişkiler uzmanı"
   },
   {
     "code": "content_manager",
@@ -1206,7 +1574,11 @@
     "es": "Gestor de contenidos",
     "he": "מנהל תוכן",
     "ko": "콘텐츠 매니저",
-    "zh": "内容运营"
+    "zh": "内容运营",
+    "fr": "Responsable de contenu",
+    "de": "Content-Manager",
+    "it": "Content manager",
+    "tr": "İçerik yöneticisi"
   },
   {
     "code": "copywriter",
@@ -1219,7 +1591,11 @@
     "es": "Redactor publicitario",
     "he": "קופירייטר",
     "ko": "카피라이터",
-    "zh": "文案"
+    "zh": "文案",
+    "fr": "Rédacteur publicitaire",
+    "de": "Werbetexter",
+    "it": "Copywriter",
+    "tr": "Metin yazarı"
   },
   {
     "code": "graphic_designer",
@@ -1232,7 +1608,11 @@
     "es": "Diseñador gráfico",
     "he": "מעצב גרפי",
     "ko": "그래픽 디자이너",
-    "zh": "平面设计师"
+    "zh": "平面设计师",
+    "fr": "Graphiste",
+    "de": "Grafikdesigner",
+    "it": "Grafico",
+    "tr": "Grafik tasarımcısı"
   },
   {
     "code": "interior_designer",
@@ -1245,7 +1625,11 @@
     "es": "Diseñador de interiores",
     "he": "מעצב פנים",
     "ko": "인테리어 디자이너",
-    "zh": "室内设计师"
+    "zh": "室内设计师",
+    "fr": "Architecte d'intérieur",
+    "de": "Innenarchitekt",
+    "it": "Designer d'interni",
+    "tr": "İç mimar"
   },
   {
     "code": "photographer",
@@ -1258,7 +1642,11 @@
     "es": "Fotógrafo",
     "he": "צלם",
     "ko": "사진작가",
-    "zh": "摄影师"
+    "zh": "摄影师",
+    "fr": "Photographe",
+    "de": "Fotograf",
+    "it": "Fotografo",
+    "tr": "Fotoğrafçı"
   },
   {
     "code": "videographer",
@@ -1271,7 +1659,11 @@
     "es": "Videógrafo",
     "he": "צלם וידאו",
     "ko": "영상 촬영가",
-    "zh": "摄像师"
+    "zh": "摄像师",
+    "fr": "Vidéaste",
+    "de": "Videograf",
+    "it": "Videomaker",
+    "tr": "Kameraman"
   },
   {
     "code": "video_editor",
@@ -1284,7 +1676,11 @@
     "es": "Editor de vídeo",
     "he": "עורך וידאו",
     "ko": "영상 편집자",
-    "zh": "视频剪辑师"
+    "zh": "视频剪辑师",
+    "fr": "Monteur vidéo",
+    "de": "Videoeditor",
+    "it": "Montatore video",
+    "tr": "Video editörü"
   },
   {
     "code": "journalist",
@@ -1297,7 +1693,11 @@
     "es": "Periodista",
     "he": "עיתונאי",
     "ko": "기자",
-    "zh": "记者"
+    "zh": "记者",
+    "fr": "Journaliste",
+    "de": "Journalist",
+    "it": "Giornalista",
+    "tr": "Gazeteci"
   },
   {
     "code": "editor",
@@ -1310,7 +1710,11 @@
     "es": "Redactor",
     "he": "עורך",
     "ko": "편집자",
-    "zh": "编辑"
+    "zh": "编辑",
+    "fr": "Rédacteur",
+    "de": "Redakteur",
+    "it": "Redattore",
+    "tr": "Editör"
   },
   {
     "code": "presenter",
@@ -1323,7 +1727,11 @@
     "es": "Presentador",
     "he": "מגיש",
     "ko": "진행자",
-    "zh": "主持人"
+    "zh": "主持人",
+    "fr": "Présentateur",
+    "de": "Moderator",
+    "it": "Presentatore",
+    "tr": "Sunucu"
   },
   {
     "code": "stage_director",
@@ -1336,7 +1744,11 @@
     "es": "Director de escena",
     "he": "במאי",
     "ko": "연출가",
-    "zh": "舞台导演"
+    "zh": "舞台导演",
+    "fr": "Metteur en scène",
+    "de": "Regisseur",
+    "it": "Regista",
+    "tr": "Yönetmen"
   },
   {
     "code": "translator",
@@ -1349,7 +1761,11 @@
     "es": "Traductor",
     "he": "מתרגם",
     "ko": "번역가",
-    "zh": "翻译"
+    "zh": "翻译",
+    "fr": "Traducteur",
+    "de": "Übersetzer",
+    "it": "Traduttore",
+    "tr": "Çevirmen"
   },
   {
     "code": "hr_specialist",
@@ -1362,7 +1778,11 @@
     "es": "Especialista en RRHH",
     "he": "מומחה משאבי אנוש",
     "ko": "인사 전문가",
-    "zh": "人力资源专员"
+    "zh": "人力资源专员",
+    "fr": "Spécialiste ressources humaines",
+    "de": "Personalreferent",
+    "it": "Specialista risorse umane",
+    "tr": "İnsan kaynakları uzmanı"
   },
   {
     "code": "hr_manager",
@@ -1375,7 +1795,11 @@
     "es": "Director de RRHH",
     "he": "מנהל משאבי אנוש",
     "ko": "인사 관리자",
-    "zh": "人力资源经理"
+    "zh": "人力资源经理",
+    "fr": "Responsable ressources humaines",
+    "de": "Personalleiter",
+    "it": "Responsabile risorse umane",
+    "tr": "İnsan kaynakları yöneticisi"
   },
   {
     "code": "recruiter",
@@ -1388,7 +1812,11 @@
     "es": "Reclutador",
     "he": "מגייס",
     "ko": "채용 담당자",
-    "zh": "招聘专员"
+    "zh": "招聘专员",
+    "fr": "Recruteur",
+    "de": "Recruiter",
+    "it": "Recruiter",
+    "tr": "İşe alım uzmanı"
   },
   {
     "code": "trainer",
@@ -1401,7 +1829,11 @@
     "es": "Formador",
     "he": "מדריך",
     "ko": "교육 강사",
-    "zh": "培训师"
+    "zh": "培训师",
+    "fr": "Formateur",
+    "de": "Trainer",
+    "it": "Formatore",
+    "tr": "Eğitmen"
   },
   {
     "code": "lawyer",
@@ -1414,7 +1846,11 @@
     "es": "Jurista",
     "he": "משפטן",
     "ko": "법률가",
-    "zh": "法务人员"
+    "zh": "法务人员",
+    "fr": "Juriste",
+    "de": "Jurist",
+    "it": "Giurista",
+    "tr": "Hukukçu"
   },
   {
     "code": "advocate",
@@ -1427,7 +1863,11 @@
     "es": "Abogado",
     "he": "עורך דין",
     "ko": "변호사",
-    "zh": "律师"
+    "zh": "律师",
+    "fr": "Avocat",
+    "de": "Rechtsanwalt",
+    "it": "Avvocato",
+    "tr": "Avukat"
   },
   {
     "code": "legal_advisor",
@@ -1440,7 +1880,11 @@
     "es": "Asesor jurídico",
     "he": "יועץ משפטי",
     "ko": "법률 자문",
-    "zh": "法律顾问"
+    "zh": "法律顾问",
+    "fr": "Conseiller juridique",
+    "de": "Rechtsberater",
+    "it": "Consulente legale",
+    "tr": "Hukuk danışmanı"
   },
   {
     "code": "notary",
@@ -1453,7 +1897,11 @@
     "es": "Notario",
     "he": "נוטריון",
     "ko": "공증인",
-    "zh": "公证员"
+    "zh": "公证员",
+    "fr": "Notaire",
+    "de": "Notar",
+    "it": "Notaio",
+    "tr": "Noter"
   },
   {
     "code": "inspector",
@@ -1466,7 +1914,11 @@
     "es": "Inspector",
     "he": "מפקח ביקורת",
     "ko": "검사관",
-    "zh": "检查员"
+    "zh": "检查员",
+    "fr": "Inspecteur",
+    "de": "Inspektor",
+    "it": "Ispettore",
+    "tr": "Müfettiş"
   },
   {
     "code": "civil_servant",
@@ -1479,7 +1931,11 @@
     "es": "Funcionario público",
     "he": "עובד מדינה",
     "ko": "공무원",
-    "zh": "公务员"
+    "zh": "公务员",
+    "fr": "Fonctionnaire",
+    "de": "Beamter",
+    "it": "Funzionario pubblico",
+    "tr": "Devlet memuru"
   },
   {
     "code": "customs_officer",
@@ -1492,7 +1948,11 @@
     "es": "Agente de aduanas",
     "he": "פקיד מכס",
     "ko": "세관 공무원",
-    "zh": "海关关员"
+    "zh": "海关关员",
+    "fr": "Agent des douanes",
+    "de": "Zollbeamter",
+    "it": "Funzionario doganale",
+    "tr": "Gümrük memuru"
   },
   {
     "code": "customs_broker",
@@ -1505,7 +1965,11 @@
     "es": "Despachante de aduanas",
     "he": "עמיל מכס",
     "ko": "관세사",
-    "zh": "报关员"
+    "zh": "报关员",
+    "fr": "Courtier en douane",
+    "de": "Zollmakler",
+    "it": "Spedizioniere doganale",
+    "tr": "Gümrük müşaviri"
   },
   {
     "code": "police_officer",
@@ -1518,7 +1982,11 @@
     "es": "Policía",
     "he": "שוטר",
     "ko": "경찰관",
-    "zh": "警察"
+    "zh": "警察",
+    "fr": "Policier",
+    "de": "Polizeibeamter",
+    "it": "Agente di polizia",
+    "tr": "Polis memuru"
   },
   {
     "code": "serviceman",
@@ -1531,7 +1999,11 @@
     "es": "Militar",
     "he": "חייל",
     "ko": "군인",
-    "zh": "军人"
+    "zh": "军人",
+    "fr": "Militaire",
+    "de": "Soldat",
+    "it": "Militare",
+    "tr": "Asker"
   },
   {
     "code": "firefighter",
@@ -1544,7 +2016,11 @@
     "es": "Bombero",
     "he": "כבאי",
     "ko": "소방관",
-    "zh": "消防员"
+    "zh": "消防员",
+    "fr": "Pompier",
+    "de": "Feuerwehrmann",
+    "it": "Vigile del fuoco",
+    "tr": "İtfaiyeci"
   },
   {
     "code": "security_guard",
@@ -1557,7 +2033,11 @@
     "es": "Guardia de seguridad",
     "he": "מאבטח",
     "ko": "경비원",
-    "zh": "保安"
+    "zh": "保安",
+    "fr": "Agent de sécurité",
+    "de": "Sicherheitsmitarbeiter",
+    "it": "Addetto alla sicurezza",
+    "tr": "Güvenlik görevlisi"
   },
   {
     "code": "watchman",
@@ -1570,7 +2050,11 @@
     "es": "Sereno",
     "he": "שומר",
     "ko": "야간 경비원",
-    "zh": "看守员"
+    "zh": "看守员",
+    "fr": "Gardien",
+    "de": "Wächter",
+    "it": "Guardiano",
+    "tr": "Bekçi"
   },
   {
     "code": "engineer",
@@ -1583,7 +2067,11 @@
     "es": "Ingeniero",
     "he": "מהנדס",
     "ko": "엔지니어",
-    "zh": "工程师"
+    "zh": "工程师",
+    "fr": "Ingénieur",
+    "de": "Ingenieur",
+    "it": "Ingegnere",
+    "tr": "Mühendis"
   },
   {
     "code": "civil_engineer",
@@ -1596,7 +2084,11 @@
     "es": "Ingeniero civil",
     "he": "מהנדס אזרחי",
     "ko": "토목 엔지니어",
-    "zh": "土木工程师"
+    "zh": "土木工程师",
+    "fr": "Ingénieur civil",
+    "de": "Bauingenieur",
+    "it": "Ingegnere civile",
+    "tr": "İnşaat mühendisi"
   },
   {
     "code": "project_engineer",
@@ -1609,7 +2101,11 @@
     "es": "Ingeniero de proyectos",
     "he": "מהנדס פרויקטים",
     "ko": "프로젝트 엔지니어",
-    "zh": "项目工程师"
+    "zh": "项目工程师",
+    "fr": "Ingénieur projet",
+    "de": "Projektingenieur",
+    "it": "Ingegnere di progetto",
+    "tr": "Proje mühendisi"
   },
   {
     "code": "planning_engineer",
@@ -1622,7 +2118,11 @@
     "es": "Ingeniero de planificación",
     "he": "מהנדס תכנון",
     "ko": "공정 계획 엔지니어",
-    "zh": "计划工程师"
+    "zh": "计划工程师",
+    "fr": "Ingénieur planification",
+    "de": "Planungsingenieur",
+    "it": "Ingegnere di pianificazione",
+    "tr": "Planlama mühendisi"
   },
   {
     "code": "maintenance_engineer",
@@ -1635,7 +2135,11 @@
     "es": "Ingeniero de mantenimiento",
     "he": "מהנדס תחזוקה",
     "ko": "설비 유지보수 엔지니어",
-    "zh": "维修工程师"
+    "zh": "维修工程师",
+    "fr": "Ingénieur maintenance",
+    "de": "Wartungsingenieur",
+    "it": "Ingegnere di manutenzione",
+    "tr": "Bakım mühendisi"
   },
   {
     "code": "mechanical_engineer",
@@ -1648,7 +2152,11 @@
     "es": "Ingeniero mecánico",
     "he": "מהנדס מכונות",
     "ko": "기계 엔지니어",
-    "zh": "机械工程师"
+    "zh": "机械工程师",
+    "fr": "Ingénieur mécanique",
+    "de": "Maschinenbauingenieur",
+    "it": "Ingegnere meccanico",
+    "tr": "Makine mühendisi"
   },
   {
     "code": "electrical_engineer",
@@ -1661,7 +2169,11 @@
     "es": "Ingeniero eléctrico",
     "he": "מהנדס חשמל",
     "ko": "전기 엔지니어",
-    "zh": "电气工程师"
+    "zh": "电气工程师",
+    "fr": "Ingénieur électrique",
+    "de": "Elektroingenieur",
+    "it": "Ingegnere elettrico",
+    "tr": "Elektrik mühendisi"
   },
   {
     "code": "instrumentation_engineer",
@@ -1674,7 +2186,11 @@
     "es": "Ingeniero de instrumentación",
     "he": "מהנדס מכשור",
     "ko": "계측 엔지니어",
-    "zh": "仪表工程师"
+    "zh": "仪表工程师",
+    "fr": "Ingénieur instrumentation",
+    "de": "Messtechnikingenieur",
+    "it": "Ingegnere strumentista",
+    "tr": "Enstrümantasyon mühendisi"
   },
   {
     "code": "architect",
@@ -1687,7 +2203,11 @@
     "es": "Arquitecto",
     "he": "אדריכל",
     "ko": "건축가",
-    "zh": "建筑师"
+    "zh": "建筑师",
+    "fr": "Architecte",
+    "de": "Architekt",
+    "it": "Architetto",
+    "tr": "Mimar"
   },
   {
     "code": "quantity_surveyor",
@@ -1700,7 +2220,11 @@
     "es": "Aparejador",
     "he": "שמאי כמויות",
     "ko": "견적 담당자",
-    "zh": "工程造价师"
+    "zh": "工程造价师",
+    "fr": "Économiste de la construction",
+    "de": "Baukalkulator",
+    "it": "Computista",
+    "tr": "Metraj uzmanı"
   },
   {
     "code": "site_manager",
@@ -1713,7 +2237,11 @@
     "es": "Jefe de obra",
     "he": "מנהל אתר בנייה",
     "ko": "현장 관리자",
-    "zh": "工地负责人"
+    "zh": "工地负责人",
+    "fr": "Chef de chantier",
+    "de": "Bauleiter",
+    "it": "Capo cantiere",
+    "tr": "Şantiye şefi"
   },
   {
     "code": "foreman",
@@ -1726,7 +2254,11 @@
     "es": "Encargado de obra",
     "he": "מנהל עבודה",
     "ko": "현장 감독",
-    "zh": "施工工长"
+    "zh": "施工工长",
+    "fr": "Contremaître",
+    "de": "Vorarbeiter",
+    "it": "Caposquadra",
+    "tr": "Usta"
   },
   {
     "code": "land_surveyor",
@@ -1739,7 +2271,11 @@
     "es": "Topógrafo",
     "he": "מודד",
     "ko": "측량사",
-    "zh": "测量员"
+    "zh": "测量员",
+    "fr": "Géomètre",
+    "de": "Landmesser",
+    "it": "Geometra",
+    "tr": "Harita mühendisi"
   },
   {
     "code": "hse_specialist",
@@ -1752,7 +2288,11 @@
     "es": "Especialista en seguridad laboral",
     "he": "מומחה בטיחות בעבודה",
     "ko": "HSE 전문가",
-    "zh": "安全环保专员"
+    "zh": "安全环保专员",
+    "fr": "Spécialiste HSE",
+    "de": "HSE-Spezialist",
+    "it": "Specialista HSE",
+    "tr": "İSG uzmanı"
   },
   {
     "code": "quality_control_specialist",
@@ -1765,7 +2305,11 @@
     "es": "Especialista en control de calidad",
     "he": "מומחה בקרת איכות",
     "ko": "품질 관리 전문가",
-    "zh": "质量控制专员"
+    "zh": "质量控制专员",
+    "fr": "Spécialiste contrôle qualité",
+    "de": "Qualitätskontrollspezialist",
+    "it": "Specialista controllo qualità",
+    "tr": "Kalite kontrol uzmanı"
   },
   {
     "code": "technician",
@@ -1778,7 +2322,11 @@
     "es": "Técnico",
     "he": "טכנאי",
     "ko": "기술자",
-    "zh": "技术员"
+    "zh": "技术员",
+    "fr": "Technicien",
+    "de": "Techniker",
+    "it": "Tecnico",
+    "tr": "Teknisyen"
   },
   {
     "code": "technologist",
@@ -1791,7 +2339,11 @@
     "es": "Tecnólogo",
     "he": "טכנולוג",
     "ko": "생산 기술자",
-    "zh": "工艺师"
+    "zh": "工艺师",
+    "fr": "Technologue",
+    "de": "Technologe",
+    "it": "Tecnologo",
+    "tr": "Teknolog"
   },
   {
     "code": "mechanic",
@@ -1804,7 +2356,11 @@
     "es": "Mecánico",
     "he": "מכונאי",
     "ko": "정비공",
-    "zh": "机修工"
+    "zh": "机修工",
+    "fr": "Mécanicien",
+    "de": "Mechaniker",
+    "it": "Meccanico",
+    "tr": "Makinist teknisyeni"
   },
   {
     "code": "electrician",
@@ -1817,7 +2373,11 @@
     "es": "Electricista",
     "he": "חשמלאי",
     "ko": "전기 기술자",
-    "zh": "电工"
+    "zh": "电工",
+    "fr": "Électricien",
+    "de": "Elektriker",
+    "it": "Elettricista",
+    "tr": "Elektrikçi"
   },
   {
     "code": "welder",
@@ -1830,7 +2390,11 @@
     "es": "Soldador",
     "he": "מסגר מרתך",
     "ko": "용접공",
-    "zh": "焊工"
+    "zh": "焊工",
+    "fr": "Soudeur",
+    "de": "Schweißer",
+    "it": "Saldatore",
+    "tr": "Kaynakçı"
   },
   {
     "code": "plumber",
@@ -1843,7 +2407,11 @@
     "es": "Fontanero",
     "he": "שרברב",
     "ko": "배관공",
-    "zh": "管道工"
+    "zh": "管道工",
+    "fr": "Plombier",
+    "de": "Installateur",
+    "it": "Idraulico",
+    "tr": "Tesisatçı"
   },
   {
     "code": "carpenter",
@@ -1856,7 +2424,11 @@
     "es": "Carpintero",
     "he": "נגר",
     "ko": "목공",
-    "zh": "木工"
+    "zh": "木工",
+    "fr": "Menuisier",
+    "de": "Schreiner",
+    "it": "Falegname",
+    "tr": "Marangoz"
   },
   {
     "code": "mason",
@@ -1869,7 +2441,11 @@
     "es": "Albañil",
     "he": "בנאי",
     "ko": "조적공",
-    "zh": "砌筑工"
+    "zh": "砌筑工",
+    "fr": "Maçon",
+    "de": "Maurer",
+    "it": "Muratore",
+    "tr": "Duvarcı"
   },
   {
     "code": "plasterer",
@@ -1882,7 +2458,11 @@
     "es": "Yesero",
     "he": "טייח",
     "ko": "미장공",
-    "zh": "抹灰工"
+    "zh": "抹灰工",
+    "fr": "Plâtrier",
+    "de": "Verputzer",
+    "it": "Intonacatore",
+    "tr": "Sıvacı"
   },
   {
     "code": "painter_decorator",
@@ -1895,7 +2475,11 @@
     "es": "Pintor decorador",
     "he": "צבע",
     "ko": "도장공",
-    "zh": "油漆装饰工"
+    "zh": "油漆装饰工",
+    "fr": "Peintre en bâtiment",
+    "de": "Maler und Lackierer",
+    "it": "Imbianchino",
+    "tr": "Boyacı"
   },
   {
     "code": "concrete_worker",
@@ -1908,7 +2492,11 @@
     "es": "Operario de hormigón",
     "he": "פועל בטון",
     "ko": "콘크리트공",
-    "zh": "混凝土工"
+    "zh": "混凝土工",
+    "fr": "Coffreur-bancheur",
+    "de": "Betonbauer",
+    "it": "Addetto al calcestruzzo",
+    "tr": "Betoncu"
   },
   {
     "code": "locksmith",
@@ -1921,7 +2509,11 @@
     "es": "Cerrajero",
     "he": "מסגר",
     "ko": "자물쇠공",
-    "zh": "锁具修配工"
+    "zh": "锁具修配工",
+    "fr": "Serrurier",
+    "de": "Schlosser",
+    "it": "Fabbro",
+    "tr": "Çilingir"
   },
   {
     "code": "turner",
@@ -1934,7 +2526,11 @@
     "es": "Tornero",
     "he": "חרט",
     "ko": "선반공",
-    "zh": "车工"
+    "zh": "车工",
+    "fr": "Tourneur",
+    "de": "Dreher",
+    "it": "Tornitore",
+    "tr": "Tornacı"
   },
   {
     "code": "crane_operator",
@@ -1947,7 +2543,11 @@
     "es": "Gruista",
     "he": "מפעיל עגורן",
     "ko": "크레인 기사",
-    "zh": "起重机操作员"
+    "zh": "起重机操作员",
+    "fr": "Grutier",
+    "de": "Kranführer",
+    "it": "Gruista",
+    "tr": "Vinç operatörü"
   },
   {
     "code": "excavator_operator",
@@ -1960,7 +2560,11 @@
     "es": "Operador de excavadora",
     "he": "מפעיל מחפרון",
     "ko": "굴착기 기사",
-    "zh": "挖掘机操作员"
+    "zh": "挖掘机操作员",
+    "fr": "Conducteur de pelle",
+    "de": "Baggerfahrer",
+    "it": "Escavatorista",
+    "tr": "Ekskavatör operatörü"
   },
   {
     "code": "machine_operator",
@@ -1973,7 +2577,11 @@
     "es": "Operador de máquina",
     "he": "מפעיל מכונה",
     "ko": "기계 조작원",
-    "zh": "机床操作员"
+    "zh": "机床操作员",
+    "fr": "Opérateur de machine",
+    "de": "Maschinenbediener",
+    "it": "Operatore di macchina",
+    "tr": "Makine operatörü"
   },
   {
     "code": "production_operator",
@@ -1986,7 +2594,11 @@
     "es": "Operario de producción",
     "he": "עובד ייצור",
     "ko": "생산 조작원",
-    "zh": "生产操作员"
+    "zh": "生产操作员",
+    "fr": "Opérateur de production",
+    "de": "Produktionsmitarbeiter",
+    "it": "Operatore di produzione",
+    "tr": "Üretim operatörü"
   },
   {
     "code": "operator",
@@ -1999,7 +2611,11 @@
     "es": "Operador",
     "he": "מפעיל",
     "ko": "오퍼레이터",
-    "zh": "操作员"
+    "zh": "操作员",
+    "fr": "Opérateur",
+    "de": "Operator",
+    "it": "Operatore",
+    "tr": "Operatör"
   },
   {
     "code": "laboratory_assistant",
@@ -2012,7 +2628,11 @@
     "es": "Auxiliar de laboratorio",
     "he": "לבורנט",
     "ko": "실험실 보조원",
-    "zh": "化验员"
+    "zh": "化验员",
+    "fr": "Technicien de laboratoire",
+    "de": "Laborant",
+    "it": "Tecnico di laboratorio",
+    "tr": "Laborant"
   },
   {
     "code": "worker",
@@ -2025,7 +2645,11 @@
     "es": "Obrero",
     "he": "פועל",
     "ko": "근로자",
-    "zh": "工人"
+    "zh": "工人",
+    "fr": "Ouvrier",
+    "de": "Arbeiter",
+    "it": "Operaio",
+    "tr": "İşçi"
   },
   {
     "code": "petroleum_engineer",
@@ -2038,7 +2662,11 @@
     "es": "Ingeniero de petróleo",
     "he": "מהנדס נפט",
     "ko": "석유 엔지니어",
-    "zh": "石油工程师"
+    "zh": "石油工程师",
+    "fr": "Ingénieur pétrolier",
+    "de": "Erdölingenieur",
+    "it": "Ingegnere petrolifero",
+    "tr": "Petrol mühendisi"
   },
   {
     "code": "drilling_engineer",
@@ -2051,7 +2679,11 @@
     "es": "Ingeniero de perforación",
     "he": "מהנדס קידוחים",
     "ko": "시추 엔지니어",
-    "zh": "钻井工程师"
+    "zh": "钻井工程师",
+    "fr": "Ingénieur forage",
+    "de": "Bohringenieur",
+    "it": "Ingegnere di perforazione",
+    "tr": "Sondaj mühendisi"
   },
   {
     "code": "process_engineer",
@@ -2064,7 +2696,11 @@
     "es": "Ingeniero de procesos",
     "he": "מהנדס תהליכים",
     "ko": "공정 엔지니어",
-    "zh": "工艺工程师"
+    "zh": "工艺工程师",
+    "fr": "Ingénieur procédés",
+    "de": "Verfahrensingenieur",
+    "it": "Ingegnere di processo",
+    "tr": "Süreç mühendisi"
   },
   {
     "code": "energy_engineer",
@@ -2077,7 +2713,11 @@
     "es": "Ingeniero energético",
     "he": "מהנדס אנרגיה",
     "ko": "에너지 엔지니어",
-    "zh": "能源工程师"
+    "zh": "能源工程师",
+    "fr": "Ingénieur énergie",
+    "de": "Energieingenieur",
+    "it": "Ingegnere energetico",
+    "tr": "Enerji mühendisi"
   },
   {
     "code": "geologist",
@@ -2090,7 +2730,11 @@
     "es": "Geólogo",
     "he": "גיאולוג",
     "ko": "지질학자",
-    "zh": "地质工程师"
+    "zh": "地质工程师",
+    "fr": "Géologue",
+    "de": "Geologe",
+    "it": "Geologo",
+    "tr": "Jeolog"
   },
   {
     "code": "geophysicist",
@@ -2103,7 +2747,11 @@
     "es": "Geofísico",
     "he": "גיאופיזיקאי",
     "ko": "지구물리학자",
-    "zh": "地球物理工程师"
+    "zh": "地球物理工程师",
+    "fr": "Géophysicien",
+    "de": "Geophysiker",
+    "it": "Geofisico",
+    "tr": "Jeofizikçi"
   },
   {
     "code": "driver",
@@ -2116,7 +2764,11 @@
     "es": "Conductor",
     "he": "נהג",
     "ko": "운전기사",
-    "zh": "司机"
+    "zh": "司机",
+    "fr": "Chauffeur",
+    "de": "Fahrer",
+    "it": "Autista",
+    "tr": "Şoför"
   },
   {
     "code": "truck_driver",
@@ -2129,7 +2781,11 @@
     "es": "Camionero",
     "he": "נהג משאית",
     "ko": "트럭 기사",
-    "zh": "货车司机"
+    "zh": "货车司机",
+    "fr": "Chauffeur de camion",
+    "de": "LKW-Fahrer",
+    "it": "Camionista",
+    "tr": "Kamyon şoförü"
   },
   {
     "code": "courier",
@@ -2142,7 +2798,11 @@
     "es": "Mensajero",
     "he": "שליח",
     "ko": "배송원",
-    "zh": "快递员"
+    "zh": "快递员",
+    "fr": "Coursier",
+    "de": "Kurier",
+    "it": "Corriere",
+    "tr": "Kurye"
   },
   {
     "code": "logistics_manager",
@@ -2155,7 +2815,11 @@
     "es": "Director de logística",
     "he": "מנהל לוגיסטיקה",
     "ko": "물류 관리자",
-    "zh": "物流经理"
+    "zh": "物流经理",
+    "fr": "Responsable logistique",
+    "de": "Logistikleiter",
+    "it": "Responsabile logistica",
+    "tr": "Lojistik yöneticisi"
   },
   {
     "code": "logistics_specialist",
@@ -2168,7 +2832,11 @@
     "es": "Especialista en logística",
     "he": "מומחה לוגיסטיקה",
     "ko": "물류 전문가",
-    "zh": "物流专员"
+    "zh": "物流专员",
+    "fr": "Spécialiste logistique",
+    "de": "Logistikspezialist",
+    "it": "Specialista di logistica",
+    "tr": "Lojistik uzmanı"
   },
   {
     "code": "warehouse_manager",
@@ -2181,7 +2849,11 @@
     "es": "Jefe de almacén",
     "he": "מנהל מחסן",
     "ko": "창고 관리자",
-    "zh": "仓库主管"
+    "zh": "仓库主管",
+    "fr": "Responsable d'entrepôt",
+    "de": "Lagerleiter",
+    "it": "Responsabile di magazzino",
+    "tr": "Depo müdürü"
   },
   {
     "code": "storekeeper",
@@ -2194,7 +2866,11 @@
     "es": "Almacenero",
     "he": "מחסנאי",
     "ko": "자재 관리원",
-    "zh": "库管员"
+    "zh": "库管员",
+    "fr": "Magasinier",
+    "de": "Lagerverwalter",
+    "it": "Magazziniere",
+    "tr": "Ambar görevlisi"
   },
   {
     "code": "freight_forwarder",
@@ -2207,7 +2883,11 @@
     "es": "Transitario",
     "he": "עמיל שילוח",
     "ko": "국제 운송 주선인",
-    "zh": "货运代理"
+    "zh": "货运代理",
+    "fr": "Transitaire",
+    "de": "Spediteur",
+    "it": "Spedizioniere",
+    "tr": "Nakliye uzmanı"
   },
   {
     "code": "dispatcher",
@@ -2220,7 +2900,11 @@
     "es": "Despachador",
     "he": "סדרן",
     "ko": "배차 담당자",
-    "zh": "调度员"
+    "zh": "调度员",
+    "fr": "Répartiteur",
+    "de": "Disponent",
+    "it": "Dispatcher",
+    "tr": "Sevkiyat görevlisi"
   },
   {
     "code": "train_driver",
@@ -2233,7 +2917,11 @@
     "es": "Maquinista",
     "he": "נהג רכבת",
     "ko": "기관사",
-    "zh": "火车司机"
+    "zh": "火车司机",
+    "fr": "Conducteur de train",
+    "de": "Lokführer",
+    "it": "Macchinista",
+    "tr": "Tren makinisti"
   },
   {
     "code": "pilot",
@@ -2246,7 +2934,11 @@
     "es": "Piloto",
     "he": "טייס",
     "ko": "조종사",
-    "zh": "飞行员"
+    "zh": "飞行员",
+    "fr": "Pilote",
+    "de": "Pilot",
+    "it": "Pilota",
+    "tr": "Pilot"
   },
   {
     "code": "flight_attendant",
@@ -2259,7 +2951,11 @@
     "es": "Auxiliar de vuelo",
     "he": "דייל",
     "ko": "승무원",
-    "zh": "空中乘务员"
+    "zh": "空中乘务员",
+    "fr": "Hôtesse de l'air",
+    "de": "Flugbegleiter",
+    "it": "Assistente di volo",
+    "tr": "Kabin görevlisi"
   },
   {
     "code": "ship_captain",
@@ -2272,7 +2968,11 @@
     "es": "Capitán de barco",
     "he": "רב חובל",
     "ko": "선장",
-    "zh": "船长"
+    "zh": "船长",
+    "fr": "Capitaine de navire",
+    "de": "Schiffskapitän",
+    "it": "Capitano di nave",
+    "tr": "Gemi kaptanı"
   },
   {
     "code": "sailor",
@@ -2285,7 +2985,11 @@
     "es": "Marinero",
     "he": "מלח",
     "ko": "선원",
-    "zh": "水手"
+    "zh": "水手",
+    "fr": "Marin",
+    "de": "Seemann",
+    "it": "Marinaio",
+    "tr": "Denizci"
   },
   {
     "code": "loader",
@@ -2298,7 +3002,11 @@
     "es": "Mozo de carga",
     "he": "סוור",
     "ko": "하역원",
-    "zh": "装卸工"
+    "zh": "装卸工",
+    "fr": "Manutentionnaire",
+    "de": "Lader",
+    "it": "Addetto al carico",
+    "tr": "Yükleyici"
   },
   {
     "code": "postman",
@@ -2311,7 +3019,11 @@
     "es": "Cartero",
     "he": "דוור",
     "ko": "우편 집배원",
-    "zh": "邮递员"
+    "zh": "邮递员",
+    "fr": "Facteur",
+    "de": "Postbote",
+    "it": "Postino",
+    "tr": "Postacı"
   },
   {
     "code": "doctor",
@@ -2324,7 +3036,11 @@
     "es": "Médico",
     "he": "רופא",
     "ko": "의사",
-    "zh": "医师"
+    "zh": "医师",
+    "fr": "Médecin",
+    "de": "Arzt",
+    "it": "Medico",
+    "tr": "Doktor"
   },
   {
     "code": "surgeon",
@@ -2337,7 +3053,11 @@
     "es": "Cirujano",
     "he": "מנתח",
     "ko": "외과 의사",
-    "zh": "外科医生"
+    "zh": "外科医生",
+    "fr": "Chirurgien",
+    "de": "Chirurg",
+    "it": "Chirurgo",
+    "tr": "Cerrah"
   },
   {
     "code": "pediatrician",
@@ -2350,7 +3070,11 @@
     "es": "Pediatra",
     "he": "רופא ילדים",
     "ko": "소아과 의사",
-    "zh": "儿科医生"
+    "zh": "儿科医生",
+    "fr": "Pédiatre",
+    "de": "Kinderarzt",
+    "it": "Pediatra",
+    "tr": "Çocuk doktoru"
   },
   {
     "code": "internist",
@@ -2363,7 +3087,11 @@
     "es": "Internista",
     "he": "רופא פנימי",
     "ko": "내과 의사",
-    "zh": "内科医生"
+    "zh": "内科医生",
+    "fr": "Interniste",
+    "de": "Internist",
+    "it": "Internista",
+    "tr": "Dahiliye uzmanı"
   },
   {
     "code": "dentist",
@@ -2376,7 +3104,11 @@
     "es": "Dentista",
     "he": "רופא שיניים",
     "ko": "치과 의사",
-    "zh": "牙医"
+    "zh": "牙医",
+    "fr": "Dentiste",
+    "de": "Zahnarzt",
+    "it": "Dentista",
+    "tr": "Diş hekimi"
   },
   {
     "code": "nurse",
@@ -2389,7 +3121,11 @@
     "es": "Enfermero",
     "he": "אח/אחות",
     "ko": "간호사",
-    "zh": "护士"
+    "zh": "护士",
+    "fr": "Infirmier",
+    "de": "Krankenpfleger",
+    "it": "Infermiere",
+    "tr": "Hemşire"
   },
   {
     "code": "paramedic",
@@ -2402,7 +3138,11 @@
     "es": "Técnico sanitario",
     "he": "פרמדיק",
     "ko": "응급구조사",
-    "zh": "急救医士"
+    "zh": "急救医士",
+    "fr": "Ambulancier",
+    "de": "Rettungsassistent",
+    "it": "Soccorritore",
+    "tr": "Sağlık teknikeri"
   },
   {
     "code": "midwife",
@@ -2415,7 +3155,11 @@
     "es": "Matrona",
     "he": "מיילדת",
     "ko": "조산사",
-    "zh": "助产士"
+    "zh": "助产士",
+    "fr": "Sage-femme",
+    "de": "Hebamme",
+    "it": "Ostetrica",
+    "tr": "Ebe"
   },
   {
     "code": "orderly",
@@ -2428,7 +3172,11 @@
     "es": "Celador",
     "he": "סניטר",
     "ko": "병동 보조원",
-    "zh": "护理员"
+    "zh": "护理员",
+    "fr": "Aide-soignant",
+    "de": "Pflegehelfer",
+    "it": "Ausiliario sanitario",
+    "tr": "Hastabakıcı"
   },
   {
     "code": "pharmacist",
@@ -2441,7 +3189,11 @@
     "es": "Farmacéutico",
     "he": "רוקח",
     "ko": "약사",
-    "zh": "药师"
+    "zh": "药师",
+    "fr": "Pharmacien",
+    "de": "Apotheker",
+    "it": "Farmacista",
+    "tr": "Eczacı"
   },
   {
     "code": "psychologist",
@@ -2454,7 +3206,11 @@
     "es": "Psicólogo",
     "he": "פסיכולוג",
     "ko": "심리 상담사",
-    "zh": "心理学家"
+    "zh": "心理学家",
+    "fr": "Psychologue",
+    "de": "Psychologe",
+    "it": "Psicologo",
+    "tr": "Psikolog"
   },
   {
     "code": "speech_therapist",
@@ -2467,7 +3223,11 @@
     "es": "Logopeda",
     "he": "קלינאי תקשורת",
     "ko": "언어 치료사",
-    "zh": "言语治疗师"
+    "zh": "言语治疗师",
+    "fr": "Orthophoniste",
+    "de": "Logopäde",
+    "it": "Logopedista",
+    "tr": "Dil ve konuşma terapisti"
   },
   {
     "code": "massage_therapist",
@@ -2480,7 +3240,11 @@
     "es": "Masajista",
     "he": "מעסה",
     "ko": "마사지 치료사",
-    "zh": "推拿按摩师"
+    "zh": "推拿按摩师",
+    "fr": "Masseur",
+    "de": "Masseur",
+    "it": "Massaggiatore",
+    "tr": "Masör"
   },
   {
     "code": "veterinarian",
@@ -2493,7 +3257,11 @@
     "es": "Veterinario",
     "he": "וטרינר",
     "ko": "수의사",
-    "zh": "兽医"
+    "zh": "兽医",
+    "fr": "Vétérinaire",
+    "de": "Tierarzt",
+    "it": "Veterinario",
+    "tr": "Veteriner"
   },
   {
     "code": "medical_representative",
@@ -2506,7 +3274,11 @@
     "es": "Visitador médico",
     "he": "נציג רפואי",
     "ko": "의약 영업 담당자",
-    "zh": "医药代表"
+    "zh": "医药代表",
+    "fr": "Délégué médical",
+    "de": "Pharmareferent",
+    "it": "Informatore medico",
+    "tr": "Tıbbi tanıtım temsilcisi"
   },
   {
     "code": "teacher",
@@ -2519,7 +3291,11 @@
     "es": "Profesor",
     "he": "מורה",
     "ko": "교사",
-    "zh": "教师"
+    "zh": "教师",
+    "fr": "Enseignant",
+    "de": "Lehrer",
+    "it": "Insegnante",
+    "tr": "Öğretmen"
   },
   {
     "code": "primary_teacher",
@@ -2532,7 +3308,11 @@
     "es": "Maestro de primaria",
     "he": "מורה לבית ספר יסודי",
     "ko": "초등학교 교사",
-    "zh": "小学教师"
+    "zh": "小学教师",
+    "fr": "Professeur des écoles",
+    "de": "Grundschullehrer",
+    "it": "Maestro di scuola primaria",
+    "tr": "Sınıf öğretmeni"
   },
   {
     "code": "kindergarten_teacher",
@@ -2545,7 +3325,11 @@
     "es": "Educador infantil",
     "he": "גננת",
     "ko": "유치원 교사",
-    "zh": "幼儿教师"
+    "zh": "幼儿教师",
+    "fr": "Éducateur de jeunes enfants",
+    "de": "Erzieher",
+    "it": "Educatore d'infanzia",
+    "tr": "Anaokulu öğretmeni"
   },
   {
     "code": "senior_lecturer",
@@ -2558,7 +3342,11 @@
     "es": "Profesor adjunto",
     "he": "מרצה בכיר",
     "ko": "선임 강사",
-    "zh": "高级讲师"
+    "zh": "高级讲师",
+    "fr": "Maître de conférences",
+    "de": "Oberlehrer",
+    "it": "Docente senior",
+    "tr": "Baş öğretmen"
   },
   {
     "code": "associate_professor",
@@ -2571,7 +3359,11 @@
     "es": "Profesor titular",
     "he": "פרופסור חבר",
     "ko": "부교수",
-    "zh": "副教授"
+    "zh": "副教授",
+    "fr": "Professeur associé",
+    "de": "Dozent",
+    "it": "Professore associato",
+    "tr": "Doçent"
   },
   {
     "code": "professor",
@@ -2584,7 +3376,11 @@
     "es": "Catedrático",
     "he": "פרופסור",
     "ko": "교수",
-    "zh": "教授"
+    "zh": "教授",
+    "fr": "Professeur",
+    "de": "Professor",
+    "it": "Professore",
+    "tr": "Profesör"
   },
   {
     "code": "school_principal",
@@ -2597,7 +3393,11 @@
     "es": "Director de escuela",
     "he": "מנהל בית ספר",
     "ko": "학교장",
-    "zh": "校长"
+    "zh": "校长",
+    "fr": "Directeur d'école",
+    "de": "Schulleiter",
+    "it": "Dirigente scolastico",
+    "tr": "Okul müdürü"
   },
   {
     "code": "methodologist",
@@ -2610,7 +3410,11 @@
     "es": "Metodólogo",
     "he": "מדריך פדגוגי",
     "ko": "교육 과정 전문가",
-    "zh": "教研员"
+    "zh": "教研员",
+    "fr": "Méthodologiste",
+    "de": "Methodiker",
+    "it": "Metodologo",
+    "tr": "Metodolog"
   },
   {
     "code": "private_tutor",
@@ -2623,7 +3427,11 @@
     "es": "Profesor particular",
     "he": "מורה פרטי",
     "ko": "개인 교습 강사",
-    "zh": "家庭教师"
+    "zh": "家庭教师",
+    "fr": "Professeur particulier",
+    "de": "Nachhilfelehrer",
+    "it": "Insegnante privato",
+    "tr": "Özel öğretmen"
   },
   {
     "code": "librarian",
@@ -2636,7 +3444,11 @@
     "es": "Bibliotecario",
     "he": "ספרן",
     "ko": "사서",
-    "zh": "图书馆员"
+    "zh": "图书馆员",
+    "fr": "Bibliothécaire",
+    "de": "Bibliothekar",
+    "it": "Bibliotecario",
+    "tr": "Kütüphaneci"
   },
   {
     "code": "researcher",
@@ -2649,7 +3461,11 @@
     "es": "Investigador",
     "he": "חוקר",
     "ko": "연구원",
-    "zh": "研究员"
+    "zh": "研究员",
+    "fr": "Chercheur",
+    "de": "Wissenschaftlicher Mitarbeiter",
+    "it": "Ricercatore",
+    "tr": "Araştırmacı"
   },
   {
     "code": "sports_coach",
@@ -2662,7 +3478,11 @@
     "es": "Entrenador deportivo",
     "he": "מאמן ספורט",
     "ko": "스포츠 코치",
-    "zh": "体育教练"
+    "zh": "体育教练",
+    "fr": "Entraîneur sportif",
+    "de": "Sporttrainer",
+    "it": "Allenatore sportivo",
+    "tr": "Spor antrenörü"
   },
   {
     "code": "fitness_instructor",
@@ -2675,7 +3495,11 @@
     "es": "Instructor de fitness",
     "he": "מדריך כושר",
     "ko": "피트니스 강사",
-    "zh": "健身教练"
+    "zh": "健身教练",
+    "fr": "Coach de fitness",
+    "de": "Fitnesstrainer",
+    "it": "Istruttore di fitness",
+    "tr": "Fitness eğitmeni"
   },
   {
     "code": "social_worker",
@@ -2688,7 +3512,11 @@
     "es": "Trabajador social",
     "he": "עובד סוציאלי",
     "ko": "사회복지사",
-    "zh": "社会工作者"
+    "zh": "社会工作者",
+    "fr": "Travailleur social",
+    "de": "Sozialarbeiter",
+    "it": "Assistente sociale",
+    "tr": "Sosyal hizmet uzmanı"
   },
   {
     "code": "statistician",
@@ -2701,7 +3529,11 @@
     "es": "Estadístico",
     "he": "סטטיסטיקאי",
     "ko": "통계 전문가",
-    "zh": "统计师"
+    "zh": "统计师",
+    "fr": "Statisticien",
+    "de": "Statistiker",
+    "it": "Statistico",
+    "tr": "İstatistikçi"
   },
   {
     "code": "sociologist",
@@ -2714,7 +3546,11 @@
     "es": "Sociólogo",
     "he": "סוציולוג",
     "ko": "사회학자",
-    "zh": "社会学家"
+    "zh": "社会学家",
+    "fr": "Sociologue",
+    "de": "Soziologe",
+    "it": "Sociologo",
+    "tr": "Sosyolog"
   },
   {
     "code": "ecologist",
@@ -2727,7 +3563,11 @@
     "es": "Ecólogo",
     "he": "אקולוג",
     "ko": "환경 전문가",
-    "zh": "生态学家"
+    "zh": "生态学家",
+    "fr": "Écologue",
+    "de": "Ökologe",
+    "it": "Ecologo",
+    "tr": "Ekolog"
   },
   {
     "code": "chemist",
@@ -2740,7 +3580,11 @@
     "es": "Químico",
     "he": "כימאי",
     "ko": "화학자",
-    "zh": "化学工作者"
+    "zh": "化学工作者",
+    "fr": "Chimiste",
+    "de": "Chemiker",
+    "it": "Chimico",
+    "tr": "Kimyager"
   },
   {
     "code": "cook",
@@ -2753,7 +3597,11 @@
     "es": "Cocinero",
     "he": "טבח",
     "ko": "요리사",
-    "zh": "厨师"
+    "zh": "厨师",
+    "fr": "Cuisinier",
+    "de": "Koch",
+    "it": "Cuoco",
+    "tr": "Aşçı"
   },
   {
     "code": "head_chef",
@@ -2766,7 +3614,11 @@
     "es": "Jefe de cocina",
     "he": "שף ראשי",
     "ko": "총괄 셰프",
-    "zh": "厨师长"
+    "zh": "厨师长",
+    "fr": "Chef de cuisine",
+    "de": "Küchenchef",
+    "it": "Chef di cucina",
+    "tr": "Aşçıbaşı"
   },
   {
     "code": "kitchen_assistant",
@@ -2779,7 +3631,11 @@
     "es": "Ayudante de cocina",
     "he": "עוזר טבח",
     "ko": "주방 보조",
-    "zh": "厨房助手"
+    "zh": "厨房助手",
+    "fr": "Aide de cuisine",
+    "de": "Küchenhilfe",
+    "it": "Aiuto cuoco",
+    "tr": "Aşçı yardımcısı"
   },
   {
     "code": "waiter",
@@ -2792,7 +3648,11 @@
     "es": "Camarero",
     "he": "מלצר",
     "ko": "웨이터",
-    "zh": "服务员"
+    "zh": "服务员",
+    "fr": "Serveur",
+    "de": "Kellner",
+    "it": "Cameriere",
+    "tr": "Garson"
   },
   {
     "code": "barista",
@@ -2805,7 +3665,11 @@
     "es": "Barista",
     "he": "בריסטה",
     "ko": "바리스타",
-    "zh": "咖啡师"
+    "zh": "咖啡师",
+    "fr": "Barista",
+    "de": "Barista",
+    "it": "Barista",
+    "tr": "Barista"
   },
   {
     "code": "bartender",
@@ -2818,7 +3682,11 @@
     "es": "Barman",
     "he": "ברמן",
     "ko": "바텐더",
-    "zh": "调酒师"
+    "zh": "调酒师",
+    "fr": "Barman",
+    "de": "Barkeeper",
+    "it": "Barman",
+    "tr": "Barmen"
   },
   {
     "code": "confectioner",
@@ -2831,7 +3699,11 @@
     "es": "Pastelero",
     "he": "קונדיטור",
     "ko": "제과사",
-    "zh": "糕点师"
+    "zh": "糕点师",
+    "fr": "Pâtissier",
+    "de": "Konditor",
+    "it": "Pasticciere",
+    "tr": "Pastacı"
   },
   {
     "code": "baker",
@@ -2844,7 +3716,11 @@
     "es": "Panadero",
     "he": "אופה",
     "ko": "제빵사",
-    "zh": "面包师"
+    "zh": "面包师",
+    "fr": "Boulanger",
+    "de": "Bäcker",
+    "it": "Panettiere",
+    "tr": "Fırıncı"
   },
   {
     "code": "butcher",
@@ -2857,7 +3733,11 @@
     "es": "Carnicero",
     "he": "קצב",
     "ko": "정육원",
-    "zh": "屠宰分割工"
+    "zh": "屠宰分割工",
+    "fr": "Boucher",
+    "de": "Metzger",
+    "it": "Macellaio",
+    "tr": "Kasap"
   },
   {
     "code": "restaurant_manager",
@@ -2870,7 +3750,11 @@
     "es": "Encargado de restaurante",
     "he": "מנהל מסעדה",
     "ko": "레스토랑 관리자",
-    "zh": "餐厅经理"
+    "zh": "餐厅经理",
+    "fr": "Directeur de restaurant",
+    "de": "Restaurantleiter",
+    "it": "Direttore di ristorante",
+    "tr": "Restoran müdürü"
   },
   {
     "code": "hotel_receptionist",
@@ -2883,7 +3767,11 @@
     "es": "Recepcionista de hotel",
     "he": "פקיד קבלה במלון",
     "ko": "호텔 프런트 직원",
-    "zh": "酒店前台"
+    "zh": "酒店前台",
+    "fr": "Réceptionniste d'hôtel",
+    "de": "Hotelrezeptionist",
+    "it": "Receptionist d'albergo",
+    "tr": "Otel resepsiyonisti"
   },
   {
     "code": "housekeeper",
@@ -2896,7 +3784,11 @@
     "es": "Personal de pisos",
     "he": "עובד ניקיון חדרים",
     "ko": "객실 정비원",
-    "zh": "客房服务员"
+    "zh": "客房服务员",
+    "fr": "Femme de chambre",
+    "de": "Zimmermädchen",
+    "it": "Addetto ai piani",
+    "tr": "Kat görevlisi"
   },
   {
     "code": "tour_guide",
@@ -2909,7 +3801,11 @@
     "es": "Guía turístico",
     "he": "מדריך טיולים",
     "ko": "관광 가이드",
-    "zh": "导游"
+    "zh": "导游",
+    "fr": "Guide touristique",
+    "de": "Reiseleiter",
+    "it": "Guida turistica",
+    "tr": "Turist rehberi"
   },
   {
     "code": "travel_agent",
@@ -2922,7 +3818,11 @@
     "es": "Agente de viajes",
     "he": "סוכן נסיעות",
     "ko": "여행사 직원",
-    "zh": "旅行社业务员"
+    "zh": "旅行社业务员",
+    "fr": "Agent de voyages",
+    "de": "Reiseverkehrskaufmann",
+    "it": "Agente di viaggio",
+    "tr": "Turizm acentesi görevlisi"
   },
   {
     "code": "cleaner",
@@ -2935,7 +3835,11 @@
     "es": "Personal de limpieza",
     "he": "עובד ניקיון",
     "ko": "청소원",
-    "zh": "保洁员"
+    "zh": "保洁员",
+    "fr": "Agent d'entretien",
+    "de": "Reinigungskraft",
+    "it": "Addetto alle pulizie",
+    "tr": "Temizlik görevlisi"
   },
   {
     "code": "barber",
@@ -2948,7 +3852,11 @@
     "es": "Barbero",
     "he": "ספר",
     "ko": "이발사",
-    "zh": "理发师"
+    "zh": "理发师",
+    "fr": "Barbier",
+    "de": "Barbier",
+    "it": "Barbiere",
+    "tr": "Berber"
   },
   {
     "code": "hairdresser",
@@ -2961,7 +3869,11 @@
     "es": "Peluquero",
     "he": "מעצב שיער",
     "ko": "미용사",
-    "zh": "美发师"
+    "zh": "美发师",
+    "fr": "Coiffeur",
+    "de": "Friseur",
+    "it": "Parrucchiere",
+    "tr": "Kuaför"
   },
   {
     "code": "beauty_specialist",
@@ -2974,7 +3886,11 @@
     "es": "Esteticista",
     "he": "קוסמטיקאית",
     "ko": "뷰티 전문가",
-    "zh": "美容师"
+    "zh": "美容师",
+    "fr": "Esthéticien",
+    "de": "Schönheitspflegerin",
+    "it": "Estetista",
+    "tr": "Güzellik uzmanı"
   },
   {
     "code": "manicurist",
@@ -2987,7 +3903,11 @@
     "es": "Manicurista",
     "he": "מניקוריסטית",
     "ko": "네일 아티스트",
-    "zh": "美甲师"
+    "zh": "美甲师",
+    "fr": "Manucure",
+    "de": "Nageldesignerin",
+    "it": "Manicure",
+    "tr": "Manikürcü"
   },
   {
     "code": "cosmetologist",
@@ -3000,7 +3920,11 @@
     "es": "Cosmetólogo",
     "he": "קוסמטולוג",
     "ko": "피부 관리사",
-    "zh": "医美技师"
+    "zh": "医美技师",
+    "fr": "Cosmétologue",
+    "de": "Kosmetologe",
+    "it": "Cosmetologo",
+    "tr": "Kozmetolog"
   },
   {
     "code": "tailor",
@@ -3013,7 +3937,11 @@
     "es": "Sastre",
     "he": "חייט",
     "ko": "재봉사",
-    "zh": "裁缝"
+    "zh": "裁缝",
+    "fr": "Tailleur",
+    "de": "Schneider",
+    "it": "Sarto",
+    "tr": "Terzi"
   },
   {
     "code": "shoemaker",
@@ -3026,7 +3954,11 @@
     "es": "Zapatero",
     "he": "סנדלר",
     "ko": "제화공",
-    "zh": "制鞋工"
+    "zh": "制鞋工",
+    "fr": "Cordonnier",
+    "de": "Schuhmacher",
+    "it": "Calzolaio",
+    "tr": "Ayakkabı tamircisi"
   },
   {
     "code": "gardener",
@@ -3039,7 +3971,11 @@
     "es": "Jardinero",
     "he": "גנן",
     "ko": "정원사",
-    "zh": "园艺工"
+    "zh": "园艺工",
+    "fr": "Jardinier",
+    "de": "Gärtner",
+    "it": "Giardiniere",
+    "tr": "Bahçıvan"
   },
   {
     "code": "nanny",
@@ -3052,7 +3988,11 @@
     "es": "Niñera",
     "he": "מטפלת",
     "ko": "보육 도우미",
-    "zh": "育婴师"
+    "zh": "育婴师",
+    "fr": "Nourrice",
+    "de": "Kindermädchen",
+    "it": "Bambinaia",
+    "tr": "Dadı"
   },
   {
     "code": "agronomist",
@@ -3065,7 +4005,11 @@
     "es": "Agrónomo",
     "he": "אגרונום",
     "ko": "농업 기술자",
-    "zh": "农艺师"
+    "zh": "农艺师",
+    "fr": "Agronome",
+    "de": "Agronom",
+    "it": "Agronomo",
+    "tr": "Ziraat mühendisi"
   },
   {
     "code": "zootechnician",
@@ -3078,7 +4022,11 @@
     "es": "Zootécnico",
     "he": "זואוטכנאי",
     "ko": "축산 기술자",
-    "zh": "畜牧技术员"
+    "zh": "畜牧技术员",
+    "fr": "Zootechnicien",
+    "de": "Zootechniker",
+    "it": "Zootecnico",
+    "tr": "Zooteknisyen"
   },
   {
     "code": "tractor_driver",
@@ -3091,7 +4039,11 @@
     "es": "Tractorista",
     "he": "טרקטוריסט",
     "ko": "트랙터 기사",
-    "zh": "拖拉机手"
+    "zh": "拖拉机手",
+    "fr": "Conducteur de tracteur",
+    "de": "Traktorfahrer",
+    "it": "Trattorista",
+    "tr": "Traktör sürücüsü"
   },
   {
     "code": "farmer",
@@ -3104,7 +4056,11 @@
     "es": "Agricultor",
     "he": "חקלאי",
     "ko": "농업인",
-    "zh": "农户"
+    "zh": "农户",
+    "fr": "Agriculteur",
+    "de": "Landwirt",
+    "it": "Agricoltore",
+    "tr": "Çiftçi"
   },
   {
     "code": "beekeeper",
@@ -3117,7 +4073,11 @@
     "es": "Apicultor",
     "he": "כוורן",
     "ko": "양봉가",
-    "zh": "养蜂人"
+    "zh": "养蜂人",
+    "fr": "Apiculteur",
+    "de": "Imker",
+    "it": "Apicoltore",
+    "tr": "Arıcı"
   },
   {
     "code": "musician",
@@ -3130,7 +4090,11 @@
     "es": "Músico",
     "he": "מוזיקאי",
     "ko": "음악가",
-    "zh": "音乐家"
+    "zh": "音乐家",
+    "fr": "Musicien",
+    "de": "Musiker",
+    "it": "Musicista",
+    "tr": "Müzisyen"
   },
   {
     "code": "artist",
@@ -3143,7 +4107,11 @@
     "es": "Artista plástico",
     "he": "צייר",
     "ko": "화가",
-    "zh": "画家"
+    "zh": "画家",
+    "fr": "Artiste peintre",
+    "de": "Künstler",
+    "it": "Artista",
+    "tr": "Ressam"
   },
   {
     "code": "actor",
@@ -3156,6 +4124,10 @@
     "es": "Actor",
     "he": "שחקן",
     "ko": "배우",
-    "zh": "演员"
+    "zh": "演员",
+    "fr": "Acteur",
+    "de": "Schauspieler",
+    "it": "Attore",
+    "tr": "Aktör"
   }
 ]

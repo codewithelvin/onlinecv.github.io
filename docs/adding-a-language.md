@@ -1,14 +1,23 @@
 # Adding a UI/CV language
 
 The app ships Azerbaijani (default), Russian, English, Georgian, Arabic, Spanish,
-Hebrew, Korean and Chinese. Adding Turkish, German, Farsi … is an **additive**
-change: no component holds a language list, and no existing translation has to be
-touched.
+Hebrew, Korean, Chinese, French, German, Italian and Turkish. Adding Farsi,
+Portuguese, Japanese … is an **additive** change: no component holds a language
+list, and no existing translation has to be touched.
 
 Spanish is the worked example of the *easy* case, and worth reading first if the
 new language is written in Latin or Cyrillic: steps 1–3 plus the dictionaries, no
 font work, no shaping, no digit handling. Inter already covers `á é í ó ú ü ñ ¿ ¡`
 (check with fontkit, as step 4 describes), so `cv: true` held from the start.
+
+**French, German, Italian and Turkish then proved it is a CLASS, not a lucky
+case** — four locales added in one pass with no font work at all: Inter has `œ Œ ÿ`,
+`ß` and even the capital `ẞ`, `ı İ ş ğ` (already required by Azerbaijani) and the
+`€`/`₺` signs, and none of the four dayjs bundles ships a `preparse`/`postformat`.
+What they cost instead was translation volume, and what they BROKE was three
+things no font check would have caught: a select that silently stopped rendering
+its own options, a test that assumed no two shipped languages are related, and a
+search fold with no rule for `ß`. All three are written up below.
 
 Order in the switchers is **not** the order you declare the entry in:
 `SUPPORTED_LOCALES` sorts the default locale first and the rest alphabetically by
@@ -29,13 +38,13 @@ empty values, and that the dayjs data was imported.
 
 ## Required steps
 
-1. **Widen the union** — `src/types/resume.ts`:
+1. **Widen the union** — `src/types/resume.ts` (`pt` for Portuguese, say):
    ```ts
-   export type Locale = 'az' | 'ru' | 'en' | 'ka' | 'tr';
+   export type Locale = 'az' | 'ru' | 'en' | 'ka' | … | 'pt';
    ```
    `tsc` now fails until step 3.
 
-2. **Add the UI strings** — copy `src/app/i18n/az.json` to `tr.json`, translate,
+2. **Add the UI strings** — copy `src/app/i18n/az.json` to `pt.json`, translate,
    then register it in `src/app/i18n/index.ts` (one `import`, one `resources`
    entry). Keep the key set identical — a missing key silently falls back to
    Azerbaijani, i.e. a half-translated UI in a language nobody on the team reads,
@@ -43,9 +52,9 @@ empty values, and that the dayjs data was imported.
 
 3. **Register the locale** — one entry in `LOCALES`:
    ```ts
-   tr: { code: 'tr', short: 'TR', nativeName: 'Türkçe', dir: 'ltr',
+   pt: { code: 'pt', short: 'PT', nativeName: 'Português', dir: 'ltr',
          capitalizeMonths: true, digits: 'latn', cv: true,
-         region: 'caucasusWestAsia', antd: trTR },
+         region: 'europe', antd: ptPT },
    ```
 
    `region` is the heading the picker files the language under (`LocaleRegion`),
@@ -57,16 +66,25 @@ empty values, and that the dayjs data was imported.
    **A flag, too** — `src/features/i18n/flags.tsx` holds a total
    `Record<Locale, ReactNode>`, so the compiler will not let the new locale through
    without one. Two rules there: it must be the REAL flag (see that file's note on
-   why the artwork is inline SVG rather than `🇹🇷` — Windows ships no
-   regional-indicator glyphs, so the emoji renders as the letters "TR"), and
+   why the artwork is inline SVG rather than `🇵🇹` — Windows ships no
+   regional-indicator glyphs, so the emoji renders as the letters "PT"), and
    simplification is allowed only where it does not change what the flag IS. Bands
    and emblems get drawn; the US canton carries all fifty stars because the count is
    how the flag is recognized; the Saudi shahada is set as real Arabic text rather
    than decorative strokes. `flags.test.tsx` pins each of those.
    plus the two side-effect imports at the top of that file: the AntD bundle
-   (`antd/locale/tr_TR`) and the dayjs locale (`dayjs/locale/tr`). If dayjs has no
+   (`antd/locale/pt_PT`) and the dayjs locale (`dayjs/locale/pt`). If dayjs has no
    data for the language, import the closest one and note it — dayjs only supplies
    month/weekday names and the first day of the week here.
+
+   **Turkey is the flag worth reading before you draw a hard one.** Its official
+   construction fits the file's 24 × 16 box exactly (the flag's real ratio is 2:3),
+   so every number in `flags.tsx` is the legal one — but the two details that
+   matter are not in any prose description of the flag: the star sits far enough in
+   that its inner point passes the crescent's HORN TIPS, and it is ROTATED so one
+   point aims at the hoist rather than straight up. Both were read off the official
+   artwork's own vertex coordinates. If a flag has geometry, find a construction
+   sheet or the published SVG and transcribe it; do not eyeball it.
 
    `capitalizeMonths` is `false` for scripts with no title case. Georgian is the
    cautionary case: Mkhedruli *does* have Unicode uppercase forms (Mtavruli), so
@@ -171,7 +189,7 @@ empty values, and that the dayjs data was imported.
 
 ## Required steps, continued
 
-5. **Dictionary labels** — add a `"tr"` column to every file in `src/data/`.
+5. **Dictionary labels** — add a `"pt"` column to every file in `src/data/`.
    **This is no longer optional**: `src/data/datasets.test.ts` holds *all ten*
    groups to full coverage for every supported locale, so the suite goes red the
    moment the union is widened and stays red until the last row is translated.
@@ -179,13 +197,27 @@ empty values, and that the dayjs data was imported.
    a user in the new language would otherwise be reading Azerbaijani in the middle
    of their own résumé.
 
-   The volume, at the time of writing: skills 342, universities 304,
+   The volume, at the time of writing: universities 364, skills 342,
    specialities 305, faculties 263, positions 243, cities 132, colleges 127,
-   nationality 34, languages 18, interests 17 — **1,785 rows**. Do it with a script that rebuilds
+   nationality 34, languages 18, interests 17 — **1,845 rows**. Do it with a script that rebuilds
    each row key-by-key (so the new column lands in the same place in every file)
    and *refuses to write* on an unmapped code, a duplicate label within the
    dataset, or a label longer than `FIELD_MAX` for that group. The three legacy
    synonym pairs in `skills` are the only rows allowed to share a label.
+
+   **The duplicate-label guard is the one that pays for itself, every time.** It
+   caught `business` and `commerce` both landing on "Commerce" in French — two
+   faculties that would have been indistinguishable in the dropdown, with the
+   second one's code silently unreachable. Run it before you look at the diff.
+
+   **Budget for length by the LANGUAGE, not by the stereotype.** German was expected
+   to be the tight one (compounds) and measured as the roomy one: average label
+   21.3 chars against French 23.1 and Italian 22.7, because compounding is SHORTER
+   than the `de`/`di`/`für`-chains the Romance languages need — "Spezialist für
+   digitales Marketing" (34) beats "Spécialiste en marketing digital" only slightly,
+   but "Bauwesen" (8) against "Costruzioni" (11) and "Construction" (12) is the
+   general case. The tightest fit across all 1,845 rows was FRENCH, at 128 of the
+   150 chars `colleges` allows.
 
    Two guards worth adding to that script for a NON-LATIN locale, both of which
    have caught real mistakes: refuse a label containing a script from a
@@ -246,6 +278,29 @@ The rules that broke, in order of discovery:
   surname of every Korean user. (It had also been refusing "Bo" and "Li" for years.)
   Removed: `.required()` on a trimmed string is the check that was actually wanted.
   Chinese is the sharper case: **李明 is TWO code points in total.**
+- **A COUNT crossed a threshold and a dropdown quietly truncated.** At thirteen
+  languages the CV-language select stopped containing four of its own options:
+  rc-select renders only what fits `listHeight` (256px ≈ 9 rows) and virtualizes the
+  rest, so "what the user is offered" and "what is in the DOM" silently diverged —
+  which also breaks the automation contract the `#…` ids rest on. Fixed with
+  `virtual={false}` on that select, justified because the list is bounded by the
+  number of languages the app ships. The DICTIONARY selects (hundreds of rows) must
+  keep their virtualization. **Ask of any new locale: what list did it just make
+  longer, and does anything cap that list's height?**
+- **The search fold had no rule for `ß`.** `searchKey` folds `İ` and `ı` and every
+  combining mark, but `ß` has no canonical decomposition, so `Fußball` was
+  unreachable by typing `fussball` — the exact spelling a German user falls back to.
+  It now folds to TWO letters (`ss`), which is what German itself substitutes. The
+  umlauts needed nothing: NFD already splits `ä ö ü` into a letter plus a diaeresis.
+- **A test assumed no two shipped languages are related.** `Wizard.test.tsx` asserted
+  that all N `wizard.createdBy` wordings are DISTINCT, as a proxy for "nobody pasted
+  one locale's text into another". Turkish falsified it: the word is "Hazırlayan" in
+  both Azerbaijani and Turkish, because they are sister languages in the same Oghuz
+  branch. The rule is now "no locale may reuse the wording of an UNRELATED language",
+  with the related pairs DECLARED — so the next Portuguese-beside-Spanish addition
+  states its case instead of tempting someone to distort a translation to satisfy a
+  test. Same class of broken premise as `direction.test.ts` asserting Arabic was the
+  only RTL locale until Hebrew landed.
 - **Name ORDER.** The CV printed `${firstName} ${lastName}`, so a Korean CV read
   "민준 김" and a Chinese one "明 李" — and because 李 and 김 are among the
   commonest surnames anywhere, that does not read as an odd arrangement, it reads

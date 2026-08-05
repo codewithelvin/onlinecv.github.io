@@ -25,6 +25,13 @@ const SELECTED = '#1461c7';
  *
  * Groups come from `REGION_ORDER` and only render when they hold something, so the
  * seventh region costs nothing until a language lives there.
+ *
+ * WIDTH IS A FUNCTION OF THE LANGUAGE COUNT, and it has already been changed once.
+ * At six languages a 560px two-column dialog was square-ish; at thirteen the same
+ * dialog became a tall ladder — seven tile rows plus four headings — and on a
+ * laptop the list ran past the fold while half the screen sat empty. It is now
+ * 760px with a THIRD column from `md` up, which folds the same thirteen tiles into
+ * five rows. The tiles themselves did not change size; the grid did.
  */
 export function LanguageModal({
   open,
@@ -38,7 +45,7 @@ export function LanguageModal({
   current: Locale;
 }): JSX.Element {
   const { t } = useTranslation();
-  const { fullScreen, modalProps } = useModalChrome(560);
+  const { fullScreen, modalProps } = useModalChrome(760);
   useScrollLock(open);
 
   const groups = REGION_ORDER.map((region) => ({
@@ -100,8 +107,16 @@ export function LanguageModal({
             <Row gutter={[10, 10]}>
               {locales.map((code) => {
                 const selected = code === current;
+                /*
+                 * One tile per row on a phone, two on a small tablet, three from
+                 * `md` up — which is every size this dialog is NOT full-screen at,
+                 * since `useModalChrome` goes full-screen below `lg`. The
+                 * breakpoints are the VIEWPORT's, not the dialog's, so a
+                 * full-screen 768px tablet gets three columns as well and the
+                 * picker stays one screenful there too.
+                 */
                 return (
-                  <Col key={code} xs={24} sm={12}>
+                  <Col key={code} xs={24} sm={12} md={8}>
                     {/*
                      * A real <button>: the tile performs an action, so it gets
                      * keyboard focus and Enter/Space for free. `aria-pressed`

@@ -201,6 +201,12 @@ describe('dictionary translation coverage', () => {
       he: 'hebrew',
       ko: 'korean',
       zh: 'chinese',
+      // All four rows predate their locale — the dataset came over from the
+      // production dictionary already listing them, so nothing had to be added.
+      fr: 'french',
+      de: 'german',
+      it: 'italian',
+      tr: 'turkish',
     };
     for (const locale of SUPPORTED_LOCALES) {
       const code = ownLanguage[locale];

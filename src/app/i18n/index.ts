@@ -11,6 +11,10 @@ import es from './es.json';
 import he from './he.json';
 import ko from './ko.json';
 import zh from './zh.json';
+import fr from './fr.json';
+import de from './de.json';
+import it from './it.json';
+import tr from './tr.json';
 import type { Locale } from '../../types/resume';
 import { pathForLocale } from '../seo-locales';
 import {
@@ -43,6 +47,10 @@ void i18n.use(initReactI18next).init({
     he: { translation: he },
     ko: { translation: ko },
     zh: { translation: zh },
+    fr: { translation: fr },
+    de: { translation: de },
+    it: { translation: it },
+    tr: { translation: tr },
   },
   lng: DEFAULT_LOCALE,
   fallbackLng: DEFAULT_LOCALE,

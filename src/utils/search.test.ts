@@ -32,6 +32,25 @@ describe('searchKey', () => {
     expect(contains('Boğaziçi Universiteti', 'bogazici')).toBe(true);
   });
 
+  /**
+   * German has the same problem as `ə`/`ı`: `ß` has no canonical decomposition,
+   * so NFD leaves it and the label stays unreachable from a keyboard without it.
+   * It folds to TWO letters because that is the substitution German itself uses —
+   * `ss`, not a single `s`, so both spellings of the word match each other.
+   */
+  it('finds a German label containing ß from the ss spelling', () => {
+    expect(contains('Fußball', 'fussball')).toBe(true);
+    expect(contains('Fußball', 'Fußball')).toBe(true);
+    expect(contains('Großhandel', 'grosshandel')).toBe(true);
+  });
+
+  /** Turkish `ı ş ğ ç` and German umlauts, from a keyboard that has none of them. */
+  it('ignores Turkish and German diacritics', () => {
+    expect(contains('Işıl Şahingöz', 'isil sahingoz')).toBe(true);
+    expect(contains('Ağrı İbrahim Çeçen Üniversitesi', 'agri ibrahim cecen')).toBe(true);
+    expect(contains('Technische Universität München', 'universitat munchen')).toBe(true);
+  });
+
   it('ignores Arabic vowel points', () => {
     // Pointed and unpointed spellings of the same word must match each other.
     expect(contains('مُحَمَّد', 'محمد')).toBe(true);

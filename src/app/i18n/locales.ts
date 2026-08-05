@@ -8,6 +8,10 @@ import esES from 'antd/locale/es_ES';
 import heIL from 'antd/locale/he_IL';
 import koKR from 'antd/locale/ko_KR';
 import zhCN from 'antd/locale/zh_CN';
+import frFR from 'antd/locale/fr_FR';
+import deDE from 'antd/locale/de_DE';
+import itIT from 'antd/locale/it_IT';
+import trTR from 'antd/locale/tr_TR';
 import 'dayjs/locale/az';
 import 'dayjs/locale/ru';
 import 'dayjs/locale/en';
@@ -24,6 +28,10 @@ import 'dayjs/locale/ko';
  * and no `preparse`/`postformat` — so the shorter name costs nothing.
  */
 import 'dayjs/locale/zh';
+import 'dayjs/locale/fr';
+import 'dayjs/locale/de';
+import 'dayjs/locale/it';
+import 'dayjs/locale/tr';
 import type { Locale } from '../../types/resume';
 
 /**
@@ -317,6 +325,81 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     cv: true,
     region: 'asia',
     antd: zhCN,
+  },
+  /*
+   * French, German, Italian and Turkish — added together, and the first BATCH
+   * where the answer to "what does this script need" was nothing at all.
+   *
+   * Spanish was the first single locale of this kind; these four confirm it is a
+   * class and not a coincidence. All four are written in Latin, so Inter draws
+   * every letter they use — checked with fontkit against the shipped TTFs rather
+   * than assumed, including the awkward ones: `œ Œ ÿ` (French), `ß` and the
+   * capital `ẞ` (German), `ı İ ş ğ` (Turkish, already required by Azerbaijani)
+   * and the `€`/`₺` currency signs. No font to register, no `@font-face`, no
+   * shaping pass, no digit localization, and none of the four dayjs bundles ships
+   * a `preparse`/`postformat` that could reach a stored ISO date. Hence
+   * `cv: true` from the start for all of them.
+   *
+   * `capitalizeMonths: true` throughout, for two different reasons: German
+   * capitalizes month names as nouns anyway, while French and Italian write them
+   * lower case and are title-cased here as the same house-style call already made
+   * for Russian and Spanish, so a CV reads the same in every language.
+   */
+  fr: {
+    code: 'fr',
+    short: 'FR',
+    nativeName: 'Français',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
+    region: 'europe',
+    antd: frFR,
+  },
+  de: {
+    code: 'de',
+    short: 'DE',
+    nativeName: 'Deutsch',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
+    region: 'europe',
+    antd: deDE,
+  },
+  it: {
+    code: 'it',
+    short: 'IT',
+    nativeName: 'Italiano',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
+    region: 'europe',
+    antd: itIT,
+  },
+  /**
+   * Turkish — filed under the Caucasus/West Asia heading beside Azerbaijani
+   * rather than under Europe: the rule is where the language ORIGINATES, and
+   * Turkish is Oghuz Turkic, the same branch as the app's own default language.
+   *
+   * The one thing worth knowing about it is casing, and it is already handled:
+   * Turkish pairs `i`/`İ` and `ı`/`I`, so a locale-blind `toUpperCase()` would
+   * write `IL` for `il`. `capitalizedMonthsShort` in `utils/date` upper-cases
+   * through `toLocaleUpperCase(locale)` — added for Azerbaijani, which has the
+   * same pair — and `utils/search`'s fold already maps `İ` to `i`, so the
+   * dictionary search works from a keyboard with no Turkish layout.
+   */
+  tr: {
+    code: 'tr',
+    short: 'TR',
+    nativeName: 'Türkçe',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
+    region: 'caucasusWestAsia',
+    antd: trTR,
   },
 };
 

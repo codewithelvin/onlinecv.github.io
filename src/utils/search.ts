@@ -14,11 +14,19 @@
  * finds `Şəki`, `muhammad` is unaffected. Arabic harakat fold away too, so a
  * pointed and an unpointed spelling both match.
  *
- * `ə` and `ı` need explicit handling: neither has a canonical decomposition, so
- * NFD leaves them alone and they would stay unreachable from a Latin keyboard.
+ * `ə`, `ı` and `ß` need explicit handling: none of them has a canonical
+ * decomposition, so NFD leaves them alone and they would stay unreachable from a
+ * Latin keyboard. `ß` maps to TWO letters, which is what German itself does when
+ * the character is unavailable — a user typing `fussball` has to find `Fußball`,
+ * and folding it to a single `s` would not match either spelling.
+ *
+ * The umlauts need nothing: NFD splits `ä ö ü` into a letter plus a diaeresis, so
+ * they already fold to `a o u`. That covers a user typing the bare vowel; the
+ * `ae`/`oe`/`ue` transliteration is a different string and deliberately not
+ * handled, since it only appears where the character cannot be typed at all.
  */
-const NON_DECOMPOSING = /[əı]/g;
-const FOLDED: Record<string, string> = { ə: 'e', ı: 'i' };
+const NON_DECOMPOSING = /[əıß]/g;
+const FOLDED: Record<string, string> = { ə: 'e', ı: 'i', ß: 'ss' };
 
 export function searchKey(text: string): string {
   return (

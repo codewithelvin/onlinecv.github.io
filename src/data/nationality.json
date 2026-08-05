@@ -10,7 +10,11 @@
     "es": "Azerbaiyano",
     "he": "אזרבייג'ני",
     "ko": "아제르바이잔인",
-    "zh": "阿塞拜疆族"
+    "zh": "阿塞拜疆族",
+    "fr": "Azerbaïdjanais",
+    "de": "Aserbaidschaner",
+    "it": "Azerbaigiano",
+    "tr": "Azerbaycanlı"
   },
   {
     "code": "rus",
@@ -23,7 +27,11 @@
     "es": "Ruso",
     "he": "רוסי",
     "ko": "러시아인",
-    "zh": "俄罗斯族"
+    "zh": "俄罗斯族",
+    "fr": "Russe",
+    "de": "Russe",
+    "it": "Russo",
+    "tr": "Rus"
   },
   {
     "code": "lazgis",
@@ -36,7 +44,11 @@
     "es": "Lezgio",
     "he": "לזגי",
     "ko": "레즈긴인",
-    "zh": "列兹金族"
+    "zh": "列兹金族",
+    "fr": "Lezghien",
+    "de": "Lesgier",
+    "it": "Lesghino",
+    "tr": "Lezgi"
   },
   {
     "code": "turks",
@@ -49,7 +61,11 @@
     "es": "Turco",
     "he": "טורקי",
     "ko": "튀르크인",
-    "zh": "土耳其族"
+    "zh": "土耳其族",
+    "fr": "Turc",
+    "de": "Türke",
+    "it": "Turco",
+    "tr": "Türk"
   },
   {
     "code": "avars",
@@ -62,7 +78,11 @@
     "es": "Ávaro",
     "he": "אווארי",
     "ko": "아바르인",
-    "zh": "阿瓦尔族"
+    "zh": "阿瓦尔族",
+    "fr": "Avar",
+    "de": "Aware",
+    "it": "Avaro",
+    "tr": "Avar"
   },
   {
     "code": "georgians",
@@ -75,7 +95,11 @@
     "es": "Georgiano",
     "he": "גאורגי",
     "ko": "조지아인",
-    "zh": "格鲁吉亚族"
+    "zh": "格鲁吉亚族",
+    "fr": "Géorgien",
+    "de": "Georgier",
+    "it": "Georgiano",
+    "tr": "Gürcü"
   },
   {
     "code": "uzbeks",
@@ -88,7 +112,11 @@
     "es": "Uzbeko",
     "he": "אוזבקי",
     "ko": "우즈베크인",
-    "zh": "乌兹别克族"
+    "zh": "乌兹别克族",
+    "fr": "Ouzbek",
+    "de": "Usbeke",
+    "it": "Uzbeko",
+    "tr": "Özbek"
   },
   {
     "code": "tatars",
@@ -101,7 +129,11 @@
     "es": "Tártaro",
     "he": "טטרי",
     "ko": "타타르인",
-    "zh": "塔塔尔族"
+    "zh": "塔塔尔族",
+    "fr": "Tatar",
+    "de": "Tatare",
+    "it": "Tataro",
+    "tr": "Tatar"
   },
   {
     "code": "talishs",
@@ -114,7 +146,11 @@
     "es": "Talysh",
     "he": "טליש",
     "ko": "탈리시인",
-    "zh": "塔利什族"
+    "zh": "塔利什族",
+    "fr": "Talyche",
+    "de": "Talysch",
+    "it": "Talysh",
+    "tr": "Talış"
   },
   {
     "code": "belarusians",
@@ -127,7 +163,11 @@
     "es": "Bielorruso",
     "he": "בלרוסי",
     "ko": "벨라루스인",
-    "zh": "白俄罗斯族"
+    "zh": "白俄罗斯族",
+    "fr": "Biélorusse",
+    "de": "Belarusse",
+    "it": "Bielorusso",
+    "tr": "Belaruslu"
   },
   {
     "code": "persians",
@@ -140,7 +180,11 @@
     "es": "Persa",
     "he": "פרסי",
     "ko": "페르시아인",
-    "zh": "波斯族"
+    "zh": "波斯族",
+    "fr": "Persan",
+    "de": "Perser",
+    "it": "Persiano",
+    "tr": "Fars"
   },
   {
     "code": "ukrainians",
@@ -153,7 +197,11 @@
     "es": "Ucraniano",
     "he": "אוקראיני",
     "ko": "우크라이나인",
-    "zh": "乌克兰族"
+    "zh": "乌克兰族",
+    "fr": "Ukrainien",
+    "de": "Ukrainer",
+    "it": "Ucraino",
+    "tr": "Ukraynalı"
   },
   {
     "code": "tajiks",
@@ -166,7 +214,11 @@
     "es": "Tayiko",
     "he": "טג'יקי",
     "ko": "타지크인",
-    "zh": "塔吉克族"
+    "zh": "塔吉克族",
+    "fr": "Tadjik",
+    "de": "Tadschike",
+    "it": "Tagiko",
+    "tr": "Tacik"
   },
   {
     "code": "egyptians",
@@ -179,7 +231,11 @@
     "es": "Egipcio",
     "he": "מצרי",
     "ko": "이집트인",
-    "zh": "埃及人"
+    "zh": "埃及人",
+    "fr": "Égyptien",
+    "de": "Ägypter",
+    "it": "Egiziano",
+    "tr": "Mısırlı"
   },
   {
     "code": "kyrgyzs",
@@ -192,7 +248,11 @@
     "es": "Kirguís",
     "he": "קירגיזי",
     "ko": "키르기스인",
-    "zh": "柯尔克孜族"
+    "zh": "柯尔克孜族",
+    "fr": "Kirghize",
+    "de": "Kirgise",
+    "it": "Kirghiso",
+    "tr": "Kırgız"
   },
   {
     "code": "kazakhs",
@@ -205,7 +265,11 @@
     "es": "Kazajo",
     "he": "קזחי",
     "ko": "카자흐인",
-    "zh": "哈萨克族"
+    "zh": "哈萨克族",
+    "fr": "Kazakh",
+    "de": "Kasache",
+    "it": "Kazako",
+    "tr": "Kazak"
   },
   {
     "code": "turkmens",
@@ -218,7 +282,11 @@
     "es": "Turcomano",
     "he": "תורכמני",
     "ko": "투르크멘인",
-    "zh": "土库曼族"
+    "zh": "土库曼族",
+    "fr": "Turkmène",
+    "de": "Turkmene",
+    "it": "Turkmeno",
+    "tr": "Türkmen"
   },
   {
     "code": "pakistanis",
@@ -231,7 +299,11 @@
     "es": "Pakistaní",
     "he": "פקיסטני",
     "ko": "파키스탄인",
-    "zh": "巴基斯坦人"
+    "zh": "巴基斯坦人",
+    "fr": "Pakistanais",
+    "de": "Pakistaner",
+    "it": "Pakistano",
+    "tr": "Pakistanlı"
   },
   {
     "code": "jews",
@@ -244,7 +316,11 @@
     "es": "Judío",
     "he": "יהודי",
     "ko": "유대인",
-    "zh": "犹太人"
+    "zh": "犹太人",
+    "fr": "Juif",
+    "de": "Jude",
+    "it": "Ebreo",
+    "tr": "Yahudi"
   },
   {
     "code": "moldovans",
@@ -257,7 +333,11 @@
     "es": "Moldavo",
     "he": "מולדובי",
     "ko": "몰도바인",
-    "zh": "摩尔多瓦人"
+    "zh": "摩尔多瓦人",
+    "fr": "Moldave",
+    "de": "Moldauer",
+    "it": "Moldavo",
+    "tr": "Moldovalı"
   },
   {
     "code": "romanians",
@@ -270,7 +350,11 @@
     "es": "Rumano",
     "he": "רומני",
     "ko": "루마니아인",
-    "zh": "罗马尼亚人"
+    "zh": "罗马尼亚人",
+    "fr": "Roumain",
+    "de": "Rumäne",
+    "it": "Romeno",
+    "tr": "Rumen"
   },
   {
     "code": "sakhurs",
@@ -283,7 +367,11 @@
     "es": "Tsajur",
     "he": "צחורי",
     "ko": "차후르인",
-    "zh": "察胡尔族"
+    "zh": "察胡尔族",
+    "fr": "Tsakhour",
+    "de": "Zachure",
+    "it": "Tsakhur",
+    "tr": "Tsahur"
   },
   {
     "code": "kurds",
@@ -296,7 +384,11 @@
     "es": "Kurdo",
     "he": "כורדי",
     "ko": "쿠르드인",
-    "zh": "库尔德族"
+    "zh": "库尔德族",
+    "fr": "Kurde",
+    "de": "Kurde",
+    "it": "Curdo",
+    "tr": "Kürt"
   },
   {
     "code": "chechens",
@@ -309,7 +401,11 @@
     "es": "Checheno",
     "he": "צ'צ'ני",
     "ko": "체첸인",
-    "zh": "车臣族"
+    "zh": "车臣族",
+    "fr": "Tchétchène",
+    "de": "Tschetschene",
+    "it": "Ceceno",
+    "tr": "Çeçen"
   },
   {
     "code": "uygurs",
@@ -322,7 +418,11 @@
     "es": "Uigur",
     "he": "אויגורי",
     "ko": "위구르인",
-    "zh": "维吾尔族"
+    "zh": "维吾尔族",
+    "fr": "Ouïghour",
+    "de": "Uigure",
+    "it": "Uiguro",
+    "tr": "Uygur"
   },
   {
     "code": "italians",
@@ -335,7 +435,11 @@
     "es": "Italiano",
     "he": "איטלקי",
     "ko": "이탈리아인",
-    "zh": "意大利人"
+    "zh": "意大利人",
+    "fr": "Italien",
+    "de": "Italiener",
+    "it": "Italiano",
+    "tr": "İtalyan"
   },
   {
     "code": "germans",
@@ -348,7 +452,11 @@
     "es": "Alemán",
     "he": "גרמני",
     "ko": "독일인",
-    "zh": "德国人"
+    "zh": "德国人",
+    "fr": "Allemand",
+    "de": "Deutscher",
+    "it": "Tedesco",
+    "tr": "Alman"
   },
   {
     "code": "poles",
@@ -361,7 +469,11 @@
     "es": "Polaco",
     "he": "פולני",
     "ko": "폴란드인",
-    "zh": "波兰人"
+    "zh": "波兰人",
+    "fr": "Polonais",
+    "de": "Pole",
+    "it": "Polacco",
+    "tr": "Polonyalı"
   },
   {
     "code": "frenchs",
@@ -374,7 +486,11 @@
     "es": "Francés",
     "he": "צרפתי",
     "ko": "프랑스인",
-    "zh": "法国人"
+    "zh": "法国人",
+    "fr": "Français",
+    "de": "Franzose",
+    "it": "Francese",
+    "tr": "Fransız"
   },
   {
     "code": "japaneses",
@@ -387,7 +503,11 @@
     "es": "Japonés",
     "he": "יפני",
     "ko": "일본인",
-    "zh": "日本人"
+    "zh": "日本人",
+    "fr": "Japonais",
+    "de": "Japaner",
+    "it": "Giapponese",
+    "tr": "Japon"
   },
   {
     "code": "lithuanians",
@@ -400,7 +520,11 @@
     "es": "Lituano",
     "he": "ליטאי",
     "ko": "리투아니아인",
-    "zh": "立陶宛人"
+    "zh": "立陶宛人",
+    "fr": "Lituanien",
+    "de": "Litauer",
+    "it": "Lituano",
+    "tr": "Litvalı"
   },
   {
     "code": "latvians",
@@ -413,7 +537,11 @@
     "es": "Letón",
     "he": "לטבי",
     "ko": "라트비아인",
-    "zh": "拉脱维亚人"
+    "zh": "拉脱维亚人",
+    "fr": "Letton",
+    "de": "Lette",
+    "it": "Lettone",
+    "tr": "Letonyalı"
   },
   {
     "code": "estonians",
@@ -426,7 +554,11 @@
     "es": "Estonio",
     "he": "אסטוני",
     "ko": "에스토니아인",
-    "zh": "爱沙尼亚人"
+    "zh": "爱沙尼亚人",
+    "fr": "Estonien",
+    "de": "Este",
+    "it": "Estone",
+    "tr": "Estonyalı"
   },
   {
     "code": "others",
@@ -439,6 +571,10 @@
     "es": "Otra",
     "he": "אחר",
     "ko": "기타",
-    "zh": "其他"
+    "zh": "其他",
+    "fr": "Autre",
+    "de": "Andere",
+    "it": "Altro",
+    "tr": "Diğer"
   }
 ]

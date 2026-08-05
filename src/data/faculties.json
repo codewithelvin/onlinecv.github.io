@@ -10,7 +10,11 @@
     "es": "Economía",
     "he": "כלכלה",
     "ko": "경제학",
-    "zh": "经济学"
+    "zh": "经济学",
+    "fr": "Économie",
+    "de": "Wirtschaftswissenschaften",
+    "it": "Economia",
+    "tr": "İktisat"
   },
   {
     "code": "philology",
@@ -23,7 +27,11 @@
     "es": "Filología",
     "he": "פילולוגיה",
     "ko": "문헌학",
-    "zh": "语文学"
+    "zh": "语文学",
+    "fr": "Philologie",
+    "de": "Philologie",
+    "it": "Filologia",
+    "tr": "Filoloji"
   },
   {
     "code": "economics_management",
@@ -36,7 +44,11 @@
     "es": "Economía y gestión",
     "he": "כלכלה וניהול",
     "ko": "경제 및 경영학",
-    "zh": "经济与管理"
+    "zh": "经济与管理",
+    "fr": "Économie et gestion",
+    "de": "Wirtschaft und Verwaltung",
+    "it": "Economia e gestione",
+    "tr": "İktisat ve yönetim"
   },
   {
     "code": "pedagogical",
@@ -49,7 +61,11 @@
     "es": "Pedagogía",
     "he": "פדגוגיה",
     "ko": "사범학",
-    "zh": "师范"
+    "zh": "师范",
+    "fr": "Pédagogie",
+    "de": "Pädagogik",
+    "it": "Pedagogia",
+    "tr": "Pedagoji"
   },
   {
     "code": "law",
@@ -62,7 +78,11 @@
     "es": "Derecho",
     "he": "משפטים",
     "ko": "법학",
-    "zh": "法律"
+    "zh": "法律",
+    "fr": "Droit",
+    "de": "Recht",
+    "it": "Diritto",
+    "tr": "Hukuk"
   },
   {
     "code": "engineering",
@@ -75,7 +95,11 @@
     "es": "Ingeniería",
     "he": "הנדסה",
     "ko": "공학",
-    "zh": "工程"
+    "zh": "工程",
+    "fr": "Ingénierie",
+    "de": "Ingenieurwesen",
+    "it": "Ingegneria",
+    "tr": "Mühendislik"
   },
   {
     "code": "history",
@@ -88,7 +112,11 @@
     "es": "Historia",
     "he": "היסטוריה",
     "ko": "역사학",
-    "zh": "历史学"
+    "zh": "历史学",
+    "fr": "Histoire",
+    "de": "Geschichte",
+    "it": "Storia",
+    "tr": "Tarih"
   },
   {
     "code": "finance",
@@ -101,7 +129,11 @@
     "es": "Finanzas",
     "he": "מימון",
     "ko": "재무학",
-    "zh": "金融"
+    "zh": "金融",
+    "fr": "Finance",
+    "de": "Finanzwesen",
+    "it": "Finanza",
+    "tr": "Maliye"
   },
   {
     "code": "history_geography",
@@ -114,7 +146,11 @@
     "es": "Historia y geografía",
     "he": "היסטוריה וגיאוגרפיה",
     "ko": "역사 및 지리학",
-    "zh": "历史与地理"
+    "zh": "历史与地理",
+    "fr": "Histoire et géographie",
+    "de": "Geschichte und Geografie",
+    "it": "Storia e geografia",
+    "tr": "Tarih ve coğrafya"
   },
   {
     "code": "business_and_management",
@@ -127,7 +163,11 @@
     "es": "Negocios y gestión",
     "he": "עסקים וניהול",
     "ko": "비즈니스 및 경영",
-    "zh": "商业与管理"
+    "zh": "商业与管理",
+    "fr": "Commerce et management",
+    "de": "Betriebswirtschaft und Management",
+    "it": "Business e management",
+    "tr": "İşletme ve yönetim"
   },
   {
     "code": "geography",
@@ -140,7 +180,11 @@
     "es": "Geografía",
     "he": "גיאוגרפיה",
     "ko": "지리학",
-    "zh": "地理学"
+    "zh": "地理学",
+    "fr": "Géographie",
+    "de": "Geografie",
+    "it": "Geografia",
+    "tr": "Coğrafya"
   },
   {
     "code": "transport",
@@ -153,7 +197,11 @@
     "es": "Transporte",
     "he": "תחבורה",
     "ko": "운송학",
-    "zh": "运输"
+    "zh": "运输",
+    "fr": "Transport",
+    "de": "Verkehrswesen",
+    "it": "Trasporti",
+    "tr": "Ulaştırma"
   },
   {
     "code": "intl_relations_economics",
@@ -166,7 +214,11 @@
     "es": "Relaciones internacionales y economía",
     "he": "יחסים בינלאומיים וכלכלה",
     "ko": "국제관계 및 경제학",
-    "zh": "国际关系与经济"
+    "zh": "国际关系与经济",
+    "fr": "Relations internationales et économie",
+    "de": "Internationale Beziehungen und Wirtschaft",
+    "it": "Relazioni internazionali ed economia",
+    "tr": "Uluslararası ilişkiler ve iktisat"
   },
   {
     "code": "physics",
@@ -179,7 +231,11 @@
     "es": "Física",
     "he": "פיזיקה",
     "ko": "물리학",
-    "zh": "物理学"
+    "zh": "物理学",
+    "fr": "Physique",
+    "de": "Physik",
+    "it": "Fisica",
+    "tr": "Fizik"
   },
   {
     "code": "biology",
@@ -192,7 +248,11 @@
     "es": "Biología",
     "he": "ביולוגיה",
     "ko": "생물학",
-    "zh": "生物学"
+    "zh": "生物学",
+    "fr": "Biologie",
+    "de": "Biologie",
+    "it": "Biologia",
+    "tr": "Biyoloji"
   },
   {
     "code": "chemistry_biology",
@@ -205,7 +265,11 @@
     "es": "Química y biología",
     "he": "כימיה וביולוגיה",
     "ko": "화학 및 생물학",
-    "zh": "化学与生物"
+    "zh": "化学与生物",
+    "fr": "Chimie et biologie",
+    "de": "Chemie und Biologie",
+    "it": "Chimica e biologia",
+    "tr": "Kimya ve biyoloji"
   },
   {
     "code": "chemistry",
@@ -218,7 +282,11 @@
     "es": "Química",
     "he": "כימיה",
     "ko": "화학",
-    "zh": "化学"
+    "zh": "化学",
+    "fr": "Chimie",
+    "de": "Chemie",
+    "it": "Chimica",
+    "tr": "Kimya"
   },
   {
     "code": "mathematics",
@@ -231,7 +299,11 @@
     "es": "Matemáticas",
     "he": "מתמטיקה",
     "ko": "수학",
-    "zh": "数学"
+    "zh": "数学",
+    "fr": "Mathématiques",
+    "de": "Mathematik",
+    "it": "Matematica",
+    "tr": "Matematik"
   },
   {
     "code": "treatment",
@@ -244,7 +316,11 @@
     "es": "Medicina general",
     "he": "רפואה כללית",
     "ko": "일반 의학",
-    "zh": "临床医学"
+    "zh": "临床医学",
+    "fr": "Médecine générale",
+    "de": "Allgemeinmedizin",
+    "it": "Medicina generale",
+    "tr": "Genel tıp"
   },
   {
     "code": "education",
@@ -257,7 +333,11 @@
     "es": "Educación",
     "he": "חינוך",
     "ko": "교육학",
-    "zh": "教育"
+    "zh": "教育",
+    "fr": "Éducation",
+    "de": "Bildung",
+    "it": "Istruzione",
+    "tr": "Eğitim"
   },
   {
     "code": "math_informatics",
@@ -270,7 +350,11 @@
     "es": "Matemáticas e informática",
     "he": "מתמטיקה ומדעי המחשב",
     "ko": "수학 및 정보학",
-    "zh": "数学与信息学"
+    "zh": "数学与信息学",
+    "fr": "Mathématiques et informatique",
+    "de": "Mathematik und Informatik",
+    "it": "Matematica e informatica",
+    "tr": "Matematik ve bilişim"
   },
   {
     "code": "business_administration",
@@ -283,7 +367,11 @@
     "es": "Administración de empresas",
     "he": "מנהל עסקים",
     "ko": "경영 관리학",
-    "zh": "工商管理"
+    "zh": "工商管理",
+    "fr": "Administration des affaires",
+    "de": "Betriebswirtschaftslehre",
+    "it": "Amministrazione aziendale",
+    "tr": "İşletme yönetimi"
   },
   {
     "code": "intl_relations",
@@ -296,7 +384,11 @@
     "es": "Relaciones internacionales",
     "he": "יחסים בינלאומיים",
     "ko": "국제관계학",
-    "zh": "国际关系"
+    "zh": "国际关系",
+    "fr": "Relations internationales",
+    "de": "Internationale Beziehungen",
+    "it": "Relazioni internazionali",
+    "tr": "Uluslararası ilişkiler"
   },
   {
     "code": "social_sciences_psychology",
@@ -309,7 +401,11 @@
     "es": "Ciencias sociales y psicología",
     "he": "מדעי החברה ופסיכולוגיה",
     "ko": "사회과학 및 심리학",
-    "zh": "社会科学与心理学"
+    "zh": "社会科学与心理学",
+    "fr": "Sciences sociales et psychologie",
+    "de": "Sozialwissenschaften und Psychologie",
+    "it": "Scienze sociali e psicologia",
+    "tr": "Sosyal bilimler ve psikoloji"
   },
   {
     "code": "energy",
@@ -322,7 +418,11 @@
     "es": "Energética",
     "he": "אנרגטיקה",
     "ko": "에너지학",
-    "zh": "能源"
+    "zh": "能源",
+    "fr": "Énergétique",
+    "de": "Energietechnik",
+    "it": "Energetica",
+    "tr": "Enerji"
   },
   {
     "code": "applied_math_cybernetics",
@@ -335,7 +435,11 @@
     "es": "Matemáticas aplicadas y cibernética",
     "he": "מתמטיקה שימושית וקיברנטיקה",
     "ko": "응용 수학 및 사이버네틱스",
-    "zh": "应用数学与控制论"
+    "zh": "应用数学与控制论",
+    "fr": "Mathématiques appliquées et cybernétique",
+    "de": "Angewandte Mathematik und Kybernetik",
+    "it": "Matematica applicata e cibernetica",
+    "tr": "Uygulamalı matematik ve sibernetik"
   },
   {
     "code": "accounting",
@@ -348,7 +452,11 @@
     "es": "Contabilidad",
     "he": "חשבונאות",
     "ko": "회계학",
-    "zh": "会计"
+    "zh": "会计",
+    "fr": "Comptabilité",
+    "de": "Buchführung",
+    "it": "Contabilità",
+    "tr": "Muhasebe"
   },
   {
     "code": "management",
@@ -361,7 +469,11 @@
     "es": "Gestión",
     "he": "ניהול",
     "ko": "경영학",
-    "zh": "管理"
+    "zh": "管理",
+    "fr": "Management",
+    "de": "Management",
+    "it": "Management",
+    "tr": "Yönetim"
   },
   {
     "code": "accounting_audit",
@@ -374,7 +486,11 @@
     "es": "Contabilidad y auditoría",
     "he": "חשבונאות וביקורת",
     "ko": "회계 및 감사학",
-    "zh": "会计与审计"
+    "zh": "会计与审计",
+    "fr": "Comptabilité et audit",
+    "de": "Buchführung und Wirtschaftsprüfung",
+    "it": "Contabilità e revisione",
+    "tr": "Muhasebe ve denetim"
   },
   {
     "code": "mechanics_mathematics",
@@ -387,7 +503,11 @@
     "es": "Mecánica y matemáticas",
     "he": "מכניקה ומתמטיקה",
     "ko": "역학 및 수학",
-    "zh": "力学与数学"
+    "zh": "力学与数学",
+    "fr": "Mécanique et mathématiques",
+    "de": "Mechanik und Mathematik",
+    "it": "Meccanica e matematica",
+    "tr": "Mekanik ve matematik"
   },
   {
     "code": "oil_gas_field",
@@ -400,7 +520,11 @@
     "es": "Extracción de petróleo y gas",
     "he": "הפקת נפט וגז",
     "ko": "석유·가스 채굴",
-    "zh": "石油与天然气开采"
+    "zh": "石油与天然气开采",
+    "fr": "Exploitation pétrolière et gazière",
+    "de": "Erdöl- und Erdgasförderung",
+    "it": "Estrazione di petrolio e gas",
+    "tr": "Petrol ve gaz üretimi"
   },
   {
     "code": "general_economics",
@@ -413,7 +537,11 @@
     "es": "Economía general",
     "he": "כלכלה כללית",
     "ko": "일반 경제학",
-    "zh": "普通经济学"
+    "zh": "普通经济学",
+    "fr": "Économie générale",
+    "de": "Allgemeine Wirtschaftswissenschaft",
+    "it": "Economia generale",
+    "tr": "Genel iktisat"
   },
   {
     "code": "foreign_languages",
@@ -426,7 +554,11 @@
     "es": "Idiomas extranjeros",
     "he": "שפות זרות",
     "ko": "외국어학",
-    "zh": "外语"
+    "zh": "外语",
+    "fr": "Langues étrangères",
+    "de": "Fremdsprachen",
+    "it": "Lingue straniere",
+    "tr": "Yabancı diller"
   },
   {
     "code": "finance_accounting",
@@ -439,7 +571,11 @@
     "es": "Finanzas y contabilidad",
     "he": "מימון וחשבונאות",
     "ko": "재무 및 회계학",
-    "zh": "金融与会计"
+    "zh": "金融与会计",
+    "fr": "Finance et comptabilité",
+    "de": "Finanzen und Buchführung",
+    "it": "Finanza e contabilità",
+    "tr": "Maliye ve muhasebe"
   },
   {
     "code": "oil_mechanics",
@@ -452,7 +588,11 @@
     "es": "Mecánica petrolera",
     "he": "מכניקת נפט",
     "ko": "석유 기계학",
-    "zh": "石油机械"
+    "zh": "石油机械",
+    "fr": "Mécanique pétrolière",
+    "de": "Erdölmechanik",
+    "it": "Meccanica petrolifera",
+    "tr": "Petrol mekaniği"
   },
   {
     "code": "jurisprudence",
@@ -465,7 +605,11 @@
     "es": "Jurisprudencia",
     "he": "תורת המשפט",
     "ko": "법률학",
-    "zh": "法学"
+    "zh": "法学",
+    "fr": "Sciences juridiques",
+    "de": "Rechtswissenschaft",
+    "it": "Giurisprudenza",
+    "tr": "Hukuk bilimleri"
   },
   {
     "code": "administration",
@@ -478,7 +622,11 @@
     "es": "Administración",
     "he": "מנהל",
     "ko": "행정학",
-    "zh": "管理学"
+    "zh": "管理学",
+    "fr": "Administration",
+    "de": "Verwaltung",
+    "it": "Amministrazione",
+    "tr": "İdare"
   },
   {
     "code": "translation",
@@ -491,7 +639,11 @@
     "es": "Traducción",
     "he": "תרגום",
     "ko": "번역학",
-    "zh": "翻译"
+    "zh": "翻译",
+    "fr": "Traduction",
+    "de": "Übersetzung",
+    "it": "Traduzione",
+    "tr": "Çeviri"
   },
   {
     "code": "public_administration",
@@ -504,7 +656,11 @@
     "es": "Administración pública",
     "he": "מנהל ציבורי",
     "ko": "공공 행정학",
-    "zh": "公共管理"
+    "zh": "公共管理",
+    "fr": "Administration publique",
+    "de": "Öffentliche Verwaltung",
+    "it": "Amministrazione pubblica",
+    "tr": "Kamu yönetimi"
   },
   {
     "code": "journalism",
@@ -517,7 +673,11 @@
     "es": "Periodismo",
     "he": "עיתונאות",
     "ko": "저널리즘",
-    "zh": "新闻学"
+    "zh": "新闻学",
+    "fr": "Journalisme",
+    "de": "Journalistik",
+    "it": "Giornalismo",
+    "tr": "Gazetecilik"
   },
   {
     "code": "construction",
@@ -530,7 +690,11 @@
     "es": "Construcción",
     "he": "בנייה",
     "ko": "건설학",
-    "zh": "建筑施工"
+    "zh": "建筑施工",
+    "fr": "Construction",
+    "de": "Bauwesen",
+    "it": "Costruzioni",
+    "tr": "İnşaat"
   },
   {
     "code": "it_management",
@@ -543,7 +707,11 @@
     "es": "Tecnologías de la información y gestión",
     "he": "טכנולוגיות מידע וניהול",
     "ko": "정보기술 및 경영학",
-    "zh": "信息技术与管理"
+    "zh": "信息技术与管理",
+    "fr": "Technologies de l'information et gestion",
+    "de": "Informationstechnologien und Verwaltung",
+    "it": "Tecnologie dell'informazione e gestione",
+    "tr": "Bilişim teknolojileri ve yönetim"
   },
   {
     "code": "geology",
@@ -556,7 +724,11 @@
     "es": "Geología",
     "he": "גיאולוגיה",
     "ko": "지질학",
-    "zh": "地质学"
+    "zh": "地质学",
+    "fr": "Géologie",
+    "de": "Geologie",
+    "it": "Geologia",
+    "tr": "Jeoloji"
   },
   {
     "code": "primary_education",
@@ -569,7 +741,11 @@
     "es": "Educación primaria",
     "he": "חינוך יסודי",
     "ko": "초등교육",
-    "zh": "小学教育"
+    "zh": "小学教育",
+    "fr": "Enseignement primaire",
+    "de": "Grundschulbildung",
+    "it": "Istruzione primaria",
+    "tr": "İlköğretim"
   },
   {
     "code": "intl_economic_relations",
@@ -582,7 +758,11 @@
     "es": "Relaciones económicas internacionales",
     "he": "יחסים כלכליים בינלאומיים",
     "ko": "국제 경제 관계학",
-    "zh": "国际经济关系"
+    "zh": "国际经济关系",
+    "fr": "Relations économiques internationales",
+    "de": "Internationale Wirtschaftsbeziehungen",
+    "it": "Relazioni economiche internazionali",
+    "tr": "Uluslararası ekonomik ilişkiler"
   },
   {
     "code": "construction_economics",
@@ -595,7 +775,11 @@
     "es": "Economía de la construcción",
     "he": "כלכלת הבנייה",
     "ko": "건설 경제학",
-    "zh": "建筑经济"
+    "zh": "建筑经济",
+    "fr": "Économie de la construction",
+    "de": "Bauwirtschaft",
+    "it": "Economia delle costruzioni",
+    "tr": "İnşaat ekonomisi"
   },
   {
     "code": "social_work",
@@ -608,7 +792,11 @@
     "es": "Trabajo social",
     "he": "עבודה סוציאלית",
     "ko": "사회복지학",
-    "zh": "社会工作"
+    "zh": "社会工作",
+    "fr": "Travail social",
+    "de": "Sozialarbeit",
+    "it": "Servizio sociale",
+    "tr": "Sosyal hizmet"
   },
   {
     "code": "agronomy",
@@ -621,7 +809,11 @@
     "es": "Agronomía",
     "he": "אגרונומיה",
     "ko": "농학",
-    "zh": "农学"
+    "zh": "农学",
+    "fr": "Agronomie",
+    "de": "Agronomie",
+    "it": "Agronomia",
+    "tr": "Agronomi"
   },
   {
     "code": "primary_teaching",
@@ -634,7 +826,11 @@
     "es": "Docencia en educación primaria",
     "he": "הוראה בחינוך היסודי",
     "ko": "초등학교 교육",
-    "zh": "小学教学"
+    "zh": "小学教学",
+    "fr": "Enseignement en école primaire",
+    "de": "Grundschullehramt",
+    "it": "Insegnamento nella scuola primaria",
+    "tr": "Sınıf öğretmenliği"
   },
   {
     "code": "oriental_studies",
@@ -647,7 +843,11 @@
     "es": "Estudios orientales",
     "he": "לימודי המזרח",
     "ko": "동양학",
-    "zh": "东方学"
+    "zh": "东方学",
+    "fr": "Études orientales",
+    "de": "Orientalistik",
+    "it": "Studi orientali",
+    "tr": "Doğu bilimleri"
   },
   {
     "code": "preschool_education",
@@ -660,7 +860,11 @@
     "es": "Educación infantil",
     "he": "חינוך לגיל הרך",
     "ko": "취학 전 교육",
-    "zh": "学前教育"
+    "zh": "学前教育",
+    "fr": "Éducation préscolaire",
+    "de": "Vorschulbildung",
+    "it": "Istruzione prescolare",
+    "tr": "Okul öncesi eğitim"
   },
   {
     "code": "nursing",
@@ -673,7 +877,11 @@
     "es": "Enfermería",
     "he": "סיעוד",
     "ko": "간호학",
-    "zh": "护理"
+    "zh": "护理",
+    "fr": "Soins infirmiers",
+    "de": "Krankenpflege",
+    "it": "Scienze infermieristiche",
+    "tr": "Hemşirelik"
   },
   {
     "code": "design",
@@ -686,7 +894,11 @@
     "es": "Diseño",
     "he": "עיצוב",
     "ko": "디자인",
-    "zh": "设计"
+    "zh": "设计",
+    "fr": "Design",
+    "de": "Design",
+    "it": "Design",
+    "tr": "Tasarım"
   },
   {
     "code": "chemical_technology",
@@ -699,7 +911,11 @@
     "es": "Tecnología química",
     "he": "טכנולוגיה כימית",
     "ko": "화학 공업 기술",
-    "zh": "化学工艺"
+    "zh": "化学工艺",
+    "fr": "Technologie chimique",
+    "de": "Chemietechnologie",
+    "it": "Tecnologia chimica",
+    "tr": "Kimya teknolojisi"
   },
   {
     "code": "banking",
@@ -712,7 +928,11 @@
     "es": "Banca",
     "he": "בנקאות",
     "ko": "은행학",
-    "zh": "银行业"
+    "zh": "银行业",
+    "fr": "Activité bancaire",
+    "de": "Bankwesen",
+    "it": "Attività bancaria",
+    "tr": "Bankacılık"
   },
   {
     "code": "ecology",
@@ -725,7 +945,11 @@
     "es": "Ecología",
     "he": "אקולוגיה",
     "ko": "생태학",
-    "zh": "生态学"
+    "zh": "生态学",
+    "fr": "Écologie",
+    "de": "Ökologie",
+    "it": "Ecologia",
+    "tr": "Ekoloji"
   },
   {
     "code": "finance_affairs",
@@ -738,7 +962,11 @@
     "es": "Asuntos financieros",
     "he": "ענייני כספים",
     "ko": "재정 업무",
-    "zh": "财务事务"
+    "zh": "财务事务",
+    "fr": "Affaires financières",
+    "de": "Finanzwirtschaft",
+    "it": "Affari finanziari",
+    "tr": "Maliye işleri"
   },
   {
     "code": "pharmacy",
@@ -751,7 +979,11 @@
     "es": "Farmacia",
     "he": "רוקחות",
     "ko": "약학",
-    "zh": "药学"
+    "zh": "药学",
+    "fr": "Pharmacie",
+    "de": "Pharmazie",
+    "it": "Farmacia",
+    "tr": "Eczacılık"
   },
   {
     "code": "tourism",
@@ -764,7 +996,11 @@
     "es": "Turismo",
     "he": "תיירות",
     "ko": "관광학",
-    "zh": "旅游"
+    "zh": "旅游",
+    "fr": "Tourisme",
+    "de": "Tourismus",
+    "it": "Turismo",
+    "tr": "Turizm"
   },
   {
     "code": "finance_credit",
@@ -777,7 +1013,11 @@
     "es": "Finanzas y crédito",
     "he": "מימון ואשראי",
     "ko": "재무 및 신용학",
-    "zh": "金融与信贷"
+    "zh": "金融与信贷",
+    "fr": "Finance et crédit",
+    "de": "Finanzen und Kredit",
+    "it": "Finanza e credito",
+    "tr": "Maliye ve kredi"
   },
   {
     "code": "english_language",
@@ -790,7 +1030,11 @@
     "es": "Lengua inglesa",
     "he": "השפה האנגלית",
     "ko": "영어학",
-    "zh": "英语"
+    "zh": "英语",
+    "fr": "Langue anglaise",
+    "de": "Englische Sprache",
+    "it": "Lingua inglese",
+    "tr": "İngiliz dili"
   },
   {
     "code": "intl_relations_regional",
@@ -803,7 +1047,11 @@
     "es": "Relaciones internacionales y estudios regionales",
     "he": "יחסים בינלאומיים ולימודי אזור",
     "ko": "국제관계 및 지역학",
-    "zh": "国际关系与地区研究"
+    "zh": "国际关系与地区研究",
+    "fr": "Relations internationales et études régionales",
+    "de": "Internationale Beziehungen und Regionalstudien",
+    "it": "Relazioni internazionali e studi regionali",
+    "tr": "Uluslararası ilişkiler ve bölge bilimleri"
   },
   {
     "code": "culturology",
@@ -816,7 +1064,11 @@
     "es": "Culturología",
     "he": "תורת התרבות",
     "ko": "문화학",
-    "zh": "文化学"
+    "zh": "文化学",
+    "fr": "Culturologie",
+    "de": "Kulturwissenschaft",
+    "it": "Culturologia",
+    "tr": "Kültüroloji"
   },
   {
     "code": "business_organization",
@@ -829,7 +1081,11 @@
     "es": "Organización y gestión de empresas",
     "he": "ארגון וניהול עסקים",
     "ko": "사업 조직 및 경영학",
-    "zh": "企业组织与管理"
+    "zh": "企业组织与管理",
+    "fr": "Organisation et gestion des affaires",
+    "de": "Betriebsorganisation und -führung",
+    "it": "Organizzazione e gestione d'impresa",
+    "tr": "İşletmenin örgütlenmesi ve yönetimi"
   },
   {
     "code": "geological_exploration",
@@ -842,7 +1098,11 @@
     "es": "Exploración geológica",
     "he": "חיפושים גיאולוגיים",
     "ko": "지질 탐사학",
-    "zh": "地质勘探"
+    "zh": "地质勘探",
+    "fr": "Exploration géologique",
+    "de": "Geologische Erkundung",
+    "it": "Esplorazione geologica",
+    "tr": "Jeolojik arama"
   },
   {
     "code": "architecture",
@@ -855,7 +1115,11 @@
     "es": "Arquitectura",
     "he": "אדריכלות",
     "ko": "건축학",
-    "zh": "建筑学"
+    "zh": "建筑学",
+    "fr": "Architecture",
+    "de": "Architektur",
+    "it": "Architettura",
+    "tr": "Mimarlık"
   },
   {
     "code": "merchandising",
@@ -868,7 +1132,11 @@
     "es": "Merchandising",
     "he": "מרצ'נדייזינג",
     "ko": "상품학",
-    "zh": "商品学"
+    "zh": "商品学",
+    "fr": "Étude des marchandises",
+    "de": "Warenkunde",
+    "it": "Merceologia",
+    "tr": "Emtia bilimi"
   },
   {
     "code": "world_economy",
@@ -881,7 +1149,11 @@
     "es": "Economía mundial",
     "he": "כלכלה עולמית",
     "ko": "세계 경제학",
-    "zh": "世界经济"
+    "zh": "世界经济",
+    "fr": "Économie mondiale",
+    "de": "Weltwirtschaft",
+    "it": "Economia mondiale",
+    "tr": "Dünya ekonomisi"
   },
   {
     "code": "treatment_prophylaxis",
@@ -894,7 +1166,11 @@
     "es": "Medicina y profilaxis",
     "he": "רפואה ומנע",
     "ko": "치료 및 예방 의학",
-    "zh": "医疗与预防"
+    "zh": "医疗与预防",
+    "fr": "Médecine curative et préventive",
+    "de": "Kurative und präventive Medizin",
+    "it": "Medicina curativa e preventiva",
+    "tr": "Tedavi ve koruyucu hekimlik"
   },
   {
     "code": "physics_electric_power",
@@ -907,7 +1183,11 @@
     "es": "Física y energía eléctrica",
     "he": "פיזיקה ואנרגיית חשמל",
     "ko": "물리학 및 전력공학",
-    "zh": "物理与电力"
+    "zh": "物理与电力",
+    "fr": "Physique et électroénergétique",
+    "de": "Physik und Elektroenergetik",
+    "it": "Fisica ed elettroenergetica",
+    "tr": "Fizik ve elektroenerji"
   },
   {
     "code": "family_home_education",
@@ -920,7 +1200,11 @@
     "es": "Educación familiar y del hogar",
     "he": "חינוך למשפחה ולבית",
     "ko": "가정 교육",
-    "zh": "家庭与家政教育"
+    "zh": "家庭与家政教育",
+    "fr": "Éducation familiale et domestique",
+    "de": "Familien- und Hauswirtschaftsbildung",
+    "it": "Educazione familiare e domestica",
+    "tr": "Aile ve ev eğitimi"
   },
   {
     "code": "business_economics",
@@ -933,7 +1217,11 @@
     "es": "Negocios y economía",
     "he": "עסקים וכלכלה",
     "ko": "경영경제학",
-    "zh": "商业与经济"
+    "zh": "商业与经济",
+    "fr": "Commerce et économie",
+    "de": "Betriebswirtschaft und Ökonomie",
+    "it": "Business ed economia",
+    "tr": "İşletme ve iktisat"
   },
   {
     "code": "transport_logistics",
@@ -946,7 +1234,11 @@
     "es": "Transporte y logística",
     "he": "תחבורה ולוגיסטיקה",
     "ko": "운송 및 물류",
-    "zh": "运输与物流"
+    "zh": "运输与物流",
+    "fr": "Transport et logistique",
+    "de": "Verkehr und Logistik",
+    "it": "Trasporti e logistica",
+    "tr": "Ulaştırma ve lojistik"
   },
   {
     "code": "information_technologies",
@@ -959,7 +1251,11 @@
     "es": "Tecnologías de la información",
     "he": "טכנולוגיות מידע",
     "ko": "정보 기술",
-    "zh": "信息技术"
+    "zh": "信息技术",
+    "fr": "Technologies de l'information",
+    "de": "Informationstechnologien",
+    "it": "Tecnologie dell'informazione",
+    "tr": "Bilişim teknolojileri"
   },
   {
     "code": "metallurgy",
@@ -972,7 +1268,11 @@
     "es": "Metalurgia",
     "he": "מטלורגיה",
     "ko": "야금학",
-    "zh": "冶金学"
+    "zh": "冶金学",
+    "fr": "Métallurgie",
+    "de": "Metallurgie",
+    "it": "Metallurgia",
+    "tr": "Metalurji"
   },
   {
     "code": "preschool_teaching",
@@ -985,7 +1285,11 @@
     "es": "Docencia y crianza en educación infantil",
     "he": "הוראה וחינוך בגיל הרך",
     "ko": "취학 전 교육 및 보육",
-    "zh": "学前教育与保育"
+    "zh": "学前教育与保育",
+    "fr": "Enseignement et éducation préscolaires",
+    "de": "Vorschulunterricht und -erziehung",
+    "it": "Insegnamento ed educazione prescolare",
+    "tr": "Okul öncesi öğretim ve eğitim"
   },
   {
     "code": "ecology_soil_science",
@@ -998,7 +1302,11 @@
     "es": "Ecología y edafología",
     "he": "אקולוגיה ומדעי הקרקע",
     "ko": "생태학 및 토양학",
-    "zh": "生态学与土壤学"
+    "zh": "生态学与土壤学",
+    "fr": "Écologie et pédologie",
+    "de": "Ökologie und Bodenkunde",
+    "it": "Ecologia e pedologia",
+    "tr": "Ekoloji ve toprak bilimi"
   },
   {
     "code": "psychology",
@@ -1011,7 +1319,11 @@
     "es": "Psicología",
     "he": "פסיכולוגיה",
     "ko": "심리학",
-    "zh": "心理学"
+    "zh": "心理学",
+    "fr": "Psychologie",
+    "de": "Psychologie",
+    "it": "Psicologia",
+    "tr": "Psikoloji"
   },
   {
     "code": "regional_studies_economics",
@@ -1024,7 +1336,11 @@
     "es": "Estudios regionales y economía",
     "he": "לימודי אזור וכלכלה",
     "ko": "지역학 및 경제학",
-    "zh": "地区研究与经济"
+    "zh": "地区研究与经济",
+    "fr": "Études régionales et économie",
+    "de": "Regionalstudien und Wirtschaft",
+    "it": "Studi regionali ed economia",
+    "tr": "Bölge bilimleri ve iktisat"
   },
   {
     "code": "technology_design",
@@ -1037,7 +1353,11 @@
     "es": "Tecnología y diseño",
     "he": "טכנולוגיה ועיצוב",
     "ko": "기술 및 디자인",
-    "zh": "工艺与设计"
+    "zh": "工艺与设计",
+    "fr": "Technologie et design",
+    "de": "Technologie und Design",
+    "it": "Tecnologia e design",
+    "tr": "Teknoloji ve tasarım"
   },
   {
     "code": "medicine",
@@ -1050,7 +1370,11 @@
     "es": "Medicina",
     "he": "רפואה",
     "ko": "의학",
-    "zh": "医学"
+    "zh": "医学",
+    "fr": "Médecine",
+    "de": "Medizin",
+    "it": "Medicina",
+    "tr": "Tıp"
   },
   {
     "code": "coaching",
@@ -1063,7 +1387,11 @@
     "es": "Entrenamiento deportivo",
     "he": "אימון ספורט",
     "ko": "스포츠 코칭",
-    "zh": "运动训练"
+    "zh": "运动训练",
+    "fr": "Entraînement sportif",
+    "de": "Sporttraining",
+    "it": "Allenamento sportivo",
+    "tr": "Antrenörlük"
   },
   {
     "code": "tourism_hospitality",
@@ -1076,7 +1404,11 @@
     "es": "Turismo y hostelería",
     "he": "תיירות ומלונאות",
     "ko": "관광 및 호스피탤리티",
-    "zh": "旅游与酒店服务"
+    "zh": "旅游与酒店服务",
+    "fr": "Tourisme et hôtellerie",
+    "de": "Tourismus und Gastgewerbe",
+    "it": "Turismo e ospitalità",
+    "tr": "Turizm ve konukseverlik"
   },
   {
     "code": "history_philology",
@@ -1089,7 +1421,11 @@
     "es": "Historia y filología",
     "he": "היסטוריה ופילולוגיה",
     "ko": "역사 및 문헌학",
-    "zh": "历史与语文学"
+    "zh": "历史与语文学",
+    "fr": "Histoire et philologie",
+    "de": "Geschichte und Philologie",
+    "it": "Storia e filologia",
+    "tr": "Tarih ve filoloji"
   },
   {
     "code": "commerce",
@@ -1102,7 +1438,11 @@
     "es": "Comercio",
     "he": "מסחר",
     "ko": "상학",
-    "zh": "商贸"
+    "zh": "商贸",
+    "fr": "Commerce",
+    "de": "Handel",
+    "it": "Commercio",
+    "tr": "Ticaret"
   },
   {
     "code": "foreign_lang_teaching",
@@ -1115,7 +1455,11 @@
     "es": "Docencia de idiomas extranjeros",
     "he": "הוראת שפות זרות",
     "ko": "외국어 교육",
-    "zh": "外语教学"
+    "zh": "外语教学",
+    "fr": "Enseignement des langues étrangères",
+    "de": "Fremdsprachenlehramt",
+    "it": "Insegnamento delle lingue straniere",
+    "tr": "Yabancı dil öğretmenliği"
   },
   {
     "code": "machine_building",
@@ -1128,7 +1472,11 @@
     "es": "Construcción de maquinaria",
     "he": "בניית מכונות",
     "ko": "기계 제작",
-    "zh": "机械制造"
+    "zh": "机械制造",
+    "fr": "Construction de machines",
+    "de": "Maschinenbau",
+    "it": "Costruzione di macchine",
+    "tr": "Makine imalatı"
   },
   {
     "code": "pediatrics",
@@ -1141,7 +1489,11 @@
     "es": "Pediatría",
     "he": "רפואת ילדים",
     "ko": "소아과학",
-    "zh": "儿科"
+    "zh": "儿科",
+    "fr": "Pédiatrie",
+    "de": "Pädiatrie",
+    "it": "Pediatria",
+    "tr": "Pediatri"
   },
   {
     "code": "political_management",
@@ -1154,7 +1506,11 @@
     "es": "Gestión política",
     "he": "ניהול פוליטי",
     "ko": "정치 경영학",
-    "zh": "政治管理"
+    "zh": "政治管理",
+    "fr": "Gestion politique",
+    "de": "Politisches Management",
+    "it": "Gestione politica",
+    "tr": "Siyasi yönetim"
   },
   {
     "code": "mechanics_it",
@@ -1167,7 +1523,11 @@
     "es": "Mecánica y tecnologías de la información",
     "he": "מכניקה וטכנולוגיות מידע",
     "ko": "역학 및 정보기술",
-    "zh": "力学与信息技术"
+    "zh": "力学与信息技术",
+    "fr": "Mécanique et technologies de l'information",
+    "de": "Mechanik und Informationstechnologien",
+    "it": "Meccanica e tecnologie dell'informazione",
+    "tr": "Mekanik ve bilişim teknolojileri"
   },
   {
     "code": "agrarian_engineering",
@@ -1180,7 +1540,11 @@
     "es": "Estudios agrarios e ingeniería",
     "he": "לימודי חקלאות והנדסה",
     "ko": "농학 및 공학",
-    "zh": "农学与工程"
+    "zh": "农学与工程",
+    "fr": "Sciences agraires et ingénierie",
+    "de": "Agrarwissenschaften und Ingenieurwesen",
+    "it": "Scienze agrarie e ingegneria",
+    "tr": "Tarım bilimleri ve mühendislik"
   },
   {
     "code": "water_engineering",
@@ -1193,7 +1557,11 @@
     "es": "Gestión del agua y sistemas de comunicaciones de ingeniería",
     "he": "ניהול מים ומערכות תקשורת הנדסיות",
     "ko": "수자원 관리 및 공학 통신 시스템",
-    "zh": "水利与工程管网系统"
+    "zh": "水利与工程管网系统",
+    "fr": "Gestion de l'eau et systèmes de communication technique",
+    "de": "Wasserwirtschaft und technische Kommunikationssysteme",
+    "it": "Gestione delle acque e sistemi tecnici di comunicazione",
+    "tr": "Su ekonomisi ve mühendislik iletişim sistemleri"
   },
   {
     "code": "dentistry",
@@ -1206,7 +1574,11 @@
     "es": "Odontología",
     "he": "רפואת שיניים",
     "ko": "치의학",
-    "zh": "口腔医学"
+    "zh": "口腔医学",
+    "fr": "Odontologie",
+    "de": "Zahnmedizin",
+    "it": "Odontoiatria",
+    "tr": "Diş hekimliği"
   },
   {
     "code": "humanities_social_sciences",
@@ -1219,7 +1591,11 @@
     "es": "Humanidades y ciencias sociales",
     "he": "מדעי הרוח והחברה",
     "ko": "인문 및 사회과학",
-    "zh": "人文与社会科学"
+    "zh": "人文与社会科学",
+    "fr": "Sciences humaines et sociales",
+    "de": "Geistes- und Sozialwissenschaften",
+    "it": "Scienze umane e sociali",
+    "tr": "Beşeri ve sosyal bilimler"
   },
   {
     "code": "painting_art",
@@ -1232,7 +1608,11 @@
     "es": "Pintura",
     "he": "ציור",
     "ko": "회화",
-    "zh": "绘画"
+    "zh": "绘画",
+    "fr": "Arts plastiques",
+    "de": "Malkunst",
+    "it": "Arti pittoriche",
+    "tr": "Ressamlık"
   },
   {
     "code": "energy_automation",
@@ -1245,7 +1625,11 @@
     "es": "Energética y automatización",
     "he": "אנרגטיקה ואוטומציה",
     "ko": "에너지 및 자동화",
-    "zh": "能源与自动化"
+    "zh": "能源与自动化",
+    "fr": "Énergétique et automatique",
+    "de": "Energietechnik und Automatisierung",
+    "it": "Energetica e automazione",
+    "tr": "Enerji ve otomasyon"
   },
   {
     "code": "humanities",
@@ -1258,7 +1642,11 @@
     "es": "Humanidades",
     "he": "מדעי הרוח",
     "ko": "인문학",
-    "zh": "人文学科"
+    "zh": "人文学科",
+    "fr": "Sciences humaines",
+    "de": "Geisteswissenschaften",
+    "it": "Scienze umanistiche",
+    "tr": "Beşeri bilimler"
   },
   {
     "code": "digital_economy",
@@ -1271,7 +1659,11 @@
     "es": "Economía digital",
     "he": "כלכלה דיגיטלית",
     "ko": "디지털 경제학",
-    "zh": "数字经济"
+    "zh": "数字经济",
+    "fr": "Économie numérique",
+    "de": "Digitale Wirtschaft",
+    "it": "Economia digitale",
+    "tr": "Dijital ekonomi"
   },
   {
     "code": "marketing",
@@ -1284,7 +1676,11 @@
     "es": "Marketing",
     "he": "שיווק",
     "ko": "마케팅",
-    "zh": "市场营销"
+    "zh": "市场营销",
+    "fr": "Marketing",
+    "de": "Marketing",
+    "it": "Marketing",
+    "tr": "Pazarlama"
   },
   {
     "code": "social_pedagogy",
@@ -1297,7 +1693,11 @@
     "es": "Pedagogía social",
     "he": "פדגוגיה חברתית",
     "ko": "사회 교육학",
-    "zh": "社会教育学"
+    "zh": "社会教育学",
+    "fr": "Pédagogie sociale",
+    "de": "Sozialpädagogik",
+    "it": "Pedagogia sociale",
+    "tr": "Sosyal pedagoji"
   },
   {
     "code": "special_technology",
@@ -1310,7 +1710,11 @@
     "es": "Maquinaria y tecnología especial",
     "he": "מכונות וטכנולוגיה מיוחדות",
     "ko": "특수 기계 및 기술",
-    "zh": "专用机械与工艺"
+    "zh": "专用机械与工艺",
+    "fr": "Machines et technologies spéciales",
+    "de": "Spezialmaschinen und -technologie",
+    "it": "Macchine e tecnologie speciali",
+    "tr": "Özel makine ve teknoloji"
   },
   {
     "code": "art_studies",
@@ -1323,7 +1727,11 @@
     "es": "Estudios de arte",
     "he": "לימודי אמנות",
     "ko": "예술 연구",
-    "zh": "艺术学"
+    "zh": "艺术学",
+    "fr": "Histoire de l'art",
+    "de": "Kunstwissenschaft",
+    "it": "Storia dell'arte",
+    "tr": "Sanat bilimi"
   },
   {
     "code": "info_telecom_technologies",
@@ -1336,7 +1744,11 @@
     "es": "Tecnologías de la información y telecomunicaciones",
     "he": "טכנולוגיות מידע ותקשורת",
     "ko": "정보통신 기술",
-    "zh": "信息与电信技术"
+    "zh": "信息与电信技术",
+    "fr": "Technologies de l'information et des télécommunications",
+    "de": "Informations- und Telekommunikationstechnologien",
+    "it": "Tecnologie dell'informazione e delle telecomunicazioni",
+    "tr": "Bilişim ve telekomünikasyon teknolojileri"
   },
   {
     "code": "agribusiness_management",
@@ -1349,7 +1761,11 @@
     "es": "Agronegocios y gestión",
     "he": "אגרו-עסקים וניהול",
     "ko": "농업 경영학",
-    "zh": "农业商业与管理"
+    "zh": "农业商业与管理",
+    "fr": "Agrobusiness et gestion",
+    "de": "Agrobusiness und Verwaltung",
+    "it": "Agrobusiness e gestione",
+    "tr": "Tarım işletmeciliği ve yönetim"
   },
   {
     "code": "sabah_groups",
@@ -1362,7 +1778,11 @@
     "es": "Grupos SABAH",
     "he": "קבוצות SABAH",
     "ko": "SABAH 그룹",
-    "zh": "SABAH 项目班"
+    "zh": "SABAH 项目班",
+    "fr": "Groupes SABAH",
+    "de": "SABAH-Gruppen",
+    "it": "Gruppi SABAH",
+    "tr": "SABAH grupları"
   },
   {
     "code": "physical_education_sport",
@@ -1375,7 +1795,11 @@
     "es": "Educación física y deporte",
     "he": "חינוך גופני וספורט",
     "ko": "체육 및 스포츠",
-    "zh": "体育与运动"
+    "zh": "体育与运动",
+    "fr": "Éducation physique et sport",
+    "de": "Sportunterricht und Sport",
+    "it": "Educazione fisica e sport",
+    "tr": "Beden eğitimi ve spor"
   },
   {
     "code": "physics_mathematics",
@@ -1388,7 +1812,11 @@
     "es": "Física y matemáticas",
     "he": "פיזיקה ומתמטיקה",
     "ko": "물리 및 수학",
-    "zh": "物理与数学"
+    "zh": "物理与数学",
+    "fr": "Physique et mathématiques",
+    "de": "Physik und Mathematik",
+    "it": "Fisica e matematica",
+    "tr": "Fizik ve matematik"
   },
   {
     "code": "engineering_economics",
@@ -1401,7 +1829,11 @@
     "es": "Economía y gestión de la ingeniería",
     "he": "כלכלה וניהול בהנדסה",
     "ko": "공업 경제 및 경영학",
-    "zh": "工程经济与管理"
+    "zh": "工程经济与管理",
+    "fr": "Économie de l'ingénierie et gestion",
+    "de": "Ingenieurökonomie und Verwaltung",
+    "it": "Economia ingegneristica e gestione",
+    "tr": "Mühendislik ekonomisi ve yönetim"
   },
   {
     "code": "school_psychological_service",
@@ -1414,7 +1846,11 @@
     "es": "Servicios sociales y psicológicos en la educación",
     "he": "שירותים חברתיים ופסיכולוגיים בחינוך",
     "ko": "학교 사회·심리 서비스",
-    "zh": "教育社会心理服务"
+    "zh": "教育社会心理服务",
+    "fr": "Service social et psychologique dans l'éducation",
+    "de": "Sozialpsychologischer Dienst im Bildungswesen",
+    "it": "Servizio sociale e psicologico nell'istruzione",
+    "tr": "Eğitimde sosyal-psikolojik hizmet"
   },
   {
     "code": "computer_engineering",
@@ -1427,7 +1863,11 @@
     "es": "Ingeniería informática",
     "he": "הנדסת מחשבים",
     "ko": "컴퓨터 공학",
-    "zh": "计算机工程"
+    "zh": "计算机工程",
+    "fr": "Génie informatique",
+    "de": "Computertechnik",
+    "it": "Ingegneria informatica",
+    "tr": "Bilgisayar mühendisliği"
   },
   {
     "code": "agrotechnology",
@@ -1440,7 +1880,11 @@
     "es": "Agrotecnología",
     "he": "אגרוטכנולוגיה",
     "ko": "농업 기술",
-    "zh": "农业技术"
+    "zh": "农业技术",
+    "fr": "Agrotechnologie",
+    "de": "Agrartechnologie",
+    "it": "Agrotecnologia",
+    "tr": "Tarım teknolojisi"
   },
   {
     "code": "food_engineering",
@@ -1453,7 +1897,11 @@
     "es": "Ingeniería alimentaria",
     "he": "הנדסת מזון",
     "ko": "식품 공학",
-    "zh": "食品工程"
+    "zh": "食品工程",
+    "fr": "Génie alimentaire",
+    "de": "Lebensmitteltechnik",
+    "it": "Ingegneria alimentare",
+    "tr": "Gıda mühendisliği"
   },
   {
     "code": "russian_school_economics",
@@ -1466,7 +1914,11 @@
     "es": "Escuela Rusa de Economía",
     "he": "בית הספר הרוסי לכלכלה",
     "ko": "러시아 경제대학",
-    "zh": "俄语经济学院"
+    "zh": "俄语经济学院",
+    "fr": "École russe d'économie",
+    "de": "Russische Wirtschaftsschule",
+    "it": "Scuola russa di economia",
+    "tr": "Rus İktisat Okulu"
   },
   {
     "code": "radio_engineering_communication",
@@ -1479,7 +1931,11 @@
     "es": "Radiotecnia y comunicaciones",
     "he": "הנדסת רדיו ותקשורת",
     "ko": "무선 공학 및 통신",
-    "zh": "无线电工程与通信"
+    "zh": "无线电工程与通信",
+    "fr": "Radiotechnique et communications",
+    "de": "Funktechnik und Kommunikation",
+    "it": "Radiotecnica e comunicazioni",
+    "tr": "Radyo tekniği ve iletişim"
   },
   {
     "code": "natural_history",
@@ -1492,7 +1948,11 @@
     "es": "Ciencias naturales",
     "he": "מדעי הטבע",
     "ko": "자연과학",
-    "zh": "自然科学"
+    "zh": "自然科学",
+    "fr": "Sciences de la nature",
+    "de": "Naturkunde",
+    "it": "Scienze naturali",
+    "tr": "Doğa bilimi"
   },
   {
     "code": "instrumental_performance",
@@ -1505,7 +1965,11 @@
     "es": "Interpretación instrumental",
     "he": "נגינה בכלי",
     "ko": "기악 연주",
-    "zh": "器乐演奏"
+    "zh": "器乐演奏",
+    "fr": "Interprétation instrumentale",
+    "de": "Instrumentales Musizieren",
+    "it": "Esecuzione strumentale",
+    "tr": "Enstrümantal icra"
   },
   {
     "code": "english_teaching",
@@ -1518,7 +1982,11 @@
     "es": "Docencia de lengua inglesa",
     "he": "הוראת אנגלית",
     "ko": "영어 교육",
-    "zh": "英语教学"
+    "zh": "英语教学",
+    "fr": "Enseignement de l'anglais",
+    "de": "Englischlehramt",
+    "it": "Insegnamento dell'inglese",
+    "tr": "İngilizce öğretmenliği"
   },
   {
     "code": "tourism_hotel",
@@ -1531,7 +1999,11 @@
     "es": "Turismo y gestión hotelera",
     "he": "תיירות וניהול מלונות",
     "ko": "관광 및 호텔 경영",
-    "zh": "旅游与酒店管理"
+    "zh": "旅游与酒店管理",
+    "fr": "Tourisme et hôtellerie-restauration",
+    "de": "Tourismus und Hotelwesen",
+    "it": "Turismo e gestione alberghiera",
+    "tr": "Turizm ve otelcilik"
   },
   {
     "code": "electrical_engineering_energy",
@@ -1544,7 +2016,11 @@
     "es": "Ingeniería eléctrica y energética",
     "he": "הנדסת חשמל ואנרגיה",
     "ko": "전기 및 전력 공학",
-    "zh": "电气工程与电力"
+    "zh": "电气工程与电力",
+    "fr": "Électrotechnique et énergétique",
+    "de": "Elektrotechnik und Energietechnik",
+    "it": "Elettrotecnica ed energetica",
+    "tr": "Elektroteknik ve enerji"
   },
   {
     "code": "natural_science_agriculture",
@@ -1557,7 +2033,11 @@
     "es": "Ciencias naturales y agricultura",
     "he": "מדעי הטבע וחקלאות",
     "ko": "자연과학 및 농업",
-    "zh": "自然科学与农业"
+    "zh": "自然科学与农业",
+    "fr": "Sciences naturelles et agriculture",
+    "de": "Naturwissenschaften und Landwirtschaft",
+    "it": "Scienze naturali e agricoltura",
+    "tr": "Doğa bilimleri ve tarım"
   },
   {
     "code": "architecture_engineering",
@@ -1570,7 +2050,11 @@
     "es": "Arquitectura e ingeniería",
     "he": "אדריכלות והנדסה",
     "ko": "건축 및 공학",
-    "zh": "建筑学与工程"
+    "zh": "建筑学与工程",
+    "fr": "Architecture et ingénierie",
+    "de": "Architektur und Ingenieurwesen",
+    "it": "Architettura e ingegneria",
+    "tr": "Mimarlık ve mühendislik"
   },
   {
     "code": "industrial_organization",
@@ -1583,7 +2067,11 @@
     "es": "Organización y gestión industrial",
     "he": "ארגון וניהול תעשייתי",
     "ko": "산업 조직 및 경영학",
-    "zh": "工业组织与管理"
+    "zh": "工业组织与管理",
+    "fr": "Organisation et gestion de l'industrie",
+    "de": "Organisation und Führung der Industrie",
+    "it": "Organizzazione e gestione industriale",
+    "tr": "Sanayinin örgütlenmesi ve yönetimi"
   },
   {
     "code": "traffic_organization",
@@ -1596,7 +2084,11 @@
     "es": "Organización del tráfico",
     "he": "ארגון התנועה",
     "ko": "교통 조직",
-    "zh": "交通组织"
+    "zh": "交通组织",
+    "fr": "Organisation de la circulation routière",
+    "de": "Organisation des Straßenverkehrs",
+    "it": "Organizzazione del traffico",
+    "tr": "Yol trafiğinin düzenlenmesi"
   },
   {
     "code": "medical_prophylaxis",
@@ -1609,7 +2101,11 @@
     "es": "Profilaxis médica",
     "he": "רפואה מונעת",
     "ko": "예방 의학",
-    "zh": "医学预防"
+    "zh": "医学预防",
+    "fr": "Prophylaxie médicale",
+    "de": "Medizinische Prophylaxe",
+    "it": "Profilassi medica",
+    "tr": "Tıbbi koruma"
   },
   {
     "code": "state_municipal_administration",
@@ -1622,7 +2118,11 @@
     "es": "Administración estatal y municipal",
     "he": "מנהל ממשלתי ומוניציפלי",
     "ko": "국가 및 지방 행정학",
-    "zh": "国家与市政管理"
+    "zh": "国家与市政管理",
+    "fr": "Administration d'État et municipale",
+    "de": "Staatliche und kommunale Verwaltung",
+    "it": "Amministrazione statale e municipale",
+    "tr": "Devlet ve belediye yönetimi"
   },
   {
     "code": "machine_building_robotics",
@@ -1635,7 +2135,11 @@
     "es": "Construcción de maquinaria y robótica",
     "he": "בניית מכונות ורובוטיקה",
     "ko": "기계 제작 및 로봇공학",
-    "zh": "机械制造与机器人"
+    "zh": "机械制造与机器人",
+    "fr": "Construction de machines et robotique",
+    "de": "Maschinenbau und Robotik",
+    "it": "Costruzione di macchine e robotica",
+    "tr": "Makine imalatı ve robotik"
   },
   {
     "code": "midwifery",
@@ -1648,7 +2152,11 @@
     "es": "Obstetricia",
     "he": "מיילדות",
     "ko": "조산학",
-    "zh": "助产"
+    "zh": "助产",
+    "fr": "Maïeutique",
+    "de": "Geburtshilfe",
+    "it": "Ostetricia",
+    "tr": "Ebelik"
   },
   {
     "code": "air_transport",
@@ -1661,7 +2169,11 @@
     "es": "Transporte aéreo",
     "he": "תעופה",
     "ko": "항공 운송",
-    "zh": "航空运输"
+    "zh": "航空运输",
+    "fr": "Transport aérien",
+    "de": "Luftverkehr",
+    "it": "Trasporto aereo",
+    "tr": "Hava taşımacılığı"
   },
   {
     "code": "aerospace",
@@ -1674,7 +2186,11 @@
     "es": "Aeroespacial",
     "he": "חלל ואווירונאוטיקה",
     "ko": "항공우주학",
-    "zh": "航空航天"
+    "zh": "航空航天",
+    "fr": "Aérospatial",
+    "de": "Luft- und Raumfahrt",
+    "it": "Aerospaziale",
+    "tr": "Havacılık ve uzay"
   },
   {
     "code": "computer_science",
@@ -1687,7 +2203,11 @@
     "es": "Ciencias de la computación",
     "he": "מדעי המחשב",
     "ko": "컴퓨터 과학",
-    "zh": "计算机科学"
+    "zh": "计算机科学",
+    "fr": "Sciences informatiques",
+    "de": "Informatik",
+    "it": "Scienze informatiche",
+    "tr": "Bilgisayar bilimleri"
   },
   {
     "code": "informatics",
@@ -1700,7 +2220,11 @@
     "es": "Informática",
     "he": "אינפורמטיקה",
     "ko": "정보학",
-    "zh": "信息学"
+    "zh": "信息学",
+    "fr": "Informatique",
+    "de": "Informationswissenschaft",
+    "it": "Informatica",
+    "tr": "Bilişim"
   },
   {
     "code": "soil_science_agrochemistry",
@@ -1713,7 +2237,11 @@
     "es": "Edafología y agroquímica",
     "he": "מדעי הקרקע ואגרוכימיה",
     "ko": "토양학 및 농업화학",
-    "zh": "土壤学与农业化学"
+    "zh": "土壤学与农业化学",
+    "fr": "Pédologie et agrochimie",
+    "de": "Bodenkunde und Agrochemie",
+    "it": "Pedologia e agrochimica",
+    "tr": "Toprak bilimi ve tarımsal kimya"
   },
   {
     "code": "vocational_training",
@@ -1726,7 +2254,11 @@
     "es": "Formación profesional",
     "he": "הכשרה מקצועית",
     "ko": "직업 교육",
-    "zh": "职业培训"
+    "zh": "职业培训",
+    "fr": "Formation professionnelle",
+    "de": "Berufsausbildung",
+    "it": "Formazione professionale",
+    "tr": "Meslek eğitimi"
   },
   {
     "code": "civil_engineering",
@@ -1739,7 +2271,11 @@
     "es": "Ingeniería civil",
     "he": "הנדסה אזרחית",
     "ko": "토목 공학",
-    "zh": "土木工程"
+    "zh": "土木工程",
+    "fr": "Génie civil",
+    "de": "Bauingenieurwesen",
+    "it": "Ingegneria civile",
+    "tr": "İnşaat mühendisliği"
   },
   {
     "code": "economics_law",
@@ -1752,7 +2288,11 @@
     "es": "Economía y derecho",
     "he": "כלכלה ומשפטים",
     "ko": "경제 및 법학",
-    "zh": "经济与法律"
+    "zh": "经济与法律",
+    "fr": "Économie et droit",
+    "de": "Wirtschaft und Recht",
+    "it": "Economia e diritto",
+    "tr": "İktisat ve hukuk"
   },
   {
     "code": "customs",
@@ -1765,7 +2305,11 @@
     "es": "Aduanas",
     "he": "מכס",
     "ko": "관세학",
-    "zh": "海关"
+    "zh": "海关",
+    "fr": "Affaires douanières",
+    "de": "Zollwesen",
+    "it": "Attività doganale",
+    "tr": "Gümrük işleri"
   },
   {
     "code": "intl_law",
@@ -1778,7 +2322,11 @@
     "es": "Derecho internacional",
     "he": "משפט בינלאומי",
     "ko": "국제법",
-    "zh": "国际法"
+    "zh": "国际法",
+    "fr": "Droit international",
+    "de": "Internationales Recht",
+    "it": "Diritto internazionale",
+    "tr": "Uluslararası hukuk"
   },
   {
     "code": "library_information",
@@ -1791,7 +2339,11 @@
     "es": "Biblioteconomía y documentación",
     "he": "ספרנות ומידענות",
     "ko": "도서관 정보학",
-    "zh": "图书馆与信息学"
+    "zh": "图书馆与信息学",
+    "fr": "Bibliothéconomie et sciences de l'information",
+    "de": "Bibliotheks- und Informationswissenschaft",
+    "it": "Biblioteconomia e scienze dell'informazione",
+    "tr": "Kütüphanecilik ve bilgi bilimi"
   },
   {
     "code": "social_management",
@@ -1804,7 +2356,11 @@
     "es": "Gestión social",
     "he": "ניהול חברתי",
     "ko": "사회 관리학",
-    "zh": "社会管理"
+    "zh": "社会管理",
+    "fr": "Management social",
+    "de": "Sozialmanagement",
+    "it": "Management sociale",
+    "tr": "Sosyal yönetim"
   },
   {
     "code": "math_informatics_teaching",
@@ -1817,7 +2373,11 @@
     "es": "Docencia de matemáticas e informática",
     "he": "הוראת מתמטיקה ואינפורמטיקה",
     "ko": "수학 및 정보학 교육",
-    "zh": "数学与信息学教学"
+    "zh": "数学与信息学教学",
+    "fr": "Enseignement des mathématiques et de l'informatique",
+    "de": "Lehramt Mathematik und Informatik",
+    "it": "Insegnamento di matematica e informatica",
+    "tr": "Matematik ve bilişim öğretmenliği"
   },
   {
     "code": "intl_relations_law",
@@ -1830,7 +2390,11 @@
     "es": "Relaciones internacionales y derecho",
     "he": "יחסים בינלאומיים ומשפט",
     "ko": "국제관계 및 법학",
-    "zh": "国际关系与法律"
+    "zh": "国际关系与法律",
+    "fr": "Relations internationales et droit",
+    "de": "Internationale Beziehungen und Recht",
+    "it": "Relazioni internazionali e diritto",
+    "tr": "Uluslararası ilişkiler ve hukuk"
   },
   {
     "code": "military_medicine",
@@ -1843,7 +2407,11 @@
     "es": "Medicina militar",
     "he": "רפואה צבאית",
     "ko": "군진 의학",
-    "zh": "军事医学"
+    "zh": "军事医学",
+    "fr": "Médecine militaire",
+    "de": "Militärmedizin",
+    "it": "Medicina militare",
+    "tr": "Askeri tıp"
   },
   {
     "code": "art",
@@ -1856,7 +2424,11 @@
     "es": "Arte",
     "he": "אמנות",
     "ko": "예술학",
-    "zh": "艺术"
+    "zh": "艺术",
+    "fr": "Art",
+    "de": "Kunst",
+    "it": "Arte",
+    "tr": "Sanat"
   },
   {
     "code": "tourism_organization",
@@ -1869,7 +2441,11 @@
     "es": "Organización del turismo",
     "he": "ארגון תיירות",
     "ko": "관광 조직",
-    "zh": "旅游组织"
+    "zh": "旅游组织",
+    "fr": "Organisation du tourisme",
+    "de": "Organisation des Tourismus",
+    "it": "Organizzazione del turismo",
+    "tr": "Turizm işletmeciliği"
   },
   {
     "code": "chemical_engineering",
@@ -1882,7 +2458,11 @@
     "es": "Ingeniería química",
     "he": "הנדסה כימית",
     "ko": "화학 공학",
-    "zh": "化学工程"
+    "zh": "化学工程",
+    "fr": "Génie chimique",
+    "de": "Chemieingenieurwesen",
+    "it": "Ingegneria chimica",
+    "tr": "Kimya mühendisliği"
   },
   {
     "code": "finance_economics",
@@ -1895,7 +2475,11 @@
     "es": "Finanzas y economía",
     "he": "מימון וכלכלה",
     "ko": "재정경제학",
-    "zh": "金融与经济"
+    "zh": "金融与经济",
+    "fr": "Finance et économie",
+    "de": "Finanzen und Ökonomie",
+    "it": "Finanza ed economia",
+    "tr": "Maliye ve iktisat"
   },
   {
     "code": "piano",
@@ -1908,7 +2492,11 @@
     "es": "Piano",
     "he": "פסנתר",
     "ko": "피아노",
-    "zh": "钢琴"
+    "zh": "钢琴",
+    "fr": "Piano",
+    "de": "Klavier",
+    "it": "Pianoforte",
+    "tr": "Piyano"
   },
   {
     "code": "regional_studies",
@@ -1921,7 +2509,11 @@
     "es": "Estudios regionales",
     "he": "לימודי אזור",
     "ko": "지역학",
-    "zh": "地区研究"
+    "zh": "地区研究",
+    "fr": "Études régionales",
+    "de": "Regionalstudien",
+    "it": "Studi regionali",
+    "tr": "Bölge bilimleri"
   },
   {
     "code": "construction_technology",
@@ -1934,7 +2526,11 @@
     "es": "Tecnología de la construcción",
     "he": "טכנולוגיית בנייה",
     "ko": "건설 기술",
-    "zh": "建筑工艺"
+    "zh": "建筑工艺",
+    "fr": "Technologie de la construction",
+    "de": "Bautechnologie",
+    "it": "Tecnologia delle costruzioni",
+    "tr": "İnşaat teknolojisi"
   },
   {
     "code": "veterinary",
@@ -1947,7 +2543,11 @@
     "es": "Veterinaria",
     "he": "רפואה וטרינרית",
     "ko": "수의학",
-    "zh": "兽医学"
+    "zh": "兽医学",
+    "fr": "Médecine vétérinaire",
+    "de": "Veterinärmedizin",
+    "it": "Medicina veterinaria",
+    "tr": "Veterinerlik"
   },
   {
     "code": "physics_technical_sciences",
@@ -1960,7 +2560,11 @@
     "es": "Física y ciencias técnicas",
     "he": "פיזיקה ומדעים טכניים",
     "ko": "물리학 및 기술과학",
-    "zh": "物理与技术科学"
+    "zh": "物理与技术科学",
+    "fr": "Physique et sciences techniques",
+    "de": "Physik und technische Fächer",
+    "it": "Fisica e discipline tecniche",
+    "tr": "Fizik ve teknik bilimler"
   },
   {
     "code": "natural_sciences_engineering",
@@ -1973,7 +2577,11 @@
     "es": "Ciencias naturales e ingeniería",
     "he": "מדעי הטבע והנדסה",
     "ko": "자연과학 및 공학",
-    "zh": "自然科学与工程"
+    "zh": "自然科学与工程",
+    "fr": "Sciences naturelles et ingénierie",
+    "de": "Naturwissenschaften und Ingenieurwesen",
+    "it": "Scienze naturali e ingegneria",
+    "tr": "Doğa bilimleri ve mühendislik"
   },
   {
     "code": "tax_taxation",
@@ -1986,7 +2594,11 @@
     "es": "Impuestos y fiscalidad",
     "he": "מיסים ומיסוי",
     "ko": "조세 및 과세론",
-    "zh": "税收与税务"
+    "zh": "税收与税务",
+    "fr": "Impôts et fiscalité",
+    "de": "Steuern und Besteuerung",
+    "it": "Imposte e tassazione",
+    "tr": "Vergi ve vergilendirme"
   },
   {
     "code": "oil_gas_engineering",
@@ -1999,7 +2611,11 @@
     "es": "Ingeniería de petróleo y gas",
     "he": "הנדסת נפט וגז",
     "ko": "석유·가스 공학",
-    "zh": "石油与天然气工程"
+    "zh": "石油与天然气工程",
+    "fr": "Génie pétrolier et gazier",
+    "de": "Erdöl- und Erdgastechnik",
+    "it": "Ingegneria del petrolio e del gas",
+    "tr": "Petrol ve gaz mühendisliği"
   },
   {
     "code": "expertise_technology",
@@ -2012,7 +2628,11 @@
     "es": "Peritaje y tecnología",
     "he": "חקר מומחה וטכנולוגיה",
     "ko": "감정 및 기술",
-    "zh": "鉴定与技术"
+    "zh": "鉴定与技术",
+    "fr": "Expertise et technologie",
+    "de": "Gutachtenwesen und Technologie",
+    "it": "Perizia e tecnologia",
+    "tr": "Ekspertiz ve teknoloji"
   },
   {
     "code": "automation_computer_engineering",
@@ -2025,7 +2645,11 @@
     "es": "Automatización e ingeniería informática",
     "he": "אוטומציה והנדסת מחשבים",
     "ko": "자동화 및 컴퓨터 공학",
-    "zh": "自动化与计算机工程"
+    "zh": "自动化与计算机工程",
+    "fr": "Automatique et technique informatique",
+    "de": "Automatisierung und Computertechnik",
+    "it": "Automazione e tecnica informatica",
+    "tr": "Otomasyon ve bilgisayar tekniği"
   },
   {
     "code": "business",
@@ -2038,7 +2662,11 @@
     "es": "Negocios",
     "he": "עסקים",
     "ko": "비즈니스",
-    "zh": "商业"
+    "zh": "商业",
+    "fr": "Sciences de gestion",
+    "de": "Betriebswirtschaft",
+    "it": "Business",
+    "tr": "İşletme"
   },
   {
     "code": "informatics_management",
@@ -2051,7 +2679,11 @@
     "es": "Informática y gestión",
     "he": "אינפורמטיקה וניהול",
     "ko": "정보학 및 경영학",
-    "zh": "信息学与管理"
+    "zh": "信息学与管理",
+    "fr": "Informatique et gestion",
+    "de": "Informationswissenschaft und Verwaltung",
+    "it": "Informatica e gestione",
+    "tr": "Bilişim ve yönetim"
   },
   {
     "code": "primary_education_methodology",
@@ -2064,7 +2696,11 @@
     "es": "Pedagogía y metodología de la educación primaria",
     "he": "פדגוגיה ומתודיקה של החינוך היסודי",
     "ko": "초등교육 교육학 및 방법론",
-    "zh": "小学教育学与教学法"
+    "zh": "小学教育学与教学法",
+    "fr": "Pédagogie et méthodologie de l'enseignement primaire",
+    "de": "Pädagogik und Methodik der Grundschulbildung",
+    "it": "Pedagogia e metodologia dell'istruzione primaria",
+    "tr": "İlköğretim pedagojisi ve metodolojisi"
   },
   {
     "code": "humanities_education_social",
@@ -2077,7 +2713,11 @@
     "es": "Humanidades, educación y ciencias sociales",
     "he": "מדעי הרוח, חינוך ומדעי החברה",
     "ko": "인문·교육·사회과학",
-    "zh": "人文、教育与社会科学"
+    "zh": "人文、教育与社会科学",
+    "fr": "Sciences humaines, éducation et sciences sociales",
+    "de": "Geistes-, Bildungs- und Sozialwissenschaften",
+    "it": "Scienze umane, dell'educazione e sociali",
+    "tr": "Beşeri, eğitim ve sosyal bilimler"
   },
   {
     "code": "applied_mathematics",
@@ -2090,7 +2730,11 @@
     "es": "Matemáticas aplicadas",
     "he": "מתמטיקה שימושית",
     "ko": "응용 수학",
-    "zh": "应用数学"
+    "zh": "应用数学",
+    "fr": "Mathématiques appliquées",
+    "de": "Angewandte Mathematik",
+    "it": "Matematica applicata",
+    "tr": "Uygulamalı matematik"
   },
   {
     "code": "social_sciences",
@@ -2103,7 +2747,11 @@
     "es": "Ciencias sociales",
     "he": "מדעי החברה",
     "ko": "사회과학",
-    "zh": "社会科学"
+    "zh": "社会科学",
+    "fr": "Sciences sociales",
+    "de": "Sozialwissenschaften",
+    "it": "Scienze sociali",
+    "tr": "Sosyal bilimler"
   },
   {
     "code": "philology_journalism",
@@ -2116,7 +2764,11 @@
     "es": "Filología y periodismo",
     "he": "פילולוגיה ועיתונאות",
     "ko": "문헌학 및 저널리즘",
-    "zh": "语文学与新闻学"
+    "zh": "语文学与新闻学",
+    "fr": "Philologie et journalisme",
+    "de": "Philologie und Journalistik",
+    "it": "Filologia e giornalismo",
+    "tr": "Filoloji ve gazetecilik"
   },
   {
     "code": "pedagogy_psychology",
@@ -2129,7 +2781,11 @@
     "es": "Pedagogía y psicología",
     "he": "פדגוגיה ופסיכולוגיה",
     "ko": "교육학 및 심리학",
-    "zh": "教育学与心理学"
+    "zh": "教育学与心理学",
+    "fr": "Pédagogie et psychologie",
+    "de": "Pädagogik und Psychologie",
+    "it": "Pedagogia e psicologia",
+    "tr": "Pedagoji ve psikoloji"
   },
   {
     "code": "intl_relations_management",
@@ -2142,7 +2798,11 @@
     "es": "Relaciones internacionales y gestión",
     "he": "יחסים בינלאומיים וניהול",
     "ko": "국제관계 및 경영학",
-    "zh": "国际关系与管理"
+    "zh": "国际关系与管理",
+    "fr": "Relations internationales et gestion",
+    "de": "Internationale Beziehungen und Verwaltung",
+    "it": "Relazioni internazionali e gestione",
+    "tr": "Uluslararası ilişkiler ve yönetim"
   },
   {
     "code": "engineering_business_management",
@@ -2155,7 +2815,11 @@
     "es": "Negocios de ingeniería y gestión",
     "he": "עסקי הנדסה וניהול",
     "ko": "공학 비즈니스 및 경영학",
-    "zh": "工程商务与管理"
+    "zh": "工程商务与管理",
+    "fr": "Ingénierie d'affaires et management",
+    "de": "Ingenieurgeschäft und Management",
+    "it": "Business ingegneristico e management",
+    "tr": "Mühendislik işletmeciliği ve yönetim"
   },
   {
     "code": "political_social_sciences",
@@ -2168,7 +2832,11 @@
     "es": "Ciencias políticas y sociales",
     "he": "מדעי המדינה והחברה",
     "ko": "정치 및 사회과학",
-    "zh": "政治与社会科学"
+    "zh": "政治与社会科学",
+    "fr": "Sciences politiques et sociales",
+    "de": "Politik- und Sozialwissenschaften",
+    "it": "Scienze politiche e sociali",
+    "tr": "Siyasi ve toplumsal bilimler"
   },
   {
     "code": "philology_primary_education",
@@ -2181,7 +2849,11 @@
     "es": "Filología y educación primaria",
     "he": "פילולוגיה וחינוך יסודי",
     "ko": "문헌학 및 초등교육",
-    "zh": "语文学与小学教育"
+    "zh": "语文学与小学教育",
+    "fr": "Philologie et enseignement primaire",
+    "de": "Philologie und Grundschulbildung",
+    "it": "Filologia e istruzione primaria",
+    "tr": "Filoloji ve ilköğretim"
   },
   {
     "code": "turkic_world_economics",
@@ -2194,7 +2866,11 @@
     "es": "Facultad de Economía del Mundo Túrquico",
     "he": "הפקולטה לכלכלה של העולם הטורקי",
     "ko": "튀르크 세계 경제학부",
-    "zh": "突厥世界经济系"
+    "zh": "突厥世界经济系",
+    "fr": "Faculté d'économie du monde turcique",
+    "de": "Fakultät für Wirtschaft der Turkwelt",
+    "it": "Facoltà di economia del mondo turcico",
+    "tr": "Türk Dünyası İktisat Fakültesi"
   },
   {
     "code": "architecture_construction",
@@ -2207,7 +2883,11 @@
     "es": "Arquitectura y construcción",
     "he": "אדריכלות ובנייה",
     "ko": "건축 및 건설",
-    "zh": "建筑学与施工"
+    "zh": "建筑学与施工",
+    "fr": "Architecture et construction",
+    "de": "Architektur und Bauwesen",
+    "it": "Architettura e costruzioni",
+    "tr": "Mimarlık ve inşaat"
   },
   {
     "code": "theatre_arts",
@@ -2220,7 +2900,11 @@
     "es": "Artes escénicas",
     "he": "אמנויות הבמה",
     "ko": "연극예술",
-    "zh": "戏剧艺术"
+    "zh": "戏剧艺术",
+    "fr": "Art théâtral",
+    "de": "Theaterkunst",
+    "it": "Arte teatrale",
+    "tr": "Tiyatro sanatı"
   },
   {
     "code": "zooengineering",
@@ -2233,7 +2917,11 @@
     "es": "Zooingeniería",
     "he": "הנדסת חי",
     "ko": "축산 공학",
-    "zh": "畜牧工程"
+    "zh": "畜牧工程",
+    "fr": "Zoo-ingénierie",
+    "de": "Zooingenieurwesen",
+    "it": "Zooingegneria",
+    "tr": "Zooteknik mühendisliği"
   },
   {
     "code": "metallurgy_materials",
@@ -2246,7 +2934,11 @@
     "es": "Metalurgia y ciencia de materiales",
     "he": "מטלורגיה ומדע החומרים",
     "ko": "야금 및 재료과학",
-    "zh": "冶金与材料科学"
+    "zh": "冶金与材料科学",
+    "fr": "Métallurgie et science des matériaux",
+    "de": "Metallurgie und Werkstoffkunde",
+    "it": "Metallurgia e scienza dei materiali",
+    "tr": "Metalurji ve malzeme bilimi"
   },
   {
     "code": "automation",
@@ -2259,7 +2951,11 @@
     "es": "Automatización",
     "he": "אוטומציה",
     "ko": "자동화",
-    "zh": "自动化"
+    "zh": "自动化",
+    "fr": "Automatique",
+    "de": "Automatisierungstechnik",
+    "it": "Automazione",
+    "tr": "Otomasyon"
   },
   {
     "code": "humanities_languages",
@@ -2272,7 +2968,11 @@
     "es": "Humanidades e idiomas",
     "he": "מדעי הרוח ושפות",
     "ko": "인문학 및 언어",
-    "zh": "人文与语言"
+    "zh": "人文与语言",
+    "fr": "Sciences humaines et langues",
+    "de": "Geisteswissenschaften und Sprachen",
+    "it": "Scienze umane e lingue",
+    "tr": "Beşeri bilimler ve diller"
   },
   {
     "code": "music",
@@ -2285,7 +2985,11 @@
     "es": "Música",
     "he": "מוזיקה",
     "ko": "음악",
-    "zh": "音乐"
+    "zh": "音乐",
+    "fr": "Musique",
+    "de": "Musik",
+    "it": "Musica",
+    "tr": "Müzik"
   },
   {
     "code": "postal_communication",
@@ -2298,7 +3002,11 @@
     "es": "Comunicación postal",
     "he": "תקשורת דואר",
     "ko": "우편 통신",
-    "zh": "邮政通信"
+    "zh": "邮政通信",
+    "fr": "Services postaux",
+    "de": "Postwesen",
+    "it": "Servizi postali",
+    "tr": "Posta hizmetleri"
   },
   {
     "code": "technology",
@@ -2311,7 +3019,11 @@
     "es": "Tecnología",
     "he": "טכנולוגיה",
     "ko": "기술학",
-    "zh": "工艺"
+    "zh": "工艺",
+    "fr": "Technologie",
+    "de": "Technologie",
+    "it": "Tecnologia",
+    "tr": "Teknoloji"
   },
   {
     "code": "transport_technologies",
@@ -2324,7 +3036,11 @@
     "es": "Tecnologías del transporte",
     "he": "טכנולוגיות תחבורה",
     "ko": "운송 기술",
-    "zh": "运输技术"
+    "zh": "运输技术",
+    "fr": "Technologies des transports",
+    "de": "Verkehrstechnologien",
+    "it": "Tecnologie dei trasporti",
+    "tr": "Ulaştırma teknolojileri"
   },
   {
     "code": "az_language_literature_teaching",
@@ -2337,7 +3053,11 @@
     "es": "Docencia de lengua y literatura azerbaiyanas",
     "he": "הוראת שפה וספרות אזרבייג'נית",
     "ko": "아제르바이잔 언어·문학 교육",
-    "zh": "阿塞拜疆语言与文学教学"
+    "zh": "阿塞拜疆语言与文学教学",
+    "fr": "Enseignement de la langue et de la littérature azerbaïdjanaises",
+    "de": "Lehramt aserbaidschanische Sprache und Literatur",
+    "it": "Insegnamento di lingua e letteratura azerbaigiana",
+    "tr": "Azerbaycan dili ve edebiyatı öğretmenliği"
   },
   {
     "code": "economic_legal_regulation",
@@ -2350,7 +3070,11 @@
     "es": "Regulación jurídica de la economía",
     "he": "רגולציה משפטית של הכלכלה",
     "ko": "경제의 법적 규율",
-    "zh": "经济法律调整"
+    "zh": "经济法律调整",
+    "fr": "Régulation juridique de l'économie",
+    "de": "Rechtliche Regulierung der Wirtschaft",
+    "it": "Regolamentazione giuridica dell'economia",
+    "tr": "Ekonominin hukuki düzenlenmesi"
   },
   {
     "code": "ecological_engineering",
@@ -2363,7 +3087,11 @@
     "es": "Ingeniería ecológica",
     "he": "הנדסה אקולוגית",
     "ko": "생태 공학",
-    "zh": "生态工程"
+    "zh": "生态工程",
+    "fr": "Génie écologique",
+    "de": "Umweltingenieurwesen",
+    "it": "Ingegneria ecologica",
+    "tr": "Ekoloji mühendisliği"
   },
   {
     "code": "medical_biology",
@@ -2376,7 +3104,11 @@
     "es": "Biología médica",
     "he": "ביולוגיה רפואית",
     "ko": "의생물학",
-    "zh": "医学生物学"
+    "zh": "医学生物学",
+    "fr": "Biologie médicale",
+    "de": "Medizinische Biologie",
+    "it": "Biologia medica",
+    "tr": "Tıbbi biyoloji"
   },
   {
     "code": "technological_machines",
@@ -2389,7 +3121,11 @@
     "es": "Maquinaria tecnológica",
     "he": "מכונות טכנולוגיות",
     "ko": "기술 기계",
-    "zh": "工艺机械"
+    "zh": "工艺机械",
+    "fr": "Machines technologiques",
+    "de": "Technologische Maschinen",
+    "it": "Macchine tecnologiche",
+    "tr": "Teknolojik makineler"
   },
   {
     "code": "light_industry_logistics",
@@ -2402,7 +3138,11 @@
     "es": "Ingeniería de industria ligera y logística",
     "he": "הנדסת תעשייה קלה ולוגיסטיקה",
     "ko": "경공업 공학 및 물류",
-    "zh": "轻工工程与物流"
+    "zh": "轻工工程与物流",
+    "fr": "Génie de l'industrie légère et logistique",
+    "de": "Leichtindustrietechnik und Logistik",
+    "it": "Ingegneria dell'industria leggera e logistica",
+    "tr": "Hafif sanayi mühendisliği ve lojistik"
   },
   {
     "code": "intl_relations_foreign_languages",
@@ -2415,7 +3155,11 @@
     "es": "Relaciones internacionales e idiomas extranjeros",
     "he": "יחסים בינלאומיים ושפות זרות",
     "ko": "국제관계 및 외국어",
-    "zh": "国际关系与外语"
+    "zh": "国际关系与外语",
+    "fr": "Relations internationales et langues étrangères",
+    "de": "Internationale Beziehungen und Fremdsprachen",
+    "it": "Relazioni internazionali e lingue straniere",
+    "tr": "Uluslararası ilişkiler ve yabancı diller"
   },
   {
     "code": "mechanics",
@@ -2428,7 +3172,11 @@
     "es": "Mecánica",
     "he": "מכניקה",
     "ko": "역학",
-    "zh": "力学"
+    "zh": "力学",
+    "fr": "Mécanique",
+    "de": "Mechanik",
+    "it": "Meccanica",
+    "tr": "Mekanik"
   },
   {
     "code": "fine_arts",
@@ -2441,7 +3189,11 @@
     "es": "Bellas artes",
     "he": "אמנויות יפות",
     "ko": "미술",
-    "zh": "美术"
+    "zh": "美术",
+    "fr": "Beaux-arts",
+    "de": "Bildende Kunst",
+    "it": "Belle arti",
+    "tr": "Görsel sanatlar"
   },
   {
     "code": "veterinary_zooengineering",
@@ -2454,7 +3206,11 @@
     "es": "Veterinaria y zooingeniería",
     "he": "רפואה וטרינרית והנדסת חי",
     "ko": "수의학 및 축산 공학",
-    "zh": "兽医学与畜牧工程"
+    "zh": "兽医学与畜牧工程",
+    "fr": "Médecine vétérinaire et zoo-ingénierie",
+    "de": "Veterinärmedizin und Zooingenieurwesen",
+    "it": "Medicina veterinaria e zooingegneria",
+    "tr": "Veteriner hekimliği ve zooteknik"
   },
   {
     "code": "history_geography_arts",
@@ -2467,7 +3223,11 @@
     "es": "Historia, geografía y arte",
     "he": "היסטוריה, גיאוגרפיה ואמנות",
     "ko": "역사·지리·예술",
-    "zh": "历史、地理与艺术"
+    "zh": "历史、地理与艺术",
+    "fr": "Histoire, géographie et art",
+    "de": "Geschichte, Geografie und Kunst",
+    "it": "Storia, geografia e arte",
+    "tr": "Tarih, coğrafya ve sanat"
   },
   {
     "code": "theology",
@@ -2480,7 +3240,11 @@
     "es": "Teología",
     "he": "תיאולוגיה",
     "ko": "신학",
-    "zh": "神学"
+    "zh": "神学",
+    "fr": "Théologie",
+    "de": "Theologie",
+    "it": "Teologia",
+    "tr": "İlahiyat"
   },
   {
     "code": "customs_organization",
@@ -2493,7 +3257,11 @@
     "es": "Organización de asuntos aduaneros",
     "he": "ארגון ענייני המכס",
     "ko": "관세 업무 조직",
-    "zh": "海关事务组织"
+    "zh": "海关事务组织",
+    "fr": "Organisation des affaires douanières",
+    "de": "Organisation des Zollwesens",
+    "it": "Organizzazione delle attività doganali",
+    "tr": "Gümrük işlerinin örgütlenmesi"
   },
   {
     "code": "public_health",
@@ -2506,7 +3274,11 @@
     "es": "Salud pública",
     "he": "בריאות הציבור",
     "ko": "공중보건학",
-    "zh": "公共卫生"
+    "zh": "公共卫生",
+    "fr": "Santé publique",
+    "de": "Öffentliche Gesundheit",
+    "it": "Sanità pubblica",
+    "tr": "Halk sağlığı"
   },
   {
     "code": "economics_administrative_sciences",
@@ -2519,7 +3291,11 @@
     "es": "Ciencias económicas y administrativas",
     "he": "מדעי הכלכלה והמנהל",
     "ko": "경제 및 행정학",
-    "zh": "经济与管理科学"
+    "zh": "经济与管理科学",
+    "fr": "Économie et sciences administratives",
+    "de": "Wirtschaft und Verwaltungswissenschaften",
+    "it": "Economia e scienze amministrative",
+    "tr": "İktisat ve idari bilimler"
   },
   {
     "code": "turkic_world_business",
@@ -2532,7 +3308,11 @@
     "es": "Facultad de Negocios del Mundo Túrquico",
     "he": "הפקולטה לעסקים של העולם הטורקי",
     "ko": "튀르크 세계 비즈니스학부",
-    "zh": "突厥世界商学系"
+    "zh": "突厥世界商学系",
+    "fr": "Faculté de gestion du monde turcique",
+    "de": "Fakultät für Betriebswirtschaft der Turkwelt",
+    "it": "Facoltà di economia aziendale del mondo turcico",
+    "tr": "Türk Dünyası İşletme Fakültesi"
   },
   {
     "code": "radio_engineering",
@@ -2545,7 +3325,11 @@
     "es": "Radiotecnia",
     "he": "הנדסת רדיו",
     "ko": "무선 공학",
-    "zh": "无线电工程"
+    "zh": "无线电工程",
+    "fr": "Radiotechnique",
+    "de": "Funktechnik",
+    "it": "Radiotecnica",
+    "tr": "Radyo tekniği"
   },
   {
     "code": "fine_arts_teaching",
@@ -2558,7 +3342,11 @@
     "es": "Docencia en bellas artes",
     "he": "הוראת אמנות",
     "ko": "미술 교육",
-    "zh": "美术教学"
+    "zh": "美术教学",
+    "fr": "Enseignement des arts plastiques",
+    "de": "Lehramt bildende Kunst",
+    "it": "Insegnamento delle belle arti",
+    "tr": "Görsel sanatlar öğretmenliği"
   },
   {
     "code": "information_security",
@@ -2571,7 +3359,11 @@
     "es": "Seguridad de la información",
     "he": "אבטחת מידע",
     "ko": "정보 보안",
-    "zh": "信息安全"
+    "zh": "信息安全",
+    "fr": "Sécurité de l'information",
+    "de": "Informationssicherheit",
+    "it": "Sicurezza dell'informazione",
+    "tr": "Bilgi güvenliği"
   },
   {
     "code": "high_technologies_innovation",
@@ -2584,7 +3376,11 @@
     "es": "Altas tecnologías e ingeniería innovadora",
     "he": "טכנולוגיות עתירות ידע והנדסה חדשנית",
     "ko": "첨단기술 및 혁신 공학",
-    "zh": "高新技术与创新工程"
+    "zh": "高新技术与创新工程",
+    "fr": "Hautes technologies et ingénierie innovante",
+    "de": "Hochtechnologien und innovatives Ingenieurwesen",
+    "it": "Alte tecnologie e ingegneria innovativa",
+    "tr": "Yüksek teknolojiler ve yenilikçi mühendislik"
   },
   {
     "code": "social_administration_law",
@@ -2597,7 +3393,11 @@
     "es": "Administración social y derecho",
     "he": "מנהל חברתי ומשפט",
     "ko": "사회 행정 및 법학",
-    "zh": "社会管理与法律"
+    "zh": "社会管理与法律",
+    "fr": "Administration sociale et droit",
+    "de": "Sozialverwaltung und Recht",
+    "it": "Amministrazione sociale e diritto",
+    "tr": "Sosyal yönetim ve hukuk"
   },
   {
     "code": "linguistics",
@@ -2610,7 +3410,11 @@
     "es": "Lingüística",
     "he": "בלשנות",
     "ko": "언어학",
-    "zh": "语言学"
+    "zh": "语言学",
+    "fr": "Linguistique",
+    "de": "Sprachwissenschaft",
+    "it": "Linguistica",
+    "tr": "Dil bilimi"
   },
   {
     "code": "agrarian_economics",
@@ -2623,7 +3427,11 @@
     "es": "Economía agraria",
     "he": "כלכלה חקלאית",
     "ko": "농업 경제학",
-    "zh": "农业经济"
+    "zh": "农业经济",
+    "fr": "Économie agraire",
+    "de": "Agrarökonomie",
+    "it": "Economia agraria",
+    "tr": "Tarım ekonomisi"
   },
   {
     "code": "intl_school_economics",
@@ -2636,7 +3444,11 @@
     "es": "Escuela Internacional de Economía",
     "he": "בית הספר הבינלאומי לכלכלה",
     "ko": "국제 경제대학",
-    "zh": "国际经济学院"
+    "zh": "国际经济学院",
+    "fr": "École internationale d'économie",
+    "de": "Internationale Wirtschaftsschule",
+    "it": "Scuola internazionale di economia",
+    "tr": "Uluslararası İktisat Okulu"
   },
   {
     "code": "ship_navigation",
@@ -2649,7 +3461,11 @@
     "es": "Navegación marítima",
     "he": "ניווט ימי",
     "ko": "선박 항해학",
-    "zh": "船舶驾驶"
+    "zh": "船舶驾驶",
+    "fr": "Navigation maritime",
+    "de": "Schiffsführung",
+    "it": "Navigazione marittima",
+    "tr": "Gemi kaptanlığı"
   },
   {
     "code": "informatics_teaching",
@@ -2662,7 +3478,11 @@
     "es": "Docencia en informática",
     "he": "הוראת אינפורמטיקה",
     "ko": "정보 교육",
-    "zh": "信息学教学"
+    "zh": "信息学教学",
+    "fr": "Enseignement de l'informatique",
+    "de": "Lehramt Informatik",
+    "it": "Insegnamento dell'informatica",
+    "tr": "Bilişim öğretmenliği"
   },
   {
     "code": "telecommunication",
@@ -2675,7 +3495,11 @@
     "es": "Telecomunicaciones",
     "he": "טלקומוניקציה",
     "ko": "통신학",
-    "zh": "电信"
+    "zh": "电信",
+    "fr": "Télécommunications",
+    "de": "Telekommunikation",
+    "it": "Telecomunicazioni",
+    "tr": "Telekomünikasyon"
   },
   {
     "code": "religious_studies",
@@ -2688,7 +3512,11 @@
     "es": "Estudios religiosos",
     "he": "מדעי הדתות",
     "ko": "종교학",
-    "zh": "宗教学"
+    "zh": "宗教学",
+    "fr": "Sciences des religions",
+    "de": "Religionswissenschaft",
+    "it": "Scienze delle religioni",
+    "tr": "Din bilimleri"
   },
   {
     "code": "production_automation",
@@ -2701,7 +3529,11 @@
     "es": "Automatización de procesos productivos",
     "he": "אוטומציה של תהליכי ייצור",
     "ko": "생산 공정 자동화",
-    "zh": "生产过程自动化"
+    "zh": "生产过程自动化",
+    "fr": "Automatisation des processus de production",
+    "de": "Automatisierung von Produktionsprozessen",
+    "it": "Automazione dei processi produttivi",
+    "tr": "Üretim süreçlerinin otomasyonu"
   },
   {
     "code": "expertise_standardization",
@@ -2714,7 +3546,11 @@
     "es": "Peritaje y normalización",
     "he": "חקר מומחה ותקינה",
     "ko": "감정 및 표준화",
-    "zh": "鉴定与标准化"
+    "zh": "鉴定与标准化",
+    "fr": "Expertise et normalisation",
+    "de": "Gutachtenwesen und Normung",
+    "it": "Perizia e normazione",
+    "tr": "Ekspertiz ve standartlaştırma"
   },
   {
     "code": "architecture_design",
@@ -2727,7 +3563,11 @@
     "es": "Arquitectura y diseño",
     "he": "אדריכלות ועיצוב",
     "ko": "건축 및 디자인",
-    "zh": "建筑与设计"
+    "zh": "建筑与设计",
+    "fr": "Architecture et design",
+    "de": "Architektur und Design",
+    "it": "Architettura e design",
+    "tr": "Mimarlık ve tasarım"
   },
   {
     "code": "political_science",
@@ -2740,7 +3580,11 @@
     "es": "Ciencias políticas",
     "he": "מדע המדינה",
     "ko": "정치학",
-    "zh": "政治学"
+    "zh": "政治学",
+    "fr": "Sciences politiques",
+    "de": "Politikwissenschaft",
+    "it": "Scienze politiche",
+    "tr": "Siyasal bilimler"
   },
   {
     "code": "biology_teaching",
@@ -2753,7 +3597,11 @@
     "es": "Docencia en biología",
     "he": "הוראת ביולוגיה",
     "ko": "생물 교육",
-    "zh": "生物教学"
+    "zh": "生物教学",
+    "fr": "Enseignement de la biologie",
+    "de": "Lehramt Biologie",
+    "it": "Insegnamento della biologia",
+    "tr": "Biyoloji öğretmenliği"
   },
   {
     "code": "consumer_goods_expertise",
@@ -2766,7 +3614,11 @@
     "es": "Peritaje y marketing de bienes de consumo",
     "he": "חקר ושיווק מוצרי צריכה",
     "ko": "소비재 감정 및 마케팅",
-    "zh": "消费品鉴定与营销"
+    "zh": "消费品鉴定与营销",
+    "fr": "Expertise et marketing des biens de consommation",
+    "de": "Prüfung und Marketing von Konsumgütern",
+    "it": "Perizia e marketing dei beni di consumo",
+    "tr": "Tüketim mallarının ekspertizi ve pazarlaması"
   },
   {
     "code": "information_document_management",
@@ -2779,7 +3631,11 @@
     "es": "Gestión de la información y documentación",
     "he": "ניהול מידע ומסמכים",
     "ko": "정보 및 문서 관리",
-    "zh": "信息与文件管理"
+    "zh": "信息与文件管理",
+    "fr": "Gestion de l'information et des documents",
+    "de": "Informations- und Dokumentenmanagement",
+    "it": "Gestione dell'informazione e dei documenti",
+    "tr": "Bilgi ve belge yönetimi"
   },
   {
     "code": "sport_games",
@@ -2792,7 +3648,11 @@
     "es": "Juegos deportivos",
     "he": "משחקי ספורט",
     "ko": "스포츠 경기",
-    "zh": "体育竞技项目"
+    "zh": "体育竞技项目",
+    "fr": "Jeux sportifs",
+    "de": "Sportspiele",
+    "it": "Giochi sportivi",
+    "tr": "Spor oyunları"
   },
   {
     "code": "politology",
@@ -2805,7 +3665,11 @@
     "es": "Politología",
     "he": "פוליטולוגיה",
     "ko": "정치과학",
-    "zh": "政治科学"
+    "zh": "政治科学",
+    "fr": "Politologie",
+    "de": "Politologie",
+    "it": "Politologia",
+    "tr": "Politoloji"
   },
   {
     "code": "film_television",
@@ -2818,7 +3682,11 @@
     "es": "Cine y televisión",
     "he": "קולנוע וטלוויזיה",
     "ko": "영화 및 텔레비전",
-    "zh": "电影与电视"
+    "zh": "电影与电视",
+    "fr": "Cinéma et télévision",
+    "de": "Film und Fernsehen",
+    "it": "Cinema e televisione",
+    "tr": "Sinema ve televizyon"
   },
   {
     "code": "energy_engineering",
@@ -2831,7 +3699,11 @@
     "es": "Ingeniería energética",
     "he": "הנדסת אנרגיה",
     "ko": "에너지 공학",
-    "zh": "能源工程"
+    "zh": "能源工程",
+    "fr": "Génie énergétique",
+    "de": "Energietechnik-Ingenieurwesen",
+    "it": "Ingegneria energetica",
+    "tr": "Enerji mühendisliği"
   },
   {
     "code": "decorative_applied_arts",
@@ -2844,7 +3716,11 @@
     "es": "Artes decorativas y aplicadas",
     "he": "אמנות דקורטיבית ושימושית",
     "ko": "장식 및 응용 예술",
-    "zh": "装饰与应用艺术"
+    "zh": "装饰与应用艺术",
+    "fr": "Arts décoratifs et appliqués",
+    "de": "Dekorative und angewandte Kunst",
+    "it": "Arti decorative e applicate",
+    "tr": "Dekoratif ve uygulamalı sanatlar"
   },
   {
     "code": "geography_teaching",
@@ -2857,7 +3733,11 @@
     "es": "Docencia en geografía",
     "he": "הוראת גיאוגרפיה",
     "ko": "지리 교육",
-    "zh": "地理教学"
+    "zh": "地理教学",
+    "fr": "Enseignement de la géographie",
+    "de": "Lehramt Geografie",
+    "it": "Insegnamento della geografia",
+    "tr": "Coğrafya öğretmenliği"
   },
   {
     "code": "communication",
@@ -2870,7 +3750,11 @@
     "es": "Comunicaciones",
     "he": "תקשורת",
     "ko": "커뮤니케이션학",
-    "zh": "通信"
+    "zh": "通信",
+    "fr": "Communications",
+    "de": "Nachrichtenwesen",
+    "it": "Comunicazioni",
+    "tr": "Haberleşme"
   },
   {
     "code": "electric_power_engineering",
@@ -2883,7 +3767,11 @@
     "es": "Ingeniería de energía eléctrica",
     "he": "הנדסת אנרגיית חשמל",
     "ko": "전력 공학",
-    "zh": "电力工程"
+    "zh": "电力工程",
+    "fr": "Génie électro-énergétique",
+    "de": "Elektroenergietechnik",
+    "it": "Ingegneria elettroenergetica",
+    "tr": "Elektroenerji mühendisliği"
   },
   {
     "code": "folk_instruments",
@@ -2896,7 +3784,11 @@
     "es": "Instrumentos populares",
     "he": "כלי נגינה עממיים",
     "ko": "민족 악기",
-    "zh": "民族乐器"
+    "zh": "民族乐器",
+    "fr": "Instruments de musique populaires",
+    "de": "Volksmusikinstrumente",
+    "it": "Strumenti musicali popolari",
+    "tr": "Halk çalgıları"
   },
   {
     "code": "industrial_civil_construction",
@@ -2909,7 +3801,11 @@
     "es": "Construcción industrial y civil",
     "he": "בנייה תעשייתית ואזרחית",
     "ko": "산업 및 민간 건설",
-    "zh": "工业与民用建筑"
+    "zh": "工业与民用建筑",
+    "fr": "Construction industrielle et civile",
+    "de": "Industrie- und Zivilbau",
+    "it": "Costruzioni industriali e civili",
+    "tr": "Sanayi ve sivil yapı"
   },
   {
     "code": "mechanical_engineering",
@@ -2922,7 +3818,11 @@
     "es": "Ingeniería mecánica",
     "he": "הנדסת מכונות",
     "ko": "기계 공학",
-    "zh": "机械工程"
+    "zh": "机械工程",
+    "fr": "Génie mécanique",
+    "de": "Maschinenbautechnik",
+    "it": "Ingegneria meccanica",
+    "tr": "Mekanik mühendisliği"
   },
   {
     "code": "automation_control",
@@ -2935,7 +3835,11 @@
     "es": "Automatización y control",
     "he": "אוטומציה ובקרה",
     "ko": "자동화 및 제어",
-    "zh": "自动化与控制"
+    "zh": "自动化与控制",
+    "fr": "Automatique et commande",
+    "de": "Automatisierung und Regelung",
+    "it": "Automazione e controllo",
+    "tr": "Otomasyon ve kontrol"
   },
   {
     "code": "metallurgical_engineering",
@@ -2948,7 +3852,11 @@
     "es": "Ingeniería metalúrgica",
     "he": "הנדסה מטלורגית",
     "ko": "야금 공학",
-    "zh": "冶金工程"
+    "zh": "冶金工程",
+    "fr": "Génie métallurgique",
+    "de": "Metallurgieingenieurwesen",
+    "it": "Ingegneria metallurgica",
+    "tr": "Metalurji mühendisliği"
   },
   {
     "code": "military",
@@ -2961,7 +3869,11 @@
     "es": "Asuntos militares",
     "he": "ענייני צבא",
     "ko": "군사학",
-    "zh": "军事"
+    "zh": "军事",
+    "fr": "Sciences militaires",
+    "de": "Militärwesen",
+    "it": "Scienze militari",
+    "tr": "Askerlik"
   },
   {
     "code": "electricity_supply",
@@ -2974,7 +3886,11 @@
     "es": "Suministro eléctrico",
     "he": "אספקת חשמל",
     "ko": "전력 공급",
-    "zh": "供电"
+    "zh": "供电",
+    "fr": "Alimentation électrique",
+    "de": "Elektrizitätsversorgung",
+    "it": "Alimentazione elettrica",
+    "tr": "Elektrik tedariki"
   },
   {
     "code": "music_art",
@@ -2987,7 +3903,11 @@
     "es": "Arte musical",
     "he": "אמנות המוזיקה",
     "ko": "음악예술",
-    "zh": "音乐艺术"
+    "zh": "音乐艺术",
+    "fr": "Art musical",
+    "de": "Musikkunst",
+    "it": "Arte musicale",
+    "tr": "Müzik sanatı"
   },
   {
     "code": "statistics",
@@ -3000,7 +3920,11 @@
     "es": "Estadística",
     "he": "סטטיסטיקה",
     "ko": "통계학",
-    "zh": "统计学"
+    "zh": "统计学",
+    "fr": "Statistique",
+    "de": "Statistik",
+    "it": "Statistica",
+    "tr": "İstatistik"
   },
   {
     "code": "electrical_engineering",
@@ -3013,7 +3937,11 @@
     "es": "Ingeniería eléctrica",
     "he": "הנדסת חשמל",
     "ko": "전기 공학",
-    "zh": "电气工程"
+    "zh": "电气工程",
+    "fr": "Génie électrique",
+    "de": "Elektrotechnik-Ingenieurwesen",
+    "it": "Ingegneria elettrica",
+    "tr": "Elektrik mühendisliği"
   },
   {
     "code": "it_systems_engineering",
@@ -3026,7 +3954,11 @@
     "es": "Tecnologías de la información e ingeniería de sistemas",
     "he": "טכנולוגיות מידע והנדסת מערכות",
     "ko": "정보기술 및 시스템 공학",
-    "zh": "信息技术与系统工程"
+    "zh": "信息技术与系统工程",
+    "fr": "Ingénierie des technologies et systèmes d'information",
+    "de": "Ingenieurwesen für Informationstechnologien und -systeme",
+    "it": "Ingegneria delle tecnologie e dei sistemi informativi",
+    "tr": "Bilişim teknolojileri ve sistemleri mühendisliği"
   },
   {
     "code": "physical_education_teaching",
@@ -3039,7 +3971,11 @@
     "es": "Docencia en educación física",
     "he": "הוראת חינוך גופני",
     "ko": "체육 교육",
-    "zh": "体育教学"
+    "zh": "体育教学",
+    "fr": "Enseignement de l'éducation physique",
+    "de": "Lehramt Sport",
+    "it": "Insegnamento dell'educazione fisica",
+    "tr": "Beden eğitimi öğretmenliği"
   },
   {
     "code": "computer_networks",
@@ -3052,7 +3988,11 @@
     "es": "Redes informáticas",
     "he": "רשתות מחשבים",
     "ko": "컴퓨터 네트워크",
-    "zh": "计算机网络"
+    "zh": "计算机网络",
+    "fr": "Réseaux informatiques",
+    "de": "Computernetzwerke",
+    "it": "Reti informatiche",
+    "tr": "Bilgisayar ağları"
   },
   {
     "code": "social_work_translation",
@@ -3065,7 +4005,11 @@
     "es": "Trabajo social y traducción",
     "he": "עבודה סוציאלית ותרגום",
     "ko": "사회복지 및 번역학",
-    "zh": "社会工作与翻译"
+    "zh": "社会工作与翻译",
+    "fr": "Travail social et traduction",
+    "de": "Sozialarbeit und Übersetzung",
+    "it": "Servizio sociale e traduzione",
+    "tr": "Sosyal hizmet ve çeviri"
   },
   {
     "code": "archive_records_management",
@@ -3078,7 +4022,11 @@
     "es": "Archivística y gestión documental",
     "he": "ארכיונאות וניהול רשומות",
     "ko": "기록 관리학",
-    "zh": "档案与文书管理"
+    "zh": "档案与文书管理",
+    "fr": "Archivistique et gestion documentaire",
+    "de": "Archivwesen und Schriftgutverwaltung",
+    "it": "Archivistica e gestione documentale",
+    "tr": "Arşivcilik ve evrak yönetimi"
   },
   {
     "code": "world_economy_commerce",
@@ -3091,7 +4039,11 @@
     "es": "Economía mundial y comercio",
     "he": "כלכלה עולמית ומסחר",
     "ko": "세계경제 및 상학",
-    "zh": "世界经济与商贸"
+    "zh": "世界经济与商贸",
+    "fr": "Économie mondiale et commerce",
+    "de": "Weltwirtschaft und Handel",
+    "it": "Economia mondiale e commercio",
+    "tr": "Dünya ekonomisi ve ticaret"
   },
   {
     "code": "corrective_education",
@@ -3104,7 +4056,11 @@
     "es": "Educación especial",
     "he": "חינוך מיוחד",
     "ko": "특수 교육",
-    "zh": "特殊教育"
+    "zh": "特殊教育",
+    "fr": "Éducation spécialisée",
+    "de": "Förderpädagogik",
+    "it": "Educazione correttiva",
+    "tr": "Özel eğitim"
   },
   {
     "code": "painting_fine_art",
@@ -3117,7 +4073,11 @@
     "es": "Pintura artística",
     "he": "ציור אמנותי",
     "ko": "회화 미술",
-    "zh": "美术绘画"
+    "zh": "美术绘画",
+    "fr": "Peinture",
+    "de": "Malerei",
+    "it": "Pittura",
+    "tr": "Resim"
   },
   {
     "code": "russian_language_literature",
@@ -3130,7 +4090,11 @@
     "es": "Lengua y literatura rusas",
     "he": "שפה וספרות רוסית",
     "ko": "러시아 언어 및 문학",
-    "zh": "俄语语言与文学"
+    "zh": "俄语语言与文学",
+    "fr": "Langue et littérature russes",
+    "de": "Russische Sprache und Literatur",
+    "it": "Lingua e letteratura russa",
+    "tr": "Rus dili ve edebiyatı"
   },
   {
     "code": "tax_banking",
@@ -3143,7 +4107,11 @@
     "es": "Fiscalidad y banca",
     "he": "מיסוי ובנקאות",
     "ko": "조세 및 은행학",
-    "zh": "税务与银行业"
+    "zh": "税务与银行业",
+    "fr": "Fiscalité et activité bancaire",
+    "de": "Steuern und Bankwesen",
+    "it": "Fiscalità e attività bancaria",
+    "tr": "Vergi ve bankacılık"
   },
   {
     "code": "sociology",
@@ -3156,7 +4124,11 @@
     "es": "Sociología",
     "he": "סוציולוגיה",
     "ko": "사회학",
-    "zh": "社会学"
+    "zh": "社会学",
+    "fr": "Sociologie",
+    "de": "Soziologie",
+    "it": "Sociologia",
+    "tr": "Sosyoloji"
   },
   {
     "code": "music_teaching",
@@ -3169,7 +4141,11 @@
     "es": "Docencia en música",
     "he": "הוראת מוזיקה",
     "ko": "음악 교육",
-    "zh": "音乐教学"
+    "zh": "音乐教学",
+    "fr": "Enseignement de la musique",
+    "de": "Lehramt Musik",
+    "it": "Insegnamento della musica",
+    "tr": "Müzik öğretmenliği"
   },
   {
     "code": "technology_teaching",
@@ -3182,7 +4158,11 @@
     "es": "Docencia en tecnología",
     "he": "הוראת טכנולוגיה",
     "ko": "기술 교육",
-    "zh": "工艺教学"
+    "zh": "工艺教学",
+    "fr": "Enseignement de la technologie",
+    "de": "Lehramt Technik",
+    "it": "Insegnamento della tecnologia",
+    "tr": "Teknoloji öğretmenliği"
   },
   {
     "code": "chemistry_biology_teaching",
@@ -3195,7 +4175,11 @@
     "es": "Docencia de química y biología",
     "he": "הוראת כימיה וביולוגיה",
     "ko": "화학 및 생물 교육",
-    "zh": "化学与生物教学"
+    "zh": "化学与生物教学",
+    "fr": "Enseignement de la chimie et de la biologie",
+    "de": "Lehramt Chemie und Biologie",
+    "it": "Insegnamento di chimica e biologia",
+    "tr": "Kimya ve biyoloji öğretmenliği"
   },
   {
     "code": "social_work_psychology",
@@ -3208,7 +4192,11 @@
     "es": "Trabajo social y psicología",
     "he": "עבודה סוציאלית ופסיכולוגיה",
     "ko": "사회복지 및 심리학",
-    "zh": "社会工作与心理学"
+    "zh": "社会工作与心理学",
+    "fr": "Travail social et psychologie",
+    "de": "Sozialarbeit und Psychologie",
+    "it": "Servizio sociale e psicologia",
+    "tr": "Sosyal hizmet ve psikoloji"
   },
   {
     "code": "state_public_relations",
@@ -3221,7 +4209,11 @@
     "es": "Relaciones estatales y públicas",
     "he": "יחסי מדינה וציבור",
     "ko": "국가 및 대외 관계",
-    "zh": "国家与公共关系"
+    "zh": "国家与公共关系",
+    "fr": "Relations étatiques et publiques",
+    "de": "Staatliche und öffentliche Beziehungen",
+    "it": "Relazioni statali e pubbliche",
+    "tr": "Devlet ve toplum ilişkileri"
   },
   {
     "code": "machine_engineering",
@@ -3234,7 +4226,11 @@
     "es": "Ingeniería de máquinas",
     "he": "הנדסת מכשירים",
     "ko": "기계 제작 공학",
-    "zh": "机器制造工程"
+    "zh": "机器制造工程",
+    "fr": "Ingénierie des machines",
+    "de": "Maschineningenieurwesen",
+    "it": "Ingegneria delle macchine",
+    "tr": "Makine mühendisliği"
   },
   {
     "code": "service_engineering",
@@ -3247,7 +4243,11 @@
     "es": "Ingeniería de servicios",
     "he": "הנדסת שירות",
     "ko": "서비스 공학",
-    "zh": "服务工程"
+    "zh": "服务工程",
+    "fr": "Ingénierie de service",
+    "de": "Serviceingenieurwesen",
+    "it": "Ingegneria dei servizi",
+    "tr": "Servis mühendisliği"
   },
   {
     "code": "fire_safety",
@@ -3260,7 +4260,11 @@
     "es": "Seguridad contra incendios",
     "he": "בטיחות אש",
     "ko": "소방 안전",
-    "zh": "消防安全"
+    "zh": "消防安全",
+    "fr": "Sécurité incendie",
+    "de": "Brandschutz",
+    "it": "Sicurezza antincendio",
+    "tr": "Yangın güvenliği"
   },
   {
     "code": "border_troops",
@@ -3273,7 +4277,11 @@
     "es": "Tropas fronterizas",
     "he": "משמר הגבול",
     "ko": "국경 수비",
-    "zh": "边防部队"
+    "zh": "边防部队",
+    "fr": "Troupes frontalières",
+    "de": "Grenztruppen",
+    "it": "Truppe di frontiera",
+    "tr": "Sınır Birlikleri"
   },
   {
     "code": "food_products_engineering",
@@ -3286,7 +4294,11 @@
     "es": "Ingeniería de productos alimentarios",
     "he": "הנדסת מוצרי מזון",
     "ko": "식품 생산 공학",
-    "zh": "食品产品工程"
+    "zh": "食品产品工程",
+    "fr": "Génie des produits alimentaires",
+    "de": "Lebensmittelprodukttechnik",
+    "it": "Ingegneria dei prodotti alimentari",
+    "tr": "Gıda ürünleri mühendisliği"
   },
   {
     "code": "electronics_telecom_radio_engineering",
@@ -3299,7 +4311,11 @@
     "es": "Electrónica, telecomunicaciones y radiotecnia",
     "he": "אלקטרוניקה, טלקומוניקציה והנדסת רדיו",
     "ko": "전자·통신·무선 공학",
-    "zh": "电子、通信与无线电工程"
+    "zh": "电子、通信与无线电工程",
+    "fr": "Génie électronique, des télécommunications et radiotechnique",
+    "de": "Elektronik-, Telekommunikations- und Funktechnik",
+    "it": "Ingegneria elettronica, delle telecomunicazioni e radiotecnica",
+    "tr": "Elektronik, telekomünikasyon ve radyo tekniği mühendisliği"
   },
   {
     "code": "directing",
@@ -3312,7 +4328,11 @@
     "es": "Dirección escénica",
     "he": "בימוי",
     "ko": "연출",
-    "zh": "导演"
+    "zh": "导演",
+    "fr": "Mise en scène",
+    "de": "Regie",
+    "it": "Regia",
+    "tr": "Yönetmenlik"
   },
   {
     "code": "music_history_theory",
@@ -3325,7 +4345,11 @@
     "es": "Historia y teoría de la música",
     "he": "היסטוריה ותורת המוזיקה",
     "ko": "음악사 및 이론",
-    "zh": "音乐史与音乐理论"
+    "zh": "音乐史与音乐理论",
+    "fr": "Histoire et théorie de la musique",
+    "de": "Musikgeschichte und -theorie",
+    "it": "Storia e teoria della musica",
+    "tr": "Müzik tarihi ve teorisi"
   },
   {
     "code": "insurance",
@@ -3338,7 +4362,11 @@
     "es": "Seguros",
     "he": "ביטוח",
     "ko": "보험학",
-    "zh": "保险"
+    "zh": "保险",
+    "fr": "Assurance",
+    "de": "Versicherungswesen",
+    "it": "Assicurazioni",
+    "tr": "Sigortacılık"
   },
   {
     "code": "agrarian_engineering_field",
@@ -3351,7 +4379,11 @@
     "es": "Ingeniería agraria",
     "he": "הנדסה חקלאית",
     "ko": "농업 공학",
-    "zh": "农业工程"
+    "zh": "农业工程",
+    "fr": "Génie agraire",
+    "de": "Agraringenieurwesen",
+    "it": "Ingegneria agraria",
+    "tr": "Tarım mühendisliği"
   },
   {
     "code": "az_philology",
@@ -3364,7 +4396,11 @@
     "es": "Filología azerbaiyana",
     "he": "פילולוגיה אזרבייג'נית",
     "ko": "아제르바이잔 문헌학",
-    "zh": "阿塞拜疆语文学"
+    "zh": "阿塞拜疆语文学",
+    "fr": "Philologie azerbaïdjanaise",
+    "de": "Aserbaidschanische Philologie",
+    "it": "Filologia azerbaigiana",
+    "tr": "Azerbaycan filolojisi"
   },
   {
     "code": "philology_translation",
@@ -3377,7 +4413,11 @@
     "es": "Filología y traducción",
     "he": "פילולוגיה ותרגום",
     "ko": "문헌학 및 번역학",
-    "zh": "语文学与翻译"
+    "zh": "语文学与翻译",
+    "fr": "Philologie et traduction",
+    "de": "Philologie und Übersetzung",
+    "it": "Filologia e traduzione",
+    "tr": "Filoloji ve çeviri"
   },
   {
     "code": "transport_logistics_engineering",
@@ -3390,7 +4430,11 @@
     "es": "Ingeniería de logística y tecnología del transporte",
     "he": "הנדסת לוגיסטיקה וטכנולוגיית תחבורה",
     "ko": "물류 및 운송기술 공학",
-    "zh": "物流与运输技术工程"
+    "zh": "物流与运输技术工程",
+    "fr": "Ingénierie de la logistique et des technologies de transport",
+    "de": "Ingenieurwesen für Logistik und Verkehrstechnologien",
+    "it": "Ingegneria della logistica e delle tecnologie dei trasporti",
+    "tr": "Lojistik ve ulaştırma teknolojileri mühendisliği"
   },
   {
     "code": "transportation_organization",
@@ -3403,7 +4447,11 @@
     "es": "Organización del transporte",
     "he": "ארגון ההובלה",
     "ko": "운송 조직",
-    "zh": "运输组织"
+    "zh": "运输组织",
+    "fr": "Organisation des transports",
+    "de": "Organisation des Transportwesens",
+    "it": "Organizzazione dei trasporti",
+    "tr": "Taşımacılığın örgütlenmesi"
   },
   {
     "code": "unec_design_school",
@@ -3416,6 +4464,10 @@
     "es": "Escuela de Diseño de UNEC",
     "he": "בית הספר לעיצוב של UNEC",
     "ko": "UNEC 디자인 스쿨",
-    "zh": "UNEC 设计学院"
+    "zh": "UNEC 设计学院",
+    "fr": "École de design UNEC",
+    "de": "UNEC-Designschule",
+    "it": "Scuola di design UNEC",
+    "tr": "UNEC Tasarım Okulu"
   }
 ]

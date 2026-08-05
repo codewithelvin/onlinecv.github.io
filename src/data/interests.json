@@ -10,7 +10,11 @@
     "es": "Leer libros",
     "he": "קריאת ספרים",
     "ko": "독서",
-    "zh": "阅读"
+    "zh": "阅读",
+    "fr": "Lire des livres",
+    "de": "Bücher lesen",
+    "it": "Leggere libri",
+    "tr": "Kitap okumak"
   },
   {
     "code": "music_listen",
@@ -23,7 +27,11 @@
     "es": "Escuchar música",
     "he": "האזנה למוזיקה",
     "ko": "음악 감상",
-    "zh": "听音乐"
+    "zh": "听音乐",
+    "fr": "Écouter de la musique",
+    "de": "Musik hören",
+    "it": "Ascoltare musica",
+    "tr": "Müzik dinlemek"
   },
   {
     "code": "play_games",
@@ -36,7 +44,11 @@
     "es": "Videojuegos",
     "he": "משחקי מחשב",
     "ko": "게임",
-    "zh": "玩游戏"
+    "zh": "玩游戏",
+    "fr": "Jouer à des jeux",
+    "de": "Spiele spielen",
+    "it": "Giocare",
+    "tr": "Oyun oynamak"
   },
   {
     "code": "sport",
@@ -49,7 +61,11 @@
     "es": "Practicar deporte",
     "he": "עשיית ספורט",
     "ko": "운동",
-    "zh": "运动健身"
+    "zh": "运动健身",
+    "fr": "Faire du sport",
+    "de": "Sport treiben",
+    "it": "Fare sport",
+    "tr": "Spor yapmak"
   },
   {
     "code": "sing_a_song",
@@ -62,7 +78,11 @@
     "es": "Cantar",
     "he": "שירה",
     "ko": "노래 부르기",
-    "zh": "唱歌"
+    "zh": "唱歌",
+    "fr": "Chanter",
+    "de": "Singen",
+    "it": "Cantare",
+    "tr": "Şarkı söylemek"
   },
   {
     "code": "cooking",
@@ -75,7 +95,11 @@
     "es": "Cocinar",
     "he": "בישול",
     "ko": "요리",
-    "zh": "烹饪"
+    "zh": "烹饪",
+    "fr": "Cuisiner",
+    "de": "Kochen",
+    "it": "Cucinare",
+    "tr": "Yemek yapmak"
   },
   {
     "code": "chess",
@@ -88,7 +112,11 @@
     "es": "Jugar al ajedrez",
     "he": "שחמט",
     "ko": "체스",
-    "zh": "下国际象棋"
+    "zh": "下国际象棋",
+    "fr": "Jouer aux échecs",
+    "de": "Schach spielen",
+    "it": "Giocare a scacchi",
+    "tr": "Satranç oynamak"
   },
   {
     "code": "self_development",
@@ -101,7 +129,11 @@
     "es": "Desarrollo personal",
     "he": "התפתחות אישית",
     "ko": "자기 계발",
-    "zh": "自我提升"
+    "zh": "自我提升",
+    "fr": "Développement personnel",
+    "de": "Persönliche Entwicklung",
+    "it": "Sviluppo personale",
+    "tr": "Kişisel gelişim"
   },
   {
     "code": "technology",
@@ -114,7 +146,11 @@
     "es": "Tecnología",
     "he": "טכנולוגיה",
     "ko": "기술",
-    "zh": "科技"
+    "zh": "科技",
+    "fr": "Technologies",
+    "de": "Technologien",
+    "it": "Tecnologie",
+    "tr": "Teknolojiler"
   },
   {
     "code": "blogging",
@@ -127,7 +163,11 @@
     "es": "Blogging",
     "he": "בלוגים",
     "ko": "블로그 운영",
-    "zh": "写博客"
+    "zh": "写博客",
+    "fr": "Blogging",
+    "de": "Bloggen",
+    "it": "Blogging",
+    "tr": "Bloglama"
   },
   {
     "code": "photography",
@@ -140,7 +180,11 @@
     "es": "Fotografía",
     "he": "צילום",
     "ko": "사진 촬영",
-    "zh": "摄影"
+    "zh": "摄影",
+    "fr": "Photographie",
+    "de": "Fotografieren",
+    "it": "Fotografia",
+    "tr": "Fotoğraf çekmek"
   },
   {
     "code": "design",
@@ -153,7 +197,11 @@
     "es": "Diseño",
     "he": "עיצוב",
     "ko": "디자인",
-    "zh": "设计"
+    "zh": "设计",
+    "fr": "Design",
+    "de": "Design",
+    "it": "Design",
+    "tr": "Tasarım"
   },
   {
     "code": "learning_languages",
@@ -166,7 +214,11 @@
     "es": "Aprender idiomas",
     "he": "לימוד שפות",
     "ko": "외국어 학습",
-    "zh": "学习外语"
+    "zh": "学习外语",
+    "fr": "Apprendre des langues",
+    "de": "Sprachen lernen",
+    "it": "Imparare le lingue",
+    "tr": "Dil öğrenmek"
   },
   {
     "code": "music_production",
@@ -179,7 +231,11 @@
     "es": "Componer música",
     "he": "כתיבת מוזיקה",
     "ko": "작곡",
-    "zh": "作曲"
+    "zh": "作曲",
+    "fr": "Composer de la musique",
+    "de": "Musik komponieren",
+    "it": "Comporre musica",
+    "tr": "Müzik bestelemek"
   },
   {
     "code": "watch_movies",
@@ -192,7 +248,11 @@
     "es": "Ver películas",
     "he": "צפייה בסרטים",
     "ko": "영화 감상",
-    "zh": "看电影"
+    "zh": "看电影",
+    "fr": "Regarder des films",
+    "de": "Filme schauen",
+    "it": "Guardare film",
+    "tr": "Film izlemek"
   },
   {
     "code": "football",
@@ -205,7 +265,11 @@
     "es": "Jugar al fútbol",
     "he": "כדורגל",
     "ko": "축구",
-    "zh": "踢足球"
+    "zh": "踢足球",
+    "fr": "Jouer au football",
+    "de": "Fußball spielen",
+    "it": "Giocare a calcio",
+    "tr": "Futbol oynamak"
   },
   {
     "code": "crossword",
@@ -218,6 +282,10 @@
     "es": "Resolver crucigramas",
     "he": "פתרון תשבצים",
     "ko": "십자말풀이",
-    "zh": "填字游戏"
+    "zh": "填字游戏",
+    "fr": "Faire des mots croisés",
+    "de": "Kreuzworträtsel lösen",
+    "it": "Fare le parole crociate",
+    "tr": "Bulmaca çözmek"
   }
 ]

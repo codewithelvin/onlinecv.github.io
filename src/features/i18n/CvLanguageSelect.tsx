@@ -36,6 +36,16 @@ export function CvLanguageSelect(): JSX.Element {
           label: LOCALES[code].nativeName,
           value: code,
         }))}
+        /**
+         * ⚠️ NOT virtualized, deliberately — and this is a fix, not a preference.
+         * rc-select renders only what fits `listHeight` (256px ≈ 9 rows), so at the
+         * tenth language the DOM silently stopped containing four of the options
+         * the user is offered. The list is bounded by the number of languages the
+         * app ships, so virtualization buys nothing here, and "what is offered is
+         * in the DOM" is the contract the QA ids rest on. The DICTIONARY selects
+         * (thousands of rows) must keep theirs.
+         */
+        virtual={false}
         style={{ minWidth: 120 }}
       />
     </Space>

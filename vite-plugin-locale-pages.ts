@@ -11,6 +11,10 @@ import es from './src/app/i18n/es.json';
 import he from './src/app/i18n/he.json';
 import ko from './src/app/i18n/ko.json';
 import zh from './src/app/i18n/zh.json';
+import fr from './src/app/i18n/fr.json';
+import de from './src/app/i18n/de.json';
+import it from './src/app/i18n/it.json';
+import tr from './src/app/i18n/tr.json';
 
 /**
  * Emit one static landing page per UI language, so each language has a URL a
@@ -59,6 +63,10 @@ const BUNDLES: Record<Locale, { seo?: Partial<SeoStrings> }> = {
   he,
   ko,
   zh,
+  fr,
+  de,
+  it,
+  tr,
 };
 
 function seoStrings(locale: Locale): SeoStrings {
