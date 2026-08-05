@@ -20,9 +20,11 @@ import type { Locale } from '../../types/resume';
  * four real ones in their four real corners. They are decorative, so `Flag` hides
  * them from assistive technology; the endonym and the ISO code carry the meaning.
  *
- * A flag names a COUNTRY, not a language, so four of these are a choice rather than
+ * A flag names a COUNTRY, not a language, so five of these are a choice rather than
  * a fact: English takes the United States, Spanish takes Spain, Arabic takes Saudi
- * Arabia (of its 22 states) and Korean takes the South.
+ * Arabia (of its 22 states), Korean takes the South, and Chinese takes the People's
+ * Republic — the state whose written standard is the simplified one this locale is
+ * translated into.
  */
 
 /** Colour of the middle band on the Azerbaijani flag — the crescent is cut from it. */
@@ -33,6 +35,8 @@ const SA_GREEN = '#006C35';
 const IL_BLUE = '#0038B8';
 const KR_RED = '#cd2e3a';
 const KR_BLUE = '#0047a0';
+const CN_RED = '#EE1C25';
+const CN_YELLOW = '#FFFF00';
 
 /**
  * The angle everything on the Korean flag is rotated by: `atan(2/3)`, the angle of
@@ -67,6 +71,58 @@ function Star8({ cx, cy, r }: { cx: number; cy: number; r: number }): JSX.Elemen
       <rect {...common} transform={`rotate(45 ${cx} ${cy})`} />
     </>
   );
+}
+
+/**
+ * The five stars on the flag of the People's Republic of China, at their OFFICIAL
+ * construction rather than an eyeballed arrangement.
+ *
+ * The specification divides the flag's upper-left quarter into a 15 × 10 grid and
+ * places every star on a grid intersection: the large star's centre at (5, 5) with
+ * a circumscribed radius of 3, and the four small ones at (10, 2), (12, 4), (12, 7)
+ * and (10, 9) with a radius of 1 — measured on a flag 30 wide and 20 tall. That is
+ * the same 3:2 this file's 24 × 16 box already is, so a single factor maps all of
+ * it and the numbers below stay the published ones, checkable against the source.
+ *
+ * The detail that is easy to lose and that IS the flag: the four small stars are
+ * not upright. Each one is turned so that ONE of its points aims at the centre of
+ * the large star, which is why the rotation below is computed from the two centres
+ * instead of typed in — four hand-written angles are four chances to be wrong.
+ */
+const CN_SCALE = 24 / 30;
+const CN_BIG: [number, number] = [5, 5];
+const CN_SMALL: Array<[number, number]> = [
+  [10, 2],
+  [12, 4],
+  [12, 7],
+  [10, 9],
+];
+
+/**
+ * A pentagram's waist as a fraction of its circumscribed radius. Not a taste
+ * decision: `cos 72° / cos 36°` is what makes the five points meet at 36°, the
+ * shape every flag-star is.
+ */
+const PENTAGRAM_WAIST = Math.cos((72 * Math.PI) / 180) / Math.cos((36 * Math.PI) / 180);
+
+/** One of the Chinese flag's stars: `rotate` degrees clockwise from one-point-up. */
+function CnStar({
+  cx,
+  cy,
+  r,
+  rotate = 0,
+}: {
+  cx: number;
+  cy: number;
+  r: number;
+  rotate?: number;
+}): JSX.Element {
+  const points = Array.from({ length: 10 }, (_, i) => {
+    const angle = ((-90 + rotate + i * 36) * Math.PI) / 180;
+    const radius = i % 2 === 0 ? r : r * PENTAGRAM_WAIST;
+    return `${(cx + radius * Math.cos(angle)).toFixed(3)},${(cy + radius * Math.sin(angle)).toFixed(3)}`;
+  }).join(' ');
+  return <polygon points={points} fill={CN_YELLOW} />;
 }
 
 /** A small Bolnisi cross, as used four times on the Georgian flag. */
@@ -229,6 +285,27 @@ const FLAGS: Record<Locale, ReactNode> = {
           <path fill={KR_BLUE} d="M-24 0a24 24 0 1 0 48 0A12 12 0 1 0 0 0a12 12 0 1 1 -24 0" />
         </g>
       </g>
+    </>
+  ),
+  /**
+   * The People's Republic of China — a plain red field and the five stars, at the
+   * construction described above `CN_SCALE`. Nothing here is simplified away: the
+   * count, the sizes, the grid positions and each small star's rotation towards
+   * the large one are all the published geometry.
+   */
+  zh: (
+    <>
+      <rect width={24} height={16} fill={CN_RED} />
+      <CnStar cx={CN_BIG[0] * CN_SCALE} cy={CN_BIG[1] * CN_SCALE} r={3 * CN_SCALE} />
+      {CN_SMALL.map(([x, y]) => (
+        <CnStar
+          key={`${x}-${y}`}
+          cx={x * CN_SCALE}
+          cy={y * CN_SCALE}
+          r={CN_SCALE}
+          rotate={(Math.atan2(CN_BIG[1] - y, CN_BIG[0] - x) * 180) / Math.PI + 90}
+        />
+      ))}
     </>
   ),
 };

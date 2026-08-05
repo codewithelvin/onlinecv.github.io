@@ -24,6 +24,13 @@ const NATIVE_NAME: Record<string, string> = {
    * `\p{L}` code point, so the pattern itself needed no change.
    */
   ko: '김민준',
+  /**
+   * Chinese: family name first again, and the whole name is TWO code points — the
+   * shortest native name in this list. 李 alone is the surname of something like a
+   * hundred million people, so a length floor on either field would have locked
+   * them out; `min(3)` is already gone (see `schemas.ts`) and this pins it.
+   */
+  zh: '李明',
 };
 
 describe('PERSON_NAME', () => {

@@ -9,7 +9,8 @@
     "ar": "مدير",
     "es": "Director",
     "he": "מנהל",
-    "ko": "이사"
+    "ko": "이사",
+    "zh": "主任"
   },
   {
     "code": "general_director",
@@ -21,7 +22,8 @@
     "ar": "مدير عام",
     "es": "Director general",
     "he": "מנהל כללי",
-    "ko": "대표이사"
+    "ko": "대표이사",
+    "zh": "总经理"
   },
   {
     "code": "executive_director",
@@ -33,7 +35,8 @@
     "ar": "مدير تنفيذي",
     "es": "Director ejecutivo",
     "he": "מנכ\"ל",
-    "ko": "전무이사"
+    "ko": "전무이사",
+    "zh": "执行董事"
   },
   {
     "code": "deputy_director",
@@ -45,7 +48,8 @@
     "ar": "نائب المدير",
     "es": "Subdirector",
     "he": "סגן מנהל",
-    "ko": "부이사"
+    "ko": "부이사",
+    "zh": "副主任"
   },
   {
     "code": "department_head",
@@ -57,7 +61,8 @@
     "ar": "رئيس قسم",
     "es": "Jefe de departamento",
     "he": "ראש מחלקה",
-    "ko": "부서장"
+    "ko": "부서장",
+    "zh": "部门主管"
   },
   {
     "code": "manager",
@@ -69,7 +74,8 @@
     "ar": "مسؤول",
     "es": "Gerente",
     "he": "מנג'ר",
-    "ko": "매니저"
+    "ko": "매니저",
+    "zh": "经理"
   },
   {
     "code": "project_manager",
@@ -81,7 +87,8 @@
     "ar": "مدير مشروع",
     "es": "Jefe de proyecto",
     "he": "מנהל פרויקטים",
-    "ko": "프로젝트 매니저"
+    "ko": "프로젝트 매니저",
+    "zh": "项目经理"
   },
   {
     "code": "team_lead",
@@ -93,7 +100,8 @@
     "ar": "قائد فريق",
     "es": "Jefe de equipo",
     "he": "ראש צוות",
-    "ko": "팀장"
+    "ko": "팀장",
+    "zh": "团队负责人"
   },
   {
     "code": "shift_supervisor",
@@ -105,7 +113,8 @@
     "ar": "مشرف وردية",
     "es": "Jefe de turno",
     "he": "אחראי משמרת",
-    "ko": "교대 감독자"
+    "ko": "교대 감독자",
+    "zh": "班组长"
   },
   {
     "code": "branch_manager",
@@ -117,7 +126,8 @@
     "ar": "مدير فرع",
     "es": "Director de sucursal",
     "he": "מנהל סניף",
-    "ko": "지점장"
+    "ko": "지점장",
+    "zh": "分公司经理"
   },
   {
     "code": "operations_manager",
@@ -129,7 +139,8 @@
     "ar": "مدير العمليات",
     "es": "Director de operaciones",
     "he": "מנהל תפעול",
-    "ko": "운영 관리자"
+    "ko": "운영 관리자",
+    "zh": "运营经理"
   },
   {
     "code": "office_manager",
@@ -141,7 +152,8 @@
     "ar": "مدير مكتب",
     "es": "Responsable de oficina",
     "he": "מנהל משרד",
-    "ko": "사무 관리자"
+    "ko": "사무 관리자",
+    "zh": "行政主管"
   },
   {
     "code": "administrator",
@@ -153,7 +165,8 @@
     "ar": "إداري",
     "es": "Administrador",
     "he": "אדמיניסטרטור",
-    "ko": "관리자"
+    "ko": "관리자",
+    "zh": "行政管理员"
   },
   {
     "code": "supervisor",
@@ -165,7 +178,8 @@
     "ar": "مشرف",
     "es": "Supervisor",
     "he": "מפקח",
-    "ko": "감독자"
+    "ko": "감독자",
+    "zh": "主管"
   },
   {
     "code": "coordinator",
@@ -177,7 +191,8 @@
     "ar": "منسق",
     "es": "Coordinador",
     "he": "רכז",
-    "ko": "코디네이터"
+    "ko": "코디네이터",
+    "zh": "协调员"
   },
   {
     "code": "specialist",
@@ -189,7 +204,8 @@
     "ar": "أخصائي",
     "es": "Especialista",
     "he": "מומחה",
-    "ko": "전문가"
+    "ko": "전문가",
+    "zh": "专员"
   },
   {
     "code": "senior_specialist",
@@ -201,7 +217,8 @@
     "ar": "أخصائي أول",
     "es": "Especialista sénior",
     "he": "מומחה בכיר",
-    "ko": "선임 전문가"
+    "ko": "선임 전문가",
+    "zh": "高级专员"
   },
   {
     "code": "leading_specialist",
@@ -213,7 +230,8 @@
     "ar": "أخصائي رئيسي",
     "es": "Especialista principal",
     "he": "מומחה מוביל",
-    "ko": "수석 전문가"
+    "ko": "수석 전문가",
+    "zh": "首席专员"
   },
   {
     "code": "assistant",
@@ -225,7 +243,8 @@
     "ar": "مساعد",
     "es": "Asistente",
     "he": "עוזר",
-    "ko": "보조원"
+    "ko": "보조원",
+    "zh": "助理"
   },
   {
     "code": "intern",
@@ -237,7 +256,8 @@
     "ar": "متدرب",
     "es": "Becario",
     "he": "מתמחה",
-    "ko": "인턴"
+    "ko": "인턴",
+    "zh": "实习生"
   },
   {
     "code": "secretary",
@@ -249,7 +269,8 @@
     "ar": "سكرتير",
     "es": "Secretario",
     "he": "מזכיר",
-    "ko": "비서"
+    "ko": "비서",
+    "zh": "秘书"
   },
   {
     "code": "receptionist",
@@ -261,7 +282,8 @@
     "ar": "موظف استقبال",
     "es": "Recepcionista",
     "he": "פקיד קבלה",
-    "ko": "안내 직원"
+    "ko": "안내 직원",
+    "zh": "前台接待"
   },
   {
     "code": "records_clerk",
@@ -273,7 +295,8 @@
     "ar": "كاتب سجلات",
     "es": "Auxiliar de registro",
     "he": "פקיד רשומות",
-    "ko": "문서 담당자"
+    "ko": "문서 담당자",
+    "zh": "档案登记员"
   },
   {
     "code": "document_controller",
@@ -285,7 +308,8 @@
     "ar": "مسؤول ضبط الوثائق",
     "es": "Controlador de documentos",
     "he": "בקר מסמכים",
-    "ko": "문서 관리 담당자"
+    "ko": "문서 관리 담당자",
+    "zh": "文件管理员"
   },
   {
     "code": "archivist",
@@ -297,7 +321,8 @@
     "ar": "أمين أرشيف",
     "es": "Archivero",
     "he": "ארכיונאי",
-    "ko": "기록물 관리사"
+    "ko": "기록물 관리사",
+    "zh": "档案管理员"
   },
   {
     "code": "business_analyst",
@@ -309,7 +334,8 @@
     "ar": "محلل أعمال",
     "es": "Analista de negocio",
     "he": "אנליסט עסקי",
-    "ko": "비즈니스 분석가"
+    "ko": "비즈니스 분석가",
+    "zh": "业务分析师"
   },
   {
     "code": "business_development_manager",
@@ -321,7 +347,8 @@
     "ar": "مدير تطوير الأعمال",
     "es": "Responsable de desarrollo de negocio",
     "he": "מנהל פיתוח עסקי",
-    "ko": "사업 개발 관리자"
+    "ko": "사업 개발 관리자",
+    "zh": "业务拓展经理"
   },
   {
     "code": "consultant",
@@ -333,7 +360,8 @@
     "ar": "مستشار",
     "es": "Consultor",
     "he": "יועץ",
-    "ko": "컨설턴트"
+    "ko": "컨설턴트",
+    "zh": "顾问"
   },
   {
     "code": "entrepreneur",
@@ -345,7 +373,8 @@
     "ar": "صاحب عمل",
     "es": "Empresario",
     "he": "יזם",
-    "ko": "사업가"
+    "ko": "사업가",
+    "zh": "创业者"
   },
   {
     "code": "founder",
@@ -357,7 +386,8 @@
     "ar": "مؤسس",
     "es": "Fundador",
     "he": "מייסד",
-    "ko": "창업자"
+    "ko": "창업자",
+    "zh": "创始人"
   },
   {
     "code": "freelancer",
@@ -369,7 +399,8 @@
     "ar": "عامل مستقل",
     "es": "Freelance",
     "he": "פרילנסר",
-    "ko": "프리랜서"
+    "ko": "프리랜서",
+    "zh": "自由职业者"
   },
   {
     "code": "volunteer",
@@ -381,7 +412,8 @@
     "ar": "متطوع",
     "es": "Voluntario",
     "he": "מתנדב",
-    "ko": "자원봉사자"
+    "ko": "자원봉사자",
+    "zh": "志愿者"
   },
   {
     "code": "accountant",
@@ -393,7 +425,8 @@
     "ar": "محاسب",
     "es": "Contable",
     "he": "מנהל חשבונות",
-    "ko": "회계 담당자"
+    "ko": "회계 담당자",
+    "zh": "会计"
   },
   {
     "code": "chief_accountant",
@@ -405,7 +438,8 @@
     "ar": "رئيس الحسابات",
     "es": "Jefe de contabilidad",
     "he": "חשב ראשי",
-    "ko": "회계 팀장"
+    "ko": "회계 팀장",
+    "zh": "总会计师"
   },
   {
     "code": "financial_manager",
@@ -417,7 +451,8 @@
     "ar": "مدير مالي",
     "es": "Director financiero",
     "he": "מנהל כספים",
-    "ko": "재무 관리자"
+    "ko": "재무 관리자",
+    "zh": "财务经理"
   },
   {
     "code": "financial_analyst",
@@ -429,7 +464,8 @@
     "ar": "محلل مالي",
     "es": "Analista financiero",
     "he": "אנליסט פיננסי",
-    "ko": "재무 분석가"
+    "ko": "재무 분석가",
+    "zh": "财务分析师"
   },
   {
     "code": "economist",
@@ -441,7 +477,8 @@
     "ar": "اقتصادي",
     "es": "Economista",
     "he": "כלכלן",
-    "ko": "경제 전문가"
+    "ko": "경제 전문가",
+    "zh": "经济师"
   },
   {
     "code": "auditor",
@@ -453,7 +490,8 @@
     "ar": "مدقق حسابات",
     "es": "Auditor",
     "he": "מבקר",
-    "ko": "감사인"
+    "ko": "감사인",
+    "zh": "审计师"
   },
   {
     "code": "internal_auditor",
@@ -465,7 +503,8 @@
     "ar": "مدقق داخلي",
     "es": "Auditor interno",
     "he": "מבקר פנים",
-    "ko": "내부 감사인"
+    "ko": "내부 감사인",
+    "zh": "内部审计师"
   },
   {
     "code": "cashier",
@@ -477,7 +516,8 @@
     "ar": "أمين صندوق",
     "es": "Cajero",
     "he": "קופאי",
-    "ko": "계산원"
+    "ko": "계산원",
+    "zh": "收银员"
   },
   {
     "code": "bank_teller",
@@ -489,7 +529,8 @@
     "ar": "موظف صرف بنكي",
     "es": "Cajero de banco",
     "he": "פקיד בנק",
-    "ko": "은행 창구 직원"
+    "ko": "은행 창구 직원",
+    "zh": "银行柜员"
   },
   {
     "code": "credit_specialist",
@@ -501,7 +542,8 @@
     "ar": "أخصائي قروض",
     "es": "Especialista en créditos",
     "he": "מומחה אשראי",
-    "ko": "여신 전문가"
+    "ko": "여신 전문가",
+    "zh": "信贷专员"
   },
   {
     "code": "treasurer",
@@ -513,7 +555,8 @@
     "ar": "أمين خزينة",
     "es": "Tesorero",
     "he": "גזבר",
-    "ko": "자금 담당자"
+    "ko": "자금 담당자",
+    "zh": "资金管理员"
   },
   {
     "code": "tax_specialist",
@@ -525,7 +568,8 @@
     "ar": "أخصائي ضرائب",
     "es": "Especialista fiscal",
     "he": "מומחה מיסים",
-    "ko": "세무 전문가"
+    "ko": "세무 전문가",
+    "zh": "税务专员"
   },
   {
     "code": "payroll_specialist",
@@ -537,7 +581,8 @@
     "ar": "أخصائي رواتب",
     "es": "Especialista en nóminas",
     "he": "חשב שכר",
-    "ko": "급여 담당자"
+    "ko": "급여 담당자",
+    "zh": "薪酬专员"
   },
   {
     "code": "collections_specialist",
@@ -549,7 +594,8 @@
     "ar": "أخصائي تحصيل ديون",
     "es": "Especialista en cobros",
     "he": "מומחה גבייה",
-    "ko": "채권 회수 담당자"
+    "ko": "채권 회수 담당자",
+    "zh": "催收专员"
   },
   {
     "code": "risk_manager",
@@ -561,7 +607,8 @@
     "ar": "مدير مخاطر",
     "es": "Gestor de riesgos",
     "he": "מנהל סיכונים",
-    "ko": "리스크 관리자"
+    "ko": "리스크 관리자",
+    "zh": "风险管理经理"
   },
   {
     "code": "compliance_officer",
@@ -573,7 +620,8 @@
     "ar": "مسؤول الالتزام",
     "es": "Responsable de cumplimiento",
     "he": "אחראי ציות",
-    "ko": "준법 감시 담당자"
+    "ko": "준법 감시 담당자",
+    "zh": "合规专员"
   },
   {
     "code": "insurance_agent",
@@ -585,7 +633,8 @@
     "ar": "وكيل تأمين",
     "es": "Agente de seguros",
     "he": "סוכן ביטוח",
-    "ko": "보험 설계사"
+    "ko": "보험 설계사",
+    "zh": "保险代理人"
   },
   {
     "code": "salesperson",
@@ -597,7 +646,8 @@
     "ar": "بائع",
     "es": "Vendedor",
     "he": "איש מכירות",
-    "ko": "판매원"
+    "ko": "판매원",
+    "zh": "销售员"
   },
   {
     "code": "sales_cashier",
@@ -609,7 +659,8 @@
     "ar": "بائع أمين صندوق",
     "es": "Cajero de tienda",
     "he": "קופאי בחנות",
-    "ko": "판매 계산원"
+    "ko": "판매 계산원",
+    "zh": "销售收银员"
   },
   {
     "code": "sales_manager",
@@ -621,7 +672,8 @@
     "ar": "مدير مبيعات",
     "es": "Jefe de ventas",
     "he": "מנהל מכירות",
-    "ko": "영업 관리자"
+    "ko": "영업 관리자",
+    "zh": "销售经理"
   },
   {
     "code": "sales_representative",
@@ -633,7 +685,8 @@
     "ar": "مندوب مبيعات",
     "es": "Representante de ventas",
     "he": "נציג מכירות",
-    "ko": "영업 담당자"
+    "ko": "영업 담당자",
+    "zh": "销售代表"
   },
   {
     "code": "sales_consultant",
@@ -645,7 +698,8 @@
     "ar": "مستشار مبيعات",
     "es": "Asesor comercial",
     "he": "יועץ מכירות",
-    "ko": "판매 상담원"
+    "ko": "판매 상담원",
+    "zh": "销售顾问"
   },
   {
     "code": "store_manager",
@@ -657,7 +711,8 @@
     "ar": "مدير متجر",
     "es": "Encargado de tienda",
     "he": "מנהל חנות",
-    "ko": "매장 관리자"
+    "ko": "매장 관리자",
+    "zh": "店长"
   },
   {
     "code": "merchandiser",
@@ -669,7 +724,8 @@
     "ar": "منسق عرض السلع",
     "es": "Merchandiser",
     "he": "מרצ'נדייזר",
-    "ko": "머천다이저"
+    "ko": "머천다이저",
+    "zh": "陈列理货员"
   },
   {
     "code": "key_account_manager",
@@ -681,7 +737,8 @@
     "ar": "مدير حسابات رئيسية",
     "es": "Gestor de cuentas clave",
     "he": "מנהל לקוחות מרכזיים",
-    "ko": "주요 거래처 관리자"
+    "ko": "주요 거래처 관리자",
+    "zh": "大客户经理"
   },
   {
     "code": "customer_service_specialist",
@@ -693,7 +750,8 @@
     "ar": "أخصائي خدمة العملاء",
     "es": "Especialista en atención al cliente",
     "he": "מומחה שירות לקוחות",
-    "ko": "고객 서비스 전문가"
+    "ko": "고객 서비스 전문가",
+    "zh": "客户服务专员"
   },
   {
     "code": "call_center_operator",
@@ -705,7 +763,8 @@
     "ar": "مشغّل مركز اتصال",
     "es": "Teleoperador",
     "he": "נציג מוקד טלפוני",
-    "ko": "콜센터 상담원"
+    "ko": "콜센터 상담원",
+    "zh": "呼叫中心话务员"
   },
   {
     "code": "procurement_specialist",
@@ -717,7 +776,8 @@
     "ar": "أخصائي مشتريات",
     "es": "Especialista en compras",
     "he": "מומחה רכש",
-    "ko": "구매 전문가"
+    "ko": "구매 전문가",
+    "zh": "采购专员"
   },
   {
     "code": "purchasing_manager",
@@ -729,7 +789,8 @@
     "ar": "مدير المشتريات",
     "es": "Jefe de compras",
     "he": "מנהל רכש",
-    "ko": "구매 관리자"
+    "ko": "구매 관리자",
+    "zh": "采购经理"
   },
   {
     "code": "supply_specialist",
@@ -741,7 +802,8 @@
     "ar": "أخصائي تجهيز",
     "es": "Especialista en abastecimiento",
     "he": "מומחה אספקה",
-    "ko": "자재 조달 담당자"
+    "ko": "자재 조달 담당자",
+    "zh": "供应专员"
   },
   {
     "code": "contracts_specialist",
@@ -753,7 +815,8 @@
     "ar": "أخصائي عقود",
     "es": "Especialista en contratos",
     "he": "מומחה חוזים",
-    "ko": "계약 담당자"
+    "ko": "계약 담당자",
+    "zh": "合同专员"
   },
   {
     "code": "real_estate_agent",
@@ -765,7 +828,8 @@
     "ar": "وكيل عقارات",
     "es": "Agente inmobiliario",
     "he": "מתווך נדל\"ן",
-    "ko": "부동산 중개인"
+    "ko": "부동산 중개인",
+    "zh": "房产经纪人"
   },
   {
     "code": "programmer",
@@ -777,7 +841,8 @@
     "ar": "مبرمج",
     "es": "Programador",
     "he": "מתכנת",
-    "ko": "프로그래머"
+    "ko": "프로그래머",
+    "zh": "程序员"
   },
   {
     "code": "software_engineer",
@@ -789,7 +854,8 @@
     "ar": "مهندس برمجيات",
     "es": "Ingeniero de software",
     "he": "מהנדס תוכנה",
-    "ko": "소프트웨어 엔지니어"
+    "ko": "소프트웨어 엔지니어",
+    "zh": "软件工程师"
   },
   {
     "code": "frontend_developer",
@@ -801,7 +867,8 @@
     "ar": "مطوّر واجهات أمامية",
     "es": "Desarrollador frontend",
     "he": "מפתח Frontend",
-    "ko": "프런트엔드 개발자"
+    "ko": "프런트엔드 개발자",
+    "zh": "前端开发工程师"
   },
   {
     "code": "backend_developer",
@@ -813,7 +880,8 @@
     "ar": "مطوّر خدمات خلفية",
     "es": "Desarrollador backend",
     "he": "מפתח Backend",
-    "ko": "백엔드 개발자"
+    "ko": "백엔드 개발자",
+    "zh": "后端开发工程师"
   },
   {
     "code": "fullstack_developer",
@@ -825,7 +893,8 @@
     "ar": "مطوّر متكامل",
     "es": "Desarrollador full-stack",
     "he": "מפתח Full-stack",
-    "ko": "풀스택 개발자"
+    "ko": "풀스택 개발자",
+    "zh": "全栈开发工程师"
   },
   {
     "code": "web_developer",
@@ -837,7 +906,8 @@
     "ar": "مطوّر ويب",
     "es": "Desarrollador web",
     "he": "מפתח אתרים",
-    "ko": "웹 개발자"
+    "ko": "웹 개발자",
+    "zh": "网页开发工程师"
   },
   {
     "code": "mobile_developer",
@@ -849,7 +919,8 @@
     "ar": "مطوّر تطبيقات جوال",
     "es": "Desarrollador móvil",
     "he": "מפתח אפליקציות",
-    "ko": "모바일 앱 개발자"
+    "ko": "모바일 앱 개발자",
+    "zh": "移动应用开发工程师"
   },
   {
     "code": "qa_engineer",
@@ -861,7 +932,8 @@
     "ar": "مهندس اختبار",
     "es": "Ingeniero de QA",
     "he": "מהנדס QA",
-    "ko": "QA 엔지니어"
+    "ko": "QA 엔지니어",
+    "zh": "测试工程师"
   },
   {
     "code": "devops_engineer",
@@ -873,7 +945,8 @@
     "ar": "مهندس DevOps",
     "es": "Ingeniero DevOps",
     "he": "מהנדס DevOps",
-    "ko": "DevOps 엔지니어"
+    "ko": "DevOps 엔지니어",
+    "zh": "DevOps 工程师"
   },
   {
     "code": "system_administrator",
@@ -885,7 +958,8 @@
     "ar": "مدير أنظمة",
     "es": "Administrador de sistemas",
     "he": "מנהל מערכות",
-    "ko": "시스템 관리자"
+    "ko": "시스템 관리자",
+    "zh": "系统管理员"
   },
   {
     "code": "network_engineer",
@@ -897,7 +971,8 @@
     "ar": "مهندس شبكات",
     "es": "Ingeniero de redes",
     "he": "מהנדס רשתות",
-    "ko": "네트워크 엔지니어"
+    "ko": "네트워크 엔지니어",
+    "zh": "网络工程师"
   },
   {
     "code": "database_administrator",
@@ -909,7 +984,8 @@
     "ar": "مدير قواعد بيانات",
     "es": "Administrador de bases de datos",
     "he": "מנהל בסיסי נתונים",
-    "ko": "데이터베이스 관리자"
+    "ko": "데이터베이스 관리자",
+    "zh": "数据库管理员"
   },
   {
     "code": "data_analyst",
@@ -921,7 +997,8 @@
     "ar": "محلل بيانات",
     "es": "Analista de datos",
     "he": "אנליסט נתונים",
-    "ko": "데이터 분석가"
+    "ko": "데이터 분석가",
+    "zh": "数据分析师"
   },
   {
     "code": "data_scientist",
@@ -933,7 +1010,8 @@
     "ar": "عالم بيانات",
     "es": "Científico de datos",
     "he": "מדען נתונים",
-    "ko": "데이터 사이언티스트"
+    "ko": "데이터 사이언티스트",
+    "zh": "数据科学家"
   },
   {
     "code": "system_analyst",
@@ -945,7 +1023,8 @@
     "ar": "محلل أنظمة",
     "es": "Analista de sistemas",
     "he": "אנליסט מערכות",
-    "ko": "시스템 분석가"
+    "ko": "시스템 분석가",
+    "zh": "系统分析师"
   },
   {
     "code": "it_support_specialist",
@@ -957,7 +1036,8 @@
     "ar": "أخصائي دعم تقني",
     "es": "Especialista en soporte técnico",
     "he": "מומחה תמיכה טכנית",
-    "ko": "IT 지원 전문가"
+    "ko": "IT 지원 전문가",
+    "zh": "IT 支持专员"
   },
   {
     "code": "cybersecurity_specialist",
@@ -969,7 +1049,8 @@
     "ar": "أخصائي أمن سيبراني",
     "es": "Especialista en ciberseguridad",
     "he": "מומחה אבטחת מידע",
-    "ko": "정보보안 전문가"
+    "ko": "정보보안 전문가",
+    "zh": "网络安全专员"
   },
   {
     "code": "it_manager",
@@ -981,7 +1062,8 @@
     "ar": "مدير تقنية المعلومات",
     "es": "Director de TI",
     "he": "מנהל מערכות מידע",
-    "ko": "IT 관리자"
+    "ko": "IT 관리자",
+    "zh": "IT 经理"
   },
   {
     "code": "product_manager",
@@ -993,7 +1075,8 @@
     "ar": "مدير منتج",
     "es": "Gestor de producto",
     "he": "מנהל מוצר",
-    "ko": "프로덕트 매니저"
+    "ko": "프로덕트 매니저",
+    "zh": "产品经理"
   },
   {
     "code": "ui_ux_designer",
@@ -1005,7 +1088,8 @@
     "ar": "مصمم واجهات المستخدم",
     "es": "Diseñador UI/UX",
     "he": "מעצב UI/UX",
-    "ko": "UI/UX 디자이너"
+    "ko": "UI/UX 디자이너",
+    "zh": "UI/UX 设计师"
   },
   {
     "code": "seo_specialist",
@@ -1017,7 +1101,8 @@
     "ar": "أخصائي تحسين محركات البحث",
     "es": "Especialista en SEO",
     "he": "מומחה SEO",
-    "ko": "SEO 전문가"
+    "ko": "SEO 전문가",
+    "zh": "SEO 专员"
   },
   {
     "code": "computer_operator",
@@ -1029,7 +1114,8 @@
     "ar": "مشغّل حاسوب",
     "es": "Operador informático",
     "he": "מפעיל מחשב",
-    "ko": "컴퓨터 조작원"
+    "ko": "컴퓨터 조작원",
+    "zh": "计算机操作员"
   },
   {
     "code": "marketing_manager",
@@ -1041,7 +1127,8 @@
     "ar": "مدير تسويق",
     "es": "Director de marketing",
     "he": "מנהל שיווק",
-    "ko": "마케팅 관리자"
+    "ko": "마케팅 관리자",
+    "zh": "市场经理"
   },
   {
     "code": "marketing_specialist",
@@ -1053,7 +1140,8 @@
     "ar": "أخصائي تسويق",
     "es": "Especialista en marketing",
     "he": "מומחה שיווק",
-    "ko": "마케팅 전문가"
+    "ko": "마케팅 전문가",
+    "zh": "市场专员"
   },
   {
     "code": "digital_marketing_specialist",
@@ -1065,7 +1153,8 @@
     "ar": "أخصائي تسويق رقمي",
     "es": "Especialista en marketing digital",
     "he": "מומחה שיווק דיגיטלי",
-    "ko": "디지털 마케팅 전문가"
+    "ko": "디지털 마케팅 전문가",
+    "zh": "数字营销专员"
   },
   {
     "code": "smm_specialist",
@@ -1077,7 +1166,8 @@
     "ar": "أخصائي وسائل التواصل",
     "es": "Especialista en redes sociales",
     "he": "מומחה רשתות חברתיות",
-    "ko": "소셜미디어 전문가"
+    "ko": "소셜미디어 전문가",
+    "zh": "社交媒体专员"
   },
   {
     "code": "brand_manager",
@@ -1089,7 +1179,8 @@
     "ar": "مدير علامة تجارية",
     "es": "Gestor de marca",
     "he": "מנהל מותג",
-    "ko": "브랜드 매니저"
+    "ko": "브랜드 매니저",
+    "zh": "品牌经理"
   },
   {
     "code": "pr_specialist",
@@ -1101,7 +1192,8 @@
     "ar": "أخصائي علاقات عامة",
     "es": "Especialista en relaciones públicas",
     "he": "מומחה יחסי ציבור",
-    "ko": "홍보 전문가"
+    "ko": "홍보 전문가",
+    "zh": "公关专员"
   },
   {
     "code": "content_manager",
@@ -1113,7 +1205,8 @@
     "ar": "مدير محتوى",
     "es": "Gestor de contenidos",
     "he": "מנהל תוכן",
-    "ko": "콘텐츠 매니저"
+    "ko": "콘텐츠 매니저",
+    "zh": "内容运营"
   },
   {
     "code": "copywriter",
@@ -1125,7 +1218,8 @@
     "ar": "كاتب إعلاني",
     "es": "Redactor publicitario",
     "he": "קופירייטר",
-    "ko": "카피라이터"
+    "ko": "카피라이터",
+    "zh": "文案"
   },
   {
     "code": "graphic_designer",
@@ -1137,7 +1231,8 @@
     "ar": "مصمم جرافيك",
     "es": "Diseñador gráfico",
     "he": "מעצב גרפי",
-    "ko": "그래픽 디자이너"
+    "ko": "그래픽 디자이너",
+    "zh": "平面设计师"
   },
   {
     "code": "interior_designer",
@@ -1149,7 +1244,8 @@
     "ar": "مصمم داخلي",
     "es": "Diseñador de interiores",
     "he": "מעצב פנים",
-    "ko": "인테리어 디자이너"
+    "ko": "인테리어 디자이너",
+    "zh": "室内设计师"
   },
   {
     "code": "photographer",
@@ -1161,7 +1257,8 @@
     "ar": "مصوّر",
     "es": "Fotógrafo",
     "he": "צלם",
-    "ko": "사진작가"
+    "ko": "사진작가",
+    "zh": "摄影师"
   },
   {
     "code": "videographer",
@@ -1173,7 +1270,8 @@
     "ar": "مصوّر فيديو",
     "es": "Videógrafo",
     "he": "צלם וידאו",
-    "ko": "영상 촬영가"
+    "ko": "영상 촬영가",
+    "zh": "摄像师"
   },
   {
     "code": "video_editor",
@@ -1185,7 +1283,8 @@
     "ar": "محرر فيديو",
     "es": "Editor de vídeo",
     "he": "עורך וידאו",
-    "ko": "영상 편집자"
+    "ko": "영상 편집자",
+    "zh": "视频剪辑师"
   },
   {
     "code": "journalist",
@@ -1197,7 +1296,8 @@
     "ar": "صحفي",
     "es": "Periodista",
     "he": "עיתונאי",
-    "ko": "기자"
+    "ko": "기자",
+    "zh": "记者"
   },
   {
     "code": "editor",
@@ -1209,7 +1309,8 @@
     "ar": "محرر",
     "es": "Redactor",
     "he": "עורך",
-    "ko": "편집자"
+    "ko": "편집자",
+    "zh": "编辑"
   },
   {
     "code": "presenter",
@@ -1221,7 +1322,8 @@
     "ar": "مذيع",
     "es": "Presentador",
     "he": "מגיש",
-    "ko": "진행자"
+    "ko": "진행자",
+    "zh": "主持人"
   },
   {
     "code": "stage_director",
@@ -1233,7 +1335,8 @@
     "ar": "مخرج",
     "es": "Director de escena",
     "he": "במאי",
-    "ko": "연출가"
+    "ko": "연출가",
+    "zh": "舞台导演"
   },
   {
     "code": "translator",
@@ -1245,7 +1348,8 @@
     "ar": "مترجم",
     "es": "Traductor",
     "he": "מתרגם",
-    "ko": "번역가"
+    "ko": "번역가",
+    "zh": "翻译"
   },
   {
     "code": "hr_specialist",
@@ -1257,7 +1361,8 @@
     "ar": "أخصائي موارد بشرية",
     "es": "Especialista en RRHH",
     "he": "מומחה משאבי אנוש",
-    "ko": "인사 전문가"
+    "ko": "인사 전문가",
+    "zh": "人力资源专员"
   },
   {
     "code": "hr_manager",
@@ -1269,7 +1374,8 @@
     "ar": "مدير موارد بشرية",
     "es": "Director de RRHH",
     "he": "מנהל משאבי אנוש",
-    "ko": "인사 관리자"
+    "ko": "인사 관리자",
+    "zh": "人力资源经理"
   },
   {
     "code": "recruiter",
@@ -1281,7 +1387,8 @@
     "ar": "أخصائي توظيف",
     "es": "Reclutador",
     "he": "מגייס",
-    "ko": "채용 담당자"
+    "ko": "채용 담당자",
+    "zh": "招聘专员"
   },
   {
     "code": "trainer",
@@ -1293,7 +1400,8 @@
     "ar": "مدرب",
     "es": "Formador",
     "he": "מדריך",
-    "ko": "교육 강사"
+    "ko": "교육 강사",
+    "zh": "培训师"
   },
   {
     "code": "lawyer",
@@ -1305,7 +1413,8 @@
     "ar": "محامٍ",
     "es": "Jurista",
     "he": "משפטן",
-    "ko": "법률가"
+    "ko": "법률가",
+    "zh": "法务人员"
   },
   {
     "code": "advocate",
@@ -1317,7 +1426,8 @@
     "ar": "محامي مرافعة",
     "es": "Abogado",
     "he": "עורך דין",
-    "ko": "변호사"
+    "ko": "변호사",
+    "zh": "律师"
   },
   {
     "code": "legal_advisor",
@@ -1329,7 +1439,8 @@
     "ar": "مستشار قانوني",
     "es": "Asesor jurídico",
     "he": "יועץ משפטי",
-    "ko": "법률 자문"
+    "ko": "법률 자문",
+    "zh": "法律顾问"
   },
   {
     "code": "notary",
@@ -1341,7 +1452,8 @@
     "ar": "كاتب عدل",
     "es": "Notario",
     "he": "נוטריון",
-    "ko": "공증인"
+    "ko": "공증인",
+    "zh": "公证员"
   },
   {
     "code": "inspector",
@@ -1353,7 +1465,8 @@
     "ar": "مفتش",
     "es": "Inspector",
     "he": "מפקח ביקורת",
-    "ko": "검사관"
+    "ko": "검사관",
+    "zh": "检查员"
   },
   {
     "code": "civil_servant",
@@ -1365,7 +1478,8 @@
     "ar": "موظف حكومي",
     "es": "Funcionario público",
     "he": "עובד מדינה",
-    "ko": "공무원"
+    "ko": "공무원",
+    "zh": "公务员"
   },
   {
     "code": "customs_officer",
@@ -1377,7 +1491,8 @@
     "ar": "موظف جمارك",
     "es": "Agente de aduanas",
     "he": "פקיד מכס",
-    "ko": "세관 공무원"
+    "ko": "세관 공무원",
+    "zh": "海关关员"
   },
   {
     "code": "customs_broker",
@@ -1389,7 +1504,8 @@
     "ar": "وسيط جمركي",
     "es": "Despachante de aduanas",
     "he": "עמיל מכס",
-    "ko": "관세사"
+    "ko": "관세사",
+    "zh": "报关员"
   },
   {
     "code": "police_officer",
@@ -1401,7 +1517,8 @@
     "ar": "ضابط شرطة",
     "es": "Policía",
     "he": "שוטר",
-    "ko": "경찰관"
+    "ko": "경찰관",
+    "zh": "警察"
   },
   {
     "code": "serviceman",
@@ -1413,7 +1530,8 @@
     "ar": "عسكري",
     "es": "Militar",
     "he": "חייל",
-    "ko": "군인"
+    "ko": "군인",
+    "zh": "军人"
   },
   {
     "code": "firefighter",
@@ -1425,7 +1543,8 @@
     "ar": "رجل إطفاء",
     "es": "Bombero",
     "he": "כבאי",
-    "ko": "소방관"
+    "ko": "소방관",
+    "zh": "消防员"
   },
   {
     "code": "security_guard",
@@ -1437,7 +1556,8 @@
     "ar": "حارس أمن",
     "es": "Guardia de seguridad",
     "he": "מאבטח",
-    "ko": "경비원"
+    "ko": "경비원",
+    "zh": "保安"
   },
   {
     "code": "watchman",
@@ -1449,7 +1569,8 @@
     "ar": "خفير",
     "es": "Sereno",
     "he": "שומר",
-    "ko": "야간 경비원"
+    "ko": "야간 경비원",
+    "zh": "看守员"
   },
   {
     "code": "engineer",
@@ -1461,7 +1582,8 @@
     "ar": "مهندس",
     "es": "Ingeniero",
     "he": "מהנדס",
-    "ko": "엔지니어"
+    "ko": "엔지니어",
+    "zh": "工程师"
   },
   {
     "code": "civil_engineer",
@@ -1473,7 +1595,8 @@
     "ar": "مهندس مدني",
     "es": "Ingeniero civil",
     "he": "מהנדס אזרחי",
-    "ko": "토목 엔지니어"
+    "ko": "토목 엔지니어",
+    "zh": "土木工程师"
   },
   {
     "code": "project_engineer",
@@ -1485,7 +1608,8 @@
     "ar": "مهندس مشروع",
     "es": "Ingeniero de proyectos",
     "he": "מהנדס פרויקטים",
-    "ko": "프로젝트 엔지니어"
+    "ko": "프로젝트 엔지니어",
+    "zh": "项目工程师"
   },
   {
     "code": "planning_engineer",
@@ -1497,7 +1621,8 @@
     "ar": "مهندس تخطيط",
     "es": "Ingeniero de planificación",
     "he": "מהנדס תכנון",
-    "ko": "공정 계획 엔지니어"
+    "ko": "공정 계획 엔지니어",
+    "zh": "计划工程师"
   },
   {
     "code": "maintenance_engineer",
@@ -1509,7 +1634,8 @@
     "ar": "مهندس صيانة",
     "es": "Ingeniero de mantenimiento",
     "he": "מהנדס תחזוקה",
-    "ko": "설비 유지보수 엔지니어"
+    "ko": "설비 유지보수 엔지니어",
+    "zh": "维修工程师"
   },
   {
     "code": "mechanical_engineer",
@@ -1521,7 +1647,8 @@
     "ar": "مهندس ميكانيكي",
     "es": "Ingeniero mecánico",
     "he": "מהנדס מכונות",
-    "ko": "기계 엔지니어"
+    "ko": "기계 엔지니어",
+    "zh": "机械工程师"
   },
   {
     "code": "electrical_engineer",
@@ -1533,7 +1660,8 @@
     "ar": "مهندس كهربائي",
     "es": "Ingeniero eléctrico",
     "he": "מהנדס חשמל",
-    "ko": "전기 엔지니어"
+    "ko": "전기 엔지니어",
+    "zh": "电气工程师"
   },
   {
     "code": "instrumentation_engineer",
@@ -1545,7 +1673,8 @@
     "ar": "مهندس أجهزة قياس",
     "es": "Ingeniero de instrumentación",
     "he": "מהנדס מכשור",
-    "ko": "계측 엔지니어"
+    "ko": "계측 엔지니어",
+    "zh": "仪表工程师"
   },
   {
     "code": "architect",
@@ -1557,7 +1686,8 @@
     "ar": "مهندس معماري",
     "es": "Arquitecto",
     "he": "אדריכל",
-    "ko": "건축가"
+    "ko": "건축가",
+    "zh": "建筑师"
   },
   {
     "code": "quantity_surveyor",
@@ -1569,7 +1699,8 @@
     "ar": "أخصائي حصر كميات",
     "es": "Aparejador",
     "he": "שמאי כמויות",
-    "ko": "견적 담당자"
+    "ko": "견적 담당자",
+    "zh": "工程造价师"
   },
   {
     "code": "site_manager",
@@ -1581,7 +1712,8 @@
     "ar": "مدير موقع إنشاءات",
     "es": "Jefe de obra",
     "he": "מנהל אתר בנייה",
-    "ko": "현장 관리자"
+    "ko": "현장 관리자",
+    "zh": "工地负责人"
   },
   {
     "code": "foreman",
@@ -1593,7 +1725,8 @@
     "ar": "رئيس عمال",
     "es": "Encargado de obra",
     "he": "מנהל עבודה",
-    "ko": "현장 감독"
+    "ko": "현장 감독",
+    "zh": "施工工长"
   },
   {
     "code": "land_surveyor",
@@ -1605,7 +1738,8 @@
     "ar": "مساح",
     "es": "Topógrafo",
     "he": "מודד",
-    "ko": "측량사"
+    "ko": "측량사",
+    "zh": "测量员"
   },
   {
     "code": "hse_specialist",
@@ -1617,7 +1751,8 @@
     "ar": "أخصائي الصحة والسلامة",
     "es": "Especialista en seguridad laboral",
     "he": "מומחה בטיחות בעבודה",
-    "ko": "HSE 전문가"
+    "ko": "HSE 전문가",
+    "zh": "安全环保专员"
   },
   {
     "code": "quality_control_specialist",
@@ -1629,7 +1764,8 @@
     "ar": "أخصائي مراقبة الجودة",
     "es": "Especialista en control de calidad",
     "he": "מומחה בקרת איכות",
-    "ko": "품질 관리 전문가"
+    "ko": "품질 관리 전문가",
+    "zh": "质量控制专员"
   },
   {
     "code": "technician",
@@ -1641,7 +1777,8 @@
     "ar": "تقني",
     "es": "Técnico",
     "he": "טכנאי",
-    "ko": "기술자"
+    "ko": "기술자",
+    "zh": "技术员"
   },
   {
     "code": "technologist",
@@ -1653,7 +1790,8 @@
     "ar": "أخصائي تكنولوجيا",
     "es": "Tecnólogo",
     "he": "טכנולוג",
-    "ko": "생산 기술자"
+    "ko": "생산 기술자",
+    "zh": "工艺师"
   },
   {
     "code": "mechanic",
@@ -1665,7 +1803,8 @@
     "ar": "ميكانيكي",
     "es": "Mecánico",
     "he": "מכונאי",
-    "ko": "정비공"
+    "ko": "정비공",
+    "zh": "机修工"
   },
   {
     "code": "electrician",
@@ -1677,7 +1816,8 @@
     "ar": "كهربائي",
     "es": "Electricista",
     "he": "חשמלאי",
-    "ko": "전기 기술자"
+    "ko": "전기 기술자",
+    "zh": "电工"
   },
   {
     "code": "welder",
@@ -1689,7 +1829,8 @@
     "ar": "لحّام",
     "es": "Soldador",
     "he": "מסגר מרתך",
-    "ko": "용접공"
+    "ko": "용접공",
+    "zh": "焊工"
   },
   {
     "code": "plumber",
@@ -1701,7 +1842,8 @@
     "ar": "سبّاك",
     "es": "Fontanero",
     "he": "שרברב",
-    "ko": "배관공"
+    "ko": "배관공",
+    "zh": "管道工"
   },
   {
     "code": "carpenter",
@@ -1713,7 +1855,8 @@
     "ar": "نجّار",
     "es": "Carpintero",
     "he": "נגר",
-    "ko": "목공"
+    "ko": "목공",
+    "zh": "木工"
   },
   {
     "code": "mason",
@@ -1725,7 +1868,8 @@
     "ar": "بنّاء",
     "es": "Albañil",
     "he": "בנאי",
-    "ko": "조적공"
+    "ko": "조적공",
+    "zh": "砌筑工"
   },
   {
     "code": "plasterer",
@@ -1737,7 +1881,8 @@
     "ar": "مبيّض جبس",
     "es": "Yesero",
     "he": "טייח",
-    "ko": "미장공"
+    "ko": "미장공",
+    "zh": "抹灰工"
   },
   {
     "code": "painter_decorator",
@@ -1749,7 +1894,8 @@
     "ar": "دهّان",
     "es": "Pintor decorador",
     "he": "צבע",
-    "ko": "도장공"
+    "ko": "도장공",
+    "zh": "油漆装饰工"
   },
   {
     "code": "concrete_worker",
@@ -1761,7 +1907,8 @@
     "ar": "عامل خرسانة",
     "es": "Operario de hormigón",
     "he": "פועל בטון",
-    "ko": "콘크리트공"
+    "ko": "콘크리트공",
+    "zh": "混凝土工"
   },
   {
     "code": "locksmith",
@@ -1773,7 +1920,8 @@
     "ar": "ميكانيكي تركيبات",
     "es": "Cerrajero",
     "he": "מסגר",
-    "ko": "자물쇠공"
+    "ko": "자물쇠공",
+    "zh": "锁具修配工"
   },
   {
     "code": "turner",
@@ -1785,7 +1933,8 @@
     "ar": "خرّاط",
     "es": "Tornero",
     "he": "חרט",
-    "ko": "선반공"
+    "ko": "선반공",
+    "zh": "车工"
   },
   {
     "code": "crane_operator",
@@ -1797,7 +1946,8 @@
     "ar": "مشغّل رافعة",
     "es": "Gruista",
     "he": "מפעיל עגורן",
-    "ko": "크레인 기사"
+    "ko": "크레인 기사",
+    "zh": "起重机操作员"
   },
   {
     "code": "excavator_operator",
@@ -1809,7 +1959,8 @@
     "ar": "مشغّل حفارة",
     "es": "Operador de excavadora",
     "he": "מפעיל מחפרון",
-    "ko": "굴착기 기사"
+    "ko": "굴착기 기사",
+    "zh": "挖掘机操作员"
   },
   {
     "code": "machine_operator",
@@ -1821,7 +1972,8 @@
     "ar": "مشغّل آلة",
     "es": "Operador de máquina",
     "he": "מפעיל מכונה",
-    "ko": "기계 조작원"
+    "ko": "기계 조작원",
+    "zh": "机床操作员"
   },
   {
     "code": "production_operator",
@@ -1833,7 +1985,8 @@
     "ar": "مشغّل إنتاج",
     "es": "Operario de producción",
     "he": "עובד ייצור",
-    "ko": "생산 조작원"
+    "ko": "생산 조작원",
+    "zh": "生产操作员"
   },
   {
     "code": "operator",
@@ -1845,7 +1998,8 @@
     "ar": "مشغّل",
     "es": "Operador",
     "he": "מפעיל",
-    "ko": "오퍼레이터"
+    "ko": "오퍼레이터",
+    "zh": "操作员"
   },
   {
     "code": "laboratory_assistant",
@@ -1857,7 +2011,8 @@
     "ar": "فني مختبر",
     "es": "Auxiliar de laboratorio",
     "he": "לבורנט",
-    "ko": "실험실 보조원"
+    "ko": "실험실 보조원",
+    "zh": "化验员"
   },
   {
     "code": "worker",
@@ -1869,7 +2024,8 @@
     "ar": "عامل",
     "es": "Obrero",
     "he": "פועל",
-    "ko": "근로자"
+    "ko": "근로자",
+    "zh": "工人"
   },
   {
     "code": "petroleum_engineer",
@@ -1881,7 +2037,8 @@
     "ar": "مهندس نفط وغاز",
     "es": "Ingeniero de petróleo",
     "he": "מהנדס נפט",
-    "ko": "석유 엔지니어"
+    "ko": "석유 엔지니어",
+    "zh": "石油工程师"
   },
   {
     "code": "drilling_engineer",
@@ -1893,7 +2050,8 @@
     "ar": "مهندس حفر",
     "es": "Ingeniero de perforación",
     "he": "מהנדס קידוחים",
-    "ko": "시추 엔지니어"
+    "ko": "시추 엔지니어",
+    "zh": "钻井工程师"
   },
   {
     "code": "process_engineer",
@@ -1905,7 +2063,8 @@
     "ar": "مهندس عمليات",
     "es": "Ingeniero de procesos",
     "he": "מהנדס תהליכים",
-    "ko": "공정 엔지니어"
+    "ko": "공정 엔지니어",
+    "zh": "工艺工程师"
   },
   {
     "code": "energy_engineer",
@@ -1917,7 +2076,8 @@
     "ar": "مهندس طاقة",
     "es": "Ingeniero energético",
     "he": "מהנדס אנרגיה",
-    "ko": "에너지 엔지니어"
+    "ko": "에너지 엔지니어",
+    "zh": "能源工程师"
   },
   {
     "code": "geologist",
@@ -1929,7 +2089,8 @@
     "ar": "جيولوجي",
     "es": "Geólogo",
     "he": "גיאולוג",
-    "ko": "지질학자"
+    "ko": "지질학자",
+    "zh": "地质工程师"
   },
   {
     "code": "geophysicist",
@@ -1941,7 +2102,8 @@
     "ar": "جيوفيزيائي",
     "es": "Geofísico",
     "he": "גיאופיזיקאי",
-    "ko": "지구물리학자"
+    "ko": "지구물리학자",
+    "zh": "地球物理工程师"
   },
   {
     "code": "driver",
@@ -1953,7 +2115,8 @@
     "ar": "سائق",
     "es": "Conductor",
     "he": "נהג",
-    "ko": "운전기사"
+    "ko": "운전기사",
+    "zh": "司机"
   },
   {
     "code": "truck_driver",
@@ -1965,7 +2128,8 @@
     "ar": "سائق شاحنة",
     "es": "Camionero",
     "he": "נהג משאית",
-    "ko": "트럭 기사"
+    "ko": "트럭 기사",
+    "zh": "货车司机"
   },
   {
     "code": "courier",
@@ -1977,7 +2141,8 @@
     "ar": "مندوب توصيل",
     "es": "Mensajero",
     "he": "שליח",
-    "ko": "배송원"
+    "ko": "배송원",
+    "zh": "快递员"
   },
   {
     "code": "logistics_manager",
@@ -1989,7 +2154,8 @@
     "ar": "مدير لوجستيات",
     "es": "Director de logística",
     "he": "מנהל לוגיסטיקה",
-    "ko": "물류 관리자"
+    "ko": "물류 관리자",
+    "zh": "物流经理"
   },
   {
     "code": "logistics_specialist",
@@ -2001,7 +2167,8 @@
     "ar": "أخصائي لوجستيات",
     "es": "Especialista en logística",
     "he": "מומחה לוגיסטיקה",
-    "ko": "물류 전문가"
+    "ko": "물류 전문가",
+    "zh": "物流专员"
   },
   {
     "code": "warehouse_manager",
@@ -2013,7 +2180,8 @@
     "ar": "مدير مستودع",
     "es": "Jefe de almacén",
     "he": "מנהל מחסן",
-    "ko": "창고 관리자"
+    "ko": "창고 관리자",
+    "zh": "仓库主管"
   },
   {
     "code": "storekeeper",
@@ -2025,7 +2193,8 @@
     "ar": "أمين مخزن",
     "es": "Almacenero",
     "he": "מחסנאי",
-    "ko": "자재 관리원"
+    "ko": "자재 관리원",
+    "zh": "库管员"
   },
   {
     "code": "freight_forwarder",
@@ -2037,7 +2206,8 @@
     "ar": "وكيل شحن",
     "es": "Transitario",
     "he": "עמיל שילוח",
-    "ko": "국제 운송 주선인"
+    "ko": "국제 운송 주선인",
+    "zh": "货运代理"
   },
   {
     "code": "dispatcher",
@@ -2049,7 +2219,8 @@
     "ar": "منسق حركة",
     "es": "Despachador",
     "he": "סדרן",
-    "ko": "배차 담당자"
+    "ko": "배차 담당자",
+    "zh": "调度员"
   },
   {
     "code": "train_driver",
@@ -2061,7 +2232,8 @@
     "ar": "سائق قطار",
     "es": "Maquinista",
     "he": "נהג רכבת",
-    "ko": "기관사"
+    "ko": "기관사",
+    "zh": "火车司机"
   },
   {
     "code": "pilot",
@@ -2073,7 +2245,8 @@
     "ar": "طيار",
     "es": "Piloto",
     "he": "טייס",
-    "ko": "조종사"
+    "ko": "조종사",
+    "zh": "飞行员"
   },
   {
     "code": "flight_attendant",
@@ -2085,7 +2258,8 @@
     "ar": "مضيف طيران",
     "es": "Auxiliar de vuelo",
     "he": "דייל",
-    "ko": "승무원"
+    "ko": "승무원",
+    "zh": "空中乘务员"
   },
   {
     "code": "ship_captain",
@@ -2097,7 +2271,8 @@
     "ar": "قبطان سفينة",
     "es": "Capitán de barco",
     "he": "רב חובל",
-    "ko": "선장"
+    "ko": "선장",
+    "zh": "船长"
   },
   {
     "code": "sailor",
@@ -2109,7 +2284,8 @@
     "ar": "بحّار",
     "es": "Marinero",
     "he": "מלח",
-    "ko": "선원"
+    "ko": "선원",
+    "zh": "水手"
   },
   {
     "code": "loader",
@@ -2121,7 +2297,8 @@
     "ar": "عامل تحميل",
     "es": "Mozo de carga",
     "he": "סוור",
-    "ko": "하역원"
+    "ko": "하역원",
+    "zh": "装卸工"
   },
   {
     "code": "postman",
@@ -2133,7 +2310,8 @@
     "ar": "ساعي بريد",
     "es": "Cartero",
     "he": "דוור",
-    "ko": "우편 집배원"
+    "ko": "우편 집배원",
+    "zh": "邮递员"
   },
   {
     "code": "doctor",
@@ -2145,7 +2323,8 @@
     "ar": "طبيب",
     "es": "Médico",
     "he": "רופא",
-    "ko": "의사"
+    "ko": "의사",
+    "zh": "医师"
   },
   {
     "code": "surgeon",
@@ -2157,7 +2336,8 @@
     "ar": "جرّاح",
     "es": "Cirujano",
     "he": "מנתח",
-    "ko": "외과 의사"
+    "ko": "외과 의사",
+    "zh": "外科医生"
   },
   {
     "code": "pediatrician",
@@ -2169,7 +2349,8 @@
     "ar": "طبيب أطفال",
     "es": "Pediatra",
     "he": "רופא ילדים",
-    "ko": "소아과 의사"
+    "ko": "소아과 의사",
+    "zh": "儿科医生"
   },
   {
     "code": "internist",
@@ -2181,7 +2362,8 @@
     "ar": "طبيب باطني",
     "es": "Internista",
     "he": "רופא פנימי",
-    "ko": "내과 의사"
+    "ko": "내과 의사",
+    "zh": "内科医生"
   },
   {
     "code": "dentist",
@@ -2193,7 +2375,8 @@
     "ar": "طبيب أسنان",
     "es": "Dentista",
     "he": "רופא שיניים",
-    "ko": "치과 의사"
+    "ko": "치과 의사",
+    "zh": "牙医"
   },
   {
     "code": "nurse",
@@ -2205,7 +2388,8 @@
     "ar": "ممرّض",
     "es": "Enfermero",
     "he": "אח/אחות",
-    "ko": "간호사"
+    "ko": "간호사",
+    "zh": "护士"
   },
   {
     "code": "paramedic",
@@ -2217,7 +2401,8 @@
     "ar": "مساعد طبي",
     "es": "Técnico sanitario",
     "he": "פרמדיק",
-    "ko": "응급구조사"
+    "ko": "응급구조사",
+    "zh": "急救医士"
   },
   {
     "code": "midwife",
@@ -2229,7 +2414,8 @@
     "ar": "قابلة",
     "es": "Matrona",
     "he": "מיילדת",
-    "ko": "조산사"
+    "ko": "조산사",
+    "zh": "助产士"
   },
   {
     "code": "orderly",
@@ -2241,7 +2427,8 @@
     "ar": "مساعد تمريض",
     "es": "Celador",
     "he": "סניטר",
-    "ko": "병동 보조원"
+    "ko": "병동 보조원",
+    "zh": "护理员"
   },
   {
     "code": "pharmacist",
@@ -2253,7 +2440,8 @@
     "ar": "صيدلي",
     "es": "Farmacéutico",
     "he": "רוקח",
-    "ko": "약사"
+    "ko": "약사",
+    "zh": "药师"
   },
   {
     "code": "psychologist",
@@ -2265,7 +2453,8 @@
     "ar": "أخصائي نفسي",
     "es": "Psicólogo",
     "he": "פסיכולוג",
-    "ko": "심리 상담사"
+    "ko": "심리 상담사",
+    "zh": "心理学家"
   },
   {
     "code": "speech_therapist",
@@ -2277,7 +2466,8 @@
     "ar": "معالج نطق",
     "es": "Logopeda",
     "he": "קלינאי תקשורת",
-    "ko": "언어 치료사"
+    "ko": "언어 치료사",
+    "zh": "言语治疗师"
   },
   {
     "code": "massage_therapist",
@@ -2289,7 +2479,8 @@
     "ar": "أخصائي تدليك",
     "es": "Masajista",
     "he": "מעסה",
-    "ko": "마사지 치료사"
+    "ko": "마사지 치료사",
+    "zh": "推拿按摩师"
   },
   {
     "code": "veterinarian",
@@ -2301,7 +2492,8 @@
     "ar": "طبيب بيطري",
     "es": "Veterinario",
     "he": "וטרינר",
-    "ko": "수의사"
+    "ko": "수의사",
+    "zh": "兽医"
   },
   {
     "code": "medical_representative",
@@ -2313,7 +2505,8 @@
     "ar": "مندوب طبي",
     "es": "Visitador médico",
     "he": "נציג רפואי",
-    "ko": "의약 영업 담당자"
+    "ko": "의약 영업 담당자",
+    "zh": "医药代表"
   },
   {
     "code": "teacher",
@@ -2325,7 +2518,8 @@
     "ar": "مدرّس",
     "es": "Profesor",
     "he": "מורה",
-    "ko": "교사"
+    "ko": "교사",
+    "zh": "教师"
   },
   {
     "code": "primary_teacher",
@@ -2337,7 +2531,8 @@
     "ar": "مدرّس مرحلة ابتدائية",
     "es": "Maestro de primaria",
     "he": "מורה לבית ספר יסודי",
-    "ko": "초등학교 교사"
+    "ko": "초등학교 교사",
+    "zh": "小学教师"
   },
   {
     "code": "kindergarten_teacher",
@@ -2349,7 +2544,8 @@
     "ar": "مربية أطفال",
     "es": "Educador infantil",
     "he": "גננת",
-    "ko": "유치원 교사"
+    "ko": "유치원 교사",
+    "zh": "幼儿教师"
   },
   {
     "code": "senior_lecturer",
@@ -2361,7 +2557,8 @@
     "ar": "محاضر أول",
     "es": "Profesor adjunto",
     "he": "מרצה בכיר",
-    "ko": "선임 강사"
+    "ko": "선임 강사",
+    "zh": "高级讲师"
   },
   {
     "code": "associate_professor",
@@ -2373,7 +2570,8 @@
     "ar": "أستاذ مشارك",
     "es": "Profesor titular",
     "he": "פרופסור חבר",
-    "ko": "부교수"
+    "ko": "부교수",
+    "zh": "副教授"
   },
   {
     "code": "professor",
@@ -2385,7 +2583,8 @@
     "ar": "أستاذ جامعي",
     "es": "Catedrático",
     "he": "פרופסור",
-    "ko": "교수"
+    "ko": "교수",
+    "zh": "教授"
   },
   {
     "code": "school_principal",
@@ -2397,7 +2596,8 @@
     "ar": "مدير مدرسة",
     "es": "Director de escuela",
     "he": "מנהל בית ספר",
-    "ko": "학교장"
+    "ko": "학교장",
+    "zh": "校长"
   },
   {
     "code": "methodologist",
@@ -2409,7 +2609,8 @@
     "ar": "أخصائي مناهج",
     "es": "Metodólogo",
     "he": "מדריך פדגוגי",
-    "ko": "교육 과정 전문가"
+    "ko": "교육 과정 전문가",
+    "zh": "教研员"
   },
   {
     "code": "private_tutor",
@@ -2421,7 +2622,8 @@
     "ar": "مدرّس خصوصي",
     "es": "Profesor particular",
     "he": "מורה פרטי",
-    "ko": "개인 교습 강사"
+    "ko": "개인 교습 강사",
+    "zh": "家庭教师"
   },
   {
     "code": "librarian",
@@ -2433,7 +2635,8 @@
     "ar": "أمين مكتبة",
     "es": "Bibliotecario",
     "he": "ספרן",
-    "ko": "사서"
+    "ko": "사서",
+    "zh": "图书馆员"
   },
   {
     "code": "researcher",
@@ -2445,7 +2648,8 @@
     "ar": "باحث علمي",
     "es": "Investigador",
     "he": "חוקר",
-    "ko": "연구원"
+    "ko": "연구원",
+    "zh": "研究员"
   },
   {
     "code": "sports_coach",
@@ -2457,7 +2661,8 @@
     "ar": "مدرب رياضي",
     "es": "Entrenador deportivo",
     "he": "מאמן ספורט",
-    "ko": "스포츠 코치"
+    "ko": "스포츠 코치",
+    "zh": "体育教练"
   },
   {
     "code": "fitness_instructor",
@@ -2469,7 +2674,8 @@
     "ar": "مدرب لياقة",
     "es": "Instructor de fitness",
     "he": "מדריך כושר",
-    "ko": "피트니스 강사"
+    "ko": "피트니스 강사",
+    "zh": "健身教练"
   },
   {
     "code": "social_worker",
@@ -2481,7 +2687,8 @@
     "ar": "أخصائي اجتماعي",
     "es": "Trabajador social",
     "he": "עובד סוציאלי",
-    "ko": "사회복지사"
+    "ko": "사회복지사",
+    "zh": "社会工作者"
   },
   {
     "code": "statistician",
@@ -2493,7 +2700,8 @@
     "ar": "إحصائي",
     "es": "Estadístico",
     "he": "סטטיסטיקאי",
-    "ko": "통계 전문가"
+    "ko": "통계 전문가",
+    "zh": "统计师"
   },
   {
     "code": "sociologist",
@@ -2505,7 +2713,8 @@
     "ar": "عالم اجتماع",
     "es": "Sociólogo",
     "he": "סוציולוג",
-    "ko": "사회학자"
+    "ko": "사회학자",
+    "zh": "社会学家"
   },
   {
     "code": "ecologist",
@@ -2517,7 +2726,8 @@
     "ar": "خبير بيئي",
     "es": "Ecólogo",
     "he": "אקולוג",
-    "ko": "환경 전문가"
+    "ko": "환경 전문가",
+    "zh": "生态学家"
   },
   {
     "code": "chemist",
@@ -2529,7 +2739,8 @@
     "ar": "كيميائي",
     "es": "Químico",
     "he": "כימאי",
-    "ko": "화학자"
+    "ko": "화학자",
+    "zh": "化学工作者"
   },
   {
     "code": "cook",
@@ -2541,7 +2752,8 @@
     "ar": "طبّاخ",
     "es": "Cocinero",
     "he": "טבח",
-    "ko": "요리사"
+    "ko": "요리사",
+    "zh": "厨师"
   },
   {
     "code": "head_chef",
@@ -2553,7 +2765,8 @@
     "ar": "رئيس طهاة",
     "es": "Jefe de cocina",
     "he": "שף ראשי",
-    "ko": "총괄 셰프"
+    "ko": "총괄 셰프",
+    "zh": "厨师长"
   },
   {
     "code": "kitchen_assistant",
@@ -2565,7 +2778,8 @@
     "ar": "مساعد طبّاخ",
     "es": "Ayudante de cocina",
     "he": "עוזר טבח",
-    "ko": "주방 보조"
+    "ko": "주방 보조",
+    "zh": "厨房助手"
   },
   {
     "code": "waiter",
@@ -2577,7 +2791,8 @@
     "ar": "نادل",
     "es": "Camarero",
     "he": "מלצר",
-    "ko": "웨이터"
+    "ko": "웨이터",
+    "zh": "服务员"
   },
   {
     "code": "barista",
@@ -2589,7 +2804,8 @@
     "ar": "باريستا",
     "es": "Barista",
     "he": "בריסטה",
-    "ko": "바리스타"
+    "ko": "바리스타",
+    "zh": "咖啡师"
   },
   {
     "code": "bartender",
@@ -2601,7 +2817,8 @@
     "ar": "ساقي مشروبات",
     "es": "Barman",
     "he": "ברמן",
-    "ko": "바텐더"
+    "ko": "바텐더",
+    "zh": "调酒师"
   },
   {
     "code": "confectioner",
@@ -2613,7 +2830,8 @@
     "ar": "حلواني",
     "es": "Pastelero",
     "he": "קונדיטור",
-    "ko": "제과사"
+    "ko": "제과사",
+    "zh": "糕点师"
   },
   {
     "code": "baker",
@@ -2625,7 +2843,8 @@
     "ar": "خبّاز",
     "es": "Panadero",
     "he": "אופה",
-    "ko": "제빵사"
+    "ko": "제빵사",
+    "zh": "面包师"
   },
   {
     "code": "butcher",
@@ -2637,7 +2856,8 @@
     "ar": "جزّار",
     "es": "Carnicero",
     "he": "קצב",
-    "ko": "정육원"
+    "ko": "정육원",
+    "zh": "屠宰分割工"
   },
   {
     "code": "restaurant_manager",
@@ -2649,7 +2869,8 @@
     "ar": "مدير مطعم",
     "es": "Encargado de restaurante",
     "he": "מנהל מסעדה",
-    "ko": "레스토랑 관리자"
+    "ko": "레스토랑 관리자",
+    "zh": "餐厅经理"
   },
   {
     "code": "hotel_receptionist",
@@ -2661,7 +2882,8 @@
     "ar": "موظف استقبال فندق",
     "es": "Recepcionista de hotel",
     "he": "פקיד קבלה במלון",
-    "ko": "호텔 프런트 직원"
+    "ko": "호텔 프런트 직원",
+    "zh": "酒店前台"
   },
   {
     "code": "housekeeper",
@@ -2673,7 +2895,8 @@
     "ar": "عامل نظافة الغرف",
     "es": "Personal de pisos",
     "he": "עובד ניקיון חדרים",
-    "ko": "객실 정비원"
+    "ko": "객실 정비원",
+    "zh": "客房服务员"
   },
   {
     "code": "tour_guide",
@@ -2685,7 +2908,8 @@
     "ar": "مرشد سياحي",
     "es": "Guía turístico",
     "he": "מדריך טיולים",
-    "ko": "관광 가이드"
+    "ko": "관광 가이드",
+    "zh": "导游"
   },
   {
     "code": "travel_agent",
@@ -2697,7 +2921,8 @@
     "ar": "وكيل سفر",
     "es": "Agente de viajes",
     "he": "סוכן נסיעות",
-    "ko": "여행사 직원"
+    "ko": "여행사 직원",
+    "zh": "旅行社业务员"
   },
   {
     "code": "cleaner",
@@ -2709,7 +2934,8 @@
     "ar": "عامل نظافة",
     "es": "Personal de limpieza",
     "he": "עובד ניקיון",
-    "ko": "청소원"
+    "ko": "청소원",
+    "zh": "保洁员"
   },
   {
     "code": "barber",
@@ -2721,7 +2947,8 @@
     "ar": "حلاق",
     "es": "Barbero",
     "he": "ספר",
-    "ko": "이발사"
+    "ko": "이발사",
+    "zh": "理发师"
   },
   {
     "code": "hairdresser",
@@ -2733,7 +2960,8 @@
     "ar": "مصمم شعر",
     "es": "Peluquero",
     "he": "מעצב שיער",
-    "ko": "미용사"
+    "ko": "미용사",
+    "zh": "美发师"
   },
   {
     "code": "beauty_specialist",
@@ -2745,7 +2973,8 @@
     "ar": "أخصائية تجميل",
     "es": "Esteticista",
     "he": "קוסמטיקאית",
-    "ko": "뷰티 전문가"
+    "ko": "뷰티 전문가",
+    "zh": "美容师"
   },
   {
     "code": "manicurist",
@@ -2757,7 +2986,8 @@
     "ar": "أخصائية عناية بالأظافر",
     "es": "Manicurista",
     "he": "מניקוריסטית",
-    "ko": "네일 아티스트"
+    "ko": "네일 아티스트",
+    "zh": "美甲师"
   },
   {
     "code": "cosmetologist",
@@ -2769,7 +2999,8 @@
     "ar": "طبيب تجميل",
     "es": "Cosmetólogo",
     "he": "קוסמטולוג",
-    "ko": "피부 관리사"
+    "ko": "피부 관리사",
+    "zh": "医美技师"
   },
   {
     "code": "tailor",
@@ -2781,7 +3012,8 @@
     "ar": "خيّاط",
     "es": "Sastre",
     "he": "חייט",
-    "ko": "재봉사"
+    "ko": "재봉사",
+    "zh": "裁缝"
   },
   {
     "code": "shoemaker",
@@ -2793,7 +3025,8 @@
     "ar": "إسكافي",
     "es": "Zapatero",
     "he": "סנדלר",
-    "ko": "제화공"
+    "ko": "제화공",
+    "zh": "制鞋工"
   },
   {
     "code": "gardener",
@@ -2805,7 +3038,8 @@
     "ar": "بستاني",
     "es": "Jardinero",
     "he": "גנן",
-    "ko": "정원사"
+    "ko": "정원사",
+    "zh": "园艺工"
   },
   {
     "code": "nanny",
@@ -2817,7 +3051,8 @@
     "ar": "جليسة أطفال",
     "es": "Niñera",
     "he": "מטפלת",
-    "ko": "보육 도우미"
+    "ko": "보육 도우미",
+    "zh": "育婴师"
   },
   {
     "code": "agronomist",
@@ -2829,7 +3064,8 @@
     "ar": "مهندس زراعي",
     "es": "Agrónomo",
     "he": "אגרונום",
-    "ko": "농업 기술자"
+    "ko": "농업 기술자",
+    "zh": "农艺师"
   },
   {
     "code": "zootechnician",
@@ -2841,7 +3077,8 @@
     "ar": "فني إنتاج حيواني",
     "es": "Zootécnico",
     "he": "זואוטכנאי",
-    "ko": "축산 기술자"
+    "ko": "축산 기술자",
+    "zh": "畜牧技术员"
   },
   {
     "code": "tractor_driver",
@@ -2853,7 +3090,8 @@
     "ar": "سائق تراكتور",
     "es": "Tractorista",
     "he": "טרקטוריסט",
-    "ko": "트랙터 기사"
+    "ko": "트랙터 기사",
+    "zh": "拖拉机手"
   },
   {
     "code": "farmer",
@@ -2865,7 +3103,8 @@
     "ar": "مزارع",
     "es": "Agricultor",
     "he": "חקלאי",
-    "ko": "농업인"
+    "ko": "농업인",
+    "zh": "农户"
   },
   {
     "code": "beekeeper",
@@ -2877,7 +3116,8 @@
     "ar": "نحّال",
     "es": "Apicultor",
     "he": "כוורן",
-    "ko": "양봉가"
+    "ko": "양봉가",
+    "zh": "养蜂人"
   },
   {
     "code": "musician",
@@ -2889,7 +3129,8 @@
     "ar": "موسيقي",
     "es": "Músico",
     "he": "מוזיקאי",
-    "ko": "음악가"
+    "ko": "음악가",
+    "zh": "音乐家"
   },
   {
     "code": "artist",
@@ -2901,7 +3142,8 @@
     "ar": "فنان تشكيلي",
     "es": "Artista plástico",
     "he": "צייר",
-    "ko": "화가"
+    "ko": "화가",
+    "zh": "画家"
   },
   {
     "code": "actor",
@@ -2913,6 +3155,7 @@
     "ar": "ممثل",
     "es": "Actor",
     "he": "שחקן",
-    "ko": "배우"
+    "ko": "배우",
+    "zh": "演员"
   }
 ]

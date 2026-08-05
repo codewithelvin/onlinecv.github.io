@@ -152,6 +152,65 @@
 }
 
 /*
+ * Chinese (Han, simplified). Noto Sans SC — the same project as the Georgian,
+ * Arabic and Hebrew faces, and complete: 20,976 of the 20,992 CJK Unified
+ * ideographs, 6,582 of the 6,592 in Extension A, every one of the hundred
+ * commonest surnames, and the whole GBK repertoire bar its 2,048 private-use
+ * slots (all verified with fontkit).
+ *
+ * ⚠️ AN .otf, WHICH IS NOT AN OVERSIGHT, and the folder name is the lie here, not
+ * the extension: `fonts/ttf/` is where the faces the PDF engine reads live. Noto
+ * CJK ships no TTF at all (only this CFF/OTF and a variable build react-pdf's
+ * fontkit cannot use), so the OTF is what BOTH targets get.
+ *
+ * That makes Chinese the exact opposite of Korean above, and it is worth noticing
+ * WHY, because the two look like the same decision. Korean deliberately splits its
+ * files — woff2 for the preview, TTF for the export — because a woff2 stops
+ * @react-pdf subsetting and inflates the PDF 68×. Chinese has no second file to
+ * split to, so preview and export CANNOT drift here; and the OTF subsets perfectly
+ * (measured: a one-page Chinese CV is 94.5 KB out of 16.1 MB of registered font,
+ * embedded as CIDFontType0C with no Helvetica fallback anywhere).
+ *
+ * The price is paid on the download instead: 8.0 MB + 8.2 MB, which is why
+ * `vite.config.ts` keeps these two files OUT of the service worker's precache and
+ * `font-display: swap` matters more here than anywhere else — a Chinese visitor
+ * reads the UI in a system Han face for as long as the fetch takes.
+ *
+ * The ranges cover what Chinese prose is actually written with: the ideographs
+ * (U+4E00–9FFF) and Extension A (U+3400–4DBF), the radicals (U+2E80–2FDF,
+ * U+31C0–31EF), CJK punctuation (U+3000–303F: 。、《》「」), Bopomofo (U+3100–312F,
+ * for pronunciation notes), the compatibility blocks (U+F900–FAFF, U+FE30–FE4F)
+ * and fullwidth forms (U+FF01–FF5E, U+FFE0–FFE5).
+ *
+ * NOTE on the one overlap: NanumGothic claims U+3000–303F too, and it is declared
+ * FIRST, so in the editor CHROME a Chinese 。 or 、 is drawn by the Korean face
+ * (and pulls its 333 KB). Deliberate, because the alternative order is far worse —
+ * a Korean page containing 〜 would pull 8 MB of Han. The CV itself is unaffected:
+ * `cvFontStack` puts NotoSansSC first for `zh`, in the preview and the export
+ * alike, so every mark on the finished document comes from one face.
+ */
+@font-face {
+  font-family: "NotoSansSC";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/ttf/NotoSansSC-Regular.otf") format("opentype");
+  unicode-range:
+    U+2E80-2FDF, U+3000-303F, U+3100-312F, U+31C0-31EF, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF,
+    U+FE30-FE4F, U+FF01-FF5E, U+FFE0-FFE5;
+}
+@font-face {
+  font-family: "NotoSansSC";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/ttf/NotoSansSC-Bold.otf") format("opentype");
+  unicode-range:
+    U+2E80-2FDF, U+3000-303F, U+3100-312F, U+31C0-31EF, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF,
+    U+FE30-FE4F, U+FF01-FF5E, U+FFE0-FFE5;
+}
+
+/*
  * `min-height`, deliberately NOT `height: 100%`.
  *
  * Ant Design locks background scrolling while a modal is open by injecting
@@ -186,6 +245,7 @@ body {
     NotoSansArabic,
     NotoSansHebrew,
     NanumGothic,
+    NotoSansSC,
     "Segoe UI",
     Roboto,
     "Noto Sans",

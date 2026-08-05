@@ -11,8 +11,14 @@ export type TemplateId = string;
  * UI + exported-CV language codes. Widening this union is step 1 of adding a
  * language: `LOCALES` in `app/i18n/locales.ts` is a total record over it, so the
  * compiler then lists everything that still needs the new entry.
+ *
+ * Two-letter ISO 639-1 throughout, so `zh` is Mandarin in SIMPLIFIED characters
+ * (`zh-Hans-CN`): one written standard per code, chosen because it is the one the
+ * app's Chinese dictionary rows and universities are written in. Traditional
+ * (`zh-TW`/`zh-HK`) would be a second locale, not a variant of this one — the
+ * labels differ, not just the glyphs.
  */
-export type Locale = 'az' | 'ru' | 'en' | 'ka' | 'ar' | 'es' | 'he' | 'ko';
+export type Locale = 'az' | 'ru' | 'en' | 'ka' | 'ar' | 'es' | 'he' | 'ko' | 'zh';
 
 /**
  * A short label translated per locale. Only the default locale (`az`) is

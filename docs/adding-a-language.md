@@ -1,8 +1,9 @@
 # Adding a UI/CV language
 
 The app ships Azerbaijani (default), Russian, English, Georgian, Arabic, Spanish,
-Hebrew and Korean. Adding Turkish, German, Farsi … is an **additive** change: no
-component holds a language list, and no existing translation has to be touched.
+Hebrew, Korean and Chinese. Adding Turkish, German, Farsi … is an **additive**
+change: no component holds a language list, and no existing translation has to be
+touched.
 
 Spanish is the worked example of the *easy* case, and worth reading first if the
 new language is written in Latin or Cyrillic: steps 1–3 plus the dictionaries, no
@@ -144,6 +145,30 @@ empty values, and that the dayjs data was imported.
      face also ships **Latin**, unlike the script-only Noto builds, so a Korean CV
      contains no Inter at all. That is a deliberate, asserted outcome, not a bug.
 
+   **Chinese is the same problem again with LESS room to move, and worth reading
+   if the new script is CJK.** `NotoSansSC` is 8.0 MB + 8.2 MB, and Noto CJK
+   publishes **no woff2 and no static TTF** — only this CFF/OTF and a variable
+   build fontkit cannot use. So:
+
+   - **There is no file to split**, and that is a feature: preview and export
+     load the same .otf, so they cannot drift the way Korean's two files could.
+   - **Verify the OUTLINE FORMAT subsets before committing to the face.** A CFF
+     goes through `@react-pdf/pdfkit` differently from a TrueType outline
+     (`FontFile3`/`CIDFontType0C` rather than `FontFile2`), and the Korean woff2
+     is the proof that this engine embeds a WHOLE face when it cannot read the
+     tables it wants. Probe it with a throwaway script first: register the face,
+     render one page, and check the `BaseFont` name carries an `ABCDEF+` subset
+     tag. Chinese came out at 94.5 KB from 16.1 MB of registered font.
+   - **Both faces cannot claim the same range.** NanumGothic and NotoSansSC both
+     want U+3000–303F (。、《》「」). A CSS stack resolves first-match-first, so
+     declaration order decides which one the CHROME downloads for those marks —
+     keep the SMALLER face first (333 KB pulled onto a Chinese page beats 8 MB
+     pulled onto a Korean one). `fonts.test.ts` pins that order.
+   - **A CJK name is written family-name-first with no separator.** `fullName` and
+     `nameInitials` in `_core/render-helpers` handle it, derived from the name
+     rather than from `resume.locale` — but never recompute initials inline, or
+     the two copies drift (the editor's avatar did exactly that).
+
 ## Required steps, continued
 
 5. **Dictionary labels** — add a `"tr"` column to every file in `src/data/`.
@@ -154,9 +179,9 @@ empty values, and that the dayjs data was imported.
    a user in the new language would otherwise be reading Azerbaijani in the middle
    of their own résumé.
 
-   The volume, at the time of writing: skills 342, specialities 305, universities
-   264, faculties 263, positions 243, cities 132, colleges 127, nationality 34,
-   languages 18, interests 17 — **1,745 rows**. Do it with a script that rebuilds
+   The volume, at the time of writing: skills 342, universities 304,
+   specialities 305, faculties 263, positions 243, cities 132, colleges 127,
+   nationality 34, languages 18, interests 17 — **1,785 rows**. Do it with a script that rebuilds
    each row key-by-key (so the new column lands in the same place in every file)
    and *refuses to write* on an unmapped code, a duplicate label within the
    dataset, or a label longer than `FIELD_MAX` for that group. The three legacy
@@ -220,6 +245,13 @@ The rules that broke, in order of discovery:
   박, and 이 alone belongs to about a fifth of the country — so the rule refused the
   surname of every Korean user. (It had also been refusing "Bo" and "Li" for years.)
   Removed: `.required()` on a trimmed string is the check that was actually wanted.
+  Chinese is the sharper case: **李明 is TWO code points in total.**
+- **Name ORDER.** The CV printed `${firstName} ${lastName}`, so a Korean CV read
+  "민준 김" and a Chinese one "明 李" — and because 李 and 김 are among the
+  commonest surnames anywhere, that does not read as an odd arrangement, it reads
+  as a different name. Fixed in `_core/render-helpers` (`fullName`,
+  `nameInitials`), derived from the name so it is right on any CV. Ask the same
+  question for the next locale: **in what order, and with what separator?**
 
 So for each new locale, ask concretely: **what does a name look like, what does a
 date look like, and what would this person put in every enum-ish field?** Check the

@@ -200,6 +200,7 @@ describe('dictionary translation coverage', () => {
       es: 'hispanic',
       he: 'hebrew',
       ko: 'korean',
+      zh: 'chinese',
     };
     for (const locale of SUPPORTED_LOCALES) {
       const code = ownLanguage[locale];

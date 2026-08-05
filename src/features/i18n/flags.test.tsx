@@ -132,6 +132,57 @@ describe('Flag', () => {
     expect(filled).toContain('#0047a0');
   });
 
+  /**
+   * China's five stars sit on the published 15 × 10 grid of the flag's upper-left
+   * quarter, and the checkable parts are the count, the two sizes, and — the detail
+   * that is easiest to lose — that each small star is TURNED so one of its points
+   * aims at the centre of the big one. An upright small star is the usual mistake.
+   */
+  it('gives China five yellow stars, the small four aimed at the large one', () => {
+    const svg = draw('zh');
+    expect(svg.querySelector('rect')?.getAttribute('fill')).toBe('#EE1C25');
+
+    const stars = [...svg.querySelectorAll('polygon')];
+    expect(stars).toHaveLength(5);
+    for (const star of stars) {
+      expect(star.getAttribute('fill')).toBe('#FFFF00');
+      // A pentagram is ten vertices: five points and five waist corners.
+      expect((star.getAttribute('points') ?? '').split(' ')).toHaveLength(10);
+    }
+
+    const vertices = stars.map((s) =>
+      (s.getAttribute('points') ?? '')
+        .split(' ')
+        .map((p) => p.split(',').map(Number) as [number, number]),
+    );
+    const centre = (pts: [number, number][]): [number, number] => [
+      pts.reduce((sum, [x]) => sum + x, 0) / pts.length,
+      pts.reduce((sum, [, y]) => sum + y, 0) / pts.length,
+    ];
+    const radius = (pts: [number, number][]): number => {
+      const [cx, cy] = centre(pts);
+      return Math.max(...pts.map(([x, y]) => Math.hypot(x - cx, y - cy)));
+    };
+
+    // The grid is 30 wide against this box's 24, so the scale is 0.8: the big star's
+    // published radius of 3 becomes 2.4 and each small one's 1 becomes 0.8.
+    const [big, ...small] = vertices;
+    expect(centre(big)[0]).toBeCloseTo(4, 1);
+    expect(centre(big)[1]).toBeCloseTo(4, 1);
+    expect(radius(big)).toBeCloseTo(2.4, 2);
+    expect(small).toHaveLength(4);
+    for (const star of small) expect(radius(star)).toBeCloseTo(0.8, 2);
+
+    // Each small star's FIRST vertex is one of its points, and it must lie on the
+    // line towards the big star's centre — that is the rule the construction states.
+    for (const star of small) {
+      const [cx, cy] = centre(star);
+      const toBigStar = Math.atan2(4 - cy, 4 - cx);
+      const toOwnPoint = Math.atan2(star[0][1] - cy, star[0][0] - cx);
+      expect(Math.abs(toBigStar - toOwnPoint)).toBeLessThan(0.02);
+    }
+  });
+
   it('gives Russia and Spain their bands, in order', () => {
     const ru = [...draw('ru').querySelectorAll('rect')].filter(
       (r) => Number(r.getAttribute('width')) === 24,

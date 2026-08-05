@@ -27,6 +27,7 @@ describe('cvFontStack', () => {
     expect(cvFontStack('ka')[0]).toBe('NotoSansGeorgian');
     expect(cvFontStack('he')[0]).toBe('NotoSansHebrew');
     expect(cvFontStack('ko')[0]).toBe('NanumGothic');
+    expect(cvFontStack('zh')[0]).toBe('NotoSansSC');
   });
 
   it('leaves Inter in front for the Latin and Cyrillic locales', () => {
@@ -66,7 +67,24 @@ describe('cvFontStack', () => {
     for (const family of CV_FONT_STACK) {
       expect(FONT_FAMILY, `${family} is missing from the UI font stack`).toContain(family);
     }
-    // Inter still leads, so the chrome looks the same in all eight languages.
+    // Inter still leads, so the chrome looks the same in every language.
     expect(FONT_FAMILY.startsWith('Inter,')).toBe(true);
+  });
+
+  /**
+   * `NanumGothic` must stay AHEAD of `NotoSansSC` in the editor's stack, and this
+   * is not a style preference — it is 333 KB against 8 MB.
+   *
+   * Both faces claim CJK punctuation (U+3000–303F: 。、《》「」) in `index.css`,
+   * because both languages legitimately use it, so whichever is declared first
+   * supplies those marks to the CHROME and gets downloaded for them. Declared this
+   * way round, a Chinese page pulls the Korean woff2 for its 。 — mildly wasteful.
+   * Reversed, a Korean page pulls 8 MB of Han for its 〜. The CV itself is immune
+   * either way: `cvFontStack` puts the document's own face first.
+   */
+  it('keeps the cheaper East Asian face ahead of the 8 MB one in the UI stack', () => {
+    const families = FONT_FAMILY.split(',').map((f) => f.trim());
+    expect(families.indexOf('NanumGothic')).toBeLessThan(families.indexOf('NotoSansSC'));
+    expect(families.indexOf('NanumGothic')).toBeGreaterThan(-1);
   });
 });

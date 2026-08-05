@@ -100,6 +100,31 @@ const WORDS = {
     skill: '시간 관리',
     highlight: '납세자 포털 전면 재구축',
   },
+  /**
+   * Chinese, and it is here rather than beside Arabic for one reason worth stating:
+   * `NotoSansSC` is a CFF/OTF, the first one this app registers. `@react-pdf` had
+   * never been asked to subset that outline format here, and the Korean woff2 is the
+   * standing proof that this engine will silently embed a whole face when it cannot
+   * read the tables it expects. If the CFF path is sound, every word below comes
+   * back out of the PDF exactly as it went in — `LocaleMeta.cv: true` for `zh` rests
+   * on this passing, not on the reasoning.
+   *
+   * Latin is mixed into the company name deliberately: `NotoSansSC` carries Latin
+   * (unlike the three Noto script faces), so a Chinese-led stack has to go on
+   * serving both halves of that string.
+   */
+  zh: {
+    firstName: '明',
+    lastName: '李',
+    headline: '前端开发工程师',
+    summary: '拥有多年经验的软件开发工程师，熟悉现代前端技术栈并重视代码质量',
+    company: '赛博网络 Cybernet',
+    position: '高级前端开发工程师',
+    institution: '北京大学',
+    faculty: '计算机科学与技术学院',
+    skill: '时间管理',
+    highlight: '完成纳税人门户的全面重构',
+  },
   ru: {
     firstName: 'Иван',
     lastName: 'Петров',

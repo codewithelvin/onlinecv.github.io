@@ -20,6 +20,7 @@ import { applyFieldVisibility } from '../utils/field-visibility';
 import { loadDictionaries } from '../data/dictionaries';
 import { getTemplate } from '../templates/_core/registry';
 import { cvFontStack } from '../templates/_core/fonts';
+import { fullName } from '../templates/_core/render-helpers';
 import { bleedSide } from '../templates/_core/direction';
 import { i18n } from '../app/i18n';
 
@@ -118,6 +119,31 @@ export function registerResumeFonts(pdfLib: typeof ReactPdf, fontBase: string = 
     fonts: [
       { src: `${fontBase}/NanumGothic-Regular.ttf`, fontWeight: 400 },
       { src: `${fontBase}/NanumGothic-Bold.ttf`, fontWeight: 700 },
+    ],
+  });
+  /**
+   * Chinese (Han, simplified). The largest face here by a wide margin — 8.0 MB and
+   * 8.2 MB, four times the Korean pair — because Han is ~21,000 separate ideographs
+   * where Hangul is 11,172 syllables assembled from 51 parts. Like Hangul it needs
+   * no shaping and no bidi, so the size is the whole cost of the locale again.
+   *
+   * ⚠️ AN .otf, AND IT SUBSETS — which is the one thing that had to be measured
+   * before choosing it, because Korean's woff2 proved this engine will silently
+   * embed a whole face when it cannot read the outline tables it wants. Noto CJK
+   * publishes no static TTF (only CFF/OTF and a variable build fontkit cannot use),
+   * so if the CFF path had not subsetted there would have been no Chinese export at
+   * all. It does: a one-page Chinese CV comes out at 94.5 KB, embedded as
+   * `FontFile3` / `CIDFontType0C` with proper `ABCDEF+` subset tags and no
+   * Helvetica anywhere.
+   *
+   * Because there is only one file, `index.css` gives the PREVIEW this same .otf —
+   * so unlike Korean, the two targets here cannot drift apart.
+   */
+  Font.register({
+    family: 'NotoSansSC',
+    fonts: [
+      { src: `${fontBase}/NotoSansSC-Regular.otf`, fontWeight: 400 },
+      { src: `${fontBase}/NotoSansSC-Bold.otf`, fontWeight: 700 },
     ],
   });
   // Text-based, ATS-parseable output: don't insert soft hyphens.
@@ -397,7 +423,10 @@ export async function exportResumePdf(resume: Resume, templateId: TemplateId): P
 
   const document = buildResumeDocument(pdfLib, HtmlComponent, {
     html,
-    title: `${resume.basics.firstName} ${resume.basics.lastName} — CV`.trim(),
+    // Through `fullName`, not by hand: this string is what a recruiter's PDF
+    // reader shows in its title bar, and a CJK name is ordered family-name-first
+    // there for exactly the reason it is on the page itself.
+    title: `${fullName(resume)} — CV`.trim(),
     attribution: showAttribution(resume),
     pageMargin: entry.manifest.pageMargin,
     pageBleed: entry.manifest.pageBleed,

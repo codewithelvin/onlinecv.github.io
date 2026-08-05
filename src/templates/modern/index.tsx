@@ -11,6 +11,7 @@ import {
   hasItems,
   highlights,
   KEEP_TOGETHER,
+  nameInitials,
 } from '../_core/render-helpers';
 import { mirrorRow } from '../_core/direction';
 import { styles } from './styles';
@@ -78,8 +79,7 @@ export default function Modern({ resume, t, formatDate }: TemplateProps): JSX.El
   const levelLabel = (level: LanguageLevel): string =>
     level === 'native' ? t('dictionary.native') : level;
 
-  const initials =
-    `${resume.basics.firstName[0] ?? ''}${resume.basics.lastName[0] ?? ''}`.toUpperCase();
+  const initials = nameInitials(resume.basics.firstName, resume.basics.lastName);
   const contacts = contactChannels(resume);
   const infoPairs = generalInfoPairs(resume, t, formatDate, FULL);
   // The root IS the two-column row, so mirroring it moves the sidebar to the

@@ -4,6 +4,7 @@ import { FiCamera, FiTrash2 } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { useResumeStore } from '../../state/store';
 import { CLARITY_MASK } from '../../services/analytics';
+import { nameInitials } from '../../templates/_core/render-helpers';
 import { FieldVisibility } from '../editor/FieldVisibility';
 import { AvatarCropperModal } from './AvatarCropperModal';
 
@@ -45,7 +46,13 @@ export function AvatarField(): JSX.Element {
   /** True between picking a file and the cropper being ready to show it. */
   const [preparing, setPreparing] = useState(false);
 
-  const initials = `${firstName[0] ?? ''}${lastName[0] ?? ''}`.toUpperCase();
+  /**
+   * Through core, not inline: a CJK name is written family-name-first, so this has
+   * to agree with what the preview beside it prints. It did not — the editor showed
+   * 明李 next to a CV that said 李明 — which is what happens when a rule this small
+   * is reimplemented per component.
+   */
+  const initials = nameInitials(firstName, lastName);
 
   const onPick = async (e: ChangeEvent<HTMLInputElement>): Promise<void> => {
     const file = e.target.files?.[0];

@@ -23,9 +23,75 @@ import { calcAge, localizeDigits } from '../../utils/date';
  */
 export const KEEP_TOGETHER = { 'data-keep-together': true } as const;
 
-/** Full display name. */
+/**
+ * Scripts that write the family name FIRST and run it straight into the given
+ * name: 李明, 김민준, 山田太郎 — never 明 李.
+ *
+ * Derived from the NAME rather than from `resume.locale`, for the same reason
+ * `NO_SPACE_BEFORE_UNIT` below is derived from the unit: the convention belongs to
+ * the name, not to the document. So 李明 comes out right on an Azerbaijani CV, and
+ * "John Smith" stays "John Smith" on a Chinese one — which keying this off the CV
+ * language would have got backwards in both directions.
+ */
+const FAMILY_NAME_FIRST =
+  /^[\p{Script=Han}\p{Script=Hangul}\p{Script=Hiragana}\p{Script=Katakana}]+$/u;
+
+/**
+ * Full display name, in the order the name's own script writes it.
+ *
+ * ⚠️ A CJK name is NOT "first last". Chinese, Korean and Japanese all put the
+ * family name first and use no separator, and a Chinese reader cannot recover the
+ * right reading from "明李" — 李 is one of the commonest surnames in the world, so
+ * the reversed form does not read as an unusual ordering, it reads as a different
+ * (nonexistent) name. Same class of defect as the `min(3)` that used to reject
+ * every Korean surname, and fixed in the same place: core, where every template
+ * present and future picks it up without knowing about it.
+ *
+ * Both parts must be CJK before the order flips. A mixed name ("Li 明") is
+ * someone deliberately writing one part in Latin, and the Latin order is then the
+ * one they meant.
+ */
 export function fullName(resume: Resume): string {
-  return `${resume.basics.firstName} ${resume.basics.lastName}`.trim();
+  const { lead, trail, cjk } = orderedName(resume.basics.firstName, resume.basics.lastName);
+  return (cjk ? `${lead}${trail}` : `${lead} ${trail}`).trim();
+}
+
+/**
+ * The monogram drawn where there is no avatar — family name first for a CJK name,
+ * exactly as `fullName` orders it.
+ *
+ * Takes the two names rather than a `Resume` because it has TWO callers in different
+ * layers: the modern template's sidebar and the editor's `AvatarField`. Having them
+ * both come here is the point — the editor was showing 明李 beside a preview that
+ * said 李明, which is precisely the drift that happens when a rule this small is
+ * reimplemented inline.
+ */
+export function nameInitials(firstName: string, lastName: string): string {
+  const { lead, trail } = orderedName(firstName, lastName);
+  return `${lead[0] ?? ''}${trail[0] ?? ''}`.toUpperCase();
+}
+
+/**
+ * The two name parts in DISPLAY order — `lead` is whichever is written first — plus
+ * whether this is a family-name-first name, which is also what decides the
+ * separator (CJK names run together, everything else takes a space).
+ *
+ * Both parts must be CJK before the order flips: a mixed name ("明 Li") is someone
+ * deliberately writing one part in Latin, and the Latin order is then the one they
+ * meant.
+ */
+function orderedName(
+  firstName: string,
+  lastName: string,
+): { lead: string; trail: string; cjk: boolean } {
+  const given = firstName.trim();
+  const family = lastName.trim();
+  const cjk =
+    given !== '' &&
+    family !== '' &&
+    FAMILY_NAME_FIRST.test(given) &&
+    FAMILY_NAME_FIRST.test(family);
+  return cjk ? { lead: family, trail: given, cjk } : { lead: given, trail: family, cjk };
 }
 
 /** Whether an optional list section has any items. */

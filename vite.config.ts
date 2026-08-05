@@ -80,20 +80,34 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2,ttf,json}'],
         /**
-         * The Korean PDF fonts are the ONLY assets kept out of the precache, and
-         * the reason is arithmetic. `NanumGothic` is 4.1 MB across its two weights
-         * — six times all three other script faces put together — against a
-         * precache that is 6.9 MB in total, so precaching it would make every
-         * install of the app well over half again as big, for a script most of its
-         * users will never type. The Korean UI and PREVIEW are unaffected and work
-         * offline from the first load: those draw the same face from the woff2 pair
-         * in `fonts/woff2/` (758 KB), which stays precached with everything else.
+         * The two East Asian faces are the ONLY assets kept out of the precache,
+         * and the reason is arithmetic both times.
          *
-         * What it costs, stated plainly: the FIRST Korean PDF export needs the
-         * network. `runtimeCaching` below then keeps the files, so every export
-         * after it — offline included — is served from the cache.
+         * `NanumGothic` is 4.1 MB across its two weights — six times all three
+         * other script faces put together — against a precache that is 6.9 MB in
+         * total, so precaching it would make every install of the app well over
+         * half again as big, for a script most of its users will never type. The
+         * Korean UI and PREVIEW are unaffected and work offline from the first
+         * load: those draw the same face from the woff2 pair in `fonts/woff2/`
+         * (758 KB), which stays precached with everything else.
+         *
+         * `NotoSansSC` is 16.1 MB, more than twice the entire rest of the app, and
+         * this one is stricter: Noto CJK publishes no woff2 or TTF, so the .otf is
+         * what the preview loads as well (see `index.css`). Precaching it is simply
+         * out of the question — it would quadruple every install — so BOTH targets
+         * take it from the network on first use.
+         *
+         * What that costs, stated plainly: the first Korean PDF EXPORT needs the
+         * network, and a Chinese visitor's first page load fetches the face before
+         * the UI is drawn in it (`font-display: swap` shows a system Han face
+         * meanwhile). `runtimeCaching` below then keeps the files, so everything
+         * after the first time — offline included — is served from the cache.
+         *
+         * The `.otf` extension is also absent from `globPatterns` above, so these
+         * two would fall out of the precache even without this list. Named here
+         * anyway: an omission is not a decision anyone can read.
          */
-        globIgnores: ['**/NanumGothic-*.ttf'],
+        globIgnores: ['**/NanumGothic-*.ttf', '**/NotoSansSC-*.otf'],
         runtimeCaching: [
           {
             // `registerResumeFonts` (services/pdf.ts) fetches these by URL at
@@ -104,6 +118,19 @@ export default defineConfig({
             handler: 'CacheFirst',
             options: {
               cacheName: 'onlinecv-korean-pdf-fonts',
+              expiration: { maxEntries: 4 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+          {
+            // Same rule for Chinese, with one difference that matters: the BROWSER
+            // requests these too (the `@font-face` in `index.css` points at the
+            // same files), so this handler is what makes the Chinese UI and live
+            // preview work offline after the first visit — not just the export.
+            urlPattern: /\/fonts\/ttf\/NotoSansSC-[A-Za-z]+\.otf$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'onlinecv-chinese-fonts',
               expiration: { maxEntries: 4 },
               cacheableResponse: { statuses: [0, 200] },
             },

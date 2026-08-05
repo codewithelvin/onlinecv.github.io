@@ -82,6 +82,46 @@ function koreanResume(): Resume {
 }
 
 /**
+ * A Chinese CV. `NotoSansSC` is the first CFF/OTF face this app registers — Noto
+ * CJK publishes no static TTF at all — so this fixture is what proves the engine
+ * SUBSETS a CFF. That had to be established before the locale could ship: the two
+ * registered weights are 16.1 MB, and a face this exporter failed to subset would
+ * leave all of it inside every résumé the user attaches to an application.
+ *
+ * Latin is mixed in for the Korean fixture's reason: a Chinese CV names its tools in
+ * Latin, and NotoSansSC carries Latin, so a Chinese-led stack serves both.
+ */
+function chineseResume(): Resume {
+  const r = createEmptyResume('zh');
+  r.basics = { firstName: '明', lastName: '李', headline: '前端开发工程师' };
+  r.contact = { email: 'liming@example.cn', items: [] };
+  r.summary = '拥有多年经验的软件开发工程师，熟悉现代前端技术栈。';
+  r.skills = [{ id: 's1', name: 'TypeScript', level: 90 }];
+  return r;
+}
+
+/**
+ * A Chinese CV carrying an Azerbaijani employer name — the ONE gap in NotoSansSC's
+ * Latin coverage, and the app's home market at that. The face has ASCII, Latin-1 and
+ * Cyrillic but not `ə ğ ı İ ş`, so those five letters must reach Inter by per-glyph
+ * fallback while everything around them stays in the Chinese face.
+ */
+function chineseWithAzerbaijaniResume(): Resume {
+  const r = chineseResume();
+  r.experience = [
+    {
+      id: 'x1',
+      company: 'Azərbaycan Şəkər İstehsalı',
+      position: '前端开发工程师',
+      startDate: '2022-01-01',
+      current: true,
+      highlights: [],
+    },
+  ];
+  return r;
+}
+
+/**
  * A CV in a CV language the app DOES export, but carrying Arabic text — an
  * Arabic name, employer and summary. This is not a hypothetical: every one of
  * those fields is free text, so Arabic reaches the exporter regardless of
@@ -394,6 +434,58 @@ describe('pdf export', () => {
       expect(source, 'the Korean face stopped serving the Latin text too').not.toMatch(
         /BaseFont \/[A-Z]{6}\+Inter/,
       );
+    }, 30_000);
+  }
+
+  /**
+   * Chinese, and what is pinned here is the OUTLINE FORMAT, which no other locale
+   * exercises.
+   *
+   * ⚠️ `NotoSansSC` is a CFF/OTF, not a TTF — Noto CJK publishes no static TrueType
+   * build, only this and a variable font fontkit cannot use, so there was no
+   * alternative to fall back on. A CFF takes a different path through
+   * `@react-pdf/pdfkit` (`FontFile3` / `CIDFontType0C`, not `FontFile2`), and the
+   * Korean woff2 is this project's standing proof that the engine will silently embed
+   * a WHOLE face when it cannot read the outline tables it wants: 25 KB became
+   * 1.7 MB. Two Chinese weights are 16.1 MB, so the same failure here would be far
+   * worse — and invisible, because the PDF still looks right.
+   *
+   * The `ABCDEF+` prefix on the `BaseFont` name IS the subset marker, so matching it
+   * asserts a few dozen embedded glyphs rather than all 31,036. Measured at the time
+   * of writing: 94.5 KB for a one-page Chinese CV.
+   *
+   * Inter's absence is asserted for the same reason as Korean's — the CV's own face
+   * leads the stack and carries Latin, so it answers for the e-mail address and for
+   * "TypeScript" too, and a reordering of the stack should fail loudly here.
+   */
+  for (const { manifest } of listTemplates()) {
+    it(`embeds a CFF subset of the Chinese font in "${manifest.id}"`, async () => {
+      const source = await renderPdfSource(manifest.id, chineseResume());
+      expect(source, 'the Chinese font was never used').toMatch(/BaseFont \/[A-Z]{6}\+NotoSansSC/);
+      expect(source, 'fell back to Helvetica').not.toContain('Helvetica');
+      expect(source, 'the Chinese face stopped serving the Latin text too').not.toMatch(
+        /BaseFont \/[A-Z]{6}\+Inter/,
+      );
+      // The CFF embedding path, which is what distinguishes this face from every
+      // other one registered: a TrueType outline would be `FontFile2`/`TrueType`.
+      expect(source, 'the CFF was not embedded as one').toContain('/FontFile3');
+      expect(source).toContain('/CIDFontType0C');
+    }, 30_000);
+  }
+
+  /**
+   * The one place NotoSansSC's Latin coverage runs out, and it is this app's own
+   * market: `ə ğ ı İ ş` are absent from it. So an Azerbaijani employer name inside a
+   * Chinese CV is the case where BOTH faces have to appear — which is per-glyph
+   * fallback working, not a defect, and worth pinning so a stack change cannot turn
+   * those five letters into blanks.
+   */
+  for (const { manifest } of listTemplates()) {
+    it(`falls back to Inter for Azerbaijani letters in a Chinese CV in "${manifest.id}"`, async () => {
+      const source = await renderPdfSource(manifest.id, chineseWithAzerbaijaniResume());
+      expect(source, 'the Chinese font was never used').toMatch(/BaseFont \/[A-Z]{6}\+NotoSansSC/);
+      expect(source, 'ə ğ ı İ ş never reached Inter').toMatch(/BaseFont \/[A-Z]{6}\+Inter/);
+      expect(source, 'fell back to Helvetica').not.toContain('Helvetica');
     }, 30_000);
   }
 

@@ -5,18 +5,31 @@ import type { Locale } from '../../types/resume';
  * app supports.
  *
  * Inter carries Latin (Azerbaijani `ə ğ ı İ ş` included) and Cyrillic but NOT a
- * single Georgian, Arabic, Hebrew or Hangul glyph, so a CV in any of those
+ * single Georgian, Arabic, Hebrew, Hangul or Han glyph, so a CV in any of those
  * scripts rendered in Inter alone exports as a page of blanks: `@react-pdf` falls
  * back to Helvetica per glyph, and Helvetica has no more of them than Inter does.
  * The extra faces cover exactly the gaps.
  *
- * The three Noto faces are script-only builds with no Latin at all, so they can
- * never compete with Inter for a code point. `NanumGothic` is the exception —
- * Korean fonts ship Latin because Korean text is written with it mixed in — but
- * competing is harmless here, and MEASURED rather than assumed: its Latin
- * advances land within 5% of Inter's (space 0.280 vs 0.281 em, comma 0.303 vs
- * 0.288, `a` 0.545 vs 0.562), so it can lead a Korean CV without the
- * double-width-punctuation problem Noto Georgian has (see below).
+ * The three script-only Noto faces (Georgian, Arabic, Hebrew) carry no Latin at
+ * all, so they can never compete with Inter for a code point. The two East Asian
+ * faces DO — a Korean or Chinese text face ships Latin, because both languages are
+ * written with Latin mixed in — and in both cases that was measured rather than
+ * assumed, because whichever family leads supplies every space, digit and comma in
+ * the document (see below):
+ *
+ *  - `NanumGothic` lands within 5% of Inter (space 0.280 vs 0.281 em, comma 0.303
+ *    vs 0.288, `a` 0.545 vs 0.562).
+ *  - `NotoSansSC` is close on the marks that show (comma 0.278 vs 0.288, `a` 0.563
+ *    vs 0.562) and 20% tighter on the SPACE (0.224 vs 0.281). That is visible in a
+ *    Latin run but not wrong, and Chinese is written without spaces between words,
+ *    so the character it under-serves is the one its own script barely uses. Its
+ *    digits are tabular (0.555 throughout, against Inter's proportional
+ *    0.407–0.646), which a column of dates is better off for.
+ *
+ * `NotoSansSC` has one real gap, and it is the app's own market: it covers ASCII,
+ * Latin-1 and Cyrillic but NOT `ə ğ ı İ ş`. So an Azerbaijani proper noun inside a
+ * Chinese CV takes those five letters from Inter and everything around them from
+ * NotoSansSC — per-glyph fallback doing exactly its job, in both targets.
  *
  * Both targets get per-glyph fallback from this one declaration:
  *
@@ -38,6 +51,7 @@ export const CV_FONT_STACK = [
   'NotoSansArabic',
   'NotoSansHebrew',
   'NanumGothic',
+  'NotoSansSC',
 ];
 
 /** `CV_FONT_STACK` as a CSS declaration, for the templates' inline styles. */
@@ -54,6 +68,7 @@ const PRIMARY_FONT: Partial<Record<Locale, string>> = {
   ar: 'NotoSansArabic',
   he: 'NotoSansHebrew',
   ko: 'NanumGothic',
+  zh: 'NotoSansSC',
 };
 
 /**
@@ -78,6 +93,8 @@ const PRIMARY_FONT: Partial<Record<Locale, string>> = {
  * `NanumGothic`'s shared characters are within 5% of Inter's (space 0.280, comma
  * 0.303, `(` 0.363), because a Korean text face is designed to sit next to Latin.
  * A Korean CV led by it therefore pays nothing measurable, unlike a Georgian one.
+ * `NotoSansSC` sits between the two: same punctuation widths as Inter, a space 20%
+ * tighter — and a Chinese CV is mostly text that has no spaces in it.
  *
  * The CV's own language wins, because that is where the bulk of the text is. Per
  * text-element stacks would be the real fix, but `fontFamily` would have to be

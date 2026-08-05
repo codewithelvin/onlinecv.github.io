@@ -7,6 +7,7 @@ import arEG from 'antd/locale/ar_EG';
 import esES from 'antd/locale/es_ES';
 import heIL from 'antd/locale/he_IL';
 import koKR from 'antd/locale/ko_KR';
+import zhCN from 'antd/locale/zh_CN';
 import 'dayjs/locale/az';
 import 'dayjs/locale/ru';
 import 'dayjs/locale/en';
@@ -15,6 +16,14 @@ import 'dayjs/locale/ar';
 import 'dayjs/locale/es';
 import 'dayjs/locale/he';
 import 'dayjs/locale/ko';
+/**
+ * `zh`, not `zh-cn`, so `LocaleMeta.code` keeps doubling as the dayjs locale name
+ * (`applyLocale` passes it straight to `dayjs.locale`). Checked rather than
+ * assumed: dayjs's `zh` and `zh-cn` data are identical in every field this app
+ * reads — the same simplified month, short-month and weekday names, `weekStart: 1`
+ * and no `preparse`/`postformat` — so the shorter name costs nothing.
+ */
+import 'dayjs/locale/zh';
 import type { Locale } from '../../types/resume';
 
 /**
@@ -275,6 +284,39 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     cv: true,
     region: 'asia',
     antd: koKR,
+  },
+  /**
+   * Mandarin Chinese in simplified characters — the second East Asian locale, and
+   * the one that shows what Korean's cost was really made of.
+   *
+   * Korean generalized the rule that a script is expensive when its glyphs need
+   * CONTEXT, not when its alphabet is large; Chinese is the extreme case of the
+   * second half of that. It has no contextual forms, no reordering, no combining
+   * marks and no bidi — nothing for a shaping pass to do — and yet `NotoSansSC`
+   * is 8.0 MB per weight against NanumGothic's 2.0 MB, because Han is ~21,000
+   * separate ideographs where Hangul is 11,172 syllables built from 51 parts.
+   * So this locale is, again, a translation plus a font: see `services/pdf.ts`
+   * for why the export and the preview share one file here (they cannot drift),
+   * and `vite.config.ts` for why that file is not precached.
+   *
+   * `nativeName` says 简体中文 rather than 中文 because the distinction is real: a
+   * Traditional locale would be a separate entry with different LABELS, not just
+   * different glyphs (see the `Locale` union).
+   *
+   * `capitalizeMonths: false` — Han is unicameral, and dayjs's short Chinese
+   * months are numerals (`3月`) with no case to change. `digits: 'latn'`: Chinese
+   * has 一二三 and 〇 for prose, but writes dates and ages in Western digits.
+   */
+  zh: {
+    code: 'zh',
+    short: 'ZH',
+    nativeName: '简体中文',
+    dir: 'ltr',
+    capitalizeMonths: false,
+    digits: 'latn',
+    cv: true,
+    region: 'asia',
+    antd: zhCN,
   },
 };
 

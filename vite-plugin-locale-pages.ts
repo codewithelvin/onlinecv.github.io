@@ -10,6 +10,7 @@ import ar from './src/app/i18n/ar.json';
 import es from './src/app/i18n/es.json';
 import he from './src/app/i18n/he.json';
 import ko from './src/app/i18n/ko.json';
+import zh from './src/app/i18n/zh.json';
 
 /**
  * Emit one static landing page per UI language, so each language has a URL a
@@ -48,7 +49,17 @@ interface SeoStrings {
  * reading the files, so no `@types/node` is needed (§27 keeps the dependency list
  * closed) and a malformed bundle is a build error rather than a runtime one.
  */
-const BUNDLES: Record<Locale, { seo?: Partial<SeoStrings> }> = { az, ru, en, ka, ar, es, he, ko };
+const BUNDLES: Record<Locale, { seo?: Partial<SeoStrings> }> = {
+  az,
+  ru,
+  en,
+  ka,
+  ar,
+  es,
+  he,
+  ko,
+  zh,
+};
 
 function seoStrings(locale: Locale): SeoStrings {
   const { title, description } = BUNDLES[locale].seo ?? {};
