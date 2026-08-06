@@ -2,6 +2,7 @@ import type { JSX } from 'react';
 import { Layout, Space, Spin } from 'antd';
 import { useResumeStore } from '../state/store';
 import { Brand } from '../components/Brand';
+import { ConsentFooter } from '../components/ConsentDrawer';
 import { TelegramButton } from '../components/TelegramButton';
 import { LanguageSwitcher } from '../features/i18n/LanguageSwitcher';
 import { Wizard } from '../features/wizard/Wizard';
@@ -45,6 +46,9 @@ export function HomePage(): JSX.Element {
         <Layout.Content style={{ display: 'flex', flexDirection: 'column' }}>
           <Wizard />
         </Layout.Content>
+        {/* The consent drawer is answered on this screen on a first visit, so the
+            way back to it has to exist here too. */}
+        <ConsentFooter />
       </Layout>
     );
   }

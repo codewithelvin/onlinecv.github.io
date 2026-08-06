@@ -5,17 +5,18 @@ import { LOCALES, i18n } from './i18n';
 import { themeFor } from './theme';
 import { updateSeo } from './seo';
 import { useResumeStore } from '../state/store';
-import { initAnalytics } from '../services/analytics';
+import { applyStoredConsent } from '../services/consent';
 import { ErrorBoundary } from '../components/ErrorBoundary';
 import { OfflineBanner } from '../components/OfflineBanner';
 import { PersistenceBanner } from '../components/PersistenceBanner';
 import { PwaUpdatePrompt } from '../components/PwaUpdatePrompt';
 import { PwaInstallPrompt } from '../components/PwaInstallPrompt';
+import { ConsentDrawer } from '../components/ConsentDrawer';
 import { HomePage } from '../pages/HomePage';
 
 /**
  * App root (spec §7): providers (AntD theme + locale, i18n), store hydration,
- * analytics init, SEO, error boundary, and the offline/update banners.
+ * analytics consent, SEO, error boundary, and the offline/update banners.
  */
 export function App(): JSX.Element {
   const uiLocale = useResumeStore((s) => s.uiLocale);
@@ -23,7 +24,12 @@ export function App(): JSX.Element {
 
   useEffect(() => {
     void hydrate();
-    initAnalytics();
+    /**
+     * NOT `initAnalytics()` — a first-time visitor has agreed to nothing yet, so
+     * this starts the tags only if a previous visit said yes. The drawer starts
+     * them the moment consent is given. See `services/consent`.
+     */
+    applyStoredConsent();
   }, [hydrate]);
 
   useEffect(() => {
@@ -51,6 +57,10 @@ export function App(): JSX.Element {
             <OfflineBanner />
             <PersistenceBanner />
             <HomePage />
+            {/* Before the install screen: consent is the one thing that must be
+                answered on a first visit, and it is what decides whether
+                anything is collected at all. */}
+            <ConsentDrawer />
             {/* After the page, so the install screen can gate itself on the
                 first-run wizard being done. */}
             <PwaInstallPrompt />

@@ -52,6 +52,20 @@
     "install": "Oʻrnatish",
     "later": "Keyinroq"
   },
+  "consent": {
+    "title": "Anonim foydalanish statistikasi",
+    "intro": "OnlineCV serverga ega emas — rezyumeyingiz faqat shu qurilmada saqlanadi va hech qayerga yuborilmaydi.",
+    "tools": "Shunga qaramay, ilova qanday ishlatilayotganini va qayerda xato berayotganini tushunish uchun Google Analytics va Microsoft Clarity orqali anonim foydalanish ma'lumotlari toʻplanadi: ochilgan sahifalar, bosilgan tugmalar, qurilmangiz va brauzeringiz, taxminiy hududingiz, shuningdek, interfeysdagi seansingizning anonim yozuvi.",
+    "masked": "Rezyumeyingiz mazmuni — ismingiz, aloqa ma'lumotlaringiz, ish tajribangiz — bu ma'lumotlarga kirmaydi va seans yozuvida yashiriladi.",
+    "accept": "Roziman",
+    "decline": "Rad etaman",
+    "declinedTitle": "Statistika oʻchirilgan",
+    "declined": "Hech qanday statistika vositasi yuklanmadi va hech qanday ma'lumot yuborilmaydi. Ilovadan foydalanishni davom ettirishingiz mumkin, lekin duch kelgan xatolar bizga yetib bormaydi va ularni aniqlab tuzatish imkonsiz boʻladi — ilovadan oʻz javobgarligingiz ostida foydalanasiz.",
+    "statusGranted": "Bu qurilmada anonim foydalanish statistikasiga ruxsat berdingiz.",
+    "revoke": "Statistikani oʻchirish",
+    "reloadHint": "Oʻzgarish toʻliq kuchga kirishi uchun sahifani yangilang.",
+    "review": "Maxfiylik va statistika"
+  },
   "regions": {
     "caucasusWestAsia": "Kavkaz va Gʻarbiy Osiyo",
     "europe": "Yevropa",

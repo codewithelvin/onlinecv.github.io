@@ -52,6 +52,20 @@
     "install": "Instalar",
     "later": "Mais tarde"
   },
+  "consent": {
+    "title": "Estatísticas de utilização anónimas",
+    "intro": "O OnlineCV não tem servidor — o seu CV é guardado apenas neste dispositivo e não é enviado para nenhum lado.",
+    "tools": "Ainda assim, para compreender como a aplicação é utilizada e onde falha, são recolhidos dados de utilização anónimos através do Google Analytics e do Microsoft Clarity: as páginas que abre, os botões que prime, o seu dispositivo e navegador, a sua região aproximada e uma gravação anónima da sua sessão na interface.",
+    "masked": "O conteúdo do seu CV — nome, contactos, experiência profissional — não faz parte desses dados e é mascarado na gravação da sessão.",
+    "accept": "Aceito",
+    "decline": "Recuso",
+    "declinedTitle": "Estatísticas desativadas",
+    "declined": "Nenhuma ferramenta de estatísticas foi carregada e nenhum dado é enviado. Pode continuar a utilizar a aplicação, mas os erros que encontrar não chegarão até nós e não poderão ser detetados nem corrigidos — utiliza a aplicação por sua conta e risco.",
+    "statusGranted": "Autorizou as estatísticas de utilização anónimas neste dispositivo.",
+    "revoke": "Desativar estatísticas",
+    "reloadHint": "Recarregue a página para que a alteração tenha efeito total.",
+    "review": "Privacidade e estatísticas"
+  },
   "regions": {
     "caucasusWestAsia": "Cáucaso e Ásia Ocidental",
     "europe": "Europa",

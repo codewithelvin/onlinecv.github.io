@@ -52,6 +52,20 @@
     "install": "Telepítés",
     "later": "Később"
   },
+  "consent": {
+    "title": "Anonim használati statisztika",
+    "intro": "Az OnlineCV nem használ szervert — az önéletrajza csak ezen az eszközön tárolódik, és nem kerül elküldésre.",
+    "tools": "Ennek ellenére — hogy kiderüljön, hogyan használják az alkalmazást és hol hibázik — anonim használati adatok gyűlnek a Google Analytics és a Microsoft Clarity segítségével: a megnyitott oldalak, a megnyomott gombok, az eszköz és a böngésző, a hozzávetőleges régió, valamint a felületen töltött munkamenet anonim felvétele.",
+    "masked": "Az önéletrajz tartalma — a neve, az elérhetőségei, a munkatapasztalata — nem része ezeknek az adatoknak, és a munkamenet-felvételen elrejtve jelenik meg.",
+    "accept": "Elfogadom",
+    "decline": "Elutasítom",
+    "declinedTitle": "A statisztika ki van kapcsolva",
+    "declined": "Egyetlen statisztikai eszköz sem töltődött be, és semmilyen adat nem kerül elküldésre. Az alkalmazás továbbra is használható, de az előforduló hibák nem jutnak el hozzánk, így nem lehet őket felderíteni és kijavítani — az alkalmazás használata saját felelősségre történik.",
+    "statusGranted": "Ezen az eszközön engedélyezte az anonim használati statisztikát.",
+    "revoke": "Statisztika kikapcsolása",
+    "reloadHint": "Töltse újra az oldalt, hogy a változás teljesen érvénybe lépjen.",
+    "review": "Adatvédelem és statisztika"
+  },
   "regions": {
     "caucasusWestAsia": "Kaukázus és Nyugat-Ázsia",
     "europe": "Európa",

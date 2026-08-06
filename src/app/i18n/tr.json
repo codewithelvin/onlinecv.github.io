@@ -52,6 +52,20 @@
     "install": "Yükle",
     "later": "Daha sonra"
   },
+  "consent": {
+    "title": "Anonim kullanım istatistikleri",
+    "intro": "OnlineCV'nin sunucusu yok — özgeçmişiniz yalnızca bu cihazda saklanır ve hiçbir yere gönderilmez.",
+    "tools": "Buna rağmen uygulamanın nasıl kullanıldığını ve nerede hata verdiğini anlamak için Google Analytics ve Microsoft Clarity aracılığıyla anonim kullanım verileri toplanır: açtığınız sayfalar, tıkladığınız düğmeler, cihazınız ve tarayıcınız, yaklaşık bölgeniz ve arayüzdeki oturumunuzun anonim kaydı.",
+    "masked": "Özgeçmişinizin içeriği — adınız, iletişim bilgileriniz, iş deneyiminiz — bu verilere dahil edilmez ve oturum kaydında maskelenir.",
+    "accept": "Kabul ediyorum",
+    "decline": "Reddediyorum",
+    "declinedTitle": "İstatistikler kapalı",
+    "declined": "Hiçbir istatistik aracı yüklenmedi ve hiçbir veri gönderilmiyor. Uygulamayı kullanmaya devam edebilirsiniz, ancak karşılaştığınız hatalar bize ulaşmayacağı için tespit edilip düzeltilemeyecek — uygulamayı kendi sorumluluğunuzda kullanıyorsunuz.",
+    "statusGranted": "Bu cihazda anonim kullanım istatistiklerine izin verdiniz.",
+    "revoke": "İstatistikleri kapat",
+    "reloadHint": "Değişikliğin tamamen geçerli olması için sayfayı yenileyin.",
+    "review": "Gizlilik ve istatistikler"
+  },
   "regions": {
     "caucasusWestAsia": "Kafkasya ve Batı Asya",
     "europe": "Avrupa",

@@ -52,6 +52,20 @@
     "install": "Installieren",
     "later": "Später"
   },
+  "consent": {
+    "title": "Anonyme Nutzungsstatistik",
+    "intro": "OnlineCV hat kein Backend — Ihr Lebenslauf wird nur auf diesem Gerät gespeichert und nirgendwohin übertragen.",
+    "tools": "Dennoch werden über Google Analytics und Microsoft Clarity anonyme Nutzungsdaten erhoben, um zu verstehen, wie die App genutzt wird und wo sie fehlschlägt: geöffnete Seiten, angeklickte Schaltflächen, Gerät und Browser, ungefähre Region sowie eine anonyme Aufzeichnung Ihrer Sitzung in der Benutzeroberfläche.",
+    "masked": "Die Inhalte Ihres Lebenslaufs — Name, Kontaktdaten, Berufserfahrung — gehören nicht dazu und werden in der Sitzungsaufzeichnung maskiert.",
+    "accept": "Ich stimme zu",
+    "decline": "Ich lehne ab",
+    "declinedTitle": "Statistik ist deaktiviert",
+    "declined": "Es wurde kein Statistik-Werkzeug geladen und es werden keine Daten gesendet. Sie können die App weiter nutzen, aber auftretende Fehler erreichen uns nicht und können nicht gefunden und behoben werden — Sie nutzen die App auf eigenes Risiko.",
+    "statusGranted": "Sie haben anonyme Nutzungsstatistik auf diesem Gerät erlaubt.",
+    "revoke": "Statistik deaktivieren",
+    "reloadHint": "Laden Sie die Seite neu, damit die Änderung vollständig wirksam wird.",
+    "review": "Datenschutz und Statistik"
+  },
   "regions": {
     "caucasusWestAsia": "Kaukasus und Westasien",
     "europe": "Europa",

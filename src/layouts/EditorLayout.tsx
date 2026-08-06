@@ -4,6 +4,7 @@ import { FiEdit3, FiEye } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { useResponsive } from '../hooks/useResponsive';
 import { Brand } from '../components/Brand';
+import { ConsentFooter } from '../components/ConsentDrawer';
 import { TelegramButton } from '../components/TelegramButton';
 import { LanguageSwitcher } from '../features/i18n/LanguageSwitcher';
 import { TemplatePicker } from '../features/templates/TemplatePicker';
@@ -111,6 +112,10 @@ export function EditorLayout(): JSX.Element {
           )}
         </div>
       </Content>
+
+      {/* The way back to the analytics decision; renders nothing when the build
+          carries no analytics ids. */}
+      <ConsentFooter />
 
       {!isDesktop ? (
         <div

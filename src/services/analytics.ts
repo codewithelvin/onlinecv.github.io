@@ -1,12 +1,18 @@
 /**
  * Analytics boundary (spec §20/§22, BR-3). The ONLY permitted network calls.
  * Both integrations are no-ops unless their `VITE_*` id is set at build time,
- * and both fail silently offline (§19.1). No consent banner (per build plan A5).
+ * and both fail silently offline (§19.1).
  *
  * Dev/prod gating is done by the ENV FILE, not by a check here: the ids live in
  * `.env.production`, which Vite loads for `vite build`/`vite preview` but not for
  * `npm run dev` or `vitest run`. So development and tests read `undefined` and
  * initialize nothing.
+ *
+ * ⚠️ `initAnalytics` has exactly ONE caller — `services/consent`. Nothing is
+ * loaded until the user has agreed to it, so calling it from anywhere else would
+ * start collecting without consent. This module deliberately knows nothing about
+ * the decision itself (that would be an import cycle); it only offers the two
+ * switches consent flips.
  */
 
 /** The queueing stub Clarity's tag drains once it loads (`clarity.q`). */
@@ -96,20 +102,69 @@ function initClarity(projectId: string): void {
   injectScript(`https://www.clarity.ms/tag/${projectId}`);
 }
 
+/**
+ * The configured ids, trimmed — so a blank or whitespace-only value from CI
+ * counts as "not set" rather than building a `gtag/js?id=` request that can
+ * never resolve. Read at call time, not at module load, which is what lets a
+ * test stub the env without resetting the module.
+ */
+function configuredIds(): { ga?: string; clarity?: string } {
+  return {
+    ga: import.meta.env.VITE_GA_MEASUREMENT_ID?.trim() || undefined,
+    clarity: import.meta.env.VITE_CLARITY_PROJECT_ID?.trim() || undefined,
+  };
+}
+
+/**
+ * Whether this build carries any analytics at all.
+ *
+ * `services/consent` gates the consent drawer on it: a build with no ids —
+ * `npm run dev`, `vitest`, or a fork that did not add its own — collects
+ * nothing, and asking permission to collect nothing is noise, not diligence.
+ */
+export function isAnalyticsConfigured(): boolean {
+  const { ga, clarity } = configuredIds();
+  return Boolean(ga || clarity);
+}
+
 /** Initialize analytics once, if ids are configured. Safe to call in any environment. */
 export function initAnalytics(): void {
   if (initialized || typeof document === 'undefined') return;
   initialized = true;
 
-  // Trimmed, so a blank or whitespace-only value from CI counts as "not set"
-  // rather than building a `gtag/js?id=` request that can never resolve.
-  const ga = import.meta.env.VITE_GA_MEASUREMENT_ID?.trim();
-  const clarity = import.meta.env.VITE_CLARITY_PROJECT_ID?.trim();
+  const { ga, clarity } = configuredIds();
 
   try {
     if (ga) initGoogleAnalytics(ga);
     if (clarity) initClarity(clarity);
   } catch {
     // Analytics must never break the app (§17).
+  }
+}
+
+/**
+ * Stop collecting, for consent WITHDRAWN after the tags were already loaded.
+ *
+ * Neither vendor can be unloaded once its script is running, so this uses the
+ * two documented off switches instead of pretending otherwise:
+ *
+ *  - `window['ga-disable-<ID>'] = true` is gtag.js's own opt-out flag, checked
+ *    before every hit — it is what Google's published opt-out snippet sets.
+ *  - `clarity('stop')` stops the recorder and its upload queue.
+ *
+ * Both are best-effort by nature, which is why the drawer also says a reload
+ * makes it absolute: on the next page load nothing is registered at all. Also
+ * called for a stored `denied` on startup, where it costs nothing and stops a
+ * stray `initAnalytics` from ever reporting a hit.
+ */
+export function disableAnalytics(): void {
+  if (typeof window === 'undefined') return;
+  const { ga, clarity } = configuredIds();
+
+  try {
+    if (ga) (window as unknown as Record<string, boolean>)[`ga-disable-${ga}`] = true;
+    if (clarity) window.clarity?.('stop');
+  } catch {
+    // Same rule as init: analytics must never break the app (§17).
   }
 }
