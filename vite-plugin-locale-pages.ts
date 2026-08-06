@@ -21,6 +21,7 @@ import hu from './src/app/i18n/hu.json';
 import el from './src/app/i18n/el.json';
 import kk from './src/app/i18n/kk.json';
 import uz from './src/app/i18n/uz.json';
+import ja from './src/app/i18n/ja.json';
 
 /**
  * Emit one static landing page per UI language, so each language has a URL a
@@ -79,6 +80,7 @@ const BUNDLES: Record<Locale, { seo?: Partial<SeoStrings> }> = {
   el,
   kk,
   uz,
+  ja,
 };
 
 function seoStrings(locale: Locale): SeoStrings {

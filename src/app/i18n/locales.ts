@@ -18,6 +18,7 @@ import huHU from 'antd/locale/hu_HU';
 import elGR from 'antd/locale/el_GR';
 import kkKZ from 'antd/locale/kk_KZ';
 import uzUZ from 'antd/locale/uz_UZ';
+import jaJP from 'antd/locale/ja_JP';
 import dayjs from 'dayjs';
 import 'dayjs/locale/az';
 import 'dayjs/locale/ru';
@@ -44,6 +45,7 @@ import 'dayjs/locale/pl';
 import 'dayjs/locale/hu';
 import 'dayjs/locale/el';
 import 'dayjs/locale/kk';
+import 'dayjs/locale/ja';
 import uzLatn from 'dayjs/locale/uz-latn';
 import type { Locale } from '../../types/resume';
 
@@ -154,6 +156,17 @@ const WESTERN_DATES: DateFormats = { full: 'DD.MM.YYYY', monthYear: 'MMM YYYY' }
  */
 const KOREAN_DATES: DateFormats = { full: 'YYYY.MM.DD', monthYear: 'YYYY년 M월' };
 const CHINESE_DATES: DateFormats = { full: 'YYYY.MM.DD', monthYear: 'YYYY年M月' };
+
+/**
+ * Japanese marks the FULL date with its units too, which neither of the other two
+ * does: a 履歴書 writes a date of birth as `1987年6月15日`, not `1987.06.15`. Same
+ * big-endian order, one step more explicit — and `M`/`D` rather than `MM`/`DD`,
+ * because a unit-marked Japanese date is never zero-padded (`3月`, not `03月`).
+ *
+ * The unit characters are literals to dayjs, which only reads ASCII letters as
+ * format tokens, so no escaping is needed.
+ */
+const JAPANESE_DATES: DateFormats = { full: 'YYYY年M月D日', monthYear: 'YYYY年M月' };
 
 export interface LocaleMeta {
   /** Locale code; doubles as the i18next resource key and the dayjs locale name. */
@@ -597,6 +610,42 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     cv: true,
     region: 'asia',
     antd: uzUZ,
+  },
+  /**
+   * Japanese — the third East Asian locale, and the first one whose script was
+   * ALREADY DRAWABLE by a shipped font and still needed a new one.
+   *
+   * `NotoSansSC` has every kana and every kanji this app will ever print (checked
+   * with fontkit before anything was written: 93 hiragana, 96 katakana, the kokuji
+   * 働峠込辻匂, all of it). Reusing it would have cost nothing and been wrong:
+   * 65.6% of the ideographs the Chinese and Japanese faces share are drawn with
+   * DIFFERENT OUTLINES, including 25 of the 43 characters in ordinary CV
+   * vocabulary — 氏名, 学歴, 職歴, 資格, 免許, 会社, 卒業. Han is one encoding and
+   * two typographic traditions. Same shape of mistake as Mtavruli months in
+   * Georgian: the glyphs exist, they are simply not this language's.
+   *
+   * So `NotoSansJP` ships beside it, and the consequence is bigger than one file —
+   * two faces claiming the same code points cannot both be in a fixed stack, so
+   * the UI's font order became per-language (`uiFontFamily`) the way the CV's
+   * already was (`cvFontStack`). See `templates/_core/fonts.ts`.
+   *
+   * Everything else was cheap, for the reasons Korean and Chinese established:
+   * kana and kanji are one code point per glyph with no contextual forms, so there
+   * is nothing to shape and no bidi. `capitalizeMonths: false` — unicameral, and
+   * dayjs's Japanese months are numerals (`3月`). `digits: 'latn'`: Japanese has
+   * 一二三 but writes dates and ages in Western digits.
+   */
+  ja: {
+    code: 'ja',
+    dateFormats: JAPANESE_DATES,
+    short: 'JA',
+    nativeName: '日本語',
+    dir: 'ltr',
+    capitalizeMonths: false,
+    digits: 'latn',
+    cv: true,
+    region: 'asia',
+    antd: jaJP,
   },
 };
 

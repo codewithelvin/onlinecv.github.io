@@ -38,6 +38,20 @@ const KR_BLUE = '#0047a0';
 const CN_RED = '#EE1C25';
 const CN_YELLOW = '#FFFF00';
 /**
+ * Japan's 紅色, as the 1999 Act on National Flag and Anthem specifies it. The law
+ * itself gives the colour by name rather than by coordinates; #BC002D is the sRGB
+ * value the Cabinet Office's own artwork uses.
+ */
+const JP_RED = '#BC002D';
+/**
+ * The disc's diameter is three fifths of the HOIST, and since 1999 its centre is
+ * the centre of the flag (the pre-1999 specification offset it 1/100 towards the
+ * hoist, which is the detail most redrawings get wrong in the other direction by
+ * keeping the offset). The 2:3 ratio the law prescribes is exactly this file's
+ * 24 × 16 box, so nothing here is scaled or approximated.
+ */
+const JP_DISC_R = (16 * 3) / 5 / 2;
+/**
  * France, at the government's CURRENT charter rather than the shade most stock
  * artwork still uses: the navy `#000091` and `#E1000F` were restored in July 2020,
  * reversing the lighter 1976 pair (`#0055A4`/`#EF4135`). Both are real, so this is
@@ -729,6 +743,18 @@ const FLAGS: Record<Locale, ReactNode> = {
       {UZ_STARS.map(([x, y]) => (
         <polygon key={`${x}-${y}`} points={pentagramPoints(x, y, 0.42)} fill="#fff" />
       ))}
+    </>
+  ),
+  /**
+   * Japan — the simplest flag in this file and the one with the least room to be
+   * wrong, because it is nothing but a proportion: get the disc's size or its
+   * position off and it stops being the Hinomaru. Both numbers are the law's
+   * (see `JP_DISC_R`), and at 2:3 the flag's own ratio IS this viewBox.
+   */
+  ja: (
+    <>
+      <rect width={24} height={16} fill="#fff" />
+      <circle cx={12} cy={8} r={JP_DISC_R} fill={JP_RED} />
     </>
   ),
 };

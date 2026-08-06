@@ -20,7 +20,8 @@
     "hu": "1. számú Baku Egészségügyi Technikum",
     "el": "Ιατρικό Κολέγιο Νο. 1 του Μπακού",
     "kk": "№1 Баку Медицина Колледжі",
-    "uz": "1-sonli Boku tibbiyot kolleji"
+    "uz": "1-sonli Boku tibbiyot kolleji",
+    "ja": "バクー第1医療カレッジ"
   },
   {
     "code": "bbmc",
@@ -43,7 +44,8 @@
     "hu": "2. számú Baku Alapfokú Egészségügyi Technikum",
     "el": "Βασικό Ιατρικό Κολέγιο Νο. 2 του Μπακού",
     "kk": "№2 Баку Негізгі Медицина Колледжі",
-    "uz": "2-sonli Boku baza tibbiyot kolleji"
+    "uz": "2-sonli Boku baza tibbiyot kolleji",
+    "ja": "バクー第2基礎医療カレッジ"
   },
   {
     "code": "agpc",
@@ -66,7 +68,8 @@
     "hu": "Agjabadi Pedagógiai Technikum",
     "el": "Παιδαγωγικό Κολέγιο Αγτζαμπεντί",
     "kk": "Агджабеди Педагогикалық Колледжі",
-    "uz": "Agjabadi pedagogika kolleji"
+    "uz": "Agjabadi pedagogika kolleji",
+    "ja": "アグジャバディ師範カレッジ"
   },
   {
     "code": "ascec",
@@ -89,7 +92,8 @@
     "hu": "Agdam Állami Társadalmi-Gazdasági Technikum",
     "el": "Κρατικό Κοινωνικοοικονομικό Κολέγιο Αγντάμ",
     "kk": "Агдам Мемлекеттік Әлеуметтік-Экономикалық Колледжі",
-    "uz": "Agdam davlat ijtimoiy-iqtisodiy kolleji"
+    "uz": "Agdam davlat ijtimoiy-iqtisodiy kolleji",
+    "ja": "アグダム国立社会経済カレッジ"
   },
   {
     "code": "amc",
@@ -112,7 +116,8 @@
     "hu": "Aghdam Zenei Technikum",
     "el": "Κολέγιο Μουσικής Αγντάμ",
     "kk": "Агдам Музыка Колледжі",
-    "uz": "Agdam musiqa kolleji"
+    "uz": "Agdam musiqa kolleji",
+    "ja": "アグダム音楽カレッジ"
   },
   {
     "code": "ashc",
@@ -135,7 +140,8 @@
     "hu": "Agdash Állami Humán Technikum",
     "el": "Κρατικό Κολέγιο Ανθρωπιστικών Σπουδών Αγντάς",
     "kk": "Агдаш Мемлекеттік Гуманитарлық Колледжі",
-    "uz": "Agdash davlat gumanitar kolleji"
+    "uz": "Agdash davlat gumanitar kolleji",
+    "ja": "アグダシュ国立人文カレッジ"
   },
   {
     "code": "aspc",
@@ -158,7 +164,8 @@
     "hu": "Astara Pedagógiai Technikum",
     "el": "Παιδαγωγικό Κολέγιο Αστάρα",
     "kk": "Астара Педагогикалық Колледжі",
-    "uz": "Astara pedagogika kolleji"
+    "uz": "Astara pedagogika kolleji",
+    "ja": "アスタラ師範カレッジ"
   },
   {
     "code": "amcasma",
@@ -181,7 +188,8 @@
     "hu": "Azerbajdzsáni Tengerészeti Technikum (az Azerbajdzsáni Állami Tengerészeti Akadémia mellett)",
     "el": "Ναυτικό Κολέγιο Αζερμπαϊτζάν στην Κρατική Ναυτική Ακαδημία",
     "kk": "Әзербайжан Мемлекеттік Теңіз Академиясы жанындағы Әзербайжан Теңізшілік Колледжі",
-    "uz": "Ozarbayjon davlat dengiz akademiyasi huzuridagi Ozarbayjon dengizchilik kolleji"
+    "uz": "Ozarbayjon davlat dengiz akademiyasi huzuridagi Ozarbayjon dengizchilik kolleji",
+    "ja": "アゼルバイジャン国立海事アカデミー附属アゼルバイジャン海事カレッジ"
   },
   {
     "code": "acfeasue",
@@ -204,7 +212,8 @@
     "hu": "Azerbajdzsáni Pénzügyi és Közgazdasági Technikum (az Azerbajdzsáni Állami Közgazdasági Egyetem mellett)",
     "el": "Κολέγιο Χρηματοοικονομικών του Αζερμπαϊτζάν στο Κρατικό Οικονομικό Πανεπιστήμιο",
     "kk": "Әзербайжан Мемлекеттік Экономика Университеті жанындағы Әзербайжан Қаржы-Экономика Колледжі",
-    "uz": "Ozarbayjon davlat iqtisodiyot universiteti huzuridagi moliya-iqtisod kolleji"
+    "uz": "Ozarbayjon davlat iqtisodiyot universiteti huzuridagi moliya-iqtisod kolleji",
+    "ja": "アゼルバイジャン国立経済大学附属アゼルバイジャン財務経済カレッジ"
   },
   {
     "code": "secasue",
@@ -227,7 +236,8 @@
     "hu": "Társadalmi-Gazdasági Technikum (az Azerbajdzsáni Állami Közgazdasági Egyetem mellett)",
     "el": "Κοινωνικοοικονομικό Κολέγιο στο Κρατικό Οικονομικό Πανεπιστήμιο του Αζερμπαϊτζάν",
     "kk": "Әзербайжан Мемлекеттік Экономика Университеті жанындағы Әлеуметтік-Экономикалық Колледж",
-    "uz": "Ozarbayjon davlat iqtisodiyot universiteti huzuridagi ijtimoiy-iqtisodiy kollej"
+    "uz": "Ozarbayjon davlat iqtisodiyot universiteti huzuridagi ijtimoiy-iqtisodiy kollej",
+    "ja": "アゼルバイジャン国立経済大学附属社会経済カレッジ"
   },
   {
     "code": "cfiasue",
@@ -250,7 +260,8 @@
     "hu": "Élelmiszeripari Technikum (az Azerbajdzsáni Állami Közgazdasági Egyetem mellett)",
     "el": "Κολέγιο Βιομηχανίας Τροφίμων στο Κρατικό Οικονομικό Πανεπιστήμιο του Αζερμπαϊτζάν",
     "kk": "Әзербайжан Мемлекеттік Экономика Университеті жанындағы Тамақ Өнеркәсібі Колледжі",
-    "uz": "Ozarbayjon davlat iqtisodiyot universiteti huzuridagi oziq-ovqat sanoati kolleji"
+    "uz": "Ozarbayjon davlat iqtisodiyot universiteti huzuridagi oziq-ovqat sanoati kolleji",
+    "ja": "アゼルバイジャン国立経済大学附属食品産業カレッジ"
   },
   {
     "code": "hcasuca",
@@ -273,7 +284,8 @@
     "hu": "Humán Technikum (az Azerbajdzsáni Állami Kulturális és Művészeti Egyetem mellett)",
     "el": "Κολέγιο Ανθρωπιστικών Σπουδών στο Πανεπιστήμιο Πολιτισμού και Τεχνών του Αζερμπαϊτζάν",
     "kk": "Әзербайжан Мемлекеттік Мәдениет және Өнер Университеті жанындағы Гуманитарлық Колледж",
-    "uz": "Ozarbayjon davlat madaniyat va sanʼat universiteti huzuridagi gumanitar kollej"
+    "uz": "Ozarbayjon davlat madaniyat va sanʼat universiteti huzuridagi gumanitar kollej",
+    "ja": "アゼルバイジャン国立文化芸術大学附属人文カレッジ"
   },
   {
     "code": "boecasoiu",
@@ -296,7 +308,8 @@
     "hu": "Baku Olaj- és Energetikai Technikum (az Azerbajdzsáni Állami Olaj- és Ipari Egyetem mellett)",
     "el": "Κολέγιο Πετρελαίου και Ενέργειας του Μπακού στο Πανεπιστήμιο Πετρελαίου και Βιομηχανίας",
     "kk": "Әзербайжан Мемлекеттік Мұнай және Өнеркәсіп Университеті жанындағы Баку Мұнай-Энергетика Колледжі",
-    "uz": "Ozarbayjon davlat neft va sanoat universiteti huzuridagi Boku neft-energetika kolleji"
+    "uz": "Ozarbayjon davlat neft va sanoat universiteti huzuridagi Boku neft-energetika kolleji",
+    "ja": "アゼルバイジャン国立石油工業大学附属バクー石油エネルギーカレッジ"
   },
   {
     "code": "citasoiu",
@@ -319,7 +332,8 @@
     "hu": "Ipari és Technológiai Technikum (az Azerbajdzsáni Állami Olaj- és Ipari Egyetem mellett)",
     "el": "Κολέγιο Βιομηχανίας και Τεχνολογίας στο Κρατικό Πανεπιστήμιο Πετρελαίου και Βιομηχανίας",
     "kk": "Әзербайжан Мемлекеттік Мұнай және Өнеркәсіп Университеті жанындағы Өнеркәсіп және Технология Колледжі",
-    "uz": "Ozarbayjon davlat neft va sanoat universiteti huzuridagi sanoat va texnologiya kolleji"
+    "uz": "Ozarbayjon davlat neft va sanoat universiteti huzuridagi sanoat va texnologiya kolleji",
+    "ja": "アゼルバイジャン国立石油工業大学附属工業技術カレッジ"
   },
   {
     "code": "aspcaspu",
@@ -342,7 +356,8 @@
     "hu": "Azerbajdzsáni Állami Pedagógiai Technikum (az Azerbajdzsáni Állami Pedagógiai Egyetem mellett)",
     "el": "Κρατικό Παιδαγωγικό Κολέγιο Αζερμπαϊτζάν στο Κρατικό Παιδαγωγικό Πανεπιστήμιο",
     "kk": "Әзербайжан Мемлекеттік Педагогикалық Университеті жанындағы Әзербайжан Мемлекеттік Педагогикалық Колледжі",
-    "uz": "Ozarbayjon davlat pedagogika universiteti huzuridagi Ozarbayjon davlat pedagogika kolleji"
+    "uz": "Ozarbayjon davlat pedagogika universiteti huzuridagi Ozarbayjon davlat pedagogika kolleji",
+    "ja": "アゼルバイジャン国立師範大学附属アゼルバイジャン国立師範カレッジ"
   },
   {
     "code": "ccauac",
@@ -365,7 +380,8 @@
     "hu": "Építőipari Technikum (az Azerbajdzsáni Építészeti és Építőipari Egyetem mellett)",
     "el": "Κολέγιο Κατασκευών στο Πανεπιστήμιο Αρχιτεκτονικής και Κατασκευών του Αζερμπαϊτζάν",
     "kk": "Әзербайжан Сәулет және Құрылыс Университеті жанындағы Құрылыс Колледжі",
-    "uz": "Ozarbayjon meʼmorchilik va qurilish universiteti huzuridagi qurilish kolleji"
+    "uz": "Ozarbayjon meʼmorchilik va qurilish universiteti huzuridagi qurilish kolleji",
+    "ja": "アゼルバイジャン建築建設大学附属建設カレッジ"
   },
   {
     "code": "mcanc",
@@ -388,7 +404,8 @@
     "hu": "Zenei Technikum (az Azerbajdzsáni Nemzeti Konzervatórium mellett)",
     "el": "Κολέγιο Μουσικής στο Εθνικό Ωδείο του Αζερμπαϊτζάν",
     "kk": "Әзербайжан Ұлттық Консерваториясы жанындағы Музыка Колледжі",
-    "uz": "Ozarbayjon milliy konservatoriyasi huzuridagi musiqa kolleji"
+    "uz": "Ozarbayjon milliy konservatoriyasi huzuridagi musiqa kolleji",
+    "ja": "アゼルバイジャン国立音楽院附属音楽カレッジ"
   },
   {
     "code": "smcanc",
@@ -411,7 +428,8 @@
     "hu": "Sumgayit Zenei Technikum (az Azerbajdzsáni Nemzeti Konzervatórium mellett)",
     "el": "Κολέγιο Μουσικής Σουμγκαΐτ στο Εθνικό Ωδείο του Αζερμπαϊτζάν",
     "kk": "Әзербайжан Ұлттық Консерваториясы жанындағы Сумгаит Музыка Колледжі",
-    "uz": "Ozarbayjon milliy konservatoriyasi huzuridagi Sumgait musiqa kolleji"
+    "uz": "Ozarbayjon milliy konservatoriyasi huzuridagi Sumgait musiqa kolleji",
+    "ja": "アゼルバイジャン国立音楽院附属スムガイト音楽カレッジ"
   },
   {
     "code": "caaaa",
@@ -434,7 +452,8 @@
     "hu": "Művészeti Technikum (az Azerbajdzsáni Állami Képzőművészeti Akadémia mellett)",
     "el": "Κολέγιο Τεχνών στην Ακαδημία Καλών Τεχνών του Αζερμπαϊτζάν",
     "kk": "Әзербайжан Көркемөнер Академиясы жанындағы Өнер Колледжі",
-    "uz": "Ozarbayjon sanʼat akademiyasi huzuridagi sanʼat kolleji"
+    "uz": "Ozarbayjon sanʼat akademiyasi huzuridagi sanʼat kolleji",
+    "ja": "アゼルバイジャン国立美術アカデミー附属芸術カレッジ"
   },
   {
     "code": "bscctatu",
@@ -457,7 +476,8 @@
     "hu": "Baku Állami Hírközlési és Közlekedési Technikum (az Azerbajdzsáni Műszaki Egyetem mellett)",
     "el": "Κρατικό Κολέγιο Επικοινωνιών και Μεταφορών του Μπακού στο Τεχνικό Πανεπιστήμιο",
     "kk": "Әзербайжан Техникалық Университеті жанындағы Баку Мемлекеттік Байланыс және Көлік Колледжі",
-    "uz": "Ozarbayjon texnika universiteti huzuridagi Boku davlat aloqa va transport kolleji"
+    "uz": "Ozarbayjon texnika universiteti huzuridagi Boku davlat aloqa va transport kolleji",
+    "ja": "アゼルバイジャン技術大学附属バクー国立通信運輸カレッジ"
   },
   {
     "code": "btcatu",
@@ -480,7 +500,8 @@
     "hu": "Baku Műszaki Technikum (az Azerbajdzsáni Műszaki Egyetem mellett)",
     "el": "Τεχνικό Κολέγιο του Μπακού στο Τεχνικό Πανεπιστήμιο του Αζερμπαϊτζάν",
     "kk": "Әзербайжан Техникалық Университеті жанындағы Баку Техникалық Колледжі",
-    "uz": "Ozarbayjon texnika universiteti huzuridagi Boku texnika kolleji"
+    "uz": "Ozarbayjon texnika universiteti huzuridagi Boku texnika kolleji",
+    "ja": "アゼルバイジャン技術大学附属バクー技術カレッジ"
   },
   {
     "code": "cehbsu",
@@ -503,7 +524,8 @@
     "hu": "Közgazdasági és Humán Technikum (a Baku Állami Egyetem mellett)",
     "el": "Κολέγιο Οικονομικών και Ανθρωπιστικών Σπουδών στο Κρατικό Πανεπιστήμιο του Μπακού",
     "kk": "Баку Мемлекеттік Университеті жанындағы Экономика және Гуманитарлық Ғылымдар Колледжі",
-    "uz": "Boku davlat universiteti huzuridagi iqtisodiyot va gumanitar kollej"
+    "uz": "Boku davlat universiteti huzuridagi iqtisodiyot va gumanitar kollej",
+    "ja": "バクー国立大学附属経済人文カレッジ"
   },
   {
     "code": "bscmt",
@@ -526,7 +548,8 @@
     "hu": "Barda Állami Menedzsment és Technológiai Technikum",
     "el": "Κρατικό Κολέγιο Διοίκησης και Τεχνολογίας Μπαρντά",
     "kk": "Барда Мемлекеттік Басқару және Технология Колледжі",
-    "uz": "Barda davlat boshqaruv va texnologiya kolleji"
+    "uz": "Barda davlat boshqaruv va texnologiya kolleji",
+    "ja": "バルダ国立経営技術カレッジ"
   },
   {
     "code": "biic",
@@ -549,7 +572,8 @@
     "hu": "Bibiheybat Iszlám Technikum",
     "el": "Ισλαμικό Κολέγιο Μπιμπιχεϊμπάτ",
     "kk": "Бибиэйбат Ислам Колледжі",
-    "uz": "Bibiheybat islom kolleji"
+    "uz": "Bibiheybat islom kolleji",
+    "ja": "ビビヘイバット・イスラームカレッジ"
   },
   {
     "code": "jalmc",
@@ -572,7 +596,8 @@
     "hu": "Jalilabad Egészségügyi Technikum",
     "el": "Ιατρικό Κολέγιο Τζαλιλαμπάντ",
     "kk": "Джалилабад Медицина Колледжі",
-    "uz": "Jalilabad tibbiyot kolleji"
+    "uz": "Jalilabad tibbiyot kolleji",
+    "ja": "ジャリラバード医療カレッジ"
   },
   {
     "code": "rcgsu",
@@ -595,7 +620,8 @@
     "hu": "Regionális Technikum (a Ganja Állami Egyetem mellett)",
     "el": "Περιφερειακό Κολέγιο στο Κρατικό Πανεπιστήμιο της Γκάντζας",
     "kk": "Гянджа Мемлекеттік Университеті жанындағы Аймақтық Колледж",
-    "uz": "Ganja davlat universiteti huzuridagi mintaqaviy kollej"
+    "uz": "Ganja davlat universiteti huzuridagi mintaqaviy kollej",
+    "ja": "ギャンジャ国立大学附属地域カレッジ"
   },
   {
     "code": "ganic",
@@ -618,7 +644,8 @@
     "hu": "Ganja Iszlám Technikum",
     "el": "Ισλαμικό Κολέγιο Γκάντζας",
     "kk": "Гянджа Ислам Колледжі",
-    "uz": "Ganja islom kolleji"
+    "uz": "Ganja islom kolleji",
+    "ja": "ギャンジャ・イスラームカレッジ"
   },
   {
     "code": "ganmc",
@@ -641,7 +668,8 @@
     "hu": "Ganja Egészségügyi Technikum",
     "el": "Ιατρικό Κολέγιο Γκάντζας",
     "kk": "Гянджа Медицина Колледжі",
-    "uz": "Ganja tibbiyot kolleji"
+    "uz": "Ganja tibbiyot kolleji",
+    "ja": "ギャンジャ医療カレッジ"
   },
   {
     "code": "gsmtc",
@@ -664,7 +692,8 @@
     "hu": "Goychay Állami Menedzsment és Technológiai Technikum",
     "el": "Κρατικό Κολέγιο Διοίκησης και Τεχνολογίας Γκιοϊτσάι",
     "kk": "Гейчай Мемлекеттік Басқару және Технология Колледжі",
-    "uz": "Goychay davlat boshqaruv va texnologiya kolleji"
+    "uz": "Goychay davlat boshqaruv va texnologiya kolleji",
+    "ja": "ギョイチャイ国立経営技術カレッジ"
   },
   {
     "code": "heyic",
@@ -687,7 +716,8 @@
     "hu": "Heydar Iszlám Technikum",
     "el": "Ισλαμικό Κολέγιο Χεϊντάρ",
     "kk": "Гейдар Ислам Колледжі",
-    "uz": "Haydar islom kolleji"
+    "uz": "Haydar islom kolleji",
+    "ja": "ヘイダル・イスラームカレッジ"
   },
   {
     "code": "ishtc",
@@ -710,7 +740,8 @@
     "hu": "Ismayilli Állami Humán és Technológiai Technikum",
     "el": "Κρατικό Κολέγιο Ανθρωπιστικών Σπουδών και Τεχνολογίας Ισμαγιλί",
     "kk": "Исмаиллы Мемлекеттік Гуманитарлық және Технология Колледжі",
-    "uz": "Ismayilli davlat gumanitar-texnologiya kolleji"
+    "uz": "Ismayilli davlat gumanitar-texnologiya kolleji",
+    "ja": "イスマイルリ国立人文技術カレッジ"
   },
   {
     "code": "kssec",
@@ -733,7 +764,8 @@
     "hu": "Qazax Állami Társadalmi-Gazdasági Technikum",
     "el": "Κρατικό Κοινωνικοοικονομικό Κολέγιο Καζάχ",
     "kk": "Газах Мемлекеттік Әлеуметтік-Экономикалық Колледжі",
-    "uz": "Qazax davlat ijtimoiy-iqtisodiy kolleji"
+    "uz": "Qazax davlat ijtimoiy-iqtisodiy kolleji",
+    "ja": "ガザフ国立社会経済カレッジ"
   },
   {
     "code": "gssec",
@@ -756,7 +788,8 @@
     "hu": "Guba Állami Társadalmi-Gazdasági Technikum",
     "el": "Κρατικό Κοινωνικοοικονομικό Κολέγιο Γκουμπά",
     "kk": "Губа Мемлекеттік Әлеуметтік-Экономикалық Колледжі",
-    "uz": "Quba davlat ijtimoiy-iqtisodiy kolleji"
+    "uz": "Quba davlat ijtimoiy-iqtisodiy kolleji",
+    "ja": "グバ国立社会経済カレッジ"
   },
   {
     "code": "guic",
@@ -779,7 +812,8 @@
     "hu": "Guba Iszlám Technikum",
     "el": "Ισλαμικό Κολέγιο Γκουμπά",
     "kk": "Губа Ислам Колледжі",
-    "uz": "Quba islom kolleji"
+    "uz": "Quba islom kolleji",
+    "ja": "グバ・イスラームカレッジ"
   },
   {
     "code": "gumc",
@@ -802,7 +836,8 @@
     "hu": "Guba Egészségügyi Technikum",
     "el": "Ιατρικό Κολέγιο Γκουμπά",
     "kk": "Губа Медицина Колледжі",
-    "uz": "Quba tibbiyot kolleji"
+    "uz": "Quba tibbiyot kolleji",
+    "ja": "グバ医療カレッジ"
   },
   {
     "code": "satclsu",
@@ -825,7 +860,8 @@
     "hu": "Társadalmi és Agrár-Technológiai Technikum (a Lankaran Állami Egyetem mellett)",
     "el": "Κολέγιο Κοινωνικών και Αγροτεχνολογικών Σπουδών στο Κρατικό Πανεπιστήμιο του Λάνκαραν",
     "kk": "Ленкоран Мемлекеттік Университеті жанындағы Әлеуметтік және Аграрлық-Технологиялық Колледж",
-    "uz": "Lankaran davlat universiteti huzuridagi ijtimoiy-agrotexnologiya kolleji"
+    "uz": "Lankaran davlat universiteti huzuridagi ijtimoiy-agrotexnologiya kolleji",
+    "ja": "ランカラン国立大学附属社会農業技術カレッジ"
   },
   {
     "code": "lasc",
@@ -848,7 +884,8 @@
     "hu": "Lankaran Iszlám Technikum",
     "el": "Ισλαμικό Κολέγιο Λάνκαραν",
     "kk": "Ленкоран Ислам Колледжі",
-    "uz": "Lankaran islom kolleji"
+    "uz": "Lankaran islom kolleji",
+    "ja": "ランカラン・イスラームカレッジ"
   },
   {
     "code": "lamc",
@@ -871,7 +908,8 @@
     "hu": "Lankaran Egészségügyi Technikum",
     "el": "Ιατρικό Κολέγιο Λάνκαραν",
     "kk": "Ленкоран Медицина Колледжі",
-    "uz": "Lankaran tibbiyot kolleji"
+    "uz": "Lankaran tibbiyot kolleji",
+    "ja": "ランカラン医療カレッジ"
   },
   {
     "code": "msrc",
@@ -894,7 +932,8 @@
     "hu": "Masalli Állami Regionális Technikum",
     "el": "Κρατικό Περιφερειακό Κολέγιο Μασαλί",
     "kk": "Масаллы Мемлекеттік Аймақтық Колледжі",
-    "uz": "Masalli davlat mintaqaviy kolleji"
+    "uz": "Masalli davlat mintaqaviy kolleji",
+    "ja": "マサリ国立地域カレッジ"
   },
   {
     "code": "mimc",
@@ -917,7 +956,8 @@
     "hu": "Mingachevir Egészségügyi Technikum",
     "el": "Ιατρικό Κολέγιο Μινγκετσεβίρ",
     "kk": "Мингячевир Медицина Колледжі",
-    "uz": "Mingachevir tibbiyot kolleji"
+    "uz": "Mingachevir tibbiyot kolleji",
+    "ja": "ミンゲチャウル医療カレッジ"
   },
   {
     "code": "mitc",
@@ -940,7 +980,8 @@
     "hu": "Mingachevir Turisztikai Technikum",
     "el": "Κολέγιο Τουρισμού Μινγκετσεβίρ",
     "kk": "Мингячевир Туризм Колледжі",
-    "uz": "Mingachevir turizm kolleji"
+    "uz": "Mingachevir turizm kolleji",
+    "ja": "ミンゲチャウル観光カレッジ"
   },
   {
     "code": "nstc",
@@ -963,7 +1004,8 @@
     "hu": "Nakhchivan Állami Műszaki Technikum",
     "el": "Κρατικό Τεχνικό Κολέγιο Ναχιτσεβάν",
     "kk": "Нахчыван Мемлекеттік Техникалық Колледжі",
-    "uz": "Naxchivan davlat texnika kolleji"
+    "uz": "Naxchivan davlat texnika kolleji",
+    "ja": "ナヒチェヴァン国立技術カレッジ"
   },
   {
     "code": "nakhmc",
@@ -986,7 +1028,8 @@
     "hu": "Nakhchivan Zenei Technikum",
     "el": "Κολέγιο Μουσικής Ναχιτσεβάν",
     "kk": "Нахчыван Музыка Колледжі",
-    "uz": "Naxchivan musiqa kolleji"
+    "uz": "Naxchivan musiqa kolleji",
+    "ja": "ナヒチェヴァン音楽カレッジ"
   },
   {
     "code": "namedc",
@@ -1009,7 +1052,8 @@
     "hu": "Nakhchivan Egészségügyi Technikum",
     "el": "Ιατρικό Κολέγιο Ναχιτσεβάν",
     "kk": "Нахчыван Медицина Колледжі",
-    "uz": "Naxchivan tibbiyot kolleji"
+    "uz": "Naxchivan tibbiyot kolleji",
+    "ja": "ナヒチェヴァン医療カレッジ"
   },
   {
     "code": "naric",
@@ -1032,7 +1076,8 @@
     "hu": "Nardaran Iszlám Technikum",
     "el": "Ισλαμικό Κολέγιο Ναρντάραν",
     "kk": "Нардаран Ислам Колледжі",
-    "uz": "Nardaran islom kolleji"
+    "uz": "Nardaran islom kolleji",
+    "ja": "ナルダラン・イスラームカレッジ"
   },
   {
     "code": "samc",
@@ -1055,7 +1100,8 @@
     "hu": "Saatly Egészségügyi Technikum",
     "el": "Ιατρικό Κολέγιο Σαατλί",
     "kk": "Саатлы Медицина Колледжі",
-    "uz": "Saatli tibbiyot kolleji"
+    "uz": "Saatli tibbiyot kolleji",
+    "ja": "サアトリ医療カレッジ"
   },
   {
     "code": "sssec",
@@ -1078,7 +1124,8 @@
     "hu": "Sabirabad Állami Társadalmi-Gazdasági Technikum",
     "el": "Κρατικό Κοινωνικοοικονομικό Κολέγιο Σαμπιραμπάντ",
     "kk": "Сабирабад Мемлекеттік Әлеуметтік-Экономикалық Колледжі",
-    "uz": "Sabirabad davlat ijtimoiy-iqtisodiy kolleji"
+    "uz": "Sabirabad davlat ijtimoiy-iqtisodiy kolleji",
+    "ja": "サビラバード国立社会経済カレッジ"
   },
   {
     "code": "sstcssu",
@@ -1101,7 +1148,8 @@
     "hu": "Sumgayit Állami Műszaki Technikum (a Sumgayit Állami Egyetem mellett)",
     "el": "Κρατικό Τεχνικό Κολέγιο Σουμγκαΐτ στο Κρατικό Πανεπιστήμιο του Σουμγκαΐτ",
     "kk": "Сумгаит Мемлекеттік Университеті жанындағы Сумгаит Мемлекеттік Техникалық Колледжі",
-    "uz": "Sumgait davlat universiteti huzuridagi Sumgait davlat texnika kolleji"
+    "uz": "Sumgait davlat universiteti huzuridagi Sumgait davlat texnika kolleji",
+    "ja": "スムガイト国立大学附属スムガイト国立技術カレッジ"
   },
   {
     "code": "summc",
@@ -1124,7 +1172,8 @@
     "hu": "Sumgayit Egészségügyi Technikum",
     "el": "Ιατρικό Κολέγιο Σουμγκαΐτ",
     "kk": "Сумгаит Медицина Колледжі",
-    "uz": "Sumgait tibbiyot kolleji"
+    "uz": "Sumgait tibbiyot kolleji",
+    "ja": "スムガイト医療カレッジ"
   },
   {
     "code": "shamsrc",
@@ -1147,7 +1196,8 @@
     "hu": "Shamakhi Állami Regionális Technikum",
     "el": "Κρατικό Περιφερειακό Κολέγιο Σαμαχί",
     "kk": "Шамахы Мемлекеттік Аймақтық Колледжі",
-    "uz": "Shamaxi davlat mintaqaviy kolleji"
+    "uz": "Shamaxi davlat mintaqaviy kolleji",
+    "ja": "シャマヒ国立地域カレッジ"
   },
   {
     "code": "shic",
@@ -1170,7 +1220,8 @@
     "hu": "Shabnam (Lány) Iszlám Technikum",
     "el": "Ισλαμικό Κολέγιο Θηλέων «Σεμπνέμ»",
     "kk": "Шабнам (Қыздар) Ислам Колледжі",
-    "uz": "Shabnam (qizlar) islom kolleji"
+    "uz": "Shabnam (qizlar) islom kolleji",
+    "ja": "シャブナム女子イスラームカレッジ"
   },
   {
     "code": "shsrc",
@@ -1193,7 +1244,8 @@
     "hu": "Sheki Állami Regionális Technikum",
     "el": "Κρατικό Περιφερειακό Κολέγιο Σεκί",
     "kk": "Шеки Мемлекеттік Аймақтық Колледжі",
-    "uz": "Shaki davlat mintaqaviy kolleji"
+    "uz": "Shaki davlat mintaqaviy kolleji",
+    "ja": "シェキ国立地域カレッジ"
   },
   {
     "code": "shhaic",
@@ -1216,7 +1268,8 @@
     "hu": "Sheki (Hafizlik) Iszlám Technikum",
     "el": "Ισλαμικό Κολέγιο Σεκί (Χαφιζλίκ)",
     "kk": "Шеки (Хафизлик) Ислам Колледжі",
-    "uz": "Shaki (hofizlik) islom kolleji"
+    "uz": "Shaki (hofizlik) islom kolleji",
+    "ja": "シェキ・ハーフィズ・イスラームカレッジ"
   },
   {
     "code": "shmec",
@@ -1239,7 +1292,8 @@
     "hu": "Sheki Egészségügyi Technikum",
     "el": "Ιατρικό Κολέγιο Σεκί",
     "kk": "Шеки Медицина Колледжі",
-    "uz": "Shaki tibbiyot kolleji"
+    "uz": "Shaki tibbiyot kolleji",
+    "ja": "シェキ医療カレッジ"
   },
   {
     "code": "shsceh",
@@ -1262,7 +1316,8 @@
     "hu": "Shirvan Állami Közgazdasági és Humán Technikum",
     "el": "Κρατικό Κολέγιο Οικονομικών και Ανθρωπιστικών Σπουδών Σιρβάν",
     "kk": "Ширван Мемлекеттік Экономика және Гуманитарлық Ғылымдар Колледжі",
-    "uz": "Shirvan davlat iqtisodiyot va gumanitar kolleji"
+    "uz": "Shirvan davlat iqtisodiyot va gumanitar kolleji",
+    "ja": "シルヴァン国立経済人文カレッジ"
   },
   {
     "code": "shhc",
@@ -1285,7 +1340,8 @@
     "hu": "Shusha Humán Technikum",
     "el": "Κολέγιο Ανθρωπιστικών Σπουδών Σούσα",
     "kk": "Шуша Гуманитарлық Колледжі",
-    "uz": "Shusha gumanitar kolleji"
+    "uz": "Shusha gumanitar kolleji",
+    "ja": "シュシャ人文カレッジ"
   },
   {
     "code": "tssec",
@@ -1308,7 +1364,8 @@
     "hu": "Tovuz Állami Társadalmi-Gazdasági Technikum",
     "el": "Κρατικό Κοινωνικοοικονομικό Κολέγιο Τοβούζ",
     "kk": "Товуз Мемлекеттік Әлеуметтік-Экономикалық Колледжі",
-    "uz": "Tovuz davlat ijtimoiy-iqtisodiy kolleji"
+    "uz": "Tovuz davlat ijtimoiy-iqtisodiy kolleji",
+    "ja": "トヴズ国立社会経済カレッジ"
   },
   {
     "code": "zscmt",
@@ -1331,7 +1388,8 @@
     "hu": "Zagatala Állami Menedzsment és Technológiai Technikum",
     "el": "Κρατικό Κολέγιο Διοίκησης και Τεχνολογίας Ζαγκατάλα",
     "kk": "Загатала Мемлекеттік Басқару және Технология Колледжі",
-    "uz": "Zaqatala davlat boshqaruv va texnologiya kolleji"
+    "uz": "Zaqatala davlat boshqaruv va texnologiya kolleji",
+    "ja": "ザガタラ国立経営技術カレッジ"
   },
   {
     "code": "zaic",
@@ -1354,7 +1412,8 @@
     "hu": "Zagatala Iszlám Technikum",
     "el": "Ισλαμικό Κολέγιο Ζαγκατάλα",
     "kk": "Загатала Ислам Колледжі",
-    "uz": "Zaqatala islom kolleji"
+    "uz": "Zaqatala islom kolleji",
+    "ja": "ザガタラ・イスラームカレッジ"
   },
   {
     "code": "bbcc",
@@ -1377,7 +1436,8 @@
     "hu": "Baku Üzleti és Szövetkezeti Technikum",
     "el": "Κολέγιο Επιχειρήσεων και Συνεργατισμού του Μπακού",
     "kk": "Баку Бизнес және Кооперация Колледжі",
-    "uz": "Boku biznes va hamkorlik kolleji"
+    "uz": "Boku biznes va hamkorlik kolleji",
+    "ja": "バクー・ビジネス協同カレッジ"
   },
   {
     "code": "oyusc",
@@ -1400,7 +1460,8 @@
     "hu": "Odlar Yurdu Egyetem Középfokú Technikuma",
     "el": "Δευτεροβάθμιο Κολέγιο του Πανεπιστημίου Οντλάρ Γιουρντού",
     "kk": "Одлар Юрду Университетінің Орта Арнаулы Колледжі",
-    "uz": "Odlar Yurdu universiteti oʻrta maxsus kolleji"
+    "uz": "Odlar Yurdu universiteti oʻrta maxsus kolleji",
+    "ja": "オドラル・ユルドゥ大学附属中等カレッジ"
   },
   {
     "code": "ajvhs",
@@ -1423,7 +1484,8 @@
     "hu": "Absheron Jeyranbatan Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Τζεϊρανμπατάν Αψερόν",
     "kk": "Абшерон Джейранбатан Кәсіптік Лицейі",
-    "uz": "Absheron-Jeyranbatan kasb-hunar litseyi"
+    "uz": "Absheron-Jeyranbatan kasb-hunar litseyi",
+    "ja": "アブシェロン・ジェイランバタン職業高等学校"
   },
   {
     "code": "bvhs",
@@ -1446,7 +1508,8 @@
     "hu": "Bilasuvar Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Μπιλασουβάρ",
     "kk": "Биласувар Кәсіптік Лицейі",
-    "uz": "Bilasuvar kasb-hunar litseyi"
+    "uz": "Bilasuvar kasb-hunar litseyi",
+    "ja": "ビラスヴァル職業高等学校"
   },
   {
     "code": "goyvhs",
@@ -1469,7 +1532,8 @@
     "hu": "Goychay Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Γκιοϊτσάι",
     "kk": "Гейчай Кәсіптік Лицейі",
-    "uz": "Goychay kasb-hunar litseyi"
+    "uz": "Goychay kasb-hunar litseyi",
+    "ja": "ギョイチャイ職業高等学校"
   },
   {
     "code": "gadvhs",
@@ -1492,7 +1556,8 @@
     "hu": "Gadabey Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Γκαντεμπέι",
     "kk": "Гадабай Кәсіптік Лицейі",
-    "uz": "Gadabay kasb-hunar litseyi"
+    "uz": "Gadabay kasb-hunar litseyi",
+    "ja": "ガダバイ職業高等学校"
   },
   {
     "code": "kvhs",
@@ -1515,7 +1580,8 @@
     "hu": "Kurdamir Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Κουρταμίρ",
     "kk": "Кюрдамир Кәсіптік Лицейі",
-    "uz": "Kurdamir kasb-hunar litseyi"
+    "uz": "Kurdamir kasb-hunar litseyi",
+    "ja": "キュルダミル職業高等学校"
   },
   {
     "code": "gakvhs",
@@ -1538,7 +1604,8 @@
     "hu": "Gakh Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Γκαχ",
     "kk": "Гах Кәсіптік Лицейі",
-    "uz": "Qax kasb-hunar litseyi"
+    "uz": "Qax kasb-hunar litseyi",
+    "ja": "ガフ職業高等学校"
   },
   {
     "code": "gubvhs",
@@ -1561,7 +1628,8 @@
     "hu": "Guba Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Γκουμπά",
     "kk": "Губа Кәсіптік Лицейі",
-    "uz": "Quba kasb-hunar litseyi"
+    "uz": "Quba kasb-hunar litseyi",
+    "ja": "グバ職業高等学校"
   },
   {
     "code": "svhs",
@@ -1584,7 +1652,8 @@
     "hu": "Saatly Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Σαατλί",
     "kk": "Саатлы Кәсіптік Лицейі",
-    "uz": "Saatli kasb-hunar litseyi"
+    "uz": "Saatli kasb-hunar litseyi",
+    "ja": "サアトリ職業高等学校"
   },
   {
     "code": "savhs",
@@ -1607,7 +1676,8 @@
     "hu": "Sabirabad Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Σαμπιραμπάντ",
     "kk": "Сабирабад Кәсіптік Лицейі",
-    "uz": "Sabirabad kasb-hunar litseyi"
+    "uz": "Sabirabad kasb-hunar litseyi",
+    "ja": "サビラバード職業高等学校"
   },
   {
     "code": "salvhs",
@@ -1630,7 +1700,8 @@
     "hu": "Salyan Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Σαλιάν",
     "kk": "Сальян Кәсіптік Лицейі",
-    "uz": "Salyan kasb-hunar litseyi"
+    "uz": "Salyan kasb-hunar litseyi",
+    "ja": "サリヤン職業高等学校"
   },
   {
     "code": "bavhs",
@@ -1653,7 +1724,8 @@
     "hu": "Barda Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Μπαρντά",
     "kk": "Барда Кәсіптік Лицейі",
-    "uz": "Barda kasb-hunar litseyi"
+    "uz": "Barda kasb-hunar litseyi",
+    "ja": "バルダ職業高等学校"
   },
   {
     "code": "shvhs",
@@ -1676,7 +1748,8 @@
     "hu": "Shamakhi Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Σαμαχί",
     "kk": "Шамахы Кәсіптік Лицейі",
-    "uz": "Shamaxi kasb-hunar litseyi"
+    "uz": "Shamaxi kasb-hunar litseyi",
+    "ja": "シャマヒ職業高等学校"
   },
   {
     "code": "shavhs",
@@ -1699,7 +1772,8 @@
     "hu": "Shamkir Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Σαμκίρ",
     "kk": "Шамкир Кәсіптік Лицейі",
-    "uz": "Shamkir kasb-hunar litseyi"
+    "uz": "Shamkir kasb-hunar litseyi",
+    "ja": "シャムキル職業高等学校"
   },
   {
     "code": "sharvhs",
@@ -1722,7 +1796,8 @@
     "hu": "Sharur Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Σαρούρ",
     "kk": "Шарур Кәсіптік Лицейі",
-    "uz": "Sharur kasb-hunar litseyi"
+    "uz": "Sharur kasb-hunar litseyi",
+    "ja": "シャルル職業高等学校"
   },
   {
     "code": "shivhs",
@@ -1745,7 +1820,8 @@
     "hu": "Shirvan Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Σιρβάν",
     "kk": "Ширван Кәсіптік Лицейі",
-    "uz": "Shirvan kasb-hunar litseyi"
+    "uz": "Shirvan kasb-hunar litseyi",
+    "ja": "シルヴァン職業高等学校"
   },
   {
     "code": "zvhs",
@@ -1768,7 +1844,8 @@
     "hu": "Zardab Szakképző Líceum",
     "el": "Επαγγελματικό Λύκειο Ζαρντάμπ",
     "kk": "Зардаб Кәсіптік Лицейі",
-    "uz": "Zardab kasb-hunar litseyi"
+    "uz": "Zardab kasb-hunar litseyi",
+    "ja": "ザルダブ職業高等学校"
   },
   {
     "code": "isvtc",
@@ -1791,7 +1868,8 @@
     "hu": "Ismayilli Állami Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Κατάρτισης Ισμαγιλί",
     "kk": "Исмаиллы Мемлекеттік Кәсіптік Оқыту Орталығы",
-    "uz": "Ismayilli davlat kasb-hunar taʼlimi markazi"
+    "uz": "Ismayilli davlat kasb-hunar taʼlimi markazi",
+    "ja": "イスマイルリ国立職業訓練センター"
   },
   {
     "code": "agvs",
@@ -1814,7 +1892,8 @@
     "hu": "Agjabedi Szakiskola",
     "el": "Επαγγελματική Σχολή Αγτζαμπεντί",
     "kk": "Агджабеди Кәсіптік Мектебі",
-    "uz": "Agjabadi kasb-hunar maktabi"
+    "uz": "Agjabadi kasb-hunar maktabi",
+    "ja": "アグジャバディ職業学校"
   },
   {
     "code": "agdvs",
@@ -1837,7 +1916,8 @@
     "hu": "Agdash Szakiskola",
     "el": "Επαγγελματική Σχολή Αγντάς",
     "kk": "Агдаш Кәсіптік Мектебі",
-    "uz": "Agdash kasb-hunar maktabi"
+    "uz": "Agdash kasb-hunar maktabi",
+    "ja": "アグダシュ職業学校"
   },
   {
     "code": "beyvs",
@@ -1860,7 +1940,8 @@
     "hu": "Beylagan Szakiskola",
     "el": "Επαγγελματική Σχολή Μπεϊλαγκάν",
     "kk": "Бейлаган Кәсіптік Мектебі",
-    "uz": "Beylagan kasb-hunar maktabi"
+    "uz": "Beylagan kasb-hunar maktabi",
+    "ja": "ベイラガン職業学校"
   },
   {
     "code": "jabvs",
@@ -1883,7 +1964,8 @@
     "hu": "Jabrayil Szakiskola",
     "el": "Επαγγελματική Σχολή Τζαμπραγίλ",
     "kk": "Джебраил Кәсіптік Мектебі",
-    "uz": "Jabrayil kasb-hunar maktabi"
+    "uz": "Jabrayil kasb-hunar maktabi",
+    "ja": "ジャブライル職業学校"
   },
   {
     "code": "julvs",
@@ -1906,7 +1988,8 @@
     "hu": "Julfa Szakiskola",
     "el": "Επαγγελματική Σχολή Τζούλφα",
     "kk": "Джульфа Кәсіптік Мектебі",
-    "uz": "Julfa kasb-hunar maktabi"
+    "uz": "Julfa kasb-hunar maktabi",
+    "ja": "ジュルファ職業学校"
   },
   {
     "code": "dashvs",
@@ -1929,7 +2012,8 @@
     "hu": "Dashkasan Szakiskola",
     "el": "Επαγγελματική Σχολή Ντασκεσέν",
     "kk": "Дашкесан Кәсіптік Мектебі",
-    "uz": "Dashkasan kasb-hunar maktabi"
+    "uz": "Dashkasan kasb-hunar maktabi",
+    "ja": "ダシュケサン職業学校"
   },
   {
     "code": "gorvs",
@@ -1952,7 +2036,8 @@
     "hu": "Goranboy Szakiskola",
     "el": "Επαγγελματική Σχολή Γκοράνμποϊ",
     "kk": "Геранбой Кәсіптік Мектебі",
-    "uz": "Goranboy kasb-hunar maktabi"
+    "uz": "Goranboy kasb-hunar maktabi",
+    "ja": "ゴランボイ職業学校"
   },
   {
     "code": "goyvs",
@@ -1975,7 +2060,8 @@
     "hu": "Goygol Szakiskola",
     "el": "Επαγγελματική Σχολή Γκιοϊγκιόλ",
     "kk": "Гёйгёль Кәсіптік Мектебі",
-    "uz": "Goygol kasb-hunar maktabi"
+    "uz": "Goygol kasb-hunar maktabi",
+    "ja": "ギョイギョル職業学校"
   },
   {
     "code": "imivs",
@@ -1998,7 +2084,8 @@
     "hu": "Imishli Szakiskola",
     "el": "Επαγγελματική Σχολή Ιμισλί",
     "kk": "Имишли Кәсіптік Мектебі",
-    "uz": "Imishli kasb-hunar maktabi"
+    "uz": "Imishli kasb-hunar maktabi",
+    "ja": "イミシュリ職業学校"
   },
   {
     "code": "khivs",
@@ -2021,7 +2108,8 @@
     "hu": "Khizi Szakiskola",
     "el": "Επαγγελματική Σχολή Χιζί",
     "kk": "Хызы Кәсіптік Мектебі",
-    "uz": "Xizi kasb-hunar maktabi"
+    "uz": "Xizi kasb-hunar maktabi",
+    "ja": "ヒズィ職業学校"
   },
   {
     "code": "kalvs",
@@ -2044,7 +2132,8 @@
     "hu": "Kalbajar Szakiskola",
     "el": "Επαγγελματική Σχολή Κελμπετζάρ",
     "kk": "Кельбаджар Кәсіптік Мектебі",
-    "uz": "Kalbajar kasb-hunar maktabi"
+    "uz": "Kalbajar kasb-hunar maktabi",
+    "ja": "カルバジャル職業学校"
   },
   {
     "code": "gusvs",
@@ -2067,7 +2156,8 @@
     "hu": "Guba Speciális Szakiskola",
     "el": "Ειδική Επαγγελματική Σχολή Γκουμπά",
     "kk": "Губа Арнаулы Кәсіптік Мектебі",
-    "uz": "Quba maxsus kasb-hunar maktabi"
+    "uz": "Quba maxsus kasb-hunar maktabi",
+    "ja": "グバ特別職業学校"
   },
   {
     "code": "lacvs",
@@ -2090,7 +2180,8 @@
     "hu": "Lachin Szakiskola",
     "el": "Επαγγελματική Σχολή Λατσίν",
     "kk": "Лачин Кәсіптік Мектебі",
-    "uz": "Lachin kasb-hunar maktabi"
+    "uz": "Lachin kasb-hunar maktabi",
+    "ja": "ラチン職業学校"
   },
   {
     "code": "masvs",
@@ -2113,7 +2204,8 @@
     "hu": "Masalli Szakiskola",
     "el": "Επαγγελματική Σχολή Μασαλί",
     "kk": "Масаллы Кәсіптік Мектебі",
-    "uz": "Masalli kasb-hunar maktabi"
+    "uz": "Masalli kasb-hunar maktabi",
+    "ja": "マサリ職業学校"
   },
   {
     "code": "minvs",
@@ -2136,7 +2228,8 @@
     "hu": "Mingachevir Szakiskola",
     "el": "Επαγγελματική Σχολή Μινγκετσεβίρ",
     "kk": "Мингячевир Кәсіптік Мектебі",
-    "uz": "Mingachevir kasb-hunar maktabi"
+    "uz": "Mingachevir kasb-hunar maktabi",
+    "ja": "ミンゲチャウル職業学校"
   },
   {
     "code": "nafvs",
@@ -2159,7 +2252,8 @@
     "hu": "Naftalan Szakiskola",
     "el": "Επαγγελματική Σχολή Ναφταλάν",
     "kk": "Нафталан Кәсіптік Мектебі",
-    "uz": "Naftalan kasb-hunar maktabi"
+    "uz": "Naftalan kasb-hunar maktabi",
+    "ja": "ナフタラン職業学校"
   },
   {
     "code": "nefvs",
@@ -2182,7 +2276,8 @@
     "hu": "Neftchala Szakiskola",
     "el": "Επαγγελματική Σχολή Νεφτσαλά",
     "kk": "Нефтчала Кәсіптік Мектебі",
-    "uz": "Neftchala kasb-hunar maktabi"
+    "uz": "Neftchala kasb-hunar maktabi",
+    "ja": "ネフチャラ職業学校"
   },
   {
     "code": "oguvs",
@@ -2205,7 +2300,8 @@
     "hu": "Oguz Szakiskola",
     "el": "Επαγγελματική Σχολή Ογούζ",
     "kk": "Огуз Кәсіптік Мектебі",
-    "uz": "Oguz kasb-hunar maktabi"
+    "uz": "Oguz kasb-hunar maktabi",
+    "ja": "オグズ職業学校"
   },
   {
     "code": "ordvs",
@@ -2228,7 +2324,8 @@
     "hu": "Ordubad Szakiskola",
     "el": "Επαγγελματική Σχολή Ορντουμπάντ",
     "kk": "Ордубад Кәсіптік Мектебі",
-    "uz": "Ordubad kasb-hunar maktabi"
+    "uz": "Ordubad kasb-hunar maktabi",
+    "ja": "オルドゥバード職業学校"
   },
   {
     "code": "siyvs",
@@ -2251,7 +2348,8 @@
     "hu": "Siyazan Szakiskola",
     "el": "Επαγγελματική Σχολή Σιγιαζάν",
     "kk": "Сиязан Кәсіптік Мектебі",
-    "uz": "Siyazan kasb-hunar maktabi"
+    "uz": "Siyazan kasb-hunar maktabi",
+    "ja": "シヤザン職業学校"
   },
   {
     "code": "shavs",
@@ -2274,7 +2372,8 @@
     "hu": "Shabran Szakiskola",
     "el": "Επαγγελματική Σχολή Σαμπράν",
     "kk": "Шабран Кәсіптік Мектебі",
-    "uz": "Shabran kasb-hunar maktabi"
+    "uz": "Shabran kasb-hunar maktabi",
+    "ja": "シャブラン職業学校"
   },
   {
     "code": "tarvs",
@@ -2297,7 +2396,8 @@
     "hu": "Tartar Szakiskola",
     "el": "Επαγγελματική Σχολή Τερτέρ",
     "kk": "Тартар Кәсіптік Мектебі",
-    "uz": "Tartar kasb-hunar maktabi"
+    "uz": "Tartar kasb-hunar maktabi",
+    "ja": "タルタル職業学校"
   },
   {
     "code": "yarvs",
@@ -2320,7 +2420,8 @@
     "hu": "Yardymly Szakiskola",
     "el": "Επαγγελματική Σχολή Γιαρντιμλί",
     "kk": "Ярдымлы Кәсіптік Мектебі",
-    "uz": "Yardimli kasb-hunar maktabi"
+    "uz": "Yardimli kasb-hunar maktabi",
+    "ja": "ヤルドゥムル職業学校"
   },
   {
     "code": "yevvs",
@@ -2343,7 +2444,8 @@
     "hu": "Yevlakh Szakiskola",
     "el": "Επαγγελματική Σχολή Γιεβλάχ",
     "kk": "Евлах Кәсіптік Мектебі",
-    "uz": "Yevlax kasb-hunar maktabi"
+    "uz": "Yevlax kasb-hunar maktabi",
+    "ja": "イェヴラフ職業学校"
   },
   {
     "code": "zagvs",
@@ -2366,7 +2468,8 @@
     "hu": "Zagatala Szakiskola",
     "el": "Επαγγελματική Σχολή Ζαγκατάλα",
     "kk": "Загатала Кәсіптік Мектебі",
-    "uz": "Zaqatala kasb-hunar maktabi"
+    "uz": "Zaqatala kasb-hunar maktabi",
+    "ja": "ザガタラ職業学校"
   },
   {
     "code": "asvec",
@@ -2389,7 +2492,8 @@
     "hu": "Aghdam Állami Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Αγντάμ",
     "kk": "Агдам Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Agdam davlat kasb-hunar taʼlimi markazi"
+    "uz": "Agdam davlat kasb-hunar taʼlimi markazi",
+    "ja": "アグダム国立職業教育センター"
   },
   {
     "code": "bsvtcart",
@@ -2412,7 +2516,8 @@
     "hu": "Baku Állami Repülési és Közúti Közlekedési Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Κατάρτισης Αεροπορίας και Οδικών Μεταφορών του Μπακού",
     "kk": "Авиация және Автомобиль Көлігі бойынша Баку Мемлекеттік Кәсіптік Оқыту Орталығы",
-    "uz": "Aviatsiya va avtomobil transporti boʻyicha Boku davlat kasb-hunar taʼlimi markazi"
+    "uz": "Aviatsiya va avtomobil transporti boʻyicha Boku davlat kasb-hunar taʼlimi markazi",
+    "ja": "バクー国立航空道路運輸職業訓練センター"
   },
   {
     "code": "bsvec",
@@ -2435,7 +2540,8 @@
     "hu": "Balakan Állami Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Μπαλακέν",
     "kk": "Балакан Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Balakan davlat kasb-hunar taʼlimi markazi"
+    "uz": "Balakan davlat kasb-hunar taʼlimi markazi",
+    "ja": "バラカン国立職業教育センター"
   },
   {
     "code": "jsvec",
@@ -2458,7 +2564,8 @@
     "hu": "Jalilabad Állami Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Τζαλιλαμπάντ",
     "kk": "Джалилабад Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Jalilabad davlat kasb-hunar taʼlimi markazi"
+    "uz": "Jalilabad davlat kasb-hunar taʼlimi markazi",
+    "ja": "ジャリラバード国立職業教育センター"
   },
   {
     "code": "bsvtcrm",
@@ -2481,7 +2588,8 @@
     "hu": "Baku Állami Vasúti és Metró Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Κατάρτισης Σιδηροδρόμων και Μετρό του Μπακού",
     "kk": "Теміржол және Метро бойынша Баку Мемлекеттік Кәсіптік Оқыту Орталығы",
-    "uz": "Temir yoʻl va metropoliten boʻyicha Boku davlat kasb-hunar taʼlimi markazi"
+    "uz": "Temir yoʻl va metropoliten boʻyicha Boku davlat kasb-hunar taʼlimi markazi",
+    "ja": "バクー国立鉄道地下鉄職業訓練センター"
   },
   {
     "code": "bsvtcstspw",
@@ -2504,7 +2612,8 @@
     "hu": "Baku Állami Tengeri Közlekedési, Hajóépítési és Kikötői Szakképzési Központ",
     "el": "Κρατικό Κέντρο Κατάρτισης Θαλάσσιων Μεταφορών, Ναυπηγικής και Λιμενικών Έργων του Μπακού",
     "kk": "Теңіз Көлігі, Кеме Жасау және Порт Жұмыстары бойынша Баку Мемлекеттік Кәсіптік Оқыту Орталығы",
-    "uz": "Dengiz transporti, kema qurilishi va port ishlari boʻyicha Boku davlat kasb-hunar taʼlimi markazi"
+    "uz": "Dengiz transporti, kema qurilishi va port ishlari boʻyicha Boku davlat kasb-hunar taʼlimi markazi",
+    "ja": "バクー国立海上運輸造船港湾職業訓練センター"
   },
   {
     "code": "bsvecpi",
@@ -2527,7 +2636,8 @@
     "hu": "Baku Állami Feldolgozóipari Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Μεταποιητικής Βιομηχανίας του Μπακού",
     "kk": "Қайта Өңдеу Өнеркәсібі бойынша Баку Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Qayta ishlash sanoati boʻyicha Boku davlat kasb-hunar taʼlimi markazi"
+    "uz": "Qayta ishlash sanoati boʻyicha Boku davlat kasb-hunar taʼlimi markazi",
+    "ja": "バクー国立加工産業職業教育センター"
   },
   {
     "code": "fsvec",
@@ -2550,7 +2660,8 @@
     "hu": "Fuzuli Állami Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Φιζουλί",
     "kk": "Физули Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Fuzuli davlat kasb-hunar taʼlimi markazi"
+    "uz": "Fuzuli davlat kasb-hunar taʼlimi markazi",
+    "ja": "フュズリ国立職業教育センター"
   },
   {
     "code": "ksvec",
@@ -2573,7 +2684,8 @@
     "hu": "Khachmaz Állami Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Χατσμάζ",
     "kk": "Хачмаз Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Xachmaz davlat kasb-hunar taʼlimi markazi"
+    "uz": "Xachmaz davlat kasb-hunar taʼlimi markazi",
+    "ja": "ハチマズ国立職業教育センター"
   },
   {
     "code": "ssvecsa",
@@ -2596,7 +2708,8 @@
     "hu": "Sumgayit Állami Szolgáltatási Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Υπηρεσιών του Σουμγκαΐτ",
     "kk": "Қызмет Көрсету Салалары бойынша Сумгаит Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Xizmat sohalari boʻyicha Sumgait davlat kasb-hunar taʼlimi markazi"
+    "uz": "Xizmat sohalari boʻyicha Sumgait davlat kasb-hunar taʼlimi markazi",
+    "ja": "スムガイト国立サービス分野職業教育センター"
   },
   {
     "code": "bsvecpcs",
@@ -2619,7 +2732,8 @@
     "hu": "Baku Állami Közétkeztetési és Szolgáltatási Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Εστίασης και Υπηρεσιών του Μπακού",
     "kk": "Қоғамдық Тамақтану және Қызмет Көрсету бойынша Баку Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Umumiy ovqatlanish va xizmat koʻrsatish boʻyicha Boku davlat kasb-hunar taʼlimi markazi"
+    "uz": "Umumiy ovqatlanish va xizmat koʻrsatish boʻyicha Boku davlat kasb-hunar taʼlimi markazi",
+    "ja": "バクー国立外食サービス職業教育センター"
   },
   {
     "code": "gsvec",
@@ -2642,7 +2756,8 @@
     "hu": "Gabala Állami Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Γκαμπαλά",
     "kk": "Габала Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Qabala davlat kasb-hunar taʼlimi markazi"
+    "uz": "Qabala davlat kasb-hunar taʼlimi markazi",
+    "ja": "ガバラ国立職業教育センター"
   },
   {
     "code": "lsvec",
@@ -2665,7 +2780,8 @@
     "hu": "Lankaran Állami Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Λάνκαραν",
     "kk": "Ленкоран Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Lankaran davlat kasb-hunar taʼlimi markazi"
+    "uz": "Lankaran davlat kasb-hunar taʼlimi markazi",
+    "ja": "ランカラン国立職業教育センター"
   },
   {
     "code": "bsveccc",
@@ -2688,7 +2804,8 @@
     "hu": "Baku Állami Kulturális és Kézműipari Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Πολιτισμού και Χειροτεχνίας του Μπακού",
     "kk": "Мәдениет және Қолөнер бойынша Баку Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Madaniyat va hunarmandchilik boʻyicha Boku davlat kasb-hunar taʼlimi markazi"
+    "uz": "Madaniyat va hunarmandchilik boʻyicha Boku davlat kasb-hunar taʼlimi markazi",
+    "ja": "バクー国立文化工芸職業教育センター"
   },
   {
     "code": "bsveccit",
@@ -2711,7 +2828,8 @@
     "hu": "Baku Állami Hírközlési és Informatikai Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Επικοινωνιών και Πληροφορικής του Μπακού",
     "kk": "Байланыс және Ақпараттық Технологиялар бойынша Баку Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Aloqa va axborot texnologiyalari boʻyicha Boku davlat kasb-hunar taʼlimi markazi"
+    "uz": "Aloqa va axborot texnologiyalari boʻyicha Boku davlat kasb-hunar taʼlimi markazi",
+    "ja": "バクー国立通信情報技術職業教育センター"
   },
   {
     "code": "bsvecii",
@@ -2734,7 +2852,8 @@
     "hu": "Baku Állami Ipari és Innovációs Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Βιομηχανίας και Καινοτομίας του Μπακού",
     "kk": "Өнеркәсіп және Инновация бойынша Баку Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Sanoat va innovatsiyalar boʻyicha Boku davlat kasb-hunar taʼlimi markazi"
+    "uz": "Sanoat va innovatsiyalar boʻyicha Boku davlat kasb-hunar taʼlimi markazi",
+    "ja": "バクー国立産業イノベーション職業教育センター"
   },
   {
     "code": "gsvecit",
@@ -2757,7 +2876,8 @@
     "hu": "Ganja Állami Ipari és Technológiai Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Βιομηχανίας και Τεχνολογιών της Γκάντζας",
     "kk": "Өнеркәсіп және Технологиялар бойынша Гянджа Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Sanoat va texnologiyalar boʻyicha Ganja davlat kasb-hunar taʼlimi markazi"
+    "uz": "Sanoat va texnologiyalar boʻyicha Ganja davlat kasb-hunar taʼlimi markazi",
+    "ja": "ギャンジャ国立産業技術職業教育センター"
   },
   {
     "code": "ssveciht",
@@ -2780,7 +2900,8 @@
     "hu": "Sumgayit Állami Ipari és Csúcstechnológiai Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Βιομηχανίας και Υψηλής Τεχνολογίας του Σουμγκαΐτ",
     "kk": "Өнеркәсіп және Жоғары Технологиялар бойынша Сумгаит Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Sanoat va yuqori texnologiyalar boʻyicha Sumgait davlat kasb-hunar taʼlimi markazi"
+    "uz": "Sanoat va yuqori texnologiyalar boʻyicha Sumgait davlat kasb-hunar taʼlimi markazi",
+    "ja": "スムガイト国立産業先端技術職業教育センター"
   },
   {
     "code": "ssvec",
@@ -2803,7 +2924,8 @@
     "hu": "Sheki Állami Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Σεκί",
     "kk": "Шеки Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Shaki davlat kasb-hunar taʼlimi markazi"
+    "uz": "Shaki davlat kasb-hunar taʼlimi markazi",
+    "ja": "シェキ国立職業教育センター"
   },
   {
     "code": "bsvectt",
@@ -2826,7 +2948,8 @@
     "hu": "Baku Állami Technikai és Technológiai Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Τεχνικών και Τεχνολογιών του Μπακού",
     "kk": "Техника және Технологиялар бойынша Баку Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Texnika va texnologiyalar boʻyicha Boku davlat kasb-hunar taʼlimi markazi"
+    "uz": "Texnika va texnologiyalar boʻyicha Boku davlat kasb-hunar taʼlimi markazi",
+    "ja": "バクー国立技術工学職業教育センター"
   },
   {
     "code": "gsvects",
@@ -2849,7 +2972,8 @@
     "hu": "Ganja Állami Kereskedelmi és Szolgáltatási Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Εμπορίου και Υπηρεσιών της Γκάντζας",
     "kk": "Сауда және Қызмет Көрсету бойынша Гянджа Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Savdo va xizmat koʻrsatish boʻyicha Ganja davlat kasb-hunar taʼlimi markazi"
+    "uz": "Savdo va xizmat koʻrsatish boʻyicha Ganja davlat kasb-hunar taʼlimi markazi",
+    "ja": "ギャンジャ国立商業サービス職業教育センター"
   },
   {
     "code": "bsvtcciw",
@@ -2872,7 +2996,8 @@
     "hu": "Baku Állami Építési és Szerelési Szakképzési Központ",
     "el": "Κρατικό Κέντρο Κατάρτισης Κατασκευαστικών και Εγκαταστάσεων του Μπακού",
     "kk": "Құрылыс-Монтаж Жұмыстары бойынша Баку Мемлекеттік Кәсіптік Оқыту Орталығы",
-    "uz": "Qurilish va montaj ishlari boʻyicha Boku davlat kasb-hunar taʼlimi markazi"
+    "uz": "Qurilish va montaj ishlari boʻyicha Boku davlat kasb-hunar taʼlimi markazi",
+    "ja": "バクー国立建設据付工事職業訓練センター"
   },
   {
     "code": "tsvec",
@@ -2895,7 +3020,8 @@
     "hu": "Tovuz Állami Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Τοβούζ",
     "kk": "Товуз Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Tovuz davlat kasb-hunar taʼlimi markazi"
+    "uz": "Tovuz davlat kasb-hunar taʼlimi markazi",
+    "ja": "トヴズ国立職業教育センター"
   },
   {
     "code": "bsvectss",
@@ -2918,6 +3044,7 @@
     "hu": "Baku Állami Turisztikai és Szociális Szolgáltatási Szakképzési Központ",
     "el": "Κρατικό Κέντρο Επαγγελματικής Εκπαίδευσης Τουρισμού και Κοινωνικών Υπηρεσιών του Μπακού",
     "kk": "Туризм және Әлеуметтік Қызметтер бойынша Баку Мемлекеттік Кәсіптік Білім Беру Орталығы",
-    "uz": "Turizm va ijtimoiy xizmatlar boʻyicha Boku davlat kasb-hunar taʼlimi markazi"
+    "uz": "Turizm va ijtimoiy xizmatlar boʻyicha Boku davlat kasb-hunar taʼlimi markazi",
+    "ja": "バクー国立観光社会サービス職業教育センター"
   }
 ]

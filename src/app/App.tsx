@@ -1,8 +1,8 @@
-import { type JSX, useEffect } from 'react';
+import { type JSX, useEffect, useMemo } from 'react';
 import { App as AntdApp, ConfigProvider } from 'antd';
 import { I18nextProvider } from 'react-i18next';
 import { LOCALES, i18n } from './i18n';
-import { themeConfig } from './theme';
+import { themeFor } from './theme';
 import { updateSeo } from './seo';
 import { useResumeStore } from '../state/store';
 import { initAnalytics } from '../services/analytics';
@@ -30,10 +30,18 @@ export function App(): JSX.Element {
     updateSeo(uiLocale);
   }, [uiLocale]);
 
+  /**
+   * Rebuilt per language, not per render: the theme object's identity is what
+   * AntD hashes its generated CSS on, so a fresh one every render would re-emit
+   * every component style. The stack itself changes with the language because
+   * Japanese and Chinese compete for the same code points — see `uiFontFamily`.
+   */
+  const theme = useMemo(() => themeFor(uiLocale), [uiLocale]);
+
   return (
     <I18nextProvider i18n={i18n}>
       <ConfigProvider
-        theme={themeConfig}
+        theme={theme}
         locale={LOCALES[uiLocale].antd}
         direction={LOCALES[uiLocale].dir}
       >

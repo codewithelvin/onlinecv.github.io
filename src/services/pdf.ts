@@ -152,6 +152,27 @@ export function registerResumeFonts(pdfLib: typeof ReactPdf, fontBase: string = 
       { src: `${fontBase}/NotoSansSC-Bold.otf`, fontWeight: 700 },
     ],
   });
+  /**
+   * Japanese. The same CFF/OTF story as Chinese — and it was measured the same
+   * way before the locale was written, because the Korean woff2 established that
+   * this engine will silently embed a whole face rather than fail: a one-page
+   * Japanese CV comes out at **67.5 KB** from 9.2 MB of registered font, with
+   * `ABCDEF+` subset tags and `FontFile3`/`CIDFontType0C`.
+   *
+   * ⚠️ IT IS REGISTERED SEPARATELY FROM NotoSansSC AND MUST STAY THAT WAY. The two
+   * cover the same ideographs, but 65.6% of the ones they share are drawn with
+   * different outlines (fontkit, 1,806 sampled) — Chinese and Japanese are two
+   * typographic traditions, not two encodings — so which face a document gets is
+   * decided by `cvFontStack(resume.locale)`, and a Japanese CV that fell through to
+   * NotoSansSC would be legible and visibly wrong.
+   */
+  Font.register({
+    family: 'NotoSansJP',
+    fonts: [
+      { src: `${fontBase}/NotoSansJP-Regular.otf`, fontWeight: 400 },
+      { src: `${fontBase}/NotoSansJP-Bold.otf`, fontWeight: 700 },
+    ],
+  });
   // Text-based, ATS-parseable output: don't insert soft hyphens.
   Font.registerHyphenationCallback((word) => [word]);
 }

@@ -196,14 +196,27 @@ export function pdfPlainText(pdf: string): string {
   return out.join('\n').replace(INVISIBLE, '').normalize('NFKC');
 }
 
+/** Han, kana and Hangul — the scripts that wrap BETWEEN characters. */
+const CJK = /[぀-ヿ㐀-䶿一-鿿가-힣豈-﫿]/;
+
 /**
  * Words from `source` that do NOT appear in the PDF's text.
  *
  * Compared word-wise rather than as whole strings because line wrapping legally
  * splits a line anywhere, and a hyphenless wrap keeps words intact.
+ *
+ * That premise — "a word survives a wrap" — is a property of scripts that write
+ * SPACES, and Japanese and Chinese do not. `split(/\s+/)` hands back a whole
+ * sentence as one "word", and a sentence long enough to wrap is then split across
+ * two lines of the haystack by definition. So a needle containing CJK is checked
+ * against the text with its line breaks removed: the question this file answers is
+ * whether the characters came back in order, and for an unspaced script the line
+ * boundary is not part of the answer. (Latin still gets the strict check, where a
+ * missing space really would mean two words ran together.)
  */
 export function missingWords(pdf: string, source: string): string[] {
   const haystack = pdfPlainText(pdf);
+  const unwrapped = haystack.replace(/\s+/g, '');
   return source
     .split(/\s+/)
     .map((word) =>
@@ -213,5 +226,5 @@ export function missingWords(pdf: string, source: string): string[] {
         .normalize('NFKC'),
     )
     .filter((word) => word.length > 1)
-    .filter((word) => !haystack.includes(word));
+    .filter((word) => !(CJK.test(word) ? unwrapped : haystack).includes(word));
 }

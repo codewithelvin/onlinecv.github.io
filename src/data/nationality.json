@@ -20,7 +20,8 @@
     "hu": "Azeri",
     "el": "Αζερμπαϊτζανός",
     "kk": "Әзербайжан",
-    "uz": "Ozarbayjon"
+    "uz": "Ozarbayjon",
+    "ja": "アゼルバイジャン人"
   },
   {
     "code": "rus",
@@ -43,7 +44,8 @@
     "hu": "Orosz",
     "el": "Ρώσος",
     "kk": "Орыс",
-    "uz": "Rus"
+    "uz": "Rus",
+    "ja": "ロシア人"
   },
   {
     "code": "lazgis",
@@ -66,7 +68,8 @@
     "hu": "Lezg",
     "el": "Λεζγήνος",
     "kk": "Лезгин",
-    "uz": "Lazgin"
+    "uz": "Lazgin",
+    "ja": "レズギン人"
   },
   {
     "code": "turks",
@@ -89,7 +92,8 @@
     "hu": "Török",
     "el": "Τούρκος",
     "kk": "Түрік",
-    "uz": "Turk"
+    "uz": "Turk",
+    "ja": "トルコ人"
   },
   {
     "code": "avars",
@@ -112,7 +116,8 @@
     "hu": "Avar",
     "el": "Άβαρος",
     "kk": "Авар",
-    "uz": "Avar"
+    "uz": "Avar",
+    "ja": "アヴァール人"
   },
   {
     "code": "georgians",
@@ -135,7 +140,8 @@
     "hu": "Grúz",
     "el": "Γεωργιανός",
     "kk": "Грузин",
-    "uz": "Gruzin"
+    "uz": "Gruzin",
+    "ja": "ジョージア人"
   },
   {
     "code": "uzbeks",
@@ -158,7 +164,8 @@
     "hu": "Üzbég",
     "el": "Ουζμπέκος",
     "kk": "Өзбек",
-    "uz": "Oʻzbek"
+    "uz": "Oʻzbek",
+    "ja": "ウズベク人"
   },
   {
     "code": "tatars",
@@ -181,7 +188,8 @@
     "hu": "Tatár",
     "el": "Τατάρος",
     "kk": "Татар",
-    "uz": "Tatar"
+    "uz": "Tatar",
+    "ja": "タタール人"
   },
   {
     "code": "talishs",
@@ -204,7 +212,8 @@
     "hu": "Talis",
     "el": "Ταλίσιος",
     "kk": "Талыш",
-    "uz": "Talish"
+    "uz": "Talish",
+    "ja": "タリシュ人"
   },
   {
     "code": "belarusians",
@@ -227,7 +236,8 @@
     "hu": "Fehérorosz",
     "el": "Λευκορώσος",
     "kk": "Беларус",
-    "uz": "Belarus"
+    "uz": "Belarus",
+    "ja": "ベラルーシ人"
   },
   {
     "code": "persians",
@@ -250,7 +260,8 @@
     "hu": "Perzsa",
     "el": "Πέρσης",
     "kk": "Парсы",
-    "uz": "Fors"
+    "uz": "Fors",
+    "ja": "ペルシャ人"
   },
   {
     "code": "ukrainians",
@@ -273,7 +284,8 @@
     "hu": "Ukrán",
     "el": "Ουκρανός",
     "kk": "Украин",
-    "uz": "Ukrain"
+    "uz": "Ukrain",
+    "ja": "ウクライナ人"
   },
   {
     "code": "tajiks",
@@ -296,7 +308,8 @@
     "hu": "Tádzsik",
     "el": "Τατζίκος",
     "kk": "Тәжік",
-    "uz": "Tojik"
+    "uz": "Tojik",
+    "ja": "タジク人"
   },
   {
     "code": "egyptians",
@@ -319,7 +332,8 @@
     "hu": "Egyiptomi",
     "el": "Αιγύπτιος",
     "kk": "Мысырлық",
-    "uz": "Misrlik"
+    "uz": "Misrlik",
+    "ja": "エジプト人"
   },
   {
     "code": "kyrgyzs",
@@ -342,7 +356,8 @@
     "hu": "Kirgiz",
     "el": "Κιργίζιος",
     "kk": "Қырғыз",
-    "uz": "Qirgʻiz"
+    "uz": "Qirgʻiz",
+    "ja": "キルギス人"
   },
   {
     "code": "kazakhs",
@@ -365,7 +380,8 @@
     "hu": "Kazah",
     "el": "Καζάκος",
     "kk": "Қазақ",
-    "uz": "Qozoq"
+    "uz": "Qozoq",
+    "ja": "カザフ人"
   },
   {
     "code": "turkmens",
@@ -388,7 +404,8 @@
     "hu": "Türkmén",
     "el": "Τουρκμένιος",
     "kk": "Түрікмен",
-    "uz": "Turkman"
+    "uz": "Turkman",
+    "ja": "トルクメン人"
   },
   {
     "code": "pakistanis",
@@ -411,7 +428,8 @@
     "hu": "Pakisztáni",
     "el": "Πακιστανός",
     "kk": "Пакистандық",
-    "uz": "Pokistonlik"
+    "uz": "Pokistonlik",
+    "ja": "パキスタン人"
   },
   {
     "code": "jews",
@@ -434,7 +452,8 @@
     "hu": "Zsidó",
     "el": "Εβραίος",
     "kk": "Яһуди",
-    "uz": "Yahudiy"
+    "uz": "Yahudiy",
+    "ja": "ユダヤ人"
   },
   {
     "code": "moldovans",
@@ -457,7 +476,8 @@
     "hu": "Moldovai",
     "el": "Μολδαβός",
     "kk": "Молдован",
-    "uz": "Moldovalik"
+    "uz": "Moldovalik",
+    "ja": "モルドバ人"
   },
   {
     "code": "romanians",
@@ -480,7 +500,8 @@
     "hu": "Román",
     "el": "Ρουμάνος",
     "kk": "Румын",
-    "uz": "Rumin"
+    "uz": "Rumin",
+    "ja": "ルーマニア人"
   },
   {
     "code": "sakhurs",
@@ -503,7 +524,8 @@
     "hu": "Cahur",
     "el": "Σαχούρ",
     "kk": "Сахур",
-    "uz": "Saxur"
+    "uz": "Saxur",
+    "ja": "ツァフル人"
   },
   {
     "code": "kurds",
@@ -526,7 +548,8 @@
     "hu": "Kurd",
     "el": "Κούρδος",
     "kk": "Күрд",
-    "uz": "Kurd"
+    "uz": "Kurd",
+    "ja": "クルド人"
   },
   {
     "code": "chechens",
@@ -549,7 +572,8 @@
     "hu": "Csecsen",
     "el": "Τσετσένος",
     "kk": "Шешен",
-    "uz": "Chechen"
+    "uz": "Chechen",
+    "ja": "チェチェン人"
   },
   {
     "code": "uygurs",
@@ -572,7 +596,8 @@
     "hu": "Ujgur",
     "el": "Ουιγούρος",
     "kk": "Ұйғыр",
-    "uz": "Uygʻur"
+    "uz": "Uygʻur",
+    "ja": "ウイグル人"
   },
   {
     "code": "italians",
@@ -595,7 +620,8 @@
     "hu": "Olasz",
     "el": "Ιταλός",
     "kk": "Итальян",
-    "uz": "Italyan"
+    "uz": "Italyan",
+    "ja": "イタリア人"
   },
   {
     "code": "germans",
@@ -618,7 +644,8 @@
     "hu": "Német",
     "el": "Γερμανός",
     "kk": "Неміс",
-    "uz": "Nemis"
+    "uz": "Nemis",
+    "ja": "ドイツ人"
   },
   {
     "code": "poles",
@@ -641,7 +668,8 @@
     "hu": "Lengyel",
     "el": "Πολωνός",
     "kk": "Поляк",
-    "uz": "Polyak"
+    "uz": "Polyak",
+    "ja": "ポーランド人"
   },
   {
     "code": "frenchs",
@@ -664,7 +692,8 @@
     "hu": "Francia",
     "el": "Γάλλος",
     "kk": "Француз",
-    "uz": "Fransuz"
+    "uz": "Fransuz",
+    "ja": "フランス人"
   },
   {
     "code": "japaneses",
@@ -687,7 +716,8 @@
     "hu": "Japán",
     "el": "Ιάπωνας",
     "kk": "Жапон",
-    "uz": "Yapon"
+    "uz": "Yapon",
+    "ja": "日本人"
   },
   {
     "code": "lithuanians",
@@ -710,7 +740,8 @@
     "hu": "Litván",
     "el": "Λιθουανός",
     "kk": "Литван",
-    "uz": "Litvalik"
+    "uz": "Litvalik",
+    "ja": "リトアニア人"
   },
   {
     "code": "latvians",
@@ -733,7 +764,8 @@
     "hu": "Lett",
     "el": "Λετονός",
     "kk": "Латыш",
-    "uz": "Latviyalik"
+    "uz": "Latviyalik",
+    "ja": "ラトビア人"
   },
   {
     "code": "estonians",
@@ -756,7 +788,8 @@
     "hu": "Észt",
     "el": "Εσθονός",
     "kk": "Эстон",
-    "uz": "Eston"
+    "uz": "Eston",
+    "ja": "エストニア人"
   },
   {
     "code": "others",
@@ -779,6 +812,7 @@
     "hu": "Egyéb",
     "el": "Άλλη",
     "kk": "Басқа",
-    "uz": "Boshqa"
+    "uz": "Boshqa",
+    "ja": "その他"
   }
 ]

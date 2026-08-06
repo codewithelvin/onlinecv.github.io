@@ -20,7 +20,8 @@
     "hu": "Közgazdaságtan",
     "el": "Οικονομικά",
     "kk": "Экономика",
-    "uz": "Iqtisodiyot"
+    "uz": "Iqtisodiyot",
+    "ja": "経済学"
   },
   {
     "code": "philology",
@@ -43,7 +44,8 @@
     "hu": "Filológia",
     "el": "Φιλολογία",
     "kk": "Филология",
-    "uz": "Filologiya"
+    "uz": "Filologiya",
+    "ja": "文献学"
   },
   {
     "code": "economics_management",
@@ -66,7 +68,8 @@
     "hu": "Közgazdaságtan és menedzsment",
     "el": "Οικονομικά και Διοίκηση",
     "kk": "Экономика және менеджмент",
-    "uz": "Iqtisodiyot va boshqarish"
+    "uz": "Iqtisodiyot va boshqarish",
+    "ja": "経済・経営学"
   },
   {
     "code": "pedagogical",
@@ -89,7 +92,8 @@
     "hu": "Pedagógia",
     "el": "Παιδαγωγική",
     "kk": "Педагогикалық",
-    "uz": "Pedagogika"
+    "uz": "Pedagogika",
+    "ja": "師範教育"
   },
   {
     "code": "law",
@@ -112,7 +116,8 @@
     "hu": "Jog",
     "el": "Νομική",
     "kk": "Құқық",
-    "uz": "Huquq"
+    "uz": "Huquq",
+    "ja": "法学"
   },
   {
     "code": "engineering",
@@ -135,7 +140,8 @@
     "hu": "Mérnöki tudományok",
     "el": "Μηχανική",
     "kk": "Инженерия",
-    "uz": "Muhandislik"
+    "uz": "Muhandislik",
+    "ja": "工学"
   },
   {
     "code": "history",
@@ -158,7 +164,8 @@
     "hu": "Történelem",
     "el": "Ιστορία",
     "kk": "Тарих",
-    "uz": "Tarix"
+    "uz": "Tarix",
+    "ja": "歴史学"
   },
   {
     "code": "finance",
@@ -181,7 +188,8 @@
     "hu": "Pénzügy",
     "el": "Χρηματοοικονομικά",
     "kk": "Қаржы",
-    "uz": "Moliya"
+    "uz": "Moliya",
+    "ja": "財務学"
   },
   {
     "code": "history_geography",
@@ -204,7 +212,8 @@
     "hu": "Történelem és földrajz",
     "el": "Ιστορία και Γεωγραφία",
     "kk": "Тарих және география",
-    "uz": "Tarix va geografiya"
+    "uz": "Tarix va geografiya",
+    "ja": "歴史・地理学"
   },
   {
     "code": "business_and_management",
@@ -227,7 +236,8 @@
     "hu": "Üzlet és menedzsment",
     "el": "Επιχειρήσεις και Διοίκηση",
     "kk": "Бизнес және менеджмент",
-    "uz": "Biznes va menejment"
+    "uz": "Biznes va menejment",
+    "ja": "ビジネス・経営"
   },
   {
     "code": "geography",
@@ -250,7 +260,8 @@
     "hu": "Földrajz",
     "el": "Γεωγραφία",
     "kk": "География",
-    "uz": "Geografiya"
+    "uz": "Geografiya",
+    "ja": "地理学"
   },
   {
     "code": "transport",
@@ -273,7 +284,8 @@
     "hu": "Közlekedés",
     "el": "Μεταφορές",
     "kk": "Көлік",
-    "uz": "Transport"
+    "uz": "Transport",
+    "ja": "運輸"
   },
   {
     "code": "intl_relations_economics",
@@ -296,7 +308,8 @@
     "hu": "Nemzetközi kapcsolatok és közgazdaságtan",
     "el": "Διεθνείς Σχέσεις και Οικονομικά",
     "kk": "Халықаралық қатынастар және экономика",
-    "uz": "Xalqaro munosabatlar va iqtisodiyot"
+    "uz": "Xalqaro munosabatlar va iqtisodiyot",
+    "ja": "国際関係・経済"
   },
   {
     "code": "physics",
@@ -319,7 +332,8 @@
     "hu": "Fizika",
     "el": "Φυσική",
     "kk": "Физика",
-    "uz": "Fizika"
+    "uz": "Fizika",
+    "ja": "物理学"
   },
   {
     "code": "biology",
@@ -342,7 +356,8 @@
     "hu": "Biológia",
     "el": "Βιολογία",
     "kk": "Биология",
-    "uz": "Biologiya"
+    "uz": "Biologiya",
+    "ja": "生物学"
   },
   {
     "code": "chemistry_biology",
@@ -365,7 +380,8 @@
     "hu": "Kémia és biológia",
     "el": "Χημεία και Βιολογία",
     "kk": "Химия және биология",
-    "uz": "Kimyo va biologiya"
+    "uz": "Kimyo va biologiya",
+    "ja": "化学・生物学"
   },
   {
     "code": "chemistry",
@@ -388,7 +404,8 @@
     "hu": "Kémia",
     "el": "Χημεία",
     "kk": "Химия",
-    "uz": "Kimyo"
+    "uz": "Kimyo",
+    "ja": "化学"
   },
   {
     "code": "mathematics",
@@ -411,7 +428,8 @@
     "hu": "Matematika",
     "el": "Μαθηματικά",
     "kk": "Математика",
-    "uz": "Matematika"
+    "uz": "Matematika",
+    "ja": "数学"
   },
   {
     "code": "treatment",
@@ -434,7 +452,8 @@
     "hu": "Általános orvostudomány",
     "el": "Γενική Ιατρική",
     "kk": "Емдеу ісі",
-    "uz": "Davolash ishi"
+    "uz": "Davolash ishi",
+    "ja": "一般医学"
   },
   {
     "code": "education",
@@ -457,7 +476,8 @@
     "hu": "Oktatás",
     "el": "Εκπαίδευση",
     "kk": "Білім беру",
-    "uz": "Ta'lim"
+    "uz": "Ta'lim",
+    "ja": "教育学"
   },
   {
     "code": "math_informatics",
@@ -480,7 +500,8 @@
     "hu": "Matematika és informatika",
     "el": "Μαθηματικά και Πληροφορική",
     "kk": "Математика және информатика",
-    "uz": "Matematika va informatika"
+    "uz": "Matematika va informatika",
+    "ja": "数学・情報学"
   },
   {
     "code": "business_administration",
@@ -503,7 +524,8 @@
     "hu": "Üzleti igazgatás",
     "el": "Διοίκηση Επιχειρήσεων",
     "kk": "Бизнесті басқару",
-    "uz": "Biznesni boshqarish"
+    "uz": "Biznesni boshqarish",
+    "ja": "経営管理"
   },
   {
     "code": "intl_relations",
@@ -526,7 +548,8 @@
     "hu": "Nemzetközi kapcsolatok",
     "el": "Διεθνείς Σχέσεις",
     "kk": "Халықаралық қатынастар",
-    "uz": "Xalqaro munosabatlar"
+    "uz": "Xalqaro munosabatlar",
+    "ja": "国際関係"
   },
   {
     "code": "social_sciences_psychology",
@@ -549,7 +572,8 @@
     "hu": "Társadalomtudományok és pszichológia",
     "el": "Κοινωνικές Επιστήμες και Ψυχολογία",
     "kk": "Әлеуметтік ғылымдар және психология",
-    "uz": "Ijtimoiy fanlar va psixologiya"
+    "uz": "Ijtimoiy fanlar va psixologiya",
+    "ja": "社会科学・心理学"
   },
   {
     "code": "energy",
@@ -572,7 +596,8 @@
     "hu": "Energetika",
     "el": "Ενέργεια",
     "kk": "Энергетика",
-    "uz": "Energetika"
+    "uz": "Energetika",
+    "ja": "エネルギー"
   },
   {
     "code": "applied_math_cybernetics",
@@ -595,7 +620,8 @@
     "hu": "Alkalmazott matematika és kibernetika",
     "el": "Εφαρμοσμένα Μαθηματικά και Κυβερνητική",
     "kk": "Қолданбалы математика және кибернетика",
-    "uz": "Amaliy matematika va kibernetika"
+    "uz": "Amaliy matematika va kibernetika",
+    "ja": "応用数学・サイバネティクス"
   },
   {
     "code": "accounting",
@@ -618,7 +644,8 @@
     "hu": "Számvitel",
     "el": "Λογιστική",
     "kk": "Бухгалтерлік есеп",
-    "uz": "Buxgalteriya hisobi"
+    "uz": "Buxgalteriya hisobi",
+    "ja": "会計学"
   },
   {
     "code": "management",
@@ -641,7 +668,8 @@
     "hu": "Menedzsment",
     "el": "Μάνατζμεντ",
     "kk": "Менеджмент",
-    "uz": "Menejment"
+    "uz": "Menejment",
+    "ja": "経営学"
   },
   {
     "code": "accounting_audit",
@@ -664,7 +692,8 @@
     "hu": "Számvitel és könyvvizsgálat",
     "el": "Λογιστική και Ελεγκτική",
     "kk": "Бухгалтерлік есеп және аудит",
-    "uz": "Buxgalteriya hisobi va audit"
+    "uz": "Buxgalteriya hisobi va audit",
+    "ja": "会計・監査"
   },
   {
     "code": "mechanics_mathematics",
@@ -687,7 +716,8 @@
     "hu": "Mechanika-matematika",
     "el": "Μηχανική και Μαθηματικά",
     "kk": "Механика-математика",
-    "uz": "Mexanika-matematika"
+    "uz": "Mexanika-matematika",
+    "ja": "力学・数学"
   },
   {
     "code": "oil_gas_field",
@@ -710,7 +740,8 @@
     "hu": "Kőolaj- és földgázkitermelés",
     "el": "Εξόρυξη Πετρελαίου και Φυσικού Αερίου",
     "kk": "Мұнай-газ кәсіпшілігі",
-    "uz": "Neft-gaz konchiligi"
+    "uz": "Neft-gaz konchiligi",
+    "ja": "石油・ガス採掘"
   },
   {
     "code": "general_economics",
@@ -733,7 +764,8 @@
     "hu": "Általános közgazdaságtan",
     "el": "Γενικά Οικονομικά",
     "kk": "Жалпы экономика",
-    "uz": "Umumiy iqtisodiyot"
+    "uz": "Umumiy iqtisodiyot",
+    "ja": "一般経済学"
   },
   {
     "code": "foreign_languages",
@@ -756,7 +788,8 @@
     "hu": "Idegen nyelvek",
     "el": "Ξένες Γλώσσες",
     "kk": "Шет тілдері",
-    "uz": "Xorijiy tillar"
+    "uz": "Xorijiy tillar",
+    "ja": "外国語"
   },
   {
     "code": "finance_accounting",
@@ -779,7 +812,8 @@
     "hu": "Pénzügy és számvitel",
     "el": "Χρηματοοικονομικά και Λογιστική",
     "kk": "Қаржы және бухгалтерлік есеп",
-    "uz": "Moliya va buxgalteriya"
+    "uz": "Moliya va buxgalteriya",
+    "ja": "財務・会計"
   },
   {
     "code": "oil_mechanics",
@@ -802,7 +836,8 @@
     "hu": "Kőolajipari mechanika",
     "el": "Μηχανική Πετρελαίου",
     "kk": "Мұнай механикасы",
-    "uz": "Neft mexanikasi"
+    "uz": "Neft mexanikasi",
+    "ja": "石油機械"
   },
   {
     "code": "jurisprudence",
@@ -825,7 +860,8 @@
     "hu": "Jogtudomány",
     "el": "Νομική Επιστήμη",
     "kk": "Құқықтану",
-    "uz": "Huquqshunoslik"
+    "uz": "Huquqshunoslik",
+    "ja": "法律学"
   },
   {
     "code": "administration",
@@ -848,7 +884,8 @@
     "hu": "Igazgatás",
     "el": "Διοίκηση",
     "kk": "Басқару",
-    "uz": "Boshqaruv"
+    "uz": "Boshqaruv",
+    "ja": "行政"
   },
   {
     "code": "translation",
@@ -871,7 +908,8 @@
     "hu": "Fordítás",
     "el": "Μετάφραση",
     "kk": "Аударма",
-    "uz": "Tarjima"
+    "uz": "Tarjima",
+    "ja": "翻訳"
   },
   {
     "code": "public_administration",
@@ -894,7 +932,8 @@
     "hu": "Közigazgatás",
     "el": "Δημόσια Διοίκηση",
     "kk": "Әкімшілік басқару",
-    "uz": "Ma'muriy boshqaruv"
+    "uz": "Ma'muriy boshqaruv",
+    "ja": "公共行政"
   },
   {
     "code": "journalism",
@@ -917,7 +956,8 @@
     "hu": "Újságírás",
     "el": "Δημοσιογραφία",
     "kk": "Журналистика",
-    "uz": "Jurnalistika"
+    "uz": "Jurnalistika",
+    "ja": "ジャーナリズム"
   },
   {
     "code": "construction",
@@ -940,7 +980,8 @@
     "hu": "Építőipar",
     "el": "Κατασκευές",
     "kk": "Құрылыс",
-    "uz": "Qurilish"
+    "uz": "Qurilish",
+    "ja": "建設"
   },
   {
     "code": "it_management",
@@ -963,7 +1004,8 @@
     "hu": "Információs technológiák és menedzsment",
     "el": "Τεχνολογίες Πληροφορικής και Διοίκηση",
     "kk": "Ақпараттық технологиялар және басқару",
-    "uz": "Axborot texnologiyalari va boshqarish"
+    "uz": "Axborot texnologiyalari va boshqarish",
+    "ja": "情報技術・管理"
   },
   {
     "code": "geology",
@@ -986,7 +1028,8 @@
     "hu": "Geológia",
     "el": "Γεωλογία",
     "kk": "Геология",
-    "uz": "Geologiya"
+    "uz": "Geologiya",
+    "ja": "地質学"
   },
   {
     "code": "primary_education",
@@ -1009,7 +1052,8 @@
     "hu": "Alapfokú oktatás",
     "el": "Πρωτοβάθμια Εκπαίδευση",
     "kk": "Бастауыш білім",
-    "uz": "Boshlangʻich ta'lim"
+    "uz": "Boshlangʻich ta'lim",
+    "ja": "初等教育"
   },
   {
     "code": "intl_economic_relations",
@@ -1032,7 +1076,8 @@
     "hu": "Nemzetközi gazdasági kapcsolatok",
     "el": "Διεθνείς Οικονομικές Σχέσεις",
     "kk": "Халықаралық экономикалық қатынастар",
-    "uz": "Xalqaro iqtisodiy munosabatlar"
+    "uz": "Xalqaro iqtisodiy munosabatlar",
+    "ja": "国際経済関係"
   },
   {
     "code": "construction_economics",
@@ -1055,7 +1100,8 @@
     "hu": "Építőipari gazdaságtan",
     "el": "Οικονομικά των Κατασκευών",
     "kk": "Құрылыс экономикасы",
-    "uz": "Qurilish iqtisodiyoti"
+    "uz": "Qurilish iqtisodiyoti",
+    "ja": "建設経済"
   },
   {
     "code": "social_work",
@@ -1078,7 +1124,8 @@
     "hu": "Szociális munka",
     "el": "Κοινωνική Εργασία",
     "kk": "Әлеуметтік жұмыс",
-    "uz": "Ijtimoiy ish"
+    "uz": "Ijtimoiy ish",
+    "ja": "社会福祉"
   },
   {
     "code": "agronomy",
@@ -1101,7 +1148,8 @@
     "hu": "Agronómia",
     "el": "Γεωπονία",
     "kk": "Агрономия",
-    "uz": "Agronomiya"
+    "uz": "Agronomiya",
+    "ja": "農学"
   },
   {
     "code": "primary_teaching",
@@ -1124,7 +1172,8 @@
     "hu": "Tanítóképzés",
     "el": "Διδασκαλία στην Πρωτοβάθμια Εκπαίδευση",
     "kk": "Бастауыш сынып мұғалімдігі",
-    "uz": "Boshlangʻich sinf oʻqituvchiligi"
+    "uz": "Boshlangʻich sinf oʻqituvchiligi",
+    "ja": "初等教育教員養成"
   },
   {
     "code": "oriental_studies",
@@ -1147,7 +1196,8 @@
     "hu": "Orientalisztika",
     "el": "Ανατολικές Σπουδές",
     "kk": "Шығыстану",
-    "uz": "Sharqshunoslik"
+    "uz": "Sharqshunoslik",
+    "ja": "東洋学"
   },
   {
     "code": "preschool_education",
@@ -1170,7 +1220,8 @@
     "hu": "Óvodapedagógia",
     "el": "Προσχολική Εκπαίδευση",
     "kk": "Мектепке дейінгі білім",
-    "uz": "Maktabgacha ta'lim"
+    "uz": "Maktabgacha ta'lim",
+    "ja": "就学前教育"
   },
   {
     "code": "nursing",
@@ -1193,7 +1244,8 @@
     "hu": "Ápolás",
     "el": "Νοσηλευτική",
     "kk": "Мейіргерлік іс",
-    "uz": "Hamshiralik ishi"
+    "uz": "Hamshiralik ishi",
+    "ja": "看護学"
   },
   {
     "code": "design",
@@ -1216,7 +1268,8 @@
     "hu": "Design",
     "el": "Σχεδιασμός",
     "kk": "Дизайн",
-    "uz": "Dizayn"
+    "uz": "Dizayn",
+    "ja": "デザイン"
   },
   {
     "code": "chemical_technology",
@@ -1239,7 +1292,8 @@
     "hu": "Kémiai technológia",
     "el": "Χημική Τεχνολογία",
     "kk": "Химия технологиясы",
-    "uz": "Kimyo texnologiyasi"
+    "uz": "Kimyo texnologiyasi",
+    "ja": "化学技術"
   },
   {
     "code": "banking",
@@ -1262,7 +1316,8 @@
     "hu": "Bankügy",
     "el": "Τραπεζική",
     "kk": "Банк ісі",
-    "uz": "Bank ishi"
+    "uz": "Bank ishi",
+    "ja": "銀行業務"
   },
   {
     "code": "ecology",
@@ -1285,7 +1340,8 @@
     "hu": "Ökológia",
     "el": "Οικολογία",
     "kk": "Экология",
-    "uz": "Ekologiya"
+    "uz": "Ekologiya",
+    "ja": "生態学"
   },
   {
     "code": "finance_affairs",
@@ -1308,7 +1364,8 @@
     "hu": "Pénzügyi ügyek",
     "el": "Χρηματοοικονομικές Υποθέσεις",
     "kk": "Қаржы ісі",
-    "uz": "Moliya ishi"
+    "uz": "Moliya ishi",
+    "ja": "財務業務"
   },
   {
     "code": "pharmacy",
@@ -1331,7 +1388,8 @@
     "hu": "Gyógyszerészet",
     "el": "Φαρμακευτική",
     "kk": "Фармация",
-    "uz": "Farmatsiya"
+    "uz": "Farmatsiya",
+    "ja": "薬学"
   },
   {
     "code": "tourism",
@@ -1354,7 +1412,8 @@
     "hu": "Turizmus",
     "el": "Τουρισμός",
     "kk": "Туризм",
-    "uz": "Turizm"
+    "uz": "Turizm",
+    "ja": "観光"
   },
   {
     "code": "finance_credit",
@@ -1377,7 +1436,8 @@
     "hu": "Pénzügy és hitel",
     "el": "Χρηματοοικονομικά και Πιστωτικά",
     "kk": "Қаржы және несие",
-    "uz": "Moliya va kredit"
+    "uz": "Moliya va kredit",
+    "ja": "財務・信用"
   },
   {
     "code": "english_language",
@@ -1400,7 +1460,8 @@
     "hu": "Angol nyelv",
     "el": "Αγγλική Γλώσσα",
     "kk": "Ағылшын тілі",
-    "uz": "Ingliz tili"
+    "uz": "Ingliz tili",
+    "ja": "英語"
   },
   {
     "code": "intl_relations_regional",
@@ -1423,7 +1484,8 @@
     "hu": "Nemzetközi kapcsolatok és regionális tanulmányok",
     "el": "Διεθνείς Σχέσεις και Περιφερειακές Σπουδές",
     "kk": "Халықаралық қатынастар және аймақтану",
-    "uz": "Xalqaro munosabatlar va mintaqashunoslik"
+    "uz": "Xalqaro munosabatlar va mintaqashunoslik",
+    "ja": "国際関係・地域研究"
   },
   {
     "code": "culturology",
@@ -1446,7 +1508,8 @@
     "hu": "Kultúratudomány",
     "el": "Πολιτισμικές Σπουδές",
     "kk": "Мәдениеттану",
-    "uz": "Madaniyatshunoslik"
+    "uz": "Madaniyatshunoslik",
+    "ja": "文化学"
   },
   {
     "code": "business_organization",
@@ -1469,7 +1532,8 @@
     "hu": "Vállalatszervezés és menedzsment",
     "el": "Οργάνωση και Διοίκηση Επιχειρήσεων",
     "kk": "Бизнесті ұйымдастыру және басқару",
-    "uz": "Biznesni tashkil etish va boshqarish"
+    "uz": "Biznesni tashkil etish va boshqarish",
+    "ja": "事業組織・管理"
   },
   {
     "code": "geological_exploration",
@@ -1492,7 +1556,8 @@
     "hu": "Geológiai kutatás",
     "el": "Γεωλογική Έρευνα",
     "kk": "Геологиялық барлау",
-    "uz": "Geologik qidiruv"
+    "uz": "Geologik qidiruv",
+    "ja": "地質探査"
   },
   {
     "code": "architecture",
@@ -1515,7 +1580,8 @@
     "hu": "Építészet",
     "el": "Αρχιτεκτονική",
     "kk": "Сәулет",
-    "uz": "Arxitektura"
+    "uz": "Arxitektura",
+    "ja": "建築学"
   },
   {
     "code": "merchandising",
@@ -1538,7 +1604,8 @@
     "hu": "Áruismeret",
     "el": "Εμπορευματογνωσία",
     "kk": "Тауартану",
-    "uz": "Tovarshunoslik"
+    "uz": "Tovarshunoslik",
+    "ja": "商品学"
   },
   {
     "code": "world_economy",
@@ -1561,7 +1628,8 @@
     "hu": "Világgazdaság",
     "el": "Παγκόσμια Οικονομία",
     "kk": "Дүниежүзілік экономика",
-    "uz": "Jahon iqtisodiyoti"
+    "uz": "Jahon iqtisodiyoti",
+    "ja": "世界経済"
   },
   {
     "code": "treatment_prophylaxis",
@@ -1584,7 +1652,8 @@
     "hu": "Gyógyítás és megelőzés",
     "el": "Θεραπευτική και Προληπτική Ιατρική",
     "kk": "Емдеу-профилактика ісі",
-    "uz": "Davolash-profilaktika ishi"
+    "uz": "Davolash-profilaktika ishi",
+    "ja": "治療・予防医学"
   },
   {
     "code": "physics_electric_power",
@@ -1607,7 +1676,8 @@
     "hu": "Fizika és elektroenergetika",
     "el": "Φυσική και Ηλεκτρική Ενέργεια",
     "kk": "Физика және электроэнергетика",
-    "uz": "Fizika va elektroenergetika"
+    "uz": "Fizika va elektroenergetika",
+    "ja": "物理学・電力"
   },
   {
     "code": "family_home_education",
@@ -1630,7 +1700,8 @@
     "hu": "Család- és háztartástan",
     "el": "Οικογενειακή και Οικιακή Εκπαίδευση",
     "kk": "Отбасылық және үйде білім беру",
-    "uz": "Oila va uy ta'limi"
+    "uz": "Oila va uy ta'limi",
+    "ja": "家庭科教育"
   },
   {
     "code": "business_economics",
@@ -1653,7 +1724,8 @@
     "hu": "Üzlet és közgazdaságtan",
     "el": "Επιχειρήσεις και Οικονομικά",
     "kk": "Бизнес және экономика",
-    "uz": "Biznes va iqtisodiyot"
+    "uz": "Biznes va iqtisodiyot",
+    "ja": "ビジネス・経済"
   },
   {
     "code": "transport_logistics",
@@ -1676,7 +1748,8 @@
     "hu": "Közlekedés és logisztika",
     "el": "Μεταφορές και Εφοδιαστική",
     "kk": "Көлік және логистика",
-    "uz": "Transport va logistika"
+    "uz": "Transport va logistika",
+    "ja": "運輸・物流"
   },
   {
     "code": "information_technologies",
@@ -1699,7 +1772,8 @@
     "hu": "Informatikai technológiák",
     "el": "Τεχνολογίες Πληροφορικής",
     "kk": "Ақпараттық технологиялар",
-    "uz": "Axborot texnologiyalari"
+    "uz": "Axborot texnologiyalari",
+    "ja": "情報技術"
   },
   {
     "code": "metallurgy",
@@ -1722,7 +1796,8 @@
     "hu": "Kohászat",
     "el": "Μεταλλουργία",
     "kk": "Металлургия",
-    "uz": "Metallurgiya"
+    "uz": "Metallurgiya",
+    "ja": "冶金学"
   },
   {
     "code": "preschool_teaching",
@@ -1745,7 +1820,8 @@
     "hu": "Óvodai nevelés és oktatás",
     "el": "Προσχολική Αγωγή και Εκπαίδευση",
     "kk": "Мектепке дейінгі оқыту және тәрбие",
-    "uz": "Maktabgacha ta'lim va tarbiya"
+    "uz": "Maktabgacha ta'lim va tarbiya",
+    "ja": "就学前教育・保育"
   },
   {
     "code": "ecology_soil_science",
@@ -1768,7 +1844,8 @@
     "hu": "Ökológia és talajtudomány",
     "el": "Οικολογία και Εδαφολογία",
     "kk": "Экология және топырақтану",
-    "uz": "Ekologiya va tuproqshunoslik"
+    "uz": "Ekologiya va tuproqshunoslik",
+    "ja": "生態学・土壌学"
   },
   {
     "code": "psychology",
@@ -1791,7 +1868,8 @@
     "hu": "Pszichológia",
     "el": "Ψυχολογία",
     "kk": "Психология",
-    "uz": "Psixologiya"
+    "uz": "Psixologiya",
+    "ja": "心理学"
   },
   {
     "code": "regional_studies_economics",
@@ -1814,7 +1892,8 @@
     "hu": "Regionális tanulmányok és közgazdaságtan",
     "el": "Περιφερειακές Σπουδές και Οικονομικά",
     "kk": "Аймақтану және экономика",
-    "uz": "Mintaqashunoslik va iqtisodiyot"
+    "uz": "Mintaqashunoslik va iqtisodiyot",
+    "ja": "地域研究・経済"
   },
   {
     "code": "technology_design",
@@ -1837,7 +1916,8 @@
     "hu": "Technológia és design",
     "el": "Τεχνολογία και Σχεδιασμός",
     "kk": "Технология және дизайн",
-    "uz": "Texnologiya va dizayn"
+    "uz": "Texnologiya va dizayn",
+    "ja": "技術・デザイン"
   },
   {
     "code": "medicine",
@@ -1860,7 +1940,8 @@
     "hu": "Orvostudomány",
     "el": "Ιατρική",
     "kk": "Медицина",
-    "uz": "Tibbiyot"
+    "uz": "Tibbiyot",
+    "ja": "医学"
   },
   {
     "code": "coaching",
@@ -1883,7 +1964,8 @@
     "hu": "Sportedzés",
     "el": "Προπονητική",
     "kk": "Жаттықтырушылық іс",
-    "uz": "Murabbiylik"
+    "uz": "Murabbiylik",
+    "ja": "スポーツ指導"
   },
   {
     "code": "tourism_hospitality",
@@ -1906,7 +1988,8 @@
     "hu": "Turizmus és vendéglátás",
     "el": "Τουρισμός και Φιλοξενία",
     "kk": "Туризм және қонақжайлылық",
-    "uz": "Turizm va mehmondoʻstlik"
+    "uz": "Turizm va mehmondoʻstlik",
+    "ja": "観光・ホスピタリティ"
   },
   {
     "code": "history_philology",
@@ -1929,7 +2012,8 @@
     "hu": "Történelem-filológia",
     "el": "Ιστορία και Φιλολογία",
     "kk": "Тарих-филология",
-    "uz": "Tarix-filologiya"
+    "uz": "Tarix-filologiya",
+    "ja": "歴史・文献学"
   },
   {
     "code": "commerce",
@@ -1952,7 +2036,8 @@
     "hu": "Kereskedelem",
     "el": "Εμπόριο",
     "kk": "Коммерция",
-    "uz": "Savdo"
+    "uz": "Savdo",
+    "ja": "商学"
   },
   {
     "code": "foreign_lang_teaching",
@@ -1975,7 +2060,8 @@
     "hu": "Idegennyelv-tanítás",
     "el": "Διδασκαλία Ξένων Γλωσσών",
     "kk": "Шет тілі мұғалімдігі",
-    "uz": "Xorijiy til oʻqituvchiligi"
+    "uz": "Xorijiy til oʻqituvchiligi",
+    "ja": "外国語教育"
   },
   {
     "code": "machine_building",
@@ -1998,7 +2084,8 @@
     "hu": "Gépgyártás",
     "el": "Μηχανοκατασκευή",
     "kk": "Машина жасау",
-    "uz": "Mashinasozlik"
+    "uz": "Mashinasozlik",
+    "ja": "機械製造"
   },
   {
     "code": "pediatrics",
@@ -2021,7 +2108,8 @@
     "hu": "Gyermekgyógyászat",
     "el": "Παιδιατρική",
     "kk": "Педиатрия",
-    "uz": "Pediatriya"
+    "uz": "Pediatriya",
+    "ja": "小児科学"
   },
   {
     "code": "political_management",
@@ -2044,7 +2132,8 @@
     "hu": "Politikai menedzsment",
     "el": "Πολιτική Διοίκηση",
     "kk": "Саяси басқару",
-    "uz": "Siyosiy boshqaruv"
+    "uz": "Siyosiy boshqaruv",
+    "ja": "政治経営"
   },
   {
     "code": "mechanics_it",
@@ -2067,7 +2156,8 @@
     "hu": "Mechanika és informatika",
     "el": "Μηχανική και Τεχνολογίες Πληροφορικής",
     "kk": "Механика және ақпараттық технологиялар",
-    "uz": "Mexanika va axborot texnologiyalari"
+    "uz": "Mexanika va axborot texnologiyalari",
+    "ja": "力学・情報技術"
   },
   {
     "code": "agrarian_engineering",
@@ -2090,7 +2180,8 @@
     "hu": "Agrártudomány és mérnöki tudományok",
     "el": "Αγροτικές Σπουδές και Μηχανική",
     "kk": "Аграрлық-инженерлік",
-    "uz": "Agrar fanlar va muhandislik"
+    "uz": "Agrar fanlar va muhandislik",
+    "ja": "農学・工学"
   },
   {
     "code": "water_engineering",
@@ -2113,7 +2204,8 @@
     "hu": "Vízgazdálkodás és mérnöki kommunikációs rendszerek",
     "el": "Υδραυλική Μηχανική και Δίκτυα Υποδομών",
     "kk": "Су шаруашылығы және инженерлік коммуникация жүйелері",
-    "uz": "Suv xoʻjaligi va muhandislik-kommunikatsiya tizimlari"
+    "uz": "Suv xoʻjaligi va muhandislik-kommunikatsiya tizimlari",
+    "ja": "水管理・工学通信システム"
   },
   {
     "code": "dentistry",
@@ -2136,7 +2228,8 @@
     "hu": "Fogászat",
     "el": "Οδοντιατρική",
     "kk": "Стоматология",
-    "uz": "Stomatologiya"
+    "uz": "Stomatologiya",
+    "ja": "歯学"
   },
   {
     "code": "humanities_social_sciences",
@@ -2159,7 +2252,8 @@
     "hu": "Humán- és társadalomtudományok",
     "el": "Ανθρωπιστικές και Κοινωνικές Επιστήμες",
     "kk": "Гуманитарлық және әлеуметтік ғылымдар",
-    "uz": "Gumanitar va ijtimoiy fanlar"
+    "uz": "Gumanitar va ijtimoiy fanlar",
+    "ja": "人文・社会科学"
   },
   {
     "code": "painting_art",
@@ -2182,7 +2276,8 @@
     "hu": "Festészet",
     "el": "Ζωγραφική",
     "kk": "Кескіндеме",
-    "uz": "Rassomchilik"
+    "uz": "Rassomchilik",
+    "ja": "絵画"
   },
   {
     "code": "energy_automation",
@@ -2205,7 +2300,8 @@
     "hu": "Energetika és automatizálás",
     "el": "Ενέργεια και Αυτοματισμός",
     "kk": "Энергетика және автоматика",
-    "uz": "Energetika va avtomatika"
+    "uz": "Energetika va avtomatika",
+    "ja": "エネルギー・自動化"
   },
   {
     "code": "humanities",
@@ -2228,7 +2324,8 @@
     "hu": "Bölcsészettudományok",
     "el": "Ανθρωπιστικές Επιστήμες",
     "kk": "Гуманитарлық ғылымдар",
-    "uz": "Gumanitar fanlar"
+    "uz": "Gumanitar fanlar",
+    "ja": "人文学"
   },
   {
     "code": "digital_economy",
@@ -2251,7 +2348,8 @@
     "hu": "Digitális gazdaság",
     "el": "Ψηφιακή Οικονομία",
     "kk": "Цифрлық экономика",
-    "uz": "Raqamli iqtisodiyot"
+    "uz": "Raqamli iqtisodiyot",
+    "ja": "デジタル経済"
   },
   {
     "code": "marketing",
@@ -2274,7 +2372,8 @@
     "hu": "Marketing",
     "el": "Μάρκετινγκ",
     "kk": "Маркетинг",
-    "uz": "Marketing"
+    "uz": "Marketing",
+    "ja": "マーケティング"
   },
   {
     "code": "social_pedagogy",
@@ -2297,7 +2396,8 @@
     "hu": "Szociálpedagógia",
     "el": "Κοινωνική Παιδαγωγική",
     "kk": "Әлеуметтік-педагогикалық",
-    "uz": "Ijtimoiy pedagogika"
+    "uz": "Ijtimoiy pedagogika",
+    "ja": "社会教育学"
   },
   {
     "code": "special_technology",
@@ -2320,7 +2420,8 @@
     "hu": "Speciális gépek és technológia",
     "el": "Ειδικά Μηχανήματα και Τεχνολογία",
     "kk": "Арнайы техника және технология",
-    "uz": "Maxsus texnika va texnologiya"
+    "uz": "Maxsus texnika va texnologiya",
+    "ja": "特殊機械・技術"
   },
   {
     "code": "art_studies",
@@ -2343,7 +2444,8 @@
     "hu": "Művészettudomány",
     "el": "Σπουδές Τέχνης",
     "kk": "Өнертану",
-    "uz": "Sanʼatshunoslik"
+    "uz": "Sanʼatshunoslik",
+    "ja": "芸術学"
   },
   {
     "code": "info_telecom_technologies",
@@ -2366,7 +2468,8 @@
     "hu": "Info- és távközlési technológiák",
     "el": "Τεχνολογίες Πληροφορικής και Τηλεπικοινωνιών",
     "kk": "Ақпараттық және телекоммуникациялық технологиялар",
-    "uz": "Axborot va telekommunikatsiya texnologiyalari"
+    "uz": "Axborot va telekommunikatsiya texnologiyalari",
+    "ja": "情報通信技術"
   },
   {
     "code": "agribusiness_management",
@@ -2389,7 +2492,8 @@
     "hu": "Agrárbiznis és menedzsment",
     "el": "Αγροεπιχειρηματικότητα και Διοίκηση",
     "kk": "Агробизнес және басқару",
-    "uz": "Agrobiznes va boshqarish"
+    "uz": "Agrobiznes va boshqarish",
+    "ja": "アグリビジネス・経営"
   },
   {
     "code": "sabah_groups",
@@ -2412,7 +2516,8 @@
     "hu": "SABAH csoportok",
     "el": "Ομάδες SABAH",
     "kk": "SABAH топтары",
-    "uz": "SABAH guruhlari"
+    "uz": "SABAH guruhlari",
+    "ja": "SABAHグループ"
   },
   {
     "code": "physical_education_sport",
@@ -2435,7 +2540,8 @@
     "hu": "Testnevelés és sport",
     "el": "Φυσική Αγωγή και Αθλητισμός",
     "kk": "Дене тәрбиесі және спорт",
-    "uz": "Jismoniy tarbiya va sport"
+    "uz": "Jismoniy tarbiya va sport",
+    "ja": "体育・スポーツ"
   },
   {
     "code": "physics_mathematics",
@@ -2458,7 +2564,8 @@
     "hu": "Fizika-matematika",
     "el": "Φυσική και Μαθηματικά",
     "kk": "Физика-математика",
-    "uz": "Fizika-matematika"
+    "uz": "Fizika-matematika",
+    "ja": "物理・数学"
   },
   {
     "code": "engineering_economics",
@@ -2481,7 +2588,8 @@
     "hu": "Mérnöki gazdaságtan és menedzsment",
     "el": "Μηχανικοοικονομικά και Διοίκηση",
     "kk": "Инженерлік экономика және басқару",
-    "uz": "Muhandislik iqtisodiyoti va boshqarish"
+    "uz": "Muhandislik iqtisodiyoti va boshqarish",
+    "ja": "工学経済・管理"
   },
   {
     "code": "school_psychological_service",
@@ -2504,7 +2612,8 @@
     "hu": "Iskolai szociális és pszichológiai szolgáltatások",
     "el": "Κοινωνικοψυχολογική Υπηρεσία στην Εκπαίδευση",
     "kk": "Білім берудегі әлеуметтік-психологиялық қызмет",
-    "uz": "Ta'limda ijtimoiy-psixologik xizmat"
+    "uz": "Ta'limda ijtimoiy-psixologik xizmat",
+    "ja": "教育における社会心理サービス"
   },
   {
     "code": "computer_engineering",
@@ -2527,7 +2636,8 @@
     "hu": "Számítógép-mérnöki tudományok",
     "el": "Μηχανική Υπολογιστών",
     "kk": "Компьютерлік инженерия",
-    "uz": "Kompyuter muhandisligi"
+    "uz": "Kompyuter muhandisligi",
+    "ja": "コンピューター工学"
   },
   {
     "code": "agrotechnology",
@@ -2550,7 +2660,8 @@
     "hu": "Agrotechnológia",
     "el": "Αγροτεχνολογία",
     "kk": "Агротехнология",
-    "uz": "Agrotexnologiya"
+    "uz": "Agrotexnologiya",
+    "ja": "農業技術"
   },
   {
     "code": "food_engineering",
@@ -2573,7 +2684,8 @@
     "hu": "Élelmiszeripari mérnöki tudományok",
     "el": "Μηχανική Τροφίμων",
     "kk": "Тамақ инженериясы",
-    "uz": "Oziq-ovqat muhandisligi"
+    "uz": "Oziq-ovqat muhandisligi",
+    "ja": "食品工学"
   },
   {
     "code": "russian_school_economics",
@@ -2596,7 +2708,8 @@
     "hu": "Orosz Közgazdasági Iskola",
     "el": "Ρωσική Σχολή Οικονομικών",
     "kk": "Ресей Экономика Мектебі",
-    "uz": "Rus iqtisodiyot maktabi"
+    "uz": "Rus iqtisodiyot maktabi",
+    "ja": "ロシア経済学院"
   },
   {
     "code": "radio_engineering_communication",
@@ -2619,7 +2732,8 @@
     "hu": "Rádiótechnika és hírközlés",
     "el": "Ραδιοτεχνική και Επικοινωνίες",
     "kk": "Радиотехника және байланыс",
-    "uz": "Radiotexnika va aloqa"
+    "uz": "Radiotexnika va aloqa",
+    "ja": "無線工学・通信"
   },
   {
     "code": "natural_history",
@@ -2642,7 +2756,8 @@
     "hu": "Természetismeret",
     "el": "Φυσιογνωσία",
     "kk": "Жаратылыстану",
-    "uz": "Tabiatshunoslik"
+    "uz": "Tabiatshunoslik",
+    "ja": "自然科学"
   },
   {
     "code": "instrumental_performance",
@@ -2665,7 +2780,8 @@
     "hu": "Hangszeres előadás",
     "el": "Ενόργανη Εκτέλεση",
     "kk": "Аспаптық орындаушылық",
-    "uz": "Cholgʻu ijrochiligi"
+    "uz": "Cholgʻu ijrochiligi",
+    "ja": "器楽演奏"
   },
   {
     "code": "english_teaching",
@@ -2688,7 +2804,8 @@
     "hu": "Angol nyelv tanítása",
     "el": "Διδασκαλία Αγγλικής Γλώσσας",
     "kk": "Ағылшын тілі мұғалімдігі",
-    "uz": "Ingliz tili oʻqituvchiligi"
+    "uz": "Ingliz tili oʻqituvchiligi",
+    "ja": "英語教育"
   },
   {
     "code": "tourism_hotel",
@@ -2711,7 +2828,8 @@
     "hu": "Turizmus és szállodaipar",
     "el": "Τουρισμός και Ξενοδοχειακή Διοίκηση",
     "kk": "Туризм және қонақүй ісі",
-    "uz": "Turizm va mehmonxona ishi"
+    "uz": "Turizm va mehmonxona ishi",
+    "ja": "観光・ホテル経営"
   },
   {
     "code": "electrical_engineering_energy",
@@ -2734,7 +2852,8 @@
     "hu": "Elektrotechnika és energetika",
     "el": "Ηλεκτρολογία και Ενέργεια",
     "kk": "Электротехника және энергетика",
-    "uz": "Elektrotexnika va energetika"
+    "uz": "Elektrotexnika va energetika",
+    "ja": "電気工学・電力"
   },
   {
     "code": "natural_science_agriculture",
@@ -2757,7 +2876,8 @@
     "hu": "Természettudományok és mezőgazdaság",
     "el": "Φυσικές Επιστήμες και Γεωργία",
     "kk": "Жаратылыстану және ауыл шаруашылығы",
-    "uz": "Tabiatshunoslik va qishloq xoʻjaligi"
+    "uz": "Tabiatshunoslik va qishloq xoʻjaligi",
+    "ja": "自然科学・農業"
   },
   {
     "code": "architecture_engineering",
@@ -2780,7 +2900,8 @@
     "hu": "Építészet és mérnöki tudományok",
     "el": "Αρχιτεκτονική και Μηχανική",
     "kk": "Сәулет және инженерия",
-    "uz": "Arxitektura va muhandislik"
+    "uz": "Arxitektura va muhandislik",
+    "ja": "建築・工学"
   },
   {
     "code": "industrial_organization",
@@ -2803,7 +2924,8 @@
     "hu": "Ipari szervezés és irányítás",
     "el": "Οργάνωση και Διοίκηση Βιομηχανίας",
     "kk": "Өнеркәсіпті ұйымдастыру және басқару",
-    "uz": "Sanoatni tashkil etish va boshqarish"
+    "uz": "Sanoatni tashkil etish va boshqarish",
+    "ja": "産業組織・管理"
   },
   {
     "code": "traffic_organization",
@@ -2826,7 +2948,8 @@
     "hu": "Közlekedésszervezés",
     "el": "Οργάνωση Οδικής Κυκλοφορίας",
     "kk": "Жол қозғалысын ұйымдастыру",
-    "uz": "Yoʻl harakatini tashkil etish"
+    "uz": "Yoʻl harakatini tashkil etish",
+    "ja": "交通管理"
   },
   {
     "code": "medical_prophylaxis",
@@ -2849,7 +2972,8 @@
     "hu": "Orvosi prevenció",
     "el": "Ιατρική Πρόληψη",
     "kk": "Медициналық профилактика",
-    "uz": "Tibbiy profilaktika"
+    "uz": "Tibbiy profilaktika",
+    "ja": "予防医学"
   },
   {
     "code": "state_municipal_administration",
@@ -2872,7 +2996,8 @@
     "hu": "Állami és önkormányzati igazgatás",
     "el": "Κρατική και Δημοτική Διοίκηση",
     "kk": "Мемлекеттік және муниципалдық басқару",
-    "uz": "Davlat va munitsipal boshqaruv"
+    "uz": "Davlat va munitsipal boshqaruv",
+    "ja": "国家・地方行政"
   },
   {
     "code": "machine_building_robotics",
@@ -2895,7 +3020,8 @@
     "hu": "Gépgyártás és robotika",
     "el": "Μηχανοκατασκευή και Ρομποτική",
     "kk": "Машина жасау және робототехника",
-    "uz": "Mashinasozlik va robototexnika"
+    "uz": "Mashinasozlik va robototexnika",
+    "ja": "機械製造・ロボット工学"
   },
   {
     "code": "midwifery",
@@ -2918,7 +3044,8 @@
     "hu": "Szülésznőképzés",
     "el": "Μαιευτική",
     "kk": "Акушерлік іс",
-    "uz": "Doyalik ishi"
+    "uz": "Doyalik ishi",
+    "ja": "助産学"
   },
   {
     "code": "air_transport",
@@ -2941,7 +3068,8 @@
     "hu": "Légi közlekedés",
     "el": "Εναέριες Μεταφορές",
     "kk": "Әуе көлігі",
-    "uz": "Havo transporti"
+    "uz": "Havo transporti",
+    "ja": "航空輸送"
   },
   {
     "code": "aerospace",
@@ -2964,7 +3092,8 @@
     "hu": "Repülés- és űrtechnika",
     "el": "Αεροδιαστημική",
     "kk": "Аэроғарыш",
-    "uz": "Aerokosmik"
+    "uz": "Aerokosmik",
+    "ja": "航空宇宙"
   },
   {
     "code": "computer_science",
@@ -2987,7 +3116,8 @@
     "hu": "Számítástudomány",
     "el": "Επιστήμη Υπολογιστών",
     "kk": "Компьютерлік ғылымдар",
-    "uz": "Kompyuter fanlari"
+    "uz": "Kompyuter fanlari",
+    "ja": "計算機科学"
   },
   {
     "code": "informatics",
@@ -3010,7 +3140,8 @@
     "hu": "Informatika",
     "el": "Πληροφορική",
     "kk": "Информатика",
-    "uz": "Informatika"
+    "uz": "Informatika",
+    "ja": "情報学"
   },
   {
     "code": "soil_science_agrochemistry",
@@ -3033,7 +3164,8 @@
     "hu": "Talajtudomány és agrokémia",
     "el": "Εδαφολογία και Αγροχημεία",
     "kk": "Топырақтану және агрохимия",
-    "uz": "Tuproqshunoslik va agrokimyo"
+    "uz": "Tuproqshunoslik va agrokimyo",
+    "ja": "土壌学・農芸化学"
   },
   {
     "code": "vocational_training",
@@ -3056,7 +3188,8 @@
     "hu": "Szakképzés",
     "el": "Επαγγελματική Κατάρτιση",
     "kk": "Кәсіптік оқыту",
-    "uz": "Kasb-hunar ta'limi"
+    "uz": "Kasb-hunar ta'limi",
+    "ja": "職業訓練"
   },
   {
     "code": "civil_engineering",
@@ -3079,7 +3212,8 @@
     "hu": "Építőmérnöki tudományok",
     "el": "Πολιτική Μηχανική",
     "kk": "Құрылыс инженериясы",
-    "uz": "Fuqarolik muhandisligi"
+    "uz": "Fuqarolik muhandisligi",
+    "ja": "土木工学"
   },
   {
     "code": "economics_law",
@@ -3102,7 +3236,8 @@
     "hu": "Közgazdaságtan és jog",
     "el": "Οικονομικά και Δίκαιο",
     "kk": "Экономика және құқық",
-    "uz": "Iqtisodiyot va huquq"
+    "uz": "Iqtisodiyot va huquq",
+    "ja": "経済・法"
   },
   {
     "code": "customs",
@@ -3125,7 +3260,8 @@
     "hu": "Vámügy",
     "el": "Τελωνειακές Υποθέσεις",
     "kk": "Кеден ісі",
-    "uz": "Bojxona ishi"
+    "uz": "Bojxona ishi",
+    "ja": "税関"
   },
   {
     "code": "intl_law",
@@ -3148,7 +3284,8 @@
     "hu": "Nemzetközi jog",
     "el": "Διεθνές Δίκαιο",
     "kk": "Халықаралық құқық",
-    "uz": "Xalqaro huquq"
+    "uz": "Xalqaro huquq",
+    "ja": "国際法"
   },
   {
     "code": "library_information",
@@ -3171,7 +3308,8 @@
     "hu": "Könyvtár- és információtudomány",
     "el": "Βιβλιοθηκονομία και Πληροφόρηση",
     "kk": "Кітапханатану және ақпарат",
-    "uz": "Kutubxonashunoslik va axborot"
+    "uz": "Kutubxonashunoslik va axborot",
+    "ja": "図書館情報学"
   },
   {
     "code": "social_management",
@@ -3194,7 +3332,8 @@
     "hu": "Szociális menedzsment",
     "el": "Κοινωνική Διοίκηση",
     "kk": "Әлеуметтік менеджмент",
-    "uz": "Ijtimoiy menejment"
+    "uz": "Ijtimoiy menejment",
+    "ja": "社会経営"
   },
   {
     "code": "math_informatics_teaching",
@@ -3217,7 +3356,8 @@
     "hu": "Matematika és informatika tanítása",
     "el": "Διδασκαλία Μαθηματικών και Πληροφορικής",
     "kk": "Математика және информатика мұғалімдігі",
-    "uz": "Matematika va informatika oʻqituvchiligi"
+    "uz": "Matematika va informatika oʻqituvchiligi",
+    "ja": "数学・情報学教育"
   },
   {
     "code": "intl_relations_law",
@@ -3240,7 +3380,8 @@
     "hu": "Nemzetközi kapcsolatok és jog",
     "el": "Διεθνείς Σχέσεις και Δίκαιο",
     "kk": "Халықаралық қатынастар және құқық",
-    "uz": "Xalqaro munosabatlar va huquq"
+    "uz": "Xalqaro munosabatlar va huquq",
+    "ja": "国際関係・法"
   },
   {
     "code": "military_medicine",
@@ -3263,7 +3404,8 @@
     "hu": "Katonai orvostudomány",
     "el": "Στρατιωτική Ιατρική",
     "kk": "Әскери медицина",
-    "uz": "Harbiy tibbiyot"
+    "uz": "Harbiy tibbiyot",
+    "ja": "軍事医学"
   },
   {
     "code": "art",
@@ -3286,7 +3428,8 @@
     "hu": "Művészet",
     "el": "Τέχνη",
     "kk": "Өнер",
-    "uz": "Sanʼat"
+    "uz": "Sanʼat",
+    "ja": "芸術"
   },
   {
     "code": "tourism_organization",
@@ -3309,7 +3452,8 @@
     "hu": "Turisztikai tevékenység szervezése",
     "el": "Οργάνωση Τουρισμού",
     "kk": "Туризм ісін ұйымдастыру",
-    "uz": "Turizm ishini tashkil etish"
+    "uz": "Turizm ishini tashkil etish",
+    "ja": "観光事業組織"
   },
   {
     "code": "chemical_engineering",
@@ -3332,7 +3476,8 @@
     "hu": "Kémiai mérnöki tudományok",
     "el": "Χημική Μηχανική",
     "kk": "Химия инженериясы",
-    "uz": "Kimyo muhandisligi"
+    "uz": "Kimyo muhandisligi",
+    "ja": "化学工学"
   },
   {
     "code": "finance_economics",
@@ -3355,7 +3500,8 @@
     "hu": "Pénzügy-gazdaságtan",
     "el": "Χρηματοοικονομικά και Οικονομικές Επιστήμες",
     "kk": "Қаржы-экономика",
-    "uz": "Moliya-iqtisod"
+    "uz": "Moliya-iqtisod",
+    "ja": "財務・経済"
   },
   {
     "code": "piano",
@@ -3378,7 +3524,8 @@
     "hu": "Zongora",
     "el": "Πιάνο",
     "kk": "Фортепиано",
-    "uz": "Fortepiano"
+    "uz": "Fortepiano",
+    "ja": "ピアノ"
   },
   {
     "code": "regional_studies",
@@ -3401,7 +3548,8 @@
     "hu": "Regionális tanulmányok",
     "el": "Περιφερειακές Σπουδές",
     "kk": "Аймақтану",
-    "uz": "Mintaqashunoslik"
+    "uz": "Mintaqashunoslik",
+    "ja": "地域研究"
   },
   {
     "code": "construction_technology",
@@ -3424,7 +3572,8 @@
     "hu": "Építéstechnológia",
     "el": "Τεχνολογία Κατασκευών",
     "kk": "Құрылыс технологиясы",
-    "uz": "Qurilish texnologiyasi"
+    "uz": "Qurilish texnologiyasi",
+    "ja": "建設技術"
   },
   {
     "code": "veterinary",
@@ -3447,7 +3596,8 @@
     "hu": "Állatorvos-tudomány",
     "el": "Κτηνιατρική",
     "kk": "Ветеринария",
-    "uz": "Baytarlik"
+    "uz": "Baytarlik",
+    "ja": "獣医学"
   },
   {
     "code": "physics_technical_sciences",
@@ -3470,7 +3620,8 @@
     "hu": "Fizika és műszaki tudományok",
     "el": "Φυσική και Τεχνικές Επιστήμες",
     "kk": "Физика және техникалық ғылымдар",
-    "uz": "Fizika va texnika fanlari"
+    "uz": "Fizika va texnika fanlari",
+    "ja": "物理・技術科学"
   },
   {
     "code": "natural_sciences_engineering",
@@ -3493,7 +3644,8 @@
     "hu": "Természettudományok és mérnöki tudományok",
     "el": "Φυσικές Επιστήμες και Μηχανική",
     "kk": "Жаратылыстану ғылымдары және инженерия",
-    "uz": "Tabiiy fanlar va muhandislik"
+    "uz": "Tabiiy fanlar va muhandislik",
+    "ja": "自然科学・工学"
   },
   {
     "code": "tax_taxation",
@@ -3516,7 +3668,8 @@
     "hu": "Adók és adózás",
     "el": "Φόροι και Φορολογία",
     "kk": "Салық және салық салу",
-    "uz": "Soliq va soliqqa tortish"
+    "uz": "Soliq va soliqqa tortish",
+    "ja": "税・課税"
   },
   {
     "code": "oil_gas_engineering",
@@ -3539,7 +3692,8 @@
     "hu": "Kőolaj- és földgázmérnöki tudományok",
     "el": "Μηχανική Πετρελαίου και Φυσικού Αερίου",
     "kk": "Мұнай-газ инженериясы",
-    "uz": "Neft-gaz muhandisligi"
+    "uz": "Neft-gaz muhandisligi",
+    "ja": "石油・ガス工学"
   },
   {
     "code": "expertise_technology",
@@ -3562,7 +3716,8 @@
     "hu": "Szakértői vizsgálat és technológia",
     "el": "Πραγματογνωμοσύνη και Τεχνολογία",
     "kk": "Сараптама және технология",
-    "uz": "Ekspertiza va texnologiya"
+    "uz": "Ekspertiza va texnologiya",
+    "ja": "鑑定・技術"
   },
   {
     "code": "automation_computer_engineering",
@@ -3585,7 +3740,8 @@
     "hu": "Automatizálás és számítástechnika",
     "el": "Αυτοματισμός και Μηχανική Υπολογιστών",
     "kk": "Автоматика және есептеу техникасы",
-    "uz": "Avtomatika va kompyuter texnikasi"
+    "uz": "Avtomatika va kompyuter texnikasi",
+    "ja": "自動化・コンピューター工学"
   },
   {
     "code": "business",
@@ -3608,7 +3764,8 @@
     "hu": "Üzleti tudományok",
     "el": "Επιχειρήσεις",
     "kk": "Бизнес",
-    "uz": "Biznes"
+    "uz": "Biznes",
+    "ja": "ビジネス"
   },
   {
     "code": "informatics_management",
@@ -3631,7 +3788,8 @@
     "hu": "Informatika és menedzsment",
     "el": "Πληροφορική και Διοίκηση",
     "kk": "Информатика және басқару",
-    "uz": "Informatika va boshqarish"
+    "uz": "Informatika va boshqarish",
+    "ja": "情報学・管理"
   },
   {
     "code": "primary_education_methodology",
@@ -3654,7 +3812,8 @@
     "hu": "Alapfokú oktatás pedagógiája és metodikája",
     "el": "Παιδαγωγική και Μεθοδολογία Πρωτοβάθμιας Εκπαίδευσης",
     "kk": "Бастауыш білім берудің педагогикасы және әдістемесі",
-    "uz": "Boshlangʻich ta'lim pedagogikasi va metodikasi"
+    "uz": "Boshlangʻich ta'lim pedagogikasi va metodikasi",
+    "ja": "初等教育の教育学・方法論"
   },
   {
     "code": "humanities_education_social",
@@ -3677,7 +3836,8 @@
     "hu": "Bölcsészet-, oktatás- és társadalomtudományok",
     "el": "Ανθρωπιστικές, Εκπαιδευτικές και Κοινωνικές Επιστήμες",
     "kk": "Гуманитарлық, білім беру және әлеуметтік ғылымдар",
-    "uz": "Gumanitar, ta'lim va ijtimoiy fanlar"
+    "uz": "Gumanitar, ta'lim va ijtimoiy fanlar",
+    "ja": "人文・教育・社会科学"
   },
   {
     "code": "applied_mathematics",
@@ -3700,7 +3860,8 @@
     "hu": "Alkalmazott matematika",
     "el": "Εφαρμοσμένα Μαθηματικά",
     "kk": "Қолданбалы математика",
-    "uz": "Amaliy matematika"
+    "uz": "Amaliy matematika",
+    "ja": "応用数学"
   },
   {
     "code": "social_sciences",
@@ -3723,7 +3884,8 @@
     "hu": "Társadalomtudományok",
     "el": "Κοινωνικές Επιστήμες",
     "kk": "Әлеуметтік ғылымдар",
-    "uz": "Ijtimoiy fanlar"
+    "uz": "Ijtimoiy fanlar",
+    "ja": "社会科学"
   },
   {
     "code": "philology_journalism",
@@ -3746,7 +3908,8 @@
     "hu": "Filológia és újságírás",
     "el": "Φιλολογία και Δημοσιογραφία",
     "kk": "Филология және журналистика",
-    "uz": "Filologiya va jurnalistika"
+    "uz": "Filologiya va jurnalistika",
+    "ja": "文献学・ジャーナリズム"
   },
   {
     "code": "pedagogy_psychology",
@@ -3769,7 +3932,8 @@
     "hu": "Pedagógia és pszichológia",
     "el": "Παιδαγωγική και Ψυχολογία",
     "kk": "Педагогика және психология",
-    "uz": "Pedagogika va psixologiya"
+    "uz": "Pedagogika va psixologiya",
+    "ja": "教育学・心理学"
   },
   {
     "code": "intl_relations_management",
@@ -3792,7 +3956,8 @@
     "hu": "Nemzetközi kapcsolatok és menedzsment",
     "el": "Διεθνείς Σχέσεις και Διοίκηση",
     "kk": "Халықаралық қатынастар және басқару",
-    "uz": "Xalqaro munosabatlar va boshqarish"
+    "uz": "Xalqaro munosabatlar va boshqarish",
+    "ja": "国際関係・経営"
   },
   {
     "code": "engineering_business_management",
@@ -3815,7 +3980,8 @@
     "hu": "Mérnöki üzlet és menedzsment",
     "el": "Επιχειρηματικότητα Μηχανικών και Διοίκηση",
     "kk": "Инженерлік бизнес және менеджмент",
-    "uz": "Muhandislik biznesi va menejmenti"
+    "uz": "Muhandislik biznesi va menejmenti",
+    "ja": "工学ビジネス・経営"
   },
   {
     "code": "political_social_sciences",
@@ -3838,7 +4004,8 @@
     "hu": "Politikai és társadalomtudományok",
     "el": "Πολιτικές και Κοινωνικές Επιστήμες",
     "kk": "Саяси және қоғамдық ғылымдар",
-    "uz": "Siyosiy va ijtimoiy fanlar"
+    "uz": "Siyosiy va ijtimoiy fanlar",
+    "ja": "政治・社会科学"
   },
   {
     "code": "philology_primary_education",
@@ -3861,7 +4028,8 @@
     "hu": "Filológia és alapfokú oktatás",
     "el": "Φιλολογία και Πρωτοβάθμια Εκπαίδευση",
     "kk": "Филология және бастауыш білім",
-    "uz": "Filologiya va boshlangʻich ta'lim"
+    "uz": "Filologiya va boshlangʻich ta'lim",
+    "ja": "文献学・初等教育"
   },
   {
     "code": "turkic_world_economics",
@@ -3884,7 +4052,8 @@
     "hu": "Türk Világ Gazdaságtudományi Kara",
     "el": "Σχολή Οικονομικών του Τουρκικού Κόσμου",
     "kk": "Түркі Дүниесі Экономика Факультеті",
-    "uz": "Turkiy dunyo iqtisodiyot fakulteti"
+    "uz": "Turkiy dunyo iqtisodiyot fakulteti",
+    "ja": "テュルク世界経済学部"
   },
   {
     "code": "architecture_construction",
@@ -3907,7 +4076,8 @@
     "hu": "Építészet és építőipar",
     "el": "Αρχιτεκτονική και Κατασκευές",
     "kk": "Сәулет және құрылыс",
-    "uz": "Arxitektura va qurilish"
+    "uz": "Arxitektura va qurilish",
+    "ja": "建築・建設"
   },
   {
     "code": "theatre_arts",
@@ -3930,7 +4100,8 @@
     "hu": "Színházi művészet",
     "el": "Θεατρικές Τέχνες",
     "kk": "Театр өнері",
-    "uz": "Teatr sanʼati"
+    "uz": "Teatr sanʼati",
+    "ja": "演劇芸術"
   },
   {
     "code": "zooengineering",
@@ -3953,7 +4124,8 @@
     "hu": "Zoomérnöki tudományok",
     "el": "Ζωοτεχνία",
     "kk": "Зооинженерия",
-    "uz": "Zoomuhandislik"
+    "uz": "Zoomuhandislik",
+    "ja": "畜産工学"
   },
   {
     "code": "metallurgy_materials",
@@ -3976,7 +4148,8 @@
     "hu": "Kohászat és anyagtudomány",
     "el": "Μεταλλουργία και Επιστήμη Υλικών",
     "kk": "Металлургия және материалтану",
-    "uz": "Metallurgiya va materialshunoslik"
+    "uz": "Metallurgiya va materialshunoslik",
+    "ja": "冶金・材料科学"
   },
   {
     "code": "automation",
@@ -3999,7 +4172,8 @@
     "hu": "Automatizálás",
     "el": "Αυτοματισμός",
     "kk": "Автоматика",
-    "uz": "Avtomatika"
+    "uz": "Avtomatika",
+    "ja": "自動化"
   },
   {
     "code": "humanities_languages",
@@ -4022,7 +4196,8 @@
     "hu": "Bölcsészettudományok és nyelvek",
     "el": "Ανθρωπιστικές Επιστήμες και Γλώσσες",
     "kk": "Гуманитарлық ғылымдар және тілдер",
-    "uz": "Gumanitar fanlar va tillar"
+    "uz": "Gumanitar fanlar va tillar",
+    "ja": "人文学・言語"
   },
   {
     "code": "music",
@@ -4045,7 +4220,8 @@
     "hu": "Zene",
     "el": "Μουσική",
     "kk": "Музыка",
-    "uz": "Musiqa"
+    "uz": "Musiqa",
+    "ja": "音楽"
   },
   {
     "code": "postal_communication",
@@ -4068,7 +4244,8 @@
     "hu": "Postai hírközlés",
     "el": "Ταχυδρομικές Επικοινωνίες",
     "kk": "Пошта байланысы",
-    "uz": "Pochta aloqasi"
+    "uz": "Pochta aloqasi",
+    "ja": "郵便通信"
   },
   {
     "code": "technology",
@@ -4091,7 +4268,8 @@
     "hu": "Technológia",
     "el": "Τεχνολογία",
     "kk": "Технология",
-    "uz": "Texnologiya"
+    "uz": "Texnologiya",
+    "ja": "技術"
   },
   {
     "code": "transport_technologies",
@@ -4114,7 +4292,8 @@
     "hu": "Közlekedési technológiák",
     "el": "Τεχνολογίες Μεταφορών",
     "kk": "Көлік технологиялары",
-    "uz": "Transport texnologiyalari"
+    "uz": "Transport texnologiyalari",
+    "ja": "輸送技術"
   },
   {
     "code": "az_language_literature_teaching",
@@ -4137,7 +4316,8 @@
     "hu": "Azerbajdzsán nyelv és irodalom tanítása",
     "el": "Διδασκαλία Αζερικής Γλώσσας και Λογοτεχνίας",
     "kk": "Әзербайжан тілі және әдебиеті мұғалімдігі",
-    "uz": "Ozarbayjon tili va adabiyoti oʻqituvchiligi"
+    "uz": "Ozarbayjon tili va adabiyoti oʻqituvchiligi",
+    "ja": "アゼルバイジャン語・文学教育"
   },
   {
     "code": "economic_legal_regulation",
@@ -4160,7 +4340,8 @@
     "hu": "A gazdaság jogi szabályozása",
     "el": "Νομική Ρύθμιση της Οικονομίας",
     "kk": "Экономиканың құқықтық реттелуі",
-    "uz": "Iqtisodiyotning huquqiy tartibga solinishi"
+    "uz": "Iqtisodiyotning huquqiy tartibga solinishi",
+    "ja": "経済の法的規制"
   },
   {
     "code": "ecological_engineering",
@@ -4183,7 +4364,8 @@
     "hu": "Környezetvédelmi mérnöki tudományok",
     "el": "Οικολογική Μηχανική",
     "kk": "Экология инженериясы",
-    "uz": "Ekologiya muhandisligi"
+    "uz": "Ekologiya muhandisligi",
+    "ja": "環境工学"
   },
   {
     "code": "medical_biology",
@@ -4206,7 +4388,8 @@
     "hu": "Orvosi biológia",
     "el": "Ιατρική Βιολογία",
     "kk": "Медициналық биология",
-    "uz": "Tibbiy biologiya"
+    "uz": "Tibbiy biologiya",
+    "ja": "医用生物学"
   },
   {
     "code": "technological_machines",
@@ -4229,7 +4412,8 @@
     "hu": "Technológiai gépek",
     "el": "Τεχνολογικά Μηχανήματα",
     "kk": "Технологиялық машиналар",
-    "uz": "Texnologik mashinalar"
+    "uz": "Texnologik mashinalar",
+    "ja": "技術機械"
   },
   {
     "code": "light_industry_logistics",
@@ -4252,7 +4436,8 @@
     "hu": "Könnyűipari mérnöki tudományok és logisztika",
     "el": "Μηχανική Ελαφράς Βιομηχανίας και Εφοδιαστική",
     "kk": "Жеңіл өнеркәсіп инженериясы және логистика",
-    "uz": "Yengil sanoat muhandisligi va logistika"
+    "uz": "Yengil sanoat muhandisligi va logistika",
+    "ja": "軽工業工学・物流"
   },
   {
     "code": "intl_relations_foreign_languages",
@@ -4275,7 +4460,8 @@
     "hu": "Nemzetközi kapcsolatok és idegen nyelvek",
     "el": "Διεθνείς Σχέσεις και Ξένες Γλώσσες",
     "kk": "Халықаралық қатынастар және шет тілдері",
-    "uz": "Xalqaro munosabatlar va xorijiy tillar"
+    "uz": "Xalqaro munosabatlar va xorijiy tillar",
+    "ja": "国際関係・外国語"
   },
   {
     "code": "mechanics",
@@ -4298,7 +4484,8 @@
     "hu": "Mechanika",
     "el": "Θεωρητική Μηχανική",
     "kk": "Механика",
-    "uz": "Mexanika"
+    "uz": "Mexanika",
+    "ja": "力学"
   },
   {
     "code": "fine_arts",
@@ -4321,7 +4508,8 @@
     "hu": "Képzőművészet",
     "el": "Καλές Τέχνες",
     "kk": "Бейнелеу өнері",
-    "uz": "Tasviriy sanʼat"
+    "uz": "Tasviriy sanʼat",
+    "ja": "美術"
   },
   {
     "code": "veterinary_zooengineering",
@@ -4344,7 +4532,8 @@
     "hu": "Állatorvos-tudomány és zoomérnöki tudományok",
     "el": "Κτηνιατρική και Ζωοτεχνία",
     "kk": "Ветеринария және зооинженерия",
-    "uz": "Baytarlik tibbiyoti va zoomuhandislik"
+    "uz": "Baytarlik tibbiyoti va zoomuhandislik",
+    "ja": "獣医学・畜産工学"
   },
   {
     "code": "history_geography_arts",
@@ -4367,7 +4556,8 @@
     "hu": "Történelem-földrajz és művészet",
     "el": "Ιστορία, Γεωγραφία και Τέχνες",
     "kk": "Тарих, география және өнер",
-    "uz": "Tarix-geografiya va sanʼat"
+    "uz": "Tarix-geografiya va sanʼat",
+    "ja": "歴史・地理・芸術"
   },
   {
     "code": "theology",
@@ -4390,7 +4580,8 @@
     "hu": "Teológia",
     "el": "Θεολογία",
     "kk": "Теология",
-    "uz": "Ilohiyot"
+    "uz": "Ilohiyot",
+    "ja": "神学"
   },
   {
     "code": "customs_organization",
@@ -4413,7 +4604,8 @@
     "hu": "Vámügyek szervezése",
     "el": "Οργάνωση Τελωνειακών Υποθέσεων",
     "kk": "Кеден ісін ұйымдастыру",
-    "uz": "Bojxona ishini tashkil etish"
+    "uz": "Bojxona ishini tashkil etish",
+    "ja": "税関業務組織"
   },
   {
     "code": "public_health",
@@ -4436,7 +4628,8 @@
     "hu": "Népegészségügy",
     "el": "Δημόσια Υγεία",
     "kk": "Қоғамдық денсаулық сақтау",
-    "uz": "Jamoat salomatligi"
+    "uz": "Jamoat salomatligi",
+    "ja": "公衆衛生"
   },
   {
     "code": "economics_administrative_sciences",
@@ -4459,7 +4652,8 @@
     "hu": "Közgazdaságtan és közigazgatási tudományok",
     "el": "Οικονομικές και Διοικητικές Επιστήμες",
     "kk": "Экономика және әкімшілік ғылымдар",
-    "uz": "Iqtisodiyot va ma'muriy fanlar"
+    "uz": "Iqtisodiyot va ma'muriy fanlar",
+    "ja": "経済・行政学"
   },
   {
     "code": "turkic_world_business",
@@ -4482,7 +4676,8 @@
     "hu": "Türk Világ Üzleti Kara",
     "el": "Σχολή Επιχειρήσεων του Τουρκικού Κόσμου",
     "kk": "Түркі Дүниесі Бизнес Факультеті",
-    "uz": "Turkiy dunyo biznes fakulteti"
+    "uz": "Turkiy dunyo biznes fakulteti",
+    "ja": "テュルク世界ビジネス学部"
   },
   {
     "code": "radio_engineering",
@@ -4505,7 +4700,8 @@
     "hu": "Rádiótechnika",
     "el": "Ραδιοτεχνική",
     "kk": "Радиотехника",
-    "uz": "Radiotexnika"
+    "uz": "Radiotexnika",
+    "ja": "無線工学"
   },
   {
     "code": "fine_arts_teaching",
@@ -4528,7 +4724,8 @@
     "hu": "Képzőművészet tanítása",
     "el": "Διδασκαλία Καλών Τεχνών",
     "kk": "Бейнелеу өнері мұғалімдігі",
-    "uz": "Tasviriy sanʼat oʻqituvchiligi"
+    "uz": "Tasviriy sanʼat oʻqituvchiligi",
+    "ja": "美術教育"
   },
   {
     "code": "information_security",
@@ -4551,7 +4748,8 @@
     "hu": "Információbiztonság",
     "el": "Ασφάλεια Πληροφοριών",
     "kk": "Ақпараттық қауіпсіздік",
-    "uz": "Axborot xavfsizligi"
+    "uz": "Axborot xavfsizligi",
+    "ja": "情報セキュリティ"
   },
   {
     "code": "high_technologies_innovation",
@@ -4574,7 +4772,8 @@
     "hu": "Csúcstechnológia és innovatív mérnöki tudományok",
     "el": "Υψηλή Τεχνολογία και Καινοτόμος Μηχανική",
     "kk": "Жоғары технологиялар және инновациялық инженерия",
-    "uz": "Yuqori texnologiyalar va innovatsion muhandislik"
+    "uz": "Yuqori texnologiyalar va innovatsion muhandislik",
+    "ja": "先端技術・革新工学"
   },
   {
     "code": "social_administration_law",
@@ -4597,7 +4796,8 @@
     "hu": "Szociális igazgatás és jog",
     "el": "Κοινωνική Διοίκηση και Δίκαιο",
     "kk": "Әлеуметтік басқару және құқық",
-    "uz": "Ijtimoiy boshqaruv va huquq"
+    "uz": "Ijtimoiy boshqaruv va huquq",
+    "ja": "社会行政・法"
   },
   {
     "code": "linguistics",
@@ -4620,7 +4820,8 @@
     "hu": "Nyelvtudomány",
     "el": "Γλωσσολογία",
     "kk": "Тіл білімі",
-    "uz": "Tilshunoslik"
+    "uz": "Tilshunoslik",
+    "ja": "言語学"
   },
   {
     "code": "agrarian_economics",
@@ -4643,7 +4844,8 @@
     "hu": "Agrárgazdaságtan",
     "el": "Αγροτική Οικονομία",
     "kk": "Аграрлық экономика",
-    "uz": "Agrar iqtisodiyot"
+    "uz": "Agrar iqtisodiyot",
+    "ja": "農業経済学"
   },
   {
     "code": "intl_school_economics",
@@ -4666,7 +4868,8 @@
     "hu": "Nemzetközi Közgazdasági Iskola",
     "el": "Διεθνής Σχολή Οικονομικών",
     "kk": "Халықаралық Экономика Мектебі",
-    "uz": "Xalqaro iqtisodiyot maktabi"
+    "uz": "Xalqaro iqtisodiyot maktabi",
+    "ja": "国際経済学院"
   },
   {
     "code": "ship_navigation",
@@ -4689,7 +4892,8 @@
     "hu": "Hajónavigáció",
     "el": "Ναυσιπλοΐα",
     "kk": "Кеме жүргізу",
-    "uz": "Kema yuritish"
+    "uz": "Kema yuritish",
+    "ja": "船舶航海"
   },
   {
     "code": "informatics_teaching",
@@ -4712,7 +4916,8 @@
     "hu": "Informatika tanítása",
     "el": "Διδασκαλία Πληροφορικής",
     "kk": "Информатика мұғалімдігі",
-    "uz": "Informatika oʻqituvchiligi"
+    "uz": "Informatika oʻqituvchiligi",
+    "ja": "情報学教育"
   },
   {
     "code": "telecommunication",
@@ -4735,7 +4940,8 @@
     "hu": "Távközlés",
     "el": "Τηλεπικοινωνίες",
     "kk": "Телекоммуникация",
-    "uz": "Telekommunikatsiya"
+    "uz": "Telekommunikatsiya",
+    "ja": "電気通信"
   },
   {
     "code": "religious_studies",
@@ -4758,7 +4964,8 @@
     "hu": "Vallástudomány",
     "el": "Θρησκειολογία",
     "kk": "Дінтану",
-    "uz": "Dinshunoslik"
+    "uz": "Dinshunoslik",
+    "ja": "宗教学"
   },
   {
     "code": "production_automation",
@@ -4781,7 +4988,8 @@
     "hu": "Termelési folyamatok automatizálása",
     "el": "Αυτοματοποίηση Παραγωγικών Διαδικασιών",
     "kk": "Өндіріс процестерін автоматтандыру",
-    "uz": "Ishlab chiqarish jarayonlarini avtomatlashtirish"
+    "uz": "Ishlab chiqarish jarayonlarini avtomatlashtirish",
+    "ja": "生産工程の自動化"
   },
   {
     "code": "expertise_standardization",
@@ -4804,7 +5012,8 @@
     "hu": "Szakértői vizsgálat és szabványosítás",
     "el": "Πραγματογνωμοσύνη και Τυποποίηση",
     "kk": "Сараптама және стандарттау",
-    "uz": "Ekspertiza va standartlashtirish"
+    "uz": "Ekspertiza va standartlashtirish",
+    "ja": "鑑定・標準化"
   },
   {
     "code": "architecture_design",
@@ -4827,7 +5036,8 @@
     "hu": "Építészet és design",
     "el": "Αρχιτεκτονική και Σχεδιασμός",
     "kk": "Сәулет және дизайн",
-    "uz": "Arxitektura va dizayn"
+    "uz": "Arxitektura va dizayn",
+    "ja": "建築・デザイン"
   },
   {
     "code": "political_science",
@@ -4850,7 +5060,8 @@
     "hu": "Politikatudomány",
     "el": "Πολιτικές Επιστήμες",
     "kk": "Саяси ғылымдар",
-    "uz": "Siyosiy fanlar"
+    "uz": "Siyosiy fanlar",
+    "ja": "政治学"
   },
   {
     "code": "biology_teaching",
@@ -4873,7 +5084,8 @@
     "hu": "Biológia tanítása",
     "el": "Διδασκαλία Βιολογίας",
     "kk": "Биология мұғалімдігі",
-    "uz": "Biologiya oʻqituvchiligi"
+    "uz": "Biologiya oʻqituvchiligi",
+    "ja": "生物教育"
   },
   {
     "code": "consumer_goods_expertise",
@@ -4896,7 +5108,8 @@
     "hu": "Fogyasztási cikkek szakértése és marketingje",
     "el": "Πραγματογνωμοσύνη και Μάρκετινγκ Καταναλωτικών Αγαθών",
     "kk": "Тұтыну тауарларының сараптамасы және маркетингі",
-    "uz": "Iste'mol mollari ekspertizasi va marketingi"
+    "uz": "Iste'mol mollari ekspertizasi va marketingi",
+    "ja": "消費財の鑑定・マーケティング"
   },
   {
     "code": "information_document_management",
@@ -4919,7 +5132,8 @@
     "hu": "Információ- és dokumentumkezelés",
     "el": "Διοίκηση Πληροφοριών και Εγγράφων",
     "kk": "Ақпараттық және құжаттамалық менеджмент",
-    "uz": "Axborot va hujjat menejmenti"
+    "uz": "Axborot va hujjat menejmenti",
+    "ja": "情報・文書管理"
   },
   {
     "code": "sport_games",
@@ -4942,7 +5156,8 @@
     "hu": "Sportjátékok",
     "el": "Αθλητικά Παιχνίδια",
     "kk": "Спорт ойындары",
-    "uz": "Sport oʻyinlari"
+    "uz": "Sport oʻyinlari",
+    "ja": "スポーツ競技"
   },
   {
     "code": "politology",
@@ -4965,7 +5180,8 @@
     "hu": "Politológia",
     "el": "Πολιτολογία",
     "kk": "Саясаттану",
-    "uz": "Siyosatshunoslik"
+    "uz": "Siyosatshunoslik",
+    "ja": "政治論"
   },
   {
     "code": "film_television",
@@ -4988,7 +5204,8 @@
     "hu": "Film és televízió",
     "el": "Κινηματογράφος και Τηλεόραση",
     "kk": "Кино және теледидар",
-    "uz": "Kino va televidenie"
+    "uz": "Kino va televidenie",
+    "ja": "映画・テレビ"
   },
   {
     "code": "energy_engineering",
@@ -5011,7 +5228,8 @@
     "hu": "Energetikai mérnöki tudományok",
     "el": "Ενεργειακή Μηχανική",
     "kk": "Энергетика инженериясы",
-    "uz": "Energetika muhandisligi"
+    "uz": "Energetika muhandisligi",
+    "ja": "エネルギー工学"
   },
   {
     "code": "decorative_applied_arts",
@@ -5034,7 +5252,8 @@
     "hu": "Dekoratív és alkalmazott művészet",
     "el": "Διακοσμητικές και Εφαρμοσμένες Τέχνες",
     "kk": "Сәндік-қолданбалы өнер",
-    "uz": "Amaliy bezak sanʼati"
+    "uz": "Amaliy bezak sanʼati",
+    "ja": "装飾応用芸術"
   },
   {
     "code": "geography_teaching",
@@ -5057,7 +5276,8 @@
     "hu": "Földrajz tanítása",
     "el": "Διδασκαλία Γεωγραφίας",
     "kk": "География мұғалімдігі",
-    "uz": "Geografiya oʻqituvchiligi"
+    "uz": "Geografiya oʻqituvchiligi",
+    "ja": "地理教育"
   },
   {
     "code": "communication",
@@ -5080,7 +5300,8 @@
     "hu": "Hírközlés",
     "el": "Επικοινωνίες",
     "kk": "Байланыс",
-    "uz": "Aloqa"
+    "uz": "Aloqa",
+    "ja": "通信"
   },
   {
     "code": "electric_power_engineering",
@@ -5103,7 +5324,8 @@
     "hu": "Elektroenergetikai mérnöki tudományok",
     "el": "Μηχανική Ηλεκτρικής Ενέργειας",
     "kk": "Электроэнергетика инженериясы",
-    "uz": "Elektroenergetika muhandisligi"
+    "uz": "Elektroenergetika muhandisligi",
+    "ja": "電力工学"
   },
   {
     "code": "folk_instruments",
@@ -5126,7 +5348,8 @@
     "hu": "Népi hangszerek",
     "el": "Λαϊκά Μουσικά Όργανα",
     "kk": "Халық аспаптары",
-    "uz": "Xalq cholgʻu asboblari"
+    "uz": "Xalq cholgʻu asboblari",
+    "ja": "民族楽器"
   },
   {
     "code": "industrial_civil_construction",
@@ -5149,7 +5372,8 @@
     "hu": "Ipari és lakóépület-építés",
     "el": "Βιομηχανικές και Οικοδομικές Κατασκευές",
     "kk": "Өнеркәсіптік және азаматтық құрылыс",
-    "uz": "Sanoat va fuqaro qurilishi"
+    "uz": "Sanoat va fuqaro qurilishi",
+    "ja": "産業・民間建設"
   },
   {
     "code": "mechanical_engineering",
@@ -5172,7 +5396,8 @@
     "hu": "Gépészmérnöki tudományok",
     "el": "Μηχανολογία",
     "kk": "Механика инженериясы",
-    "uz": "Mexanika muhandisligi"
+    "uz": "Mexanika muhandisligi",
+    "ja": "機械工学"
   },
   {
     "code": "automation_control",
@@ -5195,7 +5420,8 @@
     "hu": "Automatizálás és vezérlés",
     "el": "Αυτοματισμός και Έλεγχος",
     "kk": "Автоматика және басқару",
-    "uz": "Avtomatika va boshqarish"
+    "uz": "Avtomatika va boshqarish",
+    "ja": "自動化・制御"
   },
   {
     "code": "metallurgical_engineering",
@@ -5218,7 +5444,8 @@
     "hu": "Kohómérnöki tudományok",
     "el": "Μεταλλουργική Μηχανική",
     "kk": "Металлургия инженериясы",
-    "uz": "Metallurgiya muhandisligi"
+    "uz": "Metallurgiya muhandisligi",
+    "ja": "冶金工学"
   },
   {
     "code": "military",
@@ -5241,7 +5468,8 @@
     "hu": "Katonai tudományok",
     "el": "Στρατιωτικές Σπουδές",
     "kk": "Әскери",
-    "uz": "Harbiy ish"
+    "uz": "Harbiy ish",
+    "ja": "軍事"
   },
   {
     "code": "electricity_supply",
@@ -5264,7 +5492,8 @@
     "hu": "Áramellátás",
     "el": "Παροχή Ηλεκτρικής Ενέργειας",
     "kk": "Электрмен жабдықтау",
-    "uz": "Elektr ta'minoti"
+    "uz": "Elektr ta'minoti",
+    "ja": "電力供給"
   },
   {
     "code": "music_art",
@@ -5287,7 +5516,8 @@
     "hu": "Zeneművészet",
     "el": "Μουσική Τέχνη",
     "kk": "Музыка өнері",
-    "uz": "Musiqa sanʼati"
+    "uz": "Musiqa sanʼati",
+    "ja": "音楽芸術"
   },
   {
     "code": "statistics",
@@ -5310,7 +5540,8 @@
     "hu": "Statisztika",
     "el": "Στατιστική",
     "kk": "Статистика",
-    "uz": "Statistika"
+    "uz": "Statistika",
+    "ja": "統計学"
   },
   {
     "code": "electrical_engineering",
@@ -5333,7 +5564,8 @@
     "hu": "Elektromérnöki tudományok",
     "el": "Ηλεκτρολογία",
     "kk": "Электротехника инженериясы",
-    "uz": "Elektr muhandisligi"
+    "uz": "Elektr muhandisligi",
+    "ja": "電気工学"
   },
   {
     "code": "it_systems_engineering",
@@ -5356,7 +5588,8 @@
     "hu": "Informatikai és rendszermérnöki tudományok",
     "el": "Μηχανική Τεχνολογιών και Συστημάτων Πληροφορικής",
     "kk": "Ақпараттық технологиялар және жүйелер инженериясы",
-    "uz": "Axborot texnologiyalari va tizimlar muhandisligi"
+    "uz": "Axborot texnologiyalari va tizimlar muhandisligi",
+    "ja": "情報技術・システム工学"
   },
   {
     "code": "physical_education_teaching",
@@ -5379,7 +5612,8 @@
     "hu": "Testnevelés tanítása",
     "el": "Διδασκαλία Φυσικής Αγωγής",
     "kk": "Дене тәрбиесі мұғалімдігі",
-    "uz": "Jismoniy tarbiya oʻqituvchiligi"
+    "uz": "Jismoniy tarbiya oʻqituvchiligi",
+    "ja": "体育教育"
   },
   {
     "code": "computer_networks",
@@ -5402,7 +5636,8 @@
     "hu": "Számítógépes hálózatok",
     "el": "Δίκτυα Υπολογιστών",
     "kk": "Компьютерлік желілер",
-    "uz": "Kompyuter tarmoqlari"
+    "uz": "Kompyuter tarmoqlari",
+    "ja": "コンピューターネットワーク"
   },
   {
     "code": "social_work_translation",
@@ -5425,7 +5660,8 @@
     "hu": "Szociális munka és fordítás",
     "el": "Κοινωνική Εργασία και Μετάφραση",
     "kk": "Әлеуметтік жұмыс және аударма",
-    "uz": "Ijtimoiy ish va tarjima"
+    "uz": "Ijtimoiy ish va tarjima",
+    "ja": "社会福祉・翻訳"
   },
   {
     "code": "archive_records_management",
@@ -5448,7 +5684,8 @@
     "hu": "Irattár és ügyvitel",
     "el": "Αρχειονομία και Γραμματειακή Υποστήριξη",
     "kk": "Мұрағат ісі және іс қағаздарын жүргізу",
-    "uz": "Arxiv ishi va ish yuritish"
+    "uz": "Arxiv ishi va ish yuritish",
+    "ja": "文書管理・アーカイブ"
   },
   {
     "code": "world_economy_commerce",
@@ -5471,7 +5708,8 @@
     "hu": "Világgazdaság és kereskedelem",
     "el": "Παγκόσμια Οικονομία και Εμπόριο",
     "kk": "Дүниежүзілік экономика және коммерция",
-    "uz": "Jahon iqtisodiyoti va savdo"
+    "uz": "Jahon iqtisodiyoti va savdo",
+    "ja": "世界経済・商業"
   },
   {
     "code": "corrective_education",
@@ -5494,7 +5732,8 @@
     "hu": "Gyógypedagógia",
     "el": "Διορθωτική Εκπαίδευση",
     "kk": "Түзету оқыту",
-    "uz": "Maxsus tuzatuvchi ta'lim"
+    "uz": "Maxsus tuzatuvchi ta'lim",
+    "ja": "特別支援教育"
   },
   {
     "code": "painting_fine_art",
@@ -5517,7 +5756,8 @@
     "hu": "Festőművészet",
     "el": "Τέχνη της Ζωγραφικής",
     "kk": "Мольберт кескіндемесі",
-    "uz": "Rangtasvir sanʼati"
+    "uz": "Rangtasvir sanʼati",
+    "ja": "絵画芸術"
   },
   {
     "code": "russian_language_literature",
@@ -5540,7 +5780,8 @@
     "hu": "Orosz nyelv és irodalom",
     "el": "Ρωσική Γλώσσα και Λογοτεχνία",
     "kk": "Орыс тілі және әдебиеті",
-    "uz": "Rus tili va adabiyoti"
+    "uz": "Rus tili va adabiyoti",
+    "ja": "ロシア語・文学"
   },
   {
     "code": "tax_banking",
@@ -5563,7 +5804,8 @@
     "hu": "Adózás és bankügy",
     "el": "Φορολογία και Τραπεζικές Εργασίες",
     "kk": "Салық және банк ісі",
-    "uz": "Soliq va bank ishi"
+    "uz": "Soliq va bank ishi",
+    "ja": "税務・銀行業務"
   },
   {
     "code": "sociology",
@@ -5586,7 +5828,8 @@
     "hu": "Szociológia",
     "el": "Κοινωνιολογία",
     "kk": "Әлеуметтану",
-    "uz": "Sotsiologiya"
+    "uz": "Sotsiologiya",
+    "ja": "社会学"
   },
   {
     "code": "music_teaching",
@@ -5609,7 +5852,8 @@
     "hu": "Zene tanítása",
     "el": "Διδασκαλία Μουσικής",
     "kk": "Музыка мұғалімдігі",
-    "uz": "Musiqa oʻqituvchiligi"
+    "uz": "Musiqa oʻqituvchiligi",
+    "ja": "音楽教育"
   },
   {
     "code": "technology_teaching",
@@ -5632,7 +5876,8 @@
     "hu": "Technológia tanítása",
     "el": "Διδασκαλία Τεχνολογίας",
     "kk": "Технология мұғалімдігі",
-    "uz": "Texnologiya oʻqituvchiligi"
+    "uz": "Texnologiya oʻqituvchiligi",
+    "ja": "技術教育"
   },
   {
     "code": "chemistry_biology_teaching",
@@ -5655,7 +5900,8 @@
     "hu": "Kémia és biológia tanítása",
     "el": "Διδασκαλία Χημείας και Βιολογίας",
     "kk": "Химия және биология мұғалімдігі",
-    "uz": "Kimyo va biologiya oʻqituvchiligi"
+    "uz": "Kimyo va biologiya oʻqituvchiligi",
+    "ja": "化学・生物教育"
   },
   {
     "code": "social_work_psychology",
@@ -5678,7 +5924,8 @@
     "hu": "Szociális munka és pszichológia",
     "el": "Κοινωνική Εργασία και Ψυχολογία",
     "kk": "Әлеуметтік жұмыс және психология",
-    "uz": "Ijtimoiy ish va psixologiya"
+    "uz": "Ijtimoiy ish va psixologiya",
+    "ja": "社会福祉・心理学"
   },
   {
     "code": "state_public_relations",
@@ -5701,7 +5948,8 @@
     "hu": "Állami és közkapcsolatok",
     "el": "Κρατικές και Δημόσιες Σχέσεις",
     "kk": "Мемлекеттік және қоғамдық қатынастар",
-    "uz": "Davlat va jamoatchilik bilan aloqalar"
+    "uz": "Davlat va jamoatchilik bilan aloqalar",
+    "ja": "国家・広報関係"
   },
   {
     "code": "machine_engineering",
@@ -5724,7 +5972,8 @@
     "hu": "Gépészeti mérnöki tudományok",
     "el": "Μηχανική Εξοπλισμού",
     "kk": "Машина инженериясы",
-    "uz": "Mashina muhandisligi"
+    "uz": "Mashina muhandisligi",
+    "ja": "機械技術"
   },
   {
     "code": "service_engineering",
@@ -5747,7 +5996,8 @@
     "hu": "Szolgáltatási mérnöki tudományok",
     "el": "Μηχανική Υπηρεσιών",
     "kk": "Қызмет көрсету инженериясы",
-    "uz": "Xizmat koʻrsatish muhandisligi"
+    "uz": "Xizmat koʻrsatish muhandisligi",
+    "ja": "サービス工学"
   },
   {
     "code": "fire_safety",
@@ -5770,7 +6020,8 @@
     "hu": "Tűzvédelem",
     "el": "Πυρασφάλεια",
     "kk": "Өрт қауіпсіздігі",
-    "uz": "Yongʻin xavfsizligi"
+    "uz": "Yongʻin xavfsizligi",
+    "ja": "消防安全"
   },
   {
     "code": "border_troops",
@@ -5793,7 +6044,8 @@
     "hu": "Határőrcsapatok",
     "el": "Συνοριακά Στρατεύματα",
     "kk": "Шекара әскерлері",
-    "uz": "Chegara qoʻshinlari"
+    "uz": "Chegara qoʻshinlari",
+    "ja": "国境警備"
   },
   {
     "code": "food_products_engineering",
@@ -5816,7 +6068,8 @@
     "hu": "Élelmiszertermékek mérnöki tudományai",
     "el": "Μηχανική Προϊόντων Διατροφής",
     "kk": "Тамақ өнімдері инженериясы",
-    "uz": "Oziq-ovqat mahsulotlari muhandisligi"
+    "uz": "Oziq-ovqat mahsulotlari muhandisligi",
+    "ja": "食品製造工学"
   },
   {
     "code": "electronics_telecom_radio_engineering",
@@ -5839,7 +6092,8 @@
     "hu": "Elektronika, távközlés és rádiótechnika mérnöki tudományai",
     "el": "Ηλεκτρονική, Τηλεπικοινωνίες και Ραδιοτεχνική Μηχανική",
     "kk": "Электроника, телекоммуникация және радиотехника инженериясы",
-    "uz": "Elektronika, telekommunikatsiya va radiotexnika muhandisligi"
+    "uz": "Elektronika, telekommunikatsiya va radiotexnika muhandisligi",
+    "ja": "電子・電気通信・無線工学"
   },
   {
     "code": "directing",
@@ -5862,7 +6116,8 @@
     "hu": "Rendezés",
     "el": "Σκηνοθεσία",
     "kk": "Режиссура",
-    "uz": "Rejissorlik"
+    "uz": "Rejissorlik",
+    "ja": "演出"
   },
   {
     "code": "music_history_theory",
@@ -5885,7 +6140,8 @@
     "hu": "Zenetörténet és zeneelmélet",
     "el": "Ιστορία και Θεωρία της Μουσικής",
     "kk": "Музыка тарихы және теориясы",
-    "uz": "Musiqa tarixi va nazariyasi"
+    "uz": "Musiqa tarixi va nazariyasi",
+    "ja": "音楽史・理論"
   },
   {
     "code": "insurance",
@@ -5908,7 +6164,8 @@
     "hu": "Biztosítás",
     "el": "Ασφαλιστικές Εργασίες",
     "kk": "Сақтандыру ісі",
-    "uz": "Sugʻurta ishi"
+    "uz": "Sugʻurta ishi",
+    "ja": "保険"
   },
   {
     "code": "agrarian_engineering_field",
@@ -5931,7 +6188,8 @@
     "hu": "Agrármérnöki tudományok",
     "el": "Αγροτική Μηχανική",
     "kk": "Аграрлық инженерия",
-    "uz": "Qishloq xoʻjaligi muhandisligi"
+    "uz": "Qishloq xoʻjaligi muhandisligi",
+    "ja": "農業工学"
   },
   {
     "code": "az_philology",
@@ -5954,7 +6212,8 @@
     "hu": "Azerbajdzsán filológia",
     "el": "Αζερική Φιλολογία",
     "kk": "Әзербайжан филологиясы",
-    "uz": "Ozarbayjon filologiyasi"
+    "uz": "Ozarbayjon filologiyasi",
+    "ja": "アゼルバイジャン文献学"
   },
   {
     "code": "philology_translation",
@@ -5977,7 +6236,8 @@
     "hu": "Filológia és fordítás",
     "el": "Φιλολογία και Μετάφραση",
     "kk": "Филология және аударма",
-    "uz": "Filologiya va tarjima"
+    "uz": "Filologiya va tarjima",
+    "ja": "文献学・翻訳"
   },
   {
     "code": "transport_logistics_engineering",
@@ -6000,7 +6260,8 @@
     "hu": "Logisztikai és közlekedéstechnológiai mérnöki tudományok",
     "el": "Μηχανική Εφοδιαστικής και Μεταφορικών Τεχνολογιών",
     "kk": "Логистика және көлік технологиялары инженериясы",
-    "uz": "Logistika va transport texnologiyalari muhandisligi"
+    "uz": "Logistika va transport texnologiyalari muhandisligi",
+    "ja": "物流・輸送技術工学"
   },
   {
     "code": "transportation_organization",
@@ -6023,7 +6284,8 @@
     "hu": "Szállítások megszervezése",
     "el": "Οργάνωση Μεταφορών",
     "kk": "Көлікте тасымалдарды ұйымдастыру",
-    "uz": "Transportda tashishlarni tashkil etish"
+    "uz": "Transportda tashishlarni tashkil etish",
+    "ja": "輸送組織"
   },
   {
     "code": "unec_design_school",
@@ -6046,6 +6308,7 @@
     "hu": "UNEC Design Iskola",
     "el": "Σχολή Σχεδιασμού UNEC",
     "kk": "UNEC Дизайн Мектебі",
-    "uz": "UNEC dizayn maktabi"
+    "uz": "UNEC dizayn maktabi",
+    "ja": "UNECデザインスクール"
   }
 ]

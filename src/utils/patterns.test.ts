@@ -60,6 +60,13 @@ const NATIVE_NAME: Record<string, string> = {
    * leaves it alone the way it leaves `ə`/`ı`/`ß` alone.
    */
   uz: 'Ulugʻbek Karimov',
+  /**
+   * Japanese: family name first again, and the first sample here written in TWO
+   * scripts at once — 山田 is kanji (Han) and there are names whose given part is
+   * hiragana or katakana. `\p{L}` covers all three, but the mixture is the reason
+   * a script-by-script rule would have been the wrong shape.
+   */
+  ja: '山田 太郎',
 };
 
 describe('PERSON_NAME', () => {

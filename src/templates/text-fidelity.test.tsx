@@ -321,6 +321,25 @@ const WORDS = {
     skill: 'Vaqtni boshqarish',
     highlight: 'Soliq toʻlovchi portalini toʻliq qayta qurish',
   },
+  /**
+   * Japanese — the only sample here that mixes THREE scripts on purpose, because
+   * ordinary Japanese switches between them mid-sentence and the exporter has to
+   * bring all three back: kanji (開発者), hiragana (です, の) and katakana
+   * (フロントエンド). The name is family-first with no separator, which `fullName`
+   * derives from the name itself rather than from the locale.
+   */
+  ja: {
+    firstName: '太郎',
+    lastName: '山田',
+    headline: 'フロントエンド開発者',
+    summary: '最新のウェブ技術に携わり品質を重視するソフトウェア開発者です',
+    company: 'サイバーネット株式会社',
+    position: 'シニアフロントエンド開発者',
+    institution: '東京大学',
+    faculty: '情報理工学系研究科',
+    skill: '時間管理',
+    highlight: '納税者ポータルの全面的な再構築',
+  },
 } as const;
 
 function resumeFor(locale: keyof typeof WORDS): Resume {

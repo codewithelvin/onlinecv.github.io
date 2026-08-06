@@ -1,8 +1,73 @@
 diff --git a/node_modules/@react-pdf/textkit/lib/textkit.cjs b/node_modules/@react-pdf/textkit/lib/textkit.cjs
-index 7879740..f98e2fa 100644
+index 7879740..95bd718 100644
 --- a/node_modules/@react-pdf/textkit/lib/textkit.cjs
 +++ b/node_modules/@react-pdf/textkit/lib/textkit.cjs
-@@ -1097,26 +1097,59 @@ var reorderLine = function reorderLine(attributedString) {
+@@ -72,6 +72,55 @@ var defaultHyphenationEngine = function defaultHyphenationEngine(word) {
+  * @param {Object} engines layout engines
+  * @param {Object} options layout options
+  */
++/**
++ * Characters a line may break BETWEEN — Han, kana, Hangul, CJK punctuation and
++ * the fullwidth forms. These scripts write no spaces, so without per-character
++ * break opportunities an unspaced sentence is one unbreakable word.
++ */
++var CJK_CHAR = /[\u2E80-\u303F\u3040-\u30FF\u3400-\u4DBF\u4E00-\u9FFF\uAC00-\uD7A3\uF900-\uFAFF\uFE30-\uFE4F\uFF00-\uFFEF]/;
++
++/** Kinsoku-lite: these may never START a line (closers, small kana, marks). */
++var NO_BREAK_BEFORE = /[、。，．・：；！？）］｝」』〕〉》ー〜々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ]/;
++
++/** …and these may never END one (openers). */
++var NO_BREAK_AFTER = /[（［｛「『〔〈《]/;
++
++/**
++ * One syllable per CJK character, so the line breaker has a legal breakpoint
++ * between any two of them. Latin runs inside the same word stay whole, and a
++ * surrogate pair is never split (neither half matches CJK_CHAR).
++ *
++ * @param {string[]} parts
++ * @returns {string[]} parts, with CJK expanded
++ */
++var splitCjkSyllables = function splitCjkSyllables(parts) {
++  var out = [];
++  for (var p = 0; p < parts.length; p += 1) {
++    var part = parts[p];
++    if (!CJK_CHAR.test(part)) {
++      out.push(part);
++      continue;
++    }
++    var buf = '';
++    for (var c = 0; c < part.length; c += 1) {
++      var ch = part[c];
++      var breakable =
++        CJK_CHAR.test(ch) &&
++        buf !== '' &&
++        !NO_BREAK_BEFORE.test(ch) &&
++        !NO_BREAK_AFTER.test(buf[buf.length - 1]);
++      if (breakable) {
++        out.push(buf);
++        buf = ch;
++      } else {
++        buf += ch;
++      }
++    }
++    if (buf !== '') out.push(buf);
++  }
++  return out;
++};
++
+ var wrapWords = function wrapWords(engines, options) {
+   if (engines === void 0) {
+     engines = {};
+@@ -94,7 +143,7 @@ var wrapWords = function wrapWords(engines, options) {
+       var words = attributedString.string.slice(run.start, run.end).split(/([ ]+)/g).filter(Boolean);
+       for (var j = 0; j < words.length; j += 1) {
+         var word = words[j];
+-        var parts = hyphenateWord(word);
++        var parts = splitCjkSyllables(hyphenateWord(word));
+         syllables.push.apply(syllables, parts);
+         string += parts.join('');
+       }
+@@ -1097,26 +1146,59 @@ var reorderLine = function reorderLine(attributedString) {
  
    // No need for bidi reordering
    if (segments.length === 0) return attributedString;
@@ -78,11 +143,106 @@ index 7879740..f98e2fa 100644
      });
    });
    return _extends__default.default({}, attributedString, {
+@@ -2916,6 +2998,17 @@ var advanceWidthBetween = function advanceWidthBetween(start, end, attributedStr
+  */
+ 
+ var HYPHEN = 0x002d;
++
++/**
++ * Han, kana, Hangul, the CJK punctuation block and the fullwidth forms.
++ *
++ * These scripts wrap BETWEEN characters and never take a hyphen at the break.
++ * The distinction matters here because textkit's "syllables" come from runs, and
++ * runs are itemized by script: in ordinary Japanese (Han + hiragana + katakana in
++ * one sentence) every script boundary reaches `breakLines` looking exactly like a
++ * hyphenation point.
++ */
++var CJK_NO_HYPHEN = /[\u2E80-\u303F\u3040-\u30FF\u3400-\u4DBF\u4E00-\u9FFF\uAC00-\uD7A3\uF900-\uFAFF\uFE30-\uFE4F\uFF00-\uFFEF]/;
+ var TOLERANCE_STEPS = 5;
+ var TOLERANCE_LIMIT = 50;
+ var opts = {
+@@ -2945,7 +3038,10 @@ var breakLines = function breakLines(string, nodes, breaks) {
+     if (node.type === 'penalty') {
+       end = prevNode.value.end;
+       line = slice(start, end, string);
+-      line = insertGlyph(line.length, HYPHEN, line);
++      // Only a break INSIDE a hyphenating script gets the hyphen — see CJK_NO_HYPHEN.
++      if (!CJK_NO_HYPHEN.test(line.string.slice(-1)) && !CJK_NO_HYPHEN.test(string.string.slice(end, end + 1))) {
++        line = insertGlyph(line.length, HYPHEN, line);
++      }
+     } else {
+       end = node.value.end;
+       line = slice(start, end, string);
 diff --git a/node_modules/@react-pdf/textkit/lib/textkit.js b/node_modules/@react-pdf/textkit/lib/textkit.js
-index 9c407c8..b828789 100644
+index 9c407c8..b006538 100644
 --- a/node_modules/@react-pdf/textkit/lib/textkit.js
 +++ b/node_modules/@react-pdf/textkit/lib/textkit.js
-@@ -1083,26 +1083,47 @@ var reorderLine = function reorderLine(attributedString) {
+@@ -58,6 +58,55 @@ var defaultHyphenationEngine = function defaultHyphenationEngine(word) {
+  * @param {Object} engines layout engines
+  * @param {Object} options layout options
+  */
++/**
++ * Characters a line may break BETWEEN — Han, kana, Hangul, CJK punctuation and
++ * the fullwidth forms. These scripts write no spaces, so without per-character
++ * break opportunities an unspaced sentence is one unbreakable word.
++ */
++var CJK_CHAR = /[\u2E80-\u303F\u3040-\u30FF\u3400-\u4DBF\u4E00-\u9FFF\uAC00-\uD7A3\uF900-\uFAFF\uFE30-\uFE4F\uFF00-\uFFEF]/;
++
++/** Kinsoku-lite: these may never START a line (closers, small kana, marks). */
++var NO_BREAK_BEFORE = /[、。，．・：；！？）］｝」』〕〉》ー〜々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮヵヶ]/;
++
++/** …and these may never END one (openers). */
++var NO_BREAK_AFTER = /[（［｛「『〔〈《]/;
++
++/**
++ * One syllable per CJK character, so the line breaker has a legal breakpoint
++ * between any two of them. Latin runs inside the same word stay whole, and a
++ * surrogate pair is never split (neither half matches CJK_CHAR).
++ *
++ * @param {string[]} parts
++ * @returns {string[]} parts, with CJK expanded
++ */
++var splitCjkSyllables = function splitCjkSyllables(parts) {
++  var out = [];
++  for (var p = 0; p < parts.length; p += 1) {
++    var part = parts[p];
++    if (!CJK_CHAR.test(part)) {
++      out.push(part);
++      continue;
++    }
++    var buf = '';
++    for (var c = 0; c < part.length; c += 1) {
++      var ch = part[c];
++      var breakable =
++        CJK_CHAR.test(ch) &&
++        buf !== '' &&
++        !NO_BREAK_BEFORE.test(ch) &&
++        !NO_BREAK_AFTER.test(buf[buf.length - 1]);
++      if (breakable) {
++        out.push(buf);
++        buf = ch;
++      } else {
++        buf += ch;
++      }
++    }
++    if (buf !== '') out.push(buf);
++  }
++  return out;
++};
++
+ var wrapWords = function wrapWords(engines, options) {
+   if (engines === void 0) {
+     engines = {};
+@@ -80,7 +129,7 @@ var wrapWords = function wrapWords(engines, options) {
+       var words = attributedString.string.slice(run.start, run.end).split(/([ ]+)/g).filter(Boolean);
+       for (var j = 0; j < words.length; j += 1) {
+         var word = words[j];
+-        var parts = hyphenateWord(word);
++        var parts = splitCjkSyllables(hyphenateWord(word));
+         syllables.push.apply(syllables, parts);
+         string += parts.join('');
+       }
+@@ -1083,26 +1132,47 @@ var reorderLine = function reorderLine(attributedString) {
  
    // No need for bidi reordering
    if (segments.length === 0) return attributedString;
@@ -146,3 +306,33 @@ index 9c407c8..b828789 100644
      });
    });
    return _extends({}, attributedString, {
+@@ -2902,6 +2972,17 @@ var advanceWidthBetween = function advanceWidthBetween(start, end, attributedStr
+  */
+ 
+ var HYPHEN = 0x002d;
++
++/**
++ * Han, kana, Hangul, the CJK punctuation block and the fullwidth forms.
++ *
++ * These scripts wrap BETWEEN characters and never take a hyphen at the break.
++ * The distinction matters here because textkit's "syllables" come from runs, and
++ * runs are itemized by script: in ordinary Japanese (Han + hiragana + katakana in
++ * one sentence) every script boundary reaches `breakLines` looking exactly like a
++ * hyphenation point.
++ */
++var CJK_NO_HYPHEN = /[\u2E80-\u303F\u3040-\u30FF\u3400-\u4DBF\u4E00-\u9FFF\uAC00-\uD7A3\uF900-\uFAFF\uFE30-\uFE4F\uFF00-\uFFEF]/;
+ var TOLERANCE_STEPS = 5;
+ var TOLERANCE_LIMIT = 50;
+ var opts = {
+@@ -2931,7 +3012,10 @@ var breakLines = function breakLines(string, nodes, breaks) {
+     if (node.type === 'penalty') {
+       end = prevNode.value.end;
+       line = slice(start, end, string);
+-      line = insertGlyph(line.length, HYPHEN, line);
++      // Only a break INSIDE a hyphenating script gets the hyphen — see CJK_NO_HYPHEN.
++      if (!CJK_NO_HYPHEN.test(line.string.slice(-1)) && !CJK_NO_HYPHEN.test(string.string.slice(end, end + 1))) {
++        line = insertGlyph(line.length, HYPHEN, line);
++      }
+     } else {
+       end = node.value.end;
+       line = slice(start, end, string);

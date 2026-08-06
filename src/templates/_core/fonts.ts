@@ -51,6 +51,7 @@ export const CV_FONT_STACK = [
   'NotoSansArabic',
   'NotoSansHebrew',
   'NanumGothic',
+  'NotoSansJP',
   'NotoSansSC',
 ];
 
@@ -69,7 +70,46 @@ const PRIMARY_FONT: Partial<Record<Locale, string>> = {
   he: 'NotoSansHebrew',
   ko: 'NanumGothic',
   zh: 'NotoSansSC',
+  ja: 'NotoSansJP',
 };
+
+/**
+ * Which face must answer FIRST for a language, or `undefined` when Inter covers
+ * the script.
+ *
+ * Exported because the UI has the same question and, since Japanese, the same
+ * hard constraint: `app/theme.ts` orders the CHROME's stack with it. Two callers,
+ * one table — the alternative is a second list that silently disagrees with this
+ * one about which font a language is set in.
+ */
+export function primaryFont(locale: Locale): string | undefined {
+  return PRIMARY_FONT[locale];
+}
+
+/**
+ * ⚠️ JAPANESE AND CHINESE WANT THE SAME CODE POINTS, and no `unicode-range` can
+ * separate them.
+ *
+ * The earlier overlaps were narrow enough to settle by size — NanumGothic and
+ * NotoSansSC both claim U+3000–303F (。、《》「」), so the smaller face is declared
+ * first and a Chinese page pulls 333 KB of Korean rather than a Korean page
+ * pulling 8 MB of Han. `NotoSansJP` breaks that method: it claims kana AND the
+ * whole CJK Unified block, exactly what `NotoSansSC` claims, so whichever of the
+ * two leads supplies every ideograph in the document.
+ *
+ * And they are not interchangeable. Measured with fontkit on the two shipped
+ * faces: of 1,806 sampled ideographs both fonts contain, **65.6% are drawn with
+ * different outlines**, and 25 of the 43 characters in ordinary CV vocabulary
+ * (氏名, 学歴, 職歴, 資格, 免許, 会社, 卒業, 都道府県) are among them. A Japanese CV
+ * set in NotoSansSC is legible but visibly Chinese-typeset — the same class of
+ * defect as Mtavruli month names in Georgian, where the glyphs exist and are
+ * still the wrong ones.
+ *
+ * So the ORDER follows the document's language rather than a fixed rule, here and
+ * in the chrome. Neither face can be dropped: NotoSansJP has 12,747 ideographs to
+ * NotoSansSC's 20,976 and lacks most simplified-only forms, so a Chinese page led
+ * by it would fall through to SC glyph by glyph and mix two faces in one line.
+ */
 
 /**
  * WHAT ORDER CANNOT DO, so that nobody tries to fix it here again.

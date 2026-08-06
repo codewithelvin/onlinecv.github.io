@@ -20,7 +20,8 @@
     "hu": "Microsoft Excel",
     "el": "Microsoft Excel",
     "kk": "Microsoft Excel",
-    "uz": "Microsoft Excel"
+    "uz": "Microsoft Excel",
+    "ja": "Microsoft Excel"
   },
   {
     "code": "php",
@@ -43,7 +44,8 @@
     "hu": "PHP nyelv",
     "el": "Γλώσσα PHP",
     "kk": "PHP тілі",
-    "uz": "PHP tili"
+    "uz": "PHP tili",
+    "ja": "PHP"
   },
   {
     "code": "ms_word",
@@ -66,7 +68,8 @@
     "hu": "Microsoft Word",
     "el": "Microsoft Word",
     "kk": "Microsoft Word",
-    "uz": "Microsoft Word"
+    "uz": "Microsoft Word",
+    "ja": "Microsoft Word"
   },
   {
     "code": "ms_power",
@@ -89,7 +92,8 @@
     "hu": "Microsoft PowerPoint",
     "el": "Microsoft PowerPoint",
     "kk": "Microsoft PowerPoint",
-    "uz": "Microsoft PowerPoint"
+    "uz": "Microsoft PowerPoint",
+    "ja": "Microsoft PowerPoint"
   },
   {
     "code": "adaptation",
@@ -112,7 +116,8 @@
     "hu": "Alkalmazkodás új körülményekhez",
     "el": "Προσαρμοστικότητα σε νέες συνθήκες",
     "kk": "Жаңа жағдайларға бейімделу",
-    "uz": "Yangi sharoitlarga moslashuvchanlik"
+    "uz": "Yangi sharoitlarga moslashuvchanlik",
+    "ja": "新しい環境への適応力"
   },
   {
     "code": "problem_solving",
@@ -135,7 +140,8 @@
     "hu": "Gyors problémamegoldás",
     "el": "Ταχεία επίλυση προβλημάτων",
     "kk": "Мәселелерді жылдам шешу",
-    "uz": "Muammolarni tezkor hal qilish"
+    "uz": "Muammolarni tezkor hal qilish",
+    "ja": "迅速な問題解決"
   },
   {
     "code": "team_work",
@@ -158,7 +164,8 @@
     "hu": "Egyéni és csoportos munka",
     "el": "Ατομική και ομαδική εργασία",
     "kk": "Жеке және командада жұмыс істеу",
-    "uz": "Yakka va jamoada ishlash"
+    "uz": "Yakka va jamoada ishlash",
+    "ja": "個人・チームでの業務"
   },
   {
     "code": "punct_present",
@@ -181,7 +188,8 @@
     "hu": "Pontosság és előadói készség",
     "el": "Συνέπεια και δεξιότητες παρουσίασης",
     "kk": "Дәлдік және таныстыру дағдылары",
-    "uz": "Vaqtga rioya qilish va taqdimot koʻnikmalari"
+    "uz": "Vaqtga rioya qilish va taqdimot koʻnikmalari",
+    "ja": "時間厳守とプレゼンテーション力"
   },
   {
     "code": "pressure_work",
@@ -204,7 +212,8 @@
     "hu": "Munka nyomás alatt",
     "el": "Εργασία υπό πίεση",
     "kk": "Қысым астында жұмыс істеу",
-    "uz": "Bosim ostida ishlash"
+    "uz": "Bosim ostida ishlash",
+    "ja": "プレッシャー下での業務"
   },
   {
     "code": "1c",
@@ -227,7 +236,8 @@
     "hu": "1C könyvelés",
     "el": "Λογιστική 1C",
     "kk": "1С бухгалтерия",
-    "uz": "1C Buxgalteriya"
+    "uz": "1C Buxgalteriya",
+    "ja": "1C会計"
   },
   {
     "code": "autocad",
@@ -250,7 +260,8 @@
     "hu": "AutoCAD",
     "el": "AutoCAD",
     "kk": "AutoCAD",
-    "uz": "AutoCAD"
+    "uz": "AutoCAD",
+    "ja": "AutoCAD"
   },
   {
     "code": "photoshop",
@@ -273,7 +284,8 @@
     "hu": "Adobe Photoshop",
     "el": "Adobe Photoshop",
     "kk": "Adobe Photoshop",
-    "uz": "Adobe Photoshop"
+    "uz": "Adobe Photoshop",
+    "ja": "Adobe Photoshop"
   },
   {
     "code": "javascript",
@@ -296,7 +308,8 @@
     "hu": "JavaScript",
     "el": "JavaScript",
     "kk": "JavaScript",
-    "uz": "JavaScript"
+    "uz": "JavaScript",
+    "ja": "JavaScript"
   },
   {
     "code": "painting",
@@ -319,7 +332,8 @@
     "hu": "Rajzolás",
     "el": "Ζωγραφική",
     "kk": "Сурет салу",
-    "uz": "Rasm chizish"
+    "uz": "Rasm chizish",
+    "ja": "絵を描くこと"
   },
   {
     "code": "selling",
@@ -342,7 +356,8 @@
     "hu": "Értékesítés",
     "el": "Πωλήσεις",
     "kk": "Сату",
-    "uz": "Sotish"
+    "uz": "Sotish",
+    "ja": "販売"
   },
   {
     "code": "management",
@@ -365,7 +380,8 @@
     "hu": "Menedzsment",
     "el": "Διοίκηση",
     "kk": "Басқару",
-    "uz": "Menejment"
+    "uz": "Menejment",
+    "ja": "マネジメント"
   },
   {
     "code": "illustrator",
@@ -388,7 +404,8 @@
     "hu": "Adobe Illustrator",
     "el": "Adobe Illustrator",
     "kk": "Adobe Illustrator",
-    "uz": "Adobe Illustrator"
+    "uz": "Adobe Illustrator",
+    "ja": "Adobe Illustrator"
   },
   {
     "code": "organizing",
@@ -411,7 +428,8 @@
     "hu": "Szervezőkészség",
     "el": "Οργανωτική ικανότητα",
     "kk": "Ұйымдастыру дағдысы",
-    "uz": "Tashkilotchilik qobiliyati"
+    "uz": "Tashkilotchilik qobiliyati",
+    "ja": "組織力"
   },
   {
     "code": "time_management",
@@ -434,7 +452,8 @@
     "hu": "Időgazdálkodás",
     "el": "Διαχείριση χρόνου",
     "kk": "Уақытты басқару",
-    "uz": "Vaqtni boshqarish"
+    "uz": "Vaqtni boshqarish",
+    "ja": "タイムマネジメント"
   },
   {
     "code": "conflict_solving",
@@ -457,7 +476,8 @@
     "hu": "Konfliktusmegoldás",
     "el": "Επίλυση συγκρούσεων",
     "kk": "Қайшылықтарды шешу",
-    "uz": "Ziddiyatlarni hal qilish"
+    "uz": "Ziddiyatlarni hal qilish",
+    "ja": "対立の解決"
   },
   {
     "code": "critical_thinking",
@@ -480,7 +500,8 @@
     "hu": "Kritikus gondolkodás",
     "el": "Κριτική σκέψη",
     "kk": "Сын тұрғысынан ойлау",
-    "uz": "Tanqidiy fikrlash"
+    "uz": "Tanqidiy fikrlash",
+    "ja": "批判的思考"
   },
   {
     "code": "project_planning",
@@ -503,7 +524,8 @@
     "hu": "Projekttervezés",
     "el": "Σχεδιασμός έργου",
     "kk": "Жобаны жоспарлау",
-    "uz": "Loyihani rejalashtirish"
+    "uz": "Loyihani rejalashtirish",
+    "ja": "プロジェクト計画"
   },
   {
     "code": "gantt",
@@ -526,7 +548,8 @@
     "hu": "Gantt-diagramok",
     "el": "Διαγράμματα Gantt",
     "kk": "Гант диаграммалары",
-    "uz": "Gantt diagrammalari"
+    "uz": "Gantt diagrammalari",
+    "ja": "ガントチャート"
   },
   {
     "code": "risk_manage",
@@ -549,7 +572,8 @@
     "hu": "Kockázatkezelés",
     "el": "Διαχείριση κινδύνου",
     "kk": "Тәуекелдерді басқару",
-    "uz": "Risklarni boshqarish"
+    "uz": "Risklarni boshqarish",
+    "ja": "リスク管理"
   },
   {
     "code": "project_management",
@@ -572,7 +596,8 @@
     "hu": "Projektmenedzsment",
     "el": "Διαχείριση έργων",
     "kk": "Жобаны басқару",
-    "uz": "Loyihalarni boshqarish"
+    "uz": "Loyihalarni boshqarish",
+    "ja": "プロジェクト管理"
   },
   {
     "code": "analytical_thinking",
@@ -595,7 +620,8 @@
     "hu": "Analitikus gondolkodás",
     "el": "Αναλυτική σκέψη",
     "kk": "Аналитикалық ойлау",
-    "uz": "Analitik fikrlash"
+    "uz": "Analitik fikrlash",
+    "ja": "分析的思考"
   },
   {
     "code": "cooking_skill",
@@ -618,7 +644,8 @@
     "hu": "Főzés",
     "el": "Μαγειρική",
     "kk": "Аспаздық",
-    "uz": "Oshpazlik"
+    "uz": "Oshpazlik",
+    "ja": "料理"
   },
   {
     "code": "phone_sales",
@@ -641,7 +668,8 @@
     "hu": "Telefonos értékesítési készség",
     "el": "Δεξιότητες τηλεφωνικών πωλήσεων",
     "kk": "Телефон арқылы сату",
-    "uz": "Telefon orqali sotish koʻnikmasi"
+    "uz": "Telefon orqali sotish koʻnikmasi",
+    "ja": "電話営業"
   },
   {
     "code": "convince",
@@ -664,7 +692,8 @@
     "hu": "Meggyőzőképesség",
     "el": "Ικανότητα πειθώς",
     "kk": "Сендіру қабілеті",
-    "uz": "Ishontirish qobiliyati"
+    "uz": "Ishontirish qobiliyati",
+    "ja": "説得力"
   },
   {
     "code": "teaching",
@@ -687,7 +716,8 @@
     "hu": "Tanítási készség",
     "el": "Διδακτική ικανότητα",
     "kk": "Оқытушылық дағдысы",
-    "uz": "Oʻqitish qobiliyati"
+    "uz": "Oʻqitish qobiliyati",
+    "ja": "指導力"
   },
   {
     "code": "tax_codex",
@@ -710,7 +740,8 @@
     "hu": "Adótörvény ismerete",
     "el": "Γνώση του φορολογικού κώδικα",
     "kk": "Салық кодексін білу",
-    "uz": "Soliq kodeksini bilish"
+    "uz": "Soliq kodeksini bilish",
+    "ja": "税法の知識"
   },
   {
     "code": "cash_book",
@@ -733,7 +764,8 @@
     "hu": "Pénztárkönyv vezetése",
     "el": "Τήρηση ταμειακού βιβλίου",
     "kk": "Касса кітабын жүргізу",
-    "uz": "Kassa kitobini yuritish"
+    "uz": "Kassa kitobini yuritish",
+    "ja": "出納帳の記帳"
   },
   {
     "code": "warehouse_book",
@@ -756,7 +788,8 @@
     "hu": "Raktári nyilvántartás vezetése",
     "el": "Λογιστική αποθήκης",
     "kk": "Қойма есебін жүргізу",
-    "uz": "Ombor hisobini yuritish"
+    "uz": "Ombor hisobini yuritish",
+    "ja": "倉庫会計"
   },
   {
     "code": "inventories",
@@ -779,7 +812,8 @@
     "hu": "Leltározás",
     "el": "Διεξαγωγή απογραφών",
     "kk": "Түгендеу жүргізу",
-    "uz": "Inventarizatsiya oʻtkazish"
+    "uz": "Inventarizatsiya oʻtkazish",
+    "ja": "棚卸しの実施"
   },
   {
     "code": "reconciliation_acts",
@@ -802,7 +836,8 @@
     "hu": "Egyeztetési jegyzőkönyvek készítése",
     "el": "Σύνταξη πρακτικών συμφωνίας",
     "kk": "Салыстыру актілерін жасау",
-    "uz": "Solishtirish dalolatnomalarini tuzish"
+    "uz": "Solishtirish dalolatnomalarini tuzish",
+    "ja": "残高確認書の作成"
   },
   {
     "code": "computer_knowledge",
@@ -825,7 +860,8 @@
     "hu": "Számítógépes ismeretek",
     "el": "Γνώσεις Η/Υ",
     "kk": "Компьютер білімі",
-    "uz": "Kompyuter bilimlari"
+    "uz": "Kompyuter bilimlari",
+    "ja": "パソコンスキル"
   },
   {
     "code": "css",
@@ -848,7 +884,8 @@
     "hu": "CSS",
     "el": "CSS",
     "kk": "CSS",
-    "uz": "CSS"
+    "uz": "CSS",
+    "ja": "CSS"
   },
   {
     "code": "python",
@@ -871,7 +908,8 @@
     "hu": "Python programozási nyelv",
     "el": "Γλώσσα προγραμματισμού Python",
     "kk": "Python бағдарламалау тілі",
-    "uz": "Python dasturlash tili"
+    "uz": "Python dasturlash tili",
+    "ja": "Python"
   },
   {
     "code": "agility",
@@ -894,7 +932,8 @@
     "hu": "Agilitás",
     "el": "Ευελιξία",
     "kk": "Икемділік",
-    "uz": "Chaqqonlik"
+    "uz": "Chaqqonlik",
+    "ja": "機敏性"
   },
   {
     "code": "cplusplus",
@@ -917,7 +956,8 @@
     "hu": "C++",
     "el": "C++",
     "kk": "C++",
-    "uz": "C++"
+    "uz": "C++",
+    "ja": "C++"
   },
   {
     "code": "research",
@@ -940,7 +980,8 @@
     "hu": "Kutatás",
     "el": "Έρευνα",
     "kk": "Зерттеу",
-    "uz": "Tadqiqot"
+    "uz": "Tadqiqot",
+    "ja": "リサーチ"
   },
   {
     "code": "sales",
@@ -963,7 +1004,8 @@
     "hu": "Értékesítési készség",
     "el": "Δεξιότητες πωλήσεων",
     "kk": "Сату дағдылары",
-    "uz": "Sotish koʻnikmalari"
+    "uz": "Sotish koʻnikmalari",
+    "ja": "営業スキル"
   },
   {
     "code": "playing_piano",
@@ -986,7 +1028,8 @@
     "hu": "Zongorázás",
     "el": "Παίξιμο πιάνου",
     "kk": "Пианино ойнау",
-    "uz": "Pianino chalish"
+    "uz": "Pianino chalish",
+    "ja": "ピアノ演奏"
   },
   {
     "code": "negotiation",
@@ -1009,7 +1052,8 @@
     "hu": "Tárgyalási készség",
     "el": "Δεξιότητες διαπραγμάτευσης",
     "kk": "Келіссөздер жүргізу",
-    "uz": "Muzokaralar olib borish"
+    "uz": "Muzokaralar olib borish",
+    "ja": "交渉力"
   },
   {
     "code": "stress_resilience",
@@ -1032,7 +1076,8 @@
     "hu": "Stressztolerancia",
     "el": "Ανθεκτικότητα στο άγχος",
     "kk": "Стресске төзімділік",
-    "uz": "Stressga chidamlilik"
+    "uz": "Stressga chidamlilik",
+    "ja": "ストレス耐性"
   },
   {
     "code": "oracle_sql",
@@ -1055,7 +1100,8 @@
     "hu": "Oracle SQL",
     "el": "Oracle SQL",
     "kk": "Oracle SQL",
-    "uz": "Oracle SQL"
+    "uz": "Oracle SQL",
+    "ja": "Oracle SQL"
   },
   {
     "code": "smm",
@@ -1078,7 +1124,8 @@
     "hu": "SMM (közösségi média marketing)",
     "el": "SMM (Μάρκετινγκ Μέσων Κοινωνικής Δικτύωσης)",
     "kk": "SMM (әлеуметтік желілерде маркетинг)",
-    "uz": "SMM (ijtimoiy tarmoqlarda marketing)"
+    "uz": "SMM (ijtimoiy tarmoqlarda marketing)",
+    "ja": "SMM（ソーシャルメディアマーケティング）"
   },
   {
     "code": "social_relations",
@@ -1101,7 +1148,8 @@
     "hu": "Társas kapcsolatok",
     "el": "Κοινωνικές σχέσεις",
     "kk": "Әлеуметтік қатынастар",
-    "uz": "Ijtimoiy munosabatlar"
+    "uz": "Ijtimoiy munosabatlar",
+    "ja": "対人関係"
   },
   {
     "code": "reactjs",
@@ -1124,7 +1172,8 @@
     "hu": "ReactJS",
     "el": "ReactJS",
     "kk": "ReactJS",
-    "uz": "ReactJS"
+    "uz": "ReactJS",
+    "ja": "ReactJS"
   },
   {
     "code": "next_js",
@@ -1147,7 +1196,8 @@
     "hu": "Next.js",
     "el": "Next.js",
     "kk": "Next.js",
-    "uz": "Next.js"
+    "uz": "Next.js",
+    "ja": "Next.js"
   },
   {
     "code": "microfrontend",
@@ -1170,7 +1220,8 @@
     "hu": "Mikrofrontend",
     "el": "Αρχιτεκτονική microfrontend",
     "kk": "Микрофронтенд",
-    "uz": "Mikrofrontend"
+    "uz": "Mikrofrontend",
+    "ja": "マイクロフロントエンド"
   },
   {
     "code": "language_learning",
@@ -1193,7 +1244,8 @@
     "hu": "Nyelvtanulási készség",
     "el": "Δεξιότητες εκμάθησης γλωσσών",
     "kk": "Тіл үйрену дағдысы",
-    "uz": "Til oʻrganish qobiliyati"
+    "uz": "Til oʻrganish qobiliyati",
+    "ja": "語学の習得力"
   },
   {
     "code": "marketing",
@@ -1216,7 +1268,8 @@
     "hu": "Marketing",
     "el": "Μάρκετινγκ",
     "kk": "Маркетинг",
-    "uz": "Marketing"
+    "uz": "Marketing",
+    "ja": "マーケティング"
   },
   {
     "code": "first_aid",
@@ -1239,7 +1292,8 @@
     "hu": "Elsősegély",
     "el": "Πρώτες βοήθειες",
     "kk": "Алғашқы медициналық көмек",
-    "uz": "Birinchi tibbiy yordam"
+    "uz": "Birinchi tibbiy yordam",
+    "ja": "応急手当"
   },
   {
     "code": "presentation",
@@ -1262,7 +1316,8 @@
     "hu": "Előadói készség",
     "el": "Δεξιότητες παρουσίασης",
     "kk": "Таныстыру дағдылары",
-    "uz": "Taqdimot koʻnikmalari"
+    "uz": "Taqdimot koʻnikmalari",
+    "ja": "プレゼンテーション力"
   },
   {
     "code": "writing_articles",
@@ -1285,7 +1340,8 @@
     "hu": "Cikkírás",
     "el": "Συγγραφή άρθρων",
     "kk": "Мақала жазу",
-    "uz": "Maqola yozish"
+    "uz": "Maqola yozish",
+    "ja": "記事の執筆"
   },
   {
     "code": "strategic_planning",
@@ -1308,7 +1364,8 @@
     "hu": "Stratégiai tervezés",
     "el": "Στρατηγικός σχεδιασμός",
     "kk": "Стратегиялық жоспарлау",
-    "uz": "Strategik rejalashtirish"
+    "uz": "Strategik rejalashtirish",
+    "ja": "戦略立案"
   },
   {
     "code": "creative_thinking",
@@ -1331,7 +1388,8 @@
     "hu": "Kreatív gondolkodás",
     "el": "Δημιουργική σκέψη",
     "kk": "Креативті ойлау",
-    "uz": "Ijodiy fikrlash"
+    "uz": "Ijodiy fikrlash",
+    "ja": "創造的思考"
   },
   {
     "code": "baking_sweets",
@@ -1354,7 +1412,8 @@
     "hu": "Édességek sütése",
     "el": "Ζαχαροπλαστική",
     "kk": "Тәттілер пісіру",
-    "uz": "Shirinliklar pishirish"
+    "uz": "Shirinliklar pishirish",
+    "ja": "菓子作り"
   },
   {
     "code": "weaving",
@@ -1377,7 +1436,8 @@
     "hu": "Szövés",
     "el": "Υφαντική",
     "kk": "Тоқу",
-    "uz": "Toʻqimachilik"
+    "uz": "Toʻqimachilik",
+    "ja": "織物"
   },
   {
     "code": "copywriting",
@@ -1400,7 +1460,8 @@
     "hu": "Szövegírás",
     "el": "Διαφημιστική συγγραφή",
     "kk": "Копирайтинг",
-    "uz": "Kopirayting"
+    "uz": "Kopirayting",
+    "ja": "コピーライティング"
   },
   {
     "code": "java",
@@ -1423,7 +1484,8 @@
     "hu": "Java programozási nyelv",
     "el": "Γλώσσα προγραμματισμού Java",
     "kk": "Java бағдарламалау тілі",
-    "uz": "Java dasturlash tili"
+    "uz": "Java dasturlash tili",
+    "ja": "Java"
   },
   {
     "code": "injecting",
@@ -1446,7 +1508,8 @@
     "hu": "Injekció adása",
     "el": "Χορήγηση ενέσεων",
     "kk": "Инъекция жасау",
-    "uz": "Ukol qilish"
+    "uz": "Ukol qilish",
+    "ja": "注射"
   },
   {
     "code": "patientCare",
@@ -1469,7 +1532,8 @@
     "hu": "Betegellátás",
     "el": "Φροντίδα ασθενών",
     "kk": "Науқастарға қамқорлық",
-    "uz": "Bemorlarga gʻamxoʻrlik qilish"
+    "uz": "Bemorlarga gʻamxoʻrlik qilish",
+    "ja": "患者ケア"
   },
   {
     "code": "woundDressing",
@@ -1492,7 +1556,8 @@
     "hu": "Sebkötés",
     "el": "Επίδεση πληγών",
     "kk": "Жараны таңу",
-    "uz": "Yara bogʻlash"
+    "uz": "Yara bogʻlash",
+    "ja": "創傷処置"
   },
   {
     "code": "vitalSignsMonitoring",
@@ -1515,7 +1580,8 @@
     "hu": "Vitális paraméterek monitorozása",
     "el": "Παρακολούθηση ζωτικών σημείων",
     "kk": "Тыныс-тіршілік көрсеткіштерін бақылау",
-    "uz": "Hayotiy koʻrsatkichlarni kuzatish"
+    "uz": "Hayotiy koʻrsatkichlarni kuzatish",
+    "ja": "バイタルサインの観察"
   },
   {
     "code": "medicationAdministration",
@@ -1538,7 +1604,8 @@
     "hu": "Gyógyszerek beadása",
     "el": "Χορήγηση φαρμακευτικής αγωγής",
     "kk": "Дәрі-дәрмек беру",
-    "uz": "Dori-darmon berish"
+    "uz": "Dori-darmon berish",
+    "ja": "与薬"
   },
   {
     "code": "emergencyCare",
@@ -1561,7 +1628,8 @@
     "hu": "Sürgősségi ellátás",
     "el": "Επείγουσα φροντίδα",
     "kk": "Жедел жәрдем көрсету",
-    "uz": "Shoshilinch tibbiy yordam"
+    "uz": "Shoshilinch tibbiy yordam",
+    "ja": "救急対応"
   },
   {
     "code": "infectionControl",
@@ -1584,7 +1652,8 @@
     "hu": "Fertőzésellenőrzés",
     "el": "Έλεγχος λοιμώξεων",
     "kk": "Инфекцияны бақылау",
-    "uz": "Infeksiya nazorati"
+    "uz": "Infeksiya nazorati",
+    "ja": "感染管理"
   },
   {
     "code": "surveillance",
@@ -1607,7 +1676,8 @@
     "hu": "Megfigyelés",
     "el": "Επιτήρηση",
     "kk": "Бақылау",
-    "uz": "Kuzatuv"
+    "uz": "Kuzatuv",
+    "ja": "監視"
   },
   {
     "code": "accessControl",
@@ -1630,7 +1700,8 @@
     "hu": "Beléptetés-ellenőrzés",
     "el": "Έλεγχος πρόσβασης",
     "kk": "Кіру бақылауы",
-    "uz": "Kirishni nazorat qilish"
+    "uz": "Kirishni nazorat qilish",
+    "ja": "入退室管理"
   },
   {
     "code": "patrolling",
@@ -1653,7 +1724,8 @@
     "hu": "Járőrözés",
     "el": "Περιπολία",
     "kk": "Кезекшілік ету",
-    "uz": "Patrul xizmati"
+    "uz": "Patrul xizmati",
+    "ja": "巡回"
   },
   {
     "code": "reportingIncidents",
@@ -1676,7 +1748,8 @@
     "hu": "Események jelentése",
     "el": "Αναφορά περιστατικών",
     "kk": "Оқиғалар туралы хабарлау",
-    "uz": "Voqealar haqida xabar berish"
+    "uz": "Voqealar haqida xabar berish",
+    "ja": "インシデント報告"
   },
   {
     "code": "financialReporting",
@@ -1699,7 +1772,8 @@
     "hu": "Pénzügyi jelentéskészítés",
     "el": "Χρηματοοικονομικές αναφορές",
     "kk": "Қаржылық есептілік",
-    "uz": "Moliyaviy hisobot tuzish"
+    "uz": "Moliyaviy hisobot tuzish",
+    "ja": "財務報告"
   },
   {
     "code": "taxPreparation",
@@ -1722,7 +1796,8 @@
     "hu": "Adóbevallás elkészítése",
     "el": "Φορολογική προετοιμασία",
     "kk": "Салық дайындығы",
-    "uz": "Soliq hisobotlarini tayyorlash"
+    "uz": "Soliq hisobotlarini tayyorlash",
+    "ja": "税務申告の作成"
   },
   {
     "code": "budgeting",
@@ -1745,7 +1820,8 @@
     "hu": "Költségvetés-készítés",
     "el": "Κατάρτιση προϋπολογισμού",
     "kk": "Бюджет жасау",
-    "uz": "Byudjet tuzish"
+    "uz": "Byudjet tuzish",
+    "ja": "予算編成"
   },
   {
     "code": "accountReconciliation",
@@ -1768,7 +1844,8 @@
     "hu": "Számlaegyeztetés",
     "el": "Συμφωνία λογαριασμών",
     "kk": "Шоттарды салыстыру",
-    "uz": "Hisoblarni solishtirish"
+    "uz": "Hisoblarni solishtirish",
+    "ja": "勘定照合"
   },
   {
     "code": "payrollProcessing",
@@ -1791,7 +1868,8 @@
     "hu": "Bérszámfejtés",
     "el": "Επεξεργασία μισθοδοσίας",
     "kk": "Жалақыны есептеу",
-    "uz": "Ish haqini hisoblash"
+    "uz": "Ish haqini hisoblash",
+    "ja": "給与計算処理"
   },
   {
     "code": "financialAnalysis",
@@ -1814,7 +1892,8 @@
     "hu": "Pénzügyi elemzés",
     "el": "Χρηματοοικονομική ανάλυση",
     "kk": "Қаржылық талдау",
-    "uz": "Moliyaviy tahlil"
+    "uz": "Moliyaviy tahlil",
+    "ja": "財務分析"
   },
   {
     "code": "auditing",
@@ -1837,7 +1916,8 @@
     "hu": "Könyvvizsgálat",
     "el": "Ελεγκτική",
     "kk": "Аудит",
-    "uz": "Auditorlik"
+    "uz": "Auditorlik",
+    "ja": "監査"
   },
   {
     "code": "compliance",
@@ -1860,7 +1940,8 @@
     "hu": "Megfelelés",
     "el": "Κανονιστική συμμόρφωση",
     "kk": "Сәйкестік",
-    "uz": "Normativ talablarga muvofiqlik"
+    "uz": "Normativ talablarga muvofiqlik",
+    "ja": "コンプライアンス"
   },
   {
     "code": "interviewing",
@@ -1883,7 +1964,8 @@
     "hu": "Interjúk lebonyolítása",
     "el": "Διεξαγωγή συνεντεύξεων",
     "kk": "Сұхбат жүргізу",
-    "uz": "Intervyu oʻtkazish"
+    "uz": "Intervyu oʻtkazish",
+    "ja": "インタビュー"
   },
   {
     "code": "editing",
@@ -1906,7 +1988,8 @@
     "hu": "Szerkesztés",
     "el": "Επιμέλεια κειμένων",
     "kk": "Редакциялау",
-    "uz": "Tahrir qilish"
+    "uz": "Tahrir qilish",
+    "ja": "編集"
   },
   {
     "code": "pressReleaseWriting",
@@ -1929,7 +2012,8 @@
     "hu": "Sajtóközlemény-írás",
     "el": "Συγγραφή δελτίων τύπου",
     "kk": "Баспасөз хабарламасын жазу",
-    "uz": "Matbuot xabarnomalarini yozish"
+    "uz": "Matbuot xabarnomalarini yozish",
+    "ja": "プレスリリースの作成"
   },
   {
     "code": "newsEditing",
@@ -1952,7 +2036,8 @@
     "hu": "Hírszerkesztés",
     "el": "Επιμέλεια ειδήσεων",
     "kk": "Жаңалықтарды редакциялау",
-    "uz": "Yangiliklarni tahrirlash"
+    "uz": "Yangiliklarni tahrirlash",
+    "ja": "ニュース編集"
   },
   {
     "code": "customerService",
@@ -1975,7 +2060,8 @@
     "hu": "Ügyfélszolgálat",
     "el": "Εξυπηρέτηση πελατών",
     "kk": "Клиенттерге қызмет көрсету",
-    "uz": "Mijozlarga xizmat koʻrsatish"
+    "uz": "Mijozlarga xizmat koʻrsatish",
+    "ja": "顧客対応"
   },
   {
     "code": "phoneHandling",
@@ -1998,7 +2084,8 @@
     "hu": "Telefonos ügyintézés",
     "el": "Διαχείριση τηλεφωνικών κλήσεων",
     "kk": "Телефон қоңырауларын өңдеу",
-    "uz": "Telefon orqali muloqot qilish"
+    "uz": "Telefon orqali muloqot qilish",
+    "ja": "電話応対"
   },
   {
     "code": "appointmentScheduling",
@@ -2021,7 +2108,8 @@
     "hu": "Időpontfoglalás kezelése",
     "el": "Προγραμματισμός ραντεβού",
     "kk": "Кездесулерді жоспарлау",
-    "uz": "Uchrashuvlarni rejalashtirish"
+    "uz": "Uchrashuvlarni rejalashtirish",
+    "ja": "予約管理"
   },
   {
     "code": "greetingGuests",
@@ -2044,7 +2132,8 @@
     "hu": "Vendégek fogadása",
     "el": "Υποδοχή επισκεπτών",
     "kk": "Қонақтарды қарсы алу",
-    "uz": "Mehmonlarni kutib olish"
+    "uz": "Mehmonlarni kutib olish",
+    "ja": "来客対応"
   },
   {
     "code": "administrativeSupport",
@@ -2067,7 +2156,8 @@
     "hu": "Ügyviteli támogatás",
     "el": "Διοικητική υποστήριξη",
     "kk": "Әкімшілік қолдау",
-    "uz": "Ma'muriy yordam koʻrsatish"
+    "uz": "Ma'muriy yordam koʻrsatish",
+    "ja": "事務サポート"
   },
   {
     "code": "dataEntry",
@@ -2090,7 +2180,8 @@
     "hu": "Adatbevitel",
     "el": "Καταχώριση δεδομένων",
     "kk": "Деректерді енгізу",
-    "uz": "Ma'lumotlarni kiritish"
+    "uz": "Ma'lumotlarni kiritish",
+    "ja": "データ入力"
   },
   {
     "code": "frontDeskManagement",
@@ -2113,7 +2204,8 @@
     "hu": "Recepció irányítása",
     "el": "Διαχείριση ρεσεψιόν",
     "kk": "Ресепшн жұмысын басқару",
-    "uz": "Qabulxona boshqaruvi"
+    "uz": "Qabulxona boshqaruvi",
+    "ja": "受付業務の管理"
   },
   {
     "code": "skinCare",
@@ -2136,7 +2228,8 @@
     "hu": "Bőrápolás",
     "el": "Περιποίηση δέρματος",
     "kk": "Тері күтімі",
-    "uz": "Teriga gʻamxoʻrlik qilish"
+    "uz": "Teriga gʻamxoʻrlik qilish",
+    "ja": "スキンケア"
   },
   {
     "code": "facialTreatments",
@@ -2159,7 +2252,8 @@
     "hu": "Arckezelések",
     "el": "Θεραπείες προσώπου",
     "kk": "Бет күтімі процедуралары",
-    "uz": "Yuzga parvarish qilish"
+    "uz": "Yuzga parvarish qilish",
+    "ja": "フェイシャルトリートメント"
   },
   {
     "code": "hairRemoval",
@@ -2182,7 +2276,8 @@
     "hu": "Szőrtelenítés",
     "el": "Αποτρίχωση",
     "kk": "Түк жою",
-    "uz": "Epilyatsiya"
+    "uz": "Epilyatsiya",
+    "ja": "脱毛施術"
   },
   {
     "code": "makeupApplication",
@@ -2205,7 +2300,8 @@
     "hu": "Sminkelés",
     "el": "Εφαρμογή μακιγιάζ",
     "kk": "Макияж жасау",
-    "uz": "Makiyaj qilish"
+    "uz": "Makiyaj qilish",
+    "ja": "メイクアップ"
   },
   {
     "code": "manicurePedicure",
@@ -2228,7 +2324,8 @@
     "hu": "Manikűr és pedikűr",
     "el": "Μανικιούρ και πεντικιούρ",
     "kk": "Маникюр және педикюр",
-    "uz": "Manikyur va pedikyur"
+    "uz": "Manikyur va pedikyur",
+    "ja": "マニキュア・ペディキュア"
   },
   {
     "code": "nailArt",
@@ -2251,7 +2348,8 @@
     "hu": "Körömdíszítés",
     "el": "Τέχνη νυχιών",
     "kk": "Нейл-арт",
-    "uz": "Tirnoq san'ati"
+    "uz": "Tirnoq san'ati",
+    "ja": "ネイルアート"
   },
   {
     "code": "massageTherapy",
@@ -2274,7 +2372,8 @@
     "hu": "Masszázsterápia",
     "el": "Θεραπευτικό μασάζ",
     "kk": "Массаж терапиясы",
-    "uz": "Massaj terapiyasi"
+    "uz": "Massaj terapiyasi",
+    "ja": "マッサージ療法"
   },
   {
     "code": "antiAgingTreatments",
@@ -2297,7 +2396,8 @@
     "hu": "Öregedésgátló kezelések",
     "el": "Αντιγηραντικές θεραπείες",
     "kk": "Жасқа қарсы процедуралар",
-    "uz": "Yoshlanishga qarshi muolajalar"
+    "uz": "Yoshlanishga qarshi muolajalar",
+    "ja": "エイジングケア施術"
   },
   {
     "code": "cashHandling",
@@ -2320,7 +2420,8 @@
     "hu": "Készpénzkezelés",
     "el": "Διαχείριση μετρητών",
     "kk": "Қолма-қол ақшамен жұмыс",
-    "uz": "Naqd pul bilan ishlash"
+    "uz": "Naqd pul bilan ishlash",
+    "ja": "現金取扱い"
   },
   {
     "code": "registerOperation",
@@ -2343,7 +2444,8 @@
     "hu": "Pénztárgép kezelése",
     "el": "Χειρισμός ταμειακής μηχανής",
     "kk": "Касса операциялары",
-    "uz": "Kassa apparatida ishlash"
+    "uz": "Kassa apparatida ishlash",
+    "ja": "レジ操作"
   },
   {
     "code": "receiptIssuing",
@@ -2366,7 +2468,8 @@
     "hu": "Nyugtaadás",
     "el": "Έκδοση αποδείξεων",
     "kk": "Түбіртек беру",
-    "uz": "Kvitansiya berish"
+    "uz": "Kvitansiya berish",
+    "ja": "領収書の発行"
   },
   {
     "code": "paymentVerification",
@@ -2389,7 +2492,8 @@
     "hu": "Fizetések ellenőrzése",
     "el": "Επαλήθευση πληρωμών",
     "kk": "Төлемдерді тексеру",
-    "uz": "Toʻlovlarni tekshirish"
+    "uz": "Toʻlovlarni tekshirish",
+    "ja": "支払いの確認"
   },
   {
     "code": "inventoryManagement",
@@ -2412,7 +2516,8 @@
     "hu": "Készletgazdálkodás",
     "el": "Διαχείριση αποθέματος",
     "kk": "Тауар-материалдық қорды басқару",
-    "uz": "Zaxiralarni boshqarish"
+    "uz": "Zaxiralarni boshqarish",
+    "ja": "在庫管理"
   },
   {
     "code": "balanceReconciliation",
@@ -2435,7 +2540,8 @@
     "hu": "Egyenlegek egyeztetése",
     "el": "Συμφωνία υπολοίπων",
     "kk": "Баланс салыстыру",
-    "uz": "Balansni solishtirish"
+    "uz": "Balansni solishtirish",
+    "ja": "残高照合"
   },
   {
     "code": "stockReceiving",
@@ -2458,7 +2564,8 @@
     "hu": "Áruátvétel",
     "el": "Παραλαβή αποθέματος",
     "kk": "Тауарды қабылдау",
-    "uz": "Mahsulotlarni qabul qilish"
+    "uz": "Mahsulotlarni qabul qilish",
+    "ja": "入荷対応"
   },
   {
     "code": "orderFulfillment",
@@ -2481,7 +2588,8 @@
     "hu": "Megrendelések teljesítése",
     "el": "Εκτέλεση παραγγελιών",
     "kk": "Тапсырысты орындау",
-    "uz": "Buyurtmalarni bajarish"
+    "uz": "Buyurtmalarni bajarish",
+    "ja": "受注処理"
   },
   {
     "code": "shippingPreparation",
@@ -2504,7 +2612,8 @@
     "hu": "Szállítás előkészítése",
     "el": "Προετοιμασία αποστολών",
     "kk": "Жөнелтуге дайындау",
-    "uz": "Joʻnatishga tayyorlash"
+    "uz": "Joʻnatishga tayyorlash",
+    "ja": "出荷準備"
   },
   {
     "code": "qualityControl",
@@ -2527,7 +2636,8 @@
     "hu": "Minőségellenőrzés",
     "el": "Έλεγχος ποιότητας",
     "kk": "Сапа бақылауы",
-    "uz": "Sifatni nazorat qilish"
+    "uz": "Sifatni nazorat qilish",
+    "ja": "品質管理"
   },
   {
     "code": "warehouseSafety",
@@ -2550,7 +2660,8 @@
     "hu": "Raktári munkavédelem",
     "el": "Ασφάλεια αποθήκης",
     "kk": "Қойма қауіпсіздігі",
-    "uz": "Ombor xavfsizligi"
+    "uz": "Ombor xavfsizligi",
+    "ja": "倉庫の安全管理"
   },
   {
     "code": "wiringInstallation",
@@ -2573,7 +2684,8 @@
     "hu": "Vezetékek telepítése",
     "el": "Εγκατάσταση καλωδίωσης",
     "kk": "Электр сымдарын орнату",
-    "uz": "Elektr simlarini oʻrnatish"
+    "uz": "Elektr simlarini oʻrnatish",
+    "ja": "配線工事"
   },
   {
     "code": "circuitRepair",
@@ -2596,7 +2708,8 @@
     "hu": "Áramkörök javítása",
     "el": "Επισκευή κυκλωμάτων",
     "kk": "Тізбекті жөндеу",
-    "uz": "Elektr zanjirlarini ta'mirlash"
+    "uz": "Elektr zanjirlarini ta'mirlash",
+    "ja": "回路修理"
   },
   {
     "code": "electricalTesting",
@@ -2619,7 +2732,8 @@
     "hu": "Elektromos vizsgálatok",
     "el": "Ηλεκτρικές δοκιμές",
     "kk": "Электрлік сынақтар",
-    "uz": "Elektr sinovlari"
+    "uz": "Elektr sinovlari",
+    "ja": "電気試験"
   },
   {
     "code": "troubleshooting",
@@ -2642,7 +2756,8 @@
     "hu": "Hibaelhárítás",
     "el": "Αντιμετώπιση βλαβών",
     "kk": "Ақаулықтарды жою",
-    "uz": "Nosozliklarni bartaraf etish"
+    "uz": "Nosozliklarni bartaraf etish",
+    "ja": "トラブルシューティング"
   },
   {
     "code": "installationOfElectricalEquipment",
@@ -2665,7 +2780,8 @@
     "hu": "Elektromos berendezések telepítése",
     "el": "Εγκατάσταση ηλεκτρολογικού εξοπλισμού",
     "kk": "Электр жабдықтарын орнату",
-    "uz": "Elektr uskunalarini oʻrnatish"
+    "uz": "Elektr uskunalarini oʻrnatish",
+    "ja": "電気設備の設置"
   },
   {
     "code": "safetyStandards",
@@ -2688,7 +2804,8 @@
     "hu": "Biztonsági szabványok",
     "el": "Πρότυπα ασφάλειας",
     "kk": "Қауіпсіздік стандарттары",
-    "uz": "Xavfsizlik standartlari"
+    "uz": "Xavfsizlik standartlari",
+    "ja": "安全基準"
   },
   {
     "code": "maintenanceOfElectricalSystems",
@@ -2711,7 +2828,8 @@
     "hu": "Elektromos rendszerek karbantartása",
     "el": "Συντήρηση ηλεκτρικών συστημάτων",
     "kk": "Электр жүйелерін техникалық қызмет көрсету",
-    "uz": "Elektr tizimlarini texnik xizmat koʻrsatish"
+    "uz": "Elektr tizimlarini texnik xizmat koʻrsatish",
+    "ja": "電気システムの保守"
   },
   {
     "code": "serverManagement",
@@ -2734,7 +2852,8 @@
     "hu": "Szerverüzemeltetés",
     "el": "Διαχείριση διακομιστών",
     "kk": "Серверді басқару",
-    "uz": "Serverni boshqarish"
+    "uz": "Serverni boshqarish",
+    "ja": "サーバー管理"
   },
   {
     "code": "networkConfiguration",
@@ -2757,7 +2876,8 @@
     "hu": "Hálózat konfigurálása",
     "el": "Διαμόρφωση δικτύου",
     "kk": "Желі конфигурациясы",
-    "uz": "Tarmoqni sozlash"
+    "uz": "Tarmoqni sozlash",
+    "ja": "ネットワーク構築"
   },
   {
     "code": "databaseManagement",
@@ -2780,7 +2900,8 @@
     "hu": "Adatbázis-kezelés",
     "el": "Διαχείριση βάσεων δεδομένων",
     "kk": "Дерекқорды басқару",
-    "uz": "Ma'lumotlar bazasini boshqarish"
+    "uz": "Ma'lumotlar bazasini boshqarish",
+    "ja": "データベース管理"
   },
   {
     "code": "systemMonitoring",
@@ -2803,7 +2924,8 @@
     "hu": "Rendszerfelügyelet",
     "el": "Παρακολούθηση συστημάτων",
     "kk": "Жүйені бақылау",
-    "uz": "Tizimni kuzatish"
+    "uz": "Tizimni kuzatish",
+    "ja": "システム監視"
   },
   {
     "code": "securityManagement",
@@ -2826,7 +2948,8 @@
     "hu": "Biztonságirányítás",
     "el": "Διαχείριση ασφάλειας",
     "kk": "Қауіпсіздікті басқару",
-    "uz": "Xavfsizlikni boshqarish"
+    "uz": "Xavfsizlikni boshqarish",
+    "ja": "セキュリティ管理"
   },
   {
     "code": "backupAndRecovery",
@@ -2849,7 +2972,8 @@
     "hu": "Biztonsági mentés és helyreállítás",
     "el": "Αντίγραφα ασφαλείας και αποκατάσταση",
     "kk": "Сақтық көшірме және қалпына келтіру",
-    "uz": "Zaxira nusxa olish va tiklash"
+    "uz": "Zaxira nusxa olish va tiklash",
+    "ja": "バックアップと復旧"
   },
   {
     "code": "softwareInstallation",
@@ -2872,7 +2996,8 @@
     "hu": "Szoftvertelepítés",
     "el": "Εγκατάσταση λογισμικού",
     "kk": "Бағдарламалық жасақтаманы орнату",
-    "uz": "Dasturiy ta'minotni oʻrnatish"
+    "uz": "Dasturiy ta'minotni oʻrnatish",
+    "ja": "ソフトウェアの導入"
   },
   {
     "code": "productDisplay",
@@ -2895,7 +3020,8 @@
     "hu": "Termékkihelyezés",
     "el": "Παρουσίαση προϊόντων",
     "kk": "Тауарды витринаға қою",
-    "uz": "Mahsulotlarni namoyish qilish"
+    "uz": "Mahsulotlarni namoyish qilish",
+    "ja": "商品陳列"
   },
   {
     "code": "stockOrganization",
@@ -2918,7 +3044,8 @@
     "hu": "Készlet rendszerezése",
     "el": "Οργάνωση αποθέματος",
     "kk": "Тауар қорын ұйымдастыру",
-    "uz": "Zaxiralarni tashkil etish"
+    "uz": "Zaxiralarni tashkil etish",
+    "ja": "在庫整理"
   },
   {
     "code": "salesOptimization",
@@ -2941,7 +3068,8 @@
     "hu": "Értékesítés optimalizálása",
     "el": "Βελτιστοποίηση πωλήσεων",
     "kk": "Сатуды оптимизациялау",
-    "uz": "Sotishni optimallashtirish"
+    "uz": "Sotishni optimallashtirish",
+    "ja": "販売の最適化"
   },
   {
     "code": "salesAnalysis",
@@ -2964,7 +3092,8 @@
     "hu": "Értékesítési elemzés",
     "el": "Ανάλυση πωλήσεων",
     "kk": "Сату талдауы",
-    "uz": "Sotish tahlili"
+    "uz": "Sotish tahlili",
+    "ja": "売上分析"
   },
   {
     "code": "promotionalActivities",
@@ -2987,7 +3116,8 @@
     "hu": "Promóciós tevékenységek",
     "el": "Προωθητικές ενέργειες",
     "kk": "Жарнамалық іс-шаралар",
-    "uz": "Reklama tadbirlari"
+    "uz": "Reklama tadbirlari",
+    "ja": "販促活動"
   },
   {
     "code": "customerEngagement",
@@ -3010,7 +3140,8 @@
     "hu": "Ügyfélkapcsolat kiépítése",
     "el": "Δέσμευση πελατών",
     "kk": "Клиенттермен байланыс орнату",
-    "uz": "Mijozlar bilan aloqa oʻrnatish"
+    "uz": "Mijozlar bilan aloqa oʻrnatish",
+    "ja": "顧客との関係構築"
   },
   {
     "code": "culinarySkills",
@@ -3033,7 +3164,8 @@
     "hu": "Konyhai szakértelem",
     "el": "Μαγειρικές δεξιότητες",
     "kk": "Аспаздық дағдылар",
-    "uz": "Oshpazlik koʻnikmalari"
+    "uz": "Oshpazlik koʻnikmalari",
+    "ja": "調理技術"
   },
   {
     "code": "menuPlanning",
@@ -3056,7 +3188,8 @@
     "hu": "Étlaptervezés",
     "el": "Σχεδιασμός μενού",
     "kk": "Мәзірді жоспарлау",
-    "uz": "Menyu tuzish"
+    "uz": "Menyu tuzish",
+    "ja": "メニュー考案"
   },
   {
     "code": "foodPreparation",
@@ -3079,7 +3212,8 @@
     "hu": "Ételkészítés",
     "el": "Προετοιμασία φαγητού",
     "kk": "Тағам дайындау",
-    "uz": "Taom tayyorlash"
+    "uz": "Taom tayyorlash",
+    "ja": "食材の仕込み"
   },
   {
     "code": "foodPresentation",
@@ -3102,7 +3236,8 @@
     "hu": "Ételek megjelenítése",
     "el": "Παρουσίαση φαγητού",
     "kk": "Тағамды безендіру",
-    "uz": "Taomni bezash"
+    "uz": "Taomni bezash",
+    "ja": "料理の盛り付け"
   },
   {
     "code": "kitchenManagement",
@@ -3125,7 +3260,8 @@
     "hu": "Konyhavezetés",
     "el": "Διαχείριση κουζίνας",
     "kk": "Ас үй жұмысын басқару",
-    "uz": "Oshxona boshqaruvi"
+    "uz": "Oshxona boshqaruvi",
+    "ja": "厨房管理"
   },
   {
     "code": "teamCoordination",
@@ -3148,7 +3284,8 @@
     "hu": "Csapat koordinálása",
     "el": "Συντονισμός ομάδας",
     "kk": "Команданы үйлестіру",
-    "uz": "Jamoa faoliyatini muvofiqlashtirish"
+    "uz": "Jamoa faoliyatini muvofiqlashtirish",
+    "ja": "チーム調整"
   },
   {
     "code": "routeOptimization",
@@ -3171,7 +3308,8 @@
     "hu": "Útvonal-optimalizálás",
     "el": "Βελτιστοποίηση διαδρομών",
     "kk": "Бағытты оптимизациялау",
-    "uz": "Marshrutni optimallashtirish"
+    "uz": "Marshrutni optimallashtirish",
+    "ja": "配送ルートの最適化"
   },
   {
     "code": "supplyChainManagement",
@@ -3194,7 +3332,8 @@
     "hu": "Ellátásilánc-menedzsment",
     "el": "Διαχείριση εφοδιαστικής αλυσίδας",
     "kk": "Жеткізу тізбегін басқару",
-    "uz": "Ta'minot zanjirini boshqarish"
+    "uz": "Ta'minot zanjirini boshqarish",
+    "ja": "サプライチェーン管理"
   },
   {
     "code": "transportationPlanning",
@@ -3217,7 +3356,8 @@
     "hu": "Szállítás tervezése",
     "el": "Σχεδιασμός μεταφορών",
     "kk": "Тасымалдауды жоспарлау",
-    "uz": "Transportni rejalashtirish"
+    "uz": "Transportni rejalashtirish",
+    "ja": "輸送計画"
   },
   {
     "code": "freightManagement",
@@ -3240,7 +3380,8 @@
     "hu": "Áruszállítás irányítása",
     "el": "Διαχείριση φορτίων",
     "kk": "Жүк тасымалын басқару",
-    "uz": "Yuk tashish boshqaruvi"
+    "uz": "Yuk tashish boshqaruvi",
+    "ja": "貨物管理"
   },
   {
     "code": "logisticsAnalysis",
@@ -3263,7 +3404,8 @@
     "hu": "Logisztikai elemzés",
     "el": "Ανάλυση εφοδιαστικής",
     "kk": "Логистикалық талдау",
-    "uz": "Logistika tahlili"
+    "uz": "Logistika tahlili",
+    "ja": "物流分析"
   },
   {
     "code": "trafficFlowAnalysis",
@@ -3286,7 +3428,8 @@
     "hu": "Forgalomelemzés",
     "el": "Ανάλυση ροής κυκλοφορίας",
     "kk": "Көлік ағынын талдау",
-    "uz": "Transport oqimini tahlil qilish"
+    "uz": "Transport oqimini tahlil qilish",
+    "ja": "交通流分析"
   },
   {
     "code": "costOptimization",
@@ -3309,7 +3452,8 @@
     "hu": "Költségoptimalizálás",
     "el": "Βελτιστοποίηση κόστους",
     "kk": "Шығындарды оптимизациялау",
-    "uz": "Xarajatlarni optimallashtirish"
+    "uz": "Xarajatlarni optimallashtirish",
+    "ja": "コスト最適化"
   },
   {
     "code": "graphicDesign",
@@ -3332,7 +3476,8 @@
     "hu": "Grafikai tervezés",
     "el": "Γραφιστικός σχεδιασμός",
     "kk": "Графикалық дизайн",
-    "uz": "Grafik dizayn"
+    "uz": "Grafik dizayn",
+    "ja": "グラフィックデザイン"
   },
   {
     "code": "visualCommunication",
@@ -3355,7 +3500,8 @@
     "hu": "Vizuális kommunikáció",
     "el": "Οπτική επικοινωνία",
     "kk": "Визуалды коммуникация",
-    "uz": "Vizual muloqot"
+    "uz": "Vizual muloqot",
+    "ja": "ビジュアルコミュニケーション"
   },
   {
     "code": "typography",
@@ -3378,7 +3524,8 @@
     "hu": "Tipográfia",
     "el": "Τυπογραφία",
     "kk": "Типографика",
-    "uz": "Tipografiya"
+    "uz": "Tipografiya",
+    "ja": "タイポグラフィ"
   },
   {
     "code": "webDesign",
@@ -3401,7 +3548,8 @@
     "hu": "Webdesign",
     "el": "Σχεδιασμός ιστοσελίδων",
     "kk": "Веб-дизайн",
-    "uz": "Veb-dizayn"
+    "uz": "Veb-dizayn",
+    "ja": "ウェブデザイン"
   },
   {
     "code": "userExperience",
@@ -3424,7 +3572,8 @@
     "hu": "Felhasználói élmény (UX)",
     "el": "Εμπειρία χρήστη",
     "kk": "Пайдаланушы тәжірибесі",
-    "uz": "Foydalanuvchi tajribasi (UX)"
+    "uz": "Foydalanuvchi tajribasi (UX)",
+    "ja": "ユーザーエクスペリエンス"
   },
   {
     "code": "colorTheory",
@@ -3447,7 +3596,8 @@
     "hu": "Színelmélet",
     "el": "Θεωρία χρωμάτων",
     "kk": "Түс теориясы",
-    "uz": "Rang nazariyasi"
+    "uz": "Rang nazariyasi",
+    "ja": "色彩理論"
   },
   {
     "code": "photoshopSkills",
@@ -3470,7 +3620,8 @@
     "hu": "Photoshop-ismeretek",
     "el": "Δεξιότητες Photoshop",
     "kk": "Photoshop дағдылары",
-    "uz": "Photoshop koʻnikmalari"
+    "uz": "Photoshop koʻnikmalari",
+    "ja": "Photoshop操作"
   },
   {
     "code": "illustration",
@@ -3493,7 +3644,8 @@
     "hu": "Illusztráció",
     "el": "Εικονογράφηση",
     "kk": "Иллюстрация",
-    "uz": "Illyustratsiya"
+    "uz": "Illyustratsiya",
+    "ja": "イラストレーション"
   },
   {
     "code": "serverSideProgramming",
@@ -3516,7 +3668,8 @@
     "hu": "Szerveroldali programozás",
     "el": "Προγραμματισμός στην πλευρά του διακομιστή",
     "kk": "Сервер жағында бағдарламалау",
-    "uz": "Server tomonidagi dasturlash"
+    "uz": "Server tomonidagi dasturlash",
+    "ja": "サーバーサイド開発"
   },
   {
     "code": "apiDevelopment",
@@ -3539,7 +3692,8 @@
     "hu": "API-fejlesztés",
     "el": "Ανάπτυξη API",
     "kk": "API әзірлеу",
-    "uz": "API ishlab chiqish"
+    "uz": "API ishlab chiqish",
+    "ja": "API開発"
   },
   {
     "code": "versionControl",
@@ -3562,7 +3716,8 @@
     "hu": "Verziókezelés",
     "el": "Έλεγχος εκδόσεων",
     "kk": "Нұсқаларды бақылау",
-    "uz": "Versiyalarni boshqarish"
+    "uz": "Versiyalarni boshqarish",
+    "ja": "バージョン管理"
   },
   {
     "code": "cloudIntegration",
@@ -3585,7 +3740,8 @@
     "hu": "Felhőintegráció",
     "el": "Ενσωμάτωση υπηρεσιών νέφους",
     "kk": "Бұлтты интеграция",
-    "uz": "Bulutli integratsiya"
+    "uz": "Bulutli integratsiya",
+    "ja": "クラウド連携"
   },
   {
     "code": "performanceOptimization",
@@ -3608,7 +3764,8 @@
     "hu": "Teljesítmény-optimalizálás",
     "el": "Βελτιστοποίηση απόδοσης",
     "kk": "Өнімділікті оптимизациялау",
-    "uz": "Unumdorlikni optimallashtirish"
+    "uz": "Unumdorlikni optimallashtirish",
+    "ja": "パフォーマンス最適化"
   },
   {
     "code": "errorHandling",
@@ -3631,7 +3788,8 @@
     "hu": "Hibakezelés",
     "el": "Διαχείριση σφαλμάτων",
     "kk": "Қателерді өңдеу",
-    "uz": "Xatolarni boshqarish"
+    "uz": "Xatolarni boshqarish",
+    "ja": "エラー処理"
   },
   {
     "code": "containerization",
@@ -3654,7 +3812,8 @@
     "hu": "Konténerizáció",
     "el": "Τεχνολογία περιεκτών",
     "kk": "Контейнерлеу",
-    "uz": "Konteynerlashtirish"
+    "uz": "Konteynerlashtirish",
+    "ja": "コンテナ化"
   },
   {
     "code": "environmentalImpactAssessment",
@@ -3677,7 +3836,8 @@
     "hu": "Környezeti hatásvizsgálat",
     "el": "Εκτίμηση περιβαλλοντικών επιπτώσεων",
     "kk": "Қоршаған ортаға әсерді бағалау",
-    "uz": "Ekologik ta'sirni baholash"
+    "uz": "Ekologik ta'sirni baholash",
+    "ja": "環境影響評価"
   },
   {
     "code": "wasteManagement",
@@ -3700,7 +3860,8 @@
     "hu": "Hulladékgazdálkodás",
     "el": "Διαχείριση αποβλήτων",
     "kk": "Қалдықтарды басқару",
-    "uz": "Chiqindilarni boshqarish"
+    "uz": "Chiqindilarni boshqarish",
+    "ja": "廃棄物管理"
   },
   {
     "code": "pollutionControl",
@@ -3723,7 +3884,8 @@
     "hu": "Szennyezés-ellenőrzés",
     "el": "Έλεγχος ρύπανσης",
     "kk": "Ластануды бақылау",
-    "uz": "Ifloslanishni nazorat qilish"
+    "uz": "Ifloslanishni nazorat qilish",
+    "ja": "汚染防止"
   },
   {
     "code": "waterQualityManagement",
@@ -3746,7 +3908,8 @@
     "hu": "Vízminőség-gazdálkodás",
     "el": "Διαχείριση ποιότητας νερού",
     "kk": "Су сапасын басқару",
-    "uz": "Suv sifatini boshqarish"
+    "uz": "Suv sifatini boshqarish",
+    "ja": "水質管理"
   },
   {
     "code": "energyEfficiency",
@@ -3769,7 +3932,8 @@
     "hu": "Energiahatékonyság",
     "el": "Ενεργειακή απόδοση",
     "kk": "Энергия тиімділігі",
-    "uz": "Energiya samaradorligi"
+    "uz": "Energiya samaradorligi",
+    "ja": "省エネルギー"
   },
   {
     "code": "ecosystemManagement",
@@ -3792,7 +3956,8 @@
     "hu": "Ökoszisztéma-kezelés",
     "el": "Διαχείριση οικοσυστήματος",
     "kk": "Экожүйелерді басқару",
-    "uz": "Ekotizimni boshqarish"
+    "uz": "Ekotizimni boshqarish",
+    "ja": "生態系管理"
   },
   {
     "code": "legalResearch",
@@ -3815,7 +3980,8 @@
     "hu": "Jogi kutatás",
     "el": "Νομική έρευνα",
     "kk": "Құқықтық зерттеу",
-    "uz": "Huquqiy tadqiqot"
+    "uz": "Huquqiy tadqiqot",
+    "ja": "法務調査"
   },
   {
     "code": "contractDrafting",
@@ -3838,7 +4004,8 @@
     "hu": "Szerződések szerkesztése",
     "el": "Σύνταξη συμβάσεων",
     "kk": "Келісімшарт жасау",
-    "uz": "Shartnoma tuzish"
+    "uz": "Shartnoma tuzish",
+    "ja": "契約書の作成"
   },
   {
     "code": "litigation",
@@ -3861,7 +4028,8 @@
     "hu": "Peres eljárás",
     "el": "Διεξαγωγή δικών",
     "kk": "Сот талқылауы",
-    "uz": "Sud ishlarini yuritish"
+    "uz": "Sud ishlarini yuritish",
+    "ja": "訴訟対応"
   },
   {
     "code": "legalAdvisory",
@@ -3884,7 +4052,8 @@
     "hu": "Jogi tanácsadás",
     "el": "Νομικές συμβουλές",
     "kk": "Құқықтық кеңес беру",
-    "uz": "Huquqiy maslahat"
+    "uz": "Huquqiy maslahat",
+    "ja": "法務助言"
   },
   {
     "code": "disputeResolution",
@@ -3907,7 +4076,8 @@
     "hu": "Jogviták rendezése",
     "el": "Επίλυση διαφορών",
     "kk": "Дауларды шешу",
-    "uz": "Nizolarni hal qilish"
+    "uz": "Nizolarni hal qilish",
+    "ja": "紛争解決"
   },
   {
     "code": "intellectualProperty",
@@ -3930,7 +4100,8 @@
     "hu": "Szellemi tulajdon",
     "el": "Πνευματική ιδιοκτησία",
     "kk": "Зияткерлік меншік",
-    "uz": "Intellektual mulk"
+    "uz": "Intellektual mulk",
+    "ja": "知的財産"
   },
   {
     "code": "riskAssessment",
@@ -3953,7 +4124,8 @@
     "hu": "Kockázatértékelés",
     "el": "Εκτίμηση κινδύνου",
     "kk": "Тәуекелдерді бағалау",
-    "uz": "Xavflarni baholash"
+    "uz": "Xavflarni baholash",
+    "ja": "リスク評価"
   },
   {
     "code": "claimsProcessing",
@@ -3976,7 +4148,8 @@
     "hu": "Kárigények feldolgozása",
     "el": "Επεξεργασία αποζημιώσεων",
     "kk": "Шағымдарды өңдеу",
-    "uz": "Da'volarni koʻrib chiqish"
+    "uz": "Da'volarni koʻrib chiqish",
+    "ja": "保険金請求の処理"
   },
   {
     "code": "customerConsultation",
@@ -3999,7 +4172,8 @@
     "hu": "Ügyféltanácsadás",
     "el": "Συμβουλευτική πελατών",
     "kk": "Клиенттерге кеңес беру",
-    "uz": "Mijozlarga maslahat berish"
+    "uz": "Mijozlarga maslahat berish",
+    "ja": "顧客コンサルティング"
   },
   {
     "code": "insuranceRegulations",
@@ -4022,7 +4196,8 @@
     "hu": "Biztosítási szabályozás",
     "el": "Κανονισμοί ασφάλισης",
     "kk": "Сақтандыру нормалары",
-    "uz": "Sugʻurta qoidalari"
+    "uz": "Sugʻurta qoidalari",
+    "ja": "保険規制"
   },
   {
     "code": "premiumCalculation",
@@ -4045,7 +4220,8 @@
     "hu": "Díjkalkuláció",
     "el": "Υπολογισμός ασφαλίστρων",
     "kk": "Сақтандыру сыйақысын есептеу",
-    "uz": "Sugʻurta mukofotini hisoblash"
+    "uz": "Sugʻurta mukofotini hisoblash",
+    "ja": "保険料の算定"
   },
   {
     "code": "policyRenewal",
@@ -4068,7 +4244,8 @@
     "hu": "Kötvény megújítása",
     "el": "Ανανέωση ασφαλιστικών συμβολαίων",
     "kk": "Сақтандыру полисін жаңарту",
-    "uz": "Sugʻurta polisini yangilash"
+    "uz": "Sugʻurta polisini yangilash",
+    "ja": "契約更新"
   },
   {
     "code": "testPlanning",
@@ -4091,7 +4268,8 @@
     "hu": "Teszttervezés",
     "el": "Σχεδιασμός δοκιμών",
     "kk": "Тестілеуді жоспарлау",
-    "uz": "Test rejalashtirish"
+    "uz": "Test rejalashtirish",
+    "ja": "テスト計画"
   },
   {
     "code": "manualTesting",
@@ -4114,7 +4292,8 @@
     "hu": "Manuális tesztelés",
     "el": "Χειροκίνητος έλεγχος",
     "kk": "Қолмен тестілеу",
-    "uz": "Qoʻlda test qilish"
+    "uz": "Qoʻlda test qilish",
+    "ja": "手動テスト"
   },
   {
     "code": "automatedTesting",
@@ -4137,7 +4316,8 @@
     "hu": "Automatizált tesztelés",
     "el": "Αυτοματοποιημένος έλεγχος",
     "kk": "Автоматтандырылған тестілеу",
-    "uz": "Avtomatlashtirilgan test qilish"
+    "uz": "Avtomatlashtirilgan test qilish",
+    "ja": "自動テスト"
   },
   {
     "code": "performanceTesting",
@@ -4160,7 +4340,8 @@
     "hu": "Teljesítménytesztelés",
     "el": "Δοκιμή απόδοσης",
     "kk": "Өнімділік тестілеуі",
-    "uz": "Unumdorlik testi"
+    "uz": "Unumdorlik testi",
+    "ja": "性能テスト"
   },
   {
     "code": "regressionTesting",
@@ -4183,7 +4364,8 @@
     "hu": "Regressziós tesztelés",
     "el": "Δοκιμή παλινδρόμησης",
     "kk": "Регрессиялық тестілеу",
-    "uz": "Regressiya testi"
+    "uz": "Regressiya testi",
+    "ja": "回帰テスト"
   },
   {
     "code": "testAutomationTools",
@@ -4206,7 +4388,8 @@
     "hu": "Tesztautomatizálási eszközök",
     "el": "Εργαλεία αυτοματισμού δοκιμών",
     "kk": "Тестілеуді автоматтандыру құралдары",
-    "uz": "Test avtomatlashtirish vositalari"
+    "uz": "Test avtomatlashtirish vositalari",
+    "ja": "テスト自動化ツール"
   },
   {
     "code": "continuousIntegration",
@@ -4229,7 +4412,8 @@
     "hu": "Folyamatos integráció",
     "el": "Συνεχής ενσωμάτωση",
     "kk": "Үзіліссіз интеграция",
-    "uz": "Uzluksiz integratsiya"
+    "uz": "Uzluksiz integratsiya",
+    "ja": "継続的インテグレーション"
   },
   {
     "code": "qualityStandards",
@@ -4252,7 +4436,8 @@
     "hu": "Minőségi szabványok",
     "el": "Πρότυπα ποιότητας",
     "kk": "Сапа стандарттары",
-    "uz": "Sifat standartlari"
+    "uz": "Sifat standartlari",
+    "ja": "品質基準"
   },
   {
     "code": "campaignStrategy",
@@ -4275,7 +4460,8 @@
     "hu": "Kampánystratégia",
     "el": "Στρατηγική καμπάνιας",
     "kk": "Кампания стратегиясы",
-    "uz": "Kampaniya strategiyasi"
+    "uz": "Kampaniya strategiyasi",
+    "ja": "キャンペーン戦略"
   },
   {
     "code": "budgetManagement",
@@ -4298,7 +4484,8 @@
     "hu": "Költségvetés-kezelés",
     "el": "Διαχείριση προϋπολογισμού",
     "kk": "Бюджетті басқару",
-    "uz": "Byudjetni boshqarish"
+    "uz": "Byudjetni boshqarish",
+    "ja": "予算管理"
   },
   {
     "code": "marketResearch",
@@ -4321,7 +4508,8 @@
     "hu": "Piackutatás",
     "el": "Έρευνα αγοράς",
     "kk": "Нарықты зерттеу",
-    "uz": "Bozor tadqiqoti"
+    "uz": "Bozor tadqiqoti",
+    "ja": "市場調査"
   },
   {
     "code": "mediaPlanning",
@@ -4344,7 +4532,8 @@
     "hu": "Médiatervezés",
     "el": "Σχεδιασμός μέσων",
     "kk": "Медиа жоспарлау",
-    "uz": "Media rejalashtirish"
+    "uz": "Media rejalashtirish",
+    "ja": "メディアプランニング"
   },
   {
     "code": "advertisingChannels",
@@ -4367,7 +4556,8 @@
     "hu": "Reklámcsatornák",
     "el": "Διαφημιστικά κανάλια",
     "kk": "Жарнама арналары",
-    "uz": "Reklama kanallari"
+    "uz": "Reklama kanallari",
+    "ja": "広告チャネル"
   },
   {
     "code": "digitalMarketing",
@@ -4390,7 +4580,8 @@
     "hu": "Digitális marketing",
     "el": "Ψηφιακό μάρκετινγκ",
     "kk": "Цифрлық маркетинг",
-    "uz": "Raqamli marketing"
+    "uz": "Raqamli marketing",
+    "ja": "デジタルマーケティング"
   },
   {
     "code": "brandAwareness",
@@ -4413,7 +4604,8 @@
     "hu": "Márkaismertség",
     "el": "Αναγνωρισιμότητα μάρκας",
     "kk": "Бренд танылуы",
-    "uz": "Brendni tanitish"
+    "uz": "Brendni tanitish",
+    "ja": "ブランド認知"
   },
   {
     "code": "socialMediaMarketing",
@@ -4436,7 +4628,8 @@
     "hu": "Közösségimédia-marketing",
     "el": "Μάρκετινγκ μέσων κοινωνικής δικτύωσης",
     "kk": "Әлеуметтік желілерде маркетинг жүргізу",
-    "uz": "Ijtimoiy tarmoqlar marketingi"
+    "uz": "Ijtimoiy tarmoqlar marketingi",
+    "ja": "ソーシャルメディアマーケティング"
   },
   {
     "code": "contentCreation",
@@ -4459,7 +4652,8 @@
     "hu": "Tartalomkészítés",
     "el": "Δημιουργία περιεχομένου",
     "kk": "Контент жасау",
-    "uz": "Kontent yaratish"
+    "uz": "Kontent yaratish",
+    "ja": "コンテンツ制作"
   },
   {
     "code": "advertisingMetrics",
@@ -4482,7 +4676,8 @@
     "hu": "Reklámmutatók",
     "el": "Μετρήσεις διαφήμισης",
     "kk": "Жарнама метрикалары",
-    "uz": "Reklama koʻrsatkichlari"
+    "uz": "Reklama koʻrsatkichlari",
+    "ja": "広告効果測定"
   },
   {
     "code": "politicalTheory",
@@ -4505,7 +4700,8 @@
     "hu": "Politikai elmélet",
     "el": "Πολιτική θεωρία",
     "kk": "Саяси теория",
-    "uz": "Siyosiy nazariya"
+    "uz": "Siyosiy nazariya",
+    "ja": "政治理論"
   },
   {
     "code": "comparativePolitics",
@@ -4528,7 +4724,8 @@
     "hu": "Összehasonlító politika",
     "el": "Συγκριτική πολιτική",
     "kk": "Салыстырмалы саясаттану",
-    "uz": "Qiyosiy siyosatshunoslik"
+    "uz": "Qiyosiy siyosatshunoslik",
+    "ja": "比較政治学"
   },
   {
     "code": "internationalRelations",
@@ -4551,7 +4748,8 @@
     "hu": "Nemzetközi kapcsolatok",
     "el": "Διεθνείς σχέσεις",
     "kk": "Халықаралық қатынастар",
-    "uz": "Xalqaro munosabatlar"
+    "uz": "Xalqaro munosabatlar",
+    "ja": "国際関係"
   },
   {
     "code": "politicalResearch",
@@ -4574,7 +4772,8 @@
     "hu": "Politikai kutatás",
     "el": "Πολιτική έρευνα",
     "kk": "Саяси зерттеу",
-    "uz": "Siyosiy tadqiqot"
+    "uz": "Siyosiy tadqiqot",
+    "ja": "政治調査"
   },
   {
     "code": "publicPolicy",
@@ -4597,7 +4796,8 @@
     "hu": "Közpolitika",
     "el": "Δημόσια πολιτική",
     "kk": "Мемлекеттік саясат",
-    "uz": "Davlat siyosati"
+    "uz": "Davlat siyosati",
+    "ja": "公共政策"
   },
   {
     "code": "politicalCommunication",
@@ -4620,7 +4820,8 @@
     "hu": "Politikai kommunikáció",
     "el": "Πολιτική επικοινωνία",
     "kk": "Саяси коммуникация",
-    "uz": "Siyosiy kommunikatsiya"
+    "uz": "Siyosiy kommunikatsiya",
+    "ja": "政治コミュニケーション"
   },
   {
     "code": "electionAnalysis",
@@ -4643,7 +4844,8 @@
     "hu": "Választási elemzés",
     "el": "Ανάλυση εκλογών",
     "kk": "Сайлау талдауы",
-    "uz": "Saylov tahlili"
+    "uz": "Saylov tahlili",
+    "ja": "選挙分析"
   },
   {
     "code": "politicalEconomy",
@@ -4666,7 +4868,8 @@
     "hu": "Politikai gazdaságtan",
     "el": "Πολιτική οικονομία",
     "kk": "Саяси экономика",
-    "uz": "Siyosiy iqtisod"
+    "uz": "Siyosiy iqtisod",
+    "ja": "政治経済"
   },
   {
     "code": "supplierManagement",
@@ -4689,7 +4892,8 @@
     "hu": "Beszállítók kezelése",
     "el": "Διαχείριση προμηθευτών",
     "kk": "Жеткізушілерді басқару",
-    "uz": "Yetkazib beruvchilarni boshqarish"
+    "uz": "Yetkazib beruvchilarni boshqarish",
+    "ja": "サプライヤー管理"
   },
   {
     "code": "contractNegotiation",
@@ -4712,7 +4916,8 @@
     "hu": "Szerződéses tárgyalások",
     "el": "Διαπραγμάτευση συμβάσεων",
     "kk": "Келісімшарт бойынша келіссөздер",
-    "uz": "Shartnoma muzokaralari"
+    "uz": "Shartnoma muzokaralari",
+    "ja": "契約交渉"
   },
   {
     "code": "inventoryControl",
@@ -4735,7 +4940,8 @@
     "hu": "Készletellenőrzés",
     "el": "Έλεγχος αποθέματος",
     "kk": "Қорларды бақылау",
-    "uz": "Zaxiralarni nazorat qilish"
+    "uz": "Zaxiralarni nazorat qilish",
+    "ja": "在庫統制"
   },
   {
     "code": "vendorSelection",
@@ -4758,7 +4964,8 @@
     "hu": "Beszállítók kiválasztása",
     "el": "Επιλογή προμηθευτών",
     "kk": "Жеткізушіні таңдау",
-    "uz": "Yetkazib beruvchini tanlash"
+    "uz": "Yetkazib beruvchini tanlash",
+    "ja": "取引先の選定"
   },
   {
     "code": "sustainabilityPurchasing",
@@ -4781,7 +4988,8 @@
     "hu": "Fenntartható beszerzés",
     "el": "Βιώσιμες προμήθειες",
     "kk": "Тұрақты сатып алулар",
-    "uz": "Barqaror xaridlar"
+    "uz": "Barqaror xaridlar",
+    "ja": "持続可能な調達"
   },
   {
     "code": "communityEngagement",
@@ -4804,7 +5012,8 @@
     "hu": "Közösségi szerepvállalás",
     "el": "Εμπλοκή κοινότητας",
     "kk": "Қоғамдастықпен өзара іс-қимыл",
-    "uz": "Jamoatchilik bilan ishlash"
+    "uz": "Jamoatchilik bilan ishlash",
+    "ja": "地域との連携"
   },
   {
     "code": "eventCoordination",
@@ -4827,7 +5036,8 @@
     "hu": "Rendezvénykoordináció",
     "el": "Συντονισμός εκδηλώσεων",
     "kk": "Іс-шараларды үйлестіру",
-    "uz": "Tadbirlarni muvofiqlashtirish"
+    "uz": "Tadbirlarni muvofiqlashtirish",
+    "ja": "イベント運営"
   },
   {
     "code": "teamCollaboration",
@@ -4850,7 +5060,8 @@
     "hu": "Csapaton belüli együttműködés",
     "el": "Ομαδική συνεργασία",
     "kk": "Командамен бірлесіп жұмыс істеу",
-    "uz": "Jamoada hamkorlik"
+    "uz": "Jamoada hamkorlik",
+    "ja": "チーム連携"
   },
   {
     "code": "communicationSkills",
@@ -4873,7 +5084,8 @@
     "hu": "Kommunikációs készség",
     "el": "Επικοινωνιακές δεξιότητες",
     "kk": "Қарым-қатынас дағдылары",
-    "uz": "Muloqot koʻnikmalari"
+    "uz": "Muloqot koʻnikmalari",
+    "ja": "コミュニケーション能力"
   },
   {
     "code": "fundraising",
@@ -4896,7 +5108,8 @@
     "hu": "Forrásgyűjtés",
     "el": "Άντληση χορηγιών",
     "kk": "Қаражат жинау",
-    "uz": "Mablagʻ jalb qilish"
+    "uz": "Mablagʻ jalb qilish",
+    "ja": "資金調達"
   },
   {
     "code": "empathy",
@@ -4919,7 +5132,8 @@
     "hu": "Empátia",
     "el": "Ενσυναίσθηση",
     "kk": "Жанашырлық",
-    "uz": "Hamdardlik"
+    "uz": "Hamdardlik",
+    "ja": "共感力"
   },
   {
     "code": "leadership",
@@ -4942,7 +5156,8 @@
     "hu": "Vezetői készség",
     "el": "Ηγεσία",
     "kk": "Жетекшілік",
-    "uz": "Yetakchilik"
+    "uz": "Yetakchilik",
+    "ja": "リーダーシップ"
   },
   {
     "code": "organizationSkills",
@@ -4965,7 +5180,8 @@
     "hu": "Szervezési képesség",
     "el": "Οργανωτικές δεξιότητες",
     "kk": "Ұйымдастыру дағдылары",
-    "uz": "Tashkilotchilik koʻnikmalari"
+    "uz": "Tashkilotchilik koʻnikmalari",
+    "ja": "組織力"
   },
   {
     "code": "creditAnalysis",
@@ -4988,7 +5204,8 @@
     "hu": "Hitelelemzés",
     "el": "Πιστωτική ανάλυση",
     "kk": "Несие талдауы",
-    "uz": "Kredit tahlili"
+    "uz": "Kredit tahlili",
+    "ja": "与信分析"
   },
   {
     "code": "loanAssessment",
@@ -5011,7 +5228,8 @@
     "hu": "Hitelkérelmek értékelése",
     "el": "Αξιολόγηση δανείων",
     "kk": "Несиені бағалау",
-    "uz": "Kreditni baholash"
+    "uz": "Kreditni baholash",
+    "ja": "融資審査"
   },
   {
     "code": "creditRiskManagement",
@@ -5034,7 +5252,8 @@
     "hu": "Hitelkockázat-kezelés",
     "el": "Διαχείριση πιστωτικού κινδύνου",
     "kk": "Несие тәуекелдерін басқару",
-    "uz": "Kredit xavfini boshqarish"
+    "uz": "Kredit xavfini boshqarish",
+    "ja": "信用リスク管理"
   },
   {
     "code": "creditReporting",
@@ -5057,7 +5276,8 @@
     "hu": "Hiteljelentés-készítés",
     "el": "Πιστωτική αναφορά",
     "kk": "Несие есептілігі",
-    "uz": "Kredit hisobotini tuzish"
+    "uz": "Kredit hisobotini tuzish",
+    "ja": "信用情報の報告"
   },
   {
     "code": "loanDocumentation",
@@ -5080,7 +5300,8 @@
     "hu": "Hiteldokumentáció",
     "el": "Τεκμηρίωση δανείων",
     "kk": "Несие құжаттамасы",
-    "uz": "Kredit hujjatlarini rasmiylashtirish"
+    "uz": "Kredit hujjatlarini rasmiylashtirish",
+    "ja": "融資書類の作成"
   },
   {
     "code": "creditPolicies",
@@ -5103,7 +5324,8 @@
     "hu": "Hitelpolitikák",
     "el": "Πιστωτικές πολιτικές",
     "kk": "Несие саясаты",
-    "uz": "Kredit siyosati"
+    "uz": "Kredit siyosati",
+    "ja": "与信方針"
   },
   {
     "code": "customerCreditAssessment",
@@ -5126,7 +5348,8 @@
     "hu": "Ügyfelek hitelképességének értékelése",
     "el": "Αξιολόγηση πιστοληπτικής ικανότητας πελατών",
     "kk": "Клиенттің несиелік қабілетін бағалау",
-    "uz": "Mijozning kredit qobiliyatini baholash"
+    "uz": "Mijozning kredit qobiliyatini baholash",
+    "ja": "顧客の与信評価"
   },
   {
     "code": "accountManagement",
@@ -5149,7 +5372,8 @@
     "hu": "Számlakezelés",
     "el": "Διαχείριση λογαριασμών",
     "kk": "Шоттарды басқару",
-    "uz": "Hisobvaraqlarni boshqarish"
+    "uz": "Hisobvaraqlarni boshqarish",
+    "ja": "口座管理"
   },
   {
     "code": "loanProcessing",
@@ -5172,7 +5396,8 @@
     "hu": "Hitelügyintézés",
     "el": "Επεξεργασία δανείων",
     "kk": "Несиені өңдеу",
-    "uz": "Kreditni rasmiylashtirish"
+    "uz": "Kreditni rasmiylashtirish",
+    "ja": "融資事務"
   },
   {
     "code": "riskManagement",
@@ -5195,7 +5420,8 @@
     "hu": "Kockázatok kezelése",
     "el": "Διαχείριση κινδύνων",
     "kk": "Қаржылық тәуекелдерді басқару",
-    "uz": "Xavf-xatarlarni boshqarish"
+    "uz": "Xavf-xatarlarni boshqarish",
+    "ja": "リスク管理"
   },
   {
     "code": "transactionProcessing",
@@ -5218,7 +5444,8 @@
     "hu": "Tranzakciók feldolgozása",
     "el": "Επεξεργασία συναλλαγών",
     "kk": "Транзакцияларды өңдеу",
-    "uz": "Tranzaksiyalarni qayta ishlash"
+    "uz": "Tranzaksiyalarni qayta ishlash",
+    "ja": "取引処理"
   },
   {
     "code": "bankingSoftware",
@@ -5241,7 +5468,8 @@
     "hu": "Bankszoftverek",
     "el": "Τραπεζικό λογισμικό",
     "kk": "Банктік бағдарламалық жасақтама",
-    "uz": "Bank dasturiy ta'minoti"
+    "uz": "Bank dasturiy ta'minoti",
+    "ja": "銀行システム"
   },
   {
     "code": "treasuryManagement",
@@ -5264,7 +5492,8 @@
     "hu": "Treasury-menedzsment",
     "el": "Διαχείριση διαθεσίμων",
     "kk": "Қазынашылықты басқару",
-    "uz": "Xazina boshqaruvi"
+    "uz": "Xazina boshqaruvi",
+    "ja": "資金管理"
   },
   {
     "code": "recruitment",
@@ -5287,7 +5516,8 @@
     "hu": "Toborzás",
     "el": "Προσλήψεις",
     "kk": "Персонал жалдау",
-    "uz": "Ishga qabul qilish"
+    "uz": "Ishga qabul qilish",
+    "ja": "採用活動"
   },
   {
     "code": "talentManagement",
@@ -5310,7 +5540,8 @@
     "hu": "Tehetségmenedzsment",
     "el": "Διαχείριση ταλέντων",
     "kk": "Талантты басқару",
-    "uz": "Iqtidorlarni boshqarish"
+    "uz": "Iqtidorlarni boshqarish",
+    "ja": "人材開発"
   },
   {
     "code": "hrCompliance",
@@ -5333,7 +5564,8 @@
     "hu": "HR-megfelelés",
     "el": "Συμμόρφωση με εργατική νομοθεσία",
     "kk": "Кадр саясатына сәйкестік",
-    "uz": "Mehnat qonunchiligiga muvofiqlik"
+    "uz": "Mehnat qonunchiligiga muvofiqlik",
+    "ja": "人事コンプライアンス"
   },
   {
     "code": "workplaceSafety",
@@ -5356,7 +5588,8 @@
     "hu": "Munkahelyi biztonság",
     "el": "Ασφάλεια εργασίας",
     "kk": "Жұмыс орнындағы қауіпсіздік",
-    "uz": "Ish joyida xavfsizlik"
+    "uz": "Ish joyida xavfsizlik",
+    "ja": "職場の安全衛生"
   },
   {
     "code": "conflictResolution",
@@ -5379,7 +5612,8 @@
     "hu": "Konfliktusok kezelése",
     "el": "Διαχείριση συγκρούσεων",
     "kk": "Ұжымдағы дау-дамайды шешу",
-    "uz": "Nizolarni bartaraf etish"
+    "uz": "Nizolarni bartaraf etish",
+    "ja": "対立の解決"
   },
   {
     "code": "surveying",
@@ -5402,7 +5636,8 @@
     "hu": "Földmérés",
     "el": "Τοπογραφική αποτύπωση",
     "kk": "Аумақты өлшеу",
-    "uz": "Geodezik oʻlchash ishlari"
+    "uz": "Geodezik oʻlchash ishlari",
+    "ja": "測量"
   },
   {
     "code": "geodeticSurvey",
@@ -5425,7 +5660,8 @@
     "hu": "Geodéziai felmérés",
     "el": "Γεωδαιτική αποτύπωση",
     "kk": "Геодезиялық зерттеу",
-    "uz": "Geodeziya tadqiqotlari"
+    "uz": "Geodeziya tadqiqotlari",
+    "ja": "測地測量"
   },
   {
     "code": "landBoundaryDetermination",
@@ -5448,7 +5684,8 @@
     "hu": "Telekhatárok meghatározása",
     "el": "Καθορισμός ορίων γης",
     "kk": "Жер учаскесінің шекарасын анықтау",
-    "uz": "Yer chegaralarini aniqlash"
+    "uz": "Yer chegaralarini aniqlash",
+    "ja": "土地境界の確定"
   },
   {
     "code": "gpsMapping",
@@ -5471,7 +5708,8 @@
     "hu": "GPS-térképezés",
     "el": "Χαρτογράφηση GPS",
     "kk": "GPS арқылы карта жасау",
-    "uz": "GPS xaritalash"
+    "uz": "GPS xaritalash",
+    "ja": "GPS測位・地図作成"
   },
   {
     "code": "dataAnalysis",
@@ -5494,7 +5732,8 @@
     "hu": "Adatelemzés",
     "el": "Ανάλυση δεδομένων",
     "kk": "Деректерді талдау",
-    "uz": "Ma'lumotlar tahlili"
+    "uz": "Ma'lumotlar tahlili",
+    "ja": "データ分析"
   },
   {
     "code": "cadSoftware",
@@ -5517,7 +5756,8 @@
     "hu": "CAD szoftverek",
     "el": "Λογισμικό CAD",
     "kk": "CAD бағдарламалық жасақтамасы",
-    "uz": "CAD dasturiy ta'minoti"
+    "uz": "CAD dasturiy ta'minoti",
+    "ja": "CADソフト"
   },
   {
     "code": "cartography",
@@ -5540,7 +5780,8 @@
     "hu": "Térképészet",
     "el": "Χαρτογραφία",
     "kk": "Картография",
-    "uz": "Kartografiya"
+    "uz": "Kartografiya",
+    "ja": "地図製作"
   },
   {
     "code": "landTopography",
@@ -5563,7 +5804,8 @@
     "hu": "Terep topográfiája",
     "el": "Τοπογραφία εδάφους",
     "kk": "Жер топографиясы",
-    "uz": "Yer relyefi (topografiya)"
+    "uz": "Yer relyefi (topografiya)",
+    "ja": "地形測量"
   },
   {
     "code": "trainingPlanning",
@@ -5586,7 +5828,8 @@
     "hu": "Edzéstervezés",
     "el": "Σχεδιασμός προπόνησης",
     "kk": "Жаттығуларды жоспарлау",
-    "uz": "Mashgʻulotlarni rejalashtirish"
+    "uz": "Mashgʻulotlarni rejalashtirish",
+    "ja": "トレーニング計画"
   },
   {
     "code": "athleteDevelopment",
@@ -5609,7 +5852,8 @@
     "hu": "Sportolók fejlesztése",
     "el": "Ανάπτυξη αθλητών",
     "kk": "Спортшыны дамыту",
-    "uz": "Sportchini rivojlantirish"
+    "uz": "Sportchini rivojlantirish",
+    "ja": "選手育成"
   },
   {
     "code": "performanceAnalysis",
@@ -5632,7 +5876,8 @@
     "hu": "Teljesítményelemzés",
     "el": "Ανάλυση απόδοσης",
     "kk": "Нәтижелілікті талдау",
-    "uz": "Natijalarni tahlil qilish"
+    "uz": "Natijalarni tahlil qilish",
+    "ja": "パフォーマンス分析"
   },
   {
     "code": "motivationalSkills",
@@ -5655,7 +5900,8 @@
     "hu": "Motivációs készségek",
     "el": "Δεξιότητες παρότρυνσης",
     "kk": "Ынталандыру дағдылары",
-    "uz": "Ragʻbatlantirish koʻnikmalari"
+    "uz": "Ragʻbatlantirish koʻnikmalari",
+    "ja": "動機づけ"
   },
   {
     "code": "strategyDevelopment",
@@ -5678,7 +5924,8 @@
     "hu": "Stratégiafejlesztés",
     "el": "Ανάπτυξη στρατηγικής",
     "kk": "Стратегия әзірлеу",
-    "uz": "Strategiya ishlab chiqish"
+    "uz": "Strategiya ishlab chiqish",
+    "ja": "戦略策定"
   },
   {
     "code": "teamBuilding",
@@ -5701,7 +5948,8 @@
     "hu": "Csapatépítés",
     "el": "Καλλιέργεια ομαδικού πνεύματος",
     "kk": "Команда құру",
-    "uz": "Jamoa qurish"
+    "uz": "Jamoa qurish",
+    "ja": "チームビルディング"
   },
   {
     "code": "fitnessAssessment",
@@ -5724,7 +5972,8 @@
     "hu": "Fizikai állapot felmérése",
     "el": "Αξιολόγηση φυσικής κατάστασης",
     "kk": "Дене шынықтыру деңгейін бағалау",
-    "uz": "Jismoniy tayyorgarlikni baholash"
+    "uz": "Jismoniy tayyorgarlikni baholash",
+    "ja": "体力測定"
   },
   {
     "code": "individualizedTraining",
@@ -5747,7 +5996,8 @@
     "hu": "Egyéni edzésprogram",
     "el": "Εξατομικευμένη προπόνηση",
     "kk": "Жеке жаттығу",
-    "uz": "Individual mashgʻulot"
+    "uz": "Individual mashgʻulot",
+    "ja": "個別トレーニング"
   },
   {
     "code": "medicationDispensing",
@@ -5770,7 +6020,8 @@
     "hu": "Gyógyszerek kiadása",
     "el": "Διάθεση φαρμάκων",
     "kk": "Дәрі-дәрмек тарату",
-    "uz": "Dori-darmon tarqatish"
+    "uz": "Dori-darmon tarqatish",
+    "ja": "調剤"
   },
   {
     "code": "medicationStorage",
@@ -5793,7 +6044,8 @@
     "hu": "Gyógyszerek tárolása",
     "el": "Αποθήκευση φαρμάκων",
     "kk": "Дәрі-дәрмекті сақтау",
-    "uz": "Dori-darmonlarni saqlash"
+    "uz": "Dori-darmonlarni saqlash",
+    "ja": "医薬品の保管"
   },
   {
     "code": "drugPreparation",
@@ -5816,7 +6068,8 @@
     "hu": "Gyógyszerek elkészítése",
     "el": "Παρασκευή φαρμάκων",
     "kk": "Дәрі дайындау",
-    "uz": "Dori tayyorlash"
+    "uz": "Dori tayyorlash",
+    "ja": "製剤"
   },
   {
     "code": "pharmacology",
@@ -5839,7 +6092,8 @@
     "hu": "Farmakológia",
     "el": "Φαρμακολογία",
     "kk": "Фармакология",
-    "uz": "Farmakologiya"
+    "uz": "Farmakologiya",
+    "ja": "薬理学"
   },
   {
     "code": "medicationMonitoring",
@@ -5862,7 +6116,8 @@
     "hu": "Gyógyszerhatás monitorozása",
     "el": "Παρακολούθηση φαρμακευτικής αγωγής",
     "kk": "Дәрі-дәрмекті бақылау",
-    "uz": "Dori qabulini kuzatish"
+    "uz": "Dori qabulini kuzatish",
+    "ja": "服薬管理"
   },
   {
     "code": "childDevelopment",
@@ -5885,7 +6140,8 @@
     "hu": "Gyermekfejlődés",
     "el": "Ανάπτυξη παιδιού",
     "kk": "Балалардың дамуы",
-    "uz": "Bola rivojlanishi"
+    "uz": "Bola rivojlanishi",
+    "ja": "子どもの発達支援"
   },
   {
     "code": "lessonPlanning",
@@ -5908,7 +6164,8 @@
     "hu": "Óratervezés",
     "el": "Σχεδιασμός μαθήματος",
     "kk": "Сабақ жоспарлау",
-    "uz": "Dars rejalashtirish"
+    "uz": "Dars rejalashtirish",
+    "ja": "授業計画"
   },
   {
     "code": "earlyLearningMethods",
@@ -5931,7 +6188,8 @@
     "hu": "Korai fejlesztési módszerek",
     "el": "Μέθοδοι πρώιμης μάθησης",
     "kk": "Ерте білім беру әдістері",
-    "uz": "Erta taʼlim metodlari"
+    "uz": "Erta taʼlim metodlari",
+    "ja": "幼児教育の指導法"
   },
   {
     "code": "classroomManagement",
@@ -5954,7 +6212,8 @@
     "hu": "Osztálymenedzsment",
     "el": "Διαχείριση τάξης",
     "kk": "Сынып жұмысын басқару",
-    "uz": "Sinfni boshqarish"
+    "uz": "Sinfni boshqarish",
+    "ja": "学級運営"
   },
   {
     "code": "creativeActivities",
@@ -5977,7 +6236,8 @@
     "hu": "Kreatív tevékenységek",
     "el": "Δημιουργικές δραστηριότητες",
     "kk": "Шығармашылық іс-әрекеттер",
-    "uz": "Ijodiy mashgʻulotlar"
+    "uz": "Ijodiy mashgʻulotlar",
+    "ja": "創作活動"
   },
   {
     "code": "languageDevelopment",
@@ -6000,7 +6260,8 @@
     "hu": "Nyelvi fejlődés",
     "el": "Ανάπτυξη γλώσσας",
     "kk": "Тілдік даму",
-    "uz": "Nutq rivojlanishi"
+    "uz": "Nutq rivojlanishi",
+    "ja": "言語発達支援"
   },
   {
     "code": "childPsychology",
@@ -6023,7 +6284,8 @@
     "hu": "Gyermekpszichológia",
     "el": "Παιδική ψυχολογία",
     "kk": "Балалар психологиясы",
-    "uz": "Bolalar psixologiyasi"
+    "uz": "Bolalar psixologiyasi",
+    "ja": "児童心理"
   },
   {
     "code": "parentCommunication",
@@ -6046,7 +6308,8 @@
     "hu": "Kommunikáció a szülőkkel",
     "el": "Επικοινωνία με γονείς",
     "kk": "Ата-аналармен қарым-қатынас",
-    "uz": "Ota-onalar bilan muloqot"
+    "uz": "Ota-onalar bilan muloqot",
+    "ja": "保護者対応"
   },
   {
     "code": "socialSkillsDevelopment",
@@ -6069,7 +6332,8 @@
     "hu": "Szociális készségek fejlesztése",
     "el": "Ανάπτυξη κοινωνικών δεξιοτήτων",
     "kk": "Әлеуметтік дағдыларды дамыту",
-    "uz": "Ijtimoiy koʻnikmalarni rivojlantirish"
+    "uz": "Ijtimoiy koʻnikmalarni rivojlantirish",
+    "ja": "社会性の育成"
   },
   {
     "code": "assessmentAndEvaluation",
@@ -6092,7 +6356,8 @@
     "hu": "Felmérés és értékelés",
     "el": "Αξιολόγηση επιδόσεων",
     "kk": "Тексеру және бағалау",
-    "uz": "Baholash va tahlil qilish"
+    "uz": "Baholash va tahlil qilish",
+    "ja": "評価・査定"
   },
   {
     "code": "psychologicalAssessment",
@@ -6115,7 +6380,8 @@
     "hu": "Pszichológiai felmérés",
     "el": "Ψυχολογική αξιολόγηση",
     "kk": "Психологиялық бағалау",
-    "uz": "Psixologik baholash"
+    "uz": "Psixologik baholash",
+    "ja": "心理アセスメント"
   },
   {
     "code": "counseling",
@@ -6138,7 +6404,8 @@
     "hu": "Tanácsadás",
     "el": "Συμβουλευτική",
     "kk": "Кеңес беру",
-    "uz": "Maslahat berish"
+    "uz": "Maslahat berish",
+    "ja": "カウンセリング"
   },
   {
     "code": "mentalHealthSupport",
@@ -6161,7 +6428,8 @@
     "hu": "Mentális egészség támogatása",
     "el": "Υποστήριξη ψυχικής υγείας",
     "kk": "Психикалық денсаулықты қолдау",
-    "uz": "Ruhiy salomatlikka koʻmak"
+    "uz": "Ruhiy salomatlikka koʻmak",
+    "ja": "メンタルヘルス支援"
   },
   {
     "code": "behavioralTherapy",
@@ -6184,7 +6452,8 @@
     "hu": "Viselkedésterápia",
     "el": "Θεραπεία συμπεριφοράς",
     "kk": "Мінез-құлық терапиясы",
-    "uz": "Xulq-atvor terapiyasi"
+    "uz": "Xulq-atvor terapiyasi",
+    "ja": "行動療法"
   },
   {
     "code": "stressManagement",
@@ -6207,7 +6476,8 @@
     "hu": "Stresszkezelés",
     "el": "Διαχείριση άγχους",
     "kk": "Стрессті басқару",
-    "uz": "Stressni boshqarish"
+    "uz": "Stressni boshqarish",
+    "ja": "ストレスマネジメント"
   },
   {
     "code": "cognitiveBehavioralTherapy",
@@ -6230,7 +6500,8 @@
     "hu": "Kognitív viselkedésterápia",
     "el": "Γνωσιακή-συμπεριφορική θεραπεία",
     "kk": "Когнитивті-мінез-құлық терапиясы",
-    "uz": "Kognitiv-xulqiy terapiya"
+    "uz": "Kognitiv-xulqiy terapiya",
+    "ja": "認知行動療法"
   },
   {
     "code": "emotionalSupport",
@@ -6253,7 +6524,8 @@
     "hu": "Emocionális támogatás",
     "el": "Συναισθηματική υποστήριξη",
     "kk": "Эмоционалды қолдау",
-    "uz": "Emotsional yordam"
+    "uz": "Emotsional yordam",
+    "ja": "情緒的支援"
   },
   {
     "code": "psychotherapy",
@@ -6276,7 +6548,8 @@
     "hu": "Pszichoterápia",
     "el": "Ψυχοθεραπεία",
     "kk": "Психотерапия",
-    "uz": "Psixoterapiya"
+    "uz": "Psixoterapiya",
+    "ja": "心理療法"
   },
   {
     "code": "ms_office_suite",
@@ -6299,7 +6572,8 @@
     "hu": "Microsoft Office",
     "el": "Microsoft Office",
     "kk": "Microsoft Office",
-    "uz": "Microsoft Office"
+    "uz": "Microsoft Office",
+    "ja": "Microsoft Office"
   },
   {
     "code": "ms_outlook",
@@ -6322,7 +6596,8 @@
     "hu": "Microsoft Outlook",
     "el": "Microsoft Outlook",
     "kk": "Microsoft Outlook",
-    "uz": "Microsoft Outlook"
+    "uz": "Microsoft Outlook",
+    "ja": "Microsoft Outlook"
   },
   {
     "code": "ms_access",
@@ -6345,7 +6620,8 @@
     "hu": "Microsoft Access",
     "el": "Microsoft Access",
     "kk": "Microsoft Access",
-    "uz": "Microsoft Access"
+    "uz": "Microsoft Access",
+    "ja": "Microsoft Access"
   },
   {
     "code": "ms_teams",
@@ -6368,7 +6644,8 @@
     "hu": "Microsoft Teams",
     "el": "Microsoft Teams",
     "kk": "Microsoft Teams",
-    "uz": "Microsoft Teams"
+    "uz": "Microsoft Teams",
+    "ja": "Microsoft Teams"
   },
   {
     "code": "windows",
@@ -6391,7 +6668,8 @@
     "hu": "Windows operációs rendszer",
     "el": "Λειτουργικό σύστημα Windows",
     "kk": "Windows операциялық жүйесі",
-    "uz": "Windows operatsion tizimi"
+    "uz": "Windows operatsion tizimi",
+    "ja": "Windows"
   },
   {
     "code": "linux",
@@ -6414,7 +6692,8 @@
     "hu": "Linux",
     "el": "Linux",
     "kk": "Linux",
-    "uz": "Linux"
+    "uz": "Linux",
+    "ja": "Linux"
   },
   {
     "code": "zoom",
@@ -6437,7 +6716,8 @@
     "hu": "Zoom",
     "el": "Zoom",
     "kk": "Zoom",
-    "uz": "Zoom"
+    "uz": "Zoom",
+    "ja": "Zoom"
   },
   {
     "code": "html",
@@ -6460,7 +6740,8 @@
     "hu": "HTML",
     "el": "HTML",
     "kk": "HTML",
-    "uz": "HTML"
+    "uz": "HTML",
+    "ja": "HTML"
   },
   {
     "code": "sql",
@@ -6483,7 +6764,8 @@
     "hu": "SQL",
     "el": "SQL",
     "kk": "SQL",
-    "uz": "SQL"
+    "uz": "SQL",
+    "ja": "SQL"
   },
   {
     "code": "mysql",
@@ -6506,7 +6788,8 @@
     "hu": "MySQL",
     "el": "MySQL",
     "kk": "MySQL",
-    "uz": "MySQL"
+    "uz": "MySQL",
+    "ja": "MySQL"
   },
   {
     "code": "ms_sql_server",
@@ -6529,7 +6812,8 @@
     "hu": "Microsoft SQL Server",
     "el": "Microsoft SQL Server",
     "kk": "Microsoft SQL Server",
-    "uz": "Microsoft SQL Server"
+    "uz": "Microsoft SQL Server",
+    "ja": "Microsoft SQL Server"
   },
   {
     "code": "postgresql",
@@ -6552,7 +6836,8 @@
     "hu": "PostgreSQL",
     "el": "PostgreSQL",
     "kk": "PostgreSQL",
-    "uz": "PostgreSQL"
+    "uz": "PostgreSQL",
+    "ja": "PostgreSQL"
   },
   {
     "code": "bootstrap",
@@ -6575,7 +6860,8 @@
     "hu": "Bootstrap",
     "el": "Bootstrap",
     "kk": "Bootstrap",
-    "uz": "Bootstrap"
+    "uz": "Bootstrap",
+    "ja": "Bootstrap"
   },
   {
     "code": "jquery",
@@ -6598,7 +6884,8 @@
     "hu": "jQuery",
     "el": "jQuery",
     "kk": "jQuery",
-    "uz": "jQuery"
+    "uz": "jQuery",
+    "ja": "jQuery"
   },
   {
     "code": "typescript",
@@ -6621,7 +6908,8 @@
     "hu": "TypeScript",
     "el": "TypeScript",
     "kk": "TypeScript",
-    "uz": "TypeScript"
+    "uz": "TypeScript",
+    "ja": "TypeScript"
   },
   {
     "code": "nodejs",
@@ -6644,7 +6932,8 @@
     "hu": "Node.js",
     "el": "Node.js",
     "kk": "Node.js",
-    "uz": "Node.js"
+    "uz": "Node.js",
+    "ja": "Node.js"
   },
   {
     "code": "wordpress",
@@ -6667,7 +6956,8 @@
     "hu": "WordPress",
     "el": "WordPress",
     "kk": "WordPress",
-    "uz": "WordPress"
+    "uz": "WordPress",
+    "ja": "WordPress"
   },
   {
     "code": "git",
@@ -6690,7 +6980,8 @@
     "hu": "Git",
     "el": "Git",
     "kk": "Git",
-    "uz": "Git"
+    "uz": "Git",
+    "ja": "Git"
   },
   {
     "code": "github",
@@ -6713,7 +7004,8 @@
     "hu": "GitHub",
     "el": "GitHub",
     "kk": "GitHub",
-    "uz": "GitHub"
+    "uz": "GitHub",
+    "ja": "GitHub"
   },
   {
     "code": "programming",
@@ -6736,7 +7028,8 @@
     "hu": "Programozás",
     "el": "Προγραμματισμός",
     "kk": "Бағдарламалау",
-    "uz": "Dasturlash"
+    "uz": "Dasturlash",
+    "ja": "プログラミング"
   },
   {
     "code": "coreldraw",
@@ -6759,7 +7052,8 @@
     "hu": "CorelDRAW",
     "el": "CorelDRAW",
     "kk": "CorelDRAW",
-    "uz": "CorelDRAW"
+    "uz": "CorelDRAW",
+    "ja": "CorelDRAW"
   },
   {
     "code": "canva",
@@ -6782,7 +7076,8 @@
     "hu": "Canva",
     "el": "Canva",
     "kk": "Canva",
-    "uz": "Canva"
+    "uz": "Canva",
+    "ja": "Canva"
   },
   {
     "code": "after_effects",
@@ -6805,7 +7100,8 @@
     "hu": "Adobe After Effects",
     "el": "Adobe After Effects",
     "kk": "Adobe After Effects",
-    "uz": "Adobe After Effects"
+    "uz": "Adobe After Effects",
+    "ja": "Adobe After Effects"
   },
   {
     "code": "premiere_pro",
@@ -6828,7 +7124,8 @@
     "hu": "Adobe Premiere Pro",
     "el": "Adobe Premiere Pro",
     "kk": "Adobe Premiere Pro",
-    "uz": "Adobe Premiere Pro"
+    "uz": "Adobe Premiere Pro",
+    "ja": "Adobe Premiere Pro"
   },
   {
     "code": "lightroom",
@@ -6851,7 +7148,8 @@
     "hu": "Adobe Lightroom",
     "el": "Adobe Lightroom",
     "kk": "Adobe Lightroom",
-    "uz": "Adobe Lightroom"
+    "uz": "Adobe Lightroom",
+    "ja": "Adobe Lightroom"
   },
   {
     "code": "figma",
@@ -6874,7 +7172,8 @@
     "hu": "Figma",
     "el": "Figma",
     "kk": "Figma",
-    "uz": "Figma"
+    "uz": "Figma",
+    "ja": "Figma"
   },
   {
     "code": "video_editing",
@@ -6897,7 +7196,8 @@
     "hu": "Videómontázs",
     "el": "Επεξεργασία βίντεο",
     "kk": "Бейне монтаж",
-    "uz": "Video montaj"
+    "uz": "Video montaj",
+    "ja": "動画編集"
   },
   {
     "code": "archicad",
@@ -6920,7 +7220,8 @@
     "hu": "ArchiCAD",
     "el": "ArchiCAD",
     "kk": "ArchiCAD",
-    "uz": "ArchiCAD"
+    "uz": "ArchiCAD",
+    "ja": "ArchiCAD"
   },
   {
     "code": "3ds_max",
@@ -6943,7 +7244,8 @@
     "hu": "3ds Max",
     "el": "3ds Max",
     "kk": "3ds Max",
-    "uz": "3ds Max"
+    "uz": "3ds Max",
+    "ja": "3ds Max"
   },
   {
     "code": "revit",
@@ -6966,7 +7268,8 @@
     "hu": "Autodesk Revit",
     "el": "Autodesk Revit",
     "kk": "Autodesk Revit",
-    "uz": "Autodesk Revit"
+    "uz": "Autodesk Revit",
+    "ja": "Autodesk Revit"
   },
   {
     "code": "sketchup",
@@ -6989,7 +7292,8 @@
     "hu": "SketchUp",
     "el": "SketchUp",
     "kk": "SketchUp",
-    "uz": "SketchUp"
+    "uz": "SketchUp",
+    "ja": "SketchUp"
   },
   {
     "code": "solidworks",
@@ -7012,7 +7316,8 @@
     "hu": "SolidWorks",
     "el": "SolidWorks",
     "kk": "SolidWorks",
-    "uz": "SolidWorks"
+    "uz": "SolidWorks",
+    "ja": "SolidWorks"
   },
   {
     "code": "lumion",
@@ -7035,7 +7340,8 @@
     "hu": "Lumion",
     "el": "Lumion",
     "kk": "Lumion",
-    "uz": "Lumion"
+    "uz": "Lumion",
+    "ja": "Lumion"
   },
   {
     "code": "arcgis",
@@ -7058,7 +7364,8 @@
     "hu": "ArcGIS",
     "el": "ArcGIS",
     "kk": "ArcGIS",
-    "uz": "ArcGIS"
+    "uz": "ArcGIS",
+    "ja": "ArcGIS"
   },
   {
     "code": "netcad",
@@ -7081,7 +7388,8 @@
     "hu": "Netcad",
     "el": "Netcad",
     "kk": "Netcad",
-    "uz": "Netcad"
+    "uz": "Netcad",
+    "ja": "Netcad"
   },
   {
     "code": "matlab",
@@ -7104,7 +7412,8 @@
     "hu": "MATLAB",
     "el": "MATLAB",
     "kk": "MATLAB",
-    "uz": "MATLAB"
+    "uz": "MATLAB",
+    "ja": "MATLAB"
   },
   {
     "code": "power_bi",
@@ -7127,7 +7436,8 @@
     "hu": "Microsoft Power BI",
     "el": "Microsoft Power BI",
     "kk": "Microsoft Power BI",
-    "uz": "Microsoft Power BI"
+    "uz": "Microsoft Power BI",
+    "ja": "Microsoft Power BI"
   },
   {
     "code": "sap",
@@ -7150,7 +7460,8 @@
     "hu": "SAP",
     "el": "SAP",
     "kk": "SAP",
-    "uz": "SAP"
+    "uz": "SAP",
+    "ja": "SAP"
   },
   {
     "code": "crm",
@@ -7173,7 +7484,8 @@
     "hu": "CRM rendszerek",
     "el": "Συστήματα CRM",
     "kk": "CRM жүйелері",
-    "uz": "CRM tizimlari"
+    "uz": "CRM tizimlari",
+    "ja": "CRMシステム"
   },
   {
     "code": "erp",
@@ -7196,7 +7508,8 @@
     "hu": "ERP rendszerek",
     "el": "Συστήματα ERP",
     "kk": "ERP жүйелері",
-    "uz": "ERP tizimlari"
+    "uz": "ERP tizimlari",
+    "ja": "ERPシステム"
   },
   {
     "code": "jira",
@@ -7219,7 +7532,8 @@
     "hu": "Jira",
     "el": "Jira",
     "kk": "Jira",
-    "uz": "Jira"
+    "uz": "Jira",
+    "ja": "Jira"
   },
   {
     "code": "spss",
@@ -7242,7 +7556,8 @@
     "hu": "IBM SPSS",
     "el": "IBM SPSS",
     "kk": "IBM SPSS",
-    "uz": "IBM SPSS"
+    "uz": "IBM SPSS",
+    "ja": "IBM SPSS"
   },
   {
     "code": "e_taxes",
@@ -7265,7 +7580,8 @@
     "hu": "E-taxes (azerbajdzsáni adóportál)",
     "el": "E-Taxes (ηλεκτρονική φορολογική πύλη του Αζερμπαϊτζάν)",
     "kk": "E-taxes (Әзербайжан салық порталы)",
-    "uz": "E-taxes (Ozarbayjon soliq portali)"
+    "uz": "E-taxes (Ozarbayjon soliq portali)",
+    "ja": "E-taxes（アゼルバイジャン電子税務）"
   },
   {
     "code": "emas",
@@ -7288,7 +7604,8 @@
     "hu": "EMAS (elektronikus munkaszerződés-rendszer)",
     "el": "EMAS (ηλεκτρονικό σύστημα εργασιακών συμβάσεων)",
     "kk": "ƏMAS (электрондық еңбек шарттары жүйесі)",
-    "uz": "EMAS (elektron mehnat shartnomalari tizimi)"
+    "uz": "EMAS (elektron mehnat shartnomalari tizimi)",
+    "ja": "EMAS（電子雇用契約システム）"
   },
   {
     "code": "logo_tiger",
@@ -7311,7 +7628,8 @@
     "hu": "Logo Tiger",
     "el": "Logo Tiger",
     "kk": "Logo Tiger",
-    "uz": "Logo Tiger"
+    "uz": "Logo Tiger",
+    "ja": "Logo Tiger"
   },
   {
     "code": "btp",
@@ -7334,7 +7652,8 @@
     "hu": "BTP (könyvelőprogram)",
     "el": "Λογιστικό λογισμικό BTP",
     "kk": "BTP (бухгалтерлік бағдарлама)",
-    "uz": "BTP (buxgalteriya dasturi)"
+    "uz": "BTP (buxgalteriya dasturi)",
+    "ja": "BTP会計ソフト"
   },
   {
     "code": "helpdesk",
@@ -7357,7 +7676,8 @@
     "hu": "Helpdesk (technikai támogatás)",
     "el": "Helpdesk (τεχνική υποστήριξη)",
     "kk": "Helpdesk (техникалық қолдау)",
-    "uz": "Helpdesk (texnik yordam)"
+    "uz": "Helpdesk (texnik yordam)",
+    "ja": "ヘルプデスク（技術サポート）"
   },
   {
     "code": "responsibility",
@@ -7380,7 +7700,8 @@
     "hu": "Felelősségtudat",
     "el": "Υπευθυνότητα",
     "kk": "Жауапкершілік",
-    "uz": "Mas'uliyatlilik"
+    "uz": "Mas'uliyatlilik",
+    "ja": "責任感"
   },
   {
     "code": "punctuality",
@@ -7403,7 +7724,8 @@
     "hu": "Pontosság",
     "el": "Ακρίβεια στην ώρα",
     "kk": "Дәлдік",
-    "uz": "Punktuallik"
+    "uz": "Punktuallik",
+    "ja": "時間厳守"
   },
   {
     "code": "patience",
@@ -7426,7 +7748,8 @@
     "hu": "Türelem",
     "el": "Υπομονή",
     "kk": "Шыдамдылық",
-    "uz": "Sabr-toqat"
+    "uz": "Sabr-toqat",
+    "ja": "忍耐力"
   },
   {
     "code": "attention_to_detail",
@@ -7449,7 +7772,8 @@
     "hu": "Részletekre való figyelem",
     "el": "Προσοχή στη λεπτομέρεια",
     "kk": "Егжей-тегжейге зейін қою",
-    "uz": "Detallarga e'tibor"
+    "uz": "Detallarga e'tibor",
+    "ja": "細部への注意力"
   },
   {
     "code": "promptness",
@@ -7472,7 +7796,8 @@
     "hu": "Gyors reagálás",
     "el": "Ταχύτητα ανταπόκρισης",
     "kk": "Жеделдік",
-    "uz": "Tezkorlik"
+    "uz": "Tezkorlik",
+    "ja": "迅速さ"
   },
   {
     "code": "public_speaking",
@@ -7495,7 +7820,8 @@
     "hu": "Nyilvános beszéd",
     "el": "Δημόσια ομιλία",
     "kk": "Шешендік өнері",
-    "uz": "Notiqlik"
+    "uz": "Notiqlik",
+    "ja": "人前で話す力"
   },
   {
     "code": "active_listening",
@@ -7518,7 +7844,8 @@
     "hu": "Aktív hallgatás",
     "el": "Ενεργητική ακρόαση",
     "kk": "Белсенді тыңдау",
-    "uz": "Faol tinglash"
+    "uz": "Faol tinglash",
+    "ja": "傾聴力"
   },
   {
     "code": "decision_making",
@@ -7541,7 +7868,8 @@
     "hu": "Döntésképesség",
     "el": "Λήψη αποφάσεων",
     "kk": "Шешім қабылдау",
-    "uz": "Qaror qabul qilish qobiliyati"
+    "uz": "Qaror qabul qilish qobiliyati",
+    "ja": "意思決定力"
   },
   {
     "code": "fast_learning",
@@ -7564,7 +7892,8 @@
     "hu": "Gyors tanulási képesség",
     "el": "Ταχεία εκμάθηση",
     "kk": "Тез үйрену қабілеті",
-    "uz": "Tez oʻrganish qobiliyati"
+    "uz": "Tez oʻrganish qobiliyati",
+    "ja": "習得の速さ"
   },
   {
     "code": "work_ethic",
@@ -7587,7 +7916,8 @@
     "hu": "Munkaetika",
     "el": "Εργασιακή ηθική",
     "kk": "Еңбек этикасы",
-    "uz": "Mehnat etikasi"
+    "uz": "Mehnat etikasi",
+    "ja": "職業倫理"
   },
   {
     "code": "initiative",
@@ -7610,7 +7940,8 @@
     "hu": "Kezdeményezőkészség",
     "el": "Πρωτοβουλία",
     "kk": "Бастамашылдық",
-    "uz": "Tashabbuskorlik"
+    "uz": "Tashabbuskorlik",
+    "ja": "主体性"
   },
   {
     "code": "discipline",
@@ -7633,7 +7964,8 @@
     "hu": "Fegyelem",
     "el": "Πειθαρχία",
     "kk": "Тәртіптілік",
-    "uz": "Intizom"
+    "uz": "Intizom",
+    "ja": "規律性"
   },
   {
     "code": "reliability",
@@ -7656,7 +7988,8 @@
     "hu": "Megbízhatóság",
     "el": "Αξιοπιστία",
     "kk": "Сенімділік",
-    "uz": "Ishonchlilik"
+    "uz": "Ishonchlilik",
+    "ja": "信頼性"
   },
   {
     "code": "honesty",
@@ -7679,7 +8012,8 @@
     "hu": "Őszinteség",
     "el": "Ειλικρίνεια",
     "kk": "Адалдық",
-    "uz": "Halollik"
+    "uz": "Halollik",
+    "ja": "誠実さ"
   },
   {
     "code": "logical_thinking",
@@ -7702,7 +8036,8 @@
     "hu": "Logikus gondolkodás",
     "el": "Λογική σκέψη",
     "kk": "Логикалық ойлау",
-    "uz": "Mantiqiy fikrlash"
+    "uz": "Mantiqiy fikrlash",
+    "ja": "論理的思考"
   },
   {
     "code": "numeracy",
@@ -7725,7 +8060,8 @@
     "hu": "Számolási készség",
     "el": "Αριθμητική ικανότητα",
     "kk": "Математикалық дағдылар",
-    "uz": "Matematik savodxonlik"
+    "uz": "Matematik savodxonlik",
+    "ja": "数的処理能力"
   },
   {
     "code": "translation",
@@ -7748,7 +8084,8 @@
     "hu": "Fordítás",
     "el": "Μετάφραση",
     "kk": "Аударма",
-    "uz": "Tarjima"
+    "uz": "Tarjima",
+    "ja": "翻訳"
   },
   {
     "code": "open_mindedness",
@@ -7771,7 +8108,8 @@
     "hu": "Nyitottság",
     "el": "Ευρύτητα πνεύματος",
     "kk": "Ашық ойлылық",
-    "uz": "Ochiq fikrlilik"
+    "uz": "Ochiq fikrlilik",
+    "ja": "柔軟な考え方"
   },
   {
     "code": "driving",
@@ -7794,7 +8132,8 @@
     "hu": "Autóvezetési készség",
     "el": "Δεξιότητες οδήγησης",
     "kk": "Жүргізушілік дағдылары",
-    "uz": "Haydovchilik koʻnikmalari"
+    "uz": "Haydovchilik koʻnikmalari",
+    "ja": "運転技能"
   },
   {
     "code": "welding",
@@ -7817,7 +8156,8 @@
     "hu": "Hegesztés",
     "el": "Συγκόλληση",
     "kk": "Дәнекерлеу жұмыстары",
-    "uz": "Payvandlash ishlari"
+    "uz": "Payvandlash ishlari",
+    "ja": "溶接"
   },
   {
     "code": "car_repair",
@@ -7840,7 +8180,8 @@
     "hu": "Autójavítás",
     "el": "Επισκευή αυτοκινήτων",
     "kk": "Автомобиль жөндеу",
-    "uz": "Avtomobil ta'mirlash"
+    "uz": "Avtomobil ta'mirlash",
+    "ja": "自動車整備"
   },
   {
     "code": "assembly_installation",
@@ -7863,6 +8204,7 @@
     "hu": "Összeszerelés és telepítés",
     "el": "Συναρμολόγηση και εγκατάσταση",
     "kk": "Монтаж жұмыстары",
-    "uz": "Yigʻish va oʻrnatish ishlari"
+    "uz": "Yigʻish va oʻrnatish ishlari",
+    "ja": "組立・据付"
   }
 ]

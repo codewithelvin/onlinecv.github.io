@@ -20,7 +20,8 @@
     "hu": "Arab",
     "el": "Αραβικά",
     "kk": "Арабша",
-    "uz": "Arabcha"
+    "uz": "Arabcha",
+    "ja": "アラビア語"
   },
   {
     "code": "azerbaijan",
@@ -43,7 +44,8 @@
     "hu": "Azeri",
     "el": "Αζερμπαϊτζανικά",
     "kk": "Әзербайжанша",
-    "uz": "Ozarbayjoncha"
+    "uz": "Ozarbayjoncha",
+    "ja": "アゼルバイジャン語"
   },
   {
     "code": "chinese",
@@ -66,7 +68,8 @@
     "hu": "Kínai",
     "el": "Κινεζικά",
     "kk": "Қытайша",
-    "uz": "Xitoycha"
+    "uz": "Xitoycha",
+    "ja": "中国語"
   },
   {
     "code": "english",
@@ -89,7 +92,8 @@
     "hu": "Angol",
     "el": "Αγγλικά",
     "kk": "Ағылшынша",
-    "uz": "Inglizcha"
+    "uz": "Inglizcha",
+    "ja": "英語"
   },
   {
     "code": "french",
@@ -112,7 +116,8 @@
     "hu": "Francia",
     "el": "Γαλλικά",
     "kk": "Французша",
-    "uz": "Fransuzcha"
+    "uz": "Fransuzcha",
+    "ja": "フランス語"
   },
   {
     "code": "georgian",
@@ -135,7 +140,8 @@
     "hu": "Grúz",
     "el": "Γεωργιανά",
     "kk": "Грузинше",
-    "uz": "Gruzincha"
+    "uz": "Gruzincha",
+    "ja": "ジョージア語"
   },
   {
     "code": "german",
@@ -158,7 +164,8 @@
     "hu": "Német",
     "el": "Γερμανικά",
     "kk": "Немісше",
-    "uz": "Nemischa"
+    "uz": "Nemischa",
+    "ja": "ドイツ語"
   },
   {
     "code": "greek",
@@ -181,7 +188,8 @@
     "hu": "Görög",
     "el": "Ελληνικά",
     "kk": "Грекше",
-    "uz": "Grekcha"
+    "uz": "Grekcha",
+    "ja": "ギリシャ語"
   },
   {
     "code": "hebrew",
@@ -204,7 +212,8 @@
     "hu": "Héber",
     "el": "Εβραϊκά",
     "kk": "Иврит",
-    "uz": "Ibroniycha"
+    "uz": "Ibroniycha",
+    "ja": "ヘブライ語"
   },
   {
     "code": "hispanic",
@@ -227,7 +236,8 @@
     "hu": "Spanyol",
     "el": "Ισπανικά",
     "kk": "Испанша",
-    "uz": "Ispancha"
+    "uz": "Ispancha",
+    "ja": "スペイン語"
   },
   {
     "code": "hungarian",
@@ -250,7 +260,8 @@
     "hu": "Magyar",
     "el": "Ουγγρικά",
     "kk": "Мажарша",
-    "uz": "Vengrcha"
+    "uz": "Vengrcha",
+    "ja": "ハンガリー語"
   },
   {
     "code": "italian",
@@ -273,7 +284,8 @@
     "hu": "Olasz",
     "el": "Ιταλικά",
     "kk": "Итальянша",
-    "uz": "Italyancha"
+    "uz": "Italyancha",
+    "ja": "イタリア語"
   },
   {
     "code": "japan",
@@ -296,7 +308,8 @@
     "hu": "Japán",
     "el": "Ιαπωνικά",
     "kk": "Жапонша",
-    "uz": "Yaponcha"
+    "uz": "Yaponcha",
+    "ja": "日本語"
   },
   {
     "code": "kazakh",
@@ -319,7 +332,8 @@
     "hu": "Kazah",
     "el": "Καζακικά",
     "kk": "Қазақша",
-    "uz": "Qozoqcha"
+    "uz": "Qozoqcha",
+    "ja": "カザフ語"
   },
   {
     "code": "korean",
@@ -342,7 +356,8 @@
     "hu": "Koreai",
     "el": "Κορεατικά",
     "kk": "Корейше",
-    "uz": "Koreyscha"
+    "uz": "Koreyscha",
+    "ja": "韓国語"
   },
   {
     "code": "persian",
@@ -365,7 +380,8 @@
     "hu": "Perzsa",
     "el": "Περσικά",
     "kk": "Парсыша",
-    "uz": "Forscha"
+    "uz": "Forscha",
+    "ja": "ペルシャ語"
   },
   {
     "code": "polish",
@@ -388,7 +404,8 @@
     "hu": "Lengyel",
     "el": "Πολωνικά",
     "kk": "Полякша",
-    "uz": "Polyakcha"
+    "uz": "Polyakcha",
+    "ja": "ポーランド語"
   },
   {
     "code": "portuguese",
@@ -411,7 +428,8 @@
     "hu": "Portugál",
     "el": "Πορτογαλικά",
     "kk": "Португалша",
-    "uz": "Portugalcha"
+    "uz": "Portugalcha",
+    "ja": "ポルトガル語"
   },
   {
     "code": "romainan",
@@ -434,7 +452,8 @@
     "hu": "Román",
     "el": "Ρουμανικά",
     "kk": "Румынша",
-    "uz": "Rumincha"
+    "uz": "Rumincha",
+    "ja": "ルーマニア語"
   },
   {
     "code": "russian",
@@ -457,7 +476,8 @@
     "hu": "Orosz",
     "el": "Ρωσικά",
     "kk": "Орысша",
-    "uz": "Ruscha"
+    "uz": "Ruscha",
+    "ja": "ロシア語"
   },
   {
     "code": "turkish",
@@ -480,7 +500,8 @@
     "hu": "Török",
     "el": "Τουρκικά",
     "kk": "Түрікше",
-    "uz": "Turkcha"
+    "uz": "Turkcha",
+    "ja": "トルコ語"
   },
   {
     "code": "ukrainian",
@@ -503,7 +524,8 @@
     "hu": "Ukrán",
     "el": "Ουκρανικά",
     "kk": "Украинша",
-    "uz": "Ukraincha"
+    "uz": "Ukraincha",
+    "ja": "ウクライナ語"
   },
   {
     "code": "uzbek",
@@ -526,6 +548,7 @@
     "hu": "Üzbég",
     "el": "Ουζμπεκικά",
     "kk": "Өзбекше",
-    "uz": "Oʻzbekcha"
+    "uz": "Oʻzbekcha",
+    "ja": "ウズベク語"
   }
 ]

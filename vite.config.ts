@@ -80,8 +80,8 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2,ttf,json}'],
         /**
-         * The two East Asian faces are the ONLY assets kept out of the precache,
-         * and the reason is arithmetic both times.
+         * The three East Asian faces are the ONLY assets kept out of the precache,
+         * and the reason is arithmetic every time.
          *
          * `NanumGothic` is 4.1 MB across its two weights — six times all three
          * other script faces put together — against a precache that is 6.9 MB in
@@ -97,17 +97,24 @@ export default defineConfig({
          * out of the question — it would quadruple every install — so BOTH targets
          * take it from the network on first use.
          *
+         * `NotoSansJP` is 9.2 MB and takes the Chinese arrangement wholesale, for
+         * the same reason (no woff2, no TTF) — it is simply the smaller of the two
+         * Han faces, because Japanese needs 12,747 ideographs and not every
+         * simplified form as well. Both are needed: the two draw the same code
+         * points differently, so neither can stand in for the other (`_core/fonts`).
+         *
          * What that costs, stated plainly: the first Korean PDF EXPORT needs the
-         * network, and a Chinese visitor's first page load fetches the face before
-         * the UI is drawn in it (`font-display: swap` shows a system Han face
-         * meanwhile). `runtimeCaching` below then keeps the files, so everything
-         * after the first time — offline included — is served from the cache.
+         * network, and a Chinese or Japanese visitor's first page load fetches the
+         * face before the UI is drawn in it (`font-display: swap` shows a system
+         * Han face meanwhile). `runtimeCaching` below then keeps the files, so
+         * everything after the first time — offline included — is served from the
+         * cache.
          *
          * The `.otf` extension is also absent from `globPatterns` above, so these
-         * two would fall out of the precache even without this list. Named here
-         * anyway: an omission is not a decision anyone can read.
+         * would fall out of the precache even without this list. Named here anyway:
+         * an omission is not a decision anyone can read.
          */
-        globIgnores: ['**/NanumGothic-*.ttf', '**/NotoSansSC-*.otf'],
+        globIgnores: ['**/NanumGothic-*.ttf', '**/NotoSansSC-*.otf', '**/NotoSansJP-*.otf'],
         runtimeCaching: [
           {
             // `registerResumeFonts` (services/pdf.ts) fetches these by URL at
@@ -131,6 +138,18 @@ export default defineConfig({
             handler: 'CacheFirst',
             options: {
               cacheName: 'onlinecv-chinese-fonts',
+              expiration: { maxEntries: 4 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+          {
+            // Japanese — the Chinese rule again, browser-facing half included, and
+            // a cache of its own so a visitor who reads one language never carries
+            // the other's 9 MB around.
+            urlPattern: /\/fonts\/ttf\/NotoSansJP-[A-Za-z]+\.otf$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'onlinecv-japanese-fonts',
               expiration: { maxEntries: 4 },
               cacheableResponse: { statuses: [0, 200] },
             },

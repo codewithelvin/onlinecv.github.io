@@ -36,8 +36,13 @@ let initialized = false;
  * Microsoft. A no-op when Clarity is not initialized.
  *
  * NOTE: Ant Design renders a chosen `Select` value as TEXT (`.ant-select-selection-item`),
- * not as an input value, so dictionary-backed picks are not covered by Clarity's
- * default input masking — see the masking note in README.
+ * not as an input value, so a pick is NOT covered by Clarity's default input
+ * masking. The dashboard's `Strict` mode would cover that whole class at once,
+ * but it is deliberately off (it masks every text node, which leaves a replay
+ * unreadable and defeats the point of recording one) — so the selects carry this
+ * attribute themselves: `RHFSelect` for every form-bound one, and the four raw
+ * `<Select>`s plus the nationality `AutoComplete` in `GeneralInfoSection`.
+ * `clarity-mask.test.tsx` fails if a select ever renders a value outside it.
  */
 export const CLARITY_MASK = { 'data-clarity-mask': 'true' } as const;
 

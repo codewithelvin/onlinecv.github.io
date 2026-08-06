@@ -20,7 +20,8 @@
     "hu": "Olvasás",
     "el": "Ανάγνωση βιβλίων",
     "kk": "Кітап оқу",
-    "uz": "Kitob oʻqish"
+    "uz": "Kitob oʻqish",
+    "ja": "読書"
   },
   {
     "code": "music_listen",
@@ -43,7 +44,8 @@
     "hu": "Zenehallgatás",
     "el": "Ακρόαση μουσικής",
     "kk": "Музыка тыңдау",
-    "uz": "Musiqa tinglash"
+    "uz": "Musiqa tinglash",
+    "ja": "音楽鑑賞"
   },
   {
     "code": "play_games",
@@ -66,7 +68,8 @@
     "hu": "Videojátékok",
     "el": "Παιχνίδια",
     "kk": "Ойын ойнау",
-    "uz": "Oʻyin oʻynash"
+    "uz": "Oʻyin oʻynash",
+    "ja": "ゲーム"
   },
   {
     "code": "sport",
@@ -89,7 +92,8 @@
     "hu": "Sportolás",
     "el": "Άθληση",
     "kk": "Спортпен айналысу",
-    "uz": "Sport bilan shugʻullanish"
+    "uz": "Sport bilan shugʻullanish",
+    "ja": "スポーツ"
   },
   {
     "code": "sing_a_song",
@@ -112,7 +116,8 @@
     "hu": "Éneklés",
     "el": "Τραγούδι",
     "kk": "Ән айту",
-    "uz": "Qoʻshiq aytish"
+    "uz": "Qoʻshiq aytish",
+    "ja": "歌うこと"
   },
   {
     "code": "cooking",
@@ -135,7 +140,8 @@
     "hu": "Főzés",
     "el": "Μαγειρική",
     "kk": "Тағам дайындау",
-    "uz": "Ovqat tayyorlash"
+    "uz": "Ovqat tayyorlash",
+    "ja": "料理"
   },
   {
     "code": "chess",
@@ -158,7 +164,8 @@
     "hu": "Sakkozás",
     "el": "Σκάκι",
     "kk": "Шахмат ойнау",
-    "uz": "Shaxmat oʻynash"
+    "uz": "Shaxmat oʻynash",
+    "ja": "チェス"
   },
   {
     "code": "self_development",
@@ -181,7 +188,8 @@
     "hu": "Önfejlesztés",
     "el": "Προσωπική ανάπτυξη",
     "kk": "Жеке даму",
-    "uz": "Shaxsiy rivojlanish"
+    "uz": "Shaxsiy rivojlanish",
+    "ja": "自己啓発"
   },
   {
     "code": "technology",
@@ -204,7 +212,8 @@
     "hu": "Technológia",
     "el": "Τεχνολογίες",
     "kk": "Технологиялар",
-    "uz": "Texnologiyalar"
+    "uz": "Texnologiyalar",
+    "ja": "テクノロジー"
   },
   {
     "code": "blogging",
@@ -227,7 +236,8 @@
     "hu": "Blogolás",
     "el": "Τήρηση ιστολογίου",
     "kk": "Блог жүргізу",
-    "uz": "Blog yuritish"
+    "uz": "Blog yuritish",
+    "ja": "ブログ執筆"
   },
   {
     "code": "photography",
@@ -250,7 +260,8 @@
     "hu": "Fotózás",
     "el": "Φωτογραφία",
     "kk": "Фотосурет түсіру",
-    "uz": "Surat olish"
+    "uz": "Surat olish",
+    "ja": "写真撮影"
   },
   {
     "code": "design",
@@ -273,7 +284,8 @@
     "hu": "Design",
     "el": "Σχεδιασμός",
     "kk": "Дизайн",
-    "uz": "Dizayn"
+    "uz": "Dizayn",
+    "ja": "デザイン"
   },
   {
     "code": "learning_languages",
@@ -296,7 +308,8 @@
     "hu": "Nyelvtanulás",
     "el": "Εκμάθηση γλωσσών",
     "kk": "Тілдерді үйрену",
-    "uz": "Til oʻrganish"
+    "uz": "Til oʻrganish",
+    "ja": "語学学習"
   },
   {
     "code": "music_production",
@@ -319,7 +332,8 @@
     "hu": "Zeneszerzés",
     "el": "Σύνθεση μουσικής",
     "kk": "Музыка шығару",
-    "uz": "Musiqa bastalash"
+    "uz": "Musiqa bastalash",
+    "ja": "作曲"
   },
   {
     "code": "watch_movies",
@@ -342,7 +356,8 @@
     "hu": "Filmnézés",
     "el": "Παρακολούθηση ταινιών",
     "kk": "Кино көру",
-    "uz": "Kino koʻrish"
+    "uz": "Kino koʻrish",
+    "ja": "映画鑑賞"
   },
   {
     "code": "football",
@@ -365,7 +380,8 @@
     "hu": "Futball",
     "el": "Ποδόσφαιρο",
     "kk": "Футбол ойнау",
-    "uz": "Futbol oʻynash"
+    "uz": "Futbol oʻynash",
+    "ja": "サッカー"
   },
   {
     "code": "crossword",
@@ -388,6 +404,7 @@
     "hu": "Keresztrejtvény-fejtés",
     "el": "Σταυρόλεξα",
     "kk": "Сөзжұмбақ шешу",
-    "uz": "Krossvord yechish"
+    "uz": "Krossvord yechish",
+    "ja": "クロスワードパズル"
   }
 ]

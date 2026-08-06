@@ -216,6 +216,9 @@ describe('dictionary translation coverage', () => {
       el: 'greek',
       kk: 'kazakh',
       uz: 'uzbek',
+      // `japan`, not `japanese` — another row that predates its locale, and
+      // another reason this map exists rather than assuming code === locale.
+      ja: 'japan',
     };
     for (const locale of SUPPORTED_LOCALES) {
       const code = ownLanguage[locale];

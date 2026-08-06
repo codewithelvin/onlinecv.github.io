@@ -2,9 +2,9 @@
 
 The app ships Azerbaijani (default), Russian, English, Georgian, Arabic, Spanish,
 Hebrew, Korean, Chinese, French, German, Italian, Turkish, Portuguese, Polish,
-Hungarian, Greek, Kazakh and Uzbek. Adding Farsi, Japanese … is an **additive**
-change: no component holds a language list, and no existing translation has to
-be touched.
+Hungarian, Greek, Kazakh, Uzbek and Japanese. Adding Farsi, Vietnamese … is an
+**additive** change: no component holds a language list, and no existing
+translation has to be touched.
 
 Spanish is the worked example of the *easy* case, and worth reading first if the
 new language is written in Latin or Cyrillic: steps 1–3 plus the dictionaries, no
@@ -232,6 +232,41 @@ empty values, and that the dayjs data was imported.
      rather than from `resume.locale` — but never recompute initials inline, or
      the two copies drift (the editor's avatar did exactly that).
 
+   **Japanese is the case where "the font already draws it" is NOT the end of the
+   question, and it is worth reading before reusing any face for a second
+   language.** `NotoSansSC` has every kana and every kanji Japanese needs —
+   checked with fontkit, kokuji (働 峠 込 辻) included — so a Japanese CV in it
+   would have shown no tofu at all. It is still the wrong face: of 1,806
+   ideographs both fonts contain, **65.6% are drawn with different outlines**, and
+   25 of the 43 characters in ordinary CV vocabulary (氏名, 学歴, 職歴, 資格,
+   免許, 会社, 卒業) are among them. Han is one encoding and two typographic
+   traditions. Ask "is this the right face", not "does it have the glyphs" — the
+   same question Georgian's Mtavruli months answered the hard way.
+
+   That has a consequence beyond one font file, and it is now an architectural
+   rule: **`NotoSansJP` and `NotoSansSC` claim the SAME code points, so no
+   `unicode-range` can route between them and the stack's ORDER decides.** A fixed
+   order must mis-set one of the two languages, so the order follows the language:
+   `primaryFont(locale)` in `_core/fonts.ts` drives `cvFontStack` (document) and
+   `uiFontFamily` (chrome, reaching AntD through `themeFor(locale)` and everything
+   else through the `--app-font-family` variable `applyLocale` sets). Neither face
+   can be dropped — NotoSansJP lacks most simplified-only forms, so a Chinese page
+   led by it would mix two faces glyph by glyph.
+
+   **And check that the exporter can WRAP the script, not just draw it.** This is
+   the defect Japanese found, and Chinese had been shipping with it:
+   `@react-pdf/textkit`'s `wrapWords` splits a run on SPACES, so an unspaced
+   sentence is one unbreakable word — a 60-character summary was drawn as a single
+   ~660pt run running off a 595pt page. Japanese only *looked* like it wrapped,
+   because textkit itemizes runs by SCRIPT and ordinary Japanese alternates Han,
+   hiragana and katakana; every one of those boundaries reached the line breaker
+   looking like a hyphenation point, and it printed `開発者-です`. Both halves are
+   fixed in `patches/@react-pdf+textkit+4.4.1.patch` (per-character CJK
+   breakpoints with a kinsoku-lite guard; hyphen only when neither side of the
+   break is CJK). The general lesson: a script with no spaces needs break
+   opportunities manufactured for it, and the text-layer fidelity test cannot see
+   the failure, because an overflowing line is still perfectly present in the file.
+
 ## Required steps, continued
 
 5. **Dictionary labels** — add a `"pt"` column to every file in `src/data/`.
@@ -242,13 +277,12 @@ empty values, and that the dayjs data was imported.
    a user in the new language would otherwise be reading Azerbaijani in the middle
    of their own résumé.
 
-   The volume, at the time of writing: universities 453, skills 342,
+   The volume, at the time of writing: universities 485, skills 342,
    specialities 305, faculties 263, positions 243, cities 132, colleges 127,
-   nationality 34, languages 23, interests 17 — **1,939 rows** (universities and
-   languages both grew in the Portuguese/Polish/Hungarian/Greek/Kazakh/Uzbek
-   batch — 89 new real universities across the six countries, and 5 new
-   claimable mother tongues; `polish` already existed as a code before the
-   Polish locale did). Do it with a script that rebuilds
+   nationality 34, languages 23, interests 17 — **1,971 rows** (universities has
+   now grown three times: 89 institutions across the six countries of the
+   Portuguese/Polish/Hungarian/Greek/Kazakh/Uzbek batch, then 32 Japanese ones).
+   Do it with a script that rebuilds
    each row key-by-key (so the new column lands in the same place in every file)
    and *refuses to write* on an unmapped code, a duplicate label within the
    dataset, or a label longer than `FIELD_MAX` for that group. The three legacy
@@ -361,17 +395,20 @@ So for each new locale, ask concretely: **what does a name look like, what does 
 date look like, and what would this person put in every enum-ish field?** Check the
 name rule, `languages.json`, and anything with a fixed option list.
 
-Two known cosmetic gaps that Korean exposed and did NOT change, because both are
-spec'd formats (§10.2) applied uniformly to every locale:
+Two things Korean exposed here, and both are now closed:
 
-- `MONTH_YEAR` is `MMM YYYY`, so a Korean CV reads `3월 2020` where the convention
-  is `2020년 3월`; `FULL_DATE` is `DD.MM.YYYY` where Korean writes `2020.03.01`.
-  Fixing this properly means a per-locale date-format table, which is a spec change
-  rather than a bug fix — raise it before doing it.
-- The age's counter word DID change, because that one was inside core rather than in
-  the spec: `withUnit` in `render-helpers.ts` now writes `39세` and `39 il`,
-  deriving the rule from the unit's own script so a future Japanese or Chinese
-  locale inherits it.
+- **Date ORDER, which was a spec change and got raised as one.** `MONTH_YEAR` used
+  to be `MMM YYYY` for everyone, so a Korean CV read `3월 2020`. §10.2 is amended
+  and `LocaleMeta.dateFormats` holds a locale's own pair — but note that "East
+  Asian" is not one convention: Korean writes `2014년 9월` / `1987.06.15`, Chinese
+  `2009年9月` / `1987.06.15`, and Japanese unit-marks the full date as well,
+  `1987年6月15日`, never zero-padded. Three entries, not one shared exception. INPUT
+  is deliberately excluded — the pickers stay `DD.MM.YYYY` in every locale, because
+  a placeholder has to be retypeable.
+- The age's counter word, which was inside core rather than in the spec: `withUnit`
+  in `render-helpers.ts` writes `39세`, `39歳` and `39 il`, deriving the rule from
+  the unit's own script. Japanese inherited it with no change, as that note
+  predicted.
 
 ## Right-to-left languages (Arabic, Hebrew, Farsi)
 

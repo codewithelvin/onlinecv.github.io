@@ -21,8 +21,10 @@ import hu from './hu.json';
 import el from './el.json';
 import kk from './kk.json';
 import uz from './uz.json';
+import ja from './ja.json';
 import type { Locale } from '../../types/resume';
 import { pathForLocale } from '../seo-locales';
+import { uiFontFamily } from '../theme';
 import {
   CV_LOCALES,
   DEFAULT_LOCALE,
@@ -63,6 +65,7 @@ void i18n.use(initReactI18next).init({
     el: { translation: el },
     kk: { translation: kk },
     uz: { translation: uz },
+    ja: { translation: ja },
   },
   lng: DEFAULT_LOCALE,
   fallbackLng: DEFAULT_LOCALE,
@@ -81,6 +84,16 @@ export function applyLocale(locale: Locale): void {
   if (typeof document !== 'undefined') {
     document.documentElement.setAttribute('lang', locale);
     document.documentElement.setAttribute('dir', LOCALES[locale].dir);
+    /**
+     * The half of the font stack AntD's theme token cannot reach: everything the
+     * app draws itself inherits `font-family` from `body`, which reads this
+     * variable (`index.css` keeps the language-neutral list as its fallback, for
+     * the first paint before any of this runs).
+     *
+     * It has to be per-language because NotoSansJP and NotoSansSC claim the same
+     * ideographs — see `uiFontFamily`.
+     */
+    document.documentElement.style.setProperty('--app-font-family', uiFontFamily(locale));
   }
 }
 

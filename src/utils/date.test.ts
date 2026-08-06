@@ -45,23 +45,31 @@ describe('date utils', () => {
   /**
    * East Asian dates are BIG-ENDIAN and unit-marked. Before `LocaleMeta.dateFormats`
    * a Korean CV read `9월 2014` and a Chinese one `9月 2009` — the right words in an
-   * order neither language uses. These are the two locales that opt out of
+   * order neither language uses. These are the locales that opt out of
    * `WESTERN_DATES`, so they are what the table exists for.
+   *
+   * Japanese is big-endian too and goes one step further: it marks the FULL date
+   * with its units as well (`1987年6月15日`), which is what a 履歴書 writes, where
+   * Korean and Chinese both use a dotted `1987.06.15`. So "East Asian" is not one
+   * format — the table holds three.
    */
   it('writes East Asian dates year-first', () => {
     expect(formatMonthYear('2014-09', 'ko')).toBe('2014년 9월');
     expect(formatMonthYear('2009-09', 'zh')).toBe('2009年9月');
+    expect(formatMonthYear('2014-09', 'ja')).toBe('2014年9月');
     expect(formatFullDate('1987-06-15', 'ko')).toBe('1987.06.15');
     expect(formatFullDate('1987-06-15', 'zh')).toBe('1987.06.15');
+    // Unit-marked and NOT zero-padded — `6月`, never `06月`.
+    expect(formatFullDate('1987-06-15', 'ja')).toBe('1987年6月15日');
   });
 
   /**
-   * …and the other seventeen keep the spec §10.2 pair. Driven by the registry so
+   * …and the other sixteen keep the spec §10.2 pair. Driven by the registry so
    * that a locale added later has to opt IN to a different order rather than
-   * drifting into one: if someone gives locale number 20 a bespoke pattern, this
+   * drifting into one: if someone gives locale number 21 a bespoke pattern, this
    * is the test that makes them say so here too.
    */
-  it.each(SUPPORTED_LOCALES.filter((l) => l !== 'ko' && l !== 'zh'))(
+  it.each(SUPPORTED_LOCALES.filter((l) => l !== 'ko' && l !== 'zh' && l !== 'ja'))(
     'keeps the little-endian date order in %s',
     (locale) => {
       expect(formatFullDate('1987-06-15', locale)).toMatch(/^[\d٠-٩]{2}\.[\d٠-٩]{2}\.[\d٠-٩]{4}$/);

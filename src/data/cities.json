@@ -20,7 +20,8 @@
     "hu": "Baku",
     "el": "Μπακού",
     "kk": "Баку",
-    "uz": "Boku"
+    "uz": "Boku",
+    "ja": "バクー"
   },
   {
     "code": "ganja",
@@ -43,7 +44,8 @@
     "hu": "Ganja",
     "el": "Γκάντζα",
     "kk": "Гянджа",
-    "uz": "Ganja"
+    "uz": "Ganja",
+    "ja": "ギャンジャ"
   },
   {
     "code": "sumqayit",
@@ -66,7 +68,8 @@
     "hu": "Sumqayit",
     "el": "Σουμγκαΐτ",
     "kk": "Сумгаит",
-    "uz": "Sumgait"
+    "uz": "Sumgait",
+    "ja": "スムガイト"
   },
   {
     "code": "mingachevir",
@@ -89,7 +92,8 @@
     "hu": "Mingachevir",
     "el": "Μινγκετσεβίρ",
     "kk": "Мингячевир",
-    "uz": "Mingachevir"
+    "uz": "Mingachevir",
+    "ja": "ミンゲチャウル"
   },
   {
     "code": "khirdalan",
@@ -112,7 +116,8 @@
     "hu": "Khirdalan",
     "el": "Χιρντάλαν",
     "kk": "Хырдалан",
-    "uz": "Xirdalan"
+    "uz": "Xirdalan",
+    "ja": "ヒルダラン"
   },
   {
     "code": "shirvan",
@@ -135,7 +140,8 @@
     "hu": "Shirvan",
     "el": "Σιρβάν",
     "kk": "Ширван",
-    "uz": "Shirvan"
+    "uz": "Shirvan",
+    "ja": "シルヴァン"
   },
   {
     "code": "nakhchivan",
@@ -158,7 +164,8 @@
     "hu": "Nahicseván",
     "el": "Ναχιτσεβάν",
     "kk": "Нахчыван",
-    "uz": "Naxchivan"
+    "uz": "Naxchivan",
+    "ja": "ナヒチェヴァン"
   },
   {
     "code": "lankaran",
@@ -181,7 +188,8 @@
     "hu": "Lankaran",
     "el": "Λάνκαραν",
     "kk": "Ленкоран",
-    "uz": "Lankaran"
+    "uz": "Lankaran",
+    "ja": "ランカラン"
   },
   {
     "code": "shaki",
@@ -204,7 +212,8 @@
     "hu": "Shaki",
     "el": "Σεκί",
     "kk": "Шеки",
-    "uz": "Shaki"
+    "uz": "Shaki",
+    "ja": "シェキ"
   },
   {
     "code": "yevlakh",
@@ -227,7 +236,8 @@
     "hu": "Yevlakh",
     "el": "Γιεβλάχ",
     "kk": "Евлах",
-    "uz": "Yevlax"
+    "uz": "Yevlax",
+    "ja": "イェヴラフ"
   },
   {
     "code": "naftalan",
@@ -250,7 +260,8 @@
     "hu": "Naftalan",
     "el": "Ναφταλάν",
     "kk": "Нафталан",
-    "uz": "Naftalan"
+    "uz": "Naftalan",
+    "ja": "ナフタラン"
   },
   {
     "code": "khankendi",
@@ -273,7 +284,8 @@
     "hu": "Khankendi",
     "el": "Χανκεντί",
     "kk": "Ханкенди",
-    "uz": "Xankandi"
+    "uz": "Xankandi",
+    "ja": "ハンケンディ"
   },
   {
     "code": "shusha",
@@ -296,7 +308,8 @@
     "hu": "Shusha",
     "el": "Σούσα",
     "kk": "Шуша",
-    "uz": "Shusha"
+    "uz": "Shusha",
+    "ja": "シュシャ"
   },
   {
     "code": "absheron",
@@ -319,7 +332,8 @@
     "hu": "Absheron",
     "el": "Αψερόν",
     "kk": "Абшерон",
-    "uz": "Absheron"
+    "uz": "Absheron",
+    "ja": "アブシェロン"
   },
   {
     "code": "aghjabadi",
@@ -342,7 +356,8 @@
     "hu": "Aghjabadi",
     "el": "Αγτζαμπεντί",
     "kk": "Агджабеди",
-    "uz": "Agjabadi"
+    "uz": "Agjabadi",
+    "ja": "アグジャバディ"
   },
   {
     "code": "aghdam",
@@ -365,7 +380,8 @@
     "hu": "Aghdam",
     "el": "Αγντάμ",
     "kk": "Агдам",
-    "uz": "Agdam"
+    "uz": "Agdam",
+    "ja": "アグダム"
   },
   {
     "code": "aghdash",
@@ -388,7 +404,8 @@
     "hu": "Aghdash",
     "el": "Αγντάς",
     "kk": "Агдаш",
-    "uz": "Agdash"
+    "uz": "Agdash",
+    "ja": "アグダシュ"
   },
   {
     "code": "aghstafa",
@@ -411,7 +428,8 @@
     "hu": "Aghstafa",
     "el": "Αγστάφα",
     "kk": "Агстафа",
-    "uz": "Agstafa"
+    "uz": "Agstafa",
+    "ja": "アグスタファ"
   },
   {
     "code": "aghsu",
@@ -434,7 +452,8 @@
     "hu": "Aghsu",
     "el": "Αγσού",
     "kk": "Агсу",
-    "uz": "Agsu"
+    "uz": "Agsu",
+    "ja": "アグス"
   },
   {
     "code": "astara",
@@ -457,7 +476,8 @@
     "hu": "Astara",
     "el": "Αστάρα",
     "kk": "Астара",
-    "uz": "Astara"
+    "uz": "Astara",
+    "ja": "アスタラ"
   },
   {
     "code": "babek",
@@ -480,7 +500,8 @@
     "hu": "Babek",
     "el": "Μπάμπεκ",
     "kk": "Бабек",
-    "uz": "Babak"
+    "uz": "Babak",
+    "ja": "バベク"
   },
   {
     "code": "balakan",
@@ -503,7 +524,8 @@
     "hu": "Balakan",
     "el": "Μπαλακέν",
     "kk": "Балакан",
-    "uz": "Balakan"
+    "uz": "Balakan",
+    "ja": "バラカン"
   },
   {
     "code": "barda",
@@ -526,7 +548,8 @@
     "hu": "Barda",
     "el": "Μπαρντά",
     "kk": "Барда",
-    "uz": "Barda"
+    "uz": "Barda",
+    "ja": "バルダ"
   },
   {
     "code": "beylagan",
@@ -549,7 +572,8 @@
     "hu": "Beylagan",
     "el": "Μπεϊλαγκάν",
     "kk": "Бейлаган",
-    "uz": "Beylagan"
+    "uz": "Beylagan",
+    "ja": "ベイラガン"
   },
   {
     "code": "bilasuvar",
@@ -572,7 +596,8 @@
     "hu": "Bilasuvar",
     "el": "Μπιλασουβάρ",
     "kk": "Биласувар",
-    "uz": "Bilasuvar"
+    "uz": "Bilasuvar",
+    "ja": "ビラスヴァル"
   },
   {
     "code": "jabrayil",
@@ -595,7 +620,8 @@
     "hu": "Jabrayil",
     "el": "Τζαμπραγίλ",
     "kk": "Джебраил",
-    "uz": "Jabrayil"
+    "uz": "Jabrayil",
+    "ja": "ジャブライル"
   },
   {
     "code": "jalilabad",
@@ -618,7 +644,8 @@
     "hu": "Jalilabad",
     "el": "Τζαλιλαμπάντ",
     "kk": "Джалилабад",
-    "uz": "Jalilabad"
+    "uz": "Jalilabad",
+    "ja": "ジャリラバード"
   },
   {
     "code": "julfa",
@@ -641,7 +668,8 @@
     "hu": "Julfa",
     "el": "Τζούλφα",
     "kk": "Джульфа",
-    "uz": "Julfa"
+    "uz": "Julfa",
+    "ja": "ジュルファ"
   },
   {
     "code": "dashkasan",
@@ -664,7 +692,8 @@
     "hu": "Dashkasan",
     "el": "Ντασκεσέν",
     "kk": "Дашкесан",
-    "uz": "Dashkasan"
+    "uz": "Dashkasan",
+    "ja": "ダシュケサン"
   },
   {
     "code": "fuzuli",
@@ -687,7 +716,8 @@
     "hu": "Fuzuli",
     "el": "Φιζουλί",
     "kk": "Физули",
-    "uz": "Fuzuli"
+    "uz": "Fuzuli",
+    "ja": "フュズリ"
   },
   {
     "code": "gadabay",
@@ -710,7 +740,8 @@
     "hu": "Gadabay",
     "el": "Γκαντεμπέι",
     "kk": "Гадабай",
-    "uz": "Gadabay"
+    "uz": "Gadabay",
+    "ja": "ガダバイ"
   },
   {
     "code": "goranboy",
@@ -733,7 +764,8 @@
     "hu": "Goranboy",
     "el": "Γκοράνμποϊ",
     "kk": "Геранбой",
-    "uz": "Goranboy"
+    "uz": "Goranboy",
+    "ja": "ゴランボイ"
   },
   {
     "code": "goychay",
@@ -756,7 +788,8 @@
     "hu": "Goychay",
     "el": "Γκιοϊτσάι",
     "kk": "Гейчай",
-    "uz": "Goychay"
+    "uz": "Goychay",
+    "ja": "ギョイチャイ"
   },
   {
     "code": "goygol",
@@ -779,7 +812,8 @@
     "hu": "Goygol",
     "el": "Γκιοϊγκιόλ",
     "kk": "Гёйгёль",
-    "uz": "Goygol"
+    "uz": "Goygol",
+    "ja": "ギョイギョル"
   },
   {
     "code": "hajiqabul",
@@ -802,7 +836,8 @@
     "hu": "Hajiqabul",
     "el": "Χατζιγκαμπούλ",
     "kk": "Хаджигабул",
-    "uz": "Hajiqabul"
+    "uz": "Hajiqabul",
+    "ja": "ハジガブル"
   },
   {
     "code": "imishli",
@@ -825,7 +860,8 @@
     "hu": "Imishli",
     "el": "Ιμισλί",
     "kk": "Имишли",
-    "uz": "Imishli"
+    "uz": "Imishli",
+    "ja": "イミシュリ"
   },
   {
     "code": "ismayilli",
@@ -848,7 +884,8 @@
     "hu": "Ismayilli",
     "el": "Ισμαγιλί",
     "kk": "Исмаиллы",
-    "uz": "Ismayilli"
+    "uz": "Ismayilli",
+    "ja": "イスマイルリ"
   },
   {
     "code": "kalbajar",
@@ -871,7 +908,8 @@
     "hu": "Kalbajar",
     "el": "Κελμπετζάρ",
     "kk": "Кельбаджар",
-    "uz": "Kalbajar"
+    "uz": "Kalbajar",
+    "ja": "カルバジャル"
   },
   {
     "code": "kangarli",
@@ -894,7 +932,8 @@
     "hu": "Kangarli",
     "el": "Κενγκερλί",
     "kk": "Кенгерли",
-    "uz": "Kangarli"
+    "uz": "Kangarli",
+    "ja": "ケンゲルリ"
   },
   {
     "code": "kurdamir",
@@ -917,7 +956,8 @@
     "hu": "Kurdamir",
     "el": "Κουρταμίρ",
     "kk": "Кюрдамир",
-    "uz": "Kurdamir"
+    "uz": "Kurdamir",
+    "ja": "キュルダミル"
   },
   {
     "code": "qakh",
@@ -940,7 +980,8 @@
     "hu": "Qakh",
     "el": "Γκαχ",
     "kk": "Гах",
-    "uz": "Qax"
+    "uz": "Qax",
+    "ja": "ガフ"
   },
   {
     "code": "qazakh",
@@ -963,7 +1004,8 @@
     "hu": "Qazakh",
     "el": "Καζάχ",
     "kk": "Газах",
-    "uz": "Qazax"
+    "uz": "Qazax",
+    "ja": "ガザフ"
   },
   {
     "code": "gabala",
@@ -986,7 +1028,8 @@
     "hu": "Gabala",
     "el": "Γκαμπαλά",
     "kk": "Габала",
-    "uz": "Qabala"
+    "uz": "Qabala",
+    "ja": "ガバラ"
   },
   {
     "code": "gobustan",
@@ -1009,7 +1052,8 @@
     "hu": "Gobustan",
     "el": "Γκομπουστάν",
     "kk": "Гобустан",
-    "uz": "Qobustan"
+    "uz": "Qobustan",
+    "ja": "ゴブスタン"
   },
   {
     "code": "guba",
@@ -1032,7 +1076,8 @@
     "hu": "Guba",
     "el": "Γκουμπά",
     "kk": "Губа",
-    "uz": "Quba"
+    "uz": "Quba",
+    "ja": "グバ"
   },
   {
     "code": "gubadli",
@@ -1055,7 +1100,8 @@
     "hu": "Gubadli",
     "el": "Γκουμπαντλί",
     "kk": "Губадлы",
-    "uz": "Qubadli"
+    "uz": "Qubadli",
+    "ja": "グバドリ"
   },
   {
     "code": "gusar",
@@ -1078,7 +1124,8 @@
     "hu": "Gusar",
     "el": "Γκουσάρ",
     "kk": "Гусар",
-    "uz": "Qusar"
+    "uz": "Qusar",
+    "ja": "グサル"
   },
   {
     "code": "lachin",
@@ -1101,7 +1148,8 @@
     "hu": "Lachin",
     "el": "Λατσίν",
     "kk": "Лачин",
-    "uz": "Lachin"
+    "uz": "Lachin",
+    "ja": "ラチン"
   },
   {
     "code": "lerik",
@@ -1124,7 +1172,8 @@
     "hu": "Lerik",
     "el": "Λερίκ",
     "kk": "Лерик",
-    "uz": "Lerik"
+    "uz": "Lerik",
+    "ja": "レリク"
   },
   {
     "code": "masalli",
@@ -1147,7 +1196,8 @@
     "hu": "Masalli",
     "el": "Μασαλί",
     "kk": "Масаллы",
-    "uz": "Masalli"
+    "uz": "Masalli",
+    "ja": "マサリ"
   },
   {
     "code": "neftchala",
@@ -1170,7 +1220,8 @@
     "hu": "Neftchala",
     "el": "Νεφτσαλά",
     "kk": "Нефтчала",
-    "uz": "Neftchala"
+    "uz": "Neftchala",
+    "ja": "ネフチャラ"
   },
   {
     "code": "oghuz",
@@ -1193,7 +1244,8 @@
     "hu": "Oghuz",
     "el": "Ογούζ",
     "kk": "Огуз",
-    "uz": "Oguz"
+    "uz": "Oguz",
+    "ja": "オグズ"
   },
   {
     "code": "ordubad",
@@ -1216,7 +1268,8 @@
     "hu": "Ordubad",
     "el": "Ορντουμπάντ",
     "kk": "Ордубад",
-    "uz": "Ordubad"
+    "uz": "Ordubad",
+    "ja": "オルドゥバード"
   },
   {
     "code": "saatli",
@@ -1239,7 +1292,8 @@
     "hu": "Saatli",
     "el": "Σαατλί",
     "kk": "Саатлы",
-    "uz": "Saatli"
+    "uz": "Saatli",
+    "ja": "サアトリ"
   },
   {
     "code": "sabirabad",
@@ -1262,7 +1316,8 @@
     "hu": "Sabirabad",
     "el": "Σαμπιραμπάντ",
     "kk": "Сабирабад",
-    "uz": "Sabirabad"
+    "uz": "Sabirabad",
+    "ja": "サビラバード"
   },
   {
     "code": "sadarak",
@@ -1285,7 +1340,8 @@
     "hu": "Sadarak",
     "el": "Σαντάρακ",
     "kk": "Садарак",
-    "uz": "Sadarak"
+    "uz": "Sadarak",
+    "ja": "サダラク"
   },
   {
     "code": "salyan",
@@ -1308,7 +1364,8 @@
     "hu": "Salyan",
     "el": "Σαλιάν",
     "kk": "Сальян",
-    "uz": "Salyan"
+    "uz": "Salyan",
+    "ja": "サリヤン"
   },
   {
     "code": "samukh",
@@ -1331,7 +1388,8 @@
     "hu": "Samukh",
     "el": "Σαμούχ",
     "kk": "Самух",
-    "uz": "Samux"
+    "uz": "Samux",
+    "ja": "サムフ"
   },
   {
     "code": "shabran",
@@ -1354,7 +1412,8 @@
     "hu": "Shabran",
     "el": "Σαμπράν",
     "kk": "Шабран",
-    "uz": "Shabran"
+    "uz": "Shabran",
+    "ja": "シャブラン"
   },
   {
     "code": "shahbuz",
@@ -1377,7 +1436,8 @@
     "hu": "Shahbuz",
     "el": "Σαχμπούζ",
     "kk": "Шахбуз",
-    "uz": "Shahbuz"
+    "uz": "Shahbuz",
+    "ja": "シャフブズ"
   },
   {
     "code": "shamakhi",
@@ -1400,7 +1460,8 @@
     "hu": "Shamakhi",
     "el": "Σαμαχί",
     "kk": "Шамахы",
-    "uz": "Shamaxi"
+    "uz": "Shamaxi",
+    "ja": "シャマヒ"
   },
   {
     "code": "shamkir",
@@ -1423,7 +1484,8 @@
     "hu": "Shamkir",
     "el": "Σαμκίρ",
     "kk": "Шамкир",
-    "uz": "Shamkir"
+    "uz": "Shamkir",
+    "ja": "シャムキル"
   },
   {
     "code": "sharur",
@@ -1446,7 +1508,8 @@
     "hu": "Sharur",
     "el": "Σαρούρ",
     "kk": "Шарур",
-    "uz": "Sharur"
+    "uz": "Sharur",
+    "ja": "シャルル"
   },
   {
     "code": "siyazan",
@@ -1469,7 +1532,8 @@
     "hu": "Siyazan",
     "el": "Σιγιαζάν",
     "kk": "Сиязан",
-    "uz": "Siyazan"
+    "uz": "Siyazan",
+    "ja": "シヤザン"
   },
   {
     "code": "tartar",
@@ -1492,7 +1556,8 @@
     "hu": "Tartar",
     "el": "Τερτέρ",
     "kk": "Тартар",
-    "uz": "Tartar"
+    "uz": "Tartar",
+    "ja": "タルタル"
   },
   {
     "code": "tovuz",
@@ -1515,7 +1580,8 @@
     "hu": "Tovuz",
     "el": "Τοβούζ",
     "kk": "Товуз",
-    "uz": "Tovuz"
+    "uz": "Tovuz",
+    "ja": "トヴズ"
   },
   {
     "code": "ujar",
@@ -1538,7 +1604,8 @@
     "hu": "Ujar",
     "el": "Ουτζάρ",
     "kk": "Уджар",
-    "uz": "Ujar"
+    "uz": "Ujar",
+    "ja": "ウジャル"
   },
   {
     "code": "khachmaz",
@@ -1561,7 +1628,8 @@
     "hu": "Khachmaz",
     "el": "Χατσμάζ",
     "kk": "Хачмаз",
-    "uz": "Xachmaz"
+    "uz": "Xachmaz",
+    "ja": "ハチマズ"
   },
   {
     "code": "khizi",
@@ -1584,7 +1652,8 @@
     "hu": "Khizi",
     "el": "Χιζί",
     "kk": "Хызы",
-    "uz": "Xizi"
+    "uz": "Xizi",
+    "ja": "ヒズィ"
   },
   {
     "code": "khojali",
@@ -1607,7 +1676,8 @@
     "hu": "Khojali",
     "el": "Χοτζαλί",
     "kk": "Ходжалы",
-    "uz": "Xojali"
+    "uz": "Xojali",
+    "ja": "ホジャリ"
   },
   {
     "code": "khojavend",
@@ -1630,7 +1700,8 @@
     "hu": "Khojavend",
     "el": "Χοτζαβέντ",
     "kk": "Ходжавенд",
-    "uz": "Xojavand"
+    "uz": "Xojavand",
+    "ja": "ホジャヴェンド"
   },
   {
     "code": "yardimli",
@@ -1653,7 +1724,8 @@
     "hu": "Yardimli",
     "el": "Γιαρντιμλί",
     "kk": "Ярдымлы",
-    "uz": "Yardimli"
+    "uz": "Yardimli",
+    "ja": "ヤルドゥムル"
   },
   {
     "code": "zaqatala",
@@ -1676,7 +1748,8 @@
     "hu": "Zaqatala",
     "el": "Ζαγκατάλα",
     "kk": "Загатала",
-    "uz": "Zaqatala"
+    "uz": "Zaqatala",
+    "ja": "ザガタラ"
   },
   {
     "code": "zangilan",
@@ -1699,7 +1772,8 @@
     "hu": "Zangilan",
     "el": "Ζενγκιλάν",
     "kk": "Зангилан",
-    "uz": "Zangilan"
+    "uz": "Zangilan",
+    "ja": "ザンギラン"
   },
   {
     "code": "zardab",
@@ -1722,7 +1796,8 @@
     "hu": "Zardab",
     "el": "Ζαρντάμπ",
     "kk": "Зардаб",
-    "uz": "Zardab"
+    "uz": "Zardab",
+    "ja": "ザルダブ"
   },
   {
     "code": "istanbul",
@@ -1745,7 +1820,8 @@
     "hu": "Isztambul",
     "el": "Κωνσταντινούπολη",
     "kk": "Стамбул",
-    "uz": "Istanbul"
+    "uz": "Istanbul",
+    "ja": "イスタンブール"
   },
   {
     "code": "ankara",
@@ -1768,7 +1844,8 @@
     "hu": "Ankara",
     "el": "Άγκυρα",
     "kk": "Анкара",
-    "uz": "Ankara"
+    "uz": "Ankara",
+    "ja": "アンカラ"
   },
   {
     "code": "izmir",
@@ -1791,7 +1868,8 @@
     "hu": "Izmir",
     "el": "Σμύρνη",
     "kk": "Измир",
-    "uz": "Izmir"
+    "uz": "Izmir",
+    "ja": "イズミル"
   },
   {
     "code": "antalya",
@@ -1814,7 +1892,8 @@
     "hu": "Antalya",
     "el": "Αττάλεια",
     "kk": "Анталья",
-    "uz": "Antalya"
+    "uz": "Antalya",
+    "ja": "アンタルヤ"
   },
   {
     "code": "bursa",
@@ -1837,7 +1916,8 @@
     "hu": "Bursa",
     "el": "Προύσα",
     "kk": "Бурса",
-    "uz": "Bursa"
+    "uz": "Bursa",
+    "ja": "ブルサ"
   },
   {
     "code": "trabzon",
@@ -1860,7 +1940,8 @@
     "hu": "Trabzon",
     "el": "Τραπεζούντα",
     "kk": "Трабзон",
-    "uz": "Trabzon"
+    "uz": "Trabzon",
+    "ja": "トラブゾン"
   },
   {
     "code": "kars",
@@ -1883,7 +1964,8 @@
     "hu": "Kars",
     "el": "Κάρς",
     "kk": "Карс",
-    "uz": "Kars"
+    "uz": "Kars",
+    "ja": "カルス"
   },
   {
     "code": "moscow",
@@ -1906,7 +1988,8 @@
     "hu": "Moszkva",
     "el": "Μόσχα",
     "kk": "Мәскеу",
-    "uz": "Moskva"
+    "uz": "Moskva",
+    "ja": "モスクワ"
   },
   {
     "code": "saint_petersburg",
@@ -1929,7 +2012,8 @@
     "hu": "Szentpétervár",
     "el": "Αγία Πετρούπολη",
     "kk": "Санкт-Петербург",
-    "uz": "Sankt-Peterburg"
+    "uz": "Sankt-Peterburg",
+    "ja": "サンクトペテルブルク"
   },
   {
     "code": "kazan",
@@ -1952,7 +2036,8 @@
     "hu": "Kazany",
     "el": "Καζάν",
     "kk": "Қазан",
-    "uz": "Qozon"
+    "uz": "Qozon",
+    "ja": "カザン"
   },
   {
     "code": "yekaterinburg",
@@ -1975,7 +2060,8 @@
     "hu": "Jekaterinburg",
     "el": "Γιεκατερίνμπουργκ",
     "kk": "Екатеринбург",
-    "uz": "Yekaterinburg"
+    "uz": "Yekaterinburg",
+    "ja": "エカテリンブルク"
   },
   {
     "code": "novosibirsk",
@@ -1998,7 +2084,8 @@
     "hu": "Novoszibirszk",
     "el": "Νοβοσιμπίρσκ",
     "kk": "Новосибирск",
-    "uz": "Novosibirsk"
+    "uz": "Novosibirsk",
+    "ja": "ノヴォシビルスク"
   },
   {
     "code": "kyiv",
@@ -2021,7 +2108,8 @@
     "hu": "Kijev",
     "el": "Κίεβο",
     "kk": "Киев",
-    "uz": "Kiev"
+    "uz": "Kiev",
+    "ja": "キーウ"
   },
   {
     "code": "minsk",
@@ -2044,7 +2132,8 @@
     "hu": "Minszk",
     "el": "Μινσκ",
     "kk": "Минск",
-    "uz": "Minsk"
+    "uz": "Minsk",
+    "ja": "ミンスク"
   },
   {
     "code": "tbilisi",
@@ -2067,7 +2156,8 @@
     "hu": "Tbiliszi",
     "el": "Τιφλίδα",
     "kk": "Тбилиси",
-    "uz": "Tbilisi"
+    "uz": "Tbilisi",
+    "ja": "トビリシ"
   },
   {
     "code": "batumi",
@@ -2090,7 +2180,8 @@
     "hu": "Batumi",
     "el": "Μπατούμι",
     "kk": "Батуми",
-    "uz": "Batumi"
+    "uz": "Batumi",
+    "ja": "バトゥミ"
   },
   {
     "code": "kutaisi",
@@ -2113,7 +2204,8 @@
     "hu": "Kutaiszi",
     "el": "Κουταΐσι",
     "kk": "Кутаиси",
-    "uz": "Kutaisi"
+    "uz": "Kutaisi",
+    "ja": "クタイシ"
   },
   {
     "code": "yerevan",
@@ -2136,7 +2228,8 @@
     "hu": "Jereván",
     "el": "Ερεβάν",
     "kk": "Ереван",
-    "uz": "Yerevan"
+    "uz": "Yerevan",
+    "ja": "エレバン"
   },
   {
     "code": "tehran",
@@ -2159,7 +2252,8 @@
     "hu": "Teherán",
     "el": "Τεχεράνη",
     "kk": "Тегеран",
-    "uz": "Tehron"
+    "uz": "Tehron",
+    "ja": "テヘラン"
   },
   {
     "code": "tabriz",
@@ -2182,7 +2276,8 @@
     "hu": "Tabriz",
     "el": "Ταμπρίζ",
     "kk": "Тебриз",
-    "uz": "Tabriz"
+    "uz": "Tabriz",
+    "ja": "タブリーズ"
   },
   {
     "code": "astana",
@@ -2205,7 +2300,8 @@
     "hu": "Asztana",
     "el": "Αστάνα",
     "kk": "Астана",
-    "uz": "Astana"
+    "uz": "Astana",
+    "ja": "アスタナ"
   },
   {
     "code": "almaty",
@@ -2228,7 +2324,8 @@
     "hu": "Almati",
     "el": "Αλμάτι",
     "kk": "Алматы",
-    "uz": "Almati"
+    "uz": "Almati",
+    "ja": "アルマトイ"
   },
   {
     "code": "tashkent",
@@ -2251,7 +2348,8 @@
     "hu": "Taskent",
     "el": "Τασκένδη",
     "kk": "Ташкент",
-    "uz": "Toshkent"
+    "uz": "Toshkent",
+    "ja": "タシケント"
   },
   {
     "code": "bishkek",
@@ -2274,7 +2372,8 @@
     "hu": "Biskek",
     "el": "Μπισκέκ",
     "kk": "Бішкек",
-    "uz": "Bishkek"
+    "uz": "Bishkek",
+    "ja": "ビシュケク"
   },
   {
     "code": "ashgabat",
@@ -2297,7 +2396,8 @@
     "hu": "Asgabat",
     "el": "Ασγκαμπάτ",
     "kk": "Ашхабад",
-    "uz": "Ashxobod"
+    "uz": "Ashxobod",
+    "ja": "アシガバート"
   },
   {
     "code": "dubai",
@@ -2320,7 +2420,8 @@
     "hu": "Dubai",
     "el": "Ντουμπάι",
     "kk": "Дубай",
-    "uz": "Dubay"
+    "uz": "Dubay",
+    "ja": "ドバイ"
   },
   {
     "code": "abu_dhabi",
@@ -2343,7 +2444,8 @@
     "hu": "Abu Dzabi",
     "el": "Άμπου Ντάμπι",
     "kk": "Абу-Даби",
-    "uz": "Abu-Dabi"
+    "uz": "Abu-Dabi",
+    "ja": "アブダビ"
   },
   {
     "code": "doha",
@@ -2366,7 +2468,8 @@
     "hu": "Doha",
     "el": "Ντόχα",
     "kk": "Доха",
-    "uz": "Doha"
+    "uz": "Doha",
+    "ja": "ドーハ"
   },
   {
     "code": "riyadh",
@@ -2389,7 +2492,8 @@
     "hu": "Rijád",
     "el": "Ριάντ",
     "kk": "Рияд",
-    "uz": "Ar-Riyod"
+    "uz": "Ar-Riyod",
+    "ja": "リヤド"
   },
   {
     "code": "jeddah",
@@ -2412,7 +2516,8 @@
     "hu": "Dzsidda",
     "el": "Τζέντα",
     "kk": "Джидда",
-    "uz": "Jidda"
+    "uz": "Jidda",
+    "ja": "ジッダ"
   },
   {
     "code": "kuwait_city",
@@ -2435,7 +2540,8 @@
     "hu": "Kuvait",
     "el": "Πόλη του Κουβέιτ",
     "kk": "Кувейт",
-    "uz": "Quvayt"
+    "uz": "Quvayt",
+    "ja": "クウェート市"
   },
   {
     "code": "cairo",
@@ -2458,7 +2564,8 @@
     "hu": "Kairó",
     "el": "Κάιρο",
     "kk": "Каир",
-    "uz": "Qohira"
+    "uz": "Qohira",
+    "ja": "カイロ"
   },
   {
     "code": "amman",
@@ -2481,7 +2588,8 @@
     "hu": "Amman",
     "el": "Αμμάν",
     "kk": "Амман",
-    "uz": "Amman"
+    "uz": "Amman",
+    "ja": "アンマン"
   },
   {
     "code": "beirut",
@@ -2504,7 +2612,8 @@
     "hu": "Bejrút",
     "el": "Βηρυτός",
     "kk": "Бейрут",
-    "uz": "Bayrut"
+    "uz": "Bayrut",
+    "ja": "ベイルート"
   },
   {
     "code": "london",
@@ -2527,7 +2636,8 @@
     "hu": "London",
     "el": "Λονδίνο",
     "kk": "Лондон",
-    "uz": "London"
+    "uz": "London",
+    "ja": "ロンドン"
   },
   {
     "code": "berlin",
@@ -2550,7 +2660,8 @@
     "hu": "Berlin",
     "el": "Βερολίνο",
     "kk": "Берлин",
-    "uz": "Berlin"
+    "uz": "Berlin",
+    "ja": "ベルリン"
   },
   {
     "code": "paris",
@@ -2573,7 +2684,8 @@
     "hu": "Párizs",
     "el": "Παρίσι",
     "kk": "Париж",
-    "uz": "Parij"
+    "uz": "Parij",
+    "ja": "パリ"
   },
   {
     "code": "rome",
@@ -2596,7 +2708,8 @@
     "hu": "Róma",
     "el": "Ρώμη",
     "kk": "Рим",
-    "uz": "Rim"
+    "uz": "Rim",
+    "ja": "ローマ"
   },
   {
     "code": "madrid",
@@ -2619,7 +2732,8 @@
     "hu": "Madrid",
     "el": "Μαδρίτη",
     "kk": "Мадрид",
-    "uz": "Madrid"
+    "uz": "Madrid",
+    "ja": "マドリード"
   },
   {
     "code": "amsterdam",
@@ -2642,7 +2756,8 @@
     "hu": "Amszterdam",
     "el": "Άμστερνταμ",
     "kk": "Амстердам",
-    "uz": "Amsterdam"
+    "uz": "Amsterdam",
+    "ja": "アムステルダム"
   },
   {
     "code": "vienna",
@@ -2665,7 +2780,8 @@
     "hu": "Bécs",
     "el": "Βιέννη",
     "kk": "Вена",
-    "uz": "Vena"
+    "uz": "Vena",
+    "ja": "ウィーン"
   },
   {
     "code": "prague",
@@ -2688,7 +2804,8 @@
     "hu": "Prága",
     "el": "Πράγα",
     "kk": "Прага",
-    "uz": "Praga"
+    "uz": "Praga",
+    "ja": "プラハ"
   },
   {
     "code": "warsaw",
@@ -2711,7 +2828,8 @@
     "hu": "Varsó",
     "el": "Βαρσοβία",
     "kk": "Варшава",
-    "uz": "Varshava"
+    "uz": "Varshava",
+    "ja": "ワルシャワ"
   },
   {
     "code": "budapest",
@@ -2734,7 +2852,8 @@
     "hu": "Budapest",
     "el": "Βουδαπέστη",
     "kk": "Будапешт",
-    "uz": "Budapesht"
+    "uz": "Budapesht",
+    "ja": "ブダペスト"
   },
   {
     "code": "stockholm",
@@ -2757,7 +2876,8 @@
     "hu": "Stockholm",
     "el": "Στοκχόλμη",
     "kk": "Стокгольм",
-    "uz": "Stokgolm"
+    "uz": "Stokgolm",
+    "ja": "ストックホルム"
   },
   {
     "code": "riga",
@@ -2780,7 +2900,8 @@
     "hu": "Riga",
     "el": "Ρίγα",
     "kk": "Рига",
-    "uz": "Riga"
+    "uz": "Riga",
+    "ja": "リガ"
   },
   {
     "code": "bucharest",
@@ -2803,7 +2924,8 @@
     "hu": "Bukarest",
     "el": "Βουκουρέστι",
     "kk": "Бухарест",
-    "uz": "Buxarest"
+    "uz": "Buxarest",
+    "ja": "ブカレスト"
   },
   {
     "code": "new_york",
@@ -2826,7 +2948,8 @@
     "hu": "New York",
     "el": "Νέα Υόρκη",
     "kk": "Нью-Йорк",
-    "uz": "Nyu-York"
+    "uz": "Nyu-York",
+    "ja": "ニューヨーク"
   },
   {
     "code": "washington",
@@ -2849,7 +2972,8 @@
     "hu": "Washington",
     "el": "Ουάσινγκτον",
     "kk": "Вашингтон",
-    "uz": "Vashington"
+    "uz": "Vashington",
+    "ja": "ワシントン"
   },
   {
     "code": "los_angeles",
@@ -2872,7 +2996,8 @@
     "hu": "Los Angeles",
     "el": "Λος Άντζελες",
     "kk": "Лос-Анджелес",
-    "uz": "Los-Anjeles"
+    "uz": "Los-Anjeles",
+    "ja": "ロサンゼルス"
   },
   {
     "code": "toronto",
@@ -2895,7 +3020,8 @@
     "hu": "Toronto",
     "el": "Τορόντο",
     "kk": "Торонто",
-    "uz": "Toronto"
+    "uz": "Toronto",
+    "ja": "トロント"
   },
   {
     "code": "beijing",
@@ -2918,7 +3044,8 @@
     "hu": "Peking",
     "el": "Πεκίνο",
     "kk": "Бейжің",
-    "uz": "Pekin"
+    "uz": "Pekin",
+    "ja": "北京"
   },
   {
     "code": "shanghai",
@@ -2941,7 +3068,8 @@
     "hu": "Sanghaj",
     "el": "Σανγκάη",
     "kk": "Шанхай",
-    "uz": "Shanxay"
+    "uz": "Shanxay",
+    "ja": "上海"
   },
   {
     "code": "tokyo",
@@ -2964,7 +3092,8 @@
     "hu": "Tokió",
     "el": "Τόκιο",
     "kk": "Токио",
-    "uz": "Tokio"
+    "uz": "Tokio",
+    "ja": "東京"
   },
   {
     "code": "seoul",
@@ -2987,7 +3116,8 @@
     "hu": "Szöul",
     "el": "Σεούλ",
     "kk": "Сеул",
-    "uz": "Seul"
+    "uz": "Seul",
+    "ja": "ソウル"
   },
   {
     "code": "new_delhi",
@@ -3010,7 +3140,8 @@
     "hu": "Újdelhi",
     "el": "Νέο Δελχί",
     "kk": "Нью-Дели",
-    "uz": "Yangi Dehli"
+    "uz": "Yangi Dehli",
+    "ja": "ニューデリー"
   },
   {
     "code": "sydney",
@@ -3033,6 +3164,7 @@
     "hu": "Sydney",
     "el": "Σίδνεϊ",
     "kk": "Сидней",
-    "uz": "Sidney"
+    "uz": "Sidney",
+    "ja": "シドニー"
   }
 ]

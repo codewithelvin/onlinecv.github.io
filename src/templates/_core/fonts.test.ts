@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { SUPPORTED_LOCALES } from '../../app/i18n/locales';
-import { FONT_FAMILY } from '../../app/theme';
+import { FONT_FAMILY, uiFontFamily } from '../../app/theme';
 import { CV_FONT_STACK, cvFontFamily, cvFontStack } from './fonts';
 
 /**
@@ -28,6 +28,32 @@ describe('cvFontStack', () => {
     expect(cvFontStack('he')[0]).toBe('NotoSansHebrew');
     expect(cvFontStack('ko')[0]).toBe('NanumGothic');
     expect(cvFontStack('zh')[0]).toBe('NotoSansSC');
+    expect(cvFontStack('ja')[0]).toBe('NotoSansJP');
+  });
+
+  /**
+   * Japanese and Chinese are the pair that cannot be settled by ordering the
+   * stack ONCE: both faces claim the whole CJK Unified block, so first-match-wins
+   * hands every ideograph in the document to whichever leads — and 65.6% of the
+   * ideographs the two fonts share are drawn differently (fontkit, 1,806 sampled).
+   * A Japanese CV in NotoSansSC is legible and visibly Chinese-typeset.
+   *
+   * So this is a two-way assertion on purpose: each language's own face must beat
+   * the other's, in the CV and in the chrome alike.
+   */
+  it('never lets one Han face answer for the other language', () => {
+    expect(cvFontStack('ja').indexOf('NotoSansJP')).toBeLessThan(
+      cvFontStack('ja').indexOf('NotoSansSC'),
+    );
+    expect(cvFontStack('zh').indexOf('NotoSansSC')).toBeLessThan(
+      cvFontStack('zh').indexOf('NotoSansJP'),
+    );
+    const chrome = (locale: 'ja' | 'zh'): string[] =>
+      uiFontFamily(locale)
+        .split(',')
+        .map((f) => f.trim());
+    expect(chrome('ja').indexOf('NotoSansJP')).toBeLessThan(chrome('ja').indexOf('NotoSansSC'));
+    expect(chrome('zh').indexOf('NotoSansSC')).toBeLessThan(chrome('zh').indexOf('NotoSansJP'));
   });
 
   it('leaves Inter in front for the Latin and Cyrillic locales', () => {
@@ -86,5 +112,22 @@ describe('cvFontStack', () => {
     const families = FONT_FAMILY.split(',').map((f) => f.trim());
     expect(families.indexOf('NanumGothic')).toBeLessThan(families.indexOf('NotoSansSC'));
     expect(families.indexOf('NanumGothic')).toBeGreaterThan(-1);
+  });
+
+  /**
+   * `uiFontFamily` reorders the chrome the way `cvFontStack` reorders the
+   * document, and everything else about it must stay put: the same families, and
+   * Inter still first so the UI's own Latin letterforms do not change with the
+   * language (the promoted CJK faces carry no `ə ğ ı İ ş` anyway).
+   */
+  it('keeps the UI stack a permutation with Inter still leading', () => {
+    const base = FONT_FAMILY.split(',').map((f) => f.trim());
+    for (const locale of SUPPORTED_LOCALES) {
+      const stack = uiFontFamily(locale)
+        .split(',')
+        .map((f) => f.trim());
+      expect([...stack].sort(), `${locale} changed the UI font set`).toEqual([...base].sort());
+      expect(stack[0], `${locale} moved Inter out of the front`).toBe('Inter');
+    }
   });
 });

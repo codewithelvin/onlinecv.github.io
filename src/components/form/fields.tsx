@@ -4,6 +4,7 @@ import { AutoComplete, Checkbox, DatePicker, Form, Input, InputNumber, Select, S
 import dayjs, { type Dayjs } from 'dayjs';
 import { FiCheck } from 'react-icons/fi';
 import { searchKey } from '../../utils/search';
+import { CLARITY_MASK } from '../../services/analytics';
 import type { ValueDirection } from '../../utils/bidi';
 import { type Control, type FieldPath, type FieldValues, useController } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
@@ -310,6 +311,12 @@ export function RHFSelect<T extends FieldValues>({
       {(a11y) => (
         <Select
           {...a11y}
+          /* A chosen value is rendered as TEXT, not as an input value, so Clarity's
+             default input masking does not reach it and a session replay would
+             carry the pick (degree, language level, contact type…). Declared HERE
+             rather than per call site: a field added later inherits it. See
+             `CLARITY_MASK`. */
+          {...CLARITY_MASK}
           value={field.value ?? undefined}
           onChange={(v) => field.onChange(v)}
           onBlur={field.onBlur}

@@ -1,4 +1,6 @@
 import type { ThemeConfig } from 'antd';
+import type { Locale } from '../types/resume';
+import { primaryFont } from '../templates/_core/fonts';
 
 /** Brand blue from the PWA manifest — used for decorative fills only. */
 export const BRAND = '#1877F2';
@@ -14,13 +16,61 @@ export const BRAND_ACCESSIBLE = '#1461c7';
  * which matters most for the two East Asian faces, the only ones big enough to
  * notice (`NotoSansSC` alone is 8 MB per weight).
  *
- * The two faces that also carry Latin — `NanumGothic` and `NotoSansSC` — are last
- * deliberately: leading with Inter keeps the UI's own letterforms identical in all
- * nine languages, and Hangul and Han reach their own face by per-glyph fallback
- * anyway.
+ * The faces that also carry Latin — `NanumGothic`, `NotoSansJP` and `NotoSansSC` —
+ * are last deliberately: leading with Inter keeps the UI's own letterforms
+ * identical in every language, and Hangul and Han reach their own face by
+ * per-glyph fallback anyway.
  */
-export const FONT_FAMILY =
-  "Inter, NotoSansGeorgian, NotoSansArabic, NotoSansHebrew, NanumGothic, NotoSansSC, 'Segoe UI', Roboto, 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif";
+const UI_SCRIPT_FONTS = [
+  'NotoSansGeorgian',
+  'NotoSansArabic',
+  'NotoSansHebrew',
+  'NanumGothic',
+  'NotoSansJP',
+  'NotoSansSC',
+];
+
+/** What answers once every bundled face has declined a code point. */
+const UI_SYSTEM_FALLBACKS = [
+  "'Segoe UI'",
+  'Roboto',
+  "'Noto Sans'",
+  '-apple-system',
+  'BlinkMacSystemFont',
+  'sans-serif',
+];
+
+/** The stack for a language Inter already covers — and the CSS fallback. */
+export const FONT_FAMILY = ['Inter', ...UI_SCRIPT_FONTS, ...UI_SYSTEM_FALLBACKS].join(', ');
+
+/**
+ * The chrome's font stack for a given UI language.
+ *
+ * A CONSTANT until Japanese, and it could not stay one. `NotoSansJP` and
+ * `NotoSansSC` both claim the whole CJK Unified block, so no `unicode-range` can
+ * route an ideograph to the right one — the stack's order decides, and 65.6% of
+ * the ideographs they share are drawn differently (see `_core/fonts`). A fixed
+ * order therefore has to mis-set one of the two languages: Chinese chrome in
+ * Japanese letterforms, or Japanese chrome in Chinese ones.
+ *
+ * So the language on screen promotes its own face, exactly as `cvFontStack` does
+ * for the document. Inter stays in front of it: the promoted faces carry no
+ * `ə ğ ı İ ş` (checked with fontkit) and the UI's Latin should look the same in
+ * every language, so only the RELATIVE order of the script faces changes.
+ *
+ * It also decides what gets DOWNLOADED — a Japanese page now fetches 4.5 MB of
+ * NotoSansJP instead of 8 MB of NotoSansSC.
+ */
+export function uiFontFamily(locale: Locale): string {
+  const primary = primaryFont(locale);
+  if (!primary) return FONT_FAMILY;
+  return [
+    'Inter',
+    primary,
+    ...UI_SCRIPT_FONTS.filter((family) => family !== primary),
+    ...UI_SYSTEM_FALLBACKS,
+  ].join(', ');
+}
 
 /**
  * Ant Design `ConfigProvider` theme (spec §10.2). Primary uses the AA-safe
@@ -96,3 +146,15 @@ export const themeConfig: ThemeConfig = {
     },
   },
 };
+
+/**
+ * `themeConfig` with the font stack ordered for the language on screen.
+ *
+ * AntD writes `font-family` onto the components themselves, so a rule on `body`
+ * never reaches them — this token is the only way the chrome's own text follows
+ * `uiFontFamily`. The CSS half of the pair is the `--app-font-family` variable
+ * that `applyLocale` sets; between them they cover every element in the app.
+ */
+export function themeFor(locale: Locale): ThemeConfig {
+  return { ...themeConfig, token: { ...themeConfig.token, fontFamily: uiFontFamily(locale) } };
+}
