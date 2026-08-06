@@ -44,6 +44,16 @@ describe('searchKey', () => {
     expect(contains('Großhandel', 'grosshandel')).toBe(true);
   });
 
+  /**
+   * Uzbek's turned comma has no canonical decomposition either, and unlike
+   * `ß` it folds to NOTHING rather than to a letter — `oʻ` is the vowel a
+   * plain-Latin-keyboard typist spells `o`, not some other letter.
+   */
+  it('finds an Uzbek label containing ʻ from the plain-Latin spelling', () => {
+    expect(contains('Oʻzbekiston Milliy universiteti', 'ozbekiston')).toBe(true);
+    expect(contains('Fargʻona davlat universiteti', 'fargona')).toBe(true);
+  });
+
   /** Turkish `ı ş ğ ç` and German umlauts, from a keyboard that has none of them. */
   it('ignores Turkish and German diacritics', () => {
     expect(contains('Işıl Şahingöz', 'isil sahingoz')).toBe(true);

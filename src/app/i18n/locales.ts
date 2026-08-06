@@ -12,6 +12,13 @@ import frFR from 'antd/locale/fr_FR';
 import deDE from 'antd/locale/de_DE';
 import itIT from 'antd/locale/it_IT';
 import trTR from 'antd/locale/tr_TR';
+import ptPT from 'antd/locale/pt_PT';
+import plPL from 'antd/locale/pl_PL';
+import huHU from 'antd/locale/hu_HU';
+import elGR from 'antd/locale/el_GR';
+import kkKZ from 'antd/locale/kk_KZ';
+import uzUZ from 'antd/locale/uz_UZ';
+import dayjs from 'dayjs';
 import 'dayjs/locale/az';
 import 'dayjs/locale/ru';
 import 'dayjs/locale/en';
@@ -32,7 +39,30 @@ import 'dayjs/locale/fr';
 import 'dayjs/locale/de';
 import 'dayjs/locale/it';
 import 'dayjs/locale/tr';
+import 'dayjs/locale/pt';
+import 'dayjs/locale/pl';
+import 'dayjs/locale/hu';
+import 'dayjs/locale/el';
+import 'dayjs/locale/kk';
+import uzLatn from 'dayjs/locale/uz-latn';
 import type { Locale } from '../../types/resume';
+
+/**
+ * dayjs ships Uzbek in TWO scripts under two DIFFERENT keys — `uz` is
+ * Cyrillic, `uz-latn` is Latin — and Latin is the script this app's own `uz`
+ * translation is written in (Uzbekistan's current official script; antd's
+ * `uz_UZ` bundle agrees, its own `locale` field reading `uz-latn`).
+ *
+ * `LocaleMeta.code` doubles as the dayjs locale name everywhere else in this
+ * file (`applyLocale`/`makeDateFormatter` call `dayjs.locale(code)` directly),
+ * so without this, `dayjs.locale('uz')` would resolve to dayjs's default
+ * Cyrillic data — a date picker showing Cyrillic month names inside an
+ * otherwise Latin UI. Re-registering the Latin config under the plain `uz`
+ * key (dayjs's own API for "register a locale object under this name") fixes
+ * that at the source, so every later call in this module needs to know
+ * nothing about it.
+ */
+dayjs.locale({ ...uzLatn, name: 'uz' }, undefined, true);
 
 /**
  * THE locale registry — the single place that knows which languages exist.
@@ -400,6 +430,104 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     cv: true,
     region: 'caucasusWestAsia',
     antd: trTR,
+  },
+  /*
+   * Portuguese, Polish, Hungarian, Greek, Kazakh and Uzbek — six locales added
+   * together, and between them they confirm the Spanish/French-batch finding
+   * from the OTHER direction: Greek and Kazakh are new SCRIPTS, not new Latin
+   * letters, and Inter draws both anyway (checked with fontkit against the
+   * shipped TTFs: the full Greek alphabet plus tonos/dialytika accents, and
+   * Kazakh's nine extra Cyrillic letters `ә ғ қ ң ө ұ ү һ і`). So this is a
+   * six-locale batch with, again, no font to register, no `@font-face`, no
+   * shaping pass — `cv: true` from the start for all six.
+   *
+   * The one real defect the batch surfaced was not a glyph, it was a NAME
+   * COLLISION one script down: dayjs ships Uzbek in Cyrillic under the key
+   * `uz` and in Latin — the script this app's `uz` translation and antd's own
+   * `uz_UZ` bundle both use — under the different key `uz-latn`. See the
+   * `dayjs.locale(…)` re-registration above `import type { Locale }`, which
+   * is what makes `dayjs.locale('uz')` resolve to Latin rather than to
+   * dayjs's default Cyrillic data.
+   *
+   * `capitalizeMonths: true` throughout: all six scripts have letter case
+   * (Greek and Kazakh Cyrillic included), so the house-style call already
+   * made for Spanish/Russian/the French batch applies uniformly.
+   */
+  pt: {
+    code: 'pt',
+    short: 'PT',
+    nativeName: 'Português',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
+    region: 'europe',
+    antd: ptPT,
+  },
+  pl: {
+    code: 'pl',
+    short: 'PL',
+    nativeName: 'Polski',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
+    region: 'europe',
+    antd: plPL,
+  },
+  hu: {
+    code: 'hu',
+    short: 'HU',
+    nativeName: 'Magyar',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
+    region: 'europe',
+    antd: huHU,
+  },
+  el: {
+    code: 'el',
+    short: 'EL',
+    nativeName: 'Ελληνικά',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
+    region: 'europe',
+    antd: elGR,
+  },
+  /**
+   * Kazakh and Uzbek are filed under `asia` rather than `caucasusWestAsia`,
+   * unlike Turkish: both are Turkic languages too, but Turkish sits beside
+   * Azerbaijani specifically because they are the same Oghuz branch. Kazakh is
+   * Kipchak and Uzbek is Karluk — different branches, and geographically
+   * Central Asian rather than Caucasus/West Asian, so the generic `asia`
+   * heading (already home to Korean and Chinese) is the honest fit; there is
+   * no dedicated Central Asia region and inventing one for two languages would
+   * cost every other picker a region nobody else uses.
+   */
+  kk: {
+    code: 'kk',
+    short: 'KK',
+    nativeName: 'Қазақша',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
+    region: 'asia',
+    antd: kkKZ,
+  },
+  uz: {
+    code: 'uz',
+    short: 'UZ',
+    nativeName: 'Oʻzbekcha',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
+    region: 'asia',
+    antd: uzUZ,
   },
 };
 

@@ -14,7 +14,13 @@
     "fr": "Économie",
     "de": "Wirtschaftswissenschaften",
     "it": "Economia",
-    "tr": "İktisat"
+    "tr": "İktisat",
+    "pt": "Economia",
+    "pl": "Ekonomia",
+    "hu": "Közgazdaságtan",
+    "el": "Οικονομικά",
+    "kk": "Экономика",
+    "uz": "Iqtisodiyot"
   },
   {
     "code": "finance",
@@ -31,7 +37,13 @@
     "fr": "Finance",
     "de": "Finanzwesen",
     "it": "Finanza",
-    "tr": "Maliye"
+    "tr": "Maliye",
+    "pt": "Finanças",
+    "pl": "Finanse",
+    "hu": "Pénzügy",
+    "el": "Χρηματοοικονομικά",
+    "kk": "Қаржы",
+    "uz": "Moliya"
   },
   {
     "code": "management",
@@ -48,7 +60,13 @@
     "fr": "Management",
     "de": "Management",
     "it": "Management",
-    "tr": "Yönetim"
+    "tr": "Yönetim",
+    "pt": "Gestão",
+    "pl": "Zarządzanie",
+    "hu": "Menedzsment",
+    "el": "Μάνατζμεντ",
+    "kk": "Менеджмент",
+    "uz": "Menejment"
   },
   {
     "code": "accounting_audit",
@@ -65,7 +83,13 @@
     "fr": "Comptabilité et audit",
     "de": "Buchführung und Wirtschaftsprüfung",
     "it": "Contabilità e revisione",
-    "tr": "Muhasebe ve denetim"
+    "tr": "Muhasebe ve denetim",
+    "pt": "Contabilidade e auditoria",
+    "pl": "Rachunkowość i audyt",
+    "hu": "Számvitel és könyvvizsgálat",
+    "el": "Λογιστική και Ελεγκτική",
+    "kk": "Бухгалтерлік есеп және аудит",
+    "uz": "Buxgalteriya hisobi va audit"
   },
   {
     "code": "business_administration",
@@ -82,7 +106,13 @@
     "fr": "Administration des affaires",
     "de": "Betriebswirtschaftslehre",
     "it": "Amministrazione aziendale",
-    "tr": "İşletme yönetimi"
+    "tr": "İşletme yönetimi",
+    "pt": "Administração de empresas",
+    "pl": "Administracja biznesowa",
+    "hu": "Üzleti igazgatás",
+    "el": "Διοίκηση Επιχειρήσεων",
+    "kk": "Бизнесті басқару",
+    "uz": "Biznesni boshqarish"
   },
   {
     "code": "teacher",
@@ -99,7 +129,13 @@
     "fr": "Enseignant",
     "de": "Lehrer",
     "it": "Insegnante",
-    "tr": "Öğretmen"
+    "tr": "Öğretmen",
+    "pt": "Professor",
+    "pl": "Nauczyciel",
+    "hu": "Tanár",
+    "el": "Εκπαιδευτικός",
+    "kk": "Мұғалім",
+    "uz": "Oʻqituvchi"
   },
   {
     "code": "nurse",
@@ -116,7 +152,13 @@
     "fr": "Infirmier",
     "de": "Krankenpfleger",
     "it": "Infermiere",
-    "tr": "Hemşire"
+    "tr": "Hemşire",
+    "pt": "Enfermeiro",
+    "pl": "Pielęgniarka",
+    "hu": "Ápoló",
+    "el": "Νοσηλευτής",
+    "kk": "Мейіргер",
+    "uz": "Hamshira"
   },
   {
     "code": "marketing",
@@ -133,7 +175,13 @@
     "fr": "Marketing",
     "de": "Marketing",
     "it": "Marketing",
-    "tr": "Pazarlama"
+    "tr": "Pazarlama",
+    "pt": "Marketing",
+    "pl": "Marketing",
+    "hu": "Marketing",
+    "el": "Μάρκετινγκ",
+    "kk": "Маркетинг",
+    "uz": "Marketing"
   },
   {
     "code": "social_work",
@@ -150,7 +198,13 @@
     "fr": "Travail social",
     "de": "Sozialarbeit",
     "it": "Servizio sociale",
-    "tr": "Sosyal hizmet"
+    "tr": "Sosyal hizmet",
+    "pt": "Serviço social",
+    "pl": "Praca socjalna",
+    "hu": "Szociális munka",
+    "el": "Κοινωνική Εργασία",
+    "kk": "Әлеуметтік жұмыс",
+    "uz": "Ijtimoiy ish"
   },
   {
     "code": "accounting",
@@ -167,7 +221,13 @@
     "fr": "Comptabilité",
     "de": "Buchführung",
     "it": "Contabilità",
-    "tr": "Muhasebe"
+    "tr": "Muhasebe",
+    "pt": "Contabilidade",
+    "pl": "Rachunkowość",
+    "hu": "Számvitel",
+    "el": "Λογιστική",
+    "kk": "Бухгалтерлік есеп",
+    "uz": "Buxgalteriya hisobi"
   },
   {
     "code": "lawyer",
@@ -184,7 +244,13 @@
     "fr": "Juriste",
     "de": "Jurist",
     "it": "Giurista",
-    "tr": "Hukukçu"
+    "tr": "Hukukçu",
+    "pt": "Jurista",
+    "pl": "Prawnik",
+    "hu": "Jogász",
+    "el": "Δικηγόρος",
+    "kk": "Заңгер",
+    "uz": "Huquqshunos"
   },
   {
     "code": "primary_teacher",
@@ -201,7 +267,13 @@
     "fr": "Enseignement en école primaire",
     "de": "Grundschullehramt",
     "it": "Insegnamento nella scuola primaria",
-    "tr": "Sınıf öğretmenliği"
+    "tr": "Sınıf öğretmenliği",
+    "pt": "Formação de professores do ensino básico",
+    "pl": "Nauczanie w klasach początkowych",
+    "hu": "Tanítóképzés",
+    "el": "Δάσκαλος Πρωτοβάθμιας Εκπαίδευσης",
+    "kk": "Бастауыш сынып мұғалімі",
+    "uz": "Boshlangʻich sinf oʻqituvchiligi"
   },
   {
     "code": "intl_relations",
@@ -218,7 +290,13 @@
     "fr": "Relations internationales",
     "de": "Internationale Beziehungen",
     "it": "Relazioni internazionali",
-    "tr": "Uluslararası ilişkiler"
+    "tr": "Uluslararası ilişkiler",
+    "pt": "Relações internacionais",
+    "pl": "Stosunki międzynarodowe",
+    "hu": "Nemzetközi kapcsolatok",
+    "el": "Διεθνείς Σχέσεις",
+    "kk": "Халықаралық қатынастар",
+    "uz": "Xalqaro munosabatlar"
   },
   {
     "code": "jurisprudence",
@@ -235,7 +313,13 @@
     "fr": "Sciences juridiques",
     "de": "Rechtswissenschaft",
     "it": "Giurisprudenza",
-    "tr": "Hukuk bilimleri"
+    "tr": "Hukuk bilimleri",
+    "pt": "Ciências jurídicas",
+    "pl": "Prawoznawstwo",
+    "hu": "Jogtudomány",
+    "el": "Νομική Επιστήμη",
+    "kk": "Құқықтану",
+    "uz": "Huquqshunoslik"
   },
   {
     "code": "accountant",
@@ -252,7 +336,13 @@
     "fr": "Comptable",
     "de": "Buchhalter",
     "it": "Contabile",
-    "tr": "Muhasebeci"
+    "tr": "Muhasebeci",
+    "pt": "Contabilista",
+    "pl": "Księgowy",
+    "hu": "Könyvelő",
+    "el": "Λογιστής",
+    "kk": "Бухгалтер",
+    "uz": "Buxgalter"
   },
   {
     "code": "english_teacher",
@@ -269,7 +359,13 @@
     "fr": "Enseignement de l'anglais",
     "de": "Englischlehramt",
     "it": "Insegnamento dell'inglese",
-    "tr": "İngilizce öğretmenliği"
+    "tr": "İngilizce öğretmenliği",
+    "pt": "Ensino de inglês",
+    "pl": "Nauczanie języka angielskiego",
+    "hu": "Angol nyelv tanítása",
+    "el": "Δάσκαλος Αγγλικής Γλώσσας",
+    "kk": "Ағылшын тілі мұғалімі",
+    "uz": "Ingliz tili oʻqituvchiligi"
   },
   {
     "code": "engineer",
@@ -286,7 +382,13 @@
     "fr": "Ingénieur",
     "de": "Ingenieur",
     "it": "Ingegnere",
-    "tr": "Mühendis"
+    "tr": "Mühendis",
+    "pt": "Engenheiro",
+    "pl": "Inżynier",
+    "hu": "Mérnök",
+    "el": "Μηχανικός",
+    "kk": "Инженер",
+    "uz": "Muhandis"
   },
   {
     "code": "computer_engineering",
@@ -303,7 +405,13 @@
     "fr": "Génie informatique",
     "de": "Computertechnik",
     "it": "Ingegneria informatica",
-    "tr": "Bilgisayar mühendisliği"
+    "tr": "Bilgisayar mühendisliği",
+    "pt": "Engenharia informática",
+    "pl": "Inżynieria komputerowa",
+    "hu": "Számítógép-mérnöki tudományok",
+    "el": "Μηχανική Υπολογιστών",
+    "kk": "Компьютерлік инженерия",
+    "uz": "Kompyuter muhandisligi"
   },
   {
     "code": "economist",
@@ -320,7 +428,13 @@
     "fr": "Économiste",
     "de": "Volkswirt",
     "it": "Economista",
-    "tr": "Ekonomist"
+    "tr": "Ekonomist",
+    "pt": "Economista",
+    "pl": "Ekonomista",
+    "hu": "Közgazdász",
+    "el": "Οικονομολόγος",
+    "kk": "Экономист",
+    "uz": "Iqtisodchi"
   },
   {
     "code": "world_economy",
@@ -337,7 +451,13 @@
     "fr": "Économie mondiale",
     "de": "Weltwirtschaft",
     "it": "Economia mondiale",
-    "tr": "Dünya ekonomisi"
+    "tr": "Dünya ekonomisi",
+    "pt": "Economia mundial",
+    "pl": "Gospodarka światowa",
+    "hu": "Világgazdaság",
+    "el": "Παγκόσμια Οικονομία",
+    "kk": "Дүниежүзілік экономика",
+    "uz": "Jahon iqtisodiyoti"
   },
   {
     "code": "banking",
@@ -354,7 +474,13 @@
     "fr": "Activité bancaire",
     "de": "Bankwesen",
     "it": "Attività bancaria",
-    "tr": "Bankacılık"
+    "tr": "Bankacılık",
+    "pt": "Banca",
+    "pl": "Bankowość",
+    "hu": "Bankügy",
+    "el": "Τραπεζική",
+    "kk": "Банк ісі",
+    "uz": "Bank ishi"
   },
   {
     "code": "computer_science",
@@ -371,7 +497,13 @@
     "fr": "Sciences informatiques",
     "de": "Informatik",
     "it": "Scienze informatiche",
-    "tr": "Bilgisayar bilimleri"
+    "tr": "Bilgisayar bilimleri",
+    "pt": "Ciências da computação",
+    "pl": "Informatyka",
+    "hu": "Számítástudomány",
+    "el": "Επιστήμη Υπολογιστών",
+    "kk": "Компьютерлік ғылымдар",
+    "uz": "Kompyuter fanlari"
   },
   {
     "code": "information_technologies",
@@ -388,7 +520,13 @@
     "fr": "Technologies de l'information",
     "de": "Informationstechnologien",
     "it": "Tecnologie dell'informazione",
-    "tr": "Bilişim teknolojileri"
+    "tr": "Bilişim teknolojileri",
+    "pt": "Tecnologias de informação",
+    "pl": "Technologie informacyjne",
+    "hu": "Informatikai technológiák",
+    "el": "Τεχνολογίες Πληροφορικής",
+    "kk": "Ақпараттық технологиялар",
+    "uz": "Axborot texnologiyalari"
   },
   {
     "code": "finance_affairs",
@@ -405,7 +543,13 @@
     "fr": "Affaires financières",
     "de": "Finanzwirtschaft",
     "it": "Affari finanziari",
-    "tr": "Maliye işleri"
+    "tr": "Maliye işleri",
+    "pt": "Assuntos financeiros",
+    "pl": "Sprawy finansowe",
+    "hu": "Pénzügyi ügyek",
+    "el": "Χρηματοοικονομικές Υποθέσεις",
+    "kk": "Қаржы ісі",
+    "uz": "Moliya ishi"
   },
   {
     "code": "doctor",
@@ -422,7 +566,13 @@
     "fr": "Médecin",
     "de": "Arzt",
     "it": "Medico",
-    "tr": "Doktor"
+    "tr": "Doktor",
+    "pt": "Médico",
+    "pl": "Lekarz",
+    "hu": "Orvos",
+    "el": "Ιατρός",
+    "kk": "Дәрігер",
+    "uz": "Shifokor"
   },
   {
     "code": "preschool_teaching",
@@ -439,7 +589,13 @@
     "fr": "Enseignement et éducation préscolaires",
     "de": "Vorschulunterricht und -erziehung",
     "it": "Insegnamento ed educazione prescolare",
-    "tr": "Okul öncesi öğretim ve eğitim"
+    "tr": "Okul öncesi öğretim ve eğitim",
+    "pt": "Docência pré-escolar",
+    "pl": "Wychowanie i nauczanie przedszkolne",
+    "hu": "Óvodai nevelés és oktatás",
+    "el": "Προσχολική Αγωγή και Εκπαίδευση",
+    "kk": "Мектепке дейінгі оқыту және тәрбие",
+    "uz": "Maktabgacha taʼlim va tarbiya"
   },
   {
     "code": "industrial_organization",
@@ -456,7 +612,13 @@
     "fr": "Organisation et gestion de l'industrie",
     "de": "Organisation und Führung der Industrie",
     "it": "Organizzazione e gestione industriale",
-    "tr": "Sanayinin örgütlenmesi ve yönetimi"
+    "tr": "Sanayinin örgütlenmesi ve yönetimi",
+    "pt": "Organização e gestão industrial",
+    "pl": "Organizacja i zarządzanie przemysłem",
+    "hu": "Ipari szervezés és irányítás",
+    "el": "Οργάνωση και Διοίκηση Βιομηχανίας",
+    "kk": "Өнеркәсіпті ұйымдастыру және басқару",
+    "uz": "Sanoatni tashkil etish va boshqarish"
   },
   {
     "code": "ecology",
@@ -473,7 +635,13 @@
     "fr": "Écologie",
     "de": "Ökologie",
     "it": "Ecologia",
-    "tr": "Ekoloji"
+    "tr": "Ekoloji",
+    "pt": "Ecologia",
+    "pl": "Ekologia",
+    "hu": "Ökológia",
+    "el": "Οικολογία",
+    "kk": "Экология",
+    "uz": "Ekologiya"
   },
   {
     "code": "state_municipal_administration",
@@ -490,7 +658,13 @@
     "fr": "Administration d'État et municipale",
     "de": "Staatliche und kommunale Verwaltung",
     "it": "Amministrazione statale e municipale",
-    "tr": "Devlet ve belediye yönetimi"
+    "tr": "Devlet ve belediye yönetimi",
+    "pt": "Administração estatal e municipal",
+    "pl": "Administracja państwowa i samorządowa",
+    "hu": "Állami és önkormányzati igazgatás",
+    "el": "Κρατική και Δημοτική Διοίκηση",
+    "kk": "Мемлекеттік және муниципалдық басқару",
+    "uz": "Davlat va munitsipal boshqaruv"
   },
   {
     "code": "school_psychological_service",
@@ -507,7 +681,13 @@
     "fr": "Service social et psychologique dans l'éducation",
     "de": "Sozialpsychologischer Dienst im Bildungswesen",
     "it": "Servizio sociale e psicologico nell'istruzione",
-    "tr": "Eğitimde sosyal-psikolojik hizmet"
+    "tr": "Eğitimde sosyal-psikolojik hizmet",
+    "pt": "Serviço socio-psicológico na educação",
+    "pl": "Usługi społeczno-psychologiczne w edukacji",
+    "hu": "Iskolai szociális és pszichológiai szolgáltatások",
+    "el": "Κοινωνικοψυχολογική Υπηρεσία στην Εκπαίδευση",
+    "kk": "Білім берудегі әлеуметтік-психологиялық қызмет",
+    "uz": "Taʼlimda ijtimoiy-psixologik xizmat"
   },
   {
     "code": "history_teacher",
@@ -524,7 +704,13 @@
     "fr": "Enseignement de l'histoire",
     "de": "Lehramt Geschichte",
     "it": "Insegnamento della storia",
-    "tr": "Tarih öğretmenliği"
+    "tr": "Tarih öğretmenliği",
+    "pt": "Ensino de história",
+    "pl": "Nauczanie historii",
+    "hu": "Történelem tanítása",
+    "el": "Δάσκαλος Ιστορίας",
+    "kk": "Тарих мұғалімі",
+    "uz": "Tarix oʻqituvchiligi"
   },
   {
     "code": "history",
@@ -541,7 +727,13 @@
     "fr": "Histoire",
     "de": "Geschichte",
     "it": "Storia",
-    "tr": "Tarih"
+    "tr": "Tarih",
+    "pt": "História",
+    "pl": "Historia",
+    "hu": "Történelem",
+    "el": "Ιστορία",
+    "kk": "Тарих",
+    "uz": "Tarix"
   },
   {
     "code": "az_language_literature_teacher",
@@ -558,7 +750,13 @@
     "fr": "Enseignement de la langue et de la littérature azerbaïdjanaises",
     "de": "Lehramt aserbaidschanische Sprache und Literatur",
     "it": "Insegnamento di lingua e letteratura azerbaigiana",
-    "tr": "Azerbaycan dili ve edebiyatı öğretmenliği"
+    "tr": "Azerbaycan dili ve edebiyatı öğretmenliği",
+    "pt": "Ensino da língua e literatura azerbaijanas",
+    "pl": "Nauczanie języka i literatury azerbejdżańskiej",
+    "hu": "Azerbajdzsán nyelv és irodalom tanítása",
+    "el": "Δάσκαλος Αζερικής Γλώσσας και Λογοτεχνίας",
+    "kk": "Әзербайжан тілі және әдебиеті мұғалімі",
+    "uz": "Ozarbayjon tili va adabiyoti oʻqituvchiligi"
   },
   {
     "code": "tourism_hotel",
@@ -575,7 +773,13 @@
     "fr": "Tourisme et hôtellerie-restauration",
     "de": "Tourismus und Hotelwesen",
     "it": "Turismo e gestione alberghiera",
-    "tr": "Turizm ve otelcilik"
+    "tr": "Turizm ve otelcilik",
+    "pt": "Turismo e gestão hoteleira",
+    "pl": "Turystyka i hotelarstwo",
+    "hu": "Turizmus és szállodaipar",
+    "el": "Τουρισμός και Ξενοδοχειακή Διοίκηση",
+    "kk": "Туризм және қонақүй ісі",
+    "uz": "Turizm va mehmonxona xoʻjaligi"
   },
   {
     "code": "ecological_engineering",
@@ -592,7 +796,13 @@
     "fr": "Génie écologique",
     "de": "Umweltingenieurwesen",
     "it": "Ingegneria ecologica",
-    "tr": "Ekoloji mühendisliği"
+    "tr": "Ekoloji mühendisliği",
+    "pt": "Engenharia ecológica",
+    "pl": "Inżynieria ekologiczna",
+    "hu": "Környezetvédelmi mérnöki tudományok",
+    "el": "Οικολογική Μηχανική",
+    "kk": "Экология инженериясы",
+    "uz": "Ekologiya muhandisligi"
   },
   {
     "code": "chemical_engineering",
@@ -609,7 +819,13 @@
     "fr": "Génie chimique",
     "de": "Chemieingenieurwesen",
     "it": "Ingegneria chimica",
-    "tr": "Kimya mühendisliği"
+    "tr": "Kimya mühendisliği",
+    "pt": "Engenharia química",
+    "pl": "Inżynieria chemiczna",
+    "hu": "Kémiai mérnöki tudományok",
+    "el": "Χημική Μηχανική",
+    "kk": "Химия инженериясы",
+    "uz": "Kimyo muhandisligi"
   },
   {
     "code": "math_teacher",
@@ -626,7 +842,13 @@
     "fr": "Enseignement des mathématiques",
     "de": "Lehramt Mathematik",
     "it": "Insegnamento della matematica",
-    "tr": "Matematik öğretmenliği"
+    "tr": "Matematik öğretmenliği",
+    "pt": "Ensino de matemática",
+    "pl": "Nauczanie matematyki",
+    "hu": "Matematika tanítása",
+    "el": "Δάσκαλος Μαθηματικών",
+    "kk": "Математика мұғалімі",
+    "uz": "Matematika oʻqituvchiligi"
   },
   {
     "code": "design",
@@ -643,7 +865,13 @@
     "fr": "Design",
     "de": "Design",
     "it": "Design",
-    "tr": "Tasarım"
+    "tr": "Tasarım",
+    "pt": "Design",
+    "pl": "Design",
+    "hu": "Design",
+    "el": "Σχεδιασμός",
+    "kk": "Дизайн",
+    "uz": "Dizayn"
   },
   {
     "code": "bookkeeping",
@@ -660,7 +888,13 @@
     "fr": "Tenue de comptabilité",
     "de": "Rechnungswesen",
     "it": "Ragioneria",
-    "tr": "Muhasebecilik"
+    "tr": "Muhasebecilik",
+    "pt": "Escrituração contabilística",
+    "pl": "Księgowość",
+    "hu": "Könyvvezetés",
+    "el": "Τήρηση Λογιστικών Βιβλίων",
+    "kk": "Бухгалтерия",
+    "uz": "Buxgalteriya"
   },
   {
     "code": "physics_teacher",
@@ -677,7 +911,13 @@
     "fr": "Enseignement de la physique",
     "de": "Lehramt Physik",
     "it": "Insegnamento della fisica",
-    "tr": "Fizik öğretmenliği"
+    "tr": "Fizik öğretmenliği",
+    "pt": "Ensino de física",
+    "pl": "Nauczanie fizyki",
+    "hu": "Fizika tanítása",
+    "el": "Δάσκαλος Φυσικής",
+    "kk": "Физика мұғалімі",
+    "uz": "Fizika oʻqituvchiligi"
   },
   {
     "code": "math_informatics_teacher",
@@ -694,7 +934,13 @@
     "fr": "Enseignement des mathématiques et de l'informatique",
     "de": "Lehramt Mathematik und Informatik",
     "it": "Insegnamento di matematica e informatica",
-    "tr": "Matematik ve bilişim öğretmenliği"
+    "tr": "Matematik ve bilişim öğretmenliği",
+    "pt": "Ensino de matemática e informática",
+    "pl": "Nauczanie matematyki i informatyki",
+    "hu": "Matematika és informatika tanítása",
+    "el": "Δάσκαλος Μαθηματικών και Πληροφορικής",
+    "kk": "Математика және информатика мұғалімі",
+    "uz": "Matematika va informatika oʻqituvchiligi"
   },
   {
     "code": "tourism_organization",
@@ -711,7 +957,13 @@
     "fr": "Organisation du tourisme",
     "de": "Organisation des Tourismus",
     "it": "Organizzazione del turismo",
-    "tr": "Turizm işletmeciliği"
+    "tr": "Turizm işletmeciliği",
+    "pt": "Organização do turismo",
+    "pl": "Organizacja turystyki",
+    "hu": "Turisztikai tevékenység szervezése",
+    "el": "Οργάνωση Τουρισμού",
+    "kk": "Туризм ісін ұйымдастыру",
+    "uz": "Turizm ishini tashkil etish"
   },
   {
     "code": "pharmacist",
@@ -728,7 +980,13 @@
     "fr": "Pharmacien",
     "de": "Apotheker",
     "it": "Farmacista",
-    "tr": "Eczacı"
+    "tr": "Eczacı",
+    "pt": "Farmacêutico",
+    "pl": "Farmaceuta",
+    "hu": "Gyógyszerész",
+    "el": "Φαρμακοποιός",
+    "kk": "Фармацевт",
+    "uz": "Farmatsevt"
   },
   {
     "code": "mathematics",
@@ -745,7 +1003,13 @@
     "fr": "Mathématiques",
     "de": "Mathematik",
     "it": "Matematica",
-    "tr": "Matematik"
+    "tr": "Matematik",
+    "pt": "Matemática",
+    "pl": "Matematyka",
+    "hu": "Matematika",
+    "el": "Μαθηματικά",
+    "kk": "Математика",
+    "uz": "Matematika"
   },
   {
     "code": "oil_gas_engineering",
@@ -762,7 +1026,13 @@
     "fr": "Génie pétrolier et gazier",
     "de": "Erdöl- und Erdgastechnik",
     "it": "Ingegneria del petrolio e del gas",
-    "tr": "Petrol ve gaz mühendisliği"
+    "tr": "Petrol ve gaz mühendisliği",
+    "pt": "Engenharia de petróleo e gás",
+    "pl": "Inżynieria naftowo-gazowa",
+    "hu": "Kőolaj- és földgázmérnöki tudományok",
+    "el": "Μηχανική Πετρελαίου και Φυσικού Αερίου",
+    "kk": "Мұнай-газ инженериясы",
+    "uz": "Neft-gaz muhandisligi"
   },
   {
     "code": "geography_teacher",
@@ -779,7 +1049,13 @@
     "fr": "Enseignement de la géographie",
     "de": "Lehramt Geografie",
     "it": "Insegnamento della geografia",
-    "tr": "Coğrafya öğretmenliği"
+    "tr": "Coğrafya öğretmenliği",
+    "pt": "Ensino de geografia",
+    "pl": "Nauczanie geografii",
+    "hu": "Földrajz tanítása",
+    "el": "Δάσκαλος Γεωγραφίας",
+    "kk": "География мұғалімі",
+    "uz": "Geografiya oʻqituvchiligi"
   },
   {
     "code": "informatics_teacher",
@@ -796,7 +1072,13 @@
     "fr": "Enseignement de l'informatique",
     "de": "Lehramt Informatik",
     "it": "Insegnamento dell'informatica",
-    "tr": "Bilişim öğretmenliği"
+    "tr": "Bilişim öğretmenliği",
+    "pt": "Ensino de informática",
+    "pl": "Nauczanie informatyki",
+    "hu": "Informatika tanítása",
+    "el": "Δάσκαλος Πληροφορικής",
+    "kk": "Информатика мұғалімі",
+    "uz": "Informatika oʻqituvchiligi"
   },
   {
     "code": "process_automation_engineering",
@@ -813,7 +1095,13 @@
     "fr": "Génie de l'automatisation des procédés",
     "de": "Ingenieurwesen für Prozessautomatisierung",
     "it": "Ingegneria dell'automazione dei processi",
-    "tr": "Süreç otomasyonu mühendisliği"
+    "tr": "Süreç otomasyonu mühendisliği",
+    "pt": "Engenharia de automação de processos",
+    "pl": "Inżynieria automatyzacji procesów",
+    "hu": "Folyamatautomatizálási mérnöki tudományok",
+    "el": "Μηχανική Αυτοματισμού Διαδικασιών",
+    "kk": "Процестерді автоматтандыру инженериясы",
+    "uz": "Jarayonlarni avtomatlashtirish muhandisligi"
   },
   {
     "code": "family_home_education",
@@ -830,7 +1118,13 @@
     "fr": "Éducation familiale et domestique",
     "de": "Familien- und Hauswirtschaftsbildung",
     "it": "Educazione familiare e domestica",
-    "tr": "Aile ve ev eğitimi"
+    "tr": "Aile ve ev eğitimi",
+    "pt": "Educação familiar e doméstica",
+    "pl": "Edukacja rodzinna i domowa",
+    "hu": "Család- és háztartástan",
+    "el": "Οικογενειακή και Οικιακή Εκπαίδευση",
+    "kk": "Отбасылық және үйде білім беру",
+    "uz": "Oila va uy taʼlimi"
   },
   {
     "code": "translator",
@@ -847,7 +1141,13 @@
     "fr": "Traducteur",
     "de": "Übersetzer",
     "it": "Traduttore",
-    "tr": "Çevirmen"
+    "tr": "Çevirmen",
+    "pt": "Tradutor",
+    "pl": "Tłumacz",
+    "hu": "Fordító",
+    "el": "Μεταφραστής",
+    "kk": "Аудармашы",
+    "uz": "Tarjimon"
   },
   {
     "code": "psychologist",
@@ -864,7 +1164,13 @@
     "fr": "Psychologue",
     "de": "Psychologe",
     "it": "Psicologo",
-    "tr": "Psikolog"
+    "tr": "Psikolog",
+    "pt": "Psicólogo",
+    "pl": "Psycholog",
+    "hu": "Pszichológus",
+    "el": "Ψυχολόγος",
+    "kk": "Психолог",
+    "uz": "Psixolog"
   },
   {
     "code": "preschool_education",
@@ -881,7 +1187,13 @@
     "fr": "Éducation préscolaire",
     "de": "Vorschulbildung",
     "it": "Istruzione prescolare",
-    "tr": "Okul öncesi eğitim"
+    "tr": "Okul öncesi eğitim",
+    "pt": "Educação pré-escolar",
+    "pl": "Edukacja przedszkolna",
+    "hu": "Óvodapedagógia",
+    "el": "Προσχολική Εκπαίδευση",
+    "kk": "Мектепке дейінгі білім",
+    "uz": "Maktabgacha taʼlim"
   },
   {
     "code": "biology_teacher",
@@ -898,7 +1210,13 @@
     "fr": "Enseignement de la biologie",
     "de": "Lehramt Biologie",
     "it": "Insegnamento della biologia",
-    "tr": "Biyoloji öğretmenliği"
+    "tr": "Biyoloji öğretmenliği",
+    "pt": "Ensino de biologia",
+    "pl": "Nauczanie biologii",
+    "hu": "Biológia tanítása",
+    "el": "Δάσκαλος Βιολογίας",
+    "kk": "Биология мұғалімі",
+    "uz": "Biologiya oʻqituvchiligi"
   },
   {
     "code": "biology",
@@ -915,7 +1233,13 @@
     "fr": "Biologie",
     "de": "Biologie",
     "it": "Biologia",
-    "tr": "Biyoloji"
+    "tr": "Biyoloji",
+    "pt": "Biologia",
+    "pl": "Biologia",
+    "hu": "Biológia",
+    "el": "Βιολογία",
+    "kk": "Биология",
+    "uz": "Biologiya"
   },
   {
     "code": "history_geography_teacher",
@@ -932,7 +1256,13 @@
     "fr": "Enseignement de l'histoire et de la géographie",
     "de": "Lehramt Geschichte und Geografie",
     "it": "Insegnamento di storia e geografia",
-    "tr": "Tarih ve coğrafya öğretmenliği"
+    "tr": "Tarih ve coğrafya öğretmenliği",
+    "pt": "Ensino de história e geografia",
+    "pl": "Nauczanie historii i geografii",
+    "hu": "Történelem és földrajz tanítása",
+    "el": "Δάσκαλος Ιστορίας και Γεωγραφίας",
+    "kk": "Тарих және география мұғалімі",
+    "uz": "Tarix va geografiya oʻqituvchiligi"
   },
   {
     "code": "politology",
@@ -949,7 +1279,13 @@
     "fr": "Politologie",
     "de": "Politologie",
     "it": "Politologia",
-    "tr": "Politoloji"
+    "tr": "Politoloji",
+    "pt": "Politologia",
+    "pl": "Politologia",
+    "hu": "Politológia",
+    "el": "Πολιτολογία",
+    "kk": "Саясаттану",
+    "uz": "Siyosatshunoslik"
   },
   {
     "code": "az_language_literature",
@@ -966,7 +1302,13 @@
     "fr": "Langue et littérature azerbaïdjanaises",
     "de": "Aserbaidschanische Sprache und Literatur",
     "it": "Lingua e letteratura azerbaigiana",
-    "tr": "Azerbaycan dili ve edebiyatı"
+    "tr": "Azerbaycan dili ve edebiyatı",
+    "pt": "Língua e literatura azerbaijanas",
+    "pl": "Język i literatura azerbejdżańska",
+    "hu": "Azerbajdzsán nyelv és irodalom",
+    "el": "Αζερική Γλώσσα και Λογοτεχνία",
+    "kk": "Әзербайжан тілі және әдебиеті",
+    "uz": "Ozarbayjon tili va adabiyoti"
   },
   {
     "code": "english_language",
@@ -983,7 +1325,13 @@
     "fr": "Langue anglaise",
     "de": "Englische Sprache",
     "it": "Lingua inglese",
-    "tr": "İngiliz dili"
+    "tr": "İngiliz dili",
+    "pt": "Língua inglesa",
+    "pl": "Język angielski",
+    "hu": "Angol nyelv",
+    "el": "Αγγλική Γλώσσα",
+    "kk": "Ағылшын тілі",
+    "uz": "Ingliz tili"
   },
   {
     "code": "philologist",
@@ -1000,7 +1348,13 @@
     "fr": "Philologue",
     "de": "Philologe",
     "it": "Filologo",
-    "tr": "Filolog"
+    "tr": "Filolog",
+    "pt": "Filólogo",
+    "pl": "Filolog",
+    "hu": "Filológus",
+    "el": "Φιλόλογος",
+    "kk": "Филолог",
+    "uz": "Filolog"
   },
   {
     "code": "commerce",
@@ -1017,7 +1371,13 @@
     "fr": "Commerce",
     "de": "Handel",
     "it": "Commercio",
-    "tr": "Ticaret"
+    "tr": "Ticaret",
+    "pt": "Comércio",
+    "pl": "Handel",
+    "hu": "Kereskedelem",
+    "el": "Εμπόριο",
+    "kk": "Коммерция",
+    "uz": "Tijorat"
   },
   {
     "code": "geography",
@@ -1034,7 +1394,13 @@
     "fr": "Géographie",
     "de": "Geografie",
     "it": "Geografia",
-    "tr": "Coğrafya"
+    "tr": "Coğrafya",
+    "pt": "Geografia",
+    "pl": "Geografia",
+    "hu": "Földrajz",
+    "el": "Γεωγραφία",
+    "kk": "География",
+    "uz": "Geografiya"
   },
   {
     "code": "consumer_goods_expertise",
@@ -1051,7 +1417,13 @@
     "fr": "Expertise et marketing des biens de consommation",
     "de": "Prüfung und Marketing von Konsumgütern",
     "it": "Perizia e marketing dei beni di consumo",
-    "tr": "Tüketim mallarının ekspertizi ve pazarlaması"
+    "tr": "Tüketim mallarının ekspertizi ve pazarlaması",
+    "pt": "Peritagem e marketing de bens de consumo",
+    "pl": "Ekspertyza i marketing towarów konsumpcyjnych",
+    "hu": "Fogyasztási cikkek szakértése és marketingje",
+    "el": "Πραγματογνωμοσύνη και Μάρκετινγκ Καταναλωτικών Αγαθών",
+    "kk": "Тұтыну тауарларының сараптамасы және маркетингі",
+    "uz": "Isteʼmol mollari ekspertizasi va marketingi"
   },
   {
     "code": "chemistry_teacher",
@@ -1068,7 +1440,13 @@
     "fr": "Enseignement de la chimie",
     "de": "Lehramt Chemie",
     "it": "Insegnamento della chimica",
-    "tr": "Kimya öğretmenliği"
+    "tr": "Kimya öğretmenliği",
+    "pt": "Ensino de química",
+    "pl": "Nauczanie chemii",
+    "hu": "Kémia tanítása",
+    "el": "Δάσκαλος Χημείας",
+    "kk": "Химия мұғалімі",
+    "uz": "Kimyo oʻqituvchiligi"
   },
   {
     "code": "chemistry",
@@ -1085,7 +1463,13 @@
     "fr": "Chimie",
     "de": "Chemie",
     "it": "Chimica",
-    "tr": "Kimya"
+    "tr": "Kimya",
+    "pt": "Química",
+    "pl": "Chemia",
+    "hu": "Kémia",
+    "el": "Χημεία",
+    "kk": "Химия",
+    "uz": "Kimyo"
   },
   {
     "code": "physics",
@@ -1102,7 +1486,13 @@
     "fr": "Physique",
     "de": "Physik",
     "it": "Fisica",
-    "tr": "Fizik"
+    "tr": "Fizik",
+    "pt": "Física",
+    "pl": "Fizyka",
+    "hu": "Fizika",
+    "el": "Φυσική",
+    "kk": "Физика",
+    "uz": "Fizika"
   },
   {
     "code": "journalist",
@@ -1119,7 +1509,13 @@
     "fr": "Journaliste",
     "de": "Journalist",
     "it": "Giornalista",
-    "tr": "Gazeteci"
+    "tr": "Gazeteci",
+    "pt": "Jornalista",
+    "pl": "Dziennikarz",
+    "hu": "Újságíró",
+    "el": "Δημοσιογράφος",
+    "kk": "Журналист",
+    "uz": "Jurnalist"
   },
   {
     "code": "psychology",
@@ -1136,7 +1532,13 @@
     "fr": "Psychologie",
     "de": "Psychologie",
     "it": "Psicologia",
-    "tr": "Psikoloji"
+    "tr": "Psikoloji",
+    "pt": "Psicologia",
+    "pl": "Psychologia",
+    "hu": "Pszichológia",
+    "el": "Ψυχολογία",
+    "kk": "Психология",
+    "uz": "Psixologiya"
   },
   {
     "code": "state_public_relations",
@@ -1153,7 +1555,13 @@
     "fr": "Relations étatiques et publiques",
     "de": "Staatliche und öffentliche Beziehungen",
     "it": "Relazioni statali e pubbliche",
-    "tr": "Devlet ve toplum ilişkileri"
+    "tr": "Devlet ve toplum ilişkileri",
+    "pt": "Relações estatais e públicas",
+    "pl": "Relacje państwowe i społeczne",
+    "hu": "Állami és közkapcsolatok",
+    "el": "Κρατικές και Δημόσιες Σχέσεις",
+    "kk": "Мемлекеттік және қоғамдық қатынастар",
+    "uz": "Davlat va jamoatchilik bilan aloqalar"
   },
   {
     "code": "soil_science_agrochemistry",
@@ -1170,7 +1578,13 @@
     "fr": "Pédologie et agrochimie",
     "de": "Bodenkunde und Agrochemie",
     "it": "Pedologia e agrochimica",
-    "tr": "Toprak bilimi ve tarımsal kimya"
+    "tr": "Toprak bilimi ve tarımsal kimya",
+    "pt": "Ciência do solo e agroquímica",
+    "pl": "Gleboznawstwo i agrochemia",
+    "hu": "Talajtudomány és agrokémia",
+    "el": "Εδαφολογία και Αγροχημεία",
+    "kk": "Топырақтану және агрохимия",
+    "uz": "Tuproqshunoslik va agrokimyo"
   },
   {
     "code": "journalism",
@@ -1187,7 +1601,13 @@
     "fr": "Journalisme",
     "de": "Journalistik",
     "it": "Giornalismo",
-    "tr": "Gazetecilik"
+    "tr": "Gazetecilik",
+    "pt": "Jornalismo",
+    "pl": "Dziennikarstwo",
+    "hu": "Újságírás",
+    "el": "Δημοσιογραφία",
+    "kk": "Журналистика",
+    "uz": "Jurnalistika"
   },
   {
     "code": "electrical_engineering",
@@ -1204,7 +1624,13 @@
     "fr": "Génie électrique",
     "de": "Elektrotechnik-Ingenieurwesen",
     "it": "Ingegneria elettrica",
-    "tr": "Elektrik mühendisliği"
+    "tr": "Elektrik mühendisliği",
+    "pt": "Engenharia elétrica",
+    "pl": "Elektrotechnika",
+    "hu": "Elektromérnöki tudományok",
+    "el": "Ηλεκτρολογία",
+    "kk": "Электротехника инженериясы",
+    "uz": "Elektr muhandisligi"
   },
   {
     "code": "tourism",
@@ -1221,7 +1647,13 @@
     "fr": "Tourisme",
     "de": "Tourismus",
     "it": "Turismo",
-    "tr": "Turizm"
+    "tr": "Turizm",
+    "pt": "Turismo",
+    "pl": "Turystyka",
+    "hu": "Turizmus",
+    "el": "Τουρισμός",
+    "kk": "Туризм",
+    "uz": "Turizm"
   },
   {
     "code": "civil_engineer",
@@ -1238,7 +1670,13 @@
     "fr": "Ingénieur civil",
     "de": "Bauingenieur",
     "it": "Ingegnere civile",
-    "tr": "İnşaat mühendisi"
+    "tr": "İnşaat mühendisi",
+    "pt": "Engenheiro civil",
+    "pl": "Inżynier budownictwa",
+    "hu": "Építőmérnök",
+    "el": "Πολιτικός Μηχανικός",
+    "kk": "Құрылысшы инженер",
+    "uz": "Fuqarolik muhandisi"
   },
   {
     "code": "treatment",
@@ -1255,7 +1693,13 @@
     "fr": "Médecine générale",
     "de": "Allgemeinmedizin",
     "it": "Medicina generale",
-    "tr": "Genel tıp"
+    "tr": "Genel tıp",
+    "pt": "Medicina geral",
+    "pl": "Medycyna ogólna",
+    "hu": "Általános orvostudomány",
+    "el": "Γενική Ιατρική",
+    "kk": "Емдеу ісі",
+    "uz": "Davolash ishi"
   },
   {
     "code": "traffic_organization",
@@ -1272,7 +1716,13 @@
     "fr": "Organisation de la circulation routière",
     "de": "Organisation des Straßenverkehrs",
     "it": "Organizzazione del traffico",
-    "tr": "Yol trafiğinin düzenlenmesi"
+    "tr": "Yol trafiğinin düzenlenmesi",
+    "pt": "Organização do tráfego",
+    "pl": "Organizacja ruchu drogowego",
+    "hu": "Közlekedésszervezés",
+    "el": "Οργάνωση Οδικής Κυκλοφορίας",
+    "kk": "Жол қозғалысын ұйымдастыру",
+    "uz": "Yoʻl harakatini tashkil etish"
   },
   {
     "code": "information_security",
@@ -1289,7 +1739,13 @@
     "fr": "Sécurité de l'information",
     "de": "Informationssicherheit",
     "it": "Sicurezza dell'informazione",
-    "tr": "Bilgi güvenliği"
+    "tr": "Bilgi güvenliği",
+    "pt": "Segurança da informação",
+    "pl": "Bezpieczeństwo informacji",
+    "hu": "Információbiztonság",
+    "el": "Ασφάλεια Πληροφοριών",
+    "kk": "Ақпараттық қауіпсіздік",
+    "uz": "Axborot xavfsizligi"
   },
   {
     "code": "business_organization",
@@ -1306,7 +1762,13 @@
     "fr": "Organisation et gestion des affaires",
     "de": "Betriebsorganisation und -führung",
     "it": "Organizzazione e gestione d'impresa",
-    "tr": "İşletmenin örgütlenmesi ve yönetimi"
+    "tr": "İşletmenin örgütlenmesi ve yönetimi",
+    "pt": "Organização e gestão de negócios",
+    "pl": "Organizacja i zarządzanie biznesem",
+    "hu": "Vállalatszervezés és menedzsment",
+    "el": "Οργάνωση και Διοίκηση Επιχειρήσεων",
+    "kk": "Бизнесті ұйымдастыру және басқару",
+    "uz": "Biznesni tashkil etish va boshqarish"
   },
   {
     "code": "cook",
@@ -1323,7 +1785,13 @@
     "fr": "Cuisinier",
     "de": "Koch",
     "it": "Cuoco",
-    "tr": "Aşçı"
+    "tr": "Aşçı",
+    "pt": "Cozinheiro",
+    "pl": "Kucharz",
+    "hu": "Szakács",
+    "el": "Μάγειρας",
+    "kk": "Аспазшы",
+    "uz": "Oshpaz"
   },
   {
     "code": "electric_power_engineering",
@@ -1340,7 +1808,13 @@
     "fr": "Génie électro-énergétique",
     "de": "Elektroenergietechnik",
     "it": "Ingegneria elettroenergetica",
-    "tr": "Elektroenerji mühendisliği"
+    "tr": "Elektroenerji mühendisliği",
+    "pt": "Engenharia eletroenergética",
+    "pl": "Elektroenergetyka",
+    "hu": "Elektroenergetikai mérnöki tudományok",
+    "el": "Μηχανική Ηλεκτρικής Ενέργειας",
+    "kk": "Электроэнергетика инженериясы",
+    "uz": "Elektroenergetika muhandisligi"
   },
   {
     "code": "midwifery",
@@ -1357,7 +1831,13 @@
     "fr": "Maïeutique",
     "de": "Geburtshilfe",
     "it": "Ostetricia",
-    "tr": "Ebelik"
+    "tr": "Ebelik",
+    "pt": "Obstetrícia",
+    "pl": "Położnictwo",
+    "hu": "Szülésznőképzés",
+    "el": "Μαιευτική",
+    "kk": "Мамалық",
+    "uz": "Doyalik ishi"
   },
   {
     "code": "technology_teacher",
@@ -1374,7 +1854,13 @@
     "fr": "Enseignement de la technologie",
     "de": "Lehramt Technik",
     "it": "Insegnamento della tecnologia",
-    "tr": "Teknoloji öğretmenliği"
+    "tr": "Teknoloji öğretmenliği",
+    "pt": "Ensino de tecnologia",
+    "pl": "Nauczanie technologii",
+    "hu": "Technológia tanítása",
+    "el": "Δάσκαλος Τεχνολογίας",
+    "kk": "Технология мұғалімі",
+    "uz": "Texnologiya oʻqituvchiligi"
   },
   {
     "code": "intl_trade_logistics",
@@ -1391,7 +1877,13 @@
     "fr": "Commerce international et logistique",
     "de": "Internationaler Handel und Logistik",
     "it": "Commercio internazionale e logistica",
-    "tr": "Uluslararası ticaret ve lojistik"
+    "tr": "Uluslararası ticaret ve lojistik",
+    "pt": "Comércio internacional e logística",
+    "pl": "Handel międzynarodowy i logistyka",
+    "hu": "Nemzetközi kereskedelem és logisztika",
+    "el": "Διεθνές Εμπόριο και Εφοδιαστική",
+    "kk": "Халықаралық сауда және логистика",
+    "uz": "Xalqaro savdo va logistika"
   },
   {
     "code": "law",
@@ -1408,7 +1900,13 @@
     "fr": "Droit",
     "de": "Recht",
     "it": "Diritto",
-    "tr": "Hukuk"
+    "tr": "Hukuk",
+    "pt": "Direito",
+    "pl": "Prawo",
+    "hu": "Jog",
+    "el": "Δίκαιο",
+    "kk": "Құқық",
+    "uz": "Huquq"
   },
   {
     "code": "translation",
@@ -1425,7 +1923,13 @@
     "fr": "Traduction",
     "de": "Übersetzung",
     "it": "Traduzione",
-    "tr": "Çeviri"
+    "tr": "Çeviri",
+    "pt": "Tradução",
+    "pl": "Przekładoznawstwo",
+    "hu": "Fordítás",
+    "el": "Μετάφραση",
+    "kk": "Аударма",
+    "uz": "Tarjima"
   },
   {
     "code": "historian",
@@ -1442,7 +1946,13 @@
     "fr": "Historien",
     "de": "Historiker",
     "it": "Storico",
-    "tr": "Tarihçi"
+    "tr": "Tarihçi",
+    "pt": "Historiador",
+    "pl": "Historyk",
+    "hu": "Történész",
+    "el": "Ιστορικός",
+    "kk": "Тарихшы",
+    "uz": "Tarixchi"
   },
   {
     "code": "civil_engineering",
@@ -1459,7 +1969,13 @@
     "fr": "Génie civil",
     "de": "Bauingenieurwesen",
     "it": "Ingegneria civile",
-    "tr": "İnşaat mühendisliği"
+    "tr": "İnşaat mühendisliği",
+    "pt": "Engenharia civil",
+    "pl": "Inżynieria lądowa",
+    "hu": "Építőmérnöki tudományok",
+    "el": "Πολιτική Μηχανική",
+    "kk": "Құрылыс инженериясы",
+    "uz": "Fuqarolik muhandisligi"
   },
   {
     "code": "mechanical_engineering",
@@ -1476,7 +1992,13 @@
     "fr": "Génie mécanique",
     "de": "Maschinenbautechnik",
     "it": "Ingegneria meccanica",
-    "tr": "Mekanik mühendisliği"
+    "tr": "Mekanik mühendisliği",
+    "pt": "Engenharia mecânica",
+    "pl": "Inżynieria mechaniczna",
+    "hu": "Gépészmérnöki tudományok",
+    "el": "Μηχανολογία",
+    "kk": "Механика инженериясы",
+    "uz": "Mexanika muhandisligi"
   },
   {
     "code": "manager",
@@ -1493,7 +2015,13 @@
     "fr": "Manager",
     "de": "Manager",
     "it": "Manager",
-    "tr": "Yönetici"
+    "tr": "Yönetici",
+    "pt": "Gestor",
+    "pl": "Menedżer",
+    "hu": "Menedzser",
+    "el": "Διευθυντής",
+    "kk": "Менеджер",
+    "uz": "Menejer"
   },
   {
     "code": "pharmacy",
@@ -1510,7 +2038,13 @@
     "fr": "Pharmacie",
     "de": "Pharmazie",
     "it": "Farmacia",
-    "tr": "Eczacılık"
+    "tr": "Eczacılık",
+    "pt": "Farmácia",
+    "pl": "Farmacja",
+    "hu": "Gyógyszerészet",
+    "el": "Φαρμακευτική",
+    "kk": "Фармация",
+    "uz": "Farmatsiya"
   },
   {
     "code": "designer",
@@ -1527,7 +2061,13 @@
     "fr": "Designer",
     "de": "Designer",
     "it": "Designer",
-    "tr": "Tasarımcı"
+    "tr": "Tasarımcı",
+    "pt": "Designer",
+    "pl": "Projektant",
+    "hu": "Dizájner",
+    "el": "Σχεδιαστής",
+    "kk": "Дизайнер",
+    "uz": "Dizayner"
   },
   {
     "code": "food_engineering",
@@ -1544,7 +2084,13 @@
     "fr": "Génie alimentaire",
     "de": "Lebensmitteltechnik",
     "it": "Ingegneria alimentare",
-    "tr": "Gıda mühendisliği"
+    "tr": "Gıda mühendisliği",
+    "pt": "Engenharia alimentar",
+    "pl": "Inżynieria żywności",
+    "hu": "Élelmiszeripari mérnöki tudományok",
+    "el": "Μηχανική Τροφίμων",
+    "kk": "Тамақ инженериясы",
+    "uz": "Oziq-ovqat muhandisligi"
   },
   {
     "code": "fine_arts_teacher",
@@ -1561,7 +2107,13 @@
     "fr": "Enseignement des arts plastiques",
     "de": "Lehramt bildende Kunst",
     "it": "Insegnamento delle belle arti",
-    "tr": "Görsel sanatlar öğretmenliği"
+    "tr": "Görsel sanatlar öğretmenliği",
+    "pt": "Ensino de belas-artes",
+    "pl": "Nauczanie sztuk pięknych",
+    "hu": "Képzőművészet tanítása",
+    "el": "Δάσκαλος Καλών Τεχνών",
+    "kk": "Бейнелеу өнері мұғалімі",
+    "uz": "Tasviriy sanʼat oʻqituvchiligi"
   },
   {
     "code": "finance_credit",
@@ -1578,7 +2130,13 @@
     "fr": "Finance et crédit",
     "de": "Finanzen und Kredit",
     "it": "Finanza e credito",
-    "tr": "Maliye ve kredi"
+    "tr": "Maliye ve kredi",
+    "pt": "Finanças e crédito",
+    "pl": "Finanse i kredyt",
+    "hu": "Pénzügy és hitel",
+    "el": "Χρηματοοικονομικά και Πιστωτικά",
+    "kk": "Қаржы және несие",
+    "uz": "Moliya va kredit"
   },
   {
     "code": "piano",
@@ -1595,7 +2153,13 @@
     "fr": "Piano",
     "de": "Klavier",
     "it": "Pianoforte",
-    "tr": "Piyano"
+    "tr": "Piyano",
+    "pt": "Piano",
+    "pl": "Fortepian",
+    "hu": "Zongora",
+    "el": "Πιάνο",
+    "kk": "Фортепиано",
+    "uz": "Fortepiano"
   },
   {
     "code": "biologist",
@@ -1612,7 +2176,13 @@
     "fr": "Biologiste",
     "de": "Biologe",
     "it": "Biologo",
-    "tr": "Biyolog"
+    "tr": "Biyolog",
+    "pt": "Biólogo",
+    "pl": "Biolog",
+    "hu": "Biológus",
+    "el": "Βιολόγος",
+    "kk": "Биолог",
+    "uz": "Biolog"
   },
   {
     "code": "feldsher",
@@ -1629,7 +2199,13 @@
     "fr": "Auxiliaire médical",
     "de": "Feldscher",
     "it": "Assistente sanitario",
-    "tr": "Sağlık memuru"
+    "tr": "Sağlık memuru",
+    "pt": "Paramédico",
+    "pl": "Felczer",
+    "hu": "Mentőtechnikus",
+    "el": "Βοηθός Ιατρού",
+    "kk": "Фельдшер",
+    "uz": "Feldsher"
   },
   {
     "code": "statistics",
@@ -1646,7 +2222,13 @@
     "fr": "Statistique",
     "de": "Statistik",
     "it": "Statistica",
-    "tr": "İstatistik"
+    "tr": "İstatistik",
+    "pt": "Estatística",
+    "pl": "Statystyka",
+    "hu": "Statisztika",
+    "el": "Στατιστική",
+    "kk": "Статистика",
+    "uz": "Statistika"
   },
   {
     "code": "administration",
@@ -1663,7 +2245,13 @@
     "fr": "Administration",
     "de": "Verwaltung",
     "it": "Amministrazione",
-    "tr": "İdare"
+    "tr": "İdare",
+    "pt": "Administração",
+    "pl": "Administracja",
+    "hu": "Igazgatás",
+    "el": "Διοίκηση",
+    "kk": "Басқару",
+    "uz": "Boshqaruv"
   },
   {
     "code": "food_products_engineering",
@@ -1680,7 +2268,13 @@
     "fr": "Génie des produits alimentaires",
     "de": "Lebensmittelprodukttechnik",
     "it": "Ingegneria dei prodotti alimentari",
-    "tr": "Gıda ürünleri mühendisliği"
+    "tr": "Gıda ürünleri mühendisliği",
+    "pt": "Engenharia de produtos alimentares",
+    "pl": "Technologia produktów spożywczych",
+    "hu": "Élelmiszertermékek mérnöki tudományai",
+    "el": "Μηχανική Προϊόντων Διατροφής",
+    "kk": "Тамақ өнімдері инженериясы",
+    "uz": "Oziq-ovqat mahsulotlari muhandisligi"
   },
   {
     "code": "physical_education_sport",
@@ -1697,7 +2291,13 @@
     "fr": "Éducation physique et sport",
     "de": "Sportunterricht und Sport",
     "it": "Educazione fisica e sport",
-    "tr": "Beden eğitimi ve spor"
+    "tr": "Beden eğitimi ve spor",
+    "pt": "Educação física e desporto",
+    "pl": "Wychowanie fizyczne i sport",
+    "hu": "Testnevelés és sport",
+    "el": "Φυσική Αγωγή και Αθλητισμός",
+    "kk": "Дене тәрбиесі және спорт",
+    "uz": "Jismoniy tarbiya va sport"
   },
   {
     "code": "tax_taxation",
@@ -1714,7 +2314,13 @@
     "fr": "Impôts et fiscalité",
     "de": "Steuern und Besteuerung",
     "it": "Imposte e tassazione",
-    "tr": "Vergi ve vergilendirme"
+    "tr": "Vergi ve vergilendirme",
+    "pt": "Impostos e tributação",
+    "pl": "Podatki i opodatkowanie",
+    "hu": "Adók és adózás",
+    "el": "Φόροι και Φορολογία",
+    "kk": "Салық және салық салу",
+    "uz": "Soliqlar va soliqqa tortish"
   },
   {
     "code": "machine_engineering",
@@ -1731,7 +2337,13 @@
     "fr": "Ingénierie des machines",
     "de": "Maschineningenieurwesen",
     "it": "Ingegneria delle macchine",
-    "tr": "Makine mühendisliği"
+    "tr": "Makine mühendisliği",
+    "pt": "Engenharia de máquinas",
+    "pl": "Inżynieria maszynowa",
+    "hu": "Gépészeti mérnöki tudományok",
+    "el": "Μηχανική Εξοπλισμού",
+    "kk": "Машина инженериясы",
+    "uz": "Mashinasozlik muhandisligi"
   },
   {
     "code": "industrial_engineering",
@@ -1748,7 +2360,13 @@
     "fr": "Génie industriel",
     "de": "Wirtschaftsingenieurwesen",
     "it": "Ingegneria industriale",
-    "tr": "Sanayi mühendisliği"
+    "tr": "Sanayi mühendisliği",
+    "pt": "Engenharia industrial",
+    "pl": "Inżynieria przemysłowa",
+    "hu": "Ipari mérnöki tudományok",
+    "el": "Βιομηχανική Μηχανική",
+    "kk": "Өнеркәсіп инженериясы",
+    "uz": "Sanoat muhandisligi"
   },
   {
     "code": "sociology",
@@ -1765,7 +2383,13 @@
     "fr": "Sociologie",
     "de": "Soziologie",
     "it": "Sociologia",
-    "tr": "Sosyoloji"
+    "tr": "Sosyoloji",
+    "pt": "Sociologia",
+    "pl": "Socjologia",
+    "hu": "Szociológia",
+    "el": "Κοινωνιολογία",
+    "kk": "Әлеуметтану",
+    "uz": "Sotsiologiya"
   },
   {
     "code": "chemistry_biology_teacher",
@@ -1782,7 +2406,13 @@
     "fr": "Enseignement de la chimie et de la biologie",
     "de": "Lehramt Chemie und Biologie",
     "it": "Insegnamento di chimica e biologia",
-    "tr": "Kimya ve biyoloji öğretmenliği"
+    "tr": "Kimya ve biyoloji öğretmenliği",
+    "pt": "Ensino de química e biologia",
+    "pl": "Nauczanie chemii i biologii",
+    "hu": "Kémia és biológia tanítása",
+    "el": "Δάσκαλος Χημείας και Βιολογίας",
+    "kk": "Химия және биология мұғалімі",
+    "uz": "Kimyo va biologiya oʻqituvchiligi"
   },
   {
     "code": "intl_economic_relations",
@@ -1799,7 +2429,13 @@
     "fr": "Relations économiques internationales",
     "de": "Internationale Wirtschaftsbeziehungen",
     "it": "Relazioni economiche internazionali",
-    "tr": "Uluslararası ekonomik ilişkiler"
+    "tr": "Uluslararası ekonomik ilişkiler",
+    "pt": "Relações económicas internacionais",
+    "pl": "Międzynarodowe stosunki gospodarcze",
+    "hu": "Nemzetközi gazdasági kapcsolatok",
+    "el": "Διεθνείς Οικονομικές Σχέσεις",
+    "kk": "Халықаралық экономикалық қатынастар",
+    "uz": "Xalqaro iqtisodiy munosabatlar"
   },
   {
     "code": "computer_operator",
@@ -1816,7 +2452,13 @@
     "fr": "Opérateur informatique",
     "de": "EDV-Operator",
     "it": "Operatore informatico",
-    "tr": "Bilgisayar operatörü"
+    "tr": "Bilgisayar operatörü",
+    "pt": "Operador informático",
+    "pl": "Operator komputera",
+    "hu": "Számítógép-kezelő",
+    "el": "Χειριστής Υπολογιστή",
+    "kk": "Компьютер операторы",
+    "uz": "Kompyuter operatori"
   },
   {
     "code": "it_systems_engineering",
@@ -1833,7 +2475,13 @@
     "fr": "Ingénierie des technologies et systèmes d'information",
     "de": "Ingenieurwesen für Informationstechnologien und -systeme",
     "it": "Ingegneria delle tecnologie e dei sistemi informativi",
-    "tr": "Bilişim teknolojileri ve sistemleri mühendisliği"
+    "tr": "Bilişim teknolojileri ve sistemleri mühendisliği",
+    "pt": "Engenharia de tecnologias e sistemas de informação",
+    "pl": "Inżynieria technologii informacyjnych i systemów",
+    "hu": "Informatikai és rendszermérnöki tudományok",
+    "el": "Μηχανική Τεχνολογιών και Συστημάτων Πληροφορικής",
+    "kk": "Ақпараттық технологиялар және жүйелер инженериясы",
+    "uz": "Axborot texnologiyalari va tizimlari muhandisligi"
   },
   {
     "code": "tax_affairs",
@@ -1850,7 +2498,13 @@
     "fr": "Affaires fiscales",
     "de": "Steuerwesen",
     "it": "Affari fiscali",
-    "tr": "Vergi işleri"
+    "tr": "Vergi işleri",
+    "pt": "Assuntos fiscais",
+    "pl": "Sprawy podatkowe",
+    "hu": "Adóügyek",
+    "el": "Φορολογικές Υποθέσεις",
+    "kk": "Салық ісі",
+    "uz": "Soliq ishi"
   },
   {
     "code": "ground_vehicle_engineering",
@@ -1867,7 +2521,13 @@
     "fr": "Ingénierie des véhicules terrestres",
     "de": "Ingenieurwesen für Landfahrzeuge",
     "it": "Ingegneria dei veicoli terrestri",
-    "tr": "Kara taşıtları mühendisliği"
+    "tr": "Kara taşıtları mühendisliği",
+    "pt": "Engenharia de veículos terrestres",
+    "pl": "Inżynieria pojazdów naziemnych",
+    "hu": "Földi közlekedési eszközök mérnöki tudományai",
+    "el": "Μηχανική Χερσαίων Οχημάτων",
+    "kk": "Жерүсті көлік құралдары инженериясы",
+    "uz": "Yer usti transport vositalari muhandisligi"
   },
   {
     "code": "transport_logistics_engineering",
@@ -1884,7 +2544,13 @@
     "fr": "Ingénierie de la logistique et des technologies de transport",
     "de": "Ingenieurwesen für Logistik und Verkehrstechnologien",
     "it": "Ingegneria della logistica e delle tecnologie dei trasporti",
-    "tr": "Lojistik ve ulaştırma teknolojileri mühendisliği"
+    "tr": "Lojistik ve ulaştırma teknolojileri mühendisliği",
+    "pt": "Engenharia de logística e tecnologias de transporte",
+    "pl": "Inżynieria logistyki transportu",
+    "hu": "Logisztikai és közlekedéstechnológiai mérnöki tudományok",
+    "el": "Μηχανική Εφοδιαστικής και Μεταφορικών Τεχνολογιών",
+    "kk": "Логистика және көлік технологиялары инженериясы",
+    "uz": "Logistika va transport texnologiyalari muhandisligi"
   },
   {
     "code": "electricity_supply",
@@ -1901,7 +2567,13 @@
     "fr": "Alimentation électrique",
     "de": "Elektrizitätsversorgung",
     "it": "Alimentazione elettrica",
-    "tr": "Elektrik tedariki"
+    "tr": "Elektrik tedariki",
+    "pt": "Abastecimento de eletricidade",
+    "pl": "Zasilanie elektryczne",
+    "hu": "Áramellátás",
+    "el": "Παροχή Ηλεκτρικής Ενέργειας",
+    "kk": "Электрмен жабдықтау",
+    "uz": "Elektr taʼminoti"
   },
   {
     "code": "operations_accountant",
@@ -1918,7 +2590,13 @@
     "fr": "Comptable opérationnel",
     "de": "Sachbearbeiter Buchhaltung",
     "it": "Contabile operativo",
-    "tr": "Operasyon muhasebecisi"
+    "tr": "Operasyon muhasebecisi",
+    "pt": "Contabilista operacional",
+    "pl": "Księgowy operacyjny",
+    "hu": "Üzemi könyvelő",
+    "el": "Λογιστής Εργασιών",
+    "kk": "Операциялық бухгалтер",
+    "uz": "Operatsion buxgalter"
   },
   {
     "code": "corrective_education",
@@ -1935,7 +2613,13 @@
     "fr": "Éducation spécialisée",
     "de": "Förderpädagogik",
     "it": "Educazione correttiva",
-    "tr": "Özel eğitim"
+    "tr": "Özel eğitim",
+    "pt": "Educação corretiva",
+    "pl": "Pedagogika korekcyjna",
+    "hu": "Gyógypedagógia",
+    "el": "Διορθωτική Εκπαίδευση",
+    "kk": "Түзету оқыту",
+    "uz": "Korreksion taʼlim"
   },
   {
     "code": "electrical_engineer",
@@ -1952,7 +2636,13 @@
     "fr": "Ingénieur électricien",
     "de": "Elektroingenieur",
     "it": "Ingegnere elettrico",
-    "tr": "Elektrik mühendisi"
+    "tr": "Elektrik mühendisi",
+    "pt": "Engenheiro eletrotécnico",
+    "pl": "Inżynier elektryk",
+    "hu": "Elektromérnök",
+    "el": "Ηλεκτρολόγος Μηχανικός",
+    "kk": "Электр инженері",
+    "uz": "Elektr muhandisi"
   },
   {
     "code": "computer_engineer",
@@ -1969,7 +2659,13 @@
     "fr": "Ingénieur informaticien",
     "de": "Computeringenieur",
     "it": "Ingegnere informatico",
-    "tr": "Bilgisayar mühendisi"
+    "tr": "Bilgisayar mühendisi",
+    "pt": "Engenheiro informático",
+    "pl": "Inżynier komputerowy",
+    "hu": "Számítástechnikai mérnök",
+    "el": "Μηχανικός Υπολογιστών",
+    "kk": "Компьютерлік инженер",
+    "uz": "Kompyuter muhandisi"
   },
   {
     "code": "midwife",
@@ -1986,7 +2682,13 @@
     "fr": "Sage-femme",
     "de": "Hebamme",
     "it": "Ostetrica",
-    "tr": "Ebe"
+    "tr": "Ebe",
+    "pt": "Parteira",
+    "pl": "Położna",
+    "hu": "Szülésznő",
+    "el": "Μαία",
+    "kk": "Акушер",
+    "uz": "Doya"
   },
   {
     "code": "philosophy",
@@ -2003,7 +2705,13 @@
     "fr": "Philosophie",
     "de": "Philosophie",
     "it": "Filosofia",
-    "tr": "Felsefe"
+    "tr": "Felsefe",
+    "pt": "Filosofia",
+    "pl": "Filozofia",
+    "hu": "Filozófia",
+    "el": "Φιλοσοφία",
+    "kk": "Философия",
+    "uz": "Falsafa"
   },
   {
     "code": "informatics",
@@ -2020,7 +2728,13 @@
     "fr": "Informatique",
     "de": "Informationswissenschaft",
     "it": "Informatica",
-    "tr": "Bilişim"
+    "tr": "Bilişim",
+    "pt": "Informática",
+    "pl": "Nauki komputerowe",
+    "hu": "Informatika",
+    "el": "Πληροφορική",
+    "kk": "Информатика",
+    "uz": "Informatika"
   },
   {
     "code": "vocational_training",
@@ -2037,7 +2751,13 @@
     "fr": "Formation professionnelle",
     "de": "Berufsausbildung",
     "it": "Formazione professionale",
-    "tr": "Meslek eğitimi"
+    "tr": "Meslek eğitimi",
+    "pt": "Formação profissional",
+    "pl": "Kształcenie zawodowe",
+    "hu": "Szakképzés",
+    "el": "Επαγγελματική Κατάρτιση",
+    "kk": "Кәсіптік оқыту",
+    "uz": "Kasb-hunar taʼlimi"
   },
   {
     "code": "philology",
@@ -2054,7 +2774,13 @@
     "fr": "Philologie",
     "de": "Philologie",
     "it": "Filologia",
-    "tr": "Filoloji"
+    "tr": "Filoloji",
+    "pt": "Filologia",
+    "pl": "Filologia",
+    "hu": "Filológia",
+    "el": "Φιλολογία",
+    "kk": "Филология",
+    "uz": "Filologiya"
   },
   {
     "code": "nursing",
@@ -2071,7 +2797,13 @@
     "fr": "Soins infirmiers",
     "de": "Krankenpflege",
     "it": "Scienze infermieristiche",
-    "tr": "Hemşirelik"
+    "tr": "Hemşirelik",
+    "pt": "Enfermagem",
+    "pl": "Pielęgniarstwo",
+    "hu": "Ápolás",
+    "el": "Νοσηλευτική",
+    "kk": "Мейіргерлік іс",
+    "uz": "Hamshiralik ishi"
   },
   {
     "code": "electrician",
@@ -2088,7 +2820,13 @@
     "fr": "Électricien",
     "de": "Elektriker",
     "it": "Elettricista",
-    "tr": "Elektrikçi"
+    "tr": "Elektrikçi",
+    "pt": "Eletricista",
+    "pl": "Elektryk",
+    "hu": "Villanyszerelő",
+    "el": "Ηλεκτρολόγος",
+    "kk": "Электрші",
+    "uz": "Elektrik"
   },
   {
     "code": "regional_studies",
@@ -2105,7 +2843,13 @@
     "fr": "Études régionales",
     "de": "Regionalstudien",
     "it": "Studi regionali",
-    "tr": "Bölge bilimleri"
+    "tr": "Bölge bilimleri",
+    "pt": "Estudos regionais",
+    "pl": "Studia regionalne",
+    "hu": "Regionális tanulmányok",
+    "el": "Περιφερειακές Σπουδές",
+    "kk": "Аймақтану",
+    "uz": "Mintaqashunoslik"
   },
   {
     "code": "electrical_electronics_engineering",
@@ -2122,7 +2866,13 @@
     "fr": "Génie électrique et électronique",
     "de": "Elektro- und Elektroniktechnik",
     "it": "Ingegneria elettrica ed elettronica",
-    "tr": "Elektrik ve elektronik mühendisliği"
+    "tr": "Elektrik ve elektronik mühendisliği",
+    "pt": "Engenharia elétrica e eletrónica",
+    "pl": "Inżynieria elektryczna i elektroniczna",
+    "hu": "Elektromos és elektronikai mérnöki tudományok",
+    "el": "Μηχανική Ηλεκτρολογίας και Ηλεκτρονικής",
+    "kk": "Электр және электроника инженериясы",
+    "uz": "Elektr va elektronika muhandisligi"
   },
   {
     "code": "russian_teacher",
@@ -2139,7 +2889,13 @@
     "fr": "Enseignement du russe",
     "de": "Lehramt Russisch",
     "it": "Insegnamento del russo",
-    "tr": "Rusça öğretmenliği"
+    "tr": "Rusça öğretmenliği",
+    "pt": "Ensino de russo",
+    "pl": "Nauczanie języka rosyjskiego",
+    "hu": "Orosz nyelv tanítása",
+    "el": "Δάσκαλος Ρωσικής Γλώσσας",
+    "kk": "Орыс тілі мұғалімі",
+    "uz": "Rus tili oʻqituvchiligi"
   },
   {
     "code": "electronics_telecom_radio_engineering",
@@ -2156,7 +2912,13 @@
     "fr": "Génie électronique, des télécommunications et radiotechnique",
     "de": "Elektronik-, Telekommunikations- und Funktechnik",
     "it": "Ingegneria elettronica, delle telecomunicazioni e radiotecnica",
-    "tr": "Elektronik, telekomünikasyon ve radyo tekniği mühendisliği"
+    "tr": "Elektronik, telekomünikasyon ve radyo tekniği mühendisliği",
+    "pt": "Engenharia de eletrónica, telecomunicações e radiotecnia",
+    "pl": "Elektronika, telekomunikacja i radiotechnika",
+    "hu": "Elektronika, távközlés és rádiótechnika mérnöki tudományai",
+    "el": "Ηλεκτρονική, Τηλεπικοινωνίες και Ραδιοτεχνική Μηχανική",
+    "kk": "Электроника, телекоммуникация және радиотехника инженериясы",
+    "uz": "Elektronika, telekommunikatsiya va radiotexnika muhandisligi"
   },
   {
     "code": "veterinary",
@@ -2173,7 +2935,13 @@
     "fr": "Médecine vétérinaire",
     "de": "Veterinärmedizin",
     "it": "Medicina veterinaria",
-    "tr": "Veterinerlik"
+    "tr": "Veterinerlik",
+    "pt": "Medicina veterinária",
+    "pl": "Weterynaria",
+    "hu": "Állatorvos-tudomány",
+    "el": "Κτηνιατρική",
+    "kk": "Ветеринария",
+    "uz": "Veterinariya"
   },
   {
     "code": "metrology_standardization_engineering",
@@ -2190,7 +2958,13 @@
     "fr": "Génie de la métrologie, normalisation et certification",
     "de": "Ingenieurwesen für Messtechnik, Normung und Zertifizierung",
     "it": "Ingegneria di metrologia, normazione e certificazione",
-    "tr": "Metroloji, standartlaştırma ve sertifikasyon mühendisliği"
+    "tr": "Metroloji, standartlaştırma ve sertifikasyon mühendisliği",
+    "pt": "Engenharia de metrologia, normalização e certificação",
+    "pl": "Metrologia, normalizacja i certyfikacja",
+    "hu": "Metrológiai, szabványosítási és tanúsítási mérnöki tudományok",
+    "el": "Μηχανική Μετρολογίας, Τυποποίησης και Πιστοποίησης",
+    "kk": "Метрология, стандарттау және сертификаттау инженериясы",
+    "uz": "Metrologiya, standartlashtirish va sertifikatlashtirish muhandisligi"
   },
   {
     "code": "technological_machines_engineering",
@@ -2207,7 +2981,13 @@
     "fr": "Ingénierie des machines et équipements technologiques",
     "de": "Ingenieurwesen für technologische Maschinen und Anlagen",
     "it": "Ingegneria di macchine e attrezzature tecnologiche",
-    "tr": "Teknolojik makine ve ekipman mühendisliği"
+    "tr": "Teknolojik makine ve ekipman mühendisliği",
+    "pt": "Engenharia de máquinas e equipamentos tecnológicos",
+    "pl": "Inżynieria maszyn i urządzeń technologicznych",
+    "hu": "Technológiai gépek és berendezések mérnöki tudományai",
+    "el": "Μηχανική Τεχνολογικών Μηχανημάτων και Εξοπλισμού",
+    "kk": "Технологиялық машиналар және жабдықтар инженериясы",
+    "uz": "Texnologik mashina va uskunalar muhandisligi"
   },
   {
     "code": "coach",
@@ -2224,7 +3004,13 @@
     "fr": "Entraîneur sportif",
     "de": "Sporttrainer",
     "it": "Allenatore sportivo",
-    "tr": "Antrenör"
+    "tr": "Antrenör",
+    "pt": "Treinador",
+    "pl": "Trener sportowy",
+    "hu": "Sportedző",
+    "el": "Προπονητής",
+    "kk": "Жаттықтырушы",
+    "uz": "Murabbiy"
   },
   {
     "code": "vehicle_maintenance",
@@ -2241,7 +3027,13 @@
     "fr": "Exploitation technique des véhicules",
     "de": "Technische Wartung von Fahrzeugen",
     "it": "Manutenzione tecnica dei veicoli",
-    "tr": "Taşıtların teknik bakımı"
+    "tr": "Taşıtların teknik bakımı",
+    "pt": "Manutenção técnica de veículos",
+    "pl": "Obsługa techniczna pojazdów",
+    "hu": "Közlekedési eszközök műszaki üzemeltetése",
+    "el": "Τεχνική Συντήρηση Οχημάτων",
+    "kk": "Көлік құралдарын техникалық пайдалану",
+    "uz": "Transport vositalarining texnik ekspluatatsiyasi"
   },
   {
     "code": "postal_communication",
@@ -2258,7 +3050,13 @@
     "fr": "Services postaux",
     "de": "Postwesen",
     "it": "Servizi postali",
-    "tr": "Posta hizmetleri"
+    "tr": "Posta hizmetleri",
+    "pt": "Comunicações postais",
+    "pl": "Łączność pocztowa",
+    "hu": "Postai hírközlés",
+    "el": "Ταχυδρομικές Επικοινωνίες",
+    "kk": "Пошта байланысы",
+    "uz": "Pochta aloqasi"
   },
   {
     "code": "melioration_water_engineering",
@@ -2275,7 +3073,13 @@
     "fr": "Génie de l'irrigation et des ouvrages hydrauliques",
     "de": "Ingenieurwesen für Melioration und Wasserbau",
     "it": "Ingegneria della bonifica e delle opere idrauliche",
-    "tr": "Islah ve su yapıları mühendisliği"
+    "tr": "Islah ve su yapıları mühendisliği",
+    "pt": "Engenharia de melhoramento e construção hidroagrícola",
+    "pl": "Melioracje i budownictwo wodne",
+    "hu": "Melioráció és vízgazdálkodási építőipari mérnöki tudományok",
+    "el": "Μηχανική Αναβάθμισης Εδαφών και Υδραυλικών Κατασκευών",
+    "kk": "Мелиорация және су шаруашылығы құрылысы инженериясы",
+    "uz": "Meliorasiya va suv xoʻjaligi qurilishi muhandisligi"
   },
   {
     "code": "transportation_organization",
@@ -2292,7 +3096,13 @@
     "fr": "Organisation des transports",
     "de": "Organisation des Transportwesens",
     "it": "Organizzazione dei trasporti",
-    "tr": "Taşımacılığın örgütlenmesi"
+    "tr": "Taşımacılığın örgütlenmesi",
+    "pt": "Organização dos transportes",
+    "pl": "Organizacja transportu",
+    "hu": "Szállítások megszervezése",
+    "el": "Οργάνωση Μεταφορών",
+    "kk": "Көлікте тасымалдарды ұйымдастыру",
+    "uz": "Transportda tashishlarni tashkil etish"
   },
   {
     "code": "public_administration",
@@ -2309,7 +3119,13 @@
     "fr": "Administration publique",
     "de": "Öffentliche Verwaltung",
     "it": "Amministrazione pubblica",
-    "tr": "Kamu yönetimi"
+    "tr": "Kamu yönetimi",
+    "pt": "Administração pública",
+    "pl": "Administracja publiczna",
+    "hu": "Közigazgatás",
+    "el": "Δημόσια Διοίκηση",
+    "kk": "Әкімшілік басқару",
+    "uz": "Maʼmuriy boshqaruv"
   },
   {
     "code": "general_economics",
@@ -2326,7 +3142,13 @@
     "fr": "Économie générale",
     "de": "Allgemeine Wirtschaftswissenschaft",
     "it": "Economia generale",
-    "tr": "Genel iktisat"
+    "tr": "Genel iktisat",
+    "pt": "Economia geral",
+    "pl": "Ekonomia ogólna",
+    "hu": "Általános közgazdaságtan",
+    "el": "Γενικά Οικονομικά",
+    "kk": "Жалпы экономика",
+    "uz": "Umumiy iqtisodiyot"
   },
   {
     "code": "oil_gas_facilities_engineering",
@@ -2343,7 +3165,13 @@
     "fr": "Ingénierie des installations pétrolières et gazières",
     "de": "Ingenieurwesen für Erdöl- und Erdgasanlagen",
     "it": "Ingegneria degli impianti petroliferi e del gas",
-    "tr": "Petrol ve gaz tesisleri mühendisliği"
+    "tr": "Petrol ve gaz tesisleri mühendisliği",
+    "pt": "Engenharia de instalações de petróleo e gás",
+    "pl": "Inżynieria obiektów naftowo-gazowych",
+    "hu": "Kőolaj- és földgázlétesítmények mérnöki tudományai",
+    "el": "Μηχανική Εγκαταστάσεων Πετρελαίου και Φυσικού Αερίου",
+    "kk": "Мұнай-газ құрылыстары инженериясы",
+    "uz": "Neft-gaz qurilmalari muhandisligi"
   },
   {
     "code": "agronomist",
@@ -2360,7 +3188,13 @@
     "fr": "Agronome",
     "de": "Agronom",
     "it": "Agronomo",
-    "tr": "Agronom"
+    "tr": "Agronom",
+    "pt": "Agrónomo",
+    "pl": "Agronom",
+    "hu": "Agronómus",
+    "el": "Αγρονόμος",
+    "kk": "Агроном",
+    "uz": "Agronom"
   },
   {
     "code": "hydrometeorology",
@@ -2377,7 +3211,13 @@
     "fr": "Hydrométéorologie",
     "de": "Hydrometeorologie",
     "it": "Idrometeorologia",
-    "tr": "Hidrometeoroloji"
+    "tr": "Hidrometeoroloji",
+    "pt": "Hidrometeorologia",
+    "pl": "Hydrometeorologia",
+    "hu": "Hidrometeorológia",
+    "el": "Υδρομετεωρολογία",
+    "kk": "Гидрометеорология",
+    "uz": "Gidrometeorologiya"
   },
   {
     "code": "ecologist",
@@ -2394,7 +3234,13 @@
     "fr": "Écologue",
     "de": "Ökologe",
     "it": "Ecologo",
-    "tr": "Ekolog"
+    "tr": "Ekolog",
+    "pt": "Ecologista",
+    "pl": "Ekolog",
+    "hu": "Ökológus",
+    "el": "Οικολόγος",
+    "kk": "Эколог",
+    "uz": "Ekolog"
   },
   {
     "code": "geological_engineering",
@@ -2411,7 +3257,13 @@
     "fr": "Génie géologique",
     "de": "Geologieingenieurwesen",
     "it": "Ingegneria geologica",
-    "tr": "Jeoloji mühendisliği"
+    "tr": "Jeoloji mühendisliği",
+    "pt": "Engenharia geológica",
+    "pl": "Inżynieria geologiczna",
+    "hu": "Geológiai mérnöki tudományok",
+    "el": "Γεωλογική Μηχανική",
+    "kk": "Геология инженериясы",
+    "uz": "Geologiya muhandisligi"
   },
   {
     "code": "architect",
@@ -2428,7 +3280,13 @@
     "fr": "Architecte",
     "de": "Architekt",
     "it": "Architetto",
-    "tr": "Mimar"
+    "tr": "Mimar",
+    "pt": "Arquiteto",
+    "pl": "Architekt",
+    "hu": "Építész",
+    "el": "Αρχιτέκτονας",
+    "kk": "Сәулетші",
+    "uz": "Arxitektor"
   },
   {
     "code": "physical_education_teacher",
@@ -2445,7 +3303,13 @@
     "fr": "Enseignement de l'éducation physique",
     "de": "Lehramt Sport",
     "it": "Insegnamento dell'educazione fisica",
-    "tr": "Beden eğitimi öğretmenliği"
+    "tr": "Beden eğitimi öğretmenliği",
+    "pt": "Ensino de educação física",
+    "pl": "Nauczanie wychowania fizycznego",
+    "hu": "Testnevelés tanítása",
+    "el": "Δάσκαλος Φυσικής Αγωγής",
+    "kk": "Дене тәрбиесі мұғалімі",
+    "uz": "Jismoniy tarbiya oʻqituvchiligi"
   },
   {
     "code": "architecture",
@@ -2462,7 +3326,13 @@
     "fr": "Architecture",
     "de": "Architektur",
     "it": "Architettura",
-    "tr": "Mimarlık"
+    "tr": "Mimarlık",
+    "pt": "Arquitetura",
+    "pl": "Architektura",
+    "hu": "Építészet",
+    "el": "Αρχιτεκτονική",
+    "kk": "Сәулет",
+    "uz": "Arxitektura"
   },
   {
     "code": "economics_management",
@@ -2479,7 +3349,13 @@
     "fr": "Économie et gestion",
     "de": "Wirtschaft und Verwaltung",
     "it": "Economia e gestione",
-    "tr": "İktisat ve yönetim"
+    "tr": "İktisat ve yönetim",
+    "pt": "Economia e gestão",
+    "pl": "Ekonomia i zarządzanie",
+    "hu": "Közgazdaságtan és menedzsment",
+    "el": "Οικονομικά και Διοίκηση",
+    "kk": "Экономика және менеджмент",
+    "uz": "Iqtisodiyot va boshqaruv"
   },
   {
     "code": "economic_legal_regulation",
@@ -2496,7 +3372,13 @@
     "fr": "Régulation juridique de l'économie",
     "de": "Rechtliche Regulierung der Wirtschaft",
     "it": "Regolamentazione giuridica dell'economia",
-    "tr": "Ekonominin hukuki düzenlenmesi"
+    "tr": "Ekonominin hukuki düzenlenmesi",
+    "pt": "Regulação jurídica da economia",
+    "pl": "Regulacje prawne gospodarki",
+    "hu": "A gazdaság jogi szabályozása",
+    "el": "Νομική Ρύθμιση της Οικονομίας",
+    "kk": "Экономиканың құқықтық реттелуі",
+    "uz": "Iqtisodiyotni huquqiy tartibga solish"
   },
   {
     "code": "geology",
@@ -2513,7 +3395,13 @@
     "fr": "Géologie",
     "de": "Geologie",
     "it": "Geologia",
-    "tr": "Jeoloji"
+    "tr": "Jeoloji",
+    "pt": "Geologia",
+    "pl": "Geologia",
+    "hu": "Geológia",
+    "el": "Γεωλογία",
+    "kk": "Геология",
+    "uz": "Geologiya"
   },
   {
     "code": "french_teacher",
@@ -2530,7 +3418,13 @@
     "fr": "Enseignement du français",
     "de": "Lehramt Französisch",
     "it": "Insegnamento del francese",
-    "tr": "Fransızca öğretmenliği"
+    "tr": "Fransızca öğretmenliği",
+    "pt": "Ensino de francês",
+    "pl": "Nauczanie języka francuskiego",
+    "hu": "Francia nyelv tanítása",
+    "el": "Δάσκαλος Γαλλικής Γλώσσας",
+    "kk": "Француз тілі мұғалімі",
+    "uz": "Fransuz tili oʻqituvchiligi"
   },
   {
     "code": "economic_regulation",
@@ -2547,7 +3441,13 @@
     "fr": "Régulation de l'économie",
     "de": "Regulierung der Wirtschaft",
     "it": "Regolamentazione dell'economia",
-    "tr": "Ekonominin düzenlenmesi"
+    "tr": "Ekonominin düzenlenmesi",
+    "pt": "Regulação económica",
+    "pl": "Regulacja gospodarki",
+    "hu": "Gazdasági szabályozás",
+    "el": "Ρύθμιση της Οικονομίας",
+    "kk": "Экономиканы реттеу",
+    "uz": "Iqtisodiyotni tartibga solish"
   },
   {
     "code": "english_language_literature",
@@ -2564,7 +3464,13 @@
     "fr": "Langue et littérature anglaises",
     "de": "Englische Sprache und Literatur",
     "it": "Lingua e letteratura inglese",
-    "tr": "İngiliz dili ve edebiyatı"
+    "tr": "İngiliz dili ve edebiyatı",
+    "pt": "Língua e literatura inglesas",
+    "pl": "Język i literatura angielska",
+    "hu": "Angol nyelv és irodalom",
+    "el": "Αγγλική Γλώσσα και Λογοτεχνία",
+    "kk": "Ағылшын тілі және әдебиеті",
+    "uz": "Ingliz tili va adabiyoti"
   },
   {
     "code": "medicine",
@@ -2581,7 +3487,13 @@
     "fr": "Médecine",
     "de": "Medizin",
     "it": "Medicina",
-    "tr": "Tıp"
+    "tr": "Tıp",
+    "pt": "Medicina",
+    "pl": "Medycyna",
+    "hu": "Orvostudomány",
+    "el": "Ιατρική",
+    "kk": "Медицина",
+    "uz": "Tibbiyot"
   },
   {
     "code": "customs",
@@ -2598,7 +3510,13 @@
     "fr": "Affaires douanières",
     "de": "Zollwesen",
     "it": "Attività doganale",
-    "tr": "Gümrük işleri"
+    "tr": "Gümrük işleri",
+    "pt": "Alfândegas",
+    "pl": "Sprawy celne",
+    "hu": "Vámügy",
+    "el": "Τελωνειακές Υποθέσεις",
+    "kk": "Кеден ісі",
+    "uz": "Bojxona ishi"
   },
   {
     "code": "foreign_language_teacher",
@@ -2615,7 +3533,13 @@
     "fr": "Enseignement des langues étrangères",
     "de": "Fremdsprachenlehramt",
     "it": "Insegnamento delle lingue straniere",
-    "tr": "Yabancı dil öğretmenliği"
+    "tr": "Yabancı dil öğretmenliği",
+    "pt": "Ensino de línguas estrangeiras",
+    "pl": "Nauczanie języka obcego",
+    "hu": "Idegennyelv-tanítás",
+    "el": "Δάσκαλος Ξένων Γλωσσών",
+    "kk": "Шет тілі мұғалімі",
+    "uz": "Xorijiy til oʻqituvchiligi"
   },
   {
     "code": "agricultural_engineer",
@@ -2632,7 +3556,13 @@
     "fr": "Ingénieur agronome",
     "de": "Agraringenieur",
     "it": "Ingegnere agronomo",
-    "tr": "Tarım makineleri mühendisi"
+    "tr": "Tarım makineleri mühendisi",
+    "pt": "Engenheiro agrícola",
+    "pl": "Inżynier maszyn rolniczych",
+    "hu": "Agrármérnök",
+    "el": "Γεωργικός Μηχανικός",
+    "kk": "Агроинженер",
+    "uz": "Agromuhandis"
   },
   {
     "code": "energy_engineering",
@@ -2649,7 +3579,13 @@
     "fr": "Génie énergétique",
     "de": "Energietechnik-Ingenieurwesen",
     "it": "Ingegneria energetica",
-    "tr": "Enerji mühendisliği"
+    "tr": "Enerji mühendisliği",
+    "pt": "Engenharia energética",
+    "pl": "Inżynieria energetyczna",
+    "hu": "Energetikai mérnöki tudományok",
+    "el": "Ενεργειακή Μηχανική",
+    "kk": "Энергетика инженериясы",
+    "uz": "Energetika muhandisligi"
   },
   {
     "code": "customs_organization",
@@ -2666,7 +3602,13 @@
     "fr": "Organisation des affaires douanières",
     "de": "Organisation des Zollwesens",
     "it": "Organizzazione delle attività doganali",
-    "tr": "Gümrük işlerinin örgütlenmesi"
+    "tr": "Gümrük işlerinin örgütlenmesi",
+    "pt": "Organização dos serviços aduaneiros",
+    "pl": "Organizacja spraw celnych",
+    "hu": "Vámügyek szervezése",
+    "el": "Οργάνωση Τελωνειακών Υποθέσεων",
+    "kk": "Кеден ісін ұйымдастыру",
+    "uz": "Bojxona ishini tashkil etish"
   },
   {
     "code": "archive_records_management",
@@ -2683,7 +3625,13 @@
     "fr": "Archivistique et gestion documentaire",
     "de": "Archivwesen und Schriftgutverwaltung",
     "it": "Archivistica e gestione documentale",
-    "tr": "Arşivcilik ve evrak yönetimi"
+    "tr": "Arşivcilik ve evrak yönetimi",
+    "pt": "Arquivologia e gestão documental",
+    "pl": "Archiwistyka i zarządzanie dokumentacją",
+    "hu": "Irattár és ügyvitel",
+    "el": "Αρχειονομία και Γραμματειακή Υποστήριξη",
+    "kk": "Мұрағат ісі және іс қағаздарын жүргізу",
+    "uz": "Arxiv ishi va ish yuritish"
   },
   {
     "code": "dentist",
@@ -2700,7 +3648,13 @@
     "fr": "Dentiste",
     "de": "Zahnarzt",
     "it": "Dentista",
-    "tr": "Diş hekimi"
+    "tr": "Diş hekimi",
+    "pt": "Dentista",
+    "pl": "Dentysta",
+    "hu": "Fogorvos",
+    "el": "Οδοντίατρος",
+    "kk": "Стоматолог",
+    "uz": "Stomatolog"
   },
   {
     "code": "geophysical_engineering",
@@ -2717,7 +3671,13 @@
     "fr": "Génie géophysique",
     "de": "Geophysikingenieurwesen",
     "it": "Ingegneria geofisica",
-    "tr": "Jeofizik mühendisliği"
+    "tr": "Jeofizik mühendisliği",
+    "pt": "Engenharia geofísica",
+    "pl": "Inżynieria geofizyczna",
+    "hu": "Geofizikai mérnöki tudományok",
+    "el": "Γεωφυσική Μηχανική",
+    "kk": "Геофизика инженериясы",
+    "uz": "Geofizika muhandisligi"
   },
   {
     "code": "music_teacher",
@@ -2734,7 +3694,13 @@
     "fr": "Enseignement de la musique",
     "de": "Lehramt Musik",
     "it": "Insegnamento della musica",
-    "tr": "Müzik öğretmenliği"
+    "tr": "Müzik öğretmenliği",
+    "pt": "Ensino de música",
+    "pl": "Nauczanie muzyki",
+    "hu": "Zene tanítása",
+    "el": "Δάσκαλος Μουσικής",
+    "kk": "Музыка мұғалімі",
+    "uz": "Musiqa oʻqituvchiligi"
   },
   {
     "code": "financier",
@@ -2751,7 +3717,13 @@
     "fr": "Financier",
     "de": "Finanzfachmann",
     "it": "Finanziere",
-    "tr": "Maliyeci"
+    "tr": "Maliyeci",
+    "pt": "Financeiro",
+    "pl": "Finansista",
+    "hu": "Pénzügyi szakember",
+    "el": "Στέλεχος Χρηματοοικονομικών",
+    "kk": "Қаржыгер",
+    "uz": "Moliyachi"
   },
   {
     "code": "transport",
@@ -2768,7 +3740,13 @@
     "fr": "Transport",
     "de": "Verkehrswesen",
     "it": "Trasporti",
-    "tr": "Ulaştırma"
+    "tr": "Ulaştırma",
+    "pt": "Transportes",
+    "pl": "Transport",
+    "hu": "Közlekedés",
+    "el": "Μεταφορές",
+    "kk": "Көлік",
+    "uz": "Transport"
   },
   {
     "code": "land_cadastre",
@@ -2785,7 +3763,13 @@
     "fr": "Aménagement foncier et cadastre urbain",
     "de": "Flurbereinigung sowie Boden- und Stadtkataster",
     "it": "Riordino fondiario e catasto urbano",
-    "tr": "Arazi düzenlemesi ve şehir kadastrosu"
+    "tr": "Arazi düzenlemesi ve şehir kadastrosu",
+    "pt": "Ordenamento do território e cadastro urbano",
+    "pl": "Gospodarka gruntami i kataster miejski",
+    "hu": "Földgazdálkodás és városi kataszter",
+    "el": "Διαχείριση Γης και Αστικό Κτηματολόγιο",
+    "kk": "Жерге орналастыру және жер-қала кадастры",
+    "uz": "Yer tuzish, yer va shahar kadastri"
   },
   {
     "code": "transport_construction_engineering",
@@ -2802,7 +3786,13 @@
     "fr": "Génie des infrastructures de transport",
     "de": "Ingenieurwesen für Verkehrsbau",
     "it": "Ingegneria delle costruzioni di trasporto",
-    "tr": "Ulaştırma yapıları mühendisliği"
+    "tr": "Ulaştırma yapıları mühendisliği",
+    "pt": "Engenharia de construção de infraestruturas de transporte",
+    "pl": "Inżynieria budowy transportu",
+    "hu": "Közlekedésépítési mérnöki tudományok",
+    "el": "Μηχανική Κατασκευών Μεταφορών",
+    "kk": "Көлік құрылысы инженериясы",
+    "uz": "Transport qurilishi muhandisligi"
   },
   {
     "code": "instrument_engineering",
@@ -2819,7 +3809,13 @@
     "fr": "Génie des instruments",
     "de": "Gerätetechnik",
     "it": "Ingegneria degli strumenti",
-    "tr": "Cihaz mühendisliği"
+    "tr": "Cihaz mühendisliği",
+    "pt": "Engenharia de instrumentação",
+    "pl": "Inżynieria aparatury pomiarowej",
+    "hu": "Műszermérnöki tudományok",
+    "el": "Μηχανική Οργάνων",
+    "kk": "Аспап жасау инженериясы",
+    "uz": "Asbobsozlik muhandisligi"
   },
   {
     "code": "library_information",
@@ -2836,7 +3832,13 @@
     "fr": "Bibliothéconomie et sciences de l'information",
     "de": "Bibliotheks- und Informationswissenschaft",
     "it": "Biblioteconomia e scienze dell'informazione",
-    "tr": "Kütüphanecilik ve bilgi bilimi"
+    "tr": "Kütüphanecilik ve bilgi bilimi",
+    "pt": "Biblioteconomia e informação",
+    "pl": "Bibliotekoznawstwo i informacja naukowa",
+    "hu": "Könyvtár- és információtudomány",
+    "el": "Βιβλιοθηκονομία και Πληροφόρηση",
+    "kk": "Кітапханатану және ақпарат",
+    "uz": "Kutubxonashunoslik va axborot"
   },
   {
     "code": "sports_teacher",
@@ -2853,7 +3855,13 @@
     "fr": "Professeur de sport",
     "de": "Sportlehrer",
     "it": "Insegnante di sport",
-    "tr": "Spor öğretmeni"
+    "tr": "Spor öğretmeni",
+    "pt": "Professor de desporto",
+    "pl": "Nauczyciel sportu",
+    "hu": "Testnevelő tanár",
+    "el": "Καθηγητής Αθλητισμού",
+    "kk": "Дене шынықтыру мұғалімі",
+    "uz": "Sport oʻqituvchisi"
   },
   {
     "code": "pedagogue",
@@ -2870,7 +3878,13 @@
     "fr": "Pédagogue",
     "de": "Pädagoge",
     "it": "Pedagogo",
-    "tr": "Pedagog"
+    "tr": "Pedagog",
+    "pt": "Pedagogo",
+    "pl": "Pedagog",
+    "hu": "Pedagógus",
+    "el": "Παιδαγωγός",
+    "kk": "Педагог",
+    "uz": "Pedagog"
   },
   {
     "code": "mechanical_engineer",
@@ -2887,7 +3901,13 @@
     "fr": "Ingénieur mécanicien",
     "de": "Maschinenbauingenieur",
     "it": "Ingegnere meccanico",
-    "tr": "Makine mühendisi"
+    "tr": "Makine mühendisi",
+    "pt": "Engenheiro mecânico",
+    "pl": "Inżynier mechanik",
+    "hu": "Gépészmérnök",
+    "el": "Μηχανολόγος Μηχανικός",
+    "kk": "Механик-инженер",
+    "uz": "Muhandis-mexanik"
   },
   {
     "code": "medical_prophylaxis",
@@ -2904,7 +3924,13 @@
     "fr": "Prophylaxie médicale",
     "de": "Medizinische Prophylaxe",
     "it": "Profilassi medica",
-    "tr": "Tıbbi koruma"
+    "tr": "Tıbbi koruma",
+    "pt": "Medicina preventiva",
+    "pl": "Profilaktyka medyczna",
+    "hu": "Orvosi prevenció",
+    "el": "Ιατρική Πρόληψη",
+    "kk": "Медициналық профилактика",
+    "uz": "Tibbiy profilaktika"
   },
   {
     "code": "math_informatics",
@@ -2921,7 +3947,13 @@
     "fr": "Mathématiques et informatique",
     "de": "Mathematik und Informatik",
     "it": "Matematica e informatica",
-    "tr": "Matematik ve bilişim"
+    "tr": "Matematik ve bilişim",
+    "pt": "Matemática e informática",
+    "pl": "Matematyka i informatyka",
+    "hu": "Matematika és informatika",
+    "el": "Μαθηματικά και Πληροφορική",
+    "kk": "Математика және информатика",
+    "uz": "Matematika va informatika"
   },
   {
     "code": "biomedical_engineering",
@@ -2938,7 +3970,13 @@
     "fr": "Génie des technologies biomédicales",
     "de": "Biomedizinische Technik",
     "it": "Ingegneria delle tecnologie biomediche",
-    "tr": "Biyomedikal teknoloji mühendisliği"
+    "tr": "Biyomedikal teknoloji mühendisliği",
+    "pt": "Engenharia biomédica",
+    "pl": "Inżynieria technologii biomedycznych",
+    "hu": "Biomedikai technológiai mérnöki tudományok",
+    "el": "Μηχανική Βιοϊατρικής Τεχνολογίας",
+    "kk": "Биомедициналық технология инженериясы",
+    "uz": "Biotibbiy texnologiyalar muhandisligi"
   },
   {
     "code": "hotel_administrator",
@@ -2955,7 +3993,13 @@
     "fr": "Administrateur d'hôtel",
     "de": "Hotelverwalter",
     "it": "Amministratore d'albergo",
-    "tr": "Otel yöneticisi"
+    "tr": "Otel yöneticisi",
+    "pt": "Administrador hoteleiro",
+    "pl": "Administrator hotelu",
+    "hu": "Szállodai administrátor",
+    "el": "Διευθυντής Ξενοδοχείου",
+    "kk": "Қонақүй администраторы",
+    "uz": "Mehmonxona administratori"
   },
   {
     "code": "geologist",
@@ -2972,7 +4016,13 @@
     "fr": "Géologue",
     "de": "Geologe",
     "it": "Geologo",
-    "tr": "Jeolog"
+    "tr": "Jeolog",
+    "pt": "Geólogo",
+    "pl": "Geolog",
+    "hu": "Geológus",
+    "el": "Γεωλόγος",
+    "kk": "Геолог",
+    "uz": "Geolog"
   },
   {
     "code": "football",
@@ -2989,7 +4039,13 @@
     "fr": "Football",
     "de": "Fußball",
     "it": "Calcio",
-    "tr": "Futbol"
+    "tr": "Futbol",
+    "pt": "Futebol",
+    "pl": "Piłka nożna",
+    "hu": "Labdarúgás",
+    "el": "Ποδόσφαιρο",
+    "kk": "Футбол",
+    "uz": "Futbol"
   },
   {
     "code": "insurance",
@@ -3006,7 +4062,13 @@
     "fr": "Assurance",
     "de": "Versicherungswesen",
     "it": "Assicurazioni",
-    "tr": "Sigortacılık"
+    "tr": "Sigortacılık",
+    "pt": "Seguros",
+    "pl": "Ubezpieczenia",
+    "hu": "Biztosítás",
+    "el": "Ασφαλιστικές Εργασίες",
+    "kk": "Сақтандыру ісі",
+    "uz": "Sugʻurta ishi"
   },
   {
     "code": "french_language",
@@ -3023,7 +4085,13 @@
     "fr": "Langue française",
     "de": "Französische Sprache",
     "it": "Lingua francese",
-    "tr": "Fransız dili"
+    "tr": "Fransız dili",
+    "pt": "Língua francesa",
+    "pl": "Język francuski",
+    "hu": "Francia nyelv",
+    "el": "Γαλλική Γλώσσα",
+    "kk": "Француз тілі",
+    "uz": "Fransuz tili"
   },
   {
     "code": "librarian",
@@ -3040,7 +4108,13 @@
     "fr": "Bibliothécaire",
     "de": "Bibliothekar",
     "it": "Bibliotecario",
-    "tr": "Kütüphaneci"
+    "tr": "Kütüphaneci",
+    "pt": "Bibliotecário",
+    "pl": "Bibliotekarz",
+    "hu": "Könyvtáros",
+    "el": "Βιβλιοθηκάριος",
+    "kk": "Кітапханашы",
+    "uz": "Kutubxonachi"
   },
   {
     "code": "logistics",
@@ -3057,7 +4131,13 @@
     "fr": "Logistique",
     "de": "Logistik",
     "it": "Logistica",
-    "tr": "Lojistik"
+    "tr": "Lojistik",
+    "pt": "Logística",
+    "pl": "Logistyka",
+    "hu": "Logisztika",
+    "el": "Εφοδιαστική",
+    "kk": "Логистика",
+    "uz": "Logistika"
   },
   {
     "code": "transport_engineering",
@@ -3074,7 +4154,13 @@
     "fr": "Génie des transports",
     "de": "Verkehrsingenieurwesen",
     "it": "Ingegneria dei trasporti",
-    "tr": "Ulaştırma mühendisliği"
+    "tr": "Ulaştırma mühendisliği",
+    "pt": "Engenharia de transportes",
+    "pl": "Inżynieria transportu",
+    "hu": "Közlekedésmérnöki tudományok",
+    "el": "Μηχανική Μεταφορών",
+    "kk": "Көлік инженериясы",
+    "uz": "Transport muhandisligi"
   },
   {
     "code": "geodesy_engineering",
@@ -3091,7 +4177,13 @@
     "fr": "Génie géodésique et cartographique",
     "de": "Ingenieurwesen für Geodäsie und Kartografie",
     "it": "Ingegneria geodetica e cartografica",
-    "tr": "Jeodezi ve haritacılık mühendisliği"
+    "tr": "Jeodezi ve haritacılık mühendisliği",
+    "pt": "Engenharia de geodesia e cartografia",
+    "pl": "Inżynieria geodezji i kartografii",
+    "hu": "Geodéziai és térképészeti mérnöki tudományok",
+    "el": "Μηχανική Γεωδαισίας και Χαρτογραφίας",
+    "kk": "Геодезия және картография инженериясы",
+    "uz": "Geodeziya va kartografiya muhandisligi"
   },
   {
     "code": "agronomy",
@@ -3108,7 +4200,13 @@
     "fr": "Agronomie",
     "de": "Agronomie",
     "it": "Agronomia",
-    "tr": "Agronomi"
+    "tr": "Agronomi",
+    "pt": "Agronomia",
+    "pl": "Agronomia",
+    "hu": "Agronómia",
+    "el": "Γεωπονία",
+    "kk": "Агрономия",
+    "uz": "Agronomiya"
   },
   {
     "code": "boxing",
@@ -3125,7 +4223,13 @@
     "fr": "Boxe",
     "de": "Boxen",
     "it": "Pugilato",
-    "tr": "Boks"
+    "tr": "Boks",
+    "pt": "Boxe",
+    "pl": "Boks",
+    "hu": "Ökölvívás",
+    "el": "Πυγμαχία",
+    "kk": "Бокс",
+    "uz": "Boks"
   },
   {
     "code": "materials_engineering",
@@ -3142,7 +4246,13 @@
     "fr": "Génie des matériaux",
     "de": "Werkstoffingenieurwesen",
     "it": "Ingegneria dei materiali",
-    "tr": "Malzeme bilimi mühendisliği"
+    "tr": "Malzeme bilimi mühendisliği",
+    "pt": "Engenharia de ciência dos materiais",
+    "pl": "Inżynieria materiałowa",
+    "hu": "Anyagtudományi mérnöki tudományok",
+    "el": "Μηχανική Επιστήμης Υλικών",
+    "kk": "Материалтану инженериясы",
+    "uz": "Materialshunoslik muhandisligi"
   },
   {
     "code": "systems_engineering",
@@ -3159,7 +4269,13 @@
     "fr": "Génie des systèmes",
     "de": "Systemtechnik",
     "it": "Ingegneria dei sistemi",
-    "tr": "Sistem mühendisliği"
+    "tr": "Sistem mühendisliği",
+    "pt": "Engenharia de sistemas",
+    "pl": "Inżynieria systemów",
+    "hu": "Rendszermérnöki tudományok",
+    "el": "Μηχανική Συστημάτων",
+    "kk": "Жүйелік инженерия",
+    "uz": "Tizimlar muhandisligi"
   },
   {
     "code": "chemist",
@@ -3176,7 +4292,13 @@
     "fr": "Chimiste",
     "de": "Chemiker",
     "it": "Chimico",
-    "tr": "Kimyager"
+    "tr": "Kimyager",
+    "pt": "Químico",
+    "pl": "Chemik",
+    "hu": "Kémikus",
+    "el": "Χημικός",
+    "kk": "Химик",
+    "uz": "Kimyogar"
   },
   {
     "code": "municipal_economy",
@@ -3193,7 +4315,13 @@
     "fr": "Organisation des services municipaux",
     "de": "Organisation der kommunalen Wirtschaft",
     "it": "Organizzazione dei servizi municipali",
-    "tr": "Belediye hizmetlerinin örgütlenmesi"
+    "tr": "Belediye hizmetlerinin örgütlenmesi",
+    "pt": "Organização de serviços municipais",
+    "pl": "Organizacja usług komunalnych",
+    "hu": "Önkormányzati szolgáltatások megszervezése",
+    "el": "Οργάνωση Δημοτικών Υπηρεσιών",
+    "kk": "Муниципалдық шаруашылықты ұйымдастыру",
+    "uz": "Munitsipal xoʻjalikni tashkil etish"
   },
   {
     "code": "political_scientist",
@@ -3210,7 +4338,13 @@
     "fr": "Politologue",
     "de": "Politologe",
     "it": "Politologo",
-    "tr": "Siyaset bilimci"
+    "tr": "Siyaset bilimci",
+    "pt": "Politólogo",
+    "pl": "Politolog",
+    "hu": "Politológus",
+    "el": "Πολιτολόγος",
+    "kk": "Саясаттанушы",
+    "uz": "Siyosatshunos"
   },
   {
     "code": "sociologist",
@@ -3227,7 +4361,13 @@
     "fr": "Sociologue",
     "de": "Soziologe",
     "it": "Sociologo",
-    "tr": "Sosyolog"
+    "tr": "Sosyolog",
+    "pt": "Sociólogo",
+    "pl": "Socjolog",
+    "hu": "Szociológus",
+    "el": "Κοινωνιολόγος",
+    "kk": "Әлеуметтанушы",
+    "uz": "Sotsiolog"
   },
   {
     "code": "mechanic",
@@ -3244,7 +4384,13 @@
     "fr": "Mécanicien",
     "de": "Mechaniker",
     "it": "Meccanico",
-    "tr": "Mekanikçi"
+    "tr": "Mekanikçi",
+    "pt": "Mecânico",
+    "pl": "Mechanik",
+    "hu": "Mechanikus",
+    "el": "Μηχανοτεχνίτης",
+    "kk": "Механик",
+    "uz": "Mexanik"
   },
   {
     "code": "engineering",
@@ -3261,7 +4407,13 @@
     "fr": "Ingénierie",
     "de": "Ingenieurwesen",
     "it": "Ingegneria",
-    "tr": "Mühendislik"
+    "tr": "Mühendislik",
+    "pt": "Engenharia",
+    "pl": "Inżynieria",
+    "hu": "Mérnöki tudományok",
+    "el": "Μηχανική",
+    "kk": "Инженерлік іс",
+    "uz": "Muhandislik"
   },
   {
     "code": "art_critic",
@@ -3278,7 +4430,13 @@
     "fr": "Critique d'art",
     "de": "Kunstkritiker",
     "it": "Critico d'arte",
-    "tr": "Sanat eleştirmeni"
+    "tr": "Sanat eleştirmeni",
+    "pt": "Crítico de arte",
+    "pl": "Krytyk sztuki",
+    "hu": "Művészettörténész",
+    "el": "Τεχνοκριτικός",
+    "kk": "Өнертанушы",
+    "uz": "Sanʼatshunos"
   },
   {
     "code": "social_worker",
@@ -3295,7 +4453,13 @@
     "fr": "Travailleur social",
     "de": "Sozialarbeiter",
     "it": "Assistente sociale",
-    "tr": "Sosyal hizmet uzmanı"
+    "tr": "Sosyal hizmet uzmanı",
+    "pt": "Assistente social",
+    "pl": "Pracownik socjalny",
+    "hu": "Szociális munkás",
+    "el": "Κοινωνικός Λειτουργός",
+    "kk": "Әлеуметтік қызметкер",
+    "uz": "Ijtimoiy xodim"
   },
   {
     "code": "physicist",
@@ -3312,7 +4476,13 @@
     "fr": "Physicien",
     "de": "Physiker",
     "it": "Fisico",
-    "tr": "Fizikçi"
+    "tr": "Fizikçi",
+    "pt": "Físico",
+    "pl": "Fizyk",
+    "hu": "Fizikus",
+    "el": "Φυσικός",
+    "kk": "Физик",
+    "uz": "Fizik"
   },
   {
     "code": "winemaking",
@@ -3329,7 +4499,13 @@
     "fr": "Œnologie",
     "de": "Weinbau",
     "it": "Enologia",
-    "tr": "Şarapçılık"
+    "tr": "Şarapçılık",
+    "pt": "Vinicultura",
+    "pl": "Winiarstwo",
+    "hu": "Borászat",
+    "el": "Οινοποιία",
+    "kk": "Шарап жасау",
+    "uz": "Sharobchilik"
   },
   {
     "code": "forestry",
@@ -3346,7 +4522,13 @@
     "fr": "Sylviculture",
     "de": "Forstwirtschaft",
     "it": "Silvicoltura",
-    "tr": "Ormancılık"
+    "tr": "Ormancılık",
+    "pt": "Silvicultura",
+    "pl": "Leśnictwo",
+    "hu": "Erdészet",
+    "el": "Δασοπονία",
+    "kk": "Орман шаруашылығы",
+    "uz": "Oʻrmonchilik"
   },
   {
     "code": "art_studies",
@@ -3363,7 +4545,13 @@
     "fr": "Histoire de l'art",
     "de": "Kunstwissenschaft",
     "it": "Storia dell'arte",
-    "tr": "Sanat bilimi"
+    "tr": "Sanat bilimi",
+    "pt": "Estudos de arte",
+    "pl": "Historia sztuki",
+    "hu": "Művészettudomány",
+    "el": "Σπουδές Τέχνης",
+    "kk": "Өнертану",
+    "uz": "Sanʼatshunoslik"
   },
   {
     "code": "emergency_safety_engineering",
@@ -3380,7 +4568,13 @@
     "fr": "Génie des situations d'urgence et de la sécurité civile",
     "de": "Ingenieurwesen für Notfälle und Lebenssicherheit",
     "it": "Ingegneria delle emergenze e della sicurezza civile",
-    "tr": "Acil durumlar ve yaşam güvenliği mühendisliği"
+    "tr": "Acil durumlar ve yaşam güvenliği mühendisliği",
+    "pt": "Engenharia de emergências e segurança da vida",
+    "pl": "Inżynieria bezpieczeństwa i sytuacji nadzwyczajnych",
+    "hu": "Katasztrófavédelmi és életbiztonsági mérnöki tudományok",
+    "el": "Μηχανική Καταστάσεων Έκτακτης Ανάγκης και Ασφάλειας Ζωής",
+    "kk": "Төтенше жағдайлар және тіршілік қауіпсіздігі инженериясы",
+    "uz": "Favqulodda vaziyatlar va hayot faoliyati xavfsizligi muhandisligi"
   },
   {
     "code": "hydrogeological_engineering",
@@ -3397,7 +4591,13 @@
     "fr": "Génie hydrogéologique",
     "de": "Hydrogeologieingenieurwesen",
     "it": "Ingegneria idrogeologica",
-    "tr": "Hidrojeoloji mühendisliği"
+    "tr": "Hidrojeoloji mühendisliği",
+    "pt": "Engenharia hidrogeológica",
+    "pl": "Inżynieria hydrogeologiczna",
+    "hu": "Hidrogeológiai mérnöki tudományok",
+    "el": "Υδρογεωλογική Μηχανική",
+    "kk": "Гидрогеология инженериясы",
+    "uz": "Gidrogeologiya muhandisligi"
   },
   {
     "code": "inclusive_education",
@@ -3414,7 +4614,13 @@
     "fr": "Éducation inclusive",
     "de": "Inklusive Bildung",
     "it": "Istruzione inclusiva",
-    "tr": "Kapsayıcı eğitim"
+    "tr": "Kapsayıcı eğitim",
+    "pt": "Educação inclusiva",
+    "pl": "Edukacja włączająca",
+    "hu": "Inkluzív oktatás",
+    "el": "Συμπεριληπτική Εκπαίδευση",
+    "kk": "Инклюзивті білім беру",
+    "uz": "Inklyuziv taʼlim"
   },
   {
     "code": "computer_networks",
@@ -3431,7 +4637,13 @@
     "fr": "Réseaux informatiques",
     "de": "Computernetzwerke",
     "it": "Reti informatiche",
-    "tr": "Bilgisayar ağları"
+    "tr": "Bilgisayar ağları",
+    "pt": "Redes de computadores",
+    "pl": "Sieci komputerowe",
+    "hu": "Számítógépes hálózatok",
+    "el": "Δίκτυα Υπολογιστών",
+    "kk": "Компьютерлік желілер",
+    "uz": "Kompyuter tarmoqlari"
   },
   {
     "code": "museum_archive_studies",
@@ -3448,7 +4660,13 @@
     "fr": "Muséologie, archivistique et protection du patrimoine",
     "de": "Museologie, Archivwesen und Denkmalschutz",
     "it": "Museologia, archivistica e tutela dei monumenti",
-    "tr": "Müzecilik, arşivcilik ve anıtların korunması"
+    "tr": "Müzecilik, arşivcilik ve anıtların korunması",
+    "pt": "Museologia, arquivologia e proteção de monumentos",
+    "pl": "Muzeologia, archiwistyka i ochrona zabytków",
+    "hu": "Muzeológia, levéltár és műemlékvédelem",
+    "el": "Μουσειολογία, Αρχειονομία και Προστασία Μνημείων",
+    "kk": "Мұражайтану, мұрағат ісі және ескерткіштерді қорғау",
+    "uz": "Muzeyshunoslik, arxiv ishi va yodgorliklarni muhofaza qilish"
   },
   {
     "code": "mechanics",
@@ -3465,7 +4683,13 @@
     "fr": "Mécanique",
     "de": "Mechanik",
     "it": "Meccanica",
-    "tr": "Mekanik"
+    "tr": "Mekanik",
+    "pt": "Mecânica",
+    "pl": "Mechanika",
+    "hu": "Mechanika",
+    "el": "Θεωρητική Μηχανική",
+    "kk": "Механика",
+    "uz": "Mexanika"
   },
   {
     "code": "biotechnology",
@@ -3482,7 +4706,13 @@
     "fr": "Biotechnologie",
     "de": "Biotechnologie",
     "it": "Biotecnologia",
-    "tr": "Biyoteknoloji"
+    "tr": "Biyoteknoloji",
+    "pt": "Biotecnologia",
+    "pl": "Biotechnologia",
+    "hu": "Biotechnológia",
+    "el": "Βιοτεχνολογία",
+    "kk": "Биотехнология",
+    "uz": "Biotexnologiya"
   },
   {
     "code": "urban_planning",
@@ -3499,7 +4729,13 @@
     "fr": "Urbanisme",
     "de": "Städtebau",
     "it": "Urbanistica",
-    "tr": "Şehir planlama"
+    "tr": "Şehir planlama",
+    "pt": "Planeamento urbano",
+    "pl": "Planowanie urbanistyczne",
+    "hu": "Városrendezés",
+    "el": "Πολεοδομία",
+    "kk": "Қала құрылысы",
+    "uz": "Shaharsozlik"
   },
   {
     "code": "technology",
@@ -3516,7 +4752,13 @@
     "fr": "Technologie",
     "de": "Technologie",
     "it": "Tecnologia",
-    "tr": "Teknoloji"
+    "tr": "Teknoloji",
+    "pt": "Tecnologia",
+    "pl": "Technologia",
+    "hu": "Technológia",
+    "el": "Τεχνολογία",
+    "kk": "Технология",
+    "uz": "Texnologiya"
   },
   {
     "code": "business",
@@ -3533,7 +4775,13 @@
     "fr": "Sciences de gestion",
     "de": "Betriebswirtschaft",
     "it": "Business",
-    "tr": "İşletme"
+    "tr": "İşletme",
+    "pt": "Negócios",
+    "pl": "Biznes",
+    "hu": "Üzleti tudományok",
+    "el": "Επιχειρήσεις",
+    "kk": "Бизнес",
+    "uz": "Biznes"
   },
   {
     "code": "railway_engineering",
@@ -3550,7 +4798,13 @@
     "fr": "Génie des transports et de l'exploitation ferroviaires",
     "de": "Ingenieurwesen für Eisenbahnverkehr und -betrieb",
     "it": "Ingegneria dei trasporti e dell'esercizio ferroviario",
-    "tr": "Demiryolu taşımacılığı ve işletmesi mühendisliği"
+    "tr": "Demiryolu taşımacılığı ve işletmesi mühendisliği",
+    "pt": "Engenharia de transporte e exploração ferroviária",
+    "pl": "Inżynieria transportu i gospodarki kolejowej",
+    "hu": "Vasúti közlekedési és üzemeltetési mérnöki tudományok",
+    "el": "Μηχανική Σιδηροδρομικών Μεταφορών",
+    "kk": "Теміржол көлігі және шаруашылығы инженериясы",
+    "uz": "Temir yoʻl transporti va xoʻjaligi muhandisligi"
   },
   {
     "code": "driver",
@@ -3567,7 +4821,13 @@
     "fr": "Chauffeur",
     "de": "Fahrer",
     "it": "Autista",
-    "tr": "Şoför"
+    "tr": "Şoför",
+    "pt": "Motorista",
+    "pl": "Kierowca",
+    "hu": "Gépkocsivezető",
+    "el": "Οδηγός",
+    "kk": "Жүргізуші",
+    "uz": "Haydovchi"
   },
   {
     "code": "kindergarten_teacher",
@@ -3584,7 +4844,13 @@
     "fr": "Éducateur de jeunes enfants",
     "de": "Erzieher",
     "it": "Educatore d'infanzia",
-    "tr": "Anaokulu öğretmeni"
+    "tr": "Anaokulu öğretmeni",
+    "pt": "Educador de infância",
+    "pl": "Wychowawca przedszkolny",
+    "hu": "Óvodapedagógus",
+    "el": "Νηπιαγωγός",
+    "kk": "Тәрбиеші",
+    "uz": "Tarbiyachi"
   },
   {
     "code": "welder",
@@ -3601,7 +4867,13 @@
     "fr": "Soudeur",
     "de": "Schweißer",
     "it": "Saldatore",
-    "tr": "Kaynakçı"
+    "tr": "Kaynakçı",
+    "pt": "Soldador",
+    "pl": "Spawacz",
+    "hu": "Hegesztő",
+    "el": "Συγκολλητής",
+    "kk": "Дәнекерлеуші",
+    "uz": "Payvandchi"
   },
   {
     "code": "heat_energy_engineering",
@@ -3618,7 +4890,13 @@
     "fr": "Génie de l'énergie thermique",
     "de": "Wärmeenergietechnik",
     "it": "Ingegneria dell'energia termica",
-    "tr": "Isı enerjisi mühendisliği"
+    "tr": "Isı enerjisi mühendisliği",
+    "pt": "Engenharia térmica",
+    "pl": "Inżynieria energetyki cieplnej",
+    "hu": "Hőenergetikai mérnöki tudományok",
+    "el": "Μηχανική Θερμικής Ενέργειας",
+    "kk": "Жылу энергетикасы инженериясы",
+    "uz": "Issiqlik energetikasi muhandisligi"
   },
   {
     "code": "lab_assistant",
@@ -3635,7 +4913,13 @@
     "fr": "Technicien de laboratoire",
     "de": "Laborant",
     "it": "Tecnico di laboratorio",
-    "tr": "Laborant"
+    "tr": "Laborant",
+    "pt": "Técnico de laboratório",
+    "pl": "Laborant",
+    "hu": "Laboratóriumi asszisztens",
+    "el": "Εργαστηριακός Βοηθός",
+    "kk": "Лаборант",
+    "uz": "Laborant"
   },
   {
     "code": "pediatrician",
@@ -3652,7 +4936,13 @@
     "fr": "Pédiatre",
     "de": "Kinderarzt",
     "it": "Pediatra",
-    "tr": "Çocuk doktoru"
+    "tr": "Çocuk doktoru",
+    "pt": "Pediatra",
+    "pl": "Pediatra",
+    "hu": "Gyermekgyógyász",
+    "el": "Παιδίατρος",
+    "kk": "Педиатр",
+    "uz": "Pediatr"
   },
   {
     "code": "sport",
@@ -3669,7 +4959,13 @@
     "fr": "Sport",
     "de": "Sport",
     "it": "Sport",
-    "tr": "Spor"
+    "tr": "Spor",
+    "pt": "Desporto",
+    "pl": "Sport",
+    "hu": "Sporttudomány",
+    "el": "Αθλητισμός",
+    "kk": "Спорт",
+    "uz": "Sport"
   },
   {
     "code": "marketer",
@@ -3686,7 +4982,13 @@
     "fr": "Spécialiste en marketing",
     "de": "Marketingfachmann",
     "it": "Esperto di marketing",
-    "tr": "Pazarlamacı"
+    "tr": "Pazarlamacı",
+    "pt": "Especialista em marketing",
+    "pl": "Specjalista marketingu",
+    "hu": "Marketingszakember",
+    "el": "Ειδικός Μάρκετινγκ",
+    "kk": "Маркетолог",
+    "uz": "Marketolog"
   },
   {
     "code": "zootechnician",
@@ -3703,7 +5005,13 @@
     "fr": "Zootechnicien",
     "de": "Zootechniker",
     "it": "Zootecnico",
-    "tr": "Zooteknisyen"
+    "tr": "Zooteknisyen",
+    "pt": "Zootécnico",
+    "pl": "Zootechnik",
+    "hu": "Zootechnikus",
+    "el": "Ζωοτέχνης",
+    "kk": "Зоотехник",
+    "uz": "Zootexnik"
   },
   {
     "code": "serviceman",
@@ -3720,7 +5028,13 @@
     "fr": "Militaire",
     "de": "Soldat",
     "it": "Militare",
-    "tr": "Asker"
+    "tr": "Asker",
+    "pt": "Militar",
+    "pl": "Wojskowy",
+    "hu": "Katona",
+    "el": "Στρατιωτικός",
+    "kk": "Әскери қызметші",
+    "uz": "Harbiy xizmatchi"
   },
   {
     "code": "artist",
@@ -3737,7 +5051,13 @@
     "fr": "Artiste peintre",
     "de": "Künstler",
     "it": "Artista",
-    "tr": "Ressam"
+    "tr": "Ressam",
+    "pt": "Artista",
+    "pl": "Artysta",
+    "hu": "Képzőművész",
+    "el": "Καλλιτέχνης",
+    "kk": "Суретші",
+    "uz": "Rassom"
   },
   {
     "code": "tour_guiding",
@@ -3754,7 +5074,13 @@
     "fr": "Guidage touristique",
     "de": "Reiseleitung",
     "it": "Guida turistica",
-    "tr": "Turizm rehberliği"
+    "tr": "Turizm rehberliği",
+    "pt": "Guia turístico",
+    "pl": "Przewodnictwo turystyczne",
+    "hu": "Idegenvezetés",
+    "el": "Ξενάγηση",
+    "kk": "Гидтік іс",
+    "uz": "Turizmda gidlik"
   },
   {
     "code": "locksmith",
@@ -3771,7 +5097,13 @@
     "fr": "Serrurier",
     "de": "Schlosser",
     "it": "Fabbro",
-    "tr": "Çilingir"
+    "tr": "Çilingir",
+    "pt": "Serralheiro",
+    "pl": "Ślusarz",
+    "hu": "Lakatos",
+    "el": "Κλειδαράς",
+    "kk": "Слесарь",
+    "uz": "Chilangar"
   },
   {
     "code": "radio_telecom_engineering",
@@ -3788,7 +5120,13 @@
     "fr": "Génie radiotechnique et des télécommunications",
     "de": "Funk- und Telekommunikationstechnik",
     "it": "Ingegneria radiotecnica e delle telecomunicazioni",
-    "tr": "Radyo tekniği ve telekomünikasyon mühendisliği"
+    "tr": "Radyo tekniği ve telekomünikasyon mühendisliği",
+    "pt": "Engenharia de radiotecnia e telecomunicações",
+    "pl": "Inżynieria radiowa i telekomunikacyjna",
+    "hu": "Rádiótechnikai és távközlési mérnöki tudományok",
+    "el": "Μηχανική Ραδιοτεχνικών και Τηλεπικοινωνιακών Συστημάτων",
+    "kk": "Радиотехника және телекоммуникация инженериясы",
+    "uz": "Radiotexnika va telekommunikatsiya muhandisligi"
   },
   {
     "code": "intl_law",
@@ -3805,7 +5143,13 @@
     "fr": "Droit international",
     "de": "Internationales Recht",
     "it": "Diritto internazionale",
-    "tr": "Uluslararası hukuk"
+    "tr": "Uluslararası hukuk",
+    "pt": "Direito internacional",
+    "pl": "Prawo międzynarodowe",
+    "hu": "Nemzetközi jog",
+    "el": "Διεθνές Δίκαιο",
+    "kk": "Халықаралық құқық",
+    "uz": "Xalqaro huquq"
   },
   {
     "code": "therapist",
@@ -3822,7 +5166,13 @@
     "fr": "Médecin interniste",
     "de": "Facharzt für innere Medizin",
     "it": "Medico internista",
-    "tr": "Dahiliye hekimi"
+    "tr": "Dahiliye hekimi",
+    "pt": "Internista",
+    "pl": "Internista",
+    "hu": "Belgyógyász",
+    "el": "Παθολόγος",
+    "kk": "Терапевт",
+    "uz": "Terapevt"
   },
   {
     "code": "judo",
@@ -3839,7 +5189,13 @@
     "fr": "Judo",
     "de": "Judo",
     "it": "Judo",
-    "tr": "Judo"
+    "tr": "Judo",
+    "pt": "Judo",
+    "pl": "Judo",
+    "hu": "Cselgáncs",
+    "el": "Τζούντο",
+    "kk": "Дзюдо",
+    "uz": "Dzyudo"
   },
   {
     "code": "economic_state_regulation",
@@ -3856,7 +5212,13 @@
     "fr": "Régulation étatique de l'économie",
     "de": "Staatliche Regulierung der Wirtschaft",
     "it": "Regolamentazione statale dell'economia",
-    "tr": "Ekonominin devlet tarafından düzenlenmesi"
+    "tr": "Ekonominin devlet tarafından düzenlenmesi",
+    "pt": "Regulação estatal da economia",
+    "pl": "Państwowa regulacja gospodarki",
+    "hu": "A gazdaság állami szabályozása",
+    "el": "Κρατική Ρύθμιση της Οικονομίας",
+    "kk": "Экономиканы мемлекеттік реттеу",
+    "uz": "Iqtisodiyotni davlat tomonidan tartibga solish"
   },
   {
     "code": "tourism_organizer",
@@ -3873,7 +5235,13 @@
     "fr": "Organisateur de voyages",
     "de": "Tourismusorganisator",
     "it": "Organizzatore turistico",
-    "tr": "Turizm organizatörü"
+    "tr": "Turizm organizatörü",
+    "pt": "Organizador de turismo",
+    "pl": "Organizator turystyki",
+    "hu": "Turisztikai szervező",
+    "el": "Οργανωτής Τουρισμού",
+    "kk": "Туризм ұйымдастырушысы",
+    "uz": "Turizm tashkilotchisi"
   },
   {
     "code": "standardization_certification",
@@ -3890,7 +5258,13 @@
     "fr": "Normalisation et certification",
     "de": "Normung und Zertifizierung",
     "it": "Normazione e certificazione",
-    "tr": "Standartlaştırma ve sertifikasyon"
+    "tr": "Standartlaştırma ve sertifikasyon",
+    "pt": "Normalização e certificação",
+    "pl": "Normalizacja i certyfikacja",
+    "hu": "Szabványosítás és tanúsítás",
+    "el": "Τυποποίηση και Πιστοποίηση",
+    "kk": "Стандарттау және сертификаттау",
+    "uz": "Standartlashtirish va sertifikatlashtirish"
   },
   {
     "code": "computer_systems",
@@ -3907,7 +5281,13 @@
     "fr": "Systèmes et complexes informatiques",
     "de": "Computersysteme und -komplexe",
     "it": "Sistemi e complessi informatici",
-    "tr": "Bilgisayar sistemleri ve kompleksleri"
+    "tr": "Bilgisayar sistemleri ve kompleksleri",
+    "pt": "Sistemas e complexos informáticos",
+    "pl": "Systemy i kompleksy komputerowe",
+    "hu": "Számítógépes rendszerek és komplexumok",
+    "el": "Υπολογιστικά Συστήματα και Συγκροτήματα",
+    "kk": "Компьютерлік жүйелер мен кешендер",
+    "uz": "Kompyuter tizimlari va komplekslari"
   },
   {
     "code": "veterinarian",
@@ -3924,7 +5304,13 @@
     "fr": "Vétérinaire",
     "de": "Tierarzt",
     "it": "Veterinario",
-    "tr": "Veteriner"
+    "tr": "Veteriner",
+    "pt": "Veterinário",
+    "pl": "Lekarz weterynarii",
+    "hu": "Állatorvos",
+    "el": "Κτηνίατρος",
+    "kk": "Ветеринар",
+    "uz": "Veterinar"
   },
   {
     "code": "technologist",
@@ -3941,7 +5327,13 @@
     "fr": "Technologue",
     "de": "Technologe",
     "it": "Tecnologo",
-    "tr": "Teknolog"
+    "tr": "Teknolog",
+    "pt": "Tecnólogo",
+    "pl": "Technolog",
+    "hu": "Technológus",
+    "el": "Τεχνολόγος",
+    "kk": "Технолог",
+    "uz": "Texnolog"
   },
   {
     "code": "speech_therapist",
@@ -3958,7 +5350,13 @@
     "fr": "Orthophoniste",
     "de": "Logopäde",
     "it": "Logopedista",
-    "tr": "Dil ve konuşma terapisti"
+    "tr": "Dil ve konuşma terapisti",
+    "pt": "Terapeuta da fala",
+    "pl": "Logopeda",
+    "hu": "Logopédus",
+    "el": "Λογοθεραπευτής",
+    "kk": "Логопед",
+    "uz": "Logoped"
   },
   {
     "code": "german_language",
@@ -3975,7 +5373,13 @@
     "fr": "Langue allemande",
     "de": "Deutsche Sprache",
     "it": "Lingua tedesca",
-    "tr": "Alman dili"
+    "tr": "Alman dili",
+    "pt": "Língua alemã",
+    "pl": "Język niemiecki",
+    "hu": "Német nyelv",
+    "el": "Γερμανική Γλώσσα",
+    "kk": "Неміс тілі",
+    "uz": "Nemis tili"
   },
   {
     "code": "tailor",
@@ -3992,7 +5396,13 @@
     "fr": "Tailleur",
     "de": "Schneider",
     "it": "Sarto",
-    "tr": "Terzi"
+    "tr": "Terzi",
+    "pt": "Alfaiate",
+    "pl": "Krawiec",
+    "hu": "Szabó",
+    "el": "Ράφτης",
+    "kk": "Тігінші",
+    "uz": "Tikuvchi"
   },
   {
     "code": "consumer_goods_quality",
@@ -4009,7 +5419,13 @@
     "fr": "Expertise de la qualité des biens de consommation",
     "de": "Qualitätsprüfung von Konsumgütern",
     "it": "Perizia sulla qualità dei beni di consumo",
-    "tr": "Tüketim mallarının kalite ekspertizi"
+    "tr": "Tüketim mallarının kalite ekspertizi",
+    "pt": "Peritagem de qualidade de bens de consumo",
+    "pl": "Ekspertyza jakości towarów konsumpcyjnych",
+    "hu": "Fogyasztási cikkek minőségi szakértése",
+    "el": "Ποιοτικός Έλεγχος Καταναλωτικών Αγαθών",
+    "kk": "Тұтыну тауарларының сапа сараптамасы",
+    "uz": "Isteʼmol mollari sifat ekspertizasi"
   },
   {
     "code": "financial_management",
@@ -4026,7 +5442,13 @@
     "fr": "Gestion financière",
     "de": "Finanzmanagement",
     "it": "Gestione finanziaria",
-    "tr": "Finansal yönetim"
+    "tr": "Finansal yönetim",
+    "pt": "Gestão financeira",
+    "pl": "Zarządzanie finansami",
+    "hu": "Pénzügyi menedzsment",
+    "el": "Χρηματοοικονομική Διοίκηση",
+    "kk": "Қаржы менеджменті",
+    "uz": "Moliyaviy menejment"
   },
   {
     "code": "german_teacher",
@@ -4043,7 +5465,13 @@
     "fr": "Enseignement de l'allemand",
     "de": "Lehramt Deutsch",
     "it": "Insegnamento del tedesco",
-    "tr": "Almanca öğretmenliği"
+    "tr": "Almanca öğretmenliği",
+    "pt": "Ensino de alemão",
+    "pl": "Nauczanie języka niemieckiego",
+    "hu": "Német nyelv tanítása",
+    "el": "Δάσκαλος Γερμανικής Γλώσσας",
+    "kk": "Неміс тілі мұғалімі",
+    "uz": "Nemis tili oʻqituvchiligi"
   },
   {
     "code": "athletics",
@@ -4060,7 +5488,13 @@
     "fr": "Athlétisme",
     "de": "Leichtathletik",
     "it": "Atletica",
-    "tr": "Atletizm"
+    "tr": "Atletizm",
+    "pt": "Atletismo",
+    "pl": "Lekkoatletyka",
+    "hu": "Atlétika",
+    "el": "Στίβος",
+    "kk": "Атлетика",
+    "uz": "Yengil atletika"
   },
   {
     "code": "management_information_systems",
@@ -4077,7 +5511,13 @@
     "fr": "Systèmes d'information de gestion",
     "de": "Managementinformationssysteme",
     "it": "Sistemi informativi di gestione",
-    "tr": "Yönetimde bilgi sistemleri"
+    "tr": "Yönetimde bilgi sistemleri",
+    "pt": "Sistemas de informação na gestão",
+    "pl": "Systemy informacyjne w zarządzaniu",
+    "hu": "Vezetői információs rendszerek",
+    "el": "Πληροφοριακά Συστήματα Διοίκησης",
+    "kk": "Басқарудағы ақпараттық жүйелер",
+    "uz": "Boshqaruvda axborot tizimlari"
   },
   {
     "code": "mathematician",
@@ -4094,7 +5534,13 @@
     "fr": "Mathématicien",
     "de": "Mathematiker",
     "it": "Matematico",
-    "tr": "Matematikçi"
+    "tr": "Matematikçi",
+    "pt": "Matemático",
+    "pl": "Matematyk",
+    "hu": "Matematikus",
+    "el": "Μαθηματικός",
+    "kk": "Математик",
+    "uz": "Matematik"
   },
   {
     "code": "melioration_engineering",
@@ -4111,7 +5557,13 @@
     "fr": "Génie de l'irrigation",
     "de": "Meliorationsingenieurwesen",
     "it": "Ingegneria della bonifica",
-    "tr": "Islah mühendisliği"
+    "tr": "Islah mühendisliği",
+    "pt": "Engenharia de melhoramento agrícola",
+    "pl": "Inżynieria melioracyjna",
+    "hu": "Meliorációs mérnöki tudományok",
+    "el": "Μηχανική Αναβάθμισης Εδαφών",
+    "kk": "Мелиорация инженериясы",
+    "uz": "Meliorasiya muhandisligi"
   },
   {
     "code": "primary_education",
@@ -4128,7 +5580,13 @@
     "fr": "Enseignement primaire",
     "de": "Grundschulbildung",
     "it": "Istruzione primaria",
-    "tr": "İlköğretim"
+    "tr": "İlköğretim",
+    "pt": "Educação primária",
+    "pl": "Edukacja wczesnoszkolna",
+    "hu": "Alapfokú oktatás",
+    "el": "Πρωτοβάθμια Εκπαίδευση",
+    "kk": "Бастауыш білім",
+    "uz": "Boshlangʻich taʼlim"
   },
   {
     "code": "instrumental_performance",
@@ -4145,7 +5603,13 @@
     "fr": "Interprétation instrumentale",
     "de": "Instrumentales Musizieren",
     "it": "Esecuzione strumentale",
-    "tr": "Enstrümantal icra"
+    "tr": "Enstrümantal icra",
+    "pt": "Interpretação instrumental",
+    "pl": "Wykonawstwo instrumentalne",
+    "hu": "Hangszeres előadás",
+    "el": "Ενόργανη Εκτέλεση",
+    "kk": "Аспаптық орындаушылық",
+    "uz": "Cholgʻu ijrochiligi"
   },
   {
     "code": "music_theory",
@@ -4162,7 +5626,13 @@
     "fr": "Théorie de la musique",
     "de": "Musiktheorie",
     "it": "Teoria della musica",
-    "tr": "Müzik teorisi"
+    "tr": "Müzik teorisi",
+    "pt": "Teoria da música",
+    "pl": "Teoria muzyki",
+    "hu": "Zeneelmélet",
+    "el": "Μουσική Θεωρία",
+    "kk": "Музыка теориясы",
+    "uz": "Musiqa nazariyasi"
   },
   {
     "code": "director",
@@ -4179,7 +5649,13 @@
     "fr": "Metteur en scène",
     "de": "Regisseur",
     "it": "Regista",
-    "tr": "Yönetmen"
+    "tr": "Yönetmen",
+    "pt": "Encenador",
+    "pl": "Reżyser",
+    "hu": "Rendező",
+    "el": "Σκηνοθέτης",
+    "kk": "Режиссёр",
+    "uz": "Rejissyor"
   },
   {
     "code": "energy",
@@ -4196,7 +5672,13 @@
     "fr": "Énergétique",
     "de": "Energietechnik",
     "it": "Energetica",
-    "tr": "Enerji"
+    "tr": "Enerji",
+    "pt": "Energia",
+    "pl": "Energetyka",
+    "hu": "Energetika",
+    "el": "Ενέργεια",
+    "kk": "Энергетика",
+    "uz": "Energetika"
   },
   {
     "code": "life_safety_engineering",
@@ -4213,7 +5695,13 @@
     "fr": "Génie de la sécurité civile",
     "de": "Ingenieurwesen für Lebenssicherheit",
     "it": "Ingegneria della sicurezza della vita",
-    "tr": "Yaşam güvenliği mühendisliği"
+    "tr": "Yaşam güvenliği mühendisliği",
+    "pt": "Engenharia de segurança da vida",
+    "pl": "Inżynieria bezpieczeństwa życia",
+    "hu": "Életbiztonsági mérnöki tudományok",
+    "el": "Μηχανική Ασφάλειας Ζωής",
+    "kk": "Тіршілік қауіпсіздігі инженериясы",
+    "uz": "Hayot faoliyati xavfsizligi muhandisligi"
   },
   {
     "code": "energy_machinery_engineering",
@@ -4230,7 +5718,13 @@
     "fr": "Génie des machines énergétiques",
     "de": "Ingenieurwesen für Energiemaschinenbau",
     "it": "Ingegneria delle macchine energetiche",
-    "tr": "Enerji makineleri mühendisliği"
+    "tr": "Enerji makineleri mühendisliği",
+    "pt": "Engenharia de máquinas energéticas",
+    "pl": "Inżynieria maszyn energetycznych",
+    "hu": "Energetikai gépgyártási mérnöki tudományok",
+    "el": "Μηχανική Ενεργειακών Μηχανημάτων",
+    "kk": "Энергетикалық машина жасау инженериясы",
+    "uz": "Energetika mashinasozligi muhandisligi"
   },
   {
     "code": "french_language_literature",
@@ -4247,7 +5741,13 @@
     "fr": "Langue et littérature françaises",
     "de": "Französische Sprache und Literatur",
     "it": "Lingua e letteratura francese",
-    "tr": "Fransız dili ve edebiyatı"
+    "tr": "Fransız dili ve edebiyatı",
+    "pt": "Língua e literatura francesas",
+    "pl": "Język i literatura francuska",
+    "hu": "Francia nyelv és irodalom",
+    "el": "Γαλλική Γλώσσα και Λογοτεχνία",
+    "kk": "Француз тілі және әдебиеті",
+    "uz": "Fransuz tili va adabiyoti"
   },
   {
     "code": "assistant_train_driver",
@@ -4264,7 +5764,13 @@
     "fr": "Aide-conducteur de train",
     "de": "Lokführerassistent",
     "it": "Aiuto macchinista",
-    "tr": "Makinist yardımcısı"
+    "tr": "Makinist yardımcısı",
+    "pt": "Ajudante de maquinista",
+    "pl": "Pomocnik maszynisty",
+    "hu": "Mozdonyvezető-helyettes",
+    "el": "Βοηθός Μηχανοδηγού",
+    "kk": "Машинист көмекшісі",
+    "uz": "Mashinist yordamchisi"
   },
   {
     "code": "traffic_safety",
@@ -4281,7 +5787,13 @@
     "fr": "Organisation et sécurité de la circulation routière",
     "de": "Organisation und Sicherheit des Straßenverkehrs",
     "it": "Organizzazione e sicurezza del traffico",
-    "tr": "Yol trafiğinin düzenlenmesi ve güvenliği"
+    "tr": "Yol trafiğinin düzenlenmesi ve güvenliği",
+    "pt": "Organização e segurança do tráfego",
+    "pl": "Organizacja i bezpieczeństwo ruchu drogowego",
+    "hu": "Közlekedésszervezés és -biztonság",
+    "el": "Οργάνωση και Ασφάλεια Οδικής Κυκλοφορίας",
+    "kk": "Жол қозғалысын ұйымдастыру және қауіпсіздігі",
+    "uz": "Yoʻl harakatini tashkil etish va xavfsizligi"
   },
   {
     "code": "network_administration",
@@ -4298,7 +5810,13 @@
     "fr": "Réseaux informatiques et administration réseau",
     "de": "Computernetzwerke und Netzwerkadministration",
     "it": "Reti informatiche e amministrazione di rete",
-    "tr": "Bilgisayar ağları ve ağ yöneticiliği"
+    "tr": "Bilgisayar ağları ve ağ yöneticiliği",
+    "pt": "Redes de computadores e administração de redes",
+    "pl": "Sieci komputerowe i administracja siecią",
+    "hu": "Számítógépes hálózatok és hálózatfelügyelet",
+    "el": "Δίκτυα Υπολογιστών και Διαχείριση Δικτύων",
+    "kk": "Компьютерлік желілер және желілік әкімшілендіру",
+    "uz": "Kompyuter tarmoqlari va tarmoq administratorligi"
   },
   {
     "code": "mechatronics_robotics",
@@ -4315,7 +5833,13 @@
     "fr": "Génie de la mécatronique et de la robotique",
     "de": "Mechatronik- und Robotiktechnik",
     "it": "Ingegneria della meccatronica e robotica",
-    "tr": "Mekatronik ve robotik mühendisliği"
+    "tr": "Mekatronik ve robotik mühendisliği",
+    "pt": "Engenharia de mecatrónica e robótica",
+    "pl": "Mechatronika i robotyka",
+    "hu": "Mechatronikai és robotikai mérnöki tudományok",
+    "el": "Μηχανική Μηχατρονικής και Ρομποτικής",
+    "kk": "Мехатроника және робототехника инженериясы",
+    "uz": "Mexatronika va robototexnika muhandisligi"
   },
   {
     "code": "graphic_design",
@@ -4332,7 +5856,13 @@
     "fr": "Design graphique",
     "de": "Grafikdesign",
     "it": "Design grafico",
-    "tr": "Grafik tasarım"
+    "tr": "Grafik tasarım",
+    "pt": "Design gráfico",
+    "pl": "Grafika komputerowa",
+    "hu": "Grafikai design",
+    "el": "Γραφιστικός Σχεδιασμός",
+    "kk": "Графикалық дизайн",
+    "uz": "Grafik dizayn"
   },
   {
     "code": "pedagogy_theory_history",
@@ -4349,7 +5879,13 @@
     "fr": "Théorie et histoire de la pédagogie",
     "de": "Theorie und Geschichte der Pädagogik",
     "it": "Teoria e storia della pedagogia",
-    "tr": "Pedagoji teorisi ve tarihi"
+    "tr": "Pedagoji teorisi ve tarihi",
+    "pt": "Teoria e história da pedagogia",
+    "pl": "Teoria i historia pedagogiki",
+    "hu": "Pedagógia elmélete és története",
+    "el": "Θεωρία και Ιστορία της Παιδαγωγικής",
+    "kk": "Педагогика теориясы және тарихы",
+    "uz": "Pedagogika nazariyasi va tarixi"
   },
   {
     "code": "communication",
@@ -4366,7 +5902,13 @@
     "fr": "Communications",
     "de": "Nachrichtenwesen",
     "it": "Comunicazioni",
-    "tr": "Haberleşme"
+    "tr": "Haberleşme",
+    "pt": "Comunicações",
+    "pl": "Komunikacja",
+    "hu": "Hírközlés",
+    "el": "Επικοινωνίες",
+    "kk": "Байланыс",
+    "uz": "Aloqa"
   },
   {
     "code": "linguistics",
@@ -4383,7 +5925,13 @@
     "fr": "Linguistique",
     "de": "Sprachwissenschaft",
     "it": "Linguistica",
-    "tr": "Dil bilimi"
+    "tr": "Dil bilimi",
+    "pt": "Linguística",
+    "pl": "Językoznawstwo",
+    "hu": "Nyelvtudomány",
+    "el": "Γλωσσολογία",
+    "kk": "Тіл білімі",
+    "uz": "Tilshunoslik"
   },
   {
     "code": "metallurgical_engineering",
@@ -4400,7 +5948,13 @@
     "fr": "Génie métallurgique",
     "de": "Metallurgieingenieurwesen",
     "it": "Ingegneria metallurgica",
-    "tr": "Metalurji mühendisliği"
+    "tr": "Metalurji mühendisliği",
+    "pt": "Engenharia metalúrgica",
+    "pl": "Inżynieria metalurgiczna",
+    "hu": "Kohómérnöki tudományok",
+    "el": "Μεταλλουργική Μηχανική",
+    "kk": "Металлургия инженериясы",
+    "uz": "Metallurgiya muhandisligi"
   },
   {
     "code": "intl_business",
@@ -4417,7 +5971,13 @@
     "fr": "Commerce international",
     "de": "Internationale Betriebswirtschaft",
     "it": "Business internazionale",
-    "tr": "Uluslararası işletme"
+    "tr": "Uluslararası işletme",
+    "pt": "Negócios internacionais",
+    "pl": "Biznes międzynarodowy",
+    "hu": "Nemzetközi üzlet",
+    "el": "Διεθνείς Επιχειρήσεις",
+    "kk": "Халықаралық бизнес",
+    "uz": "Xalqaro biznes"
   },
   {
     "code": "intl_trade",
@@ -4434,7 +5994,13 @@
     "fr": "Échanges internationaux",
     "de": "Internationaler Handel",
     "it": "Commercio internazionale",
-    "tr": "Uluslararası ticaret"
+    "tr": "Uluslararası ticaret",
+    "pt": "Comércio internacional",
+    "pl": "Handel międzynarodowy",
+    "hu": "Nemzetközi kereskedelem",
+    "el": "Διεθνές Εμπόριο",
+    "kk": "Халықаралық сауда",
+    "uz": "Xalqaro savdo"
   },
   {
     "code": "lab_physician",
@@ -4451,7 +6017,13 @@
     "fr": "Médecin biologiste",
     "de": "Laborarzt",
     "it": "Medico di laboratorio",
-    "tr": "Laboratuvar hekimi"
+    "tr": "Laboratuvar hekimi",
+    "pt": "Médico de laboratório",
+    "pl": "Lekarz diagnostyki laboratoryjnej",
+    "hu": "Laboratóriumi orvos",
+    "el": "Ιατρός Εργαστηρίου",
+    "kk": "Лаборант-дәрігер",
+    "uz": "Laborant-shifokor"
   },
   {
     "code": "train_driver",
@@ -4468,7 +6040,13 @@
     "fr": "Conducteur de train",
     "de": "Lokführer",
     "it": "Macchinista",
-    "tr": "Tren makinisti"
+    "tr": "Tren makinisti",
+    "pt": "Maquinista",
+    "pl": "Maszynista",
+    "hu": "Mozdonyvezető",
+    "el": "Μηχανοδηγός",
+    "kk": "Машинист",
+    "uz": "Mashinist"
   },
   {
     "code": "electric_power",
@@ -4485,7 +6063,13 @@
     "fr": "Électroénergétique",
     "de": "Elektroenergetik",
     "it": "Elettroenergetica",
-    "tr": "Elektroenerji"
+    "tr": "Elektroenerji",
+    "pt": "Eletroenergética",
+    "pl": "Energetyka elektryczna",
+    "hu": "Elektroenergetika",
+    "el": "Ηλεκτρική Ενέργεια",
+    "kk": "Электроэнергетика",
+    "uz": "Elektroenergetika"
   },
   {
     "code": "azerbaijani_language",
@@ -4502,7 +6086,13 @@
     "fr": "Langue azerbaïdjanaise",
     "de": "Aserbaidschanische Sprache",
     "it": "Lingua azerbaigiana",
-    "tr": "Azerbaycan dili"
+    "tr": "Azerbaycan dili",
+    "pt": "Língua azerbaijana",
+    "pl": "Język azerbejdżański",
+    "hu": "Azerbajdzsán nyelv",
+    "el": "Αζερική Γλώσσα",
+    "kk": "Әзербайжан тілі",
+    "uz": "Ozarbayjon tili"
   },
   {
     "code": "environmental_protection",
@@ -4519,7 +6109,13 @@
     "fr": "Protection et restauration de l'environnement",
     "de": "Umweltschutz und -wiederherstellung",
     "it": "Protezione e ripristino dell'ambiente",
-    "tr": "Çevrenin korunması ve iyileştirilmesi"
+    "tr": "Çevrenin korunması ve iyileştirilmesi",
+    "pt": "Proteção e recuperação ambiental",
+    "pl": "Ochrona i odbudowa środowiska",
+    "hu": "Környezetvédelem és helyreállítás",
+    "el": "Προστασία και Αποκατάσταση Περιβάλλοντος",
+    "kk": "Қоршаған ортаны қорғау және қалпына келтіру",
+    "uz": "Atrof-muhitni muhofaza qilish va tiklash"
   },
   {
     "code": "painting_fine_art",
@@ -4536,7 +6132,13 @@
     "fr": "Peinture",
     "de": "Malerei",
     "it": "Pittura",
-    "tr": "Resim"
+    "tr": "Resim",
+    "pt": "Pintura artística",
+    "pl": "Malarstwo",
+    "hu": "Festőművészet",
+    "el": "Τέχνη της Ζωγραφικής",
+    "kk": "Мольберт кескіндемесі",
+    "uz": "Rangtasvir"
   },
   {
     "code": "industrial_civil_construction",
@@ -4553,7 +6155,13 @@
     "fr": "Construction industrielle et civile",
     "de": "Industrie- und Zivilbau",
     "it": "Costruzioni industriali e civili",
-    "tr": "Sanayi ve sivil yapı"
+    "tr": "Sanayi ve sivil yapı",
+    "pt": "Construção industrial e civil",
+    "pl": "Budownictwo przemysłowe i cywilne",
+    "hu": "Ipari és lakóépület-építés",
+    "el": "Βιομηχανικές και Οικοδομικές Κατασκευές",
+    "kk": "Өнеркәсіптік және азаматтық құрылыс",
+    "uz": "Sanoat va fuqarolik qurilishi"
   },
   {
     "code": "interior_design",
@@ -4570,7 +6178,13 @@
     "fr": "Design d'intérieur",
     "de": "Innenarchitektur",
     "it": "Design d'interni",
-    "tr": "İç mekân tasarımı"
+    "tr": "İç mekân tasarımı",
+    "pt": "Design de interiores",
+    "pl": "Projektowanie wnętrz",
+    "hu": "Belsőépítészet",
+    "el": "Διακόσμηση Εσωτερικών Χώρων",
+    "kk": "Интерьер дизайны",
+    "uz": "Interyer dizayni"
   },
   {
     "code": "economic_cybernetics",
@@ -4587,7 +6201,13 @@
     "fr": "Cybernétique économique",
     "de": "Wirtschaftskybernetik",
     "it": "Cibernetica economica",
-    "tr": "Ekonomik sibernetik"
+    "tr": "Ekonomik sibernetik",
+    "pt": "Cibernética económica",
+    "pl": "Cybernetyka ekonomiczna",
+    "hu": "Gazdasági kibernetika",
+    "el": "Οικονομική Κυβερνητική",
+    "kk": "Экономикалық кибернетика",
+    "uz": "Iqtisodiy kibernetika"
   },
   {
     "code": "computer_technician",
@@ -4604,7 +6224,13 @@
     "fr": "Technicien de réparation informatique",
     "de": "Computertechniker",
     "it": "Tecnico riparatore di computer",
-    "tr": "Bilgisayar tamir teknisyeni"
+    "tr": "Bilgisayar tamir teknisyeni",
+    "pt": "Técnico de reparação de computadores",
+    "pl": "Serwisant komputerowy",
+    "hu": "Számítógép-javító technikus",
+    "el": "Τεχνικός Υπολογιστών",
+    "kk": "Компьютер жөндеу шебері",
+    "uz": "Kompyuter ustasi"
   },
   {
     "code": "sanitary_feldsher",
@@ -4621,7 +6247,13 @@
     "fr": "Auxiliaire sanitaire",
     "de": "Sanitätsfeldscher",
     "it": "Assistente sanitario di igiene",
-    "tr": "Sağlık teknikeri"
+    "tr": "Sağlık teknikeri",
+    "pt": "Feldsher sanitário",
+    "pl": "Felczer sanitarny",
+    "hu": "Közegészségügyi mentőtechnikus",
+    "el": "Υγειονομικός Βοηθός Ιατρού",
+    "kk": "Санитарлық фельдшер",
+    "uz": "Sanitariya feldsheri"
   },
   {
     "code": "hotel_tourism_management",
@@ -4638,7 +6270,13 @@
     "fr": "Organisation des services touristiques et hôteliers",
     "de": "Organisation des Tourismus- und Hotelgewerbes",
     "it": "Organizzazione dei servizi turistici e alberghieri",
-    "tr": "Turizm ve otel işletmeciliğinin örgütlenmesi"
+    "tr": "Turizm ve otel işletmeciliğinin örgütlenmesi",
+    "pt": "Organização de serviços turísticos e hoteleiros",
+    "pl": "Organizacja usług turystycznych i hotelarskich",
+    "hu": "Turisztikai és szállodai szolgáltatások megszervezése",
+    "el": "Οργάνωση Τουριστικών και Ξενοδοχειακών Υπηρεσιών",
+    "kk": "Туристік және қонақүй шаруашылығын ұйымдастыру",
+    "uz": "Turistik va mehmonxona xoʻjaligini tashkil etish"
   },
   {
     "code": "az_literature",
@@ -4655,7 +6293,13 @@
     "fr": "Littérature azerbaïdjanaise",
     "de": "Aserbaidschanische Literatur",
     "it": "Letteratura azerbaigiana",
-    "tr": "Azerbaycan edebiyatı"
+    "tr": "Azerbaycan edebiyatı",
+    "pt": "Literatura azerbaijana",
+    "pl": "Literatura azerbejdżańska",
+    "hu": "Azerbajdzsán irodalom",
+    "el": "Αζερική Λογοτεχνία",
+    "kk": "Әзербайжан әдебиеті",
+    "uz": "Ozarbayjon adabiyoti"
   },
   {
     "code": "construction",
@@ -4672,7 +6316,13 @@
     "fr": "Construction",
     "de": "Bauwesen",
     "it": "Costruzioni",
-    "tr": "İnşaat"
+    "tr": "İnşaat",
+    "pt": "Construção",
+    "pl": "Budownictwo",
+    "hu": "Építőipar",
+    "el": "Κατασκευές",
+    "kk": "Құрылыс",
+    "uz": "Qurilish"
   },
   {
     "code": "education_assessment",
@@ -4689,7 +6339,13 @@
     "fr": "Évaluation et suivi dans l'éducation",
     "de": "Bewertung und Monitoring im Bildungswesen",
     "it": "Valutazione e monitoraggio nell'istruzione",
-    "tr": "Eğitimde ölçme ve izleme"
+    "tr": "Eğitimde ölçme ve izleme",
+    "pt": "Avaliação e monitorização na educação",
+    "pl": "Ocena i monitorowanie w edukacji",
+    "hu": "Oktatási értékelés és monitoring",
+    "el": "Αξιολόγηση και Παρακολούθηση στην Εκπαίδευση",
+    "kk": "Білім берудегі бағалау және мониторинг",
+    "uz": "Taʼlimda baholash va monitoring"
   },
   {
     "code": "recycling_engineering",
@@ -4706,7 +6362,13 @@
     "fr": "Génie des technologies de recyclage et de valorisation",
     "de": "Ingenieurwesen für Recycling- und Aufbereitungstechnologien",
     "it": "Ingegneria delle tecnologie di riciclo e recupero",
-    "tr": "Geri dönüşüm ve iyileştirme teknolojileri mühendisliği"
+    "tr": "Geri dönüşüm ve iyileştirme teknolojileri mühendisliği",
+    "pt": "Engenharia de reciclagem e tecnologias de recuperação",
+    "pl": "Inżynieria recyklingu i technologii odnowy",
+    "hu": "Hulladék-újrahasznosítási és helyreállítási technológiai mérnöki tudományok",
+    "el": "Μηχανική Ανακύκλωσης και Αποκατάστασης",
+    "kk": "Қайта өңдеу және қалпына келтіру технологиялары инженериясы",
+    "uz": "Qayta ishlash va tiklash texnologiyalari muhandisligi"
   },
   {
     "code": "consumer_goods_technology",
@@ -4723,7 +6385,13 @@
     "fr": "Génie des technologies des biens de grande consommation",
     "de": "Ingenieurwesen für Konsumgütertechnologie",
     "it": "Ingegneria delle tecnologie dei beni di consumo",
-    "tr": "Tüketim malları teknolojisi mühendisliği"
+    "tr": "Tüketim malları teknolojisi mühendisliği",
+    "pt": "Engenharia de tecnologia de bens de consumo",
+    "pl": "Technologia towarów konsumpcyjnych",
+    "hu": "Fogyasztási cikkek technológiai mérnöki tudományai",
+    "el": "Μηχανική Τεχνολογίας Καταναλωτικών Αγαθών",
+    "kk": "Тұтыну тауарлары технологиясы инженериясы",
+    "uz": "Keng isteʼmol mollari texnologiyasi muhandisligi"
   },
   {
     "code": "production_accounting_audit",
@@ -4740,7 +6408,13 @@
     "fr": "Comptabilité et audit dans la production",
     "de": "Buchführung und Wirtschaftsprüfung in der Produktion",
     "it": "Contabilità e revisione nella produzione",
-    "tr": "Üretim alanında muhasebe ve denetim"
+    "tr": "Üretim alanında muhasebe ve denetim",
+    "pt": "Contabilidade e auditoria na produção",
+    "pl": "Rachunkowość i audyt w produkcji",
+    "hu": "Termelési számvitel és könyvvizsgálat",
+    "el": "Λογιστική και Ελεγκτική στην Παραγωγή",
+    "kk": "Өндірісте бухгалтерлік есеп және аудит",
+    "uz": "Ishlab chiqarish sohasida buxgalteriya hisobi va audit"
   },
   {
     "code": "food_safety",
@@ -4757,7 +6431,13 @@
     "fr": "Sécurité alimentaire",
     "de": "Lebensmittelsicherheit",
     "it": "Sicurezza alimentare",
-    "tr": "Gıda güvenliği"
+    "tr": "Gıda güvenliği",
+    "pt": "Segurança alimentar",
+    "pl": "Bezpieczeństwo żywności",
+    "hu": "Élelmiszerbiztonság",
+    "el": "Ασφάλεια Τροφίμων",
+    "kk": "Тамақ өнімдерінің қауіпсіздігі",
+    "uz": "Oziq-ovqat xavfsizligi"
   },
   {
     "code": "advertising",
@@ -4774,7 +6454,13 @@
     "fr": "Publicité",
     "de": "Werbewesen",
     "it": "Pubblicità",
-    "tr": "Reklamcılık"
+    "tr": "Reklamcılık",
+    "pt": "Publicidade",
+    "pl": "Reklama",
+    "hu": "Reklámtevékenység",
+    "el": "Διαφήμιση",
+    "kk": "Жарнама ісі",
+    "uz": "Reklama ishi"
   },
   {
     "code": "orientalist",
@@ -4791,7 +6477,13 @@
     "fr": "Orientaliste",
     "de": "Orientalist",
     "it": "Orientalista",
-    "tr": "Doğu bilimci"
+    "tr": "Doğu bilimci",
+    "pt": "Orientalista",
+    "pl": "Orientalista",
+    "hu": "Orientalista",
+    "el": "Ανατολιστής",
+    "kk": "Шығыстанушы",
+    "uz": "Sharqshunos"
   },
   {
     "code": "telecommunication",
@@ -4808,7 +6500,13 @@
     "fr": "Télécommunications",
     "de": "Telekommunikation",
     "it": "Telecomunicazioni",
-    "tr": "Telekomünikasyon"
+    "tr": "Telekomünikasyon",
+    "pt": "Telecomunicações",
+    "pl": "Telekomunikacja",
+    "hu": "Távközlés",
+    "el": "Τηλεπικοινωνίες",
+    "kk": "Телекоммуникация",
+    "uz": "Telekommunikatsiya"
   },
   {
     "code": "financial_control_audit",
@@ -4825,7 +6523,13 @@
     "fr": "Contrôle financier et audit",
     "de": "Finanzkontrolle und Wirtschaftsprüfung",
     "it": "Controllo finanziario e revisione",
-    "tr": "Mali kontrol ve denetim"
+    "tr": "Mali kontrol ve denetim",
+    "pt": "Controlo financeiro e auditoria",
+    "pl": "Kontrola finansowa i audyt",
+    "hu": "Pénzügyi ellenőrzés és könyvvizsgálat",
+    "el": "Χρηματοοικονομικός Έλεγχος και Ελεγκτική",
+    "kk": "Қаржылық бақылау және аудит",
+    "uz": "Moliyaviy nazorat va audit"
   },
   {
     "code": "geology_geophysics_engineering",
@@ -4842,7 +6546,13 @@
     "fr": "Génie géologique et géophysique",
     "de": "Ingenieurwesen für Geologie und Geophysik",
     "it": "Ingegneria geologica e geofisica",
-    "tr": "Jeoloji ve jeofizik mühendisliği"
+    "tr": "Jeoloji ve jeofizik mühendisliği",
+    "pt": "Engenharia de geologia e geofísica",
+    "pl": "Inżynieria geologii i geofizyki",
+    "hu": "Geológiai és geofizikai mérnöki tudományok",
+    "el": "Μηχανική Γεωλογίας και Γεωφυσικής",
+    "kk": "Геология және геофизика инженериясы",
+    "uz": "Geologiya va geofizika muhandisligi"
   },
   {
     "code": "orthopedic_dentistry",
@@ -4859,7 +6569,13 @@
     "fr": "Odontologie prothétique",
     "de": "Zahnprothetik",
     "it": "Odontoiatria protesica",
-    "tr": "Ortopedik diş hekimliği"
+    "tr": "Ortopedik diş hekimliği",
+    "pt": "Estomatologia ortopédica",
+    "pl": "Stomatologia ortopedyczna",
+    "hu": "Fogászati ortopédia",
+    "el": "Ορθοπεδική Οδοντιατρική",
+    "kk": "Ортопедиялық стоматология",
+    "uz": "Ortopedik stomatologiya"
   },
   {
     "code": "station_duty_officer",
@@ -4876,7 +6592,13 @@
     "fr": "Chef de gare de service",
     "de": "Bahnhofsaufsicht",
     "it": "Capostazione di turno",
-    "tr": "İstasyon nöbetçisi"
+    "tr": "İstasyon nöbetçisi",
+    "pt": "Chefe de estação",
+    "pl": "Dyżurny ruchu",
+    "hu": "Állomási ügyeletes",
+    "el": "Υπηρεσιακός Σταθμού",
+    "kk": "Станция кезекшісі",
+    "uz": "Stansiya navbatchisi"
   },
   {
     "code": "religious_studies",
@@ -4893,7 +6615,13 @@
     "fr": "Sciences des religions",
     "de": "Religionswissenschaft",
     "it": "Scienze delle religioni",
-    "tr": "Din bilimleri"
+    "tr": "Din bilimleri",
+    "pt": "Estudos religiosos",
+    "pl": "Religioznawstwo",
+    "hu": "Vallástudomány",
+    "el": "Θρησκειολογία",
+    "kk": "Дінтану",
+    "uz": "Dinshunoslik"
   },
   {
     "code": "sustainable_development",
@@ -4910,7 +6638,13 @@
     "fr": "Gestion du développement durable",
     "de": "Management der nachhaltigen Entwicklung",
     "it": "Gestione dello sviluppo sostenibile",
-    "tr": "Sürdürülebilir kalkınma yönetimi"
+    "tr": "Sürdürülebilir kalkınma yönetimi",
+    "pt": "Gestão do desenvolvimento sustentável",
+    "pl": "Zarządzanie zrównoważonym rozwojem",
+    "hu": "Fenntartható fejlődés menedzsmentje",
+    "el": "Διαχείριση Βιώσιμης Ανάπτυξης",
+    "kk": "Тұрақты дамуды басқару",
+    "uz": "Barqaror rivojlanishni boshqarish"
   },
   {
     "code": "russian_language_literature",
@@ -4927,7 +6661,13 @@
     "fr": "Langue et littérature russes",
     "de": "Russische Sprache und Literatur",
     "it": "Lingua e letteratura russa",
-    "tr": "Rus dili ve edebiyatı"
+    "tr": "Rus dili ve edebiyatı",
+    "pt": "Língua e literatura russas",
+    "pl": "Język i literatura rosyjska",
+    "hu": "Orosz nyelv és irodalom",
+    "el": "Ρωσική Γλώσσα και Λογοτεχνία",
+    "kk": "Орыс тілі және әдебиеті",
+    "uz": "Rus tili va adabiyoti"
   },
   {
     "code": "economic_theory",
@@ -4944,7 +6684,13 @@
     "fr": "Théorie économique",
     "de": "Wirtschaftstheorie",
     "it": "Teoria economica",
-    "tr": "Ekonomi teorisi"
+    "tr": "Ekonomi teorisi",
+    "pt": "Teoria económica",
+    "pl": "Teoria ekonomii",
+    "hu": "Gazdaságelmélet",
+    "el": "Οικονομική Θεωρία",
+    "kk": "Экономикалық теория",
+    "uz": "Iqtisodiy nazariya"
   },
   {
     "code": "intl_relations_diplomacy",
@@ -4961,7 +6707,13 @@
     "fr": "Relations internationales et diplomatie",
     "de": "Internationale Beziehungen und Diplomatie",
     "it": "Relazioni internazionali e diplomazia",
-    "tr": "Uluslararası ilişkiler ve diplomasi"
+    "tr": "Uluslararası ilişkiler ve diplomasi",
+    "pt": "Relações internacionais e diplomacia",
+    "pl": "Stosunki międzynarodowe i dyplomacja",
+    "hu": "Nemzetközi kapcsolatok és diplomácia",
+    "el": "Διεθνείς Σχέσεις και Διπλωματία",
+    "kk": "Халықаралық қатынастар және дипломатия",
+    "uz": "Xalqaro munosabatlar va diplomatiya"
   },
   {
     "code": "analytical_quality_control",
@@ -4978,7 +6730,13 @@
     "fr": "Contrôle analytique de la qualité des composés chimiques",
     "de": "Analytische Qualitätskontrolle chemischer Verbindungen",
     "it": "Controllo analitico della qualità dei composti chimici",
-    "tr": "Kimyasal bileşiklerin analitik kalite kontrolü"
+    "tr": "Kimyasal bileşiklerin analitik kalite kontrolü",
+    "pt": "Controlo analítico da qualidade de compostos químicos",
+    "pl": "Analityczna kontrola jakości związków chemicznych",
+    "hu": "Kémiai vegyületek analitikai minőség-ellenőrzése",
+    "el": "Αναλυτικός Ποιοτικός Έλεγχος Χημικών Ενώσεων",
+    "kk": "Химиялық қосылыстардың сапасына аналитикалық бақылау",
+    "uz": "Kimyoviy birikmalar sifatini analitik nazorat qilish"
   },
   {
     "code": "communication_systems_engineering",
@@ -4995,7 +6753,13 @@
     "fr": "Nœuds et systèmes de communication",
     "de": "Kommunikationsknoten und -systeme",
     "it": "Nodi e sistemi di comunicazione",
-    "tr": "İletişim düğümleri ve sistemleri"
+    "tr": "İletişim düğümleri ve sistemleri",
+    "pt": "Engenharia de nós e sistemas de comunicação",
+    "pl": "Węzły i systemy łączności",
+    "hu": "Hírközlési csomópontok és rendszerek",
+    "el": "Κόμβοι Επικοινωνιών και Συστήματα",
+    "kk": "Байланыс тораптары және коммуникация жүйелері",
+    "uz": "Aloqa tugunlari va kommunikatsiya tizimlari"
   },
   {
     "code": "public_governance",
@@ -5012,7 +6776,13 @@
     "fr": "Gouvernance publique",
     "de": "Staatsführung",
     "it": "Governance pubblica",
-    "tr": "Devlet yönetimi"
+    "tr": "Devlet yönetimi",
+    "pt": "Governação pública",
+    "pl": "Zarządzanie publiczne",
+    "hu": "Állami irányítás",
+    "el": "Δημόσια Διακυβέρνηση",
+    "kk": "Мемлекеттік басқару",
+    "uz": "Davlat boshqaruvi"
   },
   {
     "code": "human_resources_management",
@@ -5029,7 +6799,13 @@
     "fr": "Gestion des ressources humaines",
     "de": "Personalmanagement",
     "it": "Gestione delle risorse umane",
-    "tr": "İnsan kaynakları yönetimi"
+    "tr": "İnsan kaynakları yönetimi",
+    "pt": "Gestão de recursos humanos",
+    "pl": "Zarządzanie zasobami ludzkimi",
+    "hu": "Emberi erőforrás menedzsment",
+    "el": "Διαχείριση Ανθρώπινου Δυναμικού",
+    "kk": "Адам ресурстарын басқару",
+    "uz": "Inson resurslarini boshqarish"
   },
   {
     "code": "diplomacy",
@@ -5046,7 +6822,13 @@
     "fr": "Diplomatie",
     "de": "Diplomatie",
     "it": "Diplomazia",
-    "tr": "Diplomasi"
+    "tr": "Diplomasi",
+    "pt": "Diplomacia",
+    "pl": "Dyplomacja",
+    "hu": "Diplomácia",
+    "el": "Διπλωματία",
+    "kk": "Дипломатия",
+    "uz": "Diplomatiya"
   },
   {
     "code": "applied_mathematics",
@@ -5063,7 +6845,13 @@
     "fr": "Mathématiques appliquées",
     "de": "Angewandte Mathematik",
     "it": "Matematica applicata",
-    "tr": "Uygulamalı matematik"
+    "tr": "Uygulamalı matematik",
+    "pt": "Matemática aplicada",
+    "pl": "Matematyka stosowana",
+    "hu": "Alkalmazott matematika",
+    "el": "Εφαρμοσμένα Μαθηματικά",
+    "kk": "Қолданбалы математика",
+    "uz": "Amaliy matematika"
   },
   {
     "code": "language_literature_teacher",
@@ -5080,7 +6868,13 @@
     "fr": "Enseignement de la langue et de la littérature",
     "de": "Lehramt Sprache und Literatur",
     "it": "Insegnamento di lingua e letteratura",
-    "tr": "Dil ve edebiyat öğretmenliği"
+    "tr": "Dil ve edebiyat öğretmenliği",
+    "pt": "Ensino de língua e literatura",
+    "pl": "Nauczanie języka i literatury",
+    "hu": "Nyelv és irodalom tanítása",
+    "el": "Δάσκαλος Γλώσσας και Λογοτεχνίας",
+    "kk": "Тіл және әдебиет мұғалімі",
+    "uz": "Til va adabiyot oʻqituvchiligi"
   },
   {
     "code": "musicologist",
@@ -5097,7 +6891,13 @@
     "fr": "Musicologue",
     "de": "Musikwissenschaftler",
     "it": "Musicologo",
-    "tr": "Müzikolog"
+    "tr": "Müzikolog",
+    "pt": "Musicólogo",
+    "pl": "Muzykolog",
+    "hu": "Zenetudós",
+    "el": "Μουσικολόγος",
+    "kk": "Музыкатанушы",
+    "uz": "Musiqashunos"
   },
   {
     "code": "software_engineering",
@@ -5114,7 +6914,13 @@
     "fr": "Logiciels pour systèmes informatiques",
     "de": "Software für Computersysteme",
     "it": "Software per sistemi informatici",
-    "tr": "Bilgisayar sistemlerinde yazılım"
+    "tr": "Bilgisayar sistemlerinde yazılım",
+    "pt": "Programação de sistemas informáticos",
+    "pl": "Oprogramowanie systemów komputerowych",
+    "hu": "Szoftverfejlesztés",
+    "el": "Λογισμικό Υπολογιστικών Συστημάτων",
+    "kk": "Компьютерлік жүйелердің бағдарламалық жасақтамасы",
+    "uz": "Kompyuter tizimlari uchun dasturiy taʼminot"
   },
   {
     "code": "multichannel_telecom",
@@ -5131,7 +6937,13 @@
     "fr": "Systèmes de télécommunication multicanaux",
     "de": "Mehrkanalige Telekommunikationssysteme",
     "it": "Sistemi di telecomunicazione multicanale",
-    "tr": "Çok kanallı telekomünikasyon sistemleri"
+    "tr": "Çok kanallı telekomünikasyon sistemleri",
+    "pt": "Sistemas de telecomunicações multicanal",
+    "pl": "Wielokanałowe systemy telekomunikacyjne",
+    "hu": "Többcsatornás távközlési rendszerek",
+    "el": "Πολυκαναλικά Συστήματα Τηλεπικοινωνιών",
+    "kk": "Көпарналы телекоммуникация жүйелері",
+    "uz": "Koʻp kanalli telekommunikatsiya tizimlari"
   },
   {
     "code": "customs_expertise",
@@ -5148,7 +6960,13 @@
     "fr": "Expertise douanière",
     "de": "Zollgutachten",
     "it": "Perizia doganale",
-    "tr": "Gümrük ekspertizi"
+    "tr": "Gümrük ekspertizi",
+    "pt": "Peritagem aduaneira",
+    "pl": "Ekspertyza celna",
+    "hu": "Vámszakértés",
+    "el": "Τελωνειακή Πραγματογνωμοσύνη",
+    "kk": "Кеден сараптамасы",
+    "uz": "Bojxona ekspertizasi"
   },
   {
     "code": "sports_tourism",
@@ -5165,7 +6983,13 @@
     "fr": "Tourisme sportif",
     "de": "Sporttourismus",
     "it": "Turismo sportivo",
-    "tr": "Spor turizmi"
+    "tr": "Spor turizmi",
+    "pt": "Turismo desportivo",
+    "pl": "Turystyka sportowa",
+    "hu": "Sportturizmus",
+    "el": "Αθλητικός Τουρισμός",
+    "kk": "Спорттық туризм",
+    "uz": "Sport turizmi"
   },
   {
     "code": "finance_tax_law",
@@ -5182,6 +7006,12 @@
     "fr": "Droit financier et fiscal",
     "de": "Finanz- und Steuerrecht",
     "it": "Diritto finanziario e tributario",
-    "tr": "Maliye ve vergi hukuku"
+    "tr": "Maliye ve vergi hukuku",
+    "pt": "Direito financeiro e fiscal",
+    "pl": "Finanse i prawo podatkowe",
+    "hu": "Pénzügyi és adójog",
+    "el": "Χρηματοοικονομικό και Φορολογικό Δίκαιο",
+    "kk": "Қаржы және салық құқығы",
+    "uz": "Moliya va soliq huquqi"
   }
 ]

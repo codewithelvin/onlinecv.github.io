@@ -177,6 +177,49 @@ const TR_CRESCENT_OUTER = { cx: 30000, r: 15000 };
 const TR_CRESCENT_INNER = { cx: 33750, r: 12000 };
 const TR_STAR = { cx: 49250, r: 7500, rotate: -90 };
 
+/** Poland's legally-named "flag red" (the Pantone 032 C equivalent most references use). */
+const PL_RED = '#DC143C';
+/** Hungary's 2011 constitution names Pantone shades for its tricolour; these are their sRGB equivalents. */
+const HU_RED = '#CE2939';
+const HU_GREEN = '#436F4D';
+/**
+ * Greece, like Turkey below-turned-Georgia above, is a case where the LAW never
+ * fixed a shade: the flag statute names the colour only as "κυανός" (blue), with
+ * no Pantone reference for the flag itself (only for the coat of arms). `#014488`
+ * is the value the Greek government's own 2010 digital-assets document uses, so
+ * it is a real source rather than a guess — just not a binding one the way
+ * Turkey's crescent geometry is.
+ */
+const EL_BLUE = '#014488';
+/**
+ * Portugal's flag law (1911) fixes the GEOMETRY precisely (below) but is silent
+ * on exact shades, same gap as Greece's blue — these are the green/red/gold/blue
+ * most web references converge on, not a legal citation.
+ */
+const PT_GREEN = '#046A38';
+const PT_RED = '#DA020E';
+const PT_GOLD = '#F0C300';
+/** Heraldic blue for the five "quinas" — the small shields inside the coat of arms. */
+const PT_BLUE = '#003893';
+/** Kazakhstan's flag decree specifies these two exactly: the field and everything gold on it. */
+const KZ_BLUE = '#00ABC2';
+const KZ_GOLD = '#FFEC2D';
+/**
+ * Uzbekistan is the same gap again — confirmed rather than assumed: the
+ * government "does not specify which hues should be used… and instead
+ * generalizes them as azure, white, green, and red." Widely-used web reference
+ * shades, not a citation.
+ */
+const UZ_BLUE = '#0099B5';
+const UZ_GREEN = '#0F9D58';
+const UZ_RED = '#CE1126';
+
+/** A point at `deg` degrees (0 = toward the hoist/+x, 90 = down), `r` from centre. */
+function polarPoint(cx: number, cy: number, r: number, deg: number): [number, number] {
+  const rad = (deg * Math.PI) / 180;
+  return [cx + r * Math.cos(rad), cy + r * Math.sin(rad)];
+}
+
 /** A small Bolnisi cross, as used four times on the Georgian flag. */
 function SmallCross({ cx, cy }: { cx: number; cy: number }): JSX.Element {
   return (
@@ -186,6 +229,128 @@ function SmallCross({ cx, cy }: { cx: number; cy: number }): JSX.Element {
     </>
   );
 }
+
+/**
+ * Greece: nine equal horizontal stripes, five cyan/blue and four white, blue
+ * FIRST and LAST — confirmed against the flag's own 1978 law rather than
+ * assumed. The canton is a square of exactly five stripes' height, and the
+ * cross inside it is one stripe thick (the "one fifth of the [canton's] side"
+ * the law states), so `EL_STRIPE` alone drives both.
+ */
+const EL_STRIPE = 16 / 9;
+const EL_CANTON = 5 * EL_STRIPE;
+
+/**
+ * Portugal's shield silhouette — a rectangle with a shallow curved point at
+ * the bottom, reused at two sizes (the red bordure and the smaller white
+ * inescutcheon inside it).
+ */
+function shieldPath(w: number, h: number): string {
+  const shoulder = h * 0.68;
+  return `M0,0 H${w} V${shoulder} Q${w},${h} ${w / 2},${h} Q0,${h} 0,${shoulder} Z`;
+}
+
+/**
+ * One of the five "quinas" on the Portuguese shield: a small blue square
+ * carrying five white bezants in saltire (four corners plus one centre).
+ * Simplified from the real charge (a proper small shield, each bezant itself
+ * outlined) to a plain square and five dots — enough to read as "the five
+ * shields with their five dots," which is the detail that makes the coat of
+ * arms recognizable, without drawing five nested shield outlines at a size
+ * where they would be a handful of pixels.
+ */
+function Quina({ cx, cy, s }: { cx: number; cy: number; s: number }): JSX.Element {
+  const r = s * 0.14;
+  const off = s * 0.27;
+  const dots: Array<[number, number]> = [
+    [-off, -off],
+    [off, -off],
+    [0, 0],
+    [-off, off],
+    [off, off],
+  ];
+  return (
+    <g>
+      <rect x={cx - s / 2} y={cy - s / 2} width={s} height={s} fill={PT_BLUE} />
+      {dots.map(([dx, dy], i) => (
+        <circle key={i} cx={cx + dx} cy={cy + dy} r={r} fill="#fff" />
+      ))}
+    </g>
+  );
+}
+
+/**
+ * One of the seven gold castles on the Portuguese shield's red bordure,
+ * simplified to a small crenellated square — the count (seven) and their
+ * rough distribution (three along the top, two at the sides, two lower) are
+ * the real construction; the towers themselves are not individually modeled.
+ */
+function Castle({ cx, cy }: { cx: number; cy: number }): JSX.Element {
+  const w = 0.55;
+  const h = 0.4;
+  return (
+    <g fill={PT_GOLD}>
+      <rect x={cx - w / 2} y={cy - h / 2} width={w} height={h} />
+      <rect x={cx - w / 2} y={cy - h / 2 - 0.14} width={w / 3} height={0.14} />
+      <rect x={cx - w / 6} y={cy - h / 2 - 0.14} width={w / 3} height={0.14} />
+      <rect x={cx + w / 6} y={cy - h / 2 - 0.14} width={w / 3} height={0.14} />
+    </g>
+  );
+}
+
+/**
+ * Kazakhstan's sun: 32 rays (one per ethnicity the flag's own description
+ * credits), computed as equal triangles rather than typed out individually —
+ * the same reasoning as the US's 50 stars above.
+ */
+const KZ_RAY_COUNT = 32;
+function sunRayPoints(cx: number, cy: number, rInner: number, rOuter: number, deg: number): string {
+  const halfWidth = (360 / KZ_RAY_COUNT / 2) * 0.55;
+  const tip = polarPoint(cx, cy, rOuter, deg);
+  const baseA = polarPoint(cx, cy, rInner, deg - halfWidth);
+  const baseB = polarPoint(cx, cy, rInner, deg + halfWidth);
+  return [baseA, tip, baseB].map(([x, y]) => `${x.toFixed(3)},${y.toFixed(3)}`).join(' ');
+}
+
+/**
+ * Kazakhstan's soaring steppe eagle (berkut), simplified to a single
+ * swept-wing silhouette — real heraldic depictions render individual flight
+ * feathers, which is not a shape a 24×16 canvas can hold at all; a gull-wing
+ * outline with a body and a short tail is the same POSE (soaring, wings
+ * spread, seen from below) without inventing a different bird.
+ */
+const KZ_EAGLE_PATH =
+  'M-5.5,0 C-4,-1.7 -1.8,-1.9 0,-0.5 C1.8,-1.9 4,-1.7 5.5,0 ' +
+  'C4,0.5 1.8,0.8 0,0.5 C-1.8,0.8 -4,0.5 -5.5,0 Z M-0.5,0.5 L0,2.3 L0.5,0.5 Z';
+
+/**
+ * Uzbekistan's crescent-and-stars group. The flag's own construction sheet
+ * places it in a rectangle "30 by 75 cm" starting "20 cm from the flagpole,"
+ * all measured against the flag's 125×250 cm module — read as a HEIGHT/WIDTH
+ * pair against their respective axes, since that is how a construction sheet
+ * is meant to be scaled. The twelve stars' own spacing (also stated in cm) is
+ * approximated proportionally within that rectangle rather than plotted from
+ * the crescent tip point-by-point, which would need the full published diagram
+ * rather than the prose describing it.
+ */
+const UZ_BLUE_STRIPE_H = 16 * (40 / 125);
+const UZ_RECT = {
+  x: 24 * (20 / 250),
+  y: (UZ_BLUE_STRIPE_H - 16 * (30 / 125)) / 2,
+  w: 24 * (75 / 250),
+  h: 16 * (30 / 125),
+};
+/** Star columns start past the crescent's right edge (`UZ_RECT.x + 2 × radius`, radius = `UZ_RECT.h / 2`). */
+const UZ_STAR_ROWS = [3, 4, 5];
+const UZ_STARS: Array<[number, number]> = UZ_STAR_ROWS.flatMap((count, row) => {
+  const y = UZ_RECT.y + 0.85 + row * ((UZ_RECT.h - 1) / 2);
+  const clearCrescent = UZ_RECT.h + 0.15;
+  const step = (UZ_RECT.w - clearCrescent - 0.3) / (count + 1);
+  return Array.from({ length: count }, (_, i): [number, number] => [
+    UZ_RECT.x + clearCrescent + step * (i + 1),
+    y,
+  ]);
+});
 
 /** The artwork, one entry per locale — a total record, so a new language must add one. */
 const FLAGS: Record<Locale, ReactNode> = {
@@ -423,6 +588,147 @@ const FLAGS: Record<Locale, ReactNode> = {
         points={pentagramPoints(TR_STAR.cx * TR_SCALE, 8, TR_STAR.r * TR_SCALE, TR_STAR.rotate)}
         fill="#fff"
       />
+    </>
+  ),
+  /**
+   * Portugal — the one flag in this file with a coat of arms, and the most
+   * simplified of the six added in this batch as a result. The bands (2:5
+   * green to red, hoist to fly) and the armillary sphere/shield/quinas'
+   * relative sizes are the real 1911 construction; the sphere's rings and the
+   * seven castles are reduced to their recognizable shapes (see `shieldPath`,
+   * `Quina` and `Castle`) rather than fully detailed, for the reason Georgia's
+   * crosses became plain bars: an accurate 3-towered castle or a six-arc
+   * sphere is not a shape this canvas can hold at a size anyone can see.
+   */
+  pt: (
+    <>
+      <rect width={9.6} height={16} fill={PT_GREEN} />
+      <rect x={9.6} width={14.4} height={16} fill={PT_RED} />
+      <g stroke={PT_GOLD} strokeWidth={0.18} fill="none">
+        <circle cx={9.6} cy={8} r={4} />
+        <ellipse cx={9.6} cy={8} rx={4} ry={1.1} />
+        <ellipse cx={9.6} cy={8} rx={1.4} ry={4} />
+        <ellipse cx={9.6} cy={8} rx={4} ry={1.1} transform="rotate(55 9.6 8)" />
+      </g>
+      <g transform="translate(7.2 5.2)">
+        <path d={shieldPath(4.8, 5.6)} fill={PT_RED} stroke="#fff" strokeWidth={0.3} />
+        <path d={shieldPath(3.456, 4.032)} transform="translate(0.672 0.784)" fill="#fff" />
+        <Castle cx={0.5} cy={0.5} />
+        <Castle cx={2.4} cy={0.2} />
+        <Castle cx={4.3} cy={0.5} />
+        <Castle cx={0.25} cy={2.9} />
+        <Castle cx={4.55} cy={2.9} />
+        <Castle cx={0.85} cy={4.7} />
+        <Castle cx={3.95} cy={4.7} />
+        <Quina cx={2.4} cy={1.65} s={0.85} />
+        <Quina cx={1.35} cy={2.9} s={0.85} />
+        <Quina cx={2.4} cy={2.9} s={0.85} />
+        <Quina cx={3.45} cy={2.9} s={0.85} />
+        <Quina cx={2.4} cy={4.15} s={0.85} />
+      </g>
+    </>
+  ),
+  /** Poland — the civil flag, plain white over red, same simplification Spain's civil ensign already made in this file. */
+  pl: (
+    <>
+      <rect width={24} height={8} fill="#fff" />
+      <rect y={8} width={24} height={8} fill={PL_RED} />
+    </>
+  ),
+  /** Hungary — equal red/white/green thirds, no coat of arms (the state flag's, not the civil flag's). */
+  hu: (
+    <>
+      <rect width={24} height={16 / 3} fill={HU_RED} />
+      <rect y={16 / 3} width={24} height={16 / 3} fill="#fff" />
+      <rect y={32 / 3} width={24} height={16 / 3} fill={HU_GREEN} />
+    </>
+  ),
+  /**
+   * Greece — nine stripes and a canton cross built entirely from `EL_STRIPE`
+   * (see above), so the proportions are the law's, not eyeballed.
+   */
+  el: (
+    <>
+      {Array.from({ length: 9 }, (_, i) => (
+        <rect
+          key={i}
+          y={i * EL_STRIPE}
+          width={24}
+          height={EL_STRIPE}
+          fill={i % 2 === 0 ? EL_BLUE : '#fff'}
+        />
+      ))}
+      <rect width={EL_CANTON} height={EL_CANTON} fill={EL_BLUE} />
+      <rect x={EL_CANTON / 2 - EL_STRIPE / 2} width={EL_STRIPE} height={EL_CANTON} fill="#fff" />
+      <rect y={EL_CANTON / 2 - EL_STRIPE / 2} width={EL_CANTON} height={EL_STRIPE} fill="#fff" />
+    </>
+  ),
+  /**
+   * Kazakhstan — turquoise field, the sun's 32 rays computed like the US's 50
+   * stars, a simplified soaring-eagle silhouette (`KZ_EAGLE_PATH`) beneath it,
+   * and a hoist ornament that stands in for the koshkar-muiz (ram's-horn)
+   * motif with a plain repeating diamond rather than the traditional geometry
+   * — the one piece of this flag that is a genuine simplification rather than
+   * a reduction of real published geometry, and said so plainly rather than
+   * left for someone to notice.
+   */
+  kk: (
+    <>
+      <rect width={24} height={16} fill={KZ_BLUE} />
+      <rect width={3.5} height={16} fill={KZ_GOLD} />
+      {Array.from({ length: 8 }, (_, i) => (
+        <rect
+          key={i}
+          x={1.2}
+          y={0.45 + i * 2}
+          width={1.1}
+          height={1.1}
+          fill={KZ_BLUE}
+          transform={`rotate(45 1.75 ${1 + i * 2})`}
+        />
+      ))}
+      {Array.from({ length: KZ_RAY_COUNT }, (_, i) => (
+        <polygon
+          key={i}
+          points={sunRayPoints(13.5, 5, 1.3, 3.1, (360 / KZ_RAY_COUNT) * i)}
+          fill={KZ_GOLD}
+        />
+      ))}
+      <circle cx={13.5} cy={5} r={1.4} fill={KZ_GOLD} />
+      <g transform="translate(13.5 10) scale(0.95)">
+        <path d={KZ_EAGLE_PATH} fill={KZ_GOLD} />
+      </g>
+    </>
+  ),
+  /**
+   * Uzbekistan — the stripes and the crescent-and-stars rectangle both come
+   * straight from the flag's own construction sheet (see `UZ_RECT` above);
+   * the crescent opens toward the fly using the same white-disc-minus-a-bite
+   * technique as Azerbaijan and Turkey elsewhere in this file, just with the
+   * field's own blue standing in for the bite instead of a border colour.
+   */
+  uz: (
+    <>
+      <rect width={24} height={UZ_BLUE_STRIPE_H} fill={UZ_BLUE} />
+      <rect y={UZ_BLUE_STRIPE_H} width={24} height={0.32} fill={UZ_RED} />
+      <rect y={UZ_BLUE_STRIPE_H + 0.32} width={24} height={5.12} fill="#fff" />
+      <rect y={UZ_BLUE_STRIPE_H + 5.44} width={24} height={0.32} fill={UZ_RED} />
+      <rect y={UZ_BLUE_STRIPE_H + 5.76} width={24} height={5.12} fill={UZ_GREEN} />
+      <circle
+        cx={UZ_RECT.x + UZ_RECT.h / 2}
+        cy={UZ_RECT.y + UZ_RECT.h / 2}
+        r={UZ_RECT.h / 2}
+        fill="#fff"
+      />
+      <circle
+        cx={UZ_RECT.x + UZ_RECT.h / 2 + 0.75}
+        cy={UZ_RECT.y + UZ_RECT.h / 2}
+        r={UZ_RECT.h / 2 - 0.32}
+        fill={UZ_BLUE}
+      />
+      {UZ_STARS.map(([x, y]) => (
+        <polygon key={`${x}-${y}`} points={pentagramPoints(x, y, 0.42)} fill="#fff" />
+      ))}
     </>
   ),
 };

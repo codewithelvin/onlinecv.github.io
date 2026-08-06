@@ -14,7 +14,13 @@
     "fr": "Microsoft Excel",
     "de": "Microsoft Excel",
     "it": "Microsoft Excel",
-    "tr": "Microsoft Excel"
+    "tr": "Microsoft Excel",
+    "pt": "Microsoft Excel",
+    "pl": "Microsoft Excel",
+    "hu": "Microsoft Excel",
+    "el": "Microsoft Excel",
+    "kk": "Microsoft Excel",
+    "uz": "Microsoft Excel"
   },
   {
     "code": "php",
@@ -31,7 +37,13 @@
     "fr": "PHP",
     "de": "PHP",
     "it": "PHP",
-    "tr": "PHP"
+    "tr": "PHP",
+    "pt": "Linguagem PHP",
+    "pl": "Język PHP",
+    "hu": "PHP nyelv",
+    "el": "Γλώσσα PHP",
+    "kk": "PHP тілі",
+    "uz": "PHP tili"
   },
   {
     "code": "ms_word",
@@ -48,7 +60,13 @@
     "fr": "Microsoft Word",
     "de": "Microsoft Word",
     "it": "Microsoft Word",
-    "tr": "Microsoft Word"
+    "tr": "Microsoft Word",
+    "pt": "Microsoft Word",
+    "pl": "Microsoft Word",
+    "hu": "Microsoft Word",
+    "el": "Microsoft Word",
+    "kk": "Microsoft Word",
+    "uz": "Microsoft Word"
   },
   {
     "code": "ms_power",
@@ -65,7 +83,13 @@
     "fr": "Microsoft PowerPoint",
     "de": "Microsoft PowerPoint",
     "it": "Microsoft PowerPoint",
-    "tr": "Microsoft PowerPoint"
+    "tr": "Microsoft PowerPoint",
+    "pt": "Microsoft PowerPoint",
+    "pl": "Microsoft PowerPoint",
+    "hu": "Microsoft PowerPoint",
+    "el": "Microsoft PowerPoint",
+    "kk": "Microsoft PowerPoint",
+    "uz": "Microsoft PowerPoint"
   },
   {
     "code": "adaptation",
@@ -82,7 +106,13 @@
     "fr": "Adaptation aux changements",
     "de": "Anpassungsfähigkeit an Neues",
     "it": "Adattamento ai cambiamenti",
-    "tr": "Yeniliklere uyum sağlama"
+    "tr": "Yeniliklere uyum sağlama",
+    "pt": "Capacidade de adaptação",
+    "pl": "Zdolność adaptacji do nowych warunków",
+    "hu": "Alkalmazkodás új körülményekhez",
+    "el": "Προσαρμοστικότητα σε νέες συνθήκες",
+    "kk": "Жаңа жағдайларға бейімделу",
+    "uz": "Yangi sharoitlarga moslashuvchanlik"
   },
   {
     "code": "problem_solving",
@@ -99,7 +129,13 @@
     "fr": "Résolution rapide des problèmes",
     "de": "Schnelle Problemlösung",
     "it": "Risoluzione rapida dei problemi",
-    "tr": "Sorunları hızlı çözme"
+    "tr": "Sorunları hızlı çözme",
+    "pt": "Resolução rápida de problemas",
+    "pl": "Szybkie rozwiązywanie problemów",
+    "hu": "Gyors problémamegoldás",
+    "el": "Ταχεία επίλυση προβλημάτων",
+    "kk": "Мәселелерді жылдам шешу",
+    "uz": "Muammolarni tezkor hal qilish"
   },
   {
     "code": "team_work",
@@ -116,7 +152,13 @@
     "fr": "Travail individuel et en équipe",
     "de": "Einzel- und Teamarbeit",
     "it": "Lavoro individuale e in team",
-    "tr": "Bireysel ve takım hâlinde çalışma"
+    "tr": "Bireysel ve takım hâlinde çalışma",
+    "pt": "Trabalho individual e em equipa",
+    "pl": "Praca indywidualna i zespołowa",
+    "hu": "Egyéni és csoportos munka",
+    "el": "Ατομική και ομαδική εργασία",
+    "kk": "Жеке және командада жұмыс істеу",
+    "uz": "Yakka va jamoada ishlash"
   },
   {
     "code": "punct_present",
@@ -133,7 +175,13 @@
     "fr": "Ponctualité et sens de la présentation",
     "de": "Pünktlichkeit und Präsentationsgeschick",
     "it": "Puntualità e capacità di presentazione",
-    "tr": "Dakiklik ve sunum becerisi"
+    "tr": "Dakiklik ve sunum becerisi",
+    "pt": "Pontualidade e capacidade de apresentação",
+    "pl": "Punktualność i umiejętności prezentacji",
+    "hu": "Pontosság és előadói készség",
+    "el": "Συνέπεια και δεξιότητες παρουσίασης",
+    "kk": "Дәлдік және таныстыру дағдылары",
+    "uz": "Vaqtga rioya qilish va taqdimot koʻnikmalari"
   },
   {
     "code": "pressure_work",
@@ -150,7 +198,13 @@
     "fr": "Travail sous pression",
     "de": "Arbeiten unter Druck",
     "it": "Lavoro sotto pressione",
-    "tr": "Baskı altında çalışma"
+    "tr": "Baskı altında çalışma",
+    "pt": "Trabalho sob pressão",
+    "pl": "Praca pod presją",
+    "hu": "Munka nyomás alatt",
+    "el": "Εργασία υπό πίεση",
+    "kk": "Қысым астында жұмыс істеу",
+    "uz": "Bosim ostida ishlash"
   },
   {
     "code": "1c",
@@ -167,7 +221,13 @@
     "fr": "Comptabilité 1C",
     "de": "1C Buchhaltung",
     "it": "Contabilità 1C",
-    "tr": "1C Muhasebe"
+    "tr": "1C Muhasebe",
+    "pt": "1C Contabilidade",
+    "pl": "Księgowość 1C",
+    "hu": "1C könyvelés",
+    "el": "Λογιστική 1C",
+    "kk": "1С бухгалтерия",
+    "uz": "1C Buxgalteriya"
   },
   {
     "code": "autocad",
@@ -184,7 +244,13 @@
     "fr": "AutoCAD",
     "de": "AutoCAD",
     "it": "AutoCAD",
-    "tr": "AutoCAD"
+    "tr": "AutoCAD",
+    "pt": "AutoCAD",
+    "pl": "AutoCAD",
+    "hu": "AutoCAD",
+    "el": "AutoCAD",
+    "kk": "AutoCAD",
+    "uz": "AutoCAD"
   },
   {
     "code": "photoshop",
@@ -201,7 +267,13 @@
     "fr": "Adobe Photoshop",
     "de": "Adobe Photoshop",
     "it": "Adobe Photoshop",
-    "tr": "Adobe Photoshop"
+    "tr": "Adobe Photoshop",
+    "pt": "Adobe Photoshop",
+    "pl": "Adobe Photoshop",
+    "hu": "Adobe Photoshop",
+    "el": "Adobe Photoshop",
+    "kk": "Adobe Photoshop",
+    "uz": "Adobe Photoshop"
   },
   {
     "code": "javascript",
@@ -218,7 +290,13 @@
     "fr": "JavaScript",
     "de": "JavaScript",
     "it": "JavaScript",
-    "tr": "JavaScript"
+    "tr": "JavaScript",
+    "pt": "JavaScript",
+    "pl": "JavaScript",
+    "hu": "JavaScript",
+    "el": "JavaScript",
+    "kk": "JavaScript",
+    "uz": "JavaScript"
   },
   {
     "code": "painting",
@@ -235,7 +313,13 @@
     "fr": "Dessin",
     "de": "Zeichnen",
     "it": "Disegno",
-    "tr": "Resim çizme"
+    "tr": "Resim çizme",
+    "pt": "Desenho",
+    "pl": "Rysowanie",
+    "hu": "Rajzolás",
+    "el": "Ζωγραφική",
+    "kk": "Сурет салу",
+    "uz": "Rasm chizish"
   },
   {
     "code": "selling",
@@ -252,7 +336,13 @@
     "fr": "Vente",
     "de": "Verkauf",
     "it": "Vendita",
-    "tr": "Satış"
+    "tr": "Satış",
+    "pt": "Vendas",
+    "pl": "Sprzedaż",
+    "hu": "Értékesítés",
+    "el": "Πωλήσεις",
+    "kk": "Сату",
+    "uz": "Sotish"
   },
   {
     "code": "management",
@@ -269,7 +359,13 @@
     "fr": "Management",
     "de": "Unternehmensführung",
     "it": "Management",
-    "tr": "Yöneticilik"
+    "tr": "Yöneticilik",
+    "pt": "Gestão",
+    "pl": "Zarządzanie",
+    "hu": "Menedzsment",
+    "el": "Διοίκηση",
+    "kk": "Басқару",
+    "uz": "Menejment"
   },
   {
     "code": "illustrator",
@@ -286,7 +382,13 @@
     "fr": "Adobe Illustrator",
     "de": "Adobe Illustrator",
     "it": "Adobe Illustrator",
-    "tr": "Adobe Illustrator"
+    "tr": "Adobe Illustrator",
+    "pt": "Adobe Illustrator",
+    "pl": "Adobe Illustrator",
+    "hu": "Adobe Illustrator",
+    "el": "Adobe Illustrator",
+    "kk": "Adobe Illustrator",
+    "uz": "Adobe Illustrator"
   },
   {
     "code": "organizing",
@@ -303,7 +405,13 @@
     "fr": "Sens de l'organisation",
     "de": "Organisationsgeschick",
     "it": "Capacità organizzativa",
-    "tr": "Organizasyon becerisi"
+    "tr": "Organizasyon becerisi",
+    "pt": "Capacidade de organização",
+    "pl": "Zdolności organizacyjne",
+    "hu": "Szervezőkészség",
+    "el": "Οργανωτική ικανότητα",
+    "kk": "Ұйымдастыру дағдысы",
+    "uz": "Tashkilotchilik qobiliyati"
   },
   {
     "code": "time_management",
@@ -320,7 +428,13 @@
     "fr": "Gestion du temps",
     "de": "Zeitmanagement",
     "it": "Gestione del tempo",
-    "tr": "Zaman yönetimi"
+    "tr": "Zaman yönetimi",
+    "pt": "Gestão do tempo",
+    "pl": "Zarządzanie czasem",
+    "hu": "Időgazdálkodás",
+    "el": "Διαχείριση χρόνου",
+    "kk": "Уақытты басқару",
+    "uz": "Vaqtni boshqarish"
   },
   {
     "code": "conflict_solving",
@@ -337,7 +451,13 @@
     "fr": "Résolution des conflits",
     "de": "Konfliktlösung",
     "it": "Risoluzione dei conflitti",
-    "tr": "Çatışma çözümü"
+    "tr": "Çatışma çözümü",
+    "pt": "Resolução de conflitos",
+    "pl": "Rozwiązywanie konfliktów",
+    "hu": "Konfliktusmegoldás",
+    "el": "Επίλυση συγκρούσεων",
+    "kk": "Қайшылықтарды шешу",
+    "uz": "Ziddiyatlarni hal qilish"
   },
   {
     "code": "critical_thinking",
@@ -354,7 +474,13 @@
     "fr": "Esprit critique",
     "de": "Kritisches Denken",
     "it": "Pensiero critico",
-    "tr": "Eleştirel düşünme"
+    "tr": "Eleştirel düşünme",
+    "pt": "Pensamento crítico",
+    "pl": "Krytyczne myślenie",
+    "hu": "Kritikus gondolkodás",
+    "el": "Κριτική σκέψη",
+    "kk": "Сын тұрғысынан ойлау",
+    "uz": "Tanqidiy fikrlash"
   },
   {
     "code": "project_planning",
@@ -371,7 +497,13 @@
     "fr": "Planification de projet",
     "de": "Projektplanung",
     "it": "Pianificazione di progetto",
-    "tr": "Proje planlama"
+    "tr": "Proje planlama",
+    "pt": "Planeamento de projetos",
+    "pl": "Planowanie projektów",
+    "hu": "Projekttervezés",
+    "el": "Σχεδιασμός έργου",
+    "kk": "Жобаны жоспарлау",
+    "uz": "Loyihani rejalashtirish"
   },
   {
     "code": "gantt",
@@ -388,7 +520,13 @@
     "fr": "Diagrammes de Gantt",
     "de": "Gantt-Diagramme",
     "it": "Diagrammi di Gantt",
-    "tr": "Gantt şemaları"
+    "tr": "Gantt şemaları",
+    "pt": "Diagramas de Gantt",
+    "pl": "Wykresy Gantta",
+    "hu": "Gantt-diagramok",
+    "el": "Διαγράμματα Gantt",
+    "kk": "Гант диаграммалары",
+    "uz": "Gantt diagrammalari"
   },
   {
     "code": "risk_manage",
@@ -405,7 +543,13 @@
     "fr": "Gestion des risques",
     "de": "Risikomanagement",
     "it": "Gestione dei rischi",
-    "tr": "Risk yönetimi"
+    "tr": "Risk yönetimi",
+    "pt": "Gestão de riscos",
+    "pl": "Zarządzanie ryzykiem",
+    "hu": "Kockázatkezelés",
+    "el": "Διαχείριση κινδύνου",
+    "kk": "Тәуекелдерді басқару",
+    "uz": "Risklarni boshqarish"
   },
   {
     "code": "project_management",
@@ -422,7 +566,13 @@
     "fr": "Gestion de projet",
     "de": "Projektmanagement",
     "it": "Gestione di progetti",
-    "tr": "Proje yönetimi"
+    "tr": "Proje yönetimi",
+    "pt": "Gestão de projetos",
+    "pl": "Zarządzanie projektami",
+    "hu": "Projektmenedzsment",
+    "el": "Διαχείριση έργων",
+    "kk": "Жобаны басқару",
+    "uz": "Loyihalarni boshqarish"
   },
   {
     "code": "analytical_thinking",
@@ -439,7 +589,13 @@
     "fr": "Pensée analytique",
     "de": "Analytisches Denken",
     "it": "Pensiero analitico",
-    "tr": "Analitik düşünme"
+    "tr": "Analitik düşünme",
+    "pt": "Pensamento analítico",
+    "pl": "Myślenie analityczne",
+    "hu": "Analitikus gondolkodás",
+    "el": "Αναλυτική σκέψη",
+    "kk": "Аналитикалық ойлау",
+    "uz": "Analitik fikrlash"
   },
   {
     "code": "cooking_skill",
@@ -456,7 +612,13 @@
     "fr": "Cuisine",
     "de": "Kochen",
     "it": "Cucina",
-    "tr": "Aşçılık"
+    "tr": "Aşçılık",
+    "pt": "Culinária",
+    "pl": "Gotowanie",
+    "hu": "Főzés",
+    "el": "Μαγειρική",
+    "kk": "Аспаздық",
+    "uz": "Oshpazlik"
   },
   {
     "code": "phone_sales",
@@ -473,7 +635,13 @@
     "fr": "Vente par téléphone",
     "de": "Telefonverkauf",
     "it": "Vendita telefonica",
-    "tr": "Telefonla satış"
+    "tr": "Telefonla satış",
+    "pt": "Vendas por telefone",
+    "pl": "Umiejętności sprzedaży telefonicznej",
+    "hu": "Telefonos értékesítési készség",
+    "el": "Δεξιότητες τηλεφωνικών πωλήσεων",
+    "kk": "Телефон арқылы сату",
+    "uz": "Telefon orqali sotish koʻnikmasi"
   },
   {
     "code": "convince",
@@ -490,7 +658,13 @@
     "fr": "Force de persuasion",
     "de": "Überzeugungskraft",
     "it": "Capacità di persuasione",
-    "tr": "İkna kabiliyeti"
+    "tr": "İkna kabiliyeti",
+    "pt": "Capacidade de persuasão",
+    "pl": "Zdolność przekonywania",
+    "hu": "Meggyőzőképesség",
+    "el": "Ικανότητα πειθώς",
+    "kk": "Сендіру қабілеті",
+    "uz": "Ishontirish qobiliyati"
   },
   {
     "code": "teaching",
@@ -507,7 +681,13 @@
     "fr": "Compétences pédagogiques",
     "de": "Didaktische Fähigkeiten",
     "it": "Capacità didattiche",
-    "tr": "Öğretme becerisi"
+    "tr": "Öğretme becerisi",
+    "pt": "Capacidade de ensino",
+    "pl": "Umiejętności dydaktyczne",
+    "hu": "Tanítási készség",
+    "el": "Διδακτική ικανότητα",
+    "kk": "Оқытушылық дағдысы",
+    "uz": "Oʻqitish qobiliyati"
   },
   {
     "code": "tax_codex",
@@ -524,7 +704,13 @@
     "fr": "Connaissance du code fiscal",
     "de": "Kenntnis des Steuerrechts",
     "it": "Conoscenza del codice fiscale",
-    "tr": "Vergi mevzuatı bilgisi"
+    "tr": "Vergi mevzuatı bilgisi",
+    "pt": "Conhecimento do código fiscal",
+    "pl": "Znajomość kodeksu podatkowego",
+    "hu": "Adótörvény ismerete",
+    "el": "Γνώση του φορολογικού κώδικα",
+    "kk": "Салық кодексін білу",
+    "uz": "Soliq kodeksini bilish"
   },
   {
     "code": "cash_book",
@@ -541,7 +727,13 @@
     "fr": "Tenue du livre de caisse",
     "de": "Führung des Kassenbuchs",
     "it": "Tenuta del libro cassa",
-    "tr": "Kasa defteri tutma"
+    "tr": "Kasa defteri tutma",
+    "pt": "Gestão do livro de caixa",
+    "pl": "Prowadzenie księgi kasowej",
+    "hu": "Pénztárkönyv vezetése",
+    "el": "Τήρηση ταμειακού βιβλίου",
+    "kk": "Касса кітабын жүргізу",
+    "uz": "Kassa kitobini yuritish"
   },
   {
     "code": "warehouse_book",
@@ -558,7 +750,13 @@
     "fr": "Comptabilité d'entrepôt",
     "de": "Lagerbuchhaltung",
     "it": "Contabilità di magazzino",
-    "tr": "Ambar muhasebesi"
+    "tr": "Ambar muhasebesi",
+    "pt": "Contabilidade de armazém",
+    "pl": "Księgowość magazynowa",
+    "hu": "Raktári nyilvántartás vezetése",
+    "el": "Λογιστική αποθήκης",
+    "kk": "Қойма есебін жүргізу",
+    "uz": "Ombor hisobini yuritish"
   },
   {
     "code": "inventories",
@@ -575,7 +773,13 @@
     "fr": "Réalisation d'inventaires",
     "de": "Durchführung von Inventuren",
     "it": "Realizzazione di inventari",
-    "tr": "Envanter sayımı yapma"
+    "tr": "Envanter sayımı yapma",
+    "pt": "Realização de inventários",
+    "pl": "Przeprowadzanie inwentaryzacji",
+    "hu": "Leltározás",
+    "el": "Διεξαγωγή απογραφών",
+    "kk": "Түгендеу жүргізу",
+    "uz": "Inventarizatsiya oʻtkazish"
   },
   {
     "code": "reconciliation_acts",
@@ -592,7 +796,13 @@
     "fr": "Établissement de procès-verbaux de rapprochement",
     "de": "Erstellung von Abstimmungsprotokollen",
     "it": "Redazione di verbali di riconciliazione",
-    "tr": "Mutabakat tutanağı düzenleme"
+    "tr": "Mutabakat tutanağı düzenleme",
+    "pt": "Elaboração de autos de reconciliação",
+    "pl": "Sporządzanie protokołów uzgodnień",
+    "hu": "Egyeztetési jegyzőkönyvek készítése",
+    "el": "Σύνταξη πρακτικών συμφωνίας",
+    "kk": "Салыстыру актілерін жасау",
+    "uz": "Solishtirish dalolatnomalarini tuzish"
   },
   {
     "code": "computer_knowledge",
@@ -609,7 +819,13 @@
     "fr": "Compétences informatiques",
     "de": "Computerkenntnisse",
     "it": "Competenze informatiche",
-    "tr": "Bilgisayar bilgisi"
+    "tr": "Bilgisayar bilgisi",
+    "pt": "Conhecimentos informáticos",
+    "pl": "Umiejętności komputerowe",
+    "hu": "Számítógépes ismeretek",
+    "el": "Γνώσεις Η/Υ",
+    "kk": "Компьютер білімі",
+    "uz": "Kompyuter bilimlari"
   },
   {
     "code": "css",
@@ -626,7 +842,13 @@
     "fr": "CSS",
     "de": "CSS",
     "it": "CSS",
-    "tr": "CSS"
+    "tr": "CSS",
+    "pt": "CSS",
+    "pl": "CSS",
+    "hu": "CSS",
+    "el": "CSS",
+    "kk": "CSS",
+    "uz": "CSS"
   },
   {
     "code": "python",
@@ -643,7 +865,13 @@
     "fr": "Python",
     "de": "Python",
     "it": "Python",
-    "tr": "Python"
+    "tr": "Python",
+    "pt": "Linguagem de programação Python",
+    "pl": "Język programowania Python",
+    "hu": "Python programozási nyelv",
+    "el": "Γλώσσα προγραμματισμού Python",
+    "kk": "Python бағдарламалау тілі",
+    "uz": "Python dasturlash tili"
   },
   {
     "code": "agility",
@@ -660,7 +888,13 @@
     "fr": "Agilité",
     "de": "Agilität",
     "it": "Agilità",
-    "tr": "Çeviklik"
+    "tr": "Çeviklik",
+    "pt": "Agilidade",
+    "pl": "Zwinność",
+    "hu": "Agilitás",
+    "el": "Ευελιξία",
+    "kk": "Икемділік",
+    "uz": "Chaqqonlik"
   },
   {
     "code": "cplusplus",
@@ -677,7 +911,13 @@
     "fr": "C++",
     "de": "C++",
     "it": "C++",
-    "tr": "C++"
+    "tr": "C++",
+    "pt": "C++",
+    "pl": "C++",
+    "hu": "C++",
+    "el": "C++",
+    "kk": "C++",
+    "uz": "C++"
   },
   {
     "code": "research",
@@ -694,7 +934,13 @@
     "fr": "Recherche",
     "de": "Recherche",
     "it": "Ricerca",
-    "tr": "Araştırma"
+    "tr": "Araştırma",
+    "pt": "Investigação",
+    "pl": "Badania",
+    "hu": "Kutatás",
+    "el": "Έρευνα",
+    "kk": "Зерттеу",
+    "uz": "Tadqiqot"
   },
   {
     "code": "sales",
@@ -711,7 +957,13 @@
     "fr": "Compétences en vente",
     "de": "Verkaufskompetenz",
     "it": "Competenze di vendita",
-    "tr": "Satış becerisi"
+    "tr": "Satış becerisi",
+    "pt": "Capacidade de vendas",
+    "pl": "Umiejętności sprzedażowe",
+    "hu": "Értékesítési készség",
+    "el": "Δεξιότητες πωλήσεων",
+    "kk": "Сату дағдылары",
+    "uz": "Sotish koʻnikmalari"
   },
   {
     "code": "playing_piano",
@@ -728,7 +980,13 @@
     "fr": "Jeu du piano",
     "de": "Klavierspiel",
     "it": "Suonare il pianoforte",
-    "tr": "Piyano çalma"
+    "tr": "Piyano çalma",
+    "pt": "Tocar piano",
+    "pl": "Gra na pianinie",
+    "hu": "Zongorázás",
+    "el": "Παίξιμο πιάνου",
+    "kk": "Пианино ойнау",
+    "uz": "Pianino chalish"
   },
   {
     "code": "negotiation",
@@ -745,7 +1003,13 @@
     "fr": "Conduite de négociations",
     "de": "Verhandlungsführung",
     "it": "Conduzione di trattative",
-    "tr": "Müzakere yürütme"
+    "tr": "Müzakere yürütme",
+    "pt": "Capacidade de negociação",
+    "pl": "Prowadzenie negocjacji",
+    "hu": "Tárgyalási készség",
+    "el": "Δεξιότητες διαπραγμάτευσης",
+    "kk": "Келіссөздер жүргізу",
+    "uz": "Muzokaralar olib borish"
   },
   {
     "code": "stress_resilience",
@@ -762,7 +1026,13 @@
     "fr": "Résistance au stress",
     "de": "Stressresistenz",
     "it": "Resistenza allo stress",
-    "tr": "Stres dayanıklılığı"
+    "tr": "Stres dayanıklılığı",
+    "pt": "Resiliência ao stress",
+    "pl": "Odporność na stres",
+    "hu": "Stressztolerancia",
+    "el": "Ανθεκτικότητα στο άγχος",
+    "kk": "Стресске төзімділік",
+    "uz": "Stressga chidamlilik"
   },
   {
     "code": "oracle_sql",
@@ -779,7 +1049,13 @@
     "fr": "Oracle SQL",
     "de": "Oracle SQL",
     "it": "Oracle SQL",
-    "tr": "Oracle SQL"
+    "tr": "Oracle SQL",
+    "pt": "Oracle SQL",
+    "pl": "Oracle SQL",
+    "hu": "Oracle SQL",
+    "el": "Oracle SQL",
+    "kk": "Oracle SQL",
+    "uz": "Oracle SQL"
   },
   {
     "code": "smm",
@@ -796,7 +1072,13 @@
     "fr": "SMM (marketing sur les réseaux sociaux)",
     "de": "SMM (Social-Media-Marketing)",
     "it": "SMM (social media marketing)",
-    "tr": "SMM (sosyal medya pazarlaması)"
+    "tr": "SMM (sosyal medya pazarlaması)",
+    "pt": "SMM (marketing nas redes sociais)",
+    "pl": "SMM (marketing w mediach społecznościowych)",
+    "hu": "SMM (közösségi média marketing)",
+    "el": "SMM (Μάρκετινγκ Μέσων Κοινωνικής Δικτύωσης)",
+    "kk": "SMM (әлеуметтік желілерде маркетинг)",
+    "uz": "SMM (ijtimoiy tarmoqlarda marketing)"
   },
   {
     "code": "social_relations",
@@ -813,7 +1095,13 @@
     "fr": "Relations sociales",
     "de": "Soziale Beziehungen",
     "it": "Relazioni sociali",
-    "tr": "Sosyal ilişkiler"
+    "tr": "Sosyal ilişkiler",
+    "pt": "Relações sociais",
+    "pl": "Relacje społeczne",
+    "hu": "Társas kapcsolatok",
+    "el": "Κοινωνικές σχέσεις",
+    "kk": "Әлеуметтік қатынастар",
+    "uz": "Ijtimoiy munosabatlar"
   },
   {
     "code": "reactjs",
@@ -830,7 +1118,13 @@
     "fr": "ReactJS",
     "de": "ReactJS",
     "it": "ReactJS",
-    "tr": "ReactJS"
+    "tr": "ReactJS",
+    "pt": "ReactJS",
+    "pl": "ReactJS",
+    "hu": "ReactJS",
+    "el": "ReactJS",
+    "kk": "ReactJS",
+    "uz": "ReactJS"
   },
   {
     "code": "next_js",
@@ -847,7 +1141,13 @@
     "fr": "Next.js",
     "de": "Next.js",
     "it": "Next.js",
-    "tr": "Next.js"
+    "tr": "Next.js",
+    "pt": "Next.js",
+    "pl": "Next.js",
+    "hu": "Next.js",
+    "el": "Next.js",
+    "kk": "Next.js",
+    "uz": "Next.js"
   },
   {
     "code": "microfrontend",
@@ -864,7 +1164,13 @@
     "fr": "Micro-frontend",
     "de": "Micro-Frontend",
     "it": "Micro-frontend",
-    "tr": "Mikro frontend"
+    "tr": "Mikro frontend",
+    "pt": "Microfrontends",
+    "pl": "Mikrofrontend",
+    "hu": "Mikrofrontend",
+    "el": "Αρχιτεκτονική microfrontend",
+    "kk": "Микрофронтенд",
+    "uz": "Mikrofrontend"
   },
   {
     "code": "language_learning",
@@ -881,7 +1187,13 @@
     "fr": "Aptitude à apprendre les langues",
     "de": "Sprachlernfähigkeit",
     "it": "Attitudine ad apprendere le lingue",
-    "tr": "Dil öğrenme becerisi"
+    "tr": "Dil öğrenme becerisi",
+    "pt": "Capacidade de aprendizagem de línguas",
+    "pl": "Umiejętność uczenia się języków",
+    "hu": "Nyelvtanulási készség",
+    "el": "Δεξιότητες εκμάθησης γλωσσών",
+    "kk": "Тіл үйрену дағдысы",
+    "uz": "Til oʻrganish qobiliyati"
   },
   {
     "code": "marketing",
@@ -898,7 +1210,13 @@
     "fr": "Marketing",
     "de": "Marketing",
     "it": "Marketing",
-    "tr": "Pazarlama"
+    "tr": "Pazarlama",
+    "pt": "Marketing",
+    "pl": "Marketing",
+    "hu": "Marketing",
+    "el": "Μάρκετινγκ",
+    "kk": "Маркетинг",
+    "uz": "Marketing"
   },
   {
     "code": "first_aid",
@@ -915,7 +1233,13 @@
     "fr": "Premiers secours",
     "de": "Erste Hilfe",
     "it": "Primo soccorso",
-    "tr": "İlk yardım"
+    "tr": "İlk yardım",
+    "pt": "Primeiros socorros",
+    "pl": "Pierwsza pomoc",
+    "hu": "Elsősegély",
+    "el": "Πρώτες βοήθειες",
+    "kk": "Алғашқы медициналық көмек",
+    "uz": "Birinchi tibbiy yordam"
   },
   {
     "code": "presentation",
@@ -932,7 +1256,13 @@
     "fr": "Compétences en présentation",
     "de": "Präsentationsfähigkeit",
     "it": "Capacità di presentazione",
-    "tr": "Sunum becerisi"
+    "tr": "Sunum becerisi",
+    "pt": "Capacidade de apresentação",
+    "pl": "Umiejętności prezentacyjne",
+    "hu": "Előadói készség",
+    "el": "Δεξιότητες παρουσίασης",
+    "kk": "Таныстыру дағдылары",
+    "uz": "Taqdimot koʻnikmalari"
   },
   {
     "code": "writing_articles",
@@ -949,7 +1279,13 @@
     "fr": "Rédaction d'articles",
     "de": "Verfassen von Artikeln",
     "it": "Redazione di articoli",
-    "tr": "Makale yazma"
+    "tr": "Makale yazma",
+    "pt": "Redação de artigos",
+    "pl": "Pisanie artykułów",
+    "hu": "Cikkírás",
+    "el": "Συγγραφή άρθρων",
+    "kk": "Мақала жазу",
+    "uz": "Maqola yozish"
   },
   {
     "code": "strategic_planning",
@@ -966,7 +1302,13 @@
     "fr": "Planification stratégique",
     "de": "Strategische Planung",
     "it": "Pianificazione strategica",
-    "tr": "Stratejik planlama"
+    "tr": "Stratejik planlama",
+    "pt": "Planeamento estratégico",
+    "pl": "Planowanie strategiczne",
+    "hu": "Stratégiai tervezés",
+    "el": "Στρατηγικός σχεδιασμός",
+    "kk": "Стратегиялық жоспарлау",
+    "uz": "Strategik rejalashtirish"
   },
   {
     "code": "creative_thinking",
@@ -983,7 +1325,13 @@
     "fr": "Pensée créative",
     "de": "Kreatives Denken",
     "it": "Pensiero creativo",
-    "tr": "Yaratıcı düşünme"
+    "tr": "Yaratıcı düşünme",
+    "pt": "Pensamento criativo",
+    "pl": "Kreatywne myślenie",
+    "hu": "Kreatív gondolkodás",
+    "el": "Δημιουργική σκέψη",
+    "kk": "Креативті ойлау",
+    "uz": "Ijodiy fikrlash"
   },
   {
     "code": "baking_sweets",
@@ -1000,7 +1348,13 @@
     "fr": "Pâtisserie",
     "de": "Süßwaren backen",
     "it": "Pasticceria",
-    "tr": "Tatlı yapımı"
+    "tr": "Tatlı yapımı",
+    "pt": "Confeitaria",
+    "pl": "Wypiek słodyczy",
+    "hu": "Édességek sütése",
+    "el": "Ζαχαροπλαστική",
+    "kk": "Тәттілер пісіру",
+    "uz": "Shirinliklar pishirish"
   },
   {
     "code": "weaving",
@@ -1017,7 +1371,13 @@
     "fr": "Tissage",
     "de": "Weben",
     "it": "Tessitura",
-    "tr": "Dokuma"
+    "tr": "Dokuma",
+    "pt": "Tecelagem",
+    "pl": "Tkactwo",
+    "hu": "Szövés",
+    "el": "Υφαντική",
+    "kk": "Тоқу",
+    "uz": "Toʻqimachilik"
   },
   {
     "code": "copywriting",
@@ -1034,7 +1394,13 @@
     "fr": "Rédaction publicitaire",
     "de": "Werbetexten",
     "it": "Copywriting",
-    "tr": "Metin yazarlığı"
+    "tr": "Metin yazarlığı",
+    "pt": "Copywriting",
+    "pl": "Copywriting",
+    "hu": "Szövegírás",
+    "el": "Διαφημιστική συγγραφή",
+    "kk": "Копирайтинг",
+    "uz": "Kopirayting"
   },
   {
     "code": "java",
@@ -1051,7 +1417,13 @@
     "fr": "Java",
     "de": "Java",
     "it": "Java",
-    "tr": "Java"
+    "tr": "Java",
+    "pt": "Linguagem de programação Java",
+    "pl": "Język programowania Java",
+    "hu": "Java programozási nyelv",
+    "el": "Γλώσσα προγραμματισμού Java",
+    "kk": "Java бағдарламалау тілі",
+    "uz": "Java dasturlash tili"
   },
   {
     "code": "injecting",
@@ -1068,7 +1440,13 @@
     "fr": "Réalisation d'injections",
     "de": "Injektionen verabreichen",
     "it": "Somministrazione di iniezioni",
-    "tr": "Enjeksiyon yapma"
+    "tr": "Enjeksiyon yapma",
+    "pt": "Administração de injeções",
+    "pl": "Wykonywanie zastrzyków",
+    "hu": "Injekció adása",
+    "el": "Χορήγηση ενέσεων",
+    "kk": "Инъекция жасау",
+    "uz": "Ukol qilish"
   },
   {
     "code": "patientCare",
@@ -1085,7 +1463,13 @@
     "fr": "Soins aux patients",
     "de": "Patientenbetreuung",
     "it": "Assistenza ai pazienti",
-    "tr": "Hasta bakımı"
+    "tr": "Hasta bakımı",
+    "pt": "Cuidados ao doente",
+    "pl": "Opieka nad pacjentem",
+    "hu": "Betegellátás",
+    "el": "Φροντίδα ασθενών",
+    "kk": "Науқастарға қамқорлық",
+    "uz": "Bemorlarga gʻamxoʻrlik qilish"
   },
   {
     "code": "woundDressing",
@@ -1102,7 +1486,13 @@
     "fr": "Pansement des plaies",
     "de": "Wundverbände",
     "it": "Medicazione delle ferite",
-    "tr": "Yara pansumanı"
+    "tr": "Yara pansumanı",
+    "pt": "Tratamento de feridas",
+    "pl": "Opatrywanie ran",
+    "hu": "Sebkötés",
+    "el": "Επίδεση πληγών",
+    "kk": "Жараны таңу",
+    "uz": "Yara bogʻlash"
   },
   {
     "code": "vitalSignsMonitoring",
@@ -1119,7 +1509,13 @@
     "fr": "Surveillance des signes vitaux",
     "de": "Überwachung der Vitalzeichen",
     "it": "Monitoraggio dei parametri vitali",
-    "tr": "Yaşam belirtilerini izleme"
+    "tr": "Yaşam belirtilerini izleme",
+    "pt": "Monitorização de sinais vitais",
+    "pl": "Monitorowanie parametrów życiowych",
+    "hu": "Vitális paraméterek monitorozása",
+    "el": "Παρακολούθηση ζωτικών σημείων",
+    "kk": "Тыныс-тіршілік көрсеткіштерін бақылау",
+    "uz": "Hayotiy koʻrsatkichlarni kuzatish"
   },
   {
     "code": "medicationAdministration",
@@ -1136,7 +1532,13 @@
     "fr": "Administration de médicaments",
     "de": "Verabreichung von Medikamenten",
     "it": "Somministrazione di farmaci",
-    "tr": "İlaç uygulama"
+    "tr": "İlaç uygulama",
+    "pt": "Administração de medicação",
+    "pl": "Podawanie leków",
+    "hu": "Gyógyszerek beadása",
+    "el": "Χορήγηση φαρμακευτικής αγωγής",
+    "kk": "Дәрі-дәрмек беру",
+    "uz": "Dori-darmon berish"
   },
   {
     "code": "emergencyCare",
@@ -1153,7 +1555,13 @@
     "fr": "Soins d'urgence",
     "de": "Notfallversorgung",
     "it": "Cure di emergenza",
-    "tr": "Acil bakım"
+    "tr": "Acil bakım",
+    "pt": "Cuidados de emergência",
+    "pl": "Pomoc w stanach nagłych",
+    "hu": "Sürgősségi ellátás",
+    "el": "Επείγουσα φροντίδα",
+    "kk": "Жедел жәрдем көрсету",
+    "uz": "Shoshilinch tibbiy yordam"
   },
   {
     "code": "infectionControl",
@@ -1170,7 +1578,13 @@
     "fr": "Contrôle des infections",
     "de": "Infektionskontrolle",
     "it": "Controllo delle infezioni",
-    "tr": "Enfeksiyon kontrolü"
+    "tr": "Enfeksiyon kontrolü",
+    "pt": "Controlo de infeções",
+    "pl": "Kontrola zakażeń",
+    "hu": "Fertőzésellenőrzés",
+    "el": "Έλεγχος λοιμώξεων",
+    "kk": "Инфекцияны бақылау",
+    "uz": "Infeksiya nazorati"
   },
   {
     "code": "surveillance",
@@ -1187,7 +1601,13 @@
     "fr": "Surveillance",
     "de": "Beobachtung",
     "it": "Sorveglianza",
-    "tr": "Gözetim"
+    "tr": "Gözetim",
+    "pt": "Vigilância",
+    "pl": "Nadzór",
+    "hu": "Megfigyelés",
+    "el": "Επιτήρηση",
+    "kk": "Бақылау",
+    "uz": "Kuzatuv"
   },
   {
     "code": "accessControl",
@@ -1204,7 +1624,13 @@
     "fr": "Contrôle d'accès",
     "de": "Zugangskontrolle",
     "it": "Controllo degli accessi",
-    "tr": "Giriş kontrolü"
+    "tr": "Giriş kontrolü",
+    "pt": "Controlo de acessos",
+    "pl": "Kontrola dostępu",
+    "hu": "Beléptetés-ellenőrzés",
+    "el": "Έλεγχος πρόσβασης",
+    "kk": "Кіру бақылауы",
+    "uz": "Kirishni nazorat qilish"
   },
   {
     "code": "patrolling",
@@ -1221,7 +1647,13 @@
     "fr": "Patrouille",
     "de": "Patrouillendienst",
     "it": "Servizio di pattuglia",
-    "tr": "Devriye görevi"
+    "tr": "Devriye görevi",
+    "pt": "Patrulhamento",
+    "pl": "Patrolowanie",
+    "hu": "Járőrözés",
+    "el": "Περιπολία",
+    "kk": "Кезекшілік ету",
+    "uz": "Patrul xizmati"
   },
   {
     "code": "reportingIncidents",
@@ -1238,7 +1670,13 @@
     "fr": "Signalement d'incidents",
     "de": "Meldung von Vorfällen",
     "it": "Segnalazione di incidenti",
-    "tr": "Olay bildirimi"
+    "tr": "Olay bildirimi",
+    "pt": "Comunicação de incidentes",
+    "pl": "Zgłaszanie incydentów",
+    "hu": "Események jelentése",
+    "el": "Αναφορά περιστατικών",
+    "kk": "Оқиғалар туралы хабарлау",
+    "uz": "Voqealar haqida xabar berish"
   },
   {
     "code": "financialReporting",
@@ -1255,7 +1693,13 @@
     "fr": "Reporting financier",
     "de": "Finanzberichterstattung",
     "it": "Reporting finanziario",
-    "tr": "Finansal raporlama"
+    "tr": "Finansal raporlama",
+    "pt": "Relatórios financeiros",
+    "pl": "Raportowanie finansowe",
+    "hu": "Pénzügyi jelentéskészítés",
+    "el": "Χρηματοοικονομικές αναφορές",
+    "kk": "Қаржылық есептілік",
+    "uz": "Moliyaviy hisobot tuzish"
   },
   {
     "code": "taxPreparation",
@@ -1272,7 +1716,13 @@
     "fr": "Préparation des déclarations fiscales",
     "de": "Steuererklärungen erstellen",
     "it": "Preparazione delle dichiarazioni fiscali",
-    "tr": "Vergi beyanı hazırlama"
+    "tr": "Vergi beyanı hazırlama",
+    "pt": "Preparação de impostos",
+    "pl": "Przygotowywanie deklaracji podatkowych",
+    "hu": "Adóbevallás elkészítése",
+    "el": "Φορολογική προετοιμασία",
+    "kk": "Салық дайындығы",
+    "uz": "Soliq hisobotlarini tayyorlash"
   },
   {
     "code": "budgeting",
@@ -1289,7 +1739,13 @@
     "fr": "Élaboration du budget",
     "de": "Budgeterstellung",
     "it": "Redazione del budget",
-    "tr": "Bütçe hazırlama"
+    "tr": "Bütçe hazırlama",
+    "pt": "Elaboração de orçamentos",
+    "pl": "Budżetowanie",
+    "hu": "Költségvetés-készítés",
+    "el": "Κατάρτιση προϋπολογισμού",
+    "kk": "Бюджет жасау",
+    "uz": "Byudjet tuzish"
   },
   {
     "code": "accountReconciliation",
@@ -1306,7 +1762,13 @@
     "fr": "Rapprochement des comptes",
     "de": "Kontenabstimmung",
     "it": "Riconciliazione dei conti",
-    "tr": "Hesap mutabakatı"
+    "tr": "Hesap mutabakatı",
+    "pt": "Reconciliação de contas",
+    "pl": "Uzgadnianie kont",
+    "hu": "Számlaegyeztetés",
+    "el": "Συμφωνία λογαριασμών",
+    "kk": "Шоттарды салыстыру",
+    "uz": "Hisoblarni solishtirish"
   },
   {
     "code": "payrollProcessing",
@@ -1323,7 +1785,13 @@
     "fr": "Traitement de la paie",
     "de": "Lohnabrechnung",
     "it": "Elaborazione delle paghe",
-    "tr": "Bordro işlemleri"
+    "tr": "Bordro işlemleri",
+    "pt": "Processamento salarial",
+    "pl": "Przetwarzanie wynagrodzeń",
+    "hu": "Bérszámfejtés",
+    "el": "Επεξεργασία μισθοδοσίας",
+    "kk": "Жалақыны есептеу",
+    "uz": "Ish haqini hisoblash"
   },
   {
     "code": "financialAnalysis",
@@ -1340,7 +1808,13 @@
     "fr": "Analyse financière",
     "de": "Finanzanalyse",
     "it": "Analisi finanziaria",
-    "tr": "Finansal analiz"
+    "tr": "Finansal analiz",
+    "pt": "Análise financeira",
+    "pl": "Analiza finansowa",
+    "hu": "Pénzügyi elemzés",
+    "el": "Χρηματοοικονομική ανάλυση",
+    "kk": "Қаржылық талдау",
+    "uz": "Moliyaviy tahlil"
   },
   {
     "code": "auditing",
@@ -1357,7 +1831,13 @@
     "fr": "Audit",
     "de": "Wirtschaftsprüfung",
     "it": "Revisione contabile",
-    "tr": "Denetim"
+    "tr": "Denetim",
+    "pt": "Auditoria",
+    "pl": "Audyt",
+    "hu": "Könyvvizsgálat",
+    "el": "Ελεγκτική",
+    "kk": "Аудит",
+    "uz": "Auditorlik"
   },
   {
     "code": "compliance",
@@ -1374,7 +1854,13 @@
     "fr": "Conformité",
     "de": "Compliance",
     "it": "Conformità",
-    "tr": "Uyum"
+    "tr": "Uyum",
+    "pt": "Conformidade",
+    "pl": "Zgodność z przepisami",
+    "hu": "Megfelelés",
+    "el": "Κανονιστική συμμόρφωση",
+    "kk": "Сәйкестік",
+    "uz": "Normativ talablarga muvofiqlik"
   },
   {
     "code": "interviewing",
@@ -1391,7 +1877,13 @@
     "fr": "Conduite d'entretiens",
     "de": "Interviews führen",
     "it": "Conduzione di interviste",
-    "tr": "Mülakat yapma"
+    "tr": "Mülakat yapma",
+    "pt": "Realização de entrevistas",
+    "pl": "Prowadzenie wywiadów",
+    "hu": "Interjúk lebonyolítása",
+    "el": "Διεξαγωγή συνεντεύξεων",
+    "kk": "Сұхбат жүргізу",
+    "uz": "Intervyu oʻtkazish"
   },
   {
     "code": "editing",
@@ -1408,7 +1900,13 @@
     "fr": "Révision de textes",
     "de": "Textredaktion",
     "it": "Revisione di testi",
-    "tr": "Metin düzenleme"
+    "tr": "Metin düzenleme",
+    "pt": "Edição",
+    "pl": "Redagowanie tekstów",
+    "hu": "Szerkesztés",
+    "el": "Επιμέλεια κειμένων",
+    "kk": "Редакциялау",
+    "uz": "Tahrir qilish"
   },
   {
     "code": "pressReleaseWriting",
@@ -1425,7 +1923,13 @@
     "fr": "Rédaction de communiqués de presse",
     "de": "Verfassen von Pressemitteilungen",
     "it": "Redazione di comunicati stampa",
-    "tr": "Basın bülteni yazma"
+    "tr": "Basın bülteni yazma",
+    "pt": "Redação de comunicados de imprensa",
+    "pl": "Pisanie komunikatów prasowych",
+    "hu": "Sajtóközlemény-írás",
+    "el": "Συγγραφή δελτίων τύπου",
+    "kk": "Баспасөз хабарламасын жазу",
+    "uz": "Matbuot xabarnomalarini yozish"
   },
   {
     "code": "newsEditing",
@@ -1442,7 +1946,13 @@
     "fr": "Édition d'actualités",
     "de": "Nachrichtenredaktion",
     "it": "Redazione di notizie",
-    "tr": "Haber editörlüğü"
+    "tr": "Haber editörlüğü",
+    "pt": "Edição de notícias",
+    "pl": "Redakcja wiadomości",
+    "hu": "Hírszerkesztés",
+    "el": "Επιμέλεια ειδήσεων",
+    "kk": "Жаңалықтарды редакциялау",
+    "uz": "Yangiliklarni tahrirlash"
   },
   {
     "code": "customerService",
@@ -1459,7 +1969,13 @@
     "fr": "Service client",
     "de": "Kundenservice",
     "it": "Servizio clienti",
-    "tr": "Müşteri hizmeti"
+    "tr": "Müşteri hizmeti",
+    "pt": "Atendimento ao cliente",
+    "pl": "Obsługa klienta",
+    "hu": "Ügyfélszolgálat",
+    "el": "Εξυπηρέτηση πελατών",
+    "kk": "Клиенттерге қызмет көрсету",
+    "uz": "Mijozlarga xizmat koʻrsatish"
   },
   {
     "code": "phoneHandling",
@@ -1476,7 +1992,13 @@
     "fr": "Réception d'appels",
     "de": "Telefonate führen",
     "it": "Gestione delle telefonate",
-    "tr": "Telefonla görüşme"
+    "tr": "Telefonla görüşme",
+    "pt": "Atendimento telefónico",
+    "pl": "Obsługa połączeń telefonicznych",
+    "hu": "Telefonos ügyintézés",
+    "el": "Διαχείριση τηλεφωνικών κλήσεων",
+    "kk": "Телефон қоңырауларын өңдеу",
+    "uz": "Telefon orqali muloqot qilish"
   },
   {
     "code": "appointmentScheduling",
@@ -1493,7 +2015,13 @@
     "fr": "Gestion des rendez-vous",
     "de": "Terminplanung",
     "it": "Gestione degli appuntamenti",
-    "tr": "Randevu planlama"
+    "tr": "Randevu planlama",
+    "pt": "Marcação de compromissos",
+    "pl": "Planowanie terminów",
+    "hu": "Időpontfoglalás kezelése",
+    "el": "Προγραμματισμός ραντεβού",
+    "kk": "Кездесулерді жоспарлау",
+    "uz": "Uchrashuvlarni rejalashtirish"
   },
   {
     "code": "greetingGuests",
@@ -1510,7 +2038,13 @@
     "fr": "Accueil des visiteurs",
     "de": "Gästeempfang",
     "it": "Accoglienza degli ospiti",
-    "tr": "Konukları karşılama"
+    "tr": "Konukları karşılama",
+    "pt": "Receção de hóspedes",
+    "pl": "Witanie gości",
+    "hu": "Vendégek fogadása",
+    "el": "Υποδοχή επισκεπτών",
+    "kk": "Қонақтарды қарсы алу",
+    "uz": "Mehmonlarni kutib olish"
   },
   {
     "code": "administrativeSupport",
@@ -1527,7 +2061,13 @@
     "fr": "Soutien administratif",
     "de": "Administrative Unterstützung",
     "it": "Supporto amministrativo",
-    "tr": "İdari destek"
+    "tr": "İdari destek",
+    "pt": "Apoio administrativo",
+    "pl": "Wsparcie administracyjne",
+    "hu": "Ügyviteli támogatás",
+    "el": "Διοικητική υποστήριξη",
+    "kk": "Әкімшілік қолдау",
+    "uz": "Ma'muriy yordam koʻrsatish"
   },
   {
     "code": "dataEntry",
@@ -1544,7 +2084,13 @@
     "fr": "Saisie de données",
     "de": "Datenerfassung",
     "it": "Inserimento dati",
-    "tr": "Veri girişi"
+    "tr": "Veri girişi",
+    "pt": "Introdução de dados",
+    "pl": "Wprowadzanie danych",
+    "hu": "Adatbevitel",
+    "el": "Καταχώριση δεδομένων",
+    "kk": "Деректерді енгізу",
+    "uz": "Ma'lumotlarni kiritish"
   },
   {
     "code": "frontDeskManagement",
@@ -1561,7 +2107,13 @@
     "fr": "Gestion de l'accueil",
     "de": "Empfangsmanagement",
     "it": "Gestione della reception",
-    "tr": "Resepsiyon yönetimi"
+    "tr": "Resepsiyon yönetimi",
+    "pt": "Gestão da receção",
+    "pl": "Zarządzanie recepcją",
+    "hu": "Recepció irányítása",
+    "el": "Διαχείριση ρεσεψιόν",
+    "kk": "Ресепшн жұмысын басқару",
+    "uz": "Qabulxona boshqaruvi"
   },
   {
     "code": "skinCare",
@@ -1578,7 +2130,13 @@
     "fr": "Soins de la peau",
     "de": "Hautpflege",
     "it": "Cura della pelle",
-    "tr": "Cilt bakımı"
+    "tr": "Cilt bakımı",
+    "pt": "Cuidados de pele",
+    "pl": "Pielęgnacja skóry",
+    "hu": "Bőrápolás",
+    "el": "Περιποίηση δέρματος",
+    "kk": "Тері күтімі",
+    "uz": "Teriga gʻamxoʻrlik qilish"
   },
   {
     "code": "facialTreatments",
@@ -1595,7 +2153,13 @@
     "fr": "Soins du visage",
     "de": "Gesichtsbehandlungen",
     "it": "Trattamenti viso",
-    "tr": "Yüz bakımı"
+    "tr": "Yüz bakımı",
+    "pt": "Tratamentos faciais",
+    "pl": "Zabiegi na twarz",
+    "hu": "Arckezelések",
+    "el": "Θεραπείες προσώπου",
+    "kk": "Бет күтімі процедуралары",
+    "uz": "Yuzga parvarish qilish"
   },
   {
     "code": "hairRemoval",
@@ -1612,7 +2176,13 @@
     "fr": "Épilation",
     "de": "Haarentfernung",
     "it": "Epilazione",
-    "tr": "Tüy alma"
+    "tr": "Tüy alma",
+    "pt": "Depilação",
+    "pl": "Depilacja",
+    "hu": "Szőrtelenítés",
+    "el": "Αποτρίχωση",
+    "kk": "Түк жою",
+    "uz": "Epilyatsiya"
   },
   {
     "code": "makeupApplication",
@@ -1629,7 +2199,13 @@
     "fr": "Application de maquillage",
     "de": "Make-up auflegen",
     "it": "Applicazione del trucco",
-    "tr": "Makyaj uygulama"
+    "tr": "Makyaj uygulama",
+    "pt": "Aplicação de maquilhagem",
+    "pl": "Wykonywanie makijażu",
+    "hu": "Sminkelés",
+    "el": "Εφαρμογή μακιγιάζ",
+    "kk": "Макияж жасау",
+    "uz": "Makiyaj qilish"
   },
   {
     "code": "manicurePedicure",
@@ -1646,7 +2222,13 @@
     "fr": "Manucure et pédicure",
     "de": "Manikür und Pediküre",
     "it": "Manicure e pedicure",
-    "tr": "Manikür ve pedikür"
+    "tr": "Manikür ve pedikür",
+    "pt": "Manicure e pedicure",
+    "pl": "Manicure i pedicure",
+    "hu": "Manikűr és pedikűr",
+    "el": "Μανικιούρ και πεντικιούρ",
+    "kk": "Маникюр және педикюр",
+    "uz": "Manikyur va pedikyur"
   },
   {
     "code": "nailArt",
@@ -1663,7 +2245,13 @@
     "fr": "Nail art",
     "de": "Nailart",
     "it": "Nail art",
-    "tr": "Tırnak sanatı"
+    "tr": "Tırnak sanatı",
+    "pt": "Arte em unhas",
+    "pl": "Zdobienie paznokci",
+    "hu": "Körömdíszítés",
+    "el": "Τέχνη νυχιών",
+    "kk": "Нейл-арт",
+    "uz": "Tirnoq san'ati"
   },
   {
     "code": "massageTherapy",
@@ -1680,7 +2268,13 @@
     "fr": "Massothérapie",
     "de": "Massagetherapie",
     "it": "Massoterapia",
-    "tr": "Masaj terapisi"
+    "tr": "Masaj terapisi",
+    "pt": "Terapia de massagem",
+    "pl": "Terapia masażem",
+    "hu": "Masszázsterápia",
+    "el": "Θεραπευτικό μασάζ",
+    "kk": "Массаж терапиясы",
+    "uz": "Massaj terapiyasi"
   },
   {
     "code": "antiAgingTreatments",
@@ -1697,7 +2291,13 @@
     "fr": "Soins anti-âge",
     "de": "Anti-Aging-Behandlungen",
     "it": "Trattamenti anti-età",
-    "tr": "Yaşlanma karşıtı bakım"
+    "tr": "Yaşlanma karşıtı bakım",
+    "pt": "Tratamentos antienvelhecimento",
+    "pl": "Zabiegi przeciwstarzeniowe",
+    "hu": "Öregedésgátló kezelések",
+    "el": "Αντιγηραντικές θεραπείες",
+    "kk": "Жасқа қарсы процедуралар",
+    "uz": "Yoshlanishga qarshi muolajalar"
   },
   {
     "code": "cashHandling",
@@ -1714,7 +2314,13 @@
     "fr": "Gestion des espèces",
     "de": "Bargeldhandhabung",
     "it": "Gestione del contante",
-    "tr": "Nakit yönetimi"
+    "tr": "Nakit yönetimi",
+    "pt": "Manuseamento de dinheiro",
+    "pl": "Obsługa gotówki",
+    "hu": "Készpénzkezelés",
+    "el": "Διαχείριση μετρητών",
+    "kk": "Қолма-қол ақшамен жұмыс",
+    "uz": "Naqd pul bilan ishlash"
   },
   {
     "code": "registerOperation",
@@ -1731,7 +2337,13 @@
     "fr": "Opérations de caisse",
     "de": "Kassenbedienung",
     "it": "Operazioni di cassa",
-    "tr": "Kasa işlemleri"
+    "tr": "Kasa işlemleri",
+    "pt": "Operação de caixa registadora",
+    "pl": "Obsługa kasy fiskalnej",
+    "hu": "Pénztárgép kezelése",
+    "el": "Χειρισμός ταμειακής μηχανής",
+    "kk": "Касса операциялары",
+    "uz": "Kassa apparatida ishlash"
   },
   {
     "code": "receiptIssuing",
@@ -1748,7 +2360,13 @@
     "fr": "Émission de reçus",
     "de": "Belegausgabe",
     "it": "Emissione di ricevute",
-    "tr": "Fiş verme"
+    "tr": "Fiş verme",
+    "pt": "Emissão de recibos",
+    "pl": "Wystawianie paragonów",
+    "hu": "Nyugtaadás",
+    "el": "Έκδοση αποδείξεων",
+    "kk": "Түбіртек беру",
+    "uz": "Kvitansiya berish"
   },
   {
     "code": "paymentVerification",
@@ -1765,7 +2383,13 @@
     "fr": "Vérification des paiements",
     "de": "Zahlungsprüfung",
     "it": "Verifica dei pagamenti",
-    "tr": "Ödeme doğrulama"
+    "tr": "Ödeme doğrulama",
+    "pt": "Verificação de pagamentos",
+    "pl": "Weryfikacja płatności",
+    "hu": "Fizetések ellenőrzése",
+    "el": "Επαλήθευση πληρωμών",
+    "kk": "Төлемдерді тексеру",
+    "uz": "Toʻlovlarni tekshirish"
   },
   {
     "code": "inventoryManagement",
@@ -1782,7 +2406,13 @@
     "fr": "Gestion des stocks",
     "de": "Bestandsverwaltung",
     "it": "Gestione delle scorte",
-    "tr": "Envanter yönetimi"
+    "tr": "Envanter yönetimi",
+    "pt": "Gestão de inventário",
+    "pl": "Zarządzanie zapasami",
+    "hu": "Készletgazdálkodás",
+    "el": "Διαχείριση αποθέματος",
+    "kk": "Тауар-материалдық қорды басқару",
+    "uz": "Zaxiralarni boshqarish"
   },
   {
     "code": "balanceReconciliation",
@@ -1799,7 +2429,13 @@
     "fr": "Rapprochement des soldes",
     "de": "Saldenabstimmung",
     "it": "Riconciliazione dei saldi",
-    "tr": "Bakiye mutabakatı"
+    "tr": "Bakiye mutabakatı",
+    "pt": "Reconciliação de saldos",
+    "pl": "Uzgadnianie sald",
+    "hu": "Egyenlegek egyeztetése",
+    "el": "Συμφωνία υπολοίπων",
+    "kk": "Баланс салыстыру",
+    "uz": "Balansni solishtirish"
   },
   {
     "code": "stockReceiving",
@@ -1816,7 +2452,13 @@
     "fr": "Réception des marchandises",
     "de": "Warenannahme",
     "it": "Ricezione della merce",
-    "tr": "Mal kabul"
+    "tr": "Mal kabul",
+    "pt": "Receção de mercadorias",
+    "pl": "Przyjmowanie towaru",
+    "hu": "Áruátvétel",
+    "el": "Παραλαβή αποθέματος",
+    "kk": "Тауарды қабылдау",
+    "uz": "Mahsulotlarni qabul qilish"
   },
   {
     "code": "orderFulfillment",
@@ -1833,7 +2475,13 @@
     "fr": "Traitement des commandes",
     "de": "Auftragsabwicklung",
     "it": "Evasione degli ordini",
-    "tr": "Sipariş karşılama"
+    "tr": "Sipariş karşılama",
+    "pt": "Cumprimento de encomendas",
+    "pl": "Realizacja zamówień",
+    "hu": "Megrendelések teljesítése",
+    "el": "Εκτέλεση παραγγελιών",
+    "kk": "Тапсырысты орындау",
+    "uz": "Buyurtmalarni bajarish"
   },
   {
     "code": "shippingPreparation",
@@ -1850,7 +2498,13 @@
     "fr": "Préparation des expéditions",
     "de": "Versandvorbereitung",
     "it": "Preparazione delle spedizioni",
-    "tr": "Sevkiyata hazırlık"
+    "tr": "Sevkiyata hazırlık",
+    "pt": "Preparação de envios",
+    "pl": "Przygotowanie wysyłki",
+    "hu": "Szállítás előkészítése",
+    "el": "Προετοιμασία αποστολών",
+    "kk": "Жөнелтуге дайындау",
+    "uz": "Joʻnatishga tayyorlash"
   },
   {
     "code": "qualityControl",
@@ -1867,7 +2521,13 @@
     "fr": "Contrôle qualité",
     "de": "Qualitätskontrolle",
     "it": "Controllo qualità",
-    "tr": "Kalite kontrolü"
+    "tr": "Kalite kontrolü",
+    "pt": "Controlo de qualidade",
+    "pl": "Kontrola jakości",
+    "hu": "Minőségellenőrzés",
+    "el": "Έλεγχος ποιότητας",
+    "kk": "Сапа бақылауы",
+    "uz": "Sifatni nazorat qilish"
   },
   {
     "code": "warehouseSafety",
@@ -1884,7 +2544,13 @@
     "fr": "Sécurité en entrepôt",
     "de": "Lagersicherheit",
     "it": "Sicurezza in magazzino",
-    "tr": "Ambar güvenliği"
+    "tr": "Ambar güvenliği",
+    "pt": "Segurança no armazém",
+    "pl": "Bezpieczeństwo w magazynie",
+    "hu": "Raktári munkavédelem",
+    "el": "Ασφάλεια αποθήκης",
+    "kk": "Қойма қауіпсіздігі",
+    "uz": "Ombor xavfsizligi"
   },
   {
     "code": "wiringInstallation",
@@ -1901,7 +2567,13 @@
     "fr": "Installation de câblage",
     "de": "Kabelinstallation",
     "it": "Installazione di cablaggi",
-    "tr": "Kablo tesisatı kurulumu"
+    "tr": "Kablo tesisatı kurulumu",
+    "pt": "Instalação de cablagem",
+    "pl": "Instalacja okablowania",
+    "hu": "Vezetékek telepítése",
+    "el": "Εγκατάσταση καλωδίωσης",
+    "kk": "Электр сымдарын орнату",
+    "uz": "Elektr simlarini oʻrnatish"
   },
   {
     "code": "circuitRepair",
@@ -1918,7 +2590,13 @@
     "fr": "Réparation de circuits",
     "de": "Schaltungsreparatur",
     "it": "Riparazione di circuiti",
-    "tr": "Devre onarımı"
+    "tr": "Devre onarımı",
+    "pt": "Reparação de circuitos",
+    "pl": "Naprawa obwodów",
+    "hu": "Áramkörök javítása",
+    "el": "Επισκευή κυκλωμάτων",
+    "kk": "Тізбекті жөндеу",
+    "uz": "Elektr zanjirlarini ta'mirlash"
   },
   {
     "code": "electricalTesting",
@@ -1935,7 +2613,13 @@
     "fr": "Essais électriques",
     "de": "Elektrische Prüfungen",
     "it": "Prove elettriche",
-    "tr": "Elektrik testleri"
+    "tr": "Elektrik testleri",
+    "pt": "Testes elétricos",
+    "pl": "Testowanie instalacji elektrycznych",
+    "hu": "Elektromos vizsgálatok",
+    "el": "Ηλεκτρικές δοκιμές",
+    "kk": "Электрлік сынақтар",
+    "uz": "Elektr sinovlari"
   },
   {
     "code": "troubleshooting",
@@ -1952,7 +2636,13 @@
     "fr": "Diagnostic de pannes",
     "de": "Fehlersuche und -behebung",
     "it": "Ricerca e risoluzione dei guasti",
-    "tr": "Arıza giderme"
+    "tr": "Arıza giderme",
+    "pt": "Diagnóstico e resolução de avarias",
+    "pl": "Diagnozowanie i usuwanie usterek",
+    "hu": "Hibaelhárítás",
+    "el": "Αντιμετώπιση βλαβών",
+    "kk": "Ақаулықтарды жою",
+    "uz": "Nosozliklarni bartaraf etish"
   },
   {
     "code": "installationOfElectricalEquipment",
@@ -1969,7 +2659,13 @@
     "fr": "Installation d'équipements électriques",
     "de": "Installation elektrischer Anlagen",
     "it": "Installazione di apparecchiature elettriche",
-    "tr": "Elektrik ekipmanı kurulumu"
+    "tr": "Elektrik ekipmanı kurulumu",
+    "pt": "Instalação de equipamentos elétricos",
+    "pl": "Montaż urządzeń elektrycznych",
+    "hu": "Elektromos berendezések telepítése",
+    "el": "Εγκατάσταση ηλεκτρολογικού εξοπλισμού",
+    "kk": "Электр жабдықтарын орнату",
+    "uz": "Elektr uskunalarini oʻrnatish"
   },
   {
     "code": "safetyStandards",
@@ -1986,7 +2682,13 @@
     "fr": "Normes de sécurité",
     "de": "Sicherheitsstandards",
     "it": "Standard di sicurezza",
-    "tr": "Güvenlik standartları"
+    "tr": "Güvenlik standartları",
+    "pt": "Normas de segurança",
+    "pl": "Normy bezpieczeństwa",
+    "hu": "Biztonsági szabványok",
+    "el": "Πρότυπα ασφάλειας",
+    "kk": "Қауіпсіздік стандарттары",
+    "uz": "Xavfsizlik standartlari"
   },
   {
     "code": "maintenanceOfElectricalSystems",
@@ -2003,7 +2705,13 @@
     "fr": "Maintenance des systèmes électriques",
     "de": "Wartung elektrischer Systeme",
     "it": "Manutenzione di impianti elettrici",
-    "tr": "Elektrik sistemleri bakımı"
+    "tr": "Elektrik sistemleri bakımı",
+    "pt": "Manutenção de sistemas elétricos",
+    "pl": "Konserwacja instalacji elektrycznych",
+    "hu": "Elektromos rendszerek karbantartása",
+    "el": "Συντήρηση ηλεκτρικών συστημάτων",
+    "kk": "Электр жүйелерін техникалық қызмет көрсету",
+    "uz": "Elektr tizimlarini texnik xizmat koʻrsatish"
   },
   {
     "code": "serverManagement",
@@ -2020,7 +2728,13 @@
     "fr": "Gestion de serveurs",
     "de": "Serververwaltung",
     "it": "Gestione dei server",
-    "tr": "Sunucu yönetimi"
+    "tr": "Sunucu yönetimi",
+    "pt": "Gestão de servidores",
+    "pl": "Zarządzanie serwerami",
+    "hu": "Szerverüzemeltetés",
+    "el": "Διαχείριση διακομιστών",
+    "kk": "Серверді басқару",
+    "uz": "Serverni boshqarish"
   },
   {
     "code": "networkConfiguration",
@@ -2037,7 +2751,13 @@
     "fr": "Configuration réseau",
     "de": "Netzwerkkonfiguration",
     "it": "Configurazione di rete",
-    "tr": "Ağ yapılandırması"
+    "tr": "Ağ yapılandırması",
+    "pt": "Configuração de redes",
+    "pl": "Konfiguracja sieci",
+    "hu": "Hálózat konfigurálása",
+    "el": "Διαμόρφωση δικτύου",
+    "kk": "Желі конфигурациясы",
+    "uz": "Tarmoqni sozlash"
   },
   {
     "code": "databaseManagement",
@@ -2054,7 +2774,13 @@
     "fr": "Gestion de bases de données",
     "de": "Datenbankverwaltung",
     "it": "Gestione di basi di dati",
-    "tr": "Veritabanı yönetimi"
+    "tr": "Veritabanı yönetimi",
+    "pt": "Gestão de bases de dados",
+    "pl": "Zarządzanie bazami danych",
+    "hu": "Adatbázis-kezelés",
+    "el": "Διαχείριση βάσεων δεδομένων",
+    "kk": "Дерекқорды басқару",
+    "uz": "Ma'lumotlar bazasini boshqarish"
   },
   {
     "code": "systemMonitoring",
@@ -2071,7 +2797,13 @@
     "fr": "Supervision des systèmes",
     "de": "Systemüberwachung",
     "it": "Monitoraggio dei sistemi",
-    "tr": "Sistem izleme"
+    "tr": "Sistem izleme",
+    "pt": "Monitorização de sistemas",
+    "pl": "Monitorowanie systemów",
+    "hu": "Rendszerfelügyelet",
+    "el": "Παρακολούθηση συστημάτων",
+    "kk": "Жүйені бақылау",
+    "uz": "Tizimni kuzatish"
   },
   {
     "code": "securityManagement",
@@ -2088,7 +2820,13 @@
     "fr": "Gestion de la sécurité",
     "de": "Sicherheitsmanagement",
     "it": "Gestione della sicurezza",
-    "tr": "Güvenlik yönetimi"
+    "tr": "Güvenlik yönetimi",
+    "pt": "Gestão de segurança",
+    "pl": "Zarządzanie bezpieczeństwem",
+    "hu": "Biztonságirányítás",
+    "el": "Διαχείριση ασφάλειας",
+    "kk": "Қауіпсіздікті басқару",
+    "uz": "Xavfsizlikni boshqarish"
   },
   {
     "code": "backupAndRecovery",
@@ -2105,7 +2843,13 @@
     "fr": "Sauvegarde et restauration",
     "de": "Sicherung und Wiederherstellung",
     "it": "Backup e ripristino",
-    "tr": "Yedekleme ve geri yükleme"
+    "tr": "Yedekleme ve geri yükleme",
+    "pt": "Cópia de segurança e recuperação",
+    "pl": "Tworzenie kopii zapasowych i odzyskiwanie danych",
+    "hu": "Biztonsági mentés és helyreállítás",
+    "el": "Αντίγραφα ασφαλείας και αποκατάσταση",
+    "kk": "Сақтық көшірме және қалпына келтіру",
+    "uz": "Zaxira nusxa olish va tiklash"
   },
   {
     "code": "softwareInstallation",
@@ -2122,7 +2866,13 @@
     "fr": "Installation de logiciels",
     "de": "Softwareinstallation",
     "it": "Installazione di software",
-    "tr": "Yazılım kurulumu"
+    "tr": "Yazılım kurulumu",
+    "pt": "Instalação de software",
+    "pl": "Instalacja oprogramowania",
+    "hu": "Szoftvertelepítés",
+    "el": "Εγκατάσταση λογισμικού",
+    "kk": "Бағдарламалық жасақтаманы орнату",
+    "uz": "Dasturiy ta'minotni oʻrnatish"
   },
   {
     "code": "productDisplay",
@@ -2139,7 +2889,13 @@
     "fr": "Mise en rayon",
     "de": "Warenpräsentation",
     "it": "Esposizione dei prodotti",
-    "tr": "Ürün sergileme"
+    "tr": "Ürün sergileme",
+    "pt": "Exposição de produtos",
+    "pl": "Ekspozycja produktów",
+    "hu": "Termékkihelyezés",
+    "el": "Παρουσίαση προϊόντων",
+    "kk": "Тауарды витринаға қою",
+    "uz": "Mahsulotlarni namoyish qilish"
   },
   {
     "code": "stockOrganization",
@@ -2156,7 +2912,13 @@
     "fr": "Organisation des stocks",
     "de": "Bestandsorganisation",
     "it": "Organizzazione delle scorte",
-    "tr": "Stok düzenleme"
+    "tr": "Stok düzenleme",
+    "pt": "Organização de stock",
+    "pl": "Organizacja zapasów",
+    "hu": "Készlet rendszerezése",
+    "el": "Οργάνωση αποθέματος",
+    "kk": "Тауар қорын ұйымдастыру",
+    "uz": "Zaxiralarni tashkil etish"
   },
   {
     "code": "salesOptimization",
@@ -2173,7 +2935,13 @@
     "fr": "Optimisation des ventes",
     "de": "Verkaufsoptimierung",
     "it": "Ottimizzazione delle vendite",
-    "tr": "Satış optimizasyonu"
+    "tr": "Satış optimizasyonu",
+    "pt": "Otimização de vendas",
+    "pl": "Optymalizacja sprzedaży",
+    "hu": "Értékesítés optimalizálása",
+    "el": "Βελτιστοποίηση πωλήσεων",
+    "kk": "Сатуды оптимизациялау",
+    "uz": "Sotishni optimallashtirish"
   },
   {
     "code": "salesAnalysis",
@@ -2190,7 +2958,13 @@
     "fr": "Analyse des ventes",
     "de": "Verkaufsanalyse",
     "it": "Analisi delle vendite",
-    "tr": "Satış analizi"
+    "tr": "Satış analizi",
+    "pt": "Análise de vendas",
+    "pl": "Analiza sprzedaży",
+    "hu": "Értékesítési elemzés",
+    "el": "Ανάλυση πωλήσεων",
+    "kk": "Сату талдауы",
+    "uz": "Sotish tahlili"
   },
   {
     "code": "promotionalActivities",
@@ -2207,7 +2981,13 @@
     "fr": "Actions promotionnelles",
     "de": "Werbeaktionen",
     "it": "Attività promozionali",
-    "tr": "Promosyon faaliyetleri"
+    "tr": "Promosyon faaliyetleri",
+    "pt": "Atividades promocionais",
+    "pl": "Działania promocyjne",
+    "hu": "Promóciós tevékenységek",
+    "el": "Προωθητικές ενέργειες",
+    "kk": "Жарнамалық іс-шаралар",
+    "uz": "Reklama tadbirlari"
   },
   {
     "code": "customerEngagement",
@@ -2224,7 +3004,13 @@
     "fr": "Relation client",
     "de": "Kundenbindung",
     "it": "Coinvolgimento del cliente",
-    "tr": "Müşteri ilişkisi kurma"
+    "tr": "Müşteri ilişkisi kurma",
+    "pt": "Envolvimento do cliente",
+    "pl": "Budowanie relacji z klientem",
+    "hu": "Ügyfélkapcsolat kiépítése",
+    "el": "Δέσμευση πελατών",
+    "kk": "Клиенттермен байланыс орнату",
+    "uz": "Mijozlar bilan aloqa oʻrnatish"
   },
   {
     "code": "culinarySkills",
@@ -2241,7 +3027,13 @@
     "fr": "Compétences culinaires",
     "de": "Kulinarische Fähigkeiten",
     "it": "Competenze culinarie",
-    "tr": "Mutfak becerileri"
+    "tr": "Mutfak becerileri",
+    "pt": "Competências culinárias",
+    "pl": "Umiejętności kulinarne",
+    "hu": "Konyhai szakértelem",
+    "el": "Μαγειρικές δεξιότητες",
+    "kk": "Аспаздық дағдылар",
+    "uz": "Oshpazlik koʻnikmalari"
   },
   {
     "code": "menuPlanning",
@@ -2258,7 +3050,13 @@
     "fr": "Élaboration de menus",
     "de": "Menüplanung",
     "it": "Pianificazione del menu",
-    "tr": "Menü planlama"
+    "tr": "Menü planlama",
+    "pt": "Planeamento de menus",
+    "pl": "Planowanie menu",
+    "hu": "Étlaptervezés",
+    "el": "Σχεδιασμός μενού",
+    "kk": "Мәзірді жоспарлау",
+    "uz": "Menyu tuzish"
   },
   {
     "code": "foodPreparation",
@@ -2275,7 +3073,13 @@
     "fr": "Préparation des aliments",
     "de": "Speisenzubereitung",
     "it": "Preparazione degli alimenti",
-    "tr": "Yemek hazırlama"
+    "tr": "Yemek hazırlama",
+    "pt": "Preparação de alimentos",
+    "pl": "Przygotowywanie posiłków",
+    "hu": "Ételkészítés",
+    "el": "Προετοιμασία φαγητού",
+    "kk": "Тағам дайындау",
+    "uz": "Taom tayyorlash"
   },
   {
     "code": "foodPresentation",
@@ -2292,7 +3096,13 @@
     "fr": "Présentation des plats",
     "de": "Speisenpräsentation",
     "it": "Presentazione dei piatti",
-    "tr": "Yemek sunumu"
+    "tr": "Yemek sunumu",
+    "pt": "Empratamento",
+    "pl": "Prezentacja dań",
+    "hu": "Ételek megjelenítése",
+    "el": "Παρουσίαση φαγητού",
+    "kk": "Тағамды безендіру",
+    "uz": "Taomni bezash"
   },
   {
     "code": "kitchenManagement",
@@ -2309,7 +3119,13 @@
     "fr": "Gestion de cuisine",
     "de": "Küchenmanagement",
     "it": "Gestione della cucina",
-    "tr": "Mutfak yönetimi"
+    "tr": "Mutfak yönetimi",
+    "pt": "Gestão de cozinha",
+    "pl": "Zarządzanie kuchnią",
+    "hu": "Konyhavezetés",
+    "el": "Διαχείριση κουζίνας",
+    "kk": "Ас үй жұмысын басқару",
+    "uz": "Oshxona boshqaruvi"
   },
   {
     "code": "teamCoordination",
@@ -2326,7 +3142,13 @@
     "fr": "Coordination d'équipe",
     "de": "Teamkoordination",
     "it": "Coordinamento del team",
-    "tr": "Takım koordinasyonu"
+    "tr": "Takım koordinasyonu",
+    "pt": "Coordenação de equipas",
+    "pl": "Koordynacja zespołu",
+    "hu": "Csapat koordinálása",
+    "el": "Συντονισμός ομάδας",
+    "kk": "Команданы үйлестіру",
+    "uz": "Jamoa faoliyatini muvofiqlashtirish"
   },
   {
     "code": "routeOptimization",
@@ -2343,7 +3165,13 @@
     "fr": "Optimisation des itinéraires",
     "de": "Routenoptimierung",
     "it": "Ottimizzazione dei percorsi",
-    "tr": "Güzergâh optimizasyonu"
+    "tr": "Güzergâh optimizasyonu",
+    "pt": "Otimização de rotas",
+    "pl": "Optymalizacja trasy",
+    "hu": "Útvonal-optimalizálás",
+    "el": "Βελτιστοποίηση διαδρομών",
+    "kk": "Бағытты оптимизациялау",
+    "uz": "Marshrutni optimallashtirish"
   },
   {
     "code": "supplyChainManagement",
@@ -2360,7 +3188,13 @@
     "fr": "Gestion de la chaîne d'approvisionnement",
     "de": "Lieferkettenmanagement",
     "it": "Gestione della catena di fornitura",
-    "tr": "Tedarik zinciri yönetimi"
+    "tr": "Tedarik zinciri yönetimi",
+    "pt": "Gestão da cadeia de abastecimento",
+    "pl": "Zarządzanie łańcuchem dostaw",
+    "hu": "Ellátásilánc-menedzsment",
+    "el": "Διαχείριση εφοδιαστικής αλυσίδας",
+    "kk": "Жеткізу тізбегін басқару",
+    "uz": "Ta'minot zanjirini boshqarish"
   },
   {
     "code": "transportationPlanning",
@@ -2377,7 +3211,13 @@
     "fr": "Planification des transports",
     "de": "Transportplanung",
     "it": "Pianificazione dei trasporti",
-    "tr": "Taşımacılık planlaması"
+    "tr": "Taşımacılık planlaması",
+    "pt": "Planeamento de transportes",
+    "pl": "Planowanie transportu",
+    "hu": "Szállítás tervezése",
+    "el": "Σχεδιασμός μεταφορών",
+    "kk": "Тасымалдауды жоспарлау",
+    "uz": "Transportni rejalashtirish"
   },
   {
     "code": "freightManagement",
@@ -2394,7 +3234,13 @@
     "fr": "Gestion du fret",
     "de": "Frachtmanagement",
     "it": "Gestione delle spedizioni",
-    "tr": "Yük taşıma yönetimi"
+    "tr": "Yük taşıma yönetimi",
+    "pt": "Gestão de cargas",
+    "pl": "Zarządzanie przewozem towarów",
+    "hu": "Áruszállítás irányítása",
+    "el": "Διαχείριση φορτίων",
+    "kk": "Жүк тасымалын басқару",
+    "uz": "Yuk tashish boshqaruvi"
   },
   {
     "code": "logisticsAnalysis",
@@ -2411,7 +3257,13 @@
     "fr": "Analyse logistique",
     "de": "Logistikanalyse",
     "it": "Analisi logistica",
-    "tr": "Lojistik analizi"
+    "tr": "Lojistik analizi",
+    "pt": "Análise logística",
+    "pl": "Analiza logistyczna",
+    "hu": "Logisztikai elemzés",
+    "el": "Ανάλυση εφοδιαστικής",
+    "kk": "Логистикалық талдау",
+    "uz": "Logistika tahlili"
   },
   {
     "code": "trafficFlowAnalysis",
@@ -2428,7 +3280,13 @@
     "fr": "Analyse des flux de circulation",
     "de": "Verkehrsflussanalyse",
     "it": "Analisi dei flussi di traffico",
-    "tr": "Trafik akışı analizi"
+    "tr": "Trafik akışı analizi",
+    "pt": "Análise de fluxo de tráfego",
+    "pl": "Analiza przepływu ruchu",
+    "hu": "Forgalomelemzés",
+    "el": "Ανάλυση ροής κυκλοφορίας",
+    "kk": "Көлік ағынын талдау",
+    "uz": "Transport oqimini tahlil qilish"
   },
   {
     "code": "costOptimization",
@@ -2445,7 +3303,13 @@
     "fr": "Optimisation des coûts",
     "de": "Kostenoptimierung",
     "it": "Ottimizzazione dei costi",
-    "tr": "Maliyet optimizasyonu"
+    "tr": "Maliyet optimizasyonu",
+    "pt": "Otimização de custos",
+    "pl": "Optymalizacja kosztów",
+    "hu": "Költségoptimalizálás",
+    "el": "Βελτιστοποίηση κόστους",
+    "kk": "Шығындарды оптимизациялау",
+    "uz": "Xarajatlarni optimallashtirish"
   },
   {
     "code": "graphicDesign",
@@ -2462,7 +3326,13 @@
     "fr": "Design graphique",
     "de": "Grafikdesign",
     "it": "Design grafico",
-    "tr": "Grafik tasarım"
+    "tr": "Grafik tasarım",
+    "pt": "Design gráfico",
+    "pl": "Projektowanie graficzne",
+    "hu": "Grafikai tervezés",
+    "el": "Γραφιστικός σχεδιασμός",
+    "kk": "Графикалық дизайн",
+    "uz": "Grafik dizayn"
   },
   {
     "code": "visualCommunication",
@@ -2479,7 +3349,13 @@
     "fr": "Communication visuelle",
     "de": "Visuelle Kommunikation",
     "it": "Comunicazione visiva",
-    "tr": "Görsel iletişim"
+    "tr": "Görsel iletişim",
+    "pt": "Comunicação visual",
+    "pl": "Komunikacja wizualna",
+    "hu": "Vizuális kommunikáció",
+    "el": "Οπτική επικοινωνία",
+    "kk": "Визуалды коммуникация",
+    "uz": "Vizual muloqot"
   },
   {
     "code": "typography",
@@ -2496,7 +3372,13 @@
     "fr": "Typographie",
     "de": "Typografie",
     "it": "Tipografia",
-    "tr": "Tipografi"
+    "tr": "Tipografi",
+    "pt": "Tipografia",
+    "pl": "Typografia",
+    "hu": "Tipográfia",
+    "el": "Τυπογραφία",
+    "kk": "Типографика",
+    "uz": "Tipografiya"
   },
   {
     "code": "webDesign",
@@ -2513,7 +3395,13 @@
     "fr": "Design web",
     "de": "Webdesign",
     "it": "Web design",
-    "tr": "Web tasarımı"
+    "tr": "Web tasarımı",
+    "pt": "Design web",
+    "pl": "Projektowanie stron internetowych",
+    "hu": "Webdesign",
+    "el": "Σχεδιασμός ιστοσελίδων",
+    "kk": "Веб-дизайн",
+    "uz": "Veb-dizayn"
   },
   {
     "code": "userExperience",
@@ -2530,7 +3418,13 @@
     "fr": "Expérience utilisateur",
     "de": "Benutzererfahrung",
     "it": "Esperienza utente",
-    "tr": "Kullanıcı deneyimi"
+    "tr": "Kullanıcı deneyimi",
+    "pt": "Experiência do utilizador",
+    "pl": "Doświadczenie użytkownika (UX)",
+    "hu": "Felhasználói élmény (UX)",
+    "el": "Εμπειρία χρήστη",
+    "kk": "Пайдаланушы тәжірибесі",
+    "uz": "Foydalanuvchi tajribasi (UX)"
   },
   {
     "code": "colorTheory",
@@ -2547,7 +3441,13 @@
     "fr": "Théorie des couleurs",
     "de": "Farbenlehre",
     "it": "Teoria del colore",
-    "tr": "Renk teorisi"
+    "tr": "Renk teorisi",
+    "pt": "Teoria das cores",
+    "pl": "Teoria koloru",
+    "hu": "Színelmélet",
+    "el": "Θεωρία χρωμάτων",
+    "kk": "Түс теориясы",
+    "uz": "Rang nazariyasi"
   },
   {
     "code": "photoshopSkills",
@@ -2564,7 +3464,13 @@
     "fr": "Maîtrise de Photoshop",
     "de": "Photoshop-Kenntnisse",
     "it": "Competenze in Photoshop",
-    "tr": "Photoshop becerileri"
+    "tr": "Photoshop becerileri",
+    "pt": "Competências em Photoshop",
+    "pl": "Umiejętności pracy w Photoshopie",
+    "hu": "Photoshop-ismeretek",
+    "el": "Δεξιότητες Photoshop",
+    "kk": "Photoshop дағдылары",
+    "uz": "Photoshop koʻnikmalari"
   },
   {
     "code": "illustration",
@@ -2581,7 +3487,13 @@
     "fr": "Illustration",
     "de": "Illustration",
     "it": "Illustrazione",
-    "tr": "İllüstrasyon"
+    "tr": "İllüstrasyon",
+    "pt": "Ilustração",
+    "pl": "Ilustracja",
+    "hu": "Illusztráció",
+    "el": "Εικονογράφηση",
+    "kk": "Иллюстрация",
+    "uz": "Illyustratsiya"
   },
   {
     "code": "serverSideProgramming",
@@ -2598,7 +3510,13 @@
     "fr": "Programmation côté serveur",
     "de": "Serverseitige Programmierung",
     "it": "Programmazione lato server",
-    "tr": "Sunucu tarafı programlama"
+    "tr": "Sunucu tarafı programlama",
+    "pt": "Programação do lado do servidor",
+    "pl": "Programowanie po stronie serwera",
+    "hu": "Szerveroldali programozás",
+    "el": "Προγραμματισμός στην πλευρά του διακομιστή",
+    "kk": "Сервер жағында бағдарламалау",
+    "uz": "Server tomonidagi dasturlash"
   },
   {
     "code": "apiDevelopment",
@@ -2615,7 +3533,13 @@
     "fr": "Développement d'API",
     "de": "API-Entwicklung",
     "it": "Sviluppo di API",
-    "tr": "API geliştirme"
+    "tr": "API geliştirme",
+    "pt": "Desenvolvimento de APIs",
+    "pl": "Tworzenie API",
+    "hu": "API-fejlesztés",
+    "el": "Ανάπτυξη API",
+    "kk": "API әзірлеу",
+    "uz": "API ishlab chiqish"
   },
   {
     "code": "versionControl",
@@ -2632,7 +3556,13 @@
     "fr": "Gestion de versions",
     "de": "Versionsverwaltung",
     "it": "Controllo di versione",
-    "tr": "Sürüm kontrolü"
+    "tr": "Sürüm kontrolü",
+    "pt": "Controlo de versões",
+    "pl": "Kontrola wersji",
+    "hu": "Verziókezelés",
+    "el": "Έλεγχος εκδόσεων",
+    "kk": "Нұсқаларды бақылау",
+    "uz": "Versiyalarni boshqarish"
   },
   {
     "code": "cloudIntegration",
@@ -2649,7 +3579,13 @@
     "fr": "Intégration cloud",
     "de": "Cloud-Integration",
     "it": "Integrazione cloud",
-    "tr": "Bulut entegrasyonu"
+    "tr": "Bulut entegrasyonu",
+    "pt": "Integração na nuvem",
+    "pl": "Integracja z chmurą",
+    "hu": "Felhőintegráció",
+    "el": "Ενσωμάτωση υπηρεσιών νέφους",
+    "kk": "Бұлтты интеграция",
+    "uz": "Bulutli integratsiya"
   },
   {
     "code": "performanceOptimization",
@@ -2666,7 +3602,13 @@
     "fr": "Optimisation des performances",
     "de": "Leistungsoptimierung",
     "it": "Ottimizzazione delle prestazioni",
-    "tr": "Performans optimizasyonu"
+    "tr": "Performans optimizasyonu",
+    "pt": "Otimização de desempenho",
+    "pl": "Optymalizacja wydajności",
+    "hu": "Teljesítmény-optimalizálás",
+    "el": "Βελτιστοποίηση απόδοσης",
+    "kk": "Өнімділікті оптимизациялау",
+    "uz": "Unumdorlikni optimallashtirish"
   },
   {
     "code": "errorHandling",
@@ -2683,7 +3625,13 @@
     "fr": "Gestion des erreurs",
     "de": "Fehlerbehandlung",
     "it": "Gestione degli errori",
-    "tr": "Hata yönetimi"
+    "tr": "Hata yönetimi",
+    "pt": "Tratamento de erros",
+    "pl": "Obsługa błędów",
+    "hu": "Hibakezelés",
+    "el": "Διαχείριση σφαλμάτων",
+    "kk": "Қателерді өңдеу",
+    "uz": "Xatolarni boshqarish"
   },
   {
     "code": "containerization",
@@ -2700,7 +3648,13 @@
     "fr": "Conteneurisation",
     "de": "Containerisierung",
     "it": "Containerizzazione",
-    "tr": "Konteynerleştirme"
+    "tr": "Konteynerleştirme",
+    "pt": "Containerização",
+    "pl": "Konteneryzacja",
+    "hu": "Konténerizáció",
+    "el": "Τεχνολογία περιεκτών",
+    "kk": "Контейнерлеу",
+    "uz": "Konteynerlashtirish"
   },
   {
     "code": "environmentalImpactAssessment",
@@ -2717,7 +3671,13 @@
     "fr": "Évaluation de l'impact environnemental",
     "de": "Umweltverträglichkeitsprüfung",
     "it": "Valutazione dell'impatto ambientale",
-    "tr": "Çevresel etki değerlendirmesi"
+    "tr": "Çevresel etki değerlendirmesi",
+    "pt": "Avaliação de impacto ambiental",
+    "pl": "Ocena wpływu na środowisko",
+    "hu": "Környezeti hatásvizsgálat",
+    "el": "Εκτίμηση περιβαλλοντικών επιπτώσεων",
+    "kk": "Қоршаған ортаға әсерді бағалау",
+    "uz": "Ekologik ta'sirni baholash"
   },
   {
     "code": "wasteManagement",
@@ -2734,7 +3694,13 @@
     "fr": "Gestion des déchets",
     "de": "Abfallwirtschaft",
     "it": "Gestione dei rifiuti",
-    "tr": "Atık yönetimi"
+    "tr": "Atık yönetimi",
+    "pt": "Gestão de resíduos",
+    "pl": "Zarządzanie odpadami",
+    "hu": "Hulladékgazdálkodás",
+    "el": "Διαχείριση αποβλήτων",
+    "kk": "Қалдықтарды басқару",
+    "uz": "Chiqindilarni boshqarish"
   },
   {
     "code": "pollutionControl",
@@ -2751,7 +3717,13 @@
     "fr": "Lutte contre la pollution",
     "de": "Schadstoffkontrolle",
     "it": "Controllo dell'inquinamento",
-    "tr": "Kirlilik kontrolü"
+    "tr": "Kirlilik kontrolü",
+    "pt": "Controlo da poluição",
+    "pl": "Kontrola zanieczyszczeń",
+    "hu": "Szennyezés-ellenőrzés",
+    "el": "Έλεγχος ρύπανσης",
+    "kk": "Ластануды бақылау",
+    "uz": "Ifloslanishni nazorat qilish"
   },
   {
     "code": "waterQualityManagement",
@@ -2768,7 +3740,13 @@
     "fr": "Gestion de la qualité de l'eau",
     "de": "Wasserqualitätsmanagement",
     "it": "Gestione della qualità dell'acqua",
-    "tr": "Su kalitesi yönetimi"
+    "tr": "Su kalitesi yönetimi",
+    "pt": "Gestão da qualidade da água",
+    "pl": "Zarządzanie jakością wody",
+    "hu": "Vízminőség-gazdálkodás",
+    "el": "Διαχείριση ποιότητας νερού",
+    "kk": "Су сапасын басқару",
+    "uz": "Suv sifatini boshqarish"
   },
   {
     "code": "energyEfficiency",
@@ -2785,7 +3763,13 @@
     "fr": "Efficacité énergétique",
     "de": "Energieeffizienz",
     "it": "Efficienza energetica",
-    "tr": "Enerji verimliliği"
+    "tr": "Enerji verimliliği",
+    "pt": "Eficiência energética",
+    "pl": "Efektywność energetyczna",
+    "hu": "Energiahatékonyság",
+    "el": "Ενεργειακή απόδοση",
+    "kk": "Энергия тиімділігі",
+    "uz": "Energiya samaradorligi"
   },
   {
     "code": "ecosystemManagement",
@@ -2802,7 +3786,13 @@
     "fr": "Gestion des écosystèmes",
     "de": "Ökosystemmanagement",
     "it": "Gestione degli ecosistemi",
-    "tr": "Ekosistem yönetimi"
+    "tr": "Ekosistem yönetimi",
+    "pt": "Gestão de ecossistemas",
+    "pl": "Zarządzanie ekosystemem",
+    "hu": "Ökoszisztéma-kezelés",
+    "el": "Διαχείριση οικοσυστήματος",
+    "kk": "Экожүйелерді басқару",
+    "uz": "Ekotizimni boshqarish"
   },
   {
     "code": "legalResearch",
@@ -2819,7 +3809,13 @@
     "fr": "Recherche juridique",
     "de": "Juristische Recherche",
     "it": "Ricerca giuridica",
-    "tr": "Hukuki araştırma"
+    "tr": "Hukuki araştırma",
+    "pt": "Investigação jurídica",
+    "pl": "Badania prawne",
+    "hu": "Jogi kutatás",
+    "el": "Νομική έρευνα",
+    "kk": "Құқықтық зерттеу",
+    "uz": "Huquqiy tadqiqot"
   },
   {
     "code": "contractDrafting",
@@ -2836,7 +3832,13 @@
     "fr": "Rédaction de contrats",
     "de": "Vertragsgestaltung",
     "it": "Redazione di contratti",
-    "tr": "Sözleşme hazırlama"
+    "tr": "Sözleşme hazırlama",
+    "pt": "Elaboração de contratos",
+    "pl": "Sporządzanie umów",
+    "hu": "Szerződések szerkesztése",
+    "el": "Σύνταξη συμβάσεων",
+    "kk": "Келісімшарт жасау",
+    "uz": "Shartnoma tuzish"
   },
   {
     "code": "litigation",
@@ -2853,7 +3855,13 @@
     "fr": "Contentieux",
     "de": "Prozessführung",
     "it": "Contenzioso",
-    "tr": "Dava takibi"
+    "tr": "Dava takibi",
+    "pt": "Litígios",
+    "pl": "Prowadzenie spraw sądowych",
+    "hu": "Peres eljárás",
+    "el": "Διεξαγωγή δικών",
+    "kk": "Сот талқылауы",
+    "uz": "Sud ishlarini yuritish"
   },
   {
     "code": "legalAdvisory",
@@ -2870,7 +3878,13 @@
     "fr": "Conseil juridique",
     "de": "Rechtsberatung",
     "it": "Consulenza legale",
-    "tr": "Hukuki danışmanlık"
+    "tr": "Hukuki danışmanlık",
+    "pt": "Consultoria jurídica",
+    "pl": "Doradztwo prawne",
+    "hu": "Jogi tanácsadás",
+    "el": "Νομικές συμβουλές",
+    "kk": "Құқықтық кеңес беру",
+    "uz": "Huquqiy maslahat"
   },
   {
     "code": "disputeResolution",
@@ -2887,7 +3901,13 @@
     "fr": "Règlement des litiges",
     "de": "Streitbeilegung",
     "it": "Risoluzione delle controversie",
-    "tr": "Uyuşmazlık çözümü"
+    "tr": "Uyuşmazlık çözümü",
+    "pt": "Resolução de litígios",
+    "pl": "Rozstrzyganie sporów",
+    "hu": "Jogviták rendezése",
+    "el": "Επίλυση διαφορών",
+    "kk": "Дауларды шешу",
+    "uz": "Nizolarni hal qilish"
   },
   {
     "code": "intellectualProperty",
@@ -2904,7 +3924,13 @@
     "fr": "Propriété intellectuelle",
     "de": "Geistiges Eigentum",
     "it": "Proprietà intellettuale",
-    "tr": "Fikri mülkiyet"
+    "tr": "Fikri mülkiyet",
+    "pt": "Propriedade intelectual",
+    "pl": "Własność intelektualna",
+    "hu": "Szellemi tulajdon",
+    "el": "Πνευματική ιδιοκτησία",
+    "kk": "Зияткерлік меншік",
+    "uz": "Intellektual mulk"
   },
   {
     "code": "riskAssessment",
@@ -2921,7 +3947,13 @@
     "fr": "Évaluation des risques",
     "de": "Risikobewertung",
     "it": "Valutazione dei rischi",
-    "tr": "Risk değerlendirmesi"
+    "tr": "Risk değerlendirmesi",
+    "pt": "Avaliação de riscos",
+    "pl": "Ocena ryzyka",
+    "hu": "Kockázatértékelés",
+    "el": "Εκτίμηση κινδύνου",
+    "kk": "Тәуекелдерді бағалау",
+    "uz": "Xavflarni baholash"
   },
   {
     "code": "claimsProcessing",
@@ -2938,7 +3970,13 @@
     "fr": "Traitement des sinistres",
     "de": "Schadensbearbeitung",
     "it": "Gestione dei sinistri",
-    "tr": "Hasar işlemleri"
+    "tr": "Hasar işlemleri",
+    "pt": "Processamento de sinistros",
+    "pl": "Obsługa roszczeń",
+    "hu": "Kárigények feldolgozása",
+    "el": "Επεξεργασία αποζημιώσεων",
+    "kk": "Шағымдарды өңдеу",
+    "uz": "Da'volarni koʻrib chiqish"
   },
   {
     "code": "customerConsultation",
@@ -2955,7 +3993,13 @@
     "fr": "Conseil à la clientèle",
     "de": "Kundenberatung",
     "it": "Consulenza al cliente",
-    "tr": "Müşteri danışmanlığı"
+    "tr": "Müşteri danışmanlığı",
+    "pt": "Aconselhamento ao cliente",
+    "pl": "Konsultacje z klientem",
+    "hu": "Ügyféltanácsadás",
+    "el": "Συμβουλευτική πελατών",
+    "kk": "Клиенттерге кеңес беру",
+    "uz": "Mijozlarga maslahat berish"
   },
   {
     "code": "insuranceRegulations",
@@ -2972,7 +4016,13 @@
     "fr": "Réglementation des assurances",
     "de": "Versicherungsvorschriften",
     "it": "Normativa assicurativa",
-    "tr": "Sigorta mevzuatı"
+    "tr": "Sigorta mevzuatı",
+    "pt": "Regulamentação de seguros",
+    "pl": "Przepisy ubezpieczeniowe",
+    "hu": "Biztosítási szabályozás",
+    "el": "Κανονισμοί ασφάλισης",
+    "kk": "Сақтандыру нормалары",
+    "uz": "Sugʻurta qoidalari"
   },
   {
     "code": "premiumCalculation",
@@ -2989,7 +4039,13 @@
     "fr": "Calcul des primes",
     "de": "Prämienberechnung",
     "it": "Calcolo dei premi",
-    "tr": "Prim hesaplama"
+    "tr": "Prim hesaplama",
+    "pt": "Cálculo de prémios",
+    "pl": "Kalkulacja składek",
+    "hu": "Díjkalkuláció",
+    "el": "Υπολογισμός ασφαλίστρων",
+    "kk": "Сақтандыру сыйақысын есептеу",
+    "uz": "Sugʻurta mukofotini hisoblash"
   },
   {
     "code": "policyRenewal",
@@ -3006,7 +4062,13 @@
     "fr": "Renouvellement des contrats d'assurance",
     "de": "Erneuerung von Versicherungspolicen",
     "it": "Rinnovo delle polizze",
-    "tr": "Poliçe yenileme"
+    "tr": "Poliçe yenileme",
+    "pt": "Renovação de apólices",
+    "pl": "Odnawianie polis",
+    "hu": "Kötvény megújítása",
+    "el": "Ανανέωση ασφαλιστικών συμβολαίων",
+    "kk": "Сақтандыру полисін жаңарту",
+    "uz": "Sugʻurta polisini yangilash"
   },
   {
     "code": "testPlanning",
@@ -3023,7 +4085,13 @@
     "fr": "Planification des tests",
     "de": "Testplanung",
     "it": "Pianificazione dei test",
-    "tr": "Test planlama"
+    "tr": "Test planlama",
+    "pt": "Planeamento de testes",
+    "pl": "Planowanie testów",
+    "hu": "Teszttervezés",
+    "el": "Σχεδιασμός δοκιμών",
+    "kk": "Тестілеуді жоспарлау",
+    "uz": "Test rejalashtirish"
   },
   {
     "code": "manualTesting",
@@ -3040,7 +4108,13 @@
     "fr": "Tests manuels",
     "de": "Manuelles Testen",
     "it": "Test manuali",
-    "tr": "Manuel test"
+    "tr": "Manuel test",
+    "pt": "Testes manuais",
+    "pl": "Testowanie manualne",
+    "hu": "Manuális tesztelés",
+    "el": "Χειροκίνητος έλεγχος",
+    "kk": "Қолмен тестілеу",
+    "uz": "Qoʻlda test qilish"
   },
   {
     "code": "automatedTesting",
@@ -3057,7 +4131,13 @@
     "fr": "Tests automatisés",
     "de": "Automatisiertes Testen",
     "it": "Test automatizzati",
-    "tr": "Otomatik test"
+    "tr": "Otomatik test",
+    "pt": "Testes automatizados",
+    "pl": "Testowanie automatyczne",
+    "hu": "Automatizált tesztelés",
+    "el": "Αυτοματοποιημένος έλεγχος",
+    "kk": "Автоматтандырылған тестілеу",
+    "uz": "Avtomatlashtirilgan test qilish"
   },
   {
     "code": "performanceTesting",
@@ -3074,7 +4154,13 @@
     "fr": "Tests de performance",
     "de": "Leistungstests",
     "it": "Test di prestazione",
-    "tr": "Performans testi"
+    "tr": "Performans testi",
+    "pt": "Testes de desempenho",
+    "pl": "Testy wydajnościowe",
+    "hu": "Teljesítménytesztelés",
+    "el": "Δοκιμή απόδοσης",
+    "kk": "Өнімділік тестілеуі",
+    "uz": "Unumdorlik testi"
   },
   {
     "code": "regressionTesting",
@@ -3091,7 +4177,13 @@
     "fr": "Tests de régression",
     "de": "Regressionstests",
     "it": "Test di regressione",
-    "tr": "Regresyon testi"
+    "tr": "Regresyon testi",
+    "pt": "Testes de regressão",
+    "pl": "Testy regresyjne",
+    "hu": "Regressziós tesztelés",
+    "el": "Δοκιμή παλινδρόμησης",
+    "kk": "Регрессиялық тестілеу",
+    "uz": "Regressiya testi"
   },
   {
     "code": "testAutomationTools",
@@ -3108,7 +4200,13 @@
     "fr": "Outils d'automatisation des tests",
     "de": "Testautomatisierungswerkzeuge",
     "it": "Strumenti di automazione dei test",
-    "tr": "Test otomasyon araçları"
+    "tr": "Test otomasyon araçları",
+    "pt": "Ferramentas de automação de testes",
+    "pl": "Narzędzia do automatyzacji testów",
+    "hu": "Tesztautomatizálási eszközök",
+    "el": "Εργαλεία αυτοματισμού δοκιμών",
+    "kk": "Тестілеуді автоматтандыру құралдары",
+    "uz": "Test avtomatlashtirish vositalari"
   },
   {
     "code": "continuousIntegration",
@@ -3125,7 +4223,13 @@
     "fr": "Intégration continue",
     "de": "Kontinuierliche Integration",
     "it": "Integrazione continua",
-    "tr": "Sürekli entegrasyon"
+    "tr": "Sürekli entegrasyon",
+    "pt": "Integração contínua",
+    "pl": "Ciągła integracja",
+    "hu": "Folyamatos integráció",
+    "el": "Συνεχής ενσωμάτωση",
+    "kk": "Үзіліссіз интеграция",
+    "uz": "Uzluksiz integratsiya"
   },
   {
     "code": "qualityStandards",
@@ -3142,7 +4246,13 @@
     "fr": "Normes de qualité",
     "de": "Qualitätsstandards",
     "it": "Standard di qualità",
-    "tr": "Kalite standartları"
+    "tr": "Kalite standartları",
+    "pt": "Normas de qualidade",
+    "pl": "Standardy jakości",
+    "hu": "Minőségi szabványok",
+    "el": "Πρότυπα ποιότητας",
+    "kk": "Сапа стандарттары",
+    "uz": "Sifat standartlari"
   },
   {
     "code": "campaignStrategy",
@@ -3159,7 +4269,13 @@
     "fr": "Stratégie de campagne",
     "de": "Kampagnenstrategie",
     "it": "Strategia di campagna",
-    "tr": "Kampanya stratejisi"
+    "tr": "Kampanya stratejisi",
+    "pt": "Estratégia de campanhas",
+    "pl": "Strategia kampanii",
+    "hu": "Kampánystratégia",
+    "el": "Στρατηγική καμπάνιας",
+    "kk": "Кампания стратегиясы",
+    "uz": "Kampaniya strategiyasi"
   },
   {
     "code": "budgetManagement",
@@ -3176,7 +4292,13 @@
     "fr": "Gestion du budget",
     "de": "Budgetverwaltung",
     "it": "Gestione del budget",
-    "tr": "Bütçe yönetimi"
+    "tr": "Bütçe yönetimi",
+    "pt": "Gestão orçamental",
+    "pl": "Zarządzanie budżetem",
+    "hu": "Költségvetés-kezelés",
+    "el": "Διαχείριση προϋπολογισμού",
+    "kk": "Бюджетті басқару",
+    "uz": "Byudjetni boshqarish"
   },
   {
     "code": "marketResearch",
@@ -3193,7 +4315,13 @@
     "fr": "Étude de marché",
     "de": "Marktforschung",
     "it": "Ricerca di mercato",
-    "tr": "Pazar araştırması"
+    "tr": "Pazar araştırması",
+    "pt": "Estudo de mercado",
+    "pl": "Badania rynku",
+    "hu": "Piackutatás",
+    "el": "Έρευνα αγοράς",
+    "kk": "Нарықты зерттеу",
+    "uz": "Bozor tadqiqoti"
   },
   {
     "code": "mediaPlanning",
@@ -3210,7 +4338,13 @@
     "fr": "Planification média",
     "de": "Mediaplanung",
     "it": "Pianificazione dei media",
-    "tr": "Medya planlaması"
+    "tr": "Medya planlaması",
+    "pt": "Planeamento de meios",
+    "pl": "Planowanie mediowe",
+    "hu": "Médiatervezés",
+    "el": "Σχεδιασμός μέσων",
+    "kk": "Медиа жоспарлау",
+    "uz": "Media rejalashtirish"
   },
   {
     "code": "advertisingChannels",
@@ -3227,7 +4361,13 @@
     "fr": "Canaux publicitaires",
     "de": "Werbekanäle",
     "it": "Canali pubblicitari",
-    "tr": "Reklam kanalları"
+    "tr": "Reklam kanalları",
+    "pt": "Canais publicitários",
+    "pl": "Kanały reklamowe",
+    "hu": "Reklámcsatornák",
+    "el": "Διαφημιστικά κανάλια",
+    "kk": "Жарнама арналары",
+    "uz": "Reklama kanallari"
   },
   {
     "code": "digitalMarketing",
@@ -3244,7 +4384,13 @@
     "fr": "Marketing digital",
     "de": "Digitales Marketing",
     "it": "Marketing digitale",
-    "tr": "Dijital pazarlama"
+    "tr": "Dijital pazarlama",
+    "pt": "Marketing digital",
+    "pl": "Marketing cyfrowy",
+    "hu": "Digitális marketing",
+    "el": "Ψηφιακό μάρκετινγκ",
+    "kk": "Цифрлық маркетинг",
+    "uz": "Raqamli marketing"
   },
   {
     "code": "brandAwareness",
@@ -3261,7 +4407,13 @@
     "fr": "Notoriété de la marque",
     "de": "Markenbekanntheit",
     "it": "Notorietà del marchio",
-    "tr": "Marka bilinirliği"
+    "tr": "Marka bilinirliği",
+    "pt": "Notoriedade da marca",
+    "pl": "Świadomość marki",
+    "hu": "Márkaismertség",
+    "el": "Αναγνωρισιμότητα μάρκας",
+    "kk": "Бренд танылуы",
+    "uz": "Brendni tanitish"
   },
   {
     "code": "socialMediaMarketing",
@@ -3278,7 +4430,13 @@
     "fr": "Marketing sur les réseaux sociaux",
     "de": "Social-Media-Marketing",
     "it": "Social media marketing",
-    "tr": "Sosyal medya pazarlaması"
+    "tr": "Sosyal medya pazarlaması",
+    "pt": "Marketing nas redes sociais",
+    "pl": "Marketing w mediach społecznościowych",
+    "hu": "Közösségimédia-marketing",
+    "el": "Μάρκετινγκ μέσων κοινωνικής δικτύωσης",
+    "kk": "Әлеуметтік желілерде маркетинг жүргізу",
+    "uz": "Ijtimoiy tarmoqlar marketingi"
   },
   {
     "code": "contentCreation",
@@ -3295,7 +4453,13 @@
     "fr": "Création de contenu",
     "de": "Content-Erstellung",
     "it": "Creazione di contenuti",
-    "tr": "İçerik üretimi"
+    "tr": "İçerik üretimi",
+    "pt": "Criação de conteúdos",
+    "pl": "Tworzenie treści",
+    "hu": "Tartalomkészítés",
+    "el": "Δημιουργία περιεχομένου",
+    "kk": "Контент жасау",
+    "uz": "Kontent yaratish"
   },
   {
     "code": "advertisingMetrics",
@@ -3312,7 +4476,13 @@
     "fr": "Indicateurs publicitaires",
     "de": "Werbekennzahlen",
     "it": "Metriche pubblicitarie",
-    "tr": "Reklam metrikleri"
+    "tr": "Reklam metrikleri",
+    "pt": "Métricas publicitárias",
+    "pl": "Metryki reklamowe",
+    "hu": "Reklámmutatók",
+    "el": "Μετρήσεις διαφήμισης",
+    "kk": "Жарнама метрикалары",
+    "uz": "Reklama koʻrsatkichlari"
   },
   {
     "code": "politicalTheory",
@@ -3329,7 +4499,13 @@
     "fr": "Théorie politique",
     "de": "Politische Theorie",
     "it": "Teoria politica",
-    "tr": "Siyaset teorisi"
+    "tr": "Siyaset teorisi",
+    "pt": "Teoria política",
+    "pl": "Teoria polityczna",
+    "hu": "Politikai elmélet",
+    "el": "Πολιτική θεωρία",
+    "kk": "Саяси теория",
+    "uz": "Siyosiy nazariya"
   },
   {
     "code": "comparativePolitics",
@@ -3346,7 +4522,13 @@
     "fr": "Politique comparée",
     "de": "Vergleichende Politik",
     "it": "Politica comparata",
-    "tr": "Karşılaştırmalı siyaset"
+    "tr": "Karşılaştırmalı siyaset",
+    "pt": "Política comparada",
+    "pl": "Polityka porównawcza",
+    "hu": "Összehasonlító politika",
+    "el": "Συγκριτική πολιτική",
+    "kk": "Салыстырмалы саясаттану",
+    "uz": "Qiyosiy siyosatshunoslik"
   },
   {
     "code": "internationalRelations",
@@ -3363,7 +4545,13 @@
     "fr": "Relations internationales",
     "de": "Internationale Beziehungen",
     "it": "Relazioni internazionali",
-    "tr": "Uluslararası ilişkiler"
+    "tr": "Uluslararası ilişkiler",
+    "pt": "Relações internacionais",
+    "pl": "Stosunki międzynarodowe",
+    "hu": "Nemzetközi kapcsolatok",
+    "el": "Διεθνείς σχέσεις",
+    "kk": "Халықаралық қатынастар",
+    "uz": "Xalqaro munosabatlar"
   },
   {
     "code": "politicalResearch",
@@ -3380,7 +4568,13 @@
     "fr": "Recherche politique",
     "de": "Politische Forschung",
     "it": "Ricerca politica",
-    "tr": "Siyasi araştırma"
+    "tr": "Siyasi araştırma",
+    "pt": "Investigação política",
+    "pl": "Badania polityczne",
+    "hu": "Politikai kutatás",
+    "el": "Πολιτική έρευνα",
+    "kk": "Саяси зерттеу",
+    "uz": "Siyosiy tadqiqot"
   },
   {
     "code": "publicPolicy",
@@ -3397,7 +4591,13 @@
     "fr": "Politiques publiques",
     "de": "Öffentliche Politik",
     "it": "Politiche pubbliche",
-    "tr": "Kamu politikası"
+    "tr": "Kamu politikası",
+    "pt": "Políticas públicas",
+    "pl": "Polityka publiczna",
+    "hu": "Közpolitika",
+    "el": "Δημόσια πολιτική",
+    "kk": "Мемлекеттік саясат",
+    "uz": "Davlat siyosati"
   },
   {
     "code": "politicalCommunication",
@@ -3414,7 +4614,13 @@
     "fr": "Communication politique",
     "de": "Politische Kommunikation",
     "it": "Comunicazione politica",
-    "tr": "Siyasi iletişim"
+    "tr": "Siyasi iletişim",
+    "pt": "Comunicação política",
+    "pl": "Komunikacja polityczna",
+    "hu": "Politikai kommunikáció",
+    "el": "Πολιτική επικοινωνία",
+    "kk": "Саяси коммуникация",
+    "uz": "Siyosiy kommunikatsiya"
   },
   {
     "code": "electionAnalysis",
@@ -3431,7 +4637,13 @@
     "fr": "Analyse électorale",
     "de": "Wahlanalyse",
     "it": "Analisi elettorale",
-    "tr": "Seçim analizi"
+    "tr": "Seçim analizi",
+    "pt": "Análise eleitoral",
+    "pl": "Analiza wyborcza",
+    "hu": "Választási elemzés",
+    "el": "Ανάλυση εκλογών",
+    "kk": "Сайлау талдауы",
+    "uz": "Saylov tahlili"
   },
   {
     "code": "politicalEconomy",
@@ -3448,7 +4660,13 @@
     "fr": "Économie politique",
     "de": "Politische Ökonomie",
     "it": "Economia politica",
-    "tr": "Siyasal iktisat"
+    "tr": "Siyasal iktisat",
+    "pt": "Economia política",
+    "pl": "Ekonomia polityczna",
+    "hu": "Politikai gazdaságtan",
+    "el": "Πολιτική οικονομία",
+    "kk": "Саяси экономика",
+    "uz": "Siyosiy iqtisod"
   },
   {
     "code": "supplierManagement",
@@ -3465,7 +4683,13 @@
     "fr": "Gestion des fournisseurs",
     "de": "Lieferantenmanagement",
     "it": "Gestione dei fornitori",
-    "tr": "Tedarikçi yönetimi"
+    "tr": "Tedarikçi yönetimi",
+    "pt": "Gestão de fornecedores",
+    "pl": "Zarządzanie dostawcami",
+    "hu": "Beszállítók kezelése",
+    "el": "Διαχείριση προμηθευτών",
+    "kk": "Жеткізушілерді басқару",
+    "uz": "Yetkazib beruvchilarni boshqarish"
   },
   {
     "code": "contractNegotiation",
@@ -3482,7 +4706,13 @@
     "fr": "Négociation de contrats",
     "de": "Vertragsverhandlung",
     "it": "Negoziazione di contratti",
-    "tr": "Sözleşme müzakeresi"
+    "tr": "Sözleşme müzakeresi",
+    "pt": "Negociação de contratos",
+    "pl": "Negocjowanie umów",
+    "hu": "Szerződéses tárgyalások",
+    "el": "Διαπραγμάτευση συμβάσεων",
+    "kk": "Келісімшарт бойынша келіссөздер",
+    "uz": "Shartnoma muzokaralari"
   },
   {
     "code": "inventoryControl",
@@ -3499,7 +4729,13 @@
     "fr": "Contrôle des stocks",
     "de": "Bestandskontrolle",
     "it": "Controllo delle scorte",
-    "tr": "Stok kontrolü"
+    "tr": "Stok kontrolü",
+    "pt": "Controlo de inventário",
+    "pl": "Kontrola zapasów",
+    "hu": "Készletellenőrzés",
+    "el": "Έλεγχος αποθέματος",
+    "kk": "Қорларды бақылау",
+    "uz": "Zaxiralarni nazorat qilish"
   },
   {
     "code": "vendorSelection",
@@ -3516,7 +4752,13 @@
     "fr": "Sélection des fournisseurs",
     "de": "Lieferantenauswahl",
     "it": "Selezione dei fornitori",
-    "tr": "Tedarikçi seçimi"
+    "tr": "Tedarikçi seçimi",
+    "pt": "Seleção de fornecedores",
+    "pl": "Wybór dostawców",
+    "hu": "Beszállítók kiválasztása",
+    "el": "Επιλογή προμηθευτών",
+    "kk": "Жеткізушіні таңдау",
+    "uz": "Yetkazib beruvchini tanlash"
   },
   {
     "code": "sustainabilityPurchasing",
@@ -3533,7 +4775,13 @@
     "fr": "Achats durables",
     "de": "Nachhaltige Beschaffung",
     "it": "Acquisti sostenibili",
-    "tr": "Sürdürülebilir satın alma"
+    "tr": "Sürdürülebilir satın alma",
+    "pt": "Compras sustentáveis",
+    "pl": "Zakupy zrównoważone",
+    "hu": "Fenntartható beszerzés",
+    "el": "Βιώσιμες προμήθειες",
+    "kk": "Тұрақты сатып алулар",
+    "uz": "Barqaror xaridlar"
   },
   {
     "code": "communityEngagement",
@@ -3550,7 +4798,13 @@
     "fr": "Engagement communautaire",
     "de": "Gemeinwesenarbeit",
     "it": "Coinvolgimento della comunità",
-    "tr": "Toplumla ilişki kurma"
+    "tr": "Toplumla ilişki kurma",
+    "pt": "Envolvimento comunitário",
+    "pl": "Zaangażowanie społeczności",
+    "hu": "Közösségi szerepvállalás",
+    "el": "Εμπλοκή κοινότητας",
+    "kk": "Қоғамдастықпен өзара іс-қимыл",
+    "uz": "Jamoatchilik bilan ishlash"
   },
   {
     "code": "eventCoordination",
@@ -3567,7 +4821,13 @@
     "fr": "Coordination d'événements",
     "de": "Veranstaltungskoordination",
     "it": "Coordinamento di eventi",
-    "tr": "Etkinlik koordinasyonu"
+    "tr": "Etkinlik koordinasyonu",
+    "pt": "Coordenação de eventos",
+    "pl": "Koordynacja wydarzeń",
+    "hu": "Rendezvénykoordináció",
+    "el": "Συντονισμός εκδηλώσεων",
+    "kk": "Іс-шараларды үйлестіру",
+    "uz": "Tadbirlarni muvofiqlashtirish"
   },
   {
     "code": "teamCollaboration",
@@ -3584,7 +4844,13 @@
     "fr": "Collaboration en équipe",
     "de": "Zusammenarbeit im Team",
     "it": "Collaborazione in team",
-    "tr": "Takım hâlinde iş birliği"
+    "tr": "Takım hâlinde iş birliği",
+    "pt": "Colaboração em equipa",
+    "pl": "Współpraca w zespole",
+    "hu": "Csapaton belüli együttműködés",
+    "el": "Ομαδική συνεργασία",
+    "kk": "Командамен бірлесіп жұмыс істеу",
+    "uz": "Jamoada hamkorlik"
   },
   {
     "code": "communicationSkills",
@@ -3601,7 +4867,13 @@
     "fr": "Compétences en communication",
     "de": "Kommunikationsfähigkeit",
     "it": "Capacità comunicative",
-    "tr": "İletişim becerileri"
+    "tr": "İletişim becerileri",
+    "pt": "Capacidade de comunicação",
+    "pl": "Umiejętności komunikacyjne",
+    "hu": "Kommunikációs készség",
+    "el": "Επικοινωνιακές δεξιότητες",
+    "kk": "Қарым-қатынас дағдылары",
+    "uz": "Muloqot koʻnikmalari"
   },
   {
     "code": "fundraising",
@@ -3618,7 +4890,13 @@
     "fr": "Collecte de fonds",
     "de": "Mittelbeschaffung",
     "it": "Raccolta fondi",
-    "tr": "Kaynak yaratma"
+    "tr": "Kaynak yaratma",
+    "pt": "Captação de fundos",
+    "pl": "Zbieranie środków",
+    "hu": "Forrásgyűjtés",
+    "el": "Άντληση χορηγιών",
+    "kk": "Қаражат жинау",
+    "uz": "Mablagʻ jalb qilish"
   },
   {
     "code": "empathy",
@@ -3635,7 +4913,13 @@
     "fr": "Empathie",
     "de": "Empathie",
     "it": "Empatia",
-    "tr": "Empati"
+    "tr": "Empati",
+    "pt": "Empatia",
+    "pl": "Empatia",
+    "hu": "Empátia",
+    "el": "Ενσυναίσθηση",
+    "kk": "Жанашырлық",
+    "uz": "Hamdardlik"
   },
   {
     "code": "leadership",
@@ -3652,7 +4936,13 @@
     "fr": "Leadership",
     "de": "Führungsstärke",
     "it": "Leadership",
-    "tr": "Liderlik"
+    "tr": "Liderlik",
+    "pt": "Liderança",
+    "pl": "Przywództwo",
+    "hu": "Vezetői készség",
+    "el": "Ηγεσία",
+    "kk": "Жетекшілік",
+    "uz": "Yetakchilik"
   },
   {
     "code": "organizationSkills",
@@ -3669,7 +4959,13 @@
     "fr": "Capacités organisationnelles",
     "de": "Organisationsfähigkeiten",
     "it": "Capacità di organizzazione",
-    "tr": "Organizasyon becerileri"
+    "tr": "Organizasyon becerileri",
+    "pt": "Competências organizacionais",
+    "pl": "Umiejętności organizacyjne",
+    "hu": "Szervezési képesség",
+    "el": "Οργανωτικές δεξιότητες",
+    "kk": "Ұйымдастыру дағдылары",
+    "uz": "Tashkilotchilik koʻnikmalari"
   },
   {
     "code": "creditAnalysis",
@@ -3686,7 +4982,13 @@
     "fr": "Analyse de crédit",
     "de": "Kreditanalyse",
     "it": "Analisi del credito",
-    "tr": "Kredi analizi"
+    "tr": "Kredi analizi",
+    "pt": "Análise de crédito",
+    "pl": "Analiza kredytowa",
+    "hu": "Hitelelemzés",
+    "el": "Πιστωτική ανάλυση",
+    "kk": "Несие талдауы",
+    "uz": "Kredit tahlili"
   },
   {
     "code": "loanAssessment",
@@ -3703,7 +5005,13 @@
     "fr": "Évaluation des prêts",
     "de": "Kreditbewertung",
     "it": "Valutazione dei prestiti",
-    "tr": "Kredi değerlendirmesi"
+    "tr": "Kredi değerlendirmesi",
+    "pt": "Avaliação de empréstimos",
+    "pl": "Ocena wniosków kredytowych",
+    "hu": "Hitelkérelmek értékelése",
+    "el": "Αξιολόγηση δανείων",
+    "kk": "Несиені бағалау",
+    "uz": "Kreditni baholash"
   },
   {
     "code": "creditRiskManagement",
@@ -3720,7 +5028,13 @@
     "fr": "Gestion du risque de crédit",
     "de": "Kreditrisikomanagement",
     "it": "Gestione del rischio di credito",
-    "tr": "Kredi riski yönetimi"
+    "tr": "Kredi riski yönetimi",
+    "pt": "Gestão de risco de crédito",
+    "pl": "Zarządzanie ryzykiem kredytowym",
+    "hu": "Hitelkockázat-kezelés",
+    "el": "Διαχείριση πιστωτικού κινδύνου",
+    "kk": "Несие тәуекелдерін басқару",
+    "uz": "Kredit xavfini boshqarish"
   },
   {
     "code": "creditReporting",
@@ -3737,7 +5051,13 @@
     "fr": "Reporting de crédit",
     "de": "Kreditberichterstattung",
     "it": "Reporting del credito",
-    "tr": "Kredi raporlaması"
+    "tr": "Kredi raporlaması",
+    "pt": "Relatórios de crédito",
+    "pl": "Raportowanie kredytowe",
+    "hu": "Hiteljelentés-készítés",
+    "el": "Πιστωτική αναφορά",
+    "kk": "Несие есептілігі",
+    "uz": "Kredit hisobotini tuzish"
   },
   {
     "code": "loanDocumentation",
@@ -3754,7 +5074,13 @@
     "fr": "Documentation des prêts",
     "de": "Kreditdokumentation",
     "it": "Documentazione dei prestiti",
-    "tr": "Kredi dokümantasyonu"
+    "tr": "Kredi dokümantasyonu",
+    "pt": "Documentação de empréstimos",
+    "pl": "Dokumentacja kredytowa",
+    "hu": "Hiteldokumentáció",
+    "el": "Τεκμηρίωση δανείων",
+    "kk": "Несие құжаттамасы",
+    "uz": "Kredit hujjatlarini rasmiylashtirish"
   },
   {
     "code": "creditPolicies",
@@ -3771,7 +5097,13 @@
     "fr": "Politiques de crédit",
     "de": "Kreditrichtlinien",
     "it": "Politiche di credito",
-    "tr": "Kredi politikaları"
+    "tr": "Kredi politikaları",
+    "pt": "Políticas de crédito",
+    "pl": "Polityka kredytowa",
+    "hu": "Hitelpolitikák",
+    "el": "Πιστωτικές πολιτικές",
+    "kk": "Несие саясаты",
+    "uz": "Kredit siyosati"
   },
   {
     "code": "customerCreditAssessment",
@@ -3788,7 +5120,13 @@
     "fr": "Évaluation du crédit client",
     "de": "Kundenkreditprüfung",
     "it": "Valutazione del credito al cliente",
-    "tr": "Müşteri kredi değerlendirmesi"
+    "tr": "Müşteri kredi değerlendirmesi",
+    "pt": "Avaliação de crédito do cliente",
+    "pl": "Ocena zdolności kredytowej klienta",
+    "hu": "Ügyfelek hitelképességének értékelése",
+    "el": "Αξιολόγηση πιστοληπτικής ικανότητας πελατών",
+    "kk": "Клиенттің несиелік қабілетін бағалау",
+    "uz": "Mijozning kredit qobiliyatini baholash"
   },
   {
     "code": "accountManagement",
@@ -3805,7 +5143,13 @@
     "fr": "Gestion des comptes",
     "de": "Kontenverwaltung",
     "it": "Gestione dei conti",
-    "tr": "Hesap yönetimi"
+    "tr": "Hesap yönetimi",
+    "pt": "Gestão de contas",
+    "pl": "Zarządzanie kontami klientów",
+    "hu": "Számlakezelés",
+    "el": "Διαχείριση λογαριασμών",
+    "kk": "Шоттарды басқару",
+    "uz": "Hisobvaraqlarni boshqarish"
   },
   {
     "code": "loanProcessing",
@@ -3822,7 +5166,13 @@
     "fr": "Traitement des prêts",
     "de": "Kreditbearbeitung",
     "it": "Elaborazione dei prestiti",
-    "tr": "Kredi işlemleri"
+    "tr": "Kredi işlemleri",
+    "pt": "Processamento de empréstimos",
+    "pl": "Przetwarzanie wniosków kredytowych",
+    "hu": "Hitelügyintézés",
+    "el": "Επεξεργασία δανείων",
+    "kk": "Несиені өңдеу",
+    "uz": "Kreditni rasmiylashtirish"
   },
   {
     "code": "riskManagement",
@@ -3839,7 +5189,13 @@
     "fr": "Gestion des risques",
     "de": "Risikomanagement",
     "it": "Gestione dei rischi",
-    "tr": "Risk yönetimi"
+    "tr": "Risk yönetimi",
+    "pt": "Gestão de risco bancário",
+    "pl": "Zarządzanie ryzykiem finansowym",
+    "hu": "Kockázatok kezelése",
+    "el": "Διαχείριση κινδύνων",
+    "kk": "Қаржылық тәуекелдерді басқару",
+    "uz": "Xavf-xatarlarni boshqarish"
   },
   {
     "code": "transactionProcessing",
@@ -3856,7 +5212,13 @@
     "fr": "Traitement des opérations",
     "de": "Transaktionsverarbeitung",
     "it": "Elaborazione delle transazioni",
-    "tr": "İşlem yürütme"
+    "tr": "İşlem yürütme",
+    "pt": "Processamento de transações",
+    "pl": "Przetwarzanie transakcji",
+    "hu": "Tranzakciók feldolgozása",
+    "el": "Επεξεργασία συναλλαγών",
+    "kk": "Транзакцияларды өңдеу",
+    "uz": "Tranzaksiyalarni qayta ishlash"
   },
   {
     "code": "bankingSoftware",
@@ -3873,7 +5235,13 @@
     "fr": "Logiciels bancaires",
     "de": "Bankensoftware",
     "it": "Software bancario",
-    "tr": "Bankacılık yazılımı"
+    "tr": "Bankacılık yazılımı",
+    "pt": "Software bancário",
+    "pl": "Oprogramowanie bankowe",
+    "hu": "Bankszoftverek",
+    "el": "Τραπεζικό λογισμικό",
+    "kk": "Банктік бағдарламалық жасақтама",
+    "uz": "Bank dasturiy ta'minoti"
   },
   {
     "code": "treasuryManagement",
@@ -3890,7 +5258,13 @@
     "fr": "Gestion de trésorerie",
     "de": "Treasury-Management",
     "it": "Gestione della tesoreria",
-    "tr": "Hazine yönetimi"
+    "tr": "Hazine yönetimi",
+    "pt": "Gestão de tesouraria",
+    "pl": "Zarządzanie skarbowością",
+    "hu": "Treasury-menedzsment",
+    "el": "Διαχείριση διαθεσίμων",
+    "kk": "Қазынашылықты басқару",
+    "uz": "Xazina boshqaruvi"
   },
   {
     "code": "recruitment",
@@ -3907,7 +5281,13 @@
     "fr": "Recrutement",
     "de": "Personalbeschaffung",
     "it": "Reclutamento",
-    "tr": "İşe alım"
+    "tr": "İşe alım",
+    "pt": "Recrutamento",
+    "pl": "Rekrutacja",
+    "hu": "Toborzás",
+    "el": "Προσλήψεις",
+    "kk": "Персонал жалдау",
+    "uz": "Ishga qabul qilish"
   },
   {
     "code": "talentManagement",
@@ -3924,7 +5304,13 @@
     "fr": "Gestion des talents",
     "de": "Talentmanagement",
     "it": "Gestione dei talenti",
-    "tr": "Yetenek yönetimi"
+    "tr": "Yetenek yönetimi",
+    "pt": "Gestão de talento",
+    "pl": "Zarządzanie talentami",
+    "hu": "Tehetségmenedzsment",
+    "el": "Διαχείριση ταλέντων",
+    "kk": "Талантты басқару",
+    "uz": "Iqtidorlarni boshqarish"
   },
   {
     "code": "hrCompliance",
@@ -3941,7 +5327,13 @@
     "fr": "Conformité RH",
     "de": "Personalrechtliche Compliance",
     "it": "Conformità HR",
-    "tr": "İnsan kaynakları uyumu"
+    "tr": "İnsan kaynakları uyumu",
+    "pt": "Conformidade em recursos humanos",
+    "pl": "Zgodność z przepisami HR",
+    "hu": "HR-megfelelés",
+    "el": "Συμμόρφωση με εργατική νομοθεσία",
+    "kk": "Кадр саясатына сәйкестік",
+    "uz": "Mehnat qonunchiligiga muvofiqlik"
   },
   {
     "code": "workplaceSafety",
@@ -3958,7 +5350,13 @@
     "fr": "Sécurité au travail",
     "de": "Arbeitssicherheit",
     "it": "Sicurezza sul lavoro",
-    "tr": "İş yerinde güvenlik"
+    "tr": "İş yerinde güvenlik",
+    "pt": "Segurança no trabalho",
+    "pl": "Bezpieczeństwo pracy",
+    "hu": "Munkahelyi biztonság",
+    "el": "Ασφάλεια εργασίας",
+    "kk": "Жұмыс орнындағы қауіпсіздік",
+    "uz": "Ish joyida xavfsizlik"
   },
   {
     "code": "conflictResolution",
@@ -3975,7 +5373,13 @@
     "fr": "Résolution des conflits",
     "de": "Konfliktlösung",
     "it": "Risoluzione dei conflitti",
-    "tr": "Çatışma çözümü"
+    "tr": "Çatışma çözümü",
+    "pt": "Gestão de conflitos",
+    "pl": "Zarządzanie konfliktami",
+    "hu": "Konfliktusok kezelése",
+    "el": "Διαχείριση συγκρούσεων",
+    "kk": "Ұжымдағы дау-дамайды шешу",
+    "uz": "Nizolarni bartaraf etish"
   },
   {
     "code": "surveying",
@@ -3992,7 +5396,13 @@
     "fr": "Levés topographiques",
     "de": "Geländevermessung",
     "it": "Rilievi topografici",
-    "tr": "Arazi ölçümleri"
+    "tr": "Arazi ölçümleri",
+    "pt": "Topografia",
+    "pl": "Miernictwo",
+    "hu": "Földmérés",
+    "el": "Τοπογραφική αποτύπωση",
+    "kk": "Аумақты өлшеу",
+    "uz": "Geodezik oʻlchash ishlari"
   },
   {
     "code": "geodeticSurvey",
@@ -4009,7 +5419,13 @@
     "fr": "Levés géodésiques",
     "de": "Geodätische Vermessung",
     "it": "Rilievi geodetici",
-    "tr": "Jeodezik ölçüm"
+    "tr": "Jeodezik ölçüm",
+    "pt": "Levantamento geodésico",
+    "pl": "Pomiary geodezyjne",
+    "hu": "Geodéziai felmérés",
+    "el": "Γεωδαιτική αποτύπωση",
+    "kk": "Геодезиялық зерттеу",
+    "uz": "Geodeziya tadqiqotlari"
   },
   {
     "code": "landBoundaryDetermination",
@@ -4026,7 +5442,13 @@
     "fr": "Détermination des limites de propriété",
     "de": "Grenzfeststellung",
     "it": "Determinazione dei confini terrieri",
-    "tr": "Arazi sınırlarının belirlenmesi"
+    "tr": "Arazi sınırlarının belirlenmesi",
+    "pt": "Determinação de limites de terrenos",
+    "pl": "Wyznaczanie granic gruntów",
+    "hu": "Telekhatárok meghatározása",
+    "el": "Καθορισμός ορίων γης",
+    "kk": "Жер учаскесінің шекарасын анықтау",
+    "uz": "Yer chegaralarini aniqlash"
   },
   {
     "code": "gpsMapping",
@@ -4043,7 +5465,13 @@
     "fr": "Cartographie GPS",
     "de": "GPS-Kartierung",
     "it": "Mappatura GPS",
-    "tr": "GPS haritalama"
+    "tr": "GPS haritalama",
+    "pt": "Mapeamento por GPS",
+    "pl": "Mapowanie GPS",
+    "hu": "GPS-térképezés",
+    "el": "Χαρτογράφηση GPS",
+    "kk": "GPS арқылы карта жасау",
+    "uz": "GPS xaritalash"
   },
   {
     "code": "dataAnalysis",
@@ -4060,7 +5488,13 @@
     "fr": "Analyse de données",
     "de": "Datenanalyse",
     "it": "Analisi dei dati",
-    "tr": "Veri analizi"
+    "tr": "Veri analizi",
+    "pt": "Análise de dados",
+    "pl": "Analiza danych",
+    "hu": "Adatelemzés",
+    "el": "Ανάλυση δεδομένων",
+    "kk": "Деректерді талдау",
+    "uz": "Ma'lumotlar tahlili"
   },
   {
     "code": "cadSoftware",
@@ -4077,7 +5511,13 @@
     "fr": "Logiciels de CAO",
     "de": "CAD-Software",
     "it": "Software CAD",
-    "tr": "CAD yazılımı"
+    "tr": "CAD yazılımı",
+    "pt": "Software CAD",
+    "pl": "Oprogramowanie CAD",
+    "hu": "CAD szoftverek",
+    "el": "Λογισμικό CAD",
+    "kk": "CAD бағдарламалық жасақтамасы",
+    "uz": "CAD dasturiy ta'minoti"
   },
   {
     "code": "cartography",
@@ -4094,7 +5534,13 @@
     "fr": "Cartographie",
     "de": "Kartografie",
     "it": "Cartografia",
-    "tr": "Kartografya"
+    "tr": "Kartografya",
+    "pt": "Cartografia",
+    "pl": "Kartografia",
+    "hu": "Térképészet",
+    "el": "Χαρτογραφία",
+    "kk": "Картография",
+    "uz": "Kartografiya"
   },
   {
     "code": "landTopography",
@@ -4111,7 +5557,13 @@
     "fr": "Topographie du terrain",
     "de": "Geländetopografie",
     "it": "Topografia del terreno",
-    "tr": "Arazi topografyası"
+    "tr": "Arazi topografyası",
+    "pt": "Topografia de terrenos",
+    "pl": "Topografia terenu",
+    "hu": "Terep topográfiája",
+    "el": "Τοπογραφία εδάφους",
+    "kk": "Жер топографиясы",
+    "uz": "Yer relyefi (topografiya)"
   },
   {
     "code": "trainingPlanning",
@@ -4128,7 +5580,13 @@
     "fr": "Planification des formations",
     "de": "Trainingsplanung",
     "it": "Pianificazione degli allenamenti",
-    "tr": "Antrenman planlaması"
+    "tr": "Antrenman planlaması",
+    "pt": "Planeamento de treinos",
+    "pl": "Planowanie treningów",
+    "hu": "Edzéstervezés",
+    "el": "Σχεδιασμός προπόνησης",
+    "kk": "Жаттығуларды жоспарлау",
+    "uz": "Mashgʻulotlarni rejalashtirish"
   },
   {
     "code": "athleteDevelopment",
@@ -4145,7 +5603,13 @@
     "fr": "Développement des athlètes",
     "de": "Sportlerentwicklung",
     "it": "Sviluppo degli atleti",
-    "tr": "Sporcu gelişimi"
+    "tr": "Sporcu gelişimi",
+    "pt": "Desenvolvimento do atleta",
+    "pl": "Rozwój zawodników",
+    "hu": "Sportolók fejlesztése",
+    "el": "Ανάπτυξη αθλητών",
+    "kk": "Спортшыны дамыту",
+    "uz": "Sportchini rivojlantirish"
   },
   {
     "code": "performanceAnalysis",
@@ -4162,7 +5626,13 @@
     "fr": "Analyse de la performance",
     "de": "Leistungsanalyse",
     "it": "Analisi della prestazione",
-    "tr": "Performans analizi"
+    "tr": "Performans analizi",
+    "pt": "Análise de desempenho",
+    "pl": "Analiza wyników",
+    "hu": "Teljesítményelemzés",
+    "el": "Ανάλυση απόδοσης",
+    "kk": "Нәтижелілікті талдау",
+    "uz": "Natijalarni tahlil qilish"
   },
   {
     "code": "motivationalSkills",
@@ -4179,7 +5649,13 @@
     "fr": "Capacités de motivation",
     "de": "Motivationsfähigkeit",
     "it": "Capacità motivazionali",
-    "tr": "Motivasyon becerileri"
+    "tr": "Motivasyon becerileri",
+    "pt": "Capacidade de motivação",
+    "pl": "Umiejętności motywacyjne",
+    "hu": "Motivációs készségek",
+    "el": "Δεξιότητες παρότρυνσης",
+    "kk": "Ынталандыру дағдылары",
+    "uz": "Ragʻbatlantirish koʻnikmalari"
   },
   {
     "code": "strategyDevelopment",
@@ -4196,7 +5672,13 @@
     "fr": "Élaboration de stratégies",
     "de": "Strategieentwicklung",
     "it": "Sviluppo di strategie",
-    "tr": "Strateji geliştirme"
+    "tr": "Strateji geliştirme",
+    "pt": "Desenvolvimento de estratégias",
+    "pl": "Opracowywanie strategii",
+    "hu": "Stratégiafejlesztés",
+    "el": "Ανάπτυξη στρατηγικής",
+    "kk": "Стратегия әзірлеу",
+    "uz": "Strategiya ishlab chiqish"
   },
   {
     "code": "teamBuilding",
@@ -4213,7 +5695,13 @@
     "fr": "Cohésion d'équipe",
     "de": "Teambildung",
     "it": "Costruzione del team",
-    "tr": "Takım oluşturma"
+    "tr": "Takım oluşturma",
+    "pt": "Construção de equipas",
+    "pl": "Budowanie zespołu",
+    "hu": "Csapatépítés",
+    "el": "Καλλιέργεια ομαδικού πνεύματος",
+    "kk": "Команда құру",
+    "uz": "Jamoa qurish"
   },
   {
     "code": "fitnessAssessment",
@@ -4230,7 +5718,13 @@
     "fr": "Évaluation de la condition physique",
     "de": "Fitnessbeurteilung",
     "it": "Valutazione della forma fisica",
-    "tr": "Fiziksel uygunluk değerlendirmesi"
+    "tr": "Fiziksel uygunluk değerlendirmesi",
+    "pt": "Avaliação física",
+    "pl": "Ocena sprawności fizycznej",
+    "hu": "Fizikai állapot felmérése",
+    "el": "Αξιολόγηση φυσικής κατάστασης",
+    "kk": "Дене шынықтыру деңгейін бағалау",
+    "uz": "Jismoniy tayyorgarlikni baholash"
   },
   {
     "code": "individualizedTraining",
@@ -4247,7 +5741,13 @@
     "fr": "Entraînement individualisé",
     "de": "Individuelles Training",
     "it": "Allenamento personalizzato",
-    "tr": "Bireysel antrenman"
+    "tr": "Bireysel antrenman",
+    "pt": "Treino individualizado",
+    "pl": "Trening indywidualny",
+    "hu": "Egyéni edzésprogram",
+    "el": "Εξατομικευμένη προπόνηση",
+    "kk": "Жеке жаттығу",
+    "uz": "Individual mashgʻulot"
   },
   {
     "code": "medicationDispensing",
@@ -4264,7 +5764,13 @@
     "fr": "Délivrance de médicaments",
     "de": "Medikamentenabgabe",
     "it": "Dispensazione di farmaci",
-    "tr": "İlaç verme"
+    "tr": "İlaç verme",
+    "pt": "Dispensa de medicamentos",
+    "pl": "Wydawanie leków",
+    "hu": "Gyógyszerek kiadása",
+    "el": "Διάθεση φαρμάκων",
+    "kk": "Дәрі-дәрмек тарату",
+    "uz": "Dori-darmon tarqatish"
   },
   {
     "code": "medicationStorage",
@@ -4281,7 +5787,13 @@
     "fr": "Stockage des médicaments",
     "de": "Medikamentenlagerung",
     "it": "Conservazione dei farmaci",
-    "tr": "İlaç saklama"
+    "tr": "İlaç saklama",
+    "pt": "Armazenamento de medicamentos",
+    "pl": "Przechowywanie leków",
+    "hu": "Gyógyszerek tárolása",
+    "el": "Αποθήκευση φαρμάκων",
+    "kk": "Дәрі-дәрмекті сақтау",
+    "uz": "Dori-darmonlarni saqlash"
   },
   {
     "code": "drugPreparation",
@@ -4298,7 +5810,13 @@
     "fr": "Préparation de médicaments",
     "de": "Arzneimittelherstellung",
     "it": "Preparazione di farmaci",
-    "tr": "İlaç hazırlama"
+    "tr": "İlaç hazırlama",
+    "pt": "Preparação de medicamentos",
+    "pl": "Przygotowywanie leków",
+    "hu": "Gyógyszerek elkészítése",
+    "el": "Παρασκευή φαρμάκων",
+    "kk": "Дәрі дайындау",
+    "uz": "Dori tayyorlash"
   },
   {
     "code": "pharmacology",
@@ -4315,7 +5833,13 @@
     "fr": "Pharmacologie",
     "de": "Pharmakologie",
     "it": "Farmacologia",
-    "tr": "Farmakoloji"
+    "tr": "Farmakoloji",
+    "pt": "Farmacologia",
+    "pl": "Farmakologia",
+    "hu": "Farmakológia",
+    "el": "Φαρμακολογία",
+    "kk": "Фармакология",
+    "uz": "Farmakologiya"
   },
   {
     "code": "medicationMonitoring",
@@ -4332,7 +5856,13 @@
     "fr": "Suivi des médicaments",
     "de": "Medikamentenüberwachung",
     "it": "Monitoraggio dei farmaci",
-    "tr": "İlaç takibi"
+    "tr": "İlaç takibi",
+    "pt": "Monitorização da medicação",
+    "pl": "Monitorowanie stosowania leków",
+    "hu": "Gyógyszerhatás monitorozása",
+    "el": "Παρακολούθηση φαρμακευτικής αγωγής",
+    "kk": "Дәрі-дәрмекті бақылау",
+    "uz": "Dori qabulini kuzatish"
   },
   {
     "code": "childDevelopment",
@@ -4349,7 +5879,13 @@
     "fr": "Développement de l'enfant",
     "de": "Kindesentwicklung",
     "it": "Sviluppo del bambino",
-    "tr": "Çocuk gelişimi"
+    "tr": "Çocuk gelişimi",
+    "pt": "Desenvolvimento infantil",
+    "pl": "Rozwój dziecka",
+    "hu": "Gyermekfejlődés",
+    "el": "Ανάπτυξη παιδιού",
+    "kk": "Балалардың дамуы",
+    "uz": "Bola rivojlanishi"
   },
   {
     "code": "lessonPlanning",
@@ -4366,7 +5902,13 @@
     "fr": "Préparation des cours",
     "de": "Unterrichtsplanung",
     "it": "Pianificazione delle lezioni",
-    "tr": "Ders planlama"
+    "tr": "Ders planlama",
+    "pt": "Planeamento de aulas",
+    "pl": "Planowanie zajęć",
+    "hu": "Óratervezés",
+    "el": "Σχεδιασμός μαθήματος",
+    "kk": "Сабақ жоспарлау",
+    "uz": "Dars rejalashtirish"
   },
   {
     "code": "earlyLearningMethods",
@@ -4383,7 +5925,13 @@
     "fr": "Méthodes d'apprentissage précoce",
     "de": "Frühkindliche Lernmethoden",
     "it": "Metodi di apprendimento precoce",
-    "tr": "Erken öğrenme yöntemleri"
+    "tr": "Erken öğrenme yöntemleri",
+    "pt": "Métodos de aprendizagem precoce",
+    "pl": "Metody wczesnej edukacji",
+    "hu": "Korai fejlesztési módszerek",
+    "el": "Μέθοδοι πρώιμης μάθησης",
+    "kk": "Ерте білім беру әдістері",
+    "uz": "Erta taʼlim metodlari"
   },
   {
     "code": "classroomManagement",
@@ -4400,7 +5948,13 @@
     "fr": "Gestion de classe",
     "de": "Klassenführung",
     "it": "Gestione della classe",
-    "tr": "Sınıf yönetimi"
+    "tr": "Sınıf yönetimi",
+    "pt": "Gestão de sala de aula",
+    "pl": "Zarządzanie klasą",
+    "hu": "Osztálymenedzsment",
+    "el": "Διαχείριση τάξης",
+    "kk": "Сынып жұмысын басқару",
+    "uz": "Sinfni boshqarish"
   },
   {
     "code": "creativeActivities",
@@ -4417,7 +5971,13 @@
     "fr": "Activités créatives",
     "de": "Kreative Aktivitäten",
     "it": "Attività creative",
-    "tr": "Yaratıcı etkinlikler"
+    "tr": "Yaratıcı etkinlikler",
+    "pt": "Atividades criativas",
+    "pl": "Zajęcia kreatywne",
+    "hu": "Kreatív tevékenységek",
+    "el": "Δημιουργικές δραστηριότητες",
+    "kk": "Шығармашылық іс-әрекеттер",
+    "uz": "Ijodiy mashgʻulotlar"
   },
   {
     "code": "languageDevelopment",
@@ -4434,7 +5994,13 @@
     "fr": "Développement du langage",
     "de": "Sprachentwicklung",
     "it": "Sviluppo del linguaggio",
-    "tr": "Dil gelişimi"
+    "tr": "Dil gelişimi",
+    "pt": "Desenvolvimento da linguagem",
+    "pl": "Rozwój językowy",
+    "hu": "Nyelvi fejlődés",
+    "el": "Ανάπτυξη γλώσσας",
+    "kk": "Тілдік даму",
+    "uz": "Nutq rivojlanishi"
   },
   {
     "code": "childPsychology",
@@ -4451,7 +6017,13 @@
     "fr": "Psychologie de l'enfant",
     "de": "Kinderpsychologie",
     "it": "Psicologia infantile",
-    "tr": "Çocuk psikolojisi"
+    "tr": "Çocuk psikolojisi",
+    "pt": "Psicologia infantil",
+    "pl": "Psychologia dziecka",
+    "hu": "Gyermekpszichológia",
+    "el": "Παιδική ψυχολογία",
+    "kk": "Балалар психологиясы",
+    "uz": "Bolalar psixologiyasi"
   },
   {
     "code": "parentCommunication",
@@ -4468,7 +6040,13 @@
     "fr": "Communication avec les parents",
     "de": "Elternkommunikation",
     "it": "Comunicazione con i genitori",
-    "tr": "Velilerle iletişim"
+    "tr": "Velilerle iletişim",
+    "pt": "Comunicação com os pais",
+    "pl": "Komunikacja z rodzicami",
+    "hu": "Kommunikáció a szülőkkel",
+    "el": "Επικοινωνία με γονείς",
+    "kk": "Ата-аналармен қарым-қатынас",
+    "uz": "Ota-onalar bilan muloqot"
   },
   {
     "code": "socialSkillsDevelopment",
@@ -4485,7 +6063,13 @@
     "fr": "Développement des compétences sociales",
     "de": "Förderung sozialer Kompetenzen",
     "it": "Sviluppo delle competenze sociali",
-    "tr": "Sosyal becerilerin geliştirilmesi"
+    "tr": "Sosyal becerilerin geliştirilmesi",
+    "pt": "Desenvolvimento de competências sociais",
+    "pl": "Rozwijanie umiejętności społecznych",
+    "hu": "Szociális készségek fejlesztése",
+    "el": "Ανάπτυξη κοινωνικών δεξιοτήτων",
+    "kk": "Әлеуметтік дағдыларды дамыту",
+    "uz": "Ijtimoiy koʻnikmalarni rivojlantirish"
   },
   {
     "code": "assessmentAndEvaluation",
@@ -4502,7 +6086,13 @@
     "fr": "Contrôle et évaluation",
     "de": "Bewertung und Beurteilung",
     "it": "Verifica e valutazione",
-    "tr": "Ölçme ve değerlendirme"
+    "tr": "Ölçme ve değerlendirme",
+    "pt": "Avaliação e apreciação",
+    "pl": "Ocena i ewaluacja",
+    "hu": "Felmérés és értékelés",
+    "el": "Αξιολόγηση επιδόσεων",
+    "kk": "Тексеру және бағалау",
+    "uz": "Baholash va tahlil qilish"
   },
   {
     "code": "psychologicalAssessment",
@@ -4519,7 +6109,13 @@
     "fr": "Évaluation psychologique",
     "de": "Psychologische Beurteilung",
     "it": "Valutazione psicologica",
-    "tr": "Psikolojik değerlendirme"
+    "tr": "Psikolojik değerlendirme",
+    "pt": "Avaliação psicológica",
+    "pl": "Ocena psychologiczna",
+    "hu": "Pszichológiai felmérés",
+    "el": "Ψυχολογική αξιολόγηση",
+    "kk": "Психологиялық бағалау",
+    "uz": "Psixologik baholash"
   },
   {
     "code": "counseling",
@@ -4536,7 +6132,13 @@
     "fr": "Accompagnement psychologique",
     "de": "Beratung",
     "it": "Consulenza psicologica",
-    "tr": "Psikolojik danışma"
+    "tr": "Psikolojik danışma",
+    "pt": "Aconselhamento",
+    "pl": "Poradnictwo",
+    "hu": "Tanácsadás",
+    "el": "Συμβουλευτική",
+    "kk": "Кеңес беру",
+    "uz": "Maslahat berish"
   },
   {
     "code": "mentalHealthSupport",
@@ -4553,7 +6155,13 @@
     "fr": "Soutien en santé mentale",
     "de": "Unterstützung der psychischen Gesundheit",
     "it": "Supporto alla salute mentale",
-    "tr": "Ruh sağlığı desteği"
+    "tr": "Ruh sağlığı desteği",
+    "pt": "Apoio à saúde mental",
+    "pl": "Wsparcie w zakresie zdrowia psychicznego",
+    "hu": "Mentális egészség támogatása",
+    "el": "Υποστήριξη ψυχικής υγείας",
+    "kk": "Психикалық денсаулықты қолдау",
+    "uz": "Ruhiy salomatlikka koʻmak"
   },
   {
     "code": "behavioralTherapy",
@@ -4570,7 +6178,13 @@
     "fr": "Thérapie comportementale",
     "de": "Verhaltenstherapie",
     "it": "Terapia comportamentale",
-    "tr": "Davranış terapisi"
+    "tr": "Davranış terapisi",
+    "pt": "Terapia comportamental",
+    "pl": "Terapia behawioralna",
+    "hu": "Viselkedésterápia",
+    "el": "Θεραπεία συμπεριφοράς",
+    "kk": "Мінез-құлық терапиясы",
+    "uz": "Xulq-atvor terapiyasi"
   },
   {
     "code": "stressManagement",
@@ -4587,7 +6201,13 @@
     "fr": "Gestion du stress",
     "de": "Stressbewältigung",
     "it": "Gestione dello stress",
-    "tr": "Stres yönetimi"
+    "tr": "Stres yönetimi",
+    "pt": "Gestão do stress",
+    "pl": "Zarządzanie stresem",
+    "hu": "Stresszkezelés",
+    "el": "Διαχείριση άγχους",
+    "kk": "Стрессті басқару",
+    "uz": "Stressni boshqarish"
   },
   {
     "code": "cognitiveBehavioralTherapy",
@@ -4604,7 +6224,13 @@
     "fr": "Thérapie cognitivo-comportementale",
     "de": "Kognitive Verhaltenstherapie",
     "it": "Terapia cognitivo-comportamentale",
-    "tr": "Bilişsel davranışçı terapi"
+    "tr": "Bilişsel davranışçı terapi",
+    "pt": "Terapia cognitivo-comportamental",
+    "pl": "Terapia poznawczo-behawioralna",
+    "hu": "Kognitív viselkedésterápia",
+    "el": "Γνωσιακή-συμπεριφορική θεραπεία",
+    "kk": "Когнитивті-мінез-құлық терапиясы",
+    "uz": "Kognitiv-xulqiy terapiya"
   },
   {
     "code": "emotionalSupport",
@@ -4621,7 +6247,13 @@
     "fr": "Soutien émotionnel",
     "de": "Emotionale Unterstützung",
     "it": "Supporto emotivo",
-    "tr": "Duygusal destek"
+    "tr": "Duygusal destek",
+    "pt": "Apoio emocional",
+    "pl": "Wsparcie emocjonalne",
+    "hu": "Emocionális támogatás",
+    "el": "Συναισθηματική υποστήριξη",
+    "kk": "Эмоционалды қолдау",
+    "uz": "Emotsional yordam"
   },
   {
     "code": "psychotherapy",
@@ -4638,7 +6270,13 @@
     "fr": "Psychothérapie",
     "de": "Psychotherapie",
     "it": "Psicoterapia",
-    "tr": "Psikoterapi"
+    "tr": "Psikoterapi",
+    "pt": "Psicoterapia",
+    "pl": "Psychoterapia",
+    "hu": "Pszichoterápia",
+    "el": "Ψυχοθεραπεία",
+    "kk": "Психотерапия",
+    "uz": "Psixoterapiya"
   },
   {
     "code": "ms_office_suite",
@@ -4655,7 +6293,13 @@
     "fr": "Microsoft Office",
     "de": "Microsoft Office",
     "it": "Microsoft Office",
-    "tr": "Microsoft Office"
+    "tr": "Microsoft Office",
+    "pt": "Microsoft Office",
+    "pl": "Microsoft Office",
+    "hu": "Microsoft Office",
+    "el": "Microsoft Office",
+    "kk": "Microsoft Office",
+    "uz": "Microsoft Office"
   },
   {
     "code": "ms_outlook",
@@ -4672,7 +6316,13 @@
     "fr": "Microsoft Outlook",
     "de": "Microsoft Outlook",
     "it": "Microsoft Outlook",
-    "tr": "Microsoft Outlook"
+    "tr": "Microsoft Outlook",
+    "pt": "Microsoft Outlook",
+    "pl": "Microsoft Outlook",
+    "hu": "Microsoft Outlook",
+    "el": "Microsoft Outlook",
+    "kk": "Microsoft Outlook",
+    "uz": "Microsoft Outlook"
   },
   {
     "code": "ms_access",
@@ -4689,7 +6339,13 @@
     "fr": "Microsoft Access",
     "de": "Microsoft Access",
     "it": "Microsoft Access",
-    "tr": "Microsoft Access"
+    "tr": "Microsoft Access",
+    "pt": "Microsoft Access",
+    "pl": "Microsoft Access",
+    "hu": "Microsoft Access",
+    "el": "Microsoft Access",
+    "kk": "Microsoft Access",
+    "uz": "Microsoft Access"
   },
   {
     "code": "ms_teams",
@@ -4706,7 +6362,13 @@
     "fr": "Microsoft Teams",
     "de": "Microsoft Teams",
     "it": "Microsoft Teams",
-    "tr": "Microsoft Teams"
+    "tr": "Microsoft Teams",
+    "pt": "Microsoft Teams",
+    "pl": "Microsoft Teams",
+    "hu": "Microsoft Teams",
+    "el": "Microsoft Teams",
+    "kk": "Microsoft Teams",
+    "uz": "Microsoft Teams"
   },
   {
     "code": "windows",
@@ -4723,7 +6385,13 @@
     "fr": "Système d'exploitation Windows",
     "de": "Betriebssystem Windows",
     "it": "Sistema operativo Windows",
-    "tr": "Windows işletim sistemi"
+    "tr": "Windows işletim sistemi",
+    "pt": "Sistema operativo Windows",
+    "pl": "System operacyjny Windows",
+    "hu": "Windows operációs rendszer",
+    "el": "Λειτουργικό σύστημα Windows",
+    "kk": "Windows операциялық жүйесі",
+    "uz": "Windows operatsion tizimi"
   },
   {
     "code": "linux",
@@ -4740,7 +6408,13 @@
     "fr": "Linux",
     "de": "Linux",
     "it": "Linux",
-    "tr": "Linux"
+    "tr": "Linux",
+    "pt": "Linux",
+    "pl": "Linux",
+    "hu": "Linux",
+    "el": "Linux",
+    "kk": "Linux",
+    "uz": "Linux"
   },
   {
     "code": "zoom",
@@ -4757,7 +6431,13 @@
     "fr": "Zoom",
     "de": "Zoom",
     "it": "Zoom",
-    "tr": "Zoom"
+    "tr": "Zoom",
+    "pt": "Zoom",
+    "pl": "Zoom",
+    "hu": "Zoom",
+    "el": "Zoom",
+    "kk": "Zoom",
+    "uz": "Zoom"
   },
   {
     "code": "html",
@@ -4774,7 +6454,13 @@
     "fr": "HTML",
     "de": "HTML",
     "it": "HTML",
-    "tr": "HTML"
+    "tr": "HTML",
+    "pt": "HTML",
+    "pl": "HTML",
+    "hu": "HTML",
+    "el": "HTML",
+    "kk": "HTML",
+    "uz": "HTML"
   },
   {
     "code": "sql",
@@ -4791,7 +6477,13 @@
     "fr": "SQL",
     "de": "SQL",
     "it": "SQL",
-    "tr": "SQL"
+    "tr": "SQL",
+    "pt": "SQL",
+    "pl": "SQL",
+    "hu": "SQL",
+    "el": "SQL",
+    "kk": "SQL",
+    "uz": "SQL"
   },
   {
     "code": "mysql",
@@ -4808,7 +6500,13 @@
     "fr": "MySQL",
     "de": "MySQL",
     "it": "MySQL",
-    "tr": "MySQL"
+    "tr": "MySQL",
+    "pt": "MySQL",
+    "pl": "MySQL",
+    "hu": "MySQL",
+    "el": "MySQL",
+    "kk": "MySQL",
+    "uz": "MySQL"
   },
   {
     "code": "ms_sql_server",
@@ -4825,7 +6523,13 @@
     "fr": "Microsoft SQL Server",
     "de": "Microsoft SQL Server",
     "it": "Microsoft SQL Server",
-    "tr": "Microsoft SQL Server"
+    "tr": "Microsoft SQL Server",
+    "pt": "Microsoft SQL Server",
+    "pl": "Microsoft SQL Server",
+    "hu": "Microsoft SQL Server",
+    "el": "Microsoft SQL Server",
+    "kk": "Microsoft SQL Server",
+    "uz": "Microsoft SQL Server"
   },
   {
     "code": "postgresql",
@@ -4842,7 +6546,13 @@
     "fr": "PostgreSQL",
     "de": "PostgreSQL",
     "it": "PostgreSQL",
-    "tr": "PostgreSQL"
+    "tr": "PostgreSQL",
+    "pt": "PostgreSQL",
+    "pl": "PostgreSQL",
+    "hu": "PostgreSQL",
+    "el": "PostgreSQL",
+    "kk": "PostgreSQL",
+    "uz": "PostgreSQL"
   },
   {
     "code": "bootstrap",
@@ -4859,7 +6569,13 @@
     "fr": "Bootstrap",
     "de": "Bootstrap",
     "it": "Bootstrap",
-    "tr": "Bootstrap"
+    "tr": "Bootstrap",
+    "pt": "Bootstrap",
+    "pl": "Bootstrap",
+    "hu": "Bootstrap",
+    "el": "Bootstrap",
+    "kk": "Bootstrap",
+    "uz": "Bootstrap"
   },
   {
     "code": "jquery",
@@ -4876,7 +6592,13 @@
     "fr": "jQuery",
     "de": "jQuery",
     "it": "jQuery",
-    "tr": "jQuery"
+    "tr": "jQuery",
+    "pt": "jQuery",
+    "pl": "jQuery",
+    "hu": "jQuery",
+    "el": "jQuery",
+    "kk": "jQuery",
+    "uz": "jQuery"
   },
   {
     "code": "typescript",
@@ -4893,7 +6615,13 @@
     "fr": "TypeScript",
     "de": "TypeScript",
     "it": "TypeScript",
-    "tr": "TypeScript"
+    "tr": "TypeScript",
+    "pt": "TypeScript",
+    "pl": "TypeScript",
+    "hu": "TypeScript",
+    "el": "TypeScript",
+    "kk": "TypeScript",
+    "uz": "TypeScript"
   },
   {
     "code": "nodejs",
@@ -4910,7 +6638,13 @@
     "fr": "Node.js",
     "de": "Node.js",
     "it": "Node.js",
-    "tr": "Node.js"
+    "tr": "Node.js",
+    "pt": "Node.js",
+    "pl": "Node.js",
+    "hu": "Node.js",
+    "el": "Node.js",
+    "kk": "Node.js",
+    "uz": "Node.js"
   },
   {
     "code": "wordpress",
@@ -4927,7 +6661,13 @@
     "fr": "WordPress",
     "de": "WordPress",
     "it": "WordPress",
-    "tr": "WordPress"
+    "tr": "WordPress",
+    "pt": "WordPress",
+    "pl": "WordPress",
+    "hu": "WordPress",
+    "el": "WordPress",
+    "kk": "WordPress",
+    "uz": "WordPress"
   },
   {
     "code": "git",
@@ -4944,7 +6684,13 @@
     "fr": "Git",
     "de": "Git",
     "it": "Git",
-    "tr": "Git"
+    "tr": "Git",
+    "pt": "Git",
+    "pl": "Git",
+    "hu": "Git",
+    "el": "Git",
+    "kk": "Git",
+    "uz": "Git"
   },
   {
     "code": "github",
@@ -4961,7 +6707,13 @@
     "fr": "GitHub",
     "de": "GitHub",
     "it": "GitHub",
-    "tr": "GitHub"
+    "tr": "GitHub",
+    "pt": "GitHub",
+    "pl": "GitHub",
+    "hu": "GitHub",
+    "el": "GitHub",
+    "kk": "GitHub",
+    "uz": "GitHub"
   },
   {
     "code": "programming",
@@ -4978,7 +6730,13 @@
     "fr": "Programmation",
     "de": "Programmierung",
     "it": "Programmazione",
-    "tr": "Programlama"
+    "tr": "Programlama",
+    "pt": "Programação",
+    "pl": "Programowanie",
+    "hu": "Programozás",
+    "el": "Προγραμματισμός",
+    "kk": "Бағдарламалау",
+    "uz": "Dasturlash"
   },
   {
     "code": "coreldraw",
@@ -4995,7 +6753,13 @@
     "fr": "CorelDRAW",
     "de": "CorelDRAW",
     "it": "CorelDRAW",
-    "tr": "CorelDRAW"
+    "tr": "CorelDRAW",
+    "pt": "CorelDRAW",
+    "pl": "CorelDRAW",
+    "hu": "CorelDRAW",
+    "el": "CorelDRAW",
+    "kk": "CorelDRAW",
+    "uz": "CorelDRAW"
   },
   {
     "code": "canva",
@@ -5012,7 +6776,13 @@
     "fr": "Canva",
     "de": "Canva",
     "it": "Canva",
-    "tr": "Canva"
+    "tr": "Canva",
+    "pt": "Canva",
+    "pl": "Canva",
+    "hu": "Canva",
+    "el": "Canva",
+    "kk": "Canva",
+    "uz": "Canva"
   },
   {
     "code": "after_effects",
@@ -5029,7 +6799,13 @@
     "fr": "Adobe After Effects",
     "de": "Adobe After Effects",
     "it": "Adobe After Effects",
-    "tr": "Adobe After Effects"
+    "tr": "Adobe After Effects",
+    "pt": "Adobe After Effects",
+    "pl": "Adobe After Effects",
+    "hu": "Adobe After Effects",
+    "el": "Adobe After Effects",
+    "kk": "Adobe After Effects",
+    "uz": "Adobe After Effects"
   },
   {
     "code": "premiere_pro",
@@ -5046,7 +6822,13 @@
     "fr": "Adobe Premiere Pro",
     "de": "Adobe Premiere Pro",
     "it": "Adobe Premiere Pro",
-    "tr": "Adobe Premiere Pro"
+    "tr": "Adobe Premiere Pro",
+    "pt": "Adobe Premiere Pro",
+    "pl": "Adobe Premiere Pro",
+    "hu": "Adobe Premiere Pro",
+    "el": "Adobe Premiere Pro",
+    "kk": "Adobe Premiere Pro",
+    "uz": "Adobe Premiere Pro"
   },
   {
     "code": "lightroom",
@@ -5063,7 +6845,13 @@
     "fr": "Adobe Lightroom",
     "de": "Adobe Lightroom",
     "it": "Adobe Lightroom",
-    "tr": "Adobe Lightroom"
+    "tr": "Adobe Lightroom",
+    "pt": "Adobe Lightroom",
+    "pl": "Adobe Lightroom",
+    "hu": "Adobe Lightroom",
+    "el": "Adobe Lightroom",
+    "kk": "Adobe Lightroom",
+    "uz": "Adobe Lightroom"
   },
   {
     "code": "figma",
@@ -5080,7 +6868,13 @@
     "fr": "Figma",
     "de": "Figma",
     "it": "Figma",
-    "tr": "Figma"
+    "tr": "Figma",
+    "pt": "Figma",
+    "pl": "Figma",
+    "hu": "Figma",
+    "el": "Figma",
+    "kk": "Figma",
+    "uz": "Figma"
   },
   {
     "code": "video_editing",
@@ -5097,7 +6891,13 @@
     "fr": "Montage vidéo",
     "de": "Videobearbeitung",
     "it": "Montaggio video",
-    "tr": "Video montaj"
+    "tr": "Video montaj",
+    "pt": "Montagem de vídeo",
+    "pl": "Montaż wideo",
+    "hu": "Videómontázs",
+    "el": "Επεξεργασία βίντεο",
+    "kk": "Бейне монтаж",
+    "uz": "Video montaj"
   },
   {
     "code": "archicad",
@@ -5114,7 +6914,13 @@
     "fr": "ArchiCAD",
     "de": "ArchiCAD",
     "it": "ArchiCAD",
-    "tr": "ArchiCAD"
+    "tr": "ArchiCAD",
+    "pt": "ArchiCAD",
+    "pl": "ArchiCAD",
+    "hu": "ArchiCAD",
+    "el": "ArchiCAD",
+    "kk": "ArchiCAD",
+    "uz": "ArchiCAD"
   },
   {
     "code": "3ds_max",
@@ -5131,7 +6937,13 @@
     "fr": "3ds Max",
     "de": "3ds Max",
     "it": "3ds Max",
-    "tr": "3ds Max"
+    "tr": "3ds Max",
+    "pt": "3ds Max",
+    "pl": "3ds Max",
+    "hu": "3ds Max",
+    "el": "3ds Max",
+    "kk": "3ds Max",
+    "uz": "3ds Max"
   },
   {
     "code": "revit",
@@ -5148,7 +6960,13 @@
     "fr": "Autodesk Revit",
     "de": "Autodesk Revit",
     "it": "Autodesk Revit",
-    "tr": "Autodesk Revit"
+    "tr": "Autodesk Revit",
+    "pt": "Autodesk Revit",
+    "pl": "Autodesk Revit",
+    "hu": "Autodesk Revit",
+    "el": "Autodesk Revit",
+    "kk": "Autodesk Revit",
+    "uz": "Autodesk Revit"
   },
   {
     "code": "sketchup",
@@ -5165,7 +6983,13 @@
     "fr": "SketchUp",
     "de": "SketchUp",
     "it": "SketchUp",
-    "tr": "SketchUp"
+    "tr": "SketchUp",
+    "pt": "SketchUp",
+    "pl": "SketchUp",
+    "hu": "SketchUp",
+    "el": "SketchUp",
+    "kk": "SketchUp",
+    "uz": "SketchUp"
   },
   {
     "code": "solidworks",
@@ -5182,7 +7006,13 @@
     "fr": "SolidWorks",
     "de": "SolidWorks",
     "it": "SolidWorks",
-    "tr": "SolidWorks"
+    "tr": "SolidWorks",
+    "pt": "SolidWorks",
+    "pl": "SolidWorks",
+    "hu": "SolidWorks",
+    "el": "SolidWorks",
+    "kk": "SolidWorks",
+    "uz": "SolidWorks"
   },
   {
     "code": "lumion",
@@ -5199,7 +7029,13 @@
     "fr": "Lumion",
     "de": "Lumion",
     "it": "Lumion",
-    "tr": "Lumion"
+    "tr": "Lumion",
+    "pt": "Lumion",
+    "pl": "Lumion",
+    "hu": "Lumion",
+    "el": "Lumion",
+    "kk": "Lumion",
+    "uz": "Lumion"
   },
   {
     "code": "arcgis",
@@ -5216,7 +7052,13 @@
     "fr": "ArcGIS",
     "de": "ArcGIS",
     "it": "ArcGIS",
-    "tr": "ArcGIS"
+    "tr": "ArcGIS",
+    "pt": "ArcGIS",
+    "pl": "ArcGIS",
+    "hu": "ArcGIS",
+    "el": "ArcGIS",
+    "kk": "ArcGIS",
+    "uz": "ArcGIS"
   },
   {
     "code": "netcad",
@@ -5233,7 +7075,13 @@
     "fr": "Netcad",
     "de": "Netcad",
     "it": "Netcad",
-    "tr": "Netcad"
+    "tr": "Netcad",
+    "pt": "Netcad",
+    "pl": "Netcad",
+    "hu": "Netcad",
+    "el": "Netcad",
+    "kk": "Netcad",
+    "uz": "Netcad"
   },
   {
     "code": "matlab",
@@ -5250,7 +7098,13 @@
     "fr": "MATLAB",
     "de": "MATLAB",
     "it": "MATLAB",
-    "tr": "MATLAB"
+    "tr": "MATLAB",
+    "pt": "MATLAB",
+    "pl": "MATLAB",
+    "hu": "MATLAB",
+    "el": "MATLAB",
+    "kk": "MATLAB",
+    "uz": "MATLAB"
   },
   {
     "code": "power_bi",
@@ -5267,7 +7121,13 @@
     "fr": "Microsoft Power BI",
     "de": "Microsoft Power BI",
     "it": "Microsoft Power BI",
-    "tr": "Microsoft Power BI"
+    "tr": "Microsoft Power BI",
+    "pt": "Microsoft Power BI",
+    "pl": "Microsoft Power BI",
+    "hu": "Microsoft Power BI",
+    "el": "Microsoft Power BI",
+    "kk": "Microsoft Power BI",
+    "uz": "Microsoft Power BI"
   },
   {
     "code": "sap",
@@ -5284,7 +7144,13 @@
     "fr": "SAP",
     "de": "SAP",
     "it": "SAP",
-    "tr": "SAP"
+    "tr": "SAP",
+    "pt": "SAP",
+    "pl": "SAP",
+    "hu": "SAP",
+    "el": "SAP",
+    "kk": "SAP",
+    "uz": "SAP"
   },
   {
     "code": "crm",
@@ -5301,7 +7167,13 @@
     "fr": "Systèmes CRM",
     "de": "CRM-Systeme",
     "it": "Sistemi CRM",
-    "tr": "CRM sistemleri"
+    "tr": "CRM sistemleri",
+    "pt": "Sistemas CRM",
+    "pl": "Systemy CRM",
+    "hu": "CRM rendszerek",
+    "el": "Συστήματα CRM",
+    "kk": "CRM жүйелері",
+    "uz": "CRM tizimlari"
   },
   {
     "code": "erp",
@@ -5318,7 +7190,13 @@
     "fr": "Systèmes ERP",
     "de": "ERP-Systeme",
     "it": "Sistemi ERP",
-    "tr": "ERP sistemleri"
+    "tr": "ERP sistemleri",
+    "pt": "Sistemas ERP",
+    "pl": "Systemy ERP",
+    "hu": "ERP rendszerek",
+    "el": "Συστήματα ERP",
+    "kk": "ERP жүйелері",
+    "uz": "ERP tizimlari"
   },
   {
     "code": "jira",
@@ -5335,7 +7213,13 @@
     "fr": "Jira",
     "de": "Jira",
     "it": "Jira",
-    "tr": "Jira"
+    "tr": "Jira",
+    "pt": "Jira",
+    "pl": "Jira",
+    "hu": "Jira",
+    "el": "Jira",
+    "kk": "Jira",
+    "uz": "Jira"
   },
   {
     "code": "spss",
@@ -5352,7 +7236,13 @@
     "fr": "IBM SPSS",
     "de": "IBM SPSS",
     "it": "IBM SPSS",
-    "tr": "IBM SPSS"
+    "tr": "IBM SPSS",
+    "pt": "IBM SPSS",
+    "pl": "IBM SPSS",
+    "hu": "IBM SPSS",
+    "el": "IBM SPSS",
+    "kk": "IBM SPSS",
+    "uz": "IBM SPSS"
   },
   {
     "code": "e_taxes",
@@ -5369,7 +7259,13 @@
     "fr": "E-taxes (portail fiscal azerbaïdjanais)",
     "de": "E-taxes (aserbaidschanisches Steuerportal)",
     "it": "E-taxes (portale fiscale azerbaigiano)",
-    "tr": "E-taxes (Azerbaycan vergi portalı)"
+    "tr": "E-taxes (Azerbaycan vergi portalı)",
+    "pt": "E-taxes (portal fiscal do Azerbaijão)",
+    "pl": "E-taxes (azerbejdżański portal podatkowy)",
+    "hu": "E-taxes (azerbajdzsáni adóportál)",
+    "el": "E-Taxes (ηλεκτρονική φορολογική πύλη του Αζερμπαϊτζάν)",
+    "kk": "E-taxes (Әзербайжан салық порталы)",
+    "uz": "E-taxes (Ozarbayjon soliq portali)"
   },
   {
     "code": "emas",
@@ -5386,7 +7282,13 @@
     "fr": "EMAS (contrats de travail électroniques)",
     "de": "EMAS (elektronisches Arbeitsvertragssystem)",
     "it": "EMAS (contratti di lavoro elettronici)",
-    "tr": "EMAS (elektronik iş sözleşmeleri sistemi)"
+    "tr": "EMAS (elektronik iş sözleşmeleri sistemi)",
+    "pt": "EMAS (sistema eletrónico de contratos de trabalho)",
+    "pl": "EMAS (elektroniczny system umów o pracę)",
+    "hu": "EMAS (elektronikus munkaszerződés-rendszer)",
+    "el": "EMAS (ηλεκτρονικό σύστημα εργασιακών συμβάσεων)",
+    "kk": "ƏMAS (электрондық еңбек шарттары жүйесі)",
+    "uz": "EMAS (elektron mehnat shartnomalari tizimi)"
   },
   {
     "code": "logo_tiger",
@@ -5403,7 +7305,13 @@
     "fr": "Logo Tiger",
     "de": "Logo Tiger",
     "it": "Logo Tiger",
-    "tr": "Logo Tiger"
+    "tr": "Logo Tiger",
+    "pt": "Logo Tiger",
+    "pl": "Logo Tiger",
+    "hu": "Logo Tiger",
+    "el": "Logo Tiger",
+    "kk": "Logo Tiger",
+    "uz": "Logo Tiger"
   },
   {
     "code": "btp",
@@ -5420,7 +7328,13 @@
     "fr": "BTP (logiciel de comptabilité)",
     "de": "BTP (Buchhaltungssoftware)",
     "it": "BTP (software di contabilità)",
-    "tr": "BTP (muhasebe yazılımı)"
+    "tr": "BTP (muhasebe yazılımı)",
+    "pt": "BTP (software de contabilidade)",
+    "pl": "BTP (program księgowy)",
+    "hu": "BTP (könyvelőprogram)",
+    "el": "Λογιστικό λογισμικό BTP",
+    "kk": "BTP (бухгалтерлік бағдарлама)",
+    "uz": "BTP (buxgalteriya dasturi)"
   },
   {
     "code": "helpdesk",
@@ -5437,7 +7351,13 @@
     "fr": "Helpdesk (support technique)",
     "de": "Helpdesk (technischer Support)",
     "it": "Helpdesk (supporto tecnico)",
-    "tr": "Helpdesk (teknik destek)"
+    "tr": "Helpdesk (teknik destek)",
+    "pt": "Helpdesk (suporte técnico)",
+    "pl": "Helpdesk (pomoc techniczna)",
+    "hu": "Helpdesk (technikai támogatás)",
+    "el": "Helpdesk (τεχνική υποστήριξη)",
+    "kk": "Helpdesk (техникалық қолдау)",
+    "uz": "Helpdesk (texnik yordam)"
   },
   {
     "code": "responsibility",
@@ -5454,7 +7374,13 @@
     "fr": "Sens des responsabilités",
     "de": "Verantwortungsbewusstsein",
     "it": "Senso di responsabilità",
-    "tr": "Sorumluluk bilinci"
+    "tr": "Sorumluluk bilinci",
+    "pt": "Responsabilidade",
+    "pl": "Odpowiedzialność",
+    "hu": "Felelősségtudat",
+    "el": "Υπευθυνότητα",
+    "kk": "Жауапкершілік",
+    "uz": "Mas'uliyatlilik"
   },
   {
     "code": "punctuality",
@@ -5471,7 +7397,13 @@
     "fr": "Ponctualité",
     "de": "Pünktlichkeit",
     "it": "Puntualità",
-    "tr": "Dakiklik"
+    "tr": "Dakiklik",
+    "pt": "Pontualidade",
+    "pl": "Punktualność",
+    "hu": "Pontosság",
+    "el": "Ακρίβεια στην ώρα",
+    "kk": "Дәлдік",
+    "uz": "Punktuallik"
   },
   {
     "code": "patience",
@@ -5488,7 +7420,13 @@
     "fr": "Patience",
     "de": "Geduld",
     "it": "Pazienza",
-    "tr": "Sabır"
+    "tr": "Sabır",
+    "pt": "Paciência",
+    "pl": "Cierpliwość",
+    "hu": "Türelem",
+    "el": "Υπομονή",
+    "kk": "Шыдамдылық",
+    "uz": "Sabr-toqat"
   },
   {
     "code": "attention_to_detail",
@@ -5505,7 +7443,13 @@
     "fr": "Souci du détail",
     "de": "Detailgenauigkeit",
     "it": "Attenzione ai dettagli",
-    "tr": "Detaylara dikkat"
+    "tr": "Detaylara dikkat",
+    "pt": "Atenção ao detalhe",
+    "pl": "Dbałość o szczegóły",
+    "hu": "Részletekre való figyelem",
+    "el": "Προσοχή στη λεπτομέρεια",
+    "kk": "Егжей-тегжейге зейін қою",
+    "uz": "Detallarga e'tibor"
   },
   {
     "code": "promptness",
@@ -5522,7 +7466,13 @@
     "fr": "Réactivité",
     "de": "Zügigkeit",
     "it": "Prontezza",
-    "tr": "Operasyonel hız"
+    "tr": "Operasyonel hız",
+    "pt": "Prontidão",
+    "pl": "Szybkość reakcji",
+    "hu": "Gyors reagálás",
+    "el": "Ταχύτητα ανταπόκρισης",
+    "kk": "Жеделдік",
+    "uz": "Tezkorlik"
   },
   {
     "code": "public_speaking",
@@ -5539,7 +7489,13 @@
     "fr": "Prise de parole en public",
     "de": "Redegewandtheit",
     "it": "Parlare in pubblico",
-    "tr": "Hitabet"
+    "tr": "Hitabet",
+    "pt": "Oratória",
+    "pl": "Wystąpienia publiczne",
+    "hu": "Nyilvános beszéd",
+    "el": "Δημόσια ομιλία",
+    "kk": "Шешендік өнері",
+    "uz": "Notiqlik"
   },
   {
     "code": "active_listening",
@@ -5556,7 +7512,13 @@
     "fr": "Écoute active",
     "de": "Aktives Zuhören",
     "it": "Ascolto attivo",
-    "tr": "Aktif dinleme"
+    "tr": "Aktif dinleme",
+    "pt": "Escuta ativa",
+    "pl": "Aktywne słuchanie",
+    "hu": "Aktív hallgatás",
+    "el": "Ενεργητική ακρόαση",
+    "kk": "Белсенді тыңдау",
+    "uz": "Faol tinglash"
   },
   {
     "code": "decision_making",
@@ -5573,7 +7535,13 @@
     "fr": "Prise de décision",
     "de": "Entscheidungsfähigkeit",
     "it": "Capacità decisionale",
-    "tr": "Karar verme becerisi"
+    "tr": "Karar verme becerisi",
+    "pt": "Capacidade de decisão",
+    "pl": "Podejmowanie decyzji",
+    "hu": "Döntésképesség",
+    "el": "Λήψη αποφάσεων",
+    "kk": "Шешім қабылдау",
+    "uz": "Qaror qabul qilish qobiliyati"
   },
   {
     "code": "fast_learning",
@@ -5590,7 +7558,13 @@
     "fr": "Apprentissage rapide",
     "de": "Schnelle Lernfähigkeit",
     "it": "Apprendimento rapido",
-    "tr": "Hızlı öğrenme becerisi"
+    "tr": "Hızlı öğrenme becerisi",
+    "pt": "Capacidade de aprendizagem rápida",
+    "pl": "Szybkie uczenie się",
+    "hu": "Gyors tanulási képesség",
+    "el": "Ταχεία εκμάθηση",
+    "kk": "Тез үйрену қабілеті",
+    "uz": "Tez oʻrganish qobiliyati"
   },
   {
     "code": "work_ethic",
@@ -5607,7 +7581,13 @@
     "fr": "Éthique de travail",
     "de": "Arbeitsethik",
     "it": "Etica del lavoro",
-    "tr": "İş etiği"
+    "tr": "İş etiği",
+    "pt": "Ética de trabalho",
+    "pl": "Etyka pracy",
+    "hu": "Munkaetika",
+    "el": "Εργασιακή ηθική",
+    "kk": "Еңбек этикасы",
+    "uz": "Mehnat etikasi"
   },
   {
     "code": "initiative",
@@ -5624,7 +7604,13 @@
     "fr": "Esprit d'initiative",
     "de": "Eigeninitiative",
     "it": "Spirito di iniziativa",
-    "tr": "Girişimcilik ruhu"
+    "tr": "Girişimcilik ruhu",
+    "pt": "Iniciativa",
+    "pl": "Inicjatywa",
+    "hu": "Kezdeményezőkészség",
+    "el": "Πρωτοβουλία",
+    "kk": "Бастамашылдық",
+    "uz": "Tashabbuskorlik"
   },
   {
     "code": "discipline",
@@ -5641,7 +7627,13 @@
     "fr": "Discipline",
     "de": "Disziplin",
     "it": "Disciplina",
-    "tr": "Disiplin"
+    "tr": "Disiplin",
+    "pt": "Disciplina",
+    "pl": "Dyscyplina",
+    "hu": "Fegyelem",
+    "el": "Πειθαρχία",
+    "kk": "Тәртіптілік",
+    "uz": "Intizom"
   },
   {
     "code": "reliability",
@@ -5658,7 +7650,13 @@
     "fr": "Fiabilité",
     "de": "Zuverlässigkeit",
     "it": "Affidabilità",
-    "tr": "Güvenilirlik"
+    "tr": "Güvenilirlik",
+    "pt": "Fiabilidade",
+    "pl": "Rzetelność",
+    "hu": "Megbízhatóság",
+    "el": "Αξιοπιστία",
+    "kk": "Сенімділік",
+    "uz": "Ishonchlilik"
   },
   {
     "code": "honesty",
@@ -5675,7 +7673,13 @@
     "fr": "Honnêteté",
     "de": "Ehrlichkeit",
     "it": "Onestà",
-    "tr": "Dürüstlük"
+    "tr": "Dürüstlük",
+    "pt": "Honestidade",
+    "pl": "Uczciwość",
+    "hu": "Őszinteség",
+    "el": "Ειλικρίνεια",
+    "kk": "Адалдық",
+    "uz": "Halollik"
   },
   {
     "code": "logical_thinking",
@@ -5692,7 +7696,13 @@
     "fr": "Pensée logique",
     "de": "Logisches Denken",
     "it": "Pensiero logico",
-    "tr": "Mantıklı düşünme"
+    "tr": "Mantıklı düşünme",
+    "pt": "Pensamento lógico",
+    "pl": "Logiczne myślenie",
+    "hu": "Logikus gondolkodás",
+    "el": "Λογική σκέψη",
+    "kk": "Логикалық ойлау",
+    "uz": "Mantiqiy fikrlash"
   },
   {
     "code": "numeracy",
@@ -5709,7 +7719,13 @@
     "fr": "Compétences en calcul",
     "de": "Mathematische Kenntnisse",
     "it": "Competenze matematiche",
-    "tr": "Matematiksel bilgi"
+    "tr": "Matematiksel bilgi",
+    "pt": "Competências numéricas",
+    "pl": "Umiejętności matematyczne",
+    "hu": "Számolási készség",
+    "el": "Αριθμητική ικανότητα",
+    "kk": "Математикалық дағдылар",
+    "uz": "Matematik savodxonlik"
   },
   {
     "code": "translation",
@@ -5726,7 +7742,13 @@
     "fr": "Traduction",
     "de": "Übersetzung",
     "it": "Traduzione",
-    "tr": "Çeviri"
+    "tr": "Çeviri",
+    "pt": "Tradução",
+    "pl": "Tłumaczenie",
+    "hu": "Fordítás",
+    "el": "Μετάφραση",
+    "kk": "Аударма",
+    "uz": "Tarjima"
   },
   {
     "code": "open_mindedness",
@@ -5743,7 +7765,13 @@
     "fr": "Ouverture d'esprit",
     "de": "Offenheit",
     "it": "Apertura mentale",
-    "tr": "Açık fikirlilik"
+    "tr": "Açık fikirlilik",
+    "pt": "Abertura de espírito",
+    "pl": "Otwartość umysłu",
+    "hu": "Nyitottság",
+    "el": "Ευρύτητα πνεύματος",
+    "kk": "Ашық ойлылық",
+    "uz": "Ochiq fikrlilik"
   },
   {
     "code": "driving",
@@ -5760,7 +7788,13 @@
     "fr": "Conduite automobile",
     "de": "Fahrpraxis",
     "it": "Guida di autoveicoli",
-    "tr": "Sürücülük becerisi"
+    "tr": "Sürücülük becerisi",
+    "pt": "Capacidade de condução",
+    "pl": "Umiejętność prowadzenia pojazdów",
+    "hu": "Autóvezetési készség",
+    "el": "Δεξιότητες οδήγησης",
+    "kk": "Жүргізушілік дағдылары",
+    "uz": "Haydovchilik koʻnikmalari"
   },
   {
     "code": "welding",
@@ -5777,7 +7811,13 @@
     "fr": "Travaux de soudure",
     "de": "Schweißarbeiten",
     "it": "Lavori di saldatura",
-    "tr": "Kaynak işleri"
+    "tr": "Kaynak işleri",
+    "pt": "Soldadura",
+    "pl": "Spawanie",
+    "hu": "Hegesztés",
+    "el": "Συγκόλληση",
+    "kk": "Дәнекерлеу жұмыстары",
+    "uz": "Payvandlash ishlari"
   },
   {
     "code": "car_repair",
@@ -5794,7 +7834,13 @@
     "fr": "Réparation automobile",
     "de": "Autoreparatur",
     "it": "Riparazione di automobili",
-    "tr": "Otomobil tamiri"
+    "tr": "Otomobil tamiri",
+    "pt": "Reparação automóvel",
+    "pl": "Naprawa samochodów",
+    "hu": "Autójavítás",
+    "el": "Επισκευή αυτοκινήτων",
+    "kk": "Автомобиль жөндеу",
+    "uz": "Avtomobil ta'mirlash"
   },
   {
     "code": "assembly_installation",
@@ -5811,6 +7857,12 @@
     "fr": "Montage et installation",
     "de": "Montage- und Installationsarbeiten",
     "it": "Montaggio e installazione",
-    "tr": "Montaj işleri"
+    "tr": "Montaj işleri",
+    "pt": "Montagem e instalação",
+    "pl": "Montaż i instalacja",
+    "hu": "Összeszerelés és telepítés",
+    "el": "Συναρμολόγηση και εγκατάσταση",
+    "kk": "Монтаж жұмыстары",
+    "uz": "Yigʻish va oʻrnatish ishlari"
   }
 ]

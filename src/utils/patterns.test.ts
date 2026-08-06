@@ -42,6 +42,24 @@ const NATIVE_NAME: Record<string, string> = {
    * it explicitly (NFD leaves it alone).
    */
   tr: 'Işıl Şahingöz',
+  // Portuguese: a tilde and a cedilla, both diacritics an ASCII rule would refuse.
+  pt: 'João Conceição',
+  // Polish: the barred Ł and an accented Ś, neither of which is a Latin-1 letter.
+  pl: 'Łukasz Wiśniewski',
+  // Hungarian: the double-acute Ő — a letter of its own, not "O" with a typo'd accent.
+  hu: 'Győző Kovács',
+  // Greek: a different script, and every vowel here carries its (mandatory) tonos.
+  el: 'Γιώργος Παπαδόπουλος',
+  // Kazakh: Ә and Қ, two of the nine Cyrillic letters Kazakh adds beyond Russian's.
+  kk: 'Әлия Қасымова',
+  /**
+   * Uzbek: the turned comma `ʻ` in "Ulugʻbek" is a spacing MODIFIER letter
+   * (Unicode category Lm), not a combining mark — `\p{L}` already covers that
+   * category, so the pattern needed no change, but it is worth pinning: this is
+   * the same character `utils/search`'s fold has to handle explicitly, since NFD
+   * leaves it alone the way it leaves `ə`/`ı`/`ß` alone.
+   */
+  uz: 'Ulugʻbek Karimov',
 };
 
 describe('PERSON_NAME', () => {

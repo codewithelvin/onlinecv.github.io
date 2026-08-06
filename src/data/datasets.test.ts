@@ -207,6 +207,15 @@ describe('dictionary translation coverage', () => {
       de: 'german',
       it: 'italian',
       tr: 'turkish',
+      // `polish` predates this batch too (it was already in the production
+      // dictionary before the Polish UI existed); `portuguese`, `hungarian`,
+      // `greek`, `kazakh` and `uzbek` are new rows added alongside their locales.
+      pt: 'portuguese',
+      pl: 'polish',
+      hu: 'hungarian',
+      el: 'greek',
+      kk: 'kazakh',
+      uz: 'uzbek',
     };
     for (const locale of SUPPORTED_LOCALES) {
       const code = ownLanguage[locale];

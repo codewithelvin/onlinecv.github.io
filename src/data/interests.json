@@ -14,7 +14,13 @@
     "fr": "Lire des livres",
     "de": "Bücher lesen",
     "it": "Leggere libri",
-    "tr": "Kitap okumak"
+    "tr": "Kitap okumak",
+    "pt": "Ler livros",
+    "pl": "Czytanie książek",
+    "hu": "Olvasás",
+    "el": "Ανάγνωση βιβλίων",
+    "kk": "Кітап оқу",
+    "uz": "Kitob oʻqish"
   },
   {
     "code": "music_listen",
@@ -31,7 +37,13 @@
     "fr": "Écouter de la musique",
     "de": "Musik hören",
     "it": "Ascoltare musica",
-    "tr": "Müzik dinlemek"
+    "tr": "Müzik dinlemek",
+    "pt": "Ouvir música",
+    "pl": "Słuchanie muzyki",
+    "hu": "Zenehallgatás",
+    "el": "Ακρόαση μουσικής",
+    "kk": "Музыка тыңдау",
+    "uz": "Musiqa tinglash"
   },
   {
     "code": "play_games",
@@ -48,7 +60,13 @@
     "fr": "Jouer à des jeux",
     "de": "Spiele spielen",
     "it": "Giocare",
-    "tr": "Oyun oynamak"
+    "tr": "Oyun oynamak",
+    "pt": "Videojogos",
+    "pl": "Granie w gry",
+    "hu": "Videojátékok",
+    "el": "Παιχνίδια",
+    "kk": "Ойын ойнау",
+    "uz": "Oʻyin oʻynash"
   },
   {
     "code": "sport",
@@ -65,7 +83,13 @@
     "fr": "Faire du sport",
     "de": "Sport treiben",
     "it": "Fare sport",
-    "tr": "Spor yapmak"
+    "tr": "Spor yapmak",
+    "pt": "Praticar desporto",
+    "pl": "Uprawianie sportu",
+    "hu": "Sportolás",
+    "el": "Άθληση",
+    "kk": "Спортпен айналысу",
+    "uz": "Sport bilan shugʻullanish"
   },
   {
     "code": "sing_a_song",
@@ -82,7 +106,13 @@
     "fr": "Chanter",
     "de": "Singen",
     "it": "Cantare",
-    "tr": "Şarkı söylemek"
+    "tr": "Şarkı söylemek",
+    "pt": "Cantar",
+    "pl": "Śpiewanie",
+    "hu": "Éneklés",
+    "el": "Τραγούδι",
+    "kk": "Ән айту",
+    "uz": "Qoʻshiq aytish"
   },
   {
     "code": "cooking",
@@ -99,7 +129,13 @@
     "fr": "Cuisiner",
     "de": "Kochen",
     "it": "Cucinare",
-    "tr": "Yemek yapmak"
+    "tr": "Yemek yapmak",
+    "pt": "Cozinhar",
+    "pl": "Gotowanie",
+    "hu": "Főzés",
+    "el": "Μαγειρική",
+    "kk": "Тағам дайындау",
+    "uz": "Ovqat tayyorlash"
   },
   {
     "code": "chess",
@@ -116,7 +152,13 @@
     "fr": "Jouer aux échecs",
     "de": "Schach spielen",
     "it": "Giocare a scacchi",
-    "tr": "Satranç oynamak"
+    "tr": "Satranç oynamak",
+    "pt": "Jogar xadrez",
+    "pl": "Gra w szachy",
+    "hu": "Sakkozás",
+    "el": "Σκάκι",
+    "kk": "Шахмат ойнау",
+    "uz": "Shaxmat oʻynash"
   },
   {
     "code": "self_development",
@@ -133,7 +175,13 @@
     "fr": "Développement personnel",
     "de": "Persönliche Entwicklung",
     "it": "Sviluppo personale",
-    "tr": "Kişisel gelişim"
+    "tr": "Kişisel gelişim",
+    "pt": "Desenvolvimento pessoal",
+    "pl": "Rozwój osobisty",
+    "hu": "Önfejlesztés",
+    "el": "Προσωπική ανάπτυξη",
+    "kk": "Жеке даму",
+    "uz": "Shaxsiy rivojlanish"
   },
   {
     "code": "technology",
@@ -150,7 +198,13 @@
     "fr": "Technologies",
     "de": "Technologien",
     "it": "Tecnologie",
-    "tr": "Teknolojiler"
+    "tr": "Teknolojiler",
+    "pt": "Tecnologias",
+    "pl": "Technologie",
+    "hu": "Technológia",
+    "el": "Τεχνολογίες",
+    "kk": "Технологиялар",
+    "uz": "Texnologiyalar"
   },
   {
     "code": "blogging",
@@ -167,7 +221,13 @@
     "fr": "Blogging",
     "de": "Bloggen",
     "it": "Blogging",
-    "tr": "Bloglama"
+    "tr": "Bloglama",
+    "pt": "Blogging",
+    "pl": "Blogowanie",
+    "hu": "Blogolás",
+    "el": "Τήρηση ιστολογίου",
+    "kk": "Блог жүргізу",
+    "uz": "Blog yuritish"
   },
   {
     "code": "photography",
@@ -184,7 +244,13 @@
     "fr": "Photographie",
     "de": "Fotografieren",
     "it": "Fotografia",
-    "tr": "Fotoğraf çekmek"
+    "tr": "Fotoğraf çekmek",
+    "pt": "Fotografia",
+    "pl": "Fotografia",
+    "hu": "Fotózás",
+    "el": "Φωτογραφία",
+    "kk": "Фотосурет түсіру",
+    "uz": "Surat olish"
   },
   {
     "code": "design",
@@ -201,7 +267,13 @@
     "fr": "Design",
     "de": "Design",
     "it": "Design",
-    "tr": "Tasarım"
+    "tr": "Tasarım",
+    "pt": "Design",
+    "pl": "Design",
+    "hu": "Design",
+    "el": "Σχεδιασμός",
+    "kk": "Дизайн",
+    "uz": "Dizayn"
   },
   {
     "code": "learning_languages",
@@ -218,7 +290,13 @@
     "fr": "Apprendre des langues",
     "de": "Sprachen lernen",
     "it": "Imparare le lingue",
-    "tr": "Dil öğrenmek"
+    "tr": "Dil öğrenmek",
+    "pt": "Aprender línguas",
+    "pl": "Nauka języków",
+    "hu": "Nyelvtanulás",
+    "el": "Εκμάθηση γλωσσών",
+    "kk": "Тілдерді үйрену",
+    "uz": "Til oʻrganish"
   },
   {
     "code": "music_production",
@@ -235,7 +313,13 @@
     "fr": "Composer de la musique",
     "de": "Musik komponieren",
     "it": "Comporre musica",
-    "tr": "Müzik bestelemek"
+    "tr": "Müzik bestelemek",
+    "pt": "Compor música",
+    "pl": "Komponowanie muzyki",
+    "hu": "Zeneszerzés",
+    "el": "Σύνθεση μουσικής",
+    "kk": "Музыка шығару",
+    "uz": "Musiqa bastalash"
   },
   {
     "code": "watch_movies",
@@ -252,7 +336,13 @@
     "fr": "Regarder des films",
     "de": "Filme schauen",
     "it": "Guardare film",
-    "tr": "Film izlemek"
+    "tr": "Film izlemek",
+    "pt": "Ver filmes",
+    "pl": "Oglądanie filmów",
+    "hu": "Filmnézés",
+    "el": "Παρακολούθηση ταινιών",
+    "kk": "Кино көру",
+    "uz": "Kino koʻrish"
   },
   {
     "code": "football",
@@ -269,7 +359,13 @@
     "fr": "Jouer au football",
     "de": "Fußball spielen",
     "it": "Giocare a calcio",
-    "tr": "Futbol oynamak"
+    "tr": "Futbol oynamak",
+    "pt": "Jogar futebol",
+    "pl": "Gra w piłkę nożną",
+    "hu": "Futball",
+    "el": "Ποδόσφαιρο",
+    "kk": "Футбол ойнау",
+    "uz": "Futbol oʻynash"
   },
   {
     "code": "crossword",
@@ -286,6 +382,12 @@
     "fr": "Faire des mots croisés",
     "de": "Kreuzworträtsel lösen",
     "it": "Fare le parole crociate",
-    "tr": "Bulmaca çözmek"
+    "tr": "Bulmaca çözmek",
+    "pt": "Fazer palavras cruzadas",
+    "pl": "Rozwiązywanie krzyżówek",
+    "hu": "Keresztrejtvény-fejtés",
+    "el": "Σταυρόλεξα",
+    "kk": "Сөзжұмбақ шешу",
+    "uz": "Krossvord yechish"
   }
 ]

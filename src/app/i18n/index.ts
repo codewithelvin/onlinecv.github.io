@@ -15,6 +15,12 @@ import fr from './fr.json';
 import de from './de.json';
 import it from './it.json';
 import tr from './tr.json';
+import pt from './pt.json';
+import pl from './pl.json';
+import hu from './hu.json';
+import el from './el.json';
+import kk from './kk.json';
+import uz from './uz.json';
 import type { Locale } from '../../types/resume';
 import { pathForLocale } from '../seo-locales';
 import {
@@ -51,6 +57,12 @@ void i18n.use(initReactI18next).init({
     de: { translation: de },
     it: { translation: it },
     tr: { translation: tr },
+    pt: { translation: pt },
+    pl: { translation: pl },
+    hu: { translation: hu },
+    el: { translation: el },
+    kk: { translation: kk },
+    uz: { translation: uz },
   },
   lng: DEFAULT_LOCALE,
   fallbackLng: DEFAULT_LOCALE,

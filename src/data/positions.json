@@ -14,7 +14,13 @@
     "fr": "Directeur",
     "de": "Direktor",
     "it": "Direttore",
-    "tr": "Direktör"
+    "tr": "Direktör",
+    "pt": "Diretor",
+    "pl": "Dyrektor",
+    "hu": "Igazgató",
+    "el": "Διευθυντής",
+    "kk": "Директор",
+    "uz": "Direktor"
   },
   {
     "code": "general_director",
@@ -31,7 +37,13 @@
     "fr": "Directeur général",
     "de": "Generaldirektor",
     "it": "Direttore generale",
-    "tr": "Genel müdür"
+    "tr": "Genel müdür",
+    "pt": "Diretor-geral",
+    "pl": "Dyrektor generalny",
+    "hu": "Vezérigazgató",
+    "el": "Γενικός Διευθυντής",
+    "kk": "Бас директор",
+    "uz": "Bosh direktor"
   },
   {
     "code": "executive_director",
@@ -48,7 +60,13 @@
     "fr": "Directeur exécutif",
     "de": "Geschäftsführer",
     "it": "Direttore esecutivo",
-    "tr": "İcra direktörü"
+    "tr": "İcra direktörü",
+    "pt": "Diretor executivo",
+    "pl": "Dyrektor wykonawczy",
+    "hu": "Ügyvezető igazgató",
+    "el": "Εκτελεστικός Διευθυντής",
+    "kk": "Атқарушы директор",
+    "uz": "Ijrochi direktor"
   },
   {
     "code": "deputy_director",
@@ -65,7 +83,13 @@
     "fr": "Directeur adjoint",
     "de": "Stellvertretender Direktor",
     "it": "Vicedirettore",
-    "tr": "Direktör yardımcısı"
+    "tr": "Direktör yardımcısı",
+    "pt": "Diretor adjunto",
+    "pl": "Zastępca dyrektora",
+    "hu": "Igazgatóhelyettes",
+    "el": "Αναπληρωτής Διευθυντής",
+    "kk": "Директордың орынбасары",
+    "uz": "Direktor oʻrinbosari"
   },
   {
     "code": "department_head",
@@ -82,7 +106,13 @@
     "fr": "Chef de service",
     "de": "Abteilungsleiter",
     "it": "Responsabile di reparto",
-    "tr": "Bölüm müdürü"
+    "tr": "Bölüm müdürü",
+    "pt": "Chefe de departamento",
+    "pl": "Kierownik działu",
+    "hu": "Osztályvezető",
+    "el": "Προϊστάμενος Τμήματος",
+    "kk": "Бөлім бастығы",
+    "uz": "Boʻlim boshligi"
   },
   {
     "code": "manager",
@@ -99,7 +129,13 @@
     "fr": "Manager",
     "de": "Manager",
     "it": "Manager",
-    "tr": "Yönetici"
+    "tr": "Yönetici",
+    "pt": "Gestor",
+    "pl": "Menedżer",
+    "hu": "Menedzser",
+    "el": "Μάνατζερ",
+    "kk": "Менеджер",
+    "uz": "Menejer"
   },
   {
     "code": "project_manager",
@@ -116,7 +152,13 @@
     "fr": "Chef de projet",
     "de": "Projektmanager",
     "it": "Project manager",
-    "tr": "Proje yöneticisi"
+    "tr": "Proje yöneticisi",
+    "pt": "Gestor de projeto",
+    "pl": "Kierownik projektu",
+    "hu": "Projektmenedzser",
+    "el": "Υπεύθυνος Έργου",
+    "kk": "Жоба менеджері",
+    "uz": "Loyiha menejeri"
   },
   {
     "code": "team_lead",
@@ -133,7 +175,13 @@
     "fr": "Chef d'équipe",
     "de": "Teamleiter",
     "it": "Team leader",
-    "tr": "Takım lideri"
+    "tr": "Takım lideri",
+    "pt": "Líder de equipa",
+    "pl": "Lider zespołu",
+    "hu": "Csapatvezető",
+    "el": "Επικεφαλής Ομάδας",
+    "kk": "Топ жетекшісі",
+    "uz": "Jamoa rahbari"
   },
   {
     "code": "shift_supervisor",
@@ -150,7 +198,13 @@
     "fr": "Chef de quart",
     "de": "Schichtleiter",
     "it": "Capoturno",
-    "tr": "Vardiya sorumlusu"
+    "tr": "Vardiya sorumlusu",
+    "pt": "Supervisor de turno",
+    "pl": "Kierownik zmiany",
+    "hu": "Műszakvezető",
+    "el": "Υπεύθυνος Βάρδιας",
+    "kk": "Кезек бастығы",
+    "uz": "Smena boshligi"
   },
   {
     "code": "branch_manager",
@@ -167,7 +221,13 @@
     "fr": "Directeur d'agence",
     "de": "Filialleiter",
     "it": "Direttore di filiale",
-    "tr": "Şube müdürü"
+    "tr": "Şube müdürü",
+    "pt": "Gerente de sucursal",
+    "pl": "Kierownik filii",
+    "hu": "Fiókvezető",
+    "el": "Διευθυντής Υποκαταστήματος",
+    "kk": "Филиал директоры",
+    "uz": "Filial boshligi"
   },
   {
     "code": "operations_manager",
@@ -184,7 +244,13 @@
     "fr": "Responsable des opérations",
     "de": "Betriebsleiter",
     "it": "Responsabile operativo",
-    "tr": "Operasyon yöneticisi"
+    "tr": "Operasyon yöneticisi",
+    "pt": "Diretor de operações",
+    "pl": "Kierownik operacyjny",
+    "hu": "Operatív menedzser",
+    "el": "Υπεύθυνος Λειτουργιών",
+    "kk": "Операциялық менеджер",
+    "uz": "Operatsion menejer"
   },
   {
     "code": "office_manager",
@@ -201,7 +267,13 @@
     "fr": "Responsable de bureau",
     "de": "Büroleiter",
     "it": "Office manager",
-    "tr": "Ofis yöneticisi"
+    "tr": "Ofis yöneticisi",
+    "pt": "Gestor de escritório",
+    "pl": "Kierownik biura",
+    "hu": "Irodavezető",
+    "el": "Υπεύθυνος Γραφείου",
+    "kk": "Офис-менеджер",
+    "uz": "Ofis menejeri"
   },
   {
     "code": "administrator",
@@ -218,7 +290,13 @@
     "fr": "Administrateur",
     "de": "Administrator",
     "it": "Amministratore",
-    "tr": "Yönetim görevlisi"
+    "tr": "Yönetim görevlisi",
+    "pt": "Administrador",
+    "pl": "Administrator",
+    "hu": "Adminisztrátor",
+    "el": "Διοικητικός Υπάλληλος",
+    "kk": "Администратор",
+    "uz": "Administrator"
   },
   {
     "code": "supervisor",
@@ -235,7 +313,13 @@
     "fr": "Superviseur",
     "de": "Aufseher",
     "it": "Supervisore",
-    "tr": "Süpervizör"
+    "tr": "Süpervizör",
+    "pt": "Supervisor",
+    "pl": "Nadzorca",
+    "hu": "Felügyelő",
+    "el": "Επόπτης",
+    "kk": "Супервайзер",
+    "uz": "Nazoratchi"
   },
   {
     "code": "coordinator",
@@ -252,7 +336,13 @@
     "fr": "Coordinateur",
     "de": "Koordinator",
     "it": "Coordinatore",
-    "tr": "Koordinatör"
+    "tr": "Koordinatör",
+    "pt": "Coordenador",
+    "pl": "Koordynator",
+    "hu": "Koordinátor",
+    "el": "Συντονιστής",
+    "kk": "Координатор",
+    "uz": "Koordinator"
   },
   {
     "code": "specialist",
@@ -269,7 +359,13 @@
     "fr": "Spécialiste",
     "de": "Spezialist",
     "it": "Specialista",
-    "tr": "Uzman"
+    "tr": "Uzman",
+    "pt": "Especialista",
+    "pl": "Specjalista",
+    "hu": "Szakreferens",
+    "el": "Ειδικός",
+    "kk": "Маман",
+    "uz": "Mutaxassis"
   },
   {
     "code": "senior_specialist",
@@ -286,7 +382,13 @@
     "fr": "Spécialiste principal",
     "de": "Hauptspezialist",
     "it": "Specialista senior",
-    "tr": "Baş uzman"
+    "tr": "Baş uzman",
+    "pt": "Especialista sénior",
+    "pl": "Starszy specjalista",
+    "hu": "Vezető szakreferens",
+    "el": "Ανώτερος Ειδικός",
+    "kk": "Бас маман",
+    "uz": "Bosh mutaxassis"
   },
   {
     "code": "leading_specialist",
@@ -303,7 +405,13 @@
     "fr": "Spécialiste en chef",
     "de": "Leitender Spezialist",
     "it": "Specialista capo",
-    "tr": "Kıdemli uzman"
+    "tr": "Kıdemli uzman",
+    "pt": "Especialista principal",
+    "pl": "Główny specjalista",
+    "hu": "Fő szakreferens",
+    "el": "Κορυφαίος Ειδικός",
+    "kk": "Жетекші маман",
+    "uz": "Yetakchi mutaxassis"
   },
   {
     "code": "assistant",
@@ -320,7 +428,13 @@
     "fr": "Assistant",
     "de": "Assistent",
     "it": "Assistente",
-    "tr": "Asistan"
+    "tr": "Asistan",
+    "pt": "Assistente",
+    "pl": "Asystent",
+    "hu": "Asszisztens",
+    "el": "Βοηθός",
+    "kk": "Көмекші",
+    "uz": "Yordamchi"
   },
   {
     "code": "intern",
@@ -337,7 +451,13 @@
     "fr": "Stagiaire",
     "de": "Praktikant",
     "it": "Tirocinante",
-    "tr": "Stajyer"
+    "tr": "Stajyer",
+    "pt": "Estagiário",
+    "pl": "Stażysta",
+    "hu": "Gyakornok",
+    "el": "Ασκούμενος",
+    "kk": "Тағылымдамашы",
+    "uz": "Stajyor"
   },
   {
     "code": "secretary",
@@ -354,7 +474,13 @@
     "fr": "Secrétaire",
     "de": "Sekretär",
     "it": "Segretario",
-    "tr": "Sekreter"
+    "tr": "Sekreter",
+    "pt": "Secretário",
+    "pl": "Sekretarka",
+    "hu": "Titkár",
+    "el": "Γραμματέας",
+    "kk": "Хатшы",
+    "uz": "Kotiba"
   },
   {
     "code": "receptionist",
@@ -371,7 +497,13 @@
     "fr": "Réceptionniste",
     "de": "Empfangsmitarbeiter",
     "it": "Receptionist",
-    "tr": "Resepsiyonist"
+    "tr": "Resepsiyonist",
+    "pt": "Rececionista",
+    "pl": "Recepcjonista",
+    "hu": "Recepciós",
+    "el": "Υπάλληλος Υποδοχής",
+    "kk": "Ресепшн қызметкері",
+    "uz": "Qabulxona xodimi"
   },
   {
     "code": "records_clerk",
@@ -388,7 +520,13 @@
     "fr": "Agent administratif",
     "de": "Sachbearbeiter",
     "it": "Addetto al protocollo",
-    "tr": "Evrak memuru"
+    "tr": "Evrak memuru",
+    "pt": "Escriturário",
+    "pl": "Kancelista",
+    "hu": "Iratkezelő",
+    "el": "Γραφέας",
+    "kk": "Іс жүргізуші",
+    "uz": "Ish yurituvchi"
   },
   {
     "code": "document_controller",
@@ -405,7 +543,13 @@
     "fr": "Gestionnaire documentaire",
     "de": "Dokumentenkontrolleur",
     "it": "Addetto alla gestione documenti",
-    "tr": "Doküman kontrol uzmanı"
+    "tr": "Doküman kontrol uzmanı",
+    "pt": "Controlador de documentos",
+    "pl": "Specjalista obiegu dokumentów",
+    "hu": "Dokumentumkezelési szakértő",
+    "el": "Ελεγκτής Εγγράφων",
+    "kk": "Құжат айналымы маманы",
+    "uz": "Hujjat aylanishi mutaxassisi"
   },
   {
     "code": "archivist",
@@ -422,7 +566,13 @@
     "fr": "Archiviste",
     "de": "Archivar",
     "it": "Archivista",
-    "tr": "Arşivci"
+    "tr": "Arşivci",
+    "pt": "Arquivista",
+    "pl": "Archiwista",
+    "hu": "Levéltáros",
+    "el": "Αρχειοθέτης",
+    "kk": "Мұрағатшы",
+    "uz": "Arxivchi"
   },
   {
     "code": "business_analyst",
@@ -439,7 +589,13 @@
     "fr": "Analyste métier",
     "de": "Business-Analyst",
     "it": "Analista di business",
-    "tr": "İş analisti"
+    "tr": "İş analisti",
+    "pt": "Analista de negócio",
+    "pl": "Analityk biznesowy",
+    "hu": "Üzleti elemző",
+    "el": "Επιχειρησιακός Αναλυτής",
+    "kk": "Бизнес-талдаушы",
+    "uz": "Biznes-analitik"
   },
   {
     "code": "business_development_manager",
@@ -456,7 +612,13 @@
     "fr": "Responsable du développement commercial",
     "de": "Manager für Geschäftsentwicklung",
     "it": "Responsabile sviluppo commerciale",
-    "tr": "İş geliştirme yöneticisi"
+    "tr": "İş geliştirme yöneticisi",
+    "pt": "Gestor de desenvolvimento de negócio",
+    "pl": "Kierownik rozwoju biznesu",
+    "hu": "Üzletfejlesztési menedzser",
+    "el": "Υπεύθυνος Ανάπτυξης Επιχείρησης",
+    "kk": "Бизнесті дамыту менеджері",
+    "uz": "Biznesni rivojlantirish menejeri"
   },
   {
     "code": "consultant",
@@ -473,7 +635,13 @@
     "fr": "Consultant",
     "de": "Berater",
     "it": "Consulente",
-    "tr": "Danışman"
+    "tr": "Danışman",
+    "pt": "Consultor",
+    "pl": "Konsultant",
+    "hu": "Tanácsadó",
+    "el": "Σύμβουλος",
+    "kk": "Кеңесші",
+    "uz": "Maslahatchi"
   },
   {
     "code": "entrepreneur",
@@ -490,7 +658,13 @@
     "fr": "Entrepreneur",
     "de": "Unternehmer",
     "it": "Imprenditore",
-    "tr": "Girişimci"
+    "tr": "Girişimci",
+    "pt": "Empresário",
+    "pl": "Przedsiębiorca",
+    "hu": "Vállalkozó",
+    "el": "Επιχειρηματίας",
+    "kk": "Кәсіпкер",
+    "uz": "Tadbirkor"
   },
   {
     "code": "founder",
@@ -507,7 +681,13 @@
     "fr": "Fondateur",
     "de": "Gründer",
     "it": "Fondatore",
-    "tr": "Kurucu"
+    "tr": "Kurucu",
+    "pt": "Fundador",
+    "pl": "Założyciel",
+    "hu": "Alapító",
+    "el": "Ιδρυτής",
+    "kk": "Негізін қалаушы",
+    "uz": "Asoschi"
   },
   {
     "code": "freelancer",
@@ -524,7 +704,13 @@
     "fr": "Freelance",
     "de": "Freiberufler",
     "it": "Freelance",
-    "tr": "Serbest çalışan"
+    "tr": "Serbest çalışan",
+    "pt": "Freelancer",
+    "pl": "Freelancer",
+    "hu": "Szabadúszó",
+    "el": "Ελεύθερος Επαγγελματίας",
+    "kk": "Фрилансер",
+    "uz": "Frilanser"
   },
   {
     "code": "volunteer",
@@ -541,7 +727,13 @@
     "fr": "Bénévole",
     "de": "Freiwilliger",
     "it": "Volontario",
-    "tr": "Gönüllü"
+    "tr": "Gönüllü",
+    "pt": "Voluntário",
+    "pl": "Wolontariusz",
+    "hu": "Önkéntes",
+    "el": "Εθελοντής",
+    "kk": "Ерікті",
+    "uz": "Koʻngilli"
   },
   {
     "code": "accountant",
@@ -558,7 +750,13 @@
     "fr": "Comptable",
     "de": "Buchhalter",
     "it": "Contabile",
-    "tr": "Muhasebeci"
+    "tr": "Muhasebeci",
+    "pt": "Contabilista",
+    "pl": "Księgowy",
+    "hu": "Könyvelő",
+    "el": "Λογιστής",
+    "kk": "Бухгалтер",
+    "uz": "Buxgalter"
   },
   {
     "code": "chief_accountant",
@@ -575,7 +773,13 @@
     "fr": "Chef comptable",
     "de": "Hauptbuchhalter",
     "it": "Capo contabile",
-    "tr": "Baş muhasebeci"
+    "tr": "Baş muhasebeci",
+    "pt": "Contabilista-chefe",
+    "pl": "Główny księgowy",
+    "hu": "Főkönyvelő",
+    "el": "Προϊστάμενος Λογιστηρίου",
+    "kk": "Бас бухгалтер",
+    "uz": "Bosh buxgalter"
   },
   {
     "code": "financial_manager",
@@ -592,7 +796,13 @@
     "fr": "Directeur financier",
     "de": "Finanzmanager",
     "it": "Responsabile finanziario",
-    "tr": "Finans yöneticisi"
+    "tr": "Finans yöneticisi",
+    "pt": "Diretor financeiro",
+    "pl": "Kierownik finansowy",
+    "hu": "Pénzügyi menedzser",
+    "el": "Οικονομικός Διευθυντής",
+    "kk": "Қаржы менеджері",
+    "uz": "Moliya menejeri"
   },
   {
     "code": "financial_analyst",
@@ -609,7 +819,13 @@
     "fr": "Analyste financier",
     "de": "Finanzanalyst",
     "it": "Analista finanziario",
-    "tr": "Finansal analist"
+    "tr": "Finansal analist",
+    "pt": "Analista financeiro",
+    "pl": "Analityk finansowy",
+    "hu": "Pénzügyi elemző",
+    "el": "Χρηματοοικονομικός Αναλυτής",
+    "kk": "Қаржы талдаушысы",
+    "uz": "Moliya analitigi"
   },
   {
     "code": "economist",
@@ -626,7 +842,13 @@
     "fr": "Économiste",
     "de": "Volkswirt",
     "it": "Economista",
-    "tr": "Ekonomist"
+    "tr": "Ekonomist",
+    "pt": "Economista",
+    "pl": "Ekonomista",
+    "hu": "Közgazdász",
+    "el": "Οικονομολόγος",
+    "kk": "Экономист",
+    "uz": "Iqtisodchi"
   },
   {
     "code": "auditor",
@@ -643,7 +865,13 @@
     "fr": "Auditeur",
     "de": "Wirtschaftsprüfer",
     "it": "Revisore",
-    "tr": "Denetçi"
+    "tr": "Denetçi",
+    "pt": "Auditor",
+    "pl": "Audytor",
+    "hu": "Könyvvizsgáló",
+    "el": "Ελεγκτής",
+    "kk": "Аудитор",
+    "uz": "Auditor"
   },
   {
     "code": "internal_auditor",
@@ -660,7 +888,13 @@
     "fr": "Auditeur interne",
     "de": "Interner Revisor",
     "it": "Revisore interno",
-    "tr": "İç denetçi"
+    "tr": "İç denetçi",
+    "pt": "Auditor interno",
+    "pl": "Audytor wewnętrzny",
+    "hu": "Belső ellenőr",
+    "el": "Εσωτερικός Ελεγκτής",
+    "kk": "Ішкі аудитор",
+    "uz": "Ichki auditor"
   },
   {
     "code": "cashier",
@@ -677,7 +911,13 @@
     "fr": "Caissier",
     "de": "Kassierer",
     "it": "Cassiere",
-    "tr": "Kasiyer"
+    "tr": "Kasiyer",
+    "pt": "Operador de caixa",
+    "pl": "Kasjer",
+    "hu": "Pénztáros",
+    "el": "Ταμίας",
+    "kk": "Кассир",
+    "uz": "Kassir"
   },
   {
     "code": "bank_teller",
@@ -694,7 +934,13 @@
     "fr": "Guichetier de banque",
     "de": "Bankkaufmann",
     "it": "Operatore di sportello",
-    "tr": "Banka gişe görevlisi"
+    "tr": "Banka gişe görevlisi",
+    "pt": "Caixa bancário",
+    "pl": "Kasjer bankowy",
+    "hu": "Bankpénztáros",
+    "el": "Τραπεζικός Υπάλληλος",
+    "kk": "Банк операционисі",
+    "uz": "Bank operatori"
   },
   {
     "code": "credit_specialist",
@@ -711,7 +957,13 @@
     "fr": "Spécialiste crédit",
     "de": "Kreditspezialist",
     "it": "Specialista del credito",
-    "tr": "Kredi uzmanı"
+    "tr": "Kredi uzmanı",
+    "pt": "Especialista em crédito",
+    "pl": "Specjalista kredytowy",
+    "hu": "Hitelszakértő",
+    "el": "Ειδικός Πιστώσεων",
+    "kk": "Несие маманы",
+    "uz": "Kredit mutaxassisi"
   },
   {
     "code": "treasurer",
@@ -728,7 +980,13 @@
     "fr": "Trésorier",
     "de": "Schatzmeister",
     "it": "Tesoriere",
-    "tr": "Hazine görevlisi"
+    "tr": "Hazine görevlisi",
+    "pt": "Tesoureiro",
+    "pl": "Skarbnik",
+    "hu": "Kincstárnok",
+    "el": "Θησαυροφύλακας",
+    "kk": "Қазынашы",
+    "uz": "Xazinachi"
   },
   {
     "code": "tax_specialist",
@@ -745,7 +1003,13 @@
     "fr": "Spécialiste fiscal",
     "de": "Steuerspezialist",
     "it": "Specialista fiscale",
-    "tr": "Vergi uzmanı"
+    "tr": "Vergi uzmanı",
+    "pt": "Especialista fiscal",
+    "pl": "Specjalista podatkowy",
+    "hu": "Adószakértő",
+    "el": "Ειδικός Φορολογίας",
+    "kk": "Салық маманы",
+    "uz": "Soliq mutaxassisi"
   },
   {
     "code": "payroll_specialist",
@@ -762,7 +1026,13 @@
     "fr": "Gestionnaire de paie",
     "de": "Lohnbuchhalter",
     "it": "Specialista paghe",
-    "tr": "Bordro uzmanı"
+    "tr": "Bordro uzmanı",
+    "pt": "Especialista em remunerações",
+    "pl": "Specjalista ds. płac",
+    "hu": "Bérszámfejtő",
+    "el": "Ειδικός Μισθοδοσίας",
+    "kk": "Жалақы есептеу маманы",
+    "uz": "Ish haqi mutaxassisi"
   },
   {
     "code": "collections_specialist",
@@ -779,7 +1049,13 @@
     "fr": "Chargé de recouvrement",
     "de": "Spezialist für Forderungseinzug",
     "it": "Specialista del recupero crediti",
-    "tr": "Tahsilat uzmanı"
+    "tr": "Tahsilat uzmanı",
+    "pt": "Especialista em cobranças",
+    "pl": "Specjalista ds. windykacji",
+    "hu": "Követeléskezelési szakértő",
+    "el": "Ειδικός Είσπραξης Οφειλών",
+    "kk": "Борышты өндіру маманы",
+    "uz": "Qarz undirish mutaxassisi"
   },
   {
     "code": "risk_manager",
@@ -796,7 +1072,13 @@
     "fr": "Responsable des risques",
     "de": "Risikomanager",
     "it": "Risk manager",
-    "tr": "Risk yöneticisi"
+    "tr": "Risk yöneticisi",
+    "pt": "Gestor de risco",
+    "pl": "Kierownik ryzyka",
+    "hu": "Kockázatkezelési menedzser",
+    "el": "Υπεύθυνος Διαχείρισης Κινδύνου",
+    "kk": "Тәуекел менеджері",
+    "uz": "Xavf menejeri"
   },
   {
     "code": "compliance_officer",
@@ -813,7 +1095,13 @@
     "fr": "Responsable de la conformité",
     "de": "Compliance-Beauftragter",
     "it": "Responsabile della compliance",
-    "tr": "Uyum görevlisi"
+    "tr": "Uyum görevlisi",
+    "pt": "Responsável de compliance",
+    "pl": "Specjalista ds. compliance",
+    "hu": "Megfelelőségi tisztviselő",
+    "el": "Υπεύθυνος Κανονιστικής Συμμόρφωσης",
+    "kk": "Комплаенс маманы",
+    "uz": "Komplayns mutaxassisi"
   },
   {
     "code": "insurance_agent",
@@ -830,7 +1118,13 @@
     "fr": "Agent d'assurance",
     "de": "Versicherungsvertreter",
     "it": "Agente assicurativo",
-    "tr": "Sigorta acentesi"
+    "tr": "Sigorta acentesi",
+    "pt": "Agente de seguros",
+    "pl": "Agent ubezpieczeniowy",
+    "hu": "Biztosítási ügynök",
+    "el": "Ασφαλιστικός Πράκτορας",
+    "kk": "Сақтандыру агенті",
+    "uz": "Sugʻurta agenti"
   },
   {
     "code": "salesperson",
@@ -847,7 +1141,13 @@
     "fr": "Vendeur",
     "de": "Verkäufer",
     "it": "Venditore",
-    "tr": "Satış görevlisi"
+    "tr": "Satış görevlisi",
+    "pt": "Vendedor",
+    "pl": "Sprzedawca",
+    "hu": "Eladó",
+    "el": "Πωλητής",
+    "kk": "Сатушы",
+    "uz": "Sotuvchi"
   },
   {
     "code": "sales_cashier",
@@ -864,7 +1164,13 @@
     "fr": "Vendeur-caissier",
     "de": "Verkäufer-Kassierer",
     "it": "Venditore-cassiere",
-    "tr": "Satış-kasa görevlisi"
+    "tr": "Satış-kasa görevlisi",
+    "pt": "Vendedor-caixa",
+    "pl": "Sprzedawca-kasjer",
+    "hu": "Eladó-pénztáros",
+    "el": "Πωλητής-Ταμίας",
+    "kk": "Сатушы-кассир",
+    "uz": "Sotuvchi-kassir"
   },
   {
     "code": "sales_manager",
@@ -881,7 +1187,13 @@
     "fr": "Responsable des ventes",
     "de": "Vertriebsleiter",
     "it": "Responsabile vendite",
-    "tr": "Satış yöneticisi"
+    "tr": "Satış yöneticisi",
+    "pt": "Diretor de vendas",
+    "pl": "Kierownik sprzedaży",
+    "hu": "Értékesítési menedzser",
+    "el": "Διευθυντής Πωλήσεων",
+    "kk": "Сату менеджері",
+    "uz": "Savdo menejeri"
   },
   {
     "code": "sales_representative",
@@ -898,7 +1210,13 @@
     "fr": "Représentant commercial",
     "de": "Vertriebsmitarbeiter",
     "it": "Rappresentante commerciale",
-    "tr": "Satış temsilcisi"
+    "tr": "Satış temsilcisi",
+    "pt": "Representante de vendas",
+    "pl": "Przedstawiciel handlowy",
+    "hu": "Értékesítési képviselő",
+    "el": "Αντιπρόσωπος Πωλήσεων",
+    "kk": "Сауда өкілі",
+    "uz": "Savdo vakili"
   },
   {
     "code": "sales_consultant",
@@ -915,7 +1233,13 @@
     "fr": "Conseiller de vente",
     "de": "Verkaufsberater",
     "it": "Consulente di vendita",
-    "tr": "Satış danışmanı"
+    "tr": "Satış danışmanı",
+    "pt": "Consultor de vendas",
+    "pl": "Konsultant sprzedaży",
+    "hu": "Értékesítési tanácsadó",
+    "el": "Σύμβουλος Πωλήσεων",
+    "kk": "Сату кеңесшісі",
+    "uz": "Savdo maslahatchisi"
   },
   {
     "code": "store_manager",
@@ -932,7 +1256,13 @@
     "fr": "Directeur de magasin",
     "de": "Filialleiter Einzelhandel",
     "it": "Direttore di negozio",
-    "tr": "Mağaza müdürü"
+    "tr": "Mağaza müdürü",
+    "pt": "Gerente de loja",
+    "pl": "Kierownik sklepu",
+    "hu": "Üzletvezető",
+    "el": "Διευθυντής Καταστήματος",
+    "kk": "Дүкен меңгерушісі",
+    "uz": "Doʻkon boshligi"
   },
   {
     "code": "merchandiser",
@@ -949,7 +1279,13 @@
     "fr": "Merchandiser",
     "de": "Merchandiser",
     "it": "Merchandiser",
-    "tr": "Merchandiser"
+    "tr": "Merchandiser",
+    "pt": "Merchandiser",
+    "pl": "Merchandiser",
+    "hu": "Merchandiser",
+    "el": "Υπεύθυνος Παρουσίασης Προϊόντων",
+    "kk": "Мерчендайзер",
+    "uz": "Merchandayzer"
   },
   {
     "code": "key_account_manager",
@@ -966,7 +1302,13 @@
     "fr": "Responsable grands comptes",
     "de": "Key-Account-Manager",
     "it": "Key account manager",
-    "tr": "Kilit müşteri yöneticisi"
+    "tr": "Kilit müşteri yöneticisi",
+    "pt": "Gestor de contas-chave",
+    "pl": "Kierownik kluczowych klientów",
+    "hu": "Kulcsügyfél-menedzser",
+    "el": "Υπεύθυνος Βασικών Πελατών",
+    "kk": "Негізгі клиенттер менеджері",
+    "uz": "Asosiy mijozlar menejeri"
   },
   {
     "code": "customer_service_specialist",
@@ -983,7 +1325,13 @@
     "fr": "Spécialiste du service client",
     "de": "Kundendienstspezialist",
     "it": "Specialista del servizio clienti",
-    "tr": "Müşteri hizmetleri uzmanı"
+    "tr": "Müşteri hizmetleri uzmanı",
+    "pt": "Especialista em apoio ao cliente",
+    "pl": "Specjalista obsługi klienta",
+    "hu": "Ügyfélszolgálati szakértő",
+    "el": "Ειδικός Εξυπηρέτησης Πελατών",
+    "kk": "Клиенттермен жұмыс маманы",
+    "uz": "Mijozlarga xizmat koʻrsatish mutaxassisi"
   },
   {
     "code": "call_center_operator",
@@ -1000,7 +1348,13 @@
     "fr": "Téléopérateur",
     "de": "Callcenter-Mitarbeiter",
     "it": "Operatore di call center",
-    "tr": "Çağrı merkezi operatörü"
+    "tr": "Çağrı merkezi operatörü",
+    "pt": "Operador de call center",
+    "pl": "Operator call center",
+    "hu": "Call center munkatárs",
+    "el": "Χειριστής Τηλεφωνικού Κέντρου",
+    "kk": "Байланыс орталығының операторы",
+    "uz": "Qoʻngʻiroqlar markazi operatori"
   },
   {
     "code": "procurement_specialist",
@@ -1017,7 +1371,13 @@
     "fr": "Spécialiste des achats",
     "de": "Einkaufsspezialist",
     "it": "Specialista degli acquisti",
-    "tr": "Satın alma uzmanı"
+    "tr": "Satın alma uzmanı",
+    "pt": "Especialista em compras",
+    "pl": "Specjalista ds. zakupów",
+    "hu": "Beszerzési szakértő",
+    "el": "Ειδικός Προμηθειών",
+    "kk": "Сатып алу маманы",
+    "uz": "Xarid mutaxassisi"
   },
   {
     "code": "purchasing_manager",
@@ -1034,7 +1394,13 @@
     "fr": "Responsable des achats",
     "de": "Einkaufsleiter",
     "it": "Responsabile acquisti",
-    "tr": "Satın alma müdürü"
+    "tr": "Satın alma müdürü",
+    "pt": "Diretor de compras",
+    "pl": "Kierownik zakupów",
+    "hu": "Beszerzési menedzser",
+    "el": "Διευθυντής Προμηθειών",
+    "kk": "Сатып алу менеджері",
+    "uz": "Xarid menejeri"
   },
   {
     "code": "supply_specialist",
@@ -1051,7 +1417,13 @@
     "fr": "Spécialiste de l'approvisionnement",
     "de": "Versorgungsspezialist",
     "it": "Specialista degli approvvigionamenti",
-    "tr": "Tedarik uzmanı"
+    "tr": "Tedarik uzmanı",
+    "pt": "Especialista em abastecimento",
+    "pl": "Specjalista ds. zaopatrzenia",
+    "hu": "Ellátási szakértő",
+    "el": "Ειδικός Εφοδιασμού",
+    "kk": "Жабдықтау маманы",
+    "uz": "Ta'minot mutaxassisi"
   },
   {
     "code": "contracts_specialist",
@@ -1068,7 +1440,13 @@
     "fr": "Spécialiste des contrats",
     "de": "Vertragsspezialist",
     "it": "Specialista contrattuale",
-    "tr": "Sözleşme uzmanı"
+    "tr": "Sözleşme uzmanı",
+    "pt": "Especialista em contratos",
+    "pl": "Specjalista ds. umów",
+    "hu": "Szerződéskezelési szakértő",
+    "el": "Ειδικός Συμβάσεων",
+    "kk": "Шарттар бойынша маман",
+    "uz": "Shartnomalar mutaxassisi"
   },
   {
     "code": "real_estate_agent",
@@ -1085,7 +1463,13 @@
     "fr": "Agent immobilier",
     "de": "Immobilienmakler",
     "it": "Agente immobiliare",
-    "tr": "Emlak danışmanı"
+    "tr": "Emlak danışmanı",
+    "pt": "Agente imobiliário",
+    "pl": "Agent nieruchomości",
+    "hu": "Ingatlanügynök",
+    "el": "Κτηματομεσίτης",
+    "kk": "Жылжымайтын мүлік агенті",
+    "uz": "Koʻchmas mulk agenti"
   },
   {
     "code": "programmer",
@@ -1102,7 +1486,13 @@
     "fr": "Programmeur",
     "de": "Programmierer",
     "it": "Programmatore",
-    "tr": "Programcı"
+    "tr": "Programcı",
+    "pt": "Programador",
+    "pl": "Programista",
+    "hu": "Programozó",
+    "el": "Προγραμματιστής",
+    "kk": "Бағдарламашы",
+    "uz": "Dasturchi"
   },
   {
     "code": "software_engineer",
@@ -1119,7 +1509,13 @@
     "fr": "Ingénieur logiciel",
     "de": "Softwareingenieur",
     "it": "Ingegnere del software",
-    "tr": "Yazılım mühendisi"
+    "tr": "Yazılım mühendisi",
+    "pt": "Engenheiro de software",
+    "pl": "Inżynier oprogramowania",
+    "hu": "Szoftvermérnök",
+    "el": "Μηχανικός Λογισμικού",
+    "kk": "Бағдарламалық жасақтама инженері",
+    "uz": "Dasturiy ta'minot muhandisi"
   },
   {
     "code": "frontend_developer",
@@ -1136,7 +1532,13 @@
     "fr": "Développeur frontend",
     "de": "Frontend-Entwickler",
     "it": "Sviluppatore frontend",
-    "tr": "Frontend geliştirici"
+    "tr": "Frontend geliştirici",
+    "pt": "Programador front-end",
+    "pl": "Frontend developer",
+    "hu": "Frontend fejlesztő",
+    "el": "Προγραμματιστής Frontend",
+    "kk": "Frontend әзірлеушісі",
+    "uz": "Frontend dasturchi"
   },
   {
     "code": "backend_developer",
@@ -1153,7 +1555,13 @@
     "fr": "Développeur backend",
     "de": "Backend-Entwickler",
     "it": "Sviluppatore backend",
-    "tr": "Backend geliştirici"
+    "tr": "Backend geliştirici",
+    "pt": "Programador back-end",
+    "pl": "Backend developer",
+    "hu": "Backend fejlesztő",
+    "el": "Προγραμματιστής Backend",
+    "kk": "Backend әзірлеушісі",
+    "uz": "Backend dasturchi"
   },
   {
     "code": "fullstack_developer",
@@ -1170,7 +1578,13 @@
     "fr": "Développeur full-stack",
     "de": "Full-Stack-Entwickler",
     "it": "Sviluppatore full-stack",
-    "tr": "Full-stack geliştirici"
+    "tr": "Full-stack geliştirici",
+    "pt": "Programador full-stack",
+    "pl": "Full-stack developer",
+    "hu": "Full-stack fejlesztő",
+    "el": "Προγραμματιστής Full-Stack",
+    "kk": "Full-stack әзірлеушісі",
+    "uz": "Full-stack dasturchi"
   },
   {
     "code": "web_developer",
@@ -1187,7 +1601,13 @@
     "fr": "Développeur web",
     "de": "Webentwickler",
     "it": "Sviluppatore web",
-    "tr": "Web geliştirici"
+    "tr": "Web geliştirici",
+    "pt": "Programador web",
+    "pl": "Web developer",
+    "hu": "Webfejlesztő",
+    "el": "Προγραμματιστής Ιστοσελίδων",
+    "kk": "Веб-әзірлеуші",
+    "uz": "Veb dasturchi"
   },
   {
     "code": "mobile_developer",
@@ -1204,7 +1624,13 @@
     "fr": "Développeur mobile",
     "de": "Mobile-App-Entwickler",
     "it": "Sviluppatore mobile",
-    "tr": "Mobil uygulama geliştirici"
+    "tr": "Mobil uygulama geliştirici",
+    "pt": "Programador de aplicações móveis",
+    "pl": "Developer aplikacji mobilnych",
+    "hu": "Mobilfejlesztő",
+    "el": "Προγραμματιστής Εφαρμογών για Κινητά",
+    "kk": "Мобильді қосымша әзірлеушісі",
+    "uz": "Mobil ilova dasturchisi"
   },
   {
     "code": "qa_engineer",
@@ -1221,7 +1647,13 @@
     "fr": "Ingénieur QA",
     "de": "QA-Ingenieur",
     "it": "Ingegnere QA",
-    "tr": "Test mühendisi"
+    "tr": "Test mühendisi",
+    "pt": "Engenheiro de QA",
+    "pl": "Inżynier QA",
+    "hu": "QA mérnök",
+    "el": "Μηχανικός Ποιοτικού Ελέγχου",
+    "kk": "Тестілеу инженері",
+    "uz": "Test muhandisi"
   },
   {
     "code": "devops_engineer",
@@ -1238,7 +1670,13 @@
     "fr": "Ingénieur DevOps",
     "de": "DevOps-Ingenieur",
     "it": "Ingegnere DevOps",
-    "tr": "DevOps mühendisi"
+    "tr": "DevOps mühendisi",
+    "pt": "Engenheiro DevOps",
+    "pl": "Inżynier DevOps",
+    "hu": "DevOps mérnök",
+    "el": "Μηχανικός DevOps",
+    "kk": "DevOps инженері",
+    "uz": "DevOps muhandisi"
   },
   {
     "code": "system_administrator",
@@ -1255,7 +1693,13 @@
     "fr": "Administrateur système",
     "de": "Systemadministrator",
     "it": "Amministratore di sistema",
-    "tr": "Sistem yöneticisi"
+    "tr": "Sistem yöneticisi",
+    "pt": "Administrador de sistemas",
+    "pl": "Administrator systemu",
+    "hu": "Rendszergazda",
+    "el": "Διαχειριστής Συστημάτων",
+    "kk": "Жүйелік әкімші",
+    "uz": "Tizim administratori"
   },
   {
     "code": "network_engineer",
@@ -1272,7 +1716,13 @@
     "fr": "Ingénieur réseau",
     "de": "Netzwerkingenieur",
     "it": "Ingegnere di rete",
-    "tr": "Ağ mühendisi"
+    "tr": "Ağ mühendisi",
+    "pt": "Engenheiro de redes",
+    "pl": "Inżynier sieciowy",
+    "hu": "Hálózati mérnök",
+    "el": "Μηχανικός Δικτύων",
+    "kk": "Желі инженері",
+    "uz": "Tarmoq muhandisi"
   },
   {
     "code": "database_administrator",
@@ -1289,7 +1739,13 @@
     "fr": "Administrateur de bases de données",
     "de": "Datenbankadministrator",
     "it": "Amministratore di database",
-    "tr": "Veritabanı yöneticisi"
+    "tr": "Veritabanı yöneticisi",
+    "pt": "Administrador de bases de dados",
+    "pl": "Administrator baz danych",
+    "hu": "Adatbázis-rendszergazda",
+    "el": "Διαχειριστής Βάσεων Δεδομένων",
+    "kk": "Дерекқор әкімшісі",
+    "uz": "Ma'lumotlar bazasi administratori"
   },
   {
     "code": "data_analyst",
@@ -1306,7 +1762,13 @@
     "fr": "Analyste de données",
     "de": "Datenanalyst",
     "it": "Analista di dati",
-    "tr": "Veri analisti"
+    "tr": "Veri analisti",
+    "pt": "Analista de dados",
+    "pl": "Analityk danych",
+    "hu": "Adatelemző",
+    "el": "Αναλυτής Δεδομένων",
+    "kk": "Деректер талдаушысы",
+    "uz": "Ma'lumotlar analitigi"
   },
   {
     "code": "data_scientist",
@@ -1323,7 +1785,13 @@
     "fr": "Data scientist",
     "de": "Data Scientist",
     "it": "Data scientist",
-    "tr": "Veri bilimci"
+    "tr": "Veri bilimci",
+    "pt": "Cientista de dados",
+    "pl": "Data scientist",
+    "hu": "Adattudós",
+    "el": "Επιστήμονας Δεδομένων",
+    "kk": "Деректер ғалымы",
+    "uz": "Data olimi"
   },
   {
     "code": "system_analyst",
@@ -1340,7 +1808,13 @@
     "fr": "Analyste système",
     "de": "Systemanalytiker",
     "it": "Analista di sistema",
-    "tr": "Sistem analisti"
+    "tr": "Sistem analisti",
+    "pt": "Analista de sistemas",
+    "pl": "Analityk systemowy",
+    "hu": "Rendszerelemző",
+    "el": "Αναλυτής Συστημάτων",
+    "kk": "Жүйелік талдаушы",
+    "uz": "Tizim analitigi"
   },
   {
     "code": "it_support_specialist",
@@ -1357,7 +1831,13 @@
     "fr": "Technicien support informatique",
     "de": "IT-Support-Spezialist",
     "it": "Specialista supporto IT",
-    "tr": "BT destek uzmanı"
+    "tr": "BT destek uzmanı",
+    "pt": "Especialista em suporte informático",
+    "pl": "Specjalista wsparcia IT",
+    "hu": "IT support szakértő",
+    "el": "Ειδικός Τεχνικής Υποστήριξης ΙΤ",
+    "kk": "IT қолдау маманы",
+    "uz": "AT qoʻllab-quvvatlash mutaxassisi"
   },
   {
     "code": "cybersecurity_specialist",
@@ -1374,7 +1854,13 @@
     "fr": "Spécialiste en cybersécurité",
     "de": "Spezialist für Cybersicherheit",
     "it": "Specialista di cybersicurezza",
-    "tr": "Siber güvenlik uzmanı"
+    "tr": "Siber güvenlik uzmanı",
+    "pt": "Especialista em cibersegurança",
+    "pl": "Specjalista cyberbezpieczeństwa",
+    "hu": "Kiberbiztonsági szakértő",
+    "el": "Ειδικός Κυβερνοασφάλειας",
+    "kk": "Киберқауіпсіздік маманы",
+    "uz": "Kiberxavfsizlik mutaxassisi"
   },
   {
     "code": "it_manager",
@@ -1391,7 +1877,13 @@
     "fr": "Responsable informatique",
     "de": "IT-Manager",
     "it": "Responsabile IT",
-    "tr": "BT yöneticisi"
+    "tr": "BT yöneticisi",
+    "pt": "Diretor de TI",
+    "pl": "Kierownik IT",
+    "hu": "IT menedzser",
+    "el": "Διευθυντής ΙΤ",
+    "kk": "IT менеджер",
+    "uz": "AT menejeri"
   },
   {
     "code": "product_manager",
@@ -1408,7 +1900,13 @@
     "fr": "Chef de produit",
     "de": "Produktmanager",
     "it": "Product manager",
-    "tr": "Ürün yöneticisi"
+    "tr": "Ürün yöneticisi",
+    "pt": "Gestor de produto",
+    "pl": "Product manager",
+    "hu": "Termékmenedzser",
+    "el": "Διευθυντής Προϊόντος",
+    "kk": "Өнім менеджері",
+    "uz": "Mahsulot menejeri"
   },
   {
     "code": "ui_ux_designer",
@@ -1425,7 +1923,13 @@
     "fr": "Designer UI/UX",
     "de": "UI/UX-Designer",
     "it": "Designer UI/UX",
-    "tr": "UI/UX tasarımcısı"
+    "tr": "UI/UX tasarımcısı",
+    "pt": "Designer UI/UX",
+    "pl": "Projektant UI/UX",
+    "hu": "UI/UX dizájner",
+    "el": "Σχεδιαστής UI/UX",
+    "kk": "UI/UX дизайнер",
+    "uz": "UI/UX dizayner"
   },
   {
     "code": "seo_specialist",
@@ -1442,7 +1946,13 @@
     "fr": "Spécialiste SEO",
     "de": "SEO-Spezialist",
     "it": "Specialista SEO",
-    "tr": "SEO uzmanı"
+    "tr": "SEO uzmanı",
+    "pt": "Especialista em SEO",
+    "pl": "Specjalista SEO",
+    "hu": "SEO szakértő",
+    "el": "Ειδικός SEO",
+    "kk": "SEO маманы",
+    "uz": "SEO mutaxassisi"
   },
   {
     "code": "computer_operator",
@@ -1459,7 +1969,13 @@
     "fr": "Opérateur informatique",
     "de": "EDV-Operator",
     "it": "Operatore informatico",
-    "tr": "Bilgisayar operatörü"
+    "tr": "Bilgisayar operatörü",
+    "pt": "Operador informático",
+    "pl": "Operator komputera",
+    "hu": "Számítógép-kezelő",
+    "el": "Χειριστής Υπολογιστή",
+    "kk": "Компьютер операторы",
+    "uz": "Kompyuter operatori"
   },
   {
     "code": "marketing_manager",
@@ -1476,7 +1992,13 @@
     "fr": "Responsable marketing",
     "de": "Marketingleiter",
     "it": "Responsabile marketing",
-    "tr": "Pazarlama yöneticisi"
+    "tr": "Pazarlama yöneticisi",
+    "pt": "Diretor de marketing",
+    "pl": "Kierownik marketingu",
+    "hu": "Marketingmenedzser",
+    "el": "Διευθυντής Μάρκετινγκ",
+    "kk": "Маркетинг менеджері",
+    "uz": "Marketing menejeri"
   },
   {
     "code": "marketing_specialist",
@@ -1493,7 +2015,13 @@
     "fr": "Spécialiste marketing",
     "de": "Marketingspezialist",
     "it": "Specialista di marketing",
-    "tr": "Pazarlama uzmanı"
+    "tr": "Pazarlama uzmanı",
+    "pt": "Especialista em marketing",
+    "pl": "Specjalista marketingu",
+    "hu": "Marketingszakértő",
+    "el": "Ειδικός Μάρκετινγκ",
+    "kk": "Маркетинг маманы",
+    "uz": "Marketing mutaxassisi"
   },
   {
     "code": "digital_marketing_specialist",
@@ -1510,7 +2038,13 @@
     "fr": "Spécialiste en marketing digital",
     "de": "Spezialist für digitales Marketing",
     "it": "Specialista di marketing digitale",
-    "tr": "Dijital pazarlama uzmanı"
+    "tr": "Dijital pazarlama uzmanı",
+    "pt": "Especialista em marketing digital",
+    "pl": "Specjalista marketingu cyfrowego",
+    "hu": "Digitális marketing szakértő",
+    "el": "Ειδικός Ψηφιακού Μάρκετινγκ",
+    "kk": "Цифрлық маркетинг маманы",
+    "uz": "Raqamli marketing mutaxassisi"
   },
   {
     "code": "smm_specialist",
@@ -1527,7 +2061,13 @@
     "fr": "Spécialiste réseaux sociaux",
     "de": "Social-Media-Spezialist",
     "it": "Specialista social media",
-    "tr": "Sosyal medya uzmanı"
+    "tr": "Sosyal medya uzmanı",
+    "pt": "Especialista em redes sociais",
+    "pl": "Specjalista SMM",
+    "hu": "Közösségimédia-szakértő",
+    "el": "Ειδικός Μέσων Κοινωνικής Δικτύωσης",
+    "kk": "SMM маманы",
+    "uz": "SMM mutaxassisi"
   },
   {
     "code": "brand_manager",
@@ -1544,7 +2084,13 @@
     "fr": "Responsable de marque",
     "de": "Brandmanager",
     "it": "Brand manager",
-    "tr": "Marka yöneticisi"
+    "tr": "Marka yöneticisi",
+    "pt": "Gestor de marca",
+    "pl": "Brand manager",
+    "hu": "Márkamenedzser",
+    "el": "Διευθυντής Επωνυμίας",
+    "kk": "Бренд-менеджер",
+    "uz": "Brend menejeri"
   },
   {
     "code": "pr_specialist",
@@ -1561,7 +2107,13 @@
     "fr": "Spécialiste des relations publiques",
     "de": "PR-Spezialist",
     "it": "Specialista di relazioni pubbliche",
-    "tr": "Halkla ilişkiler uzmanı"
+    "tr": "Halkla ilişkiler uzmanı",
+    "pt": "Especialista em relações públicas",
+    "pl": "Specjalista PR",
+    "hu": "PR-szakértő",
+    "el": "Ειδικός Δημοσίων Σχέσεων",
+    "kk": "PR маманы",
+    "uz": "Jamoatchilik bilan aloqalar mutaxassisi"
   },
   {
     "code": "content_manager",
@@ -1578,7 +2130,13 @@
     "fr": "Responsable de contenu",
     "de": "Content-Manager",
     "it": "Content manager",
-    "tr": "İçerik yöneticisi"
+    "tr": "İçerik yöneticisi",
+    "pt": "Gestor de conteúdos",
+    "pl": "Content manager",
+    "hu": "Tartalommenedzser",
+    "el": "Υπεύθυνος Περιεχομένου",
+    "kk": "Контент-менеджер",
+    "uz": "Kontent menejeri"
   },
   {
     "code": "copywriter",
@@ -1595,7 +2153,13 @@
     "fr": "Rédacteur publicitaire",
     "de": "Werbetexter",
     "it": "Copywriter",
-    "tr": "Metin yazarı"
+    "tr": "Metin yazarı",
+    "pt": "Redator publicitário",
+    "pl": "Copywriter",
+    "hu": "Szövegíró",
+    "el": "Κειμενογράφος",
+    "kk": "Копирайтер",
+    "uz": "Kopirayter"
   },
   {
     "code": "graphic_designer",
@@ -1612,7 +2176,13 @@
     "fr": "Graphiste",
     "de": "Grafikdesigner",
     "it": "Grafico",
-    "tr": "Grafik tasarımcısı"
+    "tr": "Grafik tasarımcısı",
+    "pt": "Designer gráfico",
+    "pl": "Grafik",
+    "hu": "Grafikus",
+    "el": "Γραφίστας",
+    "kk": "Графикалық дизайнер",
+    "uz": "Grafik dizayner"
   },
   {
     "code": "interior_designer",
@@ -1629,7 +2199,13 @@
     "fr": "Architecte d'intérieur",
     "de": "Innenarchitekt",
     "it": "Designer d'interni",
-    "tr": "İç mimar"
+    "tr": "İç mimar",
+    "pt": "Designer de interiores",
+    "pl": "Projektant wnętrz",
+    "hu": "Belsőépítész",
+    "el": "Σχεδιαστής Εσωτερικών Χώρων",
+    "kk": "Интерьер дизайнері",
+    "uz": "Interyer dizayneri"
   },
   {
     "code": "photographer",
@@ -1646,7 +2222,13 @@
     "fr": "Photographe",
     "de": "Fotograf",
     "it": "Fotografo",
-    "tr": "Fotoğrafçı"
+    "tr": "Fotoğrafçı",
+    "pt": "Fotógrafo",
+    "pl": "Fotograf",
+    "hu": "Fotós",
+    "el": "Φωτογράφος",
+    "kk": "Фотограф",
+    "uz": "Fotograf"
   },
   {
     "code": "videographer",
@@ -1663,7 +2245,13 @@
     "fr": "Vidéaste",
     "de": "Videograf",
     "it": "Videomaker",
-    "tr": "Kameraman"
+    "tr": "Kameraman",
+    "pt": "Videógrafo",
+    "pl": "Wideograf",
+    "hu": "Videós",
+    "el": "Βιντεολήπτης",
+    "kk": "Видеооператор",
+    "uz": "Videograf"
   },
   {
     "code": "video_editor",
@@ -1680,7 +2268,13 @@
     "fr": "Monteur vidéo",
     "de": "Videoeditor",
     "it": "Montatore video",
-    "tr": "Video editörü"
+    "tr": "Video editörü",
+    "pt": "Editor de vídeo",
+    "pl": "Monter wideo",
+    "hu": "Videószerkesztő",
+    "el": "Μοντέρ Βίντεο",
+    "kk": "Бейне монтажшысы",
+    "uz": "Video montajchi"
   },
   {
     "code": "journalist",
@@ -1697,7 +2291,13 @@
     "fr": "Journaliste",
     "de": "Journalist",
     "it": "Giornalista",
-    "tr": "Gazeteci"
+    "tr": "Gazeteci",
+    "pt": "Jornalista",
+    "pl": "Dziennikarz",
+    "hu": "Újságíró",
+    "el": "Δημοσιογράφος",
+    "kk": "Журналист",
+    "uz": "Jurnalist"
   },
   {
     "code": "editor",
@@ -1714,7 +2314,13 @@
     "fr": "Rédacteur",
     "de": "Redakteur",
     "it": "Redattore",
-    "tr": "Editör"
+    "tr": "Editör",
+    "pt": "Editor",
+    "pl": "Redaktor",
+    "hu": "Szerkesztő",
+    "el": "Συντάκτης",
+    "kk": "Редактор",
+    "uz": "Muharrir"
   },
   {
     "code": "presenter",
@@ -1731,7 +2337,13 @@
     "fr": "Présentateur",
     "de": "Moderator",
     "it": "Presentatore",
-    "tr": "Sunucu"
+    "tr": "Sunucu",
+    "pt": "Apresentador",
+    "pl": "Prezenter",
+    "hu": "Műsorvezető",
+    "el": "Παρουσιαστής",
+    "kk": "Бағдарлама жүргізушісі",
+    "uz": "Boshlovchi"
   },
   {
     "code": "stage_director",
@@ -1748,7 +2360,13 @@
     "fr": "Metteur en scène",
     "de": "Regisseur",
     "it": "Regista",
-    "tr": "Yönetmen"
+    "tr": "Yönetmen",
+    "pt": "Encenador",
+    "pl": "Reżyser sceniczny",
+    "hu": "Rendező",
+    "el": "Σκηνοθέτης",
+    "kk": "Режиссёр",
+    "uz": "Rejissor"
   },
   {
     "code": "translator",
@@ -1765,7 +2383,13 @@
     "fr": "Traducteur",
     "de": "Übersetzer",
     "it": "Traduttore",
-    "tr": "Çevirmen"
+    "tr": "Çevirmen",
+    "pt": "Tradutor",
+    "pl": "Tłumacz",
+    "hu": "Fordító",
+    "el": "Μεταφραστής",
+    "kk": "Аудармашы",
+    "uz": "Tarjimon"
   },
   {
     "code": "hr_specialist",
@@ -1782,7 +2406,13 @@
     "fr": "Spécialiste ressources humaines",
     "de": "Personalreferent",
     "it": "Specialista risorse umane",
-    "tr": "İnsan kaynakları uzmanı"
+    "tr": "İnsan kaynakları uzmanı",
+    "pt": "Especialista em recursos humanos",
+    "pl": "Specjalista HR",
+    "hu": "HR-szakértő",
+    "el": "Ειδικός Ανθρώπινου Δυναμικού",
+    "kk": "HR маманы",
+    "uz": "HR mutaxassisi"
   },
   {
     "code": "hr_manager",
@@ -1799,7 +2429,13 @@
     "fr": "Responsable ressources humaines",
     "de": "Personalleiter",
     "it": "Responsabile risorse umane",
-    "tr": "İnsan kaynakları yöneticisi"
+    "tr": "İnsan kaynakları yöneticisi",
+    "pt": "Diretor de recursos humanos",
+    "pl": "Kierownik HR",
+    "hu": "HR-menedzser",
+    "el": "Διευθυντής Ανθρώπινου Δυναμικού",
+    "kk": "HR менеджері",
+    "uz": "HR menejeri"
   },
   {
     "code": "recruiter",
@@ -1816,7 +2452,13 @@
     "fr": "Recruteur",
     "de": "Recruiter",
     "it": "Recruiter",
-    "tr": "İşe alım uzmanı"
+    "tr": "İşe alım uzmanı",
+    "pt": "Recrutador",
+    "pl": "Rekruter",
+    "hu": "Toborzó",
+    "el": "Στέλεχος Προσλήψεων",
+    "kk": "Рекрутер",
+    "uz": "Rekruter"
   },
   {
     "code": "trainer",
@@ -1833,7 +2475,13 @@
     "fr": "Formateur",
     "de": "Trainer",
     "it": "Formatore",
-    "tr": "Eğitmen"
+    "tr": "Eğitmen",
+    "pt": "Formador",
+    "pl": "Trener",
+    "hu": "Tréner",
+    "el": "Εκπαιδευτής",
+    "kk": "Тренер",
+    "uz": "Treyner"
   },
   {
     "code": "lawyer",
@@ -1850,7 +2498,13 @@
     "fr": "Juriste",
     "de": "Jurist",
     "it": "Giurista",
-    "tr": "Hukukçu"
+    "tr": "Hukukçu",
+    "pt": "Jurista",
+    "pl": "Prawnik",
+    "hu": "Jogász",
+    "el": "Δικηγόρος",
+    "kk": "Заңгер",
+    "uz": "Huquqshunos"
   },
   {
     "code": "advocate",
@@ -1867,7 +2521,13 @@
     "fr": "Avocat",
     "de": "Rechtsanwalt",
     "it": "Avvocato",
-    "tr": "Avukat"
+    "tr": "Avukat",
+    "pt": "Advogado",
+    "pl": "Adwokat",
+    "hu": "Ügyvéd",
+    "el": "Συνήγορος",
+    "kk": "Адвокат",
+    "uz": "Advokat"
   },
   {
     "code": "legal_advisor",
@@ -1884,7 +2544,13 @@
     "fr": "Conseiller juridique",
     "de": "Rechtsberater",
     "it": "Consulente legale",
-    "tr": "Hukuk danışmanı"
+    "tr": "Hukuk danışmanı",
+    "pt": "Consultor jurídico",
+    "pl": "Radca prawny",
+    "hu": "Jogi tanácsadó",
+    "el": "Νομικός Σύμβουλος",
+    "kk": "Құқық кеңесшісі",
+    "uz": "Huquqiy maslahatchi"
   },
   {
     "code": "notary",
@@ -1901,7 +2567,13 @@
     "fr": "Notaire",
     "de": "Notar",
     "it": "Notaio",
-    "tr": "Noter"
+    "tr": "Noter",
+    "pt": "Notário",
+    "pl": "Notariusz",
+    "hu": "Közjegyző",
+    "el": "Συμβολαιογράφος",
+    "kk": "Нотариус",
+    "uz": "Notarius"
   },
   {
     "code": "inspector",
@@ -1918,7 +2590,13 @@
     "fr": "Inspecteur",
     "de": "Inspektor",
     "it": "Ispettore",
-    "tr": "Müfettiş"
+    "tr": "Müfettiş",
+    "pt": "Inspetor",
+    "pl": "Inspektor",
+    "hu": "Ellenőr",
+    "el": "Επιθεωρητής",
+    "kk": "Инспектор",
+    "uz": "Inspektor"
   },
   {
     "code": "civil_servant",
@@ -1935,7 +2613,13 @@
     "fr": "Fonctionnaire",
     "de": "Beamter",
     "it": "Funzionario pubblico",
-    "tr": "Devlet memuru"
+    "tr": "Devlet memuru",
+    "pt": "Funcionário público",
+    "pl": "Urzędnik państwowy",
+    "hu": "Köztisztviselő",
+    "el": "Δημόσιος Υπάλληλος",
+    "kk": "Мемлекеттік қызметші",
+    "uz": "Davlat xizmatchisi"
   },
   {
     "code": "customs_officer",
@@ -1952,7 +2636,13 @@
     "fr": "Agent des douanes",
     "de": "Zollbeamter",
     "it": "Funzionario doganale",
-    "tr": "Gümrük memuru"
+    "tr": "Gümrük memuru",
+    "pt": "Funcionário aduaneiro",
+    "pl": "Funkcjonariusz celny",
+    "hu": "Vámtisztviselő",
+    "el": "Τελωνειακός Υπάλληλος",
+    "kk": "Кеден қызметкері",
+    "uz": "Bojxona xodimi"
   },
   {
     "code": "customs_broker",
@@ -1969,7 +2659,13 @@
     "fr": "Courtier en douane",
     "de": "Zollmakler",
     "it": "Spedizioniere doganale",
-    "tr": "Gümrük müşaviri"
+    "tr": "Gümrük müşaviri",
+    "pt": "Despachante aduaneiro",
+    "pl": "Agent celny",
+    "hu": "Vámügynök",
+    "el": "Εκτελωνιστής",
+    "kk": "Кеден брокері",
+    "uz": "Bojxona brokeri"
   },
   {
     "code": "police_officer",
@@ -1986,7 +2682,13 @@
     "fr": "Policier",
     "de": "Polizeibeamter",
     "it": "Agente di polizia",
-    "tr": "Polis memuru"
+    "tr": "Polis memuru",
+    "pt": "Agente da polícia",
+    "pl": "Policjant",
+    "hu": "Rendőr",
+    "el": "Αστυνομικός",
+    "kk": "Полиция қызметкері",
+    "uz": "Politsiya xodimi"
   },
   {
     "code": "serviceman",
@@ -2003,7 +2705,13 @@
     "fr": "Militaire",
     "de": "Soldat",
     "it": "Militare",
-    "tr": "Asker"
+    "tr": "Asker",
+    "pt": "Militar",
+    "pl": "Żołnierz",
+    "hu": "Katona",
+    "el": "Στρατιωτικός",
+    "kk": "Әскери қызметші",
+    "uz": "Harbiy xizmatchi"
   },
   {
     "code": "firefighter",
@@ -2020,7 +2728,13 @@
     "fr": "Pompier",
     "de": "Feuerwehrmann",
     "it": "Vigile del fuoco",
-    "tr": "İtfaiyeci"
+    "tr": "İtfaiyeci",
+    "pt": "Bombeiro",
+    "pl": "Strażak",
+    "hu": "Tűzoltó",
+    "el": "Πυροσβέστης",
+    "kk": "Өрт сөндіруші",
+    "uz": "Oʻt oʻchiruvchi"
   },
   {
     "code": "security_guard",
@@ -2037,7 +2751,13 @@
     "fr": "Agent de sécurité",
     "de": "Sicherheitsmitarbeiter",
     "it": "Addetto alla sicurezza",
-    "tr": "Güvenlik görevlisi"
+    "tr": "Güvenlik görevlisi",
+    "pt": "Guarda de segurança",
+    "pl": "Pracownik ochrony",
+    "hu": "Biztonsági őr",
+    "el": "Φύλακας Ασφαλείας",
+    "kk": "Күзетші",
+    "uz": "Soqchi"
   },
   {
     "code": "watchman",
@@ -2054,7 +2774,13 @@
     "fr": "Gardien",
     "de": "Wächter",
     "it": "Guardiano",
-    "tr": "Bekçi"
+    "tr": "Bekçi",
+    "pt": "Vigilante",
+    "pl": "Stróż",
+    "hu": "Őr",
+    "el": "Φύλακας",
+    "kk": "Сақшы",
+    "uz": "Qorovul"
   },
   {
     "code": "engineer",
@@ -2071,7 +2797,13 @@
     "fr": "Ingénieur",
     "de": "Ingenieur",
     "it": "Ingegnere",
-    "tr": "Mühendis"
+    "tr": "Mühendis",
+    "pt": "Engenheiro",
+    "pl": "Inżynier",
+    "hu": "Mérnök",
+    "el": "Μηχανικός",
+    "kk": "Инженер",
+    "uz": "Muhandis"
   },
   {
     "code": "civil_engineer",
@@ -2088,7 +2820,13 @@
     "fr": "Ingénieur civil",
     "de": "Bauingenieur",
     "it": "Ingegnere civile",
-    "tr": "İnşaat mühendisi"
+    "tr": "İnşaat mühendisi",
+    "pt": "Engenheiro civil",
+    "pl": "Inżynier budownictwa",
+    "hu": "Építőmérnök",
+    "el": "Πολιτικός Μηχανικός",
+    "kk": "Құрылысшы инженер",
+    "uz": "Qurilish muhandisi"
   },
   {
     "code": "project_engineer",
@@ -2105,7 +2843,13 @@
     "fr": "Ingénieur projet",
     "de": "Projektingenieur",
     "it": "Ingegnere di progetto",
-    "tr": "Proje mühendisi"
+    "tr": "Proje mühendisi",
+    "pt": "Engenheiro de projeto",
+    "pl": "Inżynier projektu",
+    "hu": "Projektmérnök",
+    "el": "Μηχανικός Έργου",
+    "kk": "Жоба инженері",
+    "uz": "Loyiha muhandisi"
   },
   {
     "code": "planning_engineer",
@@ -2122,7 +2866,13 @@
     "fr": "Ingénieur planification",
     "de": "Planungsingenieur",
     "it": "Ingegnere di pianificazione",
-    "tr": "Planlama mühendisi"
+    "tr": "Planlama mühendisi",
+    "pt": "Engenheiro de planeamento",
+    "pl": "Inżynier planowania",
+    "hu": "Tervezőmérnök",
+    "el": "Μηχανικός Προγραμματισμού",
+    "kk": "Жоспарлау инженері",
+    "uz": "Rejalashtirish muhandisi"
   },
   {
     "code": "maintenance_engineer",
@@ -2139,7 +2889,13 @@
     "fr": "Ingénieur maintenance",
     "de": "Wartungsingenieur",
     "it": "Ingegnere di manutenzione",
-    "tr": "Bakım mühendisi"
+    "tr": "Bakım mühendisi",
+    "pt": "Engenheiro de manutenção",
+    "pl": "Inżynier utrzymania",
+    "hu": "Karbantartó mérnök",
+    "el": "Μηχανικός Συντήρησης",
+    "kk": "Пайдалану-жөндеу инженері",
+    "uz": "Ta'mirlash-ishlatish muhandisi"
   },
   {
     "code": "mechanical_engineer",
@@ -2156,7 +2912,13 @@
     "fr": "Ingénieur mécanique",
     "de": "Maschinenbauingenieur",
     "it": "Ingegnere meccanico",
-    "tr": "Makine mühendisi"
+    "tr": "Makine mühendisi",
+    "pt": "Engenheiro mecânico",
+    "pl": "Inżynier mechanik",
+    "hu": "Gépészmérnök",
+    "el": "Μηχανολόγος Μηχανικός",
+    "kk": "Механик-инженер",
+    "uz": "Mexanik-muhandis"
   },
   {
     "code": "electrical_engineer",
@@ -2173,7 +2935,13 @@
     "fr": "Ingénieur électrique",
     "de": "Elektroingenieur",
     "it": "Ingegnere elettrico",
-    "tr": "Elektrik mühendisi"
+    "tr": "Elektrik mühendisi",
+    "pt": "Engenheiro eletrotécnico",
+    "pl": "Inżynier elektryk",
+    "hu": "Elektromérnök",
+    "el": "Ηλεκτρολόγος Μηχανικός",
+    "kk": "Электр инженері",
+    "uz": "Elektr muhandisi"
   },
   {
     "code": "instrumentation_engineer",
@@ -2190,7 +2958,13 @@
     "fr": "Ingénieur instrumentation",
     "de": "Messtechnikingenieur",
     "it": "Ingegnere strumentista",
-    "tr": "Enstrümantasyon mühendisi"
+    "tr": "Enstrümantasyon mühendisi",
+    "pt": "Engenheiro de instrumentação",
+    "pl": "Inżynier aparatury kontrolno-pomiarowej",
+    "hu": "Műszermérnök",
+    "el": "Μηχανικός Οργάνων Μέτρησης και Ελέγχου",
+    "kk": "Өлшеу-бақылау аспаптары инженері",
+    "uz": "Oʻlchov-nazorat muhandisi"
   },
   {
     "code": "architect",
@@ -2207,7 +2981,13 @@
     "fr": "Architecte",
     "de": "Architekt",
     "it": "Architetto",
-    "tr": "Mimar"
+    "tr": "Mimar",
+    "pt": "Arquiteto",
+    "pl": "Architekt",
+    "hu": "Építész",
+    "el": "Αρχιτέκτονας",
+    "kk": "Сәулетші",
+    "uz": "Me'mor"
   },
   {
     "code": "quantity_surveyor",
@@ -2224,7 +3004,13 @@
     "fr": "Économiste de la construction",
     "de": "Baukalkulator",
     "it": "Computista",
-    "tr": "Metraj uzmanı"
+    "tr": "Metraj uzmanı",
+    "pt": "Medidor-orçamentista",
+    "pl": "Kosztorysant",
+    "hu": "Költségbecslő mérnök",
+    "el": "Επιμετρητής",
+    "kk": "Смета маманы",
+    "uz": "Smeta mutaxassisi"
   },
   {
     "code": "site_manager",
@@ -2241,7 +3027,13 @@
     "fr": "Chef de chantier",
     "de": "Bauleiter",
     "it": "Capo cantiere",
-    "tr": "Şantiye şefi"
+    "tr": "Şantiye şefi",
+    "pt": "Diretor de obra",
+    "pl": "Kierownik budowy",
+    "hu": "Építésvezető",
+    "el": "Επιβλέπων Εργοταξίου",
+    "kk": "Құрылыс учаскесінің бастығы",
+    "uz": "Qurilish maydonchasi boshligi"
   },
   {
     "code": "foreman",
@@ -2258,7 +3050,13 @@
     "fr": "Contremaître",
     "de": "Vorarbeiter",
     "it": "Caposquadra",
-    "tr": "Usta"
+    "tr": "Usta",
+    "pt": "Encarregado",
+    "pl": "Brygadzista",
+    "hu": "Művezető",
+    "el": "Προϊστάμενος Συνεργείου",
+    "kk": "Шебер",
+    "uz": "Usta"
   },
   {
     "code": "land_surveyor",
@@ -2275,7 +3073,13 @@
     "fr": "Géomètre",
     "de": "Landmesser",
     "it": "Geometra",
-    "tr": "Harita mühendisi"
+    "tr": "Harita mühendisi",
+    "pt": "Topógrafo",
+    "pl": "Geodeta",
+    "hu": "Földmérő",
+    "el": "Τοπογράφος",
+    "kk": "Геодезист",
+    "uz": "Geodezist"
   },
   {
     "code": "hse_specialist",
@@ -2292,7 +3096,13 @@
     "fr": "Spécialiste HSE",
     "de": "HSE-Spezialist",
     "it": "Specialista HSE",
-    "tr": "İSG uzmanı"
+    "tr": "İSG uzmanı",
+    "pt": "Especialista em segurança e saúde no trabalho",
+    "pl": "Specjalista BHP",
+    "hu": "Munkavédelmi szakértő",
+    "el": "Ειδικός Υγιεινής και Ασφάλειας Εργασίας",
+    "kk": "Еңбек қауіпсіздігі маманы",
+    "uz": "Mehnat xavfsizligi mutaxassisi"
   },
   {
     "code": "quality_control_specialist",
@@ -2309,7 +3119,13 @@
     "fr": "Spécialiste contrôle qualité",
     "de": "Qualitätskontrollspezialist",
     "it": "Specialista controllo qualità",
-    "tr": "Kalite kontrol uzmanı"
+    "tr": "Kalite kontrol uzmanı",
+    "pt": "Especialista em controlo de qualidade",
+    "pl": "Specjalista kontroli jakości",
+    "hu": "Minőségellenőrzési szakértő",
+    "el": "Ειδικός Ποιοτικού Ελέγχου",
+    "kk": "Сапа бақылау маманы",
+    "uz": "Sifat nazorati mutaxassisi"
   },
   {
     "code": "technician",
@@ -2326,7 +3142,13 @@
     "fr": "Technicien",
     "de": "Techniker",
     "it": "Tecnico",
-    "tr": "Teknisyen"
+    "tr": "Teknisyen",
+    "pt": "Técnico",
+    "pl": "Technik",
+    "hu": "Technikus",
+    "el": "Τεχνικός",
+    "kk": "Техник",
+    "uz": "Texnik"
   },
   {
     "code": "technologist",
@@ -2343,7 +3165,13 @@
     "fr": "Technologue",
     "de": "Technologe",
     "it": "Tecnologo",
-    "tr": "Teknolog"
+    "tr": "Teknolog",
+    "pt": "Tecnólogo",
+    "pl": "Technolog",
+    "hu": "Technológus",
+    "el": "Τεχνολόγος",
+    "kk": "Технолог",
+    "uz": "Texnolog"
   },
   {
     "code": "mechanic",
@@ -2360,7 +3188,13 @@
     "fr": "Mécanicien",
     "de": "Mechaniker",
     "it": "Meccanico",
-    "tr": "Makinist teknisyeni"
+    "tr": "Makinist teknisyeni",
+    "pt": "Mecânico",
+    "pl": "Mechanik",
+    "hu": "Szerelő",
+    "el": "Μηχανοτεχνίτης",
+    "kk": "Механик",
+    "uz": "Mexanik"
   },
   {
     "code": "electrician",
@@ -2377,7 +3211,13 @@
     "fr": "Électricien",
     "de": "Elektriker",
     "it": "Elettricista",
-    "tr": "Elektrikçi"
+    "tr": "Elektrikçi",
+    "pt": "Eletricista",
+    "pl": "Elektryk",
+    "hu": "Villanyszerelő",
+    "el": "Ηλεκτρολόγος",
+    "kk": "Электрші",
+    "uz": "Elektrik"
   },
   {
     "code": "welder",
@@ -2394,7 +3234,13 @@
     "fr": "Soudeur",
     "de": "Schweißer",
     "it": "Saldatore",
-    "tr": "Kaynakçı"
+    "tr": "Kaynakçı",
+    "pt": "Soldador",
+    "pl": "Spawacz",
+    "hu": "Hegesztő",
+    "el": "Συγκολλητής",
+    "kk": "Дәнекерлеуші",
+    "uz": "Payvandchi"
   },
   {
     "code": "plumber",
@@ -2411,7 +3257,13 @@
     "fr": "Plombier",
     "de": "Installateur",
     "it": "Idraulico",
-    "tr": "Tesisatçı"
+    "tr": "Tesisatçı",
+    "pt": "Canalizador",
+    "pl": "Hydraulik",
+    "hu": "Vízvezeték-szerelő",
+    "el": "Υδραυλικός",
+    "kk": "Сантехник",
+    "uz": "Santexnik"
   },
   {
     "code": "carpenter",
@@ -2428,7 +3280,13 @@
     "fr": "Menuisier",
     "de": "Schreiner",
     "it": "Falegname",
-    "tr": "Marangoz"
+    "tr": "Marangoz",
+    "pt": "Carpinteiro",
+    "pl": "Stolarz",
+    "hu": "Asztalos",
+    "el": "Ξυλουργός",
+    "kk": "Ағаш ұстасы",
+    "uz": "Duradgor"
   },
   {
     "code": "mason",
@@ -2445,7 +3303,13 @@
     "fr": "Maçon",
     "de": "Maurer",
     "it": "Muratore",
-    "tr": "Duvarcı"
+    "tr": "Duvarcı",
+    "pt": "Pedreiro",
+    "pl": "Murarz",
+    "hu": "Kőműves",
+    "el": "Κτίστης",
+    "kk": "Тас қалаушы",
+    "uz": "Gʻishtchi"
   },
   {
     "code": "plasterer",
@@ -2462,7 +3326,13 @@
     "fr": "Plâtrier",
     "de": "Verputzer",
     "it": "Intonacatore",
-    "tr": "Sıvacı"
+    "tr": "Sıvacı",
+    "pt": "Estucador",
+    "pl": "Tynkarz",
+    "hu": "Stukkózó",
+    "el": "Σοβατζής",
+    "kk": "Сылақшы",
+    "uz": "Suvoqchi"
   },
   {
     "code": "painter_decorator",
@@ -2479,7 +3349,13 @@
     "fr": "Peintre en bâtiment",
     "de": "Maler und Lackierer",
     "it": "Imbianchino",
-    "tr": "Boyacı"
+    "tr": "Boyacı",
+    "pt": "Pintor decorador",
+    "pl": "Malarz-dekorator",
+    "hu": "Festő-mázoló",
+    "el": "Ελαιοχρωματιστής",
+    "kk": "Сырлаушы",
+    "uz": "Boʻyoqchi"
   },
   {
     "code": "concrete_worker",
@@ -2496,7 +3372,13 @@
     "fr": "Coffreur-bancheur",
     "de": "Betonbauer",
     "it": "Addetto al calcestruzzo",
-    "tr": "Betoncu"
+    "tr": "Betoncu",
+    "pt": "Operário de betão",
+    "pl": "Betoniarz",
+    "hu": "Betonozó",
+    "el": "Εργάτης Σκυροδέματος",
+    "kk": "Бетоншы",
+    "uz": "Betonchi"
   },
   {
     "code": "locksmith",
@@ -2513,7 +3395,13 @@
     "fr": "Serrurier",
     "de": "Schlosser",
     "it": "Fabbro",
-    "tr": "Çilingir"
+    "tr": "Çilingir",
+    "pt": "Serralheiro",
+    "pl": "Ślusarz",
+    "hu": "Lakatos",
+    "el": "Κλειδαράς",
+    "kk": "Слесарь",
+    "uz": "Chilangar"
   },
   {
     "code": "turner",
@@ -2530,7 +3418,13 @@
     "fr": "Tourneur",
     "de": "Dreher",
     "it": "Tornitore",
-    "tr": "Tornacı"
+    "tr": "Tornacı",
+    "pt": "Torneiro",
+    "pl": "Tokarz",
+    "hu": "Esztergályos",
+    "el": "Τορνευτής",
+    "kk": "Токарь",
+    "uz": "Tokar"
   },
   {
     "code": "crane_operator",
@@ -2547,7 +3441,13 @@
     "fr": "Grutier",
     "de": "Kranführer",
     "it": "Gruista",
-    "tr": "Vinç operatörü"
+    "tr": "Vinç operatörü",
+    "pt": "Operador de grua",
+    "pl": "Operator dźwigu",
+    "hu": "Darukezelő",
+    "el": "Χειριστής Γερανού",
+    "kk": "Кран операторы",
+    "uz": "Kran operatori"
   },
   {
     "code": "excavator_operator",
@@ -2564,7 +3464,13 @@
     "fr": "Conducteur de pelle",
     "de": "Baggerfahrer",
     "it": "Escavatorista",
-    "tr": "Ekskavatör operatörü"
+    "tr": "Ekskavatör operatörü",
+    "pt": "Operador de escavadora",
+    "pl": "Operator koparki",
+    "hu": "Kotrógépkezelő",
+    "el": "Χειριστής Εκσκαφέα",
+    "kk": "Экскаватор операторы",
+    "uz": "Ekskavator operatori"
   },
   {
     "code": "machine_operator",
@@ -2581,7 +3487,13 @@
     "fr": "Opérateur de machine",
     "de": "Maschinenbediener",
     "it": "Operatore di macchina",
-    "tr": "Makine operatörü"
+    "tr": "Makine operatörü",
+    "pt": "Operador de máquina",
+    "pl": "Operator maszyn",
+    "hu": "Gépkezelő",
+    "el": "Χειριστής Μηχανής",
+    "kk": "Станок операторы",
+    "uz": "Dastgoh operatori"
   },
   {
     "code": "production_operator",
@@ -2598,7 +3510,13 @@
     "fr": "Opérateur de production",
     "de": "Produktionsmitarbeiter",
     "it": "Operatore di produzione",
-    "tr": "Üretim operatörü"
+    "tr": "Üretim operatörü",
+    "pt": "Operador de produção",
+    "pl": "Operator produkcji",
+    "hu": "Termelési operátor",
+    "el": "Χειριστής Παραγωγής",
+    "kk": "Өндіріс операторы",
+    "uz": "Ishlab chiqarish operatori"
   },
   {
     "code": "operator",
@@ -2615,7 +3533,13 @@
     "fr": "Opérateur",
     "de": "Operator",
     "it": "Operatore",
-    "tr": "Operatör"
+    "tr": "Operatör",
+    "pt": "Operador",
+    "pl": "Operator",
+    "hu": "Operátor",
+    "el": "Χειριστής",
+    "kk": "Оператор",
+    "uz": "Operator"
   },
   {
     "code": "laboratory_assistant",
@@ -2632,7 +3556,13 @@
     "fr": "Technicien de laboratoire",
     "de": "Laborant",
     "it": "Tecnico di laboratorio",
-    "tr": "Laborant"
+    "tr": "Laborant",
+    "pt": "Técnico de laboratório",
+    "pl": "Laborant",
+    "hu": "Laboratóriumi asszisztens",
+    "el": "Εργαστηριακός Βοηθός",
+    "kk": "Лаборант",
+    "uz": "Laborant"
   },
   {
     "code": "worker",
@@ -2649,7 +3579,13 @@
     "fr": "Ouvrier",
     "de": "Arbeiter",
     "it": "Operaio",
-    "tr": "İşçi"
+    "tr": "İşçi",
+    "pt": "Operário",
+    "pl": "Robotnik",
+    "hu": "Munkás",
+    "el": "Εργάτης",
+    "kk": "Жұмысшы",
+    "uz": "Ishchi"
   },
   {
     "code": "petroleum_engineer",
@@ -2666,7 +3602,13 @@
     "fr": "Ingénieur pétrolier",
     "de": "Erdölingenieur",
     "it": "Ingegnere petrolifero",
-    "tr": "Petrol mühendisi"
+    "tr": "Petrol mühendisi",
+    "pt": "Engenheiro de petróleo e gás",
+    "pl": "Inżynier naftowy",
+    "hu": "Kőolajmérnök",
+    "el": "Μηχανικός Πετρελαίου",
+    "kk": "Мұнай-газ ісі инженері",
+    "uz": "Neft-gaz muhandisi"
   },
   {
     "code": "drilling_engineer",
@@ -2683,7 +3625,13 @@
     "fr": "Ingénieur forage",
     "de": "Bohringenieur",
     "it": "Ingegnere di perforazione",
-    "tr": "Sondaj mühendisi"
+    "tr": "Sondaj mühendisi",
+    "pt": "Engenheiro de perfuração",
+    "pl": "Inżynier wiertniczy",
+    "hu": "Fúrómérnök",
+    "el": "Μηχανικός Γεωτρήσεων",
+    "kk": "Бұрғылау инженері",
+    "uz": "Burgʻulash muhandisi"
   },
   {
     "code": "process_engineer",
@@ -2700,7 +3648,13 @@
     "fr": "Ingénieur procédés",
     "de": "Verfahrensingenieur",
     "it": "Ingegnere di processo",
-    "tr": "Süreç mühendisi"
+    "tr": "Süreç mühendisi",
+    "pt": "Engenheiro de processos",
+    "pl": "Inżynier procesu",
+    "hu": "Folyamatmérnök",
+    "el": "Μηχανικός Διαδικασιών",
+    "kk": "Процесс инженері",
+    "uz": "Texnolog-muhandis"
   },
   {
     "code": "energy_engineer",
@@ -2717,7 +3671,13 @@
     "fr": "Ingénieur énergie",
     "de": "Energieingenieur",
     "it": "Ingegnere energetico",
-    "tr": "Enerji mühendisi"
+    "tr": "Enerji mühendisi",
+    "pt": "Engenheiro de energia",
+    "pl": "Inżynier energetyk",
+    "hu": "Energetikai mérnök",
+    "el": "Μηχανικός Ενέργειας",
+    "kk": "Энергетика инженері",
+    "uz": "Energetika muhandisi"
   },
   {
     "code": "geologist",
@@ -2734,7 +3694,13 @@
     "fr": "Géologue",
     "de": "Geologe",
     "it": "Geologo",
-    "tr": "Jeolog"
+    "tr": "Jeolog",
+    "pt": "Geólogo",
+    "pl": "Geolog",
+    "hu": "Geológus",
+    "el": "Γεωλόγος",
+    "kk": "Геолог",
+    "uz": "Geolog"
   },
   {
     "code": "geophysicist",
@@ -2751,7 +3717,13 @@
     "fr": "Géophysicien",
     "de": "Geophysiker",
     "it": "Geofisico",
-    "tr": "Jeofizikçi"
+    "tr": "Jeofizikçi",
+    "pt": "Geofísico",
+    "pl": "Geofizyk",
+    "hu": "Geofizikus",
+    "el": "Γεωφυσικός",
+    "kk": "Геофизик",
+    "uz": "Geofizik"
   },
   {
     "code": "driver",
@@ -2768,7 +3740,13 @@
     "fr": "Chauffeur",
     "de": "Fahrer",
     "it": "Autista",
-    "tr": "Şoför"
+    "tr": "Şoför",
+    "pt": "Motorista",
+    "pl": "Kierowca",
+    "hu": "Sofőr",
+    "el": "Οδηγός",
+    "kk": "Жүргізуші",
+    "uz": "Haydovchi"
   },
   {
     "code": "truck_driver",
@@ -2785,7 +3763,13 @@
     "fr": "Chauffeur de camion",
     "de": "LKW-Fahrer",
     "it": "Camionista",
-    "tr": "Kamyon şoförü"
+    "tr": "Kamyon şoförü",
+    "pt": "Motorista de camião",
+    "pl": "Kierowca ciężarówki",
+    "hu": "Teherautó-sofőr",
+    "el": "Οδηγός Φορτηγού",
+    "kk": "Жүк көлігінің жүргізушісі",
+    "uz": "Yuk mashinasi haydovchisi"
   },
   {
     "code": "courier",
@@ -2802,7 +3786,13 @@
     "fr": "Coursier",
     "de": "Kurier",
     "it": "Corriere",
-    "tr": "Kurye"
+    "tr": "Kurye",
+    "pt": "Estafeta",
+    "pl": "Kurier",
+    "hu": "Futár",
+    "el": "Διανομέας",
+    "kk": "Курьер",
+    "uz": "Kuryer"
   },
   {
     "code": "logistics_manager",
@@ -2819,7 +3809,13 @@
     "fr": "Responsable logistique",
     "de": "Logistikleiter",
     "it": "Responsabile logistica",
-    "tr": "Lojistik yöneticisi"
+    "tr": "Lojistik yöneticisi",
+    "pt": "Diretor de logística",
+    "pl": "Kierownik logistyki",
+    "hu": "Logisztikai menedzser",
+    "el": "Διευθυντής Εφοδιαστικής",
+    "kk": "Логистика менеджері",
+    "uz": "Logistika menejeri"
   },
   {
     "code": "logistics_specialist",
@@ -2836,7 +3832,13 @@
     "fr": "Spécialiste logistique",
     "de": "Logistikspezialist",
     "it": "Specialista di logistica",
-    "tr": "Lojistik uzmanı"
+    "tr": "Lojistik uzmanı",
+    "pt": "Especialista em logística",
+    "pl": "Specjalista logistyki",
+    "hu": "Logisztikai szakértő",
+    "el": "Ειδικός Εφοδιαστικής",
+    "kk": "Логистика маманы",
+    "uz": "Logistika mutaxassisi"
   },
   {
     "code": "warehouse_manager",
@@ -2853,7 +3855,13 @@
     "fr": "Responsable d'entrepôt",
     "de": "Lagerleiter",
     "it": "Responsabile di magazzino",
-    "tr": "Depo müdürü"
+    "tr": "Depo müdürü",
+    "pt": "Gestor de armazém",
+    "pl": "Kierownik magazynu",
+    "hu": "Raktárvezető",
+    "el": "Διευθυντής Αποθήκης",
+    "kk": "Қойма меңгерушісі",
+    "uz": "Ombor boshligi"
   },
   {
     "code": "storekeeper",
@@ -2870,7 +3878,13 @@
     "fr": "Magasinier",
     "de": "Lagerverwalter",
     "it": "Magazziniere",
-    "tr": "Ambar görevlisi"
+    "tr": "Ambar görevlisi",
+    "pt": "Armazenista",
+    "pl": "Magazynier",
+    "hu": "Raktáros",
+    "el": "Αποθηκάριος",
+    "kk": "Қоймашы",
+    "uz": "Omborchi"
   },
   {
     "code": "freight_forwarder",
@@ -2887,7 +3901,13 @@
     "fr": "Transitaire",
     "de": "Spediteur",
     "it": "Spedizioniere",
-    "tr": "Nakliye uzmanı"
+    "tr": "Nakliye uzmanı",
+    "pt": "Transitário",
+    "pl": "Spedytor",
+    "hu": "Szállítmányozó",
+    "el": "Διαμεταφορέας",
+    "kk": "Экспедитор",
+    "uz": "Ekspeditor"
   },
   {
     "code": "dispatcher",
@@ -2904,7 +3924,13 @@
     "fr": "Répartiteur",
     "de": "Disponent",
     "it": "Dispatcher",
-    "tr": "Sevkiyat görevlisi"
+    "tr": "Sevkiyat görevlisi",
+    "pt": "Operador de despacho",
+    "pl": "Dyspozytor",
+    "hu": "Diszpécser",
+    "el": "Διαχειριστής Δρομολογίων",
+    "kk": "Диспетчер",
+    "uz": "Dispetcher"
   },
   {
     "code": "train_driver",
@@ -2921,7 +3947,13 @@
     "fr": "Conducteur de train",
     "de": "Lokführer",
     "it": "Macchinista",
-    "tr": "Tren makinisti"
+    "tr": "Tren makinisti",
+    "pt": "Maquinista",
+    "pl": "Maszynista",
+    "hu": "Mozdonyvezető",
+    "el": "Μηχανοδηγός",
+    "kk": "Машинист",
+    "uz": "Mashinist"
   },
   {
     "code": "pilot",
@@ -2938,7 +3970,13 @@
     "fr": "Pilote",
     "de": "Pilot",
     "it": "Pilota",
-    "tr": "Pilot"
+    "tr": "Pilot",
+    "pt": "Piloto",
+    "pl": "Pilot",
+    "hu": "Pilóta",
+    "el": "Πιλότος",
+    "kk": "Ұшқыш",
+    "uz": "Uchuvchi"
   },
   {
     "code": "flight_attendant",
@@ -2955,7 +3993,13 @@
     "fr": "Hôtesse de l'air",
     "de": "Flugbegleiter",
     "it": "Assistente di volo",
-    "tr": "Kabin görevlisi"
+    "tr": "Kabin görevlisi",
+    "pt": "Assistente de bordo",
+    "pl": "Stewardesa",
+    "hu": "Légiutas-kísérő",
+    "el": "Αεροσυνοδός",
+    "kk": "Стюардесса",
+    "uz": "Styuardessa"
   },
   {
     "code": "ship_captain",
@@ -2972,7 +4016,13 @@
     "fr": "Capitaine de navire",
     "de": "Schiffskapitän",
     "it": "Capitano di nave",
-    "tr": "Gemi kaptanı"
+    "tr": "Gemi kaptanı",
+    "pt": "Capitão de navio",
+    "pl": "Kapitan statku",
+    "hu": "Hajókapitány",
+    "el": "Πλοίαρχος",
+    "kk": "Кеме капитаны",
+    "uz": "Kema kapitani"
   },
   {
     "code": "sailor",
@@ -2989,7 +4039,13 @@
     "fr": "Marin",
     "de": "Seemann",
     "it": "Marinaio",
-    "tr": "Denizci"
+    "tr": "Denizci",
+    "pt": "Marinheiro",
+    "pl": "Marynarz",
+    "hu": "Tengerész",
+    "el": "Ναύτης",
+    "kk": "Теңізші",
+    "uz": "Dengizchi"
   },
   {
     "code": "loader",
@@ -3006,7 +4062,13 @@
     "fr": "Manutentionnaire",
     "de": "Lader",
     "it": "Addetto al carico",
-    "tr": "Yükleyici"
+    "tr": "Yükleyici",
+    "pt": "Carregador",
+    "pl": "Ładowacz",
+    "hu": "Rakodó",
+    "el": "Φορτοεκφορτωτής",
+    "kk": "Тиеуші",
+    "uz": "Yuk tashuvchi"
   },
   {
     "code": "postman",
@@ -3023,7 +4085,13 @@
     "fr": "Facteur",
     "de": "Postbote",
     "it": "Postino",
-    "tr": "Postacı"
+    "tr": "Postacı",
+    "pt": "Carteiro",
+    "pl": "Listonosz",
+    "hu": "Postás",
+    "el": "Ταχυδρόμος",
+    "kk": "Хат тасушы",
+    "uz": "Pochtachi"
   },
   {
     "code": "doctor",
@@ -3040,7 +4108,13 @@
     "fr": "Médecin",
     "de": "Arzt",
     "it": "Medico",
-    "tr": "Doktor"
+    "tr": "Doktor",
+    "pt": "Médico",
+    "pl": "Lekarz",
+    "hu": "Orvos",
+    "el": "Ιατρός",
+    "kk": "Дәрігер",
+    "uz": "Shifokor"
   },
   {
     "code": "surgeon",
@@ -3057,7 +4131,13 @@
     "fr": "Chirurgien",
     "de": "Chirurg",
     "it": "Chirurgo",
-    "tr": "Cerrah"
+    "tr": "Cerrah",
+    "pt": "Cirurgião",
+    "pl": "Chirurg",
+    "hu": "Sebész",
+    "el": "Χειρουργός",
+    "kk": "Хирург",
+    "uz": "Jarroh"
   },
   {
     "code": "pediatrician",
@@ -3074,7 +4154,13 @@
     "fr": "Pédiatre",
     "de": "Kinderarzt",
     "it": "Pediatra",
-    "tr": "Çocuk doktoru"
+    "tr": "Çocuk doktoru",
+    "pt": "Pediatra",
+    "pl": "Pediatra",
+    "hu": "Gyermekorvos",
+    "el": "Παιδίατρος",
+    "kk": "Педиатр",
+    "uz": "Bolalar shifokori"
   },
   {
     "code": "internist",
@@ -3091,7 +4177,13 @@
     "fr": "Interniste",
     "de": "Internist",
     "it": "Internista",
-    "tr": "Dahiliye uzmanı"
+    "tr": "Dahiliye uzmanı",
+    "pt": "Internista",
+    "pl": "Internista",
+    "hu": "Belgyógyász",
+    "el": "Παθολόγος",
+    "kk": "Терапевт",
+    "uz": "Terapevt"
   },
   {
     "code": "dentist",
@@ -3108,7 +4200,13 @@
     "fr": "Dentiste",
     "de": "Zahnarzt",
     "it": "Dentista",
-    "tr": "Diş hekimi"
+    "tr": "Diş hekimi",
+    "pt": "Dentista",
+    "pl": "Dentysta",
+    "hu": "Fogorvos",
+    "el": "Οδοντίατρος",
+    "kk": "Стоматолог",
+    "uz": "Stomatolog"
   },
   {
     "code": "nurse",
@@ -3125,7 +4223,13 @@
     "fr": "Infirmier",
     "de": "Krankenpfleger",
     "it": "Infermiere",
-    "tr": "Hemşire"
+    "tr": "Hemşire",
+    "pt": "Enfermeiro",
+    "pl": "Pielęgniarka",
+    "hu": "Ápoló",
+    "el": "Νοσηλευτής",
+    "kk": "Мейіргер",
+    "uz": "Hamshira"
   },
   {
     "code": "paramedic",
@@ -3142,7 +4246,13 @@
     "fr": "Ambulancier",
     "de": "Rettungsassistent",
     "it": "Soccorritore",
-    "tr": "Sağlık teknikeri"
+    "tr": "Sağlık teknikeri",
+    "pt": "Paramédico",
+    "pl": "Ratownik medyczny",
+    "hu": "Mentőtechnikus",
+    "el": "Διασώστης",
+    "kk": "Фельдшер",
+    "uz": "Feldsher"
   },
   {
     "code": "midwife",
@@ -3159,7 +4269,13 @@
     "fr": "Sage-femme",
     "de": "Hebamme",
     "it": "Ostetrica",
-    "tr": "Ebe"
+    "tr": "Ebe",
+    "pt": "Parteira",
+    "pl": "Położna",
+    "hu": "Szülésznő",
+    "el": "Μαία",
+    "kk": "Акушер",
+    "uz": "Doya"
   },
   {
     "code": "orderly",
@@ -3176,7 +4292,13 @@
     "fr": "Aide-soignant",
     "de": "Pflegehelfer",
     "it": "Ausiliario sanitario",
-    "tr": "Hastabakıcı"
+    "tr": "Hastabakıcı",
+    "pt": "Auxiliar de ação médica",
+    "pl": "Sanitariusz",
+    "hu": "Szanitéc",
+    "el": "Βοηθός Νοσηλευτή",
+    "kk": "Санитар",
+    "uz": "Sanitar"
   },
   {
     "code": "pharmacist",
@@ -3193,7 +4315,13 @@
     "fr": "Pharmacien",
     "de": "Apotheker",
     "it": "Farmacista",
-    "tr": "Eczacı"
+    "tr": "Eczacı",
+    "pt": "Farmacêutico",
+    "pl": "Farmaceuta",
+    "hu": "Gyógyszerész",
+    "el": "Φαρμακοποιός",
+    "kk": "Фармацевт",
+    "uz": "Farmatsevt"
   },
   {
     "code": "psychologist",
@@ -3210,7 +4338,13 @@
     "fr": "Psychologue",
     "de": "Psychologe",
     "it": "Psicologo",
-    "tr": "Psikolog"
+    "tr": "Psikolog",
+    "pt": "Psicólogo",
+    "pl": "Psycholog",
+    "hu": "Pszichológus",
+    "el": "Ψυχολόγος",
+    "kk": "Психолог",
+    "uz": "Psixolog"
   },
   {
     "code": "speech_therapist",
@@ -3227,7 +4361,13 @@
     "fr": "Orthophoniste",
     "de": "Logopäde",
     "it": "Logopedista",
-    "tr": "Dil ve konuşma terapisti"
+    "tr": "Dil ve konuşma terapisti",
+    "pt": "Terapeuta da fala",
+    "pl": "Logopeda",
+    "hu": "Logopédus",
+    "el": "Λογοθεραπευτής",
+    "kk": "Логопед",
+    "uz": "Logoped"
   },
   {
     "code": "massage_therapist",
@@ -3244,7 +4384,13 @@
     "fr": "Masseur",
     "de": "Masseur",
     "it": "Massaggiatore",
-    "tr": "Masör"
+    "tr": "Masör",
+    "pt": "Massagista",
+    "pl": "Masażysta",
+    "hu": "Masszőr",
+    "el": "Μασέρ",
+    "kk": "Массажист",
+    "uz": "Massajchi"
   },
   {
     "code": "veterinarian",
@@ -3261,7 +4407,13 @@
     "fr": "Vétérinaire",
     "de": "Tierarzt",
     "it": "Veterinario",
-    "tr": "Veteriner"
+    "tr": "Veteriner",
+    "pt": "Veterinário",
+    "pl": "Lekarz weterynarii",
+    "hu": "Állatorvos",
+    "el": "Κτηνίατρος",
+    "kk": "Ветеринар",
+    "uz": "Baytar"
   },
   {
     "code": "medical_representative",
@@ -3278,7 +4430,13 @@
     "fr": "Délégué médical",
     "de": "Pharmareferent",
     "it": "Informatore medico",
-    "tr": "Tıbbi tanıtım temsilcisi"
+    "tr": "Tıbbi tanıtım temsilcisi",
+    "pt": "Delegado de informação médica",
+    "pl": "Przedstawiciel medyczny",
+    "hu": "Gyógyszeripari képviselő",
+    "el": "Ιατρικός Επισκέπτης",
+    "kk": "Медициналық өкіл",
+    "uz": "Tibbiy vakil"
   },
   {
     "code": "teacher",
@@ -3295,7 +4453,13 @@
     "fr": "Enseignant",
     "de": "Lehrer",
     "it": "Insegnante",
-    "tr": "Öğretmen"
+    "tr": "Öğretmen",
+    "pt": "Professor",
+    "pl": "Nauczyciel",
+    "hu": "Tanár",
+    "el": "Δάσκαλος",
+    "kk": "Мұғалім",
+    "uz": "Oʻqituvchi"
   },
   {
     "code": "primary_teacher",
@@ -3312,7 +4476,13 @@
     "fr": "Professeur des écoles",
     "de": "Grundschullehrer",
     "it": "Maestro di scuola primaria",
-    "tr": "Sınıf öğretmeni"
+    "tr": "Sınıf öğretmeni",
+    "pt": "Professor do ensino básico",
+    "pl": "Nauczyciel klas początkowych",
+    "hu": "Tanító",
+    "el": "Δάσκαλος Δημοτικού",
+    "kk": "Бастауыш сынып мұғалімі",
+    "uz": "Boshlangʻich sinf oʻqituvchisi"
   },
   {
     "code": "kindergarten_teacher",
@@ -3329,7 +4499,13 @@
     "fr": "Éducateur de jeunes enfants",
     "de": "Erzieher",
     "it": "Educatore d'infanzia",
-    "tr": "Anaokulu öğretmeni"
+    "tr": "Anaokulu öğretmeni",
+    "pt": "Educador de infância",
+    "pl": "Wychowawca przedszkolny",
+    "hu": "Óvodapedagógus",
+    "el": "Νηπιαγωγός",
+    "kk": "Тәрбиеші",
+    "uz": "Tarbiyachi"
   },
   {
     "code": "senior_lecturer",
@@ -3346,7 +4522,13 @@
     "fr": "Maître de conférences",
     "de": "Oberlehrer",
     "it": "Docente senior",
-    "tr": "Baş öğretmen"
+    "tr": "Baş öğretmen",
+    "pt": "Professor titular",
+    "pl": "Starszy wykładowca",
+    "hu": "Vezető tanár",
+    "el": "Ανώτερος Διδάσκων",
+    "kk": "Аға оқытушы",
+    "uz": "Katta oʻqituvchi"
   },
   {
     "code": "associate_professor",
@@ -3363,7 +4545,13 @@
     "fr": "Professeur associé",
     "de": "Dozent",
     "it": "Professore associato",
-    "tr": "Doçent"
+    "tr": "Doçent",
+    "pt": "Professor associado",
+    "pl": "Docent",
+    "hu": "Docens",
+    "el": "Αναπληρωτής Καθηγητής",
+    "kk": "Доцент",
+    "uz": "Dotsent"
   },
   {
     "code": "professor",
@@ -3380,7 +4568,13 @@
     "fr": "Professeur",
     "de": "Professor",
     "it": "Professore",
-    "tr": "Profesör"
+    "tr": "Profesör",
+    "pt": "Professor catedrático",
+    "pl": "Profesor",
+    "hu": "Professzor",
+    "el": "Καθηγητής",
+    "kk": "Профессор",
+    "uz": "Professor"
   },
   {
     "code": "school_principal",
@@ -3397,7 +4591,13 @@
     "fr": "Directeur d'école",
     "de": "Schulleiter",
     "it": "Dirigente scolastico",
-    "tr": "Okul müdürü"
+    "tr": "Okul müdürü",
+    "pt": "Diretor de escola",
+    "pl": "Dyrektor szkoły",
+    "hu": "Iskolaigazgató",
+    "el": "Διευθυντής Σχολείου",
+    "kk": "Мектеп директоры",
+    "uz": "Maktab direktori"
   },
   {
     "code": "methodologist",
@@ -3414,7 +4614,13 @@
     "fr": "Méthodologiste",
     "de": "Methodiker",
     "it": "Metodologo",
-    "tr": "Metodolog"
+    "tr": "Metodolog",
+    "pt": "Metodólogo",
+    "pl": "Metodyk",
+    "hu": "Módszertani szakértő",
+    "el": "Μεθοδολόγος",
+    "kk": "Методист",
+    "uz": "Metodist"
   },
   {
     "code": "private_tutor",
@@ -3431,7 +4637,13 @@
     "fr": "Professeur particulier",
     "de": "Nachhilfelehrer",
     "it": "Insegnante privato",
-    "tr": "Özel öğretmen"
+    "tr": "Özel öğretmen",
+    "pt": "Professor particular",
+    "pl": "Korepetytor",
+    "hu": "Korrepetitor",
+    "el": "Ιδιωτικός Δάσκαλος",
+    "kk": "Репетитор",
+    "uz": "Repetitor"
   },
   {
     "code": "librarian",
@@ -3448,7 +4660,13 @@
     "fr": "Bibliothécaire",
     "de": "Bibliothekar",
     "it": "Bibliotecario",
-    "tr": "Kütüphaneci"
+    "tr": "Kütüphaneci",
+    "pt": "Bibliotecário",
+    "pl": "Bibliotekarz",
+    "hu": "Könyvtáros",
+    "el": "Βιβλιοθηκάριος",
+    "kk": "Кітапханашы",
+    "uz": "Kutubxonachi"
   },
   {
     "code": "researcher",
@@ -3465,7 +4683,13 @@
     "fr": "Chercheur",
     "de": "Wissenschaftlicher Mitarbeiter",
     "it": "Ricercatore",
-    "tr": "Araştırmacı"
+    "tr": "Araştırmacı",
+    "pt": "Investigador",
+    "pl": "Pracownik naukowy",
+    "hu": "Kutató",
+    "el": "Ερευνητής",
+    "kk": "Ғылыми қызметкер",
+    "uz": "Ilmiy xodim"
   },
   {
     "code": "sports_coach",
@@ -3482,7 +4706,13 @@
     "fr": "Entraîneur sportif",
     "de": "Sporttrainer",
     "it": "Allenatore sportivo",
-    "tr": "Spor antrenörü"
+    "tr": "Spor antrenörü",
+    "pt": "Treinador",
+    "pl": "Trener sportowy",
+    "hu": "Sportedző",
+    "el": "Προπονητής",
+    "kk": "Спорт жаттықтырушысы",
+    "uz": "Murabbiy"
   },
   {
     "code": "fitness_instructor",
@@ -3499,7 +4729,13 @@
     "fr": "Coach de fitness",
     "de": "Fitnesstrainer",
     "it": "Istruttore di fitness",
-    "tr": "Fitness eğitmeni"
+    "tr": "Fitness eğitmeni",
+    "pt": "Instrutor de fitness",
+    "pl": "Instruktor fitness",
+    "hu": "Fitneszoktató",
+    "el": "Γυμναστής",
+    "kk": "Фитнес нұсқаушысы",
+    "uz": "Fitnes murabbiyi"
   },
   {
     "code": "social_worker",
@@ -3516,7 +4752,13 @@
     "fr": "Travailleur social",
     "de": "Sozialarbeiter",
     "it": "Assistente sociale",
-    "tr": "Sosyal hizmet uzmanı"
+    "tr": "Sosyal hizmet uzmanı",
+    "pt": "Assistente social",
+    "pl": "Pracownik socjalny",
+    "hu": "Szociális munkás",
+    "el": "Κοινωνικός Λειτουργός",
+    "kk": "Әлеуметтік қызметкер",
+    "uz": "Ijtimoiy xodim"
   },
   {
     "code": "statistician",
@@ -3533,7 +4775,13 @@
     "fr": "Statisticien",
     "de": "Statistiker",
     "it": "Statistico",
-    "tr": "İstatistikçi"
+    "tr": "İstatistikçi",
+    "pt": "Estatístico",
+    "pl": "Statystyk",
+    "hu": "Statisztikus",
+    "el": "Στατιστικός",
+    "kk": "Статистик",
+    "uz": "Statistik"
   },
   {
     "code": "sociologist",
@@ -3550,7 +4798,13 @@
     "fr": "Sociologue",
     "de": "Soziologe",
     "it": "Sociologo",
-    "tr": "Sosyolog"
+    "tr": "Sosyolog",
+    "pt": "Sociólogo",
+    "pl": "Socjolog",
+    "hu": "Szociológus",
+    "el": "Κοινωνιολόγος",
+    "kk": "Әлеуметтанушы",
+    "uz": "Sotsiolog"
   },
   {
     "code": "ecologist",
@@ -3567,7 +4821,13 @@
     "fr": "Écologue",
     "de": "Ökologe",
     "it": "Ecologo",
-    "tr": "Ekolog"
+    "tr": "Ekolog",
+    "pt": "Ecologista",
+    "pl": "Ekolog",
+    "hu": "Ökológus",
+    "el": "Οικολόγος",
+    "kk": "Эколог",
+    "uz": "Ekolog"
   },
   {
     "code": "chemist",
@@ -3584,7 +4844,13 @@
     "fr": "Chimiste",
     "de": "Chemiker",
     "it": "Chimico",
-    "tr": "Kimyager"
+    "tr": "Kimyager",
+    "pt": "Químico",
+    "pl": "Chemik",
+    "hu": "Kémikus",
+    "el": "Χημικός",
+    "kk": "Химик",
+    "uz": "Kimyogar"
   },
   {
     "code": "cook",
@@ -3601,7 +4867,13 @@
     "fr": "Cuisinier",
     "de": "Koch",
     "it": "Cuoco",
-    "tr": "Aşçı"
+    "tr": "Aşçı",
+    "pt": "Cozinheiro",
+    "pl": "Kucharz",
+    "hu": "Szakács",
+    "el": "Μάγειρας",
+    "kk": "Аспазшы",
+    "uz": "Oshpaz"
   },
   {
     "code": "head_chef",
@@ -3618,7 +4890,13 @@
     "fr": "Chef de cuisine",
     "de": "Küchenchef",
     "it": "Chef di cucina",
-    "tr": "Aşçıbaşı"
+    "tr": "Aşçıbaşı",
+    "pt": "Chef de cozinha",
+    "pl": "Szef kuchni",
+    "hu": "Főszakács",
+    "el": "Αρχιμάγειρας",
+    "kk": "Бас аспазшы",
+    "uz": "Bosh oshpaz"
   },
   {
     "code": "kitchen_assistant",
@@ -3635,7 +4913,13 @@
     "fr": "Aide de cuisine",
     "de": "Küchenhilfe",
     "it": "Aiuto cuoco",
-    "tr": "Aşçı yardımcısı"
+    "tr": "Aşçı yardımcısı",
+    "pt": "Ajudante de cozinha",
+    "pl": "Pomocnik kuchenny",
+    "hu": "Konyhai kisegítő",
+    "el": "Βοηθός Μάγειρα",
+    "kk": "Аспазшы көмекшісі",
+    "uz": "Oshpaz yordamchisi"
   },
   {
     "code": "waiter",
@@ -3652,7 +4936,13 @@
     "fr": "Serveur",
     "de": "Kellner",
     "it": "Cameriere",
-    "tr": "Garson"
+    "tr": "Garson",
+    "pt": "Empregado de mesa",
+    "pl": "Kelner",
+    "hu": "Pincér",
+    "el": "Σερβιτόρος",
+    "kk": "Даяшы",
+    "uz": "Ofitsiant"
   },
   {
     "code": "barista",
@@ -3669,7 +4959,13 @@
     "fr": "Barista",
     "de": "Barista",
     "it": "Barista",
-    "tr": "Barista"
+    "tr": "Barista",
+    "pt": "Barista",
+    "pl": "Barista",
+    "hu": "Barista",
+    "el": "Μπαρίστα",
+    "kk": "Бариста",
+    "uz": "Barista"
   },
   {
     "code": "bartender",
@@ -3686,7 +4982,13 @@
     "fr": "Barman",
     "de": "Barkeeper",
     "it": "Barman",
-    "tr": "Barmen"
+    "tr": "Barmen",
+    "pt": "Barman",
+    "pl": "Barman",
+    "hu": "Bartender",
+    "el": "Μπάρμαν",
+    "kk": "Бармен",
+    "uz": "Barmen"
   },
   {
     "code": "confectioner",
@@ -3703,7 +5005,13 @@
     "fr": "Pâtissier",
     "de": "Konditor",
     "it": "Pasticciere",
-    "tr": "Pastacı"
+    "tr": "Pastacı",
+    "pt": "Pasteleiro",
+    "pl": "Cukiernik",
+    "hu": "Cukrász",
+    "el": "Ζαχαροπλάστης",
+    "kk": "Кондитер",
+    "uz": "Qandolatchi"
   },
   {
     "code": "baker",
@@ -3720,7 +5028,13 @@
     "fr": "Boulanger",
     "de": "Bäcker",
     "it": "Panettiere",
-    "tr": "Fırıncı"
+    "tr": "Fırıncı",
+    "pt": "Padeiro",
+    "pl": "Piekarz",
+    "hu": "Pék",
+    "el": "Αρτοποιός",
+    "kk": "Наубайшы",
+    "uz": "Novvoy"
   },
   {
     "code": "butcher",
@@ -3737,7 +5051,13 @@
     "fr": "Boucher",
     "de": "Metzger",
     "it": "Macellaio",
-    "tr": "Kasap"
+    "tr": "Kasap",
+    "pt": "Talhante",
+    "pl": "Rzeźnik",
+    "hu": "Hentes",
+    "el": "Χασάπης",
+    "kk": "Қасапшы",
+    "uz": "Qassob"
   },
   {
     "code": "restaurant_manager",
@@ -3754,7 +5074,13 @@
     "fr": "Directeur de restaurant",
     "de": "Restaurantleiter",
     "it": "Direttore di ristorante",
-    "tr": "Restoran müdürü"
+    "tr": "Restoran müdürü",
+    "pt": "Gerente de restaurante",
+    "pl": "Kierownik restauracji",
+    "hu": "Étteremvezető",
+    "el": "Διευθυντής Εστιατορίου",
+    "kk": "Мейрамхана меңгерушісі",
+    "uz": "Restoran boshligi"
   },
   {
     "code": "hotel_receptionist",
@@ -3771,7 +5097,13 @@
     "fr": "Réceptionniste d'hôtel",
     "de": "Hotelrezeptionist",
     "it": "Receptionist d'albergo",
-    "tr": "Otel resepsiyonisti"
+    "tr": "Otel resepsiyonisti",
+    "pt": "Rececionista de hotel",
+    "pl": "Recepcjonista hotelowy",
+    "hu": "Szállodai recepciós",
+    "el": "Υπάλληλος Υποδοχής Ξενοδοχείου",
+    "kk": "Қонақүй администраторы",
+    "uz": "Mehmonxona administratori"
   },
   {
     "code": "housekeeper",
@@ -3788,7 +5120,13 @@
     "fr": "Femme de chambre",
     "de": "Zimmermädchen",
     "it": "Addetto ai piani",
-    "tr": "Kat görevlisi"
+    "tr": "Kat görevlisi",
+    "pt": "Empregada de andares",
+    "pl": "Pokojówka",
+    "hu": "Szobaasszony",
+    "el": "Καμαριέρα",
+    "kk": "Қабат қызметшісі",
+    "uz": "Xonalarni tozalovchi"
   },
   {
     "code": "tour_guide",
@@ -3805,7 +5143,13 @@
     "fr": "Guide touristique",
     "de": "Reiseleiter",
     "it": "Guida turistica",
-    "tr": "Turist rehberi"
+    "tr": "Turist rehberi",
+    "pt": "Guia turístico",
+    "pl": "Przewodnik turystyczny",
+    "hu": "Idegenvezető",
+    "el": "Ξεναγός",
+    "kk": "Гид",
+    "uz": "Gid"
   },
   {
     "code": "travel_agent",
@@ -3822,7 +5166,13 @@
     "fr": "Agent de voyages",
     "de": "Reiseverkehrskaufmann",
     "it": "Agente di viaggio",
-    "tr": "Turizm acentesi görevlisi"
+    "tr": "Turizm acentesi görevlisi",
+    "pt": "Agente de viagens",
+    "pl": "Agent turystyczny",
+    "hu": "Utazási ügynök",
+    "el": "Ταξιδιωτικός Πράκτορας",
+    "kk": "Туризм агенті",
+    "uz": "Turizm agenti"
   },
   {
     "code": "cleaner",
@@ -3839,7 +5189,13 @@
     "fr": "Agent d'entretien",
     "de": "Reinigungskraft",
     "it": "Addetto alle pulizie",
-    "tr": "Temizlik görevlisi"
+    "tr": "Temizlik görevlisi",
+    "pt": "Empregado de limpeza",
+    "pl": "Pracownik porządkowy",
+    "hu": "Takarító",
+    "el": "Καθαριστής",
+    "kk": "Тазалаушы",
+    "uz": "Tozalovchi"
   },
   {
     "code": "barber",
@@ -3856,7 +5212,13 @@
     "fr": "Barbier",
     "de": "Barbier",
     "it": "Barbiere",
-    "tr": "Berber"
+    "tr": "Berber",
+    "pt": "Barbeiro",
+    "pl": "Fryzjer męski",
+    "hu": "Borbély",
+    "el": "Κουρέας",
+    "kk": "Ерлер шаштаразы",
+    "uz": "Sartarosh"
   },
   {
     "code": "hairdresser",
@@ -3873,7 +5235,13 @@
     "fr": "Coiffeur",
     "de": "Friseur",
     "it": "Parrucchiere",
-    "tr": "Kuaför"
+    "tr": "Kuaför",
+    "pt": "Cabeleireiro",
+    "pl": "Fryzjer",
+    "hu": "Fodrász",
+    "el": "Κομμωτής",
+    "kk": "Шаштараз",
+    "uz": "Soch turmaklovchi"
   },
   {
     "code": "beauty_specialist",
@@ -3890,7 +5258,13 @@
     "fr": "Esthéticien",
     "de": "Schönheitspflegerin",
     "it": "Estetista",
-    "tr": "Güzellik uzmanı"
+    "tr": "Güzellik uzmanı",
+    "pt": "Esteticista",
+    "pl": "Specjalista ds. urody",
+    "hu": "Szépségápolási szakértő",
+    "el": "Αισθητικός",
+    "kk": "Сұлулық шебері",
+    "uz": "Goʻzallik ustasi"
   },
   {
     "code": "manicurist",
@@ -3907,7 +5281,13 @@
     "fr": "Manucure",
     "de": "Nageldesignerin",
     "it": "Manicure",
-    "tr": "Manikürcü"
+    "tr": "Manikürcü",
+    "pt": "Técnico de manicure",
+    "pl": "Manikiurzystka",
+    "hu": "Manikűrös",
+    "el": "Τεχνικός Νυχιών",
+    "kk": "Маникюр шебері",
+    "uz": "Manikyur ustasi"
   },
   {
     "code": "cosmetologist",
@@ -3924,7 +5304,13 @@
     "fr": "Cosmétologue",
     "de": "Kosmetologe",
     "it": "Cosmetologo",
-    "tr": "Kozmetolog"
+    "tr": "Kozmetolog",
+    "pt": "Cosmetologista",
+    "pl": "Kosmetolog",
+    "hu": "Kozmetológus",
+    "el": "Κοσμετολόγος",
+    "kk": "Косметолог",
+    "uz": "Kosmetolog"
   },
   {
     "code": "tailor",
@@ -3941,7 +5327,13 @@
     "fr": "Tailleur",
     "de": "Schneider",
     "it": "Sarto",
-    "tr": "Terzi"
+    "tr": "Terzi",
+    "pt": "Alfaiate",
+    "pl": "Krawiec",
+    "hu": "Szabó",
+    "el": "Ράφτης",
+    "kk": "Тігінші",
+    "uz": "Tikuvchi"
   },
   {
     "code": "shoemaker",
@@ -3958,7 +5350,13 @@
     "fr": "Cordonnier",
     "de": "Schuhmacher",
     "it": "Calzolaio",
-    "tr": "Ayakkabı tamircisi"
+    "tr": "Ayakkabı tamircisi",
+    "pt": "Sapateiro",
+    "pl": "Szewc",
+    "hu": "Cipész",
+    "el": "Τσαγκάρης",
+    "kk": "Аяқ киім шебері",
+    "uz": "Poyabzalchi"
   },
   {
     "code": "gardener",
@@ -3975,7 +5373,13 @@
     "fr": "Jardinier",
     "de": "Gärtner",
     "it": "Giardiniere",
-    "tr": "Bahçıvan"
+    "tr": "Bahçıvan",
+    "pt": "Jardineiro",
+    "pl": "Ogrodnik",
+    "hu": "Kertész",
+    "el": "Κηπουρός",
+    "kk": "Бағбан",
+    "uz": "Bogʻbon"
   },
   {
     "code": "nanny",
@@ -3992,7 +5396,13 @@
     "fr": "Nourrice",
     "de": "Kindermädchen",
     "it": "Bambinaia",
-    "tr": "Dadı"
+    "tr": "Dadı",
+    "pt": "Ama",
+    "pl": "Niania",
+    "hu": "Dadus",
+    "el": "Νταντά",
+    "kk": "Күтуші",
+    "uz": "Enaga"
   },
   {
     "code": "agronomist",
@@ -4009,7 +5419,13 @@
     "fr": "Agronome",
     "de": "Agronom",
     "it": "Agronomo",
-    "tr": "Ziraat mühendisi"
+    "tr": "Ziraat mühendisi",
+    "pt": "Agrónomo",
+    "pl": "Agronom",
+    "hu": "Agronómus",
+    "el": "Αγρονόμος",
+    "kk": "Агроном",
+    "uz": "Agronom"
   },
   {
     "code": "zootechnician",
@@ -4026,7 +5442,13 @@
     "fr": "Zootechnicien",
     "de": "Zootechniker",
     "it": "Zootecnico",
-    "tr": "Zooteknisyen"
+    "tr": "Zooteknisyen",
+    "pt": "Zootécnico",
+    "pl": "Zootechnik",
+    "hu": "Zootechnikus",
+    "el": "Ζωοτέχνης",
+    "kk": "Зоотехник",
+    "uz": "Zootexnik"
   },
   {
     "code": "tractor_driver",
@@ -4043,7 +5465,13 @@
     "fr": "Conducteur de tracteur",
     "de": "Traktorfahrer",
     "it": "Trattorista",
-    "tr": "Traktör sürücüsü"
+    "tr": "Traktör sürücüsü",
+    "pt": "Tratorista",
+    "pl": "Traktorzysta",
+    "hu": "Traktoros",
+    "el": "Οδηγός Τρακτέρ",
+    "kk": "Тракторшы",
+    "uz": "Traktorchi"
   },
   {
     "code": "farmer",
@@ -4060,7 +5488,13 @@
     "fr": "Agriculteur",
     "de": "Landwirt",
     "it": "Agricoltore",
-    "tr": "Çiftçi"
+    "tr": "Çiftçi",
+    "pt": "Agricultor",
+    "pl": "Rolnik",
+    "hu": "Gazdálkodó",
+    "el": "Αγρότης",
+    "kk": "Фермер",
+    "uz": "Fermer"
   },
   {
     "code": "beekeeper",
@@ -4077,7 +5511,13 @@
     "fr": "Apiculteur",
     "de": "Imker",
     "it": "Apicoltore",
-    "tr": "Arıcı"
+    "tr": "Arıcı",
+    "pt": "Apicultor",
+    "pl": "Pszczelarz",
+    "hu": "Méhész",
+    "el": "Μελισσοκόμος",
+    "kk": "Омарташы",
+    "uz": "Asalarichi"
   },
   {
     "code": "musician",
@@ -4094,7 +5534,13 @@
     "fr": "Musicien",
     "de": "Musiker",
     "it": "Musicista",
-    "tr": "Müzisyen"
+    "tr": "Müzisyen",
+    "pt": "Músico",
+    "pl": "Muzyk",
+    "hu": "Zenész",
+    "el": "Μουσικός",
+    "kk": "Музыкант",
+    "uz": "Musiqachi"
   },
   {
     "code": "artist",
@@ -4111,7 +5557,13 @@
     "fr": "Artiste peintre",
     "de": "Künstler",
     "it": "Artista",
-    "tr": "Ressam"
+    "tr": "Ressam",
+    "pt": "Artista",
+    "pl": "Artysta",
+    "hu": "Festő",
+    "el": "Καλλιτέχνης",
+    "kk": "Суретші",
+    "uz": "Rassom"
   },
   {
     "code": "actor",
@@ -4128,6 +5580,12 @@
     "fr": "Acteur",
     "de": "Schauspieler",
     "it": "Attore",
-    "tr": "Aktör"
+    "tr": "Aktör",
+    "pt": "Ator",
+    "pl": "Aktor",
+    "hu": "Színész",
+    "el": "Ηθοποιός",
+    "kk": "Актёр",
+    "uz": "Aktyor"
   }
 ]

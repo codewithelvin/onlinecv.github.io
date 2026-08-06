@@ -14,7 +14,13 @@
     "fr": "Azerbaïdjanais",
     "de": "Aserbaidschaner",
     "it": "Azerbaigiano",
-    "tr": "Azerbaycanlı"
+    "tr": "Azerbaycanlı",
+    "pt": "Azerbaijano",
+    "pl": "Azerbejdżanin",
+    "hu": "Azeri",
+    "el": "Αζερμπαϊτζανός",
+    "kk": "Әзербайжан",
+    "uz": "Ozarbayjon"
   },
   {
     "code": "rus",
@@ -31,7 +37,13 @@
     "fr": "Russe",
     "de": "Russe",
     "it": "Russo",
-    "tr": "Rus"
+    "tr": "Rus",
+    "pt": "Russo",
+    "pl": "Rosjanin",
+    "hu": "Orosz",
+    "el": "Ρώσος",
+    "kk": "Орыс",
+    "uz": "Rus"
   },
   {
     "code": "lazgis",
@@ -48,7 +60,13 @@
     "fr": "Lezghien",
     "de": "Lesgier",
     "it": "Lesghino",
-    "tr": "Lezgi"
+    "tr": "Lezgi",
+    "pt": "Lezguio",
+    "pl": "Lezgin",
+    "hu": "Lezg",
+    "el": "Λεζγήνος",
+    "kk": "Лезгин",
+    "uz": "Lazgin"
   },
   {
     "code": "turks",
@@ -65,7 +83,13 @@
     "fr": "Turc",
     "de": "Türke",
     "it": "Turco",
-    "tr": "Türk"
+    "tr": "Türk",
+    "pt": "Turco",
+    "pl": "Turek",
+    "hu": "Török",
+    "el": "Τούρκος",
+    "kk": "Түрік",
+    "uz": "Turk"
   },
   {
     "code": "avars",
@@ -82,7 +106,13 @@
     "fr": "Avar",
     "de": "Aware",
     "it": "Avaro",
-    "tr": "Avar"
+    "tr": "Avar",
+    "pt": "Avar",
+    "pl": "Awar",
+    "hu": "Avar",
+    "el": "Άβαρος",
+    "kk": "Авар",
+    "uz": "Avar"
   },
   {
     "code": "georgians",
@@ -99,7 +129,13 @@
     "fr": "Géorgien",
     "de": "Georgier",
     "it": "Georgiano",
-    "tr": "Gürcü"
+    "tr": "Gürcü",
+    "pt": "Georgiano",
+    "pl": "Gruzin",
+    "hu": "Grúz",
+    "el": "Γεωργιανός",
+    "kk": "Грузин",
+    "uz": "Gruzin"
   },
   {
     "code": "uzbeks",
@@ -116,7 +152,13 @@
     "fr": "Ouzbek",
     "de": "Usbeke",
     "it": "Uzbeko",
-    "tr": "Özbek"
+    "tr": "Özbek",
+    "pt": "Usbeque",
+    "pl": "Uzbek",
+    "hu": "Üzbég",
+    "el": "Ουζμπέκος",
+    "kk": "Өзбек",
+    "uz": "Oʻzbek"
   },
   {
     "code": "tatars",
@@ -133,7 +175,13 @@
     "fr": "Tatar",
     "de": "Tatare",
     "it": "Tataro",
-    "tr": "Tatar"
+    "tr": "Tatar",
+    "pt": "Tártaro",
+    "pl": "Tatar",
+    "hu": "Tatár",
+    "el": "Τατάρος",
+    "kk": "Татар",
+    "uz": "Tatar"
   },
   {
     "code": "talishs",
@@ -150,7 +198,13 @@
     "fr": "Talyche",
     "de": "Talysch",
     "it": "Talysh",
-    "tr": "Talış"
+    "tr": "Talış",
+    "pt": "Talish",
+    "pl": "Talysz",
+    "hu": "Talis",
+    "el": "Ταλίσιος",
+    "kk": "Талыш",
+    "uz": "Talish"
   },
   {
     "code": "belarusians",
@@ -167,7 +221,13 @@
     "fr": "Biélorusse",
     "de": "Belarusse",
     "it": "Bielorusso",
-    "tr": "Belaruslu"
+    "tr": "Belaruslu",
+    "pt": "Bielorrusso",
+    "pl": "Białorusin",
+    "hu": "Fehérorosz",
+    "el": "Λευκορώσος",
+    "kk": "Беларус",
+    "uz": "Belarus"
   },
   {
     "code": "persians",
@@ -184,7 +244,13 @@
     "fr": "Persan",
     "de": "Perser",
     "it": "Persiano",
-    "tr": "Fars"
+    "tr": "Fars",
+    "pt": "Persa",
+    "pl": "Pers",
+    "hu": "Perzsa",
+    "el": "Πέρσης",
+    "kk": "Парсы",
+    "uz": "Fors"
   },
   {
     "code": "ukrainians",
@@ -201,7 +267,13 @@
     "fr": "Ukrainien",
     "de": "Ukrainer",
     "it": "Ucraino",
-    "tr": "Ukraynalı"
+    "tr": "Ukraynalı",
+    "pt": "Ucraniano",
+    "pl": "Ukrainiec",
+    "hu": "Ukrán",
+    "el": "Ουκρανός",
+    "kk": "Украин",
+    "uz": "Ukrain"
   },
   {
     "code": "tajiks",
@@ -218,7 +290,13 @@
     "fr": "Tadjik",
     "de": "Tadschike",
     "it": "Tagiko",
-    "tr": "Tacik"
+    "tr": "Tacik",
+    "pt": "Tajique",
+    "pl": "Tadżyk",
+    "hu": "Tádzsik",
+    "el": "Τατζίκος",
+    "kk": "Тәжік",
+    "uz": "Tojik"
   },
   {
     "code": "egyptians",
@@ -235,7 +313,13 @@
     "fr": "Égyptien",
     "de": "Ägypter",
     "it": "Egiziano",
-    "tr": "Mısırlı"
+    "tr": "Mısırlı",
+    "pt": "Egípcio",
+    "pl": "Egipcjanin",
+    "hu": "Egyiptomi",
+    "el": "Αιγύπτιος",
+    "kk": "Мысырлық",
+    "uz": "Misrlik"
   },
   {
     "code": "kyrgyzs",
@@ -252,7 +336,13 @@
     "fr": "Kirghize",
     "de": "Kirgise",
     "it": "Kirghiso",
-    "tr": "Kırgız"
+    "tr": "Kırgız",
+    "pt": "Quirguiz",
+    "pl": "Kirgiz",
+    "hu": "Kirgiz",
+    "el": "Κιργίζιος",
+    "kk": "Қырғыз",
+    "uz": "Qirgʻiz"
   },
   {
     "code": "kazakhs",
@@ -269,7 +359,13 @@
     "fr": "Kazakh",
     "de": "Kasache",
     "it": "Kazako",
-    "tr": "Kazak"
+    "tr": "Kazak",
+    "pt": "Cazaque",
+    "pl": "Kazach",
+    "hu": "Kazah",
+    "el": "Καζάκος",
+    "kk": "Қазақ",
+    "uz": "Qozoq"
   },
   {
     "code": "turkmens",
@@ -286,7 +382,13 @@
     "fr": "Turkmène",
     "de": "Turkmene",
     "it": "Turkmeno",
-    "tr": "Türkmen"
+    "tr": "Türkmen",
+    "pt": "Turcomano",
+    "pl": "Turkmen",
+    "hu": "Türkmén",
+    "el": "Τουρκμένιος",
+    "kk": "Түрікмен",
+    "uz": "Turkman"
   },
   {
     "code": "pakistanis",
@@ -303,7 +405,13 @@
     "fr": "Pakistanais",
     "de": "Pakistaner",
     "it": "Pakistano",
-    "tr": "Pakistanlı"
+    "tr": "Pakistanlı",
+    "pt": "Paquistanês",
+    "pl": "Pakistańczyk",
+    "hu": "Pakisztáni",
+    "el": "Πακιστανός",
+    "kk": "Пакистандық",
+    "uz": "Pokistonlik"
   },
   {
     "code": "jews",
@@ -320,7 +428,13 @@
     "fr": "Juif",
     "de": "Jude",
     "it": "Ebreo",
-    "tr": "Yahudi"
+    "tr": "Yahudi",
+    "pt": "Judeu",
+    "pl": "Żyd",
+    "hu": "Zsidó",
+    "el": "Εβραίος",
+    "kk": "Яһуди",
+    "uz": "Yahudiy"
   },
   {
     "code": "moldovans",
@@ -337,7 +451,13 @@
     "fr": "Moldave",
     "de": "Moldauer",
     "it": "Moldavo",
-    "tr": "Moldovalı"
+    "tr": "Moldovalı",
+    "pt": "Moldavo",
+    "pl": "Moldawianin",
+    "hu": "Moldovai",
+    "el": "Μολδαβός",
+    "kk": "Молдован",
+    "uz": "Moldovalik"
   },
   {
     "code": "romanians",
@@ -354,7 +474,13 @@
     "fr": "Roumain",
     "de": "Rumäne",
     "it": "Romeno",
-    "tr": "Rumen"
+    "tr": "Rumen",
+    "pt": "Romeno",
+    "pl": "Rumun",
+    "hu": "Román",
+    "el": "Ρουμάνος",
+    "kk": "Румын",
+    "uz": "Rumin"
   },
   {
     "code": "sakhurs",
@@ -371,7 +497,13 @@
     "fr": "Tsakhour",
     "de": "Zachure",
     "it": "Tsakhur",
-    "tr": "Tsahur"
+    "tr": "Tsahur",
+    "pt": "Tsakur",
+    "pl": "Cachur",
+    "hu": "Cahur",
+    "el": "Σαχούρ",
+    "kk": "Сахур",
+    "uz": "Saxur"
   },
   {
     "code": "kurds",
@@ -388,7 +520,13 @@
     "fr": "Kurde",
     "de": "Kurde",
     "it": "Curdo",
-    "tr": "Kürt"
+    "tr": "Kürt",
+    "pt": "Curdo",
+    "pl": "Kurd",
+    "hu": "Kurd",
+    "el": "Κούρδος",
+    "kk": "Күрд",
+    "uz": "Kurd"
   },
   {
     "code": "chechens",
@@ -405,7 +543,13 @@
     "fr": "Tchétchène",
     "de": "Tschetschene",
     "it": "Ceceno",
-    "tr": "Çeçen"
+    "tr": "Çeçen",
+    "pt": "Checheno",
+    "pl": "Czeczen",
+    "hu": "Csecsen",
+    "el": "Τσετσένος",
+    "kk": "Шешен",
+    "uz": "Chechen"
   },
   {
     "code": "uygurs",
@@ -422,7 +566,13 @@
     "fr": "Ouïghour",
     "de": "Uigure",
     "it": "Uiguro",
-    "tr": "Uygur"
+    "tr": "Uygur",
+    "pt": "Uigur",
+    "pl": "Ujgur",
+    "hu": "Ujgur",
+    "el": "Ουιγούρος",
+    "kk": "Ұйғыр",
+    "uz": "Uygʻur"
   },
   {
     "code": "italians",
@@ -439,7 +589,13 @@
     "fr": "Italien",
     "de": "Italiener",
     "it": "Italiano",
-    "tr": "İtalyan"
+    "tr": "İtalyan",
+    "pt": "Italiano",
+    "pl": "Włoch",
+    "hu": "Olasz",
+    "el": "Ιταλός",
+    "kk": "Итальян",
+    "uz": "Italyan"
   },
   {
     "code": "germans",
@@ -456,7 +612,13 @@
     "fr": "Allemand",
     "de": "Deutscher",
     "it": "Tedesco",
-    "tr": "Alman"
+    "tr": "Alman",
+    "pt": "Alemão",
+    "pl": "Niemiec",
+    "hu": "Német",
+    "el": "Γερμανός",
+    "kk": "Неміс",
+    "uz": "Nemis"
   },
   {
     "code": "poles",
@@ -473,7 +635,13 @@
     "fr": "Polonais",
     "de": "Pole",
     "it": "Polacco",
-    "tr": "Polonyalı"
+    "tr": "Polonyalı",
+    "pt": "Polaco",
+    "pl": "Polak",
+    "hu": "Lengyel",
+    "el": "Πολωνός",
+    "kk": "Поляк",
+    "uz": "Polyak"
   },
   {
     "code": "frenchs",
@@ -490,7 +658,13 @@
     "fr": "Français",
     "de": "Franzose",
     "it": "Francese",
-    "tr": "Fransız"
+    "tr": "Fransız",
+    "pt": "Francês",
+    "pl": "Francuz",
+    "hu": "Francia",
+    "el": "Γάλλος",
+    "kk": "Француз",
+    "uz": "Fransuz"
   },
   {
     "code": "japaneses",
@@ -507,7 +681,13 @@
     "fr": "Japonais",
     "de": "Japaner",
     "it": "Giapponese",
-    "tr": "Japon"
+    "tr": "Japon",
+    "pt": "Japonês",
+    "pl": "Japończyk",
+    "hu": "Japán",
+    "el": "Ιάπωνας",
+    "kk": "Жапон",
+    "uz": "Yapon"
   },
   {
     "code": "lithuanians",
@@ -524,7 +704,13 @@
     "fr": "Lituanien",
     "de": "Litauer",
     "it": "Lituano",
-    "tr": "Litvalı"
+    "tr": "Litvalı",
+    "pt": "Lituano",
+    "pl": "Litwin",
+    "hu": "Litván",
+    "el": "Λιθουανός",
+    "kk": "Литван",
+    "uz": "Litvalik"
   },
   {
     "code": "latvians",
@@ -541,7 +727,13 @@
     "fr": "Letton",
     "de": "Lette",
     "it": "Lettone",
-    "tr": "Letonyalı"
+    "tr": "Letonyalı",
+    "pt": "Letão",
+    "pl": "Łotysz",
+    "hu": "Lett",
+    "el": "Λετονός",
+    "kk": "Латыш",
+    "uz": "Latviyalik"
   },
   {
     "code": "estonians",
@@ -558,7 +750,13 @@
     "fr": "Estonien",
     "de": "Este",
     "it": "Estone",
-    "tr": "Estonyalı"
+    "tr": "Estonyalı",
+    "pt": "Estónio",
+    "pl": "Estończyk",
+    "hu": "Észt",
+    "el": "Εσθονός",
+    "kk": "Эстон",
+    "uz": "Eston"
   },
   {
     "code": "others",
@@ -575,6 +773,12 @@
     "fr": "Autre",
     "de": "Andere",
     "it": "Altro",
-    "tr": "Diğer"
+    "tr": "Diğer",
+    "pt": "Outra",
+    "pl": "Inna",
+    "hu": "Egyéb",
+    "el": "Άλλη",
+    "kk": "Басқа",
+    "uz": "Boshqa"
   }
 ]

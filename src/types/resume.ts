@@ -19,7 +19,25 @@ export type TemplateId = string;
  * labels differ, not just the glyphs.
  */
 export type Locale =
-  'az' | 'ru' | 'en' | 'ka' | 'ar' | 'es' | 'he' | 'ko' | 'zh' | 'fr' | 'de' | 'it' | 'tr';
+  | 'az'
+  | 'ru'
+  | 'en'
+  | 'ka'
+  | 'ar'
+  | 'es'
+  | 'he'
+  | 'ko'
+  | 'zh'
+  | 'fr'
+  | 'de'
+  | 'it'
+  | 'tr'
+  | 'pt'
+  | 'pl'
+  | 'hu'
+  | 'el'
+  | 'kk'
+  | 'uz';
 
 /**
  * A short label translated per locale. Only the default locale (`az`) is

@@ -24,9 +24,19 @@
  * they already fold to `a o u`. That covers a user typing the bare vowel; the
  * `ae`/`oe`/`ue` transliteration is a different string and deliberately not
  * handled, since it only appears where the character cannot be typed at all.
+ *
+ * Uzbek's `oʻ`/`gʻ` have the same problem as `ə`/`ı`/`ß`: the turned comma
+ * U+02BB (and the tutuq belgisi U+02BC it is sometimes confused with) is a
+ * spacing MODIFIER letter, not a combining mark, so NFD leaves it exactly
+ * where it is. A user without that key on their keyboard — which is nearly
+ * everyone, it has no place on a standard layout — types `ozbek` and would
+ * never find `Oʻzbek`. Folded away to nothing rather than to a letter: the
+ * character marks a distinct vowel in real Uzbek, but the plain-Latin
+ * spelling people actually type when they can't produce it drops the mark
+ * entirely rather than substituting one, unlike German's `ß`→`ss`.
  */
-const NON_DECOMPOSING = /[əıß]/g;
-const FOLDED: Record<string, string> = { ə: 'e', ı: 'i', ß: 'ss' };
+const NON_DECOMPOSING = /[əıßʻʼ]/g;
+const FOLDED: Record<string, string> = { ə: 'e', ı: 'i', ß: 'ss', ʻ: '', ʼ: '' };
 
 export function searchKey(text: string): string {
   return (

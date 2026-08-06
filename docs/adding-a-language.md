@@ -1,9 +1,10 @@
 # Adding a UI/CV language
 
 The app ships Azerbaijani (default), Russian, English, Georgian, Arabic, Spanish,
-Hebrew, Korean, Chinese, French, German, Italian and Turkish. Adding Farsi,
-Portuguese, Japanese … is an **additive** change: no component holds a language
-list, and no existing translation has to be touched.
+Hebrew, Korean, Chinese, French, German, Italian, Turkish, Portuguese, Polish,
+Hungarian, Greek, Kazakh and Uzbek. Adding Farsi, Japanese … is an **additive**
+change: no component holds a language list, and no existing translation has to
+be touched.
 
 Spanish is the worked example of the *easy* case, and worth reading first if the
 new language is written in Latin or Cyrillic: steps 1–3 plus the dictionaries, no
@@ -18,6 +19,50 @@ What they cost instead was translation volume, and what they BROKE was three
 things no font check would have caught: a select that silently stopped rendering
 its own options, a test that assumed no two shipped languages are related, and a
 search fold with no rule for `ß`. All three are written up below.
+
+**Portuguese, Polish, Hungarian, Greek, Kazakh and Uzbek — six locales in one
+pass, and the biggest batch yet, which is what made it worth parallelizing:** one
+translator per locale, working independently on the UI bundle, the nine
+non-`languages` dictionaries (1,827 rows each) and a set of real universities for
+their own country, merged into `src/data/*.json` by a script afterward rather
+than by six agents editing the same files at once. Font-wise this is the SAME
+class Spanish and the French batch already established: Greek is a new SCRIPT
+but not a new font — Inter draws the full Greek alphabet plus its tonos/dialytika
+accents, checked with fontkit exactly like the Latin batches were. Kazakh is new
+Cyrillic LETTERS (`ә ғ қ ң ө ұ ү һ і`) rather than a new script, and Inter has
+those too. So `cv: true` from the start for all six, and zero font files added.
+
+What this batch broke, in the same spirit as the list below:
+
+- **dayjs ships Uzbek in two scripts under two different keys.** `uz` is
+  Cyrillic, `uz-latn` is Latin — and Latin is the script Uzbekistan actually
+  uses today (and the one antd's own `uz_UZ` bundle is written in). Since
+  `LocaleMeta.code` doubles as the dayjs locale name everywhere in this file,
+  `dayjs.locale('uz')` would have silently resolved to dayjs's default Cyrillic
+  data — a date picker showing Cyrillic month names inside an otherwise Latin
+  UI. Fixed by re-registering the Latin config under the plain `uz` key
+  (`dayjs.locale({ ...uzLatn, name: 'uz' }, undefined, true)` in `locales.ts`,
+  right where the other dayjs locale imports live) rather than trying to change
+  what `LocaleMeta.code` means.
+- **Uzbek's turned comma (`ʻ`, U+02BB) has no canonical decomposition**, same
+  problem as `ə`/`ı`/`ß`: NFD leaves it exactly where it is, so a user without
+  that key on their keyboard types `ozbek` and would never find `Oʻzbek`. Folded
+  to NOTHING rather than to a substitute letter (unlike `ß`→`ss`), since the
+  plain-Latin spelling people fall back to just drops the mark — `utils/search`.
+- **Two real institutions translate to the exact same name in some languages,
+  and it took adding a NEW one to notice.** Ege University (Turkey, existing)
+  and the University of the Aegean (Greece, added in this batch) are named after
+  the same sea, and four of the batch's translators — independently, since they
+  never see each other's output — rendered both as literally "Aegean
+  University" in Russian, Korean, Chinese and Polish. The merge script's
+  duplicate-label guard catches collisions WITHIN one locale's own new column,
+  but not between a NEWLY ADDED row and an EXISTING one in an OLD locale's
+  column, since it never touched those. Fixed by keeping Ege's name as the
+  transliterated PROPER NOUN "Ege" in those four columns (matching what most of
+  its own other columns already did) rather than translating it as "Aegean."
+  The general lesson: a new-university proposal needs checking against every
+  existing locale's labels, not just the six new ones — a cross-file,
+  cross-batch namesake is exactly the kind of thing no single translator can see.
 
 Order in the switchers is **not** the order you declare the entry in:
 `SUPPORTED_LOCALES` sorts the default locale first and the rest alphabetically by
@@ -197,9 +242,13 @@ empty values, and that the dayjs data was imported.
    a user in the new language would otherwise be reading Azerbaijani in the middle
    of their own résumé.
 
-   The volume, at the time of writing: universities 364, skills 342,
+   The volume, at the time of writing: universities 453, skills 342,
    specialities 305, faculties 263, positions 243, cities 132, colleges 127,
-   nationality 34, languages 18, interests 17 — **1,845 rows**. Do it with a script that rebuilds
+   nationality 34, languages 23, interests 17 — **1,939 rows** (universities and
+   languages both grew in the Portuguese/Polish/Hungarian/Greek/Kazakh/Uzbek
+   batch — 89 new real universities across the six countries, and 5 new
+   claimable mother tongues; `polish` already existed as a code before the
+   Polish locale did). Do it with a script that rebuilds
    each row key-by-key (so the new column lands in the same place in every file)
    and *refuses to write* on an unmapped code, a duplicate label within the
    dataset, or a label longer than `FIELD_MAX` for that group. The three legacy

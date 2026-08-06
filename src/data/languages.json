@@ -14,7 +14,13 @@
     "fr": "Arabe",
     "de": "Arabisch",
     "it": "Arabo",
-    "tr": "Arapça"
+    "tr": "Arapça",
+    "pt": "Árabe",
+    "pl": "Arabski",
+    "hu": "Arab",
+    "el": "Αραβικά",
+    "kk": "Арабша",
+    "uz": "Arabcha"
   },
   {
     "code": "azerbaijan",
@@ -31,7 +37,13 @@
     "fr": "Azerbaïdjanais",
     "de": "Aserbaidschanisch",
     "it": "Azerbaigiano",
-    "tr": "Azerice"
+    "tr": "Azerice",
+    "pt": "Azerbaijanês",
+    "pl": "Azerbejdżański",
+    "hu": "Azeri",
+    "el": "Αζερμπαϊτζανικά",
+    "kk": "Әзербайжанша",
+    "uz": "Ozarbayjoncha"
   },
   {
     "code": "chinese",
@@ -48,7 +60,13 @@
     "fr": "Chinois",
     "de": "Chinesisch",
     "it": "Cinese",
-    "tr": "Çince"
+    "tr": "Çince",
+    "pt": "Chinês",
+    "pl": "Chiński",
+    "hu": "Kínai",
+    "el": "Κινεζικά",
+    "kk": "Қытайша",
+    "uz": "Xitoycha"
   },
   {
     "code": "english",
@@ -65,7 +83,13 @@
     "fr": "Anglais",
     "de": "Englisch",
     "it": "Inglese",
-    "tr": "İngilizce"
+    "tr": "İngilizce",
+    "pt": "Inglês",
+    "pl": "Angielski",
+    "hu": "Angol",
+    "el": "Αγγλικά",
+    "kk": "Ағылшынша",
+    "uz": "Inglizcha"
   },
   {
     "code": "french",
@@ -82,7 +106,13 @@
     "fr": "Français",
     "de": "Französisch",
     "it": "Francese",
-    "tr": "Fransızca"
+    "tr": "Fransızca",
+    "pt": "Francês",
+    "pl": "Francuski",
+    "hu": "Francia",
+    "el": "Γαλλικά",
+    "kk": "Французша",
+    "uz": "Fransuzcha"
   },
   {
     "code": "georgian",
@@ -99,7 +129,13 @@
     "fr": "Géorgien",
     "de": "Georgisch",
     "it": "Georgiano",
-    "tr": "Gürcüce"
+    "tr": "Gürcüce",
+    "pt": "Georgiano",
+    "pl": "Gruziński",
+    "hu": "Grúz",
+    "el": "Γεωργιανά",
+    "kk": "Грузинше",
+    "uz": "Gruzincha"
   },
   {
     "code": "german",
@@ -116,7 +152,36 @@
     "fr": "Allemand",
     "de": "Deutsch",
     "it": "Tedesco",
-    "tr": "Almanca"
+    "tr": "Almanca",
+    "pt": "Alemão",
+    "pl": "Niemiecki",
+    "hu": "Német",
+    "el": "Γερμανικά",
+    "kk": "Немісше",
+    "uz": "Nemischa"
+  },
+  {
+    "code": "greek",
+    "group": "languages",
+    "az": "Yunan dili",
+    "en": "Greek language",
+    "ru": "Греческий язык",
+    "ka": "ბერძნული ენა",
+    "ar": "اليونانية",
+    "es": "Griego",
+    "he": "יוונית",
+    "ko": "그리스어",
+    "zh": "希腊语",
+    "fr": "Grec",
+    "de": "Griechisch",
+    "it": "Greco",
+    "tr": "Yunanca",
+    "pt": "Grego",
+    "pl": "Grecki",
+    "hu": "Görög",
+    "el": "Ελληνικά",
+    "kk": "Грекше",
+    "uz": "Grekcha"
   },
   {
     "code": "hebrew",
@@ -133,7 +198,13 @@
     "fr": "Hébreu",
     "de": "Hebräisch",
     "it": "Ebraico",
-    "tr": "İbranice"
+    "tr": "İbranice",
+    "pt": "Hebraico",
+    "pl": "Hebrajski",
+    "hu": "Héber",
+    "el": "Εβραϊκά",
+    "kk": "Иврит",
+    "uz": "Ibroniycha"
   },
   {
     "code": "hispanic",
@@ -150,7 +221,36 @@
     "fr": "Espagnol",
     "de": "Spanisch",
     "it": "Spagnolo",
-    "tr": "İspanyolca"
+    "tr": "İspanyolca",
+    "pt": "Espanhol",
+    "pl": "Hiszpański",
+    "hu": "Spanyol",
+    "el": "Ισπανικά",
+    "kk": "Испанша",
+    "uz": "Ispancha"
+  },
+  {
+    "code": "hungarian",
+    "group": "languages",
+    "az": "Macar dili",
+    "en": "Hungarian language",
+    "ru": "Венгерский язык",
+    "ka": "უნგრული ენა",
+    "ar": "المجرية",
+    "es": "Húngaro",
+    "he": "הונגרית",
+    "ko": "헝가리어",
+    "zh": "匈牙利语",
+    "fr": "Hongrois",
+    "de": "Ungarisch",
+    "it": "Ungherese",
+    "tr": "Macarca",
+    "pt": "Húngaro",
+    "pl": "Węgierski",
+    "hu": "Magyar",
+    "el": "Ουγγρικά",
+    "kk": "Мажарша",
+    "uz": "Vengrcha"
   },
   {
     "code": "italian",
@@ -167,7 +267,13 @@
     "fr": "Italien",
     "de": "Italienisch",
     "it": "Italiano",
-    "tr": "İtalyanca"
+    "tr": "İtalyanca",
+    "pt": "Italiano",
+    "pl": "Włoski",
+    "hu": "Olasz",
+    "el": "Ιταλικά",
+    "kk": "Итальянша",
+    "uz": "Italyancha"
   },
   {
     "code": "japan",
@@ -184,7 +290,36 @@
     "fr": "Japonais",
     "de": "Japanisch",
     "it": "Giapponese",
-    "tr": "Japonca"
+    "tr": "Japonca",
+    "pt": "Japonês",
+    "pl": "Japoński",
+    "hu": "Japán",
+    "el": "Ιαπωνικά",
+    "kk": "Жапонша",
+    "uz": "Yaponcha"
+  },
+  {
+    "code": "kazakh",
+    "group": "languages",
+    "az": "Qazax dili",
+    "en": "Kazakh language",
+    "ru": "Казахский язык",
+    "ka": "ყაზახური ენა",
+    "ar": "الكازاخية",
+    "es": "Kazajo",
+    "he": "קזחית",
+    "ko": "카자흐어",
+    "zh": "哈萨克语",
+    "fr": "Kazakh",
+    "de": "Kasachisch",
+    "it": "Kazako",
+    "tr": "Kazakça",
+    "pt": "Cazaque",
+    "pl": "Kazachski",
+    "hu": "Kazah",
+    "el": "Καζακικά",
+    "kk": "Қазақша",
+    "uz": "Qozoqcha"
   },
   {
     "code": "korean",
@@ -201,7 +336,13 @@
     "fr": "Coréen",
     "de": "Koreanisch",
     "it": "Coreano",
-    "tr": "Korece"
+    "tr": "Korece",
+    "pt": "Coreano",
+    "pl": "Koreański",
+    "hu": "Koreai",
+    "el": "Κορεατικά",
+    "kk": "Корейше",
+    "uz": "Koreyscha"
   },
   {
     "code": "persian",
@@ -218,7 +359,13 @@
     "fr": "Persan",
     "de": "Persisch",
     "it": "Persiano",
-    "tr": "Farsça"
+    "tr": "Farsça",
+    "pt": "Persa",
+    "pl": "Perski",
+    "hu": "Perzsa",
+    "el": "Περσικά",
+    "kk": "Парсыша",
+    "uz": "Forscha"
   },
   {
     "code": "polish",
@@ -235,7 +382,36 @@
     "fr": "Polonais",
     "de": "Polnisch",
     "it": "Polacco",
-    "tr": "Lehçe"
+    "tr": "Lehçe",
+    "pt": "Polaco",
+    "pl": "Polski",
+    "hu": "Lengyel",
+    "el": "Πολωνικά",
+    "kk": "Полякша",
+    "uz": "Polyakcha"
+  },
+  {
+    "code": "portuguese",
+    "group": "languages",
+    "az": "Portuqal dili",
+    "en": "Portuguese language",
+    "ru": "Португальский язык",
+    "ka": "პორტუგალიური ენა",
+    "ar": "البرتغالية",
+    "es": "Portugués",
+    "he": "פורטוגזית",
+    "ko": "포르투갈어",
+    "zh": "葡萄牙语",
+    "fr": "Portugais",
+    "de": "Portugiesisch",
+    "it": "Portoghese",
+    "tr": "Portekizce",
+    "pt": "Português",
+    "pl": "Portugalski",
+    "hu": "Portugál",
+    "el": "Πορτογαλικά",
+    "kk": "Португалша",
+    "uz": "Portugalcha"
   },
   {
     "code": "romainan",
@@ -252,7 +428,13 @@
     "fr": "Roumain",
     "de": "Rumänisch",
     "it": "Romeno",
-    "tr": "Romence"
+    "tr": "Romence",
+    "pt": "Romeno",
+    "pl": "Rumuński",
+    "hu": "Román",
+    "el": "Ρουμανικά",
+    "kk": "Румынша",
+    "uz": "Rumincha"
   },
   {
     "code": "russian",
@@ -269,7 +451,13 @@
     "fr": "Russe",
     "de": "Russisch",
     "it": "Russo",
-    "tr": "Rusça"
+    "tr": "Rusça",
+    "pt": "Russo",
+    "pl": "Rosyjski",
+    "hu": "Orosz",
+    "el": "Ρωσικά",
+    "kk": "Орысша",
+    "uz": "Ruscha"
   },
   {
     "code": "turkish",
@@ -286,7 +474,13 @@
     "fr": "Turc",
     "de": "Türkisch",
     "it": "Turco",
-    "tr": "Türkçe"
+    "tr": "Türkçe",
+    "pt": "Turco",
+    "pl": "Turecki",
+    "hu": "Török",
+    "el": "Τουρκικά",
+    "kk": "Түрікше",
+    "uz": "Turkcha"
   },
   {
     "code": "ukrainian",
@@ -303,6 +497,35 @@
     "fr": "Ukrainien",
     "de": "Ukrainisch",
     "it": "Ucraino",
-    "tr": "Ukraynaca"
+    "tr": "Ukraynaca",
+    "pt": "Ucraniano",
+    "pl": "Ukraiński",
+    "hu": "Ukrán",
+    "el": "Ουκρανικά",
+    "kk": "Украинша",
+    "uz": "Ukraincha"
+  },
+  {
+    "code": "uzbek",
+    "group": "languages",
+    "az": "Özbək dili",
+    "en": "Uzbek language",
+    "ru": "Узбекский язык",
+    "ka": "უზბეკური ენა",
+    "ar": "الأوزبكية",
+    "es": "Uzbeko",
+    "he": "אוזבקית",
+    "ko": "우즈베크어",
+    "zh": "乌兹别克语",
+    "fr": "Ouzbek",
+    "de": "Usbekisch",
+    "it": "Uzbeco",
+    "tr": "Özbekçe",
+    "pt": "Usbeque",
+    "pl": "Uzbecki",
+    "hu": "Üzbég",
+    "el": "Ουζμπεκικά",
+    "kk": "Өзбекше",
+    "uz": "Oʻzbekcha"
   }
 ]
