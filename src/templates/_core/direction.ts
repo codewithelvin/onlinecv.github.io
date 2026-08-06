@@ -65,6 +65,27 @@ export function mirrorInlineEndPadding(style: CSSProperties, locale: Locale): CS
 }
 
 /**
+ * A style whose explicit `textAlign` means "toward the inline start/end", flipped
+ * for a right-to-left CV.
+ *
+ * `services/pdf.ts` and `A4Frame` already set the DEFAULT alignment per direction,
+ * so prose needs nothing. This is for the places a template overrides that default
+ * — a date column right-aligned so it hugs the rail beside it, a gutter label
+ * right-aligned against its content. `mirrorRow` moves that column to the other
+ * side of the row, and an alignment left behind then points away from the thing it
+ * was aligned to: the dates drift to the far paper edge and the rail they belonged
+ * to is left bare. Same class of problem as `mirrorInlineEndPadding`, and the same
+ * reason it cannot be expressed directly — react-pdf has no logical properties.
+ */
+export function mirrorTextAlign(style: CSSProperties, locale: Locale): CSSProperties {
+  if (!isRtl(locale)) return style;
+  const { textAlign } = style;
+  if (textAlign === 'right') return { ...style, textAlign: 'left' };
+  if (textAlign === 'left') return { ...style, textAlign: 'right' };
+  return style;
+}
+
+/**
  * Which edge the accent column hugs, after mirroring.
  *
  * `manifest.pageBleed` states the LEFT-TO-RIGHT design; a right-to-left CV wants

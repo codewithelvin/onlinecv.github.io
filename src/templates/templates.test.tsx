@@ -152,11 +152,78 @@ describe('template smoke render', () => {
     });
   }
 
-  it('registers the three shipped templates, ATS-safe first', () => {
+  /**
+   * NO TEMPLATE MAY `text-transform` THE USER'S OWN WORDS.
+   *
+   * Upper-casing is for strings the APP owns — section titles, field labels — and
+   * it is a real temptation, because print résumé designs set the candidate's name
+   * in caps and two of the three open-source layouts this app adapted do exactly
+   * that. Copying it breaks two things at once:
+   *
+   *  1. The PDF's text layer carries the TRANSFORMED string, so an ATS (and
+   *     anyone copy-pasting) reads back `ИВАН ПЕТРОВ` from a CV that says
+   *     `Иван Петров` — a name nobody wrote. Caught by `text-fidelity.test.tsx`,
+   *     but only for the five locales that file renders.
+   *  2. `toUpperCase()` on Georgian maps Mkhedruli to MTAVRULI (U+1C90–1CBF),
+   *     which Georgian orthography uses for whole words only — so it is not a
+   *     capitalized name, it is a misspelt one. Exactly the trap
+   *     `LocaleMeta.capitalizeMonths` exists to keep month names out of.
+   *
+   * Checked here rather than left to the fidelity test because this runs against
+   * EVERY registered template on plain markup, in milliseconds — so a template
+   * added later cannot reintroduce it, whichever locale it was designed in.
+   */
+  for (const { manifest, load } of listTemplates()) {
+    it(`never text-transforms user content in "${manifest.id}"`, async () => {
+      const Template = (await load()).default;
+      const html = renderToStaticMarkup(createElement(Template, { resume, t, formatDate }));
+      const doc = new DOMParser().parseFromString(`<body>${html}</body>`, 'text/html');
+
+      // Values the USER typed, as opposed to anything `t()` returned.
+      const userText = [
+        resume.basics.firstName,
+        resume.basics.lastName,
+        resume.basics.headline,
+        resume.basics.location,
+        resume.summary,
+        resume.experience[0].company,
+        resume.experience[0].position,
+        resume.education[0].institution,
+        resume.skills[0].name,
+        resume.languages[0].name,
+      ].filter((value): value is string => Boolean(value));
+
+      const transformed = (el: Element): boolean =>
+        /text-transform:\s*(uppercase|lowercase|capitalize)/i.test(el.getAttribute('style') ?? '');
+
+      for (const el of doc.querySelectorAll('*')) {
+        // Only the element that actually holds the text — an ancestor carrying the
+        // declaration is caught when the walk reaches it, and `text-transform`
+        // inherits, so checking self plus ancestors would double-report.
+        const own = [...el.childNodes]
+          .filter((n) => n.nodeType === 3)
+          .map((n) => n.textContent ?? '')
+          .join('');
+        const hit = userText.find((value) => own.includes(value));
+        if (!hit) continue;
+        for (let node: Element | null = el; node; node = node.parentElement) {
+          expect(
+            transformed(node) ? `"${hit}" is text-transformed by <${node.tagName}>` : null,
+          ).toBeNull();
+        }
+      }
+    });
+  }
+
+  it('registers every shipped template, ATS-safe first', () => {
     const ids = listTemplates().map((x) => x.manifest.id);
-    expect(ids).toContain('classic');
-    expect(ids).toContain('modern');
-    expect(ids).toContain('compact');
+    for (const id of ['classic', 'compact', 'modern', 'timeline', 'minimal', 'banner']) {
+      expect(ids).toContain(id);
+    }
+    // The folder name IS the id (the registry derives one from the other).
+    for (const { manifest } of listTemplates()) {
+      expect(manifest.id).toBe(manifest.id.trim());
+    }
     expect(listTemplates()[0].manifest.atsSafe).toBe(true);
   });
 

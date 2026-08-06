@@ -72,10 +72,39 @@ for (const locale of SUPPORTED_LOCALES) {
 export const ISO_DATE = 'YYYY-MM-DD';
 /** ISO storage format for month-precision dates (`YYYY-MM`). */
 export const ISO_MONTH = 'YYYY-MM';
-/** Full-date display format: work experience + date of birth (spec §10.2). */
+/**
+ * Full-date display format: work experience + date of birth (spec §10.2).
+ *
+ * Also the TOKEN that means "a full date" — see `resolveFormat`. Its literal
+ * value is the pattern most locales actually use, so passing it straight to
+ * dayjs (as the AntD pickers do, for input) still does the right thing.
+ */
 export const FULL_DATE = 'DD.MM.YYYY';
 /** Month–year display format (localized month): education + certificates. */
 export const MONTH_YEAR = 'MMM YYYY';
+
+/**
+ * Resolve one of the two canonical format tokens to the pattern the locale
+ * itself writes (`LocaleMeta.dateFormats`); anything else is passed through.
+ *
+ * This indirection is what keeps the East Asian date order from becoming a
+ * per-template concern. Every caller that renders a date for a reader —
+ * the three shipped templates and every future one, the editor's collapsed
+ * section summaries, the PDF export — already asks for `FULL_DATE` or
+ * `MONTH_YEAR`, so localizing them HERE reaches all of them at once and none of
+ * them has to learn that Korean puts the year first.
+ *
+ * Matching on the token's literal value rather than on a separate enum is
+ * deliberate: it means the many callers that hard-coded `'DD.MM.YYYY'` before
+ * this table existed keep working, and a template that passes some third
+ * pattern of its own still gets exactly what it asked for.
+ */
+function resolveFormat(fmt: string, locale: Locale): string {
+  const formats = LOCALES[locale].dateFormats;
+  if (fmt === FULL_DATE) return formats.full;
+  if (fmt === MONTH_YEAR) return formats.monthYear;
+  return fmt;
+}
 
 /**
  * Create a locale-bound date formatter. Binding the locale explicitly (rather
@@ -86,7 +115,7 @@ export function makeDateFormatter(locale: Locale): (iso: string, fmt?: string) =
   return (iso: string, fmt: string = FULL_DATE): string => {
     if (!iso) return '';
     const d = dayjs(iso).locale(locale);
-    return d.isValid() ? localizeDigits(d.format(fmt), locale) : '';
+    return d.isValid() ? localizeDigits(d.format(resolveFormat(fmt, locale)), locale) : '';
   };
 }
 

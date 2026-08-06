@@ -5,6 +5,8 @@ import { BulletList } from '../_core/bullets';
 import {
   contactChannels,
   contactDisplay,
+  DATE_FULL as FULL,
+  DATE_MONTH_YEAR as MONTH,
   dateRange,
   fullName,
   generalInfoPairs,
@@ -14,9 +16,6 @@ import {
 } from '../_core/render-helpers';
 import { mirrorInlineEndPadding, mirrorRow } from '../_core/direction';
 import { styles } from './styles';
-
-const FULL = 'DD.MM.YYYY';
-const MONTH = 'MMM YYYY';
 
 /** Heading + first block never split across pages — see the classic template. */
 function Section({ title, children }: { title: string; children: ReactNode }): JSX.Element | null {

@@ -12,6 +12,7 @@ import { createEmptyResume } from '../utils/empty-resume';
 import { buildResumeDocument, registerResumeFonts } from '../services/pdf';
 import { makeDateFormatter } from '../utils/date';
 import { i18n } from '../app/i18n';
+import { CV_LOCALES } from '../app/i18n/locales';
 import { getTemplate, listTemplates } from './_core/registry';
 import { missingWords, pdfTextRuns } from '../test/pdf-text';
 
@@ -137,6 +138,189 @@ const WORDS = {
     skill: 'Управление временем',
     highlight: 'Полная переработка портала',
   },
+  /*
+   * ── every remaining shipped locale ──────────────────────────────────────
+   *
+   * The five above were chosen one at a time, each because its SCRIPT was
+   * thought to be a risk (Arabic shaping, Georgian fallback, Hebrew bidi, Hangul,
+   * Han/CFF). The thirteen below are here for the opposite reason: they were all
+   * believed to need nothing, and "believed to need nothing" is exactly the class
+   * of claim this file exists to stop taking on trust. Between them they cover
+   * every accented Latin the app ships (`ə ğ ı İ ş ü ö ç` · `œ ÿ` · `ß` · `ã õ` ·
+   * `ł ż ś` · `ő ű`), the Greek alphabet with tonos, Kazakh's nine extra Cyrillic
+   * letters, and Uzbek's turned comma `ʻ` — the one character in this table that
+   * is neither a letter nor ASCII punctuation.
+   *
+   * This file used to be documented as unable to hold more than about five
+   * locales, on the theory that @react-pdf's font cache drifts after a handful of
+   * documents in one process. That was WRONG, and the six templates × eighteen
+   * locales rendered here are the measurement that retires it — see the journal.
+   */
+  az: {
+    firstName: 'Elvin',
+    lastName: 'Hüseynov',
+    headline: 'Frontend proqramçı',
+    summary: 'Veb texnologiyaları ilə işləyən təcrübəli proqram təminatı mühəndisi',
+    company: 'Kibernet',
+    position: 'Aparıcı proqramçı',
+    institution: 'Bakı Dövlət Universiteti',
+    faculty: 'Tətbiqi riyaziyyat fakültəsi',
+    skill: 'Vaxtın idarə edilməsi',
+    highlight: 'Vergi ödəyicisi portalının yenidən qurulması',
+  },
+  en: {
+    firstName: 'John',
+    lastName: 'Smith',
+    headline: 'Frontend Developer',
+    summary: 'Experienced software engineer working with modern web technologies',
+    company: 'Cybernet',
+    position: 'Lead Frontend Developer',
+    institution: 'Baku State University',
+    faculty: 'Faculty of Applied Mathematics',
+    skill: 'Time management',
+    highlight: 'Full rebuild of the taxpayer portal',
+  },
+  es: {
+    firstName: 'Carlos',
+    lastName: 'Rodríguez',
+    headline: 'Desarrollador frontend',
+    summary: 'Ingeniero de software con experiencia en tecnologías web modernas',
+    company: 'Cybernet',
+    position: 'Desarrollador principal',
+    institution: 'Universidad Complutense de Madrid',
+    faculty: 'Facultad de Matemáticas Aplicadas',
+    skill: 'Gestión del tiempo',
+    highlight: 'Reconstrucción completa del portal del contribuyente',
+  },
+  /** `œ` and `ÿ` are the two Inter glyphs French needs that no other locale does. */
+  fr: {
+    firstName: 'Julien',
+    lastName: 'Lefèvre',
+    headline: 'Développeur frontend',
+    summary: 'Ingénieur logiciel expérimenté spécialisé dans les technologies web modernes',
+    company: 'Cybernet',
+    position: 'Développeur principal',
+    institution: 'Université Paris-Saclay',
+    faculty: 'Faculté de mathématiques appliquées',
+    skill: 'Gestion du temps',
+    highlight: 'Refonte complète du portail avec un cœur applicatif modernisé',
+  },
+  de: {
+    firstName: 'Lukas',
+    lastName: 'Müller',
+    headline: 'Frontend-Entwickler',
+    summary: 'Erfahrener Softwareentwickler mit Schwerpunkt auf modernen Webtechnologien',
+    company: 'Cybernet',
+    position: 'Leitender Entwickler',
+    institution: 'Technische Universität München',
+    faculty: 'Fakultät für Angewandte Mathematik',
+    skill: 'Zeitmanagement großer Projekte',
+    highlight: 'Vollständiger Umbau des Steuerzahlerportals',
+  },
+  it: {
+    firstName: 'Marco',
+    lastName: 'Rossi',
+    headline: 'Sviluppatore frontend',
+    summary: 'Ingegnere del software con esperienza nelle tecnologie web moderne',
+    company: 'Cybernet',
+    position: 'Sviluppatore principale',
+    institution: 'Università di Bologna',
+    faculty: 'Facoltà di Matematica Applicata',
+    skill: 'Gestione del tempo',
+    highlight: 'Ricostruzione completa del portale',
+  },
+  /** `ı` and `İ` — the dotless/dotted pair Turkish shares with Azerbaijani. */
+  tr: {
+    firstName: 'Mehmet',
+    lastName: 'Yılmaz',
+    headline: 'Ön uç geliştirici',
+    summary: 'Modern web teknolojileriyle çalışan deneyimli yazılım mühendisi',
+    company: 'Kibernet',
+    position: 'Kıdemli geliştirici',
+    institution: 'İstanbul Teknik Üniversitesi',
+    faculty: 'Uygulamalı Matematik Fakültesi',
+    skill: 'Zaman yönetimi',
+    highlight: 'Vergi mükellefi portalının yeniden yapılandırılması',
+  },
+  pt: {
+    firstName: 'João',
+    lastName: 'Silva',
+    headline: 'Programador frontend',
+    summary: 'Engenheiro de software com experiência em tecnologias web modernas',
+    company: 'Cybernet',
+    position: 'Programador principal',
+    institution: 'Universidade de Lisboa',
+    faculty: 'Faculdade de Matemática Aplicada',
+    skill: 'Gestão do tempo',
+    highlight: 'Reconstrução completa do portal do contribuinte',
+  },
+  pl: {
+    firstName: 'Piotr',
+    lastName: 'Kowalski',
+    headline: 'Programista frontend',
+    summary: 'Doświadczony inżynier oprogramowania pracujący z nowoczesnymi technologiami',
+    company: 'Cybernet',
+    position: 'Główny programista',
+    institution: 'Uniwersytet Warszawski',
+    faculty: 'Wydział Matematyki Stosowanej',
+    skill: 'Zarządzanie czasem',
+    highlight: 'Pełna przebudowa portalu podatnika',
+  },
+  hu: {
+    firstName: 'Bálint',
+    lastName: 'Nagy',
+    headline: 'Frontend fejlesztő',
+    summary: 'Tapasztalt szoftvermérnök aki modern webes technológiákkal dolgozik',
+    company: 'Cybernet',
+    position: 'Vezető fejlesztő',
+    institution: 'Eötvös Loránd Tudományegyetem',
+    faculty: 'Alkalmazott Matematikai Kar',
+    skill: 'Időgazdálkodás és ütemezés',
+    highlight: 'Az adózói portál teljes újjáépítése',
+  },
+  /** Greek — a whole alphabet Inter was only checked for with fontkit until now. */
+  el: {
+    firstName: 'Γιώργος',
+    lastName: 'Παπαδόπουλος',
+    headline: 'Προγραμματιστής frontend',
+    summary: 'Έμπειρος μηχανικός λογισμικού με εξειδίκευση στις σύγχρονες τεχνολογίες',
+    company: 'Cybernet',
+    position: 'Επικεφαλής προγραμματιστής',
+    institution: 'Εθνικό Μετσόβιο Πολυτεχνείο',
+    faculty: 'Σχολή Εφαρμοσμένων Μαθηματικών',
+    skill: 'Διαχείριση χρόνου',
+    highlight: 'Πλήρης ανακατασκευή της πύλης φορολογουμένων',
+  },
+  /** Kazakh — `ә ғ қ ң ө ұ ү һ і`, the nine letters plain Cyrillic does not have. */
+  kk: {
+    firstName: 'Айдар',
+    lastName: 'Нұрланұлы',
+    headline: 'Фронтенд әзірлеуші',
+    summary: 'Заманауи веб технологиялармен жұмыс істейтін тәжірибелі бағдарламашы',
+    company: 'Кибернет',
+    position: 'Жетекші әзірлеуші',
+    institution: 'Әл-Фараби атындағы Қазақ ұлттық университеті',
+    faculty: 'Қолданбалы математика факультеті',
+    skill: 'Уақытты басқару',
+    highlight: 'Салық төлеуші порталын толық қайта құру',
+  },
+  /**
+   * Uzbek in Latin script. `Oʻzbekiston` and `toʻliq` carry U+02BB MODIFIER LETTER
+   * TURNED COMMA — part of the letters `oʻ`/`gʻ`, not an apostrophe, and the only
+   * non-letter non-ASCII character in this whole table.
+   */
+  uz: {
+    firstName: 'Jasur',
+    lastName: 'Karimov',
+    headline: 'Frontend dasturchi',
+    summary: 'Zamonaviy veb texnologiyalar bilan ishlaydigan tajribali dasturchi',
+    company: 'Kibernet',
+    position: 'Yetakchi dasturchi',
+    institution: 'Oʻzbekiston Milliy universiteti',
+    faculty: 'Amaliy matematika fakulteti',
+    skill: 'Vaqtni boshqarish',
+    highlight: 'Soliq toʻlovchi portalini toʻliq qayta qurish',
+  },
 } as const;
 
 function resumeFor(locale: keyof typeof WORDS): Resume {
@@ -177,7 +361,33 @@ function resumeFor(locale: keyof typeof WORDS): Resume {
   return r;
 }
 
+/**
+ * ONE DOCUMENT, ONE FRESH FONT STORE.
+ *
+ * `@react-pdf` keeps each registered family as a fontkit object in a module-level
+ * store, and SUBSETTING MUTATES THAT OBJECT: glyphs are appended to the face's
+ * subset as documents ask for them, and the subset's ids are what go into the
+ * content stream. The `/ToUnicode` table, by contrast, is written per document.
+ * Render enough documents from one store and the two stop agreeing — the later
+ * ones paint glyph ids their own document's table cannot name, which decodes as
+ * missing words and unmappable ids.
+ *
+ * This was previously recorded as a hard cap of "about five locales" that could
+ * only be lifted by running one process per document. It is neither: `Font.clear()`
+ * drops the fontkit objects, and re-registering builds new ones, so the next
+ * document subsets from scratch. That is what lets this file be a TOTAL matrix —
+ * six templates × eighteen locales — in a single process.
+ *
+ * `Font.reset()` is NOT the call to use: it nulls each source's `data` but leaves
+ * `loadResultPromise` set, so the next `load()` resolves the cached promise and the
+ * font stays null.
+ *
+ * The app itself never needs this — it renders one document per page load — which
+ * is exactly why the drift only ever showed up here.
+ */
 async function render(templateId: string, resume: Resume): Promise<string> {
+  ReactPdf.Font.clear();
+  registerResumeFonts(ReactPdf, 'public/fonts/ttf');
   const entry = getTemplate(templateId);
   const Template = (await entry.load()).default;
   return pdf(
@@ -210,6 +420,19 @@ const MUST_SURVIVE = LOCALES.filter((l) => l !== 'ar');
 
 describe('exported text matches the input', () => {
   beforeAll(() => registerResumeFonts(ReactPdf, 'public/fonts/ttf'));
+
+  /**
+   * The matrix must stay TOTAL over the languages a CV can be written in.
+   *
+   * `LocaleMeta.cv: true` is a promise that the exporter can render that language
+   * correctly, and this file is the only thing that checks the promise against a
+   * real PDF. Driving the assertion off `CV_LOCALES` means a twentieth locale
+   * cannot be marked exportable without someone writing its ten words here —
+   * which is the moment to find out that its script needs a font.
+   */
+  it('covers every locale a CV can be written in', () => {
+    expect([...LOCALES].sort()).toEqual([...CV_LOCALES].sort());
+  });
 
   for (const { manifest } of listTemplates()) {
     for (const locale of MUST_SURVIVE) {

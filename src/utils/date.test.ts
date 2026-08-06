@@ -43,6 +43,34 @@ describe('date utils', () => {
   });
 
   /**
+   * East Asian dates are BIG-ENDIAN and unit-marked. Before `LocaleMeta.dateFormats`
+   * a Korean CV read `9월 2014` and a Chinese one `9月 2009` — the right words in an
+   * order neither language uses. These are the two locales that opt out of
+   * `WESTERN_DATES`, so they are what the table exists for.
+   */
+  it('writes East Asian dates year-first', () => {
+    expect(formatMonthYear('2014-09', 'ko')).toBe('2014년 9월');
+    expect(formatMonthYear('2009-09', 'zh')).toBe('2009年9月');
+    expect(formatFullDate('1987-06-15', 'ko')).toBe('1987.06.15');
+    expect(formatFullDate('1987-06-15', 'zh')).toBe('1987.06.15');
+  });
+
+  /**
+   * …and the other seventeen keep the spec §10.2 pair. Driven by the registry so
+   * that a locale added later has to opt IN to a different order rather than
+   * drifting into one: if someone gives locale number 20 a bespoke pattern, this
+   * is the test that makes them say so here too.
+   */
+  it.each(SUPPORTED_LOCALES.filter((l) => l !== 'ko' && l !== 'zh'))(
+    'keeps the little-endian date order in %s',
+    (locale) => {
+      expect(formatFullDate('1987-06-15', locale)).toMatch(/^[\d٠-٩]{2}\.[\d٠-٩]{2}\.[\d٠-٩]{4}$/);
+      // `MMM YYYY`: a month name of some script, then the four-digit year.
+      expect(formatMonthYear('2014-09', locale)).toMatch(/[\d٠-٩]{4}$/);
+    },
+  );
+
+  /**
    * dayjs's Arabic locale rewrites every digit it formats into Arabic-Indic
    * numerals — including `format('YYYY-MM-DD')`, which is how a picked date
    * becomes the value stored in IndexedDB. Left alone, an Arabic UI would

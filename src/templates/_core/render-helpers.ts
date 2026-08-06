@@ -2,6 +2,22 @@ import type { ContactItem, EducationItem, ExperienceItem, Resume } from '../../t
 import { calcAge, localizeDigits } from '../../utils/date';
 
 /**
+ * The two date formats a template may ask `TemplateProps.formatDate` for.
+ *
+ * Re-exported through core so a template never reaches into `utils/` (§7.1) and,
+ * more importantly, so it never spells the pattern out as a literal. They are
+ * TOKENS: `utils/date` maps each to the pattern the CV's own language writes
+ * (`2014년 9월` in Korean, `Sen 2014` in Azerbaijani), so a template that uses
+ * these gets an idiomatic date in all nineteen languages while a template that
+ * hard-codes `'MMM YYYY'` silently opts out of that in two of them.
+ *
+ * Which field takes which is fixed by the spec, not by the template:
+ * `DATE_FULL` for work experience and date of birth, `DATE_MONTH_YEAR` for
+ * education and certificates.
+ */
+export { FULL_DATE as DATE_FULL, MONTH_YEAR as DATE_MONTH_YEAR } from '../../utils/date';
+
+/**
  * Pure, side-effect-free helpers shared by templates. Defensive against absent
  * optional sections (§7.1 forward-compatibility) and enforce BR-5 (empty
  * sections omitted) / BR-6 (current → "Present").

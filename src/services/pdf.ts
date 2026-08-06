@@ -31,8 +31,6 @@ import { i18n } from '../app/i18n';
  * initial bundle small and typing responsive.
  */
 
-let fontsRegistered = false;
-
 const FONT_BASE = `${import.meta.env.BASE_URL}fonts/ttf`;
 
 /**
@@ -45,10 +43,18 @@ const FONT_BASE = `${import.meta.env.BASE_URL}fonts/ttf`;
  *
  * The stack itself is `templates/_core/fonts` — every family it names must be
  * registered here, or text in that script exports blank.
+ *
+ * "Already registered?" is answered by ASKING THE STORE, not by a module-level
+ * boolean. The two differ in exactly one situation and it is a real one: a caller
+ * that has emptied the store with `Font.clear()` — which is how a long-lived
+ * process gets a font a second document can subset from scratch — would be told
+ * "already done" by a flag and then hit `Font family not registered` on the next
+ * render. In the app itself, where this runs once per page load, the two are the
+ * same check.
  */
 export function registerResumeFonts(pdfLib: typeof ReactPdf, fontBase: string = FONT_BASE): void {
-  if (fontsRegistered) return;
   const { Font } = pdfLib;
+  if (Font.getRegisteredFontFamilies().length > 0) return;
 
   Font.register({
     family: 'Inter',
@@ -148,8 +154,6 @@ export function registerResumeFonts(pdfLib: typeof ReactPdf, fontBase: string = 
   });
   // Text-based, ATS-parseable output: don't insert soft hyphens.
   Font.registerHyphenationCallback((word) => [word]);
-
-  fontsRegistered = true;
 }
 
 function sanitizeFilename(resume: Resume): string {

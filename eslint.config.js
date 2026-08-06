@@ -34,4 +34,20 @@ export default tseslint.config(
       globals: { ...globals.browser, ...globals.node },
     },
   },
+  {
+    /**
+     * Build-time tooling: `scripts/` (thumbnails, the social card) and the
+     * locale-pages plugin. Node globals, and no `react-refresh` rule — these
+     * modules export functions, not components.
+     *
+     * ⚠️ `scripts/` is deliberately OUTSIDE `tsc -b`: it is run with `vite-node`,
+     * which transpiles without checking, and type-checking it would mean adding
+     * `@types/node` — a dependency §27 requires approval for, bought for tooling
+     * that never ships. ESLint is the only gate on these files; keep them simple.
+     */
+    files: ['scripts/**/*.ts', 'vite-plugin-locale-pages.ts'],
+    languageOptions: {
+      globals: { ...globals.node, ...globals.browser },
+    },
+  },
 );

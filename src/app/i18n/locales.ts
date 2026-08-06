@@ -112,9 +112,59 @@ export const REGION_ORDER: LocaleRegion[] = [
   'africa',
 ];
 
+/**
+ * The dayjs patterns a locale writes DATES with on the finished CV.
+ *
+ * Spec §10.2 used to name one pair of formats for every language, which was
+ * right until the app reached a language that orders a date differently rather
+ * than merely spelling its months differently. Korean writes `2014년 9월` and
+ * `1987.06.15`, Chinese `2009年9月` — big-endian, unit-marked — where the app-wide
+ * `MMM YYYY` / `DD.MM.YYYY` produced `9월 2014` and `15.06.1987`: readable, but
+ * visibly foreign on a CV whose whole purpose is to look native to its reader.
+ *
+ * A locale's own patterns therefore live here, beside everything else that is a
+ * property OF the language. `utils/date` resolves them, so no caller — template,
+ * editor summary or export — has to know a table exists.
+ *
+ * INPUT is deliberately not covered: the AntD pickers keep `DD.MM.YYYY` in every
+ * locale, because a placeholder is something the user retypes and the parser has
+ * to accept exactly what it advertises. Formatting for the eye and formatting for
+ * the keyboard are two different things, the same split `localizeDigits` makes.
+ */
+export interface DateFormats {
+  /** Work experience + date of birth. */
+  full: string;
+  /** Education + certificates — month precision, localized month. */
+  monthYear: string;
+}
+
+/**
+ * The little-endian, dot-separated pair used by every locale that has no
+ * convention of its own here — Azerbaijani through Uzbek. Named so the two
+ * East Asian entries below stand out as the deliberate exceptions they are.
+ */
+const WESTERN_DATES: DateFormats = { full: 'DD.MM.YYYY', monthYear: 'MMM YYYY' };
+
+/**
+ * Big-endian dates with the year first, as Korean and Chinese both write them.
+ * `M월`/`M月` rather than `MMM` on purpose: the unit marker IS the month name in
+ * these languages, so the numeral needs no abbreviated-month lookup (and none of
+ * `capitalizedMonthsShort`'s casing work, which is a no-op in a unicameral
+ * script anyway).
+ */
+const KOREAN_DATES: DateFormats = { full: 'YYYY.MM.DD', monthYear: 'YYYY년 M월' };
+const CHINESE_DATES: DateFormats = { full: 'YYYY.MM.DD', monthYear: 'YYYY年M月' };
+
 export interface LocaleMeta {
   /** Locale code; doubles as the i18next resource key and the dayjs locale name. */
   code: Locale;
+  /**
+   * How this language orders a date on the CV. Required rather than optional so
+   * that widening the `Locale` union makes `tsc` ask the question for locale
+   * number 20 — `WESTERN_DATES` is the answer for most of them, but it has to be
+   * chosen rather than defaulted into.
+   */
+  dateFormats: DateFormats;
   /** Short chip label in the header switcher. */
   short: string;
   /** Endonym — how speakers name their own language (CV-language select). */
@@ -175,6 +225,7 @@ export interface LocaleMeta {
 export const LOCALES: Record<Locale, LocaleMeta> = {
   az: {
     code: 'az',
+    dateFormats: WESTERN_DATES,
     short: 'AZ',
     nativeName: 'Azərbaycan',
     dir: 'ltr',
@@ -186,6 +237,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
   },
   ru: {
     code: 'ru',
+    dateFormats: WESTERN_DATES,
     short: 'RU',
     nativeName: 'Русский',
     dir: 'ltr',
@@ -197,6 +249,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
   },
   en: {
     code: 'en',
+    dateFormats: WESTERN_DATES,
     short: 'EN',
     nativeName: 'English',
     dir: 'ltr',
@@ -215,6 +268,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
    */
   ka: {
     code: 'ka',
+    dateFormats: WESTERN_DATES,
     short: 'KA',
     nativeName: 'ქართული',
     dir: 'ltr',
@@ -237,6 +291,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
    */
   ar: {
     code: 'ar',
+    dateFormats: WESTERN_DATES,
     short: 'AR',
     nativeName: 'العربية',
     dir: 'rtl',
@@ -260,6 +315,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
    */
   es: {
     code: 'es',
+    dateFormats: WESTERN_DATES,
     short: 'ES',
     nativeName: 'Español',
     dir: 'ltr',
@@ -285,6 +341,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
    */
   he: {
     code: 'he',
+    dateFormats: WESTERN_DATES,
     short: 'HE',
     nativeName: 'עברית',
     dir: 'rtl',
@@ -314,6 +371,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
    */
   ko: {
     code: 'ko',
+    dateFormats: KOREAN_DATES,
     short: 'KO',
     nativeName: '한국어',
     dir: 'ltr',
@@ -347,6 +405,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
    */
   zh: {
     code: 'zh',
+    dateFormats: CHINESE_DATES,
     short: 'ZH',
     nativeName: '简体中文',
     dir: 'ltr',
@@ -377,6 +436,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
    */
   fr: {
     code: 'fr',
+    dateFormats: WESTERN_DATES,
     short: 'FR',
     nativeName: 'Français',
     dir: 'ltr',
@@ -388,6 +448,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
   },
   de: {
     code: 'de',
+    dateFormats: WESTERN_DATES,
     short: 'DE',
     nativeName: 'Deutsch',
     dir: 'ltr',
@@ -399,6 +460,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
   },
   it: {
     code: 'it',
+    dateFormats: WESTERN_DATES,
     short: 'IT',
     nativeName: 'Italiano',
     dir: 'ltr',
@@ -422,6 +484,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
    */
   tr: {
     code: 'tr',
+    dateFormats: WESTERN_DATES,
     short: 'TR',
     nativeName: 'Türkçe',
     dir: 'ltr',
@@ -455,6 +518,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
    */
   pt: {
     code: 'pt',
+    dateFormats: WESTERN_DATES,
     short: 'PT',
     nativeName: 'Português',
     dir: 'ltr',
@@ -466,6 +530,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
   },
   pl: {
     code: 'pl',
+    dateFormats: WESTERN_DATES,
     short: 'PL',
     nativeName: 'Polski',
     dir: 'ltr',
@@ -477,6 +542,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
   },
   hu: {
     code: 'hu',
+    dateFormats: WESTERN_DATES,
     short: 'HU',
     nativeName: 'Magyar',
     dir: 'ltr',
@@ -488,6 +554,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
   },
   el: {
     code: 'el',
+    dateFormats: WESTERN_DATES,
     short: 'EL',
     nativeName: 'Ελληνικά',
     dir: 'ltr',
@@ -509,6 +576,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
    */
   kk: {
     code: 'kk',
+    dateFormats: WESTERN_DATES,
     short: 'KK',
     nativeName: 'Қазақша',
     dir: 'ltr',
@@ -520,6 +588,7 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
   },
   uz: {
     code: 'uz',
+    dateFormats: WESTERN_DATES,
     short: 'UZ',
     nativeName: 'Oʻzbekcha',
     dir: 'ltr',
