@@ -12,46 +12,118 @@ import { SkillModal } from './SkillModal';
  * `document` rather than the render container.
  */
 
-/** Open the field whose label is `label` and read back the options it offers. */
-async function openOptions(label: string): Promise<string[]> {
-  const user = userEvent.setup();
-  const item = screen.getByText(label).closest('.ant-form-item');
-  const selector = item?.querySelector('.ant-select-selector');
-  expect(selector).toBeTruthy();
-  await user.click(selector as Element);
-  await waitFor(() => expect(document.querySelector('.ant-select-item-option')).toBeTruthy());
-  return Array.from(document.querySelectorAll('.ant-select-item-option-content')).map(
-    (el) => el.textContent ?? '',
-  );
-}
-
+/**
+ * The language field is an AutoComplete, not a Select: the dictionary is a list
+ * of SUGGESTIONS and a language it does not carry must still be claimable — see
+ * `LanguageItem.code`, which stopped being the model's one hard constraint.
+ */
 describe('LanguageModal', () => {
-  const base = { open: true, title: 'Dil bilikləri', onSubmit: vi.fn(), onCancel: vi.fn() };
+  const base = { open: true, title: 'Dil bilikləri', onCancel: vi.fn() };
+
+  /** The AutoComplete's own input; suggestions open on typing. */
+  const languageInput = (): HTMLInputElement =>
+    document.querySelector('.ant-select-auto-complete input') as HTMLInputElement;
+
+  /**
+   * Retype the field from scratch.
+   *
+   * ⚠️ Every needle below is narrow enough to match ONE or TWO rows,
+   * deliberately. The dictionary carries 63 languages and rc-select renders only
+   * the first screenful (~9 rows), so a broad needle like "dili" makes "not
+   * offered" and "scrolled past" indistinguishable — a test written that way
+   * passes whether the filter works or not.
+   */
+  async function retype(text: string): Promise<void> {
+    const user = userEvent.setup();
+    await user.clear(languageInput());
+    await user.type(languageInput(), text);
+  }
+
+  /** What the dropdown is offering right now. Read inside `waitFor`: clearing the
+   *  input opens it on the FULL list, and the filtered render lands a tick later. */
+  const suggestions = (): string[] =>
+    Array.from(document.querySelectorAll('.ant-select-item-option-content')).map(
+      (el) => el.textContent ?? '',
+    );
 
   it('hides languages that are already on the CV', async () => {
     renderWithProviders(
-      <LanguageModal {...base} defaultValues={{ code: '', level: 'B1' }} usedCodes={['english']} />,
+      <LanguageModal
+        {...base}
+        onSubmit={vi.fn()}
+        defaultValues={{ name: '', level: 'B1', code: undefined }}
+        usedNames={['Rus dili']}
+      />,
     );
-    // Only the first screenful is rendered (the Select virtualizes its list),
-    // which is enough to prove the taken code is gone from the top of it.
-    const options = await openOptions('Dil');
-    expect(options.length).toBeGreaterThan(0);
-    expect(options).not.toContain('İngilis dili');
-    expect(options).toContain('Azərbaycan dili');
+    /**
+     * "rus dili" matches exactly two rows — "Rus dili", which is taken, and
+     * "Belarus dili", which is not. Asserting the survivor rather than the
+     * absence keeps the dropdown OPEN: with nothing left to show, an
+     * AutoComplete closes (its `notFoundContent` is null) and rc-motion leaves
+     * the last rendered options in the DOM through the close animation, which a
+     * jsdom test then reads as if they were still offered.
+     */
+    await retype('rus dili');
+    await waitFor(() => expect(suggestions()).toEqual(['Belarus dili']));
   });
 
   it('keeps the language of the row being edited so its level can be changed', async () => {
     renderWithProviders(
       <LanguageModal
         {...base}
-        defaultValues={{ code: 'english', level: 'B1' }}
-        usedCodes={['english', 'russian']}
+        onSubmit={vi.fn()}
+        defaultValues={{ name: 'İngilis dili', level: 'B1', code: 'english' }}
+        usedNames={['İngilis dili', 'Rus dili']}
       />,
     );
-    const options = await openOptions('Dil');
-    // Own code stays selectable; the other one taken is still filtered out.
-    expect(options).toContain('İngilis dili');
-    expect(options).not.toContain('Rus dili');
+    // Its OWN language stays offered — otherwise retyping the field to change
+    // only the level would leave nothing to choose.
+    await retype('ngilis');
+    await waitFor(() => expect(suggestions()).toContain('İngilis dili'));
+
+    // The other one taken is gone. "Belarus dili" matches the same needle and is
+    // not taken, so the dropdown stays open and this cannot pass on stale DOM.
+    await retype('rus dili');
+    await waitFor(() => expect(suggestions()).toEqual(['Belarus dili']));
+  });
+
+  it('accepts a language the dictionary does not carry, and stores no code for it', async () => {
+    const onSubmit = vi.fn();
+    const user = userEvent.setup();
+    renderWithProviders(
+      <LanguageModal
+        {...base}
+        onSubmit={onSubmit}
+        defaultValues={{ name: '', level: 'B1', code: undefined }}
+      />,
+    );
+    // Wolof is a real language and deliberately NOT in the dictionary — that it
+    // is no longer a dead end is the whole point of the change.
+    await user.type(languageInput(), 'Volof dili');
+    await user.click(screen.getByText('Yadda saxla'));
+
+    await waitFor(() => expect(onSubmit).toHaveBeenCalledTimes(1));
+    expect(onSubmit.mock.calls[0]?.[0]).toMatchObject({ name: 'Volof dili', level: 'B1' });
+    expect(onSubmit.mock.calls[0]?.[0].code).toBeUndefined();
+  });
+
+  it('attaches the dictionary code when the typed name is a listed language', async () => {
+    const onSubmit = vi.fn();
+    const user = userEvent.setup();
+    renderWithProviders(
+      <LanguageModal
+        {...base}
+        onSubmit={onSubmit}
+        defaultValues={{ name: '', level: 'C1', code: undefined }}
+      />,
+    );
+    // Typed WITHOUT the dotted capital, which also proves the search fold is what
+    // resolves the code (see `useDictionary.findByLabel`).
+    await user.type(languageInput(), 'ingilis dili');
+    await user.click(screen.getByText('Yadda saxla'));
+
+    await waitFor(() => expect(onSubmit).toHaveBeenCalledTimes(1));
+    expect(onSubmit.mock.calls[0]?.[0]).toMatchObject({ code: 'english', level: 'C1' });
   });
 });
 

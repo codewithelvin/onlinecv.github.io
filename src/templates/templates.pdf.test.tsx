@@ -272,6 +272,17 @@ interface TextDraw {
   glyphs: number;
   /** The PDF font resource the run is drawn with, e.g. `F7`. */
   font: string;
+  /**
+   * The run is an INLINE IMAGE's placeholder, not text anybody meant to read.
+   *
+   * `@react-pdf/render` draws a contact-channel mark and then substitutes a SPACE
+   * for the object-replacement glyph that held its place, so every mark leaves a
+   * one-glyph run in the stream. Without this flag the bullet-marker test below
+   * counts those as bullets — which is exactly what happened when the marks
+   * shipped, and it is a property of the mechanism rather than of the marks, so
+   * anything else drawn inline later will need the same exemption.
+   */
+  placeholder: boolean;
 }
 
 /**
@@ -289,6 +300,13 @@ function textDraws(pdfSource: string): TextDraw[] {
   let textMatrix: Matrix = IDENTITY;
   let size = 0;
   let font = '';
+  /**
+   * Set by an image draw and cleared by the next painted run, so that an inline
+   * image's substituted space can be told from real text (see `placeholder`).
+   * A BLOCK image — an avatar — sets it too, but the run after one is a name or a
+   * heading, and only ONE-glyph runs are ever read as placeholders.
+   */
+  let afterImage = false;
 
   for (const raw of pdfSource.split(/\r?\n/)) {
     const line = raw.trim();
@@ -309,13 +327,22 @@ function textDraws(pdfSource: string): TextDraw[] {
       font = tf[1];
       size = Number(tf[2]);
     }
+    if (/^\/I\d+ Do$/.test(line)) afterImage = true;
     if (line.endsWith('TJ')) {
       const placed = concat(textMatrix, ctm);
       const glyphs = (line.match(/<[0-9a-f]+>/g) ?? []).reduce(
         (total, hex) => total + (hex.length - 2) / 4,
         0,
       );
-      draws.push({ x: placed[4], y: placed[5], size, glyphs, font });
+      draws.push({
+        x: placed[4],
+        y: placed[5],
+        size,
+        glyphs,
+        font,
+        placeholder: afterImage && glyphs === 1,
+      });
+      afterImage = false;
     }
   }
   return draws;
@@ -555,7 +582,9 @@ describe('pdf export', () => {
       const source = await renderPdfSource(manifest.id, bulletedResume());
       const draws = textDraws(source);
 
-      const markers = draws.filter((d) => d.glyphs === 1);
+      // A contact mark leaves a one-glyph run behind too (see `placeholder`), and
+      // it is not a bullet — it has no text beside it and nothing to collide with.
+      const markers = draws.filter((d) => d.glyphs === 1 && !d.placeholder);
       expect(markers.length, 'no bullet marker painted at all').toBeGreaterThanOrEqual(2);
 
       for (const marker of markers) {

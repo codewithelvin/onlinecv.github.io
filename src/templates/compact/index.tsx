@@ -2,9 +2,9 @@ import { Children, type JSX, type ReactNode } from 'react';
 import type { TemplateProps } from '../_core/contract';
 import type { LanguageLevel, Locale } from '../../types/resume';
 import { BulletList } from '../_core/bullets';
+import { ContactList } from '../_core/contacts';
 import {
   contactChannels,
-  contactDisplay,
   DATE_FULL as FULL,
   DATE_MONTH_YEAR as MONTH,
   dateRange,
@@ -15,7 +15,7 @@ import {
   KEEP_TOGETHER,
 } from '../_core/render-helpers';
 import { mirrorInlineEndPadding, mirrorRow } from '../_core/direction';
-import { styles } from './styles';
+import { CONTACT_FONT_SIZE, styles } from './styles';
 
 /** Heading + first block never split across pages — see the classic template. */
 function Section({ title, children }: { title: string; children: ReactNode }): JSX.Element | null {
@@ -52,7 +52,7 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
   const levelLabel = (level: LanguageLevel): string =>
     level === 'native' ? t('dictionary.native') : level;
 
-  const contacts = contactChannels(resume).map(contactDisplay);
+  const contacts = contactChannels(resume);
   const skillNames = resume.skills.map((s) => s.name).filter(Boolean);
   const languageText = resume.languages.map((l) => `${l.name} (${levelLabel(l.level)})`).join(', ');
   const interestText = (resume.interests ?? [])
@@ -83,7 +83,14 @@ export default function Compact({ resume, t, formatDate }: TemplateProps): JSX.E
           </div>
         ) : null}
         {contacts.length > 0 ? (
-          <div style={styles.contactLine}>{contacts.join('  •  ')}</div>
+          <div style={styles.contactLine}>
+            <ContactList
+              items={contacts}
+              separator="  •  "
+              style={styles.contactLink}
+              textSize={CONTACT_FONT_SIZE}
+            />
+          </div>
         ) : null}
       </div>
 

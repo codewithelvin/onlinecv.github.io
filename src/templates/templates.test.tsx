@@ -1,7 +1,7 @@
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { describe, expect, it } from 'vitest';
-import type { Resume } from '../types/resume';
+import type { ContactItem, Resume } from '../types/resume';
 import { createEmptyResume } from '../utils/empty-resume';
 import { makeDateFormatter } from '../utils/date';
 import { i18n } from '../app/i18n';
@@ -212,6 +212,132 @@ describe('template smoke render', () => {
           ).toBeNull();
         }
       }
+    });
+  }
+
+  /**
+   * Every contact channel that HAS a target is an anchor, in every template.
+   *
+   * Driven by `listTemplates()`, so a template added later cannot quietly ship a
+   * dead contact line: the hrefs come from core (`contactHref`), a template's
+   * only job is to wrap the value, and this proves it did. The check on the
+   * printed text is the other half — what an ATS reads must be exactly what it
+   * read before any of this became clickable.
+   */
+  for (const { manifest, load } of listTemplates()) {
+    it(`links every contact channel in "${manifest.id}"`, async () => {
+      const linked: Resume = {
+        ...resume,
+        contact: {
+          email: 'elvin@example.az',
+          items: [
+            { id: 'c1', type: 'mobile', value: '+994501234567' },
+            { id: 'c2', type: 'whatsapp', value: '+994551234567' },
+            { id: 'c3', type: 'telegram', value: '@elvin' },
+            { id: 'c4', type: 'address', value: 'Bakı, Nizami küç. 1' },
+          ],
+        },
+        // The other two anchors a template can draw, so the style rule below is
+        // checked against every `<a>` a CV can contain, not just the new ones.
+        projects: [{ id: 'p1', name: 'Portfolio', url: 'https://elvin.dev' }],
+        certifications: [
+          {
+            id: 'cert1',
+            name: 'Advanced TypeScript',
+            organization: 'Udemy',
+            issueDate: '2023-05',
+            credentialUrl: 'https://cert.example/1',
+          },
+        ],
+      };
+      const Template = (await load()).default;
+      const html = renderToStaticMarkup(createElement(Template, { resume: linked, t, formatDate }));
+      const doc = new DOMParser().parseFromString(`<body>${html}</body>`, 'text/html');
+      const anchors = [...doc.querySelectorAll('a')];
+      const hrefs = anchors.map((a) => a.getAttribute('href'));
+
+      expect(hrefs).toContain('mailto:elvin@example.az');
+      expect(hrefs).toContain('tel:+994501234567');
+      expect(hrefs).toContain('https://wa.me/994551234567');
+      expect(hrefs).toContain('https://t.me/elvin');
+
+      // The printed strings are untouched — a link ON the CV, not a rewrite OF it.
+      expect(doc.body.textContent).toContain('+994501234567');
+      expect(doc.body.textContent).toContain('Bakı, Nizami küç. 1');
+      // …and a postal address has no target, so it stays plain text.
+      expect(anchors.find((a) => a.textContent?.includes('Nizami'))).toBeUndefined();
+
+      /**
+       * No template may emit an UNSTYLED anchor. `react-pdf-html` keeps its own
+       * `a { textDecoration: underline }` through `resetStyles`, and a browser
+       * paints a bare anchor blue — either way the line would stop matching the
+       * design it was drawn for.
+       */
+      for (const a of anchors) {
+        expect(
+          a.getAttribute('style') ?? '',
+          `<a href="${a.getAttribute('href')}"> carries no style`,
+        ).toContain('text-decoration:none');
+      }
+    });
+  }
+
+  /**
+   * Every contact channel carries the mark that says WHICH channel it is, in
+   * every template — and nothing else on the CV does.
+   *
+   * The second half is the part worth having. The marks are the only artwork on a
+   * résumé besides the avatar, and the rule is that they belong to contacts and
+   * to nothing else: a mark beside a section heading or a skill would be a
+   * picture where an ATS expects a word. Counting them against the channels is
+   * what makes "only contacts" checkable rather than a comment.
+   */
+  for (const { manifest, load } of listTemplates()) {
+    it(`marks every contact channel, and only those, in "${manifest.id}"`, async () => {
+      const channels: ContactItem[] = [
+        { id: 'c1', type: 'mobile', value: '+994501234567' },
+        { id: 'c2', type: 'landline', value: '+994124985225' },
+        { id: 'c3', type: 'whatsapp', value: '+994551234567' },
+        { id: 'c4', type: 'telegram', value: '@elvin' },
+        { id: 'c5', type: 'address', value: 'Bakı, Nizami küç. 1' },
+      ];
+      const marked: Resume = {
+        ...resume,
+        contact: { email: 'elvin@example.az', items: channels },
+      };
+      const Template = (await load()).default;
+      const html = renderToStaticMarkup(createElement(Template, { resume: marked, t, formatDate }));
+      const doc = new DOMParser().parseFromString(`<body>${html}</body>`, 'text/html');
+      const marks = [...doc.querySelectorAll('[data-contact-icon]')];
+
+      // The primary email is a channel too (see `contactChannels`).
+      expect(marks.map((m) => m.getAttribute('data-contact-icon'))).toEqual([
+        'email',
+        ...channels.map((c) => c.type),
+      ]);
+      // Including the one with no link — a postal address still says it is one.
+      expect(marks).toHaveLength(channels.length + 1);
+
+      for (const mark of marks) {
+        const style = mark.getAttribute('style') ?? '';
+        expect(style, 'a mark with no artwork is an empty box').toContain(
+          'background:url(data:image/png;base64,',
+        );
+        /*
+         * Childless, and this is load-bearing rather than tidy: `react-pdf-html`
+         * reads an element's children to decide inline-versus-block, so an `<img>`
+         * or `<svg>` in here would turn the mark into block content and break the
+         * contact line into stacked fragments in the exported PDF.
+         */
+        expect(mark.childNodes, 'a mark must be an empty span').toHaveLength(0);
+      }
+
+      // Nothing ELSE on the CV carries artwork. The avatar is a separate element
+      // with a `src`, so a background image can only be a channel mark.
+      const withArt = [...doc.querySelectorAll('*')].filter((el) =>
+        (el.getAttribute('style') ?? '').includes('background:url('),
+      );
+      expect(withArt).toHaveLength(marks.length);
     });
   }
 

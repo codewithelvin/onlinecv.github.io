@@ -20,6 +20,12 @@ import { applyFieldVisibility } from '../utils/field-visibility';
 import { loadDictionaries } from '../data/dictionaries';
 import { getTemplate } from '../templates/_core/registry';
 import { cvFontStack } from '../templates/_core/fonts';
+import {
+  contactIcon,
+  contactIconBox,
+  stripIconArt,
+  type ContactIconTone,
+} from '../templates/_core/contact-icons';
 import { fullName } from '../templates/_core/render-helpers';
 import { bleedSide } from '../templates/_core/direction';
 import { i18n } from '../app/i18n';
@@ -248,7 +254,7 @@ export function buildResumeDocument(
   },
 ): ReactElement {
   const rtl = LOCALES[locale].dir === 'rtl';
-  const { Document, Page, Text, View, StyleSheet } = pdfLib;
+  const { Document, Image, Page, Text, View, StyleSheet } = pdfLib;
 
   /**
    * `<div>` renderer that honours the templates' `data-keep-together` marker
@@ -281,6 +287,63 @@ export function buildResumeDocument(
       wrap: keepTogether ? false : undefined,
       children,
     });
+  };
+
+  /**
+   * `<span>` renderer that turns a contact-channel marker into an INLINE image.
+   *
+   * `templates/_core/contacts` prints a small mark after a phone number so a
+   * reader can tell a mobile from a landline from a WhatsApp number. It reaches
+   * the PDF as an empty `<span data-contact-icon>` — deliberately empty, because
+   * `react-pdf-html` reads an element's children to decide inline-versus-block
+   * and an `<img>` in there would tear the contact line into stacked fragments.
+   *
+   * react-pdf then has exactly one way to draw a picture inside running text: an
+   * `Image` child of a `Text`, which `@react-pdf/layout` turns into a textkit
+   * ATTACHMENT (`U+FFFC`, with `xAdvance` taken from the box below). An `Svg`
+   * there produces no fragments and disappears without an error, which is why
+   * these are raster.
+   *
+   * The text layer is not touched: `@react-pdf/render` paints the image and then
+   * swaps the object-replacement glyph for a SPACE, so an ATS reads the phone
+   * number it always read.
+   *
+   * Everything WITHOUT the marker takes react-pdf-html's own inline treatment —
+   * a `Text` with the parsed style — because the templates use plain `<span>`s
+   * for field labels and this renderer replaces the default for the whole tag.
+   */
+  const inlineRenderer = ({
+    element,
+    style,
+    children,
+  }: {
+    element?: { attributes?: Record<string, string> };
+    style?: unknown;
+    children?: ReactNode;
+  }): JSX.Element => {
+    const attributes = element?.attributes ?? {};
+    const type = attributes['data-contact-icon'];
+    if (type === undefined) return createElement(Text, { style: style as never, children });
+
+    const tone = (attributes['data-contact-icon-tone'] ?? 'dark') as ContactIconTone;
+    const drawn = Number(attributes['data-contact-icon-size']);
+    const src = contactIcon(type as never, tone);
+    if (!src || !Number.isFinite(drawn)) return createElement(Text, { style: style as never });
+    /**
+     * The box comes from `contactIconBox`, NOT from arithmetic repeated here: the
+     * preview sizes the same mark from the same function, and a second copy of
+     * "size plus three" is exactly how the two targets start disagreeing by a
+     * point and a half. What the markup carries is the RESOLVED height, so the
+     * ratio that centres the mark on the line is applied once.
+     *
+     * Wider than tall on purpose. react-pdf fits an attachment to its box
+     * preserving aspect ratio and centres it horizontally, so the surplus width
+     * becomes air on both sides — which is how the gap between a value and its
+     * mark is built. It has to be done this way round: react-pdf ignores margins
+     * on an inline attachment, and a one-sided gap would have to swap sides on a
+     * right-to-left CV.
+     */
+    return createElement(Image, { src, style: contactIconBox(drawn) as never });
   };
 
   const styles = StyleSheet.create({
@@ -390,8 +453,9 @@ export function buildResumeDocument(
         style: { flexGrow: 1 },
         // HTML has no way to say "keep this heading with what follows", so the
         // templates mark such boxes in the markup and `blockRenderer` turns the
-        // marker into react-pdf's `wrap` prop.
-        renderers: { div: blockRenderer },
+        // marker into react-pdf's `wrap` prop. `inlineRenderer` does the same job
+        // for the contact-channel marks, which are `<span>`s carrying an id.
+        renderers: { div: blockRenderer, span: inlineRenderer },
         /**
          * Arabic is joined HERE, not by the templates: react-pdf shapes a
          * right-to-left line after it has already reordered it, so the letters
@@ -400,8 +464,14 @@ export function buildResumeDocument(
          * the `TemplateProps` contract untouched — every template, present and
          * future, gets correct Arabic for free — and the function is a no-op for
          * a CV with no Arabic in it, so nothing else changes by a byte.
+         *
+         * `stripIconArt` runs first and drops the contact marks' base64 artwork,
+         * which only the PREVIEW reads: `inlineRenderer` above re-resolves the
+         * same file from `data-contact-icon`, so leaving it in would buy nothing
+         * and cost an "unsupported style" warning plus a couple of kilobytes of
+         * css-tree parsing per channel on every export.
          */
-        children: preshapeArabic(html),
+        children: preshapeArabic(stripIconArt(html)),
       }),
       // Rendered here rather than inside a template, so every template — present
       // and future — carries the credit without implementing it (§7.1: the

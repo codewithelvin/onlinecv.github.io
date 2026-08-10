@@ -242,7 +242,25 @@ export function RHFSlider<T extends FieldValues>({
 }: BaseProps<T> & { min?: number; max?: number; step?: number }): JSX.Element {
   const { field } = useController({ control, name });
   const { message } = useError(control, name);
-  const value = typeof field.value === 'number' ? field.value : min;
+  /**
+   * What the form actually HOLDS — `null` when that is not a usable number.
+   *
+   * ⚠️ Never substitute `min` here. This read used to be
+   * `typeof field.value === 'number' ? field.value : min`, and the substitution
+   * was a lie the user could see: emptying the number box makes rc-input-number
+   * emit `null`, so the field held `null` while the box was re-rendered showing
+   * "1" — and Save then failed with "level must be between 1 and 100" against a
+   * control that plainly read 1. A displayed value that was never written back is
+   * always this bug; the fix is to show nothing when there is nothing, and to
+   * COMMIT the fallback (below) rather than paint it.
+   */
+  const stored =
+    typeof field.value === 'number' && Number.isFinite(field.value) ? field.value : null;
+  /**
+   * A slider cannot draw "unset", so it parks at `min` — which is honest only
+   * because the number box beside it is visibly empty at that moment.
+   */
+  const value = stored ?? min;
   // The twin number box is the practical handle for automation (a slider can
   // only be driven by drag/arrow keys), so it gets an id of its own.
   const numberId = useScopedId(name ? `${name}-value` : undefined);
@@ -273,10 +291,24 @@ export function RHFSlider<T extends FieldValues>({
             min={min}
             max={max}
             step={step}
-            value={value}
+            // `stored`, not `value`: an empty field must LOOK empty while it is
+            // being retyped. Feeding `min` back in also re-filled the box on the
+            // first keystroke of a delete, so the digits a user typed next landed
+            // AFTER it ("0" became "10").
+            value={stored}
             suffix="%"
-            onChange={(v) => field.onChange(v)}
-            onBlur={field.onBlur}
+            onChange={(v) => field.onChange(typeof v === 'number' ? v : null)}
+            /**
+             * Left empty, the field resolves to `min` — the value the control was
+             * already showing. rc-input-number clamps an out-of-range NUMBER on
+             * blur itself (0 → 1, and it never emits an out-of-range value while
+             * typing), but an empty box is not out of range to it, so this is the
+             * one case it hands back untouched.
+             */
+            onBlur={() => {
+              if (stored === null) field.onChange(min);
+              field.onBlur();
+            }}
           />
         </div>
       )}

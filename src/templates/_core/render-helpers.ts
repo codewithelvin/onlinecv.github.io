@@ -143,6 +143,98 @@ export function contactDisplay(item: ContactItem): string {
     .replace(/\/+$/, '');
 }
 
+/** Digits only, `+` kept if it opened the string — an E.164 number for `tel:`. */
+function telNumber(value: string): string {
+  const digits = value.replace(/\D+/g, '');
+  return digits ? `${value.trimStart().startsWith('+') ? '+' : ''}${digits}` : '';
+}
+
+/**
+ * A handle reduced to the characters handles are made of.
+ *
+ * Not decoration: these strings are interpolated into a URL that goes into the
+ * page AND into the PDF, so anything else in them is either a broken link or an
+ * injection. Telegram allows `a-z 0-9 _`, Skype adds `. - : ` (`live:` accounts).
+ */
+function handle(value: string): string {
+  return value.replace(/^@+/, '').replace(/[^\w.:-]+/g, '');
+}
+
+/**
+ * An http(s) URL, or nothing.
+ *
+ * This is what keeps every OTHER scheme out of the document. A value is either
+ * already `http(s)://…`, or it must look like a bare host (`elvin.dev`) to get
+ * one prefixed — so `javascript:alert(1)` in a website field matches neither and
+ * comes back as NO LINK rather than an executable one in the preview. The only
+ * other schemes that can reach the page are the fixed ones `contactHref` writes
+ * itself, each with a sanitized payload.
+ */
+function webUrl(value: string): string | undefined {
+  if (/^https?:\/\//i.test(value)) return value;
+  return /^[\w.-]+\.[a-z]{2,}/i.test(value) ? `https://${value}` : undefined;
+}
+
+/**
+ * Where a contact channel LINKS to — `undefined` when there is nothing to open.
+ *
+ * The printed text never changes (`contactDisplay` still owns that): a recruiter
+ * reading the paper copy sees the number, and one reading the PDF or the preview
+ * can tap it. Both targets get this from one place, so a template only decides
+ * whether its contacts are anchors, never what a phone number turns into.
+ *
+ * A postal address is the one channel with no target — every map link would be a
+ * guess at which service the reader wants, and a wrong pin is worse than none.
+ */
+export function contactHref(item: ContactItem): string | undefined {
+  const value = item.value.trim();
+  if (!value) return undefined;
+  switch (item.type) {
+    case 'email':
+      return `mailto:${value}`;
+    // A fax number is still a telephone number, and `tel:` is the scheme for
+    // one (RFC 3966) — the reader decides what to do with it.
+    case 'mobile':
+    case 'landline':
+    case 'fax': {
+      const number = telNumber(value);
+      return number ? `tel:${number}` : undefined;
+    }
+    // wa.me takes the E.164 number WITHOUT its `+`; with one it 404s.
+    case 'whatsapp': {
+      const number = telNumber(value).replace(/\D+/g, '');
+      return number ? `https://wa.me/${number}` : undefined;
+    }
+    /**
+     * Telegram is stored however the user writes it — `@handle`, `handle`,
+     * `t.me/handle`, a full URL, or the phone number the account is registered
+     * to. `t.me/+<phone>` is Telegram's own form for the last of those (an
+     * invite hash is never all digits, so the two cannot be confused).
+     */
+    case 'telegram': {
+      if (/^https?:\/\//i.test(value)) return value;
+      const path = value.replace(/^(www\.)?t(elegram)?\.me\//i, '');
+      if (/^\+?\d[\d\s()-]*$/.test(path)) {
+        const number = telNumber(path).replace(/\D+/g, '');
+        return number ? `https://t.me/+${number}` : undefined;
+      }
+      const name = handle(path);
+      return name ? `https://t.me/${name}` : undefined;
+    }
+    // `skype:<handle>?chat` is Skype's own URI; a join.skype.com invite is
+    // already a URL and is left alone.
+    case 'skype': {
+      if (/^https?:\/\//i.test(value)) return value;
+      const name = handle(value);
+      return name ? `skype:${name}?chat` : undefined;
+    }
+    case 'address':
+      return undefined;
+    default:
+      return webUrl(value);
+  }
+}
+
 /**
  * Scripts that set a counter word TIGHT against its number: `39세`, not `39 세`.
  *

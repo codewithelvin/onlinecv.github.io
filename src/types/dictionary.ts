@@ -3,7 +3,8 @@ import type { Locale } from './resume';
 /**
  * Predefined dictionary types (spec §13.1). Datasets ship as static JSON under
  * `src/data/` in a unified flat shape and power AutoComplete/Select inputs as
- * suggestions (free-text fallback), except `languages` which is a hard constraint.
+ * suggestions (free-text fallback) — `languages` included, now that
+ * `LanguageItem.code` no longer constrains a CV to the listed ones.
  */
 
 export type DictionaryGroup =

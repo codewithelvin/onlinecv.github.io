@@ -215,9 +215,20 @@ export interface Skill {
 
 export interface LanguageItem {
   id: string;
-  /** Languages dictionary code — HARD constraint, one of the 17 (no free-text). */
-  code: string;
-  /** Resolved name (fallback text). */
+  /**
+   * Languages dictionary code when the typed name resolved to a listed one;
+   * absent for a language the dictionary does not carry.
+   *
+   * ⚠️ This used to be REQUIRED — the one hard constraint in the model, and the
+   * one field with no free-text fallback. It was wrong for the same reason
+   * `min(3)` on a name was: a list can only ever hold the languages someone
+   * thought of, and the app then tells a speaker of Dari, Wolof or a sign
+   * language that they may not claim their own. §13.1's rule (suggestions, never
+   * constraints) now applies here too, so the dictionary — grown to the world's
+   * major languages — is a starting point and anything else can be typed.
+   */
+  code?: string;
+  /** What is PRINTED. Re-derived from `code` at render time when there is one. */
   name: string;
   level: LanguageLevel;
 }

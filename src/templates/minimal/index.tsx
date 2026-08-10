@@ -2,9 +2,9 @@ import { Children, type JSX, type ReactNode } from 'react';
 import type { TemplateProps } from '../_core/contract';
 import type { EducationItem, ExperienceItem, LanguageLevel, Locale } from '../../types/resume';
 import { BulletList } from '../_core/bullets';
+import { ContactList } from '../_core/contacts';
 import {
   contactChannels,
-  contactDisplay,
   DATE_FULL as FULL,
   DATE_MONTH_YEAR as MONTH,
   fullName,
@@ -15,7 +15,7 @@ import {
   nameInitials,
 } from '../_core/render-helpers';
 import { mirrorInlineEndPadding, mirrorRow, mirrorTextAlign } from '../_core/direction';
-import { styles } from './styles';
+import { CONTACT_FONT_SIZE, styles } from './styles';
 
 /**
  * Gutter template — a right-aligned margin column carrying the photo and every
@@ -119,7 +119,7 @@ export default function Minimal({ resume, t, formatDate }: TemplateProps): JSX.E
   const locale = resume.locale;
   const present = t('common.present');
   const infoPairs = generalInfoPairs(resume, t, formatDate, FULL);
-  const contacts = contactChannels(resume).map(contactDisplay);
+  const contacts = contactChannels(resume);
   const interestText = (resume.interests ?? [])
     .map((i) => i.name)
     .filter(Boolean)
@@ -155,7 +155,14 @@ export default function Minimal({ resume, t, formatDate }: TemplateProps): JSX.E
             </div>
           ) : null}
           {contacts.length > 0 ? (
-            <div style={styles.contactLine}>{contacts.join('  ·  ')}</div>
+            <div style={styles.contactLine}>
+              <ContactList
+                items={contacts}
+                separator="  ·  "
+                style={styles.contactLink}
+                textSize={CONTACT_FONT_SIZE}
+              />
+            </div>
           ) : null}
         </div>
       </Row>

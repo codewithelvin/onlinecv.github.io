@@ -10,6 +10,9 @@ import { minimalTheme as c } from './theme';
  * stack of two-cell ROWS that all share one gutter width — same picture, and it
  * paginates properly, which the floated original would not.
  */
+/** Contact text size — `ContactList` sizes its channel marks from it (see `classic`). */
+export const CONTACT_FONT_SIZE = 9;
+
 export const styles: Record<string, CSSProperties> = {
   /** No `fontFamily` — core orders the stack by the CV's language. See modern. */
   page: {
@@ -94,7 +97,9 @@ export const styles: Record<string, CSSProperties> = {
     color: c.muted,
     marginTop: 6,
   },
-  contactLine: { fontSize: 9, color: c.faint, marginTop: 5 },
+  contactLine: { fontSize: CONTACT_FONT_SIZE, color: c.faint, marginTop: 5 },
+  /** Contact channels as links — same colour, no underline (see `ContactList`). */
+  contactLink: { color: c.faint, textDecoration: 'none' },
 
   /* ── sections ─────────────────────────────────────────────────────────── */
 

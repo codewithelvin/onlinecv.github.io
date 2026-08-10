@@ -1,5 +1,45 @@
 import { describe, expect, it } from 'vitest';
-import { LICENSE_CATEGORIES, normalizeLicenseCategories } from './enums';
+import {
+  ALL_CONTACT_TYPES,
+  CONTACT_TYPES,
+  contactTypeChoices,
+  LICENSE_CATEGORIES,
+  normalizeLicenseCategories,
+  RETIRED_CONTACT_TYPES,
+} from './enums';
+
+/**
+ * A retired channel is one the app stops OFFERING without dropping — see
+ * `RETIRED_CONTACT_TYPES` for why Skype is one.
+ *
+ * The pair of assertions is the whole contract: gone from the picker, still
+ * usable by the resume that already has it. Getting only the first half right is
+ * the easy mistake, and it turns a stored contact into an unlabelled row the user
+ * cannot fix.
+ */
+describe('retired contact channels', () => {
+  it('does not offer a retired channel when adding a contact', () => {
+    expect(RETIRED_CONTACT_TYPES.length).toBeGreaterThan(0);
+    for (const type of RETIRED_CONTACT_TYPES) {
+      expect(CONTACT_TYPES).not.toContain(type);
+    }
+  });
+
+  it('offers it again to the item that already uses it', () => {
+    for (const type of RETIRED_CONTACT_TYPES) {
+      expect(contactTypeChoices(type)).toContain(type);
+      // …and to nothing else: a different item must not see it come back.
+      expect(contactTypeChoices('mobile')).not.toContain(type);
+    }
+  });
+
+  /** Retiring is not deleting: the model still carries the channel. */
+  it('keeps the channel in the model', () => {
+    for (const type of RETIRED_CONTACT_TYPES) {
+      expect(ALL_CONTACT_TYPES).toContain(type);
+    }
+  });
+});
 
 /**
  * Driver-licence categories are SUGGESTIONS, not an enum: they differ by issuing

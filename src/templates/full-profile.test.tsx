@@ -16,6 +16,8 @@ import { ATTRIBUTION_FONT_SIZE } from '../utils/attribution';
 import { buildResumeDocument, registerResumeFonts } from '../services/pdf';
 import { i18n } from '../app/i18n';
 import { getTemplate, listTemplates } from './_core/registry';
+import { stripIconArt } from './_core/contact-icons';
+import { pdfPlainText } from '../test/pdf-text';
 import { styles as classicStyles } from './classic/styles';
 import { styles as modernStyles } from './modern/styles';
 
@@ -222,4 +224,81 @@ describe('full profile', () => {
     );
     expect(fullHeight).toHaveLength(pageCount(source));
   }, 60_000);
+
+  /**
+   * The contact channels are real PDF link ANNOTATIONS, not merely styled text.
+   *
+   * The markup guard in `templates.test.tsx` proves each value is wrapped in an
+   * `<a href>`; it cannot prove `react-pdf-html` turned that into a `Link` and
+   * that `@react-pdf` emitted a `/URI` action for it. Reading the finished file
+   * is the only place that question is actually answered — and it goes through
+   * `buildResumeDocument`, the function the Download button calls, for the
+   * standing reason that every layout bug which shipped hid behind a test that
+   * re-implemented the export.
+   */
+  it('emits a clickable annotation for every contact channel that has one', async () => {
+    const source = await renderPdfSource('classic', await localized());
+    const uris = [...source.matchAll(/\/URI \(([^)]*)\)/g)].map((m) => m[1]);
+
+    expect(uris).toContain('mailto:codewithelvin@gmail.com');
+    expect(uris).toContain('tel:+994558043484');
+    expect(uris.some((u) => u.startsWith('https://www.linkedin.com/'))).toBe(true);
+    // A postal address is deliberately unlinked (see `contactHref`), so nothing
+    // in the file may point at one.
+    expect(uris.some((u) => /Bak|Baki/.test(u))).toBe(false);
+  }, 60_000);
+
+  /**
+   * The channel marks reach the exported PDF as real images — AND the text layer
+   * comes out exactly as it did before they existed.
+   *
+   * Both halves matter, and only the finished file can answer either. A mark is
+   * drawn as a react-pdf inline ATTACHMENT: a `U+FFFC` bound to an image inside
+   * the text run. Two things could go wrong invisibly — `react-pdf-html` could
+   * bucket the `<span>` as BLOCK content (the contact line would come apart into
+   * stacked fragments), or the object-replacement character could survive into the
+   * text layer and wedge a stray glyph into the middle of a phone number. The
+   * second one is the serious one: this app's whole promise is that an ATS can
+   * read the file, and it would hide behind a page that looks perfectly right.
+   *
+   * `@react-pdf/render` swaps the replacement glyph for a SPACE once the image is
+   * painted, which is why the numbers below come back intact.
+   */
+  it('draws the contact marks as images without touching the text layer', async () => {
+    const resume = await localized();
+    const source = await renderPdfSource('classic', resume);
+    expect(
+      (source.match(/\/Subtype \/Image/g) ?? []).length,
+      'no image XObject — the marks never reached the file',
+    ).toBeGreaterThan(0);
+
+    const text = pdfPlainText(source);
+    for (const value of [
+      'codewithelvin@gmail.com',
+      '+994558043484',
+      '+994124985225',
+      'linkedin.com/in/elvinihuseynov',
+      'github.com/codewithelvin',
+    ]) {
+      expect(text, `"${value}" did not survive the marks`).toContain(value);
+    }
+    // …and no mark left its own character behind.
+    expect(text).not.toContain('￼');
+  }, 60_000);
+
+  /**
+   * The base64 artwork does NOT travel into `react-pdf-html`.
+   *
+   * `stripIconArt` takes it out because the exporter re-resolves the same file
+   * from `data-contact-icon`; leaving it in would cost an "unsupported style"
+   * warning per channel plus a couple of kilobytes of css-tree parsing each.
+   * Asserted against the markup the exporter is actually handed, so the strip
+   * cannot quietly stop matching what `ContactIcon` writes.
+   */
+  it('hands react-pdf-html no icon artwork to parse', async () => {
+    const Template = (await getTemplate('classic').load()).default;
+    const html = renderHtml(Template as never, await localized());
+    expect(html, 'the preview lost its artwork').toContain('background:url(data:image/png;base64,');
+    expect(stripIconArt(html)).not.toContain('base64');
+  });
 });

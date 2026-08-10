@@ -2,6 +2,9 @@ import type { CSSProperties } from 'react';
 import { modernTheme as m } from './theme';
 
 /** Modern template styles (inline CSSProperties; spec §7.1 subset — flexbox only). */
+/** Contact text size — `ContactList` sizes its channel marks from it (see `classic`). */
+export const CONTACT_FONT_SIZE = 10;
+
 export const styles: Record<string, CSSProperties> = {
   /**
    * No `fontFamily` here on purpose: core sets it on the page for both targets
@@ -95,7 +98,12 @@ export const styles: Record<string, CSSProperties> = {
     paddingBottom: 3,
     marginBottom: 6,
   },
-  sideItem: { fontSize: 10, color: m.sidebarMuted, marginBottom: 3 },
+  sideItem: { fontSize: CONTACT_FONT_SIZE, color: m.sidebarMuted, marginBottom: 3 },
+  /**
+   * A contact channel as a link in the SIDEBAR — the sidebar's muted colour, not
+   * `link` below (that one is for the light main column). See `ContactValue`.
+   */
+  contactLink: { color: m.sidebarMuted, textDecoration: 'none' },
   barLabel: { fontSize: 10, color: m.sidebarText, marginBottom: 2, marginTop: 5 },
   /** A ROW, not a block: see `barTrack` in `index.tsx` for why it matters. */
   barTrack: {

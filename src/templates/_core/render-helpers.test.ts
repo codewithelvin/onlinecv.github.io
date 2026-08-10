@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import type { Locale, Resume } from '../../types/resume';
+import type { ContactType, Locale, Resume } from '../../types/resume';
 import { createEmptyResume } from '../../utils/empty-resume';
-import { fullName, nameInitials, withUnit } from './render-helpers';
+import { contactDisplay, contactHref, fullName, nameInitials, withUnit } from './render-helpers';
 
 /**
  * `withUnit` exists because the age read-out is the one place the CV concatenates a
@@ -116,5 +116,80 @@ describe('nameInitials', () => {
   it('survives an empty field', () => {
     expect(nameInitials('Elvin', '')).toBe('E');
     expect(nameInitials('', '')).toBe('');
+  });
+});
+
+/**
+ * `contactHref` is what makes a printed contact line tappable in the preview and
+ * clickable in the exported PDF. It is core rather than per-template on purpose:
+ * what a phone number or a WhatsApp handle turns into belongs to the CHANNEL, so
+ * every template — present and future — gets the same target.
+ */
+describe('contactHref', () => {
+  const item = (type: ContactType, value: string) => ({ id: 'c', type, value });
+
+  it('dials phone-shaped channels through tel:', () => {
+    expect(contactHref(item('mobile', '+994501234567'))).toBe('tel:+994501234567');
+    expect(contactHref(item('landline', '+994 12 345 67 89'))).toBe('tel:+994123456789');
+    // A fax number is still a telephone number (RFC 3966).
+    expect(contactHref(item('fax', '+994121234567'))).toBe('tel:+994121234567');
+  });
+
+  it('drops the + for wa.me, which 404s with one', () => {
+    expect(contactHref(item('whatsapp', '+994501234567'))).toBe('https://wa.me/994501234567');
+  });
+
+  it('takes Telegram in every shape a user writes it', () => {
+    expect(contactHref(item('telegram', '@elvin'))).toBe('https://t.me/elvin');
+    expect(contactHref(item('telegram', 'elvin'))).toBe('https://t.me/elvin');
+    expect(contactHref(item('telegram', 't.me/elvin'))).toBe('https://t.me/elvin');
+    expect(contactHref(item('telegram', 'https://t.me/elvin'))).toBe('https://t.me/elvin');
+    // Telegram's own form for a registered phone number; an invite hash is never
+    // all digits, so the two cannot be confused.
+    expect(contactHref(item('telegram', '+994501234567'))).toBe('https://t.me/+994501234567');
+  });
+
+  it('opens Skype through its own URI, and leaves an invite URL alone', () => {
+    expect(contactHref(item('skype', 'live:elvin_1'))).toBe('skype:live:elvin_1?chat');
+    expect(contactHref(item('skype', 'https://join.skype.com/abc'))).toBe(
+      'https://join.skype.com/abc',
+    );
+  });
+
+  it('mails an e-mail and links a profile URL as-is', () => {
+    expect(contactHref(item('email', 'a@b.com'))).toBe('mailto:a@b.com');
+    expect(contactHref(item('linkedin', 'https://www.linkedin.com/in/elvin/'))).toBe(
+      'https://www.linkedin.com/in/elvin/',
+    );
+    // Stored without a scheme (older records, or a user who typed the host).
+    expect(contactHref(item('website', 'elvin.dev'))).toBe('https://elvin.dev');
+  });
+
+  /**
+   * The preview puts this straight into the DOM, so a value that is not already
+   * `http(s)` must never come back out as an executable scheme. Everything else
+   * either gets a fixed scheme with a sanitized payload or no link at all.
+   */
+  it('cannot emit a dangerous scheme from a user-supplied URL', () => {
+    expect(contactHref(item('website', 'javascript:alert(1)'))).toBeUndefined();
+    expect(contactHref(item('telegram', '"><script>x</script>'))).toBe(
+      'https://t.me/scriptxscript',
+    );
+  });
+
+  it('leaves a postal address unlinked and skips an empty value', () => {
+    expect(contactHref(item('address', 'Bakı, Nizami küç. 1'))).toBeUndefined();
+    expect(contactHref(item('mobile', '   '))).toBeUndefined();
+  });
+
+  /**
+   * The PRINTED string is unchanged by any of this — an ATS reads the same
+   * contact line it always did, and a paper copy still shows the number.
+   */
+  it('never changes what is printed', () => {
+    expect(contactDisplay(item('mobile', '+994501234567'))).toBe('+994501234567');
+    expect(contactDisplay(item('linkedin', 'https://www.linkedin.com/in/elvin/'))).toBe(
+      'linkedin.com/in/elvin',
+    );
   });
 });

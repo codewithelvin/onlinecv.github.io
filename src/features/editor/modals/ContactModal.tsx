@@ -6,7 +6,7 @@ import { RHFSelect, RHFText } from '../../../components/form/fields';
 import { VALUE_DIR } from '../../../utils/bidi';
 import { yupResolver } from '../../../utils/yup-resolver';
 import { contactSchema, type ContactFormValues } from '../schemas';
-import { CONTACT_TYPES, dictOptions } from '../enums';
+import { contactTypeChoices, dictOptions } from '../enums';
 import type { ItemModalProps } from './types';
 
 export function ContactModal({
@@ -27,7 +27,10 @@ export function ContactModal({
         control={control}
         name="type"
         label={t('fields.contactType')}
-        options={dictOptions(CONTACT_TYPES, t)}
+        /* Retired channels are offered only to the item that already uses one
+           (see `contactTypeChoices`) — otherwise editing a Skype contact saved
+           years ago would show the raw code instead of its label. */
+        options={dictOptions(contactTypeChoices(defaultValues.type), t)}
         required
       />
       {/* One field holds every channel — a phone number, a handle, a URL, an

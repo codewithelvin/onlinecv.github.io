@@ -11,6 +11,9 @@ import { timelineTheme as c } from './theme';
  * rebuilt out of flex boxes here — see `rail*`/`dot` and `placeRow` below. That
  * rebuild is the whole adaptation: the geometry is the same, the mechanism is not.
  */
+/** Contact text size — `ContactList` sizes its channel marks from it (see `classic`). */
+export const CONTACT_FONT_SIZE = 8.5;
+
 export const styles: Record<string, CSSProperties> = {
   /**
    * No `fontFamily` and no `backgroundColor` — see the modern template for both.
@@ -173,6 +176,8 @@ export const styles: Record<string, CSSProperties> = {
     color: c.heading,
     marginBottom: 5,
   },
-  sideItem: { fontSize: 8.5, color: c.muted, marginBottom: 2.5, lineHeight: 1.4 },
+  sideItem: { fontSize: CONTACT_FONT_SIZE, color: c.muted, marginBottom: 2.5, lineHeight: 1.4 },
+  /** Contact channels as links — same colour, no underline (see `ContactValue`). */
+  contactLink: { color: c.muted, textDecoration: 'none' },
   sideLabel: { fontSize: 8, color: c.faint, textTransform: 'uppercase', letterSpacing: 0.4 },
 };

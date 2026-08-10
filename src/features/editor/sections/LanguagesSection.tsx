@@ -8,17 +8,19 @@ import { LanguageModal } from '../modals/LanguageModal';
 import type { LanguageFormValues } from '../schemas';
 import { SectionBody } from './SectionBody';
 
-const EMPTY: LanguageFormValues = { code: '', level: 'B1' };
+const EMPTY: LanguageFormValues = { name: '', level: 'B1', code: undefined };
 
 export function LanguagesSection(): JSX.Element {
   const { t } = useTranslation();
   const languages = useDictionary('languages');
   const ed = useSectionEditor<LanguageItem>('languages');
+  /** Dictionary languages re-label with the UI language; free-text ones don't. */
+  const label = (item: LanguageItem): string => languages.resolve(item.code, item.name);
 
   const toItem = (v: LanguageFormValues, id: string): LanguageItem => ({
     id,
-    code: v.code,
-    name: languages.resolve(v.code, v.code),
+    code: v.code || undefined,
+    name: v.name.trim(),
     level: v.level as LanguageLevel,
   });
 
@@ -29,9 +31,10 @@ export function LanguagesSection(): JSX.Element {
     <SectionBody
       ids={ed.items.map((x) => x.id)}
       titles={
-        // The code is the stored truth (hard constraint, one of the 17), so the
-        // name follows the UI language, not the one it was added in.
-        ed.items.map((x) => languages.resolve(x.code, x.name))
+        // Where there IS a code it is the stored truth, so the name follows the
+        // UI language rather than the one it was added in; a typed language has
+        // no code and keeps the words the user wrote.
+        ed.items.map(label)
       }
       subtitles={ed.items.map((x) => levelLabel(x.level))}
       addLabel={t('common.add')}
@@ -46,9 +49,17 @@ export function LanguagesSection(): JSX.Element {
           open
           title={ed.isAdding ? t('sections.languages') : t('common.edit')}
           defaultValues={
-            ed.editingItem ? { code: ed.editingItem.code, level: ed.editingItem.level } : EMPTY
+            ed.editingItem
+              ? {
+                  // The LABEL, not the stored snapshot: the field shows the same
+                  // words the list does, in the UI language of the moment.
+                  name: label(ed.editingItem),
+                  level: ed.editingItem.level,
+                  code: ed.editingItem.code,
+                }
+              : EMPTY
           }
-          usedCodes={ed.items.map((x) => x.code)}
+          usedNames={ed.items.map(label)}
           onSubmit={(v) => ed.save(toItem(v, ed.editingItem?.id ?? createId()))}
           onCancel={ed.close}
         />

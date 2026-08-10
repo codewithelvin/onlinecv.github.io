@@ -1,6 +1,9 @@
 import type { CSSProperties } from 'react';
 import { compactTheme as c } from './theme';
 
+/** Contact line text size — `ContactList` sizes its marks from it (see `classic`). */
+export const CONTACT_FONT_SIZE = 9;
+
 /** Compact template styles — smaller base size, tighter leading/margins (spec build plan). */
 export const styles: Record<string, CSSProperties> = {
   /**
@@ -25,7 +28,9 @@ export const styles: Record<string, CSSProperties> = {
   header: { display: 'flex', flexDirection: 'column', marginBottom: 8 },
   name: { fontSize: 19, fontWeight: 700, color: c.heading },
   headline: { fontSize: 11, color: c.accent, fontWeight: 600 },
-  contactLine: { fontSize: 9, color: c.muted, marginTop: 3 },
+  contactLine: { fontSize: CONTACT_FONT_SIZE, color: c.muted, marginTop: 3 },
+  /** Contact channels as links — same colour, no underline (see `ContactList`). */
+  contactLink: { color: c.muted, textDecoration: 'none' },
   section: { marginBottom: 7, display: 'flex', flexDirection: 'column' },
   /** Heading + first entry, kept on one page (see `KEEP_TOGETHER`). */
   keepTogether: { display: 'flex', flexDirection: 'column' },

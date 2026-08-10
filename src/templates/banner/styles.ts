@@ -4,6 +4,9 @@ import { bannerTheme as c } from './theme';
 /**
  * Banner template styles (inline CSSProperties; spec §7.1 subset — flexbox only).
  */
+/** Contact text size — `ContactList` sizes its channel marks from it (see `classic`). */
+export const CONTACT_FONT_SIZE = 8.5;
+
 export const styles: Record<string, CSSProperties> = {
   /**
    * No `fontFamily` — core orders the stack by the CV's language (see modern).
@@ -60,7 +63,17 @@ export const styles: Record<string, CSSProperties> = {
     color: c.onAccentMuted,
     marginTop: 3,
   },
-  bandContacts: { fontSize: 8.5, color: c.onAccentMuted, marginTop: 4, lineHeight: 1.4 },
+  bandContacts: {
+    fontSize: CONTACT_FONT_SIZE,
+    color: c.onAccentMuted,
+    marginTop: 4,
+    lineHeight: 1.4,
+  },
+  /**
+   * Contact channels as links inside the accent band — the band's own muted
+   * on-accent colour, never the link colour used on white (see `ContactList`).
+   */
+  bandContactLink: { color: c.onAccentMuted, textDecoration: 'none' },
 
   body: { padding: '14px 26px 0', display: 'flex', flexDirection: 'column' },
 

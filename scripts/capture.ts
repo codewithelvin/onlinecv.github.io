@@ -46,6 +46,15 @@ export interface CaptureJob {
   format?: 'jpeg' | 'png';
   /** JPEG only. */
   quality?: number;
+  /**
+   * Capture the page's alpha channel instead of compositing it onto white.
+   *
+   * PNG only — a JPEG has no alpha, and Chromium silently gives you the white
+   * again. Needed by `make-contact-icons.ts`, whose output has to sit on a
+   * coloured band as well as on paper; everything else here wants the default
+   * opaque sheet.
+   */
+  transparent?: boolean;
 }
 
 interface Cdp {
@@ -160,6 +169,19 @@ export async function capture(jobs: CaptureJob[], log = console.log): Promise<vo
       await cdp.send('Runtime.evaluate', {
         expression: 'document.fonts.ready.then(() => true)',
         awaitPromise: true,
+      });
+      /**
+       * The alpha channel is a per-page override and it does NOT reset itself,
+       * so it is set on every job rather than once — a transparent job followed
+       * by an opaque one would otherwise hand the second one a see-through
+       * background.
+       */
+      await cdp.send('Emulation.setDefaultBackgroundColorOverride', {
+        color: job.transparent
+          ? { r: 0, g: 0, b: 0, a: 0 }
+          : // Chromium's own default. Spelled out rather than cleared, because
+            // `a: 0` on a previous job persists otherwise.
+            { r: 255, g: 255, b: 255, a: 1 },
       });
       const shot = await cdp.send('Page.captureScreenshot', {
         format: job.format ?? 'jpeg',

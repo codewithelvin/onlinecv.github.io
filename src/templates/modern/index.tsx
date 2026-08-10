@@ -2,9 +2,9 @@ import { Children, type JSX, type ReactNode } from 'react';
 import type { TemplateProps } from '../_core/contract';
 import type { LanguageLevel, Locale } from '../../types/resume';
 import { BulletList } from '../_core/bullets';
+import { ContactValue } from '../_core/contacts';
 import {
   contactChannels,
-  contactDisplay,
   DATE_FULL as FULL,
   DATE_MONTH_YEAR as MONTH,
   dateRange,
@@ -16,7 +16,7 @@ import {
   nameInitials,
 } from '../_core/render-helpers';
 import { mirrorRow } from '../_core/direction';
-import { styles } from './styles';
+import { CONTACT_FONT_SIZE, styles } from './styles';
 
 /** Heading + first block never split across pages — see the classic template. */
 function MainSection({
@@ -121,7 +121,12 @@ export default function Modern({ resume, t, formatDate }: TemplateProps): JSX.El
           {contacts.length > 0
             ? contacts.map((c) => (
                 <div key={c.id} style={styles.sideItem}>
-                  {contactDisplay(c)}
+                  <ContactValue
+                    item={c}
+                    style={styles.contactLink}
+                    textSize={CONTACT_FONT_SIZE}
+                    iconTone="light"
+                  />
                 </div>
               ))
             : null}

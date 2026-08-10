@@ -2,9 +2,9 @@ import { Children, type JSX, type ReactNode } from 'react';
 import type { TemplateProps } from '../_core/contract';
 import type { LanguageLevel, Locale } from '../../types/resume';
 import { BulletList } from '../_core/bullets';
+import { ContactList } from '../_core/contacts';
 import {
   contactChannels,
-  contactDisplay,
   DATE_FULL as FULL,
   DATE_MONTH_YEAR as MONTH,
   dateRange,
@@ -15,7 +15,7 @@ import {
   KEEP_TOGETHER,
 } from '../_core/render-helpers';
 import { mirrorInlineEndPadding, mirrorRow } from '../_core/direction';
-import { styles } from './styles';
+import { CONTACT_FONT_SIZE, styles } from './styles';
 
 /**
  * Section wrapper — renders nothing when the body is empty (BR-5).
@@ -63,7 +63,7 @@ export default function Classic({ resume, t, formatDate }: TemplateProps): JSX.E
   // The gap between title and date follows them across (see the helper).
   const entryTitle = mirrorInlineEndPadding(styles.entryTitle, resume.locale);
   const infoRow = mirrorRow(styles.infoRow, resume.locale);
-  const contacts = contactChannels(resume).map(contactDisplay);
+  const contacts = contactChannels(resume);
   const skillNames = resume.skills.map((s) => s.name).filter(Boolean);
   const languageText = resume.languages
     .map((l) => `${l.name} (${levelLabel(l.level)})`)
@@ -84,7 +84,14 @@ export default function Classic({ resume, t, formatDate }: TemplateProps): JSX.E
           </div>
         ) : null}
         {contacts.length > 0 ? (
-          <div style={styles.contactLine}>{contacts.join('  •  ')}</div>
+          <div style={styles.contactLine}>
+            <ContactList
+              items={contacts}
+              separator="  •  "
+              style={styles.contactLink}
+              textSize={CONTACT_FONT_SIZE}
+            />
+          </div>
         ) : null}
       </div>
 

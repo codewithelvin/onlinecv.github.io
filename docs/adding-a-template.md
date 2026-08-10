@@ -72,6 +72,17 @@ src/templates/<id>/
     was handed children, so resolve emptiness BEFORE the JSX — a child component that returns
     `null` is still a truthy child, and you get a heading over an empty section.
 
+13. **Contacts go through `ContactList`/`ContactValue`, and they need two more props than the link
+    style.** `textSize` is the font size of the CONTACT TEXT, not of the mark: core derives the
+    mark's height from it (cap height), which is the whole reason a channel icon reads as
+    vertically centred on the line. Export the size as a constant from your `styles.ts` and use it
+    in both places — `styles` is typed `Record<string, CSSProperties>`, so reading `fontSize` back
+    out of it recovers `string | number | undefined`. `iconTone` is `dark` (default, for contacts
+    on paper) or `light` (white marks, for contacts on a filled band or sidebar — `banner` and
+    `modern`). Never draw the mark yourself: an `<img>` or `<svg>` beside a contact value makes
+    `react-pdf-html` treat it as BLOCK content and the exported contact line comes apart into
+    stacked fragments.
+
 ## Naming
 
 `manifest.name` is a `LocalizedText`; only `az` is required, but ship all 19 — the picker shows the

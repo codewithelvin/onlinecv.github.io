@@ -326,13 +326,15 @@ empty values, and that the dayjs data was imported.
      ("Contabilidad" *and* "Contable"), because the field is labelled "Profession
      (specialty)" and users enter both. They must not collapse into one label.
 
-   One dataset matters more than the others: **`languages`**. `LanguageItem.code`
-   is the only field in the model with no free-text fallback (§13.1), so a language
-   missing from that file cannot be claimed on a CV at all — shipping a Georgian UI
-   while Georgian was absent from the list meant a Georgian user could not list
-   their own mother tongue. A test asserts every UI language has a row, and it maps
-   the locale to a code rather than assuming they match: Spanish is `hispanic`,
-   the name the original dictionary used.
+   One dataset still matters more than the others: **`languages`**. It takes free
+   text now like every other dictionary — `LanguageItem.code` used to be the one
+   hard constraint in the model, so a language missing from that file could not be
+   claimed on a CV at all, and shipping a Georgian UI while Georgian was absent
+   from the list meant a Georgian user could not list their own mother tongue. A
+   missing row is no longer a dead end, but it still costs the entry its
+   re-labelling when the CV language changes, so a UI language must always have
+   one. A test asserts that, and it maps the locale to a code rather than assuming
+   they match: Spanish is `hispanic`, the name the original dictionary used.
 
 ## Optional step
 
@@ -350,8 +352,11 @@ The rules that broke, in order of discovery:
 - **The name pattern** allowed Latin + Azerbaijani + Cyrillic letters only, so an
   Arabic or Georgian user could not get past the first wizard field. Now `\p{L}`.
 - **The languages dictionary** had no Georgian row while the Georgian UI shipped,
-  and `LanguageItem.code` is the one field with no free-text fallback — so a
-  Georgian user could not claim their mother tongue. `datasets.test.ts` guards it.
+  and `LanguageItem.code` was then the one field with no free-text fallback — so a
+  Georgian user could not claim their mother tongue. `datasets.test.ts` guards the
+  row; the constraint itself is gone (the list could only ever hold the languages
+  someone thought of, which left speakers of everything else with the same dead
+  end Georgian had).
 - **Driver-licence categories** were a hard 11-value enum of the Azerbaijani set,
   shown to all locales, and it actively discarded anything else. The axis was wrong
   too: a licence is issued by a COUNTRY, not by the language the app is read in.

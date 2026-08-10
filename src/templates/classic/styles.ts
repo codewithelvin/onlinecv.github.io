@@ -2,6 +2,18 @@ import type { CSSProperties } from 'react';
 import { classicTheme as c } from './theme';
 
 /**
+ * Size of the contact line's text.
+ *
+ * A named constant rather than a literal because `ContactList` needs the SAME
+ * number to size its channel marks — that is what keeps a mark vertically centred
+ * on the line it sits in (`contactIconHeight`). `styles` is typed
+ * `Record<string, CSSProperties>`, so reading it back out of `contactLine`
+ * recovers `string | number | undefined` and re-introduces the guesswork this
+ * avoids.
+ */
+export const CONTACT_FONT_SIZE = 10;
+
+/**
  * Classic template styles as inline `CSSProperties` (spec §7.1 CSS subset).
  * The same objects drive the live HTML preview and the export PDF, so they
  * stay within flexbox/colors/borders/fonts only — no grid/position/floats.
@@ -37,7 +49,15 @@ export const styles: Record<string, CSSProperties> = {
   },
   name: { fontSize: 24, fontWeight: 700, color: c.heading, letterSpacing: 0.2 },
   headline: { fontSize: 13, color: c.accent, fontWeight: 600, marginTop: 2 },
-  contactLine: { fontSize: 10, color: c.muted, marginTop: 6 },
+  contactLine: { fontSize: CONTACT_FONT_SIZE, color: c.muted, marginTop: 6 },
+  /**
+   * A contact channel as a link (`ContactList`). Deliberately the SAME colour as
+   * `contactLine` and undecorated: the printed contact line must look exactly as
+   * it did before it became tappable. The declaration is still required — a
+   * browser paints an unstyled anchor blue, and `react-pdf-html`'s own
+   * `a { textDecoration: underline }` survives `resetStyles`.
+   */
+  contactLink: { color: c.muted, textDecoration: 'none' },
   section: { marginBottom: 12, display: 'flex', flexDirection: 'column' },
   /** Heading + first entry, kept on one page (see `KEEP_TOGETHER`). */
   keepTogether: { display: 'flex', flexDirection: 'column' },

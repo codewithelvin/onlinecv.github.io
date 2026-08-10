@@ -182,11 +182,14 @@ describe('dictionary translation coverage', () => {
   });
 
   /**
-   * `LanguageItem.code` is the one field in the model with NO free-text fallback
-   * (§13.1) — a language that is not in this dataset cannot be claimed on a CV at
-   * all. So every language the app itself speaks has to be in it: shipping a
-   * Georgian UI while Georgian was missing from the 17 rows meant a Georgian user
-   * could not list their own mother tongue.
+   * `LanguageItem.code` USED to be the one field in the model with no free-text
+   * fallback, which made a missing row a hard dead end — shipping a Georgian UI
+   * while Georgian was absent from the 17 rows meant a Georgian user could not
+   * list their own mother tongue at all. The field takes free text now, so this
+   * is no longer about being able to enter the language; it is about the entry
+   * carrying a CODE, which is the only thing that re-labels it when the CV
+   * language changes. A user writing a CV in their own UI language and exporting
+   * it in another must not watch their mother tongue stay behind.
    */
   it('lets a speaker of every supported UI language claim it on their CV', () => {
     const ownLanguage: Record<string, string> = {

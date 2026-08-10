@@ -2,9 +2,9 @@ import { Children, type CSSProperties, type JSX, type ReactNode } from 'react';
 import type { TemplateProps } from '../_core/contract';
 import type { LanguageLevel, Locale } from '../../types/resume';
 import { BulletList } from '../_core/bullets';
+import { ContactList } from '../_core/contacts';
 import {
   contactChannels,
-  contactDisplay,
   DATE_FULL as FULL,
   DATE_MONTH_YEAR as MONTH,
   dateRange,
@@ -16,7 +16,7 @@ import {
   nameInitials,
 } from '../_core/render-helpers';
 import { isRtl, mirrorInlineEndPadding, mirrorRow } from '../_core/direction';
-import { styles } from './styles';
+import { CONTACT_FONT_SIZE, styles } from './styles';
 
 /**
  * Banner template — a full-width accent header carrying the photo and the contact
@@ -85,7 +85,7 @@ export default function Banner({ resume, t, formatDate }: TemplateProps): JSX.El
   const rtl = isRtl(locale);
   const present = t('common.present');
   const infoPairs = generalInfoPairs(resume, t, formatDate, FULL);
-  const contacts = contactChannels(resume).map(contactDisplay);
+  const contacts = contactChannels(resume);
 
   const band = mirrorRow(styles.band, locale);
   const headRow = mirrorRow(styles.headRow, locale);
@@ -142,7 +142,15 @@ export default function Banner({ resume, t, formatDate }: TemplateProps): JSX.El
             </div>
           ) : null}
           {contacts.length > 0 ? (
-            <div style={styles.bandContacts}>{contacts.join('  ·  ')}</div>
+            <div style={styles.bandContacts}>
+              <ContactList
+                items={contacts}
+                separator="  ·  "
+                style={styles.bandContactLink}
+                textSize={CONTACT_FONT_SIZE}
+                iconTone="light"
+              />
+            </div>
           ) : null}
         </div>
       </div>

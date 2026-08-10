@@ -135,9 +135,19 @@ export const skillSchema = yup.object({
   code: yup.string().optional(),
 });
 
+/**
+ * A language is now TYPED, not picked (see `LanguageItem.code`): the dictionary
+ * supplies suggestions and anything else is accepted, so `name` carries the rule
+ * and `code` is whatever the typed text resolved to on submit.
+ *
+ * 100 to match `FIELD_MAX.languages` in `data/datasets.test.ts` — the field has
+ * to be able to hold the longest label its own dropdown offers.
+ */
 export const languageSchema = yup.object({
-  code: yup.string().required('selectLanguage'),
+  name: yup.string().trim().required('selectLanguage').max(100, 'maximumHundredCharacter'),
   level: yup.string().required('selectLanguageLevel'),
+  /** Resolved from the typed name on submit — never user input. */
+  code: yup.string().optional(),
 });
 
 export const certificationSchema = yup.object({

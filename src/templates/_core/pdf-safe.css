@@ -15,6 +15,12 @@
  *   - fontFamily (Inter), fontSize, fontWeight, fontStyle, lineHeight,
  *     textAlign, textTransform, letterSpacing, textDecoration
  *   - basic <img> (avatar) with fixed width/height
+ *   - an INLINE image only as an empty <span> with a background PNG, sized in
+ *     px, produced by `_core/contacts`. That is the contact-channel mark, and
+ *     the shape is forced: react-pdf can draw a picture inside running text only
+ *     as an Image child of a Text, and react-pdf-html decides inline-vs-block
+ *     from an element's children — so an <img> or <svg> inline would break the
+ *     line into stacked blocks. Do not copy the trick elsewhere.
  *
  * AVOID (unsupported or lossy in react-pdf-html):
  *   - CSS grid, position (absolute/fixed/sticky), float

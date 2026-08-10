@@ -1,0 +1,56 @@
+diff --git a/node_modules/@react-pdf/layout/lib/index.cjs b/node_modules/@react-pdf/layout/lib/index.cjs
+index 5cac161..6350374 100644
+--- a/node_modules/@react-pdf/layout/lib/index.cjs
++++ b/node_modules/@react-pdf/layout/lib/index.cjs
+@@ -209,6 +209,23 @@ const pickFontFromFontStack = (codePoint, fontStack, lastFont) => {
+       return font;
+     }
+   }
++  // PATCHED (onlinecv): U+FFFC is the OBJECT REPLACEMENT CHARACTER this package
++  // uses to hold an inline image's place inside a text run -- see getFragments,
++  // which pairs it with an `attachment`. No text face contains that code point
++  // (checked with fontkit against all seven registered here), so every inline
++  // image used to resolve to the unembedded Helvetica below and pull a
++  // standard-14 font resource into an otherwise fully self-contained CV. The
++  // glyph is never seen: @react-pdf/render paints the image and swaps the glyph
++  // for a space. Serving it from the document's OWN first font keeps the file
++  // self-contained and puts that space in a face the reader already has.
++  //
++  // Deliberately narrow. Any OTHER code point no face can draw still falls
++  // through to Helvetica, because that is exactly how the template tests detect
++  // a script the exporter could not render (`not.toContain('Helvetica')`).
++  if (codePoint === 0xfffc) {
++    const own = fontStack.find(font => font && font.hasGlyphForCodePoint);
++    if (own) return own;
++  }
+   return getFallbackFont();
+ };
+ const fontSubstitution = () => _ref => {
+diff --git a/node_modules/@react-pdf/layout/lib/index.js b/node_modules/@react-pdf/layout/lib/index.js
+index 273eee1..11c39c9 100644
+--- a/node_modules/@react-pdf/layout/lib/index.js
++++ b/node_modules/@react-pdf/layout/lib/index.js
+@@ -179,6 +179,23 @@ const pickFontFromFontStack = (codePoint, fontStack, lastFont) => {
+       return font;
+     }
+   }
++  // PATCHED (onlinecv): U+FFFC is the OBJECT REPLACEMENT CHARACTER this package
++  // uses to hold an inline image's place inside a text run -- see getFragments,
++  // which pairs it with an `attachment`. No text face contains that code point
++  // (checked with fontkit against all seven registered here), so every inline
++  // image used to resolve to the unembedded Helvetica below and pull a
++  // standard-14 font resource into an otherwise fully self-contained CV. The
++  // glyph is never seen: @react-pdf/render paints the image and swaps the glyph
++  // for a space. Serving it from the document's OWN first font keeps the file
++  // self-contained and puts that space in a face the reader already has.
++  //
++  // Deliberately narrow. Any OTHER code point no face can draw still falls
++  // through to Helvetica, because that is exactly how the template tests detect
++  // a script the exporter could not render (`not.toContain('Helvetica')`).
++  if (codePoint === 0xfffc) {
++    const own = fontStack.find(font => font && font.hasGlyphForCodePoint);
++    if (own) return own;
++  }
+   return getFallbackFont();
+ };
+ const fontSubstitution = () => _ref => {

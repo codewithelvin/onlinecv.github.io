@@ -2,9 +2,9 @@ import { Children, type CSSProperties, type JSX, type ReactNode } from 'react';
 import type { TemplateProps } from '../_core/contract';
 import type { EducationItem, ExperienceItem, LanguageLevel, Locale } from '../../types/resume';
 import { BulletList } from '../_core/bullets';
+import { ContactValue } from '../_core/contacts';
 import {
   contactChannels,
-  contactDisplay,
   DATE_FULL as FULL,
   DATE_MONTH_YEAR as MONTH,
   fullName,
@@ -14,7 +14,7 @@ import {
   KEEP_TOGETHER,
 } from '../_core/render-helpers';
 import { isRtl, mirrorInlineEndPadding, mirrorRow, mirrorTextAlign } from '../_core/direction';
-import { styles } from './styles';
+import { CONTACT_FONT_SIZE, styles } from './styles';
 
 /**
  * Gap between the decorator rail and the entry text, in points.
@@ -292,7 +292,7 @@ export default function Timeline({ resume, t, formatDate }: TemplateProps): JSX.
           {contacts.length > 0
             ? contacts.map((ch) => (
                 <div key={ch.id} style={styles.sideItem}>
-                  {contactDisplay(ch)}
+                  <ContactValue item={ch} style={styles.contactLink} textSize={CONTACT_FONT_SIZE} />
                 </div>
               ))
             : null}
