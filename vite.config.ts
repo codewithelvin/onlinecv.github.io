@@ -7,17 +7,23 @@ import { localePages } from './vite-plugin-locale-pages';
  * Public path the built app is served from. MUST match the real URL or every
  * asset 404s and the page renders as a bare `<title>` with no app.
  *
- * `codewithelvin/onlinecv.github.io` is a PROJECT repo (a `<name>.github.io`
- * repo only becomes a user site when `<name>` is the account name), so Pages
- * serves it from a sub-path — currently
- * `https://codewithelvin.com/onlinecv.github.io/`, because the `codewithelvin`
- * account has a user-level Pages domain.
+ * `'/'` since the cutover to the custom domain (2026-08-27). A Pages site with a
+ * custom domain is served from the DOMAIN ROOT even though
+ * `codewithelvin/onlinecv.github.io` is a PROJECT repo — the sub-path
+ * (`https://codewithelvin.com/onlinecv.github.io/`) only applied while the repo
+ * had no domain of its own, and once one is set GitHub 301s the sub-path to it.
  *
- * When `onlinecv.az` DNS is finally pointed at GitHub Pages and `public/CNAME`
- * takes effect, the app moves to the domain root: change this to `'/'` and
- * everything below follows.
+ * So this constant and the repo's **Settings → Pages → Custom domain** are ONE
+ * decision made in two places: with the domain set and this at `'/onlinecv.github.io/'`
+ * every asset 404s, and with the domain unset and this at `'/'` the same. Never
+ * change one without the other.
+ *
+ * Everything else derives from it — asset URLs, the PWA `scope`/`start_url`/icon
+ * paths, the service worker's navigation fallback, and the PDF font directory
+ * (`import.meta.env.BASE_URL` in `services/pdf.ts`) — so this is the only edit
+ * that moves the whole app.
  */
-const BASE = '/onlinecv.github.io/';
+const BASE = '/';
 
 /**
  * Vite configuration for OnlineCV.

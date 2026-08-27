@@ -30,7 +30,9 @@ describe('locale URLs', () => {
 describe('localeFromPath', () => {
   it.each(SUPPORTED_LOCALES)('reads %s out of the path', (locale) => {
     expect(localeFromPath(`/${locale}/`)).toBe(locale);
-    // Must also work under the project sub-path the app is served from today.
+    // Must also work under a project sub-path. The app is served from the domain
+    // root now, but these functions scan segments rather than assume a position,
+    // and that is exactly what keeps the two deployments interchangeable.
     expect(localeFromPath(`/onlinecv.github.io/${locale}/`)).toBe(locale);
   });
 

@@ -95,16 +95,34 @@ Adding a template = add a folder under `src/templates/<id>/` (`index.tsx`, `styl
 
 ## Deployment
 
-GitHub Actions → GitHub Pages (custom domain `onlinecv.az` via `public/CNAME`). On push to `main`, the workflow checks formatting, lints, type-checks, tests, builds, and deploys. One-time: repo **Settings → Pages → Source = GitHub Actions**.
+GitHub Actions → GitHub Pages, custom domain **`onlinecv.az`**. On push to `main`, the workflow checks formatting, lints, type-checks, tests, builds, and deploys. Pages source is already set to **GitHub Actions**; nothing one-time is left in the repo settings except the custom domain itself.
 
 ### The `base` path
 
-`vite.config.ts` currently sets `base: '/onlinecv.github.io/'`, because Pages still serves this as a **project** repo from a sub-path. Everything derives from that one constant (asset URLs, PWA scope/`start_url`/icons, the SW navigation fallback, the PDF font paths), so when `onlinecv.az` DNS is pointed at Pages, changing it to `'/'` moves the whole app.
+`vite.config.ts` sets `base: '/'`, because a Pages site with a custom domain is served from the **domain root** — the `/onlinecv.github.io/` sub-path only applied while the repo had no domain of its own.
 
-Two consequences while the sub-path is in force:
+That constant and **Settings → Pages → Custom domain** are one decision recorded in two places, and they must move together:
 
-- The dev and preview URLs carry it too — `http://localhost:5173/onlinecv.github.io/`, **not** `http://localhost:5173/`.
-- **`robots.txt` and `sitemap.xml` are only served at the sub-path** (`…/onlinecv.github.io/robots.txt`). Crawlers only ever fetch `/robots.txt` at the origin root, so neither file has any effect until the app is on the domain root. Nothing to fix in the app — it is what a sub-path deployment means.
+| Custom domain | `base` | Result |
+| --- | --- | --- |
+| `onlinecv.az` | `'/'` | correct |
+| `onlinecv.az` | `'/onlinecv.github.io/'` | every asset 404s |
+| _(none)_ | `'/'` | every asset 404s |
+
+Consequences now that the app is at the root:
+
+- The dev and preview URLs are plain — `http://localhost:5173/`, no sub-path.
+- **`robots.txt` and `sitemap.xml` finally work**, because a crawler only ever fetches them at the origin root. Under the sub-path neither file had any effect at all.
+
+### DNS
+
+The apex `onlinecv.az` needs the four GitHub Pages `A` records (and, for IPv6, the four `AAAA`); `www` takes a `CNAME` to `codewithelvin.github.io`. Until GitHub has issued the certificate for the domain, **Enforce HTTPS** stays greyed out — that is the certificate being provisioned, not a misconfiguration.
+
+```
+@    A      185.199.108.153   185.199.109.153   185.199.110.153   185.199.111.153
+@    AAAA   2606:50c0:8000::153   2606:50c0:8001::153   2606:50c0:8002::153   2606:50c0:8003::153
+www  CNAME  codewithelvin.github.io.
+```
 
 Separately, both files are excluded from the service worker's navigation fallback (`navigateFallbackDenylist` in `vite.config.ts`). Opening either is a navigation request, and without that exclusion the SW answered it with `index.html` — the file appeared not to load at all, because it had quietly become the app.
 
