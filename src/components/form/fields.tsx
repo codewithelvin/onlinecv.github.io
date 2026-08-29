@@ -4,7 +4,7 @@ import { AutoComplete, Checkbox, DatePicker, Form, Input, InputNumber, Select, S
 import dayjs, { type Dayjs } from 'dayjs';
 import { FiCheck } from 'react-icons/fi';
 import { searchKey } from '../../utils/search';
-import { CLARITY_MASK } from '../../services/analytics';
+import { CLARITY_UNMASK } from '../../services/analytics';
 import type { ValueDirection } from '../../utils/bidi';
 import { type Control, type FieldPath, type FieldValues, useController } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
@@ -35,9 +35,17 @@ export function VerticalFields({
   children: ReactNode;
 }): JSX.Element {
   const form = (
-    <Form layout="vertical" component={false} requiredMark>
-      {children}
-    </Form>
+    /* Every form field in the app sits inside a `VerticalFields` — the editor
+       panel, each item modal, the wizard — which makes this the one place that
+       can tell Clarity to record what people actually TYPE instead of dots.
+       `component={false}` renders no element of its own, so the attribute needs
+       a host of its own; `display: contents` means that host generates no box
+       and no layout changes. See `CLARITY_UNMASK`. */
+    <div {...CLARITY_UNMASK} style={{ display: 'contents' }}>
+      <Form layout="vertical" component={false} requiredMark>
+        {children}
+      </Form>
+    </div>
   );
   return scope ? <FieldScope name={scope}>{form}</FieldScope> : form;
 }
@@ -343,12 +351,6 @@ export function RHFSelect<T extends FieldValues>({
       {(a11y) => (
         <Select
           {...a11y}
-          /* A chosen value is rendered as TEXT, not as an input value, so Clarity's
-             default input masking does not reach it and a session replay would
-             carry the pick (degree, language level, contact type…). Declared HERE
-             rather than per call site: a field added later inherits it. See
-             `CLARITY_MASK`. */
-          {...CLARITY_MASK}
           value={field.value ?? undefined}
           onChange={(v) => field.onChange(v)}
           onBlur={field.onBlur}

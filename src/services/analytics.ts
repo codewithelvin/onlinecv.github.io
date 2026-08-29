@@ -41,16 +41,37 @@ let initialized = false;
  * user's name, phone, e-mail, date of birth and whole employment history to
  * Microsoft. A no-op when Clarity is not initialized.
  *
- * NOTE: Ant Design renders a chosen `Select` value as TEXT (`.ant-select-selection-item`),
- * not as an input value, so a pick is NOT covered by Clarity's default input
- * masking. The dashboard's `Strict` mode would cover that whole class at once,
- * but it is deliberately off (it masks every text node, which leaves a replay
- * unreadable and defeats the point of recording one) — so the selects carry this
- * attribute themselves: `RHFSelect` for every form-bound one, and the four raw
- * `<Select>`s plus the nationality `AutoComplete` in `GeneralInfoSection`.
- * `clarity-mask.test.tsx` fails if a select ever renders a value outside it.
+ * Scope, since 2026-08-29: this is now the SHEET, not the form. The editor's
+ * fields are deliberately recorded (see `CLARITY_UNMASK`); what stays masked is
+ * the rendered CV — the preview page and the avatar — because that is one frame
+ * holding the whole document rather than the keystroke being studied.
  */
 export const CLARITY_MASK = { 'data-clarity-mask': 'true' } as const;
+
+/**
+ * Spread onto a container whose form fields SHOULD be recorded verbatim.
+ *
+ * Clarity masks `<input>`/`<textarea>` values by default (its `Balanced` mode),
+ * so a replay showed every field as dots and could not answer the only question
+ * worth recording one for: where does a person stall, retype, or give up. This
+ * attribute switches that off for the subtree it sits on. Live on
+ * `VerticalFields`, which is the single wrapper around every form field in the
+ * app — the editor panel, all nine item modals and the first-run wizard — so a
+ * field added later is covered without anyone remembering this file.
+ *
+ * Two things it depends on, both easy to break from outside the code:
+ * - The dashboard's masking mode must NOT be `Strict`. Strict ignores unmask
+ *   attributes entirely, and the replay goes back to dots with nothing in the
+ *   repo to explain why. It is off by decision — see `journal/2026-08-04-analytics.md`.
+ * - A `CLARITY_MASK` INSIDE this subtree still wins (nearest declaration does),
+ *   which is what keeps the avatar out of replays while its own form records.
+ *
+ * This is a deliberate privacy trade, taken by the product owner on 2026-08-29:
+ * the CV still never leaves the device as a FILE, but with consent granted the
+ * typed values now reach Microsoft. The consent drawer (§20.1) is what makes it
+ * a choice rather than a surprise.
+ */
+export const CLARITY_UNMASK = { 'data-clarity-unmask': 'true' } as const;
 
 function injectScript(src: string, async = true): void {
   const el = document.createElement('script');

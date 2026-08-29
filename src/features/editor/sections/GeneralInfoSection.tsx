@@ -10,14 +10,6 @@ import { resolveDictionaryValue } from '../../../utils/dictionary';
 import { searchKey } from '../../../utils/search';
 import { toLocale } from '../../../app/i18n/locales';
 import { DictionaryMatch, Field } from '../../../components/form/fields';
-/**
- * These fields are bound to the store directly rather than through `RHFSelect`,
- * so they do not inherit its Clarity mask and each carries its own. Every one of
- * them is personal data (gender, marital status, military status, licence
- * categories, nationality) rendered as TEXT by antd, which Clarity's default
- * input masking does not reach — see `CLARITY_MASK`.
- */
-import { CLARITY_MASK } from '../../../services/analytics';
 import { useScopedId } from '../../../components/form/field-scope';
 import { FieldVisibility } from '../FieldVisibility';
 import {
@@ -61,7 +53,6 @@ export function GeneralInfoSection(): JSX.Element {
             {(a11y) => (
               <Select
                 {...a11y}
-                {...CLARITY_MASK}
                 value={gi.gender}
                 placeholder={t('common.select')}
                 options={dictOptions(GENDERS, t)}
@@ -81,7 +72,6 @@ export function GeneralInfoSection(): JSX.Element {
             {(a11y) => (
               <Select
                 {...a11y}
-                {...CLARITY_MASK}
                 allowClear
                 value={gi.maritalStatus}
                 placeholder={t('common.select')}
@@ -105,7 +95,6 @@ export function GeneralInfoSection(): JSX.Element {
             {(a11y) => (
               <AutoComplete
                 {...a11y}
-                {...CLARITY_MASK}
                 value={resolveDictionaryValue(
                   nationality.entries,
                   gi.nationality,
@@ -198,7 +187,6 @@ export function GeneralInfoSection(): JSX.Element {
             {(a11y) => (
               <Select
                 {...a11y}
-                {...CLARITY_MASK}
                 allowClear
                 value={gi.militaryStatus}
                 options={dictOptions(MILITARY_STATUSES, t)}
@@ -221,7 +209,6 @@ export function GeneralInfoSection(): JSX.Element {
             {(a11y) => (
               <Select
                 {...a11y}
-                {...CLARITY_MASK}
                 mode="tags"
                 allowClear
                 placeholder={t('common.selectOrType')}
