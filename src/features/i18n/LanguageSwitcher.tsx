@@ -1,5 +1,5 @@
 import { type JSX, useState } from 'react';
-import { Button, Tooltip } from 'antd';
+import { Button } from 'antd';
 import { FiGlobe } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { LOCALES } from '../../app/i18n';
@@ -20,6 +20,11 @@ import { LanguageModal } from './LanguageModal';
  *
  * The globe carries no chevron any more — that glyph promises a menu directly
  * below, which is no longer what happens.
+ *
+ * No tooltip either. The trigger already SHOWS its state as text (`AZ`, `EN`, …)
+ * beside a globe, so a hover card only repeats what is on screen — and on a
+ * phone, where the header is tightest, it never appears at all. The name is
+ * still carried by `aria-label` for anyone who cannot see the glyph.
  */
 export function LanguageSwitcher(): JSX.Element {
   const { t } = useTranslation();
@@ -30,18 +35,16 @@ export function LanguageSwitcher(): JSX.Element {
 
   return (
     <>
-      <Tooltip title={label}>
-        <Button
-          id="ui-language"
-          aria-label={label}
-          aria-haspopup="dialog"
-          aria-expanded={open}
-          icon={<FiGlobe aria-hidden />}
-          onClick={() => setOpen(true)}
-        >
-          {LOCALES[uiLocale].short}
-        </Button>
-      </Tooltip>
+      <Button
+        id="ui-language"
+        aria-label={label}
+        aria-haspopup="dialog"
+        aria-expanded={open}
+        icon={<FiGlobe aria-hidden />}
+        onClick={() => setOpen(true)}
+      >
+        {LOCALES[uiLocale].short}
+      </Button>
       <LanguageModal
         open={open}
         current={uiLocale}

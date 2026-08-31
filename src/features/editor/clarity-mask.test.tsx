@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { renderWithProviders } from '../../test/renderWithProviders';
 import { useResumeStore } from '../../state/store';
 import { createEmptyResume } from '../../utils/empty-resume';
@@ -9,85 +9,46 @@ import { EditorPanel } from './EditorPanel';
 /**
  * Where Microsoft Clarity's session replays may look, and where they may not.
  *
- * The line moved on 2026-08-29. It used to run around every piece of personal
- * data, which meant a replay was a page of dots and could not answer the one
- * question worth recording for — where a person stalls, retypes or gives up. It
- * now runs around the RENDERED CV instead: the editor's fields are recorded
- * verbatim (`CLARITY_UNMASK` on `VerticalFields`), while the preview sheet and
- * the avatar stay masked, because those are the whole document in one frame
- * rather than the keystroke being studied.
+ * The line moved twice. On 2026-08-29 it was pulled back to the rendered CV so
+ * that replays would show what people TYPE instead of dots; on 2026-08-31 that
+ * was undone, because Clarity cannot do it: *"Content in the input boxes is
+ * masked in all modes and can't be customized"* — the same sentence answers the
+ * FAQ's "Can I unmask input text boxes?", and drop-downs are named alongside.
+ * No mode, attribute or dashboard rule changes it.
  *
- * Both halves are guarded here, and the second half is the one that rots: a
- * `CLARITY_MASK` inside the form still wins (nearest declaration does), so the
- * avatar's exemption is a real thing that a refactor can silently drop.
+ * So `data-clarity-unmask` bought no keystroke at all, and it was not free: the
+ * only thing it reached was the ORDINARY TEXT around the fields, which in the
+ * editor is the item lists — employer, school, phone number, e-mail. That is CV
+ * content, and the app's promise (§18/BR-3, and the landing page) is that the CV
+ * stays on the device. Hence the guards below: the two masks are still in place,
+ * and the app ships no unmask anywhere.
  */
 
-/** Is this node recorded — inside the unmasked form, with no mask in between? */
-function isRecorded(el: Element): boolean {
-  return el.closest('[data-clarity-mask]') === null && el.closest('[data-clarity-unmask]') !== null;
-}
-
-/** Texts of every chosen select value Clarity would NOT record. */
-function unrecordedSelectValues(root: ParentNode): string[] {
-  return [...root.querySelectorAll('.ant-select-selection-item')]
-    .filter((el) => !isRecorded(el))
-    .map((el) => (el.textContent ?? '').trim());
-}
-
-/** How many chosen select values are rendered at all — guards a vacuous pass. */
-function selectValueCount(root: ParentNode): number {
-  return root.querySelectorAll('.ant-select-selection-item').length;
-}
-
 describe('Clarity recording of the editor', () => {
-  beforeEach(() => {
+  function seed(): void {
     const resume = createEmptyResume('az');
     resume.basics.firstName = 'Elvin';
     resume.basics.lastName = 'Hüseynov';
     resume.generalInfo.gender = 'male';
-    resume.generalInfo.maritalStatus = 'married';
-    resume.generalInfo.militaryStatus = 'served';
     resume.generalInfo.nationality = 'azerbaijani';
-    resume.generalInfo.driverLicense = ['B', 'BE'];
     useResumeStore.setState({ resume, uiLocale: 'az', hydrated: true, persistenceError: false });
+  }
+
+  it('leaves the editor on Clarity’s own masking, with nothing unmasked', () => {
+    seed();
+    const { container } = renderWithProviders(<EditorPanel />);
+    // The panel really rendered — otherwise "no unmask" is vacuously true.
+    expect(container.querySelector('#basics-firstName'), 'no first-name field').toBeTruthy();
+    expect(container.querySelectorAll('[data-clarity-unmask]')).toHaveLength(0);
   });
 
   /**
-   * Clarity masks `<input>` values by default, so the typed fields need the
-   * unmask as much as the selects do — and they are the reason it exists.
+   * A modal renders through a portal, so it is not a DOM descendant of the
+   * editor panel: `ModalForm` wraps its own body and would have to be undone
+   * separately. Asserted on one modal because that shared shell is the subject.
    */
-  it('records what is typed into the editor’s text fields', () => {
-    const { container } = renderWithProviders(<EditorPanel />);
-    const firstName = container.querySelector('#basics-firstName');
-    expect(firstName, 'no first-name field').toBeTruthy();
-    expect(firstName && isRecorded(firstName)).toBe(true);
-  });
-
-  it('records every general-info pick in the editor', () => {
-    const { container } = renderWithProviders(<EditorPanel />);
-    // gender + marital + military + two licence chips.
-    expect(selectValueCount(container)).toBeGreaterThanOrEqual(5);
-    expect(unrecordedSelectValues(container)).toEqual([]);
-  });
-
-  /**
-   * Nationality is an `AutoComplete`, so its value sits in an `<input>` rather
-   * than in a selection item — the scan above cannot see it.
-   */
-  it('records the nationality typeahead', () => {
-    const { container } = renderWithProviders(<EditorPanel />);
-    const field = container.querySelector('#generalInfo-nationality');
-    expect(field, 'no nationality field').toBeTruthy();
-    expect(field && isRecorded(field)).toBe(true);
-  });
-
-  /**
-   * A modal renders through a portal, so it is NOT a DOM descendant of the
-   * editor panel — it is covered only because `ModalForm` wraps its own body in
-   * `VerticalFields` too. Asserted on one modal because that shared shell is
-   * what is being proven, not this particular field.
-   */
-  it('records a value chosen inside an item modal', () => {
+  it('leaves an item modal on Clarity’s own masking too', () => {
+    seed();
     renderWithProviders(
       <ContactModal
         open
@@ -97,23 +58,52 @@ describe('Clarity recording of the editor', () => {
         onCancel={vi.fn()}
       />,
     );
-    expect(selectValueCount(document)).toBeGreaterThan(0);
-    expect(unrecordedSelectValues(document)).toEqual([]);
+    expect(document.querySelector('.ant-modal'), 'the modal did not open').toBeTruthy();
+    expect(document.querySelectorAll('[data-clarity-unmask]')).toHaveLength(0);
+  });
+
+  /**
+   * The invariant the DOM cases above cannot hold on their own: an unmask added
+   * to a component neither of them renders is invisible to them, and the whole
+   * point is that unmasking a *form* subtree looks harmless and leaks the text
+   * beside it. So the source itself is the assertion — the same
+   * `import.meta.glob(…, '?raw')` mechanism `consent.test.ts` uses, since
+   * `@types/node` is deliberately not a dependency (§27). Comment lines are
+   * stripped, because `analytics.ts` and `fields.tsx` both name the attribute in
+   * prose precisely to warn about it.
+   */
+  it('ships no unmask attribute anywhere in the app', () => {
+    const sources = import.meta.glob('/src/**/*.{ts,tsx}', {
+      query: '?raw',
+      import: 'default',
+      eager: true,
+    }) as Record<string, string>;
+
+    const offenders = Object.entries(sources)
+      .filter(([path]) => !/\.test\.tsx?$/.test(path))
+      .filter(([, code]) =>
+        code
+          .split('\n')
+          .filter((line) => !/^\s*(\*|\/\/|\/\*)/.test(line))
+          .join('\n')
+          .includes('clarity-unmask'),
+      )
+      .map(([path]) => path);
+
+    expect(Object.keys(sources).length).toBeGreaterThan(50);
+    expect(
+      offenders,
+      'Clarity cannot unmask an input; an unmask only leaks the text around it',
+    ).toEqual([]);
   });
 });
 
 describe('Clarity masking of the rendered CV', () => {
-  /**
-   * The avatar sits INSIDE the unmasked form, so this also proves the override
-   * direction: a mask nested in an unmask still masks.
-   */
-  it('keeps the avatar out of replays even inside the recorded form', () => {
+  it('keeps the avatar out of replays', () => {
     const resume = createEmptyResume('az');
     useResumeStore.setState({ resume, uiLocale: 'az', hydrated: true, persistenceError: false });
     const { container } = renderWithProviders(<EditorPanel />);
-    const masked = container.querySelector('[data-clarity-mask]');
-    expect(masked, 'the avatar lost its mask').toBeTruthy();
-    expect(masked?.closest('[data-clarity-unmask]'), 'expected it inside the form').toBeTruthy();
+    expect(container.querySelector('[data-clarity-mask]'), 'the avatar lost its mask').toBeTruthy();
   });
 
   it('keeps the whole preview sheet out of replays', () => {

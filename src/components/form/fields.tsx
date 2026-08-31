@@ -4,7 +4,6 @@ import { AutoComplete, Checkbox, DatePicker, Form, Input, InputNumber, Select, S
 import dayjs, { type Dayjs } from 'dayjs';
 import { FiCheck } from 'react-icons/fi';
 import { searchKey } from '../../utils/search';
-import { CLARITY_UNMASK } from '../../services/analytics';
 import type { ValueDirection } from '../../utils/bidi';
 import { type Control, type FieldPath, type FieldValues, useController } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
@@ -34,18 +33,21 @@ export function VerticalFields({
   scope?: string;
   children: ReactNode;
 }): JSX.Element {
+  /**
+   * ⚠️ This used to be wrapped in `data-clarity-unmask` (2026-08-29) to make
+   * session replays show what people TYPE instead of dots. It cannot work and
+   * has been removed: Clarity masks the contents of input boxes and drop-downs
+   * **in every masking mode**, and that is documented as not customizable — no
+   * attribute and no dashboard setting unmasks a form field. All the attribute
+   * actually did was unmask the ORDINARY TEXT in this subtree, which in the
+   * editor includes the item lists (employer, phone number, e-mail) — i.e. it
+   * shipped CV content to Microsoft while delivering none of the keystrokes it
+   * was added for. See `CLARITY_MASK`.
+   */
   const form = (
-    /* Every form field in the app sits inside a `VerticalFields` — the editor
-       panel, each item modal, the wizard — which makes this the one place that
-       can tell Clarity to record what people actually TYPE instead of dots.
-       `component={false}` renders no element of its own, so the attribute needs
-       a host of its own; `display: contents` means that host generates no box
-       and no layout changes. See `CLARITY_UNMASK`. */
-    <div {...CLARITY_UNMASK} style={{ display: 'contents' }}>
-      <Form layout="vertical" component={false} requiredMark>
-        {children}
-      </Form>
-    </div>
+    <Form layout="vertical" component={false} requiredMark>
+      {children}
+    </Form>
   );
   return scope ? <FieldScope name={scope}>{form}</FieldScope> : form;
 }

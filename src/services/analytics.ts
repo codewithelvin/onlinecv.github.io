@@ -41,37 +41,25 @@ let initialized = false;
  * user's name, phone, e-mail, date of birth and whole employment history to
  * Microsoft. A no-op when Clarity is not initialized.
  *
- * Scope, since 2026-08-29: this is now the SHEET, not the form. The editor's
- * fields are deliberately recorded (see `CLARITY_UNMASK`); what stays masked is
- * the rendered CV — the preview page and the avatar — because that is one frame
- * holding the whole document rather than the keystroke being studied.
+ * Applied to the rendered CV — the preview sheet (`A4Frame`) and the avatar.
+ * Everything else that holds the user's data is a form control, which Clarity
+ * masks on its own and cannot be told not to (see below).
+ *
+ * ⚠️ There is no `CLARITY_UNMASK` counterpart, and adding one back would be a
+ * privacy regression for nothing. It existed between 2026-08-29 and 2026-08-31
+ * to make replays show typed values instead of dots, and Clarity documents twice
+ * over that this is impossible: *"Content in the input boxes is masked in all
+ * modes and can't be customized"*, and drop-downs likewise — the FAQ's answer to
+ * "Can I unmask input text boxes?" is that same sentence. Not a mode, not an
+ * attribute, not a per-element rule on the dashboard. What `data-clarity-unmask`
+ * DID reach was the ordinary text around the fields, which in the editor is the
+ * item lists (employer, school, phone number, e-mail) — so it uploaded CV
+ * content and still recorded not one keystroke.
+ *
+ * To learn where people stall, instrument the BEHAVIOUR rather than the value:
+ * a GA event or a `clarity('set', …)` tag naming the field, not its contents.
  */
 export const CLARITY_MASK = { 'data-clarity-mask': 'true' } as const;
-
-/**
- * Spread onto a container whose form fields SHOULD be recorded verbatim.
- *
- * Clarity masks `<input>`/`<textarea>` values by default (its `Balanced` mode),
- * so a replay showed every field as dots and could not answer the only question
- * worth recording one for: where does a person stall, retype, or give up. This
- * attribute switches that off for the subtree it sits on. Live on
- * `VerticalFields`, which is the single wrapper around every form field in the
- * app — the editor panel, all nine item modals and the first-run wizard — so a
- * field added later is covered without anyone remembering this file.
- *
- * Two things it depends on, both easy to break from outside the code:
- * - The dashboard's masking mode must NOT be `Strict`. Strict ignores unmask
- *   attributes entirely, and the replay goes back to dots with nothing in the
- *   repo to explain why. It is off by decision — see `journal/2026-08-04-analytics.md`.
- * - A `CLARITY_MASK` INSIDE this subtree still wins (nearest declaration does),
- *   which is what keeps the avatar out of replays while its own form records.
- *
- * This is a deliberate privacy trade, taken by the product owner on 2026-08-29:
- * the CV still never leaves the device as a FILE, but with consent granted the
- * typed values now reach Microsoft. The consent drawer (§20.1) is what makes it
- * a choice rather than a surprise.
- */
-export const CLARITY_UNMASK = { 'data-clarity-unmask': 'true' } as const;
 
 function injectScript(src: string, async = true): void {
   const el = document.createElement('script');
