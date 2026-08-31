@@ -53,15 +53,15 @@
     "later": "Mais tarde"
   },
   "consent": {
-    "title": "Estatísticas de utilização anónimas",
+    "title": "Estatísticas de utilização",
     "intro": "O OnlineCV não tem servidor — o seu CV é guardado apenas neste dispositivo e não é enviado para nenhum lado.",
-    "tools": "Ainda assim, para compreender como a aplicação é utilizada e onde falha, são recolhidos dados de utilização anónimos através do Google Analytics e do Microsoft Clarity: as páginas que abre, os botões que prime, o seu dispositivo e navegador, a sua região aproximada e uma gravação anónima da sua sessão na interface.",
-    "masked": "O conteúdo do seu CV — nome, contactos, experiência profissional — não faz parte desses dados e é mascarado na gravação da sessão.",
+    "tools": "Ainda assim, para compreender como a aplicação é utilizada e onde falha, são recolhidos dados de utilização através do Google Analytics, do Microsoft Clarity e do Yandex Metrica: as páginas que abre, os botões que prime, o seu dispositivo e navegador, a sua região aproximada e uma gravação da sua sessão na interface.",
+    "recorded": "A gravação da sessão regista a interface enquanto preenche o CV, pelo que os dados que escreve podem aparecer nela. O ficheiro do CV nunca é enviado e permanece neste dispositivo; as gravações servem apenas para detetar e corrigir problemas.",
     "accept": "Aceito",
     "decline": "Recuso",
     "declinedTitle": "Estatísticas desativadas",
     "declined": "Nenhuma ferramenta de estatísticas foi carregada e nenhum dado é enviado. Pode continuar a utilizar a aplicação, mas os erros que encontrar não chegarão até nós e não poderão ser detetados nem corrigidos — utiliza a aplicação por sua conta e risco.",
-    "statusGranted": "Autorizou as estatísticas de utilização anónimas neste dispositivo.",
+    "statusGranted": "Autorizou as estatísticas de utilização neste dispositivo.",
     "revoke": "Desativar estatísticas",
     "reloadHint": "Recarregue a página para que a alteração tenha efeito total.",
     "review": "Privacidade e estatísticas"

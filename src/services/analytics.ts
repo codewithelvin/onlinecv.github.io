@@ -1,7 +1,7 @@
 /**
  * Analytics boundary (spec §20/§22, BR-3). The ONLY permitted network calls.
- * Both integrations are no-ops unless their `VITE_*` id is set at build time,
- * and both fail silently offline (§19.1).
+ * Every integration is a no-op unless its `VITE_*` id is set at build time,
+ * and all of them fail silently offline (§19.1).
  *
  * Dev/prod gating is done by the ENV FILE, not by a check here: the ids live in
  * `.env.production`, which Vite loads for `vite build`/`vite preview` but not for
@@ -21,29 +21,77 @@ type ClarityQueue = {
   q?: unknown[];
 };
 
+/**
+ * The queueing stub Yandex Metrica's tag drains once it loads.
+ *
+ * `a` is the queue (the same Arguments-object convention as gtag and Clarity);
+ * `l` is the load timestamp the tag reads back to measure its own load time, and
+ * the official snippet sets it as `m[i].l = 1*new Date()`.
+ */
+type MetricaQueue = {
+  (...args: unknown[]): void;
+  a?: unknown[];
+  l?: number;
+};
+
 declare global {
   interface Window {
     dataLayer?: unknown[];
     gtag?: (...args: unknown[]) => void;
     clarity?: ClarityQueue;
+    ym?: MetricaQueue;
   }
 }
 
 let initialized = false;
 
 /**
+ * ⚠️ WEBVISOR IS DELIBERATELY UNRESTRICTED (user's decision, 2026-08-31).
+ *
+ * Yandex Metrica's Session Replay is the one recorder in this app that CAN show
+ * what a user types, and it is switched on and left alone: no `ym-hide-content`
+ * on the preview, no `ym-disable-keys` on the fields, nowhere in the app. Its
+ * replays therefore include the CV as it is being written — names, contact
+ * details, employment history — and that is the point of having it, after two
+ * days spent establishing that Clarity can never do it.
+ *
+ * The masking that IS in place is Clarity's alone (`CLARITY_MASK`), and it stays
+ * because it costs nothing: Clarity would mask the inputs regardless.
+ *
+ * What this obliges the rest of the app to do — the consent drawer's `consent.*`
+ * strings say so in all 20 locales — is to stop claiming the CV is masked in the
+ * replay, because it is not. The CV still never leaves the device as a FILE
+ * (§18/BR-3: no upload, no backend, IndexedDB only), and nothing is recorded at
+ * all until the user has agreed; what changed is that "agreed" now means agreed
+ * to a recording that can contain their details.
+ *
+ * If this is ever reversed, the switches are Metrica's HTML-markup classes,
+ * applied to an element and all its children: `ym-hide-content` ("Disables
+ * recording of user interface elements" — text comes back blurred, images
+ * greyed) and `ym-disable-keys` ("Disables recording the data entered in
+ * fields"). They hold whatever the counter's *Record all fields* setting is, so
+ * they would close the hole in code rather than on a dashboard. The natural
+ * places are this module's `CLARITY_MASK` sites and `VerticalFields`.
+ */
+
+/**
  * Spread onto any element whose text is the USER'S OWN CV data.
  *
- * Clarity records session replays, and the app's promise — on the landing page
- * and in §18/BR-3 — is that the CV never leaves the device. Clarity masks
- * `<input>`/`<textarea>` values by default, but the live preview renders the very
- * same data as ordinary DOM text, so without this the replay would ship the
- * user's name, phone, e-mail, date of birth and whole employment history to
- * Microsoft. A no-op when Clarity is not initialized.
+ * Clarity records session replays, and Clarity masks `<input>`/`<textarea>`
+ * values by default — but the live preview renders the very same data as
+ * ordinary DOM text, so without this the replay would ship the user's name,
+ * phone, e-mail, date of birth and whole employment history to Microsoft. A
+ * no-op when Clarity is not initialized.
  *
  * Applied to the rendered CV — the preview sheet (`A4Frame`) and the avatar.
  * Everything else that holds the user's data is a form control, which Clarity
  * masks on its own and cannot be told not to (see below).
+ *
+ * ⚠️ This is CLARITY'S mask and only Clarity's. It does not restrain Yandex
+ * Metrica's Webvisor, which by decision records everything (see the note at the
+ * top of this file) — so an element carrying it is hidden from one replay and
+ * visible in the other. That asymmetry is intentional; do not "fix" it by adding
+ * `ym-hide-content` here without changing the consent copy back.
  *
  * ⚠️ There is no `CLARITY_UNMASK` counterpart, and adding one back would be a
  * privacy regression for nothing. It existed between 2026-08-29 and 2026-08-31
@@ -54,10 +102,8 @@ let initialized = false;
  * attribute, not a per-element rule on the dashboard. What `data-clarity-unmask`
  * DID reach was the ordinary text around the fields, which in the editor is the
  * item lists (employer, school, phone number, e-mail) — so it uploaded CV
- * content and still recorded not one keystroke.
- *
- * To learn where people stall, instrument the BEHAVIOUR rather than the value:
- * a GA event or a `clarity('set', …)` tag naming the field, not its contents.
+ * content and still recorded not one keystroke. That question is now answered by
+ * the other tag instead, which is what Metrica was added for.
  */
 export const CLARITY_MASK = { 'data-clarity-mask': 'true' } as const;
 
@@ -111,16 +157,66 @@ function initClarity(projectId: string): void {
   injectScript(`https://www.clarity.ms/tag/${projectId}`);
 }
 
+function initMetrica(tagId: string): void {
+  /**
+   * Yandex Metrica, published as an inline snippet and reproduced here in
+   * TypeScript for the same two reasons as Clarity's: no inline script (so a CSP
+   * added later needs no exception), and a tag URL a test can assert instead of
+   * one buried in a JS string. Three details of the snippet are load bearing:
+   *
+   *  - the queue takes `arguments`, not a rest array — the same wire format
+   *    gtag.js brands on, and the same bug class that once made GA a silent
+   *    no-op here;
+   *  - `ym.l` is the load timestamp (`m[i].l = 1*new Date()` in the original);
+   *    the tag reads it back to report its own load time;
+   *  - the original also walks `document.scripts` to avoid inserting the tag
+   *    twice. That is what `initialized` already does for all three vendors, so
+   *    it is left out rather than duplicated.
+   */
+  const queue: MetricaQueue = function ym(): void {
+    // eslint-disable-next-line prefer-rest-params -- parity with Metrica's own stub, which the tag drains as Arguments objects.
+    (queue.a = queue.a ?? []).push(arguments);
+  };
+  queue.l = Date.now();
+  window.ym = window.ym ?? queue;
+  injectScript('https://mc.yandex.ru/metrika/tag.js');
+
+  /**
+   * The four options are Metrica's own documented `init` parameters, and the id
+   * is passed as a NUMBER because that is what the tag indexes its counters by.
+   *
+   * `webvisor` is Session Replay, switched on and — by decision — unrestricted:
+   * see the ⚠️ note at the top of this file for what that records and what it
+   * obliges the consent copy to say.
+   * `defer` is deliberately NOT set — that one is for SPAs that change route and
+   * have to send each view by hand; this app is a single route (§13), so the
+   * automatic hit at initialization is exactly right and a manual `hit` would
+   * double-count.
+   *
+   * The published snippet also carries `referrer: document.referrer` and
+   * `url: location.href`. Those are `hit` options, not `init` options — they are
+   * in no version of Metrica's parameter list — and the tag reads both values
+   * itself on the automatic hit, so they are dropped rather than copied along.
+   */
+  window.ym(Number(tagId), 'init', {
+    clickmap: true,
+    trackLinks: true,
+    accurateTrackBounce: true,
+    webvisor: true,
+  });
+}
+
 /**
  * The configured ids, trimmed — so a blank or whitespace-only value from CI
  * counts as "not set" rather than building a `gtag/js?id=` request that can
  * never resolve. Read at call time, not at module load, which is what lets a
  * test stub the env without resetting the module.
  */
-function configuredIds(): { ga?: string; clarity?: string } {
+function configuredIds(): { ga?: string; clarity?: string; metrica?: string } {
   return {
     ga: import.meta.env.VITE_GA_MEASUREMENT_ID?.trim() || undefined,
     clarity: import.meta.env.VITE_CLARITY_PROJECT_ID?.trim() || undefined,
+    metrica: import.meta.env.VITE_YANDEX_METRICA_ID?.trim() || undefined,
   };
 }
 
@@ -132,8 +228,8 @@ function configuredIds(): { ga?: string; clarity?: string } {
  * nothing, and asking permission to collect nothing is noise, not diligence.
  */
 export function isAnalyticsConfigured(): boolean {
-  const { ga, clarity } = configuredIds();
-  return Boolean(ga || clarity);
+  const { ga, clarity, metrica } = configuredIds();
+  return Boolean(ga || clarity || metrica);
 }
 
 /** Initialize analytics once, if ids are configured. Safe to call in any environment. */
@@ -141,11 +237,12 @@ export function initAnalytics(): void {
   if (initialized || typeof document === 'undefined') return;
   initialized = true;
 
-  const { ga, clarity } = configuredIds();
+  const { ga, clarity, metrica } = configuredIds();
 
   try {
     if (ga) initGoogleAnalytics(ga);
     if (clarity) initClarity(clarity);
+    if (metrica) initMetrica(metrica);
   } catch {
     // Analytics must never break the app (§17).
   }
@@ -154,25 +251,38 @@ export function initAnalytics(): void {
 /**
  * Stop collecting, for consent WITHDRAWN after the tags were already loaded.
  *
- * Neither vendor can be unloaded once its script is running, so this uses the
- * two documented off switches instead of pretending otherwise:
+ * No vendor can be unloaded once its script is running, so this uses the three
+ * documented off switches instead of pretending otherwise:
  *
  *  - `window['ga-disable-<ID>'] = true` is gtag.js's own opt-out flag, checked
  *    before every hit — it is what Google's published opt-out snippet sets.
  *  - `clarity('stop')` stops the recorder and its upload queue.
+ *  - `window['disableYaCounter<ID>'] = true` is Metrica's documented opt-out:
+ *    *"disables cookies and prevents data on website sessions from being
+ *    collected and sent"*.
  *
- * Both are best-effort by nature, which is why the drawer also says a reload
- * makes it absolute: on the next page load nothing is registered at all. Also
- * called for a stored `denied` on startup, where it costs nothing and stops a
- * stray `initAnalytics` from ever reporting a hit.
+ * All three are best-effort by nature, which is why the drawer also says a
+ * reload makes it absolute: on the next page load nothing is registered at all.
+ * ⚠️ Metrica's flag leans on that reload harder than the other two, and the
+ * difference is documented: gtag re-reads its flag before every hit, while
+ * Metrica's is read when the tag INITIALIZES ("before initializing the Yandex
+ * Metrica code snippet"). Setting it after the tag has started does not stop the
+ * session already being recorded — the reload does, and the flag is what makes
+ * the next load collect nothing.
+ *
+ * Also called for a stored `denied` on startup, where it costs nothing and stops
+ * a stray `initAnalytics` from ever reporting a hit — for Metrica that is the
+ * case where the flag does its full job, because it is then set before init.
  */
 export function disableAnalytics(): void {
   if (typeof window === 'undefined') return;
-  const { ga, clarity } = configuredIds();
+  const { ga, clarity, metrica } = configuredIds();
 
   try {
-    if (ga) (window as unknown as Record<string, boolean>)[`ga-disable-${ga}`] = true;
+    const flags = window as unknown as Record<string, boolean>;
+    if (ga) flags[`ga-disable-${ga}`] = true;
     if (clarity) window.clarity?.('stop');
+    if (metrica) flags[`disableYaCounter${metrica}`] = true;
   } catch {
     // Same rule as init: analytics must never break the app (§17).
   }

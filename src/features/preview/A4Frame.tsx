@@ -90,6 +90,9 @@ export function A4Frame({
        * withheld from Clarity's session replays. Declared HERE, on the frame,
        * rather than in any template: a template added later inherits it without
        * knowing Clarity exists, exactly like the credit line and the page margins.
+       *
+       * Clarity's only — Yandex Metrica's Webvisor is deliberately left
+       * unrestricted and does record this sheet. See `CLARITY_MASK`.
        */
       {...CLARITY_MASK}
       /**

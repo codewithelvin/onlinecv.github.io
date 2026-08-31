@@ -53,15 +53,15 @@
     "later": "Más tarde"
   },
   "consent": {
-    "title": "Estadísticas de uso anónimas",
+    "title": "Estadísticas de uso",
     "intro": "OnlineCV no tiene servidor: su CV se guarda solo en este dispositivo y no se envía a ninguna parte.",
-    "tools": "Aun así, para entender cómo se usa la aplicación y dónde falla, se recogen datos de uso anónimos mediante Google Analytics y Microsoft Clarity: las páginas que abre, los botones que pulsa, su dispositivo y navegador, su región aproximada y una grabación anónima de su sesión en la interfaz.",
-    "masked": "El contenido de su CV — nombre, datos de contacto, experiencia laboral — no forma parte de esos datos y se oculta en la grabación de la sesión.",
+    "tools": "Aun así, para entender cómo se usa la aplicación y dónde falla, se recogen datos de uso mediante Google Analytics, Microsoft Clarity y Yandex Metrica: las páginas que abre, los botones que pulsa, su dispositivo y navegador, su región aproximada y una grabación de su sesión en la interfaz.",
+    "recorded": "La grabación de la sesión registra la interfaz mientras usted rellena el CV, por lo que los datos que escribe pueden aparecer en ella. El archivo del CV nunca se sube y permanece en este dispositivo; las grabaciones solo se usan para detectar y corregir problemas.",
     "accept": "Acepto",
     "decline": "Rechazo",
     "declinedTitle": "Estadísticas desactivadas",
     "declined": "No se ha cargado ninguna herramienta de estadísticas y no se envía ningún dato. Puede seguir usando la aplicación, pero los errores que encuentre no llegarán hasta nosotros y no podrán detectarse ni corregirse: usa la aplicación por su cuenta y riesgo.",
-    "statusGranted": "Ha permitido las estadísticas de uso anónimas en este dispositivo.",
+    "statusGranted": "Ha permitido las estadísticas de uso en este dispositivo.",
     "revoke": "Desactivar estadísticas",
     "reloadHint": "Recargue la página para que el cambio surta pleno efecto.",
     "review": "Privacidad y estadísticas"

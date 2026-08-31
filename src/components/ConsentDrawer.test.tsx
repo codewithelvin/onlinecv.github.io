@@ -63,10 +63,11 @@ describe('ConsentDrawer', () => {
     renderWithProviders(<ConsentDrawer />);
 
     expect(drawer()).toBeTruthy();
-    expect(screen.getByText('Anonim istifadə statistikası')).toBeTruthy();
-    // Both vendors named, since "some usage data" is not informed consent.
+    expect(screen.getByText('İstifadə statistikası')).toBeTruthy();
+    // Every vendor named, since "some usage data" is not informed consent.
     expect(screen.getByText(/Google Analytics/)).toBeTruthy();
     expect(screen.getByText(/Microsoft Clarity/)).toBeTruthy();
+    expect(screen.getByText(/Yandex Metrica/)).toBeTruthy();
     expect(document.querySelector('#consent-accept')).toBeTruthy();
     expect(document.querySelector('#consent-decline')).toBeTruthy();
   });

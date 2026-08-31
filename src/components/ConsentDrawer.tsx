@@ -1,6 +1,6 @@
 import { type JSX, useCallback, useEffect, useState } from 'react';
 import { Alert, Button, Drawer, Layout, Space, Typography } from 'antd';
-import { FiBarChart2, FiLock, FiShield } from 'react-icons/fi';
+import { FiBarChart2, FiEye, FiShield } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { useResumeStore } from '../state/store';
 import { useResponsive } from '../hooks/useResponsive';
@@ -173,14 +173,21 @@ export function ConsentDrawer(): JSX.Element | null {
             <>
               <Typography.Text>{t('consent.intro')}</Typography.Text>
               <Point icon={<FiBarChart2 aria-hidden />}>{t('consent.tools')}</Point>
-              <Point icon={<FiLock aria-hidden />}>{t('consent.masked')}</Point>
+              {/*
+                An EYE, not the padlock this used to be. The bullet says the
+                session replay can contain what you type into the CV — Yandex
+                Metrica's Webvisor is deliberately unmasked (see
+                `services/analytics`) — and a padlock beside that sentence would
+                illustrate the opposite of what it says.
+              */}
+              <Point icon={<FiEye aria-hidden />}>{t('consent.recorded')}</Point>
             </>
           ) : null}
 
           {decision === 'granted' ? (
             <>
               <Typography.Text>{t('consent.statusGranted')}</Typography.Text>
-              <Point icon={<FiLock aria-hidden />}>{t('consent.masked')}</Point>
+              <Point icon={<FiEye aria-hidden />}>{t('consent.recorded')}</Point>
             </>
           ) : null}
 

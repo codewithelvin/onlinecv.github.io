@@ -53,15 +53,15 @@
     "later": "Più tardi"
   },
   "consent": {
-    "title": "Statistiche d'uso anonime",
+    "title": "Statistiche di utilizzo",
     "intro": "OnlineCV non ha un server — il tuo CV è salvato solo su questo dispositivo e non viene inviato da nessuna parte.",
-    "tools": "Nonostante ciò, per capire come viene usata l'app e dove si verificano errori, vengono raccolti dati d'uso anonimi tramite Google Analytics e Microsoft Clarity: le pagine che apri, i pulsanti che premi, il tuo dispositivo e browser, la tua regione approssimativa e una registrazione anonima della tua sessione nell'interfaccia.",
-    "masked": "Il contenuto del tuo CV — nome, contatti, esperienza lavorativa — non ne fa parte e viene mascherato nella registrazione della sessione.",
+    "tools": "Nonostante ciò, per capire come viene usata l’app e dove si verificano errori, vengono raccolti dati d’uso tramite Google Analytics, Microsoft Clarity e Yandex Metrica: le pagine che apri, i pulsanti che premi, il tuo dispositivo e browser, la tua regione approssimativa e una registrazione della tua sessione nell’interfaccia.",
+    "recorded": "La registrazione della sessione riprende l’interfaccia mentre compili il CV, quindi i dati che digiti possono comparirvi. Il file del CV non viene mai caricato e resta su questo dispositivo; le registrazioni servono solo a trovare e correggere i problemi.",
     "accept": "Accetto",
     "decline": "Rifiuto",
     "declinedTitle": "Statistiche disattivate",
     "declined": "Nessuno strumento di statistica è stato caricato e non viene inviato alcun dato. Puoi continuare a usare l'app, ma gli errori che incontri non ci raggiungeranno e non potranno essere individuati né corretti — usi l'app a tuo rischio.",
-    "statusGranted": "Hai consentito le statistiche d'uso anonime su questo dispositivo.",
+    "statusGranted": "Hai consentito le statistiche di utilizzo su questo dispositivo.",
     "revoke": "Disattiva le statistiche",
     "reloadHint": "Ricarica la pagina perché la modifica abbia pieno effetto.",
     "review": "Privacy e statistiche"

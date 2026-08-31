@@ -53,15 +53,15 @@
     "later": "Plus tard"
   },
   "consent": {
-    "title": "Statistiques d'utilisation anonymes",
+    "title": "Statistiques d’utilisation",
     "intro": "OnlineCV n'a pas de serveur — votre CV est enregistré uniquement sur cet appareil et n'est envoyé nulle part.",
-    "tools": "Néanmoins, pour comprendre comment l'application est utilisée et où elle échoue, des données d'utilisation anonymes sont collectées via Google Analytics et Microsoft Clarity : les pages que vous ouvrez, les boutons sur lesquels vous cliquez, votre appareil et votre navigateur, votre région approximative, ainsi qu'un enregistrement anonyme de votre session dans l'interface.",
-    "masked": "Le contenu de votre CV — nom, coordonnées, expérience professionnelle — n'en fait pas partie et est masqué dans l'enregistrement de session.",
+    "tools": "Néanmoins, pour comprendre comment l’application est utilisée et où elle échoue, des données d’utilisation sont collectées via Google Analytics, Microsoft Clarity et Yandex Metrica : les pages que vous ouvrez, les boutons sur lesquels vous cliquez, votre appareil et votre navigateur, votre région approximative, ainsi qu’un enregistrement de votre session dans l’interface.",
+    "recorded": "L’enregistrement de session capture l’interface pendant que vous remplissez votre CV : les informations que vous saisissez peuvent donc y apparaître. Le fichier du CV lui-même n’est jamais téléversé et reste sur cet appareil ; les enregistrements servent uniquement à détecter et à corriger les problèmes.",
     "accept": "J'accepte",
     "decline": "Je refuse",
     "declinedTitle": "Statistiques désactivées",
     "declined": "Aucun outil de statistiques n'a été chargé et aucune donnée n'est envoyée. Vous pouvez continuer à utiliser l'application, mais les erreurs que vous rencontrez ne nous parviendront pas et ne pourront être ni détectées ni corrigées — vous utilisez l'application à vos propres risques.",
-    "statusGranted": "Vous avez autorisé les statistiques d'utilisation anonymes sur cet appareil.",
+    "statusGranted": "Vous avez autorisé les statistiques d’utilisation sur cet appareil.",
     "revoke": "Désactiver les statistiques",
     "reloadHint": "Rechargez la page pour que la modification prenne pleinement effet.",
     "review": "Confidentialité et statistiques"

@@ -53,15 +53,15 @@
     "later": "Later"
   },
   "consent": {
-    "title": "Anonymous usage analytics",
+    "title": "Usage analytics",
     "intro": "OnlineCV has no backend — your CV is stored only on this device and is never uploaded.",
-    "tools": "Even so, to understand how the app is used and where it fails, anonymous usage data is collected through Google Analytics and Microsoft Clarity: the pages you open, the buttons you press, your device and browser, your approximate region, and an anonymous replay of your session in the interface.",
-    "masked": "The contents of your CV — your name, contact details, work history — are not part of that data and are masked in the session replay.",
+    "tools": "Even so, to understand how the app is used and where it fails, usage data is collected through Google Analytics, Microsoft Clarity and Yandex Metrica: the pages you open, the buttons you press, your device and browser, your approximate region, and a replay of your session in the interface.",
+    "recorded": "The session replay records the interface while you fill the CV in, so the details you type can appear in it. The CV file itself is never uploaded and stays on this device; recordings are used only to find and fix problems.",
     "accept": "I agree",
     "decline": "I decline",
     "declinedTitle": "Analytics is off",
     "declined": "No analytics tool was loaded and nothing is being sent. You can keep using the app, but the errors you run into will not reach us and cannot be found and fixed — you are using the app at your own risk.",
-    "statusGranted": "You have allowed anonymous usage analytics on this device.",
+    "statusGranted": "You have allowed usage analytics on this device.",
     "revoke": "Turn analytics off",
     "reloadHint": "Reload the page for the change to take full effect.",
     "review": "Privacy and analytics"

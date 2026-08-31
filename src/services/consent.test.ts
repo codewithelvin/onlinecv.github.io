@@ -12,18 +12,25 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
 const GA_ID = 'G-TESTID123';
 const CLARITY_ID = 'testclarity';
+const METRICA_ID = '98765432';
 const STORAGE_KEY = 'onlinecv-analytics-consent';
+
+const GA_TAG = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
+const CLARITY_TAG = `https://www.clarity.ms/tag/${CLARITY_ID}`;
+const METRICA_TAG = 'https://mc.yandex.ru/metrika/tag.js';
 
 type Win = Window & typeof globalThis;
 
 function configured(): void {
   vi.stubEnv('VITE_GA_MEASUREMENT_ID', GA_ID);
   vi.stubEnv('VITE_CLARITY_PROJECT_ID', CLARITY_ID);
+  vi.stubEnv('VITE_YANDEX_METRICA_ID', METRICA_ID);
 }
 
 function unconfigured(): void {
   vi.stubEnv('VITE_GA_MEASUREMENT_ID', '');
   vi.stubEnv('VITE_CLARITY_PROJECT_ID', '');
+  vi.stubEnv('VITE_YANDEX_METRICA_ID', '');
 }
 
 async function loadConsent(): Promise<typeof import('./consent')> {
@@ -41,7 +48,9 @@ beforeEach(() => {
   delete (window as Partial<Win>).dataLayer;
   delete (window as Partial<Win>).gtag;
   delete (window as Partial<Win>).clarity;
+  delete (window as Partial<Win>).ym;
   delete (window as unknown as Record<string, unknown>)[`ga-disable-${GA_ID}`];
+  delete (window as unknown as Record<string, unknown>)[`disableYaCounter${METRICA_ID}`];
 });
 
 afterEach(() => {
@@ -59,6 +68,7 @@ describe('analytics consent', () => {
     expect(injectedSrcs()).toHaveLength(0);
     expect(window.dataLayer).toBeUndefined();
     expect(window.clarity).toBeUndefined();
+    expect(window.ym).toBeUndefined();
     expect(consent.isConsentRequired()).toBe(true);
   });
 
@@ -72,16 +82,13 @@ describe('analytics consent', () => {
     expect(consent.isConsentReviewable()).toBe(false);
   });
 
-  it('starts both tags the moment consent is granted, and remembers it', async () => {
+  it('starts every tag the moment consent is granted, and remembers it', async () => {
     configured();
     const consent = await loadConsent();
 
     consent.setConsent('granted');
 
-    expect(injectedSrcs()).toEqual([
-      `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`,
-      `https://www.clarity.ms/tag/${CLARITY_ID}`,
-    ]);
+    expect(injectedSrcs()).toEqual([GA_TAG, CLARITY_TAG, METRICA_TAG]);
     expect(localStorage.getItem(STORAGE_KEY)).toBe('granted');
     expect(consent.isConsentRequired()).toBe(false);
   });
@@ -93,7 +100,7 @@ describe('analytics consent', () => {
 
     consent.applyStoredConsent();
 
-    expect(injectedSrcs()).toHaveLength(2);
+    expect(injectedSrcs()).toHaveLength(3);
     expect(consent.isConsentRequired()).toBe(false);
   });
 
@@ -113,10 +120,13 @@ describe('analytics consent', () => {
   });
 
   /**
-   * Withdrawal after the fact. Neither vendor can be unloaded once its script is
-   * running, so the two documented off switches are what "off" means here: gtag's
-   * own `ga-disable-<ID>` flag, which it checks before every hit, and Clarity's
-   * `stop` command. A reload is what makes it absolute, and the drawer says so.
+   * Withdrawal after the fact. No vendor can be unloaded once its script is
+   * running, so the three documented off switches are what "off" means here:
+   * gtag's own `ga-disable-<ID>` flag, which it checks before every hit;
+   * Clarity's `stop` command; and Metrica's `disableYaCounter<ID>`, which stops
+   * its cookies and its uploads. A reload is what makes it absolute, and the
+   * drawer says so — Metrica leans on that hardest, since its flag is read when
+   * the tag initializes rather than before each hit.
    */
   it('flips the vendors’ own off switches when consent is withdrawn', async () => {
     configured();
@@ -127,10 +137,31 @@ describe('analytics consent', () => {
 
     consent.setConsent('denied');
 
-    expect((window as unknown as Record<string, unknown>)[`ga-disable-${GA_ID}`]).toBe(true);
+    const flags = window as unknown as Record<string, unknown>;
+    expect(flags[`ga-disable-${GA_ID}`]).toBe(true);
+    expect(flags[`disableYaCounter${METRICA_ID}`]).toBe(true);
     const queued = (window.clarity?.q ?? []) as IArguments[];
     expect(queued).toHaveLength(queuedBefore + 1);
     expect([...queued[queued.length - 1]]).toEqual(['stop']);
+  });
+
+  /**
+   * The same flag on a first-visit refusal, where it does its FULL job: Metrica
+   * reads `disableYaCounter<ID>` when the tag initializes, so setting it before
+   * anything loads is what makes a later stray `initAnalytics` collect nothing —
+   * the belt to `applyStoredConsent`'s braces.
+   */
+  it('sets Metrica’s opt-out flag before its tag could ever load', async () => {
+    configured();
+    localStorage.setItem(STORAGE_KEY, 'denied');
+    const consent = await loadConsent();
+
+    consent.applyStoredConsent();
+
+    expect(injectedSrcs()).toHaveLength(0);
+    expect((window as unknown as Record<string, unknown>)[`disableYaCounter${METRICA_ID}`]).toBe(
+      true,
+    );
   });
 
   it('treats a junk stored value as "not asked yet"', async () => {

@@ -53,15 +53,15 @@
     "later": "Később"
   },
   "consent": {
-    "title": "Anonim használati statisztika",
+    "title": "Használati statisztika",
     "intro": "Az OnlineCV nem használ szervert — az önéletrajza csak ezen az eszközön tárolódik, és nem kerül elküldésre.",
-    "tools": "Ennek ellenére — hogy kiderüljön, hogyan használják az alkalmazást és hol hibázik — anonim használati adatok gyűlnek a Google Analytics és a Microsoft Clarity segítségével: a megnyitott oldalak, a megnyomott gombok, az eszköz és a böngésző, a hozzávetőleges régió, valamint a felületen töltött munkamenet anonim felvétele.",
-    "masked": "Az önéletrajz tartalma — a neve, az elérhetőségei, a munkatapasztalata — nem része ezeknek az adatoknak, és a munkamenet-felvételen elrejtve jelenik meg.",
+    "tools": "Ennek ellenére — hogy kiderüljön, hogyan használják az alkalmazást és hol hibázik — használati adatok gyűlnek a Google Analytics, a Microsoft Clarity és a Yandex Metrica segítségével: a megnyitott oldalak, a megnyomott gombok, az eszköz és a böngésző, a hozzávetőleges régió, valamint a felületen töltött munkamenet felvétele.",
+    "recorded": "A munkamenet-felvétel a felületet rögzíti, miközben Ön kitölti az önéletrajzot, így a beírt adatok is megjelenhetnek benne. Maga az önéletrajz-fájl soha nem kerül feltöltésre, és ezen az eszközön marad; a felvételek kizárólag hibák felderítésére és javítására szolgálnak.",
     "accept": "Elfogadom",
     "decline": "Elutasítom",
     "declinedTitle": "A statisztika ki van kapcsolva",
     "declined": "Egyetlen statisztikai eszköz sem töltődött be, és semmilyen adat nem kerül elküldésre. Az alkalmazás továbbra is használható, de az előforduló hibák nem jutnak el hozzánk, így nem lehet őket felderíteni és kijavítani — az alkalmazás használata saját felelősségre történik.",
-    "statusGranted": "Ezen az eszközön engedélyezte az anonim használati statisztikát.",
+    "statusGranted": "Ezen az eszközön engedélyezte a használati statisztikát.",
     "revoke": "Statisztika kikapcsolása",
     "reloadHint": "Töltse újra az oldalt, hogy a változás teljesen érvénybe lépjen.",
     "review": "Adatvédelem és statisztika"

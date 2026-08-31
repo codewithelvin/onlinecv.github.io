@@ -53,15 +53,15 @@
     "later": "Sonra"
   },
   "consent": {
-    "title": "Anonim istifadə statistikası",
+    "title": "İstifadə statistikası",
     "intro": "OnlineCV-nin serveri yoxdur — CV-niz yalnız bu cihazda saxlanılır və heç yerə göndərilmir.",
-    "tools": "Buna baxmayaraq, tətbiqin necə istifadə olunduğunu və hansı hissəsində xəta baş verdiyini anlamaq üçün Google Analytics və Microsoft Clarity vasitəsilə anonim istifadə məlumatları toplanır: açdığınız səhifələr, sıxdığınız düymələr, cihaz və brauzeriniz, təxmini regionunuz, həmçinin interfeys üzrə anonim sessiya təkrarı.",
-    "masked": "CV-nizin məzmunu — adınız, əlaqə vasitələriniz, iş təcrübəniz — bu məlumatlara daxil edilmir və sessiya təkrarında maskalanır.",
+    "tools": "Buna baxmayaraq, tətbiqin necə istifadə olunduğunu və hansı hissəsində xəta baş verdiyini anlamaq üçün Google Analytics, Microsoft Clarity və Yandex Metrica vasitəsilə istifadə məlumatları toplanır: açdığınız səhifələr, sıxdığınız düymələr, cihaz və brauzeriniz, təxmini regionunuz, həmçinin interfeys üzrə sessiya təkrarı.",
+    "recorded": "Sessiya təkrarı CV-ni doldurduğunuz zaman interfeysi qeydə alır, ona görə də yazdığınız məlumatlar orada görünə bilər. CV faylının özü heç yerə yüklənmir və bu cihazda qalır; qeydlər yalnız problemləri tapıb aradan qaldırmaq üçün istifadə olunur.",
     "accept": "Razıyam",
     "decline": "İmtina edirəm",
     "declinedTitle": "Statistika söndürülüb",
     "declined": "Heç bir statistika aləti yüklənmədi və heç bir məlumat göndərilmir. Tətbiqdən istifadə etməyə davam edə bilərsiniz, lakin rastlaşdığınız xətalar bizə çatmayacaq, onları aşkarlayıb düzəltmək mümkün olmayacaq — tətbiqdən öz riskinizlə istifadə edirsiniz.",
-    "statusGranted": "Bu cihazda anonim istifadə statistikasına icazə vermisiniz.",
+    "statusGranted": "Bu cihazda istifadə statistikasına icazə vermisiniz.",
     "revoke": "Statistikanı söndür",
     "reloadHint": "Dəyişikliyin tam qüvvəyə minməsi üçün səhifəni yeniləyin.",
     "review": "Məxfilik və statistika"
