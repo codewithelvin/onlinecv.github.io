@@ -98,7 +98,7 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
   persistenceError: false,
 
   /**
-   * First run follows the URL's locale if it names one (`/ru/` — a search result
+   * First run follows the URL's locale if it names one (`/ru` — a search result
    * or a shared link), and otherwise starts in Azerbaijani, the primary market,
    * regardless of the browser's preferred languages. The user can switch from the
    * header and that choice is what gets persisted.

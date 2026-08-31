@@ -182,9 +182,14 @@ export default defineConfig({
       },
     }),
     /**
-     * One static landing page per language (`/az/`, `/ru/`, …) plus the sitemap
+     * One static landing page per language (`/az`, `/ru`, …) plus the sitemap
      * and robots.txt. Last in the list, so it rewrites the HTML the other plugins
      * have already produced.
+     *
+     * Emits each locale TWICE — `az.html` (the canonical `/az`, a real 200) and
+     * `az/index.html` (compatibility, since Pages can author no redirect for the
+     * `/az/` form already published). Both land in the precache, which is where
+     * the extra ~20 entries in the build output come from.
      */
     localePages(),
   ],

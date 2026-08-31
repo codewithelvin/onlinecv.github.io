@@ -10,7 +10,7 @@ import { DEFAULT_LOCALE, SUPPORTED_LOCALES, isLocale } from './i18n/locales';
  * whichever language the served HTML happened to be in. The other four are
  * invisible to search no matter how complete their translations are.
  *
- * So each locale gets a real, separately-fetchable URL (`/az/`, `/ru/`, …), each
+ * So each locale gets a real, separately-fetchable URL (`/az`, `/ru`, …), each
  * served as a static file with its own `lang`, `title`, `description`, canonical
  * and a full set of `hreflang` alternates. This module is the single source those
  * files, the sitemap, and the running app all derive from — the build script and
@@ -29,26 +29,63 @@ import { DEFAULT_LOCALE, SUPPORTED_LOCALES, isLocale } from './i18n/locales';
  */
 export const SITE_ORIGIN = 'https://onlinecv.az';
 
-/** Path segment for a locale, relative to the app's base path: `az/`. */
+/**
+ * Path segment for a locale, relative to the app's base path: `az`.
+ *
+ * NO TRAILING SLASH, deliberately, and that is the whole locale-URL shape in one
+ * decision (user's call, 2026-08-31). `/az` is the canonical, indexable form;
+ * `/az/` still resolves but self-canonicalizes to it. See `localeUrl`.
+ */
 export function localeSegment(locale: Locale): string {
-  return `${locale}/`;
+  return locale;
 }
 
-/** Absolute canonical URL for a locale's landing page. */
+/**
+ * Absolute canonical URL for a locale's landing page — `https://onlinecv.az/az`,
+ * with NO trailing slash.
+ *
+ * WHY SLASH-LESS, given a static host serves directories. GitHub Pages resolves
+ * an extensionless request against `<name>.html` before it falls back to
+ * `<name>/index.html`, so the build emits BOTH `az.html` and `az/index.html`
+ * (`vite-plugin-locale-pages`). `/az` is therefore a real 200 rather than the
+ * `301 → /az/` a bare directory would give, which is what a webmaster tool
+ * reports as "non-indexable: redirect".
+ *
+ * The directory copy is kept because **GitHub Pages cannot author redirects** —
+ * no `.htaccess`, no `_redirects` — so dropping it would turn every `/az/` URL
+ * already published in a sitemap or an external link into a permanent 404 with
+ * no remedy. Both forms serve, both carry THIS canonical, and only this one is
+ * listed in `sitemap.xml` and the `hreflang` set.
+ */
 export function localeUrl(locale: Locale): string {
   return `${SITE_ORIGIN}/${localeSegment(locale)}`;
+}
+
+/**
+ * The locale a path segment names, ignoring a `.html` extension.
+ *
+ * `/az` is what visitors and crawlers see, but the file behind it is `az.html`
+ * and nothing stops someone linking that directly. Without the strip, such a
+ * visit reads as "no locale in the path" and silently serves the stored or
+ * default language on a page whose `<html lang>` says otherwise.
+ */
+function localeOfSegment(segment: string): Locale | undefined {
+  const bare = segment.replace(/\.html$/, '');
+  return isLocale(bare) ? bare : undefined;
 }
 
 /**
  * The locale a URL path names, or `undefined` if it names none.
  *
  * Works under any base path by scanning the segments rather than assuming a
- * position, so it behaves the same on `onlinecv.az/ru/` and on the current
- * project sub-path `…/onlinecv.github.io/ru/`.
+ * position, so it behaves the same on `onlinecv.az/ru` and on the old project
+ * sub-path `…/onlinecv.github.io/ru`. Accepts `/ru`, `/ru/` and `/ru.html`
+ * alike — all three are real ways to reach the same emitted page.
  */
 export function localeFromPath(pathname: string): Locale | undefined {
   for (const segment of pathname.split('/')) {
-    if (isLocale(segment)) return segment;
+    const locale = localeOfSegment(segment);
+    if (locale) return locale;
   }
   return undefined;
 }
@@ -57,14 +94,17 @@ export function localeFromPath(pathname: string): Locale | undefined {
  * The path to switch to for a locale, preserving the app's base path.
  *
  * Replaces an existing locale segment in place; otherwise appends one. Returns a
- * root-relative path, so it is safe to hand to `history.replaceState`.
+ * root-relative path with NO trailing slash, matching `localeUrl` — the address
+ * bar after a language switch has to be the URL that is actually canonical, or a
+ * shared link points at the redirecting form the canonical exists to retire.
+ * Normalizes `/az/` and `/az.html` onto the bare form on the way through.
  */
 export function pathForLocale(pathname: string, locale: Locale): string {
   const segments = pathname.split('/').filter(Boolean);
-  const at = segments.findIndex((segment) => isLocale(segment));
+  const at = segments.findIndex((segment) => localeOfSegment(segment));
   if (at >= 0) segments[at] = locale;
   else segments.push(locale);
-  return `/${segments.join('/')}/`;
+  return `/${segments.join('/')}`;
 }
 
 /**
@@ -72,7 +112,7 @@ export function pathForLocale(pathname: string, locale: Locale): string {
  *
  * `x-default` is what a search engine serves to a visitor whose language matches
  * none of ours; it points at the default locale rather than at `/`, because `/`
- * and `/az/` would otherwise be two URLs claiming the same content.
+ * and `/az` would otherwise be two URLs claiming the same content.
  */
 export function hreflangAlternates(): { hreflang: string; href: string }[] {
   return [

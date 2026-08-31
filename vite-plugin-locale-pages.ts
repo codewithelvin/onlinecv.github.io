@@ -208,17 +208,36 @@ export function localePages(): Plugin {
       }
       const html = String(entry.source);
 
+      /**
+       * TWO files per locale, both the same page, both canonicalizing to `/az`.
+       *
+       * `az.html` is the one that matters: GitHub Pages resolves an extensionless
+       * request against `<name>.html` before `<name>/index.html`, so this is what
+       * makes `/az` answer **200** instead of the `301 → /az/` a bare directory
+       * gives. That redirect is exactly what a webmaster tool flags as
+       * "non-indexable: redirect" (user's call to go slash-less, 2026-08-31).
+       *
+       * `az/index.html` is kept as a compatibility copy, NOT as a second address:
+       * **GitHub Pages cannot author redirects**, so deleting it would turn every
+       * `/az/` URL already published in `sitemap.xml`, indexed, or linked from
+       * outside into a permanent 404 that nothing on this host can repair. It
+       * carries the same canonical as its twin, so search consolidates the pair
+       * onto `/az` rather than treating them as duplicates, and only `/az` is
+       * listed in the sitemap and the `hreflang` set.
+       */
       for (const locale of SUPPORTED_LOCALES) {
+        const page = renderLocalePage(html, locale, localeUrl(locale));
+        this.emitFile({ type: 'asset', fileName: `${localeSegment(locale)}.html`, source: page });
         this.emitFile({
           type: 'asset',
-          fileName: `${localeSegment(locale)}index.html`,
-          source: renderLocalePage(html, locale, localeUrl(locale)),
+          fileName: `${localeSegment(locale)}/index.html`,
+          source: page,
         });
       }
 
       /**
        * The root page keeps serving the default language, but now declares the
-       * alternates and points its canonical at `/az/` — otherwise `/` and `/az/`
+       * alternates and points its canonical at `/az` — otherwise `/` and `/az`
        * are two URLs with identical content competing with each other.
        */
       entry.source = renderLocalePage(html, DEFAULT_LOCALE, localeUrl(DEFAULT_LOCALE));

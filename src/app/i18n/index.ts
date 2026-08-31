@@ -100,7 +100,7 @@ export function applyLocale(locale: Locale): void {
 /**
  * Point the address bar at the current language, without navigating.
  *
- * Each language has its own indexable URL (`/ru/` — see `app/seo-locales`), so the
+ * Each language has its own indexable URL (`/ru` — see `app/seo-locales`), so the
  * language on screen has to be the one in the bar; otherwise a shared link hands
  * the recipient a different language than the sender saw.
  *
