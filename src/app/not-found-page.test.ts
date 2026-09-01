@@ -48,8 +48,8 @@ describe('404 page', () => {
       // One file serves every miss on the site, so a locale absent here cannot be
       // switched to at all — it silently falls back to Azerbaijani.
       expect(html, `no copy embedded for "${locale}"`).toContain(`title-${locale}`);
-      expect(html, `no direction embedded for "${locale}"`).toContain(
-        `"action-${locale}","dir":"${LOCALES[locale].dir}"`,
+      expect(html, `no lang/direction embedded for "${locale}"`).toContain(
+        `"action-${locale}","lang":"${locale}","dir":"${LOCALES[locale].dir}"`,
       );
     }
   });

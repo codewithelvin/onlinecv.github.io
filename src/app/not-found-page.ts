@@ -55,8 +55,17 @@ export interface NotFoundStrings {
   action: string;
 }
 
-/** What the inline script needs per locale: the copy plus its writing direction. */
+/**
+ * What the inline script needs per locale, on top of the copy.
+ *
+ * `lang` is carried explicitly rather than reusing the table's KEY. The key is the
+ * URL segment (`localeSegment`), and although the two are the same string today,
+ * the script writes one of them into `<html lang>` — where a URL-shape change
+ * would put a path segment into a language attribute and be visible to nobody
+ * except a screen reader and a crawler.
+ */
 interface NotFoundEntry extends NotFoundStrings {
+  lang: string;
   dir: string;
 }
 
@@ -253,21 +262,23 @@ function script(base: string, entries: Record<string, NotFoundEntry>): string {
           }
         }
 
-        var locale = found || ${JSON.stringify(DEFAULT_LOCALE)};
-        var copy = COPY[locale];
+        /* \`segment\` addresses the app; \`copy.lang\` describes the text. Same string
+           today, but they answer different questions. */
+        var segment = found || ${JSON.stringify(localeSegment(DEFAULT_LOCALE))};
+        var copy = COPY[segment];
         var text = function (id, value) {
           document.getElementById(id).textContent = value;
         };
 
-        document.documentElement.lang = locale;
+        document.documentElement.lang = copy.lang;
         document.documentElement.dir = copy.dir;
         document.title = copy.title + ' \\u2014 OnlineCV';
         text('nf-title', copy.title);
         text('nf-body', copy.body);
         text('nf-retired', copy.retired);
         text('nf-action', copy.action);
-        document.getElementById('nf-action').href = BASE + locale;
-        document.getElementById('nf-brand').href = BASE + locale;
+        document.getElementById('nf-action').href = BASE + segment;
+        document.getElementById('nf-brand').href = BASE + segment;
 
         /* The address that failed, shown so the visitor can see WHAT was wrong.
            textContent, never innerHTML: this string comes from the URL bar. */
@@ -286,7 +297,11 @@ function script(base: string, entries: Record<string, NotFoundEntry>): string {
 export function renderNotFoundPage(copy: Record<Locale, NotFoundStrings>, base: string): string {
   const entries: Record<string, NotFoundEntry> = {};
   for (const locale of SUPPORTED_LOCALES) {
-    entries[localeSegment(locale)] = { ...copy[locale], dir: LOCALES[locale].dir };
+    entries[localeSegment(locale)] = {
+      ...copy[locale],
+      lang: locale,
+      dir: LOCALES[locale].dir,
+    };
   }
 
   const fallback = copy[DEFAULT_LOCALE];
