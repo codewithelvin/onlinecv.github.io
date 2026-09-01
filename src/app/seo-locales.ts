@@ -30,6 +30,29 @@ import { DEFAULT_LOCALE, SUPPORTED_LOCALES, isLocale } from './i18n/locales';
 export const SITE_ORIGIN = 'https://onlinecv.az';
 
 /**
+ * IndexNow ownership key (generated in Ahrefs, 2026-09-01).
+ *
+ * IndexNow lets a site tell Bing/Yandex/Seznam (and the tools that front them)
+ * that a URL changed instead of waiting to be re-crawled, and it authenticates
+ * the caller in exactly one way: whoever pings must be able to host
+ * `<key>.txt` at the site ROOT with the key itself as the file's entire body.
+ *
+ * Stated ONCE here because that is the whole specification of the file, and the
+ * file's name and its contents are the same string. `vite-plugin-locale-pages`
+ * emits it from this constant twice over, so the two halves cannot drift; a
+ * hand-placed `public/<key>.txt` would let a rename, a re-generated key or a
+ * stray BOM break verification with no local symptom at all — the failure shows
+ * up only as "file not found" in someone else's dashboard.
+ *
+ * Nothing in the app reads this; it exists to be fetched. It stays OUT of the
+ * precache (`globPatterns` in `vite.config.ts` has no `txt`) and the service
+ * worker's `navigateFallbackDenylist` already covers every root-level `*.txt`,
+ * so it can never be answered with the app shell — the same rule `robots.txt`
+ * needed for the same reason.
+ */
+export const INDEXNOW_KEY = '90ebfa31f04b48a987f4327448aec7cc';
+
+/**
  * Path segment for a locale, relative to the app's base path: `az`.
  *
  * NO TRAILING SLASH, deliberately, and that is the whole locale-URL shape in one

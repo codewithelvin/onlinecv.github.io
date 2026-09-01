@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from './i18n/locales';
 import {
+  INDEXNOW_KEY,
   SITE_ORIGIN,
   appRoutePattern,
   hreflangAlternates,
@@ -227,5 +228,21 @@ describe('appRoutePattern', () => {
     // them, so widening one does not silently turn them into the app shell.
     expect(matches('/robots.txt')).toBe(false);
     expect(matches('/sitemap.xml')).toBe(false);
+    // Same for the IndexNow key file, and here it is not cosmetic: a verifier
+    // handed the app shell reads no key and reports the file missing.
+    expect(matches(`/${INDEXNOW_KEY}.txt`)).toBe(false);
+  });
+});
+
+/**
+ * The IndexNow ownership key. Its file is generated from this one constant (name
+ * AND body), so the only thing left to get wrong is the key itself — and an
+ * invalid one is silently rejected by the API rather than reported.
+ */
+describe('IndexNow key', () => {
+  it('is a usable key: 8–128 chars, letters/digits/dashes only', () => {
+    // The IndexNow spec's own character set. A pasted URL, a quoted string or a
+    // trailing space would all pass "looks like a key" and fail verification.
+    expect(INDEXNOW_KEY).toMatch(/^[A-Za-z0-9-]{8,128}$/);
   });
 });

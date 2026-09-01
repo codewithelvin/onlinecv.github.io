@@ -1,6 +1,7 @@
 import type { Plugin } from 'vite';
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES, LOCALES } from './src/app/i18n/locales';
 import {
+  INDEXNOW_KEY,
   SITE_ORIGIN,
   hreflangAlternates,
   localeSegment,
@@ -347,6 +348,18 @@ export function localePages(): Plugin {
       });
 
       this.emitFile({ type: 'asset', fileName: 'sitemap.xml', source: sitemap() });
+
+      /**
+       * The IndexNow ownership key file. Name and body are the SAME constant, so
+       * the file cannot be half-right — which is the only failure mode it has.
+       *
+       * No trailing newline, deliberately: the verifiers compare the body to the
+       * key, and the tool that reported this file missing states the contract as
+       * an exact pair ("with the key as its name / and the key as its content").
+       * Rollup writes an emitted string as UTF-8 with no BOM, which is the other
+       * half of what they ask for.
+       */
+      this.emitFile({ type: 'asset', fileName: `${INDEXNOW_KEY}.txt`, source: INDEXNOW_KEY });
       this.emitFile({
         type: 'asset',
         fileName: 'robots.txt',
