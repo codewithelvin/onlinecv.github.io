@@ -186,6 +186,12 @@
     "body": "Leider ist ein Systemfehler aufgetreten. Bitte versuchen Sie, die Seite neu zu laden.",
     "reload": "Seite neu laden"
   },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "body": "Die von Ihnen geöffnete Adresse existiert nicht.",
+    "retired": "Öffentliche Profile und das Universitätsverzeichnis wurden zusammen mit der alten Website eingestellt. OnlineCV läuft jetzt vollständig in Ihrem Browser.",
+    "action": "Lebenslauf erstellen"
+  },
   "seo": {
     "title": "OnlineCV — Kostenlos einen Lebenslauf online erstellen",
     "description": "Online-Plattform zur Erstellung von Lebensläufen. Erstellen Sie Ihren Lebenslauf in wenigen Minuten kostenlos und laden Sie ihn als PDF herunter."

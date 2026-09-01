@@ -2,6 +2,9 @@ import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 import { localePages } from './vite-plugin-locale-pages';
+// The service worker's navigation allowlist is the app's real route list, so it
+// is derived from the same module that decides where each locale lives.
+import { appRoutePattern } from './src/app/seo-locales';
 
 /**
  * Public path the built app is served from. MUST match the real URL or every
@@ -175,6 +178,33 @@ export default defineConfig({
          * tests these against `pathname + search`, so they hold under any `base`.
          */
         navigateFallbackDenylist: [/\/robots\.txt$/, /\/sitemap\.xml$/, /\/[^/?]+\.(?:txt|xml)$/],
+        /**
+         * The app's OWN routes, and nothing else — this is what makes a 404 a 404
+         * for anyone who has visited before.
+         *
+         * Workbox's default allowlist is `[/./]`, i.e. the fallback answers EVERY
+         * navigation. Combined with a single-route app that is precached in full,
+         * that had one consequence and no benefit: every real route
+         * (`/`, `/az`, `/az/`, `/az.html`) is already in the precache and is served
+         * from there, so the only requests the fallback ever actually handled were
+         * addresses the site does not have — which it turned into `index.html` with
+         * a **200**. Every dead link from the old backend site (`/en/university/x`,
+         * `/candidate/y`) therefore rendered the editor instead of an error for
+         * every returning visitor, and `404.html` could never be reached at all.
+         * (Crawlers were unaffected — they run no service worker, so they always
+         * got the origin's real 404. The soft-200 was a browser-only illusion, and
+         * the reason these URLs looked like live routes.)
+         *
+         * Derived from `SUPPORTED_LOCALES` so a new language cannot be forgotten
+         * here, and base-qualified like everything else. Matched against
+         * `pathname + search`, hence the optional query — an inbound
+         * `/az?utm_source=…` is a real route and must still work offline.
+         *
+         * The denylist above is kept even though nothing it names could match this
+         * allowlist: Workbox gives the denylist precedence, so it stays as the
+         * guard that survives someone widening the allowlist later.
+         */
+        navigateFallbackAllowlist: [appRoutePattern(BASE)],
         cleanupOutdatedCaches: true,
       },
       devOptions: {

@@ -108,6 +108,37 @@ export function pathForLocale(pathname: string, locale: Locale): string {
 }
 
 /**
+ * Every address the app actually serves, as one RegExp — the service worker's
+ * navigation allowlist (`navigateFallbackAllowlist` in `vite.config.ts`).
+ *
+ * WHY A SINGLE-ROUTE APP NEEDS THIS. Workbox's navigation fallback defaults to
+ * answering EVERY navigation out of the precache. Here that is all cost and no
+ * benefit: the real routes — `/`, `/az`, `/az/`, `/az.html`, `/index.html` — are
+ * each precached as their own file and served from there, so the only requests
+ * the fallback ever handled were addresses the site does not have. It turned them
+ * into the app shell with a **200**, which is why every dead link inherited from
+ * the old backend site (`/en/university/x`, `/candidate/y`) looked like a live
+ * route in a browser while the origin was correctly answering 404 all along.
+ * Restricting the fallback to this pattern lets those reach the network, and the
+ * network answers with `404.html`.
+ *
+ * Built from `SUPPORTED_LOCALES`, so a new language is covered by adding it there
+ * and nowhere else. `base` is passed in for the same reason the rest of this
+ * module takes it: the generator runs in Node, where `import.meta.env` does not
+ * exist.
+ *
+ * Anchored at both ends, because the whole point is that `/az` matches and
+ * `/az/university/x` does not. Workbox tests the pattern against
+ * `pathname + search`, hence the optional query: an inbound `/az?utm_source=…`
+ * is a real route and has to keep working offline.
+ */
+export function appRoutePattern(base: string): RegExp {
+  const prefix = base.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const names = ['index', ...SUPPORTED_LOCALES].join('|');
+  return new RegExp(`^${prefix}(?:(?:${names})(?:\\.html)?/?)?(?:\\?.*)?$`);
+}
+
+/**
  * Every `hreflang` alternate, plus `x-default`.
  *
  * `x-default` is what a search engine serves to a visitor whose language matches

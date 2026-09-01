@@ -186,6 +186,12 @@
     "body": "Infelizmente, ocorreu um erro do sistema. Tente recarregar a página.",
     "reload": "Recarregar página"
   },
+  "notFound": {
+    "title": "Página não encontrada",
+    "body": "O endereço aberto não existe.",
+    "retired": "Os perfis públicos e o diretório de universidades foram descontinuados juntamente com o site anterior. O OnlineCV funciona agora inteiramente no seu navegador.",
+    "action": "Criar CV"
+  },
   "seo": {
     "title": "OnlineCV — Crie um CV online gratuito",
     "description": "Plataforma online para a criação de currículos. Prepare o seu CV em poucos minutos, gratuitamente, e descarregue-o em PDF."

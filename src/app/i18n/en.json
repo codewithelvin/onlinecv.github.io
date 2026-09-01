@@ -186,6 +186,12 @@
     "body": "Unfortunately, a system error has occurred. Please try reloading the page.",
     "reload": "Reload page"
   },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The address you opened does not exist.",
+    "retired": "Public profiles and the university directory were retired along with the old site. OnlineCV now runs entirely in your browser.",
+    "action": "Create your CV"
+  },
   "seo": {
     "title": "OnlineCV — Create a free online CV",
     "description": "Online platform for CV preparation. Prepare your CV in a few minutes for free and download it as a PDF."

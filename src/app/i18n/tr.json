@@ -186,6 +186,12 @@
     "body": "Maalesef bir sistem hatası oluştu. Lütfen sayfayı yeniden yüklemeyi deneyin.",
     "reload": "Sayfayı yeniden yükle"
   },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "body": "Açtığınız adres mevcut değil.",
+    "retired": "Herkese açık profiller ve üniversite dizini eski siteyle birlikte kaldırıldı. OnlineCV artık tamamen tarayıcınızda çalışıyor.",
+    "action": "CV oluştur"
+  },
   "seo": {
     "title": "OnlineCV — Ücretsiz online CV oluşturun",
     "description": "CV hazırlamak için online platform. CV'nizi birkaç dakikada ücretsiz hazırlayın ve PDF olarak indirin."

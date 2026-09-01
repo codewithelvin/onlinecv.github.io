@@ -1,6 +1,7 @@
 import type { Plugin } from 'vite';
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES, LOCALES } from './src/app/i18n/locales';
 import { SITE_ORIGIN, hreflangAlternates, localeSegment, localeUrl } from './src/app/seo-locales';
+import { renderNotFoundPage, type NotFoundStrings } from './src/app/not-found-page';
 import type { Locale } from './src/types/resume';
 import az from './src/app/i18n/az.json';
 import ru from './src/app/i18n/ru.json';
@@ -60,28 +61,29 @@ interface SeoStrings {
  * reading the files, so no `@types/node` is needed (§27 keeps the dependency list
  * closed) and a malformed bundle is a build error rather than a runtime one.
  */
-const BUNDLES: Record<Locale, { seo?: Partial<SeoStrings> }> = {
-  az,
-  ru,
-  en,
-  ka,
-  ar,
-  es,
-  he,
-  ko,
-  zh,
-  fr,
-  de,
-  it,
-  tr,
-  pt,
-  pl,
-  hu,
-  el,
-  kk,
-  uz,
-  ja,
-};
+const BUNDLES: Record<Locale, { seo?: Partial<SeoStrings>; notFound?: Partial<NotFoundStrings> }> =
+  {
+    az,
+    ru,
+    en,
+    ka,
+    ar,
+    es,
+    he,
+    ko,
+    zh,
+    fr,
+    de,
+    it,
+    tr,
+    pt,
+    pl,
+    hu,
+    el,
+    kk,
+    uz,
+    ja,
+  };
 
 function seoStrings(locale: Locale): SeoStrings {
   const { title, description } = BUNDLES[locale].seo ?? {};
@@ -91,6 +93,29 @@ function seoStrings(locale: Locale): SeoStrings {
     throw new Error(`locale-pages: ${locale}.json is missing seo.title or seo.description`);
   }
   return { title, description };
+}
+
+/**
+ * The `notFound` block for one locale, from the same bundles.
+ *
+ * Throws for the same reason `seoStrings` does, and it matters more here: the
+ * error page is embedded once for all 20 languages, so a missing key would not
+ * cost one language its page — it would print `undefined` into the shared file
+ * that every miss on the site is answered with.
+ */
+function notFoundStrings(locale: Locale): NotFoundStrings {
+  const { title, body, retired, action } = BUNDLES[locale].notFound ?? {};
+  if (!title || !body || !retired || !action) {
+    throw new Error(`locale-pages: ${locale}.json is missing a notFound.* key`);
+  }
+  return { title, body, retired, action };
+}
+
+/** Every locale's `notFound` copy, which is what `404.html` embeds. */
+function notFoundCopy(): Record<Locale, NotFoundStrings> {
+  return Object.fromEntries(
+    SUPPORTED_LOCALES.map((locale) => [locale, notFoundStrings(locale)]),
+  ) as Record<Locale, NotFoundStrings>;
 }
 
 const escapeAttr = (value: string): string =>
@@ -195,12 +220,24 @@ function sitemap(): string {
 }
 
 export function localePages(): Plugin {
+  /**
+   * Taken from the resolved config rather than accepted as an argument, so `BASE`
+   * in `vite.config.ts` stays the ONE place the app's public path is stated. The
+   * locale pages need no base (their URLs are absolute, from `SITE_ORIGIN`), but
+   * `404.html` does: it links to the app and loads a font and a logo, and it is
+   * served at arbitrary paths, so every URL on it has to be base-qualified.
+   */
+  let base = '/';
+
   return {
     name: 'onlinecv-locale-pages',
     // After the PWA plugin has produced its manifest/SW, so the pages it emits
     // are picked up by the precache glob.
     enforce: 'post',
     apply: 'build',
+    configResolved(config) {
+      base = config.base;
+    },
     generateBundle(_options, bundle) {
       const entry = bundle['index.html'];
       if (!entry || entry.type !== 'asset') {
@@ -241,6 +278,24 @@ export function localePages(): Plugin {
        * are two URLs with identical content competing with each other.
        */
       entry.source = renderLocalePage(html, DEFAULT_LOCALE, localeUrl(DEFAULT_LOCALE));
+
+      /**
+       * `404.html` — what GitHub Pages serves for every address that is not a
+       * file, WITH the 404 status kept (that is the part search engines act on;
+       * the file only replaces GitHub's own screen). One file for the whole site,
+       * so it carries all 20 languages and picks one in the browser. See
+       * `src/app/not-found-page.ts` for why it is a real error page and not a
+       * copy of the app shell.
+       *
+       * ⚠️ It is only REACHABLE because `navigateFallbackAllowlist` in
+       * `vite.config.ts` stops the service worker answering unknown paths out of
+       * the precache. Without that, a returning visitor never sees this file.
+       */
+      this.emitFile({
+        type: 'asset',
+        fileName: '404.html',
+        source: renderNotFoundPage(notFoundCopy(), base),
+      });
 
       this.emitFile({ type: 'asset', fileName: 'sitemap.xml', source: sitemap() });
       this.emitFile({

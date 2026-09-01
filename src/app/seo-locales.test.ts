@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from './i18n/locales';
 import {
   SITE_ORIGIN,
+  appRoutePattern,
   hreflangAlternates,
   initialLocale,
   localeFromPath,
@@ -122,5 +123,79 @@ describe('hreflangAlternates', () => {
   it('points x-default at the default locale page', () => {
     const xDefault = hreflangAlternates().find((a) => a.hreflang === 'x-default');
     expect(xDefault?.href).toBe(localeUrl(DEFAULT_LOCALE));
+  });
+});
+
+/**
+ * The service worker's navigation allowlist. Both directions matter and they fail
+ * in opposite ways: too narrow and a real route stops working offline, too wide
+ * and the fallback answers a dead address with the app shell and a 200 — which is
+ * what made every retired backend URL look like a live route in a browser, and
+ * what kept `404.html` permanently unreachable.
+ */
+describe('appRoutePattern', () => {
+  const matches = (path: string, base = '/'): boolean => appRoutePattern(base).test(path);
+
+  it('matches the app root', () => {
+    expect(matches('/')).toBe(true);
+  });
+
+  it('matches every locale in all three of its served forms', () => {
+    for (const locale of SUPPORTED_LOCALES) {
+      // `/az` is canonical, `/az/` is the compatibility copy Pages cannot
+      // redirect away, `/az.html` is the file itself — all three are real 200s.
+      expect(matches(`/${locale}`), `/${locale}`).toBe(true);
+      expect(matches(`/${locale}/`), `/${locale}/`).toBe(true);
+      expect(matches(`/${locale}.html`), `/${locale}.html`).toBe(true);
+    }
+  });
+
+  it('matches the root document by name', () => {
+    expect(matches('/index')).toBe(true);
+    expect(matches('/index.html')).toBe(true);
+  });
+
+  /**
+   * Workbox tests the pattern against `pathname + search`, so a campaign
+   * parameter must not disqualify a real route — offline, that would leave an
+   * inbound `/az?utm_source=…` with no page at all.
+   */
+  it('tolerates a query string on a real route', () => {
+    expect(matches('/az?utm_source=newsletter')).toBe(true);
+    expect(matches('/?ref=x')).toBe(true);
+  });
+
+  it('rejects the retired backend URLs this exists to let 404', () => {
+    // Real examples from the old site, still in search indexes and still being
+    // followed. Each begins with a valid locale segment, which is exactly why an
+    // unanchored pattern would wave them through.
+    expect(matches('/en/university/adiud')).toBe(false);
+    expect(matches('/en/candidate/elvin')).toBe(false);
+    expect(matches('/az/university/')).toBe(false);
+    expect(matches('/candidate/elvin')).toBe(false);
+    expect(matches('/nonsense')).toBe(false);
+  });
+
+  it('rejects a locale-like segment that is not a locale', () => {
+    expect(matches('/e')).toBe(false);
+    expect(matches('/eng')).toBe(false);
+    expect(matches('/az.htm')).toBe(false);
+  });
+
+  it('holds under a sub-path base', () => {
+    // The pair `BASE` and Settings → Pages → Custom domain must agree; if the app
+    // ever moves back to a sub-path, this pattern has to move with it.
+    expect(matches('/onlinecv.github.io/', '/onlinecv.github.io/')).toBe(true);
+    expect(matches('/onlinecv.github.io/az', '/onlinecv.github.io/')).toBe(true);
+    expect(matches('/az', '/onlinecv.github.io/')).toBe(false);
+    // The base is escaped, so its dots are literal rather than any-character.
+    expect(matches('/onlinecvXgithubXio/az', '/onlinecv.github.io/')).toBe(false);
+  });
+
+  it('leaves robots.txt and sitemap.xml to be served as themselves', () => {
+    // The denylist already covers these; the allowlist independently excludes
+    // them, so widening one does not silently turn them into the app shell.
+    expect(matches('/robots.txt')).toBe(false);
+    expect(matches('/sitemap.xml')).toBe(false);
   });
 });

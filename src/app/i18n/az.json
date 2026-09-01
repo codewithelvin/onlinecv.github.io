@@ -186,6 +186,12 @@
     "body": "Təəssüf ki, sistemdə xəta baş verdi. Səhifəni yeniləməyi cəhd edin.",
     "reload": "Səhifəni yenilə"
   },
+  "notFound": {
+    "title": "Səhifə tapılmadı",
+    "body": "Açdığınız ünvan mövcud deyil.",
+    "retired": "İctimai profillər və universitet kataloqu köhnə sayt ilə birlikdə dayandırıldı. OnlineCV artıq tamamilə brauzerinizdə işləyir.",
+    "action": "CV yarat"
+  },
   "seo": {
     "title": "OnlineCV — Pulsuz onlayn CV yarat",
     "description": "CV hazırlamaq üçün onlayn platforma. Pulsuz olaraq CV-nizi bir neçə dəqiqəyə hazırlayıb PDF kimi endirin."

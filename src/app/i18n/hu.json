@@ -186,6 +186,12 @@
     "body": "Sajnos rendszerhiba történt. Próbálja meg újratölteni az oldalt.",
     "reload": "Oldal újratöltése"
   },
+  "notFound": {
+    "title": "A lap nem található",
+    "body": "A megnyitott cím nem létezik.",
+    "retired": "A nyilvános profilok és az egyetemi jegyzék a régi oldallal együtt megszűntek. Az OnlineCV mostantól teljes egészében az Ön böngészőjében működik.",
+    "action": "Önéletrajz létrehozása"
+  },
   "seo": {
     "title": "OnlineCV — Készítsen ingyenes online önéletrajzot",
     "description": "Online platform önéletrajz készítéséhez. Készítse el önéletrajzát pár perc alatt, ingyenesen, és töltse le PDF formátumban."

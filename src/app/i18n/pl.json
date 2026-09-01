@@ -186,6 +186,12 @@
     "body": "Niestety wystąpił błąd systemu. Spróbuj odświeżyć stronę.",
     "reload": "Odśwież stronę"
   },
+  "notFound": {
+    "title": "Nie znaleziono strony",
+    "body": "Otwarty adres nie istnieje.",
+    "retired": "Profile publiczne i katalog uczelni zostały wyłączone razem ze starą witryną. OnlineCV działa teraz w całości w Twojej przeglądarce.",
+    "action": "Utwórz CV"
+  },
   "seo": {
     "title": "OnlineCV — Stwórz bezpłatne CV online",
     "description": "Platforma online do tworzenia CV. Przygotuj swoje CV w kilka minut bezpłatnie i pobierz je w formacie PDF."

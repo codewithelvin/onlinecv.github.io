@@ -186,6 +186,12 @@
     "body": "Afsuski, tizimda xatolik yuz berdi. Sahifani qayta yuklashga harakat qiling.",
     "reload": "Sahifani qayta yuklash"
   },
+  "notFound": {
+    "title": "Sahifa topilmadi",
+    "body": "Siz ochgan manzil mavjud emas.",
+    "retired": "Ommaviy profillar va universitetlar katalogi eski sayt bilan birga oʻchirildi. OnlineCV endi toʻliq brauzeringizda ishlaydi.",
+    "action": "CV yaratish"
+  },
   "seo": {
     "title": "OnlineCV — Bepul onlayn CV yarating",
     "description": "CV tayyorlash uchun onlayn platforma. CV-ingizni bir necha daqiqada bepul tayyorlang va PDF sifatida yuklab oling."
