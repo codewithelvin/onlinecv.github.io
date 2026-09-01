@@ -194,7 +194,13 @@
   },
   "seo": {
     "title": "OnlineCV — Pulsuz onlayn CV yarat",
-    "description": "CV hazırlamaq üçün onlayn platforma. Pulsuz olaraq CV-nizi bir neçə dəqiqəyə hazırlayıb PDF kimi endirin."
+    "description": "CV hazırlamaq üçün onlayn platforma. Pulsuz olaraq CV-nizi bir neçə dəqiqəyə hazırlayıb PDF kimi endirin.",
+    "imageAlt": "OnlineCV — pulsuz, ATS-uyğun onlayn CV qurucusu",
+    "card": {
+      "languages": "Dillər: {{n}}",
+      "templates": "Şablonlar: {{n}}",
+      "noSignup": "Qeydiyyatsız"
+    }
   },
   "dictionary": {
     "male": "Kişi",

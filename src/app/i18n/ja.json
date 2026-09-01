@@ -194,7 +194,13 @@
   },
   "seo": {
     "title": "OnlineCV — 無料でオンライン履歴書を作成",
-    "description": "履歴書を作成するオンラインプラットフォーム。数分で無料の履歴書を作り、PDF としてダウンロードできます。"
+    "description": "履歴書を作成するオンラインプラットフォーム。数分で無料の履歴書を作り、PDF としてダウンロードできます。",
+    "imageAlt": "OnlineCV — 無料で ATS 対応のオンライン履歴書作成ツール",
+    "card": {
+      "languages": "{{n}} 言語",
+      "templates": "テンプレート {{n}} 種",
+      "noSignup": "登録不要"
+    }
   },
   "dictionary": {
     "male": "男性",

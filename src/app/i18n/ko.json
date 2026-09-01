@@ -194,7 +194,13 @@
   },
   "seo": {
     "title": "OnlineCV — 무료 온라인 이력서 만들기",
-    "description": "이력서를 작성하는 온라인 플랫폼입니다. 몇 분 만에 무료로 이력서를 만들고 PDF로 내려받으세요."
+    "description": "이력서를 작성하는 온라인 플랫폼입니다. 몇 분 만에 무료로 이력서를 만들고 PDF로 내려받으세요.",
+    "imageAlt": "OnlineCV — 무료 ATS 친화적 온라인 이력서 작성 도구",
+    "card": {
+      "languages": "언어 {{n}}개",
+      "templates": "템플릿 {{n}}개",
+      "noSignup": "회원가입 불필요"
+    }
   },
   "dictionary": {
     "male": "남성",

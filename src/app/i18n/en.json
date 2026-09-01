@@ -194,7 +194,13 @@
   },
   "seo": {
     "title": "OnlineCV — Create a free online CV",
-    "description": "Online platform for CV preparation. Prepare your CV in a few minutes for free and download it as a PDF."
+    "description": "Online platform for CV preparation. Prepare your CV in a few minutes for free and download it as a PDF.",
+    "imageAlt": "OnlineCV — free, ATS-friendly online CV builder",
+    "card": {
+      "languages": "Languages: {{n}}",
+      "templates": "Templates: {{n}}",
+      "noSignup": "No sign-up"
+    }
   },
   "dictionary": {
     "male": "Male",

@@ -1,6 +1,13 @@
 import type { Plugin } from 'vite';
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES, LOCALES } from './src/app/i18n/locales';
-import { SITE_ORIGIN, hreflangAlternates, localeSegment, localeUrl } from './src/app/seo-locales';
+import {
+  SITE_ORIGIN,
+  hreflangAlternates,
+  localeSegment,
+  localeUrl,
+  ogImageUrl,
+  ogLocale,
+} from './src/app/seo-locales';
 import { renderNotFoundPage, type NotFoundStrings } from './src/app/not-found-page';
 import type { Locale } from './src/types/resume';
 import az from './src/app/i18n/az.json';
@@ -36,10 +43,11 @@ import ja from './src/app/i18n/ja.json';
  *
  * Each emitted file is the SAME app — same script, same chunks — with only its
  * head rewritten: `lang`/`dir`, localized `<title>` and description, its own
- * canonical, and the full `hreflang` set (every locale plus `x-default`) that
- * tells a search engine these are translations of one page rather than duplicates.
- * The root `index.html` gets the alternates too, and points its canonical at the
- * default locale so `/` and `/az/` do not compete.
+ * canonical, its own `og:locale` and social card, and the full `hreflang` set
+ * (every locale plus `x-default`) that tells a search engine these are
+ * translations of one page rather than duplicates. The root `index.html` gets the
+ * alternates too, and points its canonical at the default locale so `/` and
+ * `/az/` do not compete.
  *
  * Titles come from the app's own `src/app/i18n/*.json`, read here rather than
  * duplicated, so a copy change lands in the served HTML as well as the UI.
@@ -48,6 +56,8 @@ import ja from './src/app/i18n/ja.json';
 interface SeoStrings {
   title: string;
   description: string;
+  /** `og:image:alt`/`twitter:image:alt` — what the card says, for a reader who cannot see it. */
+  imageAlt: string;
 }
 
 /**
@@ -86,13 +96,13 @@ const BUNDLES: Record<Locale, { seo?: Partial<SeoStrings>; notFound?: Partial<No
   };
 
 function seoStrings(locale: Locale): SeoStrings {
-  const { title, description } = BUNDLES[locale].seo ?? {};
-  if (!title || !description) {
+  const { title, description, imageAlt } = BUNDLES[locale].seo ?? {};
+  if (!title || !description || !imageAlt) {
     // Loud, because the alternative is silently shipping a page titled
     // "undefined" to whichever language was forgotten.
-    throw new Error(`locale-pages: ${locale}.json is missing seo.title or seo.description`);
+    throw new Error(`locale-pages: ${locale}.json is missing an seo.* key`);
   }
-  return { title, description };
+  return { title, description, imageAlt };
 }
 
 /**
@@ -141,8 +151,9 @@ function alternatesBlock(): string {
  * a page with the wrong metadata.
  */
 function renderLocalePage(html: string, locale: Locale, canonical: string): string {
-  const { title, description } = seoStrings(locale);
+  const { title, description, imageAlt } = seoStrings(locale);
   const meta = LOCALES[locale];
+  const card = ogImageUrl(locale);
   let out = html;
 
   const replace = (pattern: RegExp, replacement: string, what: string): void => {
@@ -168,6 +179,45 @@ function renderLocalePage(html: string, locale: Locale, canonical: string): stri
     `<link rel="canonical" href="${escapeAttr(canonical)}" />\n${alternatesBlock()}`,
     'canonical link',
   );
+
+  /**
+   * The SOCIAL CARD and the language it is in — asserted, unlike the text tags
+   * below, and that difference is deliberate.
+   *
+   * A card is one image per language (`scripts/make-og-image.ts`), and if one of
+   * these four replacements silently missed, the page would keep the value from
+   * `index.html`: every language would advertise the Azerbaijani card, in
+   * Azerbaijani, under its own correctly translated title. That is exactly the
+   * defect the per-language cards were made to fix, and it is invisible in the
+   * built output unless someone opens a link preview in a language they read.
+   * So a pattern that stops matching fails the build instead.
+   */
+  replace(
+    /<meta property="og:locale" content="[^"]*" \/>/,
+    `<meta property="og:locale" content="${ogLocale(locale)}" />`,
+    'og:locale',
+  );
+  replace(
+    /<meta property="og:image" content="[^"]*" \/>/,
+    `<meta property="og:image" content="${escapeAttr(card)}" />`,
+    'og:image',
+  );
+  replace(
+    /<meta property="og:image:alt"[\s\S]*?\/>/,
+    `<meta property="og:image:alt" content="${escapeAttr(imageAlt)}" />`,
+    'og:image:alt',
+  );
+  replace(
+    /<meta name="twitter:image" content="[^"]*" \/>/,
+    `<meta name="twitter:image" content="${escapeAttr(card)}" />`,
+    'twitter:image',
+  );
+  replace(
+    /<meta name="twitter:image:alt"[\s\S]*?\/>/,
+    `<meta name="twitter:image:alt" content="${escapeAttr(imageAlt)}" />`,
+    'twitter:image:alt',
+  );
+
   // Open Graph / Twitter mirror the same copy; a missing one is not fatal.
   out = out
     .replace(
@@ -189,8 +239,7 @@ function renderLocalePage(html: string, locale: Locale, canonical: string): stri
     .replace(
       /<meta name="twitter:description"[\s\S]*?\/>/,
       `<meta name="twitter:description" content="${escapeAttr(description)}" />`,
-    )
-    .replace(/<meta property="og:locale" content="[^"]*" \/>/, '');
+    );
 
   return out;
 }

@@ -194,7 +194,13 @@
   },
   "seo": {
     "title": "OnlineCV — Crea gratuitamente un CV online",
-    "description": "Piattaforma online per la preparazione del CV. Prepara il tuo CV gratuitamente in pochi minuti e scaricalo in PDF."
+    "description": "Piattaforma online per la preparazione del CV. Prepara il tuo CV gratuitamente in pochi minuti e scaricalo in PDF.",
+    "imageAlt": "OnlineCV — generatore di CV online gratuito e compatibile con ATS",
+    "card": {
+      "languages": "Lingue: {{n}}",
+      "templates": "Modelli: {{n}}",
+      "noSignup": "Senza registrazione"
+    }
   },
   "dictionary": {
     "male": "Uomo",

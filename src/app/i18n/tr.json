@@ -194,7 +194,13 @@
   },
   "seo": {
     "title": "OnlineCV — Ücretsiz online CV oluşturun",
-    "description": "CV hazırlamak için online platform. CV'nizi birkaç dakikada ücretsiz hazırlayın ve PDF olarak indirin."
+    "description": "CV hazırlamak için online platform. CV'nizi birkaç dakikada ücretsiz hazırlayın ve PDF olarak indirin.",
+    "imageAlt": "OnlineCV — ücretsiz, ATS uyumlu online CV oluşturucu",
+    "card": {
+      "languages": "Diller: {{n}}",
+      "templates": "Şablonlar: {{n}}",
+      "noSignup": "Kayıt gerekmez"
+    }
   },
   "dictionary": {
     "male": "Erkek",

@@ -194,7 +194,13 @@
   },
   "seo": {
     "title": "OnlineCV — 免费在线制作简历",
-    "description": "在线简历制作平台。几分钟内免费完成你的简历，并下载为 PDF 文件。"
+    "description": "在线简历制作平台。几分钟内免费完成你的简历，并下载为 PDF 文件。",
+    "imageAlt": "OnlineCV — 免费、兼容 ATS 的在线简历生成器",
+    "card": {
+      "languages": "{{n}} 种语言",
+      "templates": "{{n}} 款模板",
+      "noSignup": "无需注册"
+    }
   },
   "dictionary": {
     "male": "男",

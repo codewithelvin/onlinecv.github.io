@@ -194,7 +194,13 @@
   },
   "seo": {
     "title": "OnlineCV — Készítsen ingyenes online önéletrajzot",
-    "description": "Online platform önéletrajz készítéséhez. Készítse el önéletrajzát pár perc alatt, ingyenesen, és töltse le PDF formátumban."
+    "description": "Online platform önéletrajz készítéséhez. Készítse el önéletrajzát pár perc alatt, ingyenesen, és töltse le PDF formátumban.",
+    "imageAlt": "OnlineCV — ingyenes, ATS-kompatibilis online önéletrajz-készítő",
+    "card": {
+      "languages": "Nyelvek: {{n}}",
+      "templates": "Sablonok: {{n}}",
+      "noSignup": "Regisztráció nélkül"
+    }
   },
   "dictionary": {
     "male": "Férfi",

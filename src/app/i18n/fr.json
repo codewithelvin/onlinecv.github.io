@@ -194,7 +194,13 @@
   },
   "seo": {
     "title": "OnlineCV — Créez gratuitement un CV en ligne",
-    "description": "Plateforme en ligne de création de CV. Préparez votre CV gratuitement en quelques minutes et téléchargez-le en PDF."
+    "description": "Plateforme en ligne de création de CV. Préparez votre CV gratuitement en quelques minutes et téléchargez-le en PDF.",
+    "imageAlt": "OnlineCV — créateur de CV en ligne gratuit et compatible ATS",
+    "card": {
+      "languages": "Langues : {{n}}",
+      "templates": "Modèles : {{n}}",
+      "noSignup": "Sans inscription"
+    }
   },
   "dictionary": {
     "male": "Homme",

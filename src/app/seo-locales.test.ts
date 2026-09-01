@@ -8,6 +8,8 @@ import {
   localeFromPath,
   localeSegment,
   localeUrl,
+  ogImageUrl,
+  ogLocale,
   pathForLocale,
 } from './seo-locales';
 
@@ -33,6 +35,34 @@ describe('locale URLs', () => {
   it('gives every locale a distinct URL', () => {
     const urls = SUPPORTED_LOCALES.map(localeUrl);
     expect(new Set(urls).size).toBe(urls.length);
+  });
+});
+
+/**
+ * The social card, which is the half of a locale page a crawler does not read and
+ * a human does. A single shared card was the last thing on these pages still
+ * speaking one language, so "every locale has its own" is asserted the same way
+ * "every locale has its own URL" is.
+ */
+describe('social cards', () => {
+  it.each(SUPPORTED_LOCALES)('gives %s its own card', (locale) => {
+    expect(ogImageUrl(locale)).toBe(`${SITE_ORIGIN}/og/${locale}.jpg`);
+  });
+
+  it('gives every locale a distinct card', () => {
+    const urls = SUPPORTED_LOCALES.map(ogImageUrl);
+    expect(new Set(urls).size).toBe(urls.length);
+  });
+
+  /**
+   * `language_TERRITORY`, underscored. Open Graph predates BCP 47 and Facebook
+   * matches this against a fixed list instead of parsing it, so a bare `az` or a
+   * hyphenated `az-AZ` is silently discarded — the one mistake here that looks
+   * like nothing at all.
+   */
+  it.each(SUPPORTED_LOCALES)('declares %s as an Open Graph locale', (locale) => {
+    expect(ogLocale(locale)).toMatch(/^[a-z]{2}_[A-Z]{2}$/);
+    expect(ogLocale(locale).startsWith(`${locale}_`)).toBe(true);
   });
 });
 
