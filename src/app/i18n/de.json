@@ -186,6 +186,22 @@
     "generating": "PDF wird vorbereitet...",
     "error": "Beim Erstellen des PDFs ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
   },
+  "backup": {
+    "download": "Sicherung",
+    "downloadHint": "Speichern Sie die Daten Ihres Lebenslaufs als Datei. Später können Sie diese Datei auswählen und Ihren Lebenslauf wiederherstellen.",
+    "downloadError": "Die Datei konnte nicht erstellt werden. Bitte versuchen Sie es erneut.",
+    "restoreHint": "Wenn Sie eine Kopie Ihres Lebenslaufs im JSON-Format haben, die Sie zuvor bei OnlineCV heruntergeladen haben, können Sie sie mit der Schaltfläche unten wiederherstellen.",
+    "restoreButton": "Aus Datei wiederherstellen",
+    "restored": "Lebenslauf wiederhergestellt.",
+    "restoredPartial": "Lebenslauf wiederhergestellt. Nicht gelesene Felder: {{n}}",
+    "error": {
+      "notJson": "Der Inhalt der Datei konnte nicht gelesen werden.",
+      "notBackup": "Diese Datei ist keine OnlineCV-Sicherung.",
+      "tooNew": "Die Datei wurde mit einer neueren Version der App erstellt. Laden Sie die Seite neu und versuchen Sie es erneut.",
+      "tooBig": "Die Datei ist zu groß.",
+      "unreadable": "Die Datei konnte nicht gelesen werden."
+    }
+  },
   "errorPage": {
     "title": "Systemfehler 😢",
     "body": "Leider ist ein Systemfehler aufgetreten. Bitte versuchen Sie, die Seite neu zu laden.",

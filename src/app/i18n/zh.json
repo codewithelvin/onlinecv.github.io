@@ -186,6 +186,22 @@
     "generating": "正在生成 PDF…",
     "error": "生成 PDF 时出错，请重试。"
   },
+  "backup": {
+    "download": "备份",
+    "downloadHint": "把简历数据保存为文件。以后你可以选择该文件来恢复简历。",
+    "downloadError": "无法创建文件，请重试。",
+    "restoreHint": "如果你有之前从 OnlineCV 下载的 JSON 格式简历副本，可以用下面的按钮恢复。",
+    "restoreButton": "从文件恢复",
+    "restored": "简历已恢复。",
+    "restoredPartial": "简历已恢复。未能读取的字段：{{n}}",
+    "error": {
+      "notJson": "无法读取文件内容。",
+      "notBackup": "这个文件不是 OnlineCV 的备份。",
+      "tooNew": "该文件由更新版本的应用创建。请刷新页面后重试。",
+      "tooBig": "文件太大。",
+      "unreadable": "无法读取文件。"
+    }
+  },
   "errorPage": {
     "title": "系统错误 😢",
     "body": "很抱歉，系统发生了错误，请尝试重新加载页面。",

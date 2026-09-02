@@ -89,6 +89,24 @@ export interface ResumeStore {
   reorderItem: (section: ResumeListSection, from: number, to: number) => void;
 
   /**
+   * Install a resume restored from a backup file, and leave the wizard.
+   *
+   * ONE action rather than a set-then-complete pair, for the same reason
+   * `setManualItemOrder` bundles its two effects: the only way in is the wizard
+   * (FR-18), so a restore that set the resume without completing the wizard
+   * would leave the user looking at an empty first-run form with their whole CV
+   * sitting behind it — and the two calls could only ever be made together.
+   *
+   * `openSections` is reset so the restored CV opens on the editor's default
+   * set rather than on whatever this browser had expanded last.
+   *
+   * The UI locale is deliberately NOT touched: the file does not carry one (see
+   * `features/backup/format`), and the language someone is reading the app in
+   * is not something a restore should change under them.
+   */
+  importResume: (resume: Resume) => void;
+
+  /**
    * Freeze `ids` as a dated section's stored order and stop deriving it from the
    * dates (`Resume.manualOrder`).
    *
@@ -267,6 +285,9 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
       list.splice(to, 0, moved);
       return { resume: touch(withList(s.resume, section, list)) };
     }),
+
+  importResume: (resume) =>
+    set({ resume: touch(resume), openSections: null, wizardCompleted: true }),
 
   setManualItemOrder: (section, ids) =>
     set((s) => {

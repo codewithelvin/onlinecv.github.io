@@ -186,6 +186,22 @@
     "generating": "Przygotowywanie PDF...",
     "error": "Wystąpił błąd podczas generowania PDF. Spróbuj ponownie."
   },
+  "backup": {
+    "download": "Kopia zapasowa",
+    "downloadHint": "Zapisz dane swojego CV jako plik. Później możesz wybrać ten plik i przywrócić CV.",
+    "downloadError": "Nie udało się utworzyć pliku. Spróbuj ponownie.",
+    "restoreHint": "Jeśli masz kopię swojego CV w formacie JSON, pobraną wcześniej z OnlineCV, możesz przywrócić ją przyciskiem poniżej.",
+    "restoreButton": "Przywróć z pliku",
+    "restored": "CV przywrócone.",
+    "restoredPartial": "CV przywrócone. Pola, których nie udało się odczytać: {{n}}",
+    "error": {
+      "notJson": "Nie udało się odczytać zawartości pliku.",
+      "notBackup": "Ten plik nie jest kopią zapasową OnlineCV.",
+      "tooNew": "Plik został utworzony w nowszej wersji aplikacji. Odśwież stronę i spróbuj ponownie.",
+      "tooBig": "Plik jest za duży.",
+      "unreadable": "Nie udało się odczytać pliku."
+    }
+  },
   "errorPage": {
     "title": "Błąd systemu 😢",
     "body": "Niestety wystąpił błąd systemu. Spróbuj odświeżyć stronę.",

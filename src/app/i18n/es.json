@@ -186,6 +186,22 @@
     "generating": "Preparando el PDF...",
     "error": "Se ha producido un error al generar el PDF. Inténtelo de nuevo."
   },
+  "backup": {
+    "download": "Copia de seguridad",
+    "downloadHint": "Guarde los datos de su CV como archivo. Después podrá elegir ese archivo y restaurar su CV.",
+    "downloadError": "No se ha podido crear el archivo. Inténtelo de nuevo.",
+    "restoreHint": "Si tiene una copia de su CV en formato JSON que descargó antes de OnlineCV, puede restaurarla con el botón de abajo.",
+    "restoreButton": "Restaurar desde archivo",
+    "restored": "CV restaurado.",
+    "restoredPartial": "CV restaurado. Campos que no se han podido leer: {{n}}",
+    "error": {
+      "notJson": "No se ha podido leer el contenido del archivo.",
+      "notBackup": "Este archivo no es una copia de seguridad de OnlineCV.",
+      "tooNew": "El archivo se creó con una versión más reciente de la aplicación. Recargue la página e inténtelo de nuevo.",
+      "tooBig": "El archivo es demasiado grande.",
+      "unreadable": "No se ha podido leer el archivo."
+    }
+  },
   "errorPage": {
     "title": "Error del sistema 😢",
     "body": "Lamentablemente se ha producido un error del sistema. Pruebe a recargar la página.",

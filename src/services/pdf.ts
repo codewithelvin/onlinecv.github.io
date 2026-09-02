@@ -15,6 +15,7 @@ import {
   showAttribution,
 } from '../utils/attribution';
 import { preshapeArabic } from '../utils/arabic';
+import { resumeSlug, triggerDownload } from '../utils/download';
 import { localizeResume, referencedDictionaryGroups } from '../utils/localize-resume';
 import { applyFieldVisibility } from '../utils/field-visibility';
 import { sortResumeHistory } from '../utils/sort-history';
@@ -182,37 +183,6 @@ export function registerResumeFonts(pdfLib: typeof ReactPdf, fontBase: string = 
   });
   // Text-based, ATS-parseable output: don't insert soft hyphens.
   Font.registerHyphenationCallback((word) => [word]);
-}
-
-function sanitizeFilename(resume: Resume): string {
-  const name = `${resume.basics.firstName}_${resume.basics.lastName}`
-    .trim()
-    .replace(/[^\p{L}\p{N}_-]+/gu, '_')
-    .replace(/^_+|_+$/g, '');
-  return `${name || 'resume'}_CV.pdf`;
-}
-
-/** How long the blob URL is kept alive after the click (see below). */
-const REVOKE_DELAY_MS = 10_000;
-
-function triggerDownload(blob: Blob, filename: string): void {
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = filename;
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-  /**
-   * NOT revoked synchronously after `click()`.
-   *
-   * Chromium copies the blob before returning from the click, so revoking right
-   * away is harmless there. Firefox starts the download asynchronously and reads
-   * the blob URL afterwards — revoking in the same tick races that read and the
-   * download fails or saves an empty file. Deferring costs a few hundred KB of
-   * memory for a few seconds and makes the two engines behave the same.
-   */
-  setTimeout(() => URL.revokeObjectURL(url), REVOKE_DELAY_MS);
 }
 
 /**
@@ -531,5 +501,5 @@ export async function exportResumePdf(resume: Resume, templateId: TemplateId): P
   });
 
   const blob = await pdf(document).toBlob();
-  triggerDownload(blob, sanitizeFilename(resume));
+  triggerDownload(blob, `${resumeSlug(resume)}_CV.pdf`);
 }

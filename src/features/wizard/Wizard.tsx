@@ -22,6 +22,7 @@ import {
   wizardStep2Schema,
 } from '../editor/schemas';
 import { GENDERS, MARITAL_STATUSES, dictOptions } from '../editor/enums';
+import { ImportBackup } from '../backup/ImportBackup';
 
 /** Two-up on tablet and desktop, stacked on phones (spec §10.3). */
 const HALF = { xs: 24, sm: 12 } as const;
@@ -198,6 +199,10 @@ export function Wizard(): JSX.Element {
                   {t('wizard.next')}
                 </Button>
               </div>
+              {/* The alternative to typing all of this again: a backup file from
+                  another browser. Step 1 only — it is the screen someone with a
+                  file arrives on, and by step 2 they have started typing. */}
+              <ImportBackup />
             </>
           ) : (
             <>

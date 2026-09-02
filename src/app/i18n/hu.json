@@ -186,6 +186,22 @@
     "generating": "PDF előkészítése...",
     "error": "Hiba történt a PDF létrehozása során. Próbálja újra."
   },
+  "backup": {
+    "download": "Biztonsági mentés",
+    "downloadHint": "Mentse az önéletrajz adatait fájlba. Később kiválaszthatja ezt a fájlt, és visszaállíthatja az önéletrajzát.",
+    "downloadError": "A fájlt nem sikerült létrehozni. Próbálja újra.",
+    "restoreHint": "Ha van egy korábban az OnlineCV-ről letöltött, JSON formátumú másolata az önéletrajzáról, az alábbi gombbal visszaállíthatja.",
+    "restoreButton": "Visszaállítás fájlból",
+    "restored": "Az önéletrajz visszaállítva.",
+    "restoredPartial": "Az önéletrajz visszaállítva. Be nem olvasott mezők: {{n}}",
+    "error": {
+      "notJson": "A fájl tartalmát nem sikerült beolvasni.",
+      "notBackup": "Ez a fájl nem OnlineCV biztonsági mentés.",
+      "tooNew": "A fájl az alkalmazás újabb verziójával készült. Töltse újra az oldalt, és próbálja újra.",
+      "tooBig": "A fájl túl nagy.",
+      "unreadable": "A fájlt nem sikerült beolvasni."
+    }
+  },
   "errorPage": {
     "title": "Rendszerhiba 😢",
     "body": "Sajnos rendszerhiba történt. Próbálja meg újratölteni az oldalt.",

@@ -186,6 +186,22 @@
     "generating": "Preparing PDF...",
     "error": "An error occurred while generating the PDF. Please try again."
   },
+  "backup": {
+    "download": "Backup",
+    "downloadHint": "Save your CV data as a file. You can pick that file later to restore your CV.",
+    "downloadError": "The file could not be created. Please try again.",
+    "restoreHint": "If you have a copy of your CV in JSON format that you downloaded from OnlineCV earlier, you can restore it with the button below.",
+    "restoreButton": "Restore from file",
+    "restored": "CV restored.",
+    "restoredPartial": "CV restored. Fields that could not be read: {{n}}",
+    "error": {
+      "notJson": "The file's contents could not be read.",
+      "notBackup": "This file is not an OnlineCV backup.",
+      "tooNew": "The file was created by a newer version of the app. Reload the page and try again.",
+      "tooBig": "The file is too large.",
+      "unreadable": "The file could not be read."
+    }
+  },
   "errorPage": {
     "title": "System error 😢",
     "body": "Unfortunately, a system error has occurred. Please try reloading the page.",

@@ -186,6 +186,22 @@
     "generating": "PDF tayyorlanmoqda...",
     "error": "PDF yaratishda xatolik yuz berdi. Qaytadan urinib koʻring."
   },
+  "backup": {
+    "download": "Zaxira nusxa",
+    "downloadHint": "CV maʼlumotlaringizni fayl sifatida saqlang. Keyinroq shu faylni tanlab, CV-ni tiklashingiz mumkin.",
+    "downloadError": "Faylni yaratish imkoni boʻlmadi. Qaytadan urinib koʻring.",
+    "restoreHint": "Agar OnlineCV saytidan avval yuklab olgan JSON formatidagi CV nusxangiz boʻlsa, pastdagi tugma orqali tiklashingiz mumkin.",
+    "restoreButton": "Fayldan tiklash",
+    "restored": "CV tiklandi.",
+    "restoredPartial": "CV tiklandi. Oʻqilmagan maydonlar: {{n}}",
+    "error": {
+      "notJson": "Fayl mazmunini oʻqish imkoni boʻlmadi.",
+      "notBackup": "Bu fayl OnlineCV zaxira nusxasi emas.",
+      "tooNew": "Fayl ilovaning yangiroq versiyasida yaratilgan. Sahifani yangilab, qaytadan urinib koʻring.",
+      "tooBig": "Fayl juda katta.",
+      "unreadable": "Faylni oʻqish imkoni boʻlmadi."
+    }
+  },
   "errorPage": {
     "title": "Tizim xatosi 😢",
     "body": "Afsuski, tizimda xatolik yuz berdi. Sahifani qayta yuklashga harakat qiling.",

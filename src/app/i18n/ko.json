@@ -186,6 +186,22 @@
     "generating": "PDF를 준비하는 중...",
     "error": "PDF를 만드는 중 오류가 발생했습니다. 다시 시도해 주세요."
   },
+  "backup": {
+    "download": "백업",
+    "downloadHint": "이력서 데이터를 파일로 저장합니다. 나중에 이 파일을 선택해 이력서를 복원할 수 있습니다.",
+    "downloadError": "파일을 만들지 못했습니다. 다시 시도해 주세요.",
+    "restoreHint": "이전에 OnlineCV에서 내려받은 JSON 형식의 이력서 사본이 있으면 아래 버튼으로 복원할 수 있습니다.",
+    "restoreButton": "파일에서 복원",
+    "restored": "이력서를 복원했습니다.",
+    "restoredPartial": "이력서를 복원했습니다. 읽지 못한 항목: {{n}}",
+    "error": {
+      "notJson": "파일 내용을 읽지 못했습니다.",
+      "notBackup": "이 파일은 OnlineCV 백업이 아닙니다.",
+      "tooNew": "이 파일은 더 새로운 버전에서 만들어졌습니다. 페이지를 새로 고친 뒤 다시 시도해 주세요.",
+      "tooBig": "파일이 너무 큽니다.",
+      "unreadable": "파일을 읽지 못했습니다."
+    }
+  },
   "errorPage": {
     "title": "시스템 오류 😢",
     "body": "죄송합니다. 시스템 오류가 발생했습니다. 페이지를 새로고침해 보세요.",

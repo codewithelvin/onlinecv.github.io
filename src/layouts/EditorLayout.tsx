@@ -9,6 +9,7 @@ import { TelegramButton } from '../components/TelegramButton';
 import { LanguageSwitcher } from '../features/i18n/LanguageSwitcher';
 import { TemplatePicker } from '../features/templates/TemplatePicker';
 import { ExportButton } from '../features/export/ExportButton';
+import { BackupButton } from '../features/backup/BackupButton';
 import { ResetButton } from '../features/reset/ResetButton';
 import { EditorPanel } from '../features/editor/EditorPanel';
 import { PreviewPane } from '../features/preview/PreviewPane';
@@ -63,6 +64,10 @@ export function EditorLayout(): JSX.Element {
             <>
               <TemplatePicker />
               <ResetButton />
+              {/* Next to the PDF button because both hand the user a file, and
+                  before it because the primary action stays at the end of the
+                  row. */}
+              <BackupButton />
               <ExportButton />
             </>
           ) : null}
@@ -100,7 +105,22 @@ export function EditorLayout(): JSX.Element {
                 {
                   key: 'edit',
                   label: <TabLabel icon={<FiEdit3 aria-hidden />}>{t('header.edit')}</TabLabel>,
-                  children: <EditorPanel />,
+                  /**
+                   * The backup download lives at the FOOT of this tab on a
+                   * phone, not in the action bar below — measured, a fourth
+                   * control there wraps the sticky bar to two rows (60 → 103 px)
+                   * at every width from 320 to 430 px, and this action is not
+                   * used often enough to cost that on every screen. Full width
+                   * and full label here, where there is room for both.
+                   */
+                  children: (
+                    <>
+                      <EditorPanel />
+                      <div style={{ marginTop: 16 }}>
+                        <BackupButton block />
+                      </div>
+                    </>
+                  ),
                 },
                 {
                   key: 'preview',
@@ -140,7 +160,10 @@ export function EditorLayout(): JSX.Element {
           {/* The two secondaries keep the labels they carry in the desktop
               header — icon-only, they were a guessing game. What pays for the
               room is the export button's short label (`↓ PDF` instead of
-              "PDF kimi endir"), which still names the one thing it does. */}
+              "PDF kimi endir"), which still names the one thing it does.
+              Deliberately THREE controls: the backup download sits at the foot
+              of the Edit tab instead, because a fourth one here wraps the bar
+              to two rows at every phone width. */}
           <TemplatePicker compact />
           <ResetButton />
           <div style={{ flex: '1 1 96px', minWidth: 0 }}>

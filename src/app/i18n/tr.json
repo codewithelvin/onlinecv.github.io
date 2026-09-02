@@ -186,6 +186,22 @@
     "generating": "PDF hazırlanıyor...",
     "error": "PDF oluşturulurken bir hata oluştu. Lütfen tekrar deneyin."
   },
+  "backup": {
+    "download": "Yedek",
+    "downloadHint": "CV verilerinizi dosya olarak kaydedin. Daha sonra bu dosyayı seçip CV'nizi geri yükleyebilirsiniz.",
+    "downloadError": "Dosya oluşturulamadı. Lütfen tekrar deneyin.",
+    "restoreHint": "Daha önce OnlineCV'den indirdiğiniz JSON biçiminde bir CV kopyanız varsa aşağıdaki düğmeyle geri yükleyebilirsiniz.",
+    "restoreButton": "Dosyadan geri yükle",
+    "restored": "CV geri yüklendi.",
+    "restoredPartial": "CV geri yüklendi. Okunamayan alanlar: {{n}}",
+    "error": {
+      "notJson": "Dosyanın içeriği okunamadı.",
+      "notBackup": "Bu dosya bir OnlineCV yedeği değil.",
+      "tooNew": "Dosya uygulamanın daha yeni bir sürümünde oluşturulmuş. Sayfayı yenileyip tekrar deneyin.",
+      "tooBig": "Dosya çok büyük.",
+      "unreadable": "Dosya okunamadı."
+    }
+  },
   "errorPage": {
     "title": "Sistem hatası 😢",
     "body": "Maalesef bir sistem hatası oluştu. Lütfen sayfayı yeniden yüklemeyi deneyin.",

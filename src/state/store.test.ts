@@ -133,4 +133,35 @@ describe('resume store', () => {
     s.removeContactItem('c1');
     expect(useResumeStore.getState().resume.contact.items).toHaveLength(0);
   });
+
+  /**
+   * A restore has to do both halves at once. Installing the resume without
+   * finishing the wizard would leave the user on the first-run form with the
+   * whole restored CV behind it, which is why this is one action rather than a
+   * pair a caller could get half-right.
+   */
+  it('installs a restored resume and leaves the wizard in one step', () => {
+    const s = useResumeStore.getState();
+    s.setOpenSections(['skills']);
+    const restored = createEmptyResume('ru');
+    restored.basics.firstName = 'Elvin';
+    restored.contact.email = 'elvin@example.az';
+
+    s.importResume(restored);
+
+    const state = useResumeStore.getState();
+    expect(state.resume.basics.firstName).toBe('Elvin');
+    expect(state.resume.locale).toBe('ru');
+    expect(state.wizardCompleted).toBe(true);
+    // Back to the editor's default set rather than this browser's last state.
+    expect(state.openSections).toBeNull();
+    expect(state.resume.updatedAt >= restored.updatedAt).toBe(true);
+  });
+
+  it('leaves the UI language alone when a resume is restored', () => {
+    useResumeStore.setState({ uiLocale: 'fr' });
+    useResumeStore.getState().importResume(createEmptyResume('ja'));
+    expect(useResumeStore.getState().resume.locale).toBe('ja');
+    expect(useResumeStore.getState().uiLocale).toBe('fr');
+  });
 });
