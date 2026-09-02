@@ -60,6 +60,7 @@ export function CertificationsSection(): JSX.Element {
           .join(' · '),
       )}
       addLabel={t('common.add')}
+      order={ed.order}
       onAdd={ed.openAdd}
       onEdit={ed.openEdit}
       onRemove={ed.remove}

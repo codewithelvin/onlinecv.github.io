@@ -141,6 +141,11 @@
   "emptyState": {
     "noItems": "Es wurden noch keine Daten hinzugefügt. Klicken Sie auf „Hinzufügen“, um zu beginnen."
   },
+  "order": {
+    "label": "Reihenfolge",
+    "auto": "Neueste zuerst",
+    "manual": "Eigene Reihenfolge"
+  },
   "wizard": {
     "title": "Formular zur Erstellung des Lebenslaufs",
     "welcome": "Füllen Sie die wichtigsten Angaben aus, die in Ihrem Lebenslauf erscheinen. Den Rest vervollständigen Sie anschließend im vollständigen Editor.",

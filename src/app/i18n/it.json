@@ -141,6 +141,11 @@
   "emptyState": {
     "noItems": "Non è stato ancora aggiunto alcun dato. Fai clic sul pulsante «Aggiungi» per iniziare."
   },
+  "order": {
+    "label": "Ordine",
+    "auto": "Prima i più recenti",
+    "manual": "Ordine personalizzato"
+  },
   "wizard": {
     "title": "Modulo di creazione del CV",
     "welcome": "Inserisci le informazioni principali che compariranno nel tuo CV. Il resto lo completerai nell'editor completo.",

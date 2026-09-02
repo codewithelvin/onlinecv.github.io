@@ -141,6 +141,11 @@
   "emptyState": {
     "noItems": "No data has been added yet. Click the \"Add\" button to get started."
   },
+  "order": {
+    "label": "Order",
+    "auto": "Newest first",
+    "manual": "Custom order"
+  },
   "wizard": {
     "title": "CV creation form",
     "welcome": "Fill in the key details that will appear on your CV. Once these are done, you will complete the rest in the full CV editor.",

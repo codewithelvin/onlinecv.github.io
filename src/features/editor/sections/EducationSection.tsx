@@ -100,6 +100,7 @@ export function EducationSection(): JSX.Element {
         return `${label} · ${dateRange(x, fmt, MONTH_YEAR, t('common.present'))}`;
       })}
       addLabel={t('common.add')}
+      order={ed.order}
       onAdd={ed.openAdd}
       onEdit={ed.openEdit}
       onRemove={ed.remove}

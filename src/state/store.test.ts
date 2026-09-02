@@ -66,6 +66,47 @@ describe('resume store', () => {
     expect(useResumeStore.getState().resume.experience.map((x) => x.id)).toEqual(['a']);
   });
 
+  /**
+   * The dated sections' ↑/↓ buttons come through here rather than through
+   * `reorderItem`, because while a section is still auto-ordered the row the user
+   * pressed sits at a SORTED position while `reorderItem`'s indices address the
+   * stored one. Committing the whole order in the same call as the flag is what
+   * keeps the displayed list and the stored list from diverging on the first move.
+   */
+  it('freezes a dated section’s order and flips it to manual in one call', () => {
+    const s = useResumeStore.getState();
+    s.addItem('experience', mkExp('a', 'Dev'));
+    s.addItem('experience', mkExp('b', 'Lead'));
+    s.addItem('experience', mkExp('c', 'Head'));
+    expect(useResumeStore.getState().resume.manualOrder).toBeUndefined();
+
+    s.setManualItemOrder('experience', ['c', 'a', 'b']);
+    const after = useResumeStore.getState().resume;
+    expect(after.experience.map((x) => x.id)).toEqual(['c', 'a', 'b']);
+    expect(after.manualOrder).toEqual(['experience']);
+
+    // Back to newest-first: the flag goes, the stored arrangement stays, so
+    // switching modes to look at the other one loses nothing.
+    useResumeStore.getState().setAutoItemOrder('experience');
+    const auto = useResumeStore.getState().resume;
+    expect(auto.manualOrder).toEqual([]);
+    expect(auto.experience.map((x) => x.id)).toEqual(['c', 'a', 'b']);
+  });
+
+  /**
+   * The caller's id list is a snapshot of what was on screen, so it can be one
+   * edit behind. It may move an entry; it must never lose one.
+   */
+  it('keeps items a stale id list forgets, and ignores ids it does not hold', () => {
+    const s = useResumeStore.getState();
+    s.addItem('experience', mkExp('a', 'Dev'));
+    s.addItem('experience', mkExp('b', 'Lead'));
+    s.addItem('experience', mkExp('c', 'Head'));
+
+    s.setManualItemOrder('experience', ['c', 'ghost']);
+    expect(useResumeStore.getState().resume.experience.map((x) => x.id)).toEqual(['c', 'a', 'b']);
+  });
+
   it('updates basics and bumps updatedAt', () => {
     const before = useResumeStore.getState().resume.updatedAt;
     useResumeStore.getState().updateBasics({ firstName: 'Elvin' });

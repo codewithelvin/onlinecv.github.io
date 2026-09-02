@@ -141,6 +141,11 @@
   "emptyState": {
     "noItems": "Henüz veri eklenmedi. Başlamak için \"Ekle\" düğmesine tıklayın."
   },
+  "order": {
+    "label": "Sıralama",
+    "auto": "Önce en yeniler",
+    "manual": "Özel sıralama"
+  },
   "wizard": {
     "title": "CV oluşturma formu",
     "welcome": "CV'nizde yer alacak temel bilgileri doldurun. Bunlar tamamlandıktan sonra geri kalanını tam CV düzenleyicisinde tamamlayacaksınız.",

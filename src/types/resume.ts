@@ -307,6 +307,16 @@ export interface Resume {
    * `utils/field-visibility` rather than the raw field.
    */
   hiddenFields?: HideableField[];
+  /**
+   * Dated sections the user has arranged BY HAND, overriding the newest-first
+   * order they take from their own dates.
+   *
+   * Opt-OUT, like `hiddenFields`: absent or empty means every dated section is
+   * sorted from its dates, which is both the résumé convention and what every
+   * record persisted before the feature existed gets on its next load. Read it
+   * through `utils/sort-history` rather than the raw field.
+   */
+  manualOrder?: HistorySection[];
   media: Media;
   basics: Basics;
   generalInfo: GeneralInfo;
@@ -324,3 +334,16 @@ export interface Resume {
 /** Keys of `Resume` whose value is an array of items carrying an `id`. */
 export type ResumeListSection =
   'experience' | 'education' | 'skills' | 'languages' | 'certifications' | 'interests' | 'projects';
+
+/**
+ * The list sections whose items are DATED, and which a résumé is therefore
+ * expected to present newest-first (`utils/sort-history`).
+ *
+ * The other four are deliberately absent: skills, languages, interests and
+ * projects carry no date, and their order is an editorial choice (strongest
+ * language first, most relevant skill first) that only the user can make.
+ *
+ * `HISTORY_SECTIONS` in `utils/sort-history` is the runtime list, declared
+ * `satisfies readonly ResumeListSection[]` so the two cannot drift.
+ */
+export type HistorySection = 'experience' | 'education' | 'certifications';

@@ -86,6 +86,7 @@ export function ExperienceSection(): JSX.Element {
         (x) => `${x.company} · ${dateRange(x, fmt, FULL_DATE, t('common.present'))}`,
       )}
       addLabel={t('common.add')}
+      order={ed.order}
       onAdd={ed.openAdd}
       onEdit={ed.openEdit}
       onRemove={ed.remove}

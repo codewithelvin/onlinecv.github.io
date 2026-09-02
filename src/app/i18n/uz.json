@@ -141,6 +141,11 @@
   "emptyState": {
     "noItems": "Hali ma'lumot qoʻshilmagan. Boshlash uchun \"Qoʻshish\" tugmasini bosing."
   },
+  "order": {
+    "label": "Tartib",
+    "auto": "Avval yangilari",
+    "manual": "Maxsus tartib"
+  },
   "wizard": {
     "title": "CV yaratish shakli",
     "welcome": "CV-ingizda aks etadigan asosiy ma'lumotlarni toʻldiring. Bularni toʻldirgandan soʻng, qolgan ma'lumotlarni toʻliq CV muharririda toʻldirasiz.",

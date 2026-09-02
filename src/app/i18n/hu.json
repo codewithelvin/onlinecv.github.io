@@ -141,6 +141,11 @@
   "emptyState": {
     "noItems": "Még nincs hozzáadott adat. Kattintson a \"Hozzáadás\" gombra a kezdéshez."
   },
+  "order": {
+    "label": "Sorrend",
+    "auto": "Legújabbak elöl",
+    "manual": "Egyéni sorrend"
+  },
   "wizard": {
     "title": "Önéletrajz létrehozása",
     "welcome": "Töltse ki az önéletrajzán megjelenő legfontosabb adatokat. Ezek megadása után a teljes önéletrajz-szerkesztőben folytathatja a többi adat kitöltését.",

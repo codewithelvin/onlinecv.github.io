@@ -141,6 +141,11 @@
   "emptyState": {
     "noItems": "Nie dodano jeszcze żadnych danych. Kliknij przycisk \"Dodaj\", aby zacząć."
   },
+  "order": {
+    "label": "Kolejność",
+    "auto": "Najnowsze najpierw",
+    "manual": "Kolejność własna"
+  },
   "wizard": {
     "title": "Formularz tworzenia CV",
     "welcome": "Wypełnij najważniejsze informacje, które będą widoczne w Twoim CV. Po ich wypełnieniu przejdziesz do pełnego edytora CV, aby uzupełnić pozostałe dane.",

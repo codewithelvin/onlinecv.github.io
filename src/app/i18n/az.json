@@ -141,6 +141,11 @@
   "emptyState": {
     "noItems": "Hələ məlumat əlavə edilməyib. \"Əlavə et\" düyməsini sıxaraq başlayın."
   },
+  "order": {
+    "label": "Sıralama",
+    "auto": "Ən yenilər əvvəl",
+    "manual": "Fərdi sıra"
+  },
   "wizard": {
     "title": "CV-nin yaradılması forması",
     "welcome": "CV-nizdə əks olunacaq ilkin vacib məlumatları doldurun. İlkin məlumatları doldurduqdan sonra siz geniş CV redaktoru ilə qalan məlumatları dolduracaqsız.",

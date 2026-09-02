@@ -5,6 +5,7 @@ import type {
   ContactItem,
   GeneralInfo,
   HideableField,
+  HistorySection,
   Locale,
   Resume,
   ResumeListSection,
@@ -12,6 +13,7 @@ import type {
 } from '../types/resume';
 import { createEmptyResume, looksUnstarted } from '../utils/empty-resume';
 import { withFieldVisibility } from '../utils/field-visibility';
+import { withManualOrder } from '../utils/sort-history';
 import { DEFAULT_LOCALE, applyLocale, syncLocaleUrl } from '../app/i18n';
 import { initialLocale } from '../app/seo-locales';
 import { clearState, loadState, saveState } from '../services/persistence';
@@ -85,6 +87,27 @@ export interface ResumeStore {
   updateItem: <K extends ResumeListSection>(section: K, id: string, item: ItemOf<K>) => void;
   removeItem: (section: ResumeListSection, id: string) => void;
   reorderItem: (section: ResumeListSection, from: number, to: number) => void;
+
+  /**
+   * Freeze `ids` as a dated section's stored order and stop deriving it from the
+   * dates (`Resume.manualOrder`).
+   *
+   * One action rather than a reorder plus a flag, because the two cannot be
+   * separated: while a section is still auto-ordered the row the user pressed
+   * sits at a SORTED position while `reorderItem`'s indices address the stored
+   * one, so committing the order the user can actually see is what keeps the
+   * displayed list and the stored list from diverging on the first ↑/↓.
+   *
+   * Ids this section does not hold are ignored, and items `ids` omits keep their
+   * stored order at the end — a stale list can move an entry, never lose one.
+   */
+  setManualItemOrder: (section: HistorySection, ids: string[]) => void;
+  /**
+   * Go back to newest-first. The stored array is deliberately left as it is:
+   * the order is a projection (`utils/sort-history`), so switching back and
+   * forth is free and a hand-made arrangement survives a look at the other mode.
+   */
+  setAutoItemOrder: (section: HistorySection) => void;
 
   resetResume: () => Promise<void>;
 }
@@ -244,6 +267,31 @@ export const useResumeStore = create<ResumeStore>((set, get) => ({
       list.splice(to, 0, moved);
       return { resume: touch(withList(s.resume, section, list)) };
     }),
+
+  setManualItemOrder: (section, ids) =>
+    set((s) => {
+      const list = readList(s.resume, section);
+      const byId = new Map(list.map((item) => [item.id, item]));
+      const named = new Set(ids);
+      const ordered = [
+        ...ids.flatMap((id) => byId.get(id) ?? []),
+        ...list.filter((item) => !named.has(item.id)),
+      ];
+      return {
+        resume: touch({
+          ...withList(s.resume, section, ordered),
+          manualOrder: withManualOrder(s.resume.manualOrder, section, true),
+        }),
+      };
+    }),
+
+  setAutoItemOrder: (section) =>
+    set((s) => ({
+      resume: touch({
+        ...s.resume,
+        manualOrder: withManualOrder(s.resume.manualOrder, section, false),
+      }),
+    })),
 
   resetResume: async () => {
     const uiLocale = get().uiLocale;

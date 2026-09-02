@@ -17,6 +17,7 @@ import {
 import { preshapeArabic } from '../utils/arabic';
 import { localizeResume, referencedDictionaryGroups } from '../utils/localize-resume';
 import { applyFieldVisibility } from '../utils/field-visibility';
+import { sortResumeHistory } from '../utils/sort-history';
 import { loadDictionaries } from '../data/dictionaries';
 import { getTemplate } from '../templates/_core/registry';
 import { cvFontStack } from '../templates/_core/fonts';
@@ -506,12 +507,13 @@ export async function exportResumePdf(resume: Resume, templateId: TemplateId): P
 
   const t = i18n.getFixedT(resume.locale);
   const formatDate = makeDateFormatter(resume.locale);
-  // The same two projections the live preview applies, in the same order (see
-  // `useLocalizedResume`): personal details the user turned off are blanked, then
-  // dictionary-backed labels (skills, languages, interests, nationality,
-  // institutions) are resolved into the CV language rather than left in whatever
-  // language they happened to be typed in.
-  const visible = applyFieldVisibility(resume);
+  // The same three projections the live preview applies, in the same order (see
+  // `useLocalizedResume`): personal details the user turned off are blanked, the
+  // dated sections are put in reverse-chronological order, then dictionary-backed
+  // labels (skills, languages, interests, nationality, institutions) are resolved
+  // into the CV language rather than left in whatever language they happened to
+  // be typed in.
+  const visible = sortResumeHistory(applyFieldVisibility(resume));
   const dicts = await loadDictionaries(referencedDictionaryGroups(visible));
   const localized = localizeResume(visible, resume.locale, dicts);
   const html = renderToStaticMarkup(createElement(Template, { resume: localized, t, formatDate }));
