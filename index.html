@@ -7,10 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#1877F2" />
 
+    <!--
+      From here to the end of the head, the values are DEFAULTS, not the shipped
+      copy: `vite-plugin-locale-pages` rewrites the title, all three
+      descriptions, the canonical, `og:locale`, both images and both image alts
+      for each of the 20 emitted pages, and now ASSERTS every one of those
+      matched. This file is what the dev server shows before the app boots, so
+      keep it in step with `src/app/i18n/az.json`'s `seo.*` block — that is what
+      the plugin substitutes.
+    -->
     <title>OnlineCV — Pulsuz onlayn CV yarat</title>
     <meta
       name="description"
-      content="CV hazırlamaq üçün online platforma. Pulsuz olaraq CV-nizi bir neçə dəqiqəyə hazırlayıb PDF kimi endirin. Bütün məlumatlar yalnız sizin cihazınızda saxlanılır."
+      content="CV hazırlamaq üçün onlayn platforma. Pulsuz olaraq CV-nizi bir neçə dəqiqəyə hazırlayıb PDF kimi endirin."
     />
     <link rel="canonical" href="https://onlinecv.az/" />
 
@@ -20,7 +29,7 @@
     <meta property="og:title" content="OnlineCV — Pulsuz onlayn CV yarat" />
     <meta
       property="og:description"
-      content="ATS-uyğun CV-nizi brauzerdə hazırlayıb PDF kimi endirin. Qeydiyyat yoxdur, məlumatlar cihazınızda qalır."
+      content="CV hazırlamaq üçün onlayn platforma. Pulsuz olaraq CV-nizi bir neçə dəqiqəyə hazırlayıb PDF kimi endirin."
     />
     <meta property="og:url" content="https://onlinecv.az/" />
     <!--
@@ -56,7 +65,7 @@
     <meta name="twitter:title" content="OnlineCV — Pulsuz onlayn CV yarat" />
     <meta
       name="twitter:description"
-      content="ATS-uyğun CV-nizi brauzerdə hazırlayıb PDF kimi endirin."
+      content="CV hazırlamaq üçün onlayn platforma. Pulsuz olaraq CV-nizi bir neçə dəqiqəyə hazırlayıb PDF kimi endirin."
     />
     <meta name="twitter:image" content="https://onlinecv.az/og/az.jpg" />
     <!-- X reads its own alt text and does not fall back to og:image:alt. -->

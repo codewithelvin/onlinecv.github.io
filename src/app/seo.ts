@@ -20,6 +20,14 @@ function setMetaByName(name: string, content: string): void {
   el.setAttribute('content', content);
 }
 
+/**
+ * Open Graph tags only, i.e. `<meta property=…>`.
+ *
+ * The Twitter pair is `<meta name=…>` in `index.html` (which is what X's own
+ * documentation writes), so it must go through `setMetaByName` — routing it
+ * here found nothing and silently did nothing, leaving the card copy in the
+ * default language after a language switch.
+ */
 function setMetaByProperty(property: string, content: string): void {
   const el = document.head.querySelector<HTMLMetaElement>(`meta[property="${property}"]`);
   if (el) el.setAttribute('content', content);
@@ -52,8 +60,8 @@ export function updateSeo(locale: Locale): void {
   setMetaByName('description', description);
   setMetaByProperty('og:title', title);
   setMetaByProperty('og:description', description);
-  setMetaByProperty('twitter:title', title);
-  setMetaByProperty('twitter:description', description);
+  setMetaByName('twitter:title', title);
+  setMetaByName('twitter:description', description);
   document.documentElement.setAttribute('lang', locale);
 
   let script = document.getElementById(JSONLD_ID);

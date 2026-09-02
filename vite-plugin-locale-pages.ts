@@ -194,53 +194,70 @@ function renderLocalePage(html: string, locale: Locale, canonical: string): stri
    * So a pattern that stops matching fails the build instead.
    */
   replace(
-    /<meta property="og:locale" content="[^"]*" \/>/,
+    /<meta\s+property="og:locale"[\s\S]*?\/>/,
     `<meta property="og:locale" content="${ogLocale(locale)}" />`,
     'og:locale',
   );
   replace(
-    /<meta property="og:image" content="[^"]*" \/>/,
+    /<meta\s+property="og:image"[\s\S]*?\/>/,
     `<meta property="og:image" content="${escapeAttr(card)}" />`,
     'og:image',
   );
   replace(
-    /<meta property="og:image:alt"[\s\S]*?\/>/,
+    /<meta\s+property="og:image:alt"[\s\S]*?\/>/,
     `<meta property="og:image:alt" content="${escapeAttr(imageAlt)}" />`,
     'og:image:alt',
   );
   replace(
-    /<meta name="twitter:image" content="[^"]*" \/>/,
+    /<meta\s+name="twitter:image"[\s\S]*?\/>/,
     `<meta name="twitter:image" content="${escapeAttr(card)}" />`,
     'twitter:image',
   );
   replace(
-    /<meta name="twitter:image:alt"[\s\S]*?\/>/,
+    /<meta\s+name="twitter:image:alt"[\s\S]*?\/>/,
     `<meta name="twitter:image:alt" content="${escapeAttr(imageAlt)}" />`,
     'twitter:image:alt',
   );
 
-  // Open Graph / Twitter mirror the same copy; a missing one is not fatal.
-  out = out
-    .replace(
-      /<meta property="og:title" content="[^"]*" \/>/,
-      `<meta property="og:title" content="${escapeAttr(title)}" />`,
-    )
-    .replace(
-      /<meta property="og:description"[\s\S]*?\/>/,
-      `<meta property="og:description" content="${escapeAttr(description)}" />`,
-    )
-    .replace(
-      /<meta property="og:url" content="[^"]*" \/>/,
-      `<meta property="og:url" content="${escapeAttr(canonical)}" />`,
-    )
-    .replace(
-      /<meta name="twitter:title" content="[^"]*" \/>/,
-      `<meta name="twitter:title" content="${escapeAttr(title)}" />`,
-    )
-    .replace(
-      /<meta name="twitter:description"[\s\S]*?\/>/,
-      `<meta name="twitter:description" content="${escapeAttr(description)}" />`,
-    );
+  /**
+   * Open Graph / Twitter mirror the title and description.
+   *
+   * ASSERTED like everything above, and the comment that used to sit here — "a
+   * missing one is not fatal" — was wrong twice over. It WAS fatal: the two
+   * description tags are written across several lines in `index.html` (Prettier
+   * wraps them, because their copy is long), the anchors below matched a single
+   * literal space after `<meta`, and so `og:description` and
+   * `twitter:description` silently kept the Azerbaijani copy on all 20 locale
+   * pages from the day the pages were added. A share preview in any language
+   * showed a correct title over an Azerbaijani sentence, and no gate could see
+   * it. Hence `\s+` in every anchor, and hence no unasserted replacement is left
+   * in this function.
+   */
+  replace(
+    /<meta\s+property="og:title"[\s\S]*?\/>/,
+    `<meta property="og:title" content="${escapeAttr(title)}" />`,
+    'og:title',
+  );
+  replace(
+    /<meta\s+property="og:description"[\s\S]*?\/>/,
+    `<meta property="og:description" content="${escapeAttr(description)}" />`,
+    'og:description',
+  );
+  replace(
+    /<meta\s+property="og:url"[\s\S]*?\/>/,
+    `<meta property="og:url" content="${escapeAttr(canonical)}" />`,
+    'og:url',
+  );
+  replace(
+    /<meta\s+name="twitter:title"[\s\S]*?\/>/,
+    `<meta name="twitter:title" content="${escapeAttr(title)}" />`,
+    'twitter:title',
+  );
+  replace(
+    /<meta\s+name="twitter:description"[\s\S]*?\/>/,
+    `<meta name="twitter:description" content="${escapeAttr(description)}" />`,
+    'twitter:description',
+  );
 
   return out;
 }
