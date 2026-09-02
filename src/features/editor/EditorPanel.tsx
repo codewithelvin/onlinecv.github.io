@@ -14,6 +14,7 @@ import {
 import { useTranslation } from 'react-i18next';
 import { useResumeStore } from '../../state/store';
 import { FieldScope, VerticalFields } from '../../components/form/fields';
+import { SectionHelpButton } from '../help/HelpButton';
 import { BasicsSection } from './sections/BasicsSection';
 import { GeneralInfoSection } from './sections/GeneralInfoSection';
 import { ContactSection } from './sections/ContactSection';
@@ -37,10 +38,13 @@ function SectionHeader({
   icon,
   title,
   count,
+  section,
 }: {
   icon: ReactNode;
   title: string;
   count?: number;
+  /** The section's key — what decides which guide article its `?` opens. */
+  section: string;
 }): JSX.Element {
   return (
     <span style={{ display: 'inline-flex', alignItems: 'center', gap: 8 }}>
@@ -54,6 +58,11 @@ function SectionHeader({
           {count}
         </Tag>
       ) : null}
+      {/* Next to the title rather than at the far end of the row: the question it
+          answers is "what does THIS section want?", so it belongs to the name, not
+          to the panel. It stops its own click reaching the accordion — see
+          `SectionHelpButton`. */}
+      <SectionHelpButton section={section} />
     </span>
   );
 }
@@ -100,7 +109,13 @@ export function EditorPanel(): JSX.Element {
        * is a layout decision that must not rewrite them.
        */
       key: 'basics',
-      label: <SectionHeader icon={<FiUser aria-hidden />} title={t('sections.basics')} />,
+      label: (
+        <SectionHeader
+          icon={<FiUser aria-hidden />}
+          title={t('sections.basics')}
+          section="basics"
+        />
+      ),
       selfScoped: true,
       children: (
         <>
@@ -119,6 +134,7 @@ export function EditorPanel(): JSX.Element {
         <SectionHeader
           icon={<FiPhone aria-hidden />}
           title={t('sections.contact')}
+          section="contact"
           count={resume.contact.items.length}
         />
       ),
@@ -130,6 +146,7 @@ export function EditorPanel(): JSX.Element {
         <SectionHeader
           icon={<FiBriefcase aria-hidden />}
           title={t('sections.experience')}
+          section="experience"
           count={resume.experience.length}
         />
       ),
@@ -141,6 +158,7 @@ export function EditorPanel(): JSX.Element {
         <SectionHeader
           icon={<FiBookOpen aria-hidden />}
           title={t('sections.education')}
+          section="education"
           count={resume.education.length}
         />
       ),
@@ -152,6 +170,7 @@ export function EditorPanel(): JSX.Element {
         <SectionHeader
           icon={<FiAward aria-hidden />}
           title={t('sections.certifications')}
+          section="certifications"
           count={(resume.certifications ?? []).length}
         />
       ),
@@ -163,6 +182,7 @@ export function EditorPanel(): JSX.Element {
         <SectionHeader
           icon={<FiStar aria-hidden />}
           title={t('sections.skills')}
+          section="skills"
           count={resume.skills.length}
         />
       ),
@@ -174,6 +194,7 @@ export function EditorPanel(): JSX.Element {
         <SectionHeader
           icon={<FiGlobe aria-hidden />}
           title={t('sections.languages')}
+          section="languages"
           count={resume.languages.length}
         />
       ),
@@ -185,6 +206,7 @@ export function EditorPanel(): JSX.Element {
         <SectionHeader
           icon={<FiFolder aria-hidden />}
           title={t('sections.projects')}
+          section="projects"
           count={(resume.projects ?? []).length}
         />
       ),
@@ -196,6 +218,7 @@ export function EditorPanel(): JSX.Element {
         <SectionHeader
           icon={<FiHeart aria-hidden />}
           title={t('sections.interests')}
+          section="interests"
           count={(resume.interests ?? []).length}
         />
       ),

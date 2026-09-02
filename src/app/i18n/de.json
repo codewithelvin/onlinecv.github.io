@@ -186,6 +186,17 @@
     "generating": "PDF wird vorbereitet...",
     "error": "Beim Erstellen des PDFs ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
   },
+  "help": {
+    "open": "Anleitung öffnen",
+    "short": "Anleitung",
+    "wizard": "Zum ersten Mal hier? Lesen Sie die Anleitung",
+    "section": "Was gehört in diesen Abschnitt?",
+    "title": "Anleitung",
+    "topics": "Alle Themen",
+    "loading": "Anleitung wird geladen…",
+    "error": "Die Anleitung konnte nicht geladen werden. Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+    "openPage": "Als Seite öffnen"
+  },
   "backup": {
     "download": "Sicherung",
     "downloadHint": "Speichern Sie die Daten Ihres Lebenslaufs als Datei. Später können Sie diese Datei auswählen und Ihren Lebenslauf wiederherstellen.",

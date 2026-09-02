@@ -1,0 +1,1158 @@
+{
+  "title": "OnlineCV útmutató",
+  "intro": "Minden, ami az önéletrajz elkészítéséhez kell, egyszerű nyelven elmagyarázva. Kezdje az elején, vagy ugorjon egyenesen ahhoz a részhez, ahol elakadt.",
+  "topics": {
+    "start": {
+      "title": "Kezdje itt",
+      "lead": "Mit csinál az OnlineCV, és melyik az az öt lépés, amely az üres űrlaptól a kész PDF-ig vezet.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Az OnlineCV a böngészőjében készít önéletrajzot. Nem kell fiókot létrehozni, nincs mit telepíteni, és nincs mit fizetni."
+        },
+        {
+          "kind": "p",
+          "text": "Minden, amit beír, **a saját eszközén marad**. Az önéletrajza sehová nem kerül feltöltésre — ez viszont azt is jelenti, hogy senki nem tudja Ön helyett visszaállítani. Amikor elkészült, mentsen egy biztonsági mentési fájlt: lásd a **Biztonsági mentés és újrakezdés** részt."
+        },
+        {
+          "kind": "h",
+          "text": "Mit kap"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "Áttekinthető önéletrajzot egy vagy két A4-es oldalon.",
+            "Valódi PDF-et: a szöveg kijelölhető, másolható, és szoftver is el tudja olvasni — nem egy oldal képe.",
+            "{{templates}} sablont, amelyek között bármikor válthat anélkül, hogy bármit újra kellene gépelnie.",
+            "Magát az önéletrajzot {{languages}} nyelv bármelyikén — attól függetlenül, milyen nyelven használja az alkalmazást."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Öt lépés"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "Töltse ki a rövid első űrlapot: név, e-mail cím, születési dátum és az önéletrajz címe.",
+            "Töltse ki a bal oldali szakaszokat — kapcsolattartási adatok, munkatapasztalat, tanulmányok, készségek és minden más, ami Önre vonatkozik.",
+            "Figyelje a jobb oldali előnézetet. A kész önéletrajzot mutatja, és gépelés közben frissül.",
+            "Válasszon egy tetszetős sablont.",
+            "Nyomja meg a **Letöltés PDF-ként** gombot, és küldje el a fájlt a munkáltatóknak."
+          ]
+        },
+        {
+          "kind": "shot",
+          "id": "editor",
+          "caption": "A fő képernyő: bal oldalon tölti ki az űrlapot, jobb oldalon megjelenik a kész önéletrajz."
+        },
+        {
+          "kind": "note",
+          "text": "Ez az útmutató mindig kéznél van: a felső sávban lévő **?** gomb nyitja meg, az egyes szakaszok melletti kis **?** pedig pontosan azt az oldalt, amely az adott szakaszt magyarázza."
+        }
+      ]
+    },
+    "wizard": {
+      "title": "Az első képernyő",
+      "lead": "A két rövid lépés, amelyet az OnlineCV a szerkesztő megnyitása előtt kér.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Az első látogatáskor az OnlineCV néhány adatot kér, hogy az önéletrajza ne legyen teljesen üres. Körülbelül egy percet vesz igénybe, és **ezek mindegyikét később módosíthatja** a szerkesztőben."
+        },
+        {
+          "kind": "h",
+          "text": "1. lépés — kicsoda Ön"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Keresztnév és vezetéknév",
+              "def": "Csak betűk és szóközök, egyenként legfeljebb 50 karakter. Úgy írja, ahogy a személyi okmányában szerepel — a munkáltató később ezen a néven fogja keresni."
+            },
+            {
+              "term": "E-mail címe",
+              "def": "Az a cím, amelyre a munkáltató válaszol. Olyat adjon meg, amelyet valóban néz, és kerülje a jelenlegi munkahelyi címét, mert elveszítheti hozzá a hozzáférést."
+            },
+            {
+              "term": "Születési dátuma",
+              "def": "Válassza ki a naptárból, vagy írja be NN.HH.ÉÉÉÉ formában (a beviteli mezők ezt a sorrendet használják). Ebből számoljuk ki az életkorát. Később elrejtheti a kész önéletrajzból, ha úgy szeretné."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "2. lépés — az Ön profilja"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Az önéletrajz címe",
+              "def": "Az a sor, amely a neve alatt szerepel, legfeljebb 50 karakter. A megcélzott pozíciót írja ide, ne a helyzetét: **Frontend fejlesztő**, ne **Állást keresek**."
+            },
+            {
+              "term": "Nemzetisége",
+              "def": "Kezdjen el gépelni, és válasszon a javaslatokból, vagy írja be a sajátját. Nem kötelező — hagyja üresen, ha inkább nem adná meg."
+            },
+            {
+              "term": "Neme",
+              "def": "Ezen a képernyőn kötelező, mert a régió számos munkáltatója elvárja. A kinyomtatott önéletrajzból utólag elrejtheti."
+            },
+            {
+              "term": "Családi állapot",
+              "def": "Nem kötelező. Hagyja üresen, ha inkább nem mondaná meg: az üres mező egyszerűen nem kerül az önéletrajzra."
+            }
+          ]
+        },
+        {
+          "kind": "shot",
+          "id": "wizard",
+          "caption": "Az első képernyő. Semmi, amit itt beír, nem kerül máshová — egyenesen a saját böngészőjébe megy."
+        },
+        {
+          "kind": "p",
+          "text": "Nyomja meg a **Befejezés** gombot, és a szerkesztő már kitöltött adatokkal nyílik meg."
+        },
+        {
+          "kind": "h",
+          "text": "Van már biztonsági mentési fájlja?"
+        },
+        {
+          "kind": "p",
+          "text": "Ha korábban készített önéletrajzot és mentett belőle másolatot, ne gépelje be újra. Az 1. lépés alján található a **Visszaállítás fájlból**: válassza ki a `.json` mentését, és a teljes önéletrajz egyszerre betöltődik. Csak ez a képernyő kínálja fel — lásd a **Biztonsági mentés és újrakezdés** részt."
+        }
+      ]
+    },
+    "editor": {
+      "title": "A szerkesztő képernyője",
+      "lead": "Hogyan működik az űrlap, az élő előnézet, az automatikus mentés és a két nyelvi beállítás.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "A szerkesztő két félből áll. Bal oldalon egy űrlapot tölt ki. Jobb oldalon a kész önéletrajzot látja, pontosan úgy, ahogy nyomtatásban megjelenik. Minden, amit begépel, azonnal megjelenik a jobb oldalon."
+        },
+        {
+          "kind": "h",
+          "text": "Szakaszok"
+        },
+        {
+          "kind": "p",
+          "text": "Az űrlap szakaszokra oszlik — alapadatok, kapcsolat, munkatapasztalat, tanulmányok és így tovább. A szakasz címére kattintva nyithatja meg vagy zárhatja be. A cím melletti kis szám azt mutatja, hány tételt adott hozzá."
+        },
+        {
+          "kind": "shot",
+          "id": "list",
+          "caption": "Egy szakasz a tételeivel. A Hozzáadás újat hoz létre, a ceruza módosítja, a kuka törli."
+        },
+        {
+          "kind": "h",
+          "text": "Tételek hozzáadása, módosítása és törlése"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "A **Hozzáadás** egy kis ablakot nyit meg, amelyben egy munkahelyet, egy iskolát vagy egy készséget ad meg. Semmi nem mentődik el addig, amíg abban az ablakban meg nem nyomja a **Mentés** gombot.",
+            "A tétel melletti **ceruza** újra megnyitja azt.",
+            "A **kuka** törli a tételt. A rendszer megerősítést kér.",
+            "Az üres szakasz egyszerűen nem kerül a kész önéletrajzra — soha nem kell kitöltenie olyan szakaszt, amely nem vonatkozik Önre."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "A dátumos tételek sorrendje"
+        },
+        {
+          "kind": "p",
+          "text": "A munkatapasztalat, a tanulmányok és a tanúsítványok abban a sorrendben állnak, amelyet a munkáltatók elvárnak: **legújabbak elöl**. Ami még tart, az legfelül szerepel. Nem kell rendeznie őket — a sorrend a megadott dátumokból adódik."
+        },
+        {
+          "kind": "p",
+          "text": "Ha más sorrendet szeretne, állítsa át a szakaszt **Legújabbak elöl** helyett **Egyéni sorrend**re: minden tételnél nyilak jelennek meg a kézi mozgatáshoz. A kapcsoló csak akkor jelenik meg, ha a szakaszban egynél több tétel van."
+        },
+        {
+          "kind": "h",
+          "text": "Javaslatlisták"
+        },
+        {
+          "kind": "p",
+          "text": "Az olyan mezők, mint a város, az egyetem, a beosztás, a készség és a nyelv, gépelés közben javaslatokat kínálnak. Ezek csak javaslatok: **mindig beírhat saját értéket**, és pontosan úgy marad meg, ahogy leírta."
+        },
+        {
+          "kind": "note",
+          "text": "Amikor a beírt szöveg egyezik egy javaslattal, a mezőben megjelenik egy kis pipa. Ez egy hasznos dolgot jelent: a felismert érték automatikusan átíródik, amikor megváltoztatja az önéletrajz nyelvét, így a listából választott egyetem az önéletrajz saját nyelvén jelenik meg."
+        },
+        {
+          "kind": "h",
+          "text": "A munkája automatikusan mentődik"
+        },
+        {
+          "kind": "p",
+          "text": "A teljes önéletrajzhoz nincs külön Mentés gomb. Minden módosítás egy pillanattal a beírás után ebbe a böngészőbe kerül, így nyugodtan bezárhatja a lapot, és később visszatérhet."
+        },
+        {
+          "kind": "warn",
+          "text": "Az önéletrajza **csak ebben a böngészőben, ezen az eszközön** van elmentve. Nem jelenik meg a telefonján, másik böngészőben vagy privát ablakban. A böngészési adatok törlése megszünteti. Mentsen biztonsági mentési fájlt, ha át szeretné vinni vagy meg szeretné őrizni."
+        },
+        {
+          "kind": "h",
+          "text": "Két különböző nyelvi beállítás"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "A felület nyelve",
+              "def": "Magának az alkalmazásnak a nyelve — gombok, mezőnevek és ez az útmutató. A felső sáv nyelvi gombjával váltható. Az önéletrajzot nem érinti."
+            },
+            {
+              "term": "A CV nyelve",
+              "def": "Az önéletrajzon nyomtatott címsorok nyelve — **Munkatapasztalat**, **Tanulmányok** és így tovább. Az előnézet felett állítható be. Annak a munkáltatónak a nyelvét használja, akihez pályázik."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "A CV nyelvének megváltoztatása soha nem fordítja le azt, amit Ön írt. A saját mondatai pontosan úgy maradnak, ahogy begépelte őket; csak a címsorok, a dátumok és a javaslatlistából választott értékek változnak."
+        },
+        {
+          "kind": "h",
+          "text": "Telefonon"
+        },
+        {
+          "kind": "p",
+          "text": "Telefonon nincs hely két félnek, ezért az űrlap és az előnézet két fülre kerül — **Szerkesztés** és **Előnézet**. A leggyakrabban használt gombok a képernyő alján, egy sávban maradnak."
+        },
+        {
+          "kind": "shot",
+          "id": "mobile",
+          "caption": "Telefonon az űrlap és az előnézet külön fülek, a fő gombok pedig alul rögzítve maradnak."
+        }
+      ]
+    },
+    "basics": {
+      "title": "Az Ön adatai",
+      "lead": "Név, cím, fénykép, személyes adatok és a rövid bemutatkozás az önéletrajz elején.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Ez az önéletrajz teteje: ki Ön, és mivel foglalkozik. Ezt olvassák először, ezért megéri rászánni néhány percet."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Keresztnév és vezetéknév",
+              "def": "Csak betűk és szóközök, egyenként legfeljebb 50 karakter. Úgy, ahogy az okmányában szerepel."
+            },
+            {
+              "term": "Az önéletrajz címe",
+              "def": "Egy sor a neve alatt, legfeljebb 50 karakter. A pozíciót nevezze meg, ne a keresést: **Könyvelő**, **Értékesítési vezető**, **Java fejlesztő**. Hallgatóként megfelel a **Közgazdász hallgató** is."
+            },
+            {
+              "term": "Város",
+              "def": "Ahol lakik. A munkáltató ebből becsüli meg a bejárást. A város elég; teljes cím itt nem szükséges."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Fénykép"
+        },
+        {
+          "kind": "p",
+          "text": "A fénykép nem kötelező. Hozzáadásához kattintson a fénykép területére, válasszon képet, majd állítsa be a kivágást: húzással mozgatja, a csúszkával nagyít, és el is forgathatja, ha a kép oldalra dőlt. Ami a körben látszik, az kerül nyomtatásra."
+        },
+        {
+          "kind": "shot",
+          "id": "photo",
+          "caption": "A kivágás beállítása: húzza, nagyítsa és forgassa, amíg a körben azt látja, amit szeretne."
+        },
+        {
+          "kind": "p",
+          "text": "A képet a böngésző mentés előtt lekicsinyíti, így egy nagy telefonos fénykép is megfelel. A körülbelül 10 MB-nál nagyobb fájlokat elutasítja."
+        },
+        {
+          "kind": "warn",
+          "text": "Magyarországon, Azerbajdzsánban, Törökországban és a kontinentális Európa nagy részében szokásos a fénykép az önéletrajzon. Az Egyesült Királyságban, Írországban, az Egyesült Államokban és Kanadában viszont nem javasolt, és a pályázat elutasításához vezethet. Nézzen utána, mi a szokás ott, ahová pályázik — és ne feledje, nem minden sablon jelenít meg fényképet."
+        },
+        {
+          "kind": "h",
+          "text": "Személyes adatok"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Születési dátuma",
+              "def": "NN.HH.ÉÉÉÉ formában írható be, vagy a naptárból választható. Ebből számoljuk az életkorát."
+            },
+            {
+              "term": "Neme",
+              "def": "Férfi vagy nő."
+            },
+            {
+              "term": "Családi állapot",
+              "def": "Egyedülálló vagy házas. Nem kötelező."
+            },
+            {
+              "term": "Nemzetisége",
+              "def": "Válasszon a javaslatokból, vagy írja be a sajátját. Nem kötelező."
+            },
+            {
+              "term": "Katonai szolgálat",
+              "def": "Szolgált, nem szolgált vagy alkalmatlan. Azerbajdzsánban és Törökországban általában elvárás. Nem kötelező."
+            },
+            {
+              "term": "Vezetői engedély kategóriája",
+              "def": "Válasszon egy vagy több kategóriát, vagy írja be a sajátját, ha az Ön országa más betűket használ. Érdemes megadni, ha a munka utazással jár."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Adat elrejtése a nyomtatott önéletrajzról"
+        },
+        {
+          "kind": "p",
+          "text": "Ezek közül némelyiket az egyik országban elvárják, a másikban jobb kihagyni. Mindegyik mellett van egy kis **szem** gomb: rákattintva a mező az alkalmazásban marad, de **nem kerül a kész önéletrajzra és a PDF-be sem**. Újabb kattintással ismét megjelenik."
+        },
+        {
+          "kind": "shot",
+          "id": "visibility",
+          "caption": "A mező melletti szem dönti el, hogy nyomtatásra kerül-e. Az áthúzott jel azt jelenti, hogy az adat az alkalmazásban marad, de nem az önéletrajzon."
+        },
+        {
+          "kind": "note",
+          "text": "Ez a rendezett módja annak, hogy ugyanazt az önéletrajzot különböző országokba küldje: töltsön ki mindent egyszer, majd rejtse el a fényképet, a születési dátumot vagy a családi állapotot ott, ahol a munkáltató inkább nem látná."
+        },
+        {
+          "kind": "h",
+          "text": "Röviden jellemezze önmagát"
+        },
+        {
+          "kind": "p",
+          "text": "Két-három mondat az önéletrajz elején, legfeljebb 300 karakter. Írja le, ki Ön szakmailag, mióta csinálja, és mit keres."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Jó:** Könyvelő hatéves építőipari tapasztalattal. Egy 200 fős cégnél az áfabevallásokat és a havi zárást viszem. Vezetői szintű szerepet keresek egy nagyobb pénzügyi csapatban.",
+            "**Gyenge:** Szorgalmas, megbízható és motivált csapatjátékos, aki kihívást jelentő lehetőséget keres egy dinamikus vállalatnál."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "A különbség az, hogy az elsőt csak Ön írhatta volna. Amit bármelyik jelölt elmondhatna magáról, az semmit sem mond az olvasónak."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Kapcsolattartási adatok",
+      "lead": "Telefonszámok, e-mail, profilok — és hogyan írjon telefonszámot, amelyet az alkalmazás elfogad.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Az e-mail címe az első képernyőről származik. Ebben a szakaszban adja meg a többi elérhetőségét. Nyomja meg a **Hozzáadás** gombot, válassza ki a kapcsolat típusát, írja be az értéket, és mentse."
+        },
+        {
+          "kind": "h",
+          "text": "Telefonszámok"
+        },
+        {
+          "kind": "p",
+          "text": "A telefonszámokat nemzetközi formában kell megadni: **plusz jel**, majd az országhívószám, majd a szám — **szóköz, zárójel és kötőjel nélkül**."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Helyes:** +36301234567",
+            "**Helyes:** +994501234567",
+            "**Hibás:** 06301234567 — nincs országhívószám",
+            "**Hibás:** +36 (30) 123-45-67 — szóköz, zárójel és kötőjel"
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Ugyanez vonatkozik a mobil-, vezetékes, fax- és WhatsApp-számokra. Ez nem szőrszálhasogatás: így írva a szám bármely országból tárcsázható, és olyan hivatkozássá válik, amelyre a munkáltató egyszerűen rákoppinthat."
+        },
+        {
+          "kind": "h",
+          "text": "Mit vár az egyes típusok"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Mobiltelefon, vezetékes, fax",
+              "def": "Szám a fenti nemzetközi formában."
+            },
+            {
+              "term": "WhatsApp",
+              "def": "A telefonszám ugyanabban a formában. Beszélgetést megnyitó hivatkozássá válik."
+            },
+            {
+              "term": "Telegram",
+              "def": "A felhasználóneve — @ jellel vagy anélkül — vagy egy telefonszám."
+            },
+            {
+              "term": "E-mail",
+              "def": "További cím, ha a főn kívül mást is meg szeretne adni."
+            },
+            {
+              "term": "Weboldal",
+              "def": "A teljes cím, a https:// résszel együtt."
+            },
+            {
+              "term": "LinkedIn, Facebook, GitHub, Instagram, X",
+              "def": "A profiloldalának teljes címe, például https://www.linkedin.com/in/aznev — nem csak a felhasználónév."
+            },
+            {
+              "term": "Cím",
+              "def": "Postai cím, legfeljebb 120 karakter. Önéletrajzon rendszerint elég a város."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Hogyan jelenik meg az önéletrajzon"
+        },
+        {
+          "kind": "p",
+          "text": "Minden elérhetőség után egy kis ikon áll, hogy az olvasó egy pillantással megkülönböztesse a mobilszámot a vezetékestől vagy a WhatsApp-számtól. A PDF-ben a telefonszámok, e-mail címek és profilhivatkozások **kattinthatók**. Maga a szöveg pontosan úgy nyomtatódik, ahogy beírta."
+        },
+        {
+          "kind": "note",
+          "text": "Azt vegye fel, ami hasznos, ne mindent, amije van. Általában egy telefonszám, egy e-mail cím és egy szakmai profil a megfelelő mennyiség. Egy magán Instagram-fiók ritkán segít egy pályázatnál."
+        }
+      ]
+    },
+    "experience": {
+      "title": "Munkatapasztalat",
+      "lead": "Az a szakasz, amelyet a munkáltatók először olvasnak — és hogyan írjon tételt, amely túléli a gyors átfutást.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Minden munkahelyhez adjon hozzá egy tételt. Nyomja meg a **Hozzáadás** gombot, és töltse ki a megnyíló ablakot."
+        },
+        {
+          "kind": "shot",
+          "id": "modal",
+          "caption": "Egyszerre egy munkahely. Semmi nem mentődik el, amíg meg nem nyomja az ablak alján a Mentés gombot."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Beosztás",
+              "def": "A szerepköre, legfeljebb 50 karakter. Olyan megnevezést használjon, amelyet a szakmában felismernek, ne belső besorolást, mint a **Szakértő II**."
+            },
+            {
+              "term": "Munkáltató neve",
+              "def": "A munkáltató neve. Kötelező."
+            },
+            {
+              "term": "Foglalkoztatás típusa",
+              "def": "Teljes munkaidő, részmunkaidő, saját vállalkozás, szabadúszó, szerződéses, gyakornoki vagy szezonális. Nem kötelező, de hasznos — megmagyaráz egy rövid tételt, mielőtt bárkinek meg kellene kérdeznie."
+            },
+            {
+              "term": "Város",
+              "def": "Ahol a munkát végezte. Nem kötelező."
+            },
+            {
+              "term": "Kezdés és befejezés dátuma",
+              "def": "Mindkettő teljes dátum, NN.HH.ÉÉÉÉ formában beírva vagy a naptárból választva. A befejezés dátuma nem lehet korábbi a kezdésnél."
+            },
+            {
+              "term": "Jelenleg is itt dolgozom",
+              "def": "A jelenlegi munkahelyénél jelölje be. Ekkor a befejezés dátuma figyelmen kívül marad, és az önéletrajzon a **Jelenleg is** felirat szerepel."
+            },
+            {
+              "term": "Feladatok és felelősségi körök",
+              "def": "Két-három mondat arról, mit takart valójában a munka, legfeljebb 600 karakter."
+            },
+            {
+              "term": "Eredmények",
+              "def": "Rövid pontok, egyenként legfeljebb 200 karakter. Ide kerülnek az eredmények."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Feladatok vagy eredmények?"
+        },
+        {
+          "kind": "p",
+          "text": "A **feladatoknál** azt írja le, mi volt a munka — a hatókör, a csapat, az ügyfelek. Az **eredményeknél** azt, amit Ön személyesen változtatott meg, lehetőleg számmal."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Gyenge:** Az értékesítésért feleltem.",
+            "**Jobb:** 15 új kiskereskedelmi ügyfél bevonásával két év alatt 24%-kal növeltem a régiós értékesítést.",
+            "**Gyenge:** A cég weboldalán dolgoztam.",
+            "**Jobb:** Újraépítettem a fizetési oldalt; a kosárelhagyás 71%-ról 58%-ra csökkent."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Ha nincsenek számai, adja meg a nagyságrendet: hány ember, hány ügyfél, mekkora keret, milyen gyakran. A **12 új pénztáros betanítása** sokkal többet mond, mint az **Új munkatársak betanítása**."
+        },
+        {
+          "kind": "h",
+          "text": "A munkahelyek sorrendje"
+        },
+        {
+          "kind": "p",
+          "text": "A munkahelyek a legújabbtól a legrégebbi felé sorakoznak, a jelenlegi legfelül. Ez a sorrend a dátumokból adódik, tehát nem kell rendeznie. Ha mást szeretne, állítsa a szakaszt **Egyéni sorrend**re, és használja a nyilakat."
+        },
+        {
+          "kind": "note",
+          "text": "Még nincs fizetett tapasztalata? Hagyja üresen ezt a szakaszt, és töltse ki helyette a **Projektek**, a **Tanulmányok** és a **Készségek** részt. Az üres szakasz sosem kerül nyomtatásra."
+        }
+      ]
+    },
+    "education": {
+      "title": "Tanulmányok",
+      "lead": "Középiskola, szakképzés és felsőoktatás — és hogy melyik milyen mezőket kér.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Minden intézményhez adjon hozzá egy tételt. Először a **típust** választja ki, és ez dönti el, mely további mezők jelennek meg."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Oktatási intézmény típusa",
+              "def": "Középfokú végzettség, középfokú szakképzés vagy felsőfokú végzettség."
+            },
+            {
+              "term": "Oktatási intézmény neve",
+              "def": "Kezdjen el gépelni, és válasszon a javaslatokból, vagy írja be a teljes nevet."
+            },
+            {
+              "term": "Szakma (szakirány)",
+              "def": "Amit tanult. Középfokú szakképzés és felsőoktatás esetén kötelező — az oklevélen szerepel."
+            },
+            {
+              "term": "Kar",
+              "def": "Mindig opcionális. Sok oklevél nem nevez meg kart; hagyja üresen, ha az Öné sem."
+            },
+            {
+              "term": "Tudományos fokozat",
+              "def": "Alapképzés, mesterképzés, doktori képzés, rezidensképzés vagy PhD. Felsőfokú tételeknél kötelező."
+            },
+            {
+              "term": "Kezdés és befejezés dátuma",
+              "def": "Csak hónap és év. Ha még tanul, jelölje be a **Jelenleg is tanulok** lehetőséget, és hagyja üresen a befejezés dátumát."
+            },
+            {
+              "term": "További megjegyzés",
+              "def": "Egy rövid megjegyzés, legfeljebb 50 karakter — például egy érdemjegy, egy kitüntetés vagy a szakdolgozat témája."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "A tételek automatikusan a legújabbtól a legrégebbi felé rendeződnek, a folyamatban lévő tanulmányok legfelül."
+        },
+        {
+          "kind": "p",
+          "text": "Ha van felsőfokú végzettsége, a középiskolát rendszerint elhagyhatja. Ha nincs, tüntesse fel az iskoláját — az üres tanulmányi szakasz rosszabbul mutat, mint egy szerény."
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Kurzusok és tanúsítványok",
+      "lead": "Képzések, szakmai tanúsítványok és engedélyek.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Ez a szakasz mindenre való, amit hivatalosan kapott az oklevelén kívül: szakmai tanúsítvány, nyelvvizsga-bizonyítvány, képzés, munkavédelmi engedély."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Képzés (kurzus) neve",
+              "def": "A tanúsítvány saját neve, legfeljebb 100 karakter — például **ACCA Applied Knowledge** vagy **IELTS Academic**."
+            },
+            {
+              "term": "A képzést tartó intézmény",
+              "def": "Aki kiállította. Kötelező."
+            },
+            {
+              "term": "Kiállítás dátuma",
+              "def": "Hónap és év. A tanúsítványok e szerint rendeződnek, a legújabbtól kezdve."
+            },
+            {
+              "term": "Lejárat dátuma",
+              "def": "Csak ha a tanúsítvány valóban lejár. Egyébként hagyja üresen, és az önéletrajzon **nincs lejárat** szerepel."
+            },
+            {
+              "term": "Tanúsítvány azonosítója",
+              "def": "A tanúsítványon szereplő szám, ha van ilyen. Ezzel tudja a munkáltató ellenőrizni."
+            },
+            {
+              "term": "Tanúsítvány linkje",
+              "def": "Webcím, ahol a tanúsítvány ellenőrizhető. http:// vagy https:// előtaggal kell kezdődnie, és az önéletrajzon kattintható hivatkozás lesz belőle."
+            },
+            {
+              "term": "További megjegyzés",
+              "def": "Rövid megjegyzés, legfeljebb 100 karakter — például egy pontszám."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "A pontszámmal ellátott tanúsítvány többet ér, mint az anélküli. Az **IELTS Academic — 7.5** mond valamit az olvasónak; az **IELTS** önmagában nem."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Készségek",
+      "lead": "Mit jelent valójában az 1-től 100-ig terjedő szint, és hány készséget érdemes felsorolni.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Minden készségnek van egy neve és egy **1 és 100 közötti** szintje. Írja be a készséget — javaslatok jelennek meg —, majd állítsa be a szintet a csúszkával vagy a szám begépelésével."
+        },
+        {
+          "kind": "h",
+          "text": "Mit jelent a szám"
+        },
+        {
+          "kind": "p",
+          "text": "Hivatalos skála nincs, ezért használja ezt, és legyen őszinte. A felnagyított szám az állásinterjú első kérdésénél kiderül."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "1–20 — Kezdő",
+              "def": "Kipróbálta. Segítségre és felügyeletre lenne szüksége."
+            },
+            {
+              "term": "21–40 — Alapszint",
+              "def": "Az egyszerű feladatokat egyedül elvégzi, lassan és gyakran utánanézve."
+            },
+            {
+              "term": "41–60 — Magabiztos",
+              "def": "A napi munkájában segítség nélkül használja. A valódi készségek többsége ide esik."
+            },
+            {
+              "term": "61–80 — Erős",
+              "def": "A nehéz eseteket is megoldja, és mások Öntől kérnek segítséget."
+            },
+            {
+              "term": "81–100 — Szakértő",
+              "def": "Taníthatná, meghatározhatná a mércét, vagy Ön lehetne az, akit egy cég kifejezetten ezért vesz fel."
+            }
+          ]
+        },
+        {
+          "kind": "warn",
+          "text": "Ne állítson mindent 100-ra. Az az önéletrajz, amelyben minden készség a maximumon van, semmit sem mond a toborzónak, és láthatatlanná teszi a valódi erősségeket."
+        },
+        {
+          "kind": "h",
+          "text": "Hányat és melyeket"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Nyolc–tizenkettő** jó szám. A harminc tételes lista úgy olvasható, mint az egy tételt sem tartalmazó.",
+            "Konkrét, ellenőrizhető dolgokat nevezzen meg: **Excel (kimutatások, FKERES)**, **SAP**, **AutoCAD**, **Python**.",
+            "Hagyja el azt, amit mindenki állít magáról — szorgalmas, megbízható, csapatjátékos. Ezeket inkább az eredményeivel mutassa meg.",
+            "Használja a hirdetés szavait ott, ahol őszintén vonatkoznak Önre. Az önéletrajzokat szűrő szoftver pontosan ezekre a szavakra keres."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Egyes sablonok sávként, mások százalékként jelenítik meg a szintet, néhány pedig egyáltalán nem. Sablonváltás után nézze meg az előnézetet."
+        }
+      ]
+    },
+    "languages": {
+      "title": "Nyelvtudás",
+      "lead": "Az A1-től C2-ig terjedő szintek egyszerű szavakkal, hogy őszintén választhassa ki a sajátját.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Minden nyelvhez adjon hozzá egy tételt: a nyelvet és a szintjét. Írja be a nyelv nevét — javaslatok jelennek meg —, és bármilyen nyelvet beírhat, amely nincs a listán."
+        },
+        {
+          "kind": "h",
+          "text": "A szintek"
+        },
+        {
+          "kind": "p",
+          "text": "Ezek a szabványos európai szintek (KER), ugyanazok, amelyeket a nyelviskolák és a vizsgák használnak."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "A1 — Kezdő",
+              "def": "Néhány szó és kész fordulat. Meg tudja mondani a nevét, és tud kávét rendelni."
+            },
+            {
+              "term": "A2 — Alapszint",
+              "def": "Egyszerű mondatok ismerős témákról — család, vásárlás, a munkája nagy vonalakban."
+            },
+            {
+              "term": "B1 — Középszint",
+              "def": "Elboldogul a hétköznapi helyzetekben, és el tudja mondani a véleményét — lassan és hibákkal."
+            },
+            {
+              "term": "B2 — Középszint feletti",
+              "def": "Ezen a nyelven dolgozik. Követi a megbeszéléseket, e-maileket ír, és kényelmesen beszél a saját szakterületéről."
+            },
+            {
+              "term": "C1 — Felsőszint",
+              "def": "Folyékonyan és szinte automatikusan használja, összetett vagy ismeretlen témákban is."
+            },
+            {
+              "term": "C2 — Anyanyelvi szint közeli",
+              "def": "Közel áll egy művelt anyanyelvi beszélőhöz, az árnyalatokkal és a humorral együtt."
+            },
+            {
+              "term": "Anyanyelv",
+              "def": "Az első nyelve, vagy olyan, amellyel anyanyelvként nőtt fel."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Ha van nyelvvizsga-bizonyítványa, vegye fel a **Kurzusok és tanúsítványok** közé is, a pontszámmal együtt. A megadott szint és a bizonyítvány együtt sokkal meggyőzőbb, mint a szint önmagában."
+        },
+        {
+          "kind": "warn",
+          "text": "Legyen reális. Az interjúkat gyakran a megjelölt nyelven tartják, és az önéletrajzba írt B2 az, amit az interjúztató az első két percben a leggyakrabban ellenőriz."
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projektek és érdeklődési körök",
+      "lead": "Két opcionális szakasz, amely akkor ér a legtöbbet, amikor a munkatapasztalat még rövid.",
+      "blocks": [
+        {
+          "kind": "h",
+          "text": "Projektek"
+        },
+        {
+          "kind": "p",
+          "text": "A projekt bármi, amit felépített vagy vezetett, és amiből látszik, mire képes — egy évfolyamdolgozat, egy Ön által nyitott bolt, egy weboldal, egy önkéntes kampány, egy alkalmazás. Hallgatóknál és pályamódosítóknál ez a szakasz gyakran többet tesz, mint az összes többi."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Projekt neve",
+              "def": "Hogyan hívták, legfeljebb 100 karakter."
+            },
+            {
+              "term": "Leírás",
+              "def": "Legfeljebb 600 karakter: mi volt, Ön mit csinált, és mi lett a vége."
+            },
+            {
+              "term": "Projekt linkje",
+              "def": "Webcím, ahol megtekinthető. http:// vagy https:// előtaggal kell kezdődnie."
+            },
+            {
+              "term": "Fő pontok",
+              "def": "Rövid pontok, egyenként legfeljebb 200 karakter — ugyanaz az elv, mint a munkatételeknél az eredmények."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Mondja el, mi volt az Ön része. A **Négyfős csapat; a fizetési oldalt én építettem** sokkal hasznosabb, mint a **Készítettünk egy webáruházat**."
+        },
+        {
+          "kind": "h",
+          "text": "Érdeklődési körök"
+        },
+        {
+          "kind": "p",
+          "text": "Opcionális és rövid. Három-öt konkrét érdeklődési kör emberi kapaszkodót ad az interjúztatónak a beszélgetés indításához. Legyen konkrét: a **Hosszútávfutás (két maraton)** működik; a **zene, sport, olvasás** nem."
+        },
+        {
+          "kind": "p",
+          "text": "Ha kevés a hely, ezt a szakaszt hagyja el először. Amíg üresek, egyik szakasz sem kerül nyomtatásra."
+        }
+      ]
+    },
+    "templates": {
+      "title": "Sablonok",
+      "lead": "Hogyan válasszon elrendezést, és mit jelent az „ATS-kompatibilis” az esélyei szempontjából.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Nyomja meg a **Sablonok** gombot a {{templates}} elrendezés megtekintéséhez. A sablon választása csak a kinézetet változtatja meg — a szöveghez nem nyúl, és bármikor visszaválthat. A választása megmarad."
+        },
+        {
+          "kind": "shot",
+          "id": "templates",
+          "caption": "A sablongaléria. A jelvény azokat az elrendezéseket jelöli, amelyek a legbiztonságosabbak az automatikus önéletrajz-szűréshez."
+        },
+        {
+          "kind": "h",
+          "text": "Mit jelent az ATS"
+        },
+        {
+          "kind": "p",
+          "text": "Sok közepes és nagy munkáltató nem kézzel olvassa el először az önéletrajzokat. A fájl egy **jelöltkövető rendszerbe** (ATS) kerül — ez a szoftver kiszedi belőle a nevet, a munkahelyeket, a dátumokat és a készségeket, és adatbázisba írja. Ha a szoftver nem tudja rendesen beolvasni a fájlt, előfordulhat, hogy ember sosem látja meg."
+        },
+        {
+          "kind": "p",
+          "text": "Az **ATS-kompatibilis** jelöléssel ellátott sablonok pontosan erre készültek: egy hasáb, fénykép nélkül, díszítősávok nélkül, egyszerű címsorokkal. Ez a biztonságos választás, ha egy vállalati karrieroldalon vagy nagy állásportálon pályázik."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Vállalati weboldalon vagy nagy állásportálon pályázik?** Használjon ATS-kompatibilis sablont.",
+            "**Közvetlenül egy személynek ír e-mailt, vagy kreatív területen dolgozik?** A kéthasábos vagy színes sablon megfelelő, és feltűnő.",
+            "**Bizonytalan?** Válasszon ATS-kompatibilisat. Sosem árt; a fordítottja árthat."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Itt minden sablon valódi szöveges PDF-et készít, tehát a szavai mindig géppel olvashatók. A jelvény az elrendezésre vonatkozik — a régebbi szűrőszoftvereket a hasábok, a fényképek és a színes mezők zavarják meg."
+        }
+      ]
+    },
+    "export": {
+      "title": "Letöltés PDF-ként",
+      "lead": "Hogyan kapja meg a kész fájlt, és mi a teendő, ha a gomb szürke.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Nyomja meg a **Letöltés PDF-ként** gombot. A fájl a böngészőjében készül el, és az eszközére mentődik, az Ön nevével és a mai dátummal."
+        },
+        {
+          "kind": "shot",
+          "id": "actions",
+          "caption": "A felső sáv gombjai: sablonválasztás, újrakezdés, biztonsági mentés és a PDF letöltése."
+        },
+        {
+          "kind": "h",
+          "text": "Ha a gomb szürke"
+        },
+        {
+          "kind": "p",
+          "text": "A letöltéshez három dolog kell: **keresztnév**, **vezetéknév** és egy **érvényes e-mail cím**. Ha valamelyik hiányzik vagy hibás, a gomb inaktív marad, és fölé húzva a mutatót megmondja, miért. Töltse ki őket, és azonnal kékké válik."
+        },
+        {
+          "kind": "h",
+          "text": "Mit kap"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "Valódi PDF-et: a szöveg kijelölhető és másolható, és a szűrőszoftverek is el tudják olvasni.",
+            "Mindig A4 álló, függetlenül attól, milyen eszközön készítette.",
+            "Működő hivatkozásokat — a telefonszámok, e-mail címek és profilok kattinthatók.",
+            "Egy vagy két oldalt, attól függően, mennyit írt."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Egy munkamenet első letöltése néhány másodperccel tovább tart, mert az alkalmazásnak a PDF-et készítő része csak akkor töltődik be, amikor valóban kéri. Utána azonnali."
+        },
+        {
+          "kind": "note",
+          "text": "Küldés előtt nézze meg az előnézetet. Ha az önéletrajza harmadik oldalra fut, rövidítse a leírásokat, vagy hagyjon el egy opcionális szakaszt — a legtöbb álláshoz két oldal a gyakorlati felső határ."
+        }
+      ]
+    },
+    "backup": {
+      "title": "Biztonsági mentés és újrakezdés",
+      "lead": "Hogyan őrizze meg az önéletrajza másolatát, vigye át másik eszközre, vagy törölje és kezdje elölről.",
+      "blocks": [
+        {
+          "kind": "warn",
+          "text": "Az önéletrajza kizárólag ebben a böngészőben él. Az előzmények törlése, a privát ablak, a böngésző újratelepítése vagy az eszközváltás elveszíti. Nincs szerveroldali másolat és nincs jelszó-visszaállítás — a biztonsági mentési fájl az egyetlen mód a megőrzésére."
+        },
+        {
+          "kind": "h",
+          "text": "Mentés készítése"
+        },
+        {
+          "kind": "p",
+          "text": "A szerkesztőben nyomja meg a **Biztonsági mentés** gombot. Letöltődik egy `.json` fájl, amely a teljes önéletrajzot tartalmazza, a fényképpel együtt. Tegye olyan helyre, ahol később megtalálja: felhőtárhely, saját magának küldött e-mail, pendrive."
+        },
+        {
+          "kind": "note",
+          "text": "Mentést bármikor készíthet, akár félkész önéletrajzról is. A PDF letöltésével ellentétben itt nincsenek feltételek."
+        },
+        {
+          "kind": "h",
+          "text": "Visszaállítás mentésből"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "Nyissa meg az OnlineCV-t azon az eszközön, ahol az önéletrajzát szeretné.",
+            "Az **első képernyőn** keresse meg az 1. lépés alján a **Visszaállítás fájlból** lehetőséget.",
+            "Válassza ki a `.json` mentését.",
+            "A szerkesztő úgy nyílik meg, hogy minden a helyén van."
+          ]
+        },
+        {
+          "kind": "warn",
+          "text": "A visszaállítást csak az első képernyő kínálja fel. Ha ebben a böngészőben már van önéletrajz, a gombot nem fogja látni — előbb nyomja meg a **Visszaállítás** gombot, és csak utána töltse be a fájlt. Ez szándékos: megakadályozza, hogy egy fájl észrevétlenül felülírjon olyan munkát, amelyről nincs mentése."
+        },
+        {
+          "kind": "p",
+          "text": "Ha a fájl egy része nem olvasható — szokatlan dátum, ez a verzió számára ismeretlen kapcsolattípus —, a többi akkor is betöltődik, és tájékoztatjuk arról, mi maradt ki, ahelyett hogy szó nélkül hiányos önéletrajzot mutatnánk."
+        },
+        {
+          "kind": "h",
+          "text": "Újrakezdés"
+        },
+        {
+          "kind": "p",
+          "text": "A **Visszaállítás** teljesen kiüríti az önéletrajzot, és visszaviszi az első képernyőre. Előtte megerősítést kérünk."
+        },
+        {
+          "kind": "warn",
+          "text": "A visszaállítás nem vonható vissza. Előbb mentsen biztonsági mentési fájlt, hacsak nem teljesen biztos a dolgában."
+        }
+      ]
+    },
+    "install": {
+      "title": "Telepítés és offline munka",
+      "lead": "Az OnlineCV alkalmazásként telepíthető, és internetkapcsolat nélkül is működik.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Az OnlineCV egy telepíthető weboldal. Telepítés után a kezdőképernyőről vagy a Start menüből saját ablakban nyílik meg, címsáv nélkül."
+        },
+        {
+          "kind": "h",
+          "text": "Telepítés"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Chrome vagy Edge számítógépen",
+              "def": "Kattintson a címsáv jobb szélén lévő telepítés ikonra, vagy válassza a böngésző menüjében az alkalmazás telepítését."
+            },
+            {
+              "term": "Android",
+              "def": "Nyissa meg a böngésző menüjét, és válassza a **Hozzáadás a kezdőképernyőhöz** vagy az **Alkalmazás telepítése** lehetőséget."
+            },
+            {
+              "term": "iPhone vagy iPad",
+              "def": "A Safariban nyomja meg a Megosztás gombot, és válassza a **Hozzáadás a Főképernyőhöz** lehetőséget."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Offline munka"
+        },
+        {
+          "kind": "p",
+          "text": "Az első látogatás után az OnlineCV kapcsolat nélkül is működik. Szerkesztheti az önéletrajzát, sablont válthat és letöltheti a PDF-et repülőgépen vagy kikapcsolt mobilnet mellett is. Egy kis sáv jelzi, ha offline van."
+        },
+        {
+          "kind": "note",
+          "text": "Csak két dolog igényel internetet, és az is csak egyszer: az útmutató képei, valamint a kínai, japán és koreai betűtípusok. Betöltés után megmaradnak."
+        },
+        {
+          "kind": "note",
+          "text": "Amikor új verzió érhető el, felajánljuk az oldal újratöltését. Gépelés közben semmi nem cserélődik ki."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Adatvédelem",
+      "lead": "Mi marad az eszközén, mi nem, és hogyan gondolhatja meg magát.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Az OnlineCV mögött nincs fiók, nincs bejelentkezés és nincs szerver. **Az önéletrajza fájlként soha nem hagyja el az eszközét.** Az OnlineCV-nél senki nem tudja elolvasni, és nincs mi kiszivárogjon, mert adatbázis sem létezik."
+        },
+        {
+          "kind": "h",
+          "text": "Az egyetlen dolog, ami kimegy"
+        },
+        {
+          "kind": "p",
+          "text": "Az első látogatáskor megkérdezzük, hozzájárul-e a használati statisztikákhoz. A válaszáig egyáltalán semmi nem töltődik be."
+        },
+        {
+          "kind": "p",
+          "text": "Ha hozzájárul, három mérőeszköz indul el — Google Analytics, Microsoft Clarity és Yandex Metrica. Rögzítik, mely oldalakat és gombokat használják, az eszközét és böngészőjét, a hozzávetőleges régióját, valamint **a munkamenet felvételét, amely azt is tartalmazza, amit az űrlapba begépel**. Ezt nyíltan leírjuk, mert így derül ki, hol akadnak el az emberek; és pontosan ezért az Ön döntése."
+        },
+        {
+          "kind": "p",
+          "text": "Ha elutasítja, ezekből semmi nem töltődik be, és semmit nem gyűjtünk. Az alkalmazás pontosan ugyanúgy működik. A költséget mi álljuk, nem Ön: a problémák, amelyekbe belefut, nem jutnak el hozzánk, így nem is javíthatók."
+        },
+        {
+          "kind": "h",
+          "text": "Meggondolni magát"
+        },
+        {
+          "kind": "p",
+          "text": "Az oldal alján lévő **Adatvédelem és statisztika** hivatkozás bármikor újra megnyitja ezt a kérdést, és mutatja a jelenlegi választását. A visszavonás az oldal újratöltése után lép teljes hatályba."
+        },
+        {
+          "kind": "note",
+          "text": "A válaszát böngészőnként tároljuk, nem az önéletrajz mellett — így az önéletrajz visszaállítása nem kérdez rá újra."
+        }
+      ]
+    },
+    "writing": {
+      "title": "Hogyan írjon olyan önéletrajzot, amelyet elolvasnak",
+      "lead": "Gyakorlati tanácsok a legnehezebb részhez: eldönteni, mi kerüljön bele.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Aki egy köteg önéletrajzot néz át, mindegyikre néhány másodpercet szán, mielőtt eldöntené, elolvassa-e rendesen vagy továbblép. Az alábbi minden arról szól, hogyan élje túl ezeket a másodperceket."
+        },
+        {
+          "kind": "h",
+          "text": "Az alapok"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Egy oldal**, ha öt évnél kevesebb tapasztalata van, **kettő**, ha több. A hármat szinte soha nem olvassák végig.",
+            "**Igazítsa minden álláshoz.** Rendezze át az eredményeit úgy, hogy a hirdetéshez illők álljanak elöl. Ez a tizenöt perc többet változtat az eredményen, mint bármi más itt.",
+            "**Használja a hirdetés saját szavait** ott, ahol azok őszintén Önre illenek. A szűrőszoftver szó szerint keres: ha a hirdetésben **szállítói számlák** szerepel, és Ön ezzel foglalkozott, ennek a kifejezésnek meg kell jelennie.",
+            "**Ellenőrizze a saját beosztásneveinek és az e-mail címének helyesírását.** Egy elgépelt e-mail cím olyan önéletrajz, amelyre senki nem tud válaszolni."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Eredményt írjon, ne feladatot"
+        },
+        {
+          "kind": "p",
+          "text": "A munkaköri leírás azt mondja meg, mit kellett volna tennie. Az önéletrajznak azt kell megmondania, mi történt valójában azért, mert Ön ott volt. Minden tételen javít a kérdés: **na és?**"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Feladat:** A cég közösségimédia-felületeit kezeltem.",
+            "**Eredmény:** Egy év alatt 2 000-ről 11 000-re növeltem a cég Instagram-követőit; a közösségi médiából érkező megkeresések megháromszorozódtak.",
+            "**Feladat:** Ügyfélpanaszokkal foglalkoztam.",
+            "**Eredmény:** Átvettem a panaszkezelést, és az átlagos válaszidőt három napról négy órára csökkentettem."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Használjon számokat"
+        },
+        {
+          "kind": "p",
+          "text": "A számok a leggyorsabb módja annak, hogy elhiggyék. Hány ember, mennyi pénz, mennyivel gyorsabban, hány ügyfél, milyen gyakran. Ha tényleg nincsenek számai, adjon nagyságrendet és gyakoriságot: **hatfős csapat**, **napi mintegy 40 hívás**, **12 ügyfélből álló portfólió**."
+        },
+        {
+          "kind": "h",
+          "text": "Hagyja ki"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Referenciák kérésre** — ezt amúgy is feltételezik, és elpazarol egy sort.",
+            "A személyi igazolvány száma, a pontos lakcíme, a bankszámlaadatai. Ezeket soha ne írja olyan dokumentumba, amelyet idegeneknek küld.",
+            "A korábbi munkahelyek elhagyásának okát, valamint a jelenlegi vagy elvárt fizetést, hacsak nem kérdezik.",
+            "Üres jelzőket, amelyek mögött nincs semmi. A **szorgalmas** semmit sem ér; a **rendszerváltás alatt három hónapig két kolléga munkáját is elláttam** ugyanaz az állítás, csak bizonyítva."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Kihagyások és rövid munkahelyek"
+        },
+        {
+          "kind": "p",
+          "text": "Ne rejtse el őket, hanem magyarázza meg röviden. A tanulás, a betegség, a családtag ápolása, a katonai szolgálat és a vállalkozásindítás mind hétköznapi okok, és a megmagyarázott kihagyás megszűnik kérdés lenni. Rövid tételeknél használja a **Foglalkoztatás típusa** mezőt: a **Gyakornoki** vagy a **Szezonális** megmagyaráz három hónapot, mielőtt bárki eltűnődne rajta."
+        },
+        {
+          "kind": "h",
+          "text": "Küldés előtt"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "Olvassa fel hangosan az önéletrajzát. Minden mondat, amelyen megbotlik, rövidítendő.",
+            "Ellenőrizze, hogy minden dátum helyes-e, és nem maradt-e megmagyarázatlan kihagyás.",
+            "Nézze át a telefonszámát és az e-mail címét karakterről karakterre.",
+            "Töltse le a PDF-et, és nyissa meg. A munkáltató ezt a fájlt látja, nem az előnézetet.",
+            "Kérjen meg valaki mást is, hogy olvassa el. Ő megtalálja azt a hibát, amelyet Ön már nem lát."
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Gyakori kérdések",
+      "lead": "Rövid válaszok a leggyakrabban feltett kérdésekre.",
+      "blocks": [
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Tényleg ingyenes?",
+              "def": "Igen. Nincs fiók, próbaidőszak, vízjel és fizetős változat."
+            },
+            {
+              "term": "Hol tárolódik az önéletrajzom?",
+              "def": "A saját böngészőjében, azon az eszközön, amelyen begépelte. Semmilyen szerveren."
+            },
+            {
+              "term": "Folytathatom telefonon?",
+              "def": "Csak úgy, hogy az egyik eszközön ment egy biztonsági mentési fájlt, a másikon pedig visszaállítja. Szinkronizálás nincs, mert fiók sincs."
+            },
+            {
+              "term": "Tarthatok több önéletrajzot?",
+              "def": "Böngészőnként egyet. Több változat megőrzéséhez mentsen mindegyikhez egy fájlt, és állítsa vissza azt, amelyikre éppen szüksége van."
+            },
+            {
+              "term": "Miért nem tudom megnyomni a Letöltés gombot?",
+              "def": "Keresztnév, vezetéknév és érvényes e-mail cím szükséges. Vigye a mutatót a gomb fölé, és megmondja."
+            },
+            {
+              "term": "Szerkeszthetem utólag a PDF-et?",
+              "def": "Módosítsa itt, és töltse le újra — ez gyorsabb, és nem rontja el az elrendezést. Ha máshol szerkeszti a PDF-et, gyakran sérül az a szövegréteg, amelyet a szűrőszoftverek olvasnak."
+            },
+            {
+              "term": "Működik internet nélkül?",
+              "def": "Igen, az első látogatás után. A szerkesztés és a PDF letöltése is működik offline."
+            },
+            {
+              "term": "Töröltem a böngészőadatokat, és eltűnt az önéletrajzom. Vissza tudják állítani?",
+              "def": "Nem. Az eszközén kívül semmit nem tárolunk, tehát nincs miből visszaállítani. Csak biztonsági mentési fájl hozhatja vissza."
+            },
+            {
+              "term": "Miért két oldal az önéletrajzom?",
+              "def": "A megírt szöveg mennyisége miatt. Rövidítse a leírásokat, szűkítse a régebbi munkahelyeket egy-egy sorra, vagy rejtsen el egy opcionális szakaszt."
+            },
+            {
+              "term": "Megváltoztathatom a szakaszok sorrendjét?",
+              "def": "Magukét nem. A munkatapasztalaton, a tanulmányokon és a tanúsítványokon belüli tételeket az **Egyéni sorrend** kapcsolóval rendezheti át."
+            },
+            {
+              "term": "Melyik sablont válasszam?",
+              "def": "ATS-kompatibilisat, ha vállalati weboldalon vagy nagy állásportálon pályázik. Egyébként azt, amelyik tetszik."
+            },
+            {
+              "term": "Az adataimat mesterséges intelligencia tanítására használják, vagy eladják?",
+              "def": "Nem. Az önéletrajza sehová nem kerül elküldésre, tehát nincs mit eladni vagy tanítani rajta. Ha hozzájárult a használati statisztikákhoz, az **Adatvédelem** részben felsorolt mérőeszközök munkamenetadatokat kapnak — az elutasítás mindezt kikapcsolja."
+            }
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Még mindig elakadt? A felső sávban lévő Telegram gomb a projekt közösségi csoportjához vezet."
+        }
+      ]
+    }
+  }
+}

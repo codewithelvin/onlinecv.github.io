@@ -85,6 +85,43 @@ export function localeUrl(locale: Locale): string {
 }
 
 /**
+ * The user guide's canonical URL for a locale — `https://onlinecv.az/az/help`.
+ *
+ * Slash-less like `localeUrl`, and for the same reason: Pages resolves an
+ * extensionless request against `<name>.html` first, so the build emits
+ * `az/help.html` and `/az/help` is a real 200 rather than a redirect to a
+ * directory. Unlike the landing pages there is NO `az/help/index.html` twin —
+ * that form was never published, so there is no already-indexed URL to keep
+ * alive, and emitting one would only create a duplicate to consolidate.
+ *
+ * The guide is the first genuinely indexable content this site has (spec §19.2 as
+ * amended): the landing page is a product pitch, whereas this is twenty languages
+ * of prose that answers questions people actually type into a search engine.
+ */
+export function helpUrl(locale: Locale): string {
+  return `${SITE_ORIGIN}/${localeSegment(locale)}/help`;
+}
+
+/**
+ * Every address the guide is served at, as one RegExp.
+ *
+ * Needed because these pages sit OUTSIDE `appRoutePattern` on purpose — they are
+ * not the app shell, and the navigation fallback must never answer them with it.
+ * A precached `az/help.html` cannot satisfy a request for the extensionless
+ * `/az/help` either, so without a runtime rule the guide would be the one part of
+ * the site that does not work offline. `vite.config.ts` gives it a `NetworkFirst`
+ * handler keyed on this pattern instead.
+ *
+ * Anchored at both ends and query-tolerant, exactly like `appRoutePattern`, and
+ * built from `SUPPORTED_LOCALES` so a new language is covered by adding it there.
+ */
+export function helpPagePattern(base: string): RegExp {
+  const prefix = base.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const names = SUPPORTED_LOCALES.join('|');
+  return new RegExp(`^${prefix}(?:(?:${names})/)?help(?:\\.html)?(?:\\?.*)?$`);
+}
+
+/**
  * The social card for a locale — `https://onlinecv.az/og/az.jpg`.
  *
  * ONE CARD PER LANGUAGE, because the card is mostly WORDS. A single card meant
@@ -241,11 +278,19 @@ export function appRoutePattern(base: string): RegExp {
  * `x-default` is what a search engine serves to a visitor whose language matches
  * none of ours; it points at the default locale rather than at `/`, because `/`
  * and `/az` would otherwise be two URLs claiming the same content.
+ *
+ * Takes the URL builder as an argument so the GUIDE pages get their own alternate
+ * set (`urlFor = helpUrl`) rather than pointing at the landing pages. That
+ * distinction is the whole value of the tag: an `hreflang` set that sends a French
+ * reader of the English guide to the French *home page* has answered a different
+ * question than the one they asked.
  */
-export function hreflangAlternates(): { hreflang: string; href: string }[] {
+export function hreflangAlternates(
+  urlFor: (locale: Locale) => string = localeUrl,
+): { hreflang: string; href: string }[] {
   return [
-    ...SUPPORTED_LOCALES.map((locale) => ({ hreflang: locale, href: localeUrl(locale) })),
-    { hreflang: 'x-default', href: localeUrl(DEFAULT_LOCALE) },
+    ...SUPPORTED_LOCALES.map((locale) => ({ hreflang: locale, href: urlFor(locale) })),
+    { hreflang: 'x-default', href: urlFor(DEFAULT_LOCALE) },
   ];
 }
 

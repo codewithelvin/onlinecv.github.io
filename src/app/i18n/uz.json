@@ -186,6 +186,17 @@
     "generating": "PDF tayyorlanmoqda...",
     "error": "PDF yaratishda xatolik yuz berdi. Qaytadan urinib koʻring."
   },
+  "help": {
+    "open": "Qoʻllanmani ochish",
+    "short": "Qoʻllanma",
+    "wizard": "Birinchi marta keldingizmi? Qoʻllanmani oʻqing",
+    "section": "Bu boʻlimga nima yoziladi?",
+    "title": "Qoʻllanma",
+    "topics": "Barcha mavzular",
+    "loading": "Qoʻllanma yuklanmoqda…",
+    "error": "Qoʻllanmani yuklab boʻlmadi. Aloqani tekshiring va qaytadan urinib koʻring.",
+    "openPage": "Sahifa sifatida ochish"
+  },
   "backup": {
     "download": "Zaxira nusxa",
     "downloadHint": "CV maʼlumotlaringizni fayl sifatida saqlang. Keyinroq shu faylni tanlab, CV-ni tiklashingiz mumkin.",

@@ -186,6 +186,17 @@
     "generating": "Preparing PDF...",
     "error": "An error occurred while generating the PDF. Please try again."
   },
+  "help": {
+    "open": "Open the guide",
+    "short": "Guide",
+    "wizard": "New here? Read the guide",
+    "section": "What goes in this section?",
+    "title": "Guide",
+    "topics": "All topics",
+    "loading": "Loading the guide…",
+    "error": "The guide could not be loaded. Check your connection and try again.",
+    "openPage": "Open as a page"
+  },
   "backup": {
     "download": "Backup",
     "downloadHint": "Save your CV data as a file. You can pick that file later to restore your CV.",

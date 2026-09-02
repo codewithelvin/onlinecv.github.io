@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
-import { localePages } from './vite-plugin-locale-pages';
+import { helpPagesDevServer, localePages } from './vite-plugin-locale-pages';
 // The service worker's navigation allowlist is the app's real route list, so it
 // is derived from the same module that decides where each locale lives.
-import { appRoutePattern } from './src/app/seo-locales';
+import { appRoutePattern, helpPagePattern } from './src/app/seo-locales';
 
 /**
  * Public path the built app is served from. MUST match the real URL or every
@@ -123,7 +123,29 @@ export default defineConfig({
          * would fall out of the precache even without this list. Named here anyway:
          * an omission is not a decision anyone can read.
          */
-        globIgnores: ['**/NanumGothic-*.ttf', '**/NotoSansSC-*.otf', '**/NotoSansJP-*.otf'],
+        globIgnores: [
+          '**/NanumGothic-*.ttf',
+          '**/NotoSansSC-*.otf',
+          '**/NotoSansJP-*.otf',
+          /**
+           * The 21 static guide pages (`/az/help`, §10.4) — 1.2 MB of HTML, and
+           * every byte of it a DUPLICATE of something already precached.
+           *
+           * The guide's copy ships as twenty code-split chunks, which `.js`
+           * precaches, so the in-app panel already works offline in every
+           * language. These files exist for crawlers and for links people share;
+           * making every install download twenty-one rendered copies of the same
+           * manual, in languages the reader does not speak, to serve a page the
+           * app itself never opens, is the same arithmetic that keeps the CJK
+           * fonts out.
+           *
+           * The cost, stated: a guide PAGE opened for the first time while
+           * offline will not load. The `NetworkFirst` rule above keeps it
+           * afterwards, and the panel — the offline path — is unaffected.
+           */
+          'help.html',
+          '*/help.html',
+        ],
         runtimeCaching: [
           {
             // `registerResumeFonts` (services/pdf.ts) fetches these by URL at
@@ -163,6 +185,56 @@ export default defineConfig({
               cacheableResponse: { statuses: [0, 200] },
             },
           },
+          /**
+           * The guide's screenshots (spec §10.4) — about 180 files, one set per
+           * language.
+           *
+           * They are NOT precached, and that falls out of the file extension
+           * rather than from an exclusion list: `webp` is absent from
+           * `globPatterns` above, so the whole set stays out of the install
+           * automatically. That is deliberate — nobody should download twenty
+           * languages of screenshots to edit a CV.
+           *
+           * `CacheFirst` then keeps whatever a reader has actually looked at, so
+           * the guide is fully illustrated offline from the second visit. The
+           * entry cap is roughly two languages' worth: enough that reading the
+           * guide twice costs nothing, not so much that a browser hoards every
+           * language someone clicked through.
+           */
+          {
+            urlPattern: /\/help-shots\/[a-z]{2}\/[a-z]+\.webp$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'onlinecv-help-shots',
+              expiration: { maxEntries: 24, maxAgeSeconds: 60 * 60 * 24 * 60 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+          /**
+           * The guide PAGES (`/az/help`), and this one is not optional.
+           *
+           * They are emitted as `az/help.html` and so ARE precached — but a
+           * precache entry for `az/help.html` cannot answer a navigation to the
+           * extensionless `/az/help`, which is the URL everything links to. And
+           * they are deliberately outside `navigateFallbackAllowlist` below,
+           * because they are not the app shell and must never be replaced by it.
+           * Without this rule the guide would be the one part of the site that
+           * stops working offline.
+           *
+           * `NetworkFirst`, not `CacheFirst`: a guide page is prose that gets
+           * corrected, and serving a stale copy to someone with a working
+           * connection is the wrong trade for a document whose whole job is to be
+           * right.
+           */
+          {
+            urlPattern: helpPagePattern(BASE),
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'onlinecv-help-pages',
+              expiration: { maxEntries: 24 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
         ],
         maximumFileSizeToCacheInBytes: 6 * 1024 * 1024,
         // Must be base-qualified, or the offline fallback resolves to the domain
@@ -177,7 +249,20 @@ export default defineConfig({
          * becomes the app, and a crawler reads no directives at all. Workbox
          * tests these against `pathname + search`, so they hold under any `base`.
          */
-        navigateFallbackDenylist: [/\/robots\.txt$/, /\/sitemap\.xml$/, /\/[^/?]+\.(?:txt|xml)$/],
+        navigateFallbackDenylist: [
+          /\/robots\.txt$/,
+          /\/sitemap\.xml$/,
+          /\/[^/?]+\.(?:txt|xml)$/,
+          /**
+           * The guide pages, for the same reason as the two files above: opening
+           * `/az/help` is a NAVIGATION, and if the fallback ever answered it the
+           * page would silently become the CV editor. It is already excluded by
+           * not being in the allowlist below — this is the copy that survives
+           * someone widening that allowlist later, which is exactly why the
+           * robots/sitemap entries are kept too.
+           */
+          helpPagePattern(BASE),
+        ],
         /**
          * The app's OWN routes, and nothing else — this is what makes a 404 a 404
          * for anyone who has visited before.
@@ -222,6 +307,13 @@ export default defineConfig({
      * the extra ~20 entries in the build output come from.
      */
     localePages(),
+    /**
+     * The dev-server half of the guide (§10.4). `localePages` is build-only, so
+     * without this `/az/help` falls through to the SPA and returns the CV editor
+     * with a 200 — which reads as "the guide is broken" rather than "this page is
+     * only generated at build time".
+     */
+    helpPagesDevServer(),
   ],
   build: {
     target: 'es2020',

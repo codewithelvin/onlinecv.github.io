@@ -14,14 +14,19 @@ const TELEGRAM_BLUE = '#229ED9';
  * "Join our Telegram community" — top-right of every header, next to the
  * language switcher, on phones as well as on desktop.
  *
- * Icon-only below `lg`: the mobile header already carries the logo and a
- * three-way language switch, and the label pushes that row into a second line
- * on a narrow phone. The invitation still reaches everyone — it is the tooltip
- * on a pointer device and the accessible name everywhere.
+ * Icon-only below `xl`: the label pushes the header into a second line, on a
+ * narrow phone (logo + language switch + this) and again just above `lg`, where
+ * the four working controls come back but 200px of width does not. The
+ * invitation still reaches everyone — it is the tooltip on a pointer device and
+ * the accessible name everywhere.
+ *
+ * The threshold was `lg` until 2026-09-02, when measuring the header across
+ * 20 locales × 14 widths showed it wrapping at **1024px in thirteen of them**,
+ * and a wrapped header spills out of its own fixed height. See `useResponsive`.
  */
 export function TelegramButton(): JSX.Element {
   const { t } = useTranslation();
-  const { isDesktop } = useResponsive();
+  const { isWide } = useResponsive();
   const label = t('header.telegramJoin');
 
   return (
@@ -36,7 +41,7 @@ export function TelegramButton(): JSX.Element {
         aria-label={label}
         icon={<FaTelegram color={TELEGRAM_BLUE} aria-hidden />}
       >
-        {isDesktop ? t('header.telegram') : null}
+        {isWide ? t('header.telegram') : null}
       </Button>
     </Tooltip>
   );

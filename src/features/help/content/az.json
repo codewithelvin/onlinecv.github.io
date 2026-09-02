@@ -1,0 +1,1158 @@
+{
+  "title": "OnlineCV bələdçisi",
+  "intro": "CV-nizi hazırlamaq üçün lazım olan hər şey, sadə dildə izah olunub. Əvvəldən başlaya, ya da çətinlik çəkdiyiniz hissəyə keçə bilərsiniz.",
+  "topics": {
+    "start": {
+      "title": "Buradan başlayın",
+      "lead": "OnlineCV nə edir və boş formadan hazır PDF-ə qədər beş addım.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "OnlineCV brauzerinizdə CV (rezyume) hazırlayır. Qeydiyyat yoxdur, quraşdırmaq lazım deyil, ödəniş də yoxdur."
+        },
+        {
+          "kind": "p",
+          "text": "Yazdığınız hər şey **öz cihazınızda** qalır. CV-niz heç bir serverə göndərilmir — bu isə o deməkdir ki, itsə, onu sizin üçün bərpa edə biləcək kimsə yoxdur. İşinizi bitirdikdə ehtiyat nüsxə faylı saxlayın — **Ehtiyat nüsxə və yenidən başlamaq** bölməsinə baxın."
+        },
+        {
+          "kind": "h",
+          "text": "Nə əldə edirsiniz"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "Bir və ya iki A4 səhifəsində səliqəli CV.",
+            "Əsl PDF: mətni seçmək, kopyalamaq olur və proqramlar onu oxuya bilir — səhifənin şəkli deyil.",
+            "Seçim üçün {{templates}} şablon; heç nəyi yenidən yazmadan istənilən vaxt dəyişə bilərsiniz.",
+            "CV-nin özü {{languages}} dildən birində — tətbiqin dilindən asılı olmayaraq."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Beş addım"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "İlk ekrandakı qısa formanı doldurun: ad, e-poçt, doğum tarixi və CV başlığı.",
+            "Soldakı bölmələri doldurun — əlaqə vasitələri, iş təcrübəsi, təhsil, bacarıqlar və sizə aid olan digər bölmələr.",
+            "Sağdakı önizləməyə baxın. Orada hazır CV görünür və siz yazdıqca yenilənir.",
+            "Bəyəndiyiniz şablonu seçin.",
+            "**PDF kimi endir** düyməsini sıxın və faylı işəgötürənlərə göndərin."
+          ]
+        },
+        {
+          "kind": "shot",
+          "id": "editor",
+          "caption": "Əsas ekran: solda formanı doldurursunuz, sağda hazır CV görünür."
+        },
+        {
+          "kind": "note",
+          "text": "Bu bələdçi həmişə əlinizin altındadır: yuxarı paneldəki **?** düyməsi onu açır, hər bölmənin yanındakı kiçik **?** isə həmin bölməni izah edən səhifəni açır."
+        }
+      ]
+    },
+    "wizard": {
+      "title": "İlk ekran",
+      "lead": "Redaktor açılmazdan əvvəl soruşulan iki qısa addım.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "İlk dəfə girdikdə OnlineCV bir neçə məlumat soruşur ki, CV-niz tamamilə boş olmasın. Bu, təxminən bir dəqiqə çəkir və **bunların hamısını sonra dəyişə bilərsiniz**."
+        },
+        {
+          "kind": "h",
+          "text": "1-ci addım — kimsiniz"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Ad və Soyad",
+              "def": "Yalnız hərflər və boşluq, hər biri 50 simvola qədər. Şəxsiyyət vəsiqənizdəki kimi yazın — işəgötürən sonradan sizi bu adla axtaracaq."
+            },
+            {
+              "term": "E-poçt ünvanınız",
+              "def": "İşəgötürənin cavab yazacağı ünvan. Həqiqətən yoxladığınız ünvanı verin; hazırkı iş yerinizin ünvanından istifadə etməyin, çünki oraya girişi itirə bilərsiniz."
+            },
+            {
+              "term": "Doğum tarixiniz",
+              "def": "Təqvimdən seçin və ya GG.AA.İİİİ formatında yazın. Yaşınız bunun əsasında hesablanır. İstəsəniz, sonra onu hazır CV-dən gizlədə bilərsiniz."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "2-ci addım — profiliniz"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "CV-nizin başlığı",
+              "def": "Adınızın altında çap olunan bir sətir, 50 simvola qədər. Vəziyyətinizi yox, istədiyiniz vəzifəni yazın: **Baş mühasib**, **İş axtarıram** deyil."
+            },
+            {
+              "term": "Milliyyətiniz",
+              "def": "Yazmağa başlayın və təklifdən seçin, ya da özünüz yazın. Məcburi deyil — bildirmək istəmirsinizsə, boş buraxın."
+            },
+            {
+              "term": "Cinsiniz",
+              "def": "Bu ekranda məcburidir, çünki regionda əksər işəgötürənlər bunu gözləyir. Sonradan onu çap olunan CV-dən gizlədə bilərsiniz."
+            },
+            {
+              "term": "Ailə vəziyyəti",
+              "def": "Məcburi deyil. Bildirmək istəmirsinizsə, boş buraxın — boş sahə sadəcə CV-yə düşmür."
+            }
+          ]
+        },
+        {
+          "kind": "shot",
+          "id": "wizard",
+          "caption": "İlk ekran. Burada yazdıqlarınız heç yerə göndərilmir — birbaşa öz brauzerinizə yazılır."
+        },
+        {
+          "kind": "p",
+          "text": "**Bitir** düyməsini sıxın və redaktor məlumatlarınızla birlikdə açılsın."
+        },
+        {
+          "kind": "h",
+          "text": "Ehtiyat nüsxəniz varmı?"
+        },
+        {
+          "kind": "p",
+          "text": "Əvvəllər CV hazırlamısınızsa və ehtiyat nüsxə saxlamısınızsa, hər şeyi yenidən yazmayın. 1-ci addımın altında **Fayldan bərpa et** düyməsi var: `.json` faylınızı seçin və bütün CV-niz bir dəfəyə yüklənsin. Bu düymə yalnız bu ekranda olur — **Ehtiyat nüsxə və yenidən başlamaq** bölməsinə baxın."
+        }
+      ]
+    },
+    "editor": {
+      "title": "Redaktor ekranı",
+      "lead": "Forma, canlı önizləmə, avtomatik saxlama və iki fərqli dil parametri necə işləyir.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Redaktor iki hissədən ibarətdir. Solda formanı doldurursunuz. Sağda isə hazır CV-ni çap olunacağı kimi görürsünüz. Yazdığınız hər şey dərhal sağda əks olunur."
+        },
+        {
+          "kind": "h",
+          "text": "Bölmələr"
+        },
+        {
+          "kind": "p",
+          "text": "Forma bölmələrə ayrılıb — əsas məlumatlar, əlaqə, iş təcrübəsi, təhsil və s. Bölmənin başlığına toxunaraq onu açıb-bağlaya bilərsiniz. Başlığın yanındakı kiçik rəqəm həmin bölməyə neçə qeyd əlavə etdiyinizi göstərir."
+        },
+        {
+          "kind": "shot",
+          "id": "list",
+          "caption": "Qeydləri ilə birlikdə bir bölmə. Yeni qeyd üçün Əlavə et, dəyişmək üçün karandaş, silmək üçün zibil qutusu."
+        },
+        {
+          "kind": "h",
+          "text": "Qeyd əlavə etmək, dəyişmək və silmək"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Əlavə et** kiçik bir pəncərə açır: orada bir iş yerini, bir təhsil müəssisəsini, bir bacarığı doldurursunuz. Həmin pəncərədə **Yadda saxla** düyməsini sıxmayana qədər heç nə saxlanılmır.",
+            "Qeydin yanındakı **karandaş** onu yenidən açır.",
+            "**Zibil qutusu** qeydi silir. Sizdən təsdiq soruşulacaq.",
+            "Boş bölmə hazır CV-yə ümumiyyətlə düşmür — sizə aid olmayan bölməni doldurmağa ehtiyac yoxdur."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Tarixli qeydlərin sırası"
+        },
+        {
+          "kind": "p",
+          "text": "İş təcrübəsi, təhsil və sertifikatlar işəgötürənlərin gözlədiyi sıra ilə düzülür: **ən yenilər əvvəl**. Davam edənlər isə lap yuxarıda olur. Onları özünüz düzməyə ehtiyac yoxdur — sıra daxil etdiyiniz tarixlərdən çıxır."
+        },
+        {
+          "kind": "p",
+          "text": "Başqa sıra istəyirsinizsə, həmin bölmədə **Ən yenilər əvvəl** əvəzinə **Fərdi sıra** seçin: hər qeydin yanında oxlar görünəcək və onları əl ilə yerdəyişə biləcəksiniz. Bu seçim bölmədə birdən çox qeyd olduqda görünür."
+        },
+        {
+          "kind": "h",
+          "text": "Təklif siyahıları"
+        },
+        {
+          "kind": "p",
+          "text": "Şəhər, universitet, vəzifə, bacarıq və dil kimi sahələr siz yazdıqca təkliflər göstərir. Bunlar yalnız təklifdir: **istənilən vaxt öz sözünüzü yaza bilərsiniz** və o, məhz yazdığınız kimi saxlanılır."
+        },
+        {
+          "kind": "note",
+          "text": "Yazdığınız mətn təkliflərdən biri ilə üst-üstə düşəndə sahədə kiçik bir işarə görünür. Bu işarənin bir faydası var: tanınan dəyər CV dilini dəyişdikdə avtomatik tərcümə olunur, yəni siyahıdan seçilmiş universitet CV-nin öz dilində yazılır."
+        },
+        {
+          "kind": "h",
+          "text": "İşiniz avtomatik saxlanılır"
+        },
+        {
+          "kind": "p",
+          "text": "Bütöv CV üçün ayrıca «Yadda saxla» düyməsi yoxdur. Hər dəyişiklik bir an sonra bu brauzerdə saxlanılır, ona görə də səhifəni bağlayıb sonra qayıda bilərsiniz."
+        },
+        {
+          "kind": "warn",
+          "text": "CV-niz **yalnız bu cihazda, bu brauzerdə** saxlanılır. O, telefonunuzda, başqa brauzerdə və ya gizli (incognito) pəncərədə görünməyəcək. Brauzer məlumatlarını təmizləmək onu silir. Köçürmək və ya qorumaq üçün ehtiyat nüsxə faylı saxlayın."
+        },
+        {
+          "kind": "h",
+          "text": "İki fərqli dil parametri"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Tətbiqin dili",
+              "def": "Proqramın öz dili — düymələr, sahə adları və bu bələdçi. Yuxarı paneldəki dil düyməsi ilə dəyişilir. CV-nizə heç bir təsiri yoxdur."
+            },
+            {
+              "term": "CV dili",
+              "def": "CV-nizdə çap olunan başlıqların dili — **İş təcrübəsi**, **Təhsil** və s. Önizləmənin yuxarısından seçilir. Müraciət etdiyiniz işəgötürənin dilini seçin."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "CV dilini dəyişmək yazdıqlarınızı tərcümə etmir. Öz cümlələriniz yazdığınız kimi qalır; yalnız başlıqlar, tarixlər və təklif siyahısından seçilmiş dəyərlər dəyişir."
+        },
+        {
+          "kind": "h",
+          "text": "Telefonda"
+        },
+        {
+          "kind": "p",
+          "text": "Telefonda iki hissəni yan-yana göstərməyə yer çatmır, ona görə forma və önizləmə iki bölməyə ayrılır — **Redaktə** və **Önizləmə**. Ən çox lazım olan düymələr isə ekranın aşağısındakı zolaqda yerləşir."
+        },
+        {
+          "kind": "shot",
+          "id": "mobile",
+          "caption": "Telefonda forma və önizləmə ayrı bölmələrdir, əsas düymələr isə aşağıda sabit qalır."
+        }
+      ]
+    },
+    "basics": {
+      "title": "Şəxsi məlumatlarınız",
+      "lead": "Ad, CV başlığı, şəkil, şəxsi məlumatlar və CV-nin əvvəlindəki qısa təsvir.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Bu, CV-nizin ən yuxarı hissəsidir: kimsiniz və nə iş görürsünüz. Bunu hamıdan əvvəl oxuyurlar, ona görə də bir neçə əlavə dəqiqəyə dəyər."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Ad və Soyad",
+              "def": "Yalnız hərflər və boşluq, hər biri 50 simvola qədər. Şəxsiyyət vəsiqənizdəki kimi."
+            },
+            {
+              "term": "CV-nizin başlığı",
+              "def": "Adınızın altında bir sətir, 50 simvola qədər. Axtarışınızı yox, vəzifəni yazın: **Mühasib**, **Satış meneceri**, **Java proqramçısı**. Tələbəsinizsə, **İqtisadiyyat üzrə tələbə** də uyğundur."
+            },
+            {
+              "term": "Şəhər",
+              "def": "Yaşadığınız yer. İşəgötürən bununla yol vaxtını qiymətləndirir. Şəhər kifayətdir; burada tam ünvan lazım deyil."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Profil şəkli"
+        },
+        {
+          "kind": "p",
+          "text": "Şəkil məcburi deyil. Əlavə etmək üçün şəkil sahəsinə toxunun, faylı seçin və kadrı tənzimləyin: sürüşdürərək yerini dəyişin, sürgü ilə yaxınlaşdırın, şəkil yan düşübsə döndərin. Dairənin içində gördüyünüz hissə çap olunacaq."
+        },
+        {
+          "kind": "shot",
+          "id": "photo",
+          "caption": "Kadrı tənzimləmək: şəkli sürüşdürün, yaxınlaşdırın və döndərərək dairəyə istədiyinizi salın."
+        },
+        {
+          "kind": "p",
+          "text": "Şəkil saxlanılmazdan əvvəl brauzerinizin içində kiçildilir, ona görə telefon kamerasından çəkilmiş böyük şəkil də olar. Təxminən 10 MB-dan böyük fayllar qəbul edilmir."
+        },
+        {
+          "kind": "warn",
+          "text": "Azərbaycanda, Türkiyədə və Avropanın böyük hissəsində CV-də şəkil normaldır. Böyük Britaniyada, İrlandiyada, ABŞ-da və Kanadada isə şəkil məsləhət görülmür və CV-nin rədd edilməsinə səbəb ola bilər. Müraciət etdiyiniz ölkədə necə qəbul olunduğunu yoxlayın — və unutmayın ki, hər şablon şəkli göstərmir."
+        },
+        {
+          "kind": "h",
+          "text": "Şəxsi məlumatlar"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Doğum tarixiniz",
+              "def": "GG.AA.İİİİ formatında yazılır və ya təqvimdən seçilir. Yaşınız bunun əsasında hesablanır."
+            },
+            {
+              "term": "Cinsiniz",
+              "def": "Kişi və ya qadın."
+            },
+            {
+              "term": "Ailə vəziyyəti",
+              "def": "Subay və ya evli. Məcburi deyil."
+            },
+            {
+              "term": "Milliyyətiniz",
+              "def": "Təklifdən seçin və ya özünüz yazın. Məcburi deyil."
+            },
+            {
+              "term": "Hərbi mükəlləfiyyətiniz",
+              "def": "Xidmət etmişəm, etməmişəm və ya yararsız. Azərbaycanda və Türkiyədə adətən gözlənilir. Məcburi deyil."
+            },
+            {
+              "term": "Sürücülük vəsiqəsinin kateqoriyası",
+              "def": "Bir və ya bir neçə kateqoriya seçin; ölkənizdə başqa hərflər istifadə olunursa, özünüz yaza bilərsiniz. İş yolla bağlıdırsa, əlavə etməyə dəyər."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Məlumatı çap olunan CV-dən gizlətmək"
+        },
+        {
+          "kind": "p",
+          "text": "Bu məlumatların bəziləri bir ölkədə gözlənilir, başqasında isə yazılmaması daha yaxşıdır. Hər birinin yanında kiçik **göz** düyməsi var: ona toxunanda sahə proqramda qalır, amma **hazır CV-yə və PDF-ə düşmür**. Yenidən toxunsanız, geri qayıdır."
+        },
+        {
+          "kind": "shot",
+          "id": "visibility",
+          "caption": "Sahənin yanındakı göz onun çap olunub-olunmayacağını həll edir. Üstündən xətt çəkilibsə, məlumat proqramda qalır, CV-də görünmür."
+        },
+        {
+          "kind": "note",
+          "text": "Eyni CV-ni müxtəlif ölkələrə göndərməyin ən rahat yolu budur: hər şeyi bir dəfə doldurun, sonra işəgötürənin görməsini istəmədiyiniz şəkli, doğum tarixini və ya ailə vəziyyətini gizlədin."
+        },
+        {
+          "kind": "h",
+          "text": "Özünüzü qısa təsvir edin"
+        },
+        {
+          "kind": "p",
+          "text": "CV-nin əvvəlində iki-üç cümlə, 300 simvola qədər. Peşəkar olaraq kim olduğunuzu, bunu neçə ildir etdiyinizi və nə axtardığınızı yazın."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Yaxşı:** Tikinti sahəsində altı illik təcrübəsi olan mühasib. 200 işçisi olan şirkətdə ƏDV bəyannamələri və aylıq bağlanışı aparıram. Daha böyük maliyyə komandasında baş vəzifə axtarıram.",
+            "**Zəif:** Çalışqan, məsuliyyətli və komandada işləməyi bacaran namizəd dinamik şirkətdə maraqlı vəzifə axtarır."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Fərq odur ki, birincini yalnız siz yaza bilərdiniz. İstənilən namizədin deyə biləcəyi cümlə oxuyana heç nə demir."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Əlaqə vasitələri",
+      "lead": "Telefon nömrələri, e-poçt, profillər — və nömrəni proqramın qəbul edəcəyi formada necə yazmalı.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "E-poçt ünvanınız ilk ekrandan gəlir. Bu bölmədə işəgötürənin sizinlə əlaqə saxlaya biləcəyi digər vasitələri əlavə edirsiniz. **Əlavə et** düyməsini sıxın, növü seçin, dəyəri yazın və saxlayın."
+        },
+        {
+          "kind": "h",
+          "text": "Telefon nömrələri"
+        },
+        {
+          "kind": "p",
+          "text": "Telefon nömrələri beynəlxalq formada yazılmalıdır: **artı işarəsi**, sonra ölkə kodu, sonra nömrə — **boşluq, mötərizə və defis olmadan**."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Düzgün:** +994501234567",
+            "**Düzgün:** +905321234567",
+            "**Səhv:** 0501234567 — ölkə kodu yoxdur",
+            "**Səhv:** +994 (50) 123-45-67 — boşluq, mötərizə və defis var"
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Eyni qayda mobil, şəhər, faks və WhatsApp nömrələrinə aiddir. Bu, əbəs tələb deyil: belə yazılmış nömrəyə istənilən ölkədən zəng etmək olur və o, işəgötürənin toxunub zəng edə biləcəyi linkə çevrilir."
+        },
+        {
+          "kind": "h",
+          "text": "Hər növ nə gözləyir"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Mobil telefon, şəhər nömrəsi, faks",
+              "def": "Yuxarıdakı beynəlxalq formada nömrə."
+            },
+            {
+              "term": "WhatsApp",
+              "def": "Eyni formada telefon nömrəsi. Söhbəti açan linkə çevrilir."
+            },
+            {
+              "term": "Telegram",
+              "def": "İstifadəçi adınız — @ ilə və ya @ olmadan — ya da telefon nömrəsi."
+            },
+            {
+              "term": "Elektron poçt",
+              "def": "Əsasından başqa ünvan vermək istəyirsinizsə, əlavə ünvan."
+            },
+            {
+              "term": "Veb sayt",
+              "def": "https:// daxil olmaqla tam ünvan."
+            },
+            {
+              "term": "LinkedIn, Facebook, GitHub, Instagram, X",
+              "def": "Profil səhifənizin tam ünvanı, məsələn https://www.linkedin.com/in/adiniz — yalnız istifadəçi adı deyil."
+            },
+            {
+              "term": "Ünvan",
+              "def": "Poçt ünvanı, 120 simvola qədər. CV-də adətən şəhər kifayət edir."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "CV-də necə görünür"
+        },
+        {
+          "kind": "p",
+          "text": "Hər əlaqə vasitəsinin sonunda kiçik bir işarə olur ki, oxuyan mobil nömrəni şəhər nömrəsindən və ya WhatsApp nömrəsindən dərhal ayıra bilsin. PDF-də telefon nömrələri, e-poçt ünvanları və profil linkləri **klikləniləndir**. Mətnin özü isə yazdığınız kimi çap olunur."
+        },
+        {
+          "kind": "note",
+          "text": "Əlinizdə olan hər şeyi yox, faydalı olanı əlavə edin. Adətən bir telefon nömrəsi, bir e-poçt və bir peşəkar profil kifayətdir. Şəxsi Instagram hesabı müraciətə çox nadir hallarda kömək edir."
+        }
+      ]
+    },
+    "experience": {
+      "title": "İş təcrübəsi",
+      "lead": "İşəgötürənin ilk oxuduğu bölmə — və qısa baxışdan sağ çıxan qeydi necə yazmalı.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Hər iş yeri üçün bir qeyd əlavə edin. **Əlavə et** düyməsini sıxın və açılan pəncərəni doldurun."
+        },
+        {
+          "kind": "shot",
+          "id": "modal",
+          "caption": "Bir dəfəyə bir iş yeri. Pəncərənin altındakı Yadda saxla düyməsini sıxmayana qədər heç nə saxlanılmır."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Vəzifə",
+              "def": "Vəzifəniz, 50 simvola qədər. Sahədə hamının tanıdığı adı yazın, daxili dərəcə adını (**Mütəxəssis II** kimi) yox."
+            },
+            {
+              "term": "Müəssisənin adı",
+              "def": "İşəgötürənin adı. Məcburidir."
+            },
+            {
+              "term": "Məşğulluq növü",
+              "def": "Tam ştat, yarımştat, öz biznesim, muzdlu, müqavilə ilə, təcrübə və ya mövsümi. Məcburi deyil, amma faydalıdır — qısa müddətli qeydi kimsə soruşmamışdan izah edir."
+            },
+            {
+              "term": "Şəhər",
+              "def": "İşin görüldüyü yer. Məcburi deyil."
+            },
+            {
+              "term": "Başlama və bitmə tarixi",
+              "def": "Hər ikisi tam tarixdir, GG.AA.İİİİ formatında yazılır və ya təqvimdən seçilir. Bitmə tarixi başlama tarixindən əvvəl ola bilməz."
+            },
+            {
+              "term": "Hazırda burada işləyirəm",
+              "def": "İndiki iş yeriniz üçün seçin. Onda bitmə tarixi nəzərə alınmır və CV-də **İndiyə kimi** yazılır."
+            },
+            {
+              "term": "Vəzifə və öhdəliklər",
+              "def": "İşin nədən ibarət olduğu barədə iki-üç cümlə, 600 simvola qədər."
+            },
+            {
+              "term": "Nailiyyətlər",
+              "def": "Qısa bəndlər, hər biri 200 simvola qədər. Nəticələr məhz buraya yazılır."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Öhdəliklər, yoxsa nailiyyətlər?"
+        },
+        {
+          "kind": "p",
+          "text": "**Vəzifə və öhdəliklər** işin nə olduğunu yazır — əhatə dairəsi, komanda, müştərilər. **Nailiyyətlər** isə şəxsən sizin nəyi dəyişdiyinizi, mümkün olan yerdə rəqəmlə."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Zəif:** Satışa cavabdeh idim.",
+            "**Daha yaxşı:** 15 yeni pərakəndə müştəri cəlb edərək iki ildə regional satışı 24% artırdım.",
+            "**Zəif:** Şirkətin saytı üzərində işləmişəm.",
+            "**Daha yaxşı:** Ödəniş səhifəsini yenidən qurdum; səbətin tərk edilməsi 71%-dən 58%-ə düşdü."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Rəqəminiz yoxdursa, miqyası yazın: neçə adam, neçə müştəri, hansı büdcə, hansı tezlik. **12 yeni kassir hazırladım** — **Yeni işçiləri hazırlayırdım**-dan qat-qat çox şey deyir."
+        },
+        {
+          "kind": "h",
+          "text": "İş yerlərinin sırası"
+        },
+        {
+          "kind": "p",
+          "text": "İş yerləri ən yenidən köhnəyə düzülür, davam edən iş isə ən yuxarıda olur. Bu sıra tarixlərdən çıxır, yəni özünüz düzməli deyilsiniz. Başqa sıra istəyirsinizsə, bölməni **Fərdi sıra** rejiminə keçirib oxlardan istifadə edin."
+        },
+        {
+          "kind": "note",
+          "text": "Hələ ödənişli iş təcrübəniz yoxdur? Bu bölməni boş buraxın, əvəzində **Layihələr**, **Təhsil** və **Bacarıqlar** bölmələrini doldurun. Boş bölmə heç vaxt çap olunmur."
+        }
+      ]
+    },
+    "education": {
+      "title": "Təhsil",
+      "lead": "Orta, orta ixtisas və ali təhsil — hansının hansı sahələri soruşduğu.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Hər təhsil müəssisəsi üçün bir qeyd əlavə edin. İlk seçdiyiniz şey **növ**dür və qalan sahələrin hansının görünəcəyini o həll edir."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Təhsil müəssisəsinin növü",
+              "def": "Orta təhsil, orta ixtisas təhsili və ya ali təhsil."
+            },
+            {
+              "term": "Təhsil müəssisəsinin adı",
+              "def": "Yazmağa başlayın və təkliflərdən seçin, ya da tam adı özünüz yazın."
+            },
+            {
+              "term": "Peşə (ixtisas)",
+              "def": "Nə oxumusunuz. Orta ixtisas və ali təhsil üçün məcburidir — diplomunuzda yazılıb."
+            },
+            {
+              "term": "Fakültə",
+              "def": "Həmişə könüllüdür. Bir çox diplomda fakültə göstərilmir; sizinkində yoxdursa, boş buraxın."
+            },
+            {
+              "term": "Akademik dərəcə",
+              "def": "Bakalavr, magistr, doktorant, rezidentura və ya fəlsəfə doktoru. Ali təhsil üçün məcburidir."
+            },
+            {
+              "term": "Başlama və bitmə tarixi",
+              "def": "Yalnız ay və il. Hələ oxuyursunuzsa, **Hazırda təhsil alıram** seçin və bitmə tarixini boş buraxın."
+            },
+            {
+              "term": "Əlavə qeyd",
+              "def": "50 simvola qədər bir qısa qeyd — məsələn qiymət ortalaması, fərqlənmə diplomu və ya diplom işinin mövzusu."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Qeydlər avtomatik olaraq ən yenidən köhnəyə düzülür, davam edən təhsil isə yuxarıda olur."
+        },
+        {
+          "kind": "p",
+          "text": "Ali təhsiliniz varsa, orta məktəbi adətən yazmaya bilərsiniz. Yoxdursa, məktəbi göstərin — boş təhsil bölməsi mütəvazi bölmədən pis görünür."
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Kurslar və sertifikatlar",
+      "lead": "Kurslar, peşəkar sertifikatlar və lisenziyalar.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Bu bölmə diplomdan kənar rəsmi olaraq aldığınız hər şey üçündür: peşəkar sertifikat, dil sertifikatı, təlim kursu, təhlükəsizlik lisenziyası."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Təlimin (kursun) adı",
+              "def": "Sertifikatın öz adı, 100 simvola qədər — məsələn **ACCA Applied Knowledge** və ya **IELTS Academic**."
+            },
+            {
+              "term": "Təlimi (kursu) keçirən müəssisə",
+              "def": "Sertifikatı verən qurum. Məcburidir."
+            },
+            {
+              "term": "Verilmə tarixi",
+              "def": "Ay və il. Sertifikatlar bu tarixə görə ən yenidən düzülür."
+            },
+            {
+              "term": "Bitmə tarixi",
+              "def": "Yalnız sertifikatın həqiqətən müddəti varsa. Əks halda boş buraxın — CV-də **müddəti yoxdur** yazılacaq."
+            },
+            {
+              "term": "Kredensial ID",
+              "def": "Sertifikatın üzərindəki nömrə, varsa. İşəgötürənə onu yoxlamağa imkan verir."
+            },
+            {
+              "term": "Kredensial linki",
+              "def": "Sertifikatın yoxlanıla biləcəyi veb ünvan. http:// və ya https:// ilə başlamalıdır və CV-də kliklənilən linkə çevrilir."
+            },
+            {
+              "term": "Əlavə qeyd",
+              "def": "100 simvola qədər qısa qeyd — məsələn bal."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Balı yazılmış sertifikat balsızdan daha dəyərlidir. **IELTS Academic — 7.5** oxuyana bir şey deyir; təkcə **IELTS** demir."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Bacarıqlar",
+      "lead": "1-dən 100-ə qədər faizin əslində nə demək olduğu və neçə bacarıq yazmaq lazım gəldiyi.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Hər bacarığın adı və **1-dən 100-ə** qədər səviyyəsi var. Bacarığı yazın — təkliflər görünəcək — sonra sürgü ilə və ya rəqəmi yazaraq səviyyəni təyin edin."
+        },
+        {
+          "kind": "h",
+          "text": "Rəqəm nə deməkdir"
+        },
+        {
+          "kind": "p",
+          "text": "Rəsmi şkala yoxdur, ona görə aşağıdakından istifadə edin və özünüzə qarşı dürüst olun. Şişirdilmiş rəqəm müsahibənin ilk sualında üzə çıxır."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "1–20 — Başlanğıc",
+              "def": "Sınamısınız. Kömək və nəzarət lazım olardı."
+            },
+            {
+              "term": "21–40 — Elementar",
+              "def": "Sadə tapşırıqları özünüz görürsünüz, yavaş və tez-tez axtararaq."
+            },
+            {
+              "term": "41–60 — İnamlı",
+              "def": "Gündəlik işinizdə köməksiz istifadə edirsiniz. Real bacarıqların çoxu buradadır."
+            },
+            {
+              "term": "61–80 — Güclü",
+              "def": "Çətin halların öhdəsindən gəlirsiniz və başqaları sizdən kömək istəyir."
+            },
+            {
+              "term": "81–100 — Ekspert",
+              "def": "Öyrədə bilərsiniz, standartı təyin edə bilərsiniz və ya şirkət məhz bunun üçün sizi işə götürər."
+            }
+          ]
+        },
+        {
+          "kind": "warn",
+          "text": "Hamısını 100 qoymayın. Bütün bacarıqları maksimum olan CV işə qəbul edənə heç nə demir və əsl güclü tərəflərinizi görünməz edir."
+        },
+        {
+          "kind": "h",
+          "text": "Neçə dənə və hansılar"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Səkkiz-on iki** yaxşı saydır. Otuz bacarıqdan ibarət siyahı heç biri kimi oxunur.",
+            "Konkret və yoxlanıla bilən şeylər yazın: **Excel (pivot cədvəllər, VLOOKUP)**, **1C: Mühasibatlıq**, **AutoCAD**, **Python**.",
+            "Hamının yazdığı ifadələri buraxın — çalışqan, məsuliyyətli, komanda adamı. Bunları nailiyyətlərinizlə göstərin.",
+            "Elana uyğun gələn və həqiqətən sizə aid olan sözləri istifadə edin. CV-ləri süzgəcdən keçirən proqram məhz bu sözləri axtarır."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Bəzi şablonlar səviyyəni zolaq, bəziləri faiz kimi göstərir, bəziləri isə ümumiyyətlə göstərmir. Şablonu dəyişdikdən sonra önizləməyə baxın."
+        }
+      ]
+    },
+    "languages": {
+      "title": "Dil bilikləri",
+      "lead": "A1-dən C2-yə qədər səviyyələr sadə sözlərlə — özünüzünkünü dürüst seçə biləsiniz.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Hər dil üçün bir qeyd əlavə edin: dilin adı və səviyyəniz. Dilin adını yazın — təkliflər görünəcək, siyahıda olmayan istənilən dili də yaza bilərsiniz."
+        },
+        {
+          "kind": "h",
+          "text": "Səviyyələr"
+        },
+        {
+          "kind": "p",
+          "text": "Bunlar standart Avropa səviyyələridir (CEFR) — dil kursları və imtahanların istifadə etdiyi eyni şkala."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "A1 — Başlanğıc",
+              "def": "Bir neçə söz və hazır ifadə. Adınızı deyə, qəhvə sifariş edə bilərsiniz."
+            },
+            {
+              "term": "A2 — Elementar",
+              "def": "Tanış mövzularda sadə cümlələr — ailə, alış-veriş, işiniz haqqında ümumi sözlər."
+            },
+            {
+              "term": "B1 — Orta",
+              "def": "Gündəlik vəziyyətlərin öhdəsindən gəlirsiniz və fikrinizi izah edə bilirsiniz — yavaş və səhvlərlə."
+            },
+            {
+              "term": "B2 — Üst-orta",
+              "def": "Bu dildə işləyirsiniz. İclasları izləyir, e-poçt yazır və öz sahənizi rahat müzakirə edirsiniz."
+            },
+            {
+              "term": "C1 — İrəli",
+              "def": "Mürəkkəb və tanımadığınız mövzular da daxil olmaqla, sərbəst və demək olar ki, düşünmədən istifadə edirsiniz."
+            },
+            {
+              "term": "C2 — Üst səviyyə",
+              "def": "Təhsilli ana dili daşıyıcısına yaxın — incə çalarlar və zarafat da daxil olmaqla."
+            },
+            {
+              "term": "Ana dili",
+              "def": "İlk diliniz və ya uşaqlıqdan ana dili kimi danışdığınız dil."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "İmtahan sertifikatınız varsa, onu balla birlikdə **Kurslar və sertifikatlar** bölməsinə də əlavə edin. Səviyyə + sertifikat təkcə səviyyədən qat-qat inandırıcıdır."
+        },
+        {
+          "kind": "warn",
+          "text": "Real olun. Müsahibə çox vaxt yazdığınız dildə aparılır və CV-də göstərilən B2 müsahibənin ilk iki dəqiqəsində ən çox yoxlanan şeydir."
+        }
+      ]
+    },
+    "projects": {
+      "title": "Layihələr və maraqlar",
+      "lead": "İş təcrübəsi az olanda ən çox fayda verən iki könüllü bölmə.",
+      "blocks": [
+        {
+          "kind": "h",
+          "text": "Layihələr"
+        },
+        {
+          "kind": "p",
+          "text": "Layihə — bacardığınızı göstərən, qurduğunuz və ya idarə etdiyiniz istənilən işdir: kurs işi, açdığınız mağaza, sayt, könüllü kampaniya, tətbiq. Tələbələr və peşəsini dəyişənlər üçün bu bölmə çox vaxt bütün digərlərindən daha çox iş görür."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Layihənin adı",
+              "def": "Layihənin adı, 100 simvola qədər."
+            },
+            {
+              "term": "Təsvir",
+              "def": "600 simvola qədər: nə idi, siz nə etdiniz və nəticə nə oldu."
+            },
+            {
+              "term": "Layihə linki",
+              "def": "Görünə biləcəyi veb ünvan. http:// və ya https:// ilə başlamalıdır."
+            },
+            {
+              "term": "Əsas məqamlar",
+              "def": "Qısa bəndlər, hər biri 200 simvola qədər — iş qeydindəki nailiyyətlərlə eyni məntiq."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Öz payınızı yazın. **Dörd nəfərlik komanda; ödəniş səhifəsini mən qurdum** — **Onlayn mağaza qurduq**-dan çox daha faydalıdır."
+        },
+        {
+          "kind": "h",
+          "text": "Maraqlar"
+        },
+        {
+          "kind": "p",
+          "text": "Könüllüdür və qısa olmalıdır. Üç-beş konkret maraq müsahibə aparana söhbətə başlamaq üçün insani bir mövzu verir. Konkret olun: **Uzunmüsafəli qaçış (iki marafon)** işləyir, **musiqi, idman, kitab** isə yox."
+        },
+        {
+          "kind": "p",
+          "text": "Yer azdırsa, ilk buraxılacaq bölmə budur. Boş olduğu müddətdə hər iki bölmə çap olunmur."
+        }
+      ]
+    },
+    "templates": {
+      "title": "Şablonlar",
+      "lead": "Dizaynı necə seçməli və «ATS-uyğun» sizin şansınız üçün nə deməkdir.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "**Şablonlar** düyməsini sıxıb {{templates}} dizayna baxın. Şablon seçmək yalnız görünüşü dəyişir — mətninizə toxunulmur və istənilən vaxt geri qayıda bilərsiniz. Seçiminiz yadda saxlanılır."
+        },
+        {
+          "kind": "shot",
+          "id": "templates",
+          "caption": "Şablon qalereyası. Nişan avtomatik CV süzgəcləri üçün ən təhlükəsiz dizaynları göstərir."
+        },
+        {
+          "kind": "h",
+          "text": "ATS nə deməkdir"
+        },
+        {
+          "kind": "p",
+          "text": "Orta və iri işəgötürənlərin çoxu CV-ləri əvvəlcə əl ilə oxumur. Fayl **namizəd izləmə sisteminə** (ATS) düşür — bu proqram adınızı, iş yerlərinizi, tarixləri və bacarıqlarınızı çıxarıb bazaya yazır. Proqram faylı düzgün oxuya bilməsə, insan onu heç görməyə bilər."
+        },
+        {
+          "kind": "p",
+          "text": "**ATS-uyğun** kimi işarələnmiş şablonlar məhz bunun üçün qurulub: tək sütun, şəkilsiz, bəzək zolaqları olmadan, sadə başlıqlarla. Şirkətin karyera saytı və ya böyük iş elanı portalı vasitəsilə müraciət edəndə etibarlı seçim budur."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Şirkətin saytı və ya böyük iş portalı vasitəsilə müraciət edirsiniz?** ATS-uyğun şablon seçin.",
+            "**Birbaşa insana e-poçt yazırsınız və ya dizayn sahəsindəsiniz?** İki sütunlu və ya rəngli şablon uyğundur və diqqət çəkir.",
+            "**Əmin deyilsiniz?** ATS-uyğun olanı seçin. O, heç vaxt zərər vermir; əksi verə bilər."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Buradakı bütün şablonlar əsl mətn PDF-i yaradır, yəni sözləriniz həmişə maşın tərəfindən oxunandır. Nişan görünüşə aiddir — köhnə süzgəc proqramlarını çaşdıran şey sütunlar, şəkillər və rəngli panellərdir."
+        }
+      ]
+    },
+    "export": {
+      "title": "PDF kimi endirmək",
+      "lead": "Hazır faylı almaq və düymə sönük olanda nə etmək.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "**PDF kimi endir** düyməsini sıxın. Fayl brauzerinizin içində yaradılır və cihazınıza yazılır; adında sizin adınız və bugünkü tarix olur."
+        },
+        {
+          "kind": "shot",
+          "id": "actions",
+          "caption": "Yuxarı paneldəki düymələr: şablon seçmək, sıfırlamaq, ehtiyat nüsxə saxlamaq və PDF-i endirmək."
+        },
+        {
+          "kind": "h",
+          "text": "Düymə sönükdürsə"
+        },
+        {
+          "kind": "p",
+          "text": "Endirmək üçün üç şey lazımdır: **ad**, **soyad** və **düzgün e-poçt ünvanı**. Bunlardan biri əskik və ya səhvdirsə, düymə deaktiv qalır və üzərinə gətirdikdə səbəbi yazılır. Doldurun və düymə dərhal aktivləşəcək."
+        },
+        {
+          "kind": "h",
+          "text": "Nə əldə edirsiniz"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "Əsl PDF: mətni seçmək və kopyalamaq olur, süzgəc proqramları da onu oxuya bilir.",
+            "Hansı cihazda hazırlamağınızdan asılı olmayaraq həmişə A4 portret.",
+            "İşləyən linklər — telefon nömrələri, e-poçt ünvanları və profil linkləri kliklənilir.",
+            "Nə qədər yazdığınızdan asılı olaraq bir və ya iki səhifə."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Hər açılışda ilk endirmə bir neçə saniyə uzun çəkir, çünki PDF hazırlayan hissə yalnız siz tələb edəndə yüklənir. Sonrakılar dərhal olur."
+        },
+        {
+          "kind": "note",
+          "text": "Göndərməzdən əvvəl önizləməyə baxın. CV-niz üçüncü səhifəyə keçirsə, təsvirləri qısaldın və ya könüllü bölmələrdən birini çıxarın — əksər vakansiyalar üçün praktiki hədd iki səhifədir."
+        }
+      ]
+    },
+    "backup": {
+      "title": "Ehtiyat nüsxə və yenidən başlamaq",
+      "lead": "CV-nizin nüsxəsini necə saxlamalı, başqa cihaza necə köçürməli və hər şeyi necə silib yenidən başlamalı.",
+      "blocks": [
+        {
+          "kind": "warn",
+          "text": "CV-niz yalnız bu brauzerdə yaşayır. Brauzer tarixçəsini təmizləmək, gizli pəncərədən istifadə etmək, brauzeri yenidən qurmaq və ya cihaz dəyişmək onu itirəcək. Serverdə nüsxə yoxdur və parol bərpası da yoxdur — yeganə yol ehtiyat nüsxə faylıdır."
+        },
+        {
+          "kind": "h",
+          "text": "Ehtiyat nüsxə saxlamaq"
+        },
+        {
+          "kind": "p",
+          "text": "Redaktorda **Ehtiyat nüsxə** düyməsini sıxın. Şəkliniz də daxil olmaqla bütün CV-nizi saxlayan `.json` faylı endirilir. Onu tapa biləcəyiniz yerdə saxlayın — bulud yaddaşı, özünüzə göndərilmiş e-poçt, fləş kart."
+        },
+        {
+          "kind": "note",
+          "text": "İstənilən anda, hətta yarımçıq CV-ni də saxlaya bilərsiniz. PDF endirmədən fərqli olaraq burada heç bir şərt yoxdur."
+        },
+        {
+          "kind": "h",
+          "text": "Fayldan bərpa etmək"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "CV-nizi görmək istədiyiniz cihazda OnlineCV-ni açın.",
+            "**İlk ekranda**, 1-ci addımın altındakı **Fayldan bərpa et** düyməsini tapın.",
+            "`.json` faylınızı seçin.",
+            "Redaktor hər şey yerində olmaqla açılır."
+          ]
+        },
+        {
+          "kind": "warn",
+          "text": "Bərpa yalnız ilk ekranda təklif olunur. Bu brauzerdə artıq CV varsa, həmin düyməni görməyəcəksiniz — əvvəlcə **Sıfırla**, sonra bərpa edin. Bu, qəsdən belədir: faylın ehtiyat nüsxəsini saxlamadığınız işi səssizcə üzərinə yazmasının qarşısını alır."
+        },
+        {
+          "kind": "p",
+          "text": "Faylın bir hissəsi oxunmasa — qeyri-adi tarix, bu versiyanın tanımadığı bir əlaqə növü — qalanı yenə yüklənir və nəyin buraxıldığı sizə bildirilir; səssizcə yarımçıq CV göstərilmir."
+        },
+        {
+          "kind": "h",
+          "text": "Yenidən başlamaq"
+        },
+        {
+          "kind": "p",
+          "text": "**Sıfırla** CV-ni tamamilə boşaldır və sizi ilk ekrana qaytarır. Əvvəlcə təsdiq soruşulur."
+        },
+        {
+          "kind": "warn",
+          "text": "Sıfırlamanı geri qaytarmaq mümkün deyil. CV-dən həqiqətən qurtulmaq istədiyinizə əmin deyilsinizsə, əvvəlcə ehtiyat nüsxə saxlayın."
+        }
+      ]
+    },
+    "install": {
+      "title": "Quraşdırmaq və internetsiz işləmək",
+      "lead": "OnlineCV-ni tətbiq kimi quraşdırmaq olar və internet olmadan da işləyir.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "OnlineCV quraşdırıla bilən saytdır. Quraşdırdıqdan sonra ana ekrandan və ya Start menyusundan öz pəncərəsində, ünvan sətri olmadan açılır."
+        },
+        {
+          "kind": "h",
+          "text": "Quraşdırma"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Kompüterdə Chrome və ya Edge",
+              "def": "Ünvan sətrinin sağ tərəfindəki quraşdırma nişanına toxunun və ya brauzer menyusundan tətbiqi quraşdırmağı seçin."
+            },
+            {
+              "term": "Android",
+              "def": "Brauzer menyusunu açın və **Ana ekrana əlavə et** və ya **Tətbiqi quraşdır** seçin."
+            },
+            {
+              "term": "iPhone və ya iPad",
+              "def": "Safari-də Paylaş düyməsini sıxın və **Ana ekrana əlavə et** seçin."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "İnternetsiz işləmək"
+        },
+        {
+          "kind": "p",
+          "text": "İlk girişdən sonra OnlineCV heç bir bağlantı olmadan işləyir. Təyyarədə və ya mobil internet söndürülmüş halda CV-nizi redaktə edə, şablonu dəyişə və PDF-i endirə bilərsiniz. Oflayn olduğunuzu kiçik bir zolaq bildirir."
+        },
+        {
+          "kind": "note",
+          "text": "Yalnız iki şeyə ilk dəfə internet lazımdır: bu bələdçidəki şəkillər və çin, yapon və koreya dilləri üçün əlavə şriftlər. Bir dəfə yükləndikdən sonra saxlanılır."
+        },
+        {
+          "kind": "note",
+          "text": "Yeni versiya çıxanda sizə səhifəni yeniləmək təklif olunur. Siz yazarkən heç nə arxadan dəyişdirilmir."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Məxfilik",
+      "lead": "Cihazınızda nə qalır, nə qalmır və fikrinizi necə dəyişə bilərsiniz.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "OnlineCV-nin arxasında hesab, giriş və server yoxdur. **CV-niz fayl kimi cihazınızdan heç vaxt çıxmır.** OnlineCV-də heç kim onu oxuya bilməz və sızacaq bir baza da yoxdur, çünki baza ümumiyyətlə mövcud deyil."
+        },
+        {
+          "kind": "h",
+          "text": "Cihazdan çıxan yeganə şey"
+        },
+        {
+          "kind": "p",
+          "text": "İlk girişdə sizdən istifadə statistikasına razılıq soruşulur. Siz cavab verməyincə heç nə yüklənmir."
+        },
+        {
+          "kind": "p",
+          "text": "Razılaşsanız, üç ölçmə aləti işə düşür — Google Analytics, Microsoft Clarity və Yandex Metrica. Onlar hansı səhifə və düymələrin istifadə olunduğunu, cihaz və brauzerinizi, təxmini bölgənizi və **seansın videoyazısını — bura formaya yazdıqlarınız da daxildir** — qeyd edir. Bunu açıq yazırıq, çünki insanların harada ilişdiyini məhz belə görürük; seçimin sizin olmasının səbəbi də elə budur."
+        },
+        {
+          "kind": "p",
+          "text": "İmtina etsəniz, heç biri yüklənmir və heç nə toplanmır. Proqram tamamilə eyni işləyir. Bunun bədəli bizimdir, sizin yox: rastlaşdığınız problemlər bizə çatmır, deməli düzəldilə də bilmir."
+        },
+        {
+          "kind": "h",
+          "text": "Fikrinizi dəyişmək"
+        },
+        {
+          "kind": "p",
+          "text": "Səhifənin altındakı **Məxfilik və statistika** linki bu sualı istənilən vaxt yenidən açır və hazırkı seçiminizi göstərir. İmtina səhifəni yenilədikdən sonra tam qüvvəyə minir."
+        },
+        {
+          "kind": "note",
+          "text": "Cavabınız CV ilə birlikdə deyil, brauzer üçün ayrıca saxlanılır — yəni CV-ni sıfırlamaq sualı yenidən soruşdurmur."
+        }
+      ]
+    },
+    "writing": {
+      "title": "Oxunan CV necə yazılır",
+      "lead": "Ən çətin hissə üçün praktiki məsləhətlər: nə yazmalı olduğuna qərar vermək.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Bir yığın CV-yə baxan işə qəbul mütəxəssisi hər birinə diqqətlə oxumaq və ya növbətiyə keçmək qərarını verməzdən əvvəl bir neçə saniyə ayırır. Aşağıdakıların hamısı məhz o saniyələrdən sağ çıxmaqla bağlıdır."
+        },
+        {
+          "kind": "h",
+          "text": "Əsaslar"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "Beş ildən az təcrübəniz varsa **bir səhifə**, çoxdursa **iki**. Üç səhifə demək olar ki, heç vaxt sona qədər oxunmur.",
+            "**Hər vakansiya üçün uyğunlaşdırın.** Elana uyğun gələn nailiyyətləri əvvələ keçirin. Bu on beş dəqiqə nəticəyə buradakı hər şeydən çox təsir edir.",
+            "**Elanın öz sözlərini işlədin** — həqiqətən sizə aid olduğu yerdə. Süzgəc proqramı mətni hərfi axtarır: elanda **kreditor borcları** yazılıbsa və siz bunu etmisinizsə, həmin ifadə CV-də olmalıdır.",
+            "**Öz vəzifə adlarınızın və e-poçt ünvanınızın yazılışını yoxlayın.** E-poçt ünvanındakı bir səhv — cavab verilə bilməyən CV deməkdir."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Öhdəlik yox, nəticə yazın"
+        },
+        {
+          "kind": "p",
+          "text": "Vəzifə təlimatı sizin nə etməli olduğunuzu yazır. CV isə siz orada olduğunuz üçün nəyin baş verdiyini yazmalıdır. Hər qeydi **nə oldu?** sualı ilə yaxşılaşdırmaq olar."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Öhdəlik:** Şirkətin sosial şəbəkə hesablarını idarə edirdim.",
+            "**Nəticə:** Şirkətin Instagram auditoriyasını bir ildə 2 000-dən 11 000-ə çatdırdım; sosial şəbəkədən gələn müraciətlər üç dəfə artdı.",
+            "**Öhdəlik:** Müştəri şikayətləri ilə məşğul olurdum.",
+            "**Nəticə:** Şikayət növbəsini üzərimə götürdüm və orta cavab müddətini üç gündən dörd saata endirdim."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Rəqəmlərdən istifadə edin"
+        },
+        {
+          "kind": "p",
+          "text": "İnandırmağın ən sürətli yolu rəqəmdir. Neçə adam, nə qədər pul, nə qədər sürətli, neçə müştəri, hansı tezliklə. Rəqəminiz həqiqətən yoxdursa, miqyas və tezlik yazın: **altı nəfərlik komanda**, **gündə təxminən 40 zəng**, **12 müştəridən ibarət portfel**."
+        },
+        {
+          "kind": "h",
+          "text": "Yazmayın"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Tələb olunarsa zəmanət məktubu təqdim edilə bilər** — onsuz da belə güman edilir, sətri boş yerə tutur.",
+            "Şəxsiyyət vəsiqənizin nömrəsi, dəqiq ev ünvanınız, bank məlumatlarınız. Tanımadığınız adamlara göndərdiyiniz sənədə bunları heç vaxt yazmayın.",
+            "Soruşulmayıbsa, əvvəlki işlərdən çıxma səbəbləri və hazırkı və ya gözlənilən maaş.",
+            "Arxasında heç nə olmayan boş sifətlər. **Çalışqan** heç nə demir; **sistem miqrasiyası zamanı üç ay iki həmkarımın işini də apardım** eyni fikri sübutla deyir."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Fasilələr və qısa iş yerləri"
+        },
+        {
+          "kind": "p",
+          "text": "Onları gizlətməyin, qısaca izah edin. Təhsil, xəstəlik, ailəyə qulluq, hərbi xidmət və öz işini qurmaq — hamısı adi səbəblərdir və izah olunmuş fasilə sual olmaqdan çıxır. Qısa qeydlər üçün **Məşğulluq növü** sahəsindən istifadə edin: **Təcrübə (İntern)** və ya **Mövsümi** üç aylıq işi kimsə düşünməmişdən izah edir."
+        },
+        {
+          "kind": "h",
+          "text": "Göndərməzdən əvvəl"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "CV-nizi ucadan oxuyun. Dilinizin dolaşdığı hər cümlə qısaldılmalı olan cümlədir.",
+            "Bütün tarixlərin düzgünlüyünü və izahsız fasilələrin olmadığını yoxlayın.",
+            "Telefon nömrənizi və e-poçt ünvanınızı hərf-hərf yoxlayın.",
+            "PDF-i endirib açın. İşəgötürənin görəcəyi fayl odur, önizləmə yox.",
+            "Bir nəfərdən də oxumasını xahiş edin. Sizin artıq görmədiyiniz səhvi o tapacaq."
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Tez-tez verilən suallar",
+      "lead": "Ən çox soruşulanlara qısa cavablar.",
+      "blocks": [
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Həqiqətən pulsuzdur?",
+              "def": "Bəli. Hesab, sınaq müddəti, su nişanı və ödənişli versiya yoxdur."
+            },
+            {
+              "term": "CV-m harada saxlanılır?",
+              "def": "Yazdığınız cihazda, öz brauzerinizdə. Heç bir serverdə deyil."
+            },
+            {
+              "term": "Telefonumda davam edə bilərəmmi?",
+              "def": "Yalnız bir cihazda ehtiyat nüsxə faylı saxlayıb digərində bərpa etməklə. Sinxronizasiya yoxdur, çünki hesab yoxdur."
+            },
+            {
+              "term": "Birdən çox CV saxlaya bilərəmmi?",
+              "def": "Bir brauzerdə bir CV. Bir neçə variant saxlamaq üçün hər biri üçün ehtiyat nüsxə faylı yaradın və lazım olanı bərpa edin."
+            },
+            {
+              "term": "Nə üçün Endir düyməsini sıxa bilmirəm?",
+              "def": "Ad, soyad və düzgün e-poçt ünvanı lazımdır. Düymənin üzərinə gətirsəniz, səbəbini yazacaq."
+            },
+            {
+              "term": "PDF-i sonradan redaktə edə bilərəmmi?",
+              "def": "Burada dəyişib yenidən endirin — bu həm sürətlidir, həm də görünüşü pozmur. PDF-i başqa proqramda redaktə etmək çox vaxt süzgəc proqramlarının oxuduğu mətn qatını sındırır."
+            },
+            {
+              "term": "İnternetsiz işləyirmi?",
+              "def": "Bəli, ilk girişdən sonra. Redaktə də, PDF endirmək də oflayn işləyir."
+            },
+            {
+              "term": "Brauzer məlumatlarını sildim və CV-m yoxa çıxdı. Bərpa edə bilərsinizmi?",
+              "def": "Xeyr. Cihazınızdan kənarda heç nə saxlanılmır, ona görə bərpa ediləcək mənbə yoxdur. Yalnız ehtiyat nüsxə faylı onu geri qaytara bilər."
+            },
+            {
+              "term": "CV-m nə üçün iki səhifədir?",
+              "def": "Nə qədər yazdığınıza görə. Təsvirləri qısaldın, köhnə iş yerlərini bir sətrə salın və ya könüllü bölmələrdən birini gizlədin."
+            },
+            {
+              "term": "Bölmələrin sırasını dəyişə bilərəmmi?",
+              "def": "Bölmələrin özününkünü yox. İş təcrübəsi, təhsil və sertifikatların içindəki qeydləri **Fərdi sıra** ilə yerdəyişə bilərsiniz."
+            },
+            {
+              "term": "Hansı şablonu seçim?",
+              "def": "Şirkətin saytı və ya böyük iş portalı vasitəsilə müraciət edirsinizsə, ATS-uyğun olanı. Əks halda hansı xoşunuza gəlirsə."
+            },
+            {
+              "term": "Məlumatlarım süni intellektin öyrədilməsində istifadə olunur və ya satılırmı?",
+              "def": "Xeyr. CV-niz heç yerə göndərilmir, deməli satılacaq və ya öyrədiləcək bir şey yoxdur. İstifadə statistikasına razılıq vermisinizsə, **Məxfilik** bölməsində sadalanan ölçmə alətləri seans məlumatı alır — imtina etmək bunların hamısını söndürür."
+            }
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Yenə də ilişmisiniz? Yuxarı paneldəki Telegram düyməsi layihənin icma qrupuna aparır."
+        }
+      ]
+    }
+  }
+}

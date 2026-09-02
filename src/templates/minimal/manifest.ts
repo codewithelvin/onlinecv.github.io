@@ -24,6 +24,7 @@ export const manifest: TemplateManifest = {
     el: 'Μινιμαλιστικό',
     kk: 'Минималды',
     uz: 'Minimal',
+    ja: 'ミニマル',
   },
   /**
    * The margin column and the photo box put it outside the single-column,

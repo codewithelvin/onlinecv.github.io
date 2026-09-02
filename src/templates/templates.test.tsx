@@ -5,6 +5,7 @@ import type { ContactItem, Resume } from '../types/resume';
 import { createEmptyResume } from '../utils/empty-resume';
 import { makeDateFormatter } from '../utils/date';
 import { i18n } from '../app/i18n';
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from '../app/i18n/locales';
 import { getTemplate, listTemplates } from './_core/registry';
 
 function sampleResume(): Resume {
@@ -46,6 +47,33 @@ function sampleResume(): Resume {
   r.languages = [{ id: 'l1', code: 'english', name: 'English', level: 'C1' }];
   return r;
 }
+
+/**
+ * A template names itself in every UI language.
+ *
+ * `TemplateManifest.name` is a PARTIAL record — deliberately, so that adding a
+ * locale does not break every existing template folder at compile time — and the
+ * picker falls back to Azerbaijani for anything missing. That fallback is silent,
+ * and it rotted exactly as you would expect: at 2026-09-02 `classic`, `compact`
+ * and `modern` still carried the six languages they shipped with, so fourteen
+ * locales were offered "Klassik", "Yığcam" and "Müasir"; the three templates
+ * added later had nineteen and lacked only the Japanese added after them.
+ * Forty-five gaps, and not one gate noticed.
+ *
+ * So the totality the type gives up is asserted here instead — the same bargain
+ * `datasets.test.ts` strikes for dictionary labels, and for the same reason: the
+ * fallback is a word shown to someone who cannot read the language it came from.
+ */
+describe('template names', () => {
+  for (const { manifest } of listTemplates()) {
+    it(`names "${manifest.id}" in every UI language`, () => {
+      const missing = SUPPORTED_LOCALES.filter((locale) => !manifest.name[locale]?.trim());
+      expect(missing, `"${manifest.id}" falls back to ${DEFAULT_LOCALE} in these locales`).toEqual(
+        [],
+      );
+    });
+  }
+});
 
 /**
  * Smoke-render every registered template with the SAME component used for the

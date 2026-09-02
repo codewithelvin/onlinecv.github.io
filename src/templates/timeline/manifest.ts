@@ -24,6 +24,7 @@ export const manifest: TemplateManifest = {
     el: 'Χρονολόγιο',
     kk: 'Хронология',
     uz: 'Xronologiya',
+    ja: 'タイムライン',
   },
   /**
    * Two columns and a filled sidebar, so not the single-column, image-free shape

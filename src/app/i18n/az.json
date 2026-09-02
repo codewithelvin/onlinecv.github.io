@@ -186,6 +186,17 @@
     "generating": "PDF hazırlanır...",
     "error": "PDF yaradılarkən xəta baş verdi. Yenidən cəhd edin."
   },
+  "help": {
+    "open": "Bələdçini aç",
+    "short": "Bələdçi",
+    "wizard": "İlk dəfədir? Bələdçini oxuyun",
+    "section": "Bu bölməyə nə yazılır?",
+    "title": "Bələdçi",
+    "topics": "Bütün mövzular",
+    "loading": "Bələdçi yüklənir…",
+    "error": "Bələdçi yüklənmədi. İnternet bağlantınızı yoxlayıb yenidən cəhd edin.",
+    "openPage": "Səhifə kimi aç"
+  },
   "backup": {
     "download": "Ehtiyat nüsxə",
     "downloadHint": "CV məlumatlarınızı fayl kimi saxlayın. Sonra bu faylı seçib CV-nizi bərpa edə bilərsiniz.",

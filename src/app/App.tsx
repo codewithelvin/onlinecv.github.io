@@ -12,6 +12,7 @@ import { PersistenceBanner } from '../components/PersistenceBanner';
 import { PwaUpdatePrompt } from '../components/PwaUpdatePrompt';
 import { PwaInstallPrompt } from '../components/PwaInstallPrompt';
 import { ConsentDrawer } from '../components/ConsentDrawer';
+import { HelpMount } from '../features/help/HelpMount';
 import { HomePage } from '../pages/HomePage';
 
 /**
@@ -61,6 +62,10 @@ export function App(): JSX.Element {
                 answered on a first visit, and it is what decides whether
                 anything is collected at all. */}
             <ConsentDrawer />
+            {/* Mounted at the root rather than inside a screen, because it opens
+                over BOTH the wizard and the editor (spec §10.4) and must survive
+                the transition between them. Renders nothing until first opened. */}
+            <HelpMount />
             {/* After the page, so the install screen can gate itself on the
                 first-run wizard being done. */}
             <PwaInstallPrompt />

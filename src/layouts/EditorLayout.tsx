@@ -6,6 +6,7 @@ import { useResponsive } from '../hooks/useResponsive';
 import { Brand } from '../components/Brand';
 import { ConsentFooter } from '../components/ConsentDrawer';
 import { TelegramButton } from '../components/TelegramButton';
+import { HelpButton } from '../features/help/HelpButton';
 import { LanguageSwitcher } from '../features/i18n/LanguageSwitcher';
 import { TemplatePicker } from '../features/templates/TemplatePicker';
 import { ExportButton } from '../features/export/ExportButton';
@@ -35,7 +36,7 @@ function TabLabel({ icon, children }: { icon: ReactNode; children: string }): JS
 /** Editor + preview layout: two-pane on `≥ lg`, tabbed with a bottom action bar on `< lg` (§10.3). */
 export function EditorLayout(): JSX.Element {
   const { t } = useTranslation();
-  const { isDesktop } = useResponsive();
+  const { isDesktop, isWide } = useResponsive();
 
   return (
     <Layout className="min-h-viewport">
@@ -45,6 +46,23 @@ export function EditorLayout(): JSX.Element {
           alignItems: 'center',
           justifyContent: 'space-between',
           gap: 12,
+          /**
+           * ⚠️ `height: auto` is the safety net, not a style choice.
+           *
+           * `Layout.Header` ships a fixed `height: 64px`, and the row inside it
+           * is a `Space wrap`. So when the controls do not fit, the header does
+           * NOT get taller — the content overflows it: the first row is sliced in
+           * half by the header's own edge and the download button is drawn on top
+           * of the page beneath. That is what "the button row is broken" looked
+           * like at 1024px in thirteen locales (2026-09-02).
+           *
+           * The labels are also thinned below `xl` so it should no longer wrap at
+           * any real width — but that is a prediction about translated strings,
+           * and the next locale gets a vote. This makes the failure "a taller
+           * header" instead of "a clipped one".
+           */
+          height: 'auto',
+          minHeight: 64,
           padding: '0 16px',
           paddingTop: 'env(safe-area-inset-top)',
           position: 'sticky',
@@ -58,6 +76,10 @@ export function EditorLayout(): JSX.Element {
           {/* Kept out of the `isDesktop` branch below on purpose: the community
               invite is one of the two things the mobile header still shows
               (the rest moved to the bottom action bar). */}
+          {/* Beside the community invite, and on phones as well: the guide is
+              most needed by someone who has just arrived, which on a phone is
+              the only header they get. Icon-only below `lg` — see `HelpButton`. */}
+          <HelpButton />
           <TelegramButton />
           <LanguageSwitcher />
           {isDesktop ? (
@@ -68,7 +90,14 @@ export function EditorLayout(): JSX.Element {
                   before it because the primary action stays at the end of the
                   row. */}
               <BackupButton />
-              <ExportButton />
+              {/* Short label ("PDF") between `lg` and `xl`, the same trade the
+                  mobile action bar makes: this is the longest string in the row
+                  ("Descargar como PDF", "PDF ретінде жүктеу"), and dropping it is
+                  what keeps Spanish, Hungarian, Georgian, Kazakh and Russian on
+                  one line at 1024px. Beside the download arrow it still names
+                  what happens, and the full sentence stays as the accessible
+                  name. */}
+              <ExportButton compact={!isWide} />
             </>
           ) : null}
         </Space>

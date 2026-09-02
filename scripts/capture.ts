@@ -57,13 +57,13 @@ export interface CaptureJob {
   transparent?: boolean;
 }
 
-interface Cdp {
+export interface Cdp {
   send: (method: string, params?: Record<string, unknown>) => Promise<Record<string, unknown>>;
   once: (event: string) => Promise<void>;
   close: () => void;
 }
 
-const sleep = (ms: number): Promise<void> => new Promise((r) => setTimeout(r, ms));
+export const sleep = (ms: number): Promise<void> => new Promise((r) => setTimeout(r, ms));
 
 async function connect(wsUrl: string): Promise<Cdp> {
   const ws = new WebSocket(wsUrl);
@@ -123,18 +123,27 @@ async function pageTarget(): Promise<string> {
   throw new Error('Edge did not expose a DevTools page target');
 }
 
-/** Render every job in one browser session, writing each image to its `out` path. */
-export async function capture(jobs: CaptureJob[], log = console.log): Promise<void> {
+/** A live headless browser plus a scratch directory that is cleaned up with it. */
+export interface Session {
+  cdp: Cdp;
+  /** A temporary directory, removed when the session ends. */
+  work: string;
+}
+
+/**
+ * Run `fn` against one headless Edge session and tidy up afterwards.
+ *
+ * Split out of `capture` so a second kind of script can exist: `capture` renders
+ * self-contained documents from strings, whereas `make-help-shots.ts` has to drive
+ * the REAL app — navigate to it, seed its database, click things, and clip regions
+ * out of what it drew. Both want the same browser, the same dependency-free CDP
+ * client, and the same "kill it even if we threw" guarantee.
+ */
+export async function withBrowser<T>(fn: (session: Session) => Promise<T>): Promise<T> {
   const edgePath = EDGE_CANDIDATES.find((p) => existsSync(p));
   if (!edgePath) throw new Error(`Microsoft Edge not found (looked in ${EDGE_CANDIDATES[0]})`);
 
   const work = mkdtempSync(join(tmpdir(), 'onlinecv-capture-'));
-  const files = jobs.map((job, i) => {
-    const file = join(work, `page-${i}.html`);
-    writeFileSync(file, job.html, 'utf8');
-    return file;
-  });
-
   const edge = spawn(
     edgePath,
     [
@@ -154,6 +163,24 @@ export async function capture(jobs: CaptureJob[], log = console.log): Promise<vo
   try {
     const cdp = await connect(await pageTarget());
     await cdp.send('Page.enable');
+    const result = await fn({ cdp, work });
+    cdp.close();
+    return result;
+  } finally {
+    edge.kill();
+    await sleep(300);
+    rmSync(work, { recursive: true, force: true });
+  }
+}
+
+/** Render every job in one browser session, writing each image to its `out` path. */
+export async function capture(jobs: CaptureJob[], log = console.log): Promise<void> {
+  await withBrowser(async ({ cdp, work }) => {
+    const files = jobs.map((job, i) => {
+      const file = join(work, `page-${i}.html`);
+      writeFileSync(file, job.html, 'utf8');
+      return file;
+    });
 
     for (const [i, job] of jobs.entries()) {
       await cdp.send('Emulation.setDeviceMetricsOverride', {
@@ -190,10 +217,5 @@ export async function capture(jobs: CaptureJob[], log = console.log): Promise<vo
       writeFileSync(job.out, Buffer.from(shot.data as string, 'base64'));
       log(`✓ ${job.out}`);
     }
-    cdp.close();
-  } finally {
-    edge.kill();
-    await sleep(300);
-    rmSync(work, { recursive: true, force: true });
-  }
+  });
 }

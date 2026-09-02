@@ -1,0 +1,1158 @@
+{
+  "title": "OnlineCV-Anleitung",
+  "intro": "Alles, was Sie zum Erstellen Ihres Lebenslaufs brauchen, in einfachen Worten erklärt. Fangen Sie oben an oder springen Sie direkt zu der Stelle, an der Sie nicht weiterkommen.",
+  "topics": {
+    "start": {
+      "title": "Hier beginnen",
+      "lead": "Was OnlineCV macht und die fünf Schritte vom leeren Formular zum fertigen PDF.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "OnlineCV erstellt einen Lebenslauf direkt in Ihrem Browser. Kein Konto, keine Installation, keine Kosten."
+        },
+        {
+          "kind": "p",
+          "text": "Alles, was Sie eingeben, bleibt **auf Ihrem eigenen Gerät**. Ihr Lebenslauf wird nirgendwohin hochgeladen — das heißt aber auch: Wenn er verloren geht, kann ihn niemand für Sie wiederherstellen. Speichern Sie zum Schluss eine Sicherungsdatei, siehe **Sicherung und Neuanfang**."
+        },
+        {
+          "kind": "h",
+          "text": "Was Sie bekommen"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "Einen aufgeräumten Lebenslauf auf ein oder zwei A4-Seiten.",
+            "Ein echtes PDF: Der Text lässt sich markieren, kopieren und von Software lesen — es ist kein Bild einer Seite.",
+            "{{templates}} Vorlagen zur Auswahl; Sie können jederzeit wechseln, ohne etwas neu einzugeben.",
+            "Den Lebenslauf selbst in einer von {{languages}} Sprachen — unabhängig davon, in welcher Sprache Sie die App bedienen."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Fünf Schritte"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "Füllen Sie das kurze erste Formular aus: Name, E-Mail, Geburtsdatum und Titel des Lebenslaufs.",
+            "Füllen Sie die Abschnitte links aus — Kontaktdaten, Berufserfahrung, Ausbildung, Fähigkeiten und alles Weitere, das auf Sie zutrifft.",
+            "Beobachten Sie die Vorschau rechts. Dort steht der fertige Lebenslauf, und er aktualisiert sich beim Tippen.",
+            "Wählen Sie eine Vorlage, die Ihnen gefällt.",
+            "Klicken Sie auf **Als PDF herunterladen** und schicken Sie die Datei an Arbeitgeber."
+          ]
+        },
+        {
+          "kind": "shot",
+          "id": "editor",
+          "caption": "Der Hauptbildschirm: Links füllen Sie das Formular aus, rechts erscheint der fertige Lebenslauf."
+        },
+        {
+          "kind": "note",
+          "text": "Diese Anleitung ist immer in Reichweite: Die Schaltfläche **?** in der oberen Leiste öffnet sie, und ein kleines **?** an jedem Abschnitt öffnet genau die Seite, die diesen Abschnitt erklärt."
+        }
+      ]
+    },
+    "wizard": {
+      "title": "Der erste Bildschirm",
+      "lead": "Die zwei kurzen Schritte, bevor sich der Editor öffnet.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Beim ersten Besuch fragt OnlineCV ein paar Angaben ab, damit Ihr Lebenslauf nicht völlig leer ist. Das dauert etwa eine Minute, und **Sie können all das später ändern**."
+        },
+        {
+          "kind": "h",
+          "text": "Schritt 1 — wer Sie sind"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Vorname und Nachname",
+              "def": "Nur Buchstaben und Leerzeichen, je bis zu 50 Zeichen. Schreiben Sie sie so, wie sie in Ihrem Ausweis stehen — unter diesem Namen wird ein Arbeitgeber Sie später suchen."
+            },
+            {
+              "term": "Ihre E-Mail-Adresse",
+              "def": "Die Adresse, an die ein Arbeitgeber antwortet. Nehmen Sie eine, die Sie wirklich abrufen, und nicht die Ihres aktuellen Arbeitgebers — den Zugang dazu können Sie verlieren."
+            },
+            {
+              "term": "Ihr Geburtsdatum",
+              "def": "Wählen Sie es im Kalender oder tippen Sie es als TT.MM.JJJJ. Daraus wird Ihr Alter berechnet. Später können Sie es im fertigen Lebenslauf ausblenden."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Schritt 2 — Ihr Profil"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Titel Ihres Lebenslaufs",
+              "def": "Die eine Zeile unter Ihrem Namen, bis zu 50 Zeichen. Schreiben Sie die angestrebte Position, nicht Ihre Lage: **Frontend-Entwickler**, nicht **Auf Jobsuche**."
+            },
+            {
+              "term": "Ihre Staatsangehörigkeit",
+              "def": "Tippen Sie los und wählen Sie einen Vorschlag oder schreiben Sie etwas Eigenes. Optional — lassen Sie das Feld leer, wenn Sie es nicht angeben möchten."
+            },
+            {
+              "term": "Ihr Geschlecht",
+              "def": "Auf diesem Bildschirm Pflicht, weil viele Arbeitgeber in dieser Region es erwarten. Im gedruckten Lebenslauf können Sie es anschließend ausblenden."
+            },
+            {
+              "term": "Familienstand",
+              "def": "Optional. Lassen Sie das Feld leer, wenn Sie nichts angeben möchten; ein leeres Feld erscheint ohnehin nicht im Lebenslauf."
+            }
+          ]
+        },
+        {
+          "kind": "shot",
+          "id": "wizard",
+          "caption": "Der erste Bildschirm. Nichts davon wird verschickt — es geht direkt in Ihren eigenen Browser."
+        },
+        {
+          "kind": "p",
+          "text": "Klicken Sie auf **Fertigstellen**, und der Editor öffnet sich mit Ihren Angaben."
+        },
+        {
+          "kind": "h",
+          "text": "Schon eine Sicherungsdatei?"
+        },
+        {
+          "kind": "p",
+          "text": "Wenn Sie früher schon einen Lebenslauf erstellt und gesichert haben, tippen Sie nicht alles neu. Unten in Schritt 1 gibt es **Aus Datei wiederherstellen**: Wählen Sie Ihre `.json`-Sicherung, und der gesamte Lebenslauf wird auf einmal geladen. Nur dieser Bildschirm bietet das an — siehe **Sicherung und Neuanfang**."
+        }
+      ]
+    },
+    "editor": {
+      "title": "Der Editor",
+      "lead": "Wie Formular, Live-Vorschau, automatisches Speichern und die zwei Spracheinstellungen funktionieren.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Der Editor besteht aus zwei Hälften. Links füllen Sie ein Formular aus. Rechts sehen Sie den fertigen Lebenslauf genau so, wie er gedruckt wird. Alles, was Sie tippen, erscheint sofort rechts."
+        },
+        {
+          "kind": "h",
+          "text": "Abschnitte"
+        },
+        {
+          "kind": "p",
+          "text": "Das Formular ist in Abschnitte unterteilt — Grunddaten, Kontakt, Berufserfahrung, Ausbildung und so weiter. Klicken Sie auf eine Abschnittsüberschrift, um sie zu öffnen oder zu schließen. Die kleine Zahl daneben zeigt, wie viele Einträge Sie hinzugefügt haben."
+        },
+        {
+          "kind": "shot",
+          "id": "list",
+          "caption": "Ein Abschnitt mit seinen Einträgen. Hinzufügen legt einen neuen an, der Stift öffnet einen zum Ändern, der Papierkorb löscht ihn."
+        },
+        {
+          "kind": "h",
+          "text": "Einträge hinzufügen, ändern und löschen"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Hinzufügen** öffnet ein kleines Fenster, in dem Sie eine Stelle, eine Schule oder eine Fähigkeit eintragen. Nichts wird gespeichert, bis Sie dort auf **Speichern** klicken.",
+            "Der **Stift** an einem Eintrag öffnet ihn erneut.",
+            "Der **Papierkorb** entfernt einen Eintrag. Sie werden um Bestätigung gebeten.",
+            "Ein leerer Abschnitt erscheint gar nicht im fertigen Lebenslauf — Sie müssen nie einen Abschnitt ausfüllen, der nicht auf Sie zutrifft."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Die Reihenfolge datierter Einträge"
+        },
+        {
+          "kind": "p",
+          "text": "Berufserfahrung, Ausbildung und Zertifikate stehen in der Reihenfolge, die Arbeitgeber erwarten: **neueste zuerst**. Alles Laufende steht ganz oben. Sie müssen nichts selbst sortieren — die Reihenfolge ergibt sich aus den eingegebenen Daten."
+        },
+        {
+          "kind": "p",
+          "text": "Wenn Sie eine andere Reihenfolge möchten, stellen Sie den Abschnitt von **Neueste zuerst** auf **Eigene Reihenfolge** um; dann erscheinen Pfeile an jedem Eintrag, mit denen Sie ihn von Hand verschieben. Die Umschaltung erscheint erst, wenn ein Abschnitt mehr als einen Eintrag hat."
+        },
+        {
+          "kind": "h",
+          "text": "Vorschlagslisten"
+        },
+        {
+          "kind": "p",
+          "text": "Felder wie Stadt, Hochschule, Position, Fähigkeit und Sprache machen Vorschläge, während Sie tippen. Das sind nur Vorschläge: **Sie können immer etwas Eigenes eingeben**, und es wird genau so übernommen, wie Sie es geschrieben haben."
+        },
+        {
+          "kind": "note",
+          "text": "Wenn Ihr Text zu einem Vorschlag passt, erscheint ein kleines Häkchen im Feld. Es bedeutet genau eine nützliche Sache: Ein erkannter Wert wird beim Wechsel der Lebenslauf-Sprache automatisch mitübersetzt, sodass eine aus der Liste gewählte Hochschule in der Sprache des Lebenslaufs erscheint."
+        },
+        {
+          "kind": "h",
+          "text": "Ihre Arbeit wird automatisch gespeichert"
+        },
+        {
+          "kind": "p",
+          "text": "Für den Lebenslauf als Ganzes gibt es keine Speichern-Schaltfläche. Jede Änderung wird einen Augenblick später in diesem Browser abgelegt, Sie können den Tab also schließen und später zurückkommen."
+        },
+        {
+          "kind": "warn",
+          "text": "Ihr Lebenslauf wird **nur in diesem Browser auf diesem Gerät** gespeichert. Er erscheint nicht auf Ihrem Telefon, in einem anderen Browser oder in einem privaten Fenster. Das Löschen der Browserdaten löscht ihn. Speichern Sie eine Sicherungsdatei, um ihn zu übertragen oder zu bewahren."
+        },
+        {
+          "kind": "h",
+          "text": "Zwei verschiedene Spracheinstellungen"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Sprache der Oberfläche",
+              "def": "Die Sprache der App selbst — Schaltflächen, Feldnamen und diese Anleitung. Änderbar über die Sprachschaltfläche in der oberen Leiste. Sie berührt Ihren Lebenslauf nicht."
+            },
+            {
+              "term": "Sprache des Lebenslaufs",
+              "def": "Die Sprache der gedruckten Überschriften — **Berufserfahrung**, **Ausbildung** und so weiter. Über der Vorschau einstellbar. Nehmen Sie die Sprache des Arbeitgebers, bei dem Sie sich bewerben."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Ein Wechsel der Lebenslauf-Sprache übersetzt nicht, was Sie geschrieben haben. Ihre eigenen Sätze bleiben genau so; nur Überschriften, Datumsangaben und Werte aus einer Vorschlagsliste ändern sich."
+        },
+        {
+          "kind": "h",
+          "text": "Auf dem Telefon"
+        },
+        {
+          "kind": "p",
+          "text": "Auf einem Telefon ist für zwei Hälften kein Platz, deshalb werden Formular und Vorschau zu zwei Reitern — **Bearbeiten** und **Vorschau**. Die wichtigsten Schaltflächen sitzen in einer Leiste am unteren Bildschirmrand."
+        },
+        {
+          "kind": "shot",
+          "id": "mobile",
+          "caption": "Auf dem Telefon sind Formular und Vorschau getrennte Reiter, die Hauptschaltflächen bleiben unten fixiert."
+        }
+      ]
+    },
+    "basics": {
+      "title": "Ihre Angaben",
+      "lead": "Name, Titel, Foto, persönliche Daten und die kurze Zusammenfassung am Anfang.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Das ist der Kopf Ihres Lebenslaufs: wer Sie sind und was Sie machen. Er wird zuerst gelesen, also lohnen sich hier ein paar zusätzliche Minuten."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Vorname und Nachname",
+              "def": "Nur Buchstaben und Leerzeichen, je bis zu 50 Zeichen. So wie im Ausweis."
+            },
+            {
+              "term": "Titel Ihres Lebenslaufs",
+              "def": "Eine Zeile unter Ihrem Namen, bis zu 50 Zeichen. Nennen Sie die Rolle, nicht die Suche: **Buchhalter**, **Vertriebsleiterin**, **Java-Entwickler**. Als Studierende passt auch **Student der Volkswirtschaft**."
+            },
+            {
+              "term": "Stadt",
+              "def": "Wo Sie wohnen. Arbeitgeber schätzen daran den Arbeitsweg ab. Die Stadt genügt; eine vollständige Anschrift ist hier nicht nötig."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Foto"
+        },
+        {
+          "kind": "p",
+          "text": "Ein Foto ist optional. Klicken Sie zum Hinzufügen auf den Bildbereich, wählen Sie ein Bild und richten Sie den Ausschnitt ein: ziehen zum Verschieben, Schieberegler zum Zoomen, drehen, wenn das Bild auf der Seite liegt. Was Sie im Kreis sehen, wird gedruckt."
+        },
+        {
+          "kind": "shot",
+          "id": "photo",
+          "caption": "Den Ausschnitt einrichten: ziehen, zoomen und drehen, bis im Kreis steht, was Sie möchten."
+        },
+        {
+          "kind": "p",
+          "text": "Das Bild wird vor dem Speichern in Ihrem Browser verkleinert, ein großes Handyfoto ist also kein Problem. Dateien über etwa 10 MB werden abgelehnt."
+        },
+        {
+          "kind": "warn",
+          "text": "In Deutschland, Österreich, der Schweiz und weiten Teilen Kontinentaleuropas ist ein Foto im Lebenslauf üblich. Im Vereinigten Königreich, in Irland, den USA und Kanada ist es unerwünscht und kann zur Aussortierung führen. Prüfen Sie, was dort üblich ist, wo Sie sich bewerben — und denken Sie daran, dass nicht jede Vorlage ein Foto zeigt."
+        },
+        {
+          "kind": "h",
+          "text": "Persönliche Daten"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Ihr Geburtsdatum",
+              "def": "Wird als TT.MM.JJJJ eingegeben oder im Kalender gewählt. Daraus wird Ihr Alter berechnet."
+            },
+            {
+              "term": "Ihr Geschlecht",
+              "def": "Männlich oder weiblich."
+            },
+            {
+              "term": "Familienstand",
+              "def": "Ledig oder verheiratet. Optional."
+            },
+            {
+              "term": "Ihre Staatsangehörigkeit",
+              "def": "Vorschlag wählen oder selbst eintragen. Optional."
+            },
+            {
+              "term": "Wehrdienst",
+              "def": "Abgeleistet, nicht abgeleistet oder nicht tauglich. In Aserbaidschan und der Türkei üblicherweise erwartet. Optional."
+            },
+            {
+              "term": "Führerscheinklasse",
+              "def": "Wählen Sie eine oder mehrere Klassen, oder tragen Sie eigene ein, wenn Ihr Land andere Buchstaben verwendet. Lohnt sich, wenn die Stelle mit Fahrten verbunden ist."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Eine Angabe aus dem gedruckten Lebenslauf ausblenden"
+        },
+        {
+          "kind": "p",
+          "text": "Manche dieser Angaben werden in einem Land erwartet und sind in einem anderen besser weggelassen. Neben jeder steht eine kleine **Augen**-Schaltfläche: Ein Klick behält das Feld in der App, lässt es aber **aus dem fertigen Lebenslauf und dem PDF heraus**. Ein weiterer Klick zeigt es wieder."
+        },
+        {
+          "kind": "shot",
+          "id": "visibility",
+          "caption": "Das Auge neben einem Feld entscheidet, ob es gedruckt wird. Durchgestrichen heißt: bleibt in der App, aber nicht im Lebenslauf."
+        },
+        {
+          "kind": "note",
+          "text": "Das ist der saubere Weg, denselben Lebenslauf in verschiedene Länder zu schicken: einmal alles ausfüllen, dann Foto, Geburtsdatum oder Familienstand ausblenden, wo der Arbeitgeber sie lieber nicht sehen soll."
+        },
+        {
+          "kind": "h",
+          "text": "Beschreiben Sie sich kurz"
+        },
+        {
+          "kind": "p",
+          "text": "Zwei bis drei Sätze am Anfang des Lebenslaufs, bis zu 300 Zeichen. Sagen Sie, wer Sie beruflich sind, wie lange Sie das schon machen und was Sie suchen."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Gut:** Buchhalter mit sechs Jahren Erfahrung im Bauwesen. Ich verantworte Umsatzsteuervoranmeldungen und den Monatsabschluss in einem Unternehmen mit 200 Mitarbeitenden. Ich suche eine Seniorposition in einem größeren Finanzteam.",
+            "**Schwach:** Fleißiger, zuverlässiger und motivierter Teamplayer sucht eine anspruchsvolle Aufgabe in einem dynamischen Unternehmen."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Der Unterschied: Den ersten Satz hätten nur Sie schreiben können. Was jede beliebige Bewerberin über sich sagen könnte, sagt der Leserin nichts."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Kontaktdaten",
+      "lead": "Telefonnummern, E-Mail, Profile — und wie Sie eine Nummer schreiben, die die App akzeptiert.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Ihre E-Mail-Adresse stammt vom ersten Bildschirm. In diesem Abschnitt ergänzen Sie die übrigen Wege, auf denen ein Arbeitgeber Sie erreicht. Klicken Sie auf **Hinzufügen**, wählen Sie eine Kontaktart, tragen Sie den Wert ein und speichern Sie."
+        },
+        {
+          "kind": "h",
+          "text": "Telefonnummern"
+        },
+        {
+          "kind": "p",
+          "text": "Telefonnummern müssen international geschrieben werden: **ein Pluszeichen**, dann die Ländervorwahl, dann die Nummer — **ohne Leerzeichen, Klammern oder Bindestriche**."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Richtig:** +4915123456789",
+            "**Richtig:** +994501234567",
+            "**Falsch:** 015123456789 — keine Ländervorwahl",
+            "**Falsch:** +49 (151) 234-567-89 — Leerzeichen, Klammern und Bindestriche"
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Dieselbe Regel gilt für Mobil-, Festnetz-, Fax- und WhatsApp-Nummern. Das ist keine Pedanterie: So geschrieben lässt sich die Nummer aus jedem Land wählen, und sie wird zu einem Link, den ein Arbeitgeber antippen kann."
+        },
+        {
+          "kind": "h",
+          "text": "Was die einzelnen Arten erwarten"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Mobiltelefon, Festnetz, Fax",
+              "def": "Eine Nummer im internationalen Format von oben."
+            },
+            {
+              "term": "WhatsApp",
+              "def": "Die Telefonnummer im selben Format. Wird zu einem Link, der einen Chat öffnet."
+            },
+            {
+              "term": "Telegram",
+              "def": "Ihr Benutzername — mit oder ohne @ — oder eine Telefonnummer."
+            },
+            {
+              "term": "E-Mail",
+              "def": "Eine zusätzliche Adresse, falls Sie mehr als die Hauptadresse angeben möchten."
+            },
+            {
+              "term": "Webseite",
+              "def": "Die vollständige Adresse einschließlich https://"
+            },
+            {
+              "term": "LinkedIn, Facebook, GitHub, Instagram, X",
+              "def": "Die vollständige Adresse Ihrer Profilseite, zum Beispiel https://www.linkedin.com/in/ihrname — nicht nur der Benutzername."
+            },
+            {
+              "term": "Adresse",
+              "def": "Eine Postanschrift, bis zu 120 Zeichen. Im Lebenslauf genügt meist die Stadt."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Wie das im Lebenslauf aussieht"
+        },
+        {
+          "kind": "p",
+          "text": "Hinter jedem Kontakt steht ein kleines Symbol, damit man Mobil-, Festnetz- und WhatsApp-Nummer auf einen Blick unterscheidet. Im PDF sind Telefonnummern, E-Mail-Adressen und Profillinks **anklickbar**. Der Text selbst wird genau so gedruckt, wie Sie ihn eingegeben haben."
+        },
+        {
+          "kind": "note",
+          "text": "Ergänzen Sie, was nützt, nicht alles, was Sie haben. Eine Telefonnummer, eine E-Mail-Adresse und ein berufliches Profil sind meist genau richtig. Ein privates Instagram-Konto hilft einer Bewerbung selten."
+        }
+      ]
+    },
+    "experience": {
+      "title": "Berufserfahrung",
+      "lead": "Der Abschnitt, den Arbeitgeber zuerst lesen — und wie ein Eintrag den schnellen Blick übersteht.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Legen Sie pro Stelle einen Eintrag an. Klicken Sie auf **Hinzufügen** und füllen Sie das Fenster aus."
+        },
+        {
+          "kind": "shot",
+          "id": "modal",
+          "caption": "Eine Stelle nach der anderen. Nichts wird gespeichert, bis Sie unten auf Speichern klicken."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Position",
+              "def": "Ihre Rolle, bis zu 50 Zeichen. Nehmen Sie die Bezeichnung, die in der Branche verstanden wird, nicht eine interne Stufe wie **Spezialist II**."
+            },
+            {
+              "term": "Name der Organisation",
+              "def": "Der Name des Arbeitgebers. Pflichtfeld."
+            },
+            {
+              "term": "Art der Beschäftigung",
+              "def": "Vollzeit, Teilzeit, eigenes Unternehmen, freiberuflich, auf Vertragsbasis, Praktikum oder Saisonarbeit. Optional, aber nützlich — sie erklärt einen kurzen Eintrag, bevor jemand nachfragen muss."
+            },
+            {
+              "term": "Stadt",
+              "def": "Wo Sie die Stelle ausgeübt haben. Optional."
+            },
+            {
+              "term": "Anfangs- und Enddatum",
+              "def": "Beides vollständige Datumsangaben, als TT.MM.JJJJ eingetippt oder im Kalender gewählt. Das Enddatum darf nicht vor dem Anfangsdatum liegen."
+            },
+            {
+              "term": "Ich arbeite derzeit hier",
+              "def": "Für Ihre aktuelle Stelle ankreuzen. Das Enddatum wird dann ignoriert und im Lebenslauf steht **Heute**."
+            },
+            {
+              "term": "Aufgaben und Verantwortlichkeiten",
+              "def": "Zwei bis drei Sätze darüber, was die Stelle tatsächlich umfasste, bis zu 600 Zeichen."
+            },
+            {
+              "term": "Erfolge",
+              "def": "Kurze Stichpunkte, je bis zu 200 Zeichen. Hierhin gehören die Ergebnisse."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Aufgaben oder Erfolge?"
+        },
+        {
+          "kind": "p",
+          "text": "In den **Aufgaben** steht, was die Stelle war — Umfang, Team, Kundschaft. In den **Erfolgen** steht, was Sie persönlich verändert haben, wo möglich mit einer Zahl."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Schwach:** Zuständig für den Vertrieb.",
+            "**Besser:** Regionalen Umsatz in zwei Jahren um 24 % gesteigert, durch 15 neue Einzelhandelskunden.",
+            "**Schwach:** An der Unternehmenswebsite mitgearbeitet.",
+            "**Besser:** Die Kassenseite neu gebaut; Kaufabbrüche sanken von 71 % auf 58 %."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Wenn Sie keine Zahlen haben, nennen Sie die Größenordnung: wie viele Personen, wie viele Kunden, welches Budget, wie oft. **12 neue Kassenkräfte eingearbeitet** sagt viel mehr als **Neue Mitarbeitende eingearbeitet**."
+        },
+        {
+          "kind": "h",
+          "text": "Die Reihenfolge Ihrer Stellen"
+        },
+        {
+          "kind": "p",
+          "text": "Stellen erscheinen von der neuesten zur ältesten, die aktuelle ganz oben. Diese Reihenfolge ergibt sich aus den Datumsangaben, Sie müssen also nichts sortieren. Wenn Sie eine andere Reihenfolge möchten, stellen Sie den Abschnitt auf **Eigene Reihenfolge** und nutzen die Pfeile."
+        },
+        {
+          "kind": "note",
+          "text": "Noch keine bezahlte Berufserfahrung? Lassen Sie diesen Abschnitt leer und füllen Sie stattdessen **Projekte**, **Ausbildung** und **Fähigkeiten** aus. Ein leerer Abschnitt wird nie gedruckt."
+        }
+      ]
+    },
+    "education": {
+      "title": "Ausbildung",
+      "lead": "Schule, Berufsausbildung und Hochschule — und welche Felder jeweils abgefragt werden.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Legen Sie pro Einrichtung einen Eintrag an. Als Erstes wählen Sie die **Art**, und sie entscheidet, welche weiteren Felder erscheinen."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Art der Bildungseinrichtung",
+              "def": "Schulbildung, berufsfachliche Ausbildung oder Hochschulbildung."
+            },
+            {
+              "term": "Name der Bildungseinrichtung",
+              "def": "Tippen Sie los und wählen Sie aus den Vorschlägen, oder schreiben Sie den vollen Namen selbst."
+            },
+            {
+              "term": "Beruf (Fachrichtung)",
+              "def": "Was Sie studiert oder gelernt haben. Pflicht bei berufsfachlicher und Hochschulbildung — es steht auf Ihrem Zeugnis."
+            },
+            {
+              "term": "Fakultät",
+              "def": "Immer optional. Viele Abschlüsse nennen keine; lassen Sie das Feld leer, wenn Ihrer keine nennt."
+            },
+            {
+              "term": "Akademischer Grad",
+              "def": "Bachelor, Master, Doktorand, Facharztausbildung oder Doktor der Philosophie. Pflicht bei Hochschuleinträgen."
+            },
+            {
+              "term": "Anfangs- und Enddatum",
+              "def": "Nur Monat und Jahr. Wenn Sie noch studieren, kreuzen Sie **Ich studiere derzeit** an und lassen das Enddatum leer."
+            },
+            {
+              "term": "Zusätzliche Anmerkung",
+              "def": "Eine kurze Notiz, bis zu 50 Zeichen — etwa eine Note, eine Auszeichnung oder das Thema der Abschlussarbeit."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Einträge werden automatisch von der neuesten zur ältesten sortiert, laufende Ausbildungen stehen oben."
+        },
+        {
+          "kind": "p",
+          "text": "Mit einem Hochschulabschluss können Sie die Schule meist weglassen. Ohne einen führen Sie Ihre Schule auf — ein leerer Ausbildungsabschnitt wirkt schlechter als ein bescheidener."
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Fortbildungen und Zertifikate",
+      "lead": "Kurse, Berufszertifikate und Bescheinigungen.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Dieser Abschnitt ist für alles, was Ihnen außerhalb eines Studiums formal verliehen wurde: ein Berufszertifikat, ein Sprachzertifikat, ein Lehrgang, ein Sicherheitsnachweis."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Name der Fortbildung (des Kurses)",
+              "def": "Der eigene Name des Zertifikats, bis zu 100 Zeichen — etwa **ACCA Applied Knowledge** oder **IELTS Academic**."
+            },
+            {
+              "term": "Einrichtung, die die Fortbildung durchführt",
+              "def": "Wer es verliehen hat. Pflichtfeld."
+            },
+            {
+              "term": "Ausstellungsdatum",
+              "def": "Monat und Jahr. Zertifikate werden danach von neu nach alt sortiert."
+            },
+            {
+              "term": "Enddatum",
+              "def": "Nur wenn das Zertifikat wirklich abläuft. Sonst leer lassen, dann steht im Lebenslauf **unbefristet**."
+            },
+            {
+              "term": "Zertifikats-ID",
+              "def": "Die Nummer auf dem Zertifikat, falls vorhanden. Sie erlaubt einem Arbeitgeber die Überprüfung."
+            },
+            {
+              "term": "Zertifikats-Link",
+              "def": "Eine Webadresse, unter der das Zertifikat geprüft werden kann. Muss mit http:// oder https:// beginnen und wird im Lebenslauf zu einem anklickbaren Link."
+            },
+            {
+              "term": "Zusätzliche Anmerkung",
+              "def": "Eine kurze Notiz, bis zu 100 Zeichen — zum Beispiel ein Ergebnis."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Ein Zertifikat mit Ergebnis ist mehr wert als eines ohne. **IELTS Academic — 7.5** sagt einer Leserin etwas; **IELTS** allein nicht."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Fähigkeiten",
+      "lead": "Was der Wert von 1 bis 100 tatsächlich bedeutet und wie viele Fähigkeiten Sie nennen sollten.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Jede Fähigkeit hat einen Namen und einen Wert von **1 bis 100**. Tippen Sie die Fähigkeit ein — es erscheinen Vorschläge — und stellen Sie den Wert per Schieberegler oder durch Eingabe der Zahl ein."
+        },
+        {
+          "kind": "h",
+          "text": "Was die Zahl bedeutet"
+        },
+        {
+          "kind": "p",
+          "text": "Es gibt keine offizielle Skala, nehmen Sie also diese und bleiben Sie ehrlich. Eine geschönte Zahl fliegt in der ersten Frage des Vorstellungsgesprächs auf."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "1–20 — Anfänger",
+              "def": "Sie haben es ausprobiert. Sie bräuchten Hilfe und Aufsicht."
+            },
+            {
+              "term": "21–40 — Grundlagen",
+              "def": "Einfache Aufgaben erledigen Sie allein, langsam und mit häufigem Nachschlagen."
+            },
+            {
+              "term": "41–60 — Sicher",
+              "def": "Sie nutzen es im Arbeitsalltag ohne Hilfe. Hier liegen die meisten echten Fähigkeiten."
+            },
+            {
+              "term": "61–80 — Stark",
+              "def": "Sie bewältigen schwierige Fälle, und andere fragen Sie um Rat."
+            },
+            {
+              "term": "81–100 — Experte",
+              "def": "Sie könnten es unterrichten, Standards setzen oder genau dafür eingestellt werden."
+            }
+          ]
+        },
+        {
+          "kind": "warn",
+          "text": "Setzen Sie nicht alles auf 100. Ein Lebenslauf, in dem jede Fähigkeit auf Maximum steht, sagt einer Personalerin nichts und macht die echten Stärken unsichtbar."
+        },
+        {
+          "kind": "h",
+          "text": "Wie viele, und welche"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Acht bis zwölf** ist eine gute Zahl. Eine Liste mit dreißig wird wie eine Liste mit keiner gelesen.",
+            "Nennen Sie Konkretes und Überprüfbares: **Excel (Pivot-Tabellen, SVERWEIS)**, **SAP FI**, **AutoCAD**, **Python**.",
+            "Lassen Sie weg, was alle behaupten — fleißig, zuverlässig, teamfähig. Zeigen Sie das lieber in Ihren Erfolgen.",
+            "Übernehmen Sie die Wörter der Stellenanzeige dort, wo sie ehrlich auf Sie zutreffen. Software, die Lebensläufe filtert, sucht genau nach diesen Wörtern."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Manche Vorlagen zeigen den Wert als Balken, andere als Prozentzahl, manche gar nicht. Schauen Sie nach einem Vorlagenwechsel in die Vorschau."
+        }
+      ]
+    },
+    "languages": {
+      "title": "Sprachkenntnisse",
+      "lead": "Die Stufen A1 bis C2 in einfachen Worten, damit Sie Ihre ehrlich wählen können.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Legen Sie pro Sprache einen Eintrag an: die Sprache und Ihr Niveau. Tippen Sie den Namen der Sprache — es erscheinen Vorschläge, und Sie können jede Sprache eintragen, die nicht auf der Liste steht."
+        },
+        {
+          "kind": "h",
+          "text": "Die Stufen"
+        },
+        {
+          "kind": "p",
+          "text": "Das sind die europäischen Standardstufen (GER), dieselben, die Sprachschulen und Prüfungen verwenden."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "A1 — Anfänger",
+              "def": "Ein paar Wörter und feste Wendungen. Sie können Ihren Namen sagen und einen Kaffee bestellen."
+            },
+            {
+              "term": "A2 — Grundlagen",
+              "def": "Einfache Sätze über Vertrautes — Familie, Einkaufen, Ihre Arbeit in groben Zügen."
+            },
+            {
+              "term": "B1 — Mittelstufe",
+              "def": "Sie kommen im Alltag zurecht und können Ihre Meinung erklären, langsam und mit Fehlern."
+            },
+            {
+              "term": "B2 — Obere Mittelstufe",
+              "def": "Sie arbeiten in dieser Sprache. Sie folgen Besprechungen, schreiben E-Mails und diskutieren Ihr Fachgebiet mühelos."
+            },
+            {
+              "term": "C1 — Fortgeschritten",
+              "def": "Sie nutzen sie fließend und fast automatisch, auch bei komplexen oder unbekannten Themen."
+            },
+            {
+              "term": "C2 — Annähernd muttersprachlich",
+              "def": "Nahe an einer gebildeten Muttersprachlerin, samt Nuancen und Humor."
+            },
+            {
+              "term": "Muttersprache",
+              "def": "Ihre erste Sprache oder eine, mit der Sie als solche aufgewachsen sind."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Wenn Sie ein Prüfungszertifikat haben, tragen Sie es zusätzlich unter **Fortbildungen und Zertifikate** ein, mit dem Ergebnis. Angegebene Stufe plus Zertifikat überzeugt weit mehr als die Stufe allein."
+        },
+        {
+          "kind": "warn",
+          "text": "Bleiben Sie realistisch. Vorstellungsgespräche werden oft in der angegebenen Sprache geführt, und ein B2 im Lebenslauf ist das, was in den ersten zwei Minuten am häufigsten geprüft wird."
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projekte und Interessen",
+      "lead": "Zwei optionale Abschnitte, die am meisten bringen, wenn die Berufserfahrung noch kurz ist.",
+      "blocks": [
+        {
+          "kind": "h",
+          "text": "Projekte"
+        },
+        {
+          "kind": "p",
+          "text": "Ein Projekt ist alles, was Sie gebaut oder geleitet haben und was zeigt, was Sie können — eine Studienarbeit, ein Laden, den Sie eröffnet haben, eine Website, eine ehrenamtliche Kampagne, eine App. Für Studierende und Quereinsteiger leistet dieser Abschnitt oft mehr als jeder andere."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Projektname",
+              "def": "Wie das Projekt hieß, bis zu 100 Zeichen."
+            },
+            {
+              "term": "Beschreibung",
+              "def": "Bis zu 600 Zeichen: was es war, was Sie getan haben und wie es ausging."
+            },
+            {
+              "term": "Projekt-Link",
+              "def": "Eine Webadresse, unter der es zu sehen ist. Muss mit http:// oder https:// beginnen."
+            },
+            {
+              "term": "Kernpunkte",
+              "def": "Kurze Stichpunkte, je bis zu 200 Zeichen — dieselbe Idee wie die Erfolge bei einer Stelle."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Sagen Sie, was Ihr Anteil war. **Team von vier; ich habe die Bezahlseite gebaut** ist viel nützlicher als **Wir haben einen Onlineshop gebaut**."
+        },
+        {
+          "kind": "h",
+          "text": "Interessen"
+        },
+        {
+          "kind": "p",
+          "text": "Optional und kurz. Drei bis fünf konkrete Interessen geben einer Gesprächspartnerin einen menschlichen Einstieg. Werden Sie konkret: **Langstreckenlauf (zwei Marathons)** funktioniert; **Musik, Sport, Lesen** nicht."
+        },
+        {
+          "kind": "p",
+          "text": "Wenn der Platz knapp wird, fällt dieser Abschnitt zuerst weg. Solange ein Abschnitt leer ist, wird er nicht gedruckt."
+        }
+      ]
+    },
+    "templates": {
+      "title": "Vorlagen",
+      "lead": "Wie Sie ein Layout wählen und was „ATS-geeignet“ für Ihre Chancen bedeutet.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Klicken Sie auf **Vorlagen**, um die {{templates}} Layouts zu sehen. Eine Vorlage zu wählen ändert nur das Aussehen — Ihr Text bleibt unangetastet, und Sie können jederzeit zurückwechseln. Ihre Wahl wird gemerkt."
+        },
+        {
+          "kind": "shot",
+          "id": "templates",
+          "caption": "Die Vorlagengalerie. Das Abzeichen markiert die Layouts, die für automatische Bewerbungsprüfung am sichersten sind."
+        },
+        {
+          "kind": "h",
+          "text": "Was ATS bedeutet"
+        },
+        {
+          "kind": "p",
+          "text": "Viele mittlere und große Arbeitgeber lesen Lebensläufe nicht zuerst von Hand. Die Datei landet in einem **Bewerbermanagementsystem** (ATS) — Software, die Name, Stellen, Daten und Fähigkeiten herausliest und in eine Datenbank schreibt. Kann die Software die Datei nicht sauber lesen, bekommt ein Mensch sie womöglich nie zu Gesicht."
+        },
+        {
+          "kind": "p",
+          "text": "Vorlagen mit der Kennzeichnung **ATS-geeignet** sind genau dafür gebaut: eine Spalte, kein Foto, keine Zierbalken, schlichte Überschriften. Das ist die sichere Wahl, wenn Sie sich über ein Karriereportal oder eine große Jobbörse bewerben."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Bewerbung über eine Unternehmenswebsite oder eine große Jobbörse?** Nehmen Sie eine ATS-geeignete Vorlage.",
+            "**Direkte E-Mail an eine Person, oder Sie arbeiten im Design?** Eine zweispaltige oder farbige Vorlage ist in Ordnung und fällt auf.",
+            "**Unsicher?** Nehmen Sie eine ATS-geeignete. Sie schadet nie; das Gegenteil kann es."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Jede Vorlage hier erzeugt ein echtes Text-PDF, Ihre Wörter sind also immer maschinenlesbar. Das Abzeichen betrifft das Layout — was ältere Prüfsoftware verwirrt, sind Spalten, Fotos und farbige Flächen."
+        }
+      ]
+    },
+    "export": {
+      "title": "Als PDF herunterladen",
+      "lead": "Wie Sie die fertige Datei bekommen und was zu tun ist, wenn die Schaltfläche grau ist.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Klicken Sie auf **Als PDF herunterladen**. Die Datei wird in Ihrem Browser erzeugt und auf Ihrem Gerät gespeichert, benannt nach Ihnen und dem heutigen Datum."
+        },
+        {
+          "kind": "shot",
+          "id": "actions",
+          "caption": "Die Schaltflächen in der oberen Leiste: Vorlage wählen, neu anfangen, Sicherungsdatei speichern und PDF herunterladen."
+        },
+        {
+          "kind": "h",
+          "text": "Wenn die Schaltfläche grau ist"
+        },
+        {
+          "kind": "p",
+          "text": "Zum Herunterladen braucht es drei Dinge: einen **Vornamen**, einen **Nachnamen** und eine **gültige E-Mail-Adresse**. Fehlt eines davon oder ist es fehlerhaft, bleibt die Schaltfläche deaktiviert und nennt beim Darüberfahren den Grund. Ergänzen Sie die Angaben, und sie wird sofort blau."
+        },
+        {
+          "kind": "h",
+          "text": "Was Sie bekommen"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "Ein echtes PDF: Der Text lässt sich markieren und kopieren, und Prüfsoftware kann ihn lesen.",
+            "Immer A4 hoch, egal auf welchem Gerät Sie es erstellt haben.",
+            "Funktionierende Links — Telefonnummern, E-Mail-Adressen und Profillinks sind anklickbar.",
+            "Ein oder zwei Seiten, je nachdem, wie viel Sie geschrieben haben."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Der erste Download einer Sitzung dauert ein paar Sekunden länger, weil der Teil der App, der PDFs erzeugt, erst geladen wird, wenn Sie ihn tatsächlich anfordern. Danach geht es sofort."
+        },
+        {
+          "kind": "note",
+          "text": "Schauen Sie vor dem Versenden in die Vorschau. Läuft Ihr Lebenslauf auf eine dritte Seite, kürzen Sie Beschreibungen oder entfernen Sie einen optionalen Abschnitt — zwei Seiten sind für die meisten Stellen die praktische Obergrenze."
+        }
+      ]
+    },
+    "backup": {
+      "title": "Sicherung und Neuanfang",
+      "lead": "Wie Sie eine Kopie Ihres Lebenslaufs behalten, ihn auf ein anderes Gerät bringen oder alles löschen und neu beginnen.",
+      "blocks": [
+        {
+          "kind": "warn",
+          "text": "Ihr Lebenslauf lebt nur in diesem Browser. Browserdaten löschen, ein privates Fenster, eine Neuinstallation des Browsers oder ein Gerätewechsel — und er ist weg. Es gibt keine Kopie auf einem Server und kein Passwort zum Zurücksetzen; nur eine Sicherungsdatei bewahrt ihn."
+        },
+        {
+          "kind": "h",
+          "text": "Eine Sicherung speichern"
+        },
+        {
+          "kind": "p",
+          "text": "Klicken Sie im Editor auf **Sicherung**. Es wird eine `.json`-Datei heruntergeladen, die Ihren gesamten Lebenslauf einschließlich Foto enthält. Legen Sie sie irgendwo ab, wo Sie sie wiederfinden: Cloud-Speicher, eine E-Mail an sich selbst, ein USB-Stick."
+        },
+        {
+          "kind": "note",
+          "text": "Sie können jederzeit eine Sicherung speichern, auch von einem halbfertigen Lebenslauf. Anders als beim PDF-Download gibt es hier keine Voraussetzungen."
+        },
+        {
+          "kind": "h",
+          "text": "Aus einer Sicherung wiederherstellen"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "Öffnen Sie OnlineCV auf dem Gerät, auf dem Ihr Lebenslauf sein soll.",
+            "Suchen Sie auf dem **ersten Bildschirm** unten in Schritt 1 **Aus Datei wiederherstellen**.",
+            "Wählen Sie Ihre `.json`-Sicherung.",
+            "Der Editor öffnet sich, alles ist wieder da."
+          ]
+        },
+        {
+          "kind": "warn",
+          "text": "Wiederherstellen wird nur auf dem ersten Bildschirm angeboten. Enthält dieser Browser bereits einen Lebenslauf, sehen Sie die Schaltfläche nicht — klicken Sie erst auf **Zurücksetzen** und stellen Sie dann wieder her. Das ist Absicht: So kann eine Datei nicht stillschweigend Arbeit überschreiben, von der Sie keine Sicherung haben."
+        },
+        {
+          "kind": "p",
+          "text": "Lässt sich ein Teil einer Datei nicht lesen — ein ungewöhnliches Datum, eine Kontaktart, die diese Version nicht kennt — wird der Rest trotzdem geladen und Ihnen wird gesagt, was übersprungen wurde, statt Ihnen stillschweigend einen unvollständigen Lebenslauf zu zeigen."
+        },
+        {
+          "kind": "h",
+          "text": "Neu anfangen"
+        },
+        {
+          "kind": "p",
+          "text": "**Zurücksetzen** leert den Lebenslauf vollständig und bringt Sie zurück zum ersten Bildschirm. Vorher werden Sie um Bestätigung gebeten."
+        },
+        {
+          "kind": "warn",
+          "text": "Zurücksetzen lässt sich nicht rückgängig machen. Speichern Sie vorher eine Sicherungsdatei, falls Sie nicht ganz sicher sind."
+        }
+      ]
+    },
+    "install": {
+      "title": "Installieren und offline arbeiten",
+      "lead": "OnlineCV lässt sich wie eine App installieren und funktioniert auch ohne Internetverbindung.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "OnlineCV ist eine Website, die sich installieren lässt. Nach der Installation öffnet sie sich aus dem Startmenü oder vom Startbildschirm in einem eigenen Fenster, ohne Adressleiste."
+        },
+        {
+          "kind": "h",
+          "text": "Installieren"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Chrome oder Edge am Computer",
+              "def": "Klicken Sie auf das Installationssymbol am rechten Ende der Adressleiste oder wählen Sie im Browsermenü die Installation der App."
+            },
+            {
+              "term": "Android",
+              "def": "Öffnen Sie das Browsermenü und wählen Sie **Zum Startbildschirm hinzufügen** oder **App installieren**."
+            },
+            {
+              "term": "iPhone oder iPad",
+              "def": "Tippen Sie in Safari auf Teilen und wählen Sie **Zum Home-Bildschirm**."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Offline arbeiten"
+        },
+        {
+          "kind": "p",
+          "text": "Nach Ihrem ersten Besuch funktioniert OnlineCV ganz ohne Verbindung. Sie können Ihren Lebenslauf bearbeiten, die Vorlage wechseln und das PDF herunterladen — im Flugzeug oder mit abgeschalteten mobilen Daten. Ein schmaler Hinweis zeigt an, dass Sie offline sind."
+        },
+        {
+          "kind": "note",
+          "text": "Nur zwei Dinge brauchen einmalig Internet: die Bilder in dieser Anleitung und die zusätzlichen Schriften für Chinesisch, Japanisch und Koreanisch. Einmal geladen, bleiben sie gespeichert."
+        },
+        {
+          "kind": "note",
+          "text": "Wenn eine neue Version verfügbar ist, wird Ihnen ein Neuladen angeboten. Während Sie tippen, wird nichts ausgetauscht."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Datenschutz",
+      "lead": "Was auf Ihrem Gerät bleibt, was nicht, und wie Sie Ihre Meinung ändern.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Hinter OnlineCV steckt kein Konto, keine Anmeldung und kein Server. **Ihr Lebenslauf verlässt Ihr Gerät nie als Datei.** Niemand bei OnlineCV kann ihn lesen, und es gibt nichts, was bei einem Datenleck abfließen könnte, weil es keine Datenbank gibt."
+        },
+        {
+          "kind": "h",
+          "text": "Das Einzige, was hinausgeht"
+        },
+        {
+          "kind": "p",
+          "text": "Beim ersten Besuch werden Sie gefragt, ob Sie mit Nutzungsstatistiken einverstanden sind. Vor Ihrer Antwort wird überhaupt nichts geladen."
+        },
+        {
+          "kind": "p",
+          "text": "Wenn Sie zustimmen, starten drei Messwerkzeuge — Google Analytics, Microsoft Clarity und Yandex Metrica. Sie erfassen, welche Seiten und Schaltflächen genutzt werden, Ihr Gerät und Ihren Browser, Ihre ungefähre Region und **eine Aufzeichnung der Sitzung, die auch enthält, was Sie ins Formular tippen**. Wir sagen das offen, weil wir so erfahren, wo Menschen hängen bleiben; und genau deshalb ist es Ihre Entscheidung."
+        },
+        {
+          "kind": "p",
+          "text": "Wenn Sie ablehnen, wird nichts davon geladen und nichts erfasst. Die App funktioniert genau gleich. Die Kosten tragen wir, nicht Sie: Probleme, auf die Sie stoßen, erreichen uns nicht und können deshalb nicht behoben werden."
+        },
+        {
+          "kind": "h",
+          "text": "Meinung ändern"
+        },
+        {
+          "kind": "p",
+          "text": "Der Link **Datenschutz und Statistik** am Seitenende öffnet die Frage jederzeit erneut und zeigt Ihre aktuelle Wahl. Ein Widerruf wirkt vollständig nach einem Neuladen."
+        },
+        {
+          "kind": "note",
+          "text": "Ihre Antwort wird pro Browser gespeichert, nicht zusammen mit dem Lebenslauf — ein Zurücksetzen des Lebenslaufs führt also nicht dazu, dass erneut gefragt wird."
+        }
+      ]
+    },
+    "writing": {
+      "title": "Einen Lebenslauf schreiben, der gelesen wird",
+      "lead": "Praktische Hinweise für den schwersten Teil: zu entscheiden, was hineingehört.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Wer einen Stapel Lebensläufe sichtet, gibt jedem ein paar Sekunden, bevor er entscheidet, ihn richtig zu lesen oder weiterzublättern. Alles Folgende dient dazu, diese Sekunden zu überstehen."
+        },
+        {
+          "kind": "h",
+          "text": "Die Grundlagen"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Eine Seite** bei weniger als fünf Jahren Erfahrung, **zwei** bei mehr. Drei werden fast nie zu Ende gelesen.",
+            "**Passen Sie ihn für jede Stelle an.** Sortieren Sie Ihre Erfolge so, dass die zur Anzeige passenden zuerst stehen. Diese fünfzehn Minuten verändern das Ergebnis mehr als alles andere hier.",
+            "**Verwenden Sie die Wörter der Anzeige** dort, wo sie ehrlich auf Sie zutreffen. Prüfsoftware vergleicht Text wörtlich: Steht in der Anzeige **Kreditorenbuchhaltung** und Sie haben das gemacht, sollte genau dieser Ausdruck vorkommen.",
+            "**Prüfen Sie die Schreibweise Ihrer eigenen Positionsbezeichnungen und Ihrer E-Mail-Adresse.** Ein Tippfehler in der Adresse ist ein Lebenslauf, auf den niemand antworten kann."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Ergebnisse statt Aufgaben"
+        },
+        {
+          "kind": "p",
+          "text": "Eine Stellenbeschreibung sagt, was Sie tun sollten. Ein Lebenslauf sollte sagen, was tatsächlich geschah, weil Sie da waren. Jeder Eintrag wird besser durch die Frage **und was folgte daraus?**"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Aufgabe:** Betreuung der Social-Media-Kanäle des Unternehmens.",
+            "**Ergebnis:** Instagram-Followerzahl in einem Jahr von 2.000 auf 11.000 gesteigert; Anfragen über soziale Medien verdreifacht.",
+            "**Aufgabe:** Bearbeitung von Kundenbeschwerden.",
+            "**Ergebnis:** Beschwerdebearbeitung übernommen und die durchschnittliche Antwortzeit von drei Tagen auf vier Stunden gesenkt."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Zahlen verwenden"
+        },
+        {
+          "kind": "p",
+          "text": "Zahlen sind der schnellste Weg, geglaubt zu werden. Wie viele Menschen, wie viel Geld, wie viel schneller, wie viele Kunden, wie oft. Wenn Sie wirklich keine Zahlen haben, nennen Sie Größenordnung und Häufigkeit: **ein Team von sechs**, **rund 40 Anrufe am Tag**, **ein Portfolio von 12 Kunden**."
+        },
+        {
+          "kind": "h",
+          "text": "Weglassen"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Referenzen auf Anfrage** — wird ohnehin vorausgesetzt und verschenkt eine Zeile.",
+            "Ausweisnummer, genaue Wohnanschrift, Bankdaten. Schreiben Sie das nie in ein Dokument, das Sie an Fremde schicken.",
+            "Kündigungsgründe früherer Stellen sowie aktuelles oder gewünschtes Gehalt, sofern nicht danach gefragt wurde.",
+            "Leere Adjektive ohne Beleg. **Fleißig** ist nichts wert; **habe während einer Systemmigration drei Monate lang die Arbeit zweier Kolleginnen mit übernommen** ist dieselbe Behauptung, nur belegt."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Lücken und kurze Stellen"
+        },
+        {
+          "kind": "p",
+          "text": "Verstecken Sie sie nicht, erklären Sie sie kurz. Studium, Krankheit, Angehörigenpflege, Wehrdienst und eine Selbstständigkeit sind ganz gewöhnliche Gründe, und eine erklärte Lücke ist keine Frage mehr. Nutzen Sie für kurze Einträge das Feld **Art der Beschäftigung**: **Praktikum** oder **Saisonarbeit** erklärt drei Monate, bevor jemand darüber nachdenkt."
+        },
+        {
+          "kind": "h",
+          "text": "Vor dem Absenden"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "Lesen Sie Ihren Lebenslauf laut. Jeder Satz, über den Sie stolpern, ist ein Satz zum Kürzen.",
+            "Prüfen Sie, dass alle Daten stimmen und keine unerklärten Lücken bleiben.",
+            "Kontrollieren Sie Telefonnummer und E-Mail-Adresse Zeichen für Zeichen.",
+            "Laden Sie das PDF herunter und öffnen Sie es. Diese Datei sieht der Arbeitgeber, nicht die Vorschau.",
+            "Lassen Sie eine weitere Person lesen. Sie findet den Fehler, den Sie längst nicht mehr sehen."
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "lead": "Kurze Antworten auf das, was am häufigsten gefragt wird.",
+      "blocks": [
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Ist es wirklich kostenlos?",
+              "def": "Ja. Kein Konto, keine Testphase, kein Wasserzeichen, keine kostenpflichtige Version."
+            },
+            {
+              "term": "Wo wird mein Lebenslauf gespeichert?",
+              "def": "In Ihrem eigenen Browser, auf dem Gerät, auf dem Sie ihn eingegeben haben. Auf keinem Server."
+            },
+            {
+              "term": "Kann ich auf dem Telefon weitermachen?",
+              "def": "Nur, indem Sie auf einem Gerät eine Sicherungsdatei speichern und sie auf dem anderen wiederherstellen. Es gibt keine Synchronisierung, weil es kein Konto gibt."
+            },
+            {
+              "term": "Kann ich mehrere Lebensläufe behalten?",
+              "def": "Einen pro Browser. Für mehrere Fassungen speichern Sie je eine Sicherungsdatei und stellen die gewünschte wieder her."
+            },
+            {
+              "term": "Warum lässt sich Herunterladen nicht anklicken?",
+              "def": "Es fehlen Vorname, Nachname oder eine gültige E-Mail-Adresse. Fahren Sie über die Schaltfläche, sie sagt es Ihnen."
+            },
+            {
+              "term": "Kann ich das PDF nachträglich bearbeiten?",
+              "def": "Ändern Sie es lieber hier und laden Sie es erneut herunter — das geht schneller und das Layout bleibt heil. Ein PDF anderswo zu bearbeiten zerstört oft die Textebene, die Prüfsoftware liest."
+            },
+            {
+              "term": "Funktioniert es ohne Internet?",
+              "def": "Ja, nach dem ersten Besuch. Bearbeiten und PDF-Download funktionieren offline."
+            },
+            {
+              "term": "Ich habe die Browserdaten gelöscht und mein Lebenslauf ist weg. Können Sie ihn wiederherstellen?",
+              "def": "Nein. Außerhalb Ihres Geräts wird nichts gespeichert, es gibt also keine Quelle. Nur eine Sicherungsdatei bringt ihn zurück."
+            },
+            {
+              "term": "Warum ist mein Lebenslauf zwei Seiten lang?",
+              "def": "Wegen des Umfangs. Kürzen Sie Beschreibungen, straffen Sie ältere Stellen auf je eine Zeile oder blenden Sie einen optionalen Abschnitt aus."
+            },
+            {
+              "term": "Kann ich die Reihenfolge der Abschnitte ändern?",
+              "def": "Die Abschnitte selbst nicht. Die Einträge innerhalb von Berufserfahrung, Ausbildung und Zertifikaten können Sie mit **Eigene Reihenfolge** umsortieren."
+            },
+            {
+              "term": "Welche Vorlage soll ich nehmen?",
+              "def": "Eine ATS-geeignete, wenn Sie sich über eine Unternehmenswebsite oder eine große Jobbörse bewerben. Sonst die, die Ihnen gefällt."
+            },
+            {
+              "term": "Werden meine Daten für KI-Training genutzt oder verkauft?",
+              "def": "Nein. Ihr Lebenslauf wird nirgendwohin geschickt, es gibt also nichts zu verkaufen oder zu trainieren. Wenn Sie Nutzungsstatistiken zugestimmt haben, erhalten die unter **Datenschutz** genannten Messwerkzeuge Sitzungsdaten — eine Ablehnung schaltet all das ab."
+            }
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Immer noch festgefahren? Die Telegram-Schaltfläche in der oberen Leiste führt zur Community-Gruppe des Projekts."
+        }
+      ]
+    }
+  }
+}

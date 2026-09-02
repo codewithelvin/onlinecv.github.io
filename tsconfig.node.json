@@ -33,7 +33,21 @@
     "vite-plugin-locale-pages.ts",
     "src/app/seo-locales.ts",
     "src/app/not-found-page.ts",
+    "src/app/help-page.ts",
     "src/app/i18n/locales.ts",
-    "src/types/resume.ts"
+    "src/types/resume.ts",
+    /*
+     * The user guide (spec §10.4) is rendered to a static page per language at
+     * build time, so the plugin reaches into the help feature for its content and
+     * for the pure helpers that turn blocks into markup. Everything listed here is
+     * deliberately React-free — `features/help/icons.ts` and the panel are not,
+     * and nothing on this side can reach them.
+     */
+    "src/features/help/types.ts",
+    "src/features/help/topics.ts",
+    "src/features/help/inline.ts",
+    "src/features/help/counts.ts",
+    "src/features/help/shots.ts",
+    "src/features/help/content/all.ts"
   ]
 }

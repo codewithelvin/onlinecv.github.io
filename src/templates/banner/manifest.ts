@@ -24,6 +24,7 @@ export const manifest: TemplateManifest = {
     el: 'Πανό',
     kk: 'Баннер',
     uz: 'Banner',
+    ja: 'バナー',
   },
   /** A photo and a filled header band — real text throughout, but not ATS shape. */
   atsSafe: false,

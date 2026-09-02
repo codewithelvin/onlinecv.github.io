@@ -186,6 +186,17 @@
     "generating": "Przygotowywanie PDF...",
     "error": "Wystąpił błąd podczas generowania PDF. Spróbuj ponownie."
   },
+  "help": {
+    "open": "Otwórz przewodnik",
+    "short": "Przewodnik",
+    "wizard": "Pierwszy raz? Przeczytaj przewodnik",
+    "section": "Co wpisać w tej sekcji?",
+    "title": "Przewodnik",
+    "topics": "Wszystkie tematy",
+    "loading": "Wczytywanie przewodnika…",
+    "error": "Nie udało się wczytać przewodnika. Sprawdź połączenie i spróbuj ponownie.",
+    "openPage": "Otwórz jako stronę"
+  },
   "backup": {
     "download": "Kopia zapasowa",
     "downloadHint": "Zapisz dane swojego CV jako plik. Później możesz wybrać ten plik i przywrócić CV.",

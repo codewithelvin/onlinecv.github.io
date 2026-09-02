@@ -1,0 +1,1158 @@
+{
+  "title": "Guia do OnlineCV",
+  "intro": "Tudo o que precisa para construir o seu CV, explicado por palavras simples. Comece pelo início ou vá diretamente à parte em que está com dificuldades.",
+  "topics": {
+    "start": {
+      "title": "Comece por aqui",
+      "lead": "O que faz o OnlineCV e os cinco passos entre o formulário vazio e o PDF terminado.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "O OnlineCV cria um CV (currículo) dentro do seu navegador. Não há conta para criar, nada para instalar e nada a pagar."
+        },
+        {
+          "kind": "p",
+          "text": "Tudo o que escreve fica **no seu próprio dispositivo**. O seu CV não é enviado para lado nenhum, o que também significa que ninguém o poderá recuperar por si. Quando terminar, guarde um ficheiro de cópia de segurança — consulte **Cópia de segurança e recomeçar**."
+        },
+        {
+          "kind": "h",
+          "text": "O que obtém"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "Um CV arrumado em uma ou duas páginas A4.",
+            "Um PDF verdadeiro: o texto pode ser selecionado, copiado e lido por software — não é uma imagem de uma página.",
+            "{{templates}} modelos à escolha, que pode trocar a qualquer momento sem voltar a escrever nada.",
+            "O próprio CV em qualquer um dos {{languages}} idiomas, independentemente do idioma em que usa a aplicação."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Cinco passos"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "Preencha o breve formulário inicial: nome, e-mail, data de nascimento e título do CV.",
+            "Preencha as secções da esquerda — contactos, experiência profissional, formação, competências e tudo o que lhe diga respeito.",
+            "Observe a pré-visualização à direita. Mostra o CV terminado e atualiza-se enquanto escreve.",
+            "Escolha um modelo de que goste.",
+            "Prima **Descarregar como PDF** e envie o ficheiro às empresas."
+          ]
+        },
+        {
+          "kind": "shot",
+          "id": "editor",
+          "caption": "O ecrã principal: preenche o formulário à esquerda e o CV terminado aparece à direita."
+        },
+        {
+          "kind": "note",
+          "text": "Este guia está sempre à mão: o botão **?** da barra superior abre-o, e o pequeno **?** de cada secção abre a página que explica essa secção."
+        }
+      ]
+    },
+    "wizard": {
+      "title": "O primeiro ecrã",
+      "lead": "Os dois passos curtos pedidos antes de o editor abrir.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Na primeira visita, o OnlineCV pede alguns dados para que o seu CV não fique completamente vazio. Demora cerca de um minuto e **poderá alterar tudo mais tarde** no editor."
+        },
+        {
+          "kind": "h",
+          "text": "Passo 1 — quem é"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Nome e apelido",
+              "def": "Apenas letras e espaços, até 50 caracteres cada. Escreva-os como constam no seu documento de identificação: é por este nome que uma empresa o procurará depois."
+            },
+            {
+              "term": "O seu endereço de e-mail",
+              "def": "O endereço para o qual a empresa responderá. Use um que consulte realmente e evite o do seu empregador atual, pois pode perder o acesso."
+            },
+            {
+              "term": "A sua data de nascimento",
+              "def": "Escolha-a no calendário ou escreva-a como DD.MM.AAAA. É usada para calcular a sua idade. Depois pode ocultá-la do CV terminado, se preferir."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Passo 2 — o seu perfil"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "O título do seu CV",
+              "def": "A linha impressa por baixo do seu nome, até 50 caracteres. Escreva o cargo que pretende, não a sua situação: **Programador front-end**, e não **À procura de emprego**."
+            },
+            {
+              "term": "A sua nacionalidade",
+              "def": "Comece a escrever e escolha uma sugestão, ou escreva a sua. Facultativo — deixe vazio se preferir não a indicar."
+            },
+            {
+              "term": "O seu sexo",
+              "def": "Obrigatório neste ecrã porque muitas empresas da região o esperam. Pode ocultá-lo do CV impresso depois."
+            },
+            {
+              "term": "Estado civil",
+              "def": "Facultativo. Deixe vazio se preferir não dizer: um campo vazio simplesmente não aparece no CV."
+            }
+          ]
+        },
+        {
+          "kind": "shot",
+          "id": "wizard",
+          "caption": "O primeiro ecrã. Nada do que escreve aqui é enviado para outro lado: vai diretamente para o seu próprio navegador."
+        },
+        {
+          "kind": "p",
+          "text": "Prima **Concluir** e o editor abre com os seus dados já colocados."
+        },
+        {
+          "kind": "h",
+          "text": "Já tem um ficheiro de cópia de segurança?"
+        },
+        {
+          "kind": "p",
+          "text": "Se já fez um CV antes e guardou uma cópia, não escreva tudo de novo. No fim do passo 1 existe **Restaurar a partir de ficheiro**: escolha a sua cópia `.json` e todo o CV é carregado de uma vez. É o único ecrã que o oferece — consulte **Cópia de segurança e recomeçar**."
+        }
+      ]
+    },
+    "editor": {
+      "title": "O ecrã do editor",
+      "lead": "Como funcionam o formulário, a pré-visualização em direto, a gravação automática e as duas definições de idioma.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "O editor tem duas metades. À esquerda preenche um formulário. À direita vê o CV terminado, exatamente como será impresso. Tudo o que escreve aparece imediatamente à direita."
+        },
+        {
+          "kind": "h",
+          "text": "Secções"
+        },
+        {
+          "kind": "p",
+          "text": "O formulário está dividido em secções — dados básicos, contactos, experiência profissional, formação e por aí adiante. Toque no título de uma secção para a abrir ou fechar. O pequeno número ao lado indica quantos registos já adicionou."
+        },
+        {
+          "kind": "shot",
+          "id": "list",
+          "caption": "Uma secção com os seus registos. Adicionar cria um novo, o lápis altera-o e o caixote elimina-o."
+        },
+        {
+          "kind": "h",
+          "text": "Adicionar, alterar e eliminar registos"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Adicionar** abre uma pequena janela onde preenche um emprego, uma escola, uma competência. Nada é guardado enquanto não premir **Guardar** nessa janela.",
+            "O **lápis** de um registo volta a abri-lo.",
+            "O **caixote** elimina um registo. Ser-lhe-á pedida confirmação.",
+            "Uma secção vazia simplesmente não aparece no CV terminado — nunca tem de preencher uma secção que não lhe diga respeito."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "A ordem dos registos com data"
+        },
+        {
+          "kind": "p",
+          "text": "A experiência profissional, a formação e os certificados ficam pela ordem que as empresas esperam: **mais recentes primeiro**. O que ainda está em curso fica no topo. Não tem de os arrumar: a ordem resulta das datas que introduziu."
+        },
+        {
+          "kind": "p",
+          "text": "Se quiser outra ordem, mude a secção de **Mais recentes primeiro** para **Ordem personalizada**: aparecem setas em cada registo para os mover à mão. O seletor só aparece quando a secção tem mais do que um registo."
+        },
+        {
+          "kind": "h",
+          "text": "Listas de sugestões"
+        },
+        {
+          "kind": "p",
+          "text": "Campos como cidade, universidade, cargo, competência e idioma apresentam sugestões enquanto escreve. São apenas sugestões: **pode sempre escrever o seu próprio valor**, e ele será guardado exatamente como o escreveu."
+        },
+        {
+          "kind": "note",
+          "text": "Quando o seu texto corresponde a uma sugestão, aparece uma pequena marca no campo. Significa uma coisa útil: um valor reconhecido é reescrito automaticamente quando muda o idioma do CV, pelo que uma universidade escolhida da lista aparece no idioma do próprio CV."
+        },
+        {
+          "kind": "h",
+          "text": "O seu trabalho é guardado automaticamente"
+        },
+        {
+          "kind": "p",
+          "text": "Não existe um botão Guardar para o CV inteiro. Cada alteração é escrita neste navegador um instante depois de a fazer, por isso pode fechar o separador e voltar mais tarde."
+        },
+        {
+          "kind": "warn",
+          "text": "O seu CV é guardado **apenas neste navegador, neste dispositivo**. Não aparecerá no telemóvel, noutro navegador nem numa janela privada. Limpar os dados de navegação elimina-o. Guarde um ficheiro de cópia de segurança para o transportar ou proteger."
+        },
+        {
+          "kind": "h",
+          "text": "Duas definições de idioma diferentes"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Idioma da interface",
+              "def": "O idioma da própria aplicação — botões, etiquetas e este guia. Muda-se com o botão de idioma na barra superior. Não mexe no seu CV."
+            },
+            {
+              "term": "Idioma do CV",
+              "def": "O idioma dos títulos impressos no seu CV — **Experiência profissional**, **Formação académica** e assim por diante. Define-se por cima da pré-visualização. Use o idioma da empresa a que se candidata."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Mudar o idioma do CV nunca traduz o que escreveu. As suas frases mantêm-se tal como as escreveu; mudam apenas os títulos, as datas e os valores escolhidos de uma lista de sugestões."
+        },
+        {
+          "kind": "h",
+          "text": "No telemóvel"
+        },
+        {
+          "kind": "p",
+          "text": "Num telemóvel não há espaço para duas metades, por isso o formulário e a pré-visualização passam a dois separadores — **Editar** e **Pré-visualização**. Os botões mais usados ficam numa barra no fundo do ecrã."
+        },
+        {
+          "kind": "shot",
+          "id": "mobile",
+          "caption": "No telemóvel o formulário e a pré-visualização são separadores distintos, e os botões principais ficam fixos em baixo."
+        }
+      ]
+    },
+    "basics": {
+      "title": "Os seus dados",
+      "lead": "Nome, título, fotografia, dados pessoais e o breve resumo no topo do CV.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Esta é a parte de cima do seu CV: quem é e o que faz. É a primeira coisa que se lê, por isso vale a pena investir aqui mais alguns minutos."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Nome e apelido",
+              "def": "Apenas letras e espaços, até 50 caracteres cada. Como no documento de identificação."
+            },
+            {
+              "term": "O título do seu CV",
+              "def": "Uma linha por baixo do seu nome, até 50 caracteres. Indique o cargo, não a procura: **Contabilista**, **Gestora de vendas**, **Programador Java**. Se é estudante, **Estudante de Economia** serve."
+            },
+            {
+              "term": "Cidade",
+              "def": "Onde vive. As empresas usam-na para avaliar a deslocação. A cidade chega; aqui não é preciso a morada completa."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Fotografia"
+        },
+        {
+          "kind": "p",
+          "text": "A fotografia é facultativa. Para a adicionar, toque na área da fotografia, escolha uma imagem e enquadre-a: arraste para a mover, use o cursor para ampliar e rode se a imagem estiver deitada. O que vê dentro do círculo é o que será impresso."
+        },
+        {
+          "kind": "shot",
+          "id": "photo",
+          "caption": "Enquadrar a fotografia: arraste, amplie e rode até o círculo mostrar o que pretende."
+        },
+        {
+          "kind": "p",
+          "text": "A imagem é reduzida dentro do navegador antes de ser guardada, por isso uma fotografia grande tirada com o telemóvel serve perfeitamente. Ficheiros com mais de cerca de 10 MB são recusados."
+        },
+        {
+          "kind": "warn",
+          "text": "Em Portugal, no Azerbaijão, na Turquia e em grande parte da Europa continental a fotografia no CV é normal. No Reino Unido, na Irlanda, nos Estados Unidos e no Canadá é desaconselhada e pode levar à exclusão da candidatura. Verifique o que é habitual onde se candidata — e lembre-se de que nem todos os modelos mostram fotografia."
+        },
+        {
+          "kind": "h",
+          "text": "Dados pessoais"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "A sua data de nascimento",
+              "def": "Escreve-se como DD.MM.AAAA ou escolhe-se no calendário. A sua idade é calculada a partir dela."
+            },
+            {
+              "term": "O seu sexo",
+              "def": "Masculino ou feminino."
+            },
+            {
+              "term": "Estado civil",
+              "def": "Solteiro(a) ou casado(a). Facultativo."
+            },
+            {
+              "term": "A sua nacionalidade",
+              "def": "Escolha uma sugestão ou escreva a sua. Facultativa."
+            },
+            {
+              "term": "Serviço militar",
+              "def": "Cumprido, não cumprido ou inapto. É habitualmente esperado no Azerbaijão e na Turquia. Facultativo."
+            },
+            {
+              "term": "Categoria da carta de condução",
+              "def": "Escolha uma ou mais categorias, ou escreva as suas se o seu país usa outras letras. Vale a pena indicar quando o cargo implica deslocações."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Ocultar um dado do CV impresso"
+        },
+        {
+          "kind": "p",
+          "text": "Alguns destes dados são esperados num país e é melhor omiti-los noutro. Cada um tem ao lado um pequeno botão em forma de **olho**: ao tocar-lhe, o campo continua na aplicação mas **não aparece no CV terminado nem no PDF**. Toque de novo para o mostrar."
+        },
+        {
+          "kind": "shot",
+          "id": "visibility",
+          "caption": "O olho ao lado de um campo decide se este é impresso. Riscado significa que o dado fica na aplicação mas não no CV."
+        },
+        {
+          "kind": "note",
+          "text": "Esta é a forma limpa de enviar o mesmo CV para países diferentes: preencha tudo uma vez e depois oculte a fotografia, a data de nascimento ou o estado civil onde a empresa preferir não os ver."
+        },
+        {
+          "kind": "h",
+          "text": "Descreva-se brevemente"
+        },
+        {
+          "kind": "p",
+          "text": "Duas ou três frases no topo do CV, até 300 caracteres. Diga quem é profissionalmente, há quanto tempo o faz e o que procura."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Bom:** Contabilista com seis anos de experiência na construção. Trato das declarações de IVA e do fecho mensal numa empresa com 200 colaboradores. Procuro uma função sénior numa equipa financeira maior.",
+            "**Fraco:** Candidato trabalhador, responsável e motivado, com espírito de equipa, procura uma oportunidade desafiante numa empresa dinâmica."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "A diferença é que a primeira só poderia ter sido escrita por si. O que qualquer candidato poderia dizer não diz nada a quem lê."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Informações de contacto",
+      "lead": "Números de telefone, e-mail, perfis — e como escrever um número que a aplicação aceite.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "O seu endereço de e-mail veio do primeiro ecrã. Nesta secção adiciona as outras formas de uma empresa o contactar. Prima **Adicionar**, escolha um tipo de contacto, escreva o valor e guarde."
+        },
+        {
+          "kind": "h",
+          "text": "Números de telefone"
+        },
+        {
+          "kind": "p",
+          "text": "Os números têm de ser escritos no formato internacional: **um sinal de mais**, depois o indicativo do país e depois o número, **sem espaços, parênteses ou traços**."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Correto:** +351912345678",
+            "**Correto:** +994501234567",
+            "**Errado:** 912345678 — sem indicativo do país",
+            "**Errado:** +351 (912) 345-678 — espaços, parênteses e traços"
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "A mesma regra vale para telemóvel, fixo, fax e WhatsApp. Não é preciosismo: escrito assim, o número pode ser marcado a partir de qualquer país e transforma-se numa ligação que a empresa pode tocar."
+        },
+        {
+          "kind": "h",
+          "text": "O que espera cada tipo"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Telemóvel, telefone fixo, fax",
+              "def": "Um número no formato internacional acima."
+            },
+            {
+              "term": "WhatsApp",
+              "def": "O número de telefone no mesmo formato. Transforma-se numa ligação que abre uma conversa."
+            },
+            {
+              "term": "Telegram",
+              "def": "O seu nome de utilizador — com ou sem @ — ou um número de telefone."
+            },
+            {
+              "term": "Correio eletrónico",
+              "def": "Um endereço adicional, se quiser indicar mais do que o principal."
+            },
+            {
+              "term": "Sítio Web",
+              "def": "O endereço completo, incluindo https://"
+            },
+            {
+              "term": "LinkedIn, Facebook, GitHub, Instagram, X",
+              "def": "O endereço completo da sua página de perfil, por exemplo https://www.linkedin.com/in/oseunome — não apenas o nome de utilizador."
+            },
+            {
+              "term": "Morada",
+              "def": "Uma morada postal, até 120 caracteres. Num CV, normalmente basta a cidade."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Como aparecem no CV"
+        },
+        {
+          "kind": "p",
+          "text": "Cada contacto tem a seguir um pequeno ícone, para que quem lê distinga de imediato um telemóvel de um fixo ou de um número de WhatsApp. No PDF, os números, os endereços de e-mail e as ligações de perfil são **clicáveis**. O texto é impresso exatamente como o escreveu."
+        },
+        {
+          "kind": "note",
+          "text": "Adicione o que é útil, não tudo o que tem. Um número, um endereço de e-mail e um perfil profissional costumam ser a quantidade certa. Uma conta pessoal de Instagram raramente ajuda uma candidatura."
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experiência profissional",
+      "lead": "A secção que as empresas leem primeiro — e como escrever um registo que sobreviva a uma leitura rápida.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Adicione um registo por emprego. Prima **Adicionar** e preencha a janela que abre."
+        },
+        {
+          "kind": "shot",
+          "id": "modal",
+          "caption": "Um emprego de cada vez. Nada é guardado enquanto não premir Guardar no fundo da janela."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Cargo",
+              "def": "A sua função, até 50 caracteres. Use a designação que o setor reconhece, e não um grau interno como **Especialista II**."
+            },
+            {
+              "term": "Nome da empresa",
+              "def": "O nome do empregador. Obrigatório."
+            },
+            {
+              "term": "Tipo de contrato",
+              "def": "Tempo integral, tempo parcial, negócio próprio, freelance, contrato, estágio ou sazonal. Facultativo mas útil: explica um registo curto antes de alguém ter de perguntar."
+            },
+            {
+              "term": "Cidade",
+              "def": "Onde desempenhou a função. Facultativo."
+            },
+            {
+              "term": "Data de início e data de fim",
+              "def": "Ambas são datas completas, escritas como DD.MM.AAAA ou escolhidas no calendário. A data de fim não pode ser anterior à de início."
+            },
+            {
+              "term": "Atualmente trabalho aqui",
+              "def": "Assinale no seu emprego atual. A data de fim passa a ser ignorada e o CV imprime **Atualmente**."
+            },
+            {
+              "term": "Funções e responsabilidades",
+              "def": "Duas ou três frases sobre o que o cargo envolvia na prática, até 600 caracteres."
+            },
+            {
+              "term": "Realizações",
+              "def": "Pontos curtos, até 200 caracteres cada. É aqui que vão os resultados."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Funções ou realizações?"
+        },
+        {
+          "kind": "p",
+          "text": "Use as **funções** para dizer o que era o trabalho — o âmbito, a equipa, os clientes. Use as **realizações** para o que mudou por sua causa, com um número sempre que puder."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Fraco:** Responsável pelas vendas.",
+            "**Melhor:** Aumentei as vendas da região em 24% em dois anos, angariando 15 novos clientes de retalho.",
+            "**Fraco:** Trabalhei no site da empresa.",
+            "**Melhor:** Refiz a página de pagamento; o abandono do carrinho baixou de 71% para 58%."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Se não tem números, use a escala: quantas pessoas, quantos clientes, que orçamento, com que frequência. **Formei 12 novos operadores de caixa** diz muito mais do que **Formei novos colaboradores**."
+        },
+        {
+          "kind": "h",
+          "text": "A ordem dos seus empregos"
+        },
+        {
+          "kind": "p",
+          "text": "Os empregos surgem do mais recente para o mais antigo, com o atual no topo. Essa ordem resulta das datas, por isso não tem de a arrumar. Se quiser outra, mude a secção para **Ordem personalizada** e use as setas."
+        },
+        {
+          "kind": "note",
+          "text": "Ainda sem experiência remunerada? Deixe esta secção vazia e preencha antes **Projetos**, **Formação académica** e **Competências**. Uma secção vazia nunca é impressa."
+        }
+      ]
+    },
+    "education": {
+      "title": "Formação académica",
+      "lead": "Escola, ensino profissional e universidade — e que campos cada um pede.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Adicione um registo por instituição. A primeira coisa que escolhe é o **tipo**, e é ele que decide quais os outros campos que aparecem."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Tipo de instituição de ensino",
+              "def": "Ensino secundário, ensino técnico-profissional ou ensino superior."
+            },
+            {
+              "term": "Nome da instituição de ensino",
+              "def": "Comece a escrever e escolha das sugestões, ou escreva o nome completo."
+            },
+            {
+              "term": "Profissão (especialidade)",
+              "def": "O que estudou. Obrigatório no ensino técnico-profissional e superior — consta do seu diploma."
+            },
+            {
+              "term": "Faculdade",
+              "def": "Sempre facultativa. Muitos diplomas não a indicam; deixe vazio se o seu não a mencionar."
+            },
+            {
+              "term": "Grau académico",
+              "def": "Licenciatura, mestrado, doutorando, residência ou doutoramento. Obrigatório nos registos de ensino superior."
+            },
+            {
+              "term": "Data de início e data de fim",
+              "def": "Apenas mês e ano. Se ainda estuda, assinale **Atualmente estou a estudar** e deixe a data de fim vazia."
+            },
+            {
+              "term": "Nota adicional",
+              "def": "Uma nota curta, até 50 caracteres — por exemplo a classificação, uma distinção ou o tema da dissertação."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Os registos são ordenados automaticamente do mais recente para o mais antigo, com os estudos em curso no topo."
+        },
+        {
+          "kind": "p",
+          "text": "Se tem um grau do ensino superior, normalmente pode omitir a escola secundária. Se não tem, indique-a: uma secção de formação vazia fica pior do que uma modesta."
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Cursos e certificados",
+      "lead": "Cursos, certificações profissionais e licenças.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Esta secção serve para tudo o que lhe foi atribuído formalmente fora de um grau académico: uma certificação profissional, um certificado de línguas, uma formação, uma licença de segurança."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Nome da formação (curso)",
+              "def": "O nome próprio do certificado, até 100 caracteres — por exemplo **ACCA Applied Knowledge** ou **IELTS Academic**."
+            },
+            {
+              "term": "Instituição que realizou a formação",
+              "def": "Quem o atribuiu. Obrigatório."
+            },
+            {
+              "term": "Data de emissão",
+              "def": "Mês e ano. Os certificados são ordenados por esta data, do mais recente para o mais antigo."
+            },
+            {
+              "term": "Data de validade",
+              "def": "Só se o certificado realmente caducar. Caso contrário deixe vazio e o CV imprimirá **sem validade**."
+            },
+            {
+              "term": "ID da credencial",
+              "def": "O número que consta do certificado, se existir. Permite a uma empresa verificá-lo."
+            },
+            {
+              "term": "URL da credencial",
+              "def": "Um endereço Web onde o certificado possa ser verificado. Tem de começar por http:// ou https:// e passa a ser uma ligação clicável no CV."
+            },
+            {
+              "term": "Nota adicional",
+              "def": "Uma nota curta, até 100 caracteres — por exemplo uma pontuação."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Um certificado com pontuação vale mais do que um sem ela. **IELTS Academic — 7.5** diz alguma coisa a quem lê; **IELTS** sozinho não diz."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Competências",
+      "lead": "O que significa realmente o nível de 1 a 100 e quantas competências indicar.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Cada competência tem um nome e um nível de **1 a 100**. Escreva a competência — aparecem sugestões — e depois defina o nível com o cursor ou escrevendo o número."
+        },
+        {
+          "kind": "h",
+          "text": "O que significa o número"
+        },
+        {
+          "kind": "p",
+          "text": "Não existe uma escala oficial, por isso use esta e seja honesto. Um número inflacionado é descoberto logo na primeira pergunta da entrevista."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "1–20 — Iniciante",
+              "def": "Já experimentou. Precisaria de ajuda e supervisão."
+            },
+            {
+              "term": "21–40 — Elementar",
+              "def": "Faz tarefas simples sozinho, devagar e consultando com frequência."
+            },
+            {
+              "term": "41–60 — Seguro",
+              "def": "Usa-o no trabalho diário sem ajuda. É aqui que está a maioria das competências reais."
+            },
+            {
+              "term": "61–80 — Forte",
+              "def": "Resolve casos difíceis e os outros pedem-lhe ajuda."
+            },
+            {
+              "term": "81–100 — Especialista",
+              "def": "Poderia ensiná-lo, definir os padrões ou ser a pessoa que uma empresa contrata precisamente para isto."
+            }
+          ]
+        },
+        {
+          "kind": "warn",
+          "text": "Não ponha tudo a 100. Um CV em que todas as competências estão no máximo não diz nada a quem recruta e torna invisíveis os seus pontos fortes verdadeiros."
+        },
+        {
+          "kind": "h",
+          "text": "Quantas e quais"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Oito a doze** é um bom número. Uma lista de trinta lê-se como uma lista de nenhuma.",
+            "Indique coisas concretas e verificáveis: **Excel (tabelas dinâmicas, PROCV)**, **SAP**, **AutoCAD**, **Python**.",
+            "Deixe de fora aquilo que toda a gente alega — trabalhador, responsável, espírito de equipa. Demonstre-o nas suas realizações.",
+            "Use as palavras do anúncio onde elas o descrevem honestamente. O software que filtra CV procura exatamente essas palavras."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Alguns modelos mostram o nível como uma barra, outros em percentagem e outros não o mostram de todo. Veja a pré-visualização depois de mudar de modelo."
+        }
+      ]
+    },
+    "languages": {
+      "title": "Conhecimentos linguísticos",
+      "lead": "Os níveis de A1 a C2 por palavras simples, para escolher o seu com honestidade.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Adicione um registo por idioma: o idioma e o seu nível. Escreva o nome do idioma — aparecem sugestões — e pode escrever qualquer idioma que não esteja na lista."
+        },
+        {
+          "kind": "h",
+          "text": "Os níveis"
+        },
+        {
+          "kind": "p",
+          "text": "São os níveis europeus padrão (QECR), os mesmos usados pelas escolas de línguas e pelos exames."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "A1 — Iniciante",
+              "def": "Algumas palavras e frases feitas. Consegue dizer o seu nome e pedir um café."
+            },
+            {
+              "term": "A2 — Elementar",
+              "def": "Frases simples sobre assuntos familiares — família, compras, o seu trabalho em traços gerais."
+            },
+            {
+              "term": "B1 — Intermédio",
+              "def": "Desenrasca-se em situações do dia a dia e consegue explicar a sua opinião, devagar e com erros."
+            },
+            {
+              "term": "B2 — Intermédio alto",
+              "def": "Trabalha neste idioma. Acompanha reuniões, escreve e-mails e discute a sua área com à-vontade."
+            },
+            {
+              "term": "C1 — Avançado",
+              "def": "Usa-o com fluência e quase automaticamente, incluindo em temas complexos ou desconhecidos."
+            },
+            {
+              "term": "C2 — Proficiente",
+              "def": "Próximo de um falante nativo com formação, incluindo subtilezas e humor."
+            },
+            {
+              "term": "Língua materna",
+              "def": "A sua primeira língua, ou uma com que cresceu como tal."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Se tem um certificado de exame, acrescente-o também em **Cursos e certificados**, com a pontuação. Um nível declarado mais um certificado convence muito mais do que o nível sozinho."
+        },
+        {
+          "kind": "warn",
+          "text": "Seja realista. As entrevistas realizam-se muitas vezes no idioma que declarou, e um B2 escrito num CV é o que mais frequentemente é posto à prova nos primeiros dois minutos."
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projetos e interesses",
+      "lead": "Duas secções facultativas que rendem mais quando a experiência profissional é curta.",
+      "blocks": [
+        {
+          "kind": "h",
+          "text": "Projetos"
+        },
+        {
+          "kind": "p",
+          "text": "Um projeto é tudo o que construiu ou geriu e que mostre aquilo de que é capaz — um trabalho de curso, uma loja que abriu, um site, uma campanha de voluntariado, uma aplicação. Para estudantes e para quem muda de área, esta secção trabalha muitas vezes mais do que todas as outras."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Nome do projeto",
+              "def": "Como se chamava, até 100 caracteres."
+            },
+            {
+              "term": "Descrição",
+              "def": "Até 600 caracteres: o que era, o que fez e como correu."
+            },
+            {
+              "term": "URL do projeto",
+              "def": "Um endereço Web onde possa ser visto. Tem de começar por http:// ou https://"
+            },
+            {
+              "term": "Pontos-chave",
+              "def": "Pontos curtos, até 200 caracteres cada — a mesma ideia das realizações num emprego."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Diga qual foi a sua parte. **Equipa de quatro; a página de pagamento fui eu que a fiz** é muito mais útil do que **Fizemos uma loja online**."
+        },
+        {
+          "kind": "h",
+          "text": "Interesses"
+        },
+        {
+          "kind": "p",
+          "text": "Facultativos e curtos. Três a cinco interesses concretos dão a quem entrevista um assunto humano por onde começar. Seja concreto: **Corrida de fundo (duas maratonas)** funciona; **música, desporto, leitura** não."
+        },
+        {
+          "kind": "p",
+          "text": "Se o espaço faltar, esta é a primeira secção a retirar. Enquanto estiverem vazias, nenhuma das duas é impressa."
+        }
+      ]
+    },
+    "templates": {
+      "title": "Modelos",
+      "lead": "Como escolher um esquema e o que «compatível com ATS» significa para as suas hipóteses.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Prima **Modelos** para ver os {{templates}} esquemas. Escolher um modelo muda apenas o aspeto — o seu texto não é tocado e pode voltar atrás a qualquer momento. A sua escolha fica guardada."
+        },
+        {
+          "kind": "shot",
+          "id": "templates",
+          "caption": "A galeria de modelos. O distintivo assinala os esquemas mais seguros para a triagem automática de candidaturas."
+        },
+        {
+          "kind": "h",
+          "text": "O que significa ATS"
+        },
+        {
+          "kind": "p",
+          "text": "Muitas empresas médias e grandes não leem os CV à mão primeiro. O ficheiro entra num **sistema de gestão de candidaturas** (ATS) — software que extrai o seu nome, os empregos, as datas e as competências e os guarda numa base de dados. Se o software não conseguir ler bem o ficheiro, é possível que nenhuma pessoa chegue a vê-lo."
+        },
+        {
+          "kind": "p",
+          "text": "Os modelos marcados como **Compatível com ATS** foram feitos para isso: uma única coluna, sem fotografia, sem faixas decorativas, com títulos simples. É a escolha segura quando se candidata através do portal de uma empresa ou de um grande site de emprego."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Candidata-se pelo site de uma empresa ou por um grande portal de emprego?** Use um modelo compatível com ATS.",
+            "**Escreve diretamente a uma pessoa ou trabalha em design?** Um modelo de duas colunas ou com cor é adequado e destaca-se.",
+            "**Está indeciso?** Use um compatível com ATS. Nunca prejudica; o contrário pode prejudicar."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Todos os modelos aqui produzem um PDF de texto verdadeiro, por isso as suas palavras são sempre legíveis por máquina. O distintivo diz respeito ao esquema — o que confunde o software de triagem mais antigo são as colunas, as fotografias e os painéis coloridos."
+        }
+      ]
+    },
+    "export": {
+      "title": "Descarregar como PDF",
+      "lead": "Obter o ficheiro terminado e o que fazer quando o botão está cinzento.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Prima **Descarregar como PDF**. O ficheiro é criado dentro do seu navegador e guardado no seu dispositivo, com o seu nome e a data de hoje."
+        },
+        {
+          "kind": "shot",
+          "id": "actions",
+          "caption": "Os botões na barra superior: escolher um modelo, recomeçar, guardar uma cópia de segurança e descarregar o PDF."
+        },
+        {
+          "kind": "h",
+          "text": "Se o botão estiver cinzento"
+        },
+        {
+          "kind": "p",
+          "text": "Para descarregar são precisas três coisas: **nome**, **apelido** e um **endereço de e-mail válido**. Se faltar algum ou estiver errado, o botão fica desativado e, ao passar o rato, indica o motivo. Preencha-os e fica azul de imediato."
+        },
+        {
+          "kind": "h",
+          "text": "O que obtém"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "Um PDF verdadeiro: o texto pode ser selecionado e copiado, e o software de triagem consegue lê-lo.",
+            "Sempre A4 vertical, seja qual for o dispositivo em que o criou.",
+            "Ligações funcionais — números, endereços de e-mail e ligações de perfil são clicáveis.",
+            "Uma ou duas páginas, conforme o que escreveu."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "O primeiro descarregamento de cada sessão demora alguns segundos a mais, porque a parte da aplicação que gera PDF só é carregada quando a pede realmente. Depois é imediato."
+        },
+        {
+          "kind": "note",
+          "text": "Veja a pré-visualização antes de enviar. Se o seu CV passar para uma terceira página, encurte as descrições ou retire uma secção facultativa — duas páginas é o limite prático para a maioria dos empregos."
+        }
+      ]
+    },
+    "backup": {
+      "title": "Cópia de segurança e recomeçar",
+      "lead": "Como guardar uma cópia do seu CV, levá-lo para outro dispositivo ou apagá-lo e começar de novo.",
+      "blocks": [
+        {
+          "kind": "warn",
+          "text": "O seu CV vive apenas neste navegador. Limpar o histórico, usar uma janela privada, reinstalar o navegador ou mudar de dispositivo fá-lo desaparecer. Não há cópia num servidor nem recuperação de palavra-passe — um ficheiro de cópia de segurança é a única forma de o conservar."
+        },
+        {
+          "kind": "h",
+          "text": "Guardar uma cópia de segurança"
+        },
+        {
+          "kind": "p",
+          "text": "No editor, prima **Cópia de segurança**. É descarregado um ficheiro `.json` com todo o seu CV, incluindo a fotografia. Guarde-o onde o consiga encontrar: armazenamento na nuvem, um e-mail para si próprio, uma pen USB."
+        },
+        {
+          "kind": "note",
+          "text": "Pode guardar uma cópia a qualquer momento, mesmo de um CV a meio. Ao contrário do descarregamento do PDF, aqui não há condições."
+        },
+        {
+          "kind": "h",
+          "text": "Restaurar a partir de uma cópia"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "Abra o OnlineCV no dispositivo onde quer ter o seu CV.",
+            "No **primeiro ecrã**, procure **Restaurar a partir de ficheiro** no fim do passo 1.",
+            "Escolha a sua cópia `.json`.",
+            "O editor abre com tudo no lugar."
+          ]
+        },
+        {
+          "kind": "warn",
+          "text": "O restauro só é oferecido no primeiro ecrã. Se este navegador já tiver um CV, não verá o botão — prima primeiro **Repor** e depois restaure. É de propósito: impede que um ficheiro substitua em silêncio trabalho de que não tem cópia."
+        },
+        {
+          "kind": "p",
+          "text": "Se parte de um ficheiro não puder ser lida — uma data invulgar, um tipo de contacto que esta versão não conhece — o resto é carregado na mesma e é-lhe dito o que foi ignorado, em vez de lhe ser mostrado em silêncio um CV incompleto."
+        },
+        {
+          "kind": "h",
+          "text": "Começar de novo"
+        },
+        {
+          "kind": "p",
+          "text": "**Repor** esvazia completamente o CV e leva-o de volta ao primeiro ecrã. É pedida confirmação primeiro."
+        },
+        {
+          "kind": "warn",
+          "text": "A reposição não pode ser anulada. Guarde primeiro um ficheiro de cópia de segurança, a não ser que tenha a certeza absoluta."
+        }
+      ]
+    },
+    "install": {
+      "title": "Instalar e trabalhar sem ligação",
+      "lead": "O OnlineCV pode ser instalado como uma aplicação e continua a funcionar sem Internet.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "O OnlineCV é um sítio Web que pode ser instalado. Depois de instalado, abre a partir do ecrã principal ou do menu Iniciar na sua própria janela, sem barra de endereço."
+        },
+        {
+          "kind": "h",
+          "text": "Instalação"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Chrome ou Edge no computador",
+              "def": "Clique no ícone de instalação na extremidade direita da barra de endereço, ou use o menu do navegador e escolha instalar a aplicação."
+            },
+            {
+              "term": "Android",
+              "def": "Abra o menu do navegador e escolha **Adicionar ao ecrã principal** ou **Instalar aplicação**."
+            },
+            {
+              "term": "iPhone ou iPad",
+              "def": "No Safari, prima o botão Partilhar e escolha **Adicionar ao ecrã principal**."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Trabalhar sem ligação"
+        },
+        {
+          "kind": "p",
+          "text": "Depois da primeira visita, o OnlineCV funciona sem qualquer ligação. Pode editar o CV, mudar de modelo e descarregar o PDF num avião ou com os dados móveis desligados. Uma pequena barra avisa-o quando está sem ligação."
+        },
+        {
+          "kind": "note",
+          "text": "Só duas coisas precisam de Internet, e apenas da primeira vez: as imagens deste guia e os tipos de letra adicionais para chinês, japonês e coreano. Depois de carregados, ficam guardados."
+        },
+        {
+          "kind": "note",
+          "text": "Quando há uma versão nova, é-lhe proposto recarregar. Nada é substituído enquanto está a escrever."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacidade",
+      "lead": "O que fica no seu dispositivo, o que não fica e como mudar de ideias.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Por trás do OnlineCV não há conta, nem início de sessão, nem servidor. **O seu CV nunca sai do seu dispositivo como ficheiro.** Ninguém no OnlineCV o pode ler e não há nada que possa fugir numa violação de dados, porque não existe base de dados nenhuma."
+        },
+        {
+          "kind": "h",
+          "text": "A única coisa que sai"
+        },
+        {
+          "kind": "p",
+          "text": "Na primeira visita é-lhe perguntado se aceita estatísticas de utilização. Antes da sua resposta não é carregado absolutamente nada."
+        },
+        {
+          "kind": "p",
+          "text": "Se aceitar, arrancam três ferramentas de medição — Google Analytics, Microsoft Clarity e Yandex Metrica. Registam que páginas e botões são usados, o seu dispositivo e navegador, a sua região aproximada e **uma gravação da sessão, que inclui o que escreve no formulário**. Dizemo-lo com clareza porque é assim que descobrimos onde as pessoas ficam bloqueadas; e é exatamente por isso que a decisão é sua."
+        },
+        {
+          "kind": "p",
+          "text": "Se recusar, nada disso é carregado e nada é recolhido. A aplicação funciona exatamente da mesma maneira. O custo é nosso, não seu: os problemas que encontrar não chegam até nós e, por isso, não podem ser corrigidos."
+        },
+        {
+          "kind": "h",
+          "text": "Mudar de ideias"
+        },
+        {
+          "kind": "p",
+          "text": "A ligação **Privacidade e estatísticas** no fundo da página reabre a pergunta a qualquer momento e mostra a sua escolha atual. A retirada produz efeito pleno depois de recarregar."
+        },
+        {
+          "kind": "note",
+          "text": "A sua resposta é guardada por navegador, não junto com o CV — repor o CV não faz a pergunta voltar."
+        }
+      ]
+    },
+    "writing": {
+      "title": "Como escrever um CV que seja lido",
+      "lead": "Conselhos práticos para a parte difícil: decidir o que pôr lá dentro.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Quem analisa uma pilha de CV dá a cada um alguns segundos antes de decidir se o lê a sério ou se avança. Tudo o que se segue serve para sobreviver a esses segundos."
+        },
+        {
+          "kind": "h",
+          "text": "O básico"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Uma página** se tem menos de cinco anos de experiência, **duas** se tem mais. Três quase nunca são lidas até ao fim.",
+            "**Adapte-o a cada vaga.** Reordene as realizações para que as que correspondem ao anúncio venham primeiro. Estes quinze minutos mudam o resultado mais do que tudo o resto aqui.",
+            "**Use as palavras do anúncio** onde elas o descrevem honestamente. O software de triagem compara o texto à letra: se o anúncio diz **contas a pagar** e foi isso que fez, essa expressão deve aparecer.",
+            "**Verifique a ortografia dos seus próprios cargos e do seu endereço de e-mail.** Uma gralha no endereço é um CV a que ninguém pode responder."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Escreva resultados, não tarefas"
+        },
+        {
+          "kind": "p",
+          "text": "Uma descrição de funções diz o que devia fazer. Um CV deve dizer o que aconteceu de facto por ter estado lá. Cada registo melhora com a pergunta **e depois?**"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Tarefa:** Geri as redes sociais da empresa.",
+            "**Resultado:** Levei o Instagram da empresa de 2.000 para 11.000 seguidores num ano; os contactos vindos das redes sociais triplicaram.",
+            "**Tarefa:** Tratei de reclamações de clientes.",
+            "**Resultado:** Assumi a fila de reclamações e reduzi o tempo médio de resposta de três dias para quatro horas."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Use números"
+        },
+        {
+          "kind": "p",
+          "text": "Os números são a forma mais rápida de ser acreditado. Quantas pessoas, quanto dinheiro, quanto mais depressa, quantos clientes, com que frequência. Se realmente não tem números, use a escala e a frequência: **uma equipa de seis**, **cerca de 40 chamadas por dia**, **uma carteira de 12 clientes**."
+        },
+        {
+          "kind": "h",
+          "text": "Deixe de fora"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Referências disponíveis mediante pedido** — é dado como garantido e desperdiça uma linha.",
+            "O seu número de identificação, a sua morada exata, os seus dados bancários. Nunca ponha isto num documento que envia a desconhecidos.",
+            "Os motivos de saída de empregos anteriores e o salário atual ou pretendido, a não ser que lhos peçam.",
+            "Adjetivos vazios sem nada por trás. **Trabalhador** não vale nada; **assegurei o trabalho de dois colegas durante três meses numa migração de sistema** é a mesma afirmação, mas provada."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Interrupções e empregos curtos"
+        },
+        {
+          "kind": "p",
+          "text": "Não os esconda; explique-os brevemente. Estudar, doença, cuidar de familiares, serviço militar e criar um negócio são motivos comuns, e uma interrupção explicada deixa de ser uma pergunta. Para registos curtos use o campo **Tipo de contrato**: **Estágio** ou **Sazonal** explica três meses antes de alguém pensar nisso."
+        },
+        {
+          "kind": "h",
+          "text": "Antes de enviar"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "Leia o seu CV em voz alta. Cada frase em que tropeça é uma frase a encurtar.",
+            "Confirme que todas as datas estão certas e que não ficam interrupções por explicar.",
+            "Verifique o número de telefone e o endereço de e-mail, caractere a caractere.",
+            "Descarregue o PDF e abra-o. É esse o ficheiro que a empresa vê, não a pré-visualização.",
+            "Peça a outra pessoa que o leia. Vai encontrar o erro que já não consegue ver."
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "lead": "Respostas curtas ao que mais se pergunta.",
+      "blocks": [
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "É mesmo gratuito?",
+              "def": "Sim. Não há conta, período experimental, marca de água nem versão paga."
+            },
+            {
+              "term": "Onde é guardado o meu CV?",
+              "def": "No seu próprio navegador, no dispositivo onde o escreveu. Em servidor nenhum."
+            },
+            {
+              "term": "Posso continuar no telemóvel?",
+              "def": "Só guardando um ficheiro de cópia de segurança num dispositivo e restaurando-o no outro. Não há sincronização, porque não há conta."
+            },
+            {
+              "term": "Posso ter mais do que um CV?",
+              "def": "Um CV por navegador. Para guardar várias versões, guarde um ficheiro de cópia para cada uma e restaure a que precisa."
+            },
+            {
+              "term": "Porque não consigo carregar em Descarregar?",
+              "def": "São precisos nome, apelido e um endereço de e-mail válido. Passe o rato sobre o botão e ele explica."
+            },
+            {
+              "term": "Posso editar o PDF depois?",
+              "def": "Altere aqui e descarregue de novo — é mais rápido e mantém o esquema certo. Editar um PDF noutro programa costuma partir a camada de texto que o software de triagem lê."
+            },
+            {
+              "term": "Funciona sem Internet?",
+              "def": "Sim, depois da primeira visita. Tanto a edição como o descarregamento do PDF funcionam sem ligação."
+            },
+            {
+              "term": "Limpei os dados do navegador e o meu CV desapareceu. Conseguem recuperá-lo?",
+              "def": "Não. Fora do seu dispositivo não é guardado nada, por isso não há de onde recuperar. Só um ficheiro de cópia de segurança o pode trazer de volta."
+            },
+            {
+              "term": "Porque é que o meu CV tem duas páginas?",
+              "def": "Por causa da quantidade de texto. Encurte as descrições, reduza os empregos antigos a uma linha ou oculte uma secção facultativa."
+            },
+            {
+              "term": "Posso mudar a ordem das secções?",
+              "def": "As secções em si, não. Os registos dentro de experiência profissional, formação e certificados podem ser reordenados com **Ordem personalizada**."
+            },
+            {
+              "term": "Que modelo devo escolher?",
+              "def": "Um compatível com ATS se se candidatar pelo site de uma empresa ou por um grande portal de emprego. Caso contrário, o que preferir."
+            },
+            {
+              "term": "Os meus dados são usados para treinar IA ou vendidos?",
+              "def": "Não. O seu CV não é enviado para lado nenhum, por isso não há nada para vender nem para treinar. Se aceitou as estatísticas de utilização, as ferramentas de medição indicadas em **Privacidade** recebem dados da sessão — recusar desliga tudo isso."
+            }
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Continua sem conseguir? O botão do Telegram na barra superior leva ao grupo da comunidade do projeto."
+        }
+      ]
+    }
+  }
+}

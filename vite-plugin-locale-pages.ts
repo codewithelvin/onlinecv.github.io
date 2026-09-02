@@ -3,6 +3,7 @@ import { DEFAULT_LOCALE, SUPPORTED_LOCALES, LOCALES } from './src/app/i18n/local
 import {
   INDEXNOW_KEY,
   SITE_ORIGIN,
+  helpUrl,
   hreflangAlternates,
   localeSegment,
   localeUrl,
@@ -10,6 +11,8 @@ import {
   ogLocale,
 } from './src/app/seo-locales';
 import { renderNotFoundPage, type NotFoundStrings } from './src/app/not-found-page';
+import { renderHelpPage, type HelpPageStrings } from './src/app/help-page';
+import { HELP_CONTENT } from './src/features/help/content/all';
 import type { Locale } from './src/types/resume';
 import az from './src/app/i18n/az.json';
 import ru from './src/app/i18n/ru.json';
@@ -72,29 +75,35 @@ interface SeoStrings {
  * reading the files, so no `@types/node` is needed (§27 keeps the dependency list
  * closed) and a malformed bundle is a build error rather than a runtime one.
  */
-const BUNDLES: Record<Locale, { seo?: Partial<SeoStrings>; notFound?: Partial<NotFoundStrings> }> =
+const BUNDLES: Record<
+  Locale,
   {
-    az,
-    ru,
-    en,
-    ka,
-    ar,
-    es,
-    he,
-    ko,
-    zh,
-    fr,
-    de,
-    it,
-    tr,
-    pt,
-    pl,
-    hu,
-    el,
-    kk,
-    uz,
-    ja,
-  };
+    seo?: Partial<SeoStrings>;
+    notFound?: Partial<NotFoundStrings>;
+    help?: Partial<{ topics: string }>;
+  }
+> = {
+  az,
+  ru,
+  en,
+  ka,
+  ar,
+  es,
+  he,
+  ko,
+  zh,
+  fr,
+  de,
+  it,
+  tr,
+  pt,
+  pl,
+  hu,
+  el,
+  kk,
+  uz,
+  ja,
+};
 
 function seoStrings(locale: Locale): SeoStrings {
   const { title, description, imageAlt } = BUNDLES[locale].seo ?? {};
@@ -120,6 +129,23 @@ function notFoundStrings(locale: Locale): NotFoundStrings {
     throw new Error(`locale-pages: ${locale}.json is missing a notFound.* key`);
   }
   return { title, body, retired, action };
+}
+
+/**
+ * The chrome around a guide page, from the same bundles.
+ *
+ * `notFound.action` is reused as the call to action back into the app rather than
+ * a new key being invented for it: it is the same sentence ("Create your CV")
+ * aimed at the same reader — someone on a static page who should be offered the
+ * app — already translated twenty times in each bundle's own register.
+ */
+function helpPageStrings(locale: Locale): HelpPageStrings {
+  const { topics } = BUNDLES[locale].help ?? {};
+  const { action } = BUNDLES[locale].notFound ?? {};
+  if (!topics || !action) {
+    throw new Error(`locale-pages: ${locale}.json is missing a help.topics/notFound.action key`);
+  }
+  return { topics, action };
 }
 
 /** Every locale's `notFound` copy, which is what `404.html` embeds. */
@@ -262,21 +288,49 @@ function renderLocalePage(html: string, locale: Locale, canonical: string): stri
   return out;
 }
 
-/** `sitemap.xml` listing every locale page — generated so it cannot fall behind. */
+/**
+ * One `<url>` entry, with the full alternate set for whichever family of pages it
+ * belongs to.
+ *
+ * `urlFor` is passed through to `hreflangAlternates` rather than defaulted,
+ * because a guide page's alternates must point at the other GUIDES. An
+ * `hreflang` set that sends a French reader of the English guide to the French
+ * home page has answered a question nobody asked.
+ */
+function sitemapEntry(
+  locale: Locale,
+  urlFor: (locale: Locale) => string,
+  priority: string,
+): string {
+  return (
+    `  <url>\n    <loc>${urlFor(locale)}</loc>\n` +
+    hreflangAlternates(urlFor)
+      .map(
+        ({ hreflang, href }) =>
+          `    <xhtml:link rel="alternate" hreflang="${hreflang}" href="${href}" />`,
+      )
+      .join('\n') +
+    `\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>`
+  );
+}
+
+/**
+ * `sitemap.xml` — every locale landing page and every locale GUIDE page,
+ * generated so it cannot fall behind.
+ *
+ * The guide pages are listed at a lower priority than the landing pages, not
+ * because they matter less but because they are what a search engine should reach
+ * for a specific question rather than for the site as a whole.
+ */
 function sitemap(): string {
-  const urls = SUPPORTED_LOCALES.map(
-    (locale) =>
-      `  <url>\n    <loc>${localeUrl(locale)}</loc>\n` +
-      hreflangAlternates()
-        .map(
-          ({ hreflang, href }) =>
-            `    <xhtml:link rel="alternate" hreflang="${hreflang}" href="${href}" />`,
-        )
-        .join('\n') +
-      `\n    <changefreq>weekly</changefreq>\n    <priority>${
-        locale === DEFAULT_LOCALE ? '1.0' : '0.9'
-      }</priority>\n  </url>`,
-  ).join('\n');
+  const urls = [
+    ...SUPPORTED_LOCALES.map((locale) =>
+      sitemapEntry(locale, localeUrl, locale === DEFAULT_LOCALE ? '1.0' : '0.9'),
+    ),
+    ...SUPPORTED_LOCALES.map((locale) =>
+      sitemapEntry(locale, helpUrl, locale === DEFAULT_LOCALE ? '0.8' : '0.7'),
+    ),
+  ].join('\n');
   return (
     '<?xml version="1.0" encoding="UTF-8"?>\n' +
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n' +
@@ -284,6 +338,56 @@ function sitemap(): string {
     urls +
     '\n</urlset>\n'
   );
+}
+
+/**
+ * Serve the guide pages on the DEV server, where nothing else emits them.
+ *
+ * `localePages` is `apply: 'build'` — it works inside `generateBundle`, which no
+ * dev server runs — so every page it produces (the locale pages, `404.html`,
+ * `sitemap.xml`, and the 21 guide pages) simply does not exist under `npm run
+ * dev`. For most of them that is invisible. For the guide it is a trap with a
+ * misleading symptom: Vite's SPA fallback answers `/az/help` with `index.html`,
+ * so the URL returns **200 and renders the CV editor**. It does not look like a
+ * missing page; it looks like the guide is broken, and `#projects` scrolls
+ * nothing because the page it names is not the page you got.
+ *
+ * That matters more here than for the other generated files because the guide is
+ * the one whose CONTENT gets edited: proof-reading twenty languages of prose
+ * should not need a full production build between reads.
+ *
+ * Deliberately a separate plugin rather than dropping `apply: 'build'` from
+ * `localePages`: this one has exactly one job, runs only in `serve`, and cannot
+ * change anything about what ships.
+ */
+export function helpPagesDevServer(): Plugin {
+  let base = '/';
+  return {
+    name: 'onlinecv-help-pages-dev',
+    apply: 'serve',
+    configResolved(config) {
+      base = config.base;
+    },
+    configureServer(server) {
+      server.middlewares.use((req, res, next) => {
+        // `req.url` narrowed by hand: `@types/node` is deliberately not a
+        // dependency (§27), so `IncomingMessage` here carries none of its fields.
+        const { url } = req as { url?: string };
+        const path = (url ?? '').split('?')[0].replace(/\.html$/, '');
+        // `/az/help`, and `/help` for the default locale — the same two forms the
+        // build emits, so a link that works in dev works in production.
+        const match = /^\/(?:([a-z]{2})\/)?help\/?$/.exec(path);
+        const segment = match?.[1];
+        if (!match || (segment !== undefined && !SUPPORTED_LOCALES.includes(segment as Locale))) {
+          next();
+          return;
+        }
+        const locale = (segment ?? DEFAULT_LOCALE) as Locale;
+        res.setHeader('content-type', 'text/html; charset=utf-8');
+        res.end(renderHelpPage(locale, HELP_CONTENT[locale], helpPageStrings(locale), base));
+      });
+    },
+  };
 }
 
 export function localePages(): Plugin {
@@ -338,6 +442,46 @@ export function localePages(): Plugin {
           source: page,
         });
       }
+
+      /**
+       * The USER GUIDE, one static page per language (spec §10.4 / §19.2 as
+       * amended) — `/az/help`, and `/help` for the default locale.
+       *
+       * ONE file per locale here, unlike the landing pages above: `/az/help/` has
+       * never been published, so there is no already-indexed trailing-slash form
+       * that Pages (which can author no redirects) would strand at a 404. Emitting
+       * a directory twin would create a duplicate to consolidate rather than
+       * rescue one.
+       *
+       * These are `.html`, so `globPatterns` precaches them — the guide works
+       * offline as a page as well as in the panel. The extensionless URL that
+       * actually gets requested is handled by the `helpPagePattern` rule in
+       * `vite.config.ts`, because a precache entry for `az/help.html` cannot
+       * answer a navigation to `/az/help`.
+       */
+      for (const locale of SUPPORTED_LOCALES) {
+        this.emitFile({
+          type: 'asset',
+          fileName: `${localeSegment(locale)}/help.html`,
+          source: renderHelpPage(locale, HELP_CONTENT[locale], helpPageStrings(locale), base),
+        });
+      }
+      /**
+       * `/help` at the root, in the default language and canonicalizing to
+       * `/az/help`. It exists because it is the address people guess and type;
+       * the canonical stops it competing with the locale copy, exactly as `/`
+       * defers to `/az`.
+       */
+      this.emitFile({
+        type: 'asset',
+        fileName: 'help.html',
+        source: renderHelpPage(
+          DEFAULT_LOCALE,
+          HELP_CONTENT[DEFAULT_LOCALE],
+          helpPageStrings(DEFAULT_LOCALE),
+          base,
+        ),
+      });
 
       /**
        * The root page keeps serving the default language, but now declares the

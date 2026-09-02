@@ -186,6 +186,17 @@
     "generating": "正在生成 PDF…",
     "error": "生成 PDF 时出错，请重试。"
   },
+  "help": {
+    "open": "打开指南",
+    "short": "指南",
+    "wizard": "第一次使用？先看看指南",
+    "section": "这一栏该填什么？",
+    "title": "指南",
+    "topics": "全部主题",
+    "loading": "正在加载指南…",
+    "error": "指南加载失败。请检查网络后重试。",
+    "openPage": "以网页方式打开"
+  },
   "backup": {
     "download": "备份",
     "downloadHint": "把简历数据保存为文件。以后你可以选择该文件来恢复简历。",

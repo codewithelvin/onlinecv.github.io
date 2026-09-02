@@ -336,10 +336,53 @@ empty values, and that the dayjs data was imported.
    one. A test asserts that, and it maps the locale to a code rather than assuming
    they match: Spanish is `hispanic`, the name the original dictionary used.
 
-## Optional step
+6. **The user guide** (§10.4) — `src/features/help/content/<code>.json`, plus one
+   line each in `content/index.ts` (the lazy loader) and `content/all.ts` (the
+   build's eager map). The loader is a `Record<Locale, …>` so `tsc` names it;
+   `all.ts` sits behind a cast and is caught by `help-content.test.ts` instead.
 
-6. **Template names** — `TemplateManifest.name` requires only `az`, so existing
-   template folders keep working untouched. Add the new code when convenient.
+   Start from `en.json` and translate **all 381 strings**. Do not stop at "it
+   renders" — a copy of `en.json` validates, renders, and gets listed in the
+   sitemap under `<html lang="ja">` while reading in English. Seven languages sat
+   in exactly that state until 2026-09-02. `help-content.test.ts` now fails on any
+   string over six words still identical to the English one, so the placeholder
+   cannot ship twice.
+
+   Three rules, each learned from a defect:
+
+   - **Keep the block structure identical.** Only the strings differ between
+     languages; a dropped bullet renders perfectly and is invisible. The test
+     compares the shape (`topic:kind#shot[itemCount]`) element by element.
+   - **Name the app's real buttons.** Where the guide says "press X", copy X out
+     of your own `src/app/i18n/<code>.json` (`export.downloadPdf`,
+     `backup.restoreButton`, `order.manual`, `common.present`, …). A guide that
+     invents its own name for a button is worse than one left in English.
+   - ⚠️ **In an RTL language, `left` and `right` are mirrored** — the editor puts
+     the form on the *right* and the preview on the *left*. Translating the
+     English sentence literally documents the wrong screen; the Arabic guide
+     shipped two such steps until a screenshot showed them side by side. Either
+     write side-neutral prose (as the Hebrew guide does throughout) or mirror the
+     sides deliberately.
+
+7. **Guide screenshots** — `npm run build`, then
+   `npx vite-node scripts/make-help-shots.ts -- <code>`, which writes nine WebP
+   files to `public/help-shots/<code>/`. They are captures of the **real app in
+   that language**: a reader confused by the interface must not be handed a
+   picture of a different one. Look at all nine before committing — this is the
+   only place a layout that is broken *only* in the new language surfaces as an
+   image rather than as a passing test.
+
+8. **Template names** — add the new code to `name` in **every**
+   `src/templates/*/manifest.ts`.
+
+   `TemplateManifest.name` is still a partial record, so this does not break the
+   build the moment you widen the union — but it is **no longer optional**, and
+   `templates.test.tsx` fails until every template names itself in the new
+   language. It used to say "add the new code when convenient", and convenient
+   never came: by 2026-09-02 `classic`, `compact` and `modern` were still on the
+   six languages they shipped with, so fourteen locales were offered a picker
+   reading "Klassik / Yığcam / Müasir". The picker's fallback to Azerbaijani is
+   silent, which is exactly why a test has to say it out loud.
 
 ## Check that the language's own users can express their own data
 

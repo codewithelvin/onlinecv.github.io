@@ -186,6 +186,17 @@
     "generating": "PDF hazırlanıyor...",
     "error": "PDF oluşturulurken bir hata oluştu. Lütfen tekrar deneyin."
   },
+  "help": {
+    "open": "Kılavuzu aç",
+    "short": "Kılavuz",
+    "wizard": "İlk kez mi? Kılavuzu okuyun",
+    "section": "Bu bölüme ne yazılır?",
+    "title": "Kılavuz",
+    "topics": "Tüm konular",
+    "loading": "Kılavuz yükleniyor…",
+    "error": "Kılavuz yüklenemedi. Bağlantınızı kontrol edip tekrar deneyin.",
+    "openPage": "Sayfa olarak aç"
+  },
   "backup": {
     "download": "Yedek",
     "downloadHint": "CV verilerinizi dosya olarak kaydedin. Daha sonra bu dosyayı seçip CV'nizi geri yükleyebilirsiniz.",

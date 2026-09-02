@@ -1,5 +1,6 @@
 import { type JSX, useState } from 'react';
 import { Button, Card, Col, Row, Space, Steps, Typography } from 'antd';
+import { FiHelpCircle } from 'react-icons/fi';
 import { SiClaude } from 'react-icons/si';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
@@ -23,6 +24,7 @@ import {
 } from '../editor/schemas';
 import { GENDERS, MARITAL_STATUSES, dictOptions } from '../editor/enums';
 import { ImportBackup } from '../backup/ImportBackup';
+import { useHelpStore } from '../help/help-store';
 
 /** Two-up on tablet and desktop, stacked on phones (spec §10.3). */
 const HALF = { xs: 24, sm: 12 } as const;
@@ -71,6 +73,7 @@ export function Wizard(): JSX.Element {
   const [step, setStep] = useState(0);
   const [step1, setStep1] = useState<WizardStep1Values | null>(null);
 
+  const openHelp = useHelpStore((s) => s.openHelp);
   const updateBasics = useResumeStore((s) => s.updateBasics);
   const updateGeneralInfo = useResumeStore((s) => s.updateGeneralInfo);
   const updateContactEmail = useResumeStore((s) => s.updateContactEmail);
@@ -138,7 +141,26 @@ export function Wizard(): JSX.Element {
     >
       <Card style={{ width: '100%', maxWidth: 760 }}>
         <Typography.Title level={4}>{t('wizard.title')}</Typography.Title>
-        <Typography.Paragraph type="secondary">{t('wizard.welcome')}</Typography.Paragraph>
+        <Typography.Paragraph type="secondary" style={{ marginBottom: 8 }}>
+          {t('wizard.welcome')}
+        </Typography.Paragraph>
+        {/* The guide's second entry point (spec §10.4). It belongs on THIS screen
+            more than on any other: someone who has never written a CV meets this
+            form first, and the editor's `?` is still two clicks away behind a
+            form they do not yet know how to finish. A link rather than a button —
+            it must not compete with Next. */}
+        <Typography.Paragraph style={{ marginBottom: 20 }}>
+          <Button
+            id="wizard-help"
+            type="link"
+            size="small"
+            icon={<FiHelpCircle aria-hidden />}
+            onClick={() => openHelp()}
+            style={{ paddingInlineStart: 0 }}
+          >
+            {t('help.wizard')}
+          </Button>
+        </Typography.Paragraph>
         <Steps
           current={step}
           size="small"

@@ -186,6 +186,17 @@
     "generating": "PDF előkészítése...",
     "error": "Hiba történt a PDF létrehozása során. Próbálja újra."
   },
+  "help": {
+    "open": "Útmutató megnyitása",
+    "short": "Útmutató",
+    "wizard": "Először jár itt? Olvassa el az útmutatót",
+    "section": "Mi kerül ebbe a szakaszba?",
+    "title": "Útmutató",
+    "topics": "Összes téma",
+    "loading": "Az útmutató betöltése…",
+    "error": "Az útmutatót nem sikerült betölteni. Ellenőrizze a kapcsolatot, és próbálja újra.",
+    "openPage": "Megnyitás oldalként"
+  },
   "backup": {
     "download": "Biztonsági mentés",
     "downloadHint": "Mentse az önéletrajz adatait fájlba. Később kiválaszthatja ezt a fájlt, és visszaállíthatja az önéletrajzát.",
