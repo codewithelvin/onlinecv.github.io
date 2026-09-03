@@ -23,7 +23,7 @@ describe('PreviewPane attribution', () => {
 
   it('shows the credit line and a checked opt-out by default', async () => {
     renderWithProviders(<PreviewPane />);
-    const checkbox = screen.getByRole('checkbox', { name: /saytımızın linkini/i });
+    const checkbox = screen.getByRole('checkbox', { name: /saytımızın linki/i });
     expect((checkbox as HTMLInputElement).checked).toBe(true);
     expect(await screen.findByText(ATTRIBUTION_TEXT)).toBeTruthy();
   });
@@ -46,7 +46,7 @@ describe('PreviewPane attribution', () => {
     renderWithProviders(<PreviewPane />);
     await screen.findByText(ATTRIBUTION_TEXT);
 
-    await userEvent.click(screen.getByRole('checkbox', { name: /saytımızın linkini/i }));
+    await userEvent.click(screen.getByRole('checkbox', { name: /saytımızın linki/i }));
 
     expect(useResumeStore.getState().resume.attribution).toBe(false);
     await waitFor(() => expect(screen.queryByText(ATTRIBUTION_TEXT)).toBeNull());

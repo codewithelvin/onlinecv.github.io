@@ -241,8 +241,9 @@ export function contactHref(item: ContactItem): string | undefined {
  * Derived from the unit string itself rather than declared per locale, for the
  * same reason `utils/arabic`'s tables are derived — the rule is a property of the
  * word being appended, so a future Japanese or Chinese locale gets it for free and
- * `LocaleMeta` needs no new field. Korean is the case that raised it: `common.years`
- * is `세`, and the hard-coded space read as a typo on the finished CV.
+ * `LocaleMeta` needs no new field. Korean is the case that raised it:
+ * `common.years_other` is `세`, and the hard-coded space read as a typo on the
+ * finished CV.
  */
 const NO_SPACE_BEFORE_UNIT =
   /^[\p{Script=Hangul}\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]/u;
@@ -262,7 +263,7 @@ export function withUnit(value: string, unit: string): string {
  */
 export function generalInfoPairs(
   resume: Resume,
-  t: (key: string) => string,
+  t: (key: string, options?: { count?: number }) => string,
   formatDate: (iso: string, fmt?: string) => string,
   fullDateFormat: string,
 ): Array<[string, string]> {
@@ -273,11 +274,18 @@ export function generalInfoPairs(
     // The age is the one NUMBER on the CV that dayjs never formats, so it needs
     // the locale's own digits applied by hand (`٣٤` on an Arabic CV, matching
     // the date beside it).
+    //
+    // The UNIT beside it has to agree with that number, which is why `count` is
+    // passed rather than the bare key: a fixed string prints "22 лет" where
+    // Russian requires "22 года", and "22 lat" where Polish requires "22 lata" —
+    // wrong for about a third of the ages a CV can hold. i18next resolves
+    // `common.years` + count to the CLDR category of `resume.locale`, and every
+    // bundle carries all six so the key sets stay identical.
     const years = age !== null ? localizeDigits(String(age), resume.locale) : '';
     pairs.push([
       t('cvLabels.dateOfBirth'),
       `${formatDate(gi.dateOfBirth, fullDateFormat)}${
-        years ? ` (${withUnit(years, t('common.years'))})` : ''
+        age !== null ? ` (${withUnit(years, t('common.years', { count: age }))})` : ''
       }`,
     ]);
   }

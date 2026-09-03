@@ -1,6 +1,6 @@
 {
   "title": "Guia do OnlineCV",
-  "intro": "Tudo o que precisa para construir o seu CV, explicado por palavras simples. Comece pelo início ou vá diretamente à parte em que está com dificuldades.",
+  "intro": "Tudo o que precisa para construir o seu CV, explicado em palavras simples. Comece pelo início ou vá diretamente à parte em que está com dificuldades.",
   "topics": {
     "start": {
       "title": "Comece por aqui",
@@ -375,7 +375,7 @@
         },
         {
           "kind": "note",
-          "text": "A mesma regra vale para telemóvel, fixo, fax e WhatsApp. Não é preciosismo: escrito assim, o número pode ser marcado a partir de qualquer país e transforma-se numa ligação que a empresa pode tocar."
+          "text": "A mesma regra vale para telemóvel, fixo, fax e WhatsApp. Não é preciosismo: escrito assim, o número pode ser marcado a partir de qualquer país e transforma-se numa ligação em que a empresa pode tocar."
         },
         {
           "kind": "h",
@@ -401,7 +401,7 @@
               "def": "Um endereço adicional, se quiser indicar mais do que o principal."
             },
             {
-              "term": "Sítio Web",
+              "term": "Site",
               "def": "O endereço completo, incluindo https://"
             },
             {
@@ -424,7 +424,7 @@
         },
         {
           "kind": "note",
-          "text": "Adicione o que é útil, não tudo o que tem. Um número, um endereço de e-mail e um perfil profissional costumam ser a quantidade certa. Uma conta pessoal de Instagram raramente ajuda uma candidatura."
+          "text": "Adicione o que é útil, não tudo o que tem. Um número, um endereço de e-mail e um perfil profissional costumam chegar. Uma conta pessoal de Instagram raramente ajuda uma candidatura."
         }
       ]
     },
@@ -454,7 +454,7 @@
             },
             {
               "term": "Tipo de contrato",
-              "def": "Tempo integral, tempo parcial, negócio próprio, freelance, contrato, estágio ou sazonal. Facultativo mas útil: explica um registo curto antes de alguém ter de perguntar."
+              "def": "Tempo inteiro, tempo parcial, trabalho por conta própria, freelance, contrato, estágio ou sazonal. Facultativo mas útil: explica um registo curto antes de alguém ter de perguntar."
             },
             {
               "term": "Cidade",
@@ -542,7 +542,7 @@
             },
             {
               "term": "Grau académico",
-              "def": "Licenciatura, mestrado, doutorando, residência ou doutoramento. Obrigatório nos registos de ensino superior."
+              "def": "Licenciatura, mestrado, doutorando, internato médico ou doutoramento. Obrigatório nos registos de ensino superior."
             },
             {
               "term": "Data de início e data de fim",
@@ -560,7 +560,7 @@
         },
         {
           "kind": "p",
-          "text": "Se tem um grau do ensino superior, normalmente pode omitir a escola secundária. Se não tem, indique-a: uma secção de formação vazia fica pior do que uma modesta."
+          "text": "Se tem um grau do ensino superior, normalmente pode omitir a escola secundária. Se não tem, indique-a: uma secção de formação vazia causa pior impressão do que uma modesta."
         }
       ]
     },
@@ -663,7 +663,7 @@
         {
           "kind": "ul",
           "items": [
-            "**Oito a doze** é um bom número. Uma lista de trinta lê-se como uma lista de nenhuma.",
+            "**Oito a doze** é um bom número. Uma lista de trinta competências lê-se como uma lista vazia.",
             "Indique coisas concretas e verificáveis: **Excel (tabelas dinâmicas, PROCV)**, **SAP**, **AutoCAD**, **Python**.",
             "Deixe de fora aquilo que toda a gente alega — trabalhador, responsável, espírito de equipa. Demonstre-o nas suas realizações.",
             "Use as palavras do anúncio onde elas o descrevem honestamente. O software que filtra CV procura exatamente essas palavras."
@@ -677,7 +677,7 @@
     },
     "languages": {
       "title": "Conhecimentos linguísticos",
-      "lead": "Os níveis de A1 a C2 por palavras simples, para escolher o seu com honestidade.",
+      "lead": "Os níveis de A1 a C2 em palavras simples, para escolher o seu com honestidade.",
       "blocks": [
         {
           "kind": "p",
@@ -744,7 +744,7 @@
         },
         {
           "kind": "p",
-          "text": "Um projeto é tudo o que construiu ou geriu e que mostre aquilo de que é capaz — um trabalho de curso, uma loja que abriu, um site, uma campanha de voluntariado, uma aplicação. Para estudantes e para quem muda de área, esta secção trabalha muitas vezes mais do que todas as outras."
+          "text": "Um projeto é tudo o que construiu ou geriu e que mostre aquilo de que é capaz — um trabalho de curso, uma loja que abriu, um site, uma campanha de voluntariado, uma aplicação. Para estudantes e para quem muda de área, esta secção é muitas vezes a mais útil de todas."
         },
         {
           "kind": "dl",
@@ -864,7 +864,7 @@
         },
         {
           "kind": "note",
-          "text": "Veja a pré-visualização antes de enviar. Se o seu CV passar para uma terceira página, encurte as descrições ou retire uma secção facultativa — duas páginas é o limite prático para a maioria dos empregos."
+          "text": "Veja a pré-visualização antes de enviar. Se o seu CV passar para uma terceira página, encurte as descrições ou retire uma secção facultativa — duas páginas são o limite prático para a maioria dos empregos."
         }
       ]
     },
@@ -929,7 +929,7 @@
       "blocks": [
         {
           "kind": "p",
-          "text": "O OnlineCV é um sítio Web que pode ser instalado. Depois de instalado, abre a partir do ecrã principal ou do menu Iniciar na sua própria janela, sem barra de endereço."
+          "text": "O OnlineCV é um site que pode ser instalado. Depois de instalado, abre a partir do ecrã principal ou do menu Iniciar na sua própria janela, sem barra de endereço."
         },
         {
           "kind": "h",

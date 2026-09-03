@@ -113,7 +113,7 @@
         },
         {
           "kind": "p",
-          "text": "**Bitir** düğmesine basın; düzenleyici bilgileriniz yerleşmiş halde açılsın."
+          "text": "**Bitir** düğmesine basın; düzenleyici bilgileriniz yerleşmiş hâlde açılır."
         },
         {
           "kind": "h",
@@ -121,7 +121,7 @@
         },
         {
           "kind": "p",
-          "text": "Daha önce CV hazırladıysanız ve yedek kaydettiyseniz her şeyi baştan yazmayın. 1. adımın altında **Dosyadan geri yükle** düğmesi var: `.json` yedeğinizi seçin, CV'nizin tamamı bir anda yüklensin. Bu düğme yalnızca bu ekranda bulunur — **Yedekleme ve baştan başlama** bölümüne bakın."
+          "text": "Daha önce CV hazırladıysanız ve yedek kaydettiyseniz her şeyi baştan yazmayın. 1. adımın altında **Dosyadan geri yükle** düğmesi var: `.json` yedeğinizi seçin, CV'nizin tamamı bir anda yüklenir. Bu düğme yalnızca bu ekranda bulunur — **Yedekleme ve baştan başlama** bölümüne bakın."
         }
       ]
     },
@@ -454,7 +454,7 @@
             },
             {
               "term": "Çalışma şekli",
-              "def": "Tam zamanlı, yarı zamanlı, kendi işi, serbest, sözleşmeli, staj veya mevsimsel. Zorunlu değil ama faydalı — kısa bir kaydı, kimse sormadan açıklar."
+              "def": "Tam zamanlı, yarı zamanlı, kendi hesabına çalışma, serbest çalışma, sözleşmeli, staj veya mevsimlik. Zorunlu değil ama faydalı — kısa bir kaydı, kimse sormadan açıklar."
             },
             {
               "term": "Şehir",
@@ -484,7 +484,7 @@
         },
         {
           "kind": "p",
-          "text": "**Görev ve sorumluluklar** işin ne olduğunu anlatır — kapsam, ekip, müşteriler. **Başarılar** ise sizin kişisel olarak neyi değiştirdiğinizi, mümkün olan her yerde bir sayıyla."
+          "text": "**Görev ve sorumluluklar** işin ne olduğunu anlatır — kapsam, ekip, müşteriler. **Başarılar** ise sizin kişisel olarak neyi değiştirdiğinizi anlatır, mümkün olan her yerde bir sayıyla."
         },
         {
           "kind": "ul",
@@ -497,7 +497,7 @@
         },
         {
           "kind": "note",
-          "text": "Sayınız yoksa ölçek verin: kaç kişi, kaç müşteri, ne kadar bütçe, ne sıklıkta. **12 yeni kasiyer yetiştirdim**, **Yeni personel yetiştirdim**'den çok daha fazlasını söyler."
+          "text": "Sayınız yoksa ölçek verin: kaç kişi, kaç müşteri, ne kadar bütçe, ne sıklıkta. **12 yeni kasiyer yetiştirdim** cümlesi, **Yeni personel yetiştirdim** cümlesinden çok daha fazlasını söyler."
         },
         {
           "kind": "h",
@@ -526,7 +526,7 @@
           "items": [
             {
               "term": "Eğitim kurumunun türü",
-              "def": "Orta öğretim, mesleki orta öğretim veya yüksek öğretim."
+              "def": "Ortaöğretim, mesleki ortaöğretim veya yükseköğretim."
             },
             {
               "term": "Eğitim kurumunun adı",
@@ -534,7 +534,7 @@
             },
             {
               "term": "Meslek (uzmanlık)",
-              "def": "Ne okuduğunuz. Mesleki orta öğretim ve yüksek öğretim için zorunludur — diplomanızda yazar."
+              "def": "Ne okuduğunuz. Mesleki ortaöğretim ve yükseköğretim için zorunludur — diplomanızda yazar."
             },
             {
               "term": "Fakülte",
@@ -542,7 +542,7 @@
             },
             {
               "term": "Akademik derece",
-              "def": "Lisans, yüksek lisans, doktora öğrencisi, tıpta uzmanlık veya felsefe doktoru. Yüksek öğretim kayıtları için zorunludur."
+              "def": "Lisans, yüksek lisans, doktora öğrencisi, tıpta uzmanlık veya felsefe doktoru. Yükseköğretim kayıtları için zorunludur."
             },
             {
               "term": "Başlangıç ve bitiş tarihi",
@@ -560,13 +560,13 @@
         },
         {
           "kind": "p",
-          "text": "Üniversite diplomanız varsa liseyi genellikle yazmayabilirsiniz. Yoksa okulunuzu yazın — boş bir eğitim bölümü, mütevazı bir bölümden kötü görünür."
+          "text": "Üniversite diplomanız varsa liseyi genellikle yazmayabilirsiniz. Yoksa okulunuzu yazın — boş bir eğitim bölümü, mütevazı bir bölümden daha kötü görünür."
         }
       ]
     },
     "certifications": {
       "title": "Kurslar ve sertifikalar",
-      "lead": "Kurslar, mesleki sertifikalar ve belgeler.",
+      "lead": "Kurslar, mesleki sertifikalar ve lisanslar.",
       "blocks": [
         {
           "kind": "p",
@@ -676,7 +676,7 @@
       ]
     },
     "languages": {
-      "title": "Dil bilgisi",
+      "title": "Dil becerileri",
       "lead": "A1'den C2'ye düzeyler sade bir dille — kendinizinkini dürüstçe seçebilesiniz diye.",
       "blocks": [
         {
@@ -715,8 +715,8 @@
               "def": "Karmaşık ve yabancı konular dahil, akıcı ve neredeyse otomatik kullanırsınız."
             },
             {
-              "term": "C2 — Üst düzey",
-              "def": "İyi eğitimli bir ana dili konuşurusuna yakın; incelikler ve mizah dahil."
+              "term": "C2 — Ustalık",
+              "def": "İyi eğitimli, ana dili bu olan birine yakın; incelikler ve mizah dahil."
             },
             {
               "term": "Ana dili",
@@ -769,7 +769,7 @@
         },
         {
           "kind": "note",
-          "text": "Kendi payınızı yazın. **Dört kişilik ekip; ödeme sayfasını ben yaptım**, **Bir çevrimiçi mağaza yaptık**'tan çok daha faydalıdır."
+          "text": "Kendi payınızı yazın. **Dört kişilik ekip; ödeme sayfasını ben yaptım** cümlesi, **Bir çevrimiçi mağaza yaptık** cümlesinden çok daha faydalıdır."
         },
         {
           "kind": "h",
@@ -781,13 +781,13 @@
         },
         {
           "kind": "p",
-          "text": "Yer daralıyorsa ilk çıkarılacak bölüm budur. İki bölüm de boş kaldığı sürece basılmaz."
+          "text": "Yer daralıyorsa ilk çıkarılacak bölüm budur. Her iki bölüm de boş kaldığı sürece basılmaz."
         }
       ]
     },
     "templates": {
       "title": "Şablonlar",
-      "lead": "Tasarımı nasıl seçersiniz ve «ATS uyumlu» şansınız açısından ne demektir.",
+      "lead": "Tasarımı nasıl seçersiniz ve \"ATS uyumlu\" ifadesinin şansınız açısından ne anlama geldiği.",
       "blocks": [
         {
           "kind": "p",
@@ -882,7 +882,7 @@
         },
         {
           "kind": "p",
-          "text": "Düzenleyicide **Yedek** düğmesine basın. Fotoğrafınız dahil tüm CV'nizi içeren bir `.json` dosyası inecektir. Onu sonradan bulabileceğiniz bir yerde tutun: bulut depolama, kendinize gönderilmiş bir e-posta, bir USB bellek."
+          "text": "Düzenleyicide **Yedek al** düğmesine basın. Fotoğrafınız dahil tüm CV'nizi içeren bir `.json` dosyası inecektir. Onu sonradan bulabileceğiniz bir yerde tutun: bulut depolama, kendinize gönderilmiş bir e-posta, bir USB bellek."
         },
         {
           "kind": "note",
@@ -1073,7 +1073,7 @@
         },
         {
           "kind": "p",
-          "text": "Onları gizlemeyin, kısaca açıklayın. Öğrenim, hastalık, aile bakımı, askerlik ve kendi işini kurmak sıradan nedenlerdir ve açıklanmış bir boşluk soru olmaktan çıkar. Kısa kayıtlar için **Çalışma şekli** alanını kullanın: **Staj** veya **Mevsimsel**, üç aylık bir işi kimse merak etmeden açıklar."
+          "text": "Onları gizlemeyin, kısaca açıklayın. Öğrenim, hastalık, aile bakımı, askerlik ve kendi işini kurmak sıradan nedenlerdir ve açıklanmış bir boşluk soru olmaktan çıkar. Kısa kayıtlar için **Çalışma şekli** alanını kullanın: **Staj** veya **Mevsimlik**, üç aylık bir işi kimse merak etmeden açıklar."
         },
         {
           "kind": "h",
@@ -1136,7 +1136,7 @@
             },
             {
               "term": "Bölümlerin sırasını değiştirebilir miyim?",
-              "def": "Bölümlerin kendisini hayır. İş deneyimi, eğitim ve sertifikalar içindeki kayıtları **Özel sıralama** ile taşıyabilirsiniz."
+              "def": "Bölümlerin kendisini değiştiremezsiniz. İş deneyimi, eğitim ve sertifikalar içindeki kayıtları **Özel sıralama** ile taşıyabilirsiniz."
             },
             {
               "term": "Hangi şablonu seçmeliyim?",

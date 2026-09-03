@@ -8,7 +8,7 @@
       "blocks": [
         {
           "kind": "p",
-          "text": "OnlineCV rezyumeni brauzeringiz ichida tuzadi. Yaratadigan hisob ham, oʻrnatadigan dastur ham, toʻlaydigan pul ham yoʻq."
+          "text": "OnlineCV brauzeringiz ichida CV (rezyume) tuzadi. Yaratadigan hisob ham, oʻrnatadigan dastur ham, toʻlaydigan pul ham yoʻq."
         },
         {
           "kind": "p",
@@ -35,7 +35,7 @@
           "kind": "steps",
           "items": [
             "Qisqa birinchi ekranga javob bering: ismingiz, elektron pochtangiz, tugʻilgan sanangiz va lavozimingiz.",
-            "Chapdagi boʻlimlarni toʻldiring — aloqa vositalari, ish tajribasi, ta'lim, koʻnikmalar va sizga tegishli boshqa hamma narsa.",
+            "Chapdagi boʻlimlarni toʻldiring — aloqa vositalari, ish tajribasi, taʼlim, koʻnikmalar va sizga tegishli boshqa hamma narsa.",
             "Oʻngdagi oldindan koʻrishni kuzating. U tayyor rezyumeni koʻrsatadi va siz yozgan sari yangilanib boradi.",
             "Yoqqan shablonni tanlang.",
             "**PDF sifatida yuklab olish** tugmasini bosing va faylni ish beruvchilarga yuboring."
@@ -58,7 +58,7 @@
       "blocks": [
         {
           "kind": "p",
-          "text": "Birinchi tashrifingizda OnlineCV rezyumeyingiz butunlay boʻsh boʻlib qolmasligi uchun bir necha ma'lumot soʻraydi. Bu bir daqiqacha vaqt oladi va **ularning har birini keyinroq** tahrirlagichda oʻzgartira olasiz."
+          "text": "Birinchi tashrifingizda OnlineCV rezyumeyingiz butunlay boʻsh boʻlib qolmasligi uchun bir necha maʼlumot soʻraydi. Bu bir daqiqacha vaqt oladi va **ularning har birini keyinroq** tahrirlagichda oʻzgartira olasiz."
         },
         {
           "kind": "h",
@@ -89,7 +89,7 @@
           "kind": "dl",
           "items": [
             {
-              "term": "Lavozim",
+              "term": "CV-ingizning sarlavhasi",
               "def": "Ismingiz ostiga chop etiladigan yagona satr, 50 belgigacha. Ahvolingizni emas, xohlagan lavozimingizni yozing: **Ish qidiryapman** emas, **Frontend dasturchi**."
             },
             {
@@ -113,7 +113,7 @@
         },
         {
           "kind": "p",
-          "text": "**Yakunlash** tugmasini bosing va tahrirlagich ma'lumotlaringiz oʻz oʻrniga qoʻyilgan holda ochiladi."
+          "text": "**Yakunlash** tugmasini bosing va tahrirlagich maʼlumotlaringiz oʻz oʻrniga qoʻyilgan holda ochiladi."
         },
         {
           "kind": "h",
@@ -139,7 +139,7 @@
         },
         {
           "kind": "p",
-          "text": "Shakl boʻlimlarga ajratilgan — shaxsiy ma'lumotlaringiz, aloqa vositalari, ish tajribasi, ta'lim va hokazo. Boʻlimni ochish yoki yopish uchun uning sarlavhasini bosing. Sarlavha yonidagi kichik son — oʻsha boʻlimga qoʻshgan yozuvlaringiz soni."
+          "text": "Shakl boʻlimlarga ajratilgan — shaxsiy maʼlumotlaringiz, aloqa vositalari, ish tajribasi, taʼlim va hokazo. Boʻlimni ochish yoki yopish uchun uning sarlavhasini bosing. Sarlavha yonidagi kichik son — oʻsha boʻlimga qoʻshgan yozuvlaringiz soni."
         },
         {
           "kind": "shot",
@@ -165,7 +165,7 @@
         },
         {
           "kind": "p",
-          "text": "Ish tajribasi, ta'lim va sertifikatlar ish beruvchilar kutgan tartibda joylashadi: **avval yangilari**. Hali davom etayotgani eng tepada turadi. Ularni oʻzingiz tartiblashingiz shart emas — tartib siz kiritgan sanalardan kelib chiqadi."
+          "text": "Ish tajribasi, taʼlim va sertifikatlar ish beruvchilar kutgan tartibda joylashadi: **avval yangilari**. Hali davom etayotgani eng tepada turadi. Ularni oʻzingiz tartiblashingiz shart emas — tartib siz kiritgan sanalardan kelib chiqadi."
         },
         {
           "kind": "p",
@@ -181,7 +181,7 @@
         },
         {
           "kind": "note",
-          "text": "Matningiz taklifga mos kelganda maydonda kichik belgi paydo boʻladi. Bu belgining bitta foydali ma'nosi bor: mos kelgan qiymat rezyume tilini oʻzgartirganingizda avtomatik qayta yoziladi, shu bois roʻyxatdan tanlangan universitet rezyumening oʻz tilida koʻrinadi."
+          "text": "Matningiz taklifga mos kelganda maydonda kichik belgi paydo boʻladi. Bu belgining bitta foydali maʼnosi bor: mos kelgan qiymat rezyume tilini oʻzgartirganingizda avtomatik qayta yoziladi, shu bois roʻyxatdan tanlangan universitet rezyumening oʻz tilida koʻrinadi."
         },
         {
           "kind": "h",
@@ -193,7 +193,7 @@
         },
         {
           "kind": "warn",
-          "text": "Rezyumeyingiz **faqat shu qurilmadagi shu brauzerda** saqlanadi. U telefoningizda, boshqa brauzerda yoki maxfiy oynada koʻrinmaydi. Brauzer ma'lumotlarini tozalash uni oʻchirib yuboradi. Uni koʻchirish yoki saqlab qolish uchun zaxira nusxa faylini saqlang."
+          "text": "Rezyumeyingiz **faqat shu qurilmadagi shu brauzerda** saqlanadi. U telefoningizda, boshqa brauzerda yoki maxfiy oynada koʻrinmaydi. Brauzer maʼlumotlarini tozalash uni oʻchirib yuboradi. Uni koʻchirish yoki saqlab qolish uchun zaxira nusxa faylini saqlang."
         },
         {
           "kind": "h",
@@ -208,7 +208,7 @@
             },
             {
               "term": "CV tili",
-              "def": "Rezyumeda chop etiladigan sarlavhalar tili — **Ish tajribasi**, **Ta'lim** va hokazo. Uni oldindan koʻrishning yuqori qismida belgilaysiz. Ariza topshirayotgan ish beruvchining tilidan foydalaning."
+              "def": "Rezyumeda chop etiladigan sarlavhalar tili — **Ish tajribasi**, **Taʼlim** va hokazo. Uni oldindan koʻrishning yuqori qismida belgilaysiz. Ariza topshirayotgan ish beruvchining tilidan foydalaning."
             }
           ]
         },
@@ -232,8 +232,8 @@
       ]
     },
     "basics": {
-      "title": "Asosiy ma'lumotlar",
-      "lead": "Ism, lavozim, surat, shaxsiy ma'lumotlar va rezyume boshidagi qisqa tavsif.",
+      "title": "Asosiy maʼlumotlar",
+      "lead": "Ism, lavozim, surat, shaxsiy maʼlumotlar va rezyume boshidagi qisqa tavsif.",
       "blocks": [
         {
           "kind": "p",
@@ -247,7 +247,7 @@
               "def": "Faqat harflar va boʻsh joylar, har biri 50 belgigacha. Guvohnomangizdagidek."
             },
             {
-              "term": "Lavozim",
+              "term": "CV-ingizning sarlavhasi",
               "def": "Ismingiz ostidagi bitta satr, 50 belgigacha. Qidiruvingizni emas, lavozimni ayting: **Buxgalter**, **Savdo menejeri**, **Java dasturchi**. Talaba boʻlsangiz, **Iqtisodiyot yoʻnalishi talabasi** ham boʻladi."
             },
             {
@@ -275,11 +275,11 @@
         },
         {
           "kind": "warn",
-          "text": "Oʻzbekistonda, Ozarbayjonda, Turkiyada va qit'a Yevropasining koʻp qismida rezyumedagi surat odatiy hol. Buyuk Britaniya, Irlandiya, AQSH va Kanadada esa u ma'qullanmaydi va rezyumening rad etilishiga sabab boʻlishi mumkin. Ariza topshirayotgan joyda nima odat ekanini tekshiring — va har bir shablon ham surat koʻrsatavermasligini unutmang."
+          "text": "Oʻzbekistonda, Ozarbayjonda, Turkiyada va qitʼa Yevropasining koʻp qismida rezyumedagi surat odatiy hol. Buyuk Britaniya, Irlandiya, AQSH va Kanadada esa u maʼqullanmaydi va rezyumening rad etilishiga sabab boʻlishi mumkin. Ariza topshirayotgan joyda nima odat ekanini tekshiring — va har bir shablon ham surat koʻrsatavermasligini unutmang."
         },
         {
           "kind": "h",
-          "text": "Shaxsiy ma'lumotlar"
+          "text": "Shaxsiy maʼlumotlar"
         },
         {
           "kind": "dl",
@@ -302,26 +302,26 @@
             },
             {
               "term": "Harbiy xizmat",
-              "def": "Xizmat qilgan, qilmagan yoki yaroqsiz. Ozarbayjon va Turkiyada koʻpincha soʻraladi. Majburiy emas."
+              "def": "Xizmatni oʻtagan, oʻtamagan yoki harbiy xizmatga yaroqsiz. Ozarbayjon va Turkiyada koʻpincha soʻraladi. Majburiy emas."
             },
             {
-              "term": "Haydovchilik guvohnomasi",
-              "def": "Bir yoki bir nechta toifani tanlang, mamlakatingizda boshqa harflar ishlatilsa, oʻzingiz yozing. Ish safar bilan bogʻliq boʻlsa, qoʻshgan ma'qul."
+              "term": "Haydovchilik guvohnomasi toifasi",
+              "def": "Bir yoki bir nechta toifani tanlang, mamlakatingizda boshqa harflar ishlatilsa, oʻzingiz yozing. Ish safar bilan bogʻliq boʻlsa, qoʻshgan maʼqul."
             }
           ]
         },
         {
           "kind": "h",
-          "text": "Ma'lumotni chop etiladigan rezyumedan yashirish"
+          "text": "Maʼlumotni chop etiladigan rezyumedan yashirish"
         },
         {
           "kind": "p",
-          "text": "Bu ma'lumotlarning ba'zilari bir mamlakatda kutiladi, boshqasida esa yozmagan ma'qul. Har birining yonida kichik **koʻz** tugmasi bor: uni bossangiz, maydon ilovada qoladi, lekin **tayyor rezyume va PDF ga tushmaydi**. Yana bossangiz, qaytadan koʻrinadi."
+          "text": "Bu maʼlumotlarning baʼzilari bir mamlakatda kutiladi, boshqasida esa yozmagan maʼqul. Har birining yonida kichik **koʻz** tugmasi bor: uni bossangiz, maydon ilovada qoladi, lekin **tayyor rezyume va PDF ga tushmaydi**. Yana bossangiz, qaytadan koʻrinadi."
         },
         {
           "kind": "shot",
           "id": "visibility",
-          "caption": "Maydon yonidagi koʻz uning chop etilishini hal qiladi. Chizilgan koʻz — ma'lumot ilovada qoladi, lekin rezyumeda boʻlmaydi degani."
+          "caption": "Maydon yonidagi koʻz uning chop etilishini hal qiladi. Chizilgan koʻz — maʼlumot ilovada qoladi, lekin rezyumeda boʻlmaydi degani."
         },
         {
           "kind": "note",
@@ -339,7 +339,7 @@
           "kind": "ul",
           "items": [
             "**Yaxshi:** Qurilish sohasida olti yillik tajribaga ega buxgalterman. 200 xodimli kompaniyada QQS hisobotlari va oylik yopishni yuritaman. Kattaroq moliya jamoasida yuqoriroq lavozim izlayapman.",
-            "**Kuchsiz:** Mehnatsevar, mas'uliyatli va tashabbuskor jamoa a'zosi, jadal rivojlanayotgan kompaniyada sinovli imkoniyat izlayapman."
+            "**Kuchsiz:** Mehnatsevar, masʼuliyatli va tashabbuskor jamoa aʼzosi jadal rivojlanayotgan kompaniyada sinovli imkoniyat izlaydi."
           ]
         },
         {
@@ -375,7 +375,7 @@
         },
         {
           "kind": "note",
-          "text": "Xuddi shu qoida mobil, shahar, faks va WhatsApp raqamlariga ham tegishli. Bu mayda-chuydaga e'tibor emas: shunday yozilgan raqamga istalgan mamlakatdan qoʻngʻiroq qilish mumkin va u ish beruvchi bosa oladigan havolaga aylanadi."
+          "text": "Xuddi shu qoida mobil, shahar, faks va WhatsApp raqamlariga ham tegishli. Bu mayda-chuydaga eʼtibor emas: shunday yozilgan raqamga istalgan mamlakatdan qoʻngʻiroq qilish mumkin va u ish beruvchi bosa oladigan havolaga aylanadi."
         },
         {
           "kind": "h",
@@ -424,7 +424,7 @@
         },
         {
           "kind": "note",
-          "text": "Bor narsangizning hammasini emas, foydalisini qoʻshing. Bitta telefon raqami, bitta pochta manzili va bitta kasbiy profil odatda ayni meʼyor. Shaxsiy Instagram hisobi arizaga kamdan-kam yordam beradi."
+          "text": "Bor narsangizning hammasini emas, foydalisini qoʻshing. Odatda bitta telefon raqami, bitta pochta manzili va bitta kasbiy profil yetarli. Shaxsiy Instagram hisobi arizaga kamdan-kam yordam beradi."
         }
       ]
     },
@@ -449,12 +449,12 @@
               "def": "Bajargan vazifangiz, 50 belgigacha. **Mutaxassis II** kabi ichki darajani emas, sohadagilar taniydigan nomni ishlating."
             },
             {
-              "term": "Kompaniya",
+              "term": "Tashkilot nomi",
               "def": "Ish beruvchining nomi. Majburiy."
             },
             {
               "term": "Bandlik turi",
-              "def": "Toʻliq stavka, yarim stavka, tadbirkorlik, frilans, shartnoma, amaliyot yoki mavsumiy. Majburiy emas, lekin foydali — qisqa yozuvni hech kim soʻramasidan tushuntirib beradi."
+              "def": "Toʻliq stavka, yarim stavka, oʻz biznesi, frilanser, shartnoma asosida, amaliyot yoki mavsumiy. Majburiy emas, lekin foydali — qisqa yozuvni hech kim soʻramasidan tushuntirib beradi."
             },
             {
               "term": "Shahar",
@@ -469,27 +469,27 @@
               "def": "Hozirgi ish joyingiz uchun belgilang. Shunda tugash sanasi hisobga olinmaydi va rezyumeda **Hozirgi kunga qadar** deb chop etiladi."
             },
             {
-              "term": "Tavsif",
+              "term": "Vazifa va majburiyatlar",
               "def": "Ish aslida nimalardan iborat boʻlgani haqida ikki-uch gap, 600 belgigacha."
             },
             {
-              "term": "Asosiy yutuqlar",
+              "term": "Yutuqlar",
               "def": "Qisqa bandlar, har biri 200 belgigacha. Natijalar aynan shu yerga yoziladi."
             }
           ]
         },
         {
           "kind": "h",
-          "text": "Tavsifmi yoki yutuqlarmi?"
+          "text": "Majburiyatlarmi yoki yutuqlarmi?"
         },
         {
           "kind": "p",
-          "text": "**Tavsif** yordamida ish nima boʻlganini ayting — qamrovi, jamoasi, mijozlari. **Asosiy yutuqlar** ga esa shaxsan oʻzingiz oʻzgartirgan narsani, raqam qoʻyish mumkin boʻlgan har joyga raqam qoʻyib yozing."
+          "text": "**Vazifa va majburiyatlar** yordamida ish nima boʻlganini ayting — qamrovi, jamoasi, mijozlari. **Yutuqlar** ga esa shaxsan oʻzingiz oʻzgartirgan narsani, raqam qoʻyish mumkin boʻlgan har joyga raqam qoʻyib yozing."
         },
         {
           "kind": "ul",
           "items": [
-            "**Kuchsiz:** Savdo uchun mas'ul edim.",
+            "**Kuchsiz:** Savdo uchun masʼul edim.",
             "**Yaxshiroq:** 15 ta yangi chakana mijoz jalb qilib, mintaqadagi savdoni ikki yilda 24% ga oshirdim.",
             "**Kuchsiz:** Kompaniya saytida ishladim.",
             "**Yaxshiroq:** Toʻlov sahifasini qayta yaratdim; savatni tashlab ketish 71% dan 58% ga tushdi."
@@ -509,12 +509,12 @@
         },
         {
           "kind": "note",
-          "text": "Hali haq toʻlanadigan tajribangiz yoʻqmi? Bu boʻlimni boʻsh qoldiring va oʻrniga **Loyihalar**, **Ta'lim** va **Koʻnikmalar** boʻlimlarini toʻldiring. Boʻsh boʻlim hech qachon chop etilmaydi."
+          "text": "Hali haq toʻlanadigan tajribangiz yoʻqmi? Bu boʻlimni boʻsh qoldiring va oʻrniga **Loyihalar**, **Taʼlim** va **Koʻnikmalar** boʻlimlarini toʻldiring. Boʻsh boʻlim hech qachon chop etilmaydi."
         }
       ]
     },
     "education": {
-      "title": "Ta'lim",
+      "title": "Taʼlim",
       "lead": "Maktab, kollej va universitet — hamda ularning har biri qanday maydonlarni soʻraydi.",
       "blocks": [
         {
@@ -525,15 +525,15 @@
           "kind": "dl",
           "items": [
             {
-              "term": "Turi",
+              "term": "Taʼlim muassasasining turi",
               "def": "Maktab, kollej (kasb-hunar yoki oʻrta maxsus) yoki universitet."
             },
             {
-              "term": "Oʻquv muassasasi",
+              "term": "Taʼlim muassasasining nomi",
               "def": "Yoza boshlang va takliflardan tanlang, yoki toʻliq nomini oʻzingiz kiriting."
             },
             {
-              "term": "Mutaxassislik",
+              "term": "Kasb (mutaxassislik)",
               "def": "Nima oʻqiganingiz. Kollej va universitet uchun majburiy — u diplomingizda yozilgan."
             },
             {
@@ -541,7 +541,7 @@
               "def": "Har doim ixtiyoriy. Koʻpgina diplomlarda fakultet koʻrsatilmaydi; sizniki ham shunday boʻlsa, boʻsh qoldiring."
             },
             {
-              "term": "Daraja",
+              "term": "Ilmiy daraja",
               "def": "Bakalavr, magistr, doktorant, rezidentura yoki PhD. Universitet yozuvlari uchun majburiy."
             },
             {
@@ -549,18 +549,18 @@
               "def": "Faqat oy va yil. Hali oʻqiyotgan boʻlsangiz, **Hozirda oʻqiyman** degan katakchani belgilang va tugash sanasini boʻsh qoldiring."
             },
             {
-              "term": "Izoh",
+              "term": "Qoʻshimcha izoh",
               "def": "Bitta qisqa satr, 50 belgigacha — masalan, baho, mukofot yoki bitiruv ishi mavzusi."
             }
           ]
         },
         {
           "kind": "note",
-          "text": "Yozuvlar avtomatik ravishda yangisidan eskisiga qarab keladi, davom etayotgan ta'lim eng tepada turadi."
+          "text": "Yozuvlar avtomatik ravishda yangisidan eskisiga qarab keladi, davom etayotgan taʼlim eng tepada turadi."
         },
         {
           "kind": "p",
-          "text": "Oliy ma'lumotingiz boʻlsa, odatda maktabni yozmasangiz ham boʻladi. Boʻlmasa, maktabingizni yozing — boʻsh ta'lim boʻlimi kamtarona ta'limdan ham yomonroq koʻrinadi."
+          "text": "Oliy maʼlumotingiz boʻlsa, odatda maktabni yozmasangiz ham boʻladi. Boʻlmasa, maktabingizni yozing — boʻsh taʼlim boʻlimi kamtarona boʻlimdan ham yomonroq koʻrinadi."
         }
       ]
     },
@@ -576,11 +576,11 @@
           "kind": "dl",
           "items": [
             {
-              "term": "Nomi",
+              "term": "Taʼlim (kurs) nomi",
               "def": "Sertifikatning oʻz nomi, 100 belgigacha — masalan, **ACCA Applied Knowledge** yoki **IELTS Academic**."
             },
             {
-              "term": "Bergan tashkilot",
+              "term": "Taʼlimni (kursni) oʻtkazuvchi muassasa",
               "def": "Uni kim bergan. Majburiy."
             },
             {
@@ -588,19 +588,19 @@
               "def": "Oy va yil. Sertifikatlar shu sana boʻyicha yangisidan eskisiga qarab tartiblanadi."
             },
             {
-              "term": "Amal qilish muddati",
+              "term": "Tugash sanasi",
               "def": "Faqat sertifikatning muddati haqiqatan tugaydigan boʻlsa. Aks holda boʻsh qoldiring, shunda rezyumeda **muddatsiz** deb chop etiladi."
             },
             {
-              "term": "Sertifikat raqami",
-              "def": "Sertifikatdagi ma'lumotnoma raqami, agar boʻlsa. U ish beruvchiga tekshirish imkonini beradi."
+              "term": "Sertifikat ID raqami",
+              "def": "Sertifikatdagi maʼlumotnoma raqami, agar boʻlsa. U ish beruvchiga tekshirish imkonini beradi."
             },
             {
-              "term": "Tekshirish havolasi",
+              "term": "Sertifikat havolasi",
               "def": "Sertifikatni tekshirish mumkin boʻlgan veb-manzil. U http:// yoki https:// bilan boshlanishi kerak va rezyumeda bosiladigan havolaga aylanadi."
             },
             {
-              "term": "Izoh",
+              "term": "Qoʻshimcha izoh",
               "def": "Bitta qisqa satr, 100 belgigacha — masalan, ball."
             }
           ]
@@ -625,7 +625,7 @@
         },
         {
           "kind": "p",
-          "text": "Rasmiy shkala yoʻq, shuning uchun shundan foydalaning va halol boʻling. Oshirib koʻrsatilgan raqam suhbatning birinchi savolidayoq ma'lum boʻladi."
+          "text": "Rasmiy shkala yoʻq, shuning uchun shundan foydalaning va halol boʻling. Oshirib koʻrsatilgan raqam suhbatning birinchi savolidayoq maʼlum boʻladi."
         },
         {
           "kind": "dl",
@@ -636,7 +636,7 @@
             },
             {
               "term": "21–40 — Boshlangʻich",
-              "def": "Oddiy vazifalarni mustaqil, sekin bajarasiz va tez-tez ma'lumot qidirasiz."
+              "def": "Oddiy vazifalarni mustaqil, sekin bajarasiz va tez-tez maʼlumot qidirasiz."
             },
             {
               "term": "41–60 — Ishonchli",
@@ -665,13 +665,13 @@
           "items": [
             "**Sakkiztadan oʻn ikkitagacha** — yaxshi son. Oʻttizta koʻnikma roʻyxati nolta koʻnikma roʻyxati kabi oʻqiladi.",
             "Aniq, tekshirsa boʻladigan narsalarni ayting: **Excel (jamlanma jadvallar, VLOOKUP)**, **1S: Buxgalteriya**, **AutoCAD**, **Python**.",
-            "Hamma yozadigan narsalarni — mehnatsevar, mas'uliyatli, jamoada ishlay oladigan — qoldiring. Buni oʻrniga yutuqlaringizda koʻrsating.",
-            "E'lonning oʻz soʻzlarini, ular sizga chindan mos kelgan joyda ishlating. Rezyumelarni saralaydigan dastur aynan oʻsha soʻzlarni qidiradi."
+            "Hamma yozadigan narsalarni — mehnatsevar, masʼuliyatli, jamoada ishlay oladigan — qoldiring. Buni oʻrniga yutuqlaringizda koʻrsating.",
+            "Eʼlonning oʻz soʻzlarini, ular sizga chindan mos kelgan joyda ishlating. Rezyumelarni saralaydigan dastur aynan oʻsha soʻzlarni qidiradi."
           ]
         },
         {
           "kind": "note",
-          "text": "Ba'zi shablonlar darajani chiziqcha koʻrinishida, ba'zilari foizda chop etadi, ba'zilari esa umuman chop etmaydi. Shablonni almashtirgach, oldindan koʻrishni tekshiring."
+          "text": "Baʼzi shablonlar darajani chiziqcha koʻrinishida, baʼzilari foizda chop etadi, baʼzilari esa umuman chop etmaydi. Shablonni almashtirgach, oldindan koʻrishni tekshiring."
         }
       ]
     },
@@ -700,7 +700,7 @@
             },
             {
               "term": "A2 — Boshlangʻich",
-              "def": "Tanish narsalar haqida oddiy gaplar — oila, xarid, ishingiz haqida umumiy ma'lumot."
+              "def": "Tanish narsalar haqida oddiy gaplar — oila, xarid, ishingiz haqida umumiy maʼlumot."
             },
             {
               "term": "B1 — Oʻrta",
@@ -716,7 +716,7 @@
             },
             {
               "term": "C2 — Mukammal",
-              "def": "Ma'lumotli ona tili egasiga yaqin, nozik ma'no va hazilni ham tushunasiz."
+              "def": "Maʼlumotli ona tili egasiga yaqin, nozik maʼno va hazilni ham tushunasiz."
             },
             {
               "term": "Ona tili",
@@ -730,7 +730,7 @@
         },
         {
           "kind": "warn",
-          "text": "Real boʻling. Suhbat koʻpincha siz da'vo qilgan tilda oʻtkaziladi, rezyumeda yozilgan B2 esa suhbatdosh birinchi ikki daqiqada eng koʻp tekshiradigan narsa."
+          "text": "Real boʻling. Suhbat koʻpincha siz daʼvo qilgan tilda oʻtkaziladi, rezyumeda yozilgan B2 esa suhbatdosh birinchi ikki daqiqada eng koʻp tekshiradigan narsa."
         }
       ]
     },
@@ -804,7 +804,7 @@
         },
         {
           "kind": "p",
-          "text": "Koʻplab oʻrta va yirik ish beruvchilar rezyumelarni avvaliga qoʻlda oʻqimaydi. Fayl **nomzodlarni kuzatish tizimiga** tushadi — bu ismingizni, ish joylaringizni, sanalarni va koʻnikmalarni ajratib olib, ma'lumotlar bazasiga joylaydigan dastur. Agar dastur faylni tuzukroq oʻqiy olmasa, uni odam hech qachon koʻrmasligi mumkin."
+          "text": "Koʻplab oʻrta va yirik ish beruvchilar rezyumelarni avvaliga qoʻlda oʻqimaydi. Fayl **nomzodlarni kuzatish tizimiga** tushadi — bu ismingizni, ish joylaringizni, sanalarni va koʻnikmalarni ajratib olib, maʼlumotlar bazasiga joylaydigan dastur. Agar dastur faylni tuzukroq oʻqiy olmasa, uni odam hech qachon koʻrmasligi mumkin."
         },
         {
           "kind": "p",
@@ -853,7 +853,7 @@
           "kind": "ul",
           "items": [
             "Haqiqiy PDF: matnni belgilash va nusxalash mumkin, saralash dasturlari ham uni oʻqiy oladi.",
-            "Qaysi qurilmada tuzganingizdan qat'i nazar, doim tik A4.",
+            "Qaysi qurilmada tuzganingizdan qatʼi nazar, doim tik A4.",
             "Ishlaydigan havolalar — telefon raqamlari, pochta manzillari va profil havolalari bosiladi.",
             "Yozganingiz hajmiga qarab bir yoki ikki sahifa."
           ]
@@ -976,7 +976,7 @@
       "blocks": [
         {
           "kind": "p",
-          "text": "OnlineCV ortida hisob ham, tizimga kirish ham, server ham yoʻq. **Rezyumeyingiz fayl sifatida qurilmangizdan hech qachon chiqmaydi.** OnlineCV tomonida uni hech kim oʻqiy olmaydi va ma'lumotlar sizib chiqishida oshkor boʻladigan narsa ham yoʻq, chunki ma'lumotlar bazasining oʻzi yoʻq."
+          "text": "OnlineCV ortida hisob ham, tizimga kirish ham, server ham yoʻq. **Rezyumeyingiz fayl sifatida qurilmangizdan hech qachon chiqmaydi.** OnlineCV tomonida uni hech kim oʻqiy olmaydi va maʼlumotlar sizib chiqishida oshkor boʻladigan narsa ham yoʻq, chunki maʼlumotlar bazasining oʻzi yoʻq."
         },
         {
           "kind": "h",
@@ -992,7 +992,7 @@
         },
         {
           "kind": "p",
-          "text": "Rad etsangiz, ularning hech biri yuklanmaydi va hech qanday ma'lumot toʻplanmaydi. Ilova xuddi shunday ishlaydi. Xarajat biznikida, sizniki emas: duch kelgan muammolaringiz bizga yetib bormaydi, shu bois ularni tuzatib ham boʻlmaydi."
+          "text": "Rad etsangiz, ularning hech biri yuklanmaydi va hech qanday maʼlumot toʻplanmaydi. Ilova xuddi shunday ishlaydi. Xarajat biznikida, sizniki emas: duch kelgan muammolaringiz bizga yetib bormaydi, shu bois ularni tuzatib ham boʻlmaydi."
         },
         {
           "kind": "h",
@@ -1024,8 +1024,8 @@
           "kind": "ul",
           "items": [
             "Tajribangiz besh yildan kam boʻlsa **bir sahifa**, koʻp boʻlsa **ikki sahifa**. Uch sahifa deyarli hech qachon oxirigacha oʻqilmaydi.",
-            "**Har bir ish uchun moslang.** Yutuqlaringizni e'longa mos keladiganlari birinchi turadigan qilib qayta joylashtiring. Bu oʻn besh daqiqa natijani bu yerdagi boshqa har qanday maslahatdan koʻra koʻproq oʻzgartiradi.",
-            "**E'lonning oʻz soʻzlarini** ular sizni halol tasvirlaydigan joyda ishlating. Saralash dasturi matnni soʻzma-soʻz solishtiradi: e'londa **kreditorlik qarzi** deyilgan boʻlsa va siz shu bilan ishlagan boʻlsangiz, oʻsha ibora rezyumeda boʻlishi kerak.",
+            "**Har bir ish uchun moslang.** Yutuqlaringizni eʼlonga mos keladiganlari birinchi turadigan qilib qayta joylashtiring. Bu oʻn besh daqiqa natijani bu yerdagi boshqa har qanday maslahatdan koʻra koʻproq oʻzgartiradi.",
+            "**Eʼlonning oʻz soʻzlarini** ular sizni halol tasvirlaydigan joyda ishlating. Saralash dasturi matnni soʻzma-soʻz solishtiradi: eʼlonda **kreditorlik qarzi** deyilgan boʻlsa va siz shu bilan ishlagan boʻlsangiz, oʻsha ibora rezyumeda boʻlishi kerak.",
             "**Oʻz lavozim nomlaringiz va pochta manzilingiz imlosini tekshiring.** Pochta manzilidagi bitta xato — bu hech kim javob bera olmaydigan rezyume."
           ]
         },
@@ -1062,9 +1062,9 @@
           "kind": "ul",
           "items": [
             "**Tavsiyanomalar soʻrov boʻyicha beriladi** — bu oʻz-oʻzidan tushunarli va behuda ketgan satr.",
-            "Pasport raqamingiz, aniq uy manzilingiz, bank ma'lumotlaringiz. Notanish odamlarga yuboriladigan hujjatga bularni hech qachon yozmang.",
+            "Pasport raqamingiz, aniq uy manzilingiz, bank maʼlumotlaringiz. Notanish odamlarga yuboriladigan hujjatga bularni hech qachon yozmang.",
             "Oldingi ishlardan ketish sabablari va joriy yoki kutilayotgan maosh, agar sizdan soʻralmagan boʻlsa.",
-            "Ortida hech vaqosi yoʻq quruq sifatlar. **Mehnatsevar** degani hech nimaga arzimaydi; **tizim koʻchirilgan uch oy davomida ikki hamkasbimning ishini ham bajardim** esa xuddi shu da'voning isbotlangan koʻrinishi."
+            "Ortida hech vaqosi yoʻq quruq sifatlar. **Mehnatsevar** degani hech nimaga arzimaydi; **tizim koʻchirilgan uch oy davomida ikki hamkasbimning ishini ham bajardim** esa xuddi shu daʼvoning isbotlangan koʻrinishi."
           ]
         },
         {
@@ -1127,7 +1127,7 @@
               "def": "Ha, birinchi tashrifdan keyin. Tahrirlash ham, PDF yuklab olish ham internetsiz ishlaydi."
             },
             {
-              "term": "Brauzer ma'lumotlarini tozaladim va rezyumem yoʻqoldi. Uni tiklay olasizmi?",
+              "term": "Brauzer maʼlumotlarini tozaladim va rezyumem yoʻqoldi. Uni tiklay olasizmi?",
               "def": "Yoʻq. Qurilmangizdan tashqarida hech narsa saqlanmaydi, shu bois tiklaydigan manba ham yoʻq. Uni faqat zaxira nusxa fayli qaytara oladi."
             },
             {
@@ -1136,15 +1136,15 @@
             },
             {
               "term": "Boʻlimlar tartibini oʻzgartira olamanmi?",
-              "def": "Boʻlimlarning oʻzini yoʻq. Ish tajribasi, ta'lim va sertifikatlar ichidagi yozuvlarni «Maxsus tartib» almashtirgichi orqali qayta joylashtirish mumkin."
+              "def": "Boʻlimlarning oʻzini yoʻq. Ish tajribasi, taʼlim va sertifikatlar ichidagi yozuvlarni «Maxsus tartib» almashtirgichi orqali qayta joylashtirish mumkin."
             },
             {
               "term": "Qaysi shablonni tanlashim kerak?",
               "def": "Kompaniya sayti yoki yirik ish qidiruv platformasi orqali ariza topshirayotgan boʻlsangiz — ATS-mosini. Aks holda oʻzingizga yoqqanini."
             },
             {
-              "term": "Ma'lumotlarim sun'iy intellektni oʻqitishga ishlatiladimi yoki sotiladimi?",
-              "def": "Yoʻq. Rezyumeyingiz hech qayerga yuborilmaydi, shu bois sotadigan ham, oʻqitadigan ham narsa yoʻq. Foydalanish statistikasiga rozi boʻlgan boʻlsangiz, «Maxfiylik» boʻlimida sanab oʻtilgan oʻlchov vositalari seans ma'lumotini oladi — rad etish bularning barchasini oʻchiradi."
+              "term": "Maʼlumotlarim sunʼiy intellektni oʻqitishga ishlatiladimi yoki sotiladimi?",
+              "def": "Yoʻq. Rezyumeyingiz hech qayerga yuborilmaydi, shu bois sotadigan ham, oʻqitadigan ham narsa yoʻq. Foydalanish statistikasiga rozi boʻlgan boʻlsangiz, «Maxfiylik» boʻlimida sanab oʻtilgan oʻlchov vositalari seans maʼlumotini oladi — rad etish bularning barchasini oʻchiradi."
             }
           ]
         },

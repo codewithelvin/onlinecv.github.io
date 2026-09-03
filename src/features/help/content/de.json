@@ -401,7 +401,7 @@
               "def": "Eine zusätzliche Adresse, falls Sie mehr als die Hauptadresse angeben möchten."
             },
             {
-              "term": "Webseite",
+              "term": "Website",
               "def": "Die vollständige Adresse einschließlich https://"
             },
             {
@@ -454,15 +454,15 @@
             },
             {
               "term": "Art der Beschäftigung",
-              "def": "Vollzeit, Teilzeit, eigenes Unternehmen, freiberuflich, auf Vertragsbasis, Praktikum oder Saisonarbeit. Optional, aber nützlich — sie erklärt einen kurzen Eintrag, bevor jemand nachfragen muss."
+              "def": "Vollzeit, Teilzeit, selbstständig, freiberuflich, befristet, Praktikum oder Saisonarbeit. Optional, aber nützlich — sie erklärt einen kurzen Eintrag, bevor jemand nachfragen muss."
             },
             {
               "term": "Stadt",
               "def": "Wo Sie die Stelle ausgeübt haben. Optional."
             },
             {
-              "term": "Anfangs- und Enddatum",
-              "def": "Beides vollständige Datumsangaben, als TT.MM.JJJJ eingetippt oder im Kalender gewählt. Das Enddatum darf nicht vor dem Anfangsdatum liegen."
+              "term": "Start- und Enddatum",
+              "def": "Beides vollständige Datumsangaben, als TT.MM.JJJJ eingetippt oder im Kalender gewählt. Das Enddatum darf nicht vor dem Startdatum liegen."
             },
             {
               "term": "Ich arbeite derzeit hier",
@@ -490,7 +490,7 @@
           "kind": "ul",
           "items": [
             "**Schwach:** Zuständig für den Vertrieb.",
-            "**Besser:** Regionalen Umsatz in zwei Jahren um 24 % gesteigert, durch 15 neue Einzelhandelskunden.",
+            "**Besser:** Regionalen Umsatz in zwei Jahren um 24 % gesteigert, indem ich 15 neue Einzelhandelskunden gewonnen habe.",
             "**Schwach:** An der Unternehmenswebsite mitgearbeitet.",
             "**Besser:** Die Kassenseite neu gebaut; Kaufabbrüche sanken von 71 % auf 58 %."
           ]
@@ -526,7 +526,7 @@
           "items": [
             {
               "term": "Art der Bildungseinrichtung",
-              "def": "Schulbildung, berufsfachliche Ausbildung oder Hochschulbildung."
+              "def": "Schulbildung, Berufsausbildung oder Hochschulbildung."
             },
             {
               "term": "Name der Bildungseinrichtung",
@@ -534,7 +534,7 @@
             },
             {
               "term": "Beruf (Fachrichtung)",
-              "def": "Was Sie studiert oder gelernt haben. Pflicht bei berufsfachlicher und Hochschulbildung — es steht auf Ihrem Zeugnis."
+              "def": "Was Sie studiert oder gelernt haben. Pflicht bei Berufsausbildung und Hochschulbildung — es steht auf Ihrem Zeugnis."
             },
             {
               "term": "Fakultät",
@@ -545,7 +545,7 @@
               "def": "Bachelor, Master, Doktorand, Facharztausbildung oder Doktor der Philosophie. Pflicht bei Hochschuleinträgen."
             },
             {
-              "term": "Anfangs- und Enddatum",
+              "term": "Start- und Enddatum",
               "def": "Nur Monat und Jahr. Wenn Sie noch studieren, kreuzen Sie **Ich studiere derzeit** an und lassen das Enddatum leer."
             },
             {
@@ -566,7 +566,7 @@
     },
     "certifications": {
       "title": "Fortbildungen und Zertifikate",
-      "lead": "Kurse, Berufszertifikate und Bescheinigungen.",
+      "lead": "Kurse, Berufszertifikate und Lizenzen.",
       "blocks": [
         {
           "kind": "p",
@@ -663,7 +663,7 @@
         {
           "kind": "ul",
           "items": [
-            "**Acht bis zwölf** ist eine gute Zahl. Eine Liste mit dreißig wird wie eine Liste mit keiner gelesen.",
+            "**Acht bis zwölf** ist eine gute Zahl. Eine Liste mit dreißig Einträgen liest sich wie gar keine.",
             "Nennen Sie Konkretes und Überprüfbares: **Excel (Pivot-Tabellen, SVERWEIS)**, **SAP FI**, **AutoCAD**, **Python**.",
             "Lassen Sie weg, was alle behaupten — fleißig, zuverlässig, teamfähig. Zeigen Sie das lieber in Ihren Erfolgen.",
             "Übernehmen Sie die Wörter der Stellenanzeige dort, wo sie ehrlich auf Sie zutreffen. Software, die Lebensläufe filtert, sucht genau nach diesen Wörtern."
@@ -699,7 +699,7 @@
               "def": "Ein paar Wörter und feste Wendungen. Sie können Ihren Namen sagen und einen Kaffee bestellen."
             },
             {
-              "term": "A2 — Grundlagen",
+              "term": "A2 — Grundkenntnisse",
               "def": "Einfache Sätze über Vertrautes — Familie, Einkaufen, Ihre Arbeit in groben Zügen."
             },
             {

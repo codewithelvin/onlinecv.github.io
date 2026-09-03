@@ -219,7 +219,7 @@ describe('backup restore (wizard)', () => {
   it('refuses text that is not JSON at all', async () => {
     renderWithProviders(<Wizard />);
     await pick(backupFile('%PDF-1.7 not json', 'cv.pdf'));
-    expect(await screen.findByText('Faylın məzmunu oxunmadı.')).toBeInTheDocument();
+    expect(await screen.findByText('Faylın məzmununu oxumaq mümkün olmadı.')).toBeInTheDocument();
     expect(useResumeStore.getState().wizardCompleted).toBe(false);
   });
 

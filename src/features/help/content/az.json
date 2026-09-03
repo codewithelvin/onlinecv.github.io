@@ -113,7 +113,7 @@
         },
         {
           "kind": "p",
-          "text": "**Bitir** düyməsini sıxın və redaktor məlumatlarınızla birlikdə açılsın."
+          "text": "**Bitir** düyməsini sıxın — redaktor məlumatlarınızla birlikdə açılacaq."
         },
         {
           "kind": "h",
@@ -302,11 +302,11 @@
             },
             {
               "term": "Hərbi mükəlləfiyyətiniz",
-              "def": "Xidmət etmişəm, etməmişəm və ya yararsız. Azərbaycanda və Türkiyədə adətən gözlənilir. Məcburi deyil."
+              "def": "Xidmət edib, etməyib və ya yararsız. Azərbaycanda və Türkiyədə adətən gözlənilir. Məcburi deyil."
             },
             {
               "term": "Sürücülük vəsiqəsinin kateqoriyası",
-              "def": "Bir və ya bir neçə kateqoriya seçin; ölkənizdə başqa hərflər istifadə olunursa, özünüz yaza bilərsiniz. İş yolla bağlıdırsa, əlavə etməyə dəyər."
+              "def": "Bir və ya bir neçə kateqoriya seçin; ölkənizdə başqa hərflər istifadə olunursa, özünüz yaza bilərsiniz. İş yol getməklə bağlıdırsa, əlavə etməyə dəyər."
             }
           ]
         },
@@ -385,7 +385,7 @@
           "kind": "dl",
           "items": [
             {
-              "term": "Mobil telefon, şəhər nömrəsi, faks",
+              "term": "Mobil telefon, şəhər telefonu, faks",
               "def": "Yuxarıdakı beynəlxalq formada nömrə."
             },
             {
@@ -401,7 +401,7 @@
               "def": "Əsasından başqa ünvan vermək istəyirsinizsə, əlavə ünvan."
             },
             {
-              "term": "Veb sayt",
+              "term": "Veb-sayt",
               "def": "https:// daxil olmaqla tam ünvan."
             },
             {
@@ -420,7 +420,7 @@
         },
         {
           "kind": "p",
-          "text": "Hər əlaqə vasitəsinin sonunda kiçik bir işarə olur ki, oxuyan mobil nömrəni şəhər nömrəsindən və ya WhatsApp nömrəsindən dərhal ayıra bilsin. PDF-də telefon nömrələri, e-poçt ünvanları və profil linkləri **klikləniləndir**. Mətnin özü isə yazdığınız kimi çap olunur."
+          "text": "Hər əlaqə vasitəsinin sonunda kiçik bir işarə olur ki, oxuyan mobil nömrəni şəhər telefonundan və ya WhatsApp nömrəsindən dərhal ayıra bilsin. PDF-də telefon nömrələri, e-poçt ünvanları və profil linkləri **klikləniləndir**. Mətnin özü isə yazdığınız kimi çap olunur."
         },
         {
           "kind": "note",
@@ -454,7 +454,7 @@
             },
             {
               "term": "Məşğulluq növü",
-              "def": "Tam ştat, yarımştat, öz biznesim, muzdlu, müqavilə ilə, təcrübə və ya mövsümi. Məcburi deyil, amma faydalıdır — qısa müddətli qeydi kimsə soruşmamışdan izah edir."
+              "def": "Tam ştat, yarımştat, öz biznesi, frilans, müqavilə ilə, staj və ya mövsümi. Məcburi deyil, amma faydalıdır — qısa müddətli qeydi kimsə soruşmamışdan əvvəl izah edir."
             },
             {
               "term": "Şəhər",
@@ -484,7 +484,7 @@
         },
         {
           "kind": "p",
-          "text": "**Vəzifə və öhdəliklər** işin nə olduğunu yazır — əhatə dairəsi, komanda, müştərilər. **Nailiyyətlər** isə şəxsən sizin nəyi dəyişdiyinizi, mümkün olan yerdə rəqəmlə."
+          "text": "**Vəzifə və öhdəliklər** işin nə olduğunu yazır — əhatə dairəsi, komanda, müştərilər. **Nailiyyətlər** isə şəxsən sizin nəyi dəyişdiyinizi göstərir, mümkün olan yerdə rəqəmlə."
         },
         {
           "kind": "ul",
@@ -497,7 +497,7 @@
         },
         {
           "kind": "note",
-          "text": "Rəqəminiz yoxdursa, miqyası yazın: neçə adam, neçə müştəri, hansı büdcə, hansı tezlik. **12 yeni kassir hazırladım** — **Yeni işçiləri hazırlayırdım**-dan qat-qat çox şey deyir."
+          "text": "Rəqəminiz yoxdursa, miqyası yazın: neçə adam, neçə müştəri, hansı büdcə, hansı tezlik. **12 yeni kassir hazırladım** cümləsi **Yeni işçiləri hazırlayırdım** cümləsindən qat-qat çox şey deyir."
         },
         {
           "kind": "h",
@@ -538,7 +538,7 @@
             },
             {
               "term": "Fakültə",
-              "def": "Həmişə könüllüdür. Bir çox diplomda fakültə göstərilmir; sizinkində yoxdursa, boş buraxın."
+              "def": "Həmişə məcburi deyil. Bir çox diplomda fakültə göstərilmir; sizinkində yoxdursa, boş buraxın."
             },
             {
               "term": "Akademik dərəcə",
@@ -560,7 +560,7 @@
         },
         {
           "kind": "p",
-          "text": "Ali təhsiliniz varsa, orta məktəbi adətən yazmaya bilərsiniz. Yoxdursa, məktəbi göstərin — boş təhsil bölməsi mütəvazi bölmədən pis görünür."
+          "text": "Ali təhsiliniz varsa, orta məktəbi adətən yazmaya bilərsiniz. Yoxdursa, məktəbi göstərin — boş təhsil bölməsi mütəvazi bölmədən daha pis görünür."
         }
       ]
     },
@@ -592,11 +592,11 @@
               "def": "Yalnız sertifikatın həqiqətən müddəti varsa. Əks halda boş buraxın — CV-də **müddəti yoxdur** yazılacaq."
             },
             {
-              "term": "Kredensial ID",
+              "term": "Sertifikat ID",
               "def": "Sertifikatın üzərindəki nömrə, varsa. İşəgötürənə onu yoxlamağa imkan verir."
             },
             {
-              "term": "Kredensial linki",
+              "term": "Sertifikat linki",
               "def": "Sertifikatın yoxlanıla biləcəyi veb ünvan. http:// və ya https:// ilə başlamalıdır və CV-də kliklənilən linkə çevrilir."
             },
             {
@@ -648,7 +648,7 @@
             },
             {
               "term": "81–100 — Ekspert",
-              "def": "Öyrədə bilərsiniz, standartı təyin edə bilərsiniz və ya şirkət məhz bunun üçün sizi işə götürər."
+              "def": "Öyrədə bilərsiniz, standartı təyin edə bilərsiniz və ya şirkət məhz bunun üçün sizi işə götürür."
             }
           ]
         },
@@ -663,7 +663,7 @@
         {
           "kind": "ul",
           "items": [
-            "**Səkkiz-on iki** yaxşı saydır. Otuz bacarıqdan ibarət siyahı heç biri kimi oxunur.",
+            "**Səkkiz-on iki** yaxşı saydır. Otuz bacarıqdan ibarət siyahı heç nə deməyən siyahı kimi oxunur.",
             "Konkret və yoxlanıla bilən şeylər yazın: **Excel (pivot cədvəllər, VLOOKUP)**, **1C: Mühasibatlıq**, **AutoCAD**, **Python**.",
             "Hamının yazdığı ifadələri buraxın — çalışqan, məsuliyyətli, komanda adamı. Bunları nailiyyətlərinizlə göstərin.",
             "Elana uyğun gələn və həqiqətən sizə aid olan sözləri istifadə edin. CV-ləri süzgəcdən keçirən proqram məhz bu sözləri axtarır."
@@ -711,11 +711,11 @@
               "def": "Bu dildə işləyirsiniz. İclasları izləyir, e-poçt yazır və öz sahənizi rahat müzakirə edirsiniz."
             },
             {
-              "term": "C1 — İrəli",
+              "term": "C1 — Yüksək",
               "def": "Mürəkkəb və tanımadığınız mövzular da daxil olmaqla, sərbəst və demək olar ki, düşünmədən istifadə edirsiniz."
             },
             {
-              "term": "C2 — Üst səviyyə",
+              "term": "C2 — Mükəmməl",
               "def": "Təhsilli ana dili daşıyıcısına yaxın — incə çalarlar və zarafat da daxil olmaqla."
             },
             {
@@ -736,7 +736,7 @@
     },
     "projects": {
       "title": "Layihələr və maraqlar",
-      "lead": "İş təcrübəsi az olanda ən çox fayda verən iki könüllü bölmə.",
+      "lead": "İş təcrübəsi az olanda ən çox fayda verən iki əlavə bölmə.",
       "blocks": [
         {
           "kind": "h",
@@ -769,7 +769,7 @@
         },
         {
           "kind": "note",
-          "text": "Öz payınızı yazın. **Dörd nəfərlik komanda; ödəniş səhifəsini mən qurdum** — **Onlayn mağaza qurduq**-dan çox daha faydalıdır."
+          "text": "Öz payınızı yazın. **Dörd nəfərlik komanda; ödəniş səhifəsini mən qurdum** cümləsi **Onlayn mağaza qurduq** cümləsindən çox daha faydalıdır."
         },
         {
           "kind": "h",
@@ -777,7 +777,7 @@
         },
         {
           "kind": "p",
-          "text": "Könüllüdür və qısa olmalıdır. Üç-beş konkret maraq müsahibə aparana söhbətə başlamaq üçün insani bir mövzu verir. Konkret olun: **Uzunmüsafəli qaçış (iki marafon)** işləyir, **musiqi, idman, kitab** isə yox."
+          "text": "Məcburi deyil və qısa olmalıdır. Üç-beş konkret maraq müsahibə aparana söhbətə başlamaq üçün insani bir mövzu verir. Konkret olun: **Uzunməsafəli qaçış (iki marafon)** işləyir, **musiqi, idman, kitab** isə yox."
         },
         {
           "kind": "p",
@@ -864,7 +864,7 @@
         },
         {
           "kind": "note",
-          "text": "Göndərməzdən əvvəl önizləməyə baxın. CV-niz üçüncü səhifəyə keçirsə, təsvirləri qısaldın və ya könüllü bölmələrdən birini çıxarın — əksər vakansiyalar üçün praktiki hədd iki səhifədir."
+          "text": "Göndərməzdən əvvəl önizləməyə baxın. CV-niz üçüncü səhifəyə keçirsə, təsvirləri qısaldın və ya əlavə bölmələrdən birini çıxarın — əksər vakansiyalar üçün praktiki hədd iki səhifədir."
         }
       ]
     },
@@ -1061,7 +1061,7 @@
         {
           "kind": "ul",
           "items": [
-            "**Tələb olunarsa zəmanət məktubu təqdim edilə bilər** — onsuz da belə güman edilir, sətri boş yerə tutur.",
+            "**Tələb olunarsa referanslar təqdim edilə bilər** — onsuz da belə güman edilir, sətri boş yerə tutur.",
             "Şəxsiyyət vəsiqənizin nömrəsi, dəqiq ev ünvanınız, bank məlumatlarınız. Tanımadığınız adamlara göndərdiyiniz sənədə bunları heç vaxt yazmayın.",
             "Soruşulmayıbsa, əvvəlki işlərdən çıxma səbəbləri və hazırkı və ya gözlənilən maaş.",
             "Arxasında heç nə olmayan boş sifətlər. **Çalışqan** heç nə demir; **sistem miqrasiyası zamanı üç ay iki həmkarımın işini də apardım** eyni fikri sübutla deyir."
@@ -1073,7 +1073,7 @@
         },
         {
           "kind": "p",
-          "text": "Onları gizlətməyin, qısaca izah edin. Təhsil, xəstəlik, ailəyə qulluq, hərbi xidmət və öz işini qurmaq — hamısı adi səbəblərdir və izah olunmuş fasilə sual olmaqdan çıxır. Qısa qeydlər üçün **Məşğulluq növü** sahəsindən istifadə edin: **Təcrübə (İntern)** və ya **Mövsümi** üç aylıq işi kimsə düşünməmişdən izah edir."
+          "text": "Onları gizlətməyin, qısaca izah edin. Təhsil, xəstəlik, ailəyə qulluq, hərbi xidmət və öz işini qurmaq — hamısı adi səbəblərdir və izah olunmuş fasilə sual olmaqdan çıxır. Qısa qeydlər üçün **Məşğulluq növü** sahəsindən istifadə edin: **Staj** və ya **Mövsümi** üç aylıq işi kimsə soruşmamışdan əvvəl izah edir."
         },
         {
           "kind": "h",
@@ -1132,11 +1132,11 @@
             },
             {
               "term": "CV-m nə üçün iki səhifədir?",
-              "def": "Nə qədər yazdığınıza görə. Təsvirləri qısaldın, köhnə iş yerlərini bir sətrə salın və ya könüllü bölmələrdən birini gizlədin."
+              "def": "Nə qədər yazdığınıza görə. Təsvirləri qısaldın, köhnə iş yerlərini bir sətrə salın və ya əlavə bölmələrdən birini gizlədin."
             },
             {
               "term": "Bölmələrin sırasını dəyişə bilərəmmi?",
-              "def": "Bölmələrin özününkünü yox. İş təcrübəsi, təhsil və sertifikatların içindəki qeydləri **Fərdi sıra** ilə yerdəyişə bilərsiniz."
+              "def": "Bölmələrin özünü yox. İş təcrübəsi, təhsil və sertifikatların içindəki qeydləri **Fərdi sıra** ilə yerdəyişə bilərsiniz."
             },
             {
               "term": "Hansı şablonu seçim?",

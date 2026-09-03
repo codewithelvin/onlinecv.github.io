@@ -9,8 +9,15 @@ import type { LocalizedText, Resume } from './resume';
 export interface TemplateProps {
   /** §13 resume data. */
   resume: Resume;
-  /** Localized section headings, driven by `resume.locale`. */
-  t: (key: string) => string;
+  /**
+   * Localized section headings, driven by `resume.locale`.
+   *
+   * `count` is passed straight to i18next, which picks the CLDR plural category
+   * for THAT locale — the age unit is the only place it is needed, and it is not
+   * optional there: Russian wants `год`/`года`/`лет` and Polish `rok`/`lata`/`lat`
+   * for numbers inside the 16–100 range a CV actually prints.
+   */
+  t: (key: string, options?: { count?: number }) => string;
   /** dayjs-backed date formatter. `fmt` is a dayjs format string. */
   formatDate: (iso: string, fmt?: string) => string;
 }

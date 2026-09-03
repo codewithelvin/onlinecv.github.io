@@ -290,7 +290,7 @@
             },
             {
               "term": "Il tuo sesso",
-              "def": "Uomo o donna."
+              "def": "Maschile o femminile."
             },
             {
               "term": "Stato civile",
@@ -424,7 +424,7 @@
         },
         {
           "kind": "note",
-          "text": "Aggiungi ciò che serve, non tutto quello che hai. Di solito un numero, un indirizzo e-mail e un profilo professionale sono la quantità giusta. Un profilo Instagram personale aiuta di rado una candidatura."
+          "text": "Aggiungi ciò che serve, non tutto quello che hai. Di solito bastano un numero, un indirizzo e-mail e un profilo professionale. Un profilo Instagram personale aiuta di rado una candidatura."
         }
       ]
     },
@@ -454,7 +454,7 @@
             },
             {
               "term": "Tipo di impiego",
-              "def": "Tempo pieno, tempo parziale, attività in proprio, freelance, a contratto, tirocinio o stagionale. Facoltativo ma utile: spiega una voce breve prima che qualcuno debba chiederlo."
+              "def": "Tempo pieno, tempo parziale, lavoro autonomo, freelance, a contratto, tirocinio o stagionale. Facoltativo ma utile: spiega una voce breve prima che qualcuno debba chiederlo."
             },
             {
               "term": "Città",
@@ -466,7 +466,7 @@
             },
             {
               "term": "Attualmente lavoro qui",
-              "def": "Selezionalo per il lavoro attuale. La data di fine viene ignorata e sul CV compare **Attuale**."
+              "def": "Selezionalo per il lavoro attuale. La data di fine viene ignorata e sul CV compare **Presente**."
             },
             {
               "term": "Mansioni e responsabilità",
@@ -526,7 +526,7 @@
           "items": [
             {
               "term": "Tipo di istituto di istruzione",
-              "def": "Istruzione secondaria, istruzione secondaria specializzata o istruzione superiore."
+              "def": "Istruzione secondaria, istruzione professionale o istruzione universitaria."
             },
             {
               "term": "Nome dell'istituto di istruzione",
@@ -534,7 +534,7 @@
             },
             {
               "term": "Professione (specializzazione)",
-              "def": "Che cosa hai studiato. Obbligatoria per istruzione secondaria specializzata e superiore: è sul tuo titolo di studio."
+              "def": "Che cosa hai studiato. Obbligatoria per istruzione professionale e universitaria: è sul tuo titolo di studio."
             },
             {
               "term": "Facoltà",
@@ -542,7 +542,7 @@
             },
             {
               "term": "Titolo accademico",
-              "def": "Laurea triennale, laurea magistrale, dottorando, specializzazione o dottore di ricerca. Obbligatorio per le voci di istruzione superiore."
+              "def": "Laurea triennale, laurea magistrale, dottorando, specializzazione medica o dottore di ricerca. Obbligatorio per le voci di istruzione universitaria."
             },
             {
               "term": "Data di inizio e data di fine",
@@ -560,7 +560,7 @@
         },
         {
           "kind": "p",
-          "text": "Se hai una laurea, di solito puoi omettere la scuola superiore. Se non ce l'hai, indicala: una sezione istruzione vuota fa peggiore impressione di una modesta."
+          "text": "Se hai una laurea, di solito puoi omettere la scuola superiore. Se non ce l'hai, indicala: una sezione istruzione vuota fa un'impressione peggiore di una modesta."
         }
       ]
     },
@@ -663,7 +663,7 @@
         {
           "kind": "ul",
           "items": [
-            "**Da otto a dodici** è un buon numero. Un elenco di trenta si legge come un elenco di nessuna.",
+            "**Da otto a dodici** è un buon numero. Un elenco di trenta competenze si legge come un elenco vuoto.",
             "Indica cose concrete e verificabili: **Excel (tabelle pivot, CERCA.VERT)**, **SAP**, **AutoCAD**, **Python**.",
             "Lascia perdere ciò che dichiarano tutti — volenteroso, responsabile, spirito di squadra. Dimostralo nei risultati.",
             "Riprendi le parole dell'annuncio dove ti descrivono onestamente. Il software che filtra i CV cerca esattamente quelle parole."
@@ -744,7 +744,7 @@
         },
         {
           "kind": "p",
-          "text": "Un progetto è qualsiasi cosa tu abbia costruito o gestito e che mostri che cosa sai fare: una tesi, un negozio che hai aperto, un sito, una campagna di volontariato, un'app. Per studenti e per chi cambia mestiere questa sezione lavora spesso più di tutte le altre."
+          "text": "Un progetto è qualsiasi cosa tu abbia costruito o gestito e che mostri che cosa sai fare: una tesi, un negozio che hai aperto, un sito, una campagna di volontariato, un'app. Per studenti e per chi cambia mestiere questa sezione è spesso la più utile di tutte."
         },
         {
           "kind": "dl",
@@ -864,7 +864,7 @@
         },
         {
           "kind": "note",
-          "text": "Guarda l'anteprima prima di inviarlo. Se il CV va su una terza pagina, accorcia le descrizioni o togli una sezione facoltativa: due pagine è il limite pratico per la maggior parte dei lavori."
+          "text": "Guarda l'anteprima prima di inviarlo. Se il CV va su una terza pagina, accorcia le descrizioni o togli una sezione facoltativa: due pagine sono il limite pratico per la maggior parte dei lavori."
         }
       ]
     },
@@ -1043,7 +1043,7 @@
             "**Mansione:** Gestivo i social dell'azienda.",
             "**Risultato:** Portato l'Instagram aziendale da 2.000 a 11.000 follower in un anno; le richieste dai social sono triplicate.",
             "**Mansione:** Mi occupavo dei reclami dei clienti.",
-            "**Risultato:** Preso in carico la coda dei reclami e ridotto il tempo medio di risposta da tre giorni a quattro ore."
+            "**Risultato:** Presa in carico la coda dei reclami e ridotto il tempo medio di risposta da tre giorni a quattro ore."
           ]
         },
         {

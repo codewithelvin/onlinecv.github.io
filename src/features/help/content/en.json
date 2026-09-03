@@ -89,7 +89,7 @@
           "kind": "dl",
           "items": [
             {
-              "term": "Job title",
+              "term": "Your CV title",
               "def": "The single line printed under your name, up to 50 characters. Write the role you want, not your situation: **Frontend developer** rather than **Looking for a job**."
             },
             {
@@ -247,7 +247,7 @@
               "def": "Letters and spaces only, up to 50 characters each. As they appear on your ID."
             },
             {
-              "term": "Job title",
+              "term": "Your CV title",
               "def": "One line under your name, up to 50 characters. Name the role, not your search: **Accountant**, **Sales manager**, **Java developer**. If you are a student, **Economics student** is fine."
             },
             {
@@ -302,10 +302,10 @@
             },
             {
               "term": "Military service",
-              "def": "Served, not served, or unfit. Commonly expected in Azerbaijan and Turkey. Optional."
+              "def": "Served, not served, or unfit for military service. Commonly expected in Azerbaijan and Turkey. Optional."
             },
             {
-              "term": "Driving licence",
+              "term": "Driver's license category",
               "def": "Choose one or more categories, or type your own if your country uses different letters. Worth adding when the job involves travel."
             }
           ]
@@ -424,7 +424,7 @@
         },
         {
           "kind": "note",
-          "text": "Add what is useful, not everything you have. A phone number, an email address and one professional profile is usually the right amount. A personal Instagram account rarely helps an application."
+          "text": "Add what is useful, not everything you have. A phone number, an email address and one professional profile are usually enough. A personal Instagram account rarely helps an application."
         }
       ]
     },
@@ -453,7 +453,7 @@
               "def": "The employer's name. Required."
             },
             {
-              "term": "Type of employment",
+              "term": "Employment type",
               "def": "Full-time, part-time, self-employed, freelance, contract, internship or seasonal. Optional, but useful — it explains a short entry before anyone has to ask."
             },
             {
@@ -526,7 +526,7 @@
           "items": [
             {
               "term": "Type",
-              "def": "School, college (vocational or secondary specialised), or university."
+              "def": "Secondary education, vocational education, or higher education."
             },
             {
               "term": "Institution",
@@ -542,7 +542,7 @@
             },
             {
               "term": "Degree",
-              "def": "Bachelor, master, doctoral candidate, residency or PhD. Required for university entries."
+              "def": "Bachelor, master, doctoral candidate, residency or doctorate. Required for university entries."
             },
             {
               "term": "Start date and end date",
@@ -584,12 +584,12 @@
               "def": "Who awarded it. Required."
             },
             {
-              "term": "Issue date",
+              "term": "Date of issue",
               "def": "Month and year. Certificates are listed newest first by this date."
             },
             {
               "term": "Expiry date",
-              "def": "Only if the certificate really expires. Leave it empty otherwise and the CV prints **no term**."
+              "def": "Only if the certificate really expires. Leave it empty otherwise and the CV prints **no expiry**."
             },
             {
               "term": "Credential ID",
@@ -1073,7 +1073,7 @@
         },
         {
           "kind": "p",
-          "text": "Do not hide them; explain them briefly. Study, illness, caring for family, national service and starting a business are all ordinary reasons, and an explained gap stops being a question. Use the **Type of employment** field for short entries — **Internship** or **Seasonal** explains a three-month job before anyone has to wonder."
+          "text": "Do not hide them; explain them briefly. Study, illness, caring for family, national service and starting a business are all ordinary reasons, and an explained gap stops being a question. Use the **Employment type** field for short entries — **Internship** or **Seasonal** explains a three-month job before anyone has to wonder."
         },
         {
           "kind": "h",

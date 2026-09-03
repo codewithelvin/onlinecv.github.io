@@ -424,7 +424,7 @@
         },
         {
           "kind": "note",
-          "text": "Añada lo útil, no todo lo que tenga. Un teléfono, un correo electrónico y un perfil profesional suelen ser la cantidad adecuada. Una cuenta personal de Instagram rara vez ayuda a una candidatura."
+          "text": "Añada lo útil, no todo lo que tenga. Un teléfono, un correo electrónico y un perfil profesional suelen ser suficientes. Una cuenta personal de Instagram rara vez ayuda a una candidatura."
         }
       ]
     },
@@ -453,7 +453,7 @@
               "def": "El nombre del empleador. Obligatorio."
             },
             {
-              "term": "Tipo de jornada",
+              "term": "Tipo de empleo",
               "def": "Jornada completa, parcial, autónomo, freelance, por contrato, prácticas o temporal. Opcional, pero útil: explica una entrada corta antes de que nadie tenga que preguntar."
             },
             {
@@ -663,7 +663,7 @@
         {
           "kind": "ul",
           "items": [
-            "**Ocho a doce** es un buen número. Una lista de treinta se lee como una lista de ninguna.",
+            "**Ocho a doce** es un buen número. Una lista de treinta competencias se lee como si no hubiera ninguna.",
             "Nombre cosas concretas y comprobables: **Excel (tablas dinámicas, BUSCARV)**, **SAP**, **AutoCAD**, **Python**.",
             "Deje fuera lo que dice todo el mundo: trabajador, responsable, con espíritu de equipo. Demuéstrelo en sus logros.",
             "Use las palabras de la oferta allí donde le describan honestamente. El software que filtra CV busca exactamente esas palabras."
@@ -736,7 +736,7 @@
     },
     "projects": {
       "title": "Proyectos e intereses",
-      "lead": "Dos secciones opcionales que más aportan cuando la experiencia laboral es corta.",
+      "lead": "Dos secciones opcionales que aportan mucho cuando la experiencia laboral es corta.",
       "blocks": [
         {
           "kind": "h",
@@ -744,7 +744,7 @@
         },
         {
           "kind": "p",
-          "text": "Un proyecto es cualquier cosa que haya construido o dirigido y que demuestre lo que sabe hacer: un trabajo de fin de estudios, una tienda que abrió, una web, una campaña de voluntariado, una aplicación. Para estudiantes y personas que cambian de sector, esta sección suele trabajar más que ninguna otra."
+          "text": "Un proyecto es cualquier cosa que haya construido o dirigido y que demuestre lo que sabe hacer: un trabajo de fin de estudios, una tienda que abrió, una web, una campaña de voluntariado, una aplicación. Para estudiantes y personas que cambian de sector, esta sección suele ser la más útil de todas."
         },
         {
           "kind": "dl",
@@ -864,7 +864,7 @@
         },
         {
           "kind": "note",
-          "text": "Mire la vista previa antes de enviarlo. Si su CV pasa a una tercera página, acorte las descripciones o quite una sección opcional: dos páginas es el límite práctico para la mayoría de los puestos."
+          "text": "Mire la vista previa antes de enviarlo. Si su CV pasa a una tercera página, acorte las descripciones o quite una sección opcional: dos páginas son el límite práctico para la mayoría de los puestos."
         }
       ]
     },
@@ -1073,7 +1073,7 @@
         },
         {
           "kind": "p",
-          "text": "No los esconda; explíquelos brevemente. Estudiar, una enfermedad, cuidar de un familiar, el servicio militar o montar un negocio son motivos corrientes, y un hueco explicado deja de ser una pregunta. Para entradas cortas use el campo **Tipo de jornada**: **Prácticas** o **Temporal** explica tres meses antes de que nadie se lo plantee."
+          "text": "No los esconda; explíquelos brevemente. Estudiar, una enfermedad, cuidar de un familiar, el servicio militar o montar un negocio son motivos corrientes, y un hueco explicado deja de ser una pregunta. Para entradas cortas use el campo **Tipo de empleo**: **Prácticas** o **Temporal** explica tres meses antes de que nadie se lo plantee."
         },
         {
           "kind": "h",

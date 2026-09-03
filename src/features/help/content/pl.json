@@ -23,7 +23,7 @@
           "items": [
             "Schludne CV na jednej lub dwóch stronach A4.",
             "Prawdziwy PDF: tekst można zaznaczyć, skopiować i odczytać programem — to nie jest obrazek strony.",
-            "{{templates}} szablonów do wyboru; możesz je zmieniać w każdej chwili bez przepisywania czegokolwiek.",
+            "Szablony do wyboru: {{templates}}; możesz je zmieniać w każdej chwili bez przepisywania czegokolwiek.",
             "Samo CV w jednym z {{languages}} języków — niezależnie od języka, w którym korzystasz z aplikacji."
           ]
         },
@@ -155,7 +155,7 @@
           "items": [
             "**Dodaj** otwiera małe okno, w którym wpisujesz jedno miejsce pracy, jedną szkołę, jedną umiejętność. Nic nie zostaje zapisane, dopóki nie naciśniesz w tym oknie **Zapisz**.",
             "**Ołówek** przy pozycji otwiera ją ponownie.",
-            "**Kosz** usuwa pozycję. Zostaniesz poproszony o potwierdzenie.",
+            "**Kosz** usuwa pozycję. Pojawi się prośba o potwierdzenie.",
             "Pusta sekcja po prostu nie trafia do gotowego CV — nigdy nie musisz wypełniać sekcji, która Cię nie dotyczy."
           ]
         },
@@ -301,8 +301,8 @@
               "def": "Wybierz podpowiedź albo wpisz własną. Opcjonalna."
             },
             {
-              "term": "Status wojskowy",
-              "def": "Odbyta, nieodbyta albo niezdolność. Zwykle oczekiwany w Azerbejdżanie i Turcji. Opcjonalny."
+              "term": "Służba wojskowa",
+              "def": "Odbyta, nieodbyta albo niezdolny do służby wojskowej. Zwykle oczekiwane w Azerbejdżanie i Turcji. Opcjonalne."
             },
             {
               "term": "Kategoria prawa jazdy",
@@ -454,7 +454,7 @@
             },
             {
               "term": "Typ zatrudnienia",
-              "def": "Pełny etat, niepełny etat, własny biznes, freelance, kontrakt, staż albo praca sezonowa. Opcjonalny, ale przydatny — wyjaśnia krótką pozycję, zanim ktokolwiek zdąży zapytać."
+              "def": "Pełny etat, niepełny etat, własna działalność, freelance, kontrakt, staż albo praca sezonowa. Opcjonalny, ale przydatny — wyjaśnia krótką pozycję, zanim ktokolwiek zdąży zapytać."
             },
             {
               "term": "Miasto",
@@ -484,7 +484,7 @@
         },
         {
           "kind": "p",
-          "text": "W **obowiązkach** napisz, czym była ta praca — zakres, zespół, klienci. W **osiągnięciach** napisz, co osobiście zmieniłaś lub zmieniłeś, z liczbą wszędzie tam, gdzie się da."
+          "text": "W **obowiązkach** napisz, czym była ta praca — zakres, zespół, klienci. W **osiągnięciach** napisz, co osobiście udało Ci się zmienić, z liczbą wszędzie tam, gdzie się da."
         },
         {
           "kind": "ul",
@@ -525,16 +525,16 @@
           "kind": "dl",
           "items": [
             {
-              "term": "Typ instytucji edukacyjnej",
+              "term": "Typ placówki edukacyjnej",
               "def": "Wykształcenie średnie, średnie zawodowe albo wyższe."
             },
             {
-              "term": "Nazwa instytucji edukacyjnej",
+              "term": "Nazwa placówki edukacyjnej",
               "def": "Zacznij pisać i wybierz z podpowiedzi albo wpisz pełną nazwę samodzielnie."
             },
             {
               "term": "Zawód (specjalność)",
-              "def": "Co studiowałeś lub czego się uczyłeś. Wymagane dla wykształcenia średniego zawodowego i wyższego — jest to na dyplomie."
+              "def": "Twój kierunek studiów lub zawód. Wymagane dla wykształcenia średniego zawodowego i wyższego — jest to na dyplomie."
             },
             {
               "term": "Wydział",
@@ -589,7 +589,7 @@
             },
             {
               "term": "Data zakończenia",
-              "def": "Tylko jeśli certyfikat naprawdę wygasa. W przeciwnym razie zostaw puste, a w CV pojawi się **brak terminu**."
+              "def": "Tylko jeśli certyfikat naprawdę wygasa. W przeciwnym razie zostaw puste, a w CV pojawi się **bezterminowo**."
             },
             {
               "term": "Numer certyfikatu",
@@ -632,7 +632,7 @@
           "items": [
             {
               "term": "1–20 — Początkujący",
-              "def": "Próbowałeś tego. Potrzebna byłaby pomoc i nadzór."
+              "def": "Zdarzyło Ci się tego spróbować. Potrzebna byłaby pomoc i nadzór."
             },
             {
               "term": "21–40 — Podstawowy",
@@ -648,7 +648,7 @@
             },
             {
               "term": "81–100 — Ekspert",
-              "def": "Mógłbyś tego uczyć, ustalać standardy albo być osobą, którą firma zatrudnia właśnie do tego."
+              "def": "Możesz tego uczyć, ustalać standardy albo być osobą, którą firma zatrudnia właśnie do tego."
             }
           ]
         },
@@ -663,7 +663,7 @@
         {
           "kind": "ul",
           "items": [
-            "**Osiem do dwunastu** to dobra liczba. Lista trzydziestu czyta się jak lista żadnej.",
+            "**Osiem do dwunastu** to dobra liczba. Lista trzydziestu umiejętności czyta się jak pusta.",
             "Wpisuj rzeczy konkretne i sprawdzalne: **Excel (tabele przestawne, WYSZUKAJ.PIONOWO)**, **SAP**, **AutoCAD**, **Python**.",
             "Pomiń to, co deklarują wszyscy — pracowitość, odpowiedzialność, praca zespołowa. Pokaż to w osiągnięciach.",
             "Używaj słów z ogłoszenia tam, gdzie uczciwie Cię opisują. Program filtrujący CV szuka dokładnie tych słów."
@@ -707,7 +707,7 @@
               "def": "Radzisz sobie w codziennych sytuacjach i potrafisz wyjaśnić swoje zdanie, powoli i z błędami."
             },
             {
-              "term": "B2 — Wyżej średnio zaawansowany",
+              "term": "B2 — Wyższy średnio zaawansowany",
               "def": "Pracujesz w tym języku. Śledzisz spotkania, piszesz e-maile i swobodnie rozmawiasz o swojej dziedzinie."
             },
             {
@@ -720,7 +720,7 @@
             },
             {
               "term": "Język ojczysty",
-              "def": "Twój pierwszy język albo taki, w którym wyrastałeś jak w ojczystym."
+              "def": "Twój pierwszy język albo taki, którym posługujesz się od dziecka jak ojczystym."
             }
           ]
         },
@@ -744,7 +744,7 @@
         },
         {
           "kind": "p",
-          "text": "Projekt to wszystko, co zbudowałeś albo poprowadziłeś i co pokazuje Twoje umiejętności — praca zaliczeniowa, otwarty przez Ciebie sklep, strona internetowa, akcja wolontariacka, aplikacja. Dla studentów i osób zmieniających branżę ta sekcja często pracuje mocniej niż wszystkie pozostałe."
+          "text": "Projekt to wszystko, co udało Ci się zbudować albo poprowadzić i co pokazuje Twoje umiejętności — praca zaliczeniowa, otwarty przez Ciebie sklep, strona internetowa, akcja wolontariacka, aplikacja. Dla studentów i osób zmieniających branżę ta sekcja jest często najbardziej przydatna ze wszystkich."
         },
         {
           "kind": "dl",
@@ -755,7 +755,7 @@
             },
             {
               "term": "Opis",
-              "def": "Do 600 znaków: czym był, co zrobiłeś i jak się skończył."
+              "def": "Do 600 znaków: czym był projekt, jaki był Twój wkład i jak się skończył."
             },
             {
               "term": "Link do projektu",
@@ -791,7 +791,7 @@
       "blocks": [
         {
           "kind": "p",
-          "text": "Naciśnij **Szablony**, żeby zobaczyć {{templates}} układów. Wybór szablonu zmienia tylko wygląd — Twój tekst pozostaje nietknięty i w każdej chwili możesz wrócić. Wybór jest zapamiętywany."
+          "text": "Naciśnij **Szablony**, żeby zobaczyć wszystkie układy — jest ich {{templates}}. Wybór szablonu zmienia tylko wygląd — Twój tekst pozostaje nietknięty i w każdej chwili możesz wrócić. Wybór jest zapamiętywany."
         },
         {
           "kind": "shot",
@@ -1035,7 +1035,7 @@
         },
         {
           "kind": "p",
-          "text": "Zakres obowiązków mówi, co miałeś robić. CV powinno mówić, co faktycznie się wydarzyło dzięki Tobie. Każdą pozycję poprawia pytanie **i co z tego?**"
+          "text": "Zakres obowiązków mówi, co należało robić. CV powinno mówić, co faktycznie się wydarzyło dzięki Tobie. Każdą pozycję poprawia pytanie **i co z tego?**"
         },
         {
           "kind": "ul",
@@ -1127,7 +1127,7 @@
               "def": "Tak, po pierwszej wizycie. Edycja i pobieranie PDF działają offline."
             },
             {
-              "term": "Wyczyściłem dane przeglądarki i CV zniknęło. Da się je odzyskać?",
+              "term": "Dane przeglądarki zostały wyczyszczone i CV zniknęło. Da się je odzyskać?",
               "def": "Nie. Poza Twoim urządzeniem nic nie jest przechowywane, więc nie ma z czego odzyskiwać. Przywrócić je może tylko plik kopii zapasowej."
             },
             {

@@ -200,3 +200,72 @@ describe('locale registry', () => {
     expect(isLocale('xx')).toBe(false);
   });
 });
+
+/**
+ * The CV prints an age as `<number> <unit>`, and in Russian and Polish the unit
+ * changes WITH the number inside the ordinary 16–100 range a CV can hold:
+ * "21 год", "22 года", "25 лет". A single fixed string — which is what shipped
+ * until 2026-09-03 — was wrong for about a third of those ages.
+ *
+ * `generalInfoPairs` therefore passes `count`, and i18next resolves the CLDR
+ * plural category of the CV's own locale. What that needs from the bundles is a
+ * form for every category the locale can produce, which no compiler can check:
+ * a missing one renders the raw key `common.years` on the finished CV.
+ */
+describe('the age unit agrees with its number', () => {
+  const unit = (locale: string, count: number) =>
+    String(i18n.getFixedT(locale)('common.years', { count }));
+
+  it('inflects in Russian', () => {
+    expect(unit('ru', 21)).toBe('год');
+    expect(unit('ru', 22)).toBe('года');
+    expect(unit('ru', 24)).toBe('года');
+    expect(unit('ru', 25)).toBe('лет');
+    expect(unit('ru', 16)).toBe('лет');
+    expect(unit('ru', 100)).toBe('лет');
+  });
+
+  it('inflects in Polish', () => {
+    expect(unit('pl', 22)).toBe('lata');
+    expect(unit('pl', 34)).toBe('lata');
+    expect(unit('pl', 25)).toBe('lat');
+    expect(unit('pl', 16)).toBe('lat');
+  });
+
+  /** Hebrew counts 11 and up with the SINGULAR, so the whole range is `שנה`. */
+  it('keeps Hebrew singular, which is what this range always wants', () => {
+    for (const age of [16, 20, 34, 100]) expect(unit('he', age), `he @ ${age}`).toBe('שנה');
+  });
+
+  it('leaves the uninflecting languages alone', () => {
+    const fixed: Array<[string, string]> = [
+      ['tr', 'yaşında'],
+      ['ja', '歳'],
+      ['ko', '세'],
+      ['zh', '岁'],
+      ['ka', 'წლის'],
+      ['kk', 'жаста'],
+      ['el', 'ετών'],
+      ['az', 'yaş'],
+    ];
+    for (const [locale, expected] of fixed) {
+      for (const age of [16, 21, 22, 25, 100]) {
+        expect(unit(locale, age), `${locale} @ ${age}`).toBe(expected);
+      }
+    }
+  });
+
+  /**
+   * The guard that matters: no locale may fall through to the unresolved key at
+   * ANY age the app can compute (`calcAge` is bounded by the 16–100 yup rule).
+   */
+  it('resolves a real word for every locale at every age a CV can hold', () => {
+    for (const locale of SUPPORTED_LOCALES) {
+      for (let age = 16; age <= 100; age += 1) {
+        const value = unit(locale, age);
+        expect(value, `${locale} @ ${age} fell through to the key`).not.toContain('common.years');
+        expect(value.trim(), `${locale} @ ${age} is empty`).not.toBe('');
+      }
+    }
+  });
+});

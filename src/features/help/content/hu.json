@@ -271,7 +271,7 @@
         },
         {
           "kind": "p",
-          "text": "A képet a böngésző mentés előtt lekicsinyíti, így egy nagy telefonos fénykép is megfelel. A körülbelül 10 MB-nál nagyobb fájlokat elutasítja."
+          "text": "A képet a böngésző mentés előtt lekicsinyíti, így egy nagy telefonos fénykép is megfelel. A körülbelül 10 MB-nál nagyobb fájlokat az alkalmazás elutasítja."
         },
         {
           "kind": "warn",
@@ -338,7 +338,7 @@
         {
           "kind": "ul",
           "items": [
-            "**Jó:** Könyvelő hatéves építőipari tapasztalattal. Egy 200 fős cégnél az áfabevallásokat és a havi zárást viszem. Vezetői szintű szerepet keresek egy nagyobb pénzügyi csapatban.",
+            "**Jó:** Könyvelő hatéves építőipari tapasztalattal. Egy 200 fős cégnél az áfabevallásokat és a havi zárást viszem. Vezetői szintű pozíciót keresek egy nagyobb pénzügyi csapatban.",
             "**Gyenge:** Szorgalmas, megbízható és motivált csapatjátékos, aki kihívást jelentő lehetőséget keres egy dinamikus vállalatnál."
           ]
         },
@@ -379,7 +379,7 @@
         },
         {
           "kind": "h",
-          "text": "Mit vár az egyes típusok"
+          "text": "Mit várnak az egyes típusok"
         },
         {
           "kind": "dl",
@@ -466,7 +466,7 @@
             },
             {
               "term": "Jelenleg is itt dolgozom",
-              "def": "A jelenlegi munkahelyénél jelölje be. Ekkor a befejezés dátuma figyelmen kívül marad, és az önéletrajzon a **Jelenleg is** felirat szerepel."
+              "def": "A jelenlegi munkahelyénél jelölje be. Ekkor a befejezés dátuma figyelmen kívül marad, és az önéletrajzon a **Jelenleg** felirat szerepel."
             },
             {
               "term": "Feladatok és felelősségi körök",
@@ -663,7 +663,7 @@
         {
           "kind": "ul",
           "items": [
-            "**Nyolc–tizenkettő** jó szám. A harminc tételes lista úgy olvasható, mint az egy tételt sem tartalmazó.",
+            "**Nyolc–tizenkettő** jó szám. A harmincelemű lista annyit mond, mint az üres.",
             "Konkrét, ellenőrizhető dolgokat nevezzen meg: **Excel (kimutatások, FKERES)**, **SAP**, **AutoCAD**, **Python**.",
             "Hagyja el azt, amit mindenki állít magáról — szorgalmas, megbízható, csapatjátékos. Ezeket inkább az eredményeivel mutassa meg.",
             "Használja a hirdetés szavait ott, ahol őszintén vonatkoznak Önre. Az önéletrajzokat szűrő szoftver pontosan ezekre a szavakra keres."
@@ -715,7 +715,7 @@
               "def": "Folyékonyan és szinte automatikusan használja, összetett vagy ismeretlen témákban is."
             },
             {
-              "term": "C2 — Anyanyelvi szint közeli",
+              "term": "C2 — Anyanyelvi szintű",
               "def": "Közel áll egy művelt anyanyelvi beszélőhöz, az árnyalatokkal és a humorral együtt."
             },
             {
@@ -843,7 +843,7 @@
         },
         {
           "kind": "p",
-          "text": "A letöltéshez három dolog kell: **keresztnév**, **vezetéknév** és egy **érvényes e-mail cím**. Ha valamelyik hiányzik vagy hibás, a gomb inaktív marad, és fölé húzva a mutatót megmondja, miért. Töltse ki őket, és azonnal kékké válik."
+          "text": "A letöltéshez három dolog kell: **keresztnév**, **vezetéknév** és egy **érvényes e-mail cím**. Ha valamelyik hiányzik vagy hibás, a gomb inaktív marad, és ha fölé húzza a mutatót, megmondja, miért. Töltse ki őket, és azonnal kékké válik."
         },
         {
           "kind": "h",
@@ -903,7 +903,7 @@
         },
         {
           "kind": "warn",
-          "text": "A visszaállítást csak az első képernyő kínálja fel. Ha ebben a böngészőben már van önéletrajz, a gombot nem fogja látni — előbb nyomja meg a **Visszaállítás** gombot, és csak utána töltse be a fájlt. Ez szándékos: megakadályozza, hogy egy fájl észrevétlenül felülírjon olyan munkát, amelyről nincs mentése."
+          "text": "A visszaállítást csak az első képernyő kínálja fel. Ha ebben a böngészőben már van önéletrajz, a gombot nem fogja látni — előbb nyomja meg az **Alaphelyzet** gombot, és csak utána töltse be a fájlt. Ez szándékos: megakadályozza, hogy egy fájl észrevétlenül felülírjon olyan munkát, amelyről nincs mentése."
         },
         {
           "kind": "p",
@@ -915,11 +915,11 @@
         },
         {
           "kind": "p",
-          "text": "A **Visszaállítás** teljesen kiüríti az önéletrajzot, és visszaviszi az első képernyőre. Előtte megerősítést kérünk."
+          "text": "Az **Alaphelyzet** teljesen kiüríti az önéletrajzot, és visszaviszi az első képernyőre. Előtte megerősítést kérünk."
         },
         {
           "kind": "warn",
-          "text": "A visszaállítás nem vonható vissza. Előbb mentsen biztonsági mentési fájlt, hacsak nem teljesen biztos a dolgában."
+          "text": "Ez a művelet nem vonható vissza. Előbb mentsen biztonsági mentési fájlt, hacsak nem teljesen biztos a dolgában."
         }
       ]
     },
@@ -976,7 +976,7 @@
       "blocks": [
         {
           "kind": "p",
-          "text": "Az OnlineCV mögött nincs fiók, nincs bejelentkezés és nincs szerver. **Az önéletrajza fájlként soha nem hagyja el az eszközét.** Az OnlineCV-nél senki nem tudja elolvasni, és nincs mi kiszivárogjon, mert adatbázis sem létezik."
+          "text": "Az OnlineCV mögött nincs fiók, nincs bejelentkezés és nincs szerver. **Az önéletrajza fájlként soha nem hagyja el az eszközét.** Az OnlineCV-nél senki nem tudja elolvasni, és nincs mi kiszivároghatna, mert adatbázis sem létezik."
         },
         {
           "kind": "h",
@@ -1064,7 +1064,7 @@
             "**Referenciák kérésre** — ezt amúgy is feltételezik, és elpazarol egy sort.",
             "A személyi igazolvány száma, a pontos lakcíme, a bankszámlaadatai. Ezeket soha ne írja olyan dokumentumba, amelyet idegeneknek küld.",
             "A korábbi munkahelyek elhagyásának okát, valamint a jelenlegi vagy elvárt fizetést, hacsak nem kérdezik.",
-            "Üres jelzőket, amelyek mögött nincs semmi. A **szorgalmas** semmit sem ér; a **rendszerváltás alatt három hónapig két kolléga munkáját is elláttam** ugyanaz az állítás, csak bizonyítva."
+            "Üres jelzőket, amelyek mögött nincs semmi. A **szorgalmas** semmit sem ér; a **rendszermigráció alatt három hónapig két kolléga munkáját is elláttam** ugyanaz az állítás, csak bizonyítva."
           ]
         },
         {
@@ -1136,7 +1136,7 @@
             },
             {
               "term": "Megváltoztathatom a szakaszok sorrendjét?",
-              "def": "Magukét nem. A munkatapasztalaton, a tanulmányokon és a tanúsítványokon belüli tételeket az **Egyéni sorrend** kapcsolóval rendezheti át."
+              "def": "Magukat a szakaszokat nem. A munkatapasztalaton, a tanulmányokon és a tanúsítványokon belüli tételeket az **Egyéni sorrend** kapcsolóval rendezheti át."
             },
             {
               "term": "Melyik sablont válasszam?",
