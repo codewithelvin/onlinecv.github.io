@@ -322,7 +322,7 @@
     "projectUrlInvalid": "Укажите корректную ссылку",
     "contactTypeRequired": "Выберите тип контакта",
     "valueRequired": "Заполните поле «Значение»",
-    "shouldMatchPhone": "Введите номер телефона в международном формате: +994XXXXXXXXX",
+    "shouldMatchPhone": "Введите номер телефона в международном формате: +7XXXXXXXXXX",
     "shouldBeValidUrl": "Укажите корректную ссылку",
     "shouldBeLinkedinUrl": "Ссылка должна вести на LinkedIn",
     "shouldBeFacebookUrl": "Ссылка должна вести на Facebook",
