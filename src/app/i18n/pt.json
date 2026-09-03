@@ -202,6 +202,40 @@
     "error": "Não foi possível carregar o guia. Verifique a ligação e tente novamente.",
     "openPage": "Abrir como página"
   },
+  "tour": {
+    "welcome": {
+      "title": "Quer que lhe mostremos o editor?",
+      "body": "Uma visita rápida indica todos os botões do editor — como mudar de modelo, escolher o idioma do CV e descarregar o PDF — e explica em poucas palavras o que se escreve em cada secção.",
+      "hint": "Pode sair a qualquer momento. Isto é oferecido apenas uma vez; depois a visita fica dentro do guia.",
+      "start": "Iniciar a visita",
+      "skip": "Agora não"
+    },
+    "nav": {
+      "progress": "Seguinte ({current}/{total})"
+    },
+    "steps": {
+      "templates": "Há {{templates}} modelos para escolher — com fotografia ou sem, a uma coluna ou a duas. Escolha um e a pré-visualização muda logo; pode trocar as vezes que quiser.",
+      "preview": "O seu CV exatamente como vai ser descarregado, atualizado à medida que escreve. Repare neste painel quando experimentar outro modelo.",
+      "cvLanguage": "O idioma em que o próprio CV está escrito: os títulos e os valores escolhidos das listas seguem-no. É independente do idioma da aplicação, pelo que pode preencher um CV em inglês na sua língua.",
+      "uiLanguage": "O idioma da aplicação. Não altera o idioma do seu CV.",
+      "export": "Descarrega o CV concluído. O PDF contém texto verdadeiro e não uma imagem, por isso os sistemas de recrutamento conseguem lê-lo.",
+      "backup": "Guarda os seus dados num ficheiro. Nada fica num servidor, por isso esse ficheiro é a única forma de levar o seu CV para outro navegador ou outro dispositivo.",
+      "reset": "Apaga tudo e começa um CV novo. Não é desfazer — sem um ficheiro de cópia de segurança os dados não se recuperam.",
+      "help": "O guia completo: o que se escreve em cada campo e como redigir um CV que seja lido. Cada secção abaixo tem também o seu próprio ponto de interrogação."
+    },
+    "sections": {
+      "basics": "O seu nome, a fotografia, a data de nascimento e algumas linhas sobre si. Os campos que deixar vazios — ou que ocultar — não aparecem no CV.",
+      "contact": "Números de telefone, e-mail e ligações para perfis. Cada canal tem o seu próprio ícone, para que um número de telemóvel se distinga de um número de WhatsApp ou Telegram.",
+      "experience": "Onde trabalhou e o que fazia. O cargo mais recente fica automaticamente em primeiro lugar — a ordem é calculada a partir das datas.",
+      "education": "Escolas, institutos e universidades. Comece a escrever e a lista sugere instituições.",
+      "certifications": "Cursos e certificados, com quem os emitiu e quando. Junte a ligação se o certificado puder ser verificado online.",
+      "skills": "As competências pelas quais quer ser encontrado, cada uma com um nível de 1 a 100.",
+      "languages": "As línguas que fala, de A1 a C2 ou como língua materna. Uma língua que não conste da lista pode simplesmente ser escrita.",
+      "projects": "Trabalho que vale mostrar e que não foi um emprego: produtos seus, código aberto, freelance.",
+      "interests": "Alguns interesses, uma ou duas palavras cada. É opcional e é o primeiro a retirar se o CV ficar comprido."
+    },
+    "replay": "Mostre-me o editor"
+  },
   "backup": {
     "download": "Cópia de segurança",
     "downloadHint": "Guarde os dados do seu CV como ficheiro. Mais tarde pode escolher esse ficheiro e restaurar o CV.",

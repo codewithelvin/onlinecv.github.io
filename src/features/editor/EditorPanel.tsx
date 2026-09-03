@@ -15,6 +15,7 @@ import { useTranslation } from 'react-i18next';
 import { useResumeStore } from '../../state/store';
 import { FieldScope, VerticalFields } from '../../components/form/fields';
 import { SectionHelpButton } from '../help/HelpButton';
+import { tourSectionClass } from '../tour/steps';
 import { BasicsSection } from './sections/BasicsSection';
 import { GeneralInfoSection } from './sections/GeneralInfoSection';
 import { ContactSection } from './sections/ContactSection';
@@ -231,6 +232,14 @@ export function EditorPanel(): JSX.Element {
       <Collapse
         items={items.map(({ selfScoped, ...item }) => ({
           ...item,
+          /**
+           * How the editor tour addresses a section. A CLASS because `Collapse`
+           * forwards `className` to the panel wrapper and does not forward an id
+           * — and built by `tourSectionClass` so the markup and the tour's
+           * selector cannot drift apart. Not a style hook: nothing in `index.css`
+           * matches it.
+           */
+          className: tourSectionClass(item.key),
           children: selfScoped ? (
             item.children
           ) : (

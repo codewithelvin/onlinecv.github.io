@@ -202,6 +202,40 @@
     "error": "Non è stato possibile caricare la guida. Controlla la connessione e riprova.",
     "openPage": "Apri come pagina"
   },
+  "tour": {
+    "welcome": {
+      "title": "Ti facciamo fare un giro?",
+      "body": "Un breve tour ti indica ogni pulsante dell’editor — come cambiare modello, scegliere la lingua del CV e scaricare il PDF — e spiega in una riga che cosa va in ciascuna sezione.",
+      "hint": "Puoi uscire in qualsiasi momento. La proposta compare una sola volta; poi il tour resta dentro la guida.",
+      "start": "Inizia il tour",
+      "skip": "Non ora"
+    },
+    "nav": {
+      "progress": "Avanti ({current}/{total})"
+    },
+    "steps": {
+      "templates": "Ci sono {{templates}} modelli tra cui scegliere — con foto o senza, a una colonna o a due. Scegline uno e l’anteprima cambia subito; puoi cambiare quante volte vuoi.",
+      "preview": "Il tuo CV esattamente come verrà scaricato, aggiornato mentre scrivi. Guarda questo riquadro quando provi un altro modello.",
+      "cvLanguage": "La lingua in cui è scritto il CV stesso: i titoli e i valori scelti dagli elenchi la seguono. È separata dalla lingua dell’app, così puoi compilare un CV in inglese nella tua lingua.",
+      "uiLanguage": "La lingua dell’app. Non cambia la lingua del tuo CV.",
+      "export": "Scarica il CV finito. Il PDF contiene testo vero e non un’immagine, quindi i sistemi di selezione riescono a leggerlo.",
+      "backup": "Salva i tuoi dati in un file. Niente resta su un server, quindi quel file è l’unico modo per portare il tuo CV su un altro browser o dispositivo.",
+      "reset": "Svuota tutto e comincia un nuovo CV. Non è un annulla — senza un file di backup i dati non si recuperano.",
+      "help": "La guida completa: cosa va in ogni campo e come si scrive un CV che venga letto. Ogni sezione qui sotto ha anche il proprio punto di domanda."
+    },
+    "sections": {
+      "basics": "Il tuo nome, la foto, la data di nascita e qualche riga su di te. I campi che lasci vuoti — o che nascondi — semplicemente non compaiono nel CV.",
+      "contact": "Numeri di telefono, e-mail e link ai profili. Ogni canale ha la sua icona, così un cellulare si distingue da un numero WhatsApp o Telegram.",
+      "experience": "Dove hai lavorato e cosa facevi. Il lavoro più recente va automaticamente per primo: l’ordine è ricavato dalle date.",
+      "education": "Scuole, istituti e università. Inizia a scrivere e l’elenco ti suggerisce gli istituti.",
+      "certifications": "Corsi e certificati, con chi li ha rilasciati e quando. Aggiungi il link se il certificato è verificabile online.",
+      "skills": "Le competenze per cui vuoi essere trovato, ciascuna con un livello da 1 a 100.",
+      "languages": "Le lingue che parli, da A1 a C2 o come madrelingua. Una lingua che non è nell’elenco si può semplicemente scrivere.",
+      "projects": "Lavoro che vale la pena mostrare e che non era un impiego: prodotti tuoi, open source, freelance.",
+      "interests": "Qualche interesse, una o due parole ciascuno. È facoltativo, ed è la prima cosa da togliere se il CV si allunga."
+    },
+    "replay": "Fammi fare un giro dell’editor"
+  },
   "backup": {
     "download": "Backup",
     "downloadHint": "Salva i dati del tuo CV in un file. Più tardi potrai scegliere quel file e ripristinare il tuo CV.",

@@ -13,6 +13,7 @@ import { PwaUpdatePrompt } from '../components/PwaUpdatePrompt';
 import { PwaInstallPrompt } from '../components/PwaInstallPrompt';
 import { ConsentDrawer } from '../components/ConsentDrawer';
 import { HelpMount } from '../features/help/HelpMount';
+import { TourMount } from '../features/tour/TourMount';
 import { HomePage } from '../pages/HomePage';
 
 /**
@@ -66,6 +67,11 @@ export function App(): JSX.Element {
                 over BOTH the wizard and the editor (spec §10.4) and must survive
                 the transition between them. Renders nothing until first opened. */}
             <HelpMount />
+            {/* Also at the root, and BEFORE the install screen: the tour is
+                offered on a first visit once the analytics question has been
+                answered, and the install prompt stands aside while it is on
+                screen (see `PwaInstallPrompt`). */}
+            <TourMount />
             {/* After the page, so the install screen can gate itself on the
                 first-run wizard being done. */}
             <PwaInstallPrompt />

@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { useResumeStore } from '../state/store';
 import { useScrollLock } from '../hooks/useScrollLock';
 import { getModalContainer } from '../utils/modal-container';
+import { isTourOnScreen, useTourStore } from '../features/tour/tour-store';
 
 /**
  * The install screen for the PWA (spec §19.1).
@@ -68,6 +69,7 @@ export function PwaInstallPrompt(): JSX.Element | null {
   const [open, setOpen] = useState(false);
   const hydrated = useResumeStore((s) => s.hydrated);
   const wizardCompleted = useResumeStore((s) => s.wizardCompleted);
+  const tourOnScreen = useTourStore((s) => isTourOnScreen(s.phase));
 
   useEffect(() => {
     if (isStandalone() || wasDismissed()) return;
@@ -96,8 +98,15 @@ export function PwaInstallPrompt(): JSX.Element | null {
    * through, and a modal on top of it reads as the app being broken. Returning
    * visitors — the ones for whom installing is actually worth something — see it
    * on the editor instead.
+   *
+   * And never over the tour, which arrives on the same first visit and from an
+   * event this component cannot schedule around (`beforeinstallprompt` fires when
+   * Chromium decides it does). Deferred rather than dropped: `open` stays true, so
+   * the moment the tour ends the offer appears. The tour wins because it is the
+   * one that explains the app; installing an app the user cannot navigate is not
+   * worth the interruption.
    */
-  const visible = open && hydrated && wizardCompleted;
+  const visible = open && hydrated && wizardCompleted && !tourOnScreen;
   useScrollLock(visible);
 
   const close = useCallback(() => {

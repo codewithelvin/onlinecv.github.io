@@ -202,6 +202,40 @@
     "error": "Le guide n’a pas pu être chargé. Vérifiez votre connexion et réessayez.",
     "openPage": "Ouvrir en tant que page"
   },
+  "tour": {
+    "welcome": {
+      "title": "On vous fait visiter l’éditeur ?",
+      "body": "Une visite rapide vous montre chaque bouton de l’éditeur — comment changer de modèle, choisir la langue du CV et télécharger le PDF — et dit en une phrase ce que contient chaque section.",
+      "hint": "Vous pouvez arrêter à tout moment. La proposition n’apparaît qu’une fois ; ensuite la visite reste dans le guide.",
+      "start": "Commencer la visite",
+      "skip": "Pas maintenant"
+    },
+    "nav": {
+      "progress": "Suivant ({current}/{total})"
+    },
+    "steps": {
+      "templates": "{{templates}} modèles au choix — avec photo ou sans, sur une colonne ou sur deux. Choisissez-en un et l’aperçu change aussitôt ; vous pouvez en changer autant de fois que vous voulez.",
+      "preview": "Votre CV exactement tel qu’il sera téléchargé, mis à jour au fil de la saisie. Regardez ce volet quand vous essayez un autre modèle.",
+      "cvLanguage": "La langue dans laquelle le CV lui-même est rédigé : les titres et les valeurs choisies dans les listes la suivent. Elle est indépendante de la langue de l’application — vous pouvez remplir un CV en anglais dans votre propre langue.",
+      "uiLanguage": "La langue de l’application. Elle ne change pas la langue de votre CV.",
+      "export": "Télécharge le CV terminé. Le PDF contient du vrai texte et non une image, si bien que les logiciels de recrutement peuvent le lire.",
+      "backup": "Enregistre vos données dans un fichier. Rien n’est conservé sur un serveur : ce fichier est donc le seul moyen de transférer votre CV vers un autre navigateur ou un autre appareil.",
+      "reset": "Vide tout et commence un nouveau CV. Ce n’est pas une annulation — sans fichier de sauvegarde, les données ne se récupèrent pas.",
+      "help": "Le guide complet : ce qu’attend chaque champ, et comment rédiger un CV qui se lit. Chaque section ci-dessous a aussi son propre point d’interrogation."
+    },
+    "sections": {
+      "basics": "Votre nom, votre photo, votre date de naissance et quelques lignes sur vous. Les champs que vous laissez vides — ou que vous masquez — n’apparaissent pas sur le CV.",
+      "contact": "Numéros de téléphone, e-mail et liens de profil. Chaque canal reçoit sa propre icône, ce qui distingue un mobile d’un numéro WhatsApp ou Telegram.",
+      "experience": "Où vous avez travaillé et ce que vous y faisiez. Le poste le plus récent passe automatiquement en premier — l’ordre est déduit des dates.",
+      "education": "Écoles, établissements techniques et universités. Commencez à écrire et la liste vous proposera des établissements.",
+      "certifications": "Formations et certificats, avec l’organisme et la date. Ajoutez le lien si le certificat peut être vérifié en ligne.",
+      "skills": "Les compétences pour lesquelles vous voulez être trouvé, chacune avec un niveau de 1 à 100.",
+      "languages": "Les langues que vous parlez, de A1 à C2 ou en langue maternelle. Une langue absente de la liste peut simplement être saisie.",
+      "projects": "Un travail qui mérite d’être montré et qui n’était pas un emploi : vos propres produits, l’open source, le freelance.",
+      "interests": "Quelques centres d’intérêt, en un ou deux mots chacun. C’est facultatif, et c’est la première chose à retirer si le CV s’allonge."
+    },
+    "replay": "Faites-moi visiter l’éditeur"
+  },
   "backup": {
     "download": "Sauvegarde",
     "downloadHint": "Enregistrez les données de votre CV dans un fichier. Vous pourrez ensuite choisir ce fichier pour restaurer votre CV.",

@@ -37,6 +37,19 @@ let sessionDecision: ConsentDecision | null = null;
 /** Listeners waiting to be told the user wants to revisit the decision. */
 const reviewListeners = new Set<() => void>();
 
+/**
+ * Listeners waiting to be told the question has been ANSWERED, either way.
+ *
+ * Separate from `reviewListeners` because they are opposites: that set is "the
+ * user wants to be asked again", this one is "the user has just decided". It
+ * exists because `isConsentRequired()` reads storage and is therefore not
+ * reactive, and something else on a first visit has to wait its turn — see
+ * `features/tour/TourMount`. Not a store, for the same reason the review set is
+ * not one: this is a property of the device, and the app's store is persisted
+ * alongside the resume.
+ */
+const decisionListeners = new Set<(decision: ConsentDecision) => void>();
+
 function isDecision(value: unknown): value is ConsentDecision {
   return value === 'granted' || value === 'denied';
 }
@@ -66,6 +79,23 @@ export function setConsent(decision: ConsentDecision): void {
     sessionDecision = decision;
   }
   applyConsent(decision);
+  // After the decision has been applied, so a listener that reads back
+  // `readConsent()` sees the answer rather than the question.
+  for (const listener of [...decisionListeners]) listener(decision);
+}
+
+/**
+ * Subscribe to the analytics question being answered. Returns the unsubscribe
+ * function.
+ *
+ * Fires on a fresh decision only — not on `applyStoredConsent`, which acts on an
+ * answer given on an earlier visit and is not news to anybody.
+ */
+export function onConsentDecision(listener: (decision: ConsentDecision) => void): () => void {
+  decisionListeners.add(listener);
+  return () => {
+    decisionListeners.delete(listener);
+  };
 }
 
 /**

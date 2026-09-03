@@ -31,6 +31,7 @@
     "react-hook-form": "^7.54.2",
     "react-i18next": "^15.2.0",
     "react-icons": "^5.4.0",
+    "react-joyride": "^3.2.0",
     "react-pdf-html": "^2.0.2",
     "schema-dts": "^1.1.5",
     "yup": "^1.6.1",
@@ -40,7 +41,8 @@
     "vite": "$vite",
     "brace-expansion": "5.0.9",
     "minimatch": "10.2.6",
-    "fast-uri": "3.1.5"
+    "fast-uri": "3.1.7",
+    "nanoid": "3.3.18"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

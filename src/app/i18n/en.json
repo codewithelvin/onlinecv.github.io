@@ -202,6 +202,40 @@
     "error": "The guide could not be loaded. Check your connection and try again.",
     "openPage": "Open as a page"
   },
+  "tour": {
+    "welcome": {
+      "title": "Shall we show you around?",
+      "body": "A short tour points out every button in the editor — how to change the design, choose the CV language and download the PDF — and says briefly what belongs in each section.",
+      "hint": "You can leave at any time. This is offered only once; afterwards the tour stays inside the guide.",
+      "start": "Start the tour",
+      "skip": "Not now"
+    },
+    "nav": {
+      "progress": "Next ({current}/{total})"
+    },
+    "steps": {
+      "templates": "{{templates}} designs to choose from — with a photo or without, one column or two. Pick one and the preview changes at once, and you can switch as often as you like.",
+      "preview": "Your CV exactly as it will be downloaded, updating as you type. Watch this pane when you try a different design.",
+      "cvLanguage": "The language the CV itself is written in: headings and values picked from lists follow it. It is separate from the language of the app, so you can fill in an English CV in your own language.",
+      "uiLanguage": "The language of the app. It does not change the language of your CV.",
+      "export": "Downloads the finished CV. The PDF holds real text rather than a picture, so the systems employers use can read it.",
+      "backup": "Saves your data as a file. Nothing is kept on a server, so this file is the only way to move your CV to another browser or device.",
+      "reset": "Empties everything and starts a new CV. It is not an undo — without a backup file the data cannot be brought back.",
+      "help": "The full guide: what every field wants, and how to write a CV that gets read. Each section below also has a question mark of its own."
+    },
+    "sections": {
+      "basics": "Your name, photo, date of birth and a few lines about yourself. Fields you leave empty — or hide — simply do not appear on the CV.",
+      "contact": "Phone numbers, email and profile links. Each channel gets its own icon, so a mobile is told apart from a WhatsApp or Telegram number.",
+      "experience": "Where you have worked and what you did there. The newest job goes first automatically — the order is worked out from the dates.",
+      "education": "Schools, colleges and universities. Start typing and the list suggests institutions.",
+      "certifications": "Courses and certificates, with who issued them and when. Add the link if the certificate can be checked online.",
+      "skills": "The skills you want to be found for, each with a level from 1 to 100.",
+      "languages": "The languages you speak, from A1 to C2 or as a native speaker. A language that is not on the list can simply be typed.",
+      "projects": "Work worth showing that was not a job — your own products, open source, freelance.",
+      "interests": "A few interests, a word or two each. Optional, and the first thing to drop if the CV runs long."
+    },
+    "replay": "Show me around the editor"
+  },
   "backup": {
     "download": "Backup",
     "downloadHint": "Save your CV data as a file. You can pick that file later to restore your CV.",

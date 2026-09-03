@@ -202,6 +202,40 @@
     "error": "Die Anleitung konnte nicht geladen werden. Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
     "openPage": "Als Seite öffnen"
   },
+  "tour": {
+    "welcome": {
+      "title": "Sollen wir Ihnen den Editor zeigen?",
+      "body": "Eine kurze Tour zeigt Ihnen jede Schaltfläche im Editor — wie Sie das Design wechseln, die Sprache des Lebenslaufs wählen und das PDF herunterladen — und erklärt kurz, was in jeden Abschnitt gehört.",
+      "hint": "Sie können jederzeit abbrechen. Dieses Angebot erscheint nur einmal; danach bleibt die Tour in der Anleitung.",
+      "start": "Tour starten",
+      "skip": "Nicht jetzt"
+    },
+    "nav": {
+      "progress": "Weiter ({current}/{total})"
+    },
+    "steps": {
+      "templates": "{{templates}} Designs stehen zur Wahl — mit Foto oder ohne, einspaltig oder zweispaltig. Wählen Sie eines aus, und die Vorschau ändert sich sofort; Sie können beliebig oft wechseln.",
+      "preview": "Ihr Lebenslauf genau so, wie er heruntergeladen wird — und er aktualisiert sich beim Tippen. Behalten Sie diesen Bereich im Auge, wenn Sie ein anderes Design ausprobieren.",
+      "cvLanguage": "Die Sprache, in der der Lebenslauf selbst geschrieben ist: Überschriften und Werte aus den Auswahllisten folgen ihr. Sie ist von der Sprache der App getrennt — Sie können einen englischen Lebenslauf in Ihrer eigenen Sprache ausfüllen.",
+      "uiLanguage": "Die Sprache der App. Die Sprache Ihres Lebenslaufs ändert sich dadurch nicht.",
+      "export": "Lädt den fertigen Lebenslauf herunter. Das PDF enthält echten Text und kein Bild, deshalb können Bewerbermanagementsysteme es lesen.",
+      "backup": "Speichert Ihre Daten als Datei. Nichts liegt auf einem Server — diese Datei ist also der einzige Weg, Ihren Lebenslauf in einen anderen Browser oder auf ein anderes Gerät zu bringen.",
+      "reset": "Löscht alles und beginnt einen neuen Lebenslauf. Das ist kein Rückgängig — ohne Sicherungsdatei sind die Daten nicht wiederherstellbar.",
+      "help": "Die vollständige Anleitung: was in jedes Feld gehört und wie ein Lebenslauf aussieht, der gelesen wird. Jeder Abschnitt darunter hat außerdem sein eigenes Fragezeichen."
+    },
+    "sections": {
+      "basics": "Ihr Name, Ihr Foto, Ihr Geburtsdatum und ein paar Zeilen über Sie. Felder, die Sie leer lassen — oder ausblenden — erscheinen nicht im Lebenslauf.",
+      "contact": "Telefonnummern, E-Mail und Profillinks. Jeder Kanal bekommt sein eigenes Symbol, damit eine Mobilnummer von einer WhatsApp- oder Telegram-Nummer zu unterscheiden ist.",
+      "experience": "Wo Sie gearbeitet haben und was Sie dort gemacht haben. Die neueste Stelle steht automatisch oben — die Reihenfolge ergibt sich aus den Daten.",
+      "education": "Schulen, Fachschulen und Hochschulen. Fangen Sie an zu tippen, und die Liste schlägt Einrichtungen vor.",
+      "certifications": "Fortbildungen und Zertifikate, mit Ausstellendem und Datum. Fügen Sie den Link hinzu, wenn sich das Zertifikat online prüfen lässt.",
+      "skills": "Die Fähigkeiten, über die Sie gefunden werden wollen — jede mit einem Niveau von 1 bis 100.",
+      "languages": "Die Sprachen, die Sie sprechen, von A1 bis C2 oder als Muttersprache. Eine Sprache, die nicht in der Liste steht, können Sie einfach eintippen.",
+      "projects": "Zeigenswerte Arbeit, die keine Anstellung war — eigene Produkte, Open Source, freiberufliche Aufträge.",
+      "interests": "Ein paar Interessen, jeweils in einem oder zwei Wörtern. Freiwillig — und das Erste, was wegfällt, wenn der Lebenslauf zu lang wird."
+    },
+    "replay": "Zeigen Sie mir den Editor"
+  },
   "backup": {
     "download": "Sicherung",
     "downloadHint": "Speichern Sie die Daten Ihres Lebenslaufs als Datei. Später können Sie diese Datei auswählen und Ihren Lebenslauf wiederherstellen.",

@@ -202,6 +202,40 @@
     "error": "Kılavuz yüklenemedi. Bağlantınızı kontrol edip tekrar deneyin.",
     "openPage": "Sayfa olarak aç"
   },
+  "tour": {
+    "welcome": {
+      "title": "Editörü size gösterelim mi?",
+      "body": "Kısa bir tur editördeki her düğmeyi gösterir — şablonu nasıl değiştireceğinizi, CV dilini nasıl seçeceğinizi, PDF’i nasıl indireceğinizi — ve her bölüme ne yazıldığını kısaca anlatır.",
+      "hint": "İstediğiniz an çıkabilirsiniz. Bu öneri yalnızca bir kez gösterilir; sonrasında tur kılavuzun içinde kalır.",
+      "start": "Tura başla",
+      "skip": "Şimdi değil"
+    },
+    "nav": {
+      "progress": "İleri ({current}/{total})"
+    },
+    "steps": {
+      "templates": "Seçebileceğiniz {{templates}} şablon var — fotoğraflı ya da fotoğrafsız, tek veya iki sütunlu. Birini seçin, önizleme hemen değişir; istediğiniz kadar değiştirebilirsiniz.",
+      "preview": "CV’niz tam olarak indirileceği hâliyle burada görünür ve yazdıkça güncellenir. Başka bir şablon denerken bu bölmeye bakın.",
+      "cvLanguage": "CV’nin kendisinin yazıldığı dil: başlıklar ve listelerden seçilen değerler bu dile uyar. Uygulamanın dilinden ayrıdır — İngilizce bir CV’yi Türkçe arayüzde doldurabilirsiniz.",
+      "uiLanguage": "Uygulamanın dili. CV’nizin dilini değiştirmez.",
+      "export": "Bitmiş CV’yi indirir. PDF resim değil gerçek metin taşır, bu yüzden işe alım sistemleri onu okuyabilir.",
+      "backup": "Verilerinizi dosya olarak kaydeder. Sunucuda hiçbir şey tutulmadığı için CV’nizi başka bir tarayıcıya veya cihaza taşımanın tek yolu bu dosyadır.",
+      "reset": "Her şeyi boşaltıp yeni bir CV başlatır. Bu bir geri alma değildir — yedek dosyanız yoksa veriler geri getirilemez.",
+      "help": "Tam kılavuz: hangi alana ne yazılır ve okunan bir CV nasıl hazırlanır. Aşağıdaki her bölümün ayrıca kendi soru işareti var."
+    },
+    "sections": {
+      "basics": "Adınız, fotoğrafınız, doğum tarihiniz ve kendinizle ilgili birkaç satır. Boş bıraktığınız — ya da gizlediğiniz — alanlar CV’de görünmez.",
+      "contact": "Telefon numaraları, e-posta ve profil bağlantıları. Her kanalın kendi simgesi vardır, böylece cep numarası WhatsApp veya Telegram numarasından ayrılır.",
+      "experience": "Nerede çalıştığınız ve orada ne yaptığınız. En yeni iş otomatik olarak başa gelir — sıra tarihlerden hesaplanır.",
+      "education": "Okullar, meslek yüksekokulları ve üniversiteler. Yazmaya başlayın, liste kurum önerecek.",
+      "certifications": "Kurslar ve sertifikalar — kim vermiş ve ne zaman. Sertifika çevrimiçi doğrulanabiliyorsa bağlantısını da ekleyin.",
+      "skills": "Sizi bulmak için aranan beceriler; her birinin 1 ile 100 arasında bir düzeyi var.",
+      "languages": "Konuştuğunuz diller — A1’den C2’ye kadar ya da ana dili düzeyinde. Listede olmayan bir dili doğrudan yazabilirsiniz.",
+      "projects": "İş olmayan ama göstermeye değen çalışmalar: kendi ürünleriniz, açık kaynak, serbest çalışma.",
+      "interests": "Birer iki kelimeyle birkaç ilgi alanı. Zorunlu değil ve CV uzarsa ilk çıkarılacak bölüm."
+    },
+    "replay": "Editörü bana gösterin"
+  },
   "backup": {
     "download": "Yedek al",
     "downloadHint": "CV verilerinizi dosya olarak kaydedin. Daha sonra bu dosyayı seçip CV'nizi geri yükleyebilirsiniz.",

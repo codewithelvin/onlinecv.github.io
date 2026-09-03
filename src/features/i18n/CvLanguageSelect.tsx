@@ -20,7 +20,14 @@ export function CvLanguageSelect(): JSX.Element {
   const setResumeLocale = useResumeStore((s) => s.setResumeLocale);
   const labelId = 'cv-language-label';
   return (
-    <Space size="small">
+    /**
+     * The id is on the ROW, not on the `Select`. `#cv-language` exists — AntD puts
+     * it on the combobox's inner input, which is a transparent overlay with no
+     * label beside it — and the editor tour has to point at the label and the
+     * control together, since "CV dili: Русский" is the thing that explains
+     * itself. A wrapper id is also what keeps the tour off an internal AntD node.
+     */
+    <Space id="cv-language-picker" size="small">
       <Typography.Text type="secondary" id={labelId}>
         {t('header.cvLanguage')}:
       </Typography.Text>

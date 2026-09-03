@@ -202,6 +202,40 @@
     "error": "Qoʻllanmani yuklab boʻlmadi. Aloqani tekshiring va qaytadan urinib koʻring.",
     "openPage": "Sahifa sifatida ochish"
   },
+  "tour": {
+    "welcome": {
+      "title": "Tahrirlagichni koʻrsataylikmi?",
+      "body": "Qisqa sayohat tahrirlagichdagi har bir tugmani koʻrsatadi — shablonni qanday almashtirish, CV tilini qanday tanlash, PDF-ni qanday yuklab olish — va har bir boʻlimga nima yozilishini qisqacha tushuntiradi.",
+      "hint": "Xohlagan paytda toʻxtatishingiz mumkin. Bu taklif faqat bir marta koʻrsatiladi; keyin sayohat qoʻllanma ichida qoladi.",
+      "start": "Sayohatni boshlash",
+      "skip": "Hozir emas"
+    },
+    "nav": {
+      "progress": "Keyingi ({current}/{total})"
+    },
+    "steps": {
+      "templates": "Tanlash uchun {{templates}} shablon bor — rasmli yoki rasmsiz, bir yoki ikki ustunli. Birini tanlang, oldindan koʻrish darhol oʻzgaradi; xohlaganingizcha almashtirishingiz mumkin.",
+      "preview": "CV-ingiz yuklab olinadigan koʻrinishda aynan shunday boʻladi va yozgan sayin yangilanadi. Boshqa shablonni sinab koʻrganda shu panelga qarang.",
+      "cvLanguage": "CV-ning oʻzi yoziladigan til: sarlavhalar va roʻyxatdan tanlangan qiymatlar shu tilga moslashadi. Ilova tilidan alohida — inglizcha CV-ni oʻzbek tilidagi oynada toʻldirishingiz mumkin.",
+      "uiLanguage": "Ilovaning tili. CV-ingizning tilini oʻzgartirmaydi.",
+      "export": "Tayyor CV-ni yuklab oladi. PDF rasm emas, haqiqiy matn saqlaydi — shu sababli ishga qabul tizimlari uni oʻqiy oladi.",
+      "backup": "Maʼlumotlaringizni fayl sifatida saqlaydi. Serverda hech narsa qolmaydi, shuning uchun CV-ni boshqa brauzerga yoki boshqa qurilmaga koʻchirishning yagona yoʻli — shu fayl.",
+      "reset": "Hammasini oʻchirib, yangi CV boshlaydi. Bu bekor qilish emas — zaxira nusxa fayli boʻlmasa, maʼlumotlar qaytmaydi.",
+      "help": "Toʻliq qoʻllanma: qaysi maydonga nima yoziladi va oʻqiladigan CV qanday tayyorlanadi. Quyidagi har bir boʻlimning oʻz savol belgisi ham bor."
+    },
+    "sections": {
+      "basics": "Ismingiz, rasmingiz, tugʻilgan sanangiz va oʻzingiz haqida bir necha satr. Boʻsh qoldirgan — yoki yashirgan — maydonlar CV-da koʻrinmaydi.",
+      "contact": "Telefon raqamlari, elektron pochta va profil havolalari. Har bir kanalning oʻz belgisi bor, shu sababli mobil raqam WhatsApp yoki Telegram raqamidan ajratiladi.",
+      "experience": "Qayerda ishlaganingiz va u yerda nima qilganingiz. Eng yangi ish avtomatik ravishda birinchi turadi — tartib sanalardan hisoblanadi.",
+      "education": "Maktablar, kollejlar va universitetlar. Yozishni boshlang, roʻyxat taʼlim muassasalarini taklif qiladi.",
+      "certifications": "Kurslar va sertifikatlar — kim bergan va qachon. Onlayn tekshirish mumkin boʻlsa, havolasini ham qoʻshing.",
+      "skills": "Sizni topish uchun izlanadigan koʻnikmalar; har birining 1 dan 100 gacha darajasi bor.",
+      "languages": "Bilgan tillaringiz — A1 dan C2 gacha yoki ona tili darajasida. Roʻyxatda yoʻq tilni shunchaki yozib qoʻyish mumkin.",
+      "projects": "Ish boʻlmagan, lekin koʻrsatishga arziydigan ishlar — oʻz mahsulotlaringiz, ochiq kod, frilanser loyihalari.",
+      "interests": "Bir-ikki soʻz bilan bir nechta qiziqish. Majburiy emas va CV uzayib ketsa, birinchi olib tashlanadigan boʻlim."
+    },
+    "replay": "Tahrirlagichni menga koʻrsating"
+  },
   "backup": {
     "download": "Zaxira nusxa",
     "downloadHint": "CV maʼlumotlaringizni fayl sifatida saqlang. Keyinroq shu faylni tanlab, CV-ni tiklashingiz mumkin.",

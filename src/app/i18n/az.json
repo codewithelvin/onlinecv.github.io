@@ -202,6 +202,40 @@
     "error": "Bələdçi yüklənmədi. İnternet bağlantınızı yoxlayıb yenidən cəhd edin.",
     "openPage": "Səhifə kimi aç"
   },
+  "tour": {
+    "welcome": {
+      "title": "Redaktoru sizə göstərək?",
+      "body": "Qısa tur redaktordakı bütün düymələri göstərir — dizaynı necə dəyişəcəyinizi, CV dilini necə seçəcəyinizi, PDF-i necə endirəcəyinizi — və hər bölməyə nə yazıldığını qısaca izah edir.",
+      "hint": "İstədiyiniz an dayandıra bilərsiniz. Bu təklif yalnız bir dəfə göstərilir; sonra tur Bələdçinin içində qalır.",
+      "start": "Turu başlat",
+      "skip": "İndi yox"
+    },
+    "nav": {
+      "progress": "Növbəti ({current}/{total})"
+    },
+    "steps": {
+      "templates": "Seçim üçün {{templates}} dizayn var — şəkilli və ya şəkilsiz, bir və ya iki sütunlu. Birini seçin, önizləmə dərhal dəyişir; istədiyiniz qədər dəyişdirə bilərsiniz.",
+      "preview": "CV-niz burada endirildiyi kimi görünür və yazdıqca yenilənir. Başqa dizayn seçəndə bu panelə baxın.",
+      "cvLanguage": "CV-nin özünün yazıldığı dil: başlıqlar və siyahıdan seçilən dəyərlər ona uyğunlaşır. Proqramın dilindən ayrıdır — ingiliscə CV-ni öz dilinizdə doldura bilərsiniz.",
+      "uiLanguage": "Proqramın dili. CV-nizin dilini dəyişmir.",
+      "export": "Hazır CV-ni endirir. PDF şəkil deyil, əsl mətn saxlayır — işə qəbul sistemləri onu oxuya bilir.",
+      "backup": "Məlumatlarınızı fayl kimi saxlayır. Heç nə serverdə saxlanılmır, ona görə CV-ni başqa brauzerə və ya cihaza köçürməyin yeganə yolu bu fayldır.",
+      "reset": "Hər şeyi silib yeni CV-yə başlayır. Bu geri qaytarma deyil — ehtiyat nüsxə faylı olmasa, məlumatlar bərpa olunmur.",
+      "help": "Tam bələdçi: hansı sahəyə nə yazılır və oxunan CV necə hazırlanır. Aşağıdakı hər bölmənin də öz sual işarəsi var."
+    },
+    "sections": {
+      "basics": "Adınız, şəkliniz, doğum tarixiniz və özünüz haqqında bir neçə sətir. Boş buraxdığınız — və ya gizlətdiyiniz — sahələr CV-də görünmür.",
+      "contact": "Telefon nömrələri, e-poçt və profil linkləri. Hər birinin öz nişanı var, buna görə mobil nömrə WhatsApp və ya Telegram nömrəsindən fərqlənir.",
+      "experience": "Harada işlədiyiniz və orada nə etdiyiniz. Ən yeni iş avtomatik olaraq əvvəldə gəlir — sıra tarixlərdən hesablanır.",
+      "education": "Məktəb, kollec və universitetlər. Yazmağa başlayın, siyahı təhsil müəssisələrini təklif edəcək.",
+      "certifications": "Kurslar və sertifikatlar — kim verib və nə vaxt. Onlayn yoxlanıla bilirsə, linki də əlavə edin.",
+      "skills": "Sizi tapmaq üçün axtarılan bacarıqlar; hər birinin 1-dən 100-ə qədər səviyyəsi var.",
+      "languages": "Bildiyiniz dillər — A1-dən C2-yə qədər və ya ana dili səviyyəsində. Siyahıda olmayan dili sadəcə yaza bilərsiniz.",
+      "projects": "İş olmayan, lakin göstərməyə dəyən işlər — öz məhsullarınız, açıq mənbə layihələri, frilans.",
+      "interests": "Bir-iki sözlə bir neçə maraq. İstəyə bağlıdır və CV uzanırsa ilk çıxarılacaq hissədir."
+    },
+    "replay": "Redaktoru mənə göstər"
+  },
   "backup": {
     "download": "Ehtiyat nüsxə",
     "downloadHint": "CV məlumatlarınızı fayl kimi saxlayın. Sonra bu faylı seçib CV-nizi bərpa edə bilərsiniz.",

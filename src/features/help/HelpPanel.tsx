@@ -1,12 +1,13 @@
 import { type JSX, useEffect, useRef, useState } from 'react';
 import { Alert, Button, Drawer, Space, Spin, Typography } from 'antd';
-import { FiArrowLeft, FiExternalLink } from 'react-icons/fi';
+import { FiArrowLeft, FiCompass, FiExternalLink } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { LOCALES } from '../../app/i18n';
 import { useResumeStore } from '../../state/store';
 import { useResponsive } from '../../hooks/useResponsive';
 import { useScrollLock } from '../../hooks/useScrollLock';
 import { getModalContainer } from '../../utils/modal-container';
+import { useTourStore } from '../tour/tour-store';
 import { HelpBlocks } from './blocks';
 import { loadHelpContent, getCachedHelpContent } from './content';
 import { useHelpStore } from './help-store';
@@ -31,6 +32,9 @@ export function HelpPanel(): JSX.Element {
   const { t } = useTranslation();
   const { isDesktop } = useResponsive();
   const uiLocale = useResumeStore((s) => s.uiLocale);
+  /** The tour points at `EditorLayout`, which is only on screen once past the wizard. */
+  const wizardCompleted = useResumeStore((s) => s.wizardCompleted);
+  const startTour = useTourStore((s) => s.start);
 
   const open = useHelpStore((s) => s.open);
   const topic = useHelpStore((s) => s.topic);
@@ -95,6 +99,45 @@ export function HelpPanel(): JSX.Element {
 
   const nav = content ? (
     <Space direction="vertical" size={2} style={{ width: '100%' }}>
+      {/*
+       * The way back into the tour — the only one, and deliberately here rather
+       * than in the editor header.
+       *
+       * The tour is offered once per browser and then never again, which is right
+       * for an invitation and wrong as the ONLY chance: someone who declined it
+       * on a first visit, or arrives on a second device, still has the problem it
+       * was built for. The guide is where that person already goes, so it costs no
+       * room in a header that is measured full at `lg` in thirteen locales.
+       *
+       * Hidden on the wizard, where the tour would point at controls that are not
+       * mounted yet.
+       */}
+      {wizardCompleted ? (
+        <Button
+          id="tour-replay"
+          type="dashed"
+          block
+          icon={<FiCompass aria-hidden />}
+          onClick={() => {
+            // Closed first: the drawer covers the editor the tour is about to
+            // point at, and it is portalled above the page.
+            closeHelp();
+            startTour();
+          }}
+          style={{
+            justifyContent: 'flex-start',
+            textAlign: 'start',
+            height: 'auto',
+            minHeight: 40,
+            paddingTop: 8,
+            paddingBottom: 8,
+            whiteSpace: 'normal',
+            marginBottom: 8,
+          }}
+        >
+          {t('tour.replay')}
+        </Button>
+      ) : null}
       {HELP_TOPICS.map((id) => {
         const Icon = HELP_TOPIC_ICONS[id];
         const selected = current === id;

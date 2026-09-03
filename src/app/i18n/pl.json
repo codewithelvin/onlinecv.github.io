@@ -202,6 +202,40 @@
     "error": "Nie udało się wczytać przewodnika. Sprawdź połączenie i spróbuj ponownie.",
     "openPage": "Otwórz jako stronę"
   },
+  "tour": {
+    "welcome": {
+      "title": "Pokazać Ci edytor?",
+      "body": "Krótka wycieczka wskaże każdy przycisk w edytorze — jak zmienić szablon, jak wybrać język CV, jak pobrać PDF — i w jednym zdaniu wyjaśni, co wpisać w każdej sekcji.",
+      "hint": "W każdej chwili możesz wyjść. Ta propozycja pojawia się tylko raz; potem wycieczka zostaje w przewodniku.",
+      "start": "Rozpocznij wycieczkę",
+      "skip": "Nie teraz"
+    },
+    "nav": {
+      "progress": "Dalej ({current}/{total})"
+    },
+    "steps": {
+      "templates": "Do wyboru jest {{templates}} szablonów — ze zdjęciem albo bez, w jednej lub w dwóch kolumnach. Wybierz jeden, a podgląd zmieni się od razu; możesz je zmieniać dowolnie często.",
+      "preview": "Twoje CV dokładnie w takiej postaci, w jakiej zostanie pobrane — i odświeża się w trakcie pisania. Patrz na ten panel, gdy próbujesz innego szablonu.",
+      "cvLanguage": "Język, w którym napisane jest samo CV: nagłówki i wartości wybierane z list idą za nim. Jest niezależny od języka aplikacji, więc angielskie CV możesz wypełniać po polsku.",
+      "uiLanguage": "Język aplikacji. Nie zmienia języka Twojego CV.",
+      "export": "Pobiera gotowe CV. PDF zawiera prawdziwy tekst, a nie obrazek, dzięki czemu systemy rekrutacyjne potrafią go odczytać.",
+      "backup": "Zapisuje Twoje dane jako plik. Nic nie zostaje na serwerze, więc ten plik to jedyny sposób, aby przenieść CV do innej przeglądarki lub na inne urządzenie.",
+      "reset": "Czyści wszystko i zaczyna nowe CV. To nie cofnięcie zmian — bez pliku kopii zapasowej danych nie da się odzyskać.",
+      "help": "Pełny przewodnik: czego wymaga każde pole i jak napisać CV, które ktoś przeczyta. Każda sekcja poniżej ma też własny znak pytania."
+    },
+    "sections": {
+      "basics": "Imię i nazwisko, zdjęcie, data urodzenia i kilka zdań o sobie. Pola, które zostawisz puste — albo ukryjesz — po prostu nie pojawią się w CV.",
+      "contact": "Numery telefonu, e-mail i linki do profili. Każdy kanał ma własną ikonę, więc numer komórkowy da się odróżnić od numeru WhatsApp albo Telegram.",
+      "experience": "Gdzie pracowałeś i co tam robiłeś. Najnowsze stanowisko trafia na górę automatycznie — kolejność wynika z dat.",
+      "education": "Szkoły, szkoły policealne i uczelnie. Zacznij pisać, a lista podpowie placówki.",
+      "certifications": "Kursy i certyfikaty, z wystawcą i datą. Dodaj link, jeśli certyfikat da się sprawdzić w internecie.",
+      "skills": "Umiejętności, po których chcesz być znajdowany — każda z poziomem od 1 do 100.",
+      "languages": "Języki, którymi mówisz, od A1 do C2 albo na poziomie ojczystym. Język, którego nie ma na liście, można po prostu wpisać.",
+      "projects": "Praca warta pokazania, która nie była etatem — własne produkty, open source, zlecenia freelance.",
+      "interests": "Kilka zainteresowań, po jednym–dwóch słowach. Nieobowiązkowe i jako pierwsze do usunięcia, jeśli CV się rozrasta."
+    },
+    "replay": "Pokaż mi edytor"
+  },
   "backup": {
     "download": "Kopia zapasowa",
     "downloadHint": "Zapisz dane swojego CV jako plik. Później możesz wybrać ten plik i przywrócić CV.",

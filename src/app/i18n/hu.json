@@ -202,6 +202,40 @@
     "error": "Az útmutatót nem sikerült betölteni. Ellenőrizze a kapcsolatot, és próbálja újra.",
     "openPage": "Megnyitás oldalként"
   },
+  "tour": {
+    "welcome": {
+      "title": "Megmutassuk a szerkesztőt?",
+      "body": "Egy rövid bemutató végigmegy a szerkesztő összes gombján — hogyan cserélhet sablont, hogyan választhatja ki az önéletrajz nyelvét, hogyan töltheti le a PDF-et —, és röviden elmondja, mi kerül az egyes szakaszokba.",
+      "hint": "Bármikor kiléphet belőle. Ez az ajánlat csak egyszer jelenik meg; utána a bemutató az útmutatóban marad.",
+      "start": "Bemutató indítása",
+      "skip": "Most nem"
+    },
+    "nav": {
+      "progress": "Tovább ({current}/{total})"
+    },
+    "steps": {
+      "templates": "{{templates}} sablon közül választhat — fotóval vagy anélkül, egy vagy két hasábban. Válasszon egyet, és az előnézet azonnal átalakul; annyiszor váltogathat, ahányszor szeretné.",
+      "preview": "Az önéletrajza pontosan úgy, ahogyan le fog töltődni, és írás közben folyamatosan frissül. Erre a részre figyeljen, amikor másik sablont próbál ki.",
+      "cvLanguage": "Az a nyelv, amelyen maga az önéletrajz készül: a címsorok és a listákból választott értékek ezt követik. Ez független az alkalmazás nyelvétől — angol önéletrajzot is kitölthet a saját nyelvén.",
+      "uiLanguage": "Az alkalmazás nyelve. Az önéletrajz nyelvét nem változtatja meg.",
+      "export": "Letölti az elkészült önéletrajzot. A PDF valódi szöveget tartalmaz, nem képet, így a toborzási rendszerek is el tudják olvasni.",
+      "backup": "Fájlba mentí az adatait. Semmi nem marad szerveren, ezért ez a fájl az egyetlen módja annak, hogy az önéletrajzát másik böngészőbe vagy másik eszközre átvigye.",
+      "reset": "Mindent kiürít, és új önéletrajzot indít. Ez nem visszavonás — biztonsági mentés nélkül az adatok nem szerezhetők vissza.",
+      "help": "A teljes útmutató: mit kér az egyes mezők, és hogyan írható olyan önéletrajz, amit el is olvasnak. Az alábbi szakaszoknak külön kérdőjelük is van."
+    },
+    "sections": {
+      "basics": "A neve, a fényképe, a születési dátuma és néhány sor önmagáról. Amit üresen hagy — vagy elrejt —, az nem jelenik meg az önéletrajzban.",
+      "contact": "Telefonszámok, e-mail és profillinkek. Minden csatorna saját ikont kap, így a mobilszám elkülönül a WhatsApp- vagy Telegram-számtól.",
+      "experience": "Hol dolgozott, és mit végzett ott. A legfrissebb munkahely automatikusan az élre kerül — a sorrend a dátumokból adódik.",
+      "education": "Iskolák, szakképző intézmények és egyetemek. Kezdjen írni, és a lista intézményeket ajánl.",
+      "certifications": "Kurzusok és tanúsítványok, a kibocsátóval és a dátummal. Ha a tanúsítvány online ellenőrizhető, adja meg a linket is.",
+      "skills": "Azok a készségek, amelyek alapján meg szeretné, hogy megtalálják — mindegyikhez 1-től 100-ig terjedő szint tartozik.",
+      "languages": "A beszélt nyelvei, A1-től C2-ig vagy anyanyelvi szinten. A listán nem szereplő nyelvet egyszerűen be lehet írni.",
+      "projects": "Megmutatásra érdemes munka, ami nem állás volt — saját termékek, nyílt forráskód, szabadúszó megbízások.",
+      "interests": "Néhány érdeklődési kör, egy-két szóval. Nem kötelező, és ez az első, amit el lehet hagyni, ha hosszúra nyúlik az önéletrajz."
+    },
+    "replay": "Mutassa meg a szerkesztőt"
+  },
   "backup": {
     "download": "Biztonsági mentés",
     "downloadHint": "Mentse az önéletrajz adatait fájlba. Később kiválaszthatja ezt a fájlt, és visszaállíthatja az önéletrajzát.",
