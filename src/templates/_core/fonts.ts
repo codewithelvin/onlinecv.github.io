@@ -53,6 +53,7 @@ export const CV_FONT_STACK = [
   'NanumGothic',
   'NotoSansJP',
   'NotoSansSC',
+  'NotoSansDevanagari',
 ];
 
 /** `CV_FONT_STACK` as a CSS declaration, for the templates' inline styles. */
@@ -71,6 +72,7 @@ const PRIMARY_FONT: Partial<Record<Locale, string>> = {
   ko: 'NanumGothic',
   zh: 'NotoSansSC',
   ja: 'NotoSansJP',
+  hi: 'NotoSansDevanagari',
 };
 
 /**

@@ -267,6 +267,7 @@
     "title": "OnlineCV — Ücretsiz online CV oluşturun",
     "description": "CV hazırlamak için online platform. CV'nizi birkaç dakikada ücretsiz hazırlayın ve PDF olarak indirin.",
     "imageAlt": "OnlineCV — ücretsiz, ATS uyumlu online CV oluşturucu",
+    "keywords": "CV, online CV oluşturma, ücretsiz CV, CV şablonları, ATS uyumlu CV, CV oluşturucu, CV PDF indir, kayıtsız CV oluşturucu, özgeçmiş",
     "card": {
       "languages": "Diller: {{n}}",
       "templates": "Şablonlar: {{n}}",

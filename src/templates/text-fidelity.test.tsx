@@ -340,6 +340,38 @@ const WORDS = {
     skill: '時間管理',
     highlight: '納税者ポータルの全面的な再構築',
   },
+  id: {
+    firstName: 'Budi',
+    lastName: 'Santoso',
+    headline: 'Pengembang frontend',
+    summary: 'Insinyur perangkat lunak berpengalaman yang bekerja dengan teknologi web modern',
+    company: 'Cybernet',
+    position: 'Pengembang utama',
+    institution: 'Universitas Indonesia',
+    faculty: 'Fakultas Matematika Terapan',
+    skill: 'Manajemen waktu',
+    highlight: 'Pembangunan ulang menyeluruh portal wajib pajak',
+  },
+  /**
+   * Hindi — Devanagari, the first script here that both REORDERS (a pre-base
+   * vowel sign is typed after its consonant but drawn before it) and COMBINES
+   * marks into conjunct ligatures (क + ् + ष → क्ष). Neither is done by any
+   * code in this repo: both come from `fontkit`'s own Indic shaping engine, so
+   * this is the assertion that probe actually holds end-to-end through a real
+   * exported PDF, not just through a throwaway fontkit script.
+   */
+  hi: {
+    firstName: 'रोहन',
+    lastName: 'शर्मा',
+    headline: 'फ्रंटएंड डेवलपर',
+    summary: 'आधुनिक वेब तकनीकों के साथ काम करने वाला अनुभवी सॉफ़्टवेयर इंजीनियर',
+    company: 'साइबरनेट',
+    position: 'वरिष्ठ डेवलपर',
+    institution: 'दिल्ली विश्वविद्यालय',
+    faculty: 'अनुप्रयुक्त गणित संकाय',
+    skill: 'समय प्रबंधन',
+    highlight: 'करदाता पोर्टल का पूर्ण पुनर्निर्माण',
+  },
 } as const;
 
 function resumeFor(locale: keyof typeof WORDS): Resume {
@@ -428,14 +460,17 @@ async function render(templateId: string, resume: Resume): Promise<string> {
 
 const LOCALES = Object.keys(WORDS) as (keyof typeof WORDS)[];
 /**
- * The locales whose text MUST survive intact — everything except Arabic, which is
- * tracked as a documented expected failure below.
+ * The locales whose text MUST survive intact — everything except Arabic and
+ * Hindi, both tracked as documented expected failures below.
  *
  * NOT "the left-to-right ones", which is what this list used to be called: Hebrew
  * is right-to-left and still expected to come back whole, because what damages
- * Arabic is the shaping workaround, not the direction.
+ * Arabic is the shaping workaround, not the direction. Hindi's gap is a
+ * different mechanism again (see the `it.fails` blocks below) — it is LTR and
+ * needs no workaround at all, so it is not about direction or shaping either;
+ * some glyphs the exporter draws correctly simply have no `/ToUnicode` entry.
  */
-const MUST_SURVIVE = LOCALES.filter((l) => l !== 'ar');
+const MUST_SURVIVE = LOCALES.filter((l) => l !== 'ar' && l !== 'hi');
 
 describe('exported text matches the input', () => {
   beforeAll(() => registerResumeFonts(ReactPdf, 'public/fonts/ttf'));
@@ -492,6 +527,35 @@ describe('exported text matches the input', () => {
       },
       60_000,
     );
+
+    /**
+     * ⚠️ HINDI IS A DOCUMENTED EXPECTED FAILURE TOO, and a DIFFERENT mechanism
+     * from Arabic's — worth reading both, because the natural guess ("it's
+     * probably the same shaping problem") is wrong.
+     *
+     * Devanagari is left-to-right and needs no bidi reordering and no
+     * `utils/arabic`-style pre-shaping pass at all: probed directly with
+     * `fontkit` (the engine `@react-pdf` itself is built on) before any of
+     * this locale was written, it correctly reorders a pre-base vowel sign
+     * (कि) and fuses a conjunct into one ligature glyph (क्ष), and —
+     * checked again here, specifically for THIS failure — `glyph.codePoints`
+     * on every one of those glyphs (ligatures AND marks) is fully populated
+     * coming out of fontkit's own shaper. So the gap is not in the shaping;
+     * it opens somewhere between fontkit's shaped glyph run and
+     * `@react-pdf/pdfkit`'s `toUnicodeCmap()`, which is the same class of
+     * defect Arabic has (some drawn glyphs get no `/ToUnicode` entry) reached
+     * by a different road. The visual PDF is correct either way — this only
+     * affects copy-paste and ATS text extraction of words containing a
+     * conjunct or a reordered vowel sign.
+     */
+    it.fails(
+      `still loses Hindi words in "${manifest.id}"`,
+      async () => {
+        const source = await render(manifest.id, resumeFor('hi'));
+        expect(missingWords(source, Object.values(WORDS.hi).join(' '))).toEqual([]);
+      },
+      60_000,
+    );
   }
 
   /**
@@ -518,6 +582,16 @@ describe('exported text matches the input', () => {
       `draws unnameable glyphs for Arabic in "${manifest.id}"`,
       async () => {
         const source = await render(manifest.id, resumeFor('ar'));
+        expect(pdfTextRuns(source).flatMap((run) => run.unmapped)).toEqual([]);
+      },
+      120_000,
+    );
+
+    /** See the comment on the Hindi `it.fails` above — same symptom, own cause. */
+    it.fails(
+      `draws unnameable glyphs for Hindi in "${manifest.id}"`,
+      async () => {
+        const source = await render(manifest.id, resumeFor('hi'));
         expect(pdfTextRuns(source).flatMap((run) => run.unmapped)).toEqual([]);
       },
       120_000,

@@ -22,6 +22,8 @@ import el from './el.json';
 import kk from './kk.json';
 import uz from './uz.json';
 import ja from './ja.json';
+import id from './id.json';
+import hi from './hi.json';
 import type { Locale } from '../../types/resume';
 import { pathForLocale } from '../seo-locales';
 import { uiFontFamily } from '../theme';
@@ -66,6 +68,8 @@ void i18n.use(initReactI18next).init({
     kk: { translation: kk },
     uz: { translation: uz },
     ja: { translation: ja },
+    id: { translation: id },
+    hi: { translation: hi },
   },
   lng: DEFAULT_LOCALE,
   fallbackLng: DEFAULT_LOCALE,

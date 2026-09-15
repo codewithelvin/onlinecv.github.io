@@ -24,6 +24,8 @@ export const manifest: TemplateManifest = {
     tr: 'Klasik',
     uz: 'Klassik',
     zh: '经典',
+    id: 'Klasik',
+    hi: 'क्लासिक',
   },
   atsSafe: true,
   accent: '#1461c7',

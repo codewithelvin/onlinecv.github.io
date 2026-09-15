@@ -267,6 +267,7 @@
     "title": "OnlineCV — Készítsen ingyenes online önéletrajzot",
     "description": "Online platform önéletrajz készítéséhez. Készítse el önéletrajzát pár perc alatt, ingyenesen, és töltse le PDF formátumban.",
     "imageAlt": "OnlineCV — ingyenes, ATS-kompatibilis online önéletrajz-készítő",
+    "keywords": "önéletrajz, online önéletrajz készítés, ingyenes önéletrajz, önéletrajz sablonok, ATS-kompatibilis önéletrajz, önéletrajz-készítő, önéletrajz letöltése PDF-ben, önéletrajz regisztráció nélkül, állásjelentkezés",
     "card": {
       "languages": "Nyelvek: {{n}}",
       "templates": "Sablonok: {{n}}",

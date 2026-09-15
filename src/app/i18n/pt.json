@@ -267,6 +267,7 @@
     "title": "OnlineCV — Crie um CV online gratuito",
     "description": "Plataforma online para a criação de currículos. Prepare o seu CV em poucos minutos, gratuitamente, e descarregue-o em PDF.",
     "imageAlt": "OnlineCV — criador de CV online gratuito e compatível com ATS",
+    "keywords": "CV, currículo, criar CV online, CV gratuito, modelos de CV, CV compatível com ATS, criador de currículo, descarregar CV em PDF, currículo sem registo, candidatura a emprego",
     "card": {
       "languages": "Idiomas: {{n}}",
       "templates": "Modelos: {{n}}",

@@ -267,6 +267,7 @@
     "title": "OnlineCV — Kostenlos einen Lebenslauf online erstellen",
     "description": "Online-Plattform zur Erstellung von Lebensläufen. Erstellen Sie Ihren Lebenslauf in wenigen Minuten kostenlos und laden Sie ihn als PDF herunter.",
     "imageAlt": "OnlineCV — kostenloser, ATS-geeigneter Online-Lebenslauf-Generator",
+    "keywords": "Lebenslauf, Lebenslauf online erstellen, kostenloser Lebenslauf, Lebenslauf Vorlagen, ATS-geeigneter Lebenslauf, Lebenslauf-Generator, Lebenslauf als PDF herunterladen, Lebenslauf ohne Registrierung, Bewerbung",
     "card": {
       "languages": "Sprachen: {{n}}",
       "templates": "Vorlagen: {{n}}",

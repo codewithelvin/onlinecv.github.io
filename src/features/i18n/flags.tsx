@@ -227,6 +227,31 @@ const KZ_GOLD = '#FFEC2D';
 const UZ_BLUE = '#0099B5';
 const UZ_GREEN = '#0F9D58';
 const UZ_RED = '#CE1126';
+/**
+ * Indonesia's flag law (UU No. 24/2009) names the colour only as "merah"
+ * (red), the same gap as Greece's blue and Portugal's palette above — no
+ * Pantone is fixed for the field itself. `#FF0000` is the plain, widely-used
+ * reference shade, not a legal citation.
+ */
+const ID_RED = '#FF0000';
+/**
+ * India's saffron and green, per the Bureau of Indian Standards' colour
+ * values for the flag (IS 1: India Saffron, IS 2: India Green) — the sRGB
+ * approximations most references converge on.
+ */
+const IN_SAFFRON = '#FF9933';
+const IN_GREEN = '#138808';
+/** The Ashoka Chakra's navy blue, per the Flag Code of India. */
+const IN_CHAKRA_BLUE = '#000080';
+/**
+ * The Ashoka Chakra: the Flag Code of India specifies 24 spokes and a
+ * diameter approximating the white band's own height — so both numbers below
+ * are the Code's, not eyeballed, and the spokes are generated at 15°
+ * increments (360/24) rather than drawn by hand, the same reasoning as
+ * Kazakhstan's 32-ray sun and the US's 50 stars above.
+ */
+const IN_CHAKRA_SPOKES = 24;
+const IN_CHAKRA_R = 16 / 3 / 2;
 
 /** A point at `deg` degrees (0 = toward the hoist/+x, 90 = down), `r` from centre. */
 function polarPoint(cx: number, cy: number, r: number, deg: number): [number, number] {
@@ -755,6 +780,36 @@ const FLAGS: Record<Locale, ReactNode> = {
     <>
       <rect width={24} height={16} fill="#fff" />
       <circle cx={12} cy={8} r={JP_DISC_R} fill={JP_RED} />
+    </>
+  ),
+  /** Indonesia — Sang Saka Merah Putih: red over white, equal halves, nothing else. */
+  id: (
+    <>
+      <rect width={24} height={8} fill={ID_RED} />
+      <rect y={8} width={24} height={8} fill="#fff" />
+    </>
+  ),
+  /**
+   * India — saffron/white/green equal thirds, with the Ashoka Chakra centred
+   * in the white band at the Flag Code's own proportions (see `IN_CHAKRA_R`
+   * and `IN_CHAKRA_SPOKES` above): 24 spokes radiating from a small hub,
+   * inside a thin rim, rather than a decorative wheel with an arbitrary spoke
+   * count — the count is the one detail that makes it the Ashoka Chakra
+   * rather than a generic wheel.
+   */
+  hi: (
+    <>
+      <rect width={24} height={16 / 3} fill={IN_SAFFRON} />
+      <rect y={16 / 3} width={24} height={16 / 3} fill="#fff" />
+      <rect y={32 / 3} width={24} height={16 / 3} fill={IN_GREEN} />
+      <g stroke={IN_CHAKRA_BLUE} fill="none">
+        <circle cx={12} cy={8} r={IN_CHAKRA_R} strokeWidth={0.14} />
+        {Array.from({ length: IN_CHAKRA_SPOKES }, (_, i) => {
+          const [x, y] = polarPoint(12, 8, IN_CHAKRA_R * 0.92, (360 / IN_CHAKRA_SPOKES) * i);
+          return <line key={i} x1={12} y1={8} x2={x} y2={y} strokeWidth={0.11} />;
+        })}
+      </g>
+      <circle cx={12} cy={8} r={IN_CHAKRA_R * 0.09} fill={IN_CHAKRA_BLUE} />
     </>
   ),
 };

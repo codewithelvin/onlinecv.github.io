@@ -21,7 +21,9 @@
     "el": "Αφρικάανς",
     "kk": "Африкаанс тілі",
     "uz": "Afrikaans tili",
-    "ja": "アフリカーンス語"
+    "ja": "アフリカーンス語",
+    "id": "Bahasa Afrikaans",
+    "hi": "अफ़्रीकांस भाषा"
   },
   {
     "code": "albanian",
@@ -45,7 +47,9 @@
     "el": "Αλβανικά",
     "kk": "Албан тілі",
     "uz": "Alban tili",
-    "ja": "アルバニア語"
+    "ja": "アルバニア語",
+    "id": "Bahasa Albania",
+    "hi": "अल्बानियाई भाषा"
   },
   {
     "code": "amharic",
@@ -69,7 +73,9 @@
     "el": "Αμχαρικά",
     "kk": "Амхар тілі",
     "uz": "Amxar tili",
-    "ja": "アムハラ語"
+    "ja": "アムハラ語",
+    "id": "Bahasa Amharik",
+    "hi": "अम्हारिक भाषा"
   },
   {
     "code": "arab",
@@ -93,7 +99,9 @@
     "el": "Αραβικά",
     "kk": "Арабша",
     "uz": "Arabcha",
-    "ja": "アラビア語"
+    "ja": "アラビア語",
+    "id": "Bahasa Arab",
+    "hi": "अरबी भाषा"
   },
   {
     "code": "armenian",
@@ -117,7 +125,9 @@
     "el": "Αρμενικά",
     "kk": "Армян тілі",
     "uz": "Arman tili",
-    "ja": "アルメニア語"
+    "ja": "アルメニア語",
+    "id": "Bahasa Armenia",
+    "hi": "अर्मेनियाई भाषा"
   },
   {
     "code": "azerbaijan",
@@ -141,7 +151,9 @@
     "el": "Αζερμπαϊτζανικά",
     "kk": "Әзербайжанша",
     "uz": "Ozarbayjoncha",
-    "ja": "アゼルバイジャン語"
+    "ja": "アゼルバイジャン語",
+    "id": "Bahasa Azerbaijan",
+    "hi": "अज़रबैजानी भाषा"
   },
   {
     "code": "belarusian",
@@ -165,7 +177,9 @@
     "el": "Λευκορωσικά",
     "kk": "Беларус тілі",
     "uz": "Belarus tili",
-    "ja": "ベラルーシ語"
+    "ja": "ベラルーシ語",
+    "id": "Bahasa Belarus",
+    "hi": "बेलारूसी भाषा"
   },
   {
     "code": "bengali",
@@ -189,7 +203,9 @@
     "el": "Βεγγαλικά",
     "kk": "Бенгал тілі",
     "uz": "Bengal tili",
-    "ja": "ベンガル語"
+    "ja": "ベンガル語",
+    "id": "Bahasa Bengali",
+    "hi": "बंगाली भाषा"
   },
   {
     "code": "bosnian",
@@ -213,7 +229,9 @@
     "el": "Βοσνιακά",
     "kk": "Босния тілі",
     "uz": "Bosniya tili",
-    "ja": "ボスニア語"
+    "ja": "ボスニア語",
+    "id": "Bahasa Bosnia",
+    "hi": "बोस्नियाई भाषा"
   },
   {
     "code": "bulgarian",
@@ -237,7 +255,9 @@
     "el": "Βουλγαρικά",
     "kk": "Болгар тілі",
     "uz": "Bolgar tili",
-    "ja": "ブルガリア語"
+    "ja": "ブルガリア語",
+    "id": "Bahasa Bulgaria",
+    "hi": "बल्गेरियाई भाषा"
   },
   {
     "code": "chinese",
@@ -261,7 +281,9 @@
     "el": "Κινεζικά",
     "kk": "Қытайша",
     "uz": "Xitoycha",
-    "ja": "中国語"
+    "ja": "中国語",
+    "id": "Bahasa Mandarin",
+    "hi": "चीनी भाषा"
   },
   {
     "code": "croatian",
@@ -285,7 +307,9 @@
     "el": "Κροατικά",
     "kk": "Хорват тілі",
     "uz": "Xorvat tili",
-    "ja": "クロアチア語"
+    "ja": "クロアチア語",
+    "id": "Bahasa Kroasia",
+    "hi": "क्रोएशियाई भाषा"
   },
   {
     "code": "czech",
@@ -309,7 +333,9 @@
     "el": "Τσεχικά",
     "kk": "Чех тілі",
     "uz": "Chex tili",
-    "ja": "チェコ語"
+    "ja": "チェコ語",
+    "id": "Bahasa Ceko",
+    "hi": "चेक भाषा"
   },
   {
     "code": "danish",
@@ -333,7 +359,9 @@
     "el": "Δανικά",
     "kk": "Дат тілі",
     "uz": "Dan tili",
-    "ja": "デンマーク語"
+    "ja": "デンマーク語",
+    "id": "Bahasa Denmark",
+    "hi": "डेनिश भाषा"
   },
   {
     "code": "dutch",
@@ -357,7 +385,9 @@
     "el": "Ολλανδικά",
     "kk": "Нидерланд тілі",
     "uz": "Niderland tili",
-    "ja": "オランダ語"
+    "ja": "オランダ語",
+    "id": "Bahasa Belanda",
+    "hi": "डच भाषा"
   },
   {
     "code": "english",
@@ -381,7 +411,9 @@
     "el": "Αγγλικά",
     "kk": "Ағылшынша",
     "uz": "Inglizcha",
-    "ja": "英語"
+    "ja": "英語",
+    "id": "Bahasa Inggris",
+    "hi": "अंग्रेज़ी भाषा"
   },
   {
     "code": "estonian",
@@ -405,7 +437,9 @@
     "el": "Εσθονικά",
     "kk": "Эстон тілі",
     "uz": "Eston tili",
-    "ja": "エストニア語"
+    "ja": "エストニア語",
+    "id": "Bahasa Estonia",
+    "hi": "एस्टोनियाई भाषा"
   },
   {
     "code": "filipino",
@@ -429,7 +463,9 @@
     "el": "Φιλιππινέζικα",
     "kk": "Филиппин тілі",
     "uz": "Filippin tili",
-    "ja": "フィリピン語"
+    "ja": "フィリピン語",
+    "id": "Bahasa Filipina",
+    "hi": "फ़िलिपिनो भाषा"
   },
   {
     "code": "finnish",
@@ -453,7 +489,9 @@
     "el": "Φινλανδικά",
     "kk": "Фин тілі",
     "uz": "Fin tili",
-    "ja": "フィンランド語"
+    "ja": "フィンランド語",
+    "id": "Bahasa Finlandia",
+    "hi": "फ़िनिश भाषा"
   },
   {
     "code": "french",
@@ -477,7 +515,9 @@
     "el": "Γαλλικά",
     "kk": "Французша",
     "uz": "Fransuzcha",
-    "ja": "フランス語"
+    "ja": "フランス語",
+    "id": "Bahasa Prancis",
+    "hi": "फ़्रेंच भाषा"
   },
   {
     "code": "georgian",
@@ -501,7 +541,9 @@
     "el": "Γεωργιανά",
     "kk": "Грузинше",
     "uz": "Gruzincha",
-    "ja": "ジョージア語"
+    "ja": "ジョージア語",
+    "id": "Bahasa Georgia",
+    "hi": "जॉर्जियाई भाषा"
   },
   {
     "code": "german",
@@ -525,7 +567,9 @@
     "el": "Γερμανικά",
     "kk": "Немісше",
     "uz": "Nemischa",
-    "ja": "ドイツ語"
+    "ja": "ドイツ語",
+    "id": "Bahasa Jerman",
+    "hi": "जर्मन भाषा"
   },
   {
     "code": "greek",
@@ -549,7 +593,9 @@
     "el": "Ελληνικά",
     "kk": "Грекше",
     "uz": "Grekcha",
-    "ja": "ギリシャ語"
+    "ja": "ギリシャ語",
+    "id": "Bahasa Yunani",
+    "hi": "यूनानी भाषा"
   },
   {
     "code": "hebrew",
@@ -573,7 +619,9 @@
     "el": "Εβραϊκά",
     "kk": "Иврит",
     "uz": "Ibroniycha",
-    "ja": "ヘブライ語"
+    "ja": "ヘブライ語",
+    "id": "Bahasa Ibrani",
+    "hi": "हिब्रू भाषा"
   },
   {
     "code": "hindi",
@@ -597,7 +645,9 @@
     "el": "Χίντι",
     "kk": "Хинди тілі",
     "uz": "Hind tili",
-    "ja": "ヒンディー語"
+    "ja": "ヒンディー語",
+    "id": "Bahasa Hindi",
+    "hi": "हिंदी भाषा"
   },
   {
     "code": "hispanic",
@@ -621,7 +671,9 @@
     "el": "Ισπανικά",
     "kk": "Испанша",
     "uz": "Ispancha",
-    "ja": "スペイン語"
+    "ja": "スペイン語",
+    "id": "Bahasa Spanyol",
+    "hi": "स्पेनिश भाषा"
   },
   {
     "code": "hungarian",
@@ -645,7 +697,9 @@
     "el": "Ουγγρικά",
     "kk": "Мажарша",
     "uz": "Vengrcha",
-    "ja": "ハンガリー語"
+    "ja": "ハンガリー語",
+    "id": "Bahasa Hongaria",
+    "hi": "हंगेरियाई भाषा"
   },
   {
     "code": "indonesian",
@@ -669,7 +723,9 @@
     "el": "Ινδονησιακά",
     "kk": "Индонезия тілі",
     "uz": "Indonez tili",
-    "ja": "インドネシア語"
+    "ja": "インドネシア語",
+    "id": "Bahasa Indonesia",
+    "hi": "इंडोनेशियाई भाषा"
   },
   {
     "code": "italian",
@@ -693,7 +749,9 @@
     "el": "Ιταλικά",
     "kk": "Итальянша",
     "uz": "Italyancha",
-    "ja": "イタリア語"
+    "ja": "イタリア語",
+    "id": "Bahasa Italia",
+    "hi": "इतालवी भाषा"
   },
   {
     "code": "japan",
@@ -717,7 +775,9 @@
     "el": "Ιαπωνικά",
     "kk": "Жапонша",
     "uz": "Yaponcha",
-    "ja": "日本語"
+    "ja": "日本語",
+    "id": "Bahasa Jepang",
+    "hi": "जापानी भाषा"
   },
   {
     "code": "kazakh",
@@ -741,7 +801,9 @@
     "el": "Καζακικά",
     "kk": "Қазақша",
     "uz": "Qozoqcha",
-    "ja": "カザフ語"
+    "ja": "カザフ語",
+    "id": "Bahasa Kazakh",
+    "hi": "कज़ाख भाषा"
   },
   {
     "code": "korean",
@@ -765,7 +827,9 @@
     "el": "Κορεατικά",
     "kk": "Корейше",
     "uz": "Koreyscha",
-    "ja": "韓国語"
+    "ja": "韓国語",
+    "id": "Bahasa Korea",
+    "hi": "कोरियाई भाषा"
   },
   {
     "code": "kurdish",
@@ -789,7 +853,9 @@
     "el": "Κουρδικά",
     "kk": "Күрд тілі",
     "uz": "Kurd tili",
-    "ja": "クルド語"
+    "ja": "クルド語",
+    "id": "Bahasa Kurdi",
+    "hi": "कुर्दी भाषा"
   },
   {
     "code": "kyrgyz",
@@ -813,7 +879,9 @@
     "el": "Κιργιζικά",
     "kk": "Қырғыз тілі",
     "uz": "Qirgʻiz tili",
-    "ja": "キルギス語"
+    "ja": "キルギス語",
+    "id": "Bahasa Kirgiz",
+    "hi": "किर्गिज़ भाषा"
   },
   {
     "code": "latvian",
@@ -837,7 +905,9 @@
     "el": "Λετονικά",
     "kk": "Латыш тілі",
     "uz": "Latish tili",
-    "ja": "ラトビア語"
+    "ja": "ラトビア語",
+    "id": "Bahasa Latvia",
+    "hi": "लातवियाई भाषा"
   },
   {
     "code": "lithuanian",
@@ -861,7 +931,9 @@
     "el": "Λιθουανικά",
     "kk": "Литва тілі",
     "uz": "Litva tili",
-    "ja": "リトアニア語"
+    "ja": "リトアニア語",
+    "id": "Bahasa Lituania",
+    "hi": "लिथुआनियाई भाषा"
   },
   {
     "code": "macedonian",
@@ -885,7 +957,9 @@
     "el": "Μακεδονικά",
     "kk": "Македон тілі",
     "uz": "Makedon tili",
-    "ja": "マケドニア語"
+    "ja": "マケドニア語",
+    "id": "Bahasa Makedonia",
+    "hi": "मैसेडोनियाई भाषा"
   },
   {
     "code": "malay",
@@ -909,7 +983,9 @@
     "el": "Μαλαισιανά",
     "kk": "Малай тілі",
     "uz": "Malay tili",
-    "ja": "マレー語"
+    "ja": "マレー語",
+    "id": "Bahasa Melayu",
+    "hi": "मलय भाषा"
   },
   {
     "code": "mongolian",
@@ -933,7 +1009,9 @@
     "el": "Μογγολικά",
     "kk": "Моңғол тілі",
     "uz": "Mongol tili",
-    "ja": "モンゴル語"
+    "ja": "モンゴル語",
+    "id": "Bahasa Mongolia",
+    "hi": "मंगोलियाई भाषा"
   },
   {
     "code": "nepali",
@@ -957,7 +1035,9 @@
     "el": "Νεπαλικά",
     "kk": "Непал тілі",
     "uz": "Nepal tili",
-    "ja": "ネパール語"
+    "ja": "ネパール語",
+    "id": "Bahasa Nepal",
+    "hi": "नेपाली भाषा"
   },
   {
     "code": "norwegian",
@@ -981,7 +1061,9 @@
     "el": "Νορβηγικά",
     "kk": "Норвег тілі",
     "uz": "Norveg tili",
-    "ja": "ノルウェー語"
+    "ja": "ノルウェー語",
+    "id": "Bahasa Norwegia",
+    "hi": "नॉर्वेजियाई भाषा"
   },
   {
     "code": "pashto",
@@ -1005,7 +1087,9 @@
     "el": "Πάστο",
     "kk": "Пушту тілі",
     "uz": "Pushtu tili",
-    "ja": "パシュトー語"
+    "ja": "パシュトー語",
+    "id": "Bahasa Pashto",
+    "hi": "पश्तो भाषा"
   },
   {
     "code": "persian",
@@ -1029,7 +1113,9 @@
     "el": "Περσικά",
     "kk": "Парсыша",
     "uz": "Forscha",
-    "ja": "ペルシャ語"
+    "ja": "ペルシャ語",
+    "id": "Bahasa Persia",
+    "hi": "फ़ारसी भाषा"
   },
   {
     "code": "polish",
@@ -1053,7 +1139,9 @@
     "el": "Πολωνικά",
     "kk": "Полякша",
     "uz": "Polyakcha",
-    "ja": "ポーランド語"
+    "ja": "ポーランド語",
+    "id": "Bahasa Polandia",
+    "hi": "पोलिश भाषा"
   },
   {
     "code": "portuguese",
@@ -1077,7 +1165,9 @@
     "el": "Πορτογαλικά",
     "kk": "Португалша",
     "uz": "Portugalcha",
-    "ja": "ポルトガル語"
+    "ja": "ポルトガル語",
+    "id": "Bahasa Portugis",
+    "hi": "पुर्तगाली भाषा"
   },
   {
     "code": "punjabi",
@@ -1101,7 +1191,9 @@
     "el": "Παντζάμπι",
     "kk": "Пенджаб тілі",
     "uz": "Panjob tili",
-    "ja": "パンジャブ語"
+    "ja": "パンジャブ語",
+    "id": "Bahasa Punjabi",
+    "hi": "पंजाबी भाषा"
   },
   {
     "code": "romainan",
@@ -1125,7 +1217,9 @@
     "el": "Ρουμανικά",
     "kk": "Румынша",
     "uz": "Rumincha",
-    "ja": "ルーマニア語"
+    "ja": "ルーマニア語",
+    "id": "Bahasa Rumania",
+    "hi": "रोमानियाई भाषा"
   },
   {
     "code": "russian",
@@ -1149,7 +1243,9 @@
     "el": "Ρωσικά",
     "kk": "Орысша",
     "uz": "Ruscha",
-    "ja": "ロシア語"
+    "ja": "ロシア語",
+    "id": "Bahasa Rusia",
+    "hi": "रूसी भाषा"
   },
   {
     "code": "serbian",
@@ -1173,7 +1269,9 @@
     "el": "Σερβικά",
     "kk": "Серб тілі",
     "uz": "Serb tili",
-    "ja": "セルビア語"
+    "ja": "セルビア語",
+    "id": "Bahasa Serbia",
+    "hi": "सर्बियाई भाषा"
   },
   {
     "code": "slovak",
@@ -1197,7 +1295,9 @@
     "el": "Σλοβακικά",
     "kk": "Словак тілі",
     "uz": "Slovak tili",
-    "ja": "スロバキア語"
+    "ja": "スロバキア語",
+    "id": "Bahasa Slowakia",
+    "hi": "स्लोवाक भाषा"
   },
   {
     "code": "slovenian",
@@ -1221,7 +1321,9 @@
     "el": "Σλοβενικά",
     "kk": "Словен тілі",
     "uz": "Sloven tili",
-    "ja": "スロベニア語"
+    "ja": "スロベニア語",
+    "id": "Bahasa Slovenia",
+    "hi": "स्लोवेनियाई भाषा"
   },
   {
     "code": "swahili",
@@ -1245,7 +1347,9 @@
     "el": "Σουαχίλι",
     "kk": "Суахили тілі",
     "uz": "Suahili tili",
-    "ja": "スワヒリ語"
+    "ja": "スワヒリ語",
+    "id": "Bahasa Swahili",
+    "hi": "स्वाहिली भाषा"
   },
   {
     "code": "swedish",
@@ -1269,7 +1373,9 @@
     "el": "Σουηδικά",
     "kk": "Швед тілі",
     "uz": "Shved tili",
-    "ja": "スウェーデン語"
+    "ja": "スウェーデン語",
+    "id": "Bahasa Swedia",
+    "hi": "स्वीडिश भाषा"
   },
   {
     "code": "tajik",
@@ -1293,7 +1399,9 @@
     "el": "Τατζικικά",
     "kk": "Тәжік тілі",
     "uz": "Tojik tili",
-    "ja": "タジク語"
+    "ja": "タジク語",
+    "id": "Bahasa Tajik",
+    "hi": "ताजिक भाषा"
   },
   {
     "code": "tamil",
@@ -1317,7 +1425,9 @@
     "el": "Ταμίλ",
     "kk": "Тамил тілі",
     "uz": "Tamil tili",
-    "ja": "タミル語"
+    "ja": "タミル語",
+    "id": "Bahasa Tamil",
+    "hi": "तमिल भाषा"
   },
   {
     "code": "tatar",
@@ -1341,7 +1451,9 @@
     "el": "Ταταρικά",
     "kk": "Татар тілі",
     "uz": "Tatar tili",
-    "ja": "タタール語"
+    "ja": "タタール語",
+    "id": "Bahasa Tatar",
+    "hi": "तातार भाषा"
   },
   {
     "code": "thai",
@@ -1365,7 +1477,9 @@
     "el": "Ταϊλανδικά",
     "kk": "Тай тілі",
     "uz": "Tay tili",
-    "ja": "タイ語"
+    "ja": "タイ語",
+    "id": "Bahasa Thai",
+    "hi": "थाई भाषा"
   },
   {
     "code": "turkish",
@@ -1389,7 +1503,9 @@
     "el": "Τουρκικά",
     "kk": "Түрікше",
     "uz": "Turkcha",
-    "ja": "トルコ語"
+    "ja": "トルコ語",
+    "id": "Bahasa Turki",
+    "hi": "तुर्की भाषा"
   },
   {
     "code": "turkmen",
@@ -1413,7 +1529,9 @@
     "el": "Τουρκμενικά",
     "kk": "Түрікмен тілі",
     "uz": "Turkman tili",
-    "ja": "トルクメン語"
+    "ja": "トルクメン語",
+    "id": "Bahasa Turkmen",
+    "hi": "तुर्कमेन भाषा"
   },
   {
     "code": "ukrainian",
@@ -1437,7 +1555,9 @@
     "el": "Ουκρανικά",
     "kk": "Украинша",
     "uz": "Ukraincha",
-    "ja": "ウクライナ語"
+    "ja": "ウクライナ語",
+    "id": "Bahasa Ukraina",
+    "hi": "यूक्रेनी भाषा"
   },
   {
     "code": "urdu",
@@ -1461,7 +1581,9 @@
     "el": "Ουρντού",
     "kk": "Урду тілі",
     "uz": "Urdu tili",
-    "ja": "ウルドゥー語"
+    "ja": "ウルドゥー語",
+    "id": "Bahasa Urdu",
+    "hi": "उर्दू भाषा"
   },
   {
     "code": "uzbek",
@@ -1485,7 +1607,9 @@
     "el": "Ουζμπεκικά",
     "kk": "Өзбекше",
     "uz": "Oʻzbekcha",
-    "ja": "ウズベク語"
+    "ja": "ウズベク語",
+    "id": "Bahasa Uzbek",
+    "hi": "उज़्बेक भाषा"
   },
   {
     "code": "vietnamese",
@@ -1509,6 +1633,8 @@
     "el": "Βιετναμέζικα",
     "kk": "Вьетнам тілі",
     "uz": "Vyetnam tili",
-    "ja": "ベトナム語"
+    "ja": "ベトナム語",
+    "id": "Bahasa Vietnam",
+    "hi": "वियतनामी भाषा"
   }
 ]

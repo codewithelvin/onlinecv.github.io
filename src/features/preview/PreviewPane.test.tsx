@@ -3,7 +3,7 @@ import { act, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { renderWithProviders } from '../../test/renderWithProviders';
 import { useResumeStore } from '../../state/store';
-import { createEmptyResume } from '../../utils/empty-resume';
+import { createEmptyResume, DEFAULT_TEMPLATE_ID } from '../../utils/empty-resume';
 import { ATTRIBUTION_BOTTOM, ATTRIBUTION_TEXT } from '../../utils/attribution';
 import { getTemplate } from '../../templates/_core/registry';
 import { PreviewPane } from './PreviewPane';
@@ -61,7 +61,7 @@ describe('PreviewPane attribution', () => {
   it('insets the text area, and hangs the credit off the sheet', async () => {
     renderWithProviders(<PreviewPane />);
     const credit = await screen.findByText(ATTRIBUTION_TEXT);
-    const margin = getTemplate('classic').manifest.pageMargin;
+    const margin = getTemplate(DEFAULT_TEMPLATE_ID).manifest.pageMargin;
     expect(margin).toBeDefined();
 
     // The credit belongs to the SHEET, positioned from the paper edge — the
@@ -72,8 +72,11 @@ describe('PreviewPane attribution', () => {
     expect(credit.style.bottom).toBe(`${ATTRIBUTION_BOTTOM}px`);
 
     // The margin lives on the text area as a MARGIN (not padding on the sheet),
-    // so absolute offsets inside it mean what they mean in react-pdf.
-    const textArea = sheet.firstElementChild as HTMLElement;
+    // so absolute offsets inside it mean what they mean in react-pdf. Not
+    // necessarily `firstElementChild`: the default template (`modern`) has a
+    // `pageBleed` accent column that A4Frame renders BEFORE the text area, so
+    // the text area is the second-to-LAST child — the credit is always last.
+    const textArea = sheet.children[sheet.children.length - 2] as HTMLElement;
     expect(textArea.style.marginTop).toBe(`${margin?.top}px`);
     expect(textArea.style.marginBottom).toBe(`${margin?.bottom}px`);
     expect(textArea.style.position).toBe('relative');

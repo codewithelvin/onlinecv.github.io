@@ -188,6 +188,8 @@ const OG_LOCALES: Record<Locale, string> = {
   tr: 'tr_TR',
   uz: 'uz_UZ',
   zh: 'zh_CN',
+  id: 'id_ID',
+  hi: 'hi_IN',
 };
 
 /** The `og:locale` value for a locale — see `OG_LOCALES`. */

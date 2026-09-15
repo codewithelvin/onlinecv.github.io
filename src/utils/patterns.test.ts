@@ -67,6 +67,17 @@ const NATIVE_NAME: Record<string, string> = {
    * a script-by-script rule would have been the wrong shape.
    */
   ja: '山田 太郎',
+  // Indonesian: plain Latin, no diacritics — the easy case Spanish established.
+  id: 'Budi Santoso',
+  /**
+   * Hindi: Devanagari, with a conjunct (र्मा in Sharma is RA+virama+MA) and a
+   * pre-base vowel sign (the ो in "रोहन" is drawn before its consonant, though
+   * it is typed after it) — both handled by `\p{L}` with no pattern change,
+   * since a conjunct's virama and a vowel sign are still individual `\p{L}`/
+   * combining-mark code points regardless of how the font later reorders them
+   * visually.
+   */
+  hi: 'रोहन शर्मा',
 };
 
 describe('PERSON_NAME', () => {

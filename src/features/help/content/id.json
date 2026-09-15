@@ -1,0 +1,1158 @@
+{
+  "title": "Panduan OnlineCV",
+  "intro": "Semua yang Anda butuhkan untuk membuat CV, dijelaskan dengan bahasa yang sederhana. Mulai dari atas, atau langsung ke bagian yang membuat Anda bingung.",
+  "topics": {
+    "start": {
+      "title": "Mulai di sini",
+      "lead": "Apa yang dilakukan OnlineCV, dan lima langkah dari formulir kosong hingga PDF jadi.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "OnlineCV membuat CV — juga disebut résumé — langsung di peramban web Anda. Tidak ada akun yang perlu dibuat, tidak ada yang perlu dipasang, dan tidak ada biaya apa pun."
+        },
+        {
+          "kind": "p",
+          "text": "Semua yang Anda ketik tetap **di perangkat Anda sendiri**. CV Anda tidak pernah diunggah ke mana pun, yang juga berarti tidak ada seorang pun yang dapat memulihkannya untuk Anda. Buat cadangan setelah Anda selesai — lihat **Cadangan dan memulai dari awal**."
+        },
+        {
+          "kind": "h",
+          "text": "Apa yang Anda dapatkan"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "CV yang rapi dalam satu atau dua halaman A4.",
+            "PDF asli: teksnya dapat dipilih, disalin, dan dibaca oleh perangkat lunak — bukan sekadar gambar halaman.",
+            "{{templates}} desain untuk dipilih, dan Anda dapat beralih kapan saja tanpa perlu mengetik ulang apa pun.",
+            "CV itu sendiri dalam salah satu dari {{languages}} bahasa — terpisah dari bahasa yang Anda gunakan untuk aplikasi ini."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Lima langkah"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "Jawab layar pertama yang singkat: nama, email, tanggal lahir, dan jabatan pekerjaan Anda.",
+            "Isi bagian-bagian di sebelah kiri — detail kontak, pengalaman kerja, pendidikan, keahlian, dan hal lain yang berlaku untuk Anda.",
+            "Perhatikan pratinjau di sebelah kanan. Bagian ini menampilkan CV yang sudah jadi dan diperbarui saat Anda mengetik.",
+            "Pilih template yang Anda sukai.",
+            "Tekan **Unduh sebagai PDF** dan kirim berkasnya kepada calon pemberi kerja."
+          ]
+        },
+        {
+          "kind": "shot",
+          "id": "editor",
+          "caption": "Layar utama: Anda mengisi formulir di sebelah kiri, dan CV yang sudah jadi muncul di sebelah kanan."
+        },
+        {
+          "kind": "note",
+          "text": "Panduan ini selalu dapat dijangkau: tombol **?** di bilah atas akan membukanya, dan setiap bagian pada editor memiliki tombol **?** kecil yang membuka halaman penjelasan bagian tersebut."
+        }
+      ]
+    },
+    "wizard": {
+      "title": "Layar pertama",
+      "lead": "Dua langkah singkat yang diminta OnlineCV sebelum editor terbuka.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Pada kunjungan pertama Anda, OnlineCV meminta beberapa detail agar CV Anda tidak benar-benar kosong. Prosesnya memakan waktu sekitar satu menit, dan **Anda dapat mengubah semuanya nanti** di editor."
+        },
+        {
+          "kind": "h",
+          "text": "Langkah 1 — siapa Anda"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Nama depan dan nama belakang",
+              "def": "Hanya huruf dan spasi, hingga 50 karakter untuk masing-masing. Tulis sesuai dengan yang tertera pada KTP atau paspor Anda — inilah nama yang akan dicari oleh pemberi kerja nantinya."
+            },
+            {
+              "term": "Email",
+              "def": "Alamat yang akan digunakan pemberi kerja untuk membalas. Gunakan alamat yang benar-benar Anda periksa, dan hindari alamat dari tempat kerja Anda saat ini, yang mungkin akan hilang aksesnya."
+            },
+            {
+              "term": "Tanggal lahir",
+              "def": "Pilih dari kalender atau ketik dalam format DD.MM.YYYY. Data ini digunakan untuk menghitung usia Anda. Anda dapat menyembunyikannya dari CV yang sudah jadi nanti jika tidak ingin menampilkannya."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Langkah 2 — profil Anda"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Judul CV Anda",
+              "def": "Satu baris yang dicetak di bawah nama Anda, hingga 50 karakter. Tuliskan peran yang Anda inginkan, bukan situasi Anda: **Frontend developer**, bukan **Sedang mencari pekerjaan**."
+            },
+            {
+              "term": "Kewarganegaraan",
+              "def": "Mulai mengetik dan pilih salah satu saran, atau ketik sendiri. Opsional — biarkan kosong jika Anda tidak ingin mencantumkannya."
+            },
+            {
+              "term": "Jenis kelamin",
+              "def": "Wajib diisi pada layar ini karena banyak pemberi kerja di wilayah ini mengharapkannya. Anda dapat menyembunyikannya dari CV yang dicetak setelahnya."
+            },
+            {
+              "term": "Status pernikahan",
+              "def": "Opsional. Biarkan kosong jika Anda tidak ingin mencantumkannya; bidang yang kosong akan langsung dihilangkan dari CV."
+            }
+          ]
+        },
+        {
+          "kind": "shot",
+          "id": "wizard",
+          "caption": "Layar pertama. Tidak ada yang Anda ketik di sini yang dikirim ke mana pun — semuanya langsung masuk ke peramban Anda sendiri."
+        },
+        {
+          "kind": "p",
+          "text": "Tekan **Selesai** dan editor akan terbuka dengan detail Anda yang sudah terisi."
+        },
+        {
+          "kind": "h",
+          "text": "Sudah punya berkas cadangan?"
+        },
+        {
+          "kind": "p",
+          "text": "Jika Anda pernah membuat CV sebelumnya dan menyimpan cadangan, jangan ketik ulang. Di bagian bawah langkah 1 terdapat kontrol **Pulihkan dari berkas**: pilih berkas cadangan `.json` Anda dan seluruh CV Anda akan dimuat sekaligus. Ini adalah satu-satunya layar yang menyediakannya — lihat **Cadangan dan memulai dari awal**."
+        }
+      ]
+    },
+    "editor": {
+      "title": "Layar editor",
+      "lead": "Cara kerja formulir, pratinjau langsung, penyimpanan otomatis, dan dua pengaturan bahasa.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Editor memiliki dua bagian. Di sebelah kiri Anda mengisi formulir. Di sebelah kanan Anda melihat CV yang sudah jadi, persis seperti yang akan dicetak. Semua yang Anda ketik langsung muncul di sebelah kanan."
+        },
+        {
+          "kind": "h",
+          "text": "Bagian-bagian"
+        },
+        {
+          "kind": "p",
+          "text": "Formulir dibagi menjadi beberapa bagian — detail Anda, kontak, pengalaman kerja, pendidikan, dan sebagainya. Klik judul suatu bagian untuk membuka atau menutupnya. Angka kecil di samping judul menunjukkan berapa banyak entri yang telah Anda tambahkan ke bagian tersebut."
+        },
+        {
+          "kind": "shot",
+          "id": "list",
+          "caption": "Sebuah bagian beserta entrinya. Gunakan Tambah untuk membuat entri baru, ikon pensil untuk mengubahnya, dan ikon tempat sampah untuk menghapusnya."
+        },
+        {
+          "kind": "h",
+          "text": "Menambah, mengubah, dan menghapus entri"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Tambah** membuka jendela kecil tempat Anda mengisi satu pekerjaan, satu sekolah, satu keahlian, dan sebagainya. Tidak ada yang tersimpan hingga Anda menekan **Simpan** pada jendela tersebut.",
+            "Ikon **pensil** pada suatu entri membukanya kembali untuk diubah.",
+            "Ikon **tempat sampah** menghapus entri. Anda akan diminta konfirmasi.",
+            "Bagian yang kosong akan dihilangkan begitu saja dari CV yang sudah jadi — Anda tidak pernah wajib mengisi bagian yang tidak berlaku bagi Anda."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Urutan entri bertanggal"
+        },
+        {
+          "kind": "p",
+          "text": "Pengalaman kerja, pendidikan, dan sertifikat disusun dalam urutan yang diharapkan pemberi kerja: **terbaru lebih dulu**. Apa pun yang masih berlangsung berada paling atas. Anda tidak perlu menyusunnya sendiri — urutan ini berasal dari tanggal yang Anda masukkan."
+        },
+        {
+          "kind": "p",
+          "text": "Jika Anda menginginkan urutan yang berbeda, ubah bagian tersebut dari **Terbaru lebih dulu** menjadi **Urutan khusus** dan tanda panah akan muncul pada setiap entri sehingga Anda dapat memindahkannya secara manual. Sakelar ini hanya muncul setelah suatu bagian memiliki lebih dari satu entri."
+        },
+        {
+          "kind": "h",
+          "text": "Daftar saran"
+        },
+        {
+          "kind": "p",
+          "text": "Bidang seperti kota, universitas, jabatan pekerjaan, keahlian, dan bahasa menawarkan saran saat Anda mengetik. Ini hanya saran: **Anda selalu dapat mengetik nilai Anda sendiri**, dan nilai itu akan disimpan persis seperti yang Anda tulis."
+        },
+        {
+          "kind": "note",
+          "text": "Ketika teks Anda cocok dengan sebuah saran, tanda centang kecil muncul pada bidang tersebut. Tanda centang itu berarti satu hal yang berguna: nilai yang cocok akan ditulis ulang secara otomatis saat Anda mengganti bahasa CV, sehingga universitas yang dipilih dari daftar akan muncul dalam bahasa CV itu sendiri."
+        },
+        {
+          "kind": "h",
+          "text": "Pekerjaan Anda tersimpan secara otomatis"
+        },
+        {
+          "kind": "p",
+          "text": "Tidak ada tombol Simpan untuk CV secara keseluruhan. Setiap perubahan disimpan di peramban ini sesaat setelah Anda membuatnya, sehingga Anda dapat menutup tab dan kembali lagi nanti."
+        },
+        {
+          "kind": "warn",
+          "text": "CV Anda disimpan **hanya di peramban ini, di perangkat ini**. CV tidak akan muncul di ponsel Anda, di peramban lain, atau di jendela privat/penyamaran. Menghapus data penjelajahan akan menghapusnya. Buat cadangan untuk memindahkannya atau menjaganya tetap aman."
+        },
+        {
+          "kind": "h",
+          "text": "Dua pengaturan bahasa yang berbeda"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Bahasa antarmuka",
+              "def": "Bahasa aplikasi itu sendiri — tombol, label, dan panduan ini. Ubah dengan tombol bahasa di bilah atas. Tidak memengaruhi CV Anda."
+            },
+            {
+              "term": "Bahasa CV",
+              "def": "Bahasa judul-judul yang dicetak pada CV Anda — **Pengalaman kerja**, **Pendidikan**, dan sebagainya. Atur di bagian atas pratinjau. Gunakan bahasa pemberi kerja yang Anda lamar."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Mengubah bahasa CV tidak pernah menerjemahkan apa yang Anda tulis. Kalimat Anda sendiri tetap persis seperti yang Anda ketik; hanya judul, tanggal, dan nilai yang dipilih dari daftar saran yang berubah."
+        },
+        {
+          "kind": "h",
+          "text": "Di ponsel"
+        },
+        {
+          "kind": "p",
+          "text": "Tidak ada cukup ruang untuk dua bagian di ponsel, sehingga formulir dan pratinjau menjadi dua tab — **Edit** dan **Pratinjau**. Tombol yang paling sering Anda butuhkan berada pada bilah di bagian bawah layar."
+        },
+        {
+          "kind": "shot",
+          "id": "mobile",
+          "caption": "Di ponsel, formulir dan pratinjau menjadi tab terpisah, dengan tombol utama tetap berada di bagian bawah."
+        }
+      ]
+    },
+    "basics": {
+      "title": "Detail Anda",
+      "lead": "Nama, jabatan pekerjaan, foto, detail pribadi, dan ringkasan singkat di bagian atas CV.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Ini adalah blok di bagian atas CV Anda: siapa Anda dan apa yang Anda kerjakan. Ini adalah hal pertama yang dibaca siapa pun, jadi layak diberi beberapa menit tambahan."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Nama depan dan nama belakang",
+              "def": "Hanya huruf dan spasi, hingga 50 karakter untuk masing-masing. Sesuai dengan yang tertera pada KTP Anda."
+            },
+            {
+              "term": "Judul CV Anda",
+              "def": "Satu baris di bawah nama Anda, hingga 50 karakter. Sebutkan perannya, bukan pencarian Anda: **Akuntan**, **Manajer penjualan**, **Java developer**. Jika Anda seorang mahasiswa, **Mahasiswa Ekonomi** sudah cukup baik."
+            },
+            {
+              "term": "Kota",
+              "def": "Tempat tinggal Anda. Pemberi kerja menggunakannya untuk menilai waktu tempuh. Nama kota sudah cukup; alamat jalan lengkap tidak diperlukan di sini."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Foto"
+        },
+        {
+          "kind": "p",
+          "text": "Foto bersifat opsional. Untuk menambahkannya, klik area foto, pilih sebuah gambar, lalu bingkai: seret untuk memindahkan, gunakan penggeser untuk memperbesar, dan putar jika gambarnya miring. Apa yang Anda lihat di dalam lingkaran adalah yang akan dicetak."
+        },
+        {
+          "kind": "shot",
+          "id": "photo",
+          "caption": "Membingkai foto: seret untuk memindahkannya, perbesar dan putar hingga lingkaran menampilkan apa yang Anda inginkan."
+        },
+        {
+          "kind": "p",
+          "text": "Gambar diperkecil di dalam peramban Anda sebelum disimpan, jadi foto besar dari kamera ponsel tidak masalah. Berkas yang lebih besar dari sekitar 10 MB akan ditolak."
+        },
+        {
+          "kind": "warn",
+          "text": "Foto adalah hal yang wajar pada CV di Azerbaijan, Turki, dan sebagian besar Eropa kontinental. Di Britania Raya, Irlandia, Amerika Serikat, dan Kanada, foto tidak dianjurkan dan dapat membuat CV ditolak. Periksa kebiasaan di tempat Anda melamar — dan ingat, tidak semua template menampilkan foto."
+        },
+        {
+          "kind": "h",
+          "text": "Detail pribadi"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Tanggal lahir",
+              "def": "Diketik sebagai DD.MM.YYYY atau dipilih dari kalender. Usia Anda dihitung berdasarkan tanggal ini."
+            },
+            {
+              "term": "Jenis kelamin",
+              "def": "Laki-laki atau perempuan."
+            },
+            {
+              "term": "Status pernikahan",
+              "def": "Lajang atau menikah. Opsional."
+            },
+            {
+              "term": "Kewarganegaraan",
+              "def": "Pilih saran atau ketik sendiri. Opsional."
+            },
+            {
+              "term": "Wajib militer",
+              "def": "Sudah menjalani, belum menjalani, atau tidak memenuhi syarat wajib militer. Umumnya diharapkan di Azerbaijan dan Turki. Opsional."
+            },
+            {
+              "term": "Kategori SIM",
+              "def": "Pilih satu atau beberapa kategori, atau ketik sendiri jika negara Anda menggunakan huruf yang berbeda. Layak ditambahkan jika pekerjaan melibatkan perjalanan."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Menyembunyikan sebuah detail dari CV yang dicetak"
+        },
+        {
+          "kind": "p",
+          "text": "Beberapa detail ini diharapkan di satu negara namun sebaiknya dihilangkan di negara lain. Setiap detail memiliki tombol **mata** kecil di sampingnya: klik dan bidang tersebut akan tetap ada di aplikasi tetapi **dihilangkan dari CV dan PDF yang sudah jadi**. Klik lagi untuk menampilkannya."
+        },
+        {
+          "kind": "shot",
+          "id": "visibility",
+          "caption": "Ikon mata di samping suatu bidang menentukan apakah bidang itu dicetak. Tanda coret berarti detail tersebut tetap ada di aplikasi tetapi tidak ada di CV."
+        },
+        {
+          "kind": "note",
+          "text": "Ini adalah cara rapi untuk mengirim CV yang sama ke negara yang berbeda: isi semuanya sekali, lalu sembunyikan foto, tanggal lahir, atau status pernikahan Anda ketika pemberi kerja lebih memilih untuk tidak melihatnya."
+        },
+        {
+          "kind": "h",
+          "text": "Ringkasan"
+        },
+        {
+          "kind": "p",
+          "text": "Dua atau tiga kalimat di bagian atas CV, hingga 300 karakter. Sebutkan siapa Anda secara profesional, sudah berapa lama Anda menekuninya, dan apa yang Anda cari."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Baik:** Akuntan dengan enam tahun pengalaman di bidang konstruksi. Saya menangani laporan PPN dan penutupan bulanan untuk perusahaan dengan 200 karyawan. Mencari peran senior di tim keuangan yang lebih besar.",
+            "**Lemah:** Pekerja keras, bertanggung jawab, dan pemain tim yang termotivasi, mencari peluang menantang di perusahaan yang dinamis."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Perbedaannya adalah kalimat pertama hanya bisa ditulis oleh Anda. Apa pun yang bisa dikatakan oleh kandidat mana pun tidak memberi tahu pembaca apa-apa."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Detail kontak",
+      "lead": "Nomor telepon, email, profil, dan alamat — serta cara menulis nomor telepon yang diterima aplikasi.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Alamat email Anda berasal dari layar pertama. Pada bagian ini Anda menambahkan cara lain agar pemberi kerja dapat menghubungi Anda. Tekan **Tambah**, pilih saluran, ketik nilainya, lalu tekan Simpan."
+        },
+        {
+          "kind": "h",
+          "text": "Nomor telepon"
+        },
+        {
+          "kind": "p",
+          "text": "Nomor telepon harus ditulis dalam format internasional: sebuah **tanda plus**, lalu kode negara Anda, lalu nomornya, **tanpa spasi, tanda kurung, atau tanda hubung**."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Benar:** +994501234567",
+            "**Benar:** +905321234567",
+            "**Salah:** 0501234567 — tanpa kode negara",
+            "**Salah:** +994 (50) 123-45-67 — ada spasi, tanda kurung, dan tanda hubung"
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Aturan yang sama berlaku untuk nomor ponsel, telepon rumah, faks, dan WhatsApp. Ini bukan soal kerewelan: ditulis dengan cara ini, nomor tersebut dapat dihubungi dari negara mana pun, dan akan menjadi tautan yang dapat diketuk oleh pemberi kerja."
+        },
+        {
+          "kind": "h",
+          "text": "Apa yang dibutuhkan setiap saluran"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Ponsel, telepon rumah, faks",
+              "def": "Nomor dalam format internasional di atas."
+            },
+            {
+              "term": "WhatsApp",
+              "def": "Nomor telepon dalam format yang sama. Nomor ini akan menjadi tautan yang membuka obrolan."
+            },
+            {
+              "term": "Telegram",
+              "def": "Nama pengguna Anda — dengan atau tanpa tanda @ — atau nomor telepon."
+            },
+            {
+              "term": "Email",
+              "def": "Alamat tambahan, jika Anda ingin memberikan lebih dari satu alamat utama."
+            },
+            {
+              "term": "Situs web",
+              "def": "Alamat lengkap termasuk https://"
+            },
+            {
+              "term": "LinkedIn, Facebook, GitHub, Instagram, X",
+              "def": "Alamat lengkap halaman profil Anda, misalnya https://www.linkedin.com/in/namaanda — bukan hanya nama pengguna Anda."
+            },
+            {
+              "term": "Alamat",
+              "def": "Alamat pos, hingga 120 karakter. Biasanya nama kota saja sudah cukup pada CV."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Cara tampilannya pada CV"
+        },
+        {
+          "kind": "p",
+          "text": "Setiap kontak diberi ikon kecil setelahnya, sehingga pembaca dapat membedakan nomor ponsel dari telepon rumah atau nomor WhatsApp sekilas saja. Pada PDF, nomor telepon, alamat email, dan tautan profil bersifat **dapat diklik**. Teksnya sendiri dicetak persis seperti yang Anda ketik."
+        },
+        {
+          "kind": "note",
+          "text": "Tambahkan yang berguna, bukan semua yang Anda miliki. Satu nomor telepon, satu alamat email, dan satu profil profesional biasanya sudah cukup. Akun Instagram pribadi jarang membantu sebuah lamaran."
+        }
+      ]
+    },
+    "experience": {
+      "title": "Pengalaman kerja",
+      "lead": "Bagian yang pertama kali dibaca pemberi kerja — dan cara menulis entri yang tetap bertahan meski hanya dibaca sekilas.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Tambahkan satu entri untuk setiap pekerjaan. Tekan **Tambah** dan isi jendela yang terbuka."
+        },
+        {
+          "kind": "shot",
+          "id": "modal",
+          "caption": "Satu pekerjaan dalam satu waktu. Tidak ada yang tersimpan hingga Anda menekan Simpan di bagian bawah jendela."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Jabatan pekerjaan",
+              "def": "Peran Anda, hingga 50 karakter. Gunakan sebutan yang dikenal orang-orang di industri tersebut, bukan tingkatan internal seperti **Specialist II**."
+            },
+            {
+              "term": "Perusahaan",
+              "def": "Nama pemberi kerja. Wajib diisi."
+            },
+            {
+              "term": "Jenis pekerjaan",
+              "def": "Penuh waktu, paruh waktu, wiraswasta, lepas (freelance), kontrak, magang, atau musiman. Opsional, tetapi berguna — menjelaskan entri singkat sebelum ada orang yang perlu bertanya."
+            },
+            {
+              "term": "Kota",
+              "def": "Tempat Anda melakukan pekerjaan tersebut. Opsional."
+            },
+            {
+              "term": "Tanggal mulai dan tanggal selesai",
+              "def": "Keduanya adalah tanggal lengkap, diketik sebagai DD.MM.YYYY atau dipilih dari kalender. Tanggal selesai tidak boleh lebih awal dari tanggal mulai."
+            },
+            {
+              "term": "Saat ini saya bekerja di sini",
+              "def": "Centang untuk pekerjaan Anda saat ini. Tanggal selesai kemudian diabaikan dan CV akan mencetak **Sekarang**."
+            },
+            {
+              "term": "Deskripsi",
+              "def": "Dua atau tiga kalimat tentang apa yang sebenarnya dikerjakan dalam pekerjaan tersebut, hingga 600 karakter."
+            },
+            {
+              "term": "Pencapaian utama",
+              "def": "Poin-poin singkat, hingga 200 karakter masing-masing. Di sinilah hasil-hasil dituliskan."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Deskripsi atau pencapaian?"
+        },
+        {
+          "kind": "p",
+          "text": "Gunakan **deskripsi** untuk menjelaskan apa pekerjaan itu — cakupannya, timnya, pelanggannya. Gunakan **pencapaian utama** untuk apa yang secara pribadi Anda ubah, dengan angka di mana pun Anda bisa mencantumkannya."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Lemah:** Bertanggung jawab atas penjualan.",
+            "**Lebih baik:** Meningkatkan penjualan regional sebesar 24% dalam dua tahun dengan menambahkan 15 klien ritel baru.",
+            "**Lemah:** Mengerjakan situs web perusahaan.",
+            "**Lebih baik:** Membangun ulang halaman checkout; tingkat pembatalan keranjang belanja turun dari 71% menjadi 58%."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Jika Anda tidak memiliki angka, gunakan skala sebagai gantinya: berapa banyak orang, berapa banyak pelanggan, seberapa besar anggaran, seberapa sering. **Melatih 12 kasir baru** mengatakan lebih banyak daripada **Melatih staf baru**."
+        },
+        {
+          "kind": "h",
+          "text": "Urutan pekerjaan Anda"
+        },
+        {
+          "kind": "p",
+          "text": "Pekerjaan didaftar dari yang terbaru, dengan pekerjaan yang masih Anda jalani berada paling atas. Urutan ini berasal dari tanggal, jadi Anda tidak perlu menyusunnya. Jika Anda menginginkan urutan yang berbeda, ubah bagian ini menjadi **Urutan khusus** dan gunakan tanda panah."
+        },
+        {
+          "kind": "note",
+          "text": "Belum punya pengalaman berbayar? Biarkan bagian ini kosong dan isi **Proyek**, **Pendidikan**, dan **Keahlian** sebagai gantinya. Bagian yang kosong tidak akan pernah dicetak."
+        }
+      ]
+    },
+    "education": {
+      "title": "Pendidikan",
+      "lead": "Sekolah, akademi/vokasi, dan universitas — serta bidang apa saja yang diminta masing-masing.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Tambahkan satu entri untuk setiap institusi. Hal pertama yang Anda pilih adalah **jenisnya**, dan itu menentukan bidang lain apa saja yang akan muncul."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Jenis",
+              "def": "Pendidikan menengah, pendidikan vokasi, atau pendidikan tinggi."
+            },
+            {
+              "term": "Institusi",
+              "def": "Mulai mengetik dan pilih dari saran, atau ketik sendiri nama lengkapnya."
+            },
+            {
+              "term": "Spesialisasi",
+              "def": "Apa yang Anda pelajari. Wajib untuk entri akademi dan universitas — ini tertera pada ijazah Anda."
+            },
+            {
+              "term": "Fakultas",
+              "def": "Selalu opsional. Banyak ijazah tidak mencantumkan nama fakultas; biarkan kosong jika ijazah Anda juga tidak."
+            },
+            {
+              "term": "Gelar",
+              "def": "Sarjana, magister, kandidat doktor, residensi, atau doktor. Wajib untuk entri universitas."
+            },
+            {
+              "term": "Tanggal mulai dan tanggal selesai",
+              "def": "Hanya bulan dan tahun. Jika Anda masih menempuh pendidikan, centang **Saat ini saya sedang belajar** dan biarkan tanggal selesai kosong."
+            },
+            {
+              "term": "Komentar",
+              "def": "Satu catatan singkat, hingga 50 karakter — misalnya nilai, penghargaan, atau judul skripsi."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Entri didaftar secara otomatis dari yang terbaru, dengan studi yang masih berlangsung berada paling atas."
+        },
+        {
+          "kind": "p",
+          "text": "Jika Anda memiliki gelar universitas, Anda biasanya dapat menghilangkan sekolah. Jika belum, cantumkan sekolah Anda — bagian pendidikan yang kosong terlihat lebih buruk daripada yang sederhana sekalipun."
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Sertifikat",
+      "lead": "Kursus, sertifikat profesional, dan lisensi.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Gunakan bagian ini untuk apa pun yang secara resmi diberikan kepada Anda di luar gelar: sertifikat profesional, sertifikat bahasa, kursus pelatihan, atau lisensi keselamatan."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Nama",
+              "def": "Nama sertifikat itu sendiri, hingga 100 karakter — misalnya **ACCA Applied Knowledge** atau **IELTS Academic**."
+            },
+            {
+              "term": "Organisasi penerbit",
+              "def": "Siapa yang memberikannya. Wajib diisi."
+            },
+            {
+              "term": "Tanggal penerbitan",
+              "def": "Bulan dan tahun. Sertifikat didaftar dari yang terbaru berdasarkan tanggal ini."
+            },
+            {
+              "term": "Tanggal kedaluwarsa",
+              "def": "Hanya jika sertifikat tersebut benar-benar memiliki masa berlaku. Biarkan kosong jika tidak, dan CV akan mencetak **tanpa batas waktu**."
+            },
+            {
+              "term": "ID kredensial",
+              "def": "Nomor referensi pada sertifikat, jika ada. Ini memungkinkan pemberi kerja memverifikasinya."
+            },
+            {
+              "term": "Tautan kredensial",
+              "def": "Alamat web tempat sertifikat dapat diperiksa. Harus dimulai dengan http:// atau https:// dan akan menjadi tautan yang dapat diklik pada CV."
+            },
+            {
+              "term": "Komentar",
+              "def": "Satu catatan singkat, hingga 100 karakter — misalnya sebuah skor."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Sertifikat dengan skor lebih bernilai daripada yang tanpa skor. **IELTS Academic — 7.5** memberi tahu pembaca sesuatu; **IELTS** saja tidak."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Keahlian",
+      "lead": "Apa arti sebenarnya dari tingkat 1 hingga 100, dan berapa banyak keahlian yang perlu dicantumkan.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Setiap keahlian memiliki nama dan tingkat dari **1 hingga 100**. Ketik keahliannya — saran akan muncul — lalu atur tingkatnya dengan penggeser atau dengan mengetik angkanya."
+        },
+        {
+          "kind": "h",
+          "text": "Apa arti angka tersebut"
+        },
+        {
+          "kind": "p",
+          "text": "Tidak ada skala resmi, jadi gunakan skala ini dan jujurlah. Angka yang dilebih-lebihkan akan ketahuan pada pertanyaan wawancara pertama."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "1–20 — Pemula",
+              "def": "Anda pernah mencobanya. Anda masih membutuhkan bantuan dan pengawasan."
+            },
+            {
+              "term": "21–40 — Dasar",
+              "def": "Anda dapat mengerjakan tugas sederhana sendiri, dengan lambat, dan sering mencari referensi."
+            },
+            {
+              "term": "41–60 — Percaya diri",
+              "def": "Anda menggunakannya dalam pekerjaan sehari-hari tanpa bantuan. Di sinilah sebagian besar keahlian nyata berada."
+            },
+            {
+              "term": "61–80 — Kuat",
+              "def": "Anda menangani kasus-kasus sulit dan orang lain meminta bantuan Anda."
+            },
+            {
+              "term": "81–100 — Ahli",
+              "def": "Anda bisa mengajarkannya, menetapkan standarnya, atau menjadi orang yang secara khusus dicari perusahaan untuk hal ini."
+            }
+          ]
+        },
+        {
+          "kind": "warn",
+          "text": "Jangan menaruh semuanya di angka 100. CV yang semua keahliannya maksimal tidak memberi tahu perekrut apa-apa, dan justru membuat kekuatan yang sebenarnya menjadi tidak terlihat."
+        },
+        {
+          "kind": "h",
+          "text": "Berapa banyak, dan yang mana"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Delapan hingga dua belas** adalah jumlah yang baik. Daftar tiga puluh keahlian akan dibaca seolah tidak ada satu pun.",
+            "Sebutkan hal-hal yang konkret dan dapat diperiksa: **Excel (pivot table, VLOOKUP)**, **1C: Accounting**, **AutoCAD**, **Python**.",
+            "Hilangkan hal-hal yang diklaim semua orang — pekerja keras, bertanggung jawab, pemain tim. Tunjukkan itu semua melalui pencapaian Anda.",
+            "Sesuaikan dengan kata-kata dalam lowongan pekerjaan jika memang benar-benar berlaku untuk Anda. Perangkat lunak yang menyaring CV mencari persis kata-kata tersebut."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Beberapa template mencetak tingkat sebagai batang, yang lain sebagai persentase, dan ada yang tidak mencetaknya sama sekali. Periksa pratinjau setelah mengganti template."
+        }
+      ]
+    },
+    "languages": {
+      "title": "Bahasa",
+      "lead": "Tingkat A1 hingga C2 dalam bahasa sederhana, sehingga Anda dapat memilih tingkat Anda dengan jujur.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Tambahkan satu entri untuk setiap bahasa: bahasanya dan tingkat Anda. Ketik nama bahasanya — saran akan muncul, dan Anda dapat mengetik bahasa apa pun yang tidak ada dalam daftar."
+        },
+        {
+          "kind": "h",
+          "text": "Tingkat-tingkatnya"
+        },
+        {
+          "kind": "p",
+          "text": "Ini adalah tingkat Eropa standar (CEFR), yang sama seperti yang digunakan oleh sekolah bahasa dan ujian."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "A1 — Pemula",
+              "def": "Beberapa kata dan frasa tetap. Anda dapat menyebutkan nama Anda dan memesan kopi."
+            },
+            {
+              "term": "A2 — Dasar",
+              "def": "Kalimat sederhana tentang hal-hal yang familier — keluarga, belanja, garis besar pekerjaan Anda."
+            },
+            {
+              "term": "B1 — Menengah",
+              "def": "Anda dapat mengatasi situasi sehari-hari dan menjelaskan pendapat Anda, meski pelan dan dengan kesalahan."
+            },
+            {
+              "term": "B2 — Menengah atas",
+              "def": "Anda bekerja menggunakan bahasa ini. Anda mengikuti rapat, menulis email, dan membahas bidang Anda sendiri dengan nyaman."
+            },
+            {
+              "term": "C1 — Mahir",
+              "def": "Anda menggunakannya dengan lancar dan hampir otomatis, termasuk dalam topik yang kompleks atau tidak familier."
+            },
+            {
+              "term": "C2 — Sangat mahir",
+              "def": "Mendekati penutur asli yang berpendidikan baik, termasuk nuansa dan humor."
+            },
+            {
+              "term": "Bahasa ibu",
+              "def": "Bahasa pertama Anda, atau bahasa yang Anda gunakan sejak kecil seolah-olah itu bahasa pertama Anda."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Jika Anda memiliki sertifikat ujian, tambahkan juga di bagian **Sertifikat**, beserta skornya. Tingkat yang dinyatakan ditambah sertifikat jauh lebih meyakinkan daripada tingkat yang dinyatakan saja."
+        },
+        {
+          "kind": "warn",
+          "text": "Bersikaplah realistis. Wawancara sering dilakukan dalam bahasa yang Anda klaim, dan B2 yang tertulis pada CV adalah hal yang paling sering diuji oleh pewawancara dalam dua menit pertama."
+        }
+      ]
+    },
+    "projects": {
+      "title": "Proyek dan minat",
+      "lead": "Dua bagian opsional yang paling bernilai ketika pengalaman kerja Anda masih sedikit.",
+      "blocks": [
+        {
+          "kind": "h",
+          "text": "Proyek"
+        },
+        {
+          "kind": "p",
+          "text": "Sebuah proyek adalah apa pun yang Anda bangun atau jalankan yang menunjukkan kemampuan Anda — tugas kuliah, toko yang Anda dirikan, sebuah situs web, kampanye sukarelawan, atau aplikasi. Bagi mahasiswa dan orang yang beralih karier, bagian ini sering kali lebih berperan daripada bagian mana pun."
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Nama",
+              "def": "Nama proyek tersebut, hingga 100 karakter."
+            },
+            {
+              "term": "Deskripsi",
+              "def": "Hingga 600 karakter: apa proyek itu, apa yang Anda lakukan, dan bagaimana hasilnya."
+            },
+            {
+              "term": "Tautan",
+              "def": "Alamat web tempat proyek itu dapat dilihat. Harus dimulai dengan http:// atau https://"
+            },
+            {
+              "term": "Poin utama",
+              "def": "Poin-poin singkat, hingga 200 karakter masing-masing — konsep yang sama seperti pencapaian pada entri pekerjaan."
+            }
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Sebutkan apa peran Anda. **Tim beranggotakan empat orang; saya membangun halaman pembayaran** jauh lebih berguna daripada **Kami membangun toko daring**."
+        },
+        {
+          "kind": "h",
+          "text": "Minat"
+        },
+        {
+          "kind": "p",
+          "text": "Opsional, dan singkat. Tiga hingga lima minat yang spesifik dapat memberi pewawancara sesuatu yang manusiawi untuk memulai percakapan. Bersikaplah konkret: **Lari jarak jauh (dua maraton)** berhasil; **musik, olahraga, membaca** tidak."
+        },
+        {
+          "kind": "p",
+          "text": "Jika Anda kekurangan ruang, ini adalah bagian pertama yang bisa dihilangkan. Kedua bagian ini tidak dicetak selama masih kosong."
+        }
+      ]
+    },
+    "templates": {
+      "title": "Template",
+      "lead": "Cara memilih desain, dan apa arti \"Ramah ATS\" bagi peluang Anda.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Tekan **Template** untuk melihat {{templates}} desain. Memilih salah satunya hanya mengubah tata letak — tidak ada teks Anda yang disentuh, dan Anda dapat beralih kembali kapan saja. Pilihan Anda akan diingat."
+        },
+        {
+          "kind": "shot",
+          "id": "templates",
+          "caption": "Galeri template. Lencana menandai desain yang paling aman untuk penyaringan CV otomatis."
+        },
+        {
+          "kind": "h",
+          "text": "Apa arti ATS"
+        },
+        {
+          "kind": "p",
+          "text": "Banyak pemberi kerja menengah dan besar tidak membaca CV secara manual terlebih dahulu. Berkasnya masuk ke dalam **sistem pelacak pelamar** (applicant tracking system) — perangkat lunak yang mengambil nama, pekerjaan, tanggal, dan keahlian Anda lalu memasukkannya ke dalam basis data. Jika perangkat lunak tersebut tidak dapat membaca berkas dengan baik, seorang manusia mungkin tidak akan pernah melihatnya."
+        },
+        {
+          "kind": "p",
+          "text": "Template yang ditandai **Ramah ATS** dibuat khusus untuk itu: satu kolom, tanpa foto, tanpa bilah dekoratif, judul yang polos. Ini adalah pilihan yang aman ketika Anda melamar melalui portal karier perusahaan atau situs lowongan kerja besar."
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Melamar melalui situs web perusahaan atau situs lowongan kerja besar?** Gunakan template yang ramah ATS.",
+            "**Mengirim email langsung ke seseorang, atau bekerja di bidang desain?** Template dua kolom atau berwarna juga baik dan menonjol.",
+            "**Tidak yakin?** Gunakan yang ramah ATS. Itu tidak pernah merugikan; sebaliknya justru bisa."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Setiap template di sini menghasilkan PDF teks yang sesungguhnya, sehingga kata-kata Anda selalu dapat dibaca mesin. Lencana ini berkaitan dengan tata letak — kolom, foto, dan panel berwarna adalah hal yang membingungkan perangkat lunak penyaringan yang lebih lama."
+        }
+      ]
+    },
+    "export": {
+      "title": "Unduh sebagai PDF",
+      "lead": "Cara mendapatkan berkas yang sudah jadi, dan yang harus dilakukan ketika tombolnya berwarna abu-abu.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Tekan **Unduh sebagai PDF**. Berkas dibuat di dalam peramban Anda dan disimpan ke perangkat Anda, dengan nama sesuai nama Anda dan tanggal hari ini."
+        },
+        {
+          "kind": "shot",
+          "id": "actions",
+          "caption": "Tombol-tombol di bilah atas: pilih template, mulai dari awal, simpan berkas cadangan, dan unduh PDF."
+        },
+        {
+          "kind": "h",
+          "text": "Jika tombolnya berwarna abu-abu"
+        },
+        {
+          "kind": "p",
+          "text": "Mengunduh membutuhkan tiga hal: **nama depan**, **nama belakang**, dan **alamat email yang valid**. Jika salah satunya belum diisi atau salah, tombol tetap dinonaktifkan dan mengarahkan kursor ke atasnya akan menunjukkan alasannya. Isi ketiganya dan tombol langsung berubah menjadi biru."
+        },
+        {
+          "kind": "h",
+          "text": "Apa yang Anda dapatkan"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "PDF asli: teksnya dapat dipilih dan disalin, dan perangkat lunak penyaringan dapat membacanya.",
+            "Selalu A4 potret, apa pun perangkat yang Anda gunakan untuk membuatnya.",
+            "Tautan yang berfungsi — nomor telepon, alamat email, dan tautan profil bersifat dapat diklik.",
+            "Satu atau dua halaman, tergantung seberapa banyak yang Anda tulis."
+          ]
+        },
+        {
+          "kind": "note",
+          "text": "Unduhan pertama dalam satu sesi memerlukan waktu beberapa detik lebih lama, karena bagian aplikasi yang membuat PDF hanya dimuat ketika Anda benar-benar memintanya. Setelah itu, prosesnya instan."
+        },
+        {
+          "kind": "note",
+          "text": "Periksa pratinjau sebelum mengirim. Jika CV Anda meluas ke halaman ketiga, persingkat deskripsi Anda atau hilangkan bagian opsional — dua halaman adalah batas maksimal yang praktis untuk sebagian besar pekerjaan."
+        }
+      ]
+    },
+    "backup": {
+      "title": "Cadangan dan memulai dari awal",
+      "lead": "Cara menyimpan salinan CV Anda, memindahkannya ke perangkat lain, atau menghapusnya dan memulai lagi.",
+      "blocks": [
+        {
+          "kind": "warn",
+          "text": "CV Anda hanya berada di peramban ini. Menghapus riwayat penjelajahan, menggunakan jendela privat, memasang ulang peramban, atau berganti perangkat akan menghilangkannya. Tidak ada salinan di server dan tidak ada pemulihan kata sandi — berkas cadangan adalah satu-satunya cara untuk menyimpannya."
+        },
+        {
+          "kind": "h",
+          "text": "Menyimpan cadangan"
+        },
+        {
+          "kind": "p",
+          "text": "Di editor, tekan **Cadangkan**. Sebuah berkas `.json` akan diunduh, memuat seluruh CV Anda termasuk foto Anda. Simpan di tempat yang dapat Anda temukan kembali — penyimpanan awan, kirim ke email Anda sendiri, atau flash disk."
+        },
+        {
+          "kind": "note",
+          "text": "Anda dapat menyimpan cadangan kapan saja, bahkan saat baru setengah selesai. Ini tidak dibatasi seperti unduhan PDF."
+        },
+        {
+          "kind": "h",
+          "text": "Memulihkan dari cadangan"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "Buka OnlineCV di perangkat yang ingin Anda gunakan untuk CV Anda.",
+            "Pada **layar pertama**, temukan **Pulihkan dari berkas** di bagian bawah langkah 1.",
+            "Pilih berkas cadangan `.json` Anda.",
+            "Editor akan terbuka dengan semuanya kembali seperti semula."
+          ]
+        },
+        {
+          "kind": "warn",
+          "text": "Pemulihan hanya ditawarkan pada layar pertama. Jika peramban ini sudah memiliki CV di dalamnya, Anda tidak akan melihat kontrol tersebut — tekan **Setel ulang** terlebih dahulu, lalu pulihkan. Ini disengaja: untuk mencegah sebuah berkas menimpa pekerjaan yang belum Anda cadangkan tanpa disadari."
+        },
+        {
+          "kind": "p",
+          "text": "Jika sebagian dari sebuah berkas tidak dapat dibaca — tanggal yang tidak biasa, sebuah saluran yang tidak dikenali versi ini — sisanya tetap dimuat dan Anda akan diberi tahu apa yang dilewati, alih-alih diperlihatkan CV yang diam-diam kehilangan sesuatu."
+        },
+        {
+          "kind": "h",
+          "text": "Memulai dari awal"
+        },
+        {
+          "kind": "p",
+          "text": "**Setel ulang** mengosongkan CV sepenuhnya dan membawa Anda kembali ke layar pertama. Anda akan diminta konfirmasi terlebih dahulu."
+        },
+        {
+          "kind": "warn",
+          "text": "Setel ulang tidak dapat dibatalkan. Buat cadangan terlebih dahulu kecuali Anda benar-benar yakin ingin menghapus CV tersebut."
+        }
+      ]
+    },
+    "install": {
+      "title": "Pasang dan bekerja secara luring",
+      "lead": "OnlineCV dapat dipasang seperti aplikasi dan tetap berfungsi tanpa koneksi internet.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "OnlineCV adalah situs web yang dapat dipasang. Setelah terpasang, situs ini terbuka di jendelanya sendiri dari layar utama atau menu Start Anda, tanpa bilah alamat."
+        },
+        {
+          "kind": "h",
+          "text": "Memasang"
+        },
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Chrome atau Edge di komputer",
+              "def": "Klik ikon pasang di ujung kanan bilah alamat, atau gunakan menu peramban dan pilih untuk memasang aplikasi."
+            },
+            {
+              "term": "Android",
+              "def": "Buka menu peramban dan pilih **Tambahkan ke layar utama** atau **Pasang aplikasi**."
+            },
+            {
+              "term": "iPhone atau iPad",
+              "def": "Di Safari, tekan tombol Bagikan dan pilih **Tambahkan ke Layar Utama**."
+            }
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Bekerja secara luring"
+        },
+        {
+          "kind": "p",
+          "text": "Setelah kunjungan pertama Anda, OnlineCV berfungsi tanpa koneksi sama sekali. Anda dapat mengedit CV, mengganti template, dan mengunduh PDF di pesawat atau dengan data seluler dimatikan. Sebuah spanduk kecil memberi tahu Anda ketika sedang luring."
+        },
+        {
+          "kind": "note",
+          "text": "Hanya dua hal yang membutuhkan internet pada kunjungan pertama saja: tangkapan layar dalam panduan ini, dan font tambahan yang digunakan untuk bahasa Tionghoa, Jepang, dan Korea. Setelah dimuat, semuanya disimpan untuk digunakan nanti."
+        },
+        {
+          "kind": "note",
+          "text": "Ketika versi baru tersedia, Anda akan ditawari untuk memuat ulang. Tidak ada yang diganti secara diam-diam saat Anda sedang mengetik."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privasi",
+      "lead": "Apa yang tetap ada di perangkat Anda, apa yang tidak, dan cara mengubah pilihan Anda.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Tidak ada akun, tidak ada login, dan tidak ada server di balik OnlineCV. **CV Anda tidak pernah meninggalkan perangkat Anda sebagai sebuah berkas.** Tidak ada seorang pun di OnlineCV yang dapat membacanya, dan tidak ada yang bisa bocor dalam sebuah pelanggaran data karena tidak ada basis data."
+        },
+        {
+          "kind": "h",
+          "text": "Satu hal yang memang keluar"
+        },
+        {
+          "kind": "p",
+          "text": "Pada kunjungan pertama Anda, Anda akan ditanya apakah Anda setuju dengan statistik penggunaan. Tidak ada apa pun yang dimuat sebelum Anda menjawab."
+        },
+        {
+          "kind": "p",
+          "text": "Jika Anda setuju, tiga alat pengukuran akan dijalankan — Google Analytics, Microsoft Clarity, dan Yandex Metrica. Alat-alat ini mencatat halaman dan tombol mana yang digunakan, perangkat dan peramban Anda, perkiraan wilayah Anda, dan **rekaman sesi, yang mencakup apa yang Anda ketik ke dalam formulir**. Ini dinyatakan dengan jelas karena begitulah cara kami mengetahui di mana orang mengalami kesulitan; ini juga alasan mengapa itu sepenuhnya pilihan Anda."
+        },
+        {
+          "kind": "p",
+          "text": "Jika Anda menolak, tidak satu pun dari alat-alat itu dimuat dan tidak ada yang dikumpulkan. Aplikasi tetap berfungsi persis sama. Kerugiannya ada pada kami, bukan Anda: masalah yang Anda temui tidak dapat sampai kepada kami, sehingga tidak dapat diperbaiki."
+        },
+        {
+          "kind": "h",
+          "text": "Mengubah pilihan Anda"
+        },
+        {
+          "kind": "p",
+          "text": "Tautan **Privasi dan analitik** di bagian bawah halaman membuka kembali pertanyaan ini kapan saja dan menampilkan pilihan Anda saat ini. Menarik persetujuan berlaku setelah memuat ulang."
+        },
+        {
+          "kind": "note",
+          "text": "Jawaban Anda diingat per peramban, bukan disimpan bersama CV Anda — sehingga mengatur ulang CV Anda tidak membuat aplikasi bertanya lagi."
+        }
+      ]
+    },
+    "writing": {
+      "title": "Menulis CV yang benar-benar dibaca",
+      "lead": "Saran praktis untuk bagian yang sulit: memutuskan apa yang perlu dicantumkan.",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Perekrut yang melihat setumpuk CV memberi masing-masing hanya beberapa detik sebelum memutuskan untuk membacanya lebih lanjut atau melewatkannya. Semua yang di bawah ini adalah tentang bagaimana bertahan dalam beberapa detik tersebut."
+        },
+        {
+          "kind": "h",
+          "text": "Dasar-dasarnya"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Satu halaman** jika pengalaman Anda kurang dari lima tahun, **dua halaman** jika lebih. Tiga halaman hampir tidak pernah dibaca sampai selesai.",
+            "**Sesuaikan untuk setiap pekerjaan.** Susun ulang pencapaian Anda sehingga yang sesuai dengan lowongan muncul lebih dulu. Ini adalah lima belas menit yang mengubah hasil lebih dari apa pun lainnya di sini.",
+            "**Gunakan kata-kata dari lowongan itu sendiri** jika memang benar-benar menggambarkan Anda. Perangkat lunak penyaringan mencocokkan teks secara harfiah: jika lowongan menyebut **accounts payable**, frasa itu harus muncul jika Anda memang pernah melakukannya.",
+            "**Periksa ejaan jabatan pekerjaan Anda sendiri dan alamat email Anda.** Kesalahan ketik pada alamat email adalah CV yang tidak dapat dibalas oleh siapa pun."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Tulis hasil, bukan tugas"
+        },
+        {
+          "kind": "p",
+          "text": "Deskripsi pekerjaan menyebutkan apa yang seharusnya Anda lakukan. Sebuah CV seharusnya menyatakan apa yang benar-benar terjadi karena Anda ada di sana. Setiap entri dapat diperbaiki dengan bertanya **lalu kenapa?**"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Tugas:** Mengelola akun media sosial perusahaan.",
+            "**Hasil:** Meningkatkan pengikut Instagram perusahaan dari 2.000 menjadi 11.000 dalam satu tahun; pertanyaan dari media sosial meningkat tiga kali lipat.",
+            "**Tugas:** Menangani keluhan pelanggan.",
+            "**Hasil:** Mengambil alih antrean keluhan dan memangkas rata-rata waktu respons dari tiga hari menjadi empat jam."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Gunakan angka"
+        },
+        {
+          "kind": "p",
+          "text": "Angka adalah cara tercepat untuk dipercaya. Berapa banyak orang, berapa banyak uang, seberapa lebih cepat, berapa banyak pelanggan, seberapa sering. Jika Anda benar-benar tidak memiliki angka, gunakan skala dan frekuensi: **tim beranggotakan enam orang**, **sekitar 40 panggilan sehari**, **portofolio 12 klien**."
+        },
+        {
+          "kind": "h",
+          "text": "Hilangkan"
+        },
+        {
+          "kind": "ul",
+          "items": [
+            "**Referensi tersedia atas permintaan** — sudah diasumsikan, dan baris yang terbuang.",
+            "Nomor identitas Anda, alamat rumah lengkap Anda, dan data rekening bank Anda. Jangan pernah mencantumkan ini pada dokumen yang Anda kirim kepada orang asing.",
+            "Alasan meninggalkan pekerjaan sebelumnya, dan gaji saat ini atau yang diharapkan, kecuali Anda diminta untuk itu.",
+            "Kata sifat kosong tanpa bukti di baliknya. **Pekerja keras** tidak bernilai apa-apa; **menggantikan pekerjaan dua rekan kerja selama tiga bulan saat migrasi sistem** adalah klaim yang sama, namun dibuktikan."
+          ]
+        },
+        {
+          "kind": "h",
+          "text": "Jeda dan pekerjaan singkat"
+        },
+        {
+          "kind": "p",
+          "text": "Jangan menyembunyikannya; jelaskan secara singkat. Studi, sakit, merawat keluarga, wajib militer, dan memulai usaha semuanya adalah alasan yang wajar, dan jeda yang dijelaskan tidak lagi menjadi pertanyaan. Gunakan bidang **Jenis pekerjaan** untuk entri singkat — **Magang** atau **Musiman** menjelaskan pekerjaan tiga bulan sebelum ada yang perlu bertanya-tanya."
+        },
+        {
+          "kind": "h",
+          "text": "Sebelum Anda mengirimnya"
+        },
+        {
+          "kind": "steps",
+          "items": [
+            "Baca CV Anda dengan suara keras. Apa pun yang membuat Anda tersendat adalah kalimat yang perlu dipersingkat.",
+            "Periksa bahwa setiap tanggal sudah benar dan tidak ada jeda yang tidak dijelaskan.",
+            "Konfirmasi nomor telepon dan alamat email Anda, karakter demi karakter.",
+            "Unduh PDF-nya dan buka. Itulah berkas yang dilihat pemberi kerja, bukan pratinjau.",
+            "Minta satu orang lain membacanya. Mereka akan menemukan kesalahan yang sudah tidak lagi Anda sadari."
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pertanyaan umum",
+      "lead": "Jawaban singkat untuk hal-hal yang paling sering ditanyakan orang.",
+      "blocks": [
+        {
+          "kind": "dl",
+          "items": [
+            {
+              "term": "Apakah ini benar-benar gratis?",
+              "def": "Ya. Tidak ada akun, tidak ada masa percobaan, tidak ada watermark, dan tidak ada versi berbayar."
+            },
+            {
+              "term": "Di mana CV saya disimpan?",
+              "def": "Di peramban Anda sendiri, di perangkat tempat Anda mengetiknya. Tidak di server mana pun."
+            },
+            {
+              "term": "Bisakah saya melanjutkan dari ponsel saya?",
+              "def": "Hanya dengan menyimpan berkas cadangan di satu perangkat dan memulihkannya di perangkat lain. Tidak ada sinkronisasi, karena tidak ada akun."
+            },
+            {
+              "term": "Bisakah saya menyimpan lebih dari satu CV?",
+              "def": "Satu CV per peramban. Untuk menyimpan beberapa versi, simpan berkas cadangan untuk masing-masing dan pulihkan yang Anda butuhkan."
+            },
+            {
+              "term": "Mengapa saya tidak bisa menekan Unduh?",
+              "def": "Nama depan, nama belakang, dan alamat email yang valid diperlukan. Arahkan kursor ke tombol tersebut dan ia akan memberi tahu alasannya."
+            },
+            {
+              "term": "Bisakah saya mengedit PDF-nya setelah itu?",
+              "def": "Ubah di sini dan unduh lagi — itu lebih cepat dan menjaga tata letak tetap benar. Mengedit PDF di tempat lain sering merusak lapisan teks yang dibaca oleh perangkat lunak penyaringan."
+            },
+            {
+              "term": "Apakah ini berfungsi tanpa internet?",
+              "def": "Ya, setelah kunjungan pertama Anda. Mengedit dan mengunduh PDF, keduanya berfungsi secara luring."
+            },
+            {
+              "term": "Saya menghapus data peramban saya dan CV saya hilang. Bisakah Anda memulihkannya?",
+              "def": "Tidak. Tidak ada apa pun yang disimpan di luar perangkat Anda, sehingga tidak ada yang bisa dipulihkan. Hanya berkas cadangan yang bisa mengembalikannya."
+            },
+            {
+              "term": "Mengapa CV saya menjadi dua halaman?",
+              "def": "Karena seberapa banyak yang telah Anda tulis. Persingkat deskripsi, ringkas pekerjaan lama menjadi satu baris masing-masing, atau sembunyikan bagian opsional."
+            },
+            {
+              "term": "Bisakah saya mengubah urutan bagian-bagian?",
+              "def": "Bukan bagian-bagiannya sendiri. Anda dapat mengubah urutan entri di dalam pengalaman kerja, pendidikan, dan sertifikat dengan sakelar Urutan khusus."
+            },
+            {
+              "term": "Template mana yang sebaiknya saya pilih?",
+              "def": "Yang ramah ATS jika Anda melamar melalui situs web perusahaan atau situs lowongan kerja besar. Selain itu, mana pun yang Anda sukai."
+            },
+            {
+              "term": "Apakah data saya digunakan untuk melatih AI, atau dijual?",
+              "def": "Tidak. CV Anda tidak pernah dikirim ke mana pun, sehingga tidak ada yang bisa dijual atau digunakan untuk pelatihan. Jika Anda menyetujui statistik penggunaan, alat pengukuran yang tercantum di bagian Privasi menerima data sesi — menolak akan mematikan semuanya."
+            }
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Masih bingung? Tombol Telegram di bilah atas mengarah ke grup komunitas proyek ini."
+        }
+      ]
+    }
+  }
+}

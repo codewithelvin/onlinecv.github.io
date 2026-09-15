@@ -58,6 +58,7 @@ export function updateSeo(locale: Locale): void {
   const description = i18n.t('seo.description');
   document.title = title;
   setMetaByName('description', description);
+  setMetaByName('keywords', i18n.t('seo.keywords'));
   setMetaByProperty('og:title', title);
   setMetaByProperty('og:description', description);
   setMetaByName('twitter:title', title);

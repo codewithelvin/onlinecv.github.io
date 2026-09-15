@@ -19,6 +19,8 @@ import elGR from 'antd/locale/el_GR';
 import kkKZ from 'antd/locale/kk_KZ';
 import uzUZ from 'antd/locale/uz_UZ';
 import jaJP from 'antd/locale/ja_JP';
+import idID from 'antd/locale/id_ID';
+import hiIN from 'antd/locale/hi_IN';
 import dayjs from 'dayjs';
 import 'dayjs/locale/az';
 import 'dayjs/locale/ru';
@@ -46,6 +48,8 @@ import 'dayjs/locale/hu';
 import 'dayjs/locale/el';
 import 'dayjs/locale/kk';
 import 'dayjs/locale/ja';
+import 'dayjs/locale/id';
+import 'dayjs/locale/hi';
 import uzLatn from 'dayjs/locale/uz-latn';
 import type { Locale } from '../../types/resume';
 
@@ -646,6 +650,65 @@ export const LOCALES: Record<Locale, LocaleMeta> = {
     cv: true,
     region: 'asia',
     antd: jaJP,
+  },
+  /**
+   * Indonesian — the same class Spanish and the French/German/Italian/Turkish
+   * batch already established: Latin script, so Inter already covers every
+   * letter Bahasa Indonesia uses (it has no diacritics at all beyond the
+   * occasional loanword), and dayjs's `id` data has no `preparse`/`postformat`.
+   * `cv: true` from the start; zero font work.
+   */
+  id: {
+    code: 'id',
+    dateFormats: WESTERN_DATES,
+    short: 'ID',
+    nativeName: 'Bahasa Indonesia',
+    dir: 'ltr',
+    capitalizeMonths: true,
+    digits: 'latn',
+    cv: true,
+    region: 'asia',
+    antd: idID,
+  },
+  /**
+   * Hindi — the first Devanagari locale, and the case
+   * `docs/adding-a-language.md` had flagged as the next genuinely hard one:
+   * Devanagari both REORDERS (a pre-base vowel sign like `ि` is typed after its
+   * consonant but drawn before it) and COMBINES marks into conjunct ligatures
+   * (क + ् + ष → क्ष, one glyph). That is real complexity, but it turned out to
+   * already be solved: `fontkit` (the engine `@react-pdf` itself is built on)
+   * ships a genuine Indic shaping engine (`opentype/shapers/IndicShaper.js`),
+   * and probing it directly with a real Noto Sans Devanagari font — before any
+   * of this was written, per the project's own "probe it with a throwaway
+   * script first" rule — reordered `कि` and fused `क्ष`/`श्री` into single
+   * glyphs with no extra code. Unlike Arabic, Devanagari is LEFT-TO-RIGHT, so
+   * none of `@react-pdf/textkit`'s bidi-reordering-before-shaping problem
+   * (the reason Arabic needed `preshapeArabic`) applies here — there is no
+   * reordering pass to fight with the shaper. `cv: true` still rests on
+   * `text-fidelity.test.tsx` recovering real Hindi words from the exported PDF,
+   * not on this reasoning alone.
+   *
+   * `capitalizeMonths: false` — Devanagari is unicameral, like Georgian's
+   * Mkhedruli and Arabic. `digits: 'latn'` — Devanagari has its own numerals
+   * (०-९) but professional/typed Hindi documents, this app's own audience,
+   * write dates and ages in Western digits.
+   *
+   * Font: `NotoSansDevanagari` (Regular + Bold, ~215 KB each — far cheaper than
+   * any CJK face), registered like every other non-Inter script: `_core/fonts`,
+   * `app/theme.ts`, the `body` rule in `index.css`, `services/pdf.ts`'s
+   * `registerResumeFonts`, and a `unicode-range`-scoped `@font-face`.
+   */
+  hi: {
+    code: 'hi',
+    dateFormats: WESTERN_DATES,
+    short: 'HI',
+    nativeName: 'हिन्दी',
+    dir: 'ltr',
+    capitalizeMonths: false,
+    digits: 'latn',
+    cv: true,
+    region: 'asia',
+    antd: hiIN,
   },
 };
 

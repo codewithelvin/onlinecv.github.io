@@ -2,10 +2,10 @@ import { describe, expect, it } from 'vitest';
 import { canExport, createEmptyResume, looksUnstarted } from './empty-resume';
 
 describe('empty-resume', () => {
-  it('creates a single-resume default with the ATS template', () => {
+  it('creates a single-resume default with the photo-friendly template', () => {
     const r = createEmptyResume('az');
     expect(r.id).toBe('default');
-    expect(r.templateId).toBe('classic');
+    expect(r.templateId).toBe('modern');
     expect(r.locale).toBe('az');
     expect(r.experience).toEqual([]);
   });

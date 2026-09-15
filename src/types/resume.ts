@@ -38,7 +38,9 @@ export type Locale =
   | 'el'
   | 'kk'
   | 'uz'
-  | 'ja';
+  | 'ja'
+  | 'id'
+  | 'hi';
 
 /**
  * A short label translated per locale. Only the default locale (`az`) is

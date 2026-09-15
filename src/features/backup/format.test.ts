@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import type { Resume } from '../../types/resume';
 import { fullResume } from '../../test/fixtures/full-resume';
-import { createEmptyResume } from '../../utils/empty-resume';
+import { createEmptyResume, DEFAULT_TEMPLATE_ID } from '../../utils/empty-resume';
 import {
   BACKUP_FORMAT,
   BACKUP_VERSION,
@@ -353,7 +353,7 @@ describe('backup sanitizer', () => {
       fileWith({ ...createEmptyResume(), templateId: 'template-from-the-future' }),
     );
     if (!result.ok) throw new Error('refused a valid file');
-    expect(result.resume.templateId).toBe('classic');
+    expect(result.resume.templateId).toBe(DEFAULT_TEMPLATE_ID);
     expect(result.dropped).toContain('templateId');
   });
 
@@ -374,7 +374,7 @@ describe('backup sanitizer', () => {
     if (!result.ok) throw new Error('refused a valid file');
     expect(result.dropped).toEqual([]);
     expect(result.resume.locale).toBe('az');
-    expect(result.resume.templateId).toBe('classic');
+    expect(result.resume.templateId).toBe(DEFAULT_TEMPLATE_ID);
   });
 
   it('keeps the opt-out flags absent when the file has none', () => {

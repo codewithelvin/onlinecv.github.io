@@ -25,6 +25,8 @@ export const manifest: TemplateManifest = {
     tr: 'Modern',
     uz: 'Zamonaviy',
     zh: '现代',
+    id: 'Modern',
+    hi: 'आधुनिक',
   },
   atsSafe: false,
   accent: modernTheme.accent,

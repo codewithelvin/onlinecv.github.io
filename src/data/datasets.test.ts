@@ -222,6 +222,11 @@ describe('dictionary translation coverage', () => {
       // `japan`, not `japanese` — another row that predates its locale, and
       // another reason this map exists rather than assuming code === locale.
       ja: 'japan',
+      // Both rows predate their locale too — `hindi` and `indonesian` were
+      // already in the dictionary as languages a CV author might speak, before
+      // either became a UI language.
+      id: 'indonesian',
+      hi: 'hindi',
     };
     for (const locale of SUPPORTED_LOCALES) {
       const code = ownLanguage[locale];

@@ -267,6 +267,7 @@
     "title": "OnlineCV — Cree un CV en línea gratis",
     "description": "Plataforma en línea para crear su CV. Prepare su currículum gratis en unos minutos y descárguelo en PDF.",
     "imageAlt": "OnlineCV — creador de CV en línea gratuito y compatible con ATS",
+    "keywords": "CV, currículum, crear CV en línea, CV gratis, plantillas de CV, CV compatible con ATS, creador de currículum, descargar CV en PDF, currículum sin registro, curriculum vitae",
     "card": {
       "languages": "Idiomas: {{n}}",
       "templates": "Plantillas: {{n}}",

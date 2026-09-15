@@ -25,6 +25,8 @@ export const manifest: TemplateManifest = {
     kk: 'Баннер',
     uz: 'Banner',
     ja: 'バナー',
+    id: 'Banner',
+    hi: 'बैनर',
   },
   /** A photo and a filled header band — real text throughout, but not ATS shape. */
   atsSafe: false,

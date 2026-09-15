@@ -25,6 +25,8 @@ export const manifest: TemplateManifest = {
     kk: 'Хронология',
     uz: 'Xronologiya',
     ja: 'タイムライン',
+    id: 'Linimasa',
+    hi: 'समयरेखा',
   },
   /**
    * Two columns and a filled sidebar, so not the single-column, image-free shape

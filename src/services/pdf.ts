@@ -181,6 +181,28 @@ export function registerResumeFonts(pdfLib: typeof ReactPdf, fontBase: string = 
       { src: `${fontBase}/NotoSansJP-Bold.otf`, fontWeight: 700 },
     ],
   });
+  /**
+   * Devanagari (Hindi). Two weights, TTF, same small-script-face arrangement as
+   * Georgian/Arabic/Hebrew — 220 KB per weight, nowhere near Hangul/CJK scale, so
+   * there is no reason to split preview/export files the way Korean does; both
+   * targets load this same TTF.
+   *
+   * The REORDERING (a pre-base vowel sign drawn before its consonant) and the
+   * CONJUNCT ligatures (क + ् + ष → क्ष) both come from fontkit's own Indic
+   * shaping engine (`opentype/shapers/IndicShaper.js`) — probed directly with
+   * this exact font before anything else here was written, per
+   * `docs/adding-a-language.md`'s rule: register the face, render one page,
+   * check the glyph run rather than assuming. No patch was needed, unlike
+   * Arabic — Devanagari is left-to-right, so `@react-pdf/textkit`'s
+   * bidi-reordering-before-shaping problem never applies to it.
+   */
+  Font.register({
+    family: 'NotoSansDevanagari',
+    fonts: [
+      { src: `${fontBase}/NotoSansDevanagari-Regular.ttf`, fontWeight: 400 },
+      { src: `${fontBase}/NotoSansDevanagari-Bold.ttf`, fontWeight: 700 },
+    ],
+  });
   // Text-based, ATS-parseable output: don't insert soft hyphens.
   Font.registerHyphenationCallback((word) => [word]);
 }

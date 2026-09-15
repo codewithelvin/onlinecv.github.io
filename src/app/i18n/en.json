@@ -267,6 +267,7 @@
     "title": "OnlineCV — Create a free online CV",
     "description": "An online platform for building your CV. Create your CV in minutes, for free, and download it as a PDF.",
     "imageAlt": "OnlineCV — free, ATS-friendly online CV builder",
+    "keywords": "CV, resume, online CV builder, free resume builder, CV templates, ATS-friendly resume, create a CV online, download CV as PDF, resume maker with no sign-up, curriculum vitae",
     "card": {
       "languages": "Languages: {{n}}",
       "templates": "Templates: {{n}}",

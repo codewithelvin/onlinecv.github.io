@@ -24,6 +24,8 @@ export const manifest: TemplateManifest = {
     tr: 'Kompakt',
     uz: 'Ixcham',
     zh: '紧凑',
+    id: 'Ringkas',
+    hi: 'संक्षिप्त',
   },
   atsSafe: true,
   accent: '#1461c7',

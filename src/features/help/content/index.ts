@@ -46,6 +46,8 @@ const loaders: Record<Locale, () => Promise<{ default: unknown }>> = {
   tr: () => import('./tr.json'),
   uz: () => import('./uz.json'),
   zh: () => import('./zh.json'),
+  id: () => import('./id.json'),
+  hi: () => import('./hi.json'),
 };
 
 const cache = new Map<Locale, HelpContent>();

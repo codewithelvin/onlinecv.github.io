@@ -34,6 +34,8 @@ import el from './src/app/i18n/el.json';
 import kk from './src/app/i18n/kk.json';
 import uz from './src/app/i18n/uz.json';
 import ja from './src/app/i18n/ja.json';
+import id from './src/app/i18n/id.json';
+import hi from './src/app/i18n/hi.json';
 
 /**
  * Emit one static landing page per UI language, so each language has a URL a
@@ -62,6 +64,8 @@ interface SeoStrings {
   description: string;
   /** `og:image:alt`/`twitter:image:alt` — what the card says, for a reader who cannot see it. */
   imageAlt: string;
+  /** `<meta name="keywords">` — ignored by Google since 2009, still read by Bing/Yandex. */
+  keywords: string;
 }
 
 /**
@@ -103,16 +107,18 @@ const BUNDLES: Record<
   kk,
   uz,
   ja,
+  id,
+  hi,
 };
 
 function seoStrings(locale: Locale): SeoStrings {
-  const { title, description, imageAlt } = BUNDLES[locale].seo ?? {};
-  if (!title || !description || !imageAlt) {
+  const { title, description, imageAlt, keywords } = BUNDLES[locale].seo ?? {};
+  if (!title || !description || !imageAlt || !keywords) {
     // Loud, because the alternative is silently shipping a page titled
     // "undefined" to whichever language was forgotten.
     throw new Error(`locale-pages: ${locale}.json is missing an seo.* key`);
   }
-  return { title, description, imageAlt };
+  return { title, description, imageAlt, keywords };
 }
 
 /**
@@ -178,7 +184,7 @@ function alternatesBlock(): string {
  * a page with the wrong metadata.
  */
 function renderLocalePage(html: string, locale: Locale, canonical: string): string {
-  const { title, description, imageAlt } = seoStrings(locale);
+  const { title, description, imageAlt, keywords } = seoStrings(locale);
   const meta = LOCALES[locale];
   const card = ogImageUrl(locale);
   let out = html;
@@ -200,6 +206,11 @@ function renderLocalePage(html: string, locale: Locale, canonical: string): stri
     /<meta\s+name="description"[\s\S]*?\/>/,
     `<meta name="description" content="${escapeAttr(description)}" />`,
     'meta description',
+  );
+  replace(
+    /<meta\s+name="keywords"[\s\S]*?\/>/,
+    `<meta name="keywords" content="${escapeAttr(keywords)}" />`,
+    'meta keywords',
   );
   replace(
     /<link rel="canonical" href="[^"]*" \/>/,

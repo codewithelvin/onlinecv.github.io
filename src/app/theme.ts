@@ -28,6 +28,7 @@ const UI_SCRIPT_FONTS = [
   'NanumGothic',
   'NotoSansJP',
   'NotoSansSC',
+  'NotoSansDevanagari',
 ];
 
 /** What answers once every bundled face has declined a code point. */

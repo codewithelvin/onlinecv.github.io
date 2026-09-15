@@ -267,6 +267,7 @@
     "title": "OnlineCV — Bepul onlayn CV yarating",
     "description": "CV tayyorlash uchun onlayn platforma. CV-ingizni bir necha daqiqada bepul tayyorlang va PDF sifatida yuklab oling.",
     "imageAlt": "OnlineCV — bepul, ATS-mos onlayn CV yaratuvchi",
+    "keywords": "CV, onlayn CV yaratish, bepul CV, CV shablonlari, ATS-mos CV, CV yaratuvchi, CV-ni PDF sifatida yuklab olish, roʻyxatdan oʻtmasdan CV, rezyume tayyorlash",
     "card": {
       "languages": "Tillar: {{n}}",
       "templates": "Shablonlar: {{n}}",

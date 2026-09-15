@@ -21,7 +21,9 @@
     "el": "Ανάγνωση βιβλίων",
     "kk": "Кітап оқу",
     "uz": "Kitob oʻqish",
-    "ja": "読書"
+    "ja": "読書",
+    "id": "Membaca buku",
+    "hi": "किताबें पढ़ना"
   },
   {
     "code": "music_listen",
@@ -45,7 +47,9 @@
     "el": "Ακρόαση μουσικής",
     "kk": "Музыка тыңдау",
     "uz": "Musiqa tinglash",
-    "ja": "音楽鑑賞"
+    "ja": "音楽鑑賞",
+    "id": "Mendengarkan musik",
+    "hi": "संगीत सुनना"
   },
   {
     "code": "play_games",
@@ -69,7 +73,9 @@
     "el": "Παιχνίδια",
     "kk": "Ойын ойнау",
     "uz": "Oʻyin oʻynash",
-    "ja": "ゲーム"
+    "ja": "ゲーム",
+    "id": "Bermain gim",
+    "hi": "खेल खेलना"
   },
   {
     "code": "sport",
@@ -93,7 +99,9 @@
     "el": "Άθληση",
     "kk": "Спортпен айналысу",
     "uz": "Sport bilan shugʻullanish",
-    "ja": "スポーツ"
+    "ja": "スポーツ",
+    "id": "Berolahraga",
+    "hi": "खेलकूद करना"
   },
   {
     "code": "sing_a_song",
@@ -117,7 +125,9 @@
     "el": "Τραγούδι",
     "kk": "Ән айту",
     "uz": "Qoʻshiq aytish",
-    "ja": "歌うこと"
+    "ja": "歌うこと",
+    "id": "Bernyanyi",
+    "hi": "गाना गाना"
   },
   {
     "code": "cooking",
@@ -141,7 +151,9 @@
     "el": "Μαγειρική",
     "kk": "Тағам дайындау",
     "uz": "Ovqat tayyorlash",
-    "ja": "料理"
+    "ja": "料理",
+    "id": "Memasak",
+    "hi": "खाना बनाना"
   },
   {
     "code": "chess",
@@ -165,7 +177,9 @@
     "el": "Σκάκι",
     "kk": "Шахмат ойнау",
     "uz": "Shaxmat oʻynash",
-    "ja": "チェス"
+    "ja": "チェス",
+    "id": "Bermain catur",
+    "hi": "शतरंज खेलना"
   },
   {
     "code": "self_development",
@@ -189,7 +203,9 @@
     "el": "Προσωπική ανάπτυξη",
     "kk": "Жеке даму",
     "uz": "Shaxsiy rivojlanish",
-    "ja": "自己啓発"
+    "ja": "自己啓発",
+    "id": "Pengembangan diri",
+    "hi": "व्यक्तिगत विकास"
   },
   {
     "code": "technology",
@@ -213,7 +229,9 @@
     "el": "Τεχνολογίες",
     "kk": "Технологиялар",
     "uz": "Texnologiyalar",
-    "ja": "テクノロジー"
+    "ja": "テクノロジー",
+    "id": "Teknologi",
+    "hi": "प्रौद्योगिकी"
   },
   {
     "code": "blogging",
@@ -237,7 +255,9 @@
     "el": "Τήρηση ιστολογίου",
     "kk": "Блог жүргізу",
     "uz": "Blog yuritish",
-    "ja": "ブログ執筆"
+    "ja": "ブログ執筆",
+    "id": "Blogging",
+    "hi": "ब्लॉगिंग"
   },
   {
     "code": "photography",
@@ -261,7 +281,9 @@
     "el": "Φωτογραφία",
     "kk": "Фотосурет түсіру",
     "uz": "Surat olish",
-    "ja": "写真撮影"
+    "ja": "写真撮影",
+    "id": "Fotografi",
+    "hi": "फ़ोटोग्राफी"
   },
   {
     "code": "design",
@@ -285,7 +307,9 @@
     "el": "Σχεδιασμός",
     "kk": "Дизайн",
     "uz": "Dizayn",
-    "ja": "デザイン"
+    "ja": "デザイン",
+    "id": "Desain",
+    "hi": "डिज़ाइन"
   },
   {
     "code": "learning_languages",
@@ -309,7 +333,9 @@
     "el": "Εκμάθηση γλωσσών",
     "kk": "Тілдерді үйрену",
     "uz": "Til oʻrganish",
-    "ja": "語学学習"
+    "ja": "語学学習",
+    "id": "Belajar bahasa asing",
+    "hi": "भाषाएँ सीखना"
   },
   {
     "code": "music_production",
@@ -333,7 +359,9 @@
     "el": "Σύνθεση μουσικής",
     "kk": "Музыка шығару",
     "uz": "Musiqa bastalash",
-    "ja": "作曲"
+    "ja": "作曲",
+    "id": "Menggubah musik",
+    "hi": "संगीत रचना करना"
   },
   {
     "code": "watch_movies",
@@ -357,7 +385,9 @@
     "el": "Παρακολούθηση ταινιών",
     "kk": "Кино көру",
     "uz": "Kino koʻrish",
-    "ja": "映画鑑賞"
+    "ja": "映画鑑賞",
+    "id": "Menonton film",
+    "hi": "फ़िल्में देखना"
   },
   {
     "code": "football",
@@ -381,7 +411,9 @@
     "el": "Ποδόσφαιρο",
     "kk": "Футбол ойнау",
     "uz": "Futbol oʻynash",
-    "ja": "サッカー"
+    "ja": "サッカー",
+    "id": "Bermain sepak bola",
+    "hi": "फुटबॉल खेलना"
   },
   {
     "code": "crossword",
@@ -405,6 +437,8 @@
     "el": "Σταυρόλεξα",
     "kk": "Сөзжұмбақ шешу",
     "uz": "Krossvord yechish",
-    "ja": "クロスワードパズル"
+    "ja": "クロスワードパズル",
+    "id": "Mengisi teka-teki silang",
+    "hi": "क्रॉसवर्ड हल करना"
   }
 ]

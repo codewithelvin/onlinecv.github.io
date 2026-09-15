@@ -21,6 +21,8 @@ import ru from './ru.json';
 import tr from './tr.json';
 import uz from './uz.json';
 import zh from './zh.json';
+import id from './id.json';
+import hi from './hi.json';
 
 /**
  * Every language's guide, EAGERLY — for the build only.
@@ -64,4 +66,6 @@ export const HELP_CONTENT = {
   tr,
   uz,
   zh,
+  id,
+  hi,
 } as unknown as Record<Locale, HelpContent>;

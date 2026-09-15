@@ -21,7 +21,9 @@
     "el": "Διευθυντής",
     "kk": "Директор",
     "uz": "Direktor",
-    "ja": "取締役"
+    "ja": "取締役",
+    "id": "Direktur",
+    "hi": "निदेशक"
   },
   {
     "code": "general_director",
@@ -45,7 +47,9 @@
     "el": "Γενικός Διευθυντής",
     "kk": "Бас директор",
     "uz": "Bosh direktor",
-    "ja": "代表取締役"
+    "ja": "代表取締役",
+    "id": "Direktur utama",
+    "hi": "महानिदेशक"
   },
   {
     "code": "executive_director",
@@ -69,7 +73,9 @@
     "el": "Εκτελεστικός Διευθυντής",
     "kk": "Атқарушы директор",
     "uz": "Ijrochi direktor",
-    "ja": "業務執行取締役"
+    "ja": "業務執行取締役",
+    "id": "Direktur eksekutif",
+    "hi": "कार्यकारी निदेशक"
   },
   {
     "code": "deputy_director",
@@ -93,7 +99,9 @@
     "el": "Αναπληρωτής Διευθυντής",
     "kk": "Директордың орынбасары",
     "uz": "Direktor oʻrinbosari",
-    "ja": "副取締役"
+    "ja": "副取締役",
+    "id": "Wakil direktur",
+    "hi": "उप-निदेशक"
   },
   {
     "code": "department_head",
@@ -117,7 +125,9 @@
     "el": "Προϊστάμενος Τμήματος",
     "kk": "Бөлім бастығы",
     "uz": "Boʻlim boshligi",
-    "ja": "部長"
+    "ja": "部長",
+    "id": "Kepala departemen",
+    "hi": "विभाग प्रमुख"
   },
   {
     "code": "manager",
@@ -141,7 +151,9 @@
     "el": "Μάνατζερ",
     "kk": "Менеджер",
     "uz": "Menejer",
-    "ja": "マネージャー"
+    "ja": "マネージャー",
+    "id": "Manajer",
+    "hi": "प्रबंधक"
   },
   {
     "code": "project_manager",
@@ -165,7 +177,9 @@
     "el": "Υπεύθυνος Έργου",
     "kk": "Жоба менеджері",
     "uz": "Loyiha menejeri",
-    "ja": "プロジェクトマネージャー"
+    "ja": "プロジェクトマネージャー",
+    "id": "Manajer proyek",
+    "hi": "परियोजना प्रबंधक"
   },
   {
     "code": "team_lead",
@@ -189,7 +203,9 @@
     "el": "Επικεφαλής Ομάδας",
     "kk": "Топ жетекшісі",
     "uz": "Jamoa rahbari",
-    "ja": "チームリーダー"
+    "ja": "チームリーダー",
+    "id": "Ketua tim",
+    "hi": "टीम प्रमुख"
   },
   {
     "code": "shift_supervisor",
@@ -213,7 +229,9 @@
     "el": "Υπεύθυνος Βάρδιας",
     "kk": "Кезек бастығы",
     "uz": "Smena boshligi",
-    "ja": "シフト責任者"
+    "ja": "シフト責任者",
+    "id": "Pengawas shift",
+    "hi": "शिफ्ट पर्यवेक्षक"
   },
   {
     "code": "branch_manager",
@@ -237,7 +255,9 @@
     "el": "Διευθυντής Υποκαταστήματος",
     "kk": "Филиал директоры",
     "uz": "Filial boshligi",
-    "ja": "支店長"
+    "ja": "支店長",
+    "id": "Manajer cabang",
+    "hi": "शाखा प्रबंधक"
   },
   {
     "code": "operations_manager",
@@ -261,7 +281,9 @@
     "el": "Υπεύθυνος Λειτουργιών",
     "kk": "Операциялық менеджер",
     "uz": "Operatsion menejer",
-    "ja": "業務マネージャー"
+    "ja": "業務マネージャー",
+    "id": "Manajer operasional",
+    "hi": "परिचालन प्रबंधक"
   },
   {
     "code": "office_manager",
@@ -285,7 +307,9 @@
     "el": "Υπεύθυνος Γραφείου",
     "kk": "Офис-менеджер",
     "uz": "Ofis menejeri",
-    "ja": "オフィスマネージャー"
+    "ja": "オフィスマネージャー",
+    "id": "Manajer kantor",
+    "hi": "कार्यालय प्रबंधक"
   },
   {
     "code": "administrator",
@@ -309,7 +333,9 @@
     "el": "Διοικητικός Υπάλληλος",
     "kk": "Администратор",
     "uz": "Administrator",
-    "ja": "アドミニストレーター"
+    "ja": "アドミニストレーター",
+    "id": "Administrator",
+    "hi": "प्रशासक"
   },
   {
     "code": "supervisor",
@@ -333,7 +359,9 @@
     "el": "Επόπτης",
     "kk": "Супервайзер",
     "uz": "Nazoratchi",
-    "ja": "スーパーバイザー"
+    "ja": "スーパーバイザー",
+    "id": "Pengawas",
+    "hi": "पर्यवेक्षक"
   },
   {
     "code": "coordinator",
@@ -357,7 +385,9 @@
     "el": "Συντονιστής",
     "kk": "Координатор",
     "uz": "Koordinator",
-    "ja": "コーディネーター"
+    "ja": "コーディネーター",
+    "id": "Koordinator",
+    "hi": "समन्वयक"
   },
   {
     "code": "specialist",
@@ -381,7 +411,9 @@
     "el": "Ειδικός",
     "kk": "Маман",
     "uz": "Mutaxassis",
-    "ja": "専門職"
+    "ja": "専門職",
+    "id": "Spesialis",
+    "hi": "विशेषज्ञ"
   },
   {
     "code": "senior_specialist",
@@ -405,7 +437,9 @@
     "el": "Ανώτερος Ειδικός",
     "kk": "Бас маман",
     "uz": "Bosh mutaxassis",
-    "ja": "上級専門職"
+    "ja": "上級専門職",
+    "id": "Spesialis senior",
+    "hi": "वरिष्ठ विशेषज्ञ"
   },
   {
     "code": "leading_specialist",
@@ -429,7 +463,9 @@
     "el": "Κορυφαίος Ειδικός",
     "kk": "Жетекші маман",
     "uz": "Yetakchi mutaxassis",
-    "ja": "主任専門職"
+    "ja": "主任専門職",
+    "id": "Spesialis utama",
+    "hi": "अग्रणी विशेषज्ञ"
   },
   {
     "code": "assistant",
@@ -453,7 +489,9 @@
     "el": "Βοηθός",
     "kk": "Көмекші",
     "uz": "Yordamchi",
-    "ja": "アシスタント"
+    "ja": "アシスタント",
+    "id": "Asisten",
+    "hi": "सहायक"
   },
   {
     "code": "intern",
@@ -477,7 +515,9 @@
     "el": "Ασκούμενος",
     "kk": "Тағылымдамашы",
     "uz": "Stajyor",
-    "ja": "インターン"
+    "ja": "インターン",
+    "id": "Peserta magang",
+    "hi": "प्रशिक्षु"
   },
   {
     "code": "secretary",
@@ -501,7 +541,9 @@
     "el": "Γραμματέας",
     "kk": "Хатшы",
     "uz": "Kotiba",
-    "ja": "秘書"
+    "ja": "秘書",
+    "id": "Sekretaris",
+    "hi": "सचिव"
   },
   {
     "code": "receptionist",
@@ -525,7 +567,9 @@
     "el": "Υπάλληλος Υποδοχής",
     "kk": "Ресепшн қызметкері",
     "uz": "Qabulxona xodimi",
-    "ja": "受付"
+    "ja": "受付",
+    "id": "Resepsionis",
+    "hi": "स्वागत कर्मी"
   },
   {
     "code": "records_clerk",
@@ -549,7 +593,9 @@
     "el": "Γραφέας",
     "kk": "Іс жүргізуші",
     "uz": "Ish yurituvchi",
-    "ja": "記録管理担当"
+    "ja": "記録管理担当",
+    "id": "Petugas administrasi",
+    "hi": "अभिलेख लिपिक"
   },
   {
     "code": "document_controller",
@@ -573,7 +619,9 @@
     "el": "Ελεγκτής Εγγράφων",
     "kk": "Құжат айналымы маманы",
     "uz": "Hujjat aylanishi mutaxassisi",
-    "ja": "文書管理担当"
+    "ja": "文書管理担当",
+    "id": "Pengendali dokumen",
+    "hi": "दस्तावेज़ नियंत्रक"
   },
   {
     "code": "archivist",
@@ -597,7 +645,9 @@
     "el": "Αρχειοθέτης",
     "kk": "Мұрағатшы",
     "uz": "Arxivchi",
-    "ja": "アーキビスト"
+    "ja": "アーキビスト",
+    "id": "Arsiparis",
+    "hi": "अभिलेखपाल"
   },
   {
     "code": "business_analyst",
@@ -621,7 +671,9 @@
     "el": "Επιχειρησιακός Αναλυτής",
     "kk": "Бизнес-талдаушы",
     "uz": "Biznes-analitik",
-    "ja": "ビジネスアナリスト"
+    "ja": "ビジネスアナリスト",
+    "id": "Analis bisnis",
+    "hi": "व्यवसाय विश्लेषक"
   },
   {
     "code": "business_development_manager",
@@ -645,7 +697,9 @@
     "el": "Υπεύθυνος Ανάπτυξης Επιχείρησης",
     "kk": "Бизнесті дамыту менеджері",
     "uz": "Biznesni rivojlantirish menejeri",
-    "ja": "事業開発マネージャー"
+    "ja": "事業開発マネージャー",
+    "id": "Manajer pengembangan bisnis",
+    "hi": "व्यवसाय विकास प्रबंधक"
   },
   {
     "code": "consultant",
@@ -669,7 +723,9 @@
     "el": "Σύμβουλος",
     "kk": "Кеңесші",
     "uz": "Maslahatchi",
-    "ja": "コンサルタント"
+    "ja": "コンサルタント",
+    "id": "Konsultan",
+    "hi": "सलाहकार"
   },
   {
     "code": "entrepreneur",
@@ -693,7 +749,9 @@
     "el": "Επιχειρηματίας",
     "kk": "Кәсіпкер",
     "uz": "Tadbirkor",
-    "ja": "起業家"
+    "ja": "起業家",
+    "id": "Wirausahawan",
+    "hi": "उद्यमी"
   },
   {
     "code": "founder",
@@ -717,7 +775,9 @@
     "el": "Ιδρυτής",
     "kk": "Негізін қалаушы",
     "uz": "Asoschi",
-    "ja": "創業者"
+    "ja": "創業者",
+    "id": "Pendiri",
+    "hi": "संस्थापक"
   },
   {
     "code": "freelancer",
@@ -741,7 +801,9 @@
     "el": "Ελεύθερος Επαγγελματίας",
     "kk": "Фрилансер",
     "uz": "Frilanser",
-    "ja": "フリーランサー"
+    "ja": "フリーランサー",
+    "id": "Pekerja lepas",
+    "hi": "स्वतंत्र पेशेवर"
   },
   {
     "code": "volunteer",
@@ -765,7 +827,9 @@
     "el": "Εθελοντής",
     "kk": "Ерікті",
     "uz": "Koʻngilli",
-    "ja": "ボランティア"
+    "ja": "ボランティア",
+    "id": "Sukarelawan",
+    "hi": "स्वयंसेवक"
   },
   {
     "code": "accountant",
@@ -789,7 +853,9 @@
     "el": "Λογιστής",
     "kk": "Бухгалтер",
     "uz": "Buxgalter",
-    "ja": "経理担当"
+    "ja": "経理担当",
+    "id": "Akuntan",
+    "hi": "लेखाकार"
   },
   {
     "code": "chief_accountant",
@@ -813,7 +879,9 @@
     "el": "Προϊστάμενος Λογιστηρίου",
     "kk": "Бас бухгалтер",
     "uz": "Bosh buxgalter",
-    "ja": "経理部長"
+    "ja": "経理部長",
+    "id": "Akuntan kepala",
+    "hi": "मुख्य लेखाकार"
   },
   {
     "code": "financial_manager",
@@ -837,7 +905,9 @@
     "el": "Οικονομικός Διευθυντής",
     "kk": "Қаржы менеджері",
     "uz": "Moliya menejeri",
-    "ja": "財務マネージャー"
+    "ja": "財務マネージャー",
+    "id": "Manajer keuangan",
+    "hi": "वित्त प्रबंधक"
   },
   {
     "code": "financial_analyst",
@@ -861,7 +931,9 @@
     "el": "Χρηματοοικονομικός Αναλυτής",
     "kk": "Қаржы талдаушысы",
     "uz": "Moliya analitigi",
-    "ja": "財務アナリスト"
+    "ja": "財務アナリスト",
+    "id": "Analis keuangan",
+    "hi": "वित्तीय विश्लेषक"
   },
   {
     "code": "economist",
@@ -885,7 +957,9 @@
     "el": "Οικονομολόγος",
     "kk": "Экономист",
     "uz": "Iqtisodchi",
-    "ja": "エコノミスト"
+    "ja": "エコノミスト",
+    "id": "Ekonom",
+    "hi": "अर्थशास्त्री"
   },
   {
     "code": "auditor",
@@ -909,7 +983,9 @@
     "el": "Ελεγκτής",
     "kk": "Аудитор",
     "uz": "Auditor",
-    "ja": "監査人"
+    "ja": "監査人",
+    "id": "Auditor",
+    "hi": "लेखा परीक्षक"
   },
   {
     "code": "internal_auditor",
@@ -933,7 +1009,9 @@
     "el": "Εσωτερικός Ελεγκτής",
     "kk": "Ішкі аудитор",
     "uz": "Ichki auditor",
-    "ja": "内部監査人"
+    "ja": "内部監査人",
+    "id": "Auditor internal",
+    "hi": "आंतरिक लेखा परीक्षक"
   },
   {
     "code": "cashier",
@@ -957,7 +1035,9 @@
     "el": "Ταμίας",
     "kk": "Кассир",
     "uz": "Kassir",
-    "ja": "レジ係"
+    "ja": "レジ係",
+    "id": "Kasir",
+    "hi": "खजांची"
   },
   {
     "code": "bank_teller",
@@ -981,7 +1061,9 @@
     "el": "Τραπεζικός Υπάλληλος",
     "kk": "Банк операционисі",
     "uz": "Bank operatori",
-    "ja": "銀行窓口担当"
+    "ja": "銀行窓口担当",
+    "id": "Teller bank",
+    "hi": "बैंक खजांची"
   },
   {
     "code": "credit_specialist",
@@ -1005,7 +1087,9 @@
     "el": "Ειδικός Πιστώσεων",
     "kk": "Несие маманы",
     "uz": "Kredit mutaxassisi",
-    "ja": "融資担当"
+    "ja": "融資担当",
+    "id": "Spesialis kredit",
+    "hi": "ऋण विशेषज्ञ"
   },
   {
     "code": "treasurer",
@@ -1029,7 +1113,9 @@
     "el": "Θησαυροφύλακας",
     "kk": "Қазынашы",
     "uz": "Xazinachi",
-    "ja": "資金管理担当"
+    "ja": "資金管理担当",
+    "id": "Bendahara",
+    "hi": "कोषाध्यक्ष"
   },
   {
     "code": "tax_specialist",
@@ -1053,7 +1139,9 @@
     "el": "Ειδικός Φορολογίας",
     "kk": "Салық маманы",
     "uz": "Soliq mutaxassisi",
-    "ja": "税務担当"
+    "ja": "税務担当",
+    "id": "Spesialis pajak",
+    "hi": "कर विशेषज्ञ"
   },
   {
     "code": "payroll_specialist",
@@ -1077,7 +1165,9 @@
     "el": "Ειδικός Μισθοδοσίας",
     "kk": "Жалақы есептеу маманы",
     "uz": "Ish haqi mutaxassisi",
-    "ja": "給与計算担当"
+    "ja": "給与計算担当",
+    "id": "Spesialis penggajian",
+    "hi": "वेतन विशेषज्ञ"
   },
   {
     "code": "collections_specialist",
@@ -1101,7 +1191,9 @@
     "el": "Ειδικός Είσπραξης Οφειλών",
     "kk": "Борышты өндіру маманы",
     "uz": "Qarz undirish mutaxassisi",
-    "ja": "債権回収担当"
+    "ja": "債権回収担当",
+    "id": "Spesialis penagihan",
+    "hi": "वसूली विशेषज्ञ"
   },
   {
     "code": "risk_manager",
@@ -1125,7 +1217,9 @@
     "el": "Υπεύθυνος Διαχείρισης Κινδύνου",
     "kk": "Тәуекел менеджері",
     "uz": "Xavf menejeri",
-    "ja": "リスクマネージャー"
+    "ja": "リスクマネージャー",
+    "id": "Manajer risiko",
+    "hi": "जोखिम प्रबंधक"
   },
   {
     "code": "compliance_officer",
@@ -1149,7 +1243,9 @@
     "el": "Υπεύθυνος Κανονιστικής Συμμόρφωσης",
     "kk": "Комплаенс маманы",
     "uz": "Komplayns mutaxassisi",
-    "ja": "コンプライアンス担当"
+    "ja": "コンプライアンス担当",
+    "id": "Petugas kepatuhan",
+    "hi": "अनुपालन अधिकारी"
   },
   {
     "code": "insurance_agent",
@@ -1173,7 +1269,9 @@
     "el": "Ασφαλιστικός Πράκτορας",
     "kk": "Сақтандыру агенті",
     "uz": "Sugʻurta agenti",
-    "ja": "保険代理人"
+    "ja": "保険代理人",
+    "id": "Agen asuransi",
+    "hi": "बीमा एजेंट"
   },
   {
     "code": "salesperson",
@@ -1197,7 +1295,9 @@
     "el": "Πωλητής",
     "kk": "Сатушы",
     "uz": "Sotuvchi",
-    "ja": "販売員"
+    "ja": "販売員",
+    "id": "Tenaga penjual",
+    "hi": "विक्रेता"
   },
   {
     "code": "sales_cashier",
@@ -1221,7 +1321,9 @@
     "el": "Πωλητής-Ταμίας",
     "kk": "Сатушы-кассир",
     "uz": "Sotuvchi-kassir",
-    "ja": "販売レジ係"
+    "ja": "販売レジ係",
+    "id": "Kasir penjualan",
+    "hi": "विक्रेता-खजांची"
   },
   {
     "code": "sales_manager",
@@ -1245,7 +1347,9 @@
     "el": "Διευθυντής Πωλήσεων",
     "kk": "Сату менеджері",
     "uz": "Savdo menejeri",
-    "ja": "営業マネージャー"
+    "ja": "営業マネージャー",
+    "id": "Manajer penjualan",
+    "hi": "बिक्री प्रबंधक"
   },
   {
     "code": "sales_representative",
@@ -1269,7 +1373,9 @@
     "el": "Αντιπρόσωπος Πωλήσεων",
     "kk": "Сауда өкілі",
     "uz": "Savdo vakili",
-    "ja": "営業担当"
+    "ja": "営業担当",
+    "id": "Perwakilan penjualan",
+    "hi": "बिक्री प्रतिनिधि"
   },
   {
     "code": "sales_consultant",
@@ -1293,7 +1399,9 @@
     "el": "Σύμβουλος Πωλήσεων",
     "kk": "Сату кеңесшісі",
     "uz": "Savdo maslahatchisi",
-    "ja": "販売コンサルタント"
+    "ja": "販売コンサルタント",
+    "id": "Konsultan penjualan",
+    "hi": "बिक्री सलाहकार"
   },
   {
     "code": "store_manager",
@@ -1317,7 +1425,9 @@
     "el": "Διευθυντής Καταστήματος",
     "kk": "Дүкен меңгерушісі",
     "uz": "Doʻkon boshligi",
-    "ja": "店長"
+    "ja": "店長",
+    "id": "Manajer toko",
+    "hi": "स्टोर प्रबंधक"
   },
   {
     "code": "merchandiser",
@@ -1341,7 +1451,9 @@
     "el": "Υπεύθυνος Παρουσίασης Προϊόντων",
     "kk": "Мерчендайзер",
     "uz": "Merchandayzer",
-    "ja": "マーチャンダイザー"
+    "ja": "マーチャンダイザー",
+    "id": "Merchandiser",
+    "hi": "मर्चेंडाइज़र"
   },
   {
     "code": "key_account_manager",
@@ -1365,7 +1477,9 @@
     "el": "Υπεύθυνος Βασικών Πελατών",
     "kk": "Негізгі клиенттер менеджері",
     "uz": "Asosiy mijozlar menejeri",
-    "ja": "主要顧客担当マネージャー"
+    "ja": "主要顧客担当マネージャー",
+    "id": "Manajer klien utama",
+    "hi": "प्रमुख ग्राहक प्रबंधक"
   },
   {
     "code": "customer_service_specialist",
@@ -1389,7 +1503,9 @@
     "el": "Ειδικός Εξυπηρέτησης Πελατών",
     "kk": "Клиенттермен жұмыс маманы",
     "uz": "Mijozlarga xizmat koʻrsatish mutaxassisi",
-    "ja": "カスタマーサービス担当"
+    "ja": "カスタマーサービス担当",
+    "id": "Spesialis layanan pelanggan",
+    "hi": "ग्राहक सेवा विशेषज्ञ"
   },
   {
     "code": "call_center_operator",
@@ -1413,7 +1529,9 @@
     "el": "Χειριστής Τηλεφωνικού Κέντρου",
     "kk": "Байланыс орталығының операторы",
     "uz": "Qoʻngʻiroqlar markazi operatori",
-    "ja": "コールセンターオペレーター"
+    "ja": "コールセンターオペレーター",
+    "id": "Operator pusat panggilan",
+    "hi": "कॉल सेंटर ऑपरेटर"
   },
   {
     "code": "procurement_specialist",
@@ -1437,7 +1555,9 @@
     "el": "Ειδικός Προμηθειών",
     "kk": "Сатып алу маманы",
     "uz": "Xarid mutaxassisi",
-    "ja": "調達担当"
+    "ja": "調達担当",
+    "id": "Spesialis pengadaan",
+    "hi": "खरीद विशेषज्ञ"
   },
   {
     "code": "purchasing_manager",
@@ -1461,7 +1581,9 @@
     "el": "Διευθυντής Προμηθειών",
     "kk": "Сатып алу менеджері",
     "uz": "Xarid menejeri",
-    "ja": "購買マネージャー"
+    "ja": "購買マネージャー",
+    "id": "Manajer pembelian",
+    "hi": "क्रय प्रबंधक"
   },
   {
     "code": "supply_specialist",
@@ -1485,7 +1607,9 @@
     "el": "Ειδικός Εφοδιασμού",
     "kk": "Жабдықтау маманы",
     "uz": "Ta'minot mutaxassisi",
-    "ja": "供給担当"
+    "ja": "供給担当",
+    "id": "Spesialis pasokan",
+    "hi": "आपूर्ति विशेषज्ञ"
   },
   {
     "code": "contracts_specialist",
@@ -1509,7 +1633,9 @@
     "el": "Ειδικός Συμβάσεων",
     "kk": "Шарттар бойынша маман",
     "uz": "Shartnomalar mutaxassisi",
-    "ja": "契約担当"
+    "ja": "契約担当",
+    "id": "Spesialis kontrak",
+    "hi": "अनुबंध विशेषज्ञ"
   },
   {
     "code": "real_estate_agent",
@@ -1533,7 +1659,9 @@
     "el": "Κτηματομεσίτης",
     "kk": "Жылжымайтын мүлік агенті",
     "uz": "Koʻchmas mulk agenti",
-    "ja": "不動産仲介業者"
+    "ja": "不動産仲介業者",
+    "id": "Agen properti",
+    "hi": "अचल संपत्ति एजेंट"
   },
   {
     "code": "programmer",
@@ -1557,7 +1685,9 @@
     "el": "Προγραμματιστής",
     "kk": "Бағдарламашы",
     "uz": "Dasturchi",
-    "ja": "プログラマー"
+    "ja": "プログラマー",
+    "id": "Programmer",
+    "hi": "प्रोग्रामर"
   },
   {
     "code": "software_engineer",
@@ -1581,7 +1711,9 @@
     "el": "Μηχανικός Λογισμικού",
     "kk": "Бағдарламалық жасақтама инженері",
     "uz": "Dasturiy ta'minot muhandisi",
-    "ja": "ソフトウェアエンジニア"
+    "ja": "ソフトウェアエンジニア",
+    "id": "Insinyur perangkat lunak",
+    "hi": "सॉफ़्टवेयर इंजीनियर"
   },
   {
     "code": "frontend_developer",
@@ -1605,7 +1737,9 @@
     "el": "Προγραμματιστής Frontend",
     "kk": "Frontend әзірлеушісі",
     "uz": "Frontend dasturchi",
-    "ja": "フロントエンド開発者"
+    "ja": "フロントエンド開発者",
+    "id": "Frontend developer",
+    "hi": "फ्रंटएंड डेवलपर"
   },
   {
     "code": "backend_developer",
@@ -1629,7 +1763,9 @@
     "el": "Προγραμματιστής Backend",
     "kk": "Backend әзірлеушісі",
     "uz": "Backend dasturchi",
-    "ja": "バックエンド開発者"
+    "ja": "バックエンド開発者",
+    "id": "Backend developer",
+    "hi": "बैकएंड डेवलपर"
   },
   {
     "code": "fullstack_developer",
@@ -1653,7 +1789,9 @@
     "el": "Προγραμματιστής Full-Stack",
     "kk": "Full-stack әзірлеушісі",
     "uz": "Full-stack dasturchi",
-    "ja": "フルスタック開発者"
+    "ja": "フルスタック開発者",
+    "id": "Full-stack developer",
+    "hi": "फुल-स्टैक डेवलपर"
   },
   {
     "code": "web_developer",
@@ -1677,7 +1815,9 @@
     "el": "Προγραμματιστής Ιστοσελίδων",
     "kk": "Веб-әзірлеуші",
     "uz": "Veb dasturchi",
-    "ja": "ウェブ開発者"
+    "ja": "ウェブ開発者",
+    "id": "Pengembang web",
+    "hi": "वेब डेवलपर"
   },
   {
     "code": "mobile_developer",
@@ -1701,7 +1841,9 @@
     "el": "Προγραμματιστής Εφαρμογών για Κινητά",
     "kk": "Мобильді қосымша әзірлеушісі",
     "uz": "Mobil ilova dasturchisi",
-    "ja": "モバイルアプリ開発者"
+    "ja": "モバイルアプリ開発者",
+    "id": "Pengembang aplikasi mobile",
+    "hi": "मोबाइल ऐप डेवलपर"
   },
   {
     "code": "qa_engineer",
@@ -1725,7 +1867,9 @@
     "el": "Μηχανικός Ποιοτικού Ελέγχου",
     "kk": "Тестілеу инженері",
     "uz": "Test muhandisi",
-    "ja": "QAエンジニア"
+    "ja": "QAエンジニア",
+    "id": "Insinyur QA",
+    "hi": "क्यूए इंजीनियर"
   },
   {
     "code": "devops_engineer",
@@ -1749,7 +1893,9 @@
     "el": "Μηχανικός DevOps",
     "kk": "DevOps инженері",
     "uz": "DevOps muhandisi",
-    "ja": "DevOpsエンジニア"
+    "ja": "DevOpsエンジニア",
+    "id": "Insinyur DevOps",
+    "hi": "डेवऑप्स इंजीनियर"
   },
   {
     "code": "system_administrator",
@@ -1773,7 +1919,9 @@
     "el": "Διαχειριστής Συστημάτων",
     "kk": "Жүйелік әкімші",
     "uz": "Tizim administratori",
-    "ja": "システム管理者"
+    "ja": "システム管理者",
+    "id": "Administrator sistem",
+    "hi": "सिस्टम प्रशासक"
   },
   {
     "code": "network_engineer",
@@ -1797,7 +1945,9 @@
     "el": "Μηχανικός Δικτύων",
     "kk": "Желі инженері",
     "uz": "Tarmoq muhandisi",
-    "ja": "ネットワークエンジニア"
+    "ja": "ネットワークエンジニア",
+    "id": "Insinyur jaringan",
+    "hi": "नेटवर्क इंजीनियर"
   },
   {
     "code": "database_administrator",
@@ -1821,7 +1971,9 @@
     "el": "Διαχειριστής Βάσεων Δεδομένων",
     "kk": "Дерекқор әкімшісі",
     "uz": "Ma'lumotlar bazasi administratori",
-    "ja": "データベース管理者"
+    "ja": "データベース管理者",
+    "id": "Administrator basis data",
+    "hi": "डेटाबेस प्रशासक"
   },
   {
     "code": "data_analyst",
@@ -1845,7 +1997,9 @@
     "el": "Αναλυτής Δεδομένων",
     "kk": "Деректер талдаушысы",
     "uz": "Ma'lumotlar analitigi",
-    "ja": "データアナリスト"
+    "ja": "データアナリスト",
+    "id": "Analis data",
+    "hi": "डेटा विश्लेषक"
   },
   {
     "code": "data_scientist",
@@ -1869,7 +2023,9 @@
     "el": "Επιστήμονας Δεδομένων",
     "kk": "Деректер ғалымы",
     "uz": "Data olimi",
-    "ja": "データサイエンティスト"
+    "ja": "データサイエンティスト",
+    "id": "Data scientist",
+    "hi": "डेटा वैज्ञानिक"
   },
   {
     "code": "system_analyst",
@@ -1893,7 +2049,9 @@
     "el": "Αναλυτής Συστημάτων",
     "kk": "Жүйелік талдаушы",
     "uz": "Tizim analitigi",
-    "ja": "システムアナリスト"
+    "ja": "システムアナリスト",
+    "id": "Analis sistem",
+    "hi": "सिस्टम विश्लेषक"
   },
   {
     "code": "it_support_specialist",
@@ -1917,7 +2075,9 @@
     "el": "Ειδικός Τεχνικής Υποστήριξης ΙΤ",
     "kk": "IT қолдау маманы",
     "uz": "AT qoʻllab-quvvatlash mutaxassisi",
-    "ja": "ITサポート担当"
+    "ja": "ITサポート担当",
+    "id": "Spesialis dukungan TI",
+    "hi": "आईटी सहायता विशेषज्ञ"
   },
   {
     "code": "cybersecurity_specialist",
@@ -1941,7 +2101,9 @@
     "el": "Ειδικός Κυβερνοασφάλειας",
     "kk": "Киберқауіпсіздік маманы",
     "uz": "Kiberxavfsizlik mutaxassisi",
-    "ja": "情報セキュリティ担当"
+    "ja": "情報セキュリティ担当",
+    "id": "Spesialis keamanan siber",
+    "hi": "साइबर सुरक्षा विशेषज्ञ"
   },
   {
     "code": "it_manager",
@@ -1965,7 +2127,9 @@
     "el": "Διευθυντής ΙΤ",
     "kk": "IT менеджер",
     "uz": "AT menejeri",
-    "ja": "ITマネージャー"
+    "ja": "ITマネージャー",
+    "id": "Manajer TI",
+    "hi": "आईटी प्रबंधक"
   },
   {
     "code": "product_manager",
@@ -1989,7 +2153,9 @@
     "el": "Διευθυντής Προϊόντος",
     "kk": "Өнім менеджері",
     "uz": "Mahsulot menejeri",
-    "ja": "プロダクトマネージャー"
+    "ja": "プロダクトマネージャー",
+    "id": "Manajer produk",
+    "hi": "उत्पाद प्रबंधक"
   },
   {
     "code": "ui_ux_designer",
@@ -2013,7 +2179,9 @@
     "el": "Σχεδιαστής UI/UX",
     "kk": "UI/UX дизайнер",
     "uz": "UI/UX dizayner",
-    "ja": "UI/UXデザイナー"
+    "ja": "UI/UXデザイナー",
+    "id": "Desainer UI/UX",
+    "hi": "यूआई/यूएक्स डिज़ाइनर"
   },
   {
     "code": "seo_specialist",
@@ -2037,7 +2205,9 @@
     "el": "Ειδικός SEO",
     "kk": "SEO маманы",
     "uz": "SEO mutaxassisi",
-    "ja": "SEO担当"
+    "ja": "SEO担当",
+    "id": "Spesialis SEO",
+    "hi": "एसईओ विशेषज्ञ"
   },
   {
     "code": "computer_operator",
@@ -2061,7 +2231,9 @@
     "el": "Χειριστής Υπολογιστή",
     "kk": "Компьютер операторы",
     "uz": "Kompyuter operatori",
-    "ja": "コンピューターオペレーター"
+    "ja": "コンピューターオペレーター",
+    "id": "Operator komputer",
+    "hi": "कंप्यूटर ऑपरेटर"
   },
   {
     "code": "marketing_manager",
@@ -2085,7 +2257,9 @@
     "el": "Διευθυντής Μάρκετινγκ",
     "kk": "Маркетинг менеджері",
     "uz": "Marketing menejeri",
-    "ja": "マーケティングマネージャー"
+    "ja": "マーケティングマネージャー",
+    "id": "Manajer pemasaran",
+    "hi": "मार्केटिंग प्रबंधक"
   },
   {
     "code": "marketing_specialist",
@@ -2109,7 +2283,9 @@
     "el": "Ειδικός Μάρκετινγκ",
     "kk": "Маркетинг маманы",
     "uz": "Marketing mutaxassisi",
-    "ja": "マーケティング担当"
+    "ja": "マーケティング担当",
+    "id": "Spesialis pemasaran",
+    "hi": "मार्केटिंग विशेषज्ञ"
   },
   {
     "code": "digital_marketing_specialist",
@@ -2133,7 +2309,9 @@
     "el": "Ειδικός Ψηφιακού Μάρκετινγκ",
     "kk": "Цифрлық маркетинг маманы",
     "uz": "Raqamli marketing mutaxassisi",
-    "ja": "デジタルマーケティング担当"
+    "ja": "デジタルマーケティング担当",
+    "id": "Spesialis pemasaran digital",
+    "hi": "डिजिटल मार्केटिंग विशेषज्ञ"
   },
   {
     "code": "smm_specialist",
@@ -2157,7 +2335,9 @@
     "el": "Ειδικός Μέσων Κοινωνικής Δικτύωσης",
     "kk": "SMM маманы",
     "uz": "SMM mutaxassisi",
-    "ja": "SNS運用担当"
+    "ja": "SNS運用担当",
+    "id": "Spesialis media sosial",
+    "hi": "सोशल मीडिया विशेषज्ञ"
   },
   {
     "code": "brand_manager",
@@ -2181,7 +2361,9 @@
     "el": "Διευθυντής Επωνυμίας",
     "kk": "Бренд-менеджер",
     "uz": "Brend menejeri",
-    "ja": "ブランドマネージャー"
+    "ja": "ブランドマネージャー",
+    "id": "Manajer merek",
+    "hi": "ब्रांड प्रबंधक"
   },
   {
     "code": "pr_specialist",
@@ -2205,7 +2387,9 @@
     "el": "Ειδικός Δημοσίων Σχέσεων",
     "kk": "PR маманы",
     "uz": "Jamoatchilik bilan aloqalar mutaxassisi",
-    "ja": "広報担当"
+    "ja": "広報担当",
+    "id": "Spesialis hubungan masyarakat",
+    "hi": "जनसंपर्क विशेषज्ञ"
   },
   {
     "code": "content_manager",
@@ -2229,7 +2413,9 @@
     "el": "Υπεύθυνος Περιεχομένου",
     "kk": "Контент-менеджер",
     "uz": "Kontent menejeri",
-    "ja": "コンテンツマネージャー"
+    "ja": "コンテンツマネージャー",
+    "id": "Manajer konten",
+    "hi": "कंटेंट प्रबंधक"
   },
   {
     "code": "copywriter",
@@ -2253,7 +2439,9 @@
     "el": "Κειμενογράφος",
     "kk": "Копирайтер",
     "uz": "Kopirayter",
-    "ja": "コピーライター"
+    "ja": "コピーライター",
+    "id": "Copywriter",
+    "hi": "कॉपीराइटर"
   },
   {
     "code": "graphic_designer",
@@ -2277,7 +2465,9 @@
     "el": "Γραφίστας",
     "kk": "Графикалық дизайнер",
     "uz": "Grafik dizayner",
-    "ja": "グラフィックデザイナー"
+    "ja": "グラフィックデザイナー",
+    "id": "Desainer grafis",
+    "hi": "ग्राफ़िक डिज़ाइनर"
   },
   {
     "code": "interior_designer",
@@ -2301,7 +2491,9 @@
     "el": "Σχεδιαστής Εσωτερικών Χώρων",
     "kk": "Интерьер дизайнері",
     "uz": "Interyer dizayneri",
-    "ja": "インテリアデザイナー"
+    "ja": "インテリアデザイナー",
+    "id": "Desainer interior",
+    "hi": "इंटीरियर डिज़ाइनर"
   },
   {
     "code": "photographer",
@@ -2325,7 +2517,9 @@
     "el": "Φωτογράφος",
     "kk": "Фотограф",
     "uz": "Fotograf",
-    "ja": "カメラマン"
+    "ja": "カメラマン",
+    "id": "Fotografer",
+    "hi": "फ़ोटोग्राफर"
   },
   {
     "code": "videographer",
@@ -2349,7 +2543,9 @@
     "el": "Βιντεολήπτης",
     "kk": "Видеооператор",
     "uz": "Videograf",
-    "ja": "ビデオグラファー"
+    "ja": "ビデオグラファー",
+    "id": "Videografer",
+    "hi": "वीडियोग्राफर"
   },
   {
     "code": "video_editor",
@@ -2373,7 +2569,9 @@
     "el": "Μοντέρ Βίντεο",
     "kk": "Бейне монтажшысы",
     "uz": "Video montajchi",
-    "ja": "動画編集者"
+    "ja": "動画編集者",
+    "id": "Editor video",
+    "hi": "वीडियो संपादक"
   },
   {
     "code": "journalist",
@@ -2397,7 +2595,9 @@
     "el": "Δημοσιογράφος",
     "kk": "Журналист",
     "uz": "Jurnalist",
-    "ja": "ジャーナリスト"
+    "ja": "ジャーナリスト",
+    "id": "Jurnalis",
+    "hi": "पत्रकार"
   },
   {
     "code": "editor",
@@ -2421,7 +2621,9 @@
     "el": "Συντάκτης",
     "kk": "Редактор",
     "uz": "Muharrir",
-    "ja": "編集者"
+    "ja": "編集者",
+    "id": "Editor",
+    "hi": "संपादक"
   },
   {
     "code": "presenter",
@@ -2445,7 +2647,9 @@
     "el": "Παρουσιαστής",
     "kk": "Бағдарлама жүргізушісі",
     "uz": "Boshlovchi",
-    "ja": "司会者"
+    "ja": "司会者",
+    "id": "Pembawa acara",
+    "hi": "प्रस्तुतकर्ता"
   },
   {
     "code": "stage_director",
@@ -2469,7 +2673,9 @@
     "el": "Σκηνοθέτης",
     "kk": "Режиссёр",
     "uz": "Rejissor",
-    "ja": "演出家"
+    "ja": "演出家",
+    "id": "Sutradara",
+    "hi": "मंच निर्देशक"
   },
   {
     "code": "translator",
@@ -2493,7 +2699,9 @@
     "el": "Μεταφραστής",
     "kk": "Аудармашы",
     "uz": "Tarjimon",
-    "ja": "翻訳者"
+    "ja": "翻訳者",
+    "id": "Penerjemah",
+    "hi": "अनुवादक"
   },
   {
     "code": "hr_specialist",
@@ -2517,7 +2725,9 @@
     "el": "Ειδικός Ανθρώπινου Δυναμικού",
     "kk": "HR маманы",
     "uz": "HR mutaxassisi",
-    "ja": "人事担当"
+    "ja": "人事担当",
+    "id": "Spesialis SDM",
+    "hi": "मानव संसाधन विशेषज्ञ"
   },
   {
     "code": "hr_manager",
@@ -2541,7 +2751,9 @@
     "el": "Διευθυντής Ανθρώπινου Δυναμικού",
     "kk": "HR менеджері",
     "uz": "HR menejeri",
-    "ja": "人事マネージャー"
+    "ja": "人事マネージャー",
+    "id": "Manajer SDM",
+    "hi": "मानव संसाधन प्रबंधक"
   },
   {
     "code": "recruiter",
@@ -2565,7 +2777,9 @@
     "el": "Στέλεχος Προσλήψεων",
     "kk": "Рекрутер",
     "uz": "Rekruter",
-    "ja": "採用担当"
+    "ja": "採用担当",
+    "id": "Perekrut",
+    "hi": "भर्तीकर्ता"
   },
   {
     "code": "trainer",
@@ -2589,7 +2803,9 @@
     "el": "Εκπαιδευτής",
     "kk": "Тренер",
     "uz": "Treyner",
-    "ja": "研修講師"
+    "ja": "研修講師",
+    "id": "Pelatih",
+    "hi": "प्रशिक्षक"
   },
   {
     "code": "lawyer",
@@ -2613,7 +2829,9 @@
     "el": "Δικηγόρος",
     "kk": "Заңгер",
     "uz": "Huquqshunos",
-    "ja": "法律家"
+    "ja": "法律家",
+    "id": "Ahli hukum",
+    "hi": "वकील"
   },
   {
     "code": "advocate",
@@ -2637,7 +2855,9 @@
     "el": "Συνήγορος",
     "kk": "Адвокат",
     "uz": "Advokat",
-    "ja": "弁護士"
+    "ja": "弁護士",
+    "id": "Pengacara",
+    "hi": "अधिवक्ता"
   },
   {
     "code": "legal_advisor",
@@ -2661,7 +2881,9 @@
     "el": "Νομικός Σύμβουλος",
     "kk": "Құқық кеңесшісі",
     "uz": "Huquqiy maslahatchi",
-    "ja": "法務顧問"
+    "ja": "法務顧問",
+    "id": "Penasihat hukum",
+    "hi": "कानूनी सलाहकार"
   },
   {
     "code": "notary",
@@ -2685,7 +2907,9 @@
     "el": "Συμβολαιογράφος",
     "kk": "Нотариус",
     "uz": "Notarius",
-    "ja": "公証人"
+    "ja": "公証人",
+    "id": "Notaris",
+    "hi": "नोटरी"
   },
   {
     "code": "inspector",
@@ -2709,7 +2933,9 @@
     "el": "Επιθεωρητής",
     "kk": "Инспектор",
     "uz": "Inspektor",
-    "ja": "検査官"
+    "ja": "検査官",
+    "id": "Inspektur",
+    "hi": "निरीक्षक"
   },
   {
     "code": "civil_servant",
@@ -2733,7 +2959,9 @@
     "el": "Δημόσιος Υπάλληλος",
     "kk": "Мемлекеттік қызметші",
     "uz": "Davlat xizmatchisi",
-    "ja": "公務員"
+    "ja": "公務員",
+    "id": "Pegawai negeri",
+    "hi": "सरकारी कर्मचारी"
   },
   {
     "code": "customs_officer",
@@ -2757,7 +2985,9 @@
     "el": "Τελωνειακός Υπάλληλος",
     "kk": "Кеден қызметкері",
     "uz": "Bojxona xodimi",
-    "ja": "税関職員"
+    "ja": "税関職員",
+    "id": "Petugas bea cukai",
+    "hi": "सीमा शुल्क अधिकारी"
   },
   {
     "code": "customs_broker",
@@ -2781,7 +3011,9 @@
     "el": "Εκτελωνιστής",
     "kk": "Кеден брокері",
     "uz": "Bojxona brokeri",
-    "ja": "通関業者"
+    "ja": "通関業者",
+    "id": "Makelar bea cukai",
+    "hi": "सीमा शुल्क अभिकर्ता"
   },
   {
     "code": "police_officer",
@@ -2805,7 +3037,9 @@
     "el": "Αστυνομικός",
     "kk": "Полиция қызметкері",
     "uz": "Politsiya xodimi",
-    "ja": "警察官"
+    "ja": "警察官",
+    "id": "Petugas polisi",
+    "hi": "पुलिस अधिकारी"
   },
   {
     "code": "serviceman",
@@ -2829,7 +3063,9 @@
     "el": "Στρατιωτικός",
     "kk": "Әскери қызметші",
     "uz": "Harbiy xizmatchi",
-    "ja": "自衛官"
+    "ja": "自衛官",
+    "id": "Anggota militer",
+    "hi": "सैन्यकर्मी"
   },
   {
     "code": "firefighter",
@@ -2853,7 +3089,9 @@
     "el": "Πυροσβέστης",
     "kk": "Өрт сөндіруші",
     "uz": "Oʻt oʻchiruvchi",
-    "ja": "消防士"
+    "ja": "消防士",
+    "id": "Petugas pemadam kebakaran",
+    "hi": "अग्निशामक"
   },
   {
     "code": "security_guard",
@@ -2877,7 +3115,9 @@
     "el": "Φύλακας Ασφαλείας",
     "kk": "Күзетші",
     "uz": "Soqchi",
-    "ja": "警備員"
+    "ja": "警備員",
+    "id": "Petugas keamanan",
+    "hi": "सुरक्षा गार्ड"
   },
   {
     "code": "watchman",
@@ -2901,7 +3141,9 @@
     "el": "Φύλακας",
     "kk": "Сақшы",
     "uz": "Qorovul",
-    "ja": "守衛"
+    "ja": "守衛",
+    "id": "Penjaga",
+    "hi": "चौकीदार"
   },
   {
     "code": "engineer",
@@ -2925,7 +3167,9 @@
     "el": "Μηχανικός",
     "kk": "Инженер",
     "uz": "Muhandis",
-    "ja": "エンジニア"
+    "ja": "エンジニア",
+    "id": "Insinyur",
+    "hi": "इंजीनियर"
   },
   {
     "code": "civil_engineer",
@@ -2949,7 +3193,9 @@
     "el": "Πολιτικός Μηχανικός",
     "kk": "Құрылысшы инженер",
     "uz": "Qurilish muhandisi",
-    "ja": "土木技術者"
+    "ja": "土木技術者",
+    "id": "Insinyur sipil",
+    "hi": "सिविल इंजीनियर"
   },
   {
     "code": "project_engineer",
@@ -2973,7 +3219,9 @@
     "el": "Μηχανικός Έργου",
     "kk": "Жоба инженері",
     "uz": "Loyiha muhandisi",
-    "ja": "プロジェクトエンジニア"
+    "ja": "プロジェクトエンジニア",
+    "id": "Insinyur proyek",
+    "hi": "परियोजना इंजीनियर"
   },
   {
     "code": "planning_engineer",
@@ -2997,7 +3245,9 @@
     "el": "Μηχανικός Προγραμματισμού",
     "kk": "Жоспарлау инженері",
     "uz": "Rejalashtirish muhandisi",
-    "ja": "計画エンジニア"
+    "ja": "計画エンジニア",
+    "id": "Insinyur perencanaan",
+    "hi": "योजना इंजीनियर"
   },
   {
     "code": "maintenance_engineer",
@@ -3021,7 +3271,9 @@
     "el": "Μηχανικός Συντήρησης",
     "kk": "Пайдалану-жөндеу инженері",
     "uz": "Ta'mirlash-ishlatish muhandisi",
-    "ja": "保守エンジニア"
+    "ja": "保守エンジニア",
+    "id": "Insinyur pemeliharaan",
+    "hi": "रखरखाव इंजीनियर"
   },
   {
     "code": "mechanical_engineer",
@@ -3045,7 +3297,9 @@
     "el": "Μηχανολόγος Μηχανικός",
     "kk": "Механик-инженер",
     "uz": "Mexanik-muhandis",
-    "ja": "機械技術者"
+    "ja": "機械技術者",
+    "id": "Insinyur mesin",
+    "hi": "यांत्रिक इंजीनियर"
   },
   {
     "code": "electrical_engineer",
@@ -3069,7 +3323,9 @@
     "el": "Ηλεκτρολόγος Μηχανικός",
     "kk": "Электр инженері",
     "uz": "Elektr muhandisi",
-    "ja": "電気技術者"
+    "ja": "電気技術者",
+    "id": "Insinyur listrik",
+    "hi": "विद्युत इंजीनियर"
   },
   {
     "code": "instrumentation_engineer",
@@ -3093,7 +3349,9 @@
     "el": "Μηχανικός Οργάνων Μέτρησης και Ελέγχου",
     "kk": "Өлшеу-бақылау аспаптары инженері",
     "uz": "Oʻlchov-nazorat muhandisi",
-    "ja": "計装技術者"
+    "ja": "計装技術者",
+    "id": "Insinyur instrumentasi",
+    "hi": "इंस्ट्रूमेंटेशन इंजीनियर"
   },
   {
     "code": "architect",
@@ -3117,7 +3375,9 @@
     "el": "Αρχιτέκτονας",
     "kk": "Сәулетші",
     "uz": "Me'mor",
-    "ja": "建築士"
+    "ja": "建築士",
+    "id": "Arsitek",
+    "hi": "वास्तुकार"
   },
   {
     "code": "quantity_surveyor",
@@ -3141,7 +3401,9 @@
     "el": "Επιμετρητής",
     "kk": "Смета маманы",
     "uz": "Smeta mutaxassisi",
-    "ja": "積算技術者"
+    "ja": "積算技術者",
+    "id": "Ahli estimasi biaya konstruksi",
+    "hi": "लागत सर्वेक्षक"
   },
   {
     "code": "site_manager",
@@ -3165,7 +3427,9 @@
     "el": "Επιβλέπων Εργοταξίου",
     "kk": "Құрылыс учаскесінің бастығы",
     "uz": "Qurilish maydonchasi boshligi",
-    "ja": "現場責任者"
+    "ja": "現場責任者",
+    "id": "Manajer lokasi proyek",
+    "hi": "साइट प्रबंधक"
   },
   {
     "code": "foreman",
@@ -3189,7 +3453,9 @@
     "el": "Προϊστάμενος Συνεργείου",
     "kk": "Шебер",
     "uz": "Usta",
-    "ja": "職長"
+    "ja": "職長",
+    "id": "Mandor",
+    "hi": "फोरमैन"
   },
   {
     "code": "land_surveyor",
@@ -3213,7 +3479,9 @@
     "el": "Τοπογράφος",
     "kk": "Геодезист",
     "uz": "Geodezist",
-    "ja": "測量士"
+    "ja": "測量士",
+    "id": "Juru ukur tanah",
+    "hi": "भूमि सर्वेक्षक"
   },
   {
     "code": "hse_specialist",
@@ -3237,7 +3505,9 @@
     "el": "Ειδικός Υγιεινής και Ασφάλειας Εργασίας",
     "kk": "Еңбек қауіпсіздігі маманы",
     "uz": "Mehnat xavfsizligi mutaxassisi",
-    "ja": "労働安全衛生担当"
+    "ja": "労働安全衛生担当",
+    "id": "Spesialis K3",
+    "hi": "व्यावसायिक सुरक्षा विशेषज्ञ"
   },
   {
     "code": "quality_control_specialist",
@@ -3261,7 +3531,9 @@
     "el": "Ειδικός Ποιοτικού Ελέγχου",
     "kk": "Сапа бақылау маманы",
     "uz": "Sifat nazorati mutaxassisi",
-    "ja": "品質管理担当"
+    "ja": "品質管理担当",
+    "id": "Spesialis kendali mutu",
+    "hi": "गुणवत्ता नियंत्रण विशेषज्ञ"
   },
   {
     "code": "technician",
@@ -3285,7 +3557,9 @@
     "el": "Τεχνικός",
     "kk": "Техник",
     "uz": "Texnik",
-    "ja": "技術員"
+    "ja": "技術員",
+    "id": "Teknisi",
+    "hi": "तकनीशियन"
   },
   {
     "code": "technologist",
@@ -3309,7 +3583,9 @@
     "el": "Τεχνολόγος",
     "kk": "Технолог",
     "uz": "Texnolog",
-    "ja": "生産技術者"
+    "ja": "生産技術者",
+    "id": "Ahli teknologi",
+    "hi": "प्रौद्योगिकीविद्"
   },
   {
     "code": "mechanic",
@@ -3333,7 +3609,9 @@
     "el": "Μηχανοτεχνίτης",
     "kk": "Механик",
     "uz": "Mexanik",
-    "ja": "整備士"
+    "ja": "整備士",
+    "id": "Montir",
+    "hi": "मैकेनिक"
   },
   {
     "code": "electrician",
@@ -3357,7 +3635,9 @@
     "el": "Ηλεκτρολόγος",
     "kk": "Электрші",
     "uz": "Elektrik",
-    "ja": "電気工"
+    "ja": "電気工",
+    "id": "Tukang listrik",
+    "hi": "इलेक्ट्रीशियन"
   },
   {
     "code": "welder",
@@ -3381,7 +3661,9 @@
     "el": "Συγκολλητής",
     "kk": "Дәнекерлеуші",
     "uz": "Payvandchi",
-    "ja": "溶接工"
+    "ja": "溶接工",
+    "id": "Tukang las",
+    "hi": "वेल्डर"
   },
   {
     "code": "plumber",
@@ -3405,7 +3687,9 @@
     "el": "Υδραυλικός",
     "kk": "Сантехник",
     "uz": "Santexnik",
-    "ja": "配管工"
+    "ja": "配管工",
+    "id": "Tukang ledeng",
+    "hi": "प्लंबर"
   },
   {
     "code": "carpenter",
@@ -3429,7 +3713,9 @@
     "el": "Ξυλουργός",
     "kk": "Ағаш ұстасы",
     "uz": "Duradgor",
-    "ja": "大工"
+    "ja": "大工",
+    "id": "Tukang kayu",
+    "hi": "बढ़ई"
   },
   {
     "code": "mason",
@@ -3453,7 +3739,9 @@
     "el": "Κτίστης",
     "kk": "Тас қалаушы",
     "uz": "Gʻishtchi",
-    "ja": "石工"
+    "ja": "石工",
+    "id": "Tukang batu",
+    "hi": "राजमिस्त्री"
   },
   {
     "code": "plasterer",
@@ -3477,7 +3765,9 @@
     "el": "Σοβατζής",
     "kk": "Сылақшы",
     "uz": "Suvoqchi",
-    "ja": "左官"
+    "ja": "左官",
+    "id": "Tukang plester",
+    "hi": "प्लास्टर मिस्त्री"
   },
   {
     "code": "painter_decorator",
@@ -3501,7 +3791,9 @@
     "el": "Ελαιοχρωματιστής",
     "kk": "Сырлаушы",
     "uz": "Boʻyoqchi",
-    "ja": "塗装・内装工"
+    "ja": "塗装・内装工",
+    "id": "Tukang cat",
+    "hi": "पेंटर-सज्जाकार"
   },
   {
     "code": "concrete_worker",
@@ -3525,7 +3817,9 @@
     "el": "Εργάτης Σκυροδέματος",
     "kk": "Бетоншы",
     "uz": "Betonchi",
-    "ja": "コンクリート工"
+    "ja": "コンクリート工",
+    "id": "Pekerja beton",
+    "hi": "कंक्रीट मिस्त्री"
   },
   {
     "code": "locksmith",
@@ -3549,7 +3843,9 @@
     "el": "Κλειδαράς",
     "kk": "Слесарь",
     "uz": "Chilangar",
-    "ja": "錠前工"
+    "ja": "錠前工",
+    "id": "Tukang kunci",
+    "hi": "ताला मिस्त्री"
   },
   {
     "code": "turner",
@@ -3573,7 +3869,9 @@
     "el": "Τορνευτής",
     "kk": "Токарь",
     "uz": "Tokar",
-    "ja": "旋盤工"
+    "ja": "旋盤工",
+    "id": "Operator mesin bubut",
+    "hi": "खराद कारीगर"
   },
   {
     "code": "crane_operator",
@@ -3597,7 +3895,9 @@
     "el": "Χειριστής Γερανού",
     "kk": "Кран операторы",
     "uz": "Kran operatori",
-    "ja": "クレーン運転士"
+    "ja": "クレーン運転士",
+    "id": "Operator crane",
+    "hi": "क्रेन ऑपरेटर"
   },
   {
     "code": "excavator_operator",
@@ -3621,7 +3921,9 @@
     "el": "Χειριστής Εκσκαφέα",
     "kk": "Экскаватор операторы",
     "uz": "Ekskavator operatori",
-    "ja": "掘削機オペレーター"
+    "ja": "掘削機オペレーター",
+    "id": "Operator ekskavator",
+    "hi": "एक्सकेवेटर ऑपरेटर"
   },
   {
     "code": "machine_operator",
@@ -3645,7 +3947,9 @@
     "el": "Χειριστής Μηχανής",
     "kk": "Станок операторы",
     "uz": "Dastgoh operatori",
-    "ja": "機械オペレーター"
+    "ja": "機械オペレーター",
+    "id": "Operator mesin",
+    "hi": "मशीन ऑपरेटर"
   },
   {
     "code": "production_operator",
@@ -3669,7 +3973,9 @@
     "el": "Χειριστής Παραγωγής",
     "kk": "Өндіріс операторы",
     "uz": "Ishlab chiqarish operatori",
-    "ja": "製造オペレーター"
+    "ja": "製造オペレーター",
+    "id": "Operator produksi",
+    "hi": "उत्पादन ऑपरेटर"
   },
   {
     "code": "operator",
@@ -3693,7 +3999,9 @@
     "el": "Χειριστής",
     "kk": "Оператор",
     "uz": "Operator",
-    "ja": "オペレーター"
+    "ja": "オペレーター",
+    "id": "Operator",
+    "hi": "ऑपरेटर"
   },
   {
     "code": "laboratory_assistant",
@@ -3717,7 +4025,9 @@
     "el": "Εργαστηριακός Βοηθός",
     "kk": "Лаборант",
     "uz": "Laborant",
-    "ja": "実験助手"
+    "ja": "実験助手",
+    "id": "Asisten laboratorium",
+    "hi": "प्रयोगशाला सहायक"
   },
   {
     "code": "worker",
@@ -3741,7 +4051,9 @@
     "el": "Εργάτης",
     "kk": "Жұмысшы",
     "uz": "Ishchi",
-    "ja": "作業員"
+    "ja": "作業員",
+    "id": "Pekerja",
+    "hi": "श्रमिक"
   },
   {
     "code": "petroleum_engineer",
@@ -3765,7 +4077,9 @@
     "el": "Μηχανικός Πετρελαίου",
     "kk": "Мұнай-газ ісі инженері",
     "uz": "Neft-gaz muhandisi",
-    "ja": "石油技術者"
+    "ja": "石油技術者",
+    "id": "Insinyur perminyakan",
+    "hi": "पेट्रोलियम इंजीनियर"
   },
   {
     "code": "drilling_engineer",
@@ -3789,7 +4103,9 @@
     "el": "Μηχανικός Γεωτρήσεων",
     "kk": "Бұрғылау инженері",
     "uz": "Burgʻulash muhandisi",
-    "ja": "掘削技術者"
+    "ja": "掘削技術者",
+    "id": "Insinyur pengeboran",
+    "hi": "ड्रिलिंग इंजीनियर"
   },
   {
     "code": "process_engineer",
@@ -3813,7 +4129,9 @@
     "el": "Μηχανικός Διαδικασιών",
     "kk": "Процесс инженері",
     "uz": "Texnolog-muhandis",
-    "ja": "プロセスエンジニア"
+    "ja": "プロセスエンジニア",
+    "id": "Insinyur proses",
+    "hi": "प्रक्रिया इंजीनियर"
   },
   {
     "code": "energy_engineer",
@@ -3837,7 +4155,9 @@
     "el": "Μηχανικός Ενέργειας",
     "kk": "Энергетика инженері",
     "uz": "Energetika muhandisi",
-    "ja": "エネルギー技術者"
+    "ja": "エネルギー技術者",
+    "id": "Insinyur energi",
+    "hi": "ऊर्जा इंजीनियर"
   },
   {
     "code": "geologist",
@@ -3861,7 +4181,9 @@
     "el": "Γεωλόγος",
     "kk": "Геолог",
     "uz": "Geolog",
-    "ja": "地質学者"
+    "ja": "地質学者",
+    "id": "Ahli geologi",
+    "hi": "भूविज्ञानी"
   },
   {
     "code": "geophysicist",
@@ -3885,7 +4207,9 @@
     "el": "Γεωφυσικός",
     "kk": "Геофизик",
     "uz": "Geofizik",
-    "ja": "地球物理学者"
+    "ja": "地球物理学者",
+    "id": "Ahli geofisika",
+    "hi": "भूभौतिकीविद्"
   },
   {
     "code": "driver",
@@ -3909,7 +4233,9 @@
     "el": "Οδηγός",
     "kk": "Жүргізуші",
     "uz": "Haydovchi",
-    "ja": "運転手"
+    "ja": "運転手",
+    "id": "Sopir",
+    "hi": "चालक"
   },
   {
     "code": "truck_driver",
@@ -3933,7 +4259,9 @@
     "el": "Οδηγός Φορτηγού",
     "kk": "Жүк көлігінің жүргізушісі",
     "uz": "Yuk mashinasi haydovchisi",
-    "ja": "トラック運転手"
+    "ja": "トラック運転手",
+    "id": "Sopir truk",
+    "hi": "ट्रक चालक"
   },
   {
     "code": "courier",
@@ -3957,7 +4285,9 @@
     "el": "Διανομέας",
     "kk": "Курьер",
     "uz": "Kuryer",
-    "ja": "配達員"
+    "ja": "配達員",
+    "id": "Kurir",
+    "hi": "कूरियर"
   },
   {
     "code": "logistics_manager",
@@ -3981,7 +4311,9 @@
     "el": "Διευθυντής Εφοδιαστικής",
     "kk": "Логистика менеджері",
     "uz": "Logistika menejeri",
-    "ja": "物流マネージャー"
+    "ja": "物流マネージャー",
+    "id": "Manajer logistik",
+    "hi": "रसद प्रबंधक"
   },
   {
     "code": "logistics_specialist",
@@ -4005,7 +4337,9 @@
     "el": "Ειδικός Εφοδιαστικής",
     "kk": "Логистика маманы",
     "uz": "Logistika mutaxassisi",
-    "ja": "物流担当"
+    "ja": "物流担当",
+    "id": "Spesialis logistik",
+    "hi": "रसद विशेषज्ञ"
   },
   {
     "code": "warehouse_manager",
@@ -4029,7 +4363,9 @@
     "el": "Διευθυντής Αποθήκης",
     "kk": "Қойма меңгерушісі",
     "uz": "Ombor boshligi",
-    "ja": "倉庫管理者"
+    "ja": "倉庫管理者",
+    "id": "Manajer gudang",
+    "hi": "गोदाम प्रबंधक"
   },
   {
     "code": "storekeeper",
@@ -4053,7 +4389,9 @@
     "el": "Αποθηκάριος",
     "kk": "Қоймашы",
     "uz": "Omborchi",
-    "ja": "倉庫係"
+    "ja": "倉庫係",
+    "id": "Penjaga gudang",
+    "hi": "भंडारपाल"
   },
   {
     "code": "freight_forwarder",
@@ -4077,7 +4415,9 @@
     "el": "Διαμεταφορέας",
     "kk": "Экспедитор",
     "uz": "Ekspeditor",
-    "ja": "貨物利用運送業者"
+    "ja": "貨物利用運送業者",
+    "id": "Ekspeditur",
+    "hi": "माल अग्रेषक"
   },
   {
     "code": "dispatcher",
@@ -4101,7 +4441,9 @@
     "el": "Διαχειριστής Δρομολογίων",
     "kk": "Диспетчер",
     "uz": "Dispetcher",
-    "ja": "配車担当"
+    "ja": "配車担当",
+    "id": "Petugas dispatch",
+    "hi": "डिस्पैचर"
   },
   {
     "code": "train_driver",
@@ -4125,7 +4467,9 @@
     "el": "Μηχανοδηγός",
     "kk": "Машинист",
     "uz": "Mashinist",
-    "ja": "電車運転士"
+    "ja": "電車運転士",
+    "id": "Masinis",
+    "hi": "रेल चालक"
   },
   {
     "code": "pilot",
@@ -4149,7 +4493,9 @@
     "el": "Πιλότος",
     "kk": "Ұшқыш",
     "uz": "Uchuvchi",
-    "ja": "パイロット"
+    "ja": "パイロット",
+    "id": "Pilot",
+    "hi": "पायलट"
   },
   {
     "code": "flight_attendant",
@@ -4173,7 +4519,9 @@
     "el": "Αεροσυνοδός",
     "kk": "Стюардесса",
     "uz": "Styuardessa",
-    "ja": "客室乗務員"
+    "ja": "客室乗務員",
+    "id": "Pramugari",
+    "hi": "फ्लाइट अटेंडेंट"
   },
   {
     "code": "ship_captain",
@@ -4197,7 +4545,9 @@
     "el": "Πλοίαρχος",
     "kk": "Кеме капитаны",
     "uz": "Kema kapitani",
-    "ja": "船長"
+    "ja": "船長",
+    "id": "Kapten kapal",
+    "hi": "जहाज़ कप्तान"
   },
   {
     "code": "sailor",
@@ -4221,7 +4571,9 @@
     "el": "Ναύτης",
     "kk": "Теңізші",
     "uz": "Dengizchi",
-    "ja": "船員"
+    "ja": "船員",
+    "id": "Pelaut",
+    "hi": "नाविक"
   },
   {
     "code": "loader",
@@ -4245,7 +4597,9 @@
     "el": "Φορτοεκφορτωτής",
     "kk": "Тиеуші",
     "uz": "Yuk tashuvchi",
-    "ja": "荷役作業員"
+    "ja": "荷役作業員",
+    "id": "Buruh bongkar muat",
+    "hi": "लोडर"
   },
   {
     "code": "postman",
@@ -4269,7 +4623,9 @@
     "el": "Ταχυδρόμος",
     "kk": "Хат тасушы",
     "uz": "Pochtachi",
-    "ja": "郵便配達員"
+    "ja": "郵便配達員",
+    "id": "Tukang pos",
+    "hi": "डाकिया"
   },
   {
     "code": "doctor",
@@ -4293,7 +4649,9 @@
     "el": "Ιατρός",
     "kk": "Дәрігер",
     "uz": "Shifokor",
-    "ja": "医師"
+    "ja": "医師",
+    "id": "Dokter",
+    "hi": "चिकित्सक"
   },
   {
     "code": "surgeon",
@@ -4317,7 +4675,9 @@
     "el": "Χειρουργός",
     "kk": "Хирург",
     "uz": "Jarroh",
-    "ja": "外科医"
+    "ja": "外科医",
+    "id": "Dokter bedah",
+    "hi": "शल्य चिकित्सक"
   },
   {
     "code": "pediatrician",
@@ -4341,7 +4701,9 @@
     "el": "Παιδίατρος",
     "kk": "Педиатр",
     "uz": "Bolalar shifokori",
-    "ja": "小児科医"
+    "ja": "小児科医",
+    "id": "Dokter anak",
+    "hi": "बाल रोग विशेषज्ञ"
   },
   {
     "code": "internist",
@@ -4365,7 +4727,9 @@
     "el": "Παθολόγος",
     "kk": "Терапевт",
     "uz": "Terapevt",
-    "ja": "内科医"
+    "ja": "内科医",
+    "id": "Dokter penyakit dalam",
+    "hi": "सामान्य चिकित्सक"
   },
   {
     "code": "dentist",
@@ -4389,7 +4753,9 @@
     "el": "Οδοντίατρος",
     "kk": "Стоматолог",
     "uz": "Stomatolog",
-    "ja": "歯科医師"
+    "ja": "歯科医師",
+    "id": "Dokter gigi",
+    "hi": "दंत चिकित्सक"
   },
   {
     "code": "nurse",
@@ -4413,7 +4779,9 @@
     "el": "Νοσηλευτής",
     "kk": "Мейіргер",
     "uz": "Hamshira",
-    "ja": "看護師"
+    "ja": "看護師",
+    "id": "Perawat",
+    "hi": "नर्स"
   },
   {
     "code": "paramedic",
@@ -4437,7 +4805,9 @@
     "el": "Διασώστης",
     "kk": "Фельдшер",
     "uz": "Feldsher",
-    "ja": "救急救命士"
+    "ja": "救急救命士",
+    "id": "Paramedis",
+    "hi": "पैरामेडिक"
   },
   {
     "code": "midwife",
@@ -4461,7 +4831,9 @@
     "el": "Μαία",
     "kk": "Акушер",
     "uz": "Doya",
-    "ja": "助産師"
+    "ja": "助産師",
+    "id": "Bidan",
+    "hi": "दाई"
   },
   {
     "code": "orderly",
@@ -4485,7 +4857,9 @@
     "el": "Βοηθός Νοσηλευτή",
     "kk": "Санитар",
     "uz": "Sanitar",
-    "ja": "看護助手"
+    "ja": "看護助手",
+    "id": "Pramurawat",
+    "hi": "अस्पताल परिचर"
   },
   {
     "code": "pharmacist",
@@ -4509,7 +4883,9 @@
     "el": "Φαρμακοποιός",
     "kk": "Фармацевт",
     "uz": "Farmatsevt",
-    "ja": "薬剤師"
+    "ja": "薬剤師",
+    "id": "Apoteker",
+    "hi": "फार्मासिस्ट"
   },
   {
     "code": "psychologist",
@@ -4533,7 +4909,9 @@
     "el": "Ψυχολόγος",
     "kk": "Психолог",
     "uz": "Psixolog",
-    "ja": "心理士"
+    "ja": "心理士",
+    "id": "Psikolog",
+    "hi": "मनोवैज्ञानिक"
   },
   {
     "code": "speech_therapist",
@@ -4557,7 +4935,9 @@
     "el": "Λογοθεραπευτής",
     "kk": "Логопед",
     "uz": "Logoped",
-    "ja": "言語聴覚士"
+    "ja": "言語聴覚士",
+    "id": "Terapis wicara",
+    "hi": "वाक् चिकित्सक"
   },
   {
     "code": "massage_therapist",
@@ -4581,7 +4961,9 @@
     "el": "Μασέρ",
     "kk": "Массажист",
     "uz": "Massajchi",
-    "ja": "マッサージ師"
+    "ja": "マッサージ師",
+    "id": "Terapis pijat",
+    "hi": "मालिश चिकित्सक"
   },
   {
     "code": "veterinarian",
@@ -4605,7 +4987,9 @@
     "el": "Κτηνίατρος",
     "kk": "Ветеринар",
     "uz": "Baytar",
-    "ja": "獣医師"
+    "ja": "獣医師",
+    "id": "Dokter hewan",
+    "hi": "पशु चिकित्सक"
   },
   {
     "code": "medical_representative",
@@ -4629,7 +5013,9 @@
     "el": "Ιατρικός Επισκέπτης",
     "kk": "Медициналық өкіл",
     "uz": "Tibbiy vakil",
-    "ja": "医薬情報担当者"
+    "ja": "医薬情報担当者",
+    "id": "Perwakilan medis",
+    "hi": "चिकित्सा प्रतिनिधि"
   },
   {
     "code": "teacher",
@@ -4653,7 +5039,9 @@
     "el": "Δάσκαλος",
     "kk": "Мұғалім",
     "uz": "Oʻqituvchi",
-    "ja": "教員"
+    "ja": "教員",
+    "id": "Guru",
+    "hi": "शिक्षक"
   },
   {
     "code": "primary_teacher",
@@ -4677,7 +5065,9 @@
     "el": "Δάσκαλος Δημοτικού",
     "kk": "Бастауыш сынып мұғалімі",
     "uz": "Boshlangʻich sinf oʻqituvchisi",
-    "ja": "小学校教員"
+    "ja": "小学校教員",
+    "id": "Guru sekolah dasar",
+    "hi": "प्राथमिक विद्यालय शिक्षक"
   },
   {
     "code": "kindergarten_teacher",
@@ -4701,7 +5091,9 @@
     "el": "Νηπιαγωγός",
     "kk": "Тәрбиеші",
     "uz": "Tarbiyachi",
-    "ja": "幼稚園教諭"
+    "ja": "幼稚園教諭",
+    "id": "Guru taman kanak-kanak",
+    "hi": "किंडरगार्टन शिक्षक"
   },
   {
     "code": "senior_lecturer",
@@ -4725,7 +5117,9 @@
     "el": "Ανώτερος Διδάσκων",
     "kk": "Аға оқытушы",
     "uz": "Katta oʻqituvchi",
-    "ja": "上級講師"
+    "ja": "上級講師",
+    "id": "Dosen senior",
+    "hi": "वरिष्ठ व्याख्याता"
   },
   {
     "code": "associate_professor",
@@ -4749,7 +5143,9 @@
     "el": "Αναπληρωτής Καθηγητής",
     "kk": "Доцент",
     "uz": "Dotsent",
-    "ja": "准教授"
+    "ja": "准教授",
+    "id": "Profesor madya",
+    "hi": "सह-प्राध्यापक"
   },
   {
     "code": "professor",
@@ -4773,7 +5169,9 @@
     "el": "Καθηγητής",
     "kk": "Профессор",
     "uz": "Professor",
-    "ja": "教授"
+    "ja": "教授",
+    "id": "Profesor",
+    "hi": "प्राध्यापक"
   },
   {
     "code": "school_principal",
@@ -4797,7 +5195,9 @@
     "el": "Διευθυντής Σχολείου",
     "kk": "Мектеп директоры",
     "uz": "Maktab direktori",
-    "ja": "校長"
+    "ja": "校長",
+    "id": "Kepala sekolah",
+    "hi": "विद्यालय प्रधानाचार्य"
   },
   {
     "code": "methodologist",
@@ -4821,7 +5221,9 @@
     "el": "Μεθοδολόγος",
     "kk": "Методист",
     "uz": "Metodist",
-    "ja": "教育指導主事"
+    "ja": "教育指導主事",
+    "id": "Ahli metodologi",
+    "hi": "कार्यप्रणाली विशेषज्ञ"
   },
   {
     "code": "private_tutor",
@@ -4845,7 +5247,9 @@
     "el": "Ιδιωτικός Δάσκαλος",
     "kk": "Репетитор",
     "uz": "Repetitor",
-    "ja": "家庭教師"
+    "ja": "家庭教師",
+    "id": "Guru les privat",
+    "hi": "निजी शिक्षक"
   },
   {
     "code": "librarian",
@@ -4869,7 +5273,9 @@
     "el": "Βιβλιοθηκάριος",
     "kk": "Кітапханашы",
     "uz": "Kutubxonachi",
-    "ja": "司書"
+    "ja": "司書",
+    "id": "Pustakawan",
+    "hi": "पुस्तकालयाध्यक्ष"
   },
   {
     "code": "researcher",
@@ -4893,7 +5299,9 @@
     "el": "Ερευνητής",
     "kk": "Ғылыми қызметкер",
     "uz": "Ilmiy xodim",
-    "ja": "研究員"
+    "ja": "研究員",
+    "id": "Peneliti",
+    "hi": "शोधकर्ता"
   },
   {
     "code": "sports_coach",
@@ -4917,7 +5325,9 @@
     "el": "Προπονητής",
     "kk": "Спорт жаттықтырушысы",
     "uz": "Murabbiy",
-    "ja": "スポーツコーチ"
+    "ja": "スポーツコーチ",
+    "id": "Pelatih olahraga",
+    "hi": "खेल प्रशिक्षक"
   },
   {
     "code": "fitness_instructor",
@@ -4941,7 +5351,9 @@
     "el": "Γυμναστής",
     "kk": "Фитнес нұсқаушысы",
     "uz": "Fitnes murabbiyi",
-    "ja": "フィットネスインストラクター"
+    "ja": "フィットネスインストラクター",
+    "id": "Instruktur kebugaran",
+    "hi": "फिटनेस प्रशिक्षक"
   },
   {
     "code": "social_worker",
@@ -4965,7 +5377,9 @@
     "el": "Κοινωνικός Λειτουργός",
     "kk": "Әлеуметтік қызметкер",
     "uz": "Ijtimoiy xodim",
-    "ja": "社会福祉士"
+    "ja": "社会福祉士",
+    "id": "Pekerja sosial",
+    "hi": "सामाजिक कार्यकर्ता"
   },
   {
     "code": "statistician",
@@ -4989,7 +5403,9 @@
     "el": "Στατιστικός",
     "kk": "Статистик",
     "uz": "Statistik",
-    "ja": "統計技術者"
+    "ja": "統計技術者",
+    "id": "Ahli statistik",
+    "hi": "सांख्यिकीविद्"
   },
   {
     "code": "sociologist",
@@ -5013,7 +5429,9 @@
     "el": "Κοινωνιολόγος",
     "kk": "Әлеуметтанушы",
     "uz": "Sotsiolog",
-    "ja": "社会学者"
+    "ja": "社会学者",
+    "id": "Sosiolog",
+    "hi": "समाजशास्त्री"
   },
   {
     "code": "ecologist",
@@ -5037,7 +5455,9 @@
     "el": "Οικολόγος",
     "kk": "Эколог",
     "uz": "Ekolog",
-    "ja": "環境専門家"
+    "ja": "環境専門家",
+    "id": "Ahli ekologi",
+    "hi": "पारिस्थितिकीविद्"
   },
   {
     "code": "chemist",
@@ -5061,7 +5481,9 @@
     "el": "Χημικός",
     "kk": "Химик",
     "uz": "Kimyogar",
-    "ja": "化学技術者"
+    "ja": "化学技術者",
+    "id": "Ahli kimia",
+    "hi": "रसायनज्ञ"
   },
   {
     "code": "cook",
@@ -5085,7 +5507,9 @@
     "el": "Μάγειρας",
     "kk": "Аспазшы",
     "uz": "Oshpaz",
-    "ja": "調理師"
+    "ja": "調理師",
+    "id": "Juru masak",
+    "hi": "रसोइया"
   },
   {
     "code": "head_chef",
@@ -5109,7 +5533,9 @@
     "el": "Αρχιμάγειρας",
     "kk": "Бас аспазшы",
     "uz": "Bosh oshpaz",
-    "ja": "料理長"
+    "ja": "料理長",
+    "id": "Kepala koki",
+    "hi": "मुख्य रसोइया"
   },
   {
     "code": "kitchen_assistant",
@@ -5133,7 +5559,9 @@
     "el": "Βοηθός Μάγειρα",
     "kk": "Аспазшы көмекшісі",
     "uz": "Oshpaz yordamchisi",
-    "ja": "調理補助"
+    "ja": "調理補助",
+    "id": "Asisten dapur",
+    "hi": "रसोई सहायक"
   },
   {
     "code": "waiter",
@@ -5157,7 +5585,9 @@
     "el": "Σερβιτόρος",
     "kk": "Даяшы",
     "uz": "Ofitsiant",
-    "ja": "ホールスタッフ"
+    "ja": "ホールスタッフ",
+    "id": "Pramusaji",
+    "hi": "वेटर"
   },
   {
     "code": "barista",
@@ -5181,7 +5611,9 @@
     "el": "Μπαρίστα",
     "kk": "Бариста",
     "uz": "Barista",
-    "ja": "バリスタ"
+    "ja": "バリスタ",
+    "id": "Barista",
+    "hi": "बरिस्ता"
   },
   {
     "code": "bartender",
@@ -5205,7 +5637,9 @@
     "el": "Μπάρμαν",
     "kk": "Бармен",
     "uz": "Barmen",
-    "ja": "バーテンダー"
+    "ja": "バーテンダー",
+    "id": "Bartender",
+    "hi": "बारटेंडर"
   },
   {
     "code": "confectioner",
@@ -5229,7 +5663,9 @@
     "el": "Ζαχαροπλάστης",
     "kk": "Кондитер",
     "uz": "Qandolatchi",
-    "ja": "製菓職人"
+    "ja": "製菓職人",
+    "id": "Pembuat kue kering",
+    "hi": "हलवाई"
   },
   {
     "code": "baker",
@@ -5253,7 +5689,9 @@
     "el": "Αρτοποιός",
     "kk": "Наубайшы",
     "uz": "Novvoy",
-    "ja": "パン職人"
+    "ja": "パン職人",
+    "id": "Tukang roti",
+    "hi": "बेकर"
   },
   {
     "code": "butcher",
@@ -5277,7 +5715,9 @@
     "el": "Χασάπης",
     "kk": "Қасапшы",
     "uz": "Qassob",
-    "ja": "精肉職人"
+    "ja": "精肉職人",
+    "id": "Tukang daging",
+    "hi": "कसाई"
   },
   {
     "code": "restaurant_manager",
@@ -5301,7 +5741,9 @@
     "el": "Διευθυντής Εστιατορίου",
     "kk": "Мейрамхана меңгерушісі",
     "uz": "Restoran boshligi",
-    "ja": "レストランマネージャー"
+    "ja": "レストランマネージャー",
+    "id": "Manajer restoran",
+    "hi": "रेस्तरां प्रबंधक"
   },
   {
     "code": "hotel_receptionist",
@@ -5325,7 +5767,9 @@
     "el": "Υπάλληλος Υποδοχής Ξενοδοχείου",
     "kk": "Қонақүй администраторы",
     "uz": "Mehmonxona administratori",
-    "ja": "ホテルフロント係"
+    "ja": "ホテルフロント係",
+    "id": "Resepsionis hotel",
+    "hi": "होटल स्वागत कर्मी"
   },
   {
     "code": "housekeeper",
@@ -5349,7 +5793,9 @@
     "el": "Καμαριέρα",
     "kk": "Қабат қызметшісі",
     "uz": "Xonalarni tozalovchi",
-    "ja": "客室清掃係"
+    "ja": "客室清掃係",
+    "id": "Petugas tata graha",
+    "hi": "हाउसकीपर"
   },
   {
     "code": "tour_guide",
@@ -5373,7 +5819,9 @@
     "el": "Ξεναγός",
     "kk": "Гид",
     "uz": "Gid",
-    "ja": "観光ガイド"
+    "ja": "観光ガイド",
+    "id": "Pemandu wisata",
+    "hi": "पर्यटक गाइड"
   },
   {
     "code": "travel_agent",
@@ -5397,7 +5845,9 @@
     "el": "Ταξιδιωτικός Πράκτορας",
     "kk": "Туризм агенті",
     "uz": "Turizm agenti",
-    "ja": "旅行業務担当"
+    "ja": "旅行業務担当",
+    "id": "Agen perjalanan",
+    "hi": "यात्रा एजेंट"
   },
   {
     "code": "cleaner",
@@ -5421,7 +5871,9 @@
     "el": "Καθαριστής",
     "kk": "Тазалаушы",
     "uz": "Tozalovchi",
-    "ja": "清掃員"
+    "ja": "清掃員",
+    "id": "Petugas kebersihan",
+    "hi": "सफ़ाई कर्मी"
   },
   {
     "code": "barber",
@@ -5445,7 +5897,9 @@
     "el": "Κουρέας",
     "kk": "Ерлер шаштаразы",
     "uz": "Sartarosh",
-    "ja": "理容師"
+    "ja": "理容師",
+    "id": "Tukang cukur",
+    "hi": "नाई"
   },
   {
     "code": "hairdresser",
@@ -5469,7 +5923,9 @@
     "el": "Κομμωτής",
     "kk": "Шаштараз",
     "uz": "Soch turmaklovchi",
-    "ja": "美容師"
+    "ja": "美容師",
+    "id": "Penata rambut",
+    "hi": "हेयरड्रेसर"
   },
   {
     "code": "beauty_specialist",
@@ -5493,7 +5949,9 @@
     "el": "Αισθητικός",
     "kk": "Сұлулық шебері",
     "uz": "Goʻzallik ustasi",
-    "ja": "エステティシャン"
+    "ja": "エステティシャン",
+    "id": "Ahli kecantikan",
+    "hi": "सौंदर्य विशेषज्ञ"
   },
   {
     "code": "manicurist",
@@ -5517,7 +5975,9 @@
     "el": "Τεχνικός Νυχιών",
     "kk": "Маникюр шебері",
     "uz": "Manikyur ustasi",
-    "ja": "ネイリスト"
+    "ja": "ネイリスト",
+    "id": "Ahli manikur",
+    "hi": "मैनीक्योरिस्ट"
   },
   {
     "code": "cosmetologist",
@@ -5541,7 +6001,9 @@
     "el": "Κοσμετολόγος",
     "kk": "Косметолог",
     "uz": "Kosmetolog",
-    "ja": "美容皮膚専門家"
+    "ja": "美容皮膚専門家",
+    "id": "Kosmetolog",
+    "hi": "कॉस्मेटोलॉजिस्ट"
   },
   {
     "code": "tailor",
@@ -5565,7 +6027,9 @@
     "el": "Ράφτης",
     "kk": "Тігінші",
     "uz": "Tikuvchi",
-    "ja": "仕立て職人"
+    "ja": "仕立て職人",
+    "id": "Penjahit",
+    "hi": "दर्ज़ी"
   },
   {
     "code": "shoemaker",
@@ -5589,7 +6053,9 @@
     "el": "Τσαγκάρης",
     "kk": "Аяқ киім шебері",
     "uz": "Poyabzalchi",
-    "ja": "靴職人"
+    "ja": "靴職人",
+    "id": "Pembuat sepatu",
+    "hi": "मोची"
   },
   {
     "code": "gardener",
@@ -5613,7 +6079,9 @@
     "el": "Κηπουρός",
     "kk": "Бағбан",
     "uz": "Bogʻbon",
-    "ja": "造園作業員"
+    "ja": "造園作業員",
+    "id": "Tukang kebun",
+    "hi": "माली"
   },
   {
     "code": "nanny",
@@ -5637,7 +6105,9 @@
     "el": "Νταντά",
     "kk": "Күтуші",
     "uz": "Enaga",
-    "ja": "ベビーシッター"
+    "ja": "ベビーシッター",
+    "id": "Pengasuh anak",
+    "hi": "आया"
   },
   {
     "code": "agronomist",
@@ -5661,7 +6131,9 @@
     "el": "Αγρονόμος",
     "kk": "Агроном",
     "uz": "Agronom",
-    "ja": "農業技術者"
+    "ja": "農業技術者",
+    "id": "Agronom",
+    "hi": "कृषि विज्ञानी"
   },
   {
     "code": "zootechnician",
@@ -5685,7 +6157,9 @@
     "el": "Ζωοτέχνης",
     "kk": "Зоотехник",
     "uz": "Zootexnik",
-    "ja": "畜産技術者"
+    "ja": "畜産技術者",
+    "id": "Ahli zooteknik",
+    "hi": "पशुपालन तकनीशियन"
   },
   {
     "code": "tractor_driver",
@@ -5709,7 +6183,9 @@
     "el": "Οδηγός Τρακτέρ",
     "kk": "Тракторшы",
     "uz": "Traktorchi",
-    "ja": "トラクター運転手"
+    "ja": "トラクター運転手",
+    "id": "Pengemudi traktor",
+    "hi": "ट्रैक्टर चालक"
   },
   {
     "code": "farmer",
@@ -5733,7 +6209,9 @@
     "el": "Αγρότης",
     "kk": "Фермер",
     "uz": "Fermer",
-    "ja": "農業従事者"
+    "ja": "農業従事者",
+    "id": "Petani",
+    "hi": "किसान"
   },
   {
     "code": "beekeeper",
@@ -5757,7 +6235,9 @@
     "el": "Μελισσοκόμος",
     "kk": "Омарташы",
     "uz": "Asalarichi",
-    "ja": "養蜂家"
+    "ja": "養蜂家",
+    "id": "Peternak lebah",
+    "hi": "मधुमक्खी पालक"
   },
   {
     "code": "musician",
@@ -5781,7 +6261,9 @@
     "el": "Μουσικός",
     "kk": "Музыкант",
     "uz": "Musiqachi",
-    "ja": "音楽家"
+    "ja": "音楽家",
+    "id": "Musisi",
+    "hi": "संगीतकार"
   },
   {
     "code": "artist",
@@ -5805,7 +6287,9 @@
     "el": "Καλλιτέχνης",
     "kk": "Суретші",
     "uz": "Rassom",
-    "ja": "画家"
+    "ja": "画家",
+    "id": "Seniman",
+    "hi": "कलाकार"
   },
   {
     "code": "actor",
@@ -5829,6 +6313,8 @@
     "el": "Ηθοποιός",
     "kk": "Актёр",
     "uz": "Aktyor",
-    "ja": "俳優"
+    "ja": "俳優",
+    "id": "Aktor",
+    "hi": "अभिनेता"
   }
 ]

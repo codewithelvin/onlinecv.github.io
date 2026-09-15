@@ -115,6 +115,31 @@
 }
 
 /*
+ * Devanagari (Hindi). Same small-script-face arrangement as Georgian/Arabic/Hebrew
+ * above — 220 KB per weight, so one TTF serves both the preview and the export
+ * (see `services/pdf.ts`), unlike Korean's woff2/TTF split. U+0900–097F is
+ * Devanagari itself (consonants, vowel signs, virama, digits); U+A8E0–A8FF is the
+ * Devanagari Extended block, which holds the combining accents some Vedic/Sanskrit
+ * text carries.
+ */
+@font-face {
+  font-family: "NotoSansDevanagari";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/ttf/NotoSansDevanagari-Regular.ttf") format("truetype");
+  unicode-range: U+0900-097F, U+A8E0-A8FF;
+}
+@font-face {
+  font-family: "NotoSansDevanagari";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/ttf/NotoSansDevanagari-Bold.ttf") format("truetype");
+  unicode-range: U+0900-097F, U+A8E0-A8FF;
+}
+
+/*
  * Korean (Hangul). NanumGothic — the only face here that is not a Noto, because
  * Noto Sans KR ships no static TTF (google/fonts has the variable font only, and
  * react-pdf's fontkit cannot use those) and its OTF is 4.6 MB per weight against
@@ -299,6 +324,7 @@ body {
     NanumGothic,
     NotoSansJP,
     NotoSansSC,
+    NotoSansDevanagari,
     "Segoe UI",
     Roboto,
     "Noto Sans",

@@ -21,7 +21,9 @@
     "el": "Microsoft Excel",
     "kk": "Microsoft Excel",
     "uz": "Microsoft Excel",
-    "ja": "Microsoft Excel"
+    "ja": "Microsoft Excel",
+    "id": "Microsoft Excel",
+    "hi": "Microsoft Excel"
   },
   {
     "code": "php",
@@ -45,7 +47,9 @@
     "el": "Γλώσσα PHP",
     "kk": "PHP тілі",
     "uz": "PHP tili",
-    "ja": "PHP"
+    "ja": "PHP",
+    "id": "Bahasa PHP",
+    "hi": "PHP भाषा"
   },
   {
     "code": "ms_word",
@@ -69,7 +73,9 @@
     "el": "Microsoft Word",
     "kk": "Microsoft Word",
     "uz": "Microsoft Word",
-    "ja": "Microsoft Word"
+    "ja": "Microsoft Word",
+    "id": "Microsoft Word",
+    "hi": "Microsoft Word"
   },
   {
     "code": "ms_power",
@@ -93,7 +99,9 @@
     "el": "Microsoft PowerPoint",
     "kk": "Microsoft PowerPoint",
     "uz": "Microsoft PowerPoint",
-    "ja": "Microsoft PowerPoint"
+    "ja": "Microsoft PowerPoint",
+    "id": "Microsoft PowerPoint",
+    "hi": "Microsoft PowerPoint"
   },
   {
     "code": "adaptation",
@@ -117,7 +125,9 @@
     "el": "Προσαρμοστικότητα σε νέες συνθήκες",
     "kk": "Жаңа жағдайларға бейімделу",
     "uz": "Yangi sharoitlarga moslashuvchanlik",
-    "ja": "新しい環境への適応力"
+    "ja": "新しい環境への適応力",
+    "id": "Adaptasi terhadap perubahan",
+    "hi": "नई परिस्थितियों के प्रति अनुकूलन क्षमता"
   },
   {
     "code": "problem_solving",
@@ -141,7 +151,9 @@
     "el": "Ταχεία επίλυση προβλημάτων",
     "kk": "Мәселелерді жылдам шешу",
     "uz": "Muammolarni tezkor hal qilish",
-    "ja": "迅速な問題解決"
+    "ja": "迅速な問題解決",
+    "id": "Memecahkan masalah dengan cepat",
+    "hi": "समस्याओं का शीघ्र समाधान"
   },
   {
     "code": "team_work",
@@ -165,7 +177,9 @@
     "el": "Ατομική και ομαδική εργασία",
     "kk": "Жеке және командада жұмыс істеу",
     "uz": "Yakka va jamoada ishlash",
-    "ja": "個人・チームでの業務"
+    "ja": "個人・チームでの業務",
+    "id": "Kerja mandiri dan tim",
+    "hi": "व्यक्तिगत एवं टीम में कार्य करना"
   },
   {
     "code": "punct_present",
@@ -189,7 +203,9 @@
     "el": "Συνέπεια και δεξιότητες παρουσίασης",
     "kk": "Дәлдік және таныстыру дағдылары",
     "uz": "Vaqtga rioya qilish va taqdimot koʻnikmalari",
-    "ja": "時間厳守とプレゼンテーション力"
+    "ja": "時間厳守とプレゼンテーション力",
+    "id": "Ketepatan waktu dan kemampuan presentasi",
+    "hi": "समयपालन एवं प्रस्तुतिकरण कौशल"
   },
   {
     "code": "pressure_work",
@@ -213,7 +229,9 @@
     "el": "Εργασία υπό πίεση",
     "kk": "Қысым астында жұмыс істеу",
     "uz": "Bosim ostida ishlash",
-    "ja": "プレッシャー下での業務"
+    "ja": "プレッシャー下での業務",
+    "id": "Bekerja di bawah tekanan",
+    "hi": "दबाव में कार्य करना"
   },
   {
     "code": "1c",
@@ -237,7 +255,9 @@
     "el": "Λογιστική 1C",
     "kk": "1С бухгалтерия",
     "uz": "1C Buxgalteriya",
-    "ja": "1C会計"
+    "ja": "1C会計",
+    "id": "1C Akuntansi",
+    "hi": "1C लेखांकन"
   },
   {
     "code": "autocad",
@@ -261,7 +281,9 @@
     "el": "AutoCAD",
     "kk": "AutoCAD",
     "uz": "AutoCAD",
-    "ja": "AutoCAD"
+    "ja": "AutoCAD",
+    "id": "AutoCAD",
+    "hi": "AutoCAD"
   },
   {
     "code": "photoshop",
@@ -285,7 +307,9 @@
     "el": "Adobe Photoshop",
     "kk": "Adobe Photoshop",
     "uz": "Adobe Photoshop",
-    "ja": "Adobe Photoshop"
+    "ja": "Adobe Photoshop",
+    "id": "Adobe Photoshop",
+    "hi": "Adobe Photoshop"
   },
   {
     "code": "javascript",
@@ -309,7 +333,9 @@
     "el": "JavaScript",
     "kk": "JavaScript",
     "uz": "JavaScript",
-    "ja": "JavaScript"
+    "ja": "JavaScript",
+    "id": "JavaScript",
+    "hi": "JavaScript"
   },
   {
     "code": "painting",
@@ -333,7 +359,9 @@
     "el": "Ζωγραφική",
     "kk": "Сурет салу",
     "uz": "Rasm chizish",
-    "ja": "絵を描くこと"
+    "ja": "絵を描くこと",
+    "id": "Menggambar",
+    "hi": "चित्र बनाना"
   },
   {
     "code": "selling",
@@ -357,7 +385,9 @@
     "el": "Πωλήσεις",
     "kk": "Сату",
     "uz": "Sotish",
-    "ja": "販売"
+    "ja": "販売",
+    "id": "Penjualan",
+    "hi": "बिक्री करना"
   },
   {
     "code": "management",
@@ -381,7 +411,9 @@
     "el": "Διοίκηση",
     "kk": "Басқару",
     "uz": "Menejment",
-    "ja": "マネジメント"
+    "ja": "マネジメント",
+    "id": "Manajemen",
+    "hi": "प्रबंधन"
   },
   {
     "code": "illustrator",
@@ -405,7 +437,9 @@
     "el": "Adobe Illustrator",
     "kk": "Adobe Illustrator",
     "uz": "Adobe Illustrator",
-    "ja": "Adobe Illustrator"
+    "ja": "Adobe Illustrator",
+    "id": "Adobe Illustrator",
+    "hi": "Adobe Illustrator"
   },
   {
     "code": "organizing",
@@ -429,7 +463,9 @@
     "el": "Οργανωτική ικανότητα",
     "kk": "Ұйымдастыру дағдысы",
     "uz": "Tashkilotchilik qobiliyati",
-    "ja": "組織力"
+    "ja": "組織力",
+    "id": "Kemampuan mengorganisasi",
+    "hi": "संगठन कौशल"
   },
   {
     "code": "time_management",
@@ -453,7 +489,9 @@
     "el": "Διαχείριση χρόνου",
     "kk": "Уақытты басқару",
     "uz": "Vaqtni boshqarish",
-    "ja": "タイムマネジメント"
+    "ja": "タイムマネジメント",
+    "id": "Manajemen waktu",
+    "hi": "समय प्रबंधन"
   },
   {
     "code": "conflict_solving",
@@ -477,7 +515,9 @@
     "el": "Επίλυση συγκρούσεων",
     "kk": "Қайшылықтарды шешу",
     "uz": "Ziddiyatlarni hal qilish",
-    "ja": "対立の解決"
+    "ja": "対立の解決",
+    "id": "Penyelesaian konflik",
+    "hi": "संघर्ष समाधान"
   },
   {
     "code": "critical_thinking",
@@ -501,7 +541,9 @@
     "el": "Κριτική σκέψη",
     "kk": "Сын тұрғысынан ойлау",
     "uz": "Tanqidiy fikrlash",
-    "ja": "批判的思考"
+    "ja": "批判的思考",
+    "id": "Berpikir kritis",
+    "hi": "आलोचनात्मक चिंतन"
   },
   {
     "code": "project_planning",
@@ -525,7 +567,9 @@
     "el": "Σχεδιασμός έργου",
     "kk": "Жобаны жоспарлау",
     "uz": "Loyihani rejalashtirish",
-    "ja": "プロジェクト計画"
+    "ja": "プロジェクト計画",
+    "id": "Perencanaan proyek",
+    "hi": "परियोजना योजना"
   },
   {
     "code": "gantt",
@@ -549,7 +593,9 @@
     "el": "Διαγράμματα Gantt",
     "kk": "Гант диаграммалары",
     "uz": "Gantt diagrammalari",
-    "ja": "ガントチャート"
+    "ja": "ガントチャート",
+    "id": "Diagram Gantt",
+    "hi": "गैंट चार्ट"
   },
   {
     "code": "risk_manage",
@@ -573,7 +619,9 @@
     "el": "Διαχείριση κινδύνου",
     "kk": "Тәуекелдерді басқару",
     "uz": "Risklarni boshqarish",
-    "ja": "リスク管理"
+    "ja": "リスク管理",
+    "id": "Manajemen risiko",
+    "hi": "जोखिम प्रबंधन"
   },
   {
     "code": "project_management",
@@ -597,7 +645,9 @@
     "el": "Διαχείριση έργων",
     "kk": "Жобаны басқару",
     "uz": "Loyihalarni boshqarish",
-    "ja": "プロジェクト管理"
+    "ja": "プロジェクト管理",
+    "id": "Manajemen proyek",
+    "hi": "परियोजना प्रबंधन"
   },
   {
     "code": "analytical_thinking",
@@ -621,7 +671,9 @@
     "el": "Αναλυτική σκέψη",
     "kk": "Аналитикалық ойлау",
     "uz": "Analitik fikrlash",
-    "ja": "分析的思考"
+    "ja": "分析的思考",
+    "id": "Berpikir analitis",
+    "hi": "विश्लेषणात्मक चिंतन"
   },
   {
     "code": "cooking_skill",
@@ -645,7 +697,9 @@
     "el": "Μαγειρική",
     "kk": "Аспаздық",
     "uz": "Oshpazlik",
-    "ja": "料理"
+    "ja": "料理",
+    "id": "Keahlian memasak",
+    "hi": "खाना पकाना"
   },
   {
     "code": "phone_sales",
@@ -669,7 +723,9 @@
     "el": "Δεξιότητες τηλεφωνικών πωλήσεων",
     "kk": "Телефон арқылы сату",
     "uz": "Telefon orqali sotish koʻnikmasi",
-    "ja": "電話営業"
+    "ja": "電話営業",
+    "id": "Penjualan melalui telepon",
+    "hi": "टेलीफ़ोन बिक्री कौशल"
   },
   {
     "code": "convince",
@@ -693,7 +749,9 @@
     "el": "Ικανότητα πειθώς",
     "kk": "Сендіру қабілеті",
     "uz": "Ishontirish qobiliyati",
-    "ja": "説得力"
+    "ja": "説得力",
+    "id": "Kemampuan meyakinkan",
+    "hi": "मनाने की क्षमता"
   },
   {
     "code": "teaching",
@@ -717,7 +775,9 @@
     "el": "Διδακτική ικανότητα",
     "kk": "Оқытушылық дағдысы",
     "uz": "Oʻqitish qobiliyati",
-    "ja": "指導力"
+    "ja": "指導力",
+    "id": "Kemampuan mengajar",
+    "hi": "शिक्षण कौशल"
   },
   {
     "code": "tax_codex",
@@ -741,7 +801,9 @@
     "el": "Γνώση του φορολογικού κώδικα",
     "kk": "Салық кодексін білу",
     "uz": "Soliq kodeksini bilish",
-    "ja": "税法の知識"
+    "ja": "税法の知識",
+    "id": "Pengetahuan kode pajak",
+    "hi": "कर संहिता का ज्ञान"
   },
   {
     "code": "cash_book",
@@ -765,7 +827,9 @@
     "el": "Τήρηση ταμειακού βιβλίου",
     "kk": "Касса кітабын жүргізу",
     "uz": "Kassa kitobini yuritish",
-    "ja": "出納帳の記帳"
+    "ja": "出納帳の記帳",
+    "id": "Pengelolaan buku kas",
+    "hi": "रोकड़ बही का रखरखाव"
   },
   {
     "code": "warehouse_book",
@@ -789,7 +853,9 @@
     "el": "Λογιστική αποθήκης",
     "kk": "Қойма есебін жүргізу",
     "uz": "Ombor hisobini yuritish",
-    "ja": "倉庫会計"
+    "ja": "倉庫会計",
+    "id": "Pencatatan gudang",
+    "hi": "गोदाम लेखांकन"
   },
   {
     "code": "inventories",
@@ -813,7 +879,9 @@
     "el": "Διεξαγωγή απογραφών",
     "kk": "Түгендеу жүргізу",
     "uz": "Inventarizatsiya oʻtkazish",
-    "ja": "棚卸しの実施"
+    "ja": "棚卸しの実施",
+    "id": "Pelaksanaan stock opname",
+    "hi": "इन्वेंट्री का लेखा-जोखा"
   },
   {
     "code": "reconciliation_acts",
@@ -837,7 +905,9 @@
     "el": "Σύνταξη πρακτικών συμφωνίας",
     "kk": "Салыстыру актілерін жасау",
     "uz": "Solishtirish dalolatnomalarini tuzish",
-    "ja": "残高確認書の作成"
+    "ja": "残高確認書の作成",
+    "id": "Penyusunan berita acara rekonsiliasi",
+    "hi": "मिलान विवरण तैयार करना"
   },
   {
     "code": "computer_knowledge",
@@ -861,7 +931,9 @@
     "el": "Γνώσεις Η/Υ",
     "kk": "Компьютер білімі",
     "uz": "Kompyuter bilimlari",
-    "ja": "パソコンスキル"
+    "ja": "パソコンスキル",
+    "id": "Kemampuan komputer",
+    "hi": "कंप्यूटर कौशल"
   },
   {
     "code": "css",
@@ -885,7 +957,9 @@
     "el": "CSS",
     "kk": "CSS",
     "uz": "CSS",
-    "ja": "CSS"
+    "ja": "CSS",
+    "id": "CSS",
+    "hi": "CSS"
   },
   {
     "code": "python",
@@ -909,7 +983,9 @@
     "el": "Γλώσσα προγραμματισμού Python",
     "kk": "Python бағдарламалау тілі",
     "uz": "Python dasturlash tili",
-    "ja": "Python"
+    "ja": "Python",
+    "id": "Bahasa pemrograman Python",
+    "hi": "Python प्रोग्रामिंग भाषा"
   },
   {
     "code": "agility",
@@ -933,7 +1009,9 @@
     "el": "Ευελιξία",
     "kk": "Икемділік",
     "uz": "Chaqqonlik",
-    "ja": "機敏性"
+    "ja": "機敏性",
+    "id": "Kelincahan kerja",
+    "hi": "चपलता"
   },
   {
     "code": "cplusplus",
@@ -957,7 +1035,9 @@
     "el": "C++",
     "kk": "C++",
     "uz": "C++",
-    "ja": "C++"
+    "ja": "C++",
+    "id": "C++",
+    "hi": "C++"
   },
   {
     "code": "research",
@@ -981,7 +1061,9 @@
     "el": "Έρευνα",
     "kk": "Зерттеу",
     "uz": "Tadqiqot",
-    "ja": "リサーチ"
+    "ja": "リサーチ",
+    "id": "Riset",
+    "hi": "अनुसंधान"
   },
   {
     "code": "sales",
@@ -1005,7 +1087,9 @@
     "el": "Δεξιότητες πωλήσεων",
     "kk": "Сату дағдылары",
     "uz": "Sotish koʻnikmalari",
-    "ja": "営業スキル"
+    "ja": "営業スキル",
+    "id": "Keahlian penjualan",
+    "hi": "बिक्री कौशल"
   },
   {
     "code": "playing_piano",
@@ -1029,7 +1113,9 @@
     "el": "Παίξιμο πιάνου",
     "kk": "Пианино ойнау",
     "uz": "Pianino chalish",
-    "ja": "ピアノ演奏"
+    "ja": "ピアノ演奏",
+    "id": "Bermain piano",
+    "hi": "पियानो बजाना"
   },
   {
     "code": "negotiation",
@@ -1053,7 +1139,9 @@
     "el": "Δεξιότητες διαπραγμάτευσης",
     "kk": "Келіссөздер жүргізу",
     "uz": "Muzokaralar olib borish",
-    "ja": "交渉力"
+    "ja": "交渉力",
+    "id": "Keahlian negosiasi",
+    "hi": "वार्ता कौशल"
   },
   {
     "code": "stress_resilience",
@@ -1077,7 +1165,9 @@
     "el": "Ανθεκτικότητα στο άγχος",
     "kk": "Стресске төзімділік",
     "uz": "Stressga chidamlilik",
-    "ja": "ストレス耐性"
+    "ja": "ストレス耐性",
+    "id": "Ketahanan terhadap stres",
+    "hi": "तनाव सहनशीलता"
   },
   {
     "code": "oracle_sql",
@@ -1101,7 +1191,9 @@
     "el": "Oracle SQL",
     "kk": "Oracle SQL",
     "uz": "Oracle SQL",
-    "ja": "Oracle SQL"
+    "ja": "Oracle SQL",
+    "id": "Oracle SQL",
+    "hi": "Oracle SQL"
   },
   {
     "code": "smm",
@@ -1125,7 +1217,9 @@
     "el": "SMM (Μάρκετινγκ Μέσων Κοινωνικής Δικτύωσης)",
     "kk": "SMM (әлеуметтік желілерде маркетинг)",
     "uz": "SMM (ijtimoiy tarmoqlarda marketing)",
-    "ja": "SMM（ソーシャルメディアマーケティング）"
+    "ja": "SMM（ソーシャルメディアマーケティング）",
+    "id": "SMM (Pemasaran Media Sosial)",
+    "hi": "SMM (सोशल मीडिया मार्केटिंग)"
   },
   {
     "code": "social_relations",
@@ -1149,7 +1243,9 @@
     "el": "Κοινωνικές σχέσεις",
     "kk": "Әлеуметтік қатынастар",
     "uz": "Ijtimoiy munosabatlar",
-    "ja": "対人関係"
+    "ja": "対人関係",
+    "id": "Hubungan sosial",
+    "hi": "सामाजिक संबंध"
   },
   {
     "code": "reactjs",
@@ -1173,7 +1269,9 @@
     "el": "ReactJS",
     "kk": "ReactJS",
     "uz": "ReactJS",
-    "ja": "ReactJS"
+    "ja": "ReactJS",
+    "id": "ReactJS",
+    "hi": "ReactJS"
   },
   {
     "code": "next_js",
@@ -1197,7 +1295,9 @@
     "el": "Next.js",
     "kk": "Next.js",
     "uz": "Next.js",
-    "ja": "Next.js"
+    "ja": "Next.js",
+    "id": "Next.js",
+    "hi": "Next.js"
   },
   {
     "code": "microfrontend",
@@ -1221,7 +1321,9 @@
     "el": "Αρχιτεκτονική microfrontend",
     "kk": "Микрофронтенд",
     "uz": "Mikrofrontend",
-    "ja": "マイクロフロントエンド"
+    "ja": "マイクロフロントエンド",
+    "id": "Microfrontend",
+    "hi": "माइक्रोफ्रंटएंड"
   },
   {
     "code": "language_learning",
@@ -1245,7 +1347,9 @@
     "el": "Δεξιότητες εκμάθησης γλωσσών",
     "kk": "Тіл үйрену дағдысы",
     "uz": "Til oʻrganish qobiliyati",
-    "ja": "語学の習得力"
+    "ja": "語学の習得力",
+    "id": "Kemampuan belajar bahasa",
+    "hi": "भाषा सीखने का कौशल"
   },
   {
     "code": "marketing",
@@ -1269,7 +1373,9 @@
     "el": "Μάρκετινγκ",
     "kk": "Маркетинг",
     "uz": "Marketing",
-    "ja": "マーケティング"
+    "ja": "マーケティング",
+    "id": "Pemasaran",
+    "hi": "विपणन"
   },
   {
     "code": "first_aid",
@@ -1293,7 +1399,9 @@
     "el": "Πρώτες βοήθειες",
     "kk": "Алғашқы медициналық көмек",
     "uz": "Birinchi tibbiy yordam",
-    "ja": "応急手当"
+    "ja": "応急手当",
+    "id": "Pertolongan pertama",
+    "hi": "प्राथमिक चिकित्सा"
   },
   {
     "code": "presentation",
@@ -1317,7 +1425,9 @@
     "el": "Δεξιότητες παρουσίασης",
     "kk": "Таныстыру дағдылары",
     "uz": "Taqdimot koʻnikmalari",
-    "ja": "プレゼンテーション力"
+    "ja": "プレゼンテーション力",
+    "id": "Kemampuan presentasi",
+    "hi": "प्रस्तुतिकरण कौशल"
   },
   {
     "code": "writing_articles",
@@ -1341,7 +1451,9 @@
     "el": "Συγγραφή άρθρων",
     "kk": "Мақала жазу",
     "uz": "Maqola yozish",
-    "ja": "記事の執筆"
+    "ja": "記事の執筆",
+    "id": "Menulis artikel",
+    "hi": "लेख लिखना"
   },
   {
     "code": "strategic_planning",
@@ -1365,7 +1477,9 @@
     "el": "Στρατηγικός σχεδιασμός",
     "kk": "Стратегиялық жоспарлау",
     "uz": "Strategik rejalashtirish",
-    "ja": "戦略立案"
+    "ja": "戦略立案",
+    "id": "Perencanaan strategis",
+    "hi": "रणनीतिक योजना"
   },
   {
     "code": "creative_thinking",
@@ -1389,7 +1503,9 @@
     "el": "Δημιουργική σκέψη",
     "kk": "Креативті ойлау",
     "uz": "Ijodiy fikrlash",
-    "ja": "創造的思考"
+    "ja": "創造的思考",
+    "id": "Berpikir kreatif",
+    "hi": "रचनात्मक चिंतन"
   },
   {
     "code": "baking_sweets",
@@ -1413,7 +1529,9 @@
     "el": "Ζαχαροπλαστική",
     "kk": "Тәттілер пісіру",
     "uz": "Shirinliklar pishirish",
-    "ja": "菓子作り"
+    "ja": "菓子作り",
+    "id": "Membuat kue",
+    "hi": "मिठाई बनाना"
   },
   {
     "code": "weaving",
@@ -1437,7 +1555,9 @@
     "el": "Υφαντική",
     "kk": "Тоқу",
     "uz": "Toʻqimachilik",
-    "ja": "織物"
+    "ja": "織物",
+    "id": "Menenun",
+    "hi": "बुनाई"
   },
   {
     "code": "copywriting",
@@ -1461,7 +1581,9 @@
     "el": "Διαφημιστική συγγραφή",
     "kk": "Копирайтинг",
     "uz": "Kopirayting",
-    "ja": "コピーライティング"
+    "ja": "コピーライティング",
+    "id": "Copywriting",
+    "hi": "कॉपीराइटिंग"
   },
   {
     "code": "java",
@@ -1485,7 +1607,9 @@
     "el": "Γλώσσα προγραμματισμού Java",
     "kk": "Java бағдарламалау тілі",
     "uz": "Java dasturlash tili",
-    "ja": "Java"
+    "ja": "Java",
+    "id": "Bahasa pemrograman Java",
+    "hi": "Java प्रोग्रामिंग भाषा"
   },
   {
     "code": "injecting",
@@ -1509,7 +1633,9 @@
     "el": "Χορήγηση ενέσεων",
     "kk": "Инъекция жасау",
     "uz": "Ukol qilish",
-    "ja": "注射"
+    "ja": "注射",
+    "id": "Menyuntik",
+    "hi": "इंजेक्शन लगाना"
   },
   {
     "code": "patientCare",
@@ -1533,7 +1659,9 @@
     "el": "Φροντίδα ασθενών",
     "kk": "Науқастарға қамқорлық",
     "uz": "Bemorlarga gʻamxoʻrlik qilish",
-    "ja": "患者ケア"
+    "ja": "患者ケア",
+    "id": "Perawatan pasien",
+    "hi": "रोगी देखभाल"
   },
   {
     "code": "woundDressing",
@@ -1557,7 +1685,9 @@
     "el": "Επίδεση πληγών",
     "kk": "Жараны таңу",
     "uz": "Yara bogʻlash",
-    "ja": "創傷処置"
+    "ja": "創傷処置",
+    "id": "Perawatan luka",
+    "hi": "घाव की ड्रेसिंग"
   },
   {
     "code": "vitalSignsMonitoring",
@@ -1581,7 +1711,9 @@
     "el": "Παρακολούθηση ζωτικών σημείων",
     "kk": "Тыныс-тіршілік көрсеткіштерін бақылау",
     "uz": "Hayotiy koʻrsatkichlarni kuzatish",
-    "ja": "バイタルサインの観察"
+    "ja": "バイタルサインの観察",
+    "id": "Pemantauan tanda vital",
+    "hi": "महत्वपूर्ण संकेतों की निगरानी"
   },
   {
     "code": "medicationAdministration",
@@ -1605,7 +1737,9 @@
     "el": "Χορήγηση φαρμακευτικής αγωγής",
     "kk": "Дәрі-дәрмек беру",
     "uz": "Dori-darmon berish",
-    "ja": "与薬"
+    "ja": "与薬",
+    "id": "Pemberian obat",
+    "hi": "दवा प्रशासन"
   },
   {
     "code": "emergencyCare",
@@ -1629,7 +1763,9 @@
     "el": "Επείγουσα φροντίδα",
     "kk": "Жедел жәрдем көрсету",
     "uz": "Shoshilinch tibbiy yordam",
-    "ja": "救急対応"
+    "ja": "救急対応",
+    "id": "Perawatan gawat darurat",
+    "hi": "आपातकालीन देखभाल"
   },
   {
     "code": "infectionControl",
@@ -1653,7 +1789,9 @@
     "el": "Έλεγχος λοιμώξεων",
     "kk": "Инфекцияны бақылау",
     "uz": "Infeksiya nazorati",
-    "ja": "感染管理"
+    "ja": "感染管理",
+    "id": "Pengendalian infeksi",
+    "hi": "संक्रमण नियंत्रण"
   },
   {
     "code": "surveillance",
@@ -1677,7 +1815,9 @@
     "el": "Επιτήρηση",
     "kk": "Бақылау",
     "uz": "Kuzatuv",
-    "ja": "監視"
+    "ja": "監視",
+    "id": "Pengawasan",
+    "hi": "निगरानी"
   },
   {
     "code": "accessControl",
@@ -1701,7 +1841,9 @@
     "el": "Έλεγχος πρόσβασης",
     "kk": "Кіру бақылауы",
     "uz": "Kirishni nazorat qilish",
-    "ja": "入退室管理"
+    "ja": "入退室管理",
+    "id": "Kontrol akses",
+    "hi": "प्रवेश नियंत्रण"
   },
   {
     "code": "patrolling",
@@ -1725,7 +1867,9 @@
     "el": "Περιπολία",
     "kk": "Кезекшілік ету",
     "uz": "Patrul xizmati",
-    "ja": "巡回"
+    "ja": "巡回",
+    "id": "Berpatroli",
+    "hi": "गश्त करना"
   },
   {
     "code": "reportingIncidents",
@@ -1749,7 +1893,9 @@
     "el": "Αναφορά περιστατικών",
     "kk": "Оқиғалар туралы хабарлау",
     "uz": "Voqealar haqida xabar berish",
-    "ja": "インシデント報告"
+    "ja": "インシデント報告",
+    "id": "Pelaporan insiden",
+    "hi": "घटनाओं की रिपोर्ट करना"
   },
   {
     "code": "financialReporting",
@@ -1773,7 +1919,9 @@
     "el": "Χρηματοοικονομικές αναφορές",
     "kk": "Қаржылық есептілік",
     "uz": "Moliyaviy hisobot tuzish",
-    "ja": "財務報告"
+    "ja": "財務報告",
+    "id": "Pelaporan keuangan",
+    "hi": "वित्तीय रिपोर्टिंग"
   },
   {
     "code": "taxPreparation",
@@ -1797,7 +1945,9 @@
     "el": "Φορολογική προετοιμασία",
     "kk": "Салық дайындығы",
     "uz": "Soliq hisobotlarini tayyorlash",
-    "ja": "税務申告の作成"
+    "ja": "税務申告の作成",
+    "id": "Penyusunan pajak",
+    "hi": "कर तैयारी"
   },
   {
     "code": "budgeting",
@@ -1821,7 +1971,9 @@
     "el": "Κατάρτιση προϋπολογισμού",
     "kk": "Бюджет жасау",
     "uz": "Byudjet tuzish",
-    "ja": "予算編成"
+    "ja": "予算編成",
+    "id": "Penyusunan anggaran",
+    "hi": "बजट बनाना"
   },
   {
     "code": "accountReconciliation",
@@ -1845,7 +1997,9 @@
     "el": "Συμφωνία λογαριασμών",
     "kk": "Шоттарды салыстыру",
     "uz": "Hisoblarni solishtirish",
-    "ja": "勘定照合"
+    "ja": "勘定照合",
+    "id": "Rekonsiliasi akun",
+    "hi": "खातों का मिलान"
   },
   {
     "code": "payrollProcessing",
@@ -1869,7 +2023,9 @@
     "el": "Επεξεργασία μισθοδοσίας",
     "kk": "Жалақыны есептеу",
     "uz": "Ish haqini hisoblash",
-    "ja": "給与計算処理"
+    "ja": "給与計算処理",
+    "id": "Pemrosesan penggajian",
+    "hi": "वेतन प्रसंस्करण"
   },
   {
     "code": "financialAnalysis",
@@ -1893,7 +2049,9 @@
     "el": "Χρηματοοικονομική ανάλυση",
     "kk": "Қаржылық талдау",
     "uz": "Moliyaviy tahlil",
-    "ja": "財務分析"
+    "ja": "財務分析",
+    "id": "Analisis keuangan",
+    "hi": "वित्तीय विश्लेषण"
   },
   {
     "code": "auditing",
@@ -1917,7 +2075,9 @@
     "el": "Ελεγκτική",
     "kk": "Аудит",
     "uz": "Auditorlik",
-    "ja": "監査"
+    "ja": "監査",
+    "id": "Audit",
+    "hi": "लेखा परीक्षा"
   },
   {
     "code": "compliance",
@@ -1941,7 +2101,9 @@
     "el": "Κανονιστική συμμόρφωση",
     "kk": "Сәйкестік",
     "uz": "Normativ talablarga muvofiqlik",
-    "ja": "コンプライアンス"
+    "ja": "コンプライアンス",
+    "id": "Kepatuhan",
+    "hi": "अनुपालन"
   },
   {
     "code": "interviewing",
@@ -1965,7 +2127,9 @@
     "el": "Διεξαγωγή συνεντεύξεων",
     "kk": "Сұхбат жүргізу",
     "uz": "Intervyu oʻtkazish",
-    "ja": "インタビュー"
+    "ja": "インタビュー",
+    "id": "Melakukan wawancara",
+    "hi": "साक्षात्कार लेना"
   },
   {
     "code": "editing",
@@ -1989,7 +2153,9 @@
     "el": "Επιμέλεια κειμένων",
     "kk": "Редакциялау",
     "uz": "Tahrir qilish",
-    "ja": "編集"
+    "ja": "編集",
+    "id": "Penyuntingan",
+    "hi": "संपादन"
   },
   {
     "code": "pressReleaseWriting",
@@ -2013,7 +2179,9 @@
     "el": "Συγγραφή δελτίων τύπου",
     "kk": "Баспасөз хабарламасын жазу",
     "uz": "Matbuot xabarnomalarini yozish",
-    "ja": "プレスリリースの作成"
+    "ja": "プレスリリースの作成",
+    "id": "Penulisan siaran pers",
+    "hi": "प्रेस विज्ञप्ति लेखन"
   },
   {
     "code": "newsEditing",
@@ -2037,7 +2205,9 @@
     "el": "Επιμέλεια ειδήσεων",
     "kk": "Жаңалықтарды редакциялау",
     "uz": "Yangiliklarni tahrirlash",
-    "ja": "ニュース編集"
+    "ja": "ニュース編集",
+    "id": "Penyuntingan berita",
+    "hi": "समाचार संपादन"
   },
   {
     "code": "customerService",
@@ -2061,7 +2231,9 @@
     "el": "Εξυπηρέτηση πελατών",
     "kk": "Клиенттерге қызмет көрсету",
     "uz": "Mijozlarga xizmat koʻrsatish",
-    "ja": "顧客対応"
+    "ja": "顧客対応",
+    "id": "Layanan pelanggan",
+    "hi": "ग्राहक सेवा"
   },
   {
     "code": "phoneHandling",
@@ -2085,7 +2257,9 @@
     "el": "Διαχείριση τηλεφωνικών κλήσεων",
     "kk": "Телефон қоңырауларын өңдеу",
     "uz": "Telefon orqali muloqot qilish",
-    "ja": "電話応対"
+    "ja": "電話応対",
+    "id": "Penanganan telepon",
+    "hi": "फ़ोन कॉल संभालना"
   },
   {
     "code": "appointmentScheduling",
@@ -2109,7 +2283,9 @@
     "el": "Προγραμματισμός ραντεβού",
     "kk": "Кездесулерді жоспарлау",
     "uz": "Uchrashuvlarni rejalashtirish",
-    "ja": "予約管理"
+    "ja": "予約管理",
+    "id": "Penjadwalan janji temu",
+    "hi": "नियुक्ति निर्धारण"
   },
   {
     "code": "greetingGuests",
@@ -2133,7 +2309,9 @@
     "el": "Υποδοχή επισκεπτών",
     "kk": "Қонақтарды қарсы алу",
     "uz": "Mehmonlarni kutib olish",
-    "ja": "来客対応"
+    "ja": "来客対応",
+    "id": "Menyambut tamu",
+    "hi": "अतिथियों का स्वागत करना"
   },
   {
     "code": "administrativeSupport",
@@ -2157,7 +2335,9 @@
     "el": "Διοικητική υποστήριξη",
     "kk": "Әкімшілік қолдау",
     "uz": "Ma'muriy yordam koʻrsatish",
-    "ja": "事務サポート"
+    "ja": "事務サポート",
+    "id": "Dukungan administratif",
+    "hi": "प्रशासनिक सहायता"
   },
   {
     "code": "dataEntry",
@@ -2181,7 +2361,9 @@
     "el": "Καταχώριση δεδομένων",
     "kk": "Деректерді енгізу",
     "uz": "Ma'lumotlarni kiritish",
-    "ja": "データ入力"
+    "ja": "データ入力",
+    "id": "Entri data",
+    "hi": "डेटा एंट्री"
   },
   {
     "code": "frontDeskManagement",
@@ -2205,7 +2387,9 @@
     "el": "Διαχείριση ρεσεψιόν",
     "kk": "Ресепшн жұмысын басқару",
     "uz": "Qabulxona boshqaruvi",
-    "ja": "受付業務の管理"
+    "ja": "受付業務の管理",
+    "id": "Pengelolaan meja depan",
+    "hi": "स्वागत कक्ष प्रबंधन"
   },
   {
     "code": "skinCare",
@@ -2229,7 +2413,9 @@
     "el": "Περιποίηση δέρματος",
     "kk": "Тері күтімі",
     "uz": "Teriga gʻamxoʻrlik qilish",
-    "ja": "スキンケア"
+    "ja": "スキンケア",
+    "id": "Perawatan kulit",
+    "hi": "त्वचा देखभाल"
   },
   {
     "code": "facialTreatments",
@@ -2253,7 +2439,9 @@
     "el": "Θεραπείες προσώπου",
     "kk": "Бет күтімі процедуралары",
     "uz": "Yuzga parvarish qilish",
-    "ja": "フェイシャルトリートメント"
+    "ja": "フェイシャルトリートメント",
+    "id": "Perawatan wajah",
+    "hi": "चेहरे के उपचार"
   },
   {
     "code": "hairRemoval",
@@ -2277,7 +2465,9 @@
     "el": "Αποτρίχωση",
     "kk": "Түк жою",
     "uz": "Epilyatsiya",
-    "ja": "脱毛施術"
+    "ja": "脱毛施術",
+    "id": "Penghilangan bulu",
+    "hi": "बाल हटाना"
   },
   {
     "code": "makeupApplication",
@@ -2301,7 +2491,9 @@
     "el": "Εφαρμογή μακιγιάζ",
     "kk": "Макияж жасау",
     "uz": "Makiyaj qilish",
-    "ja": "メイクアップ"
+    "ja": "メイクアップ",
+    "id": "Aplikasi tata rias",
+    "hi": "मेकअप लगाना"
   },
   {
     "code": "manicurePedicure",
@@ -2325,7 +2517,9 @@
     "el": "Μανικιούρ και πεντικιούρ",
     "kk": "Маникюр және педикюр",
     "uz": "Manikyur va pedikyur",
-    "ja": "マニキュア・ペディキュア"
+    "ja": "マニキュア・ペディキュア",
+    "id": "Manikur dan pedikur",
+    "hi": "मैनीक्योर और पेडीक्योर"
   },
   {
     "code": "nailArt",
@@ -2349,7 +2543,9 @@
     "el": "Τέχνη νυχιών",
     "kk": "Нейл-арт",
     "uz": "Tirnoq san'ati",
-    "ja": "ネイルアート"
+    "ja": "ネイルアート",
+    "id": "Seni kuku",
+    "hi": "नेल आर्ट"
   },
   {
     "code": "massageTherapy",
@@ -2373,7 +2569,9 @@
     "el": "Θεραπευτικό μασάζ",
     "kk": "Массаж терапиясы",
     "uz": "Massaj terapiyasi",
-    "ja": "マッサージ療法"
+    "ja": "マッサージ療法",
+    "id": "Terapi pijat",
+    "hi": "मालिश चिकित्सा"
   },
   {
     "code": "antiAgingTreatments",
@@ -2397,7 +2595,9 @@
     "el": "Αντιγηραντικές θεραπείες",
     "kk": "Жасқа қарсы процедуралар",
     "uz": "Yoshlanishga qarshi muolajalar",
-    "ja": "エイジングケア施術"
+    "ja": "エイジングケア施術",
+    "id": "Perawatan anti-penuaan",
+    "hi": "एंटी-एजिंग उपचार"
   },
   {
     "code": "cashHandling",
@@ -2421,7 +2621,9 @@
     "el": "Διαχείριση μετρητών",
     "kk": "Қолма-қол ақшамен жұмыс",
     "uz": "Naqd pul bilan ishlash",
-    "ja": "現金取扱い"
+    "ja": "現金取扱い",
+    "id": "Penanganan uang tunai",
+    "hi": "नकद प्रबंधन"
   },
   {
     "code": "registerOperation",
@@ -2445,7 +2647,9 @@
     "el": "Χειρισμός ταμειακής μηχανής",
     "kk": "Касса операциялары",
     "uz": "Kassa apparatida ishlash",
-    "ja": "レジ操作"
+    "ja": "レジ操作",
+    "id": "Pengoperasian mesin kasir",
+    "hi": "कैश रजिस्टर संचालन"
   },
   {
     "code": "receiptIssuing",
@@ -2469,7 +2673,9 @@
     "el": "Έκδοση αποδείξεων",
     "kk": "Түбіртек беру",
     "uz": "Kvitansiya berish",
-    "ja": "領収書の発行"
+    "ja": "領収書の発行",
+    "id": "Penerbitan struk",
+    "hi": "रसीद जारी करना"
   },
   {
     "code": "paymentVerification",
@@ -2493,7 +2699,9 @@
     "el": "Επαλήθευση πληρωμών",
     "kk": "Төлемдерді тексеру",
     "uz": "Toʻlovlarni tekshirish",
-    "ja": "支払いの確認"
+    "ja": "支払いの確認",
+    "id": "Verifikasi pembayaran",
+    "hi": "भुगतान सत्यापन"
   },
   {
     "code": "inventoryManagement",
@@ -2517,7 +2725,9 @@
     "el": "Διαχείριση αποθέματος",
     "kk": "Тауар-материалдық қорды басқару",
     "uz": "Zaxiralarni boshqarish",
-    "ja": "在庫管理"
+    "ja": "在庫管理",
+    "id": "Manajemen inventaris",
+    "hi": "इन्वेंट्री प्रबंधन"
   },
   {
     "code": "balanceReconciliation",
@@ -2541,7 +2751,9 @@
     "el": "Συμφωνία υπολοίπων",
     "kk": "Баланс салыстыру",
     "uz": "Balansni solishtirish",
-    "ja": "残高照合"
+    "ja": "残高照合",
+    "id": "Rekonsiliasi saldo",
+    "hi": "शेष राशि का मिलान"
   },
   {
     "code": "stockReceiving",
@@ -2565,7 +2777,9 @@
     "el": "Παραλαβή αποθέματος",
     "kk": "Тауарды қабылдау",
     "uz": "Mahsulotlarni qabul qilish",
-    "ja": "入荷対応"
+    "ja": "入荷対応",
+    "id": "Penerimaan barang",
+    "hi": "स्टॉक प्राप्ति"
   },
   {
     "code": "orderFulfillment",
@@ -2589,7 +2803,9 @@
     "el": "Εκτέλεση παραγγελιών",
     "kk": "Тапсырысты орындау",
     "uz": "Buyurtmalarni bajarish",
-    "ja": "受注処理"
+    "ja": "受注処理",
+    "id": "Pemenuhan pesanan",
+    "hi": "ऑर्डर पूर्ति"
   },
   {
     "code": "shippingPreparation",
@@ -2613,7 +2829,9 @@
     "el": "Προετοιμασία αποστολών",
     "kk": "Жөнелтуге дайындау",
     "uz": "Joʻnatishga tayyorlash",
-    "ja": "出荷準備"
+    "ja": "出荷準備",
+    "id": "Persiapan pengiriman",
+    "hi": "शिपिंग तैयारी"
   },
   {
     "code": "qualityControl",
@@ -2637,7 +2855,9 @@
     "el": "Έλεγχος ποιότητας",
     "kk": "Сапа бақылауы",
     "uz": "Sifatni nazorat qilish",
-    "ja": "品質管理"
+    "ja": "品質管理",
+    "id": "Kendali mutu",
+    "hi": "गुणवत्ता नियंत्रण"
   },
   {
     "code": "warehouseSafety",
@@ -2661,7 +2881,9 @@
     "el": "Ασφάλεια αποθήκης",
     "kk": "Қойма қауіпсіздігі",
     "uz": "Ombor xavfsizligi",
-    "ja": "倉庫の安全管理"
+    "ja": "倉庫の安全管理",
+    "id": "Keselamatan gudang",
+    "hi": "गोदाम सुरक्षा"
   },
   {
     "code": "wiringInstallation",
@@ -2685,7 +2907,9 @@
     "el": "Εγκατάσταση καλωδίωσης",
     "kk": "Электр сымдарын орнату",
     "uz": "Elektr simlarini oʻrnatish",
-    "ja": "配線工事"
+    "ja": "配線工事",
+    "id": "Pemasangan kabel",
+    "hi": "वायरिंग स्थापना"
   },
   {
     "code": "circuitRepair",
@@ -2709,7 +2933,9 @@
     "el": "Επισκευή κυκλωμάτων",
     "kk": "Тізбекті жөндеу",
     "uz": "Elektr zanjirlarini ta'mirlash",
-    "ja": "回路修理"
+    "ja": "回路修理",
+    "id": "Perbaikan sirkuit",
+    "hi": "सर्किट मरम्मत"
   },
   {
     "code": "electricalTesting",
@@ -2733,7 +2959,9 @@
     "el": "Ηλεκτρικές δοκιμές",
     "kk": "Электрлік сынақтар",
     "uz": "Elektr sinovlari",
-    "ja": "電気試験"
+    "ja": "電気試験",
+    "id": "Pengujian kelistrikan",
+    "hi": "विद्युत परीक्षण"
   },
   {
     "code": "troubleshooting",
@@ -2757,7 +2985,9 @@
     "el": "Αντιμετώπιση βλαβών",
     "kk": "Ақаулықтарды жою",
     "uz": "Nosozliklarni bartaraf etish",
-    "ja": "トラブルシューティング"
+    "ja": "トラブルシューティング",
+    "id": "Pemecahan masalah teknis",
+    "hi": "समस्या निवारण"
   },
   {
     "code": "installationOfElectricalEquipment",
@@ -2781,7 +3011,9 @@
     "el": "Εγκατάσταση ηλεκτρολογικού εξοπλισμού",
     "kk": "Электр жабдықтарын орнату",
     "uz": "Elektr uskunalarini oʻrnatish",
-    "ja": "電気設備の設置"
+    "ja": "電気設備の設置",
+    "id": "Pemasangan peralatan listrik",
+    "hi": "विद्युत उपकरणों की स्थापना"
   },
   {
     "code": "safetyStandards",
@@ -2805,7 +3037,9 @@
     "el": "Πρότυπα ασφάλειας",
     "kk": "Қауіпсіздік стандарттары",
     "uz": "Xavfsizlik standartlari",
-    "ja": "安全基準"
+    "ja": "安全基準",
+    "id": "Standar keselamatan",
+    "hi": "सुरक्षा मानक"
   },
   {
     "code": "maintenanceOfElectricalSystems",
@@ -2829,7 +3063,9 @@
     "el": "Συντήρηση ηλεκτρικών συστημάτων",
     "kk": "Электр жүйелерін техникалық қызмет көрсету",
     "uz": "Elektr tizimlarini texnik xizmat koʻrsatish",
-    "ja": "電気システムの保守"
+    "ja": "電気システムの保守",
+    "id": "Pemeliharaan sistem kelistrikan",
+    "hi": "विद्युत प्रणालियों का रखरखाव"
   },
   {
     "code": "serverManagement",
@@ -2853,7 +3089,9 @@
     "el": "Διαχείριση διακομιστών",
     "kk": "Серверді басқару",
     "uz": "Serverni boshqarish",
-    "ja": "サーバー管理"
+    "ja": "サーバー管理",
+    "id": "Pengelolaan server",
+    "hi": "सर्वर प्रबंधन"
   },
   {
     "code": "networkConfiguration",
@@ -2877,7 +3115,9 @@
     "el": "Διαμόρφωση δικτύου",
     "kk": "Желі конфигурациясы",
     "uz": "Tarmoqni sozlash",
-    "ja": "ネットワーク構築"
+    "ja": "ネットワーク構築",
+    "id": "Konfigurasi jaringan",
+    "hi": "नेटवर्क कॉन्फ़िगरेशन"
   },
   {
     "code": "databaseManagement",
@@ -2901,7 +3141,9 @@
     "el": "Διαχείριση βάσεων δεδομένων",
     "kk": "Дерекқорды басқару",
     "uz": "Ma'lumotlar bazasini boshqarish",
-    "ja": "データベース管理"
+    "ja": "データベース管理",
+    "id": "Manajemen basis data",
+    "hi": "डेटाबेस प्रबंधन"
   },
   {
     "code": "systemMonitoring",
@@ -2925,7 +3167,9 @@
     "el": "Παρακολούθηση συστημάτων",
     "kk": "Жүйені бақылау",
     "uz": "Tizimni kuzatish",
-    "ja": "システム監視"
+    "ja": "システム監視",
+    "id": "Pemantauan sistem",
+    "hi": "सिस्टम निगरानी"
   },
   {
     "code": "securityManagement",
@@ -2949,7 +3193,9 @@
     "el": "Διαχείριση ασφάλειας",
     "kk": "Қауіпсіздікті басқару",
     "uz": "Xavfsizlikni boshqarish",
-    "ja": "セキュリティ管理"
+    "ja": "セキュリティ管理",
+    "id": "Manajemen keamanan",
+    "hi": "सुरक्षा प्रबंधन"
   },
   {
     "code": "backupAndRecovery",
@@ -2973,7 +3219,9 @@
     "el": "Αντίγραφα ασφαλείας και αποκατάσταση",
     "kk": "Сақтық көшірме және қалпына келтіру",
     "uz": "Zaxira nusxa olish va tiklash",
-    "ja": "バックアップと復旧"
+    "ja": "バックアップと復旧",
+    "id": "Pencadangan dan pemulihan data",
+    "hi": "बैकअप और रिकवरी"
   },
   {
     "code": "softwareInstallation",
@@ -2997,7 +3245,9 @@
     "el": "Εγκατάσταση λογισμικού",
     "kk": "Бағдарламалық жасақтаманы орнату",
     "uz": "Dasturiy ta'minotni oʻrnatish",
-    "ja": "ソフトウェアの導入"
+    "ja": "ソフトウェアの導入",
+    "id": "Instalasi perangkat lunak",
+    "hi": "सॉफ़्टवेयर स्थापना"
   },
   {
     "code": "productDisplay",
@@ -3021,7 +3271,9 @@
     "el": "Παρουσίαση προϊόντων",
     "kk": "Тауарды витринаға қою",
     "uz": "Mahsulotlarni namoyish qilish",
-    "ja": "商品陳列"
+    "ja": "商品陳列",
+    "id": "Penataan produk",
+    "hi": "उत्पाद प्रदर्शन"
   },
   {
     "code": "stockOrganization",
@@ -3045,7 +3297,9 @@
     "el": "Οργάνωση αποθέματος",
     "kk": "Тауар қорын ұйымдастыру",
     "uz": "Zaxiralarni tashkil etish",
-    "ja": "在庫整理"
+    "ja": "在庫整理",
+    "id": "Pengorganisasian stok",
+    "hi": "स्टॉक व्यवस्थापन"
   },
   {
     "code": "salesOptimization",
@@ -3069,7 +3323,9 @@
     "el": "Βελτιστοποίηση πωλήσεων",
     "kk": "Сатуды оптимизациялау",
     "uz": "Sotishni optimallashtirish",
-    "ja": "販売の最適化"
+    "ja": "販売の最適化",
+    "id": "Optimalisasi penjualan",
+    "hi": "बिक्री अनुकूलन"
   },
   {
     "code": "salesAnalysis",
@@ -3093,7 +3349,9 @@
     "el": "Ανάλυση πωλήσεων",
     "kk": "Сату талдауы",
     "uz": "Sotish tahlili",
-    "ja": "売上分析"
+    "ja": "売上分析",
+    "id": "Analisis penjualan",
+    "hi": "बिक्री विश्लेषण"
   },
   {
     "code": "promotionalActivities",
@@ -3117,7 +3375,9 @@
     "el": "Προωθητικές ενέργειες",
     "kk": "Жарнамалық іс-шаралар",
     "uz": "Reklama tadbirlari",
-    "ja": "販促活動"
+    "ja": "販促活動",
+    "id": "Kegiatan promosi",
+    "hi": "प्रचार गतिविधियाँ"
   },
   {
     "code": "customerEngagement",
@@ -3141,7 +3401,9 @@
     "el": "Δέσμευση πελατών",
     "kk": "Клиенттермен байланыс орнату",
     "uz": "Mijozlar bilan aloqa oʻrnatish",
-    "ja": "顧客との関係構築"
+    "ja": "顧客との関係構築",
+    "id": "Keterlibatan pelanggan",
+    "hi": "ग्राहक जुड़ाव"
   },
   {
     "code": "culinarySkills",
@@ -3165,7 +3427,9 @@
     "el": "Μαγειρικές δεξιότητες",
     "kk": "Аспаздық дағдылар",
     "uz": "Oshpazlik koʻnikmalari",
-    "ja": "調理技術"
+    "ja": "調理技術",
+    "id": "Keterampilan kuliner",
+    "hi": "पाक कला कौशल"
   },
   {
     "code": "menuPlanning",
@@ -3189,7 +3453,9 @@
     "el": "Σχεδιασμός μενού",
     "kk": "Мәзірді жоспарлау",
     "uz": "Menyu tuzish",
-    "ja": "メニュー考案"
+    "ja": "メニュー考案",
+    "id": "Perencanaan menu",
+    "hi": "मेनू योजना"
   },
   {
     "code": "foodPreparation",
@@ -3213,7 +3479,9 @@
     "el": "Προετοιμασία φαγητού",
     "kk": "Тағам дайындау",
     "uz": "Taom tayyorlash",
-    "ja": "食材の仕込み"
+    "ja": "食材の仕込み",
+    "id": "Persiapan makanan",
+    "hi": "भोजन तैयार करना"
   },
   {
     "code": "foodPresentation",
@@ -3237,7 +3505,9 @@
     "el": "Παρουσίαση φαγητού",
     "kk": "Тағамды безендіру",
     "uz": "Taomni bezash",
-    "ja": "料理の盛り付け"
+    "ja": "料理の盛り付け",
+    "id": "Penyajian makanan",
+    "hi": "भोजन प्रस्तुति"
   },
   {
     "code": "kitchenManagement",
@@ -3261,7 +3531,9 @@
     "el": "Διαχείριση κουζίνας",
     "kk": "Ас үй жұмысын басқару",
     "uz": "Oshxona boshqaruvi",
-    "ja": "厨房管理"
+    "ja": "厨房管理",
+    "id": "Manajemen dapur",
+    "hi": "रसोई प्रबंधन"
   },
   {
     "code": "teamCoordination",
@@ -3285,7 +3557,9 @@
     "el": "Συντονισμός ομάδας",
     "kk": "Команданы үйлестіру",
     "uz": "Jamoa faoliyatini muvofiqlashtirish",
-    "ja": "チーム調整"
+    "ja": "チーム調整",
+    "id": "Koordinasi tim",
+    "hi": "टीम समन्वय"
   },
   {
     "code": "routeOptimization",
@@ -3309,7 +3583,9 @@
     "el": "Βελτιστοποίηση διαδρομών",
     "kk": "Бағытты оптимизациялау",
     "uz": "Marshrutni optimallashtirish",
-    "ja": "配送ルートの最適化"
+    "ja": "配送ルートの最適化",
+    "id": "Optimalisasi rute",
+    "hi": "मार्ग अनुकूलन"
   },
   {
     "code": "supplyChainManagement",
@@ -3333,7 +3609,9 @@
     "el": "Διαχείριση εφοδιαστικής αλυσίδας",
     "kk": "Жеткізу тізбегін басқару",
     "uz": "Ta'minot zanjirini boshqarish",
-    "ja": "サプライチェーン管理"
+    "ja": "サプライチェーン管理",
+    "id": "Manajemen rantai pasok",
+    "hi": "आपूर्ति श्रृंखला प्रबंधन"
   },
   {
     "code": "transportationPlanning",
@@ -3357,7 +3635,9 @@
     "el": "Σχεδιασμός μεταφορών",
     "kk": "Тасымалдауды жоспарлау",
     "uz": "Transportni rejalashtirish",
-    "ja": "輸送計画"
+    "ja": "輸送計画",
+    "id": "Perencanaan transportasi",
+    "hi": "परिवहन योजना"
   },
   {
     "code": "freightManagement",
@@ -3381,7 +3661,9 @@
     "el": "Διαχείριση φορτίων",
     "kk": "Жүк тасымалын басқару",
     "uz": "Yuk tashish boshqaruvi",
-    "ja": "貨物管理"
+    "ja": "貨物管理",
+    "id": "Manajemen pengangkutan barang",
+    "hi": "माल ढुलाई प्रबंधन"
   },
   {
     "code": "logisticsAnalysis",
@@ -3405,7 +3687,9 @@
     "el": "Ανάλυση εφοδιαστικής",
     "kk": "Логистикалық талдау",
     "uz": "Logistika tahlili",
-    "ja": "物流分析"
+    "ja": "物流分析",
+    "id": "Analisis logistik",
+    "hi": "रसद विश्लेषण"
   },
   {
     "code": "trafficFlowAnalysis",
@@ -3429,7 +3713,9 @@
     "el": "Ανάλυση ροής κυκλοφορίας",
     "kk": "Көлік ағынын талдау",
     "uz": "Transport oqimini tahlil qilish",
-    "ja": "交通流分析"
+    "ja": "交通流分析",
+    "id": "Analisis arus lalu lintas",
+    "hi": "यातायात प्रवाह विश्लेषण"
   },
   {
     "code": "costOptimization",
@@ -3453,7 +3739,9 @@
     "el": "Βελτιστοποίηση κόστους",
     "kk": "Шығындарды оптимизациялау",
     "uz": "Xarajatlarni optimallashtirish",
-    "ja": "コスト最適化"
+    "ja": "コスト最適化",
+    "id": "Optimalisasi biaya",
+    "hi": "लागत अनुकूलन"
   },
   {
     "code": "graphicDesign",
@@ -3477,7 +3765,9 @@
     "el": "Γραφιστικός σχεδιασμός",
     "kk": "Графикалық дизайн",
     "uz": "Grafik dizayn",
-    "ja": "グラフィックデザイン"
+    "ja": "グラフィックデザイン",
+    "id": "Desain grafis",
+    "hi": "ग्राफ़िक डिज़ाइन"
   },
   {
     "code": "visualCommunication",
@@ -3501,7 +3791,9 @@
     "el": "Οπτική επικοινωνία",
     "kk": "Визуалды коммуникация",
     "uz": "Vizual muloqot",
-    "ja": "ビジュアルコミュニケーション"
+    "ja": "ビジュアルコミュニケーション",
+    "id": "Komunikasi visual",
+    "hi": "दृश्य संचार"
   },
   {
     "code": "typography",
@@ -3525,7 +3817,9 @@
     "el": "Τυπογραφία",
     "kk": "Типографика",
     "uz": "Tipografiya",
-    "ja": "タイポグラフィ"
+    "ja": "タイポグラフィ",
+    "id": "Tipografi",
+    "hi": "टाइपोग्राफी"
   },
   {
     "code": "webDesign",
@@ -3549,7 +3843,9 @@
     "el": "Σχεδιασμός ιστοσελίδων",
     "kk": "Веб-дизайн",
     "uz": "Veb-dizayn",
-    "ja": "ウェブデザイン"
+    "ja": "ウェブデザイン",
+    "id": "Desain web",
+    "hi": "वेब डिज़ाइन"
   },
   {
     "code": "userExperience",
@@ -3573,7 +3869,9 @@
     "el": "Εμπειρία χρήστη",
     "kk": "Пайдаланушы тәжірибесі",
     "uz": "Foydalanuvchi tajribasi (UX)",
-    "ja": "ユーザーエクスペリエンス"
+    "ja": "ユーザーエクスペリエンス",
+    "id": "Pengalaman pengguna",
+    "hi": "उपयोगकर्ता अनुभव"
   },
   {
     "code": "colorTheory",
@@ -3597,7 +3895,9 @@
     "el": "Θεωρία χρωμάτων",
     "kk": "Түс теориясы",
     "uz": "Rang nazariyasi",
-    "ja": "色彩理論"
+    "ja": "色彩理論",
+    "id": "Teori warna",
+    "hi": "रंग सिद्धांत"
   },
   {
     "code": "photoshopSkills",
@@ -3621,7 +3921,9 @@
     "el": "Δεξιότητες Photoshop",
     "kk": "Photoshop дағдылары",
     "uz": "Photoshop koʻnikmalari",
-    "ja": "Photoshop操作"
+    "ja": "Photoshop操作",
+    "id": "Keterampilan Photoshop",
+    "hi": "Photoshop कौशल"
   },
   {
     "code": "illustration",
@@ -3645,7 +3947,9 @@
     "el": "Εικονογράφηση",
     "kk": "Иллюстрация",
     "uz": "Illyustratsiya",
-    "ja": "イラストレーション"
+    "ja": "イラストレーション",
+    "id": "Ilustrasi",
+    "hi": "चित्रांकन"
   },
   {
     "code": "serverSideProgramming",
@@ -3669,7 +3973,9 @@
     "el": "Προγραμματισμός στην πλευρά του διακομιστή",
     "kk": "Сервер жағында бағдарламалау",
     "uz": "Server tomonidagi dasturlash",
-    "ja": "サーバーサイド開発"
+    "ja": "サーバーサイド開発",
+    "id": "Pemrograman sisi server",
+    "hi": "सर्वर-साइड प्रोग्रामिंग"
   },
   {
     "code": "apiDevelopment",
@@ -3693,7 +3999,9 @@
     "el": "Ανάπτυξη API",
     "kk": "API әзірлеу",
     "uz": "API ishlab chiqish",
-    "ja": "API開発"
+    "ja": "API開発",
+    "id": "Pengembangan API",
+    "hi": "API विकास"
   },
   {
     "code": "versionControl",
@@ -3717,7 +4025,9 @@
     "el": "Έλεγχος εκδόσεων",
     "kk": "Нұсқаларды бақылау",
     "uz": "Versiyalarni boshqarish",
-    "ja": "バージョン管理"
+    "ja": "バージョン管理",
+    "id": "Kontrol versi",
+    "hi": "संस्करण नियंत्रण"
   },
   {
     "code": "cloudIntegration",
@@ -3741,7 +4051,9 @@
     "el": "Ενσωμάτωση υπηρεσιών νέφους",
     "kk": "Бұлтты интеграция",
     "uz": "Bulutli integratsiya",
-    "ja": "クラウド連携"
+    "ja": "クラウド連携",
+    "id": "Integrasi cloud",
+    "hi": "क्लाउड एकीकरण"
   },
   {
     "code": "performanceOptimization",
@@ -3765,7 +4077,9 @@
     "el": "Βελτιστοποίηση απόδοσης",
     "kk": "Өнімділікті оптимизациялау",
     "uz": "Unumdorlikni optimallashtirish",
-    "ja": "パフォーマンス最適化"
+    "ja": "パフォーマンス最適化",
+    "id": "Optimalisasi kinerja",
+    "hi": "प्रदर्शन अनुकूलन"
   },
   {
     "code": "errorHandling",
@@ -3789,7 +4103,9 @@
     "el": "Διαχείριση σφαλμάτων",
     "kk": "Қателерді өңдеу",
     "uz": "Xatolarni boshqarish",
-    "ja": "エラー処理"
+    "ja": "エラー処理",
+    "id": "Penanganan kesalahan",
+    "hi": "त्रुटि प्रबंधन"
   },
   {
     "code": "containerization",
@@ -3813,7 +4129,9 @@
     "el": "Τεχνολογία περιεκτών",
     "kk": "Контейнерлеу",
     "uz": "Konteynerlashtirish",
-    "ja": "コンテナ化"
+    "ja": "コンテナ化",
+    "id": "Kontainerisasi",
+    "hi": "कंटेनरीकरण"
   },
   {
     "code": "environmentalImpactAssessment",
@@ -3837,7 +4155,9 @@
     "el": "Εκτίμηση περιβαλλοντικών επιπτώσεων",
     "kk": "Қоршаған ортаға әсерді бағалау",
     "uz": "Ekologik ta'sirni baholash",
-    "ja": "環境影響評価"
+    "ja": "環境影響評価",
+    "id": "Penilaian dampak lingkungan",
+    "hi": "पर्यावरणीय प्रभाव मूल्यांकन"
   },
   {
     "code": "wasteManagement",
@@ -3861,7 +4181,9 @@
     "el": "Διαχείριση αποβλήτων",
     "kk": "Қалдықтарды басқару",
     "uz": "Chiqindilarni boshqarish",
-    "ja": "廃棄物管理"
+    "ja": "廃棄物管理",
+    "id": "Pengelolaan limbah",
+    "hi": "अपशिष्ट प्रबंधन"
   },
   {
     "code": "pollutionControl",
@@ -3885,7 +4207,9 @@
     "el": "Έλεγχος ρύπανσης",
     "kk": "Ластануды бақылау",
     "uz": "Ifloslanishni nazorat qilish",
-    "ja": "汚染防止"
+    "ja": "汚染防止",
+    "id": "Pengendalian pencemaran",
+    "hi": "प्रदूषण नियंत्रण"
   },
   {
     "code": "waterQualityManagement",
@@ -3909,7 +4233,9 @@
     "el": "Διαχείριση ποιότητας νερού",
     "kk": "Су сапасын басқару",
     "uz": "Suv sifatini boshqarish",
-    "ja": "水質管理"
+    "ja": "水質管理",
+    "id": "Manajemen kualitas air",
+    "hi": "जल गुणवत्ता प्रबंधन"
   },
   {
     "code": "energyEfficiency",
@@ -3933,7 +4259,9 @@
     "el": "Ενεργειακή απόδοση",
     "kk": "Энергия тиімділігі",
     "uz": "Energiya samaradorligi",
-    "ja": "省エネルギー"
+    "ja": "省エネルギー",
+    "id": "Efisiensi energi",
+    "hi": "ऊर्जा दक्षता"
   },
   {
     "code": "ecosystemManagement",
@@ -3957,7 +4285,9 @@
     "el": "Διαχείριση οικοσυστήματος",
     "kk": "Экожүйелерді басқару",
     "uz": "Ekotizimni boshqarish",
-    "ja": "生態系管理"
+    "ja": "生態系管理",
+    "id": "Manajemen ekosistem",
+    "hi": "पारिस्थितिकी तंत्र प्रबंधन"
   },
   {
     "code": "legalResearch",
@@ -3981,7 +4311,9 @@
     "el": "Νομική έρευνα",
     "kk": "Құқықтық зерттеу",
     "uz": "Huquqiy tadqiqot",
-    "ja": "法務調査"
+    "ja": "法務調査",
+    "id": "Riset hukum",
+    "hi": "विधिक शोध"
   },
   {
     "code": "contractDrafting",
@@ -4005,7 +4337,9 @@
     "el": "Σύνταξη συμβάσεων",
     "kk": "Келісімшарт жасау",
     "uz": "Shartnoma tuzish",
-    "ja": "契約書の作成"
+    "ja": "契約書の作成",
+    "id": "Penyusunan kontrak",
+    "hi": "अनुबंध प्रारूपण"
   },
   {
     "code": "litigation",
@@ -4029,7 +4363,9 @@
     "el": "Διεξαγωγή δικών",
     "kk": "Сот талқылауы",
     "uz": "Sud ishlarini yuritish",
-    "ja": "訴訟対応"
+    "ja": "訴訟対応",
+    "id": "Perkara pengadilan",
+    "hi": "मुकदमेबाज़ी"
   },
   {
     "code": "legalAdvisory",
@@ -4053,7 +4389,9 @@
     "el": "Νομικές συμβουλές",
     "kk": "Құқықтық кеңес беру",
     "uz": "Huquqiy maslahat",
-    "ja": "法務助言"
+    "ja": "法務助言",
+    "id": "Konsultasi hukum",
+    "hi": "विधिक सलाह"
   },
   {
     "code": "disputeResolution",
@@ -4077,7 +4415,9 @@
     "el": "Επίλυση διαφορών",
     "kk": "Дауларды шешу",
     "uz": "Nizolarni hal qilish",
-    "ja": "紛争解決"
+    "ja": "紛争解決",
+    "id": "Penyelesaian sengketa",
+    "hi": "विवाद समाधान"
   },
   {
     "code": "intellectualProperty",
@@ -4101,7 +4441,9 @@
     "el": "Πνευματική ιδιοκτησία",
     "kk": "Зияткерлік меншік",
     "uz": "Intellektual mulk",
-    "ja": "知的財産"
+    "ja": "知的財産",
+    "id": "Kekayaan intelektual",
+    "hi": "बौद्धिक संपदा"
   },
   {
     "code": "riskAssessment",
@@ -4125,7 +4467,9 @@
     "el": "Εκτίμηση κινδύνου",
     "kk": "Тәуекелдерді бағалау",
     "uz": "Xavflarni baholash",
-    "ja": "リスク評価"
+    "ja": "リスク評価",
+    "id": "Penilaian risiko",
+    "hi": "जोखिम मूल्यांकन"
   },
   {
     "code": "claimsProcessing",
@@ -4149,7 +4493,9 @@
     "el": "Επεξεργασία αποζημιώσεων",
     "kk": "Шағымдарды өңдеу",
     "uz": "Da'volarni koʻrib chiqish",
-    "ja": "保険金請求の処理"
+    "ja": "保険金請求の処理",
+    "id": "Pemrosesan klaim",
+    "hi": "दावा प्रसंस्करण"
   },
   {
     "code": "customerConsultation",
@@ -4173,7 +4519,9 @@
     "el": "Συμβουλευτική πελατών",
     "kk": "Клиенттерге кеңес беру",
     "uz": "Mijozlarga maslahat berish",
-    "ja": "顧客コンサルティング"
+    "ja": "顧客コンサルティング",
+    "id": "Konsultasi pelanggan",
+    "hi": "ग्राहक परामर्श"
   },
   {
     "code": "insuranceRegulations",
@@ -4197,7 +4545,9 @@
     "el": "Κανονισμοί ασφάλισης",
     "kk": "Сақтандыру нормалары",
     "uz": "Sugʻurta qoidalari",
-    "ja": "保険規制"
+    "ja": "保険規制",
+    "id": "Regulasi asuransi",
+    "hi": "बीमा नियमावली"
   },
   {
     "code": "premiumCalculation",
@@ -4221,7 +4571,9 @@
     "el": "Υπολογισμός ασφαλίστρων",
     "kk": "Сақтандыру сыйақысын есептеу",
     "uz": "Sugʻurta mukofotini hisoblash",
-    "ja": "保険料の算定"
+    "ja": "保険料の算定",
+    "id": "Perhitungan premi",
+    "hi": "प्रीमियम गणना"
   },
   {
     "code": "policyRenewal",
@@ -4245,7 +4597,9 @@
     "el": "Ανανέωση ασφαλιστικών συμβολαίων",
     "kk": "Сақтандыру полисін жаңарту",
     "uz": "Sugʻurta polisini yangilash",
-    "ja": "契約更新"
+    "ja": "契約更新",
+    "id": "Perpanjangan polis",
+    "hi": "पॉलिसी नवीनीकरण"
   },
   {
     "code": "testPlanning",
@@ -4269,7 +4623,9 @@
     "el": "Σχεδιασμός δοκιμών",
     "kk": "Тестілеуді жоспарлау",
     "uz": "Test rejalashtirish",
-    "ja": "テスト計画"
+    "ja": "テスト計画",
+    "id": "Perencanaan pengujian",
+    "hi": "परीक्षण योजना"
   },
   {
     "code": "manualTesting",
@@ -4293,7 +4649,9 @@
     "el": "Χειροκίνητος έλεγχος",
     "kk": "Қолмен тестілеу",
     "uz": "Qoʻlda test qilish",
-    "ja": "手動テスト"
+    "ja": "手動テスト",
+    "id": "Pengujian manual",
+    "hi": "मैनुअल परीक्षण"
   },
   {
     "code": "automatedTesting",
@@ -4317,7 +4675,9 @@
     "el": "Αυτοματοποιημένος έλεγχος",
     "kk": "Автоматтандырылған тестілеу",
     "uz": "Avtomatlashtirilgan test qilish",
-    "ja": "自動テスト"
+    "ja": "自動テスト",
+    "id": "Pengujian otomatis",
+    "hi": "स्वचालित परीक्षण"
   },
   {
     "code": "performanceTesting",
@@ -4341,7 +4701,9 @@
     "el": "Δοκιμή απόδοσης",
     "kk": "Өнімділік тестілеуі",
     "uz": "Unumdorlik testi",
-    "ja": "性能テスト"
+    "ja": "性能テスト",
+    "id": "Pengujian kinerja",
+    "hi": "प्रदर्शन परीक्षण"
   },
   {
     "code": "regressionTesting",
@@ -4365,7 +4727,9 @@
     "el": "Δοκιμή παλινδρόμησης",
     "kk": "Регрессиялық тестілеу",
     "uz": "Regressiya testi",
-    "ja": "回帰テスト"
+    "ja": "回帰テスト",
+    "id": "Pengujian regresi",
+    "hi": "रिग्रेशन परीक्षण"
   },
   {
     "code": "testAutomationTools",
@@ -4389,7 +4753,9 @@
     "el": "Εργαλεία αυτοματισμού δοκιμών",
     "kk": "Тестілеуді автоматтандыру құралдары",
     "uz": "Test avtomatlashtirish vositalari",
-    "ja": "テスト自動化ツール"
+    "ja": "テスト自動化ツール",
+    "id": "Alat otomatisasi pengujian",
+    "hi": "परीक्षण स्वचालन उपकरण"
   },
   {
     "code": "continuousIntegration",
@@ -4413,7 +4779,9 @@
     "el": "Συνεχής ενσωμάτωση",
     "kk": "Үзіліссіз интеграция",
     "uz": "Uzluksiz integratsiya",
-    "ja": "継続的インテグレーション"
+    "ja": "継続的インテグレーション",
+    "id": "Integrasi berkelanjutan",
+    "hi": "सतत एकीकरण"
   },
   {
     "code": "qualityStandards",
@@ -4437,7 +4805,9 @@
     "el": "Πρότυπα ποιότητας",
     "kk": "Сапа стандарттары",
     "uz": "Sifat standartlari",
-    "ja": "品質基準"
+    "ja": "品質基準",
+    "id": "Standar mutu",
+    "hi": "गुणवत्ता मानक"
   },
   {
     "code": "campaignStrategy",
@@ -4461,7 +4831,9 @@
     "el": "Στρατηγική καμπάνιας",
     "kk": "Кампания стратегиясы",
     "uz": "Kampaniya strategiyasi",
-    "ja": "キャンペーン戦略"
+    "ja": "キャンペーン戦略",
+    "id": "Strategi kampanye",
+    "hi": "अभियान रणनीति"
   },
   {
     "code": "budgetManagement",
@@ -4485,7 +4857,9 @@
     "el": "Διαχείριση προϋπολογισμού",
     "kk": "Бюджетті басқару",
     "uz": "Byudjetni boshqarish",
-    "ja": "予算管理"
+    "ja": "予算管理",
+    "id": "Manajemen anggaran",
+    "hi": "बजट प्रबंधन"
   },
   {
     "code": "marketResearch",
@@ -4509,7 +4883,9 @@
     "el": "Έρευνα αγοράς",
     "kk": "Нарықты зерттеу",
     "uz": "Bozor tadqiqoti",
-    "ja": "市場調査"
+    "ja": "市場調査",
+    "id": "Riset pasar",
+    "hi": "बाज़ार अनुसंधान"
   },
   {
     "code": "mediaPlanning",
@@ -4533,7 +4909,9 @@
     "el": "Σχεδιασμός μέσων",
     "kk": "Медиа жоспарлау",
     "uz": "Media rejalashtirish",
-    "ja": "メディアプランニング"
+    "ja": "メディアプランニング",
+    "id": "Perencanaan media",
+    "hi": "मीडिया योजना"
   },
   {
     "code": "advertisingChannels",
@@ -4557,7 +4935,9 @@
     "el": "Διαφημιστικά κανάλια",
     "kk": "Жарнама арналары",
     "uz": "Reklama kanallari",
-    "ja": "広告チャネル"
+    "ja": "広告チャネル",
+    "id": "Kanal periklanan",
+    "hi": "विज्ञापन चैनल"
   },
   {
     "code": "digitalMarketing",
@@ -4581,7 +4961,9 @@
     "el": "Ψηφιακό μάρκετινγκ",
     "kk": "Цифрлық маркетинг",
     "uz": "Raqamli marketing",
-    "ja": "デジタルマーケティング"
+    "ja": "デジタルマーケティング",
+    "id": "Pemasaran digital",
+    "hi": "डिजिटल मार्केटिंग"
   },
   {
     "code": "brandAwareness",
@@ -4605,7 +4987,9 @@
     "el": "Αναγνωρισιμότητα μάρκας",
     "kk": "Бренд танылуы",
     "uz": "Brendni tanitish",
-    "ja": "ブランド認知"
+    "ja": "ブランド認知",
+    "id": "Kesadaran merek",
+    "hi": "ब्रांड जागरूकता"
   },
   {
     "code": "socialMediaMarketing",
@@ -4629,7 +5013,9 @@
     "el": "Μάρκετινγκ μέσων κοινωνικής δικτύωσης",
     "kk": "Әлеуметтік желілерде маркетинг жүргізу",
     "uz": "Ijtimoiy tarmoqlar marketingi",
-    "ja": "ソーシャルメディアマーケティング"
+    "ja": "ソーシャルメディアマーケティング",
+    "id": "Pemasaran media sosial",
+    "hi": "सोशल मीडिया मार्केटिंग"
   },
   {
     "code": "contentCreation",
@@ -4653,7 +5039,9 @@
     "el": "Δημιουργία περιεχομένου",
     "kk": "Контент жасау",
     "uz": "Kontent yaratish",
-    "ja": "コンテンツ制作"
+    "ja": "コンテンツ制作",
+    "id": "Pembuatan konten",
+    "hi": "सामग्री निर्माण"
   },
   {
     "code": "advertisingMetrics",
@@ -4677,7 +5065,9 @@
     "el": "Μετρήσεις διαφήμισης",
     "kk": "Жарнама метрикалары",
     "uz": "Reklama koʻrsatkichlari",
-    "ja": "広告効果測定"
+    "ja": "広告効果測定",
+    "id": "Metrik periklanan",
+    "hi": "विज्ञापन मेट्रिक्स"
   },
   {
     "code": "politicalTheory",
@@ -4701,7 +5091,9 @@
     "el": "Πολιτική θεωρία",
     "kk": "Саяси теория",
     "uz": "Siyosiy nazariya",
-    "ja": "政治理論"
+    "ja": "政治理論",
+    "id": "Teori politik",
+    "hi": "राजनीतिक सिद्धांत"
   },
   {
     "code": "comparativePolitics",
@@ -4725,7 +5117,9 @@
     "el": "Συγκριτική πολιτική",
     "kk": "Салыстырмалы саясаттану",
     "uz": "Qiyosiy siyosatshunoslik",
-    "ja": "比較政治学"
+    "ja": "比較政治学",
+    "id": "Politik komparatif",
+    "hi": "तुलनात्मक राजनीति"
   },
   {
     "code": "internationalRelations",
@@ -4749,7 +5143,9 @@
     "el": "Διεθνείς σχέσεις",
     "kk": "Халықаралық қатынастар",
     "uz": "Xalqaro munosabatlar",
-    "ja": "国際関係"
+    "ja": "国際関係",
+    "id": "Hubungan internasional",
+    "hi": "अंतरराष्ट्रीय संबंध"
   },
   {
     "code": "politicalResearch",
@@ -4773,7 +5169,9 @@
     "el": "Πολιτική έρευνα",
     "kk": "Саяси зерттеу",
     "uz": "Siyosiy tadqiqot",
-    "ja": "政治調査"
+    "ja": "政治調査",
+    "id": "Riset politik",
+    "hi": "राजनीतिक शोध"
   },
   {
     "code": "publicPolicy",
@@ -4797,7 +5195,9 @@
     "el": "Δημόσια πολιτική",
     "kk": "Мемлекеттік саясат",
     "uz": "Davlat siyosati",
-    "ja": "公共政策"
+    "ja": "公共政策",
+    "id": "Kebijakan publik",
+    "hi": "लोक नीति"
   },
   {
     "code": "politicalCommunication",
@@ -4821,7 +5221,9 @@
     "el": "Πολιτική επικοινωνία",
     "kk": "Саяси коммуникация",
     "uz": "Siyosiy kommunikatsiya",
-    "ja": "政治コミュニケーション"
+    "ja": "政治コミュニケーション",
+    "id": "Komunikasi politik",
+    "hi": "राजनीतिक संचार"
   },
   {
     "code": "electionAnalysis",
@@ -4845,7 +5247,9 @@
     "el": "Ανάλυση εκλογών",
     "kk": "Сайлау талдауы",
     "uz": "Saylov tahlili",
-    "ja": "選挙分析"
+    "ja": "選挙分析",
+    "id": "Analisis pemilu",
+    "hi": "चुनाव विश्लेषण"
   },
   {
     "code": "politicalEconomy",
@@ -4869,7 +5273,9 @@
     "el": "Πολιτική οικονομία",
     "kk": "Саяси экономика",
     "uz": "Siyosiy iqtisod",
-    "ja": "政治経済"
+    "ja": "政治経済",
+    "id": "Ekonomi politik",
+    "hi": "राजनीतिक अर्थव्यवस्था"
   },
   {
     "code": "supplierManagement",
@@ -4893,7 +5299,9 @@
     "el": "Διαχείριση προμηθευτών",
     "kk": "Жеткізушілерді басқару",
     "uz": "Yetkazib beruvchilarni boshqarish",
-    "ja": "サプライヤー管理"
+    "ja": "サプライヤー管理",
+    "id": "Manajemen pemasok",
+    "hi": "आपूर्तिकर्ता प्रबंधन"
   },
   {
     "code": "contractNegotiation",
@@ -4917,7 +5325,9 @@
     "el": "Διαπραγμάτευση συμβάσεων",
     "kk": "Келісімшарт бойынша келіссөздер",
     "uz": "Shartnoma muzokaralari",
-    "ja": "契約交渉"
+    "ja": "契約交渉",
+    "id": "Negosiasi kontrak",
+    "hi": "अनुबंध वार्ता"
   },
   {
     "code": "inventoryControl",
@@ -4941,7 +5351,9 @@
     "el": "Έλεγχος αποθέματος",
     "kk": "Қорларды бақылау",
     "uz": "Zaxiralarni nazorat qilish",
-    "ja": "在庫統制"
+    "ja": "在庫統制",
+    "id": "Pengendalian persediaan",
+    "hi": "इन्वेंट्री नियंत्रण"
   },
   {
     "code": "vendorSelection",
@@ -4965,7 +5377,9 @@
     "el": "Επιλογή προμηθευτών",
     "kk": "Жеткізушіні таңдау",
     "uz": "Yetkazib beruvchini tanlash",
-    "ja": "取引先の選定"
+    "ja": "取引先の選定",
+    "id": "Pemilihan pemasok",
+    "hi": "विक्रेता चयन"
   },
   {
     "code": "sustainabilityPurchasing",
@@ -4989,7 +5403,9 @@
     "el": "Βιώσιμες προμήθειες",
     "kk": "Тұрақты сатып алулар",
     "uz": "Barqaror xaridlar",
-    "ja": "持続可能な調達"
+    "ja": "持続可能な調達",
+    "id": "Pembelian berkelanjutan",
+    "hi": "सतत खरीद"
   },
   {
     "code": "communityEngagement",
@@ -5013,7 +5429,9 @@
     "el": "Εμπλοκή κοινότητας",
     "kk": "Қоғамдастықпен өзара іс-қимыл",
     "uz": "Jamoatchilik bilan ishlash",
-    "ja": "地域との連携"
+    "ja": "地域との連携",
+    "id": "Keterlibatan masyarakat",
+    "hi": "सामुदायिक सहभागिता"
   },
   {
     "code": "eventCoordination",
@@ -5037,7 +5455,9 @@
     "el": "Συντονισμός εκδηλώσεων",
     "kk": "Іс-шараларды үйлестіру",
     "uz": "Tadbirlarni muvofiqlashtirish",
-    "ja": "イベント運営"
+    "ja": "イベント運営",
+    "id": "Koordinasi acara",
+    "hi": "कार्यक्रम समन्वय"
   },
   {
     "code": "teamCollaboration",
@@ -5061,7 +5481,9 @@
     "el": "Ομαδική συνεργασία",
     "kk": "Командамен бірлесіп жұмыс істеу",
     "uz": "Jamoada hamkorlik",
-    "ja": "チーム連携"
+    "ja": "チーム連携",
+    "id": "Kolaborasi tim",
+    "hi": "टीम सहयोग"
   },
   {
     "code": "communicationSkills",
@@ -5085,7 +5507,9 @@
     "el": "Επικοινωνιακές δεξιότητες",
     "kk": "Қарым-қатынас дағдылары",
     "uz": "Muloqot koʻnikmalari",
-    "ja": "コミュニケーション能力"
+    "ja": "コミュニケーション能力",
+    "id": "Keterampilan komunikasi",
+    "hi": "संचार कौशल"
   },
   {
     "code": "fundraising",
@@ -5109,7 +5533,9 @@
     "el": "Άντληση χορηγιών",
     "kk": "Қаражат жинау",
     "uz": "Mablagʻ jalb qilish",
-    "ja": "資金調達"
+    "ja": "資金調達",
+    "id": "Penggalangan dana",
+    "hi": "धन जुटाना"
   },
   {
     "code": "empathy",
@@ -5133,7 +5559,9 @@
     "el": "Ενσυναίσθηση",
     "kk": "Жанашырлық",
     "uz": "Hamdardlik",
-    "ja": "共感力"
+    "ja": "共感力",
+    "id": "Empati",
+    "hi": "सहानुभूति"
   },
   {
     "code": "leadership",
@@ -5157,7 +5585,9 @@
     "el": "Ηγεσία",
     "kk": "Жетекшілік",
     "uz": "Yetakchilik",
-    "ja": "リーダーシップ"
+    "ja": "リーダーシップ",
+    "id": "Kepemimpinan",
+    "hi": "नेतृत्व"
   },
   {
     "code": "organizationSkills",
@@ -5181,7 +5611,9 @@
     "el": "Οργανωτικές δεξιότητες",
     "kk": "Ұйымдастыру дағдылары",
     "uz": "Tashkilotchilik koʻnikmalari",
-    "ja": "組織力"
+    "ja": "組織力",
+    "id": "Keterampilan organisasi",
+    "hi": "संगठनात्मक कौशल"
   },
   {
     "code": "creditAnalysis",
@@ -5205,7 +5637,9 @@
     "el": "Πιστωτική ανάλυση",
     "kk": "Несие талдауы",
     "uz": "Kredit tahlili",
-    "ja": "与信分析"
+    "ja": "与信分析",
+    "id": "Analisis kredit",
+    "hi": "ऋण विश्लेषण"
   },
   {
     "code": "loanAssessment",
@@ -5229,7 +5663,9 @@
     "el": "Αξιολόγηση δανείων",
     "kk": "Несиені бағалау",
     "uz": "Kreditni baholash",
-    "ja": "融資審査"
+    "ja": "融資審査",
+    "id": "Penilaian pinjaman",
+    "hi": "ऋण मूल्यांकन"
   },
   {
     "code": "creditRiskManagement",
@@ -5253,7 +5689,9 @@
     "el": "Διαχείριση πιστωτικού κινδύνου",
     "kk": "Несие тәуекелдерін басқару",
     "uz": "Kredit xavfini boshqarish",
-    "ja": "信用リスク管理"
+    "ja": "信用リスク管理",
+    "id": "Manajemen risiko kredit",
+    "hi": "ऋण जोखिम प्रबंधन"
   },
   {
     "code": "creditReporting",
@@ -5277,7 +5715,9 @@
     "el": "Πιστωτική αναφορά",
     "kk": "Несие есептілігі",
     "uz": "Kredit hisobotini tuzish",
-    "ja": "信用情報の報告"
+    "ja": "信用情報の報告",
+    "id": "Pelaporan kredit",
+    "hi": "ऋण रिपोर्टिंग"
   },
   {
     "code": "loanDocumentation",
@@ -5301,7 +5741,9 @@
     "el": "Τεκμηρίωση δανείων",
     "kk": "Несие құжаттамасы",
     "uz": "Kredit hujjatlarini rasmiylashtirish",
-    "ja": "融資書類の作成"
+    "ja": "融資書類の作成",
+    "id": "Dokumentasi pinjaman",
+    "hi": "ऋण दस्तावेज़ीकरण"
   },
   {
     "code": "creditPolicies",
@@ -5325,7 +5767,9 @@
     "el": "Πιστωτικές πολιτικές",
     "kk": "Несие саясаты",
     "uz": "Kredit siyosati",
-    "ja": "与信方針"
+    "ja": "与信方針",
+    "id": "Kebijakan kredit",
+    "hi": "ऋण नीतियाँ"
   },
   {
     "code": "customerCreditAssessment",
@@ -5349,7 +5793,9 @@
     "el": "Αξιολόγηση πιστοληπτικής ικανότητας πελατών",
     "kk": "Клиенттің несиелік қабілетін бағалау",
     "uz": "Mijozning kredit qobiliyatini baholash",
-    "ja": "顧客の与信評価"
+    "ja": "顧客の与信評価",
+    "id": "Penilaian kredit pelanggan",
+    "hi": "ग्राहक ऋण मूल्यांकन"
   },
   {
     "code": "accountManagement",
@@ -5373,7 +5819,9 @@
     "el": "Διαχείριση λογαριασμών",
     "kk": "Шоттарды басқару",
     "uz": "Hisobvaraqlarni boshqarish",
-    "ja": "口座管理"
+    "ja": "口座管理",
+    "id": "Manajemen akun",
+    "hi": "खाता प्रबंधन"
   },
   {
     "code": "loanProcessing",
@@ -5397,7 +5845,9 @@
     "el": "Επεξεργασία δανείων",
     "kk": "Несиені өңдеу",
     "uz": "Kreditni rasmiylashtirish",
-    "ja": "融資事務"
+    "ja": "融資事務",
+    "id": "Pemrosesan pinjaman",
+    "hi": "ऋण प्रसंस्करण"
   },
   {
     "code": "riskManagement",
@@ -5421,7 +5871,9 @@
     "el": "Διαχείριση κινδύνων",
     "kk": "Қаржылық тәуекелдерді басқару",
     "uz": "Xavf-xatarlarni boshqarish",
-    "ja": "リスク管理"
+    "ja": "リスク管理",
+    "id": "Pengelolaan risiko",
+    "hi": "जोखिमों का प्रबंधन"
   },
   {
     "code": "transactionProcessing",
@@ -5445,7 +5897,9 @@
     "el": "Επεξεργασία συναλλαγών",
     "kk": "Транзакцияларды өңдеу",
     "uz": "Tranzaksiyalarni qayta ishlash",
-    "ja": "取引処理"
+    "ja": "取引処理",
+    "id": "Pemrosesan transaksi",
+    "hi": "लेन-देन प्रसंस्करण"
   },
   {
     "code": "bankingSoftware",
@@ -5469,7 +5923,9 @@
     "el": "Τραπεζικό λογισμικό",
     "kk": "Банктік бағдарламалық жасақтама",
     "uz": "Bank dasturiy ta'minoti",
-    "ja": "銀行システム"
+    "ja": "銀行システム",
+    "id": "Perangkat lunak perbankan",
+    "hi": "बैंकिंग सॉफ़्टवेयर"
   },
   {
     "code": "treasuryManagement",
@@ -5493,7 +5949,9 @@
     "el": "Διαχείριση διαθεσίμων",
     "kk": "Қазынашылықты басқару",
     "uz": "Xazina boshqaruvi",
-    "ja": "資金管理"
+    "ja": "資金管理",
+    "id": "Manajemen perbendaharaan",
+    "hi": "कोष प्रबंधन"
   },
   {
     "code": "recruitment",
@@ -5517,7 +5975,9 @@
     "el": "Προσλήψεις",
     "kk": "Персонал жалдау",
     "uz": "Ishga qabul qilish",
-    "ja": "採用活動"
+    "ja": "採用活動",
+    "id": "Perekrutan",
+    "hi": "भर्ती"
   },
   {
     "code": "talentManagement",
@@ -5541,7 +6001,9 @@
     "el": "Διαχείριση ταλέντων",
     "kk": "Талантты басқару",
     "uz": "Iqtidorlarni boshqarish",
-    "ja": "人材開発"
+    "ja": "人材開発",
+    "id": "Manajemen talenta",
+    "hi": "प्रतिभा प्रबंधन"
   },
   {
     "code": "hrCompliance",
@@ -5565,7 +6027,9 @@
     "el": "Συμμόρφωση με εργατική νομοθεσία",
     "kk": "Кадр саясатына сәйкестік",
     "uz": "Mehnat qonunchiligiga muvofiqlik",
-    "ja": "人事コンプライアンス"
+    "ja": "人事コンプライアンス",
+    "id": "Kepatuhan SDM",
+    "hi": "मानव संसाधन अनुपालन"
   },
   {
     "code": "workplaceSafety",
@@ -5589,7 +6053,9 @@
     "el": "Ασφάλεια εργασίας",
     "kk": "Жұмыс орнындағы қауіпсіздік",
     "uz": "Ish joyida xavfsizlik",
-    "ja": "職場の安全衛生"
+    "ja": "職場の安全衛生",
+    "id": "Keselamatan kerja",
+    "hi": "कार्यस्थल सुरक्षा"
   },
   {
     "code": "conflictResolution",
@@ -5613,7 +6079,9 @@
     "el": "Διαχείριση συγκρούσεων",
     "kk": "Ұжымдағы дау-дамайды шешу",
     "uz": "Nizolarni bartaraf etish",
-    "ja": "対立の解決"
+    "ja": "対立の解決",
+    "id": "Resolusi konflik",
+    "hi": "संघर्ष निवारण"
   },
   {
     "code": "surveying",
@@ -5637,7 +6105,9 @@
     "el": "Τοπογραφική αποτύπωση",
     "kk": "Аумақты өлшеу",
     "uz": "Geodezik oʻlchash ishlari",
-    "ja": "測量"
+    "ja": "測量",
+    "id": "Pengukuran wilayah",
+    "hi": "सर्वेक्षण"
   },
   {
     "code": "geodeticSurvey",
@@ -5661,7 +6131,9 @@
     "el": "Γεωδαιτική αποτύπωση",
     "kk": "Геодезиялық зерттеу",
     "uz": "Geodeziya tadqiqotlari",
-    "ja": "測地測量"
+    "ja": "測地測量",
+    "id": "Survei geodesi",
+    "hi": "भूगणितीय सर्वेक्षण"
   },
   {
     "code": "landBoundaryDetermination",
@@ -5685,7 +6157,9 @@
     "el": "Καθορισμός ορίων γης",
     "kk": "Жер учаскесінің шекарасын анықтау",
     "uz": "Yer chegaralarini aniqlash",
-    "ja": "土地境界の確定"
+    "ja": "土地境界の確定",
+    "id": "Penentuan batas lahan",
+    "hi": "भूमि सीमा निर्धारण"
   },
   {
     "code": "gpsMapping",
@@ -5709,7 +6183,9 @@
     "el": "Χαρτογράφηση GPS",
     "kk": "GPS арқылы карта жасау",
     "uz": "GPS xaritalash",
-    "ja": "GPS測位・地図作成"
+    "ja": "GPS測位・地図作成",
+    "id": "Pemetaan GPS",
+    "hi": "GPS मानचित्रण"
   },
   {
     "code": "dataAnalysis",
@@ -5733,7 +6209,9 @@
     "el": "Ανάλυση δεδομένων",
     "kk": "Деректерді талдау",
     "uz": "Ma'lumotlar tahlili",
-    "ja": "データ分析"
+    "ja": "データ分析",
+    "id": "Analisis data",
+    "hi": "डेटा विश्लेषण"
   },
   {
     "code": "cadSoftware",
@@ -5757,7 +6235,9 @@
     "el": "Λογισμικό CAD",
     "kk": "CAD бағдарламалық жасақтамасы",
     "uz": "CAD dasturiy ta'minoti",
-    "ja": "CADソフト"
+    "ja": "CADソフト",
+    "id": "Perangkat lunak CAD",
+    "hi": "CAD सॉफ़्टवेयर"
   },
   {
     "code": "cartography",
@@ -5781,7 +6261,9 @@
     "el": "Χαρτογραφία",
     "kk": "Картография",
     "uz": "Kartografiya",
-    "ja": "地図製作"
+    "ja": "地図製作",
+    "id": "Kartografi",
+    "hi": "मानचित्रकला"
   },
   {
     "code": "landTopography",
@@ -5805,7 +6287,9 @@
     "el": "Τοπογραφία εδάφους",
     "kk": "Жер топографиясы",
     "uz": "Yer relyefi (topografiya)",
-    "ja": "地形測量"
+    "ja": "地形測量",
+    "id": "Topografi lahan",
+    "hi": "भूमि स्थलाकृति"
   },
   {
     "code": "trainingPlanning",
@@ -5829,7 +6313,9 @@
     "el": "Σχεδιασμός προπόνησης",
     "kk": "Жаттығуларды жоспарлау",
     "uz": "Mashgʻulotlarni rejalashtirish",
-    "ja": "トレーニング計画"
+    "ja": "トレーニング計画",
+    "id": "Perencanaan latihan",
+    "hi": "प्रशिक्षण योजना"
   },
   {
     "code": "athleteDevelopment",
@@ -5853,7 +6339,9 @@
     "el": "Ανάπτυξη αθλητών",
     "kk": "Спортшыны дамыту",
     "uz": "Sportchini rivojlantirish",
-    "ja": "選手育成"
+    "ja": "選手育成",
+    "id": "Pengembangan atlet",
+    "hi": "खिलाड़ी विकास"
   },
   {
     "code": "performanceAnalysis",
@@ -5877,7 +6365,9 @@
     "el": "Ανάλυση απόδοσης",
     "kk": "Нәтижелілікті талдау",
     "uz": "Natijalarni tahlil qilish",
-    "ja": "パフォーマンス分析"
+    "ja": "パフォーマンス分析",
+    "id": "Analisis kinerja",
+    "hi": "प्रदर्शन विश्लेषण"
   },
   {
     "code": "motivationalSkills",
@@ -5901,7 +6391,9 @@
     "el": "Δεξιότητες παρότρυνσης",
     "kk": "Ынталандыру дағдылары",
     "uz": "Ragʻbatlantirish koʻnikmalari",
-    "ja": "動機づけ"
+    "ja": "動機づけ",
+    "id": "Keterampilan memotivasi",
+    "hi": "प्रेरणात्मक कौशल"
   },
   {
     "code": "strategyDevelopment",
@@ -5925,7 +6417,9 @@
     "el": "Ανάπτυξη στρατηγικής",
     "kk": "Стратегия әзірлеу",
     "uz": "Strategiya ishlab chiqish",
-    "ja": "戦略策定"
+    "ja": "戦略策定",
+    "id": "Pengembangan strategi",
+    "hi": "रणनीति विकास"
   },
   {
     "code": "teamBuilding",
@@ -5949,7 +6443,9 @@
     "el": "Καλλιέργεια ομαδικού πνεύματος",
     "kk": "Команда құру",
     "uz": "Jamoa qurish",
-    "ja": "チームビルディング"
+    "ja": "チームビルディング",
+    "id": "Pembentukan tim",
+    "hi": "टीम निर्माण"
   },
   {
     "code": "fitnessAssessment",
@@ -5973,7 +6469,9 @@
     "el": "Αξιολόγηση φυσικής κατάστασης",
     "kk": "Дене шынықтыру деңгейін бағалау",
     "uz": "Jismoniy tayyorgarlikni baholash",
-    "ja": "体力測定"
+    "ja": "体力測定",
+    "id": "Penilaian kebugaran",
+    "hi": "फिटनेस मूल्यांकन"
   },
   {
     "code": "individualizedTraining",
@@ -5997,7 +6495,9 @@
     "el": "Εξατομικευμένη προπόνηση",
     "kk": "Жеке жаттығу",
     "uz": "Individual mashgʻulot",
-    "ja": "個別トレーニング"
+    "ja": "個別トレーニング",
+    "id": "Latihan individual",
+    "hi": "व्यक्तिगत प्रशिक्षण"
   },
   {
     "code": "medicationDispensing",
@@ -6021,7 +6521,9 @@
     "el": "Διάθεση φαρμάκων",
     "kk": "Дәрі-дәрмек тарату",
     "uz": "Dori-darmon tarqatish",
-    "ja": "調剤"
+    "ja": "調剤",
+    "id": "Penyerahan obat",
+    "hi": "दवा वितरण"
   },
   {
     "code": "medicationStorage",
@@ -6045,7 +6547,9 @@
     "el": "Αποθήκευση φαρμάκων",
     "kk": "Дәрі-дәрмекті сақтау",
     "uz": "Dori-darmonlarni saqlash",
-    "ja": "医薬品の保管"
+    "ja": "医薬品の保管",
+    "id": "Penyimpanan obat",
+    "hi": "दवा भंडारण"
   },
   {
     "code": "drugPreparation",
@@ -6069,7 +6573,9 @@
     "el": "Παρασκευή φαρμάκων",
     "kk": "Дәрі дайындау",
     "uz": "Dori tayyorlash",
-    "ja": "製剤"
+    "ja": "製剤",
+    "id": "Peracikan obat",
+    "hi": "औषधि निर्माण"
   },
   {
     "code": "pharmacology",
@@ -6093,7 +6599,9 @@
     "el": "Φαρμακολογία",
     "kk": "Фармакология",
     "uz": "Farmakologiya",
-    "ja": "薬理学"
+    "ja": "薬理学",
+    "id": "Farmakologi",
+    "hi": "औषधि विज्ञान"
   },
   {
     "code": "medicationMonitoring",
@@ -6117,7 +6625,9 @@
     "el": "Παρακολούθηση φαρμακευτικής αγωγής",
     "kk": "Дәрі-дәрмекті бақылау",
     "uz": "Dori qabulini kuzatish",
-    "ja": "服薬管理"
+    "ja": "服薬管理",
+    "id": "Pemantauan obat",
+    "hi": "दवा निगरानी"
   },
   {
     "code": "childDevelopment",
@@ -6141,7 +6651,9 @@
     "el": "Ανάπτυξη παιδιού",
     "kk": "Балалардың дамуы",
     "uz": "Bola rivojlanishi",
-    "ja": "子どもの発達支援"
+    "ja": "子どもの発達支援",
+    "id": "Perkembangan anak",
+    "hi": "बाल विकास"
   },
   {
     "code": "lessonPlanning",
@@ -6165,7 +6677,9 @@
     "el": "Σχεδιασμός μαθήματος",
     "kk": "Сабақ жоспарлау",
     "uz": "Dars rejalashtirish",
-    "ja": "授業計画"
+    "ja": "授業計画",
+    "id": "Perencanaan pembelajaran",
+    "hi": "पाठ योजना"
   },
   {
     "code": "earlyLearningMethods",
@@ -6189,7 +6703,9 @@
     "el": "Μέθοδοι πρώιμης μάθησης",
     "kk": "Ерте білім беру әдістері",
     "uz": "Erta taʼlim metodlari",
-    "ja": "幼児教育の指導法"
+    "ja": "幼児教育の指導法",
+    "id": "Metode pembelajaran usia dini",
+    "hi": "प्रारंभिक शिक्षण विधियाँ"
   },
   {
     "code": "classroomManagement",
@@ -6213,7 +6729,9 @@
     "el": "Διαχείριση τάξης",
     "kk": "Сынып жұмысын басқару",
     "uz": "Sinfni boshqarish",
-    "ja": "学級運営"
+    "ja": "学級運営",
+    "id": "Manajemen kelas",
+    "hi": "कक्षा प्रबंधन"
   },
   {
     "code": "creativeActivities",
@@ -6237,7 +6755,9 @@
     "el": "Δημιουργικές δραστηριότητες",
     "kk": "Шығармашылық іс-әрекеттер",
     "uz": "Ijodiy mashgʻulotlar",
-    "ja": "創作活動"
+    "ja": "創作活動",
+    "id": "Kegiatan kreatif",
+    "hi": "रचनात्मक गतिविधियाँ"
   },
   {
     "code": "languageDevelopment",
@@ -6261,7 +6781,9 @@
     "el": "Ανάπτυξη γλώσσας",
     "kk": "Тілдік даму",
     "uz": "Nutq rivojlanishi",
-    "ja": "言語発達支援"
+    "ja": "言語発達支援",
+    "id": "Perkembangan bahasa",
+    "hi": "भाषा विकास"
   },
   {
     "code": "childPsychology",
@@ -6285,7 +6807,9 @@
     "el": "Παιδική ψυχολογία",
     "kk": "Балалар психологиясы",
     "uz": "Bolalar psixologiyasi",
-    "ja": "児童心理"
+    "ja": "児童心理",
+    "id": "Psikologi anak",
+    "hi": "बाल मनोविज्ञान"
   },
   {
     "code": "parentCommunication",
@@ -6309,7 +6833,9 @@
     "el": "Επικοινωνία με γονείς",
     "kk": "Ата-аналармен қарым-қатынас",
     "uz": "Ota-onalar bilan muloqot",
-    "ja": "保護者対応"
+    "ja": "保護者対応",
+    "id": "Komunikasi dengan orang tua",
+    "hi": "अभिभावक संचार"
   },
   {
     "code": "socialSkillsDevelopment",
@@ -6333,7 +6859,9 @@
     "el": "Ανάπτυξη κοινωνικών δεξιοτήτων",
     "kk": "Әлеуметтік дағдыларды дамыту",
     "uz": "Ijtimoiy koʻnikmalarni rivojlantirish",
-    "ja": "社会性の育成"
+    "ja": "社会性の育成",
+    "id": "Pengembangan keterampilan sosial",
+    "hi": "सामाजिक कौशल विकास"
   },
   {
     "code": "assessmentAndEvaluation",
@@ -6357,7 +6885,9 @@
     "el": "Αξιολόγηση επιδόσεων",
     "kk": "Тексеру және бағалау",
     "uz": "Baholash va tahlil qilish",
-    "ja": "評価・査定"
+    "ja": "評価・査定",
+    "id": "Asesmen dan evaluasi",
+    "hi": "आकलन एवं मूल्यांकन"
   },
   {
     "code": "psychologicalAssessment",
@@ -6381,7 +6911,9 @@
     "el": "Ψυχολογική αξιολόγηση",
     "kk": "Психологиялық бағалау",
     "uz": "Psixologik baholash",
-    "ja": "心理アセスメント"
+    "ja": "心理アセスメント",
+    "id": "Asesmen psikologis",
+    "hi": "मनोवैज्ञानिक मूल्यांकन"
   },
   {
     "code": "counseling",
@@ -6405,7 +6937,9 @@
     "el": "Συμβουλευτική",
     "kk": "Кеңес беру",
     "uz": "Maslahat berish",
-    "ja": "カウンセリング"
+    "ja": "カウンセリング",
+    "id": "Konseling",
+    "hi": "परामर्श"
   },
   {
     "code": "mentalHealthSupport",
@@ -6429,7 +6963,9 @@
     "el": "Υποστήριξη ψυχικής υγείας",
     "kk": "Психикалық денсаулықты қолдау",
     "uz": "Ruhiy salomatlikka koʻmak",
-    "ja": "メンタルヘルス支援"
+    "ja": "メンタルヘルス支援",
+    "id": "Dukungan kesehatan mental",
+    "hi": "मानसिक स्वास्थ्य सहायता"
   },
   {
     "code": "behavioralTherapy",
@@ -6453,7 +6989,9 @@
     "el": "Θεραπεία συμπεριφοράς",
     "kk": "Мінез-құлық терапиясы",
     "uz": "Xulq-atvor terapiyasi",
-    "ja": "行動療法"
+    "ja": "行動療法",
+    "id": "Terapi perilaku",
+    "hi": "व्यवहार चिकित्सा"
   },
   {
     "code": "stressManagement",
@@ -6477,7 +7015,9 @@
     "el": "Διαχείριση άγχους",
     "kk": "Стрессті басқару",
     "uz": "Stressni boshqarish",
-    "ja": "ストレスマネジメント"
+    "ja": "ストレスマネジメント",
+    "id": "Manajemen stres",
+    "hi": "तनाव प्रबंधन"
   },
   {
     "code": "cognitiveBehavioralTherapy",
@@ -6501,7 +7041,9 @@
     "el": "Γνωσιακή-συμπεριφορική θεραπεία",
     "kk": "Когнитивті-мінез-құлық терапиясы",
     "uz": "Kognitiv-xulqiy terapiya",
-    "ja": "認知行動療法"
+    "ja": "認知行動療法",
+    "id": "Terapi kognitif perilaku",
+    "hi": "संज्ञानात्मक-व्यवहार चिकित्सा"
   },
   {
     "code": "emotionalSupport",
@@ -6525,7 +7067,9 @@
     "el": "Συναισθηματική υποστήριξη",
     "kk": "Эмоционалды қолдау",
     "uz": "Emotsional yordam",
-    "ja": "情緒的支援"
+    "ja": "情緒的支援",
+    "id": "Dukungan emosional",
+    "hi": "भावनात्मक सहायता"
   },
   {
     "code": "psychotherapy",
@@ -6549,7 +7093,9 @@
     "el": "Ψυχοθεραπεία",
     "kk": "Психотерапия",
     "uz": "Psixoterapiya",
-    "ja": "心理療法"
+    "ja": "心理療法",
+    "id": "Psikoterapi",
+    "hi": "मनश्चिकित्सा"
   },
   {
     "code": "ms_office_suite",
@@ -6573,7 +7119,9 @@
     "el": "Microsoft Office",
     "kk": "Microsoft Office",
     "uz": "Microsoft Office",
-    "ja": "Microsoft Office"
+    "ja": "Microsoft Office",
+    "id": "Microsoft Office",
+    "hi": "Microsoft Office"
   },
   {
     "code": "ms_outlook",
@@ -6597,7 +7145,9 @@
     "el": "Microsoft Outlook",
     "kk": "Microsoft Outlook",
     "uz": "Microsoft Outlook",
-    "ja": "Microsoft Outlook"
+    "ja": "Microsoft Outlook",
+    "id": "Microsoft Outlook",
+    "hi": "Microsoft Outlook"
   },
   {
     "code": "ms_access",
@@ -6621,7 +7171,9 @@
     "el": "Microsoft Access",
     "kk": "Microsoft Access",
     "uz": "Microsoft Access",
-    "ja": "Microsoft Access"
+    "ja": "Microsoft Access",
+    "id": "Microsoft Access",
+    "hi": "Microsoft Access"
   },
   {
     "code": "ms_teams",
@@ -6645,7 +7197,9 @@
     "el": "Microsoft Teams",
     "kk": "Microsoft Teams",
     "uz": "Microsoft Teams",
-    "ja": "Microsoft Teams"
+    "ja": "Microsoft Teams",
+    "id": "Microsoft Teams",
+    "hi": "Microsoft Teams"
   },
   {
     "code": "windows",
@@ -6669,7 +7223,9 @@
     "el": "Λειτουργικό σύστημα Windows",
     "kk": "Windows операциялық жүйесі",
     "uz": "Windows operatsion tizimi",
-    "ja": "Windows"
+    "ja": "Windows",
+    "id": "Sistem operasi Windows",
+    "hi": "Windows ऑपरेटिंग सिस्टम"
   },
   {
     "code": "linux",
@@ -6693,7 +7249,9 @@
     "el": "Linux",
     "kk": "Linux",
     "uz": "Linux",
-    "ja": "Linux"
+    "ja": "Linux",
+    "id": "Linux",
+    "hi": "Linux"
   },
   {
     "code": "zoom",
@@ -6717,7 +7275,9 @@
     "el": "Zoom",
     "kk": "Zoom",
     "uz": "Zoom",
-    "ja": "Zoom"
+    "ja": "Zoom",
+    "id": "Zoom",
+    "hi": "Zoom"
   },
   {
     "code": "html",
@@ -6741,7 +7301,9 @@
     "el": "HTML",
     "kk": "HTML",
     "uz": "HTML",
-    "ja": "HTML"
+    "ja": "HTML",
+    "id": "HTML",
+    "hi": "HTML"
   },
   {
     "code": "sql",
@@ -6765,7 +7327,9 @@
     "el": "SQL",
     "kk": "SQL",
     "uz": "SQL",
-    "ja": "SQL"
+    "ja": "SQL",
+    "id": "SQL",
+    "hi": "SQL"
   },
   {
     "code": "mysql",
@@ -6789,7 +7353,9 @@
     "el": "MySQL",
     "kk": "MySQL",
     "uz": "MySQL",
-    "ja": "MySQL"
+    "ja": "MySQL",
+    "id": "MySQL",
+    "hi": "MySQL"
   },
   {
     "code": "ms_sql_server",
@@ -6813,7 +7379,9 @@
     "el": "Microsoft SQL Server",
     "kk": "Microsoft SQL Server",
     "uz": "Microsoft SQL Server",
-    "ja": "Microsoft SQL Server"
+    "ja": "Microsoft SQL Server",
+    "id": "Microsoft SQL Server",
+    "hi": "Microsoft SQL Server"
   },
   {
     "code": "postgresql",
@@ -6837,7 +7405,9 @@
     "el": "PostgreSQL",
     "kk": "PostgreSQL",
     "uz": "PostgreSQL",
-    "ja": "PostgreSQL"
+    "ja": "PostgreSQL",
+    "id": "PostgreSQL",
+    "hi": "PostgreSQL"
   },
   {
     "code": "bootstrap",
@@ -6861,7 +7431,9 @@
     "el": "Bootstrap",
     "kk": "Bootstrap",
     "uz": "Bootstrap",
-    "ja": "Bootstrap"
+    "ja": "Bootstrap",
+    "id": "Bootstrap",
+    "hi": "Bootstrap"
   },
   {
     "code": "jquery",
@@ -6885,7 +7457,9 @@
     "el": "jQuery",
     "kk": "jQuery",
     "uz": "jQuery",
-    "ja": "jQuery"
+    "ja": "jQuery",
+    "id": "jQuery",
+    "hi": "jQuery"
   },
   {
     "code": "typescript",
@@ -6909,7 +7483,9 @@
     "el": "TypeScript",
     "kk": "TypeScript",
     "uz": "TypeScript",
-    "ja": "TypeScript"
+    "ja": "TypeScript",
+    "id": "TypeScript",
+    "hi": "TypeScript"
   },
   {
     "code": "nodejs",
@@ -6933,7 +7509,9 @@
     "el": "Node.js",
     "kk": "Node.js",
     "uz": "Node.js",
-    "ja": "Node.js"
+    "ja": "Node.js",
+    "id": "Node.js",
+    "hi": "Node.js"
   },
   {
     "code": "wordpress",
@@ -6957,7 +7535,9 @@
     "el": "WordPress",
     "kk": "WordPress",
     "uz": "WordPress",
-    "ja": "WordPress"
+    "ja": "WordPress",
+    "id": "WordPress",
+    "hi": "WordPress"
   },
   {
     "code": "git",
@@ -6981,7 +7561,9 @@
     "el": "Git",
     "kk": "Git",
     "uz": "Git",
-    "ja": "Git"
+    "ja": "Git",
+    "id": "Git",
+    "hi": "Git"
   },
   {
     "code": "github",
@@ -7005,7 +7587,9 @@
     "el": "GitHub",
     "kk": "GitHub",
     "uz": "GitHub",
-    "ja": "GitHub"
+    "ja": "GitHub",
+    "id": "GitHub",
+    "hi": "GitHub"
   },
   {
     "code": "programming",
@@ -7029,7 +7613,9 @@
     "el": "Προγραμματισμός",
     "kk": "Бағдарламалау",
     "uz": "Dasturlash",
-    "ja": "プログラミング"
+    "ja": "プログラミング",
+    "id": "Pemrograman",
+    "hi": "प्रोग्रामिंग"
   },
   {
     "code": "coreldraw",
@@ -7053,7 +7639,9 @@
     "el": "CorelDRAW",
     "kk": "CorelDRAW",
     "uz": "CorelDRAW",
-    "ja": "CorelDRAW"
+    "ja": "CorelDRAW",
+    "id": "CorelDRAW",
+    "hi": "CorelDRAW"
   },
   {
     "code": "canva",
@@ -7077,7 +7665,9 @@
     "el": "Canva",
     "kk": "Canva",
     "uz": "Canva",
-    "ja": "Canva"
+    "ja": "Canva",
+    "id": "Canva",
+    "hi": "Canva"
   },
   {
     "code": "after_effects",
@@ -7101,7 +7691,9 @@
     "el": "Adobe After Effects",
     "kk": "Adobe After Effects",
     "uz": "Adobe After Effects",
-    "ja": "Adobe After Effects"
+    "ja": "Adobe After Effects",
+    "id": "Adobe After Effects",
+    "hi": "Adobe After Effects"
   },
   {
     "code": "premiere_pro",
@@ -7125,7 +7717,9 @@
     "el": "Adobe Premiere Pro",
     "kk": "Adobe Premiere Pro",
     "uz": "Adobe Premiere Pro",
-    "ja": "Adobe Premiere Pro"
+    "ja": "Adobe Premiere Pro",
+    "id": "Adobe Premiere Pro",
+    "hi": "Adobe Premiere Pro"
   },
   {
     "code": "lightroom",
@@ -7149,7 +7743,9 @@
     "el": "Adobe Lightroom",
     "kk": "Adobe Lightroom",
     "uz": "Adobe Lightroom",
-    "ja": "Adobe Lightroom"
+    "ja": "Adobe Lightroom",
+    "id": "Adobe Lightroom",
+    "hi": "Adobe Lightroom"
   },
   {
     "code": "figma",
@@ -7173,7 +7769,9 @@
     "el": "Figma",
     "kk": "Figma",
     "uz": "Figma",
-    "ja": "Figma"
+    "ja": "Figma",
+    "id": "Figma",
+    "hi": "Figma"
   },
   {
     "code": "video_editing",
@@ -7197,7 +7795,9 @@
     "el": "Επεξεργασία βίντεο",
     "kk": "Бейне монтаж",
     "uz": "Video montaj",
-    "ja": "動画編集"
+    "ja": "動画編集",
+    "id": "Penyuntingan video",
+    "hi": "वीडियो संपादन"
   },
   {
     "code": "archicad",
@@ -7221,7 +7821,9 @@
     "el": "ArchiCAD",
     "kk": "ArchiCAD",
     "uz": "ArchiCAD",
-    "ja": "ArchiCAD"
+    "ja": "ArchiCAD",
+    "id": "ArchiCAD",
+    "hi": "ArchiCAD"
   },
   {
     "code": "3ds_max",
@@ -7245,7 +7847,9 @@
     "el": "3ds Max",
     "kk": "3ds Max",
     "uz": "3ds Max",
-    "ja": "3ds Max"
+    "ja": "3ds Max",
+    "id": "3ds Max",
+    "hi": "3ds Max"
   },
   {
     "code": "revit",
@@ -7269,7 +7873,9 @@
     "el": "Autodesk Revit",
     "kk": "Autodesk Revit",
     "uz": "Autodesk Revit",
-    "ja": "Autodesk Revit"
+    "ja": "Autodesk Revit",
+    "id": "Autodesk Revit",
+    "hi": "Autodesk Revit"
   },
   {
     "code": "sketchup",
@@ -7293,7 +7899,9 @@
     "el": "SketchUp",
     "kk": "SketchUp",
     "uz": "SketchUp",
-    "ja": "SketchUp"
+    "ja": "SketchUp",
+    "id": "SketchUp",
+    "hi": "SketchUp"
   },
   {
     "code": "solidworks",
@@ -7317,7 +7925,9 @@
     "el": "SolidWorks",
     "kk": "SolidWorks",
     "uz": "SolidWorks",
-    "ja": "SolidWorks"
+    "ja": "SolidWorks",
+    "id": "SolidWorks",
+    "hi": "SolidWorks"
   },
   {
     "code": "lumion",
@@ -7341,7 +7951,9 @@
     "el": "Lumion",
     "kk": "Lumion",
     "uz": "Lumion",
-    "ja": "Lumion"
+    "ja": "Lumion",
+    "id": "Lumion",
+    "hi": "Lumion"
   },
   {
     "code": "arcgis",
@@ -7365,7 +7977,9 @@
     "el": "ArcGIS",
     "kk": "ArcGIS",
     "uz": "ArcGIS",
-    "ja": "ArcGIS"
+    "ja": "ArcGIS",
+    "id": "ArcGIS",
+    "hi": "ArcGIS"
   },
   {
     "code": "netcad",
@@ -7389,7 +8003,9 @@
     "el": "Netcad",
     "kk": "Netcad",
     "uz": "Netcad",
-    "ja": "Netcad"
+    "ja": "Netcad",
+    "id": "Netcad",
+    "hi": "Netcad"
   },
   {
     "code": "matlab",
@@ -7413,7 +8029,9 @@
     "el": "MATLAB",
     "kk": "MATLAB",
     "uz": "MATLAB",
-    "ja": "MATLAB"
+    "ja": "MATLAB",
+    "id": "MATLAB",
+    "hi": "MATLAB"
   },
   {
     "code": "power_bi",
@@ -7437,7 +8055,9 @@
     "el": "Microsoft Power BI",
     "kk": "Microsoft Power BI",
     "uz": "Microsoft Power BI",
-    "ja": "Microsoft Power BI"
+    "ja": "Microsoft Power BI",
+    "id": "Microsoft Power BI",
+    "hi": "Microsoft Power BI"
   },
   {
     "code": "sap",
@@ -7461,7 +8081,9 @@
     "el": "SAP",
     "kk": "SAP",
     "uz": "SAP",
-    "ja": "SAP"
+    "ja": "SAP",
+    "id": "SAP",
+    "hi": "SAP"
   },
   {
     "code": "crm",
@@ -7485,7 +8107,9 @@
     "el": "Συστήματα CRM",
     "kk": "CRM жүйелері",
     "uz": "CRM tizimlari",
-    "ja": "CRMシステム"
+    "ja": "CRMシステム",
+    "id": "Sistem CRM",
+    "hi": "CRM प्रणालियाँ"
   },
   {
     "code": "erp",
@@ -7509,7 +8133,9 @@
     "el": "Συστήματα ERP",
     "kk": "ERP жүйелері",
     "uz": "ERP tizimlari",
-    "ja": "ERPシステム"
+    "ja": "ERPシステム",
+    "id": "Sistem ERP",
+    "hi": "ERP प्रणालियाँ"
   },
   {
     "code": "jira",
@@ -7533,7 +8159,9 @@
     "el": "Jira",
     "kk": "Jira",
     "uz": "Jira",
-    "ja": "Jira"
+    "ja": "Jira",
+    "id": "Jira",
+    "hi": "Jira"
   },
   {
     "code": "spss",
@@ -7557,7 +8185,9 @@
     "el": "IBM SPSS",
     "kk": "IBM SPSS",
     "uz": "IBM SPSS",
-    "ja": "IBM SPSS"
+    "ja": "IBM SPSS",
+    "id": "IBM SPSS",
+    "hi": "IBM SPSS"
   },
   {
     "code": "e_taxes",
@@ -7581,7 +8211,9 @@
     "el": "E-Taxes (ηλεκτρονική φορολογική πύλη του Αζερμπαϊτζάν)",
     "kk": "E-taxes (Әзербайжан салық порталы)",
     "uz": "E-taxes (Ozarbayjon soliq portali)",
-    "ja": "E-taxes（アゼルバイジャン電子税務）"
+    "ja": "E-taxes（アゼルバイジャン電子税務）",
+    "id": "E-taxes (portal pajak Azerbaijan)",
+    "hi": "E-taxes (अज़रबैजानी कर पोर्टल)"
   },
   {
     "code": "emas",
@@ -7605,7 +8237,9 @@
     "el": "EMAS (ηλεκτρονικό σύστημα εργασιακών συμβάσεων)",
     "kk": "ƏMAS (электрондық еңбек шарттары жүйесі)",
     "uz": "EMAS (elektron mehnat shartnomalari tizimi)",
-    "ja": "EMAS（電子雇用契約システム）"
+    "ja": "EMAS（電子雇用契約システム）",
+    "id": "EMAS (sistem kontrak kerja elektronik)",
+    "hi": "EMAS (इलेक्ट्रॉनिक रोज़गार अनुबंध प्रणाली)"
   },
   {
     "code": "logo_tiger",
@@ -7629,7 +8263,9 @@
     "el": "Logo Tiger",
     "kk": "Logo Tiger",
     "uz": "Logo Tiger",
-    "ja": "Logo Tiger"
+    "ja": "Logo Tiger",
+    "id": "Logo Tiger",
+    "hi": "Logo Tiger"
   },
   {
     "code": "btp",
@@ -7653,7 +8289,9 @@
     "el": "Λογιστικό λογισμικό BTP",
     "kk": "BTP (бухгалтерлік бағдарлама)",
     "uz": "BTP (buxgalteriya dasturi)",
-    "ja": "BTP会計ソフト"
+    "ja": "BTP会計ソフト",
+    "id": "BTP (perangkat lunak akuntansi)",
+    "hi": "BTP लेखांकन सॉफ़्टवेयर"
   },
   {
     "code": "helpdesk",
@@ -7677,7 +8315,9 @@
     "el": "Helpdesk (τεχνική υποστήριξη)",
     "kk": "Helpdesk (техникалық қолдау)",
     "uz": "Helpdesk (texnik yordam)",
-    "ja": "ヘルプデスク（技術サポート）"
+    "ja": "ヘルプデスク（技術サポート）",
+    "id": "Helpdesk (dukungan teknis)",
+    "hi": "हेल्पडेस्क (तकनीकी सहायता)"
   },
   {
     "code": "responsibility",
@@ -7701,7 +8341,9 @@
     "el": "Υπευθυνότητα",
     "kk": "Жауапкершілік",
     "uz": "Mas'uliyatlilik",
-    "ja": "責任感"
+    "ja": "責任感",
+    "id": "Tanggung jawab",
+    "hi": "उत्तरदायित्व"
   },
   {
     "code": "punctuality",
@@ -7725,7 +8367,9 @@
     "el": "Ακρίβεια στην ώρα",
     "kk": "Дәлдік",
     "uz": "Punktuallik",
-    "ja": "時間厳守"
+    "ja": "時間厳守",
+    "id": "Ketepatan waktu",
+    "hi": "समयपालन"
   },
   {
     "code": "patience",
@@ -7749,7 +8393,9 @@
     "el": "Υπομονή",
     "kk": "Шыдамдылық",
     "uz": "Sabr-toqat",
-    "ja": "忍耐力"
+    "ja": "忍耐力",
+    "id": "Kesabaran",
+    "hi": "धैर्य"
   },
   {
     "code": "attention_to_detail",
@@ -7773,7 +8419,9 @@
     "el": "Προσοχή στη λεπτομέρεια",
     "kk": "Егжей-тегжейге зейін қою",
     "uz": "Detallarga e'tibor",
-    "ja": "細部への注意力"
+    "ja": "細部への注意力",
+    "id": "Perhatian terhadap detail",
+    "hi": "विवरण पर ध्यान"
   },
   {
     "code": "promptness",
@@ -7797,7 +8445,9 @@
     "el": "Ταχύτητα ανταπόκρισης",
     "kk": "Жеделдік",
     "uz": "Tezkorlik",
-    "ja": "迅速さ"
+    "ja": "迅速さ",
+    "id": "Kesigapan",
+    "hi": "तत्परता"
   },
   {
     "code": "public_speaking",
@@ -7821,7 +8471,9 @@
     "el": "Δημόσια ομιλία",
     "kk": "Шешендік өнері",
     "uz": "Notiqlik",
-    "ja": "人前で話す力"
+    "ja": "人前で話す力",
+    "id": "Berbicara di depan umum",
+    "hi": "सार्वजनिक भाषण"
   },
   {
     "code": "active_listening",
@@ -7845,7 +8497,9 @@
     "el": "Ενεργητική ακρόαση",
     "kk": "Белсенді тыңдау",
     "uz": "Faol tinglash",
-    "ja": "傾聴力"
+    "ja": "傾聴力",
+    "id": "Mendengarkan secara aktif",
+    "hi": "सक्रिय श्रवण"
   },
   {
     "code": "decision_making",
@@ -7869,7 +8523,9 @@
     "el": "Λήψη αποφάσεων",
     "kk": "Шешім қабылдау",
     "uz": "Qaror qabul qilish qobiliyati",
-    "ja": "意思決定力"
+    "ja": "意思決定力",
+    "id": "Kemampuan mengambil keputusan",
+    "hi": "निर्णय लेने की क्षमता"
   },
   {
     "code": "fast_learning",
@@ -7893,7 +8549,9 @@
     "el": "Ταχεία εκμάθηση",
     "kk": "Тез үйрену қабілеті",
     "uz": "Tez oʻrganish qobiliyati",
-    "ja": "習得の速さ"
+    "ja": "習得の速さ",
+    "id": "Kemampuan belajar cepat",
+    "hi": "तेज़ी से सीखने की क्षमता"
   },
   {
     "code": "work_ethic",
@@ -7917,7 +8575,9 @@
     "el": "Εργασιακή ηθική",
     "kk": "Еңбек этикасы",
     "uz": "Mehnat etikasi",
-    "ja": "職業倫理"
+    "ja": "職業倫理",
+    "id": "Etos kerja",
+    "hi": "कार्य नैतिकता"
   },
   {
     "code": "initiative",
@@ -7941,7 +8601,9 @@
     "el": "Πρωτοβουλία",
     "kk": "Бастамашылдық",
     "uz": "Tashabbuskorlik",
-    "ja": "主体性"
+    "ja": "主体性",
+    "id": "Inisiatif",
+    "hi": "पहल क्षमता"
   },
   {
     "code": "discipline",
@@ -7965,7 +8627,9 @@
     "el": "Πειθαρχία",
     "kk": "Тәртіптілік",
     "uz": "Intizom",
-    "ja": "規律性"
+    "ja": "規律性",
+    "id": "Disiplin",
+    "hi": "अनुशासन"
   },
   {
     "code": "reliability",
@@ -7989,7 +8653,9 @@
     "el": "Αξιοπιστία",
     "kk": "Сенімділік",
     "uz": "Ishonchlilik",
-    "ja": "信頼性"
+    "ja": "信頼性",
+    "id": "Keandalan",
+    "hi": "विश्वसनीयता"
   },
   {
     "code": "honesty",
@@ -8013,7 +8679,9 @@
     "el": "Ειλικρίνεια",
     "kk": "Адалдық",
     "uz": "Halollik",
-    "ja": "誠実さ"
+    "ja": "誠実さ",
+    "id": "Kejujuran",
+    "hi": "ईमानदारी"
   },
   {
     "code": "logical_thinking",
@@ -8037,7 +8705,9 @@
     "el": "Λογική σκέψη",
     "kk": "Логикалық ойлау",
     "uz": "Mantiqiy fikrlash",
-    "ja": "論理的思考"
+    "ja": "論理的思考",
+    "id": "Berpikir logis",
+    "hi": "तार्किक चिंतन"
   },
   {
     "code": "numeracy",
@@ -8061,7 +8731,9 @@
     "el": "Αριθμητική ικανότητα",
     "kk": "Математикалық дағдылар",
     "uz": "Matematik savodxonlik",
-    "ja": "数的処理能力"
+    "ja": "数的処理能力",
+    "id": "Kemampuan berhitung",
+    "hi": "संख्यात्मक कौशल"
   },
   {
     "code": "translation",
@@ -8085,7 +8757,9 @@
     "el": "Μετάφραση",
     "kk": "Аударма",
     "uz": "Tarjima",
-    "ja": "翻訳"
+    "ja": "翻訳",
+    "id": "Penerjemahan",
+    "hi": "अनुवाद"
   },
   {
     "code": "open_mindedness",
@@ -8109,7 +8783,9 @@
     "el": "Ευρύτητα πνεύματος",
     "kk": "Ашық ойлылық",
     "uz": "Ochiq fikrlilik",
-    "ja": "柔軟な考え方"
+    "ja": "柔軟な考え方",
+    "id": "Keterbukaan pikiran",
+    "hi": "खुला दृष्टिकोण"
   },
   {
     "code": "driving",
@@ -8133,7 +8809,9 @@
     "el": "Δεξιότητες οδήγησης",
     "kk": "Жүргізушілік дағдылары",
     "uz": "Haydovchilik koʻnikmalari",
-    "ja": "運転技能"
+    "ja": "運転技能",
+    "id": "Keterampilan mengemudi",
+    "hi": "वाहन चलाने का कौशल"
   },
   {
     "code": "welding",
@@ -8157,7 +8835,9 @@
     "el": "Συγκόλληση",
     "kk": "Дәнекерлеу жұмыстары",
     "uz": "Payvandlash ishlari",
-    "ja": "溶接"
+    "ja": "溶接",
+    "id": "Pengelasan",
+    "hi": "वेल्डिंग"
   },
   {
     "code": "car_repair",
@@ -8181,7 +8861,9 @@
     "el": "Επισκευή αυτοκινήτων",
     "kk": "Автомобиль жөндеу",
     "uz": "Avtomobil ta'mirlash",
-    "ja": "自動車整備"
+    "ja": "自動車整備",
+    "id": "Perbaikan mobil",
+    "hi": "कार मरम्मत"
   },
   {
     "code": "assembly_installation",
@@ -8205,6 +8887,8 @@
     "el": "Συναρμολόγηση και εγκατάσταση",
     "kk": "Монтаж жұмыстары",
     "uz": "Yigʻish va oʻrnatish ishlari",
-    "ja": "組立・据付"
+    "ja": "組立・据付",
+    "id": "Pemasangan dan instalasi",
+    "hi": "संयोजन एवं स्थापना"
   }
 ]

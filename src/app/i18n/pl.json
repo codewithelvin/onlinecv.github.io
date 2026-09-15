@@ -267,6 +267,7 @@
     "title": "OnlineCV — Stwórz bezpłatne CV online",
     "description": "Platforma online do tworzenia CV. Przygotuj swoje CV w kilka minut bezpłatnie i pobierz je w formacie PDF.",
     "imageAlt": "OnlineCV — darmowy kreator CV online zgodny z ATS",
+    "keywords": "CV, tworzenie CV online, darmowe CV, szablony CV, CV zgodne z ATS, kreator CV, pobierz CV w PDF, CV bez rejestracji, życiorys",
     "card": {
       "languages": "Języki: {{n}}",
       "templates": "Szablony: {{n}}",
